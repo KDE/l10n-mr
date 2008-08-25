@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-19 06:52+0000\n"
+"POT-Creation-Date: 2008-08-25 07:19+0000\n"
 "PO-Revision-Date: 2008-07-11 17:46+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -1559,7 +1559,6 @@ msgid "Camera Program"
 msgstr "कॅमेरा प्रोग्राम"
 
 #: apps/kappfinder/apps/Multimedia/xine.desktop:80
-#: runtime/phonon/xine/xine.desktop:12
 msgctxt "Name"
 msgid "Xine"
 msgstr "एक्साइन"
@@ -2129,7 +2128,6 @@ msgid "SCSI information"
 msgstr "एससीएसआई माहिती"
 
 #: apps/kinfocenter/info/sound.desktop:13
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 msgctxt "Name"
 msgid "Sound"
 msgstr "आवाज"
@@ -3407,7 +3405,7 @@ msgctxt "Name"
 msgid "Window Manager"
 msgstr "चौकट निर्माता"
 
-#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:8
+#: runtime/kcontrol/componentchooser/componentservices/kcm_wm.desktop:12
 msgctxt "Comment"
 msgid ""
 "Here you can select the window manager to be run in your KDE session. Note "
@@ -3784,6 +3782,31 @@ msgstr "पाठ्य फाइल"
 msgctxt "Comment"
 msgid "Thumbnail Handler"
 msgstr "थम्बनेल आहेंडलर"
+
+#: runtime/kioslave/trash/kcmtrash.desktop:1
+#: runtime/kioslave/trash/kcmtrash.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Trashcan"
+msgctxt "Name"
+msgid "Trash"
+msgstr "कचरापेटी"
+
+#: runtime/kioslave/trash/kcmtrash.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This service allows configuration of the Dolphin views."
+msgctxt "Comment"
+msgid "This service allows configuration of the trash."
+msgstr "ही सेवा तुम्हाला डॉल्फिन दृश्यचे संयोजन करण्यास मदत करते."
+
+#: runtime/kioslave/trash/kcmtrash.desktop:18
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Hotkey settings"
+msgctxt "Comment"
+msgid "Configure trash settings"
+msgstr "हॉटकी संयोजना संयोजीत करा"
 
 #: runtime/kioslave/trash/trash.protocol:25
 msgctxt "ExtraNames"
@@ -6596,6 +6619,7 @@ msgid "More Applications"
 msgstr "अधिक अनुप्रयोग"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
 msgctxt "Name"
 msgid "Multimedia"
 msgstr "मल्टीमीडिया"
@@ -6701,11 +6725,15 @@ msgid "Utilities"
 msgstr "उपकार्यक्रम"
 
 #: runtime/nepomuk/kcm/kcm_nepomuk.desktop:11
+#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Grid"
 msgctxt "Name"
-msgid "Nepomuk"
-msgstr "Nepomuk"
+msgid "Desktop Search"
+msgstr "डेस्कटॉप ग्रिड"
 
-#: runtime/nepomuk/kcm/kcm_nepomuk.desktop:17
+#: runtime/nepomuk/kcm/kcm_nepomuk.desktop:12
 msgctxt "Comment"
 msgid "Nepomuk/Strigi Server Configuration"
 msgstr "Nepomuk/Strigi सर्वर संयोजना"
@@ -6825,10 +6853,26 @@ msgctxt "Comment"
 msgid "Strigi file indexing has been resumed"
 msgstr ""
 
-#: runtime/phonon/kcm/kcm_phonon.desktop:88
+#: runtime/phonon/kcm/kcm_phonon.desktop:14
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Sound System Configuration"
 msgctxt "Comment"
-msgid "Sound System Configuration"
+msgid "Sound and Video Configuration"
 msgstr "आवाज प्रणाली संयोजना"
+
+#: runtime/phonon/kded-module/phononserver.desktop:8
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Sound Processor"
+msgctxt "Name"
+msgid "Sound Policy Server"
+msgstr "ध्वनि प्रोसेसर"
+
+#: runtime/phonon/kded-module/phononserver.desktop:9
+msgctxt "Comment"
+msgid "A server to centralize decisions and data of applications using Phonon"
+msgstr ""
 
 #: runtime/phonon/platform_kde/phonon.notifyrc:3
 msgctxt "Comment"
@@ -6855,21 +6899,6 @@ msgstr ""
 msgctxt "Name"
 msgid "KDE Multimedia Backend"
 msgstr "KDE मल्टिमिडीया बॅकएन्ड"
-
-#: runtime/phonon/xine/kcm/kcm_phononxine.desktop:11
-msgctxt "Name"
-msgid "Phonon Xine"
-msgstr "फोनॉन Xine"
-
-#: runtime/phonon/xine/kcm/kcm_phononxine.desktop:28
-msgctxt "Comment"
-msgid "Xine Backend Configuration"
-msgstr "Xine बॅकएन्ड संयोजना"
-
-#: runtime/phonon/xine/xine.desktop:22
-msgctxt "Comment"
-msgid "Phonon Xine backend"
-msgstr "फोनॉन Xine बॅकएन्ड"
 
 #: runtime/pics/hicolor/index.theme:2
 msgctxt "Name"
@@ -8452,14 +8481,6 @@ msgctxt "Name"
 msgid "Command Runner"
 msgstr "आदेश चालक"
 
-#: workspace/krunner/lock/plasma/containment/plasma-containment-saverdesktop.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop"
-msgctxt "Name"
-msgid "SaverDesktop"
-msgstr "डेस्कटॉप"
-
 #: workspace/kscreensaver/kblank_screensaver/kblank.desktop:7
 msgctxt "Name"
 msgid "Blank Screen"
@@ -8916,7 +8937,7 @@ msgctxt "Name"
 msgid "Slide"
 msgstr "ठोस"
 
-#: workspace/kwin/effects/slide.desktop:13
+#: workspace/kwin/effects/slide.desktop:15
 msgctxt "Comment"
 msgid "Slide windows when switching desktops"
 msgstr ""
@@ -9759,6 +9780,11 @@ msgctxt "Name"
 msgid "Trashcan"
 msgstr "कचरापेटी"
 
+#: workspace/plasma/containments/desktop/plasma-containment-desktop.desktop:75
+msgctxt "Comment"
+msgid "Default desktop containment"
+msgstr ""
+
 #: workspace/plasma/containments/panel/plasma-containment-panel.desktop:2
 msgctxt "Name"
 msgid "Panel"
@@ -9904,11 +9930,6 @@ msgctxt "Comment"
 msgid "Theme done in the Oxygen style"
 msgstr "ऑक्सीजन शैली मध्ये सुत्रयोजना निश्चित केले"
 
-#: workspace/plasma/plasma/plasma.desktop:4
-msgctxt "Name"
-msgid "Plasma"
-msgstr "प्लाज्मा"
-
 #: workspace/plasma/runners/bookmarks/plasma-runner-bookmarks.desktop:79
 #, fuzzy
 #| msgctxt "Comment"
@@ -9969,14 +9990,6 @@ msgstr "शेल आदेश चालवितो"
 msgctxt "Comment"
 msgid "Allows user to use Konqueror's Web shortcuts"
 msgstr "कॉन्कररचे वेब शार्टकट वापरण्यास वापरकर्त्यास परवानगी देतो"
-
-#: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Grid"
-msgctxt "Name"
-msgid "Desktop Search"
-msgstr "डेस्कटॉप ग्रिड"
 
 #: workspace/plasma/runners/xesam/plasma-runner-xesam.desktop:20
 msgctxt "Comment"
@@ -10062,6 +10075,27 @@ msgctxt "Comment"
 msgid "Webpage widget using HTML and JavaScript"
 msgstr "HTML व जावास्क्रिप्टचा वापर करणारे वेबपान विजेट"
 
+#: workspace/plasma/shells/desktop/plasma.desktop:4
+msgctxt "Name"
+msgid "Plasma"
+msgstr "प्लाज्मा"
+
+#: workspace/plasma/shells/mid/plasma-mid.desktop:4
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Plasma applet"
+msgctxt "Name"
+msgid "Plasma MID Shell"
+msgstr "प्लाज्मा ऍपलेट"
+
+#: workspace/plasma/shells/screensaver/containment/plasma-containment-saverdesktop.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
+msgctxt "Name"
+msgid "SaverDesktop"
+msgstr "डेस्कटॉप"
+
 #: workspace/plasma/wallpapers/color/plasma-wallpaper-color.desktop:2
 #, fuzzy
 #| msgctxt "Name"
@@ -10069,6 +10103,23 @@ msgstr "HTML व जावास्क्रिप्टचा वापर क�
 msgctxt "Name"
 msgid "Color"
 msgstr "रंग"
+
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:3
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:19
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Images"
+msgctxt "Name"
+msgid "Image"
+msgstr "प्रतिमा"
+
+#: workspace/plasma/wallpapers/image/plasma-wallpaper-image.desktop:25
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Solid"
+msgctxt "Name"
+msgid "Slideshow"
+msgstr "ठोस"
 
 #: workspace/solid/bluez/solid_bluez.desktop:7
 msgctxt "Name"
@@ -10092,12 +10143,15 @@ msgstr "freedesktop.org HAL डीमनचा वापर करणारे �
 
 #: workspace/solid/kcm/kcm_solid.desktop:12
 msgctxt "Name"
-msgid "Solid"
-msgstr "ठोस"
+msgid "Hardware"
+msgstr ""
 
-#: workspace/solid/kcm/kcm_solid.desktop:31
+#: workspace/solid/kcm/kcm_solid.desktop:13
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Hardware Integration Configuration"
 msgctxt "Comment"
-msgid "Hardware Integration Configuration"
+msgid "Hardware Integration Configuration with Solid"
 msgstr "हार्डवेयर अंतर्भूतीत संयोजना"
 
 #: workspace/solid/networking/kded/networkstatus.desktop:2
@@ -10296,6 +10350,26 @@ msgstr ""
 msgctxt "Name"
 msgid "Vector Sunset"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk"
+#~ msgstr "Nepomuk"
+
+#~ msgctxt "Name"
+#~ msgid "Phonon Xine"
+#~ msgstr "फोनॉन Xine"
+
+#~ msgctxt "Comment"
+#~ msgid "Xine Backend Configuration"
+#~ msgstr "Xine बॅकएन्ड संयोजना"
+
+#~ msgctxt "Comment"
+#~ msgid "Phonon Xine backend"
+#~ msgstr "फोनॉन Xine बॅकएन्ड"
+
+#~ msgctxt "Name"
+#~ msgid "Solid"
+#~ msgstr "ठोस"
 
 #~ msgctxt "Name"
 #~ msgid "Applet Manuals"
