@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-28 09:42+0200\n"
+"POT-Creation-Date: 2008-09-29 10:08+0200\n"
 "PO-Revision-Date: 2008-07-01 15:37+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -761,13 +761,13 @@ msgstr "मुख्य साधनपट्टी"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:560
+#: rc.cpp:336 kdeui/dialogs/kshortcutseditor.cpp:580
 msgid "Main:"
 msgstr "मुख्य:"
 
 #. i18n: file: kdeui/widgets/kshortcutwidget.ui:52
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:561
+#: rc.cpp:339 kdeui/dialogs/kshortcutseditor.cpp:581
 msgid "Alternate:"
 msgstr "आळीपाळीने:"
 
@@ -4890,7 +4890,7 @@ msgid "Name"
 msgstr "नाव"
 
 #: knewstuff/knewstuff2/ui/kdxstranslation.cpp:49
-#: kdeui/dialogs/kshortcutseditor.cpp:585
+#: kdeui/dialogs/kshortcutseditor.cpp:605
 msgid "Description"
 msgstr "वर्णन"
 
@@ -6217,18 +6217,18 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "चिन्ह बदलवा"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:113
-#: kdeui/dialogs/kshortcutseditor.cpp:581
+#: kdeui/dialogs/kshortcutseditor.cpp:114
+#: kdeui/dialogs/kshortcutseditor.cpp:601
 msgid "Shortcuts"
 msgstr "शार्टकट"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:484
-#: kdeui/dialogs/kshortcutseditor.cpp:500
-#: kdeui/widgets/kkeysequencewidget.cpp:150
+#: kdeui/dialogs/kshortcutseditor.cpp:504
+#: kdeui/dialogs/kshortcutseditor.cpp:520
+#: kdeui/widgets/kkeysequencewidget.cpp:152
 msgid "Key Conflict"
 msgstr "किल्ली मदभेद"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:485
+#: kdeui/dialogs/kshortcutseditor.cpp:505
 #, kde-format
 msgid ""
 "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
@@ -6237,14 +6237,14 @@ msgstr ""
 "'%1' आकार मुख-मुद्रा संयोजन आधिपासूनच \"%2\" क्रिया करीता नेमले गेले आहे.\n"
 "तुम्हाला यांस सद्याच्या क्रियाशी पुन्ह नेमणुक करायचे?"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:489
-#: kdeui/dialogs/kshortcutseditor.cpp:505 kdeui/shortcuts/kglobalaccel.cpp:439
-#: kdeui/widgets/kkeysequencewidget.cpp:154
-#: kdeui/widgets/kkeysequencewidget.cpp:463
+#: kdeui/dialogs/kshortcutseditor.cpp:509
+#: kdeui/dialogs/kshortcutseditor.cpp:525 kdeui/shortcuts/kglobalaccel.cpp:439
+#: kdeui/widgets/kkeysequencewidget.cpp:160
+#: kdeui/widgets/kkeysequencewidget.cpp:481
 msgid "Reassign"
 msgstr "पुन्हानेमणे"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:501
+#: kdeui/dialogs/kshortcutseditor.cpp:521
 #, kde-format
 msgid ""
 "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
@@ -6253,17 +6253,17 @@ msgstr ""
 "'%1' रॉकर मुख-मुद्रा संयोजन आधिपासूनच \"%2\" क्रिया करीता नेमले गेले आहे.\n"
 "तुम्हाला यांस सद्याच्या क्रियाशी पुन्ह नेमणुक करायचे?"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:542
+#: kdeui/dialogs/kshortcutseditor.cpp:562
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1 करीता शार्टकट"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:562
+#: kdeui/dialogs/kshortcutseditor.cpp:582
 msgid "Global:"
 msgstr "वैश्विक:"
 
-#: kdeui/dialogs/kshortcutseditor.cpp:577
+#: kdeui/dialogs/kshortcutseditor.cpp:597
 msgid "Action Name"
 msgstr "क्रियाचे नाव"
 
@@ -8025,107 +8025,113 @@ msgstr "विभाग निवडा"
 msgid "Select a block to be displayed"
 msgstr "दर्शविण्याकरीता ब्लॉक निवडा"
 
-#: kdeui/widgets/kcharselect.cpp:626 kdeui/widgets/kcharselect.cpp:628
+#: kdeui/widgets/kcharselect.cpp:629 kdeui/widgets/kcharselect.cpp:881
+#: kdeui/widgets/kcharselect-translation.cpp:43
+msgctxt "KCharselect unicode block name"
+msgid "Combining Diacritical Marks"
+msgstr "स्वरभेदचिह्नांचा संयोग करा"
+
+#: kdeui/widgets/kcharselect.cpp:632 kdeui/widgets/kcharselect.cpp:634
 msgid "Character:"
 msgstr "अक्षर:"
 
-#: kdeui/widgets/kcharselect.cpp:628 kdeui/widgets/kcharselect.cpp:874
+#: kdeui/widgets/kcharselect.cpp:634 kdeui/widgets/kcharselect.cpp:885
 msgid "Non-printable"
 msgstr "विना-छपाईजोगी"
 
-#: kdeui/widgets/kcharselect.cpp:632
+#: kdeui/widgets/kcharselect.cpp:638
 msgid "Name: "
 msgstr "नाव: "
 
-#: kdeui/widgets/kcharselect.cpp:640
+#: kdeui/widgets/kcharselect.cpp:646
 msgid "Annotations and Cross References"
 msgstr "टिप्पणी व प्रतिसंदर्भ"
 
-#: kdeui/widgets/kcharselect.cpp:644
+#: kdeui/widgets/kcharselect.cpp:650
 msgid "Alias names:"
 msgstr "पर्यायी नाव:"
 
-#: kdeui/widgets/kcharselect.cpp:652
+#: kdeui/widgets/kcharselect.cpp:658
 msgid "Notes:"
 msgstr "टिप:"
 
-#: kdeui/widgets/kcharselect.cpp:660
+#: kdeui/widgets/kcharselect.cpp:666
 msgid "See also:"
 msgstr "हे पण बघा:"
 
-#: kdeui/widgets/kcharselect.cpp:672
+#: kdeui/widgets/kcharselect.cpp:678
 msgid "Equivalents:"
 msgstr "समतुल्य:"
 
-#: kdeui/widgets/kcharselect.cpp:680
+#: kdeui/widgets/kcharselect.cpp:686
 msgid "Approximate equivalents:"
 msgstr "अंदाजे समतुल्य:"
 
-#: kdeui/widgets/kcharselect.cpp:689
+#: kdeui/widgets/kcharselect.cpp:695
 msgid "CJK Ideograph Information"
 msgstr "CJK इडीयोग्राफ माहिती"
 
-#: kdeui/widgets/kcharselect.cpp:692
+#: kdeui/widgets/kcharselect.cpp:698
 msgid "Definition in English: "
 msgstr "इंग्रजी मधिल व्याख्या: "
 
-#: kdeui/widgets/kcharselect.cpp:697
+#: kdeui/widgets/kcharselect.cpp:703
 msgid "Mandarin Pronunciation: "
 msgstr "मॅनडॅरीन उच्चारण: "
 
-#: kdeui/widgets/kcharselect.cpp:702
+#: kdeui/widgets/kcharselect.cpp:708
 msgid "Cantonese Pronunciation: "
 msgstr "केंटोनियाई उच्चारण: "
 
-#: kdeui/widgets/kcharselect.cpp:707
+#: kdeui/widgets/kcharselect.cpp:713
 msgid "Japanese On Pronunciation: "
 msgstr "जापानी ऑन उच्चारण: "
 
-#: kdeui/widgets/kcharselect.cpp:712
+#: kdeui/widgets/kcharselect.cpp:718
 msgid "Japanese Kun Pronunciation: "
 msgstr "जापानी कुन उच्चारण: "
 
-#: kdeui/widgets/kcharselect.cpp:717
+#: kdeui/widgets/kcharselect.cpp:723
 msgid "Tang Pronunciation: "
 msgstr "टैंग उच्चारण: "
 
-#: kdeui/widgets/kcharselect.cpp:722
+#: kdeui/widgets/kcharselect.cpp:728
 msgid "Korean Pronunciation: "
 msgstr "कोरियाई उच्चारण: "
 
-#: kdeui/widgets/kcharselect.cpp:728
+#: kdeui/widgets/kcharselect.cpp:734
 msgid "General Character Properties"
 msgstr "सर्वसाधारण अक्षर गुणधर्म"
 
-#: kdeui/widgets/kcharselect.cpp:729
+#: kdeui/widgets/kcharselect.cpp:735
 msgid "Block: "
 msgstr "ब्लॉक: "
 
-#: kdeui/widgets/kcharselect.cpp:730
+#: kdeui/widgets/kcharselect.cpp:736
 msgid "Unicode category: "
 msgstr "युनिकोड विभाग: "
 
-#: kdeui/widgets/kcharselect.cpp:734
+#: kdeui/widgets/kcharselect.cpp:740
 msgid "Various Useful Representations"
 msgstr "इतर वापरताजोगी प्रस्तुती"
 
-#: kdeui/widgets/kcharselect.cpp:735
+#: kdeui/widgets/kcharselect.cpp:741
 msgid "UTF-8:"
 msgstr "UTF-8:"
 
-#: kdeui/widgets/kcharselect.cpp:738
+#: kdeui/widgets/kcharselect.cpp:744
 msgid "UTF-16: "
 msgstr "UTF-16: "
 
-#: kdeui/widgets/kcharselect.cpp:739
+#: kdeui/widgets/kcharselect.cpp:745
 msgid "C octal escaped UTF-8: "
 msgstr "C ऑक्टल एस्केप्ड UTF-8: "
 
-#: kdeui/widgets/kcharselect.cpp:742
+#: kdeui/widgets/kcharselect.cpp:748
 msgid "XML decimal entity:"
 msgstr "XML दशमान वस्तु:"
 
-#: kdeui/widgets/kcharselect.cpp:875
+#: kdeui/widgets/kcharselect.cpp:887
 #, kde-format
 msgctxt "Character"
 msgid ""
@@ -8232,11 +8238,6 @@ msgstr "IPA विस्तार"
 msgctxt "KCharselect unicode block name"
 msgid "Spacing Modifier Letters"
 msgstr "सुधारित अक्षरांमध्ये अंतर देणे"
-
-#: kdeui/widgets/kcharselect-translation.cpp:43
-msgctxt "KCharselect unicode block name"
-msgid "Combining Diacritical Marks"
-msgstr "स्वरभेदचिह्नांचा संयोग करा"
 
 #: kdeui/widgets/kcharselect-translation.cpp:44
 msgctxt "KCharselect unicode block name"
@@ -9232,31 +9233,34 @@ msgstr "अपरिचित"
 msgid "&Copy Full Text"
 msgstr "पूर्णतया पाठ्य प्रतिकृत करा (&C)"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:151
-#, kde-format
+#: kdeui/widgets/kkeysequencewidget.cpp:154
+#, fuzzy, kde-format
+#| msgid ""
+#| "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+#| "Do you want to reassign it from that action to the current one?"
 msgid ""
-"The '%1' key combination has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
+"The \"%1\" key sequence conflicts with \"%2\" for the \"%3\" action.\n"
+"Do you want to assign an empty shortcut to that action?"
 msgstr ""
-"'%1' किल्ली संयोजन पहिले पासूनच \"%2\" क्रिया करीता नेमणुक करण्यात आली आहे.\n"
+"'%1' रॉकर मुख-मुद्रा संयोजन आधिपासूनच \"%2\" क्रिया करीता नेमले गेले आहे.\n"
 "तुम्हाला यांस सद्याच्या क्रियाशी पुन्ह नेमणुक करायचे?"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:162
+#: kdeui/widgets/kkeysequencewidget.cpp:168
 msgid "Shortcut conflict"
 msgstr "शॉर्टकट मतभेद"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:163
+#: kdeui/widgets/kkeysequencewidget.cpp:169
 #, kde-format
 msgid ""
 "<qt>The '%1' key combination is already used by the <b>%2</b> action."
 "<br>Please select a different one.</qt>"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:457
+#: kdeui/widgets/kkeysequencewidget.cpp:475
 msgid "Conflict with Standard Application Shortcut"
 msgstr "मानक अनुप्रयोग शॉर्टकट सह मतभेद"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:458
+#: kdeui/widgets/kkeysequencewidget.cpp:476
 #, kde-format
 msgid ""
 "The '%1' key combination is also used for the standard action \"%2\" that "
@@ -9264,12 +9268,12 @@ msgid ""
 "Do you really want to use it as a global shortcut as well?"
 msgstr ""
 
-#: kdeui/widgets/kkeysequencewidget.cpp:490
+#: kdeui/widgets/kkeysequencewidget.cpp:508
 msgctxt "What the user inputs now will be taken as the new shortcut"
 msgid "Input"
 msgstr "माहिती"
 
-#: kdeui/widgets/kkeysequencewidget.cpp:497
+#: kdeui/widgets/kkeysequencewidget.cpp:515
 msgctxt "No shortcut defined"
 msgid "None"
 msgstr "काहीच नाही"
@@ -11088,19 +11092,19 @@ msgstr "इयान रेनहार्ट गीजर"
 msgid "Daniel Molkentin"
 msgstr "डेनियल मॉल्केनटिन"
 
-#: nepomuk/core/resource.cpp:386
+#: nepomuk/core/resource.cpp:398
 msgid "Success"
 msgstr "सफलता"
 
-#: nepomuk/core/resource.cpp:388
+#: nepomuk/core/resource.cpp:400
 msgid "Communication error"
 msgstr "संचारण त्रुटी"
 
-#: nepomuk/core/resource.cpp:390
+#: nepomuk/core/resource.cpp:402
 msgid "Invalid type in Database"
 msgstr "माहितीकोश मधिल अवैध प्रकार"
 
-#: nepomuk/core/resource.cpp:392
+#: nepomuk/core/resource.cpp:404
 msgid "Unknown error"
 msgstr "अपरिचीत त्रुटी"
 
@@ -12291,6 +12295,14 @@ msgstr "आज चा नुस्खा (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" नुरूप फंक्शन नाही"
+
+#~ msgid ""
+#~ "The '%1' key combination has already been allocated to the \"%2\" "
+#~ "action.\n"
+#~ "Do you want to reassign it from that action to the current one?"
+#~ msgstr ""
+#~ "'%1' किल्ली संयोजन पहिले पासूनच \"%2\" क्रिया करीता नेमणुक करण्यात आली आहे.\n"
+#~ "तुम्हाला यांस सद्याच्या क्रियाशी पुन्ह नेमणुक करायचे?"
 
 #~ msgid "Already open."
 #~ msgstr "आधिपासूनच उघडे."
