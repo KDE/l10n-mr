@@ -2,13 +2,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008.
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: kioclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2008-08-25 09:05+0200\n"
-"PO-Revision-Date: 2008-12-30 20:58+0530\n"
+"PO-Revision-Date: 2009-01-01 10:24+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: kioclient.cpp:42
 msgid "KIO Client"
-msgstr ""
+msgstr "KIO क्लाऐंट"
 
 #: kioclient.cpp:43
 msgid "Command-line tool for network-transparent operations"
-msgstr ""
+msgstr "संजाळ-पारदर्शक कार्यपद्धती करीता आदेश-ओळ साधन"
 
 #: kioclient.cpp:54
 msgid ""
@@ -37,6 +37,9 @@ msgid ""
 "            # Opens a properties menu\n"
 "\n"
 msgstr ""
+"  kioclient openProperties 'url'\n"
+"            # Opens a properties menu\n"
+"\n"
 
 #: kioclient.cpp:57
 msgid ""
@@ -48,6 +51,13 @@ msgid ""
 "            #   automatically. Of course URL may be the URL of a\n"
 "            #   document, or it may be a *.desktop file.\n"
 msgstr ""
+"  kioclient exec 'url' ['mimetype']\n"
+"            # Tries to open the document pointed to by 'url', in the "
+"application\n"
+"            #   associated with it in KDE. You may omit 'mimetype'.\n"
+"            #   In this case the mimetype is determined\n"
+"            #   automatically. Of course URL may be the URL of a\n"
+"            #   document, or it may be a *.desktop file.\n"
 
 #: kioclient.cpp:63
 msgid ""
@@ -55,6 +65,9 @@ msgid ""
 "            # Moves the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
+"  kioclient move 'src' 'dest'\n"
+"            # Moves the URL 'src' to 'dest'.\n"
+"            #   'src' may be a list of URLs.\n"
 
 #: kioclient.cpp:68
 msgid ""
@@ -64,6 +77,11 @@ msgid ""
 "            #   a URL will be requested.\n"
 "\n"
 msgstr ""
+"  kioclient download ['src']\n"
+"            # Copies the URL 'src' to a user-specified location'.\n"
+"            #   'src' may be a list of URLs, if not present then\n"
+"            #   a URL will be requested.\n"
+"\n"
 
 #: kioclient.cpp:72
 msgid ""
@@ -72,6 +90,10 @@ msgid ""
 "            #   'src' may be a list of URLs.\n"
 "\n"
 msgstr ""
+"  kioclient copy 'src' 'dest'\n"
+"            # Copies the URL 'src' to 'dest'.\n"
+"            #   'src' may be a list of URLs.\n"
+"\n"
 
 #: kioclient.cpp:75
 msgid ""
@@ -79,6 +101,9 @@ msgid ""
 "            # Writes out the contents of 'url' to stdout\n"
 "\n"
 msgstr ""
+"  kioclient cat 'url'\n"
+"            # Writes out the contents of 'url' to stdout\n"
+"\n"
 
 #: kioclient.cpp:78
 msgid ""
@@ -87,6 +112,10 @@ msgid ""
 "             // Mounts the CDROM\n"
 "\n"
 msgstr ""
+"*** Examples:\n"
+"  kioclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
+"             // Mounts the CDROM\n"
+"\n"
 
 #: kioclient.cpp:81
 msgid ""
@@ -94,6 +123,9 @@ msgid ""
 "             // Opens the file with default binding\n"
 "\n"
 msgstr ""
+"  kioclient exec file:/home/weis/data/test.html\n"
+"             // Opens the file with default binding\n"
+"\n"
 
 #: kioclient.cpp:83
 msgid ""
@@ -101,6 +133,9 @@ msgid ""
 "             // Opens the file with netscape\n"
 "\n"
 msgstr ""
+"  kioclient exec file:/home/weis/data/test.html Netscape\n"
+"             // Opens the file with netscape\n"
+"\n"
 
 #: kioclient.cpp:85
 msgid ""
@@ -108,6 +143,9 @@ msgid ""
 "             // Opens new window with URL\n"
 "\n"
 msgstr ""
+"  kioclient exec ftp://localhost/\n"
+"             // Opens new window with URL\n"
+"\n"
 
 #: kioclient.cpp:87
 msgid ""
@@ -115,6 +153,9 @@ msgid ""
 "             // Starts emacs\n"
 "\n"
 msgstr ""
+"  kioclient exec file:/root/Desktop/emacs.desktop\n"
+"             // Starts emacs\n"
+"\n"
 
 #: kioclient.cpp:89
 msgid ""
@@ -122,6 +163,9 @@ msgid ""
 "             // Opens the CDROM's mount directory\n"
 "\n"
 msgstr ""
+"  kioclient exec file:/root/Desktop/cdrom.desktop\n"
+"             // Opens the CDROM's mount directory\n"
+"\n"
 
 #: kioclient.cpp:91
 msgid ""
@@ -129,22 +173,25 @@ msgid ""
 "             // Opens the current directory. Very convenient.\n"
 "\n"
 msgstr ""
+"  kioclient exec .\n"
+"             // Opens the current directory. Very convenient.\n"
+"\n"
 
 #: kioclient.cpp:102
 msgid "Non-interactive use: no message boxes"
-msgstr ""
+msgstr "विना-संवाद वापरणी: संदेश बॉक्स् आढळले नाही"
 
 #: kioclient.cpp:104
 msgid "URL or URLs"
-msgstr ""
+msgstr "URL किंवा URLs"
 
 #: kioclient.cpp:106 kioclient.cpp:109
 msgid "Source URL or URLs"
-msgstr ""
+msgstr "स्त्रोत URL किंवा URLs"
 
 #: kioclient.cpp:107 kioclient.cpp:110
 msgid "Destination URL"
-msgstr ""
+msgstr "लक्ष्य URL"
 
 #: kioclient.cpp:112
 msgid "Show available commands"
@@ -168,9 +215,10 @@ msgstr ""
 
 #: kioclient.cpp:285
 msgid "Unable to download from an invalid URL."
-msgstr ""
+msgstr "वैध URL पासून डाऊनलोड करू शकले नाही."
 
 #: kioclient.cpp:323
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr ""
+
