@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-25 09:38+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -17,104 +17,52 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ktrash.cpp:32
+#: ktrash.cpp:34
 msgid "ktrash"
 msgstr "ktrash"
 
-#: ktrash.cpp:34
+#: ktrash.cpp:36
+#, fuzzy
+#| msgid ""
+#| "Helper program to handle the KDE trash can\n"
+#| "Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+#| "'url' trash:/\""
 msgid ""
 "Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"Note: to move files to the trash, do not use ktrash, but \"kfmclient move "
 "'url' trash:/\""
 msgstr ""
 "KDE कचरापेटी हाताळण्याकरीता मदत कार्यक्रम\n"
 "टिप: ट्रॅश करीत फाइल हलविण्याकरीता, ktrash चा वापर न करता, \"kioclient move "
 "'url' trash:/\" याचा वापर करा"
 
-#: ktrash.cpp:38
+#: ktrash.cpp:40
 msgid "Empty the contents of the trash"
 msgstr "कचरापेटीचे अनुक्रम रिकामे करा"
 
-#: ktrash.cpp:40
+#: ktrash.cpp:42
 msgid "Restore a trashed file to its original location"
 msgstr "कचरापेटीतील फाइल पुन्हा मुळ स्थानाकडे स्थापीत केले गेले"
 
-#: ktrash.cpp:42
+#: ktrash.cpp:44
 msgid "Ignored"
 msgstr "दुर्लक्ष केले"
 
-#: trashimpl.cpp:1068
-msgid ""
-"The trash has reached its maximum size!\n"
-"Cleanup the trash manually."
+#: kio_trash.cpp:52
+msgid "Protocol name"
 msgstr ""
-"कचरापेटीची कमाल आकार मर्यादा स्तर पर्यंत पोहचले!\n"
-"कचरापेटी स्वत: रिकामे करा."
 
-#: trashimpl.cpp:1079
-msgid "The file is too large to be trashed."
-msgstr "फाइल कचरापेटीकडे हलविण्याकरीता खूप मोठे आहे."
+#: kio_trash.cpp:53 kio_trash.cpp:54
+msgid "Socket name"
+msgstr ""
 
-#: kcmtrash.cpp:119
-msgid "Byte"
-msgstr "Byte"
-
-#: kcmtrash.cpp:121
-msgid "KByte"
-msgstr "KByte"
-
-#: kcmtrash.cpp:125
-msgid "MByte"
-msgstr "MByte"
-
-#: kcmtrash.cpp:129
-msgid "GByte"
-msgstr "GByte"
-
-#: kcmtrash.cpp:133
-msgid "TByte"
-msgstr "TByte"
-
-#: kcmtrash.cpp:137
-#, kde-format
-msgid "(%1 %2)"
-msgstr "(%1 %2)"
-
-#: kcmtrash.cpp:264
-msgid "Delete files older than:"
-msgstr "यापेक्षा जुनी फाइल नष्ट करा:"
-
-#: kcmtrash.cpp:275
-msgid "Limit to maximum size"
-msgstr "कमाल आकार करीता मर्यादीत करा"
-
-#: kcmtrash.cpp:286
-msgid "Maximum size:"
-msgstr "कमाल आकार:"
-
-#: kcmtrash.cpp:299
-msgid "When limit reached:"
-msgstr "जेव्हा मर्यादा पोहचते:"
-
-#: kcmtrash.cpp:303
-msgid "Warn Me"
-msgstr "मला सावध करा"
-
-#: kcmtrash.cpp:304
-msgid "Delete Oldest Files From Trash"
-msgstr "कचरापेटीतून जुने फाइल नष्ट करा"
-
-#: kcmtrash.cpp:305
-msgid "Delete Biggest Files From Trash"
-msgstr "कचरापेटीतून सर्वात मोठे फाइल नष्ट करा"
-
-#: kio_trash.cpp:91 kio_trash.cpp:154 kio_trash.cpp:302 kio_trash.cpp:334
-#: kio_trash.cpp:500 kio_trash.cpp:512
+#: kio_trash.cpp:102 kio_trash.cpp:165 kio_trash.cpp:313 kio_trash.cpp:345
+#: kio_trash.cpp:511 kio_trash.cpp:523
 #, kde-format
 msgid "Malformed URL %1"
 msgstr "सदोषीत URL %1"
 
-#: kio_trash.cpp:110
+#: kio_trash.cpp:121
 #, kde-format
 msgid ""
 "The directory %1 does not exist anymore, so it is not possible to restore "
@@ -123,6 +71,55 @@ msgid ""
 "restore it."
 msgstr ""
 
-#: kio_trash.cpp:139
+#: kio_trash.cpp:150
 msgid "This file is already in the trash bin."
 msgstr "ही फाइल आधिपासूनच कचरापेटीत आहे."
+
+#~ msgid ""
+#~ "The trash has reached its maximum size!\n"
+#~ "Cleanup the trash manually."
+#~ msgstr ""
+#~ "कचरापेटीची कमाल आकार मर्यादा स्तर पर्यंत पोहचले!\n"
+#~ "कचरापेटी स्वत: रिकामे करा."
+
+#~ msgid "The file is too large to be trashed."
+#~ msgstr "फाइल कचरापेटीकडे हलविण्याकरीता खूप मोठे आहे."
+
+#~ msgid "Byte"
+#~ msgstr "Byte"
+
+#~ msgid "KByte"
+#~ msgstr "KByte"
+
+#~ msgid "MByte"
+#~ msgstr "MByte"
+
+#~ msgid "GByte"
+#~ msgstr "GByte"
+
+#~ msgid "TByte"
+#~ msgstr "TByte"
+
+#~ msgid "(%1 %2)"
+#~ msgstr "(%1 %2)"
+
+#~ msgid "Delete files older than:"
+#~ msgstr "यापेक्षा जुनी फाइल नष्ट करा:"
+
+#~ msgid "Limit to maximum size"
+#~ msgstr "कमाल आकार करीता मर्यादीत करा"
+
+#~ msgid "Maximum size:"
+#~ msgstr "कमाल आकार:"
+
+#~ msgid "When limit reached:"
+#~ msgstr "जेव्हा मर्यादा पोहचते:"
+
+#~ msgid "Warn Me"
+#~ msgstr "मला सावध करा"
+
+#~ msgid "Delete Oldest Files From Trash"
+#~ msgstr "कचरापेटीतून जुने फाइल नष्ट करा"
+
+#~ msgid "Delete Biggest Files From Trash"
+#~ msgstr "कचरापेटीतून सर्वात मोठे फाइल नष्ट करा"

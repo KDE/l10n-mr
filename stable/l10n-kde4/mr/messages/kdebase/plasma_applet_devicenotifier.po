@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-28 10:13+0100\n"
+"POT-Creation-Date: 2009-01-27 08:23+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -17,23 +17,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: devicenotifier.cpp:171
+#: devicenotifier.cpp:252
 #, kde-format
 msgid "1 action for this device"
 msgid_plural "%1 actions for this device"
 msgstr[0] "या साधन करीता 1 क्रिया"
 msgstr[1] "या साधन करीता %1 क्रिया"
 
-#: devicenotifier.cpp:223
-#, kde-format
-msgid "Last plugged in device: %1"
-msgstr "शेवटचे जोडलेले साधन: %1"
-
-#: devicenotifier.cpp:226
-msgid "No devices plugged in"
-msgstr "साधन जोडले नाही"
-
-#: notifierdialog.cpp:297
+#: devicenotifier.cpp:451
 msgid ""
 "Cannot unmount the device.\n"
 "One or more files on this device are open within an application."
@@ -41,7 +32,7 @@ msgstr ""
 "साधन unmount करू शकत नाही.\n"
 "अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
 
-#: notifierdialog.cpp:313
+#: devicenotifier.cpp:466
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -49,7 +40,45 @@ msgstr ""
 "डिस्क बाहेर काढू शकत नाही.\n"
 "अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
 
-#: notifierdialog.cpp:400
+#: devicenotifier.cpp:502
 #, kde-format
 msgid "<font color=\"%1\">Devices recently plugged in:</font>"
 msgstr "<font color=\"%1\">नुकतेच जुळलेले साधन:</font>"
+
+#. i18n: file: deviceNotifierConfig.ui:16
+#. i18n: ectx: property (text), widget (QLabel, labelSize_2)
+#: rc.cpp:3
+msgid "&Time to stay on top:"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:35
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinTime)
+#: rc.cpp:6
+msgid " sec"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:42
+#. i18n: ectx: property (text), widget (QLabel, labelSize)
+#: rc.cpp:9
+msgid "&Number of items displayed:"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:61
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinItems)
+#. i18n: file: deviceNotifierConfig.ui:90
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, spinTimeItems)
+#: rc.cpp:12 rc.cpp:18
+msgid "Unlimited"
+msgstr ""
+
+#. i18n: file: deviceNotifierConfig.ui:71
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:15
+msgid "&Display time of items:"
+msgstr ""
+
+#~ msgid "Last plugged in device: %1"
+#~ msgstr "शेवटचे जोडलेले साधन: %1"
+
+#~ msgid "No devices plugged in"
+#~ msgstr "साधन जोडले नाही"
