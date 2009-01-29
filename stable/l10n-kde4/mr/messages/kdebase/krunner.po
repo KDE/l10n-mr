@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -16,6 +16,50 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: interfaces/default/interface.cpp:76 interfaces/default/interface.cpp:77
+#: interfaces/quicksand/qs_dialog.cpp:50 interfaces/quicksand/qs_dialog.cpp:51
+msgid "Settings"
+msgstr "संयोजना"
+
+#: interfaces/default/interface.cpp:96 interfaces/default/interface.cpp:97
+#: krunnerapp.cpp:202 krunnerapp.cpp:203
+msgid "Show System Activity"
+msgstr "प्रणाली क्रिया दर्शवा"
+
+#: interfaces/default/interface.cpp:456
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: interfaces/quicksand/qs_dialog.cpp:80
+msgid "Actions"
+msgstr "क्रिया"
+
+#: interfaces/quicksand/qs_dialog.cpp:81
+msgid "actions"
+msgstr "क्रिया"
+
+#: interfaces/quicksand/qs_matchview.cpp:122
+msgid "items"
+msgstr "घटक"
+
+#: interfaces/quicksand/qs_matchview.cpp:176
+msgid "Type to search."
+msgstr "शोधण्याकरीता प्रकार."
+
+#: interfaces/quicksand/qs_matchview.cpp:251
+#, kde-format
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#: interfaces/quicksand/qs_matchview.cpp:334
+msgid "Loading..."
+msgstr "दाखल करीत आहे..."
+
+#: interfaces/quicksand/qs_matchview.cpp:418
+msgid "No results found."
+msgstr "परिणाम आढळले नाही."
 
 #: lock/autologout.cc:44
 msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
@@ -60,60 +104,64 @@ msgstr "फक्त सक्रीन सेवर सुरू करा"
 msgid "Only use the blank screen saver"
 msgstr "फक्त रिकामे सक्रीन सेवरचा वापर करा"
 
-#: lock/lockprocess.cc:764
+#: lock/main.cc:67
+msgid "start with plasma unlocked for configuring"
+msgstr "संयोजना करीता प्लाजमा विनाकुलूपबंद स्वरूपात सुरू करा"
+
+#: lock/lockprocess.cc:796
 msgid "Will not lock the session, as unlocking would be impossible:\n"
 msgstr "सत्र कुलूपबंद करणार नाही, कारण त्यास उघडणे शक्य होणार नाही:\n"
 
-#: lock/lockprocess.cc:768
+#: lock/lockprocess.cc:800
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr "<i>kcheckpass</i> सुरू करू शकत नाही."
 
-#: lock/lockprocess.cc:769
+#: lock/lockprocess.cc:801
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
 msgstr ""
 "<i>kcheckpass</i> कार्य करण्यास अपयशी. संभाव्यतया setuid रूट वापरकर्ता नसावा."
 
-#: lock/lockprocess.cc:812
+#: lock/lockprocess.cc:863
 msgid "No appropriate greeter plugin configured."
 msgstr "योग्य greeter प्लगइन संयोजीत केले जाऊ शकत नाही."
 
-#: lock/lockdlg.cc:96
+#: lock/lockdlg.cc:98
 msgid "<nobr><b>The session is locked</b></nobr><br />"
 msgstr "<nobr><b>सत्र कुलूपबंद केले गेले आहे</b></nobr><br />"
 
-#: lock/lockdlg.cc:97
+#: lock/lockdlg.cc:99
 #, kde-format
 msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
 msgstr "<nobr><b>सत्र %1 द्वारे कुलूपबंद केले गेले आहे</b></nobr><br />"
 
-#: lock/lockdlg.cc:108
+#: lock/lockdlg.cc:112
 msgid "Unl&ock"
 msgstr "कुलूपबंद रहीत (&o)"
 
-#: lock/lockdlg.cc:110
+#: lock/lockdlg.cc:114
 msgid "Sw&itch User..."
 msgstr "वापरकर्ता बदलवा (&i)..."
 
-#: lock/lockdlg.cc:178
+#: lock/lockdlg.cc:182
 msgid "<b>Unlocking failed</b>"
 msgstr "<b>कुलूपबंद रहीत अपयशी</b>"
 
-#: lock/lockdlg.cc:186
+#: lock/lockdlg.cc:190
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>सावधानता: Caps Lock कार्यान्वीत</b>"
 
-#: lock/lockdlg.cc:418
+#: lock/lockdlg.cc:422
 #, kde-format
 msgid ""
 "Cannot unlock the session because the authentication system failed to work;\n"
 "you must kill krunner_lock (pid %1) manually."
 msgstr ""
 
-#: lock/lockdlg.cc:507
+#: lock/lockdlg.cc:511
 msgid "&Start New Session"
 msgstr "नविन सत्र सुरू केले (&S)"
 
-#: lock/lockdlg.cc:515
+#: lock/lockdlg.cc:519
 #, kde-format
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
@@ -127,187 +175,122 @@ msgid ""
 "between sessions."
 msgstr ""
 
-#: lock/lockdlg.cc:528
+#: lock/lockdlg.cc:532
 msgid "&Do not ask again"
 msgstr "पुन्हा विचारू नका (&D)"
 
-#: lock/lockdlg.cc:584
+#: lock/lockdlg.cc:588
 msgid "Session"
 msgstr "सत्र"
 
-#: lock/lockdlg.cc:584
+#: lock/lockdlg.cc:588
 msgid "Location"
 msgstr "ठिकाण"
 
-#: lock/lockdlg.cc:612
+#: lock/lockdlg.cc:616
 msgctxt "session"
 msgid "&Activate"
 msgstr "सक्रीय (&A)"
 
-#: lock/lockdlg.cc:621
+#: lock/lockdlg.cc:625
 msgid "Start &New Session"
 msgstr "नविन सत्र सुरू करा (&N)"
 
-#: main.cpp:33
-msgid "KDE run command interface"
-msgstr "KDE run आदेश संवाद"
-
-#: main.cpp:39
-msgid "Run Command Interface"
-msgstr "Run आदेश संवाद"
-
-#: main.cpp:41
-msgid "(c) 2006, Aaron Seigo"
-msgstr "(c) 2006, Aaron Seigo"
-
-#: main.cpp:42
-msgid "Aaron J. Seigo"
-msgstr "एरॉन जे. सीगो"
-
-#: main.cpp:43
-msgid "Author and maintainer"
-msgstr "लेखक व पालक"
-
-#: interface.cpp:70 krunnerapp.cpp:143 krunnerapp.cpp:144
+#: krunnerdialog.cpp:57 krunnerapp.cpp:191 krunnerapp.cpp:192
 msgid "Run Command"
 msgstr "आदेश चालवा"
 
-#: interface.cpp:84 interface.cpp:85
-msgid "Settings"
-msgstr "संयोजना"
+#: main.cpp:37
+msgid "KDE run command interface"
+msgstr "KDE run आदेश संवाद"
 
-#: interface.cpp:104 interface.cpp:105 krunnerapp.cpp:154 krunnerapp.cpp:155
-msgid "Show System Activity"
-msgstr "प्रणाली क्रिया दर्शवा"
+#: main.cpp:43
+msgid "Run Command Interface"
+msgstr "Run आदेश संवाद"
 
-#: interface.cpp:112
-msgid "Launch"
-msgstr ""
+#: main.cpp:45
+msgid "(c) 2006, Aaron Seigo"
+msgstr "(c) 2006, Aaron Seigo"
 
-#: interface.cpp:113
-msgid "Click to execute the selected item above"
-msgstr ""
+#: main.cpp:46
+msgid "Aaron J. Seigo"
+msgstr "एरॉन जे. सीगो"
 
-#: interface.cpp:114
-msgid "Show Options"
-msgstr ""
+#: main.cpp:47
+msgid "Author and maintainer"
+msgstr "लेखक व पालक"
 
-#: configdialog.cpp:44
+#: configdialog.cpp:53
+msgid "Plugins"
+msgstr "प्लगईन"
+
+#: configdialog.cpp:60
+msgid "Command oriented"
+msgstr "आदेश केंद्रीत"
+
+#: configdialog.cpp:61
+msgid "Task oriented"
+msgstr "कार्य केंद्रीत"
+
+#: configdialog.cpp:75
+msgid "Preview"
+msgstr "पूर्वदृश्य"
+
+#: configdialog.cpp:83
+msgid "User Interface"
+msgstr "वापरकर्ता संवादपट"
+
+#: configdialog.cpp:86
 msgid "KRunner Settings"
 msgstr "KRunner संयोजना"
 
-#: configdialog.cpp:51
-#, fuzzy
-#| msgid "KRunner Settings"
-msgid "Runners"
-msgstr "KRunner संयोजना"
+#: configdialog.cpp:93
+msgid "Available Features"
+msgstr "उपलब्ध गुणविशेष"
 
-#. i18n: file: krunner.kcfg:16
-#. i18n: ectx: label, entry, group (TaskDialog)
-#: rc.cpp:11
-msgid "Completion mode used for the query text."
-msgstr ""
-
-#. i18n: file: krunner.kcfg:21
-#. i18n: ectx: label, entry (PastQueries), group (TaskDialog)
-#: rc.cpp:14
-msgid "History if past queries successfully completed"
-msgstr ""
-
-#. i18n: file: krunner.kcfg:27
-#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
-#: rc.cpp:18
-msgid "Whether to keep the tasks dialog above other windows when shown."
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:11
-#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:22
-#, fuzzy
-#| msgid "Only start screen saver"
-msgid "Enable screen saver"
-msgstr "फक्त सक्रीन सेवर सुरू करा"
-
-#. i18n: file: kscreensaversettings.kcfg:12
-#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:25
-#, fuzzy
-#| msgid "Only use the blank screen saver"
-msgid "Enables the screen saver."
-msgstr "फक्त रिकामे सक्रीन सेवरचा वापर करा"
-
-#. i18n: file: kscreensaversettings.kcfg:16
-#. i18n: ectx: label, entry, group (ScreenSaver)
-#: rc.cpp:28
-msgid "Screen saver timeout"
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:17
-#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: rc.cpp:31
-msgid "Sets the seconds after which the screen saver is started."
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:21
-#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:34
-msgid "Suspend screen saver when DPMS kicks in"
-msgstr ""
-
-#. i18n: file: kscreensaversettings.kcfg:24
-#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:37
-msgid ""
-"Usually the screen saver is suspended when display power saving kicks in,\n"
-"       as nothing can be seen on the screen anyway, obviously. However, some "
-"screen savers\n"
-"       actually perform useful computations, so it is not desirable to "
-"suspend them."
-msgstr ""
-
-#: rc.cpp:64
+#: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "संदिप शेडमाके"
 
-#: rc.cpp:65
+#: rc.cpp:2
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sandeep.shedmake@gmail.com"
 
-#: krunnerapp.cpp:148 krunnerapp.cpp:149
+#: krunnerapp.cpp:196 krunnerapp.cpp:197
 msgid "Run Command on clipboard contents"
 msgstr "क्लिपबोर्ड अनुक्रम वर आदेश चालवा"
 
-#: krunnerapp.cpp:166 krunnerapp.cpp:167
+#: krunnerapp.cpp:214 krunnerapp.cpp:215
 msgid "Switch User"
 msgstr "वापरकर्ता बदलवा"
 
-#: krunnerapp.cpp:172 krunnerapp.cpp:173
+#: krunnerapp.cpp:221 krunnerapp.cpp:222
 msgid "Lock Session"
 msgstr "सत्र कुलूपबंद करा"
 
-#: krunnerapp.cpp:179 krunnerapp.cpp:180
+#: krunnerapp.cpp:229 krunnerapp.cpp:230
 msgid "Log Out"
 msgstr "लॉग आउट"
 
-#: krunnerapp.cpp:184 krunnerapp.cpp:185
+#: krunnerapp.cpp:234 krunnerapp.cpp:235
 msgid "Log Out Without Confirmation"
 msgstr "विना निश्चितपणे लॉग आऊट"
 
-#: krunnerapp.cpp:189 krunnerapp.cpp:190
+#: krunnerapp.cpp:239 krunnerapp.cpp:240
 msgid "Halt Without Confirmation"
 msgstr "विना निश्चितपणे स्तब्ध"
 
-#: krunnerapp.cpp:194 krunnerapp.cpp:195
+#: krunnerapp.cpp:244 krunnerapp.cpp:245
 msgid "Reboot Without Confirmation"
 msgstr "विना निश्चितपणे रिबूट"
 
-#: krunnerapp.cpp:243
+#: krunnerapp.cpp:296
 msgid "System Activity"
 msgstr "प्रणाली क्रिया"
 
-#: krunnerapp.cpp:322
+#: krunnerapp.cpp:405
 msgid ""
 "Could not log out properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -315,47 +298,17 @@ msgid ""
 "not be saved with a forced shutdown."
 msgstr ""
 
-#~ msgid "%1: %2"
-#~ msgstr "%1: %2"
+#, fuzzy
+#~| msgid "KRunner Settings"
+#~ msgid "Runners"
+#~ msgstr "KRunner संयोजना"
 
-#~ msgid "Actions"
-#~ msgstr "क्रिया"
+#, fuzzy
+#~| msgid "Only start screen saver"
+#~ msgid "Enable screen saver"
+#~ msgstr "फक्त सक्रीन सेवर सुरू करा"
 
-#~ msgid "actions"
-#~ msgstr "क्रिया"
-
-#~ msgid "items"
-#~ msgstr "घटक"
-
-#~ msgid "Type to search."
-#~ msgstr "शोधण्याकरीता प्रकार."
-
-#~ msgid "%1 %2"
-#~ msgstr "%1 %2"
-
-#~ msgid "Loading..."
-#~ msgstr "दाखल करीत आहे..."
-
-#~ msgid "No results found."
-#~ msgstr "परिणाम आढळले नाही."
-
-#~ msgid "start with plasma unlocked for configuring"
-#~ msgstr "संयोजना करीता प्लाजमा विनाकुलूपबंद स्वरूपात सुरू करा"
-
-#~ msgid "Plugins"
-#~ msgstr "प्लगईन"
-
-#~ msgid "Command oriented"
-#~ msgstr "आदेश केंद्रीत"
-
-#~ msgid "Task oriented"
-#~ msgstr "कार्य केंद्रीत"
-
-#~ msgid "Preview"
-#~ msgstr "पूर्वदृश्य"
-
-#~ msgid "User Interface"
-#~ msgstr "वापरकर्ता संवादपट"
-
-#~ msgid "Available Features"
-#~ msgstr "उपलब्ध गुणविशेष"
+#, fuzzy
+#~| msgid "Only use the blank screen saver"
+#~ msgid "Enables the screen saver."
+#~ msgstr "फक्त रिकामे सक्रीन सेवरचा वापर करा"

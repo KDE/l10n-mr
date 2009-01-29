@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -37,15 +37,19 @@ msgstr "साधन प्राधान्यता"
 msgid "Backend"
 msgstr "बॅकएन्ड"
 
-#: devicepreference.cpp:72
+#: devicepreference.cpp:76
 msgid "Audio Output"
 msgstr "ऑडिओ आऊपुट"
 
-#: devicepreference.cpp:72
+#: devicepreference.cpp:76
 msgid "Audio Capture"
 msgstr "ऑडिओ प्राप्यता"
 
-#: devicepreference.cpp:228 devicepreference.cpp:235
+#: devicepreference.cpp:112
+msgid "Play a test sound on the selected device"
+msgstr "निवडलेल्या साधनवर चाचणी आवाज चालवून पहा"
+
+#: devicepreference.cpp:133 devicepreference.cpp:140
 msgid ""
 "Defines the default ordering of devices which can be overridden by "
 "individual categories."
@@ -53,37 +57,37 @@ msgstr ""
 "साधनाची मुलभूत क्रमवारी निश्चित करतो जे स्वतंत्र विभाग द्वारे खोडून पुन्हा लिहीले जाऊ "
 "शकतात."
 
-#: devicepreference.cpp:306
+#: devicepreference.cpp:214
 #, fuzzy
 #| msgid "Default Output Device Preference"
-msgid "Default Output Device Preference:"
+msgid "Default Output Device Preference"
 msgstr "मुलभूत आऊटपुट साधन प्राधान्यता"
 
-#: devicepreference.cpp:308
+#: devicepreference.cpp:216
 #, fuzzy
 #| msgid "Default Capture Device Preference"
-msgid "Default Capture Device Preference:"
+msgid "Default Capture Device Preference"
 msgstr "मुलभूत प्राप्यता साधन प्राधान्यता"
 
-#: devicepreference.cpp:312
+#: devicepreference.cpp:220
 #, fuzzy, kde-format
 #| msgid "Output Device Preference for the '%1' Category"
-msgid "Output Device Preference for the '%1' Category:"
+msgid "Output Device Preference for the '%1' Category"
 msgstr "'%1' विभाग करीता आऊटपुट साधन प्राधान्यता"
 
-#: devicepreference.cpp:314
+#: devicepreference.cpp:222
 #, fuzzy, kde-format
 #| msgid "Capture Device Preference for the '%1' Category"
-msgid "Capture Device Preference for the '%1' Category:"
+msgid "Capture Device Preference for the '%1' Category"
 msgstr "'%1' विभाग करीता प्राप्यता आऊटपुट साधन प्राधान्यता"
 
-#: devicepreference.cpp:655
+#: devicepreference.cpp:602
 msgid ""
 "Apply the currently shown device preference list to the following other "
 "audio output categories:"
 msgstr "खालिल इतर ऑडिओ विभाग करीता दर्शविलेले वर्तमान साधन प्राधान्यता यादी लागू करा:"
 
-#: devicepreference.cpp:662
+#: devicepreference.cpp:609
 msgid "Default/Unspecified Category"
 msgstr "मुलभूत/अनिश्चित विभाग"
 
@@ -101,17 +105,17 @@ msgstr ""
 
 #. i18n: file: backendselection.ui:58
 #. i18n: ectx: property (text), widget (QToolButton, m_up)
-#. i18n: file: devicepreference.ui:184
+#. i18n: file: devicepreference.ui:197
 #. i18n: ectx: property (text), widget (QToolButton, preferButton)
-#: rc.cpp:9 rc.cpp:40
+#: rc.cpp:9 rc.cpp:43
 msgid "Prefer"
 msgstr "प्राधान्यता"
 
 #. i18n: file: backendselection.ui:71
 #. i18n: ectx: property (text), widget (QToolButton, m_down)
-#. i18n: file: devicepreference.ui:200
+#. i18n: file: devicepreference.ui:213
 #. i18n: ectx: property (text), widget (QToolButton, deferButton)
-#: rc.cpp:12 rc.cpp:46
+#: rc.cpp:12 rc.cpp:49
 msgid "Defer"
 msgstr ""
 
@@ -130,7 +134,7 @@ msgstr "आऊटपुटचे अनेक विभाग.  प्रत्�
 #: rc.cpp:21
 #, fuzzy
 #| msgid "Show advanced devices"
-msgid "Show Advanced Devices"
+msgid "Show advanced devices"
 msgstr "प्रगत साधन दर्शवा"
 
 #. i18n: file: devicepreference.ui:76
@@ -163,30 +167,30 @@ msgstr ""
 msgid "Remove"
 msgstr "काढूण टाका"
 
-#. i18n: file: devicepreference.ui:181
-#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#. i18n: file: devicepreference.ui:178
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
 #: rc.cpp:37
+msgid "Test"
+msgstr "चाचणी"
+
+#. i18n: file: devicepreference.ui:194
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: rc.cpp:40
 msgid "prefer the selected device"
 msgstr "निवडलेले साधन प्राधान्यकृत करा"
 
-#. i18n: file: devicepreference.ui:197
+#. i18n: file: devicepreference.ui:210
 #. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
-#: rc.cpp:43
+#: rc.cpp:46
 msgid "no preference for the selected device"
 msgstr "निवडलेले साधन करीता प्राधान्यता निवडली नाही"
 
-#: rc.cpp:47
+#: rc.cpp:50
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "संदिप शेडमाके"
 
-#: rc.cpp:48
+#: rc.cpp:51
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sandeep.shedmake@gmail.com"
-
-#~ msgid "Play a test sound on the selected device"
-#~ msgstr "निवडलेल्या साधनवर चाचणी आवाज चालवून पहा"
-
-#~ msgid "Test"
-#~ msgstr "चाचणी"
