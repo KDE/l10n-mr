@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-16 09:04+0100\n"
+"POT-Creation-Date: 2009-02-19 09:33+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -17,15 +17,35 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: globalshortcuts.cpp:56
+#: globalshortcuts.cpp:47
 msgid "Import Scheme..."
 msgstr "सुत्रयोजना इम्पोर्ट करा..."
 
-#: globalshortcuts.cpp:61
+#: globalshortcuts.cpp:52
 msgid "Export Scheme..."
 msgstr ""
 
-#: globalshortcuts.cpp:103 globalshortcuts.cpp:126
+#: globalshortcuts.cpp:99
+msgid ""
+"Your current changes will be lost if you load another scheme before saving "
+"this one"
+msgstr ""
+"ही सुत्रयोजना संचयीत करण्यापूर्वी इतर दाखल केल्यास तुमचे वर्तमान बदलाव नाहीसे होतील"
+
+#: globalshortcuts.cpp:100
+msgid "Load Shortcurt Scheme"
+msgstr "शॉर्टकट सुत्रयोजना दाखल करा"
+
+#: globalshortcuts.cpp:101
+msgid "Load"
+msgstr "भार"
+
+#: globalshortcuts.cpp:114
+#, kde-format
+msgid "This file (%1) does not exist. You can only select local files."
+msgstr "फाइल (%1) अस्तित्वात नाही. तुम्ही फक्त स्थानीय फाइल निवडू शकता."
+
+#: kglobalshortcutseditor.cpp:230 kglobalshortcutseditor.cpp:253
 #, kde-format
 msgid ""
 "Message: %1\n"
@@ -34,63 +54,64 @@ msgstr ""
 "संदेश: %1\n"
 "त्रुटी: %2"
 
-#: globalshortcuts.cpp:108 globalshortcuts.cpp:131
+#: kglobalshortcutseditor.cpp:235 kglobalshortcutseditor.cpp:258
 msgid "Failed to contact the KDE global shortcuts daemon\n"
 msgstr "KDE जागतिक शॉर्टकट डिमनशी संपर्क करण्यास अपयशी\n"
 
-#: globalshortcuts.cpp:248
-msgid ""
-"Your current changes will be lost if you load another scheme before saving "
-"this one"
-msgstr ""
-"ही सुत्रयोजना संचयीत करण्यापूर्वी इतर दाखल केल्यास तुमचे वर्तमान बदलाव नाहीसे होतील"
-
-#: globalshortcuts.cpp:249
-msgid "Load Shortcurt Scheme"
-msgstr "शॉर्टकट सुत्रयोजना दाखल करा"
-
-#: globalshortcuts.cpp:250
-msgid "Load"
-msgstr "भार"
-
-#: globalshortcuts.cpp:263
+#: kglobalshortcutseditor.cpp:337
 #, kde-format
-msgid "This file (%1) does not exist. You can only select local files."
-msgstr "फाइल (%1) अस्तित्वात नाही. तुम्ही फक्त स्थानीय फाइल निवडू शकता."
+msgid ""
+"This will remove all currently not active global shortcuts for %1 from this "
+"list. %1 is removed too if no shortcut is left.\n"
+"All global shortcuts will reregister themselves whenever they are activated "
+"the next time!"
+msgstr ""
 
-#. i18n: file: kglobalshortcutseditor.ui:18
+#: kglobalshortcutseditor.cpp:339
+#, fuzzy
+#| msgid "KDE component:"
+msgid "Clean component"
+msgstr "KDE विभाग:"
+
+#. i18n: file: kglobalshortcutseditor.ui:19
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:3
 msgid "KDE component:"
 msgstr "KDE विभाग:"
 
-#. i18n: file: select_scheme_dialog.ui:6
-#. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
+#. i18n: file: kglobalshortcutseditor.ui:36
+#. i18n: ectx: property (text), widget (QPushButton, clean_component)
 #: rc.cpp:6
+msgid "Clean"
+msgstr ""
+
+#. i18n: file: select_scheme_dialog.ui:15
+#. i18n: ectx: property (windowTitle), widget (KDialog, SelectSchemeDialog)
+#: rc.cpp:9
 msgid "Select Shortcut Scheme"
 msgstr "शार्टकट सुत्रयोजना निवडा"
 
-#. i18n: file: select_scheme_dialog.ui:30
+#. i18n: file: select_scheme_dialog.ui:39
 #. i18n: ectx: property (whatsThis), widget (QLabel, label)
-#: rc.cpp:9
+#: rc.cpp:12
 msgid "Select one of the standard KDE shortcut schemes"
 msgstr "मानक KDE शार्टकट सुत्रयोजना पैकी एक निवडा"
 
-#. i18n: file: select_scheme_dialog.ui:33
+#. i18n: file: select_scheme_dialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:12
+#: rc.cpp:15
 msgid "&Standard scheme:"
 msgstr "मानक सुत्रयोजना (&S):"
 
-#. i18n: file: select_scheme_dialog.ui:83
+#. i18n: file: select_scheme_dialog.ui:92
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
-#: rc.cpp:15
+#: rc.cpp:18
 msgid "Select a shortcut scheme file"
 msgstr "शार्टकट सुत्रयोजना फाइल निवडा"
 
-#. i18n: file: select_scheme_dialog.ui:86
+#. i18n: file: select_scheme_dialog.ui:95
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:18
+#: rc.cpp:21
 msgid "&Path:"
 msgstr "मार्ग (&P):"
 
