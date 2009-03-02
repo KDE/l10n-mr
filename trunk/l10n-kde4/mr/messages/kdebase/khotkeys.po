@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-01 10:33+0100\n"
+"POT-Creation-Date: 2009-03-02 09:56+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -109,9 +109,9 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
 #. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
 #. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: rc.cpp:32 rc.cpp:215 kcm_hotkeys/hotkeys_context_menu.cpp:244
-#: kcm_hotkeys/hotkeys_context_menu.cpp:272
-#: kcm_hotkeys/hotkeys_context_menu.cpp:300 kcm_hotkeys/hotkeys_model.cpp:91
+#: rc.cpp:32 rc.cpp:215 kcm_hotkeys/hotkeys_context_menu.cpp:274
+#: kcm_hotkeys/hotkeys_context_menu.cpp:302
+#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:91
 msgid "Comment"
 msgstr "टीप"
 
@@ -332,7 +332,7 @@ msgstr ""
 
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:33
 #. i18n: ectx: property (text), widget (QPushButton, new_button)
-#: rc.cpp:143
+#: rc.cpp:143 kcm_hotkeys/hotkeys_context_menu.cpp:156
 msgid "New"
 msgstr ""
 
@@ -344,7 +344,7 @@ msgstr ""
 
 #. i18n: file: kcm_hotkeys/conditions/conditions_widget.ui:47
 #. i18n: ectx: property (text), widget (QPushButton, delete_button)
-#: rc.cpp:149 kcm_hotkeys/hotkeys_context_menu.cpp:137
+#: rc.cpp:149 kcm_hotkeys/hotkeys_context_menu.cpp:136
 msgid "Delete"
 msgstr "हटवा"
 
@@ -528,49 +528,61 @@ msgstr "And"
 msgid "Conditions"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:41
-#: kcm_hotkeys/hotkeys_context_menu.cpp:53
+#: kcm_hotkeys/hotkeys_context_menu.cpp:43
+#: kcm_hotkeys/hotkeys_context_menu.cpp:55
 msgid "Test"
 msgstr "चाचणी"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:127
-#: kcm_hotkeys/hotkeys_context_menu.cpp:143
-#: kcm_hotkeys/hotkeys_context_menu.cpp:244
-#: kcm_hotkeys/hotkeys_context_menu.cpp:300 kcm_hotkeys/hotkeys_model.cpp:91
+#: kcm_hotkeys/hotkeys_context_menu.cpp:129
+#: kcm_hotkeys/hotkeys_context_menu.cpp:142
+#: kcm_hotkeys/hotkeys_context_menu.cpp:274
+#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:91
 msgid "New Group"
 msgstr "नविन समुह"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:156
-msgid "New Global Shortcut"
+#: kcm_hotkeys/hotkeys_context_menu.cpp:147
+msgid "Export"
+msgstr ""
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:148
+msgid "Import"
+msgstr ""
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:162
+#, fuzzy
+#| msgid "New Global Shortcut"
+msgid "Global Shortcut"
 msgstr "नविन जागतिक शार्टकट"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:169
-msgid "New Window Action"
+#: kcm_hotkeys/hotkeys_context_menu.cpp:175
+#, fuzzy
+#| msgid "Action"
+msgid "Window Action"
+msgstr "क्रिया"
+
+#: kcm_hotkeys/hotkeys_context_menu.cpp:188
+msgid "Mouse Gesture Action"
 msgstr ""
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:182
-msgid "New Mouse Gesture Action"
-msgstr ""
-
-#: kcm_hotkeys/hotkeys_context_menu.cpp:201
+#: kcm_hotkeys/hotkeys_context_menu.cpp:231
 msgid "Command/URL"
 msgstr "आदेश/URL"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:208
+#: kcm_hotkeys/hotkeys_context_menu.cpp:238
 msgid "D-Bus Command"
 msgstr "D-Bus आदेश"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:215
+#: kcm_hotkeys/hotkeys_context_menu.cpp:245
 msgid "K-Menu Entry"
 msgstr "K-मेन्यू नोंदणी"
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:222
+#: kcm_hotkeys/hotkeys_context_menu.cpp:252
 #, fuzzy
 #| msgid "Keyboard input: "
 msgid "Send Keyboard Input"
 msgstr "कळफलक इनपुट: "
 
-#: kcm_hotkeys/hotkeys_context_menu.cpp:272
+#: kcm_hotkeys/hotkeys_context_menu.cpp:302
 #, fuzzy
 #| msgid "Action"
 msgid "New Action"
@@ -580,15 +592,15 @@ msgstr "क्रिया"
 msgid "Failed to run qdbusviewer"
 msgstr "qdbusviewer चालविण्यास अपयशी"
 
-#: kcm_hotkeys/hotkeys_model.cpp:381
+#: kcm_hotkeys/hotkeys_model.cpp:387
 msgid "Name"
 msgstr "नाव"
 
-#: kcm_hotkeys/hotkeys_model.cpp:385
+#: kcm_hotkeys/hotkeys_model.cpp:391
 msgid "Enabled"
 msgstr "कार्यान्वीत"
 
-#: kcm_hotkeys/hotkeys_model.cpp:388
+#: kcm_hotkeys/hotkeys_model.cpp:394
 msgid "Type"
 msgstr "प्रकार"
 
@@ -624,14 +636,7 @@ msgstr ""
 msgid "Save changes"
 msgstr "बदलाव संचयीत करा"
 
-#: kcm_hotkeys/kcm_hotkeys.cpp:334
-msgid ""
-"Unable to contact khotkeys. Your changes are saved but i failed to activate "
-"them"
-msgstr ""
-"khotkeys सह संपर्क साधू शकले नाही. बदल संचयीत केले जातिल परंतु सक्रीय करण्यास अपयशी ठरले"
-
-#: kcm_hotkeys/kcm_hotkeys.cpp:356
+#: kcm_hotkeys/kcm_hotkeys.cpp:334 kcm_hotkeys/kcm_hotkeys.cpp:356
 #, fuzzy
 #| msgid ""
 #| "Unable to contact khotkeys. Your changes are saved but i failed to "
@@ -708,7 +713,22 @@ msgstr "अस्तित्वातील चौकट: "
 msgid "Window simple: "
 msgstr "सोपी चौकट: "
 
-#: libkhotkeysprivate/actions/menuentry_action.cpp:87
+#: libkhotkeysprivate/actions/menuentry_action.cpp:80
+msgid "No service configured!"
+msgstr ""
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:81
+#: libkhotkeysprivate/actions/menuentry_action.cpp:90
+#, kde-format
+msgid "Input Action : %1"
+msgstr ""
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:89
+#, kde-format
+msgid "Failed to start service '%1'!"
+msgstr ""
+
+#: libkhotkeysprivate/actions/menuentry_action.cpp:104
 msgid "Menu entry: "
 msgstr "मेन्यू नोंदणी: "
 
@@ -728,7 +748,7 @@ msgstr "सक्रीय चौकट: "
 msgid "Keyboard input: "
 msgstr "कळफलक इनपुट: "
 
-#: libkhotkeysprivate/settings.cpp:279
+#: libkhotkeysprivate/settings.cpp:226
 msgid ""
 "This \"actions\" file has already been imported before. Are you sure you "
 "want to import it again?"
@@ -736,20 +756,27 @@ msgstr ""
 "ही \"actions\" फाइल आधिपासूनच पूर्वीच इम्पोर्ट केले गेले आहे. तुम्हाला नक्की पुन्हा इम्पोर्ट "
 "करायचे?"
 
-#: libkhotkeysprivate/settings.cpp:293
+#: libkhotkeysprivate/settings.cpp:241
 msgid ""
 "This \"actions\" file has no ImportId field and therefore it cannot be "
 "determined whether or not it has been imported already. Are you sure you "
 "want to import it?"
 msgstr ""
 
-#: libkhotkeysprivate/settings.cpp:482
+#: libkhotkeysprivate/settings.cpp:532
 msgid "These entries were created using Menu Editor."
 msgstr "या नोंदणी मेन्यू संपादकचा वापर करून बदलविले गेले."
 
 #: libkhotkeysprivate/khotkeysglobal.h:40
 msgid "Menu Editor entries"
 msgstr "मेन्यू संपादक नोंदणी"
+
+#~ msgid ""
+#~ "Unable to contact khotkeys. Your changes are saved but i failed to "
+#~ "activate them"
+#~ msgstr ""
+#~ "khotkeys सह संपर्क साधू शकले नाही. बदल संचयीत केले जातिल परंतु सक्रीय करण्यास अपयशी "
+#~ "ठरले"
 
 #~ msgid "KHotKeys update utility"
 #~ msgstr "KHotKeys अद्ययावत उपकार्यक्रम"
