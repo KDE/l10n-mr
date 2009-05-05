@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khotkeys\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-27 10:59+0200\n"
+"POT-Creation-Date: 2009-05-05 11:20+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -105,16 +105,16 @@ msgstr ""
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
-#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
-#. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
+#. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
+#. i18n: ectx: property (text), widget (QLabel, comment_label)
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:33
 #. i18n: ectx: property (text), widget (QLabel, comment_label)
-#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
-#. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
-#: rc.cpp:32 rc.cpp:215 kcm_hotkeys/hotkeys_context_menu.cpp:274
-#: kcm_hotkeys/hotkeys_context_menu.cpp:302
-#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:92
-msgid "Comment"
+#. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
+#. i18n: ectx: property (text), widget (QLabel, comment_label)
+#: rc.cpp:32 rc.cpp:125
+#, fuzzy
+#| msgid "Comment"
+msgid "Comment:"
 msgstr "टीप"
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:40
@@ -122,7 +122,7 @@ msgstr "टीप"
 #: rc.cpp:35
 #, fuzzy
 #| msgid "Window simple: "
-msgid "Window Title"
+msgid "Window title:"
 msgstr "सोपी चौकट: "
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:48
@@ -243,15 +243,17 @@ msgstr ""
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:86
 #. i18n: ectx: property (text), widget (QLabel, window_class_label)
 #: rc.cpp:59
-msgid "Window Class"
-msgstr ""
+#, fuzzy
+#| msgid "Window simple: "
+msgid "Window class:"
+msgstr "सोपी चौकट: "
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:132
 #. i18n: ectx: property (text), widget (QLabel, window_role_label)
 #: rc.cpp:83
 #, fuzzy
 #| msgid "Window simple: "
-msgid "Window Role"
+msgid "Window role:"
 msgstr "सोपी चौकट: "
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_widget.ui:204
@@ -292,30 +294,22 @@ msgstr ""
 msgid "Dock"
 msgstr ""
 
-#. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:19
-#. i18n: ectx: property (text), widget (QLabel, comment_label)
-#: rc.cpp:125
-#, fuzzy
-#| msgid "Comment"
-msgid "Comment:"
-msgstr "टीप"
-
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:38
 #. i18n: ectx: property (text), widget (QPushButton, edit_button)
 #: rc.cpp:128
-msgid "&Edit"
+msgid "&Edit..."
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:45
 #. i18n: ectx: property (text), widget (QPushButton, new_button)
 #: rc.cpp:131
-msgid "&New"
+msgid "&New..."
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:52
 #. i18n: ectx: property (text), widget (QPushButton, duplicate_button)
 #: rc.cpp:134
-msgid "&Duplicate"
+msgid "&Duplicate..."
 msgstr ""
 
 #. i18n: file: kcm_hotkeys/helper_widgets/window_definition_list_widget.ui:59
@@ -478,6 +472,14 @@ msgstr "आदेश/URL:"
 msgid "Settings"
 msgstr ""
 
+#. i18n: file: kcm_hotkeys/hotkeys_widget_base.ui:23
+#. i18n: ectx: attribute (title), widget (QWidget, comment_tab)
+#: rc.cpp:215 kcm_hotkeys/hotkeys_context_menu.cpp:274
+#: kcm_hotkeys/hotkeys_context_menu.cpp:302
+#: kcm_hotkeys/hotkeys_context_menu.cpp:330 kcm_hotkeys/hotkeys_model.cpp:92
+msgid "Comment"
+msgstr "टीप"
+
 #: kcm_hotkeys/helper_widgets/edit_gesture_dialog.cpp:32
 msgid "Edit Gesture"
 msgstr ""
@@ -549,11 +551,11 @@ msgid "New Group"
 msgstr "नविन समुह"
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:147
-msgid "Export"
+msgid "Export..."
 msgstr ""
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:148
-msgid "Import"
+msgid "Import..."
 msgstr ""
 
 #: kcm_hotkeys/hotkeys_context_menu.cpp:162
