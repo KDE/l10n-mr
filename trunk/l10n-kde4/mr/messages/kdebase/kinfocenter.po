@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-01 06:17+0200\n"
+"POT-Creation-Date: 2009-09-20 06:17+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -45,9 +45,11 @@ msgstr "माहिती"
 msgid "Value"
 msgstr "मुल्य"
 
-#: base/info_aix.cpp:307 base/info_hpux.cpp:356 base/info_linux.cpp:334
-#: base/info_linux.cpp:445
-msgid "MB"
+#: base/info_aix.cpp:307
+#, fuzzy
+#| msgid "MB"
+msgctxt "Mebibyte"
+msgid "MiB "
 msgstr "MB"
 
 #: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
@@ -194,10 +196,11 @@ msgstr "अकार्यान्वीत"
 msgid "Numerical Coprocessor (FPU)"
 msgstr ""
 
-#: base/info_hpux.cpp:242
+#: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
 #, fuzzy
 #| msgid "MB"
-msgid " MB"
+msgctxt "Mebibyte"
+msgid "MiB"
 msgstr "MB"
 
 #: base/info_hpux.cpp:243
@@ -213,6 +216,10 @@ msgstr "अष्टक"
 #: base/info_hpux.cpp:246
 msgid "Size of One Page"
 msgstr "एका पानचे आकार"
+
+#: base/info_hpux.cpp:356
+msgid "MB"
+msgstr "MB"
 
 #: base/info_hpux.cpp:441
 msgid "Audio Name"
@@ -973,6 +980,11 @@ msgstr "%1 विषयी"
 #, kde-format
 msgid "Report Bug on Module %1..."
 msgstr "विभाग %1 करीता बग कळवा..."
+
+#, fuzzy
+#~| msgid "MB"
+#~ msgid " MB"
+#~ msgstr "MB"
 
 #~ msgid "Kernel is configured for %1 CPUs"
 #~ msgstr "कर्नल %1 CPUs करीता संयोजीत केले"
