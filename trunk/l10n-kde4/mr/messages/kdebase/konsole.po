@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:07+0200\n"
+"POT-Creation-Date: 2009-09-25 06:19+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -221,7 +221,7 @@ msgstr "इमेल पाठवा..."
 msgid "Copy Email Address"
 msgstr "इमेल पत्ता प्रतिकृत करा"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:499
+#: HistorySizeDialog.cpp:51 SessionController.cpp:523
 msgid "Scrollback Options"
 msgstr "स्क्रोलबॅक पर्याय"
 
@@ -567,7 +567,7 @@ msgstr "प्रोफाइल व्यवस्थापीत करा..."
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "या चौकटीत अनेक टॅब आहेत, तुम्हाला नक्की बाहेर पडायचे?"
 
-#: MainWindow.cpp:348 SessionController.cpp:604
+#: MainWindow.cpp:348 SessionController.cpp:628
 msgid "Confirm Close"
 msgstr "बंद निश्चित करा"
 
@@ -1464,65 +1464,73 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sandeep.shedmake@gmail.com"
 
-#. i18n: file: ../desktop/sessionui.rc:43
-#. i18n: ectx: Menu (debug)
+#. i18n: file: ../desktop/sessionui.rc:14
+#. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:849
+#, fuzzy
+#| msgid "Copy Input To..."
+msgid "Copy Input To"
+msgstr "इनपुट प्रतिकृत करा..."
+
+#. i18n: file: ../desktop/sessionui.rc:47
+#. i18n: ectx: Menu (debug)
+#: rc.cpp:852
 msgid "Debug"
 msgstr "डीबग"
 
-#. i18n: file: ../desktop/sessionui.rc:62
+#. i18n: file: ../desktop/sessionui.rc:66
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:26
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:852 rc.cpp:858
+#: rc.cpp:855 rc.cpp:861
 msgid "&Change Profile"
 msgstr "प्रोफाइल बदलवा (&C)"
 
 #. i18n: file: ../desktop/partui.rc:8
 #. i18n: ectx: Menu (history)
-#: rc.cpp:855
+#: rc.cpp:858
 msgid "S&crollback"
 msgstr "स्क्रोलबॅक (&c)"
 
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:861
+#: rc.cpp:864
 msgid "File"
 msgstr "फाइल"
 
 #. i18n: file: ../desktop/konsoleui.rc:15
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:864
+#: rc.cpp:867
 msgid "Edit"
 msgstr "संपादन"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (history)
-#: rc.cpp:867
+#: rc.cpp:870
 msgid "Scrollback"
 msgstr "स्क्रोलबॅक"
 
 #. i18n: file: ../desktop/konsoleui.rc:21
 #. i18n: ectx: Menu (view)
-#: rc.cpp:870
+#: rc.cpp:873
 msgid "View"
 msgstr "दृश्य"
 
 #. i18n: file: ../desktop/konsoleui.rc:22
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:873
+#: rc.cpp:876
 msgid "Split View"
 msgstr "दृश्य विभाजीत करा"
 
 #. i18n: file: ../desktop/konsoleui.rc:40
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:876
+#: rc.cpp:879
 msgid "Settings"
 msgstr "संयोजना"
 
 #. i18n: file: ../desktop/konsoleui.rc:47
 #. i18n: ectx: Menu (help)
-#: rc.cpp:879
+#: rc.cpp:882
 msgid "Help"
 msgstr "मदत"
 
@@ -1578,147 +1586,157 @@ msgstr "Solaris कन्सोल"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 टर्मिनल"
 
-#: SessionController.cpp:384
+#: SessionController.cpp:391
 msgid "&Close Tab"
 msgstr "टॅब बंद करा (&C)"
 
-#: SessionController.cpp:390
+#: SessionController.cpp:397
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:397
+#: SessionController.cpp:404
 msgid "&Copy"
 msgstr "प्रतिकृत करा (&C)"
 
-#: SessionController.cpp:401
+#: SessionController.cpp:408
 msgid "&Paste"
 msgstr "चिकटवा (&P)"
 
-#: SessionController.cpp:414
+#: SessionController.cpp:421
 msgid "Paste Selection"
 msgstr "निवड चिटकवा"
 
-#: SessionController.cpp:420
+#: SessionController.cpp:427
 msgid "&Rename Tab..."
 msgstr "टॅब पुन्हनामांकीत करा (&R)..."
 
-#: SessionController.cpp:426
-msgid "Copy Input To..."
-msgstr "इनपुट प्रतिकृत करा..."
+#: SessionController.cpp:434
+msgid "&All Tabs in Current Window"
+msgstr ""
 
-#: SessionController.cpp:431
+#: SessionController.cpp:441
+#, fuzzy
+#| msgid "&Rename Tab..."
+msgid "&Select Tabs..."
+msgstr "टॅब पुन्हनामांकीत करा (&R)..."
+
+#: SessionController.cpp:448
+msgid "&None"
+msgstr ""
+
+#: SessionController.cpp:455
 msgid "Clear && Reset"
 msgstr "नष्ट करा && पुन्हस्थापन"
 
-#: SessionController.cpp:436
+#: SessionController.cpp:460
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:442
+#: SessionController.cpp:466
 msgid "Monitor for &Activity"
 msgstr "क्रिया करीता नियंत्रण करा (&A)"
 
-#: SessionController.cpp:447
+#: SessionController.cpp:471
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:453
+#: SessionController.cpp:477
 msgid "Character Encoding"
 msgstr "अक्षर ऐंकोडींग"
 
-#: SessionController.cpp:460
+#: SessionController.cpp:484
 msgid "Increase Text Size"
 msgstr "पाठ्य आकार वाढवा"
 
-#: SessionController.cpp:466
+#: SessionController.cpp:490
 msgid "Decrease Text Size"
 msgstr "पाठ्य आकार कमी करा"
 
-#: SessionController.cpp:472
+#: SessionController.cpp:496
 msgid "Search Output..."
 msgstr "आऊटपुट शोधा..."
 
-#: SessionController.cpp:481
+#: SessionController.cpp:505
 msgid "Find Next"
 msgstr "पुढील शोधा"
 
-#: SessionController.cpp:488
+#: SessionController.cpp:512
 msgid "Find Previous"
 msgstr "मागील शोधा"
 
-#: SessionController.cpp:494
+#: SessionController.cpp:518
 msgid "Save Output..."
 msgstr "आऊटपुट संचयीत करा..."
 
-#: SessionController.cpp:504
+#: SessionController.cpp:528
 msgid "Clear Scrollback && Reset"
 msgstr "स्क्रोलबॅक नष्ट करा && रिसेट करा"
 
-#: SessionController.cpp:510
+#: SessionController.cpp:534
 msgid "Edit Current Profile..."
 msgstr "वर्तमान प्रोफाइल संपादीत करा..."
 
-#: SessionController.cpp:514
+#: SessionController.cpp:538
 msgid "Change Profile"
 msgstr "प्रोफाइल बदलवा"
 
-#: SessionController.cpp:554
+#: SessionController.cpp:578
 msgid "Rename Tab"
 msgstr "टॅब पुन्हनामांकीत करा"
 
-#: SessionController.cpp:555
+#: SessionController.cpp:579
 msgid "Enter new tab text:"
 msgstr "नविन टॅब पाठ्य प्रविष्ट करा:"
 
-#: SessionController.cpp:598
+#: SessionController.cpp:622
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "वर्तमानक्षणी या सत्र अंतर्गत कार्यक्रम कार्यरत आहे. तुम्हाला नक्की बंद करायचे आहे?"
 
-#: SessionController.cpp:601
+#: SessionController.cpp:625
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
 
-#: SessionController.cpp:1068
+#: SessionController.cpp:1177
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1077
+#: SessionController.cpp:1186
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgstr ""
 
-#: SessionController.cpp:1089
+#: SessionController.cpp:1198
 msgid "<p>The current session already has a ZModem file transfer in progress."
 msgstr ""
 
-#: SessionController.cpp:1098
+#: SessionController.cpp:1207
 msgid ""
 "<p>No suitable ZModem software was found on this system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgstr ""
 
-#: SessionController.cpp:1104
+#: SessionController.cpp:1213
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1176
+#: SessionController.cpp:1285
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 पासून आऊटपुट संचयीत करा"
 
-#: SessionController.cpp:1187
+#: SessionController.cpp:1296
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 अवैध URL आहे, आऊटपुट संचयीत केले जाऊ शकत नाही."
 
-#: SessionController.cpp:1276
+#: SessionController.cpp:1385
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
