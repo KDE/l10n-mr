@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-20 06:07+0200\n"
+"POT-Creation-Date: 2009-10-21 07:08+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -1272,20 +1272,31 @@ msgstr ""
 msgid "Location to open"
 msgstr "उघडण्याजोगी स्थान"
 
-#: sidebar/test/modulemanagertest.cpp:87
-#: sidebar/test/modulemanagertest.cpp:114
+#: sidebar/test/modulemanagertest.cpp:89
+#: sidebar/test/modulemanagertest.cpp:115
 #, fuzzy
 #| msgid "Web SideBar Plugin"
 msgid "SideBar Test Plugin"
 msgstr "वेब बाजूचीपट्टी प्लगइन"
 
-#: sidebar/trees/konqsidebar_tree.cpp:161
-msgid "Select Type"
-msgstr "प्रकार निवडा"
+#: sidebar/trees/konqsidebar_tree.cpp:192
+#: sidebar/web_module/web_module.cpp:251
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "नाव:"
 
-#: sidebar/trees/konqsidebar_tree.cpp:162
-msgid "Select type:"
-msgstr "प्रकार निवडा:"
+#: sidebar/trees/konqsidebar_tree.cpp:192
+#: sidebar/web_module/web_module.cpp:251
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_tree.cpp:193
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
 
 #: sidebar/trees/history_module/kcmhistory.cpp:69
 msgid " day"
@@ -1315,7 +1326,7 @@ msgstr[1] "दिवस"
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr "<h1>इतिहास बाजूचीपट्टी</h1> तुम्ही येथे इतिहास बाजूचीपट्टी संयोजीत करू शकता."
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:423
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:414
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "वृक्ष अंतर्गत मुख्य घटक %1 आढळला नाही. आंतरीक त्रुटी."
@@ -1431,39 +1442,39 @@ msgstr "संचयीका नाव प्रविष्ट करा:"
 msgid "Extended Sidebar"
 msgstr "विस्तारीत बाजूचीपट्टी"
 
-#: sidebar/sidebar_widget.cpp:84
+#: sidebar/sidebar_widget.cpp:94
 msgid "Rollback to System Default"
 msgstr "प्रणाली मुलभूत करीता रॉलबॅक करा"
 
-#: sidebar/sidebar_widget.cpp:171
+#: sidebar/sidebar_widget.cpp:152
 msgid "Configure Navigation Panel"
 msgstr "संचारन पटल संयोजीत करा"
 
-#: sidebar/sidebar_widget.cpp:173
+#: sidebar/sidebar_widget.cpp:154
 msgid "Add New"
 msgstr "नविन जोडा"
 
-#: sidebar/sidebar_widget.cpp:177
+#: sidebar/sidebar_widget.cpp:158
 msgid "Multiple Views"
 msgstr "बहु दृश्य"
 
-#: sidebar/sidebar_widget.cpp:179 sidebar/sidebar_widget.cpp:276
+#: sidebar/sidebar_widget.cpp:160 sidebar/sidebar_widget.cpp:258
 msgid "Show Tabs Left"
 msgstr "डावीकडे टॅब दर्शवा"
 
-#: sidebar/sidebar_widget.cpp:180
+#: sidebar/sidebar_widget.cpp:161
 msgid "Show Configuration Button"
 msgstr "संयोजना बटण दर्शवा"
 
-#: sidebar/sidebar_widget.cpp:183
+#: sidebar/sidebar_widget.cpp:164
 msgid "Close Navigation Panel"
 msgstr "संचारन पटल दर्शवा"
 
-#: sidebar/sidebar_widget.cpp:211
+#: sidebar/sidebar_widget.cpp:192
 msgid "This entry already exists."
 msgstr "ही नोंदणी आधिपासूनच अस्तित्वात आहे."
 
-#: sidebar/sidebar_widget.cpp:234
+#: sidebar/sidebar_widget.cpp:216
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1473,69 +1484,77 @@ msgstr ""
 "<br /><b>ही पद्धती पुन्हा कार्यान्वीत केली जाऊ शकतन नाही</b><br />तुम्हाला नक्की पुढे "
 "जायचे?</qt>"
 
-#: sidebar/sidebar_widget.cpp:276
+#: sidebar/sidebar_widget.cpp:258
 msgid "Show Tabs Right"
 msgstr "उजवी टॅब दर्शवा"
 
-#: sidebar/sidebar_widget.cpp:286
+#: sidebar/sidebar_widget.cpp:268
 msgid "Set Name"
 msgstr "नाव निश्चित करा"
 
-#: sidebar/sidebar_widget.cpp:286
+#: sidebar/sidebar_widget.cpp:268
 msgid "Enter the name:"
 msgstr "नाव प्रविष्ट करा:"
 
-#: sidebar/sidebar_widget.cpp:301
+#: sidebar/sidebar_widget.cpp:285
 msgid "Enter a URL:"
 msgstr "URL प्रविष्ट करा:"
 
-#: sidebar/sidebar_widget.cpp:324
+#: sidebar/sidebar_widget.cpp:308
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>तुम्हाला नक्की <b>%1</b> टॅब काढून टाकायचे?</qt>"
 
-#: sidebar/sidebar_widget.cpp:370
+#: sidebar/sidebar_widget.cpp:353
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
 "visible again, click the right mouse button on any of the navigation panel "
 "buttons and select \"Show Configuration Button\"."
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:438
+#: sidebar/sidebar_widget.cpp:421
 msgid "Configure Sidebar"
 msgstr "साधनपट्टी संयोजीत करा"
 
-#: sidebar/sidebar_widget.cpp:551
+#: sidebar/sidebar_widget.cpp:539
 msgid "Set Name..."
 msgstr "नाव निश्चित करा..."
 
-#: sidebar/sidebar_widget.cpp:552
+#: sidebar/sidebar_widget.cpp:540
 msgid "Set URL..."
 msgstr "URL निश्चित करा..."
 
-#: sidebar/sidebar_widget.cpp:553
+#: sidebar/sidebar_widget.cpp:541
 msgid "Set Icon..."
 msgstr "चिन्ह निश्चित करा..."
 
-#: sidebar/sidebar_widget.cpp:555
+#: sidebar/sidebar_widget.cpp:543
 msgid "Remove"
 msgstr "काढूण टाका"
 
-#: sidebar/web_module/web_module.cpp:86
+#: sidebar/web_module/web_module.cpp:89
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "पुन्हदाखलन टाईमआऊट निश्चित करा (0 अकार्यान्वीत करते)"
 
-#: sidebar/web_module/web_module.cpp:94
+#: sidebar/web_module/web_module.cpp:97
 msgid " min"
 msgstr " min"
 
-#: sidebar/web_module/web_module.cpp:96
+#: sidebar/web_module/web_module.cpp:99
 msgid " sec"
 msgstr " sec"
 
-#: sidebar/web_module/web_module.cpp:210
-msgid "Web SideBar Plugin"
-msgstr "वेब बाजूचीपट्टी प्लगइन"
+#: sidebar/web_module/web_module.cpp:231
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "वेब बाजूचीपट्टी"
+
+#: sidebar/web_module/web_module.cpp:252
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -2351,6 +2370,15 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid "Select Type"
+#~ msgstr "प्रकार निवडा"
+
+#~ msgid "Select type:"
+#~ msgstr "प्रकार निवडा:"
+
+#~ msgid "Web SideBar Plugin"
+#~ msgstr "वेब बाजूचीपट्टी प्लगइन"
 
 #~ msgid "<qt><b>%1</b> does not exist</qt>"
 #~ msgstr "<qt><b>%1</b> अस्तित्वात नाही</qt>"
