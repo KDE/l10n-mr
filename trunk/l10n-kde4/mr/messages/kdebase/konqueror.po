@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-10 06:08+0100\n"
+"POT-Creation-Date: 2009-11-11 06:19+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -411,7 +411,7 @@ msgstr ""
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1396
+#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1398
 msgid "Discard Changes?"
 msgstr "बदलाव रद्द करा?"
 
@@ -419,7 +419,7 @@ msgstr "बदलाव रद्द करा?"
 #: src/konqmainwindow.cpp:2421 src/konqmainwindow.cpp:2510
 #: src/konqmainwindow.cpp:2528 src/konqmainwindow.cpp:2548
 #: src/konqmainwindow.cpp:2596 src/konqmainwindow.cpp:2629
-#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1396
+#: src/konqmainwindow.cpp:5078 src/konqviewmanager.cpp:1398
 msgid "&Discard Changes"
 msgstr "बदलाव रद्द करा (&D)"
 
@@ -969,7 +969,7 @@ msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "या चौकट अंतर्गत अनेक टॅब उघडे आहेत, तुम्हाला नक्की बाहेर पडायचे?"
 
-#: src/konqmainwindow.cpp:5040 src/konqviewmanager.cpp:1378
+#: src/konqmainwindow.cpp:5040 src/konqviewmanager.cpp:1380
 msgid "Confirmation"
 msgstr "पुष्टिकरण"
 
@@ -1122,7 +1122,7 @@ msgstr "पुन्हा करा: बंद चौकट (&o)"
 msgid "Und&o"
 msgstr ""
 
-#: src/konqviewmanager.cpp:1376
+#: src/konqviewmanager.cpp:1378
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -1130,11 +1130,11 @@ msgstr ""
 "या चौकटीत अनेक टॅब उघडे आहेत.\n"
 "प्रोफाइल दृश्य दाखलनवेळी बंद होतात."
 
-#: src/konqviewmanager.cpp:1379
+#: src/konqviewmanager.cpp:1381
 msgid "Load View Profile"
 msgstr "प्रोफाइल दृश्य दाखल करतात"
 
-#: src/konqviewmanager.cpp:1395
+#: src/konqviewmanager.cpp:1397
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1314,7 +1314,12 @@ msgstr[1] "दिवस"
 msgid "<h1>History Sidebar</h1> You can configure the history sidebar here."
 msgstr "<h1>इतिहास बाजूचीपट्टी</h1> तुम्ही येथे इतिहास बाजूचीपट्टी संयोजीत करू शकता."
 
-#: sidebar/trees/konqsidebar_tree.cpp:173
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr "वृक्ष अंतर्गत मुख्य घटक %1 आढळला नाही. आंतरीक त्रुटी."
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
 #: sidebar/web_module/web_module.cpp:251
 #, fuzzy
 #| msgid "Name:"
@@ -1322,60 +1327,55 @@ msgctxt "@label"
 msgid "Name:"
 msgstr "नाव:"
 
-#: sidebar/trees/konqsidebar_tree.cpp:173
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
 #: sidebar/web_module/web_module.cpp:251
 msgctxt "@label"
 msgid "Path or URL:"
 msgstr ""
 
-#: sidebar/trees/konqsidebar_tree.cpp:174
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
 msgctxt "@title:window"
 msgid "Add folder sidebar module"
 msgstr ""
 
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:415
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "वृक्ष अंतर्गत मुख्य घटक %1 आढळला नाही. आंतरीक त्रुटी."
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:73
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
 msgstr "नविन संचयीका बनवा (&C)"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:204
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:210
 msgid "Delete Folder"
 msgstr "संचयीका काढून टाका"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:81
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
 msgid "Delete Bookmark"
 msgstr "ओळखचिन्ह काढून टाका"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:220
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:227
 msgid "Properties"
 msgstr "गुणधर्म"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:224
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:231
 msgid "Open in New Window"
 msgstr "नविन चौकट उघडा"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:228
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:94
+#: sidebar/trees/konq_sidebartree.cpp:235
 msgid "Open in New Tab"
 msgstr "नविन टॅब अंतर्गत उघडा"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:97
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
 msgid "Open Folder in Tabs"
 msgstr "टॅब अंतर्गत संचयीका उघडा"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:232
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:239
 msgid "Copy Link Address"
 msgstr "लिंक पत्ता प्रतिकृत करा"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:333
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:334
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
@@ -1384,7 +1384,7 @@ msgstr ""
 "तुम्हाला नक्की ओळखचिन्ह संचयीका\n"
 "\"%1\" काढून टाकायचे?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:334
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark\n"
@@ -1393,27 +1393,27 @@ msgstr ""
 "तुम्हाला नक्की ओळखचिन्ह\n"
 "\"%1\" काढून टाकायचे?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
 msgid "Bookmark Folder Deletion"
 msgstr "ओळखचिन्ह संचयीका नष्ट करणे"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
 msgid "Bookmark Deletion"
 msgstr "ओळखचिन्ह नष्ट करणे"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:378
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:379
 msgid "Bookmark Properties"
 msgstr "ओळखचिन्ह गुणधर्म"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:558
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:559
 msgid "&Update"
 msgstr "अद्ययावत (&U)"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:566
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:567
 msgid "Name:"
 msgstr "नाव:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:574
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:575
 msgid "Location:"
 msgstr "स्थान:"
 
@@ -1421,31 +1421,31 @@ msgstr "स्थान:"
 msgid "Add Bookmark"
 msgstr "ओळखचिन्ह जोडा"
 
-#: sidebar/trees/konq_sidebartree.cpp:200
+#: sidebar/trees/konq_sidebartree.cpp:206
 msgid "&Create New Folder..."
 msgstr "नविन संचयीका बनवा (&C)..."
 
-#: sidebar/trees/konq_sidebartree.cpp:208
+#: sidebar/trees/konq_sidebartree.cpp:214
 msgid "Move to Trash"
 msgstr ""
 
-#: sidebar/trees/konq_sidebartree.cpp:212
+#: sidebar/trees/konq_sidebartree.cpp:218
 msgid "Rename"
 msgstr "पुन्हनामांकन"
 
-#: sidebar/trees/konq_sidebartree.cpp:216
+#: sidebar/trees/konq_sidebartree.cpp:223
 msgid "Delete Link"
 msgstr "लिंक नष्ट करा"
 
-#: sidebar/trees/konq_sidebartree.cpp:943
+#: sidebar/trees/konq_sidebartree.cpp:954
 msgid "New Folder"
 msgstr "नवीन संचयीका"
 
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:958
 msgid "Create New Folder"
 msgstr "नविन संचयीका बनवा"
 
-#: sidebar/trees/konq_sidebartree.cpp:948
+#: sidebar/trees/konq_sidebartree.cpp:959
 msgid "Enter folder name:"
 msgstr "संचयीका नाव प्रविष्ट करा:"
 
@@ -1457,9 +1457,9 @@ msgstr "विस्तारीत बाजूचीपट्टी"
 msgid "Rollback to System Default"
 msgstr "प्रणाली मुलभूत करीता रॉलबॅक करा"
 
-#: sidebar/sidebar_widget.cpp:152
-msgid "Configure Navigation Panel"
-msgstr "संचारन पटल संयोजीत करा"
+#: sidebar/sidebar_widget.cpp:152 sidebar/sidebar_widget.cpp:412
+msgid "Configure Sidebar"
+msgstr "साधनपट्टी संयोजीत करा"
 
 #: sidebar/sidebar_widget.cpp:154
 msgid "Add New"
@@ -1478,8 +1478,10 @@ msgid "Show Configuration Button"
 msgstr "संयोजना बटण दर्शवा"
 
 #: sidebar/sidebar_widget.cpp:164
-msgid "Close Navigation Panel"
-msgstr "संचारन पटल दर्शवा"
+#, fuzzy
+#| msgid "Web Sidebar"
+msgid "Close Sidebar"
+msgstr "वेब बाजूचीपट्टी"
 
 #: sidebar/sidebar_widget.cpp:192
 msgid "This entry already exists."
@@ -1523,23 +1525,19 @@ msgid ""
 "buttons and select \"Show Configuration Button\"."
 msgstr ""
 
-#: sidebar/sidebar_widget.cpp:421
-msgid "Configure Sidebar"
-msgstr "साधनपट्टी संयोजीत करा"
-
-#: sidebar/sidebar_widget.cpp:539
+#: sidebar/sidebar_widget.cpp:530
 msgid "Set Name..."
 msgstr "नाव निश्चित करा..."
 
-#: sidebar/sidebar_widget.cpp:540
+#: sidebar/sidebar_widget.cpp:531
 msgid "Set URL..."
 msgstr "URL निश्चित करा..."
 
-#: sidebar/sidebar_widget.cpp:541
+#: sidebar/sidebar_widget.cpp:532
 msgid "Set Icon..."
 msgstr "चिन्ह निश्चित करा..."
 
-#: sidebar/sidebar_widget.cpp:543
+#: sidebar/sidebar_widget.cpp:534
 msgid "Remove"
 msgstr "काढूण टाका"
 
@@ -2381,6 +2379,12 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid "Configure Navigation Panel"
+#~ msgstr "संचारन पटल संयोजीत करा"
+
+#~ msgid "Close Navigation Panel"
+#~ msgstr "संचारन पटल दर्शवा"
 
 #~ msgid "Select Type"
 #~ msgstr "प्रकार निवडा"
