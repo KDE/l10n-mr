@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-16 01:21+0200\n"
+"POT-Creation-Date: 2009-11-23 01:24+0100\n"
 "PO-Revision-Date: 2009-07-08 21:55+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -61,15 +61,43 @@ msgid ""
 "equal sign is the one you need to enter here.</qt>"
 msgstr ""
 
-#: editactiondialog.cpp:32
+#: editactiondialog.cpp:35
+#, fuzzy
+#| msgid "Ignore images"
+msgid "Ignore"
+msgstr "प्रतिमा दुर्लक्ष करा"
+
+#: editactiondialog.cpp:37
+msgid "Replace"
+msgstr ""
+
+#: editactiondialog.cpp:39
+msgid "Add"
+msgstr ""
+
+#: editactiondialog.cpp:219
+msgid "Command"
+msgstr "आदेश"
+
+#: editactiondialog.cpp:221
+msgid "Use Output"
+msgstr ""
+
+#. i18n: file: actionsconfig.ui:33
+#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
+#: editactiondialog.cpp:223 rc.cpp:9 rc.cpp:165
+msgid "Description"
+msgstr "वर्णन"
+
+#: editactiondialog.cpp:263
 msgid "Action Properties"
 msgstr "क्रिया गुणधर्म"
 
-#: editactiondialog.cpp:136
+#: editactiondialog.cpp:347
 msgid "new command"
 msgstr "नविन आदेश"
 
-#: editactiondialog.cpp:138
+#: editactiondialog.cpp:348
 msgid "Command Description"
 msgstr "आदेश वर्णन"
 
@@ -123,15 +151,15 @@ msgstr "सुरू करा"
 msgid "Do Not Start"
 msgstr "सुरू करू नका"
 
-#: klipper.cpp:986
+#: klipper.cpp:976
 msgid "KDE cut & paste history utility"
 msgstr "KDE कापा & चिकटवा इतिहास उपकार्यक्रम"
 
-#: klipper.cpp:990
+#: klipper.cpp:980
 msgid "Klipper"
 msgstr "क्लिपर"
 
-#: klipper.cpp:992
+#: klipper.cpp:982
 msgid ""
 "(c) 1998, Andrew Stanley-Jones\n"
 "1998-2002, Carsten Pfeiffer\n"
@@ -141,43 +169,43 @@ msgstr ""
 "1998-2002, Carsten Pfeiffer\n"
 "2001, Patrick Dubroy"
 
-#: klipper.cpp:996
+#: klipper.cpp:986
 msgid "Carsten Pfeiffer"
 msgstr "Carsten Pfeiffer"
 
-#: klipper.cpp:997
+#: klipper.cpp:987
 msgid "Author"
 msgstr "लेखक"
 
-#: klipper.cpp:1000
+#: klipper.cpp:990
 msgid "Andrew Stanley-Jones"
 msgstr "Andrew Stanley-Jones"
 
-#: klipper.cpp:1001
+#: klipper.cpp:991
 msgid "Original Author"
 msgstr "मुळ लेखक"
 
-#: klipper.cpp:1004
+#: klipper.cpp:994
 msgid "Patrick Dubroy"
 msgstr "Patrick Dubroy"
 
-#: klipper.cpp:1005
+#: klipper.cpp:995
 msgid "Contributor"
 msgstr "सहभागी"
 
-#: klipper.cpp:1008
+#: klipper.cpp:998
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: klipper.cpp:1009
+#: klipper.cpp:999
 msgid "Bugfixes and optimizations"
 msgstr "बग निर्धारण व सुधारणा"
 
-#: klipper.cpp:1012
+#: klipper.cpp:1002
 msgid "Esben Mose Hansen"
 msgstr "Esben Mose Hansen"
 
-#: klipper.cpp:1013
+#: klipper.cpp:1003
 msgid "Maintainer"
 msgstr "पालक"
 
@@ -199,55 +227,43 @@ msgstr "अधिक (&M)"
 
 #. i18n: file: actionsconfig.ui:17
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3 rc.cpp:162
+#: rc.cpp:3 rc.cpp:159
 msgid "Action list:"
 msgstr "क्रिया यादी:"
 
 #. i18n: file: actionsconfig.ui:28
 #. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: rc.cpp:6 rc.cpp:165
+#: rc.cpp:6 rc.cpp:162
 msgid "Regular Expression"
 msgstr "रेग्यूलर एक्सप्रेशन"
 
-#. i18n: file: actionsconfig.ui:33
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#. i18n: file: editactiondialog.ui:80
-#. i18n: ectx: property (text), widget (QTreeWidget, twCommandList)
-#. i18n: file: actionsconfig.ui:33
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#. i18n: file: editactiondialog.ui:80
-#. i18n: ectx: property (text), widget (QTreeWidget, twCommandList)
-#: rc.cpp:9 rc.cpp:46 rc.cpp:168 rc.cpp:205
-msgid "Description"
-msgstr "वर्णन"
-
 #. i18n: file: actionsconfig.ui:43
 #. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
-#: rc.cpp:12 rc.cpp:171
+#: rc.cpp:12 rc.cpp:168
 msgid "Add Action..."
 msgstr "क्रिया समावेष करा..."
 
 #. i18n: file: actionsconfig.ui:50
 #. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
-#: rc.cpp:15 rc.cpp:174
+#: rc.cpp:15 rc.cpp:171
 msgid "Edit Action..."
 msgstr "क्रिया संपादीत करा..."
 
 #. i18n: file: actionsconfig.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
-#: rc.cpp:18 rc.cpp:177
+#: rc.cpp:18 rc.cpp:174
 msgid "Delete Action"
 msgstr "क्रिया नष्ट करा"
 
 #. i18n: file: actionsconfig.ui:64
 #. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
-#: rc.cpp:21 rc.cpp:180
+#: rc.cpp:21 rc.cpp:177
 msgid "Advanced"
 msgstr "प्रगत"
 
 #. i18n: file: actionsconfig.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:25 rc.cpp:184
+#: rc.cpp:25 rc.cpp:181
 #, no-c-format
 msgid ""
 "Click on a highlighted item's column to change it. \"%s\" in a command will "
@@ -258,73 +274,73 @@ msgstr ""
 
 #. i18n: file: editactiondialog.ui:20
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:28 rc.cpp:187
+#: rc.cpp:28 rc.cpp:184
 msgid "Action properties:"
 msgstr ""
 
 #. i18n: file: editactiondialog.ui:42
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:31 rc.cpp:190
+#: rc.cpp:31 rc.cpp:187
 msgid "Regular expression:"
 msgstr "रेग्यूलर एक्सप्रेशन:"
 
 #. i18n: file: editactiondialog.ui:52
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:34 rc.cpp:193
+#: rc.cpp:34 rc.cpp:190
 msgid "Description:"
 msgstr "वर्णन:"
 
-#. i18n: file: editactiondialog.ui:64
+#. i18n: file: editactiondialog.ui:62
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:37 rc.cpp:193
+msgid "Automatic:"
+msgstr ""
+
+#. i18n: file: editactiondialog.ui:87
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:37 rc.cpp:196
+#: rc.cpp:40 rc.cpp:196
 msgid "List of commands for this action:"
 msgstr ""
 
-#. i18n: file: editactiondialog.ui:71
-#. i18n: ectx: property (toolTip), widget (QTreeWidget, twCommandList)
-#: rc.cpp:40 rc.cpp:199
-msgid "Double-click an item to edit"
-msgstr "संपादन करीता घटकावर दोनवेळा-क्लिक करा"
-
-#. i18n: file: editactiondialog.ui:75
-#. i18n: ectx: property (text), widget (QTreeWidget, twCommandList)
-#: rc.cpp:43 rc.cpp:202
-msgid "Command"
-msgstr "आदेश"
-
-#. i18n: file: editactiondialog.ui:138
+#. i18n: file: editactiondialog.ui:144
 #. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
-#: rc.cpp:49 rc.cpp:208
+#: rc.cpp:43 rc.cpp:199
 msgid "Add Command"
 msgstr "आदेश जोडा"
 
-#. i18n: file: editactiondialog.ui:145
+#. i18n: file: editactiondialog.ui:151
 #. i18n: ectx: property (text), widget (QPushButton, pbRemoveCommand)
-#: rc.cpp:52 rc.cpp:211
+#: rc.cpp:46 rc.cpp:202
 msgid "Remove Command"
 msgstr "आदेश काढूण टाका"
 
+#. i18n: file: editactiondialog.ui:176
+#. i18n: ectx: property (toolTip), widget (QTableView, twCommandList)
+#: rc.cpp:49 rc.cpp:205
+msgid "Double-click an item to edit"
+msgstr "संपादन करीता घटकावर दोनवेळा-क्लिक करा"
+
 #. i18n: file: generalconfig.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PopupAtMousePosition)
-#: rc.cpp:55 rc.cpp:214
+#: rc.cpp:52 rc.cpp:208
 msgid "Popup menu at mouse-cursor position"
 msgstr "माऊस-कर्सर ठिकाण येथिल पॉपअप मेन्यू"
 
 #. i18n: file: generalconfig.ui:23
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepClipboardContents)
-#: rc.cpp:58 rc.cpp:217
+#: rc.cpp:55 rc.cpp:211
 msgid "Save clipboard contents on exit"
 msgstr "बाहेरपडतेवेळी क्लिपबोर्ड अंतर्भूत माहिती साठवा"
 
 #. i18n: file: generalconfig.ui:30
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_StripWhiteSpace)
-#: rc.cpp:61 rc.cpp:220
+#: rc.cpp:58 rc.cpp:214
 msgid "Remove whitespace when executing actions"
 msgstr "क्रिया कार्यान्वीत करतेवेळी वाइटस्पेस काढूण टाका"
 
 #. i18n: file: generalconfig.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReplayActionInHistory)
-#: rc.cpp:64 rc.cpp:223
+#: rc.cpp:61 rc.cpp:217
 msgid "Replay actions on an item selected from history"
 msgstr "इतिहास पासून नीवडलेल्या घटक वरील क्रिया पुन्हा चालवा"
 
@@ -334,7 +350,7 @@ msgstr "इतिहास पासून नीवडलेल्या घट
 #. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
 #. i18n: file: generalconfig.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
-#: rc.cpp:67 rc.cpp:115 rc.cpp:226
+#: rc.cpp:64 rc.cpp:112 rc.cpp:220
 msgid "Prevent empty clipboard"
 msgstr "रिकामे क्लिपबोर्ड टाळा"
 
@@ -344,7 +360,7 @@ msgstr "रिकामे क्लिपबोर्ड टाळा"
 #. i18n: ectx: label, entry (IgnoreSelection), group (General)
 #. i18n: file: generalconfig.ui:51
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#: rc.cpp:70 rc.cpp:121 rc.cpp:229
+#: rc.cpp:67 rc.cpp:118 rc.cpp:223
 msgid "Ignore selection"
 msgstr "नीवड दुर्लक्ष करा"
 
@@ -354,79 +370,79 @@ msgstr "नीवड दुर्लक्ष करा"
 #. i18n: ectx: label, entry (IgnoreImages), group (General)
 #. i18n: file: generalconfig.ui:58
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreImages)
-#: rc.cpp:73 rc.cpp:127 rc.cpp:232
+#: rc.cpp:70 rc.cpp:124 rc.cpp:226
 msgid "Ignore images"
 msgstr "प्रतिमा दुर्लक्ष करा"
 
 #. i18n: file: generalconfig.ui:65
 #. i18n: ectx: property (title), widget (KButtonGroup, kcfg_Synchronize)
-#: rc.cpp:76 rc.cpp:235
+#: rc.cpp:73 rc.cpp:229
 msgid "Clipboard/Selection Behavior"
 msgstr "क्लिपबोर्ड/निवड वर्तन"
 
 #. i18n: file: generalconfig.ui:71
 #. i18n: ectx: property (text), widget (QRadioButton, rbSynchronize)
-#: rc.cpp:79 rc.cpp:238
+#: rc.cpp:76 rc.cpp:232
 msgid "Synchronize contents of the clipboard and the selection"
 msgstr "क्लिपबोर्ड व नीवड अंतर्गत अंतर्भूत माहितीची समजुळवणी करा"
 
 #. i18n: file: generalconfig.ui:78
 #. i18n: ectx: property (text), widget (QRadioButton, rbSeparate)
-#: rc.cpp:82 rc.cpp:241
+#: rc.cpp:79 rc.cpp:235
 msgid "Separate clipboard and selection"
 msgstr "क्लिपबोर्ड व निवड वेगळे करा"
 
 #. i18n: file: generalconfig.ui:88
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:85 rc.cpp:244
+#: rc.cpp:82 rc.cpp:238
 msgid "Timeout for action popups:"
 msgstr "क्रिया पॉपअप करीता वेळसमाप्ती:"
 
 #. i18n: file: generalconfig.ui:98
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TimeoutForActionPopups)
-#: rc.cpp:88 rc.cpp:247
+#: rc.cpp:85 rc.cpp:241
 msgid " sec"
 msgstr " sec"
 
 #. i18n: file: generalconfig.ui:105
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:91 rc.cpp:250
+#: rc.cpp:88 rc.cpp:244
 msgid "Clipboard history size:"
 msgstr "क्लिपबोर्ड इतिहास आकार:"
 
 #. i18n: file: generalconfig.ui:115
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_MaxClipItems)
-#: rc.cpp:94 rc.cpp:253
+#: rc.cpp:91 rc.cpp:247
 msgid " entries"
 msgstr " entries"
 
 #. i18n: file: klipper.kcfg:9
 #. i18n: ectx: label, entry (Version), group (General)
-#: rc.cpp:97
+#: rc.cpp:94
 msgid "Klipper version"
 msgstr "Klipper आवृत्ती"
 
 #. i18n: file: klipper.kcfg:12
 #. i18n: ectx: label, entry (PopupAtMousePosition), group (General)
-#: rc.cpp:100
+#: rc.cpp:97
 msgid "Popup at mouse position"
 msgstr "माऊस ठिकाण येथिल पॉपअप"
 
 #. i18n: file: klipper.kcfg:16
 #. i18n: ectx: label, entry (KeepClipboardContents), group (General)
-#: rc.cpp:103
+#: rc.cpp:100
 msgid "Keep clipboard contents"
 msgstr "क्लिपबोर्ड अंतर्भूत माहिती सुरक्षित करा"
 
 #. i18n: file: klipper.kcfg:20
 #. i18n: ectx: label, entry (StripWhiteSpace), group (General)
-#: rc.cpp:106
+#: rc.cpp:103
 msgid "Strip whitespace when executing an action"
 msgstr "क्रिया कार्यान्वीत करतेवेळी वाइटस्पेस काढूण टाका"
 
 #. i18n: file: klipper.kcfg:22
 #. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (General)
-#: rc.cpp:109
+#: rc.cpp:106
 msgid ""
 "Sometimes, the selected text has some whitespace at the end, which, if "
 "loaded as URL in a browser would cause an error. Enabling this option "
@@ -436,13 +452,13 @@ msgstr ""
 
 #. i18n: file: klipper.kcfg:25
 #. i18n: ectx: label, entry (ReplayActionInHistory), group (General)
-#: rc.cpp:112
+#: rc.cpp:109
 msgid "Replay action in history"
 msgstr "इतिहास पासून क्रिया पुन्हा चालवा"
 
 #. i18n: file: klipper.kcfg:31
 #. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
-#: rc.cpp:118
+#: rc.cpp:115
 msgid ""
 "Selecting this option has the effect, that the clipboard can never be "
 "emptied. E.g. when an application exits, the clipboard would usually be "
@@ -451,7 +467,7 @@ msgstr ""
 
 #. i18n: file: klipper.kcfg:36
 #. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
-#: rc.cpp:124
+#: rc.cpp:121
 msgid ""
 "This option prevents the selection being recorded in the clipboard history. "
 "Only explicit clipboard changes are recorded."
@@ -461,19 +477,19 @@ msgstr ""
 
 #. i18n: file: klipper.kcfg:43
 #. i18n: ectx: label, entry (Synchronize), group (General)
-#: rc.cpp:130
+#: rc.cpp:127
 msgid "Synchronize clipboard and selection"
 msgstr "क्लिपबोर्ड व नीवडची समजुळवणी करा"
 
 #. i18n: file: klipper.kcfg:47
 #. i18n: ectx: label, entry (SelectionTextOnly), group (General)
-#: rc.cpp:133
+#: rc.cpp:130
 msgid "Selection text only"
 msgstr "फक्त नीवड पाठ्य"
 
 #. i18n: file: klipper.kcfg:49
 #. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
-#: rc.cpp:136
+#: rc.cpp:133
 msgid ""
 "<qt>There are two different clipboard buffers available:<br /><br /"
 "><b>Clipboard</b> is filled by selecting something and pressing Ctrl+C, or "
@@ -485,52 +501,52 @@ msgstr ""
 
 #. i18n: file: klipper.kcfg:52
 #. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
-#: rc.cpp:139
+#: rc.cpp:136
 msgid "Use graphical regexp editor"
 msgstr "चित्रलेखीय regexp संपादकाचा वापर करा"
 
 #. i18n: file: klipper.kcfg:56
 #. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
-#: rc.cpp:142
+#: rc.cpp:139
 msgid "URL grabber enabled"
 msgstr "URL grabber कार्यान्वीत केले"
 
 #. i18n: file: klipper.kcfg:61
 #. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
-#: rc.cpp:145
+#: rc.cpp:142
 msgid "No actions for WM_CLASS"
 msgstr "WM_CLASS करीता क्रिया आढळली नाही"
 
 #. i18n: file: klipper.kcfg:64
 #. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
-#: rc.cpp:148
+#: rc.cpp:145
 msgid "Timeout for action popups (seconds)"
 msgstr "क्रिया पॉपअपस् करीता वेळ समाप्ति (सेकंद)"
 
 #. i18n: file: klipper.kcfg:68
 #. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
-#: rc.cpp:151
+#: rc.cpp:148
 msgid "A value of 0 disables the timeout"
 msgstr "मुल्य 0 असल्यावर टाइमआऊट अकार्यान्वीत होते"
 
 #. i18n: file: klipper.kcfg:71
 #. i18n: ectx: label, entry (MaxClipItems), group (General)
-#: rc.cpp:154
+#: rc.cpp:151
 msgid "Clipboard history size"
 msgstr "क्लिपबोर्ड हतिहास आकार"
 
 #. i18n: file: klipper.kcfg:77
 #. i18n: ectx: label, entry (ActionList), group (General)
-#: rc.cpp:157
+#: rc.cpp:154
 msgid "Dummy entry for indicating changes in an action's tree widget"
 msgstr ""
 
-#: rc.cpp:158
+#: rc.cpp:155
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "संदिप शेडमाके"
 
-#: rc.cpp:159
+#: rc.cpp:156
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sandeep.shedmake@gmail.com"
@@ -539,23 +555,23 @@ msgstr "sandeep.shedmake@gmail.com"
 msgid "Klipper - clipboard tool"
 msgstr "Klipper - क्लिपबोर्ड साधन"
 
-#: urlgrabber.cpp:218
+#: urlgrabber.cpp:212
 #, kde-format
 msgid "%1 - Actions For: %2"
 msgstr "%1 - करीता क्रिया: %2"
 
-#: urlgrabber.cpp:246
+#: urlgrabber.cpp:240
 msgid "Disable This Popup"
 msgstr "हे पॉपअप अकार्यान्वीत करा"
 
-#: urlgrabber.cpp:252
+#: urlgrabber.cpp:246
 msgid "&Edit Contents..."
 msgstr "अनुक्रम संपादीत करा (&E)..."
 
-#: urlgrabber.cpp:256
+#: urlgrabber.cpp:250
 msgid "&Cancel"
 msgstr "रद्द करा (&C)"
 
-#: urlgrabber.cpp:333
+#: urlgrabber.cpp:317
 msgid "Edit Contents"
 msgstr "अनुक्रम संपादीत करा"
