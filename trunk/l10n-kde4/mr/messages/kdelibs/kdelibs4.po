@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-23 06:13+0100\n"
+"POT-Creation-Date: 2009-11-24 06:10+0100\n"
 "PO-Revision-Date: 2009-01-06 22:19+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -116,7 +116,7 @@ msgstr "ईमेल पत्ता:"
 #. i18n: file: knewstuff/knewstuff3/ui/UploadDialog.ui:46
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:35 rc.cpp:86 kross/ui/view.cpp:151
-#: kdeui/colors/kcolordialog.cpp:1179
+#: kdeui/colors/kcolordialog.cpp:1186
 msgid "Name:"
 msgstr "नाव:"
 
@@ -7054,7 +7054,7 @@ msgid "View Comments"
 msgstr "टिपण्णी पहा"
 
 #: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
-#: knewstuff/knewstuff3/core/engine.cpp:408
+#: knewstuff/knewstuff3/core/engine.cpp:413
 #, kde-format
 msgid "Re: %1"
 msgstr "Re: %1"
@@ -7308,6 +7308,7 @@ msgid "Leave a comment"
 msgstr "टिपण्णी सोडा"
 
 #: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
+#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
 #, fuzzy
 #| msgid "Download New Stuff"
 msgid "Download New Stuff..."
@@ -7421,17 +7422,6 @@ msgctxt "Sorting order of the list of items in get hot new stuff"
 msgid "Installed only"
 msgstr "प्रतिष्ठापन"
 
-#: knewstuff/knewstuff3/knewstuffbutton.cpp:47
-#, fuzzy
-#| msgid "Download New Stuff"
-msgid "Download New Stuff"
-msgstr "नविन वस्तु डाउनलोड करा"
-
-#: knewstuff/knewstuff3/knewstuffbutton.cpp:59
-#, kde-format
-msgid "Download New %1"
-msgstr "नविन %1 डाउनलोड करा"
-
 #: knewstuff/knewstuff3/ui/itemsmodel.cpp:142
 #, fuzzy
 #| msgid "Loading Preview"
@@ -7490,12 +7480,12 @@ msgstr "फाइल खोडून पुन्हा लिहायची?"
 msgid "Download File:"
 msgstr "डाउनलोड"
 
-#: knewstuff/knewstuff3/core/engine.cpp:233
+#: knewstuff/knewstuff3/core/engine.cpp:238
 #, kde-format
 msgid "Could not load get hot new stuff providers from file: %1"
 msgstr ""
 
-#: knewstuff/knewstuff3/core/engine.cpp:270
+#: knewstuff/knewstuff3/core/engine.cpp:275
 #, kde-format
 msgid "Loading of providers from file: %1 failed"
 msgstr ""
@@ -13928,9 +13918,12 @@ msgid "The module %1 could not be found."
 msgstr "विभाग %1 आढळला नाही."
 
 #: kutils/kcmoduleloader.cpp:76
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</"
+#| "p></qt>"
 msgid ""
-"<qt><p>The diagnostics is:<br />The desktop file %1 could not be found.</p></"
+"<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
 "qt>"
 msgstr "<qt><p>शोध असा आहे की:<br /> डेस्कटॉप फाइल %1 आढळला नाही.</p></qt>"
 
@@ -13953,10 +13946,13 @@ msgid "The module %1 is not a valid configuration module."
 msgstr "विभाग %1 वैध संयोजना विभाग नाही."
 
 #: kutils/kcmoduleloader.cpp:133
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>The diagnostics is:<br />The desktop file %1 does not specify a "
+#| "library.</qt>"
 msgid ""
-"<qt>The diagnostics is:<br />The desktop file %1 does not specify a library."
-"</qt>"
+"<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
+"qt>"
 msgstr "<qt>शोध असा आहे की:<br />डेस्कटॉप फाइल %1 लायब्ररी व्याख्यीत करत नाही.</qt>"
 
 #: kutils/kcmoduleloader.cpp:152
@@ -13966,7 +13962,7 @@ msgstr "विभाग दाखल करतेवेळी त्रुटी
 #: kutils/kcmoduleloader.cpp:152
 #, kde-format
 msgid ""
-"<qt>The diagnostics is:<br />%1<p>Possible reasons:</p><ul><li>An error "
+"<qt>The diagnosis is:<br />%1<p>Possible reasons:</p><ul><li>An error "
 "occurred during your last KDE upgrade leaving an orphaned control module</"
 "li><li>You have old third party modules lying around.</li></ul><p>Check "
 "these points carefully and try to remove the module mentioned in the error "
@@ -14110,37 +14106,56 @@ msgstr "बाबींची चुकीची संख्या."
 
 #: kjsembed/kjsembed/qobject_binding.cpp:412
 #, kde-format
-msgid ""
-"The slot asked for %1 arguments but there are only %2 arguments available."
-msgstr ""
+msgid "The slot asked for %1 argument"
+msgid_plural "The slot asked for %1 arguments"
+msgstr[0] ""
+msgstr[1] ""
 
-#: kjsembed/kjsembed/qobject_binding.cpp:610
+#: kjsembed/kjsembed/qobject_binding.cpp:413
+#, fuzzy, kde-format
+#| msgid "There is no matching item available.\n"
+msgid "but there is only %1 available"
+msgid_plural "but there are only %1 available"
+msgstr[0] "जुळवणीनुरूप घटक उपलब्ध नाही.\n"
+msgstr[1] "जुळवणीनुरूप घटक उपलब्ध नाही.\n"
+
+#: kjsembed/kjsembed/qobject_binding.cpp:414
+#, fuzzy, kde-format
+#| msgctxt "concatenation of dates and time"
+#| msgid "%1 %2"
+msgctxt ""
+"%1 is 'the slot asked for foo arguments', %2 is 'but there are only bar "
+"available'"
+msgid "%1, %2."
+msgstr "%1 %2"
+
+#: kjsembed/kjsembed/qobject_binding.cpp:613
 #, kde-format
 msgid "Failure to cast to %1 value from Type %2 (%3)"
 msgstr "%2 (%3) पासून मूल्य %1 कास्ट करणे अपयशी"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:645
+#: kjsembed/kjsembed/qobject_binding.cpp:648
 #, kde-format
 msgid "No such method '%1'."
 msgstr "'%1' नुरूप कार्यपध्दती नाही."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:674
+#: kjsembed/kjsembed/qobject_binding.cpp:677
 #, kde-format
 msgid "Call to method '%1' failed, unable to get argument %2: %3"
 msgstr "पध्दती '%1' करीता कॉल अपयशी, आर्गुमेंट %2 प्राप्त करण्यास अपयशी: %3"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:717
+#: kjsembed/kjsembed/qobject_binding.cpp:720
 #, kde-format
 msgid "Call to '%1' failed."
 msgstr "'%1' ला कॉल अपयशी."
 
-#: kjsembed/kjsembed/qobject_binding.cpp:782
+#: kjsembed/kjsembed/qobject_binding.cpp:785
 #: kjsembed/kjsembed/object_binding.h:219
 #, kde-format
 msgid "%1 is not an Object type"
 msgstr "%1 ऑब्जेक्ट प्रकार नाही"
 
-#: kjsembed/kjsembed/qobject_binding.cpp:788
+#: kjsembed/kjsembed/qobject_binding.cpp:791
 msgid "Could not construct value"
 msgstr "मूल्य बनवू शकत नाही"
 
@@ -14703,58 +14718,71 @@ msgstr "वेब रंग"
 msgid "Named Colors"
 msgstr "नामांकीत रंग"
 
-#: kdeui/colors/kcolordialog.cpp:695
+#: kdeui/colors/kcolordialog.cpp:709
+#, fuzzy, kde-format
+#| msgid ""
+#| "Unable to read X11 RGB color strings. The following file location(s) were "
+#| "examined:\n"
+msgctxt ""
+"%1 is the number of paths, %2 is the list of paths (with newlines between "
+"them)"
 msgid ""
-"Unable to read X11 RGB color strings. The following file location(s) were "
+"Unable to read X11 RGB color strings. The following file location was "
 "examined:\n"
-msgstr "X11 RGB रंग अक्षरमाळा वाचण्यास अपयशी. खालिल फाइल स्थान परिक्षीत केले गेले:\n"
+"%2"
+msgid_plural ""
+"Unable to read X11 RGB color strings. The following file locations were "
+"examined:\n"
+"%2"
+msgstr[0] "X11 RGB रंग अक्षरमाळा वाचण्यास अपयशी. खालिल फाइल स्थान परिक्षीत केले गेले:\n"
+msgstr[1] "X11 RGB रंग अक्षरमाळा वाचण्यास अपयशी. खालिल फाइल स्थान परिक्षीत केले गेले:\n"
 
-#: kdeui/colors/kcolordialog.cpp:984
+#: kdeui/colors/kcolordialog.cpp:991
 msgid "Select Color"
 msgstr "रंग निवडा"
 
-#: kdeui/colors/kcolordialog.cpp:1053
+#: kdeui/colors/kcolordialog.cpp:1060
 msgid "Hue:"
 msgstr "वर्ण:"
 
-#: kdeui/colors/kcolordialog.cpp:1063
+#: kdeui/colors/kcolordialog.cpp:1070
 msgid "Saturation:"
 msgstr "संपृक्तता:"
 
-#: kdeui/colors/kcolordialog.cpp:1073
+#: kdeui/colors/kcolordialog.cpp:1080
 msgctxt "This is the V of HSV"
 msgid "Value:"
 msgstr "मुल्य:"
 
-#: kdeui/colors/kcolordialog.cpp:1087
+#: kdeui/colors/kcolordialog.cpp:1094
 msgid "Red:"
 msgstr "लाल:"
 
-#: kdeui/colors/kcolordialog.cpp:1096
+#: kdeui/colors/kcolordialog.cpp:1103
 msgid "Green:"
 msgstr "हिरवा:"
 
-#: kdeui/colors/kcolordialog.cpp:1106
+#: kdeui/colors/kcolordialog.cpp:1113
 msgid "Blue:"
 msgstr "निळा:"
 
-#: kdeui/colors/kcolordialog.cpp:1151
+#: kdeui/colors/kcolordialog.cpp:1158
 msgid "&Add to Custom Colors"
 msgstr "इच्छिक रंग जोडा (&A)"
 
-#: kdeui/colors/kcolordialog.cpp:1186
+#: kdeui/colors/kcolordialog.cpp:1193
 msgid "HTML:"
 msgstr "HTML:"
 
-#: kdeui/colors/kcolordialog.cpp:1276
+#: kdeui/colors/kcolordialog.cpp:1283
 msgid "Default color"
 msgstr "मुलभूत रंग"
 
-#: kdeui/colors/kcolordialog.cpp:1357
+#: kdeui/colors/kcolordialog.cpp:1364
 msgid "-default-"
 msgstr "-मुलभूत-"
 
-#: kdeui/colors/kcolordialog.cpp:1675
+#: kdeui/colors/kcolordialog.cpp:1682
 msgid "-unnamed-"
 msgstr "-निनावी-"
 
@@ -14959,6 +14987,14 @@ msgstr "आज चा नुस्खा (&D)"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" नुरूप फंक्शन नाही"
+
+#, fuzzy
+#~| msgid "Download New Stuff"
+#~ msgid "Download New Stuff"
+#~ msgstr "नविन वस्तु डाउनलोड करा"
+
+#~ msgid "Download New %1"
+#~ msgstr "नविन %1 डाउनलोड करा"
 
 #~ msgid "Conflict With Registered Global Shortcut(s)"
 #~ msgstr "पंजिकृत जागतिक शॉर्टकट सह मतभेद"
