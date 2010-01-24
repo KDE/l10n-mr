@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-12 06:42+0100\n"
+"POT-Creation-Date: 2010-01-24 06:12+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -55,7 +55,7 @@ msgstr "पावर व्यवस्थापन"
 msgid "Battery:"
 msgstr "<b>बॅटरी:</b> आढळली नाही<br />"
 
-#: battery.cpp:584 battery.cpp:601
+#: battery.cpp:584
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "%1% (charged)"
@@ -83,18 +83,31 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "<b>Battery %1:</b> %2% (charging)<br />"
 msgctxt "Placeholder is the battery ID"
-msgid "<b>Battery %1:</b> "
+msgid "<b>Battery %1:</b>"
 msgstr "<b>बॅटरी %1:</b> %2% (चार्ज करत आहे)<br />"
 
+#: battery.cpp:601
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgctxt "state of battery"
+msgid "%1% (charged)"
+msgstr "<b>बॅटरी:</b> %1% (पूर्णतया चार्ज केलेले)<br />"
+
 #: battery.cpp:603
-#, kde-format
-msgid "%2% (discharging)"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgctxt "state of battery"
+msgid "%1% (discharging)"
+msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
 
 #: battery.cpp:605
-#, kde-format
-msgid "%2% (charging)"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgctxt "state of battery"
+msgid "%1% (charging)"
+msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
 
 #: battery.cpp:609
 #, fuzzy
