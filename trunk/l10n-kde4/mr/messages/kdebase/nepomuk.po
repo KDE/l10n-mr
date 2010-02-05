@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-29 06:07+0100\n"
+"POT-Creation-Date: 2010-02-05 02:25+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -128,7 +128,15 @@ msgstr ""
 msgid "Delete Resource"
 msgstr ""
 
-#: kioslaves/nepomuk/kio_nepomuk.cpp:614
+#: kioslaves/nepomuk/kio_nepomuk.cpp:411
+#, kde-format
+msgctxt ""
+"%1 is a filename of a file on a removable device, %2 is the name of the "
+"removable medium which often is something like 'X GiB Removable Media."
+msgid "%1 (on unmounted medium <resource>%2</resource>)"
+msgstr ""
+
+#: kioslaves/nepomuk/kio_nepomuk.cpp:631
 #: kioslaves/search/kio_nepomuksearch.cpp:125
 msgid ""
 "The Nepomuk system is not activated. Unable to answer queries without it."
@@ -430,26 +438,33 @@ msgstr ""
 msgid "Parsing of file %1 failed (%2)"
 msgstr "फाइल %1 चे वाचन अपयशी (%2)"
 
-#: services/strigi/strigiservice.cpp:169
+#: services/strigi/strigiservice.cpp:178
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
 msgid "File indexer is suspended"
 msgstr "फाइल इन्डेक्सर सस्पेंड केले गेले आहे"
 
-#: services/strigi/strigiservice.cpp:171
+#: services/strigi/strigiservice.cpp:182
+#, fuzzy
+#| msgid "Strigi is currently indexing files in folder %1"
+msgctxt "@info:status"
+msgid "Strigi is currently indexing files"
+msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
+
+#: services/strigi/strigiservice.cpp:184
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files in folder %1"
 msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
 
-#: services/strigi/strigiservice.cpp:173
+#: services/strigi/strigiservice.cpp:187
 msgctxt "@info:status"
 msgid "Checking file system for new files"
 msgstr ""
 
-#: services/strigi/strigiservice.cpp:175
+#: services/strigi/strigiservice.cpp:190
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
@@ -526,7 +541,7 @@ msgstr "स्थानीय डिस्कवर जागा कमी आ�
 #, fuzzy, kde-format
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
-msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
 msgid "Initial indexing of files for fast searching finished in %1"
 msgstr "प्रारंभिक डेस्कटॉप शोध फाइल इनडेक्सींग %1 अंतर्गत पूर्ण झाले"
 
