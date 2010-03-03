@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_trash\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 06:11+0200\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -17,33 +17,19 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: ktrash.cpp:32
-msgid "ktrash"
-msgstr "ktrash"
+#: kio_trash_win.cpp:228 kio_trash.cpp:140
+msgid "This file is already in the trash bin."
+msgstr "ही फाइल आधिपासूनच कचरापेटीत आहे."
 
-#: ktrash.cpp:34
-msgid ""
-"Helper program to handle the KDE trash can\n"
-"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
-"'url' trash:/\""
+#: kio_trash_win.cpp:241
+msgid "not supported"
 msgstr ""
-"KDE कचरापेटी हाताळण्याकरीता मदत कार्यक्रम\n"
-"टिप: ट्रॅश करीत फाइल हलविण्याकरीता, ktrash चा वापर न करता, \"kioclient move "
-"'url' trash:/\" याचा वापर करा"
 
-#: ktrash.cpp:38
-msgid "Empty the contents of the trash"
-msgstr "कचरापेटीचे अनुक्रम रिकामे करा"
+#: kio_trash_win.cpp:252 kio_trash.cpp:228
+msgid "Internal error in copyOrMove, should never happen"
+msgstr ""
 
-#: ktrash.cpp:40
-msgid "Restore a trashed file to its original location"
-msgstr "कचरापेटीतील फाइल पुन्हा मुळ स्थानाकडे स्थापीत केले गेले"
-
-#: ktrash.cpp:42
-msgid "Ignored"
-msgstr "दुर्लक्ष केले"
-
-#: trashimpl.cpp:1116
+#: trashimpl.cpp:1114
 msgid ""
 "The trash has reached its maximum size!\n"
 "Cleanup the trash manually."
@@ -51,7 +37,7 @@ msgstr ""
 "कचरापेटीची कमाल आकार मर्यादा स्तर पर्यंत पोहचले!\n"
 "कचरापेटी स्वत: रिकामे करा."
 
-#: trashimpl.cpp:1127
+#: trashimpl.cpp:1125
 msgid "The file is too large to be trashed."
 msgstr "फाइल कचरापेटीकडे हलविण्याकरीता खूप मोठे आहे."
 
@@ -176,14 +162,28 @@ msgid ""
 "restore it."
 msgstr ""
 
-#: kio_trash.cpp:140 kio_trash_win.cpp:228
-msgid "This file is already in the trash bin."
-msgstr "ही फाइल आधिपासूनच कचरापेटीत आहे."
+#: ktrash.cpp:32
+msgid "ktrash"
+msgstr "ktrash"
 
-#: kio_trash.cpp:228 kio_trash_win.cpp:252
-msgid "Internal error in copyOrMove, should never happen"
+#: ktrash.cpp:34
+msgid ""
+"Helper program to handle the KDE trash can\n"
+"Note: to move files to the trash, do not use ktrash, but \"kioclient move "
+"'url' trash:/\""
 msgstr ""
+"KDE कचरापेटी हाताळण्याकरीता मदत कार्यक्रम\n"
+"टिप: ट्रॅश करीत फाइल हलविण्याकरीता, ktrash चा वापर न करता, \"kioclient move "
+"'url' trash:/\" याचा वापर करा"
 
-#: kio_trash_win.cpp:241
-msgid "not supported"
-msgstr ""
+#: ktrash.cpp:38
+msgid "Empty the contents of the trash"
+msgstr "कचरापेटीचे अनुक्रम रिकामे करा"
+
+#: ktrash.cpp:40
+msgid "Restore a trashed file to its original location"
+msgstr "कचरापेटीतील फाइल पुन्हा मुळ स्थानाकडे स्थापीत केले गेले"
+
+#: ktrash.cpp:42
+msgid "Ignored"
+msgstr "दुर्लक्ष केले"
