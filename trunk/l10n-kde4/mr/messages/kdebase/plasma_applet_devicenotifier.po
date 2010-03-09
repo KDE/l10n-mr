@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_devicenotifier\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-11 07:03+0100\n"
+"POT-Creation-Date: 2010-03-09 04:12+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -17,26 +17,34 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: deviceitem.cpp:271
+#: deviceitem.cpp:272
 msgid "Click to safely remove this device from the computer."
 msgstr ""
 
-#: deviceitem.cpp:272
+#: deviceitem.cpp:273
 msgid "Device is plugged in and can be accessed by applications."
 msgstr ""
 
-#: deviceitem.cpp:274
+#: deviceitem.cpp:275
 msgid "Click to access this device from other applications."
 msgstr ""
 
-#: deviceitem.cpp:275
+#: deviceitem.cpp:276
 msgid "Device is plugged in, but not mounted for access yet."
 msgstr ""
 
-#: deviceitem.cpp:366
+#: deviceitem.cpp:367
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
+msgstr ""
+
+#: deviceitem.cpp:421
+msgid "Mounting..."
+msgstr ""
+
+#: deviceitem.cpp:424
+msgid "Unmounting..."
 msgstr ""
 
 #: devicenotifier.cpp:202
@@ -60,11 +68,11 @@ msgctxt "General options page"
 msgid "General"
 msgstr ""
 
-#: notifierdialog.cpp:65
+#: notifierdialog.cpp:66
 msgid "Show hidden devices"
 msgstr ""
 
-#: notifierdialog.cpp:513
+#: notifierdialog.cpp:518
 #, fuzzy
 #| msgid ""
 #| "Cannot unmount the device.\n"
@@ -76,7 +84,7 @@ msgstr ""
 "साधन unmount करू शकत नाही.\n"
 "अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
 
-#: notifierdialog.cpp:532
+#: notifierdialog.cpp:537
 msgid ""
 "Cannot eject the disc.\n"
 "One or more files on this disc are open within an application."
@@ -84,27 +92,23 @@ msgstr ""
 "डिस्क बाहेर काढू शकत नाही.\n"
 "अनुप्रयोग अंतर्गत एक किंवा त्यापेक्षा जास्त फाइल या साधनवर उघडले आहेत."
 
-#: notifierdialog.cpp:547
+#: notifierdialog.cpp:552
 msgid "Cannot mount the disc."
 msgstr ""
 
-#: notifierdialog.cpp:756
+#: notifierdialog.cpp:761
 #, kde-format
 msgctxt "Hide a device"
 msgid "Hide %1"
 msgstr ""
 
-#: notifierdialog.cpp:820
-#, fuzzy
-#| msgid "No devices plugged in"
-msgid "No devices plugged in."
-msgstr "साधन जोडले नाही"
+#: notifierdialog.cpp:825
+msgid "Available Devices"
+msgstr ""
 
-#: notifierdialog.cpp:822
-#, fuzzy
-#| msgid "<font color=\"%1\">Devices recently plugged in:</font>"
-msgid "Devices recently plugged in:"
-msgstr "<font color=\"%1\">नुकतेच जुळलेले साधन:</font>"
+#: notifierdialog.cpp:827
+msgid "No Devices Available"
+msgstr ""
 
 #. i18n: file: configurationpage.ui:23
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -129,3 +133,13 @@ msgstr ""
 #: rc.cpp:12 rc.cpp:24
 msgid "All devices"
 msgstr ""
+
+#, fuzzy
+#~| msgid "No devices plugged in"
+#~ msgid "No devices plugged in."
+#~ msgstr "साधन जोडले नाही"
+
+#, fuzzy
+#~| msgid "<font color=\"%1\">Devices recently plugged in:</font>"
+#~ msgid "Devices recently plugged in:"
+#~ msgstr "<font color=\"%1\">नुकतेच जुळलेले साधन:</font>"
