@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-03 04:40+0200\n"
+"POT-Creation-Date: 2010-04-04 04:37+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -195,7 +195,7 @@ msgctxt "@label:listbox"
 msgid "Preview:"
 msgstr "पूर्वावलोकन करा:"
 
-#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:345
+#: settings/iconsizegroupbox.cpp:109 statusbar/dolphinstatusbar.cpp:372
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Size: 1 pixel"
@@ -845,7 +845,6 @@ msgid "Save search options"
 msgstr ""
 
 #: search/dolphinsearchoptionsconfigurator.cpp:148
-#: statusbar/statusbarmessagelabel.cpp:50
 msgctxt "@action:button"
 msgid "Close"
 msgstr "बंद करा"
@@ -1010,16 +1009,53 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "अगाऊ माहिती"
 
-#: statusbar/statusbarspaceinfo.cpp:78 statusbar/statusbarspaceinfo.cpp:91
+#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
 msgctxt "@info:status"
 msgid "Unknown size"
 msgstr "अपरिचीत आकार"
 
-#: statusbar/statusbarspaceinfo.cpp:102
+#: statusbar/statusbarspaceinfo.cpp:104
 #, kde-format
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 मोकळे"
+
+#: statusbar/dolphinstatusbar.cpp:269
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@action:inmenu"
+msgid "Copy Information Message"
+msgstr "माहिती"
+
+#: statusbar/dolphinstatusbar.cpp:272
+msgctxt "@action:inmenu"
+msgid "Copy Error Message"
+msgstr ""
+
+#: statusbar/dolphinstatusbar.cpp:279
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "झूम स्लाइडर दर्शवा"
+
+#: statusbar/dolphinstatusbar.cpp:283
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Information"
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "माहिती"
+
+#: statusbar/statusbarmessagelabel.cpp:53
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Close"
+msgctxt "@info"
+msgid "Close"
+msgstr "बंद करा"
 
 #: filterbar.cpp:41
 msgctxt "@info:tooltip"
@@ -3340,13 +3376,6 @@ msgstr ""
 #~ msgctxt "@action:inmenu View Mode"
 #~ msgid "Col&umns"
 #~ msgstr "स्तंभ"
-
-#, fuzzy
-#~| msgctxt "@title:window"
-#~| msgid "Information"
-#~ msgctxt "@title:window"
-#~ msgid "Information Panel"
-#~ msgstr "माहिती"
 
 #~ msgctxt "@action:inmenu Tools"
 #~ msgid "Quick View"
