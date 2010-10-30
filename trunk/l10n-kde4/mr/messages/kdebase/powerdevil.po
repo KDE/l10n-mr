@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-28 06:08+0200\n"
+"POT-Creation-Date: 2010-10-30 06:12+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -16,13 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-#: SuspensionLockHandler.cpp:75
-#, kde-format
-msgid ""
-"The application %1 is inhibiting suspension for the following reason:\n"
-"%2"
-msgstr ""
 
 #: actions/dpms/powerdevildpmsactionconfig.cpp:57
 #: actions/bundled/suspendsessionconfig.cpp:71
@@ -151,37 +144,43 @@ msgstr ""
 msgid "Developer"
 msgstr ""
 
-#: powerdevilcore.cpp:159
+#: powerdevilcore.cpp:78
+msgid ""
+"No valid Power Management backend plugins were found. A new installation "
+"might solve this problem."
+msgstr ""
+
+#: powerdevilcore.cpp:173
 msgctxt "Global shortcut"
 msgid "Increase Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:166
+#: powerdevilcore.cpp:180
 msgctxt "Global shortcut"
 msgid "Decrease Screen Brightness"
 msgstr ""
 
-#: powerdevilcore.cpp:242
+#: powerdevilcore.cpp:256
 #, kde-format
 msgid ""
 "The profile \"%1\" has been selected, but it does not exist.\n"
 "Please check your PowerDevil configuration."
 msgstr ""
 
-#: powerdevilcore.cpp:255
+#: powerdevilcore.cpp:269
 #, kde-format
 msgid ""
 "The profile \"%1\" tried to activate %2, a non existent action. This is "
 "usually due to an installation problem or to a configuration problem."
 msgstr ""
 
-#: powerdevilcore.cpp:284
+#: powerdevilcore.cpp:298
 msgid ""
 "Could not connect to battery interface.\n"
 "Please check your system configuration"
 msgstr ""
 
-#: powerdevilcore.cpp:340
+#: powerdevilcore.cpp:354
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid ""
@@ -189,45 +188,53 @@ msgid ""
 "been cancelled"
 msgstr "पावर अडॅप्टरला प्लग केले गेले आहे"
 
-#: powerdevilcore.cpp:342
+#: powerdevilcore.cpp:356
 #, fuzzy
 #| msgid "The power adaptor has been plugged in"
 msgid "The power adaptor has been plugged in."
 msgstr "पावर अडॅप्टरला प्लग केले गेले आहे"
 
-#: powerdevilcore.cpp:345
+#: powerdevilcore.cpp:359
 #, fuzzy
 #| msgid "The power adaptor has been unplugged"
 msgid "The power adaptor has been unplugged."
 msgstr "पावर अडॅप्टरला काढून टाकण्यात आले आहे"
 
-#: powerdevilcore.cpp:376
+#: powerdevilcore.cpp:365
+#, kde-format
+msgid ""
+"KDE Power Management System could not be initialized. The backend reported "
+"the following error: %1\n"
+"Please check your system configuration"
+msgstr ""
+
+#: powerdevilcore.cpp:392
 msgid ""
 "Your battery level is critical, the computer will be halted in 30 seconds."
 msgstr ""
 
-#: powerdevilcore.cpp:381
+#: powerdevilcore.cpp:397
 msgid ""
 "Your battery level is critical, the computer will be hibernated in 30 "
 "seconds."
 msgstr ""
 
-#: powerdevilcore.cpp:386
+#: powerdevilcore.cpp:402
 msgid ""
 "Your battery level is critical, the computer will be suspended in 30 seconds."
 msgstr ""
 
-#: powerdevilcore.cpp:391
+#: powerdevilcore.cpp:407
 msgid "Your battery level is critical: save your work as soon as possible."
 msgstr ""
 
-#: powerdevilcore.cpp:397
+#: powerdevilcore.cpp:413
 #, fuzzy
 #| msgid "Your battery has reached warning level"
 msgid "Your battery has reached the warning level."
 msgstr "बॅटरी सावधानता स्तर पर्यंत पोहचली आहे"
 
-#: powerdevilcore.cpp:402
+#: powerdevilcore.cpp:418
 #, fuzzy
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
