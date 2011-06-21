@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-16 03:59+0200\n"
+"POT-Creation-Date: 2011-06-21 04:14+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -16,42 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
-
-#: eventmonitor.cpp:69
-#, fuzzy
-#| msgid ""
-#| "Strigi file indexing started. Indexing all files for fast desktop "
-#| "searches may take a while."
-msgid "Indexing files for fast searching. This process may take a while."
-msgstr ""
-"Strigi फाइल इनडेक्सींग सुरू केले. जलद डेस्कटॉप शोध करीता सर्व फाइल इनडेक्स करणे जरा वेळ घेऊ "
-"शकतो."
-
-#: eventmonitor.cpp:98 eventmonitor.cpp:129
-msgid "Resuming indexing of files for fast searching."
-msgstr ""
-
-#: eventmonitor.cpp:106
-#, fuzzy
-#| msgid "Suspending Strigi file indexing to preserve resources."
-msgid "Suspending the indexing of files to preserve resources."
-msgstr "स्त्रोत संचयीत करण्याकरीता Strigi फाइल इनडेक्सींग सस्पेंड करत आहे."
-
-#: eventmonitor.cpp:121
-#, fuzzy, kde-format
-#| msgid ""
-#| "Local disk space is running low (%1 left). Suspending Strigi file "
-#| "indexing."
-msgid "Disk space is running low (%1 left). Suspending indexing of files."
-msgstr "स्थानीय डिस्कवर जागा कमी आहे (%1 बाकी). Strigi फाइल इनडेक्सींग सस्पेंड करत आहे."
-
-#: eventmonitor.cpp:149
-#, fuzzy, kde-format
-#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
-#| msgid "Initial Desktop Search file indexing finished in %1"
-msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
-msgid "Initial indexing of files for fast searching finished in %1"
-msgstr "प्रारंभिक डेस्कटॉप शोध फाइल इनडेक्सींग %1 अंतर्गत पूर्ण झाले"
 
 #: indexer/main.cpp:39
 #, fuzzy
@@ -95,35 +59,71 @@ msgstr ""
 msgid "Remove all indexed data of the URL provided"
 msgstr ""
 
-#: strigiservice.cpp:155
+#: eventmonitor.cpp:69
+#, fuzzy
+#| msgid ""
+#| "Strigi file indexing started. Indexing all files for fast desktop "
+#| "searches may take a while."
+msgid "Indexing files for fast searching. This process may take a while."
+msgstr ""
+"Strigi फाइल इनडेक्सींग सुरू केले. जलद डेस्कटॉप शोध करीता सर्व फाइल इनडेक्स करणे जरा वेळ घेऊ "
+"शकतो."
+
+#: eventmonitor.cpp:98 eventmonitor.cpp:127
+msgid "Resuming indexing of files for fast searching."
+msgstr ""
+
+#: eventmonitor.cpp:105
+#, fuzzy
+#| msgid "Suspending Strigi file indexing to preserve resources."
+msgid "Suspending the indexing of files to preserve resources."
+msgstr "स्त्रोत संचयीत करण्याकरीता Strigi फाइल इनडेक्सींग सस्पेंड करत आहे."
+
+#: eventmonitor.cpp:119
+#, fuzzy, kde-format
+#| msgid ""
+#| "Local disk space is running low (%1 left). Suspending Strigi file "
+#| "indexing."
+msgid "Disk space is running low (%1 left). Suspending indexing of files."
+msgstr "स्थानीय डिस्कवर जागा कमी आहे (%1 बाकी). Strigi फाइल इनडेक्सींग सस्पेंड करत आहे."
+
+#: eventmonitor.cpp:147
+#, fuzzy, kde-format
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
+msgctxt "@info %1 is a duration formatted using KLocale::prettyFormatDuration"
+msgid "Initial indexing of files for fast searching finished in %1"
+msgstr "प्रारंभिक डेस्कटॉप शोध फाइल इनडेक्सींग %1 अंतर्गत पूर्ण झाले"
+
+#: strigiservice.cpp:158
 #, fuzzy
 #| msgid "File indexer is suspended"
 msgctxt "@info:status"
 msgid "File indexer is suspended"
 msgstr "फाइल इन्डेक्सर सस्पेंड केले गेले आहे"
 
-#: strigiservice.cpp:161
+#: strigiservice.cpp:164
 #, fuzzy
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files"
 msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
 
-#: strigiservice.cpp:165
+#: strigiservice.cpp:168
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files in folder %1"
 msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
 
-#: strigiservice.cpp:167
+#: strigiservice.cpp:170
 #, fuzzy, kde-format
 #| msgid "Strigi is currently indexing files in folder %1"
 msgctxt "@info:status"
 msgid "Strigi is currently indexing files in folder %1 (%2)"
 msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
 
-#: strigiservice.cpp:171
+#: strigiservice.cpp:174
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
