@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-14 04:22+0200\n"
+"POT-Creation-Date: 2011-07-05 04:21+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -85,17 +85,6 @@ msgctxt "@label::textbox"
 msgid "Select which data should be shown:"
 msgstr ""
 
-#: panels/information/phononwidget.cpp:139
-msgid "play"
-msgstr ""
-
-#: panels/information/phononwidget.cpp:144
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "stop"
-msgstr "थांबा"
-
 #: panels/information/informationpanelcontent.cpp:226
 #, kde-format
 msgctxt "@info"
@@ -124,6 +113,17 @@ msgstr "टॅग बदलवा..."
 msgctxt "@label::textbox"
 msgid "Select which data should be shown in the information panel:"
 msgstr ""
+
+#: panels/information/phononwidget.cpp:139
+msgid "play"
+msgstr ""
+
+#: panels/information/phononwidget.cpp:144
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "stop"
+msgstr "थांबा"
 
 #: panels/search/searchpanel.cpp:139
 #, fuzzy
@@ -257,6 +257,12 @@ msgctxt "option:check"
 msgid "Natural sorting of items"
 msgstr ""
 
+#: settings/general/configurepreviewplugindialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Preview for %1"
+msgstr ""
+
 #: settings/general/contextmenusettingspage.cpp:43
 msgctxt "@option:check"
 msgid "Show 'Delete' command"
@@ -299,16 +305,6 @@ msgctxt "@title:tab Status Bar settings"
 msgid "Status Bar"
 msgstr "स्थिती पट्टी"
 
-#: settings/general/statusbarsettingspage.cpp:42
-msgctxt "@option:check"
-msgid "Show zoom slider"
-msgstr "झूम स्लाइडर दर्शवा"
-
-#: settings/general/statusbarsettingspage.cpp:44
-msgctxt "@option:check"
-msgid "Show space information"
-msgstr ""
-
 #: settings/general/previewssettingspage.cpp:69
 #, fuzzy
 #| msgctxt "@label"
@@ -338,10 +334,14 @@ msgctxt "@label Don't create previews for: <Remote files above:> XX MByte"
 msgid "Remote files above:"
 msgstr "फाइल क्रमवारीत लावा"
 
-#: settings/general/configurepreviewplugindialog.cpp:46
-#, kde-format
-msgctxt "@title:window"
-msgid "Configure Preview for %1"
+#: settings/general/statusbarsettingspage.cpp:42
+msgctxt "@option:check"
+msgid "Show zoom slider"
+msgstr "झूम स्लाइडर दर्शवा"
+
+#: settings/general/statusbarsettingspage.cpp:44
+msgctxt "@option:check"
+msgid "Show space information"
 msgstr ""
 
 #: settings/kcm/kcmdolphinviewmodes.cpp:59
@@ -621,6 +621,47 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
+#: settings/dolphinsettingsdialog.cpp:47
+msgctxt "@title:window"
+msgid "Dolphin Preferences"
+msgstr "Dolphin प्राधान्यता"
+
+#: settings/dolphinsettingsdialog.cpp:55
+msgctxt "@title:group"
+msgid "Startup"
+msgstr "स्टार्टअप"
+
+#: settings/dolphinsettingsdialog.cpp:62
+msgctxt "@title:group"
+msgid "View Modes"
+msgstr "दृश्य पद्धती"
+
+#: settings/dolphinsettingsdialog.cpp:69
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Navigation Bar"
+msgctxt "@title:group"
+msgid "Navigation"
+msgstr "संचारन पट्टी"
+
+#: settings/dolphinsettingsdialog.cpp:76
+msgctxt "@title:group"
+msgid "Services"
+msgstr ""
+
+#: settings/dolphinsettingsdialog.cpp:83
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Trash"
+msgctxt "@title:group"
+msgid "Trash"
+msgstr "कचरापेटी"
+
+#: settings/dolphinsettingsdialog.cpp:90
+msgctxt "@title:group General settings"
+msgid "General"
+msgstr "सामान्य"
+
 #: settings/viewpropertiesdialog.cpp:79
 msgctxt "@title:window"
 msgid "View Properties"
@@ -796,58 +837,6 @@ msgctxt "@info:progress"
 msgid "Folders: %1"
 msgstr "संचयीका: %1"
 
-#: settings/dolphinsettingsdialog.cpp:47
-msgctxt "@title:window"
-msgid "Dolphin Preferences"
-msgstr "Dolphin प्राधान्यता"
-
-#: settings/dolphinsettingsdialog.cpp:55
-msgctxt "@title:group"
-msgid "Startup"
-msgstr "स्टार्टअप"
-
-#: settings/dolphinsettingsdialog.cpp:62
-msgctxt "@title:group"
-msgid "View Modes"
-msgstr "दृश्य पद्धती"
-
-#: settings/dolphinsettingsdialog.cpp:69
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Navigation Bar"
-msgctxt "@title:group"
-msgid "Navigation"
-msgstr "संचारन पट्टी"
-
-#: settings/dolphinsettingsdialog.cpp:76
-msgctxt "@title:group"
-msgid "Services"
-msgstr ""
-
-#: settings/dolphinsettingsdialog.cpp:83
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Trash"
-msgctxt "@title:group"
-msgid "Trash"
-msgstr "कचरापेटी"
-
-#: settings/dolphinsettingsdialog.cpp:90
-msgctxt "@title:group General settings"
-msgid "General"
-msgstr "सामान्य"
-
-#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
-msgctxt "@info:status"
-msgid "Unknown size"
-msgstr "अपरिचीत आकार"
-
-#: statusbar/statusbarspaceinfo.cpp:104
-#, kde-format
-msgctxt "@info:status Free disk space"
-msgid "%1 free"
-msgstr "%1 मोकळे"
-
 #: statusbar/dolphinstatusbar.cpp:294
 #, fuzzy
 #| msgctxt "@title:window"
@@ -877,6 +866,17 @@ msgctxt "@action:inmenu"
 msgid "Show Space Information"
 msgstr "माहिती"
 
+#: statusbar/statusbarspaceinfo.cpp:80 statusbar/statusbarspaceinfo.cpp:93
+msgctxt "@info:status"
+msgid "Unknown size"
+msgstr "अपरिचीत आकार"
+
+#: statusbar/statusbarspaceinfo.cpp:104
+#, kde-format
+msgctxt "@info:status Free disk space"
+msgid "%1 free"
+msgstr "%1 मोकळे"
+
 #: views/dolphinremoteencoding.cpp:53
 msgid "Select Remote Charset"
 msgstr ""
@@ -895,39 +895,92 @@ msgstr "पुनःदाखल करा"
 msgid "Default"
 msgstr "मुलभूत:"
 
-#: views/dolphindetailsview.cpp:143
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Expandable folders"
-msgctxt "@option:check"
-msgid "Expandable Folders"
-msgstr "विस्तारीत संचयीका"
-
-#: views/dolphindetailsview.cpp:371
-msgctxt "@title:menu"
-msgid "Columns"
-msgstr "स्तंभ"
-
-#: views/dolphindetailsview.cpp:703
+#: views/dolphinview.cpp:500
 #, kde-format
-msgctxt "Items in a folder"
-msgid "1 item"
-msgid_plural "%1 items"
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected"
+msgstr "<filename>%1</filename> निवडले"
+
+#: views/dolphinview.cpp:501
+#, kde-format
+msgctxt "@info:status"
+msgid "<filename>%1</filename> selected (%2)"
+msgstr "<filename>%1</filename> (%2) निवडले"
+
+#: views/dolphinview.cpp:505
+#, kde-format
+msgctxt "@info:status"
+msgid "1 Folder selected"
+msgid_plural "%1 Folders selected"
 msgstr[0] ""
 msgstr[1] ""
+
+#: views/dolphinview.cpp:506
+#, kde-format
+msgctxt "@info:status"
+msgid "1 File selected"
+msgid_plural "%1 Files selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/dolphinview.cpp:508
+#, kde-format
+msgctxt "@info:status folders, files (size)"
+msgid "%1, %2 (%3)"
+msgstr "%1, %2 (%3)"
+
+#: views/dolphinview.cpp:511
+#, kde-format
+msgctxt "@info:status files (size)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: views/dolphinview.cpp:1053
+msgctxt "@info:status"
+msgid "Delete operation completed."
+msgstr "नष्ट करण्याची क्रिया पूर्ण झाली."
+
+#: views/dolphinview.cpp:1155
+msgctxt "@info:status"
+msgid "The location is empty."
+msgstr "स्थान रिकामे आहे."
+
+#: views/dolphinview.cpp:1157
+#, kde-format
+msgctxt "@info:status"
+msgid "The location '%1' is invalid."
+msgstr "स्थान '%1' अवैध."
 
 #: views/draganddrophelper.cpp:108
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr ""
 
-#: views/dolphindirlister.cpp:41
+#: views/selectiontoggle.cpp:132
+msgctxt "@info:tooltip"
+msgid "Deselect Item"
+msgstr "घटक निवडू नका"
+
+#: views/selectiontoggle.cpp:133
+msgctxt "@info:tooltip"
+msgid "Select Item"
+msgstr "घटक निवडा"
+
+#: views/versioncontrol/versioncontrolobserver.cpp:190
 #, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
+#| msgctxt "@label"
+#| msgid "Additional information"
 msgctxt "@info:status"
-msgid "Unknown error."
-msgstr "अपरिचीत आकार"
+msgid "Update of version information failed."
+msgstr "अगाऊ माहिती"
+
+#: views/versioncontrol/versioncontrolobserver.cpp:243
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Additional information"
+msgctxt "@info:status"
+msgid "Updating version information..."
+msgstr "अगाऊ माहिती"
 
 #: views/dolphinviewactionhandler.cpp:87
 #, fuzzy
@@ -1114,26 +1167,47 @@ msgctxt "@info"
 msgid "Columns view mode"
 msgstr "दृश्य पद्धती"
 
-#: views/dolphincolumnview.cpp:89
-msgctxt "@info:tooltip"
-msgid "Resize column"
+#: views/renamedialog.cpp:54
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "घटक पुन्हनामांकीत करा"
+
+#: views/renamedialog.cpp:55
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "घटक पुन्हनामांकीत करा"
+
+#: views/renamedialog.cpp:59
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Rename"
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "पुन्हनामांकन"
+
+#: views/renamedialog.cpp:69
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "घटक <filename>%1</filename> याचे पुन्हनामांकन करा:"
+
+#: views/renamedialog.cpp:72
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "नविन नाव #"
+
+#: views/renamedialog.cpp:74
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/renamedialog.cpp:121
+msgctxt "@info"
+msgid "(# will be replaced by ascending numbers)"
 msgstr ""
-
-#: views/versioncontrol/versioncontrolobserver.cpp:190
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Additional information"
-msgctxt "@info:status"
-msgid "Update of version information failed."
-msgstr "अगाऊ माहिती"
-
-#: views/versioncontrol/versioncontrolobserver.cpp:243
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Additional information"
-msgctxt "@info:status"
-msgid "Updating version information..."
-msgstr "अगाऊ माहिती"
 
 #: views/additionalinfoaccessor.cpp:105
 #, fuzzy
@@ -1199,47 +1273,39 @@ msgctxt "@label"
 msgid "Path"
 msgstr "चिटकवा"
 
-#: views/renamedialog.cpp:54
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "घटक पुन्हनामांकीत करा"
+#: views/dolphincolumnview.cpp:89
+msgctxt "@info:tooltip"
+msgid "Resize column"
+msgstr ""
 
-#: views/renamedialog.cpp:55
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "घटक पुन्हनामांकीत करा"
-
-#: views/renamedialog.cpp:59
+#: views/dolphindetailsview.cpp:143
 #, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Rename"
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "पुन्हनामांकन"
+#| msgctxt "@option:check"
+#| msgid "Expandable folders"
+msgctxt "@option:check"
+msgid "Expandable Folders"
+msgstr "विस्तारीत संचयीका"
 
-#: views/renamedialog.cpp:69
+#: views/dolphindetailsview.cpp:371
+msgctxt "@title:menu"
+msgid "Columns"
+msgstr "स्तंभ"
+
+#: views/dolphindetailsview.cpp:703
 #, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "घटक <filename>%1</filename> याचे पुन्हनामांकन करा:"
-
-#: views/renamedialog.cpp:72
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "नविन नाव #"
-
-#: views/renamedialog.cpp:74
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/renamedialog.cpp:121
-msgctxt "@info"
-msgid "(# will be replaced by ascending numbers)"
-msgstr ""
+#: views/dolphindirlister.cpp:41
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@info:status"
+msgid "Unknown error."
+msgstr "अपरिचीत आकार"
 
 #: views/dolphinmodel.cpp:43
 msgctxt "@title:group Name"
@@ -1397,101 +1463,72 @@ msgctxt "@title:group Files and folders by permissions"
 msgid "(User: %1) (Group: %2) (Others: %3)"
 msgstr "(User: %1) (Group: %2) (Others: %3)"
 
-#: views/dolphinview.cpp:500
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected"
-msgstr "<filename>%1</filename> निवडले"
+#: dolphincontextmenu.cpp:170
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "कचरापेटी रिकामी करा"
 
-#: views/dolphinview.cpp:501
-#, kde-format
-msgctxt "@info:status"
-msgid "<filename>%1</filename> selected (%2)"
-msgstr "<filename>%1</filename> (%2) निवडले"
+#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:338
+msgctxt "@action:inmenu Add current folder to places"
+msgid "Add to Places"
+msgstr "स्थान करीता जोडा"
 
-#: views/dolphinview.cpp:505
-#, kde-format
-msgctxt "@info:status"
-msgid "1 Folder selected"
-msgid_plural "%1 Folders selected"
-msgstr[0] ""
-msgstr[1] ""
+#: dolphincontextmenu.cpp:196
+msgctxt "@label"
+msgid "Trash"
+msgstr "कचरापेटी"
 
-#: views/dolphinview.cpp:506
-#, kde-format
-msgctxt "@info:status"
-msgid "1 File selected"
-msgid_plural "%1 Files selected"
-msgstr[0] ""
-msgstr[1] ""
+#: dolphincontextmenu.cpp:206
+msgctxt "@action:inmenu"
+msgid "Restore"
+msgstr "पुन्हस्थापन"
 
-#: views/dolphinview.cpp:508
-#, kde-format
-msgctxt "@info:status folders, files (size)"
-msgid "%1, %2 (%3)"
-msgstr "%1, %2 (%3)"
+#: dolphincontextmenu.cpp:245 dolphinmainwindow.cpp:1571
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "नविन बनवा"
 
-#: views/dolphinview.cpp:511
-#, kde-format
-msgctxt "@info:status files (size)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
+#: dolphincontextmenu.cpp:258
+msgctxt "@action:inmenu Add selected folder to places"
+msgid "Add to Places"
+msgstr "स्थान करीता जोडा"
 
-#: views/dolphinview.cpp:1053
-msgctxt "@info:status"
-msgid "Delete operation completed."
-msgstr "नष्ट करण्याची क्रिया पूर्ण झाली."
+#: dolphincontextmenu.cpp:265
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Window"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Window"
+msgstr "नविन चौकट उघडा"
 
-#: views/dolphinview.cpp:1155
-msgctxt "@info:status"
-msgid "The location is empty."
-msgstr "स्थान रिकामे आहे."
+#: dolphincontextmenu.cpp:271
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Open in New Tab"
+msgctxt "@action:inmenu"
+msgid "Open Path in New Tab"
+msgstr "नविन टॅब अंतर्गत उघडा"
 
-#: views/dolphinview.cpp:1157
-#, kde-format
-msgctxt "@info:status"
-msgid "The location '%1' is invalid."
-msgstr "स्थान '%1' अवैध."
+#: dolphincontextmenu.cpp:437
+msgctxt "@action:inmenu"
+msgid "Paste Into Folder"
+msgstr "संचयीका अंतर्गत चिकटवा"
 
-#: views/selectiontoggle.cpp:132
-msgctxt "@info:tooltip"
-msgid "Deselect Item"
-msgstr "घटक निवडू नका"
+#: dolphincontextmenu.cpp:549
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Move to Trash"
+msgctxt "@action:inmenu"
+msgid "&Move to Trash"
+msgstr "कचरापेटीकडे हलवा"
 
-#: views/selectiontoggle.cpp:133
-msgctxt "@info:tooltip"
-msgid "Select Item"
-msgstr "घटक निवडा"
-
-#: dolphinviewcontainer.cpp:344
-msgctxt "@info:progress"
-msgid "Loading folder..."
-msgstr "संचयीका दाखल करत आहे..."
-
-#: dolphinviewcontainer.cpp:355
-msgctxt "@info"
-msgid "Searching..."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:375
-msgctxt "@info:status"
-msgid "No items found."
-msgstr ""
-
-#: dolphinviewcontainer.cpp:454
-msgctxt "@info:status"
-msgid "Dolphin does not support web pages, the web browser has been launched"
-msgstr "Dolphin वेब पान करीता समर्थन पुरवित नाही, वेब ब्राऊजर दाखल केले"
-
-#: dolphinviewcontainer.cpp:466
-msgctxt "@info:status"
-msgid "Protocol not supported by Dolphin, Konqueror has been launched"
-msgstr "शिष्टाचार Dolphin द्वारे समर्थीत नाही, Konqueror दाखल केले"
-
-#: dolphinviewcontainer.cpp:473
-msgctxt "@info:status"
-msgid "Invalid protocol"
-msgstr "अवैध शिष्टाचार"
+#: dolphincontextmenu.cpp:552
+#, fuzzy
+#| msgctxt "@action:inmenu File"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
+msgid "&Delete"
+msgstr "हटवा"
 
 #: dolphinmainwindow.cpp:340
 msgctxt "@info:status"
@@ -1604,11 +1641,6 @@ msgstr "साधन"
 msgctxt "@action:inmenu"
 msgid "Help"
 msgstr ""
-
-#: dolphinmainwindow.cpp:1571 dolphincontextmenu.cpp:245
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "नविन बनवा"
 
 #: dolphinmainwindow.cpp:1578
 msgctxt "@action:inmenu File"
@@ -1900,6 +1932,36 @@ msgstr ""
 msgid "Unselect all items matching this pattern:"
 msgstr ""
 
+#: dolphinviewcontainer.cpp:344
+msgctxt "@info:progress"
+msgid "Loading folder..."
+msgstr "संचयीका दाखल करत आहे..."
+
+#: dolphinviewcontainer.cpp:355
+msgctxt "@info"
+msgid "Searching..."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:375
+msgctxt "@info:status"
+msgid "No items found."
+msgstr ""
+
+#: dolphinviewcontainer.cpp:454
+msgctxt "@info:status"
+msgid "Dolphin does not support web pages, the web browser has been launched"
+msgstr "Dolphin वेब पान करीता समर्थन पुरवित नाही, वेब ब्राऊजर दाखल केले"
+
+#: dolphinviewcontainer.cpp:466
+msgctxt "@info:status"
+msgid "Protocol not supported by Dolphin, Konqueror has been launched"
+msgstr "शिष्टाचार Dolphin द्वारे समर्थीत नाही, Konqueror दाखल केले"
+
+#: dolphinviewcontainer.cpp:473
+msgctxt "@info:status"
+msgid "Invalid protocol"
+msgstr "अवैध शिष्टाचार"
+
 #: main.cpp:35
 msgctxt "@title"
 msgid "Dolphin"
@@ -1990,68 +2052,6 @@ msgstr ""
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "उघडण्याजोगी दस्तऐवज"
-
-#: dolphincontextmenu.cpp:170
-msgctxt "@action:inmenu"
-msgid "Empty Trash"
-msgstr "कचरापेटी रिकामी करा"
-
-#: dolphincontextmenu.cpp:176 dolphincontextmenu.cpp:338
-msgctxt "@action:inmenu Add current folder to places"
-msgid "Add to Places"
-msgstr "स्थान करीता जोडा"
-
-#: dolphincontextmenu.cpp:196
-msgctxt "@label"
-msgid "Trash"
-msgstr "कचरापेटी"
-
-#: dolphincontextmenu.cpp:206
-msgctxt "@action:inmenu"
-msgid "Restore"
-msgstr "पुन्हस्थापन"
-
-#: dolphincontextmenu.cpp:258
-msgctxt "@action:inmenu Add selected folder to places"
-msgid "Add to Places"
-msgstr "स्थान करीता जोडा"
-
-#: dolphincontextmenu.cpp:265
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Window"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Window"
-msgstr "नविन चौकट उघडा"
-
-#: dolphincontextmenu.cpp:271
-#, fuzzy
-#| msgctxt "@action:inmenu"
-#| msgid "Open in New Tab"
-msgctxt "@action:inmenu"
-msgid "Open Path in New Tab"
-msgstr "नविन टॅब अंतर्गत उघडा"
-
-#: dolphincontextmenu.cpp:437
-msgctxt "@action:inmenu"
-msgid "Paste Into Folder"
-msgstr "संचयीका अंतर्गत चिकटवा"
-
-#: dolphincontextmenu.cpp:549
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Move to Trash"
-msgctxt "@action:inmenu"
-msgid "&Move to Trash"
-msgstr "कचरापेटीकडे हलवा"
-
-#: dolphincontextmenu.cpp:552
-#, fuzzy
-#| msgctxt "@action:inmenu File"
-#| msgid "Delete"
-msgctxt "@action:inmenu"
-msgid "&Delete"
-msgstr "हटवा"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -2150,7 +2150,7 @@ msgstr ""
 #. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:21
 #. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#: rc.cpp:38 rc.cpp:66 rc.cpp:225
+#: rc.cpp:38 rc.cpp:66 rc.cpp:163
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font family"
@@ -2163,7 +2163,7 @@ msgstr "फोन्ट परिवार"
 #. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:17
 #. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#: rc.cpp:41 rc.cpp:69 rc.cpp:222
+#: rc.cpp:41 rc.cpp:69 rc.cpp:160
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use system font"
@@ -2176,7 +2176,7 @@ msgstr "प्रणाली फॉन्ट वापरा"
 #. i18n: ectx: label, entry (FontSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:25
 #. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#: rc.cpp:44 rc.cpp:72 rc.cpp:228
+#: rc.cpp:44 rc.cpp:72 rc.cpp:166
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font size"
@@ -2189,7 +2189,7 @@ msgstr "फोन्टचा आकार"
 #. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:29
 #. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#: rc.cpp:47 rc.cpp:75 rc.cpp:231
+#: rc.cpp:47 rc.cpp:75 rc.cpp:169
 #, fuzzy
 #| msgctxt "@label Font style"
 #| msgid "Italic"
@@ -2202,7 +2202,7 @@ msgstr "तिरपे"
 #. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:33
 #. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#: rc.cpp:50 rc.cpp:78 rc.cpp:234
+#: rc.cpp:50 rc.cpp:78 rc.cpp:172
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Font weight"
@@ -2215,7 +2215,7 @@ msgstr "फोन्टचे वजन(परिमाण)"
 #. i18n: ectx: label, entry (IconSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:57
 #. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#: rc.cpp:53 rc.cpp:81 rc.cpp:246
+#: rc.cpp:53 rc.cpp:81 rc.cpp:184
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Icon size"
@@ -2228,7 +2228,7 @@ msgstr "चिन्हाचे आकार"
 #. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
 #. i18n: file: settings/dolphin_iconsmodesettings.kcfg:66
 #. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#: rc.cpp:56 rc.cpp:84 rc.cpp:252
+#: rc.cpp:56 rc.cpp:84 rc.cpp:190
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Preview size"
@@ -2398,9 +2398,60 @@ msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr ""
 
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
+#. i18n: ectx: label, entry (Arrangement), group (IconsMode)
+#: rc.cpp:157
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Arrangement"
+msgid "Arrangement"
+msgstr "आयोजन"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
+#. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
+#: rc.cpp:175
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Item height"
+msgid "Item height"
+msgstr "घटकाची ऊंची"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
+#. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
+#: rc.cpp:178
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Item width"
+msgid "Item width"
+msgstr "घटकाची रूंदी"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
+#. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
+#: rc.cpp:181
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Grid spacing"
+msgid "Grid spacing"
+msgstr "ग्रीड जागा"
+
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
+#. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
+#: rc.cpp:187
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "Number of textlines"
+msgid "Number of textlines"
+msgstr "पाठ्यओळची संख्या"
+
+#. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
+#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
+#: rc.cpp:199
+msgid "Enabled plugins"
+msgstr ""
+
 #. i18n: file: settings/dolphin_generalsettings.kcfg:12
 #. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:157
+#: rc.cpp:202
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the URL be editable for the user"
@@ -2409,13 +2460,13 @@ msgstr "वापकर्ताकरीता URL संपादीत कर
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:16
 #. i18n: ectx: label, entry (UrlCompletionMode), group (General)
-#: rc.cpp:160
+#: rc.cpp:205
 msgid "Text completion mode of the URL Navigator"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:20
 #. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:163
+#: rc.cpp:208
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the full path be shown inside the location bar"
@@ -2424,7 +2475,7 @@ msgstr "स्थान पट्टी अंतर्गत पूर्णत
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:24
 #. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:166
+#: rc.cpp:211
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Is the application started the first time"
@@ -2435,7 +2486,7 @@ msgstr "अनुप्रयोग प्रथमवेळी सुरू क
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:28
 #. i18n: ectx: label, entry (ModifiedStartupSettings), group (General)
-#: rc.cpp:169
+#: rc.cpp:214
 msgid ""
 "Have the startup settings been modified (internal setting not shown in the "
 "UI)"
@@ -2443,7 +2494,7 @@ msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:32
 #. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:172
+#: rc.cpp:217
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Home URL"
@@ -2452,7 +2503,7 @@ msgstr "मुख्य URL"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:36
 #. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:175
+#: rc.cpp:220
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Split the view into two panes"
@@ -2461,7 +2512,7 @@ msgstr "दृश्याला दोन पटल अंतर्गत व�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:40
 #. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:178
+#: rc.cpp:223
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the filter bar be shown"
@@ -2470,7 +2521,7 @@ msgstr "फिल्टर पट्टी दर्शविले पाहि
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:44
 #. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:181
+#: rc.cpp:226
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Should the view properties be used for all directories"
@@ -2479,7 +2530,7 @@ msgstr "दृश्य गुणधर्म सर्व संचयीका
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:48
 #. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:184
+#: rc.cpp:229
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Browse through archives"
@@ -2488,13 +2539,13 @@ msgstr "संग्रहचे संचारन करा"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:52
 #. i18n: ectx: label, entry (ConfirmClosingMultipleTabs), group (General)
-#: rc.cpp:187
+#: rc.cpp:232
 msgid "Ask for confirmation when closing windows with multiple tabs."
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:56
 #. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:190
+#: rc.cpp:235
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Rename inline"
@@ -2503,7 +2554,7 @@ msgstr "इनलाइन पुन्हनामांकीत करा"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:60
 #. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:193
+#: rc.cpp:238
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Show selection marker"
@@ -2512,7 +2563,7 @@ msgstr "निवडकरण्याकरीता मार्कर दर�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:64
 #. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:196
+#: rc.cpp:241
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show tooltips"
@@ -2521,7 +2572,7 @@ msgstr "टूलटिप दर्शवा"
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:68
 #. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:199
+#: rc.cpp:244
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show 'Copy To' and 'Move To' commands in context menu"
@@ -2530,13 +2581,13 @@ msgstr "संदर्भ मेन्यू अंतर्गत 'येथ�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:72
 #. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:202
+#: rc.cpp:247
 msgid "Timestamp since when the view properties are valid"
 msgstr ""
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:75
 #. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:205
+#: rc.cpp:250
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Use auto-expanding folders for all view types"
@@ -2545,7 +2596,7 @@ msgstr "सर्व दृश्य प्रकार करीता स्�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:79
 #. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:208
+#: rc.cpp:253
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show zoom slider in the statusbar"
@@ -2554,7 +2605,7 @@ msgstr "स्थितीपट्टीत झूम स्लाइडर द
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:83
 #. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:211
+#: rc.cpp:256
 #, fuzzy
 #| msgctxt "@label"
 #| msgid "Show the space information in the statusbar"
@@ -2563,59 +2614,8 @@ msgstr "स्थितीपट्टीत जागाविषयी मा�
 
 #. i18n: file: settings/dolphin_generalsettings.kcfg:87
 #. i18n: ectx: label, entry (LockPanels), group (General)
-#: rc.cpp:214
+#: rc.cpp:259
 msgid "Lock the layout of the panels"
-msgstr ""
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:13
-#. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:219
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Arrangement"
-msgid "Arrangement"
-msgstr "आयोजन"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:37
-#. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:237
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Item height"
-msgid "Item height"
-msgstr "घटकाची ऊंची"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:45
-#. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:240
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Item width"
-msgid "Item width"
-msgstr "घटकाची रूंदी"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:53
-#. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:243
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Grid spacing"
-msgid "Grid spacing"
-msgstr "ग्रीड जागा"
-
-#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:61
-#. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:249
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Number of textlines"
-msgid "Number of textlines"
-msgstr "पाठ्यओळची संख्या"
-
-#. i18n: file: settings/dolphin_versioncontrolsettings.kcfg:10
-#. i18n: ectx: label, entry (enabledPlugins), group (VersionControl)
-#: rc.cpp:261
-msgid "Enabled plugins"
 msgstr ""
 
 #. i18n: file: dolphinui.rc:34
