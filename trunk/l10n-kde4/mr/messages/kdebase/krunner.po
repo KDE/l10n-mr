@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-13 04:02+0200\n"
+"POT-Creation-Date: 2011-07-27 04:01+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -187,6 +187,23 @@ msgstr "सक्रीय (&A)"
 msgid "Start &New Session"
 msgstr "नविन सत्र सुरू करा (&N)"
 
+#: lock/lockprocess.cc:834
+msgid "Will not lock the session, as unlocking would be impossible:\n"
+msgstr "सत्र कुलूपबंद करणार नाही, कारण त्यास उघडणे शक्य होणार नाही:\n"
+
+#: lock/lockprocess.cc:838
+msgid "Cannot start <i>kcheckpass</i>."
+msgstr "<i>kcheckpass</i> सुरू करू शकत नाही."
+
+#: lock/lockprocess.cc:839
+msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+msgstr ""
+"<i>kcheckpass</i> कार्य करण्यास अपयशी. संभाव्यतया setuid रूट वापरकर्ता नसावा."
+
+#: lock/lockprocess.cc:902
+msgid "No appropriate greeter plugin configured."
+msgstr "योग्य greeter प्लगइन संयोजीत केले जाऊ शकत नाही."
+
 #: lock/main.cc:61
 msgid "KDE Screen Locker"
 msgstr ""
@@ -221,23 +238,6 @@ msgstr "संयोजना करीता प्लाजमा विना
 msgid "Fork into the background after starting up"
 msgstr ""
 
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "सत्र कुलूपबंद करणार नाही, कारण त्यास उघडणे शक्य होणार नाही:\n"
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "<i>kcheckpass</i> सुरू करू शकत नाही."
-
-#: lock/lockprocess.cc:839
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr ""
-"<i>kcheckpass</i> कार्य करण्यास अपयशी. संभाव्यतया setuid रूट वापरकर्ता नसावा."
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr "योग्य greeter प्लगइन संयोजीत केले जाऊ शकत नाही."
-
 #: main.cpp:38
 msgid "KDE run command interface"
 msgstr "KDE run आदेश संवाद"
@@ -258,35 +258,35 @@ msgstr "एरॉन जे. सीगो"
 msgid "Author and maintainer"
 msgstr "लेखक व पालक"
 
-#: krunnerdialog.cpp:70 krunnerapp.cpp:131
+#: krunnerdialog.cpp:70 krunnerapp.cpp:130
 msgid "Run Command"
 msgstr "आदेश चालवा"
-
-#: krunnerapp.cpp:136
-msgid "Run Command on clipboard contents"
-msgstr "क्लिपबोर्ड अनुक्रम वर आदेश चालवा"
-
-#: krunnerapp.cpp:142
-msgid "Show System Activity"
-msgstr "प्रणाली क्रिया दर्शवा"
-
-#: krunnerapp.cpp:148
-msgid "Switch User"
-msgstr "वापरकर्ता बदलवा"
-
-#: krunnerapp.cpp:158
-msgid "Lock Session"
-msgstr "सत्र कुलूपबंद करा"
-
-#: krunnerapp.cpp:200
-#, kde-format
-msgctxt "Run krunner restricting the search only to runner %1"
-msgid "Run Command (runner \"%1\" only)"
-msgstr ""
 
 #: ksystemactivitydialog.cpp:40
 msgid "System Activity"
 msgstr "प्रणाली क्रिया"
+
+#: krunnerapp.cpp:135
+msgid "Run Command on clipboard contents"
+msgstr "क्लिपबोर्ड अनुक्रम वर आदेश चालवा"
+
+#: krunnerapp.cpp:141
+msgid "Show System Activity"
+msgstr "प्रणाली क्रिया दर्शवा"
+
+#: krunnerapp.cpp:147
+msgid "Switch User"
+msgstr "वापरकर्ता बदलवा"
+
+#: krunnerapp.cpp:157
+msgid "Lock Session"
+msgstr "सत्र कुलूपबंद करा"
+
+#: krunnerapp.cpp:199
+#, kde-format
+msgctxt "Run krunner restricting the search only to runner %1"
+msgid "Run Command (runner \"%1\" only)"
+msgstr ""
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
