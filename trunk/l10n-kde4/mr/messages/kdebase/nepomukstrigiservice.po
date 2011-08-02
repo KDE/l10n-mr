@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-29 04:00+0200\n"
+"POT-Creation-Date: 2011-08-02 17:59+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -110,7 +111,15 @@ msgctxt "@info:status"
 msgid "File indexer is suspended."
 msgstr "फाइल इन्डेक्सर सस्पेंड केले गेले आहे"
 
-#: strigiservice.cpp:164
+#: strigiservice.cpp:166
+#, fuzzy
+#| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
+#| msgid "Initial Desktop Search file indexing finished in %1"
+msgctxt "@info:status"
+msgid "Scanning for recent changes in files for desktop search"
+msgstr "प्रारंभिक डेस्कटॉप शोध फाइल इनडेक्सींग %1 अंतर्गत पूर्ण झाले"
+
+#: strigiservice.cpp:169
 #, fuzzy
 #| msgctxt "@info %1 is a duration formatted using KLocale::formatDuration"
 #| msgid "Initial Desktop Search file indexing finished in %1"
@@ -118,21 +127,27 @@ msgctxt "@info:status"
 msgid "Indexing files for desktop search."
 msgstr "प्रारंभिक डेस्कटॉप शोध फाइल इनडेक्सींग %1 अंतर्गत पूर्ण झाले"
 
-#: strigiservice.cpp:168
+#: strigiservice.cpp:176
+#, kde-format
+msgctxt "@info:status"
+msgid "Scanning for recent changes in %1"
+msgstr ""
+
+#: strigiservice.cpp:180
 #, fuzzy, kde-format
 #| msgid "Indexed files:"
 msgctxt "@info:status"
 msgid "Indexing files in %1"
 msgstr "इन्डेक्स केलेले फाइल:"
 
-#: strigiservice.cpp:170
+#: strigiservice.cpp:182
 #, fuzzy, kde-format
-#| msgid "Strigi is currently indexing files in folder %1"
+#| msgid "Indexed files:"
 msgctxt "@info:status"
-msgid "Indexing files in %1 (%2)"
-msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
+msgid "Indexing %1"
+msgstr "इन्डेक्स केलेले फाइल:"
 
-#: strigiservice.cpp:174
+#: strigiservice.cpp:187
 #, fuzzy
 #| msgid "File indexer is idle"
 msgctxt "@info:status"
@@ -148,6 +163,12 @@ msgstr "संदिप शेडमाके"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "sandeep.shedmake@gmail.com"
+
+#, fuzzy
+#~| msgid "Strigi is currently indexing files in folder %1"
+#~ msgctxt "@info:status"
+#~ msgid "Indexing files in %1 (%2)"
+#~ msgstr "Strigi वर्तमानक्षणी संचयीका %1 अंतर्गत फाइल इन्डेक्स करतो"
 
 #, fuzzy
 #~| msgid "Strigi is currently indexing files in folder %1"
