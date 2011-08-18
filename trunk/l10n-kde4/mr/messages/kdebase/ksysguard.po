@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:38+0200\n"
+"POT-Creation-Date: 2011-08-18 03:36+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -26,6 +26,136 @@ msgstr "ठीक आहे"
 #: SensorDisplayLib/FancyPlotter.cpp:519 SensorDisplayLib/FancyPlotter.cpp:597
 msgid "Error"
 msgstr "त्रुटी"
+
+#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
+msgid "Drop Sensor Here"
+msgstr ""
+
+#: SensorDisplayLib/DummyDisplay.cpp:32
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr ""
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:31
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "मल्टिमिटर संयोजना"
+
+#: SensorDisplayLib/SensorLoggerDlg.cpp:32
+#: SensorDisplayLib/SensorLogger.cpp:431
+msgid "Sensor Logger"
+msgstr ""
+
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr ""
+
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
+msgstr "यजमान"
+
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "सेनसर"
+
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "एकक"
+
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "स्थिती"
+
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "लेबल"
+
+#: SensorDisplayLib/ListView.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 K"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:46
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 M"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 G"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:48
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 T"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "a percentage"
+#| msgid "%"
+msgid "%1 P"
+msgstr "%"
+
+#: SensorDisplayLib/ListView.cpp:152
+msgid "Display Units"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:156
+msgid "Mixed"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:162
+msgid "Kilobytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:168
+msgid "Megabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:174
+msgid "Gigabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:180
+#, fuzzy
+#| msgid "Temperature"
+msgid "Terabytes"
+msgstr "तापमान"
+
+#: SensorDisplayLib/SensorDisplay.cpp:118
+#: SensorDisplayLib/SensorLogger.cpp:598
+msgid "&Properties"
+msgstr "गुणधर्म (&P)"
+
+#: SensorDisplayLib/SensorDisplay.cpp:123
+#: SensorDisplayLib/SensorLogger.cpp:603
+msgid "&Remove Display"
+msgstr ""
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:43
 msgid "Edit BarGraph Preferences"
@@ -195,174 +325,86 @@ msgstr ""
 msgid "Enter new label:"
 msgstr ""
 
-#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
-msgid "Drop Sensor Here"
+#: SensorDisplayLib/FancyPlotter.cpp:178
+msgctxt "Largest axis title"
+msgid "99999 XXXX"
+msgstr "99999 XXXX"
+
+#: SensorDisplayLib/FancyPlotter.cpp:515 SensorDisplayLib/FancyPlotter.cpp:586
+#: SensorDisplayLib/FancyPlotter.cpp:649
+#, kde-format
+msgctxt "units"
+msgid "%1%"
 msgstr ""
 
-#: SensorDisplayLib/DummyDisplay.cpp:32
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
+#: SensorDisplayLib/FancyPlotter.cpp:523
+#, kde-format
+msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
+msgid "<p><b>%1:</b><br>"
+msgstr "<p><b>%1:</b><br>"
+
+#: SensorDisplayLib/FancyPlotter.cpp:594
+#, fuzzy, kde-format
+#| msgctxt "%1 and %2 are sensor's last and maximum value"
+#| msgid "%1 of %2"
+msgid "%1 of %2%1"
+msgstr "%1, %2 पैकी"
+
+#: SensorDisplayLib/FancyPlotter.cpp:622
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB"
 msgstr ""
 
-#: SensorDisplayLib/ListViewSettings.cpp:30
-msgid "List View Settings"
+#: SensorDisplayLib/FancyPlotter.cpp:625
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB"
 msgstr ""
 
-#: SensorDisplayLib/LogFile.cpp:92
-msgid "File logging settings"
-msgstr "फाइल लॉग करीता संयोजना"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
-msgid "Foreground color:"
-msgstr "पार्श्वभूमी रंग:"
-
-#: SensorDisplayLib/MultiMeterSettings.cpp:31
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "मल्टिमिटर संयोजना"
-
-#: SensorDisplayLib/SensorLogger.cpp:138
-msgid "Logging"
+#: SensorDisplayLib/FancyPlotter.cpp:628
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB"
 msgstr ""
 
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:86
-msgid "Timer Interval"
+#: SensorDisplayLib/FancyPlotter.cpp:631
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:144
-msgid "Sensor Name"
-msgstr "सेनसरचे नाव"
-
-#: SensorDisplayLib/SensorLogger.cpp:147
-msgid "Host Name"
-msgstr "यजमान नाव"
-
-#: SensorDisplayLib/SensorLogger.cpp:150
-msgid "Log File"
-msgstr "लॉग फाइल"
-
-#: SensorDisplayLib/SensorLogger.cpp:431
-#: SensorDisplayLib/SensorLoggerDlg.cpp:32
-msgid "Sensor Logger"
+#: SensorDisplayLib/FancyPlotter.cpp:636
+#, kde-format
+msgctxt "units"
+msgid "%1 TiB/s"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:598
-#: SensorDisplayLib/SensorDisplay.cpp:118
-msgid "&Properties"
-msgstr "गुणधर्म (&P)"
-
-#: SensorDisplayLib/SensorLogger.cpp:603
-#: SensorDisplayLib/SensorDisplay.cpp:123
-msgid "&Remove Display"
+#: SensorDisplayLib/FancyPlotter.cpp:639
+#, kde-format
+msgctxt "units"
+msgid "%1 GiB/s"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:608
-msgid "&Remove Sensor"
-msgstr "सेनसर काढूण टाका (&R)"
-
-#: SensorDisplayLib/SensorLogger.cpp:613
-msgid "&Edit Sensor..."
-msgstr "सेनसर संपादीत करा (&E)..."
-
-#: SensorDisplayLib/SensorLogger.cpp:621
-msgid "St&op Logging"
+#: SensorDisplayLib/FancyPlotter.cpp:642
+#, kde-format
+msgctxt "units"
+msgid "%1 MiB/s"
 msgstr ""
 
-#: SensorDisplayLib/SensorLogger.cpp:624
-msgid "S&tart Logging"
+#: SensorDisplayLib/FancyPlotter.cpp:645
+#, kde-format
+msgctxt "units"
+msgid "%1 KiB/s"
 msgstr ""
 
-#: SensorDisplayLib/SensorLoggerSettings.cpp:30
-msgid "Sensor Logger Settings"
-msgstr ""
-
-#: SensorDisplayLib/SensorModel.cpp:166
-msgid "Host"
-msgstr "यजमान"
-
-#: SensorDisplayLib/SensorModel.cpp:169
-msgid "Sensor"
-msgstr "सेनसर"
-
-#: SensorDisplayLib/SensorModel.cpp:172
-msgid "Unit"
-msgstr "एकक"
-
-#: SensorDisplayLib/SensorModel.cpp:175
-msgid "Status"
-msgstr "स्थिती"
-
-#: SensorDisplayLib/SensorModel.cpp:178
-msgid "Label"
-msgstr "लेबल"
-
-#: SensorDisplayLib/ListView.cpp:45
+#: SensorDisplayLib/FancyPlotter.cpp:651
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
-msgid "%1 K"
+msgctxt "unitless - just a number"
+msgid "%1"
 msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 M"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 G"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 T"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgid "%1 P"
-msgstr "%"
-
-#: SensorDisplayLib/ListView.cpp:152
-msgid "Display Units"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:156
-msgid "Mixed"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:162
-msgid "Kilobytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:168
-msgid "Megabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:174
-msgid "Gigabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:180
-#, fuzzy
-#| msgid "Temperature"
-msgid "Terabytes"
-msgstr "तापमान"
 
 #: SensorDisplayLib/FancyPlotterSettings.cpp:51
 #, fuzzy
@@ -501,95 +543,95 @@ msgstr "वर हलवा"
 msgid "Move Down"
 msgstr "खाली हलवा"
 
-#: SensorDisplayLib/FancyPlotter.cpp:178
-msgctxt "Largest axis title"
-msgid "99999 XXXX"
-msgstr "99999 XXXX"
+#: SensorDisplayLib/LogFile.cpp:92
+msgid "File logging settings"
+msgstr "फाइल लॉग करीता संयोजना"
 
-#: SensorDisplayLib/FancyPlotter.cpp:515 SensorDisplayLib/FancyPlotter.cpp:586
-#: SensorDisplayLib/FancyPlotter.cpp:649
-#, kde-format
-msgctxt "units"
-msgid "%1%"
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
+msgid "Foreground color:"
+msgstr "पार्श्वभूमी रंग:"
+
+#: SensorDisplayLib/SensorLogger.cpp:138
+msgid "Logging"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:523
-#, kde-format
-msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
-msgid "<p><b>%1:</b><br>"
-msgstr "<p><b>%1:</b><br>"
-
-#: SensorDisplayLib/FancyPlotter.cpp:594
-#, fuzzy, kde-format
-#| msgctxt "%1 and %2 are sensor's last and maximum value"
-#| msgid "%1 of %2"
-msgid "%1 of %2%1"
-msgstr "%1, %2 पैकी"
-
-#: SensorDisplayLib/FancyPlotter.cpp:622
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB"
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:86
+msgid "Timer Interval"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:625
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB"
+#: SensorDisplayLib/SensorLogger.cpp:144
+msgid "Sensor Name"
+msgstr "सेनसरचे नाव"
+
+#: SensorDisplayLib/SensorLogger.cpp:147
+msgid "Host Name"
+msgstr "यजमान नाव"
+
+#: SensorDisplayLib/SensorLogger.cpp:150
+msgid "Log File"
+msgstr "लॉग फाइल"
+
+#: SensorDisplayLib/SensorLogger.cpp:608
+msgid "&Remove Sensor"
+msgstr "सेनसर काढूण टाका (&R)"
+
+#: SensorDisplayLib/SensorLogger.cpp:613
+msgid "&Edit Sensor..."
+msgstr "सेनसर संपादीत करा (&E)..."
+
+#: SensorDisplayLib/SensorLogger.cpp:621
+msgid "St&op Logging"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:628
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB"
+#: SensorDisplayLib/SensorLogger.cpp:624
+msgid "S&tart Logging"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:631
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB"
+#: WorkSheetSettings.cpp:40
+msgid "Tab Properties"
+msgstr "टॅब गुणधर्म"
+
+#: WorkSheetSettings.cpp:61
+msgid "Properties"
+msgstr "गुणधर्म"
+
+#: WorkSheetSettings.cpp:70
+msgid "Rows:"
+msgstr "ओळ:"
+
+#: WorkSheetSettings.cpp:79
+msgid "Columns:"
+msgstr "स्तंभ:"
+
+#: WorkSheetSettings.cpp:87
+msgid "Enter the number of rows the sheet should have."
+msgstr "शीट अंतर्गत ओळची संख्या प्रविष्ट करा."
+
+#: WorkSheetSettings.cpp:88
+msgid "Enter the number of columns the sheet should have."
+msgstr "शीट अंतर्गत स्तंभची संख्या प्रविष्ट करा."
+
+#: WorkSheetSettings.cpp:90 TimerSettings.cpp:51
+msgid "Update interval:"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:636
-#, kde-format
-msgctxt "units"
-msgid "%1 TiB/s"
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
+#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
+#: WorkSheetSettings.cpp:94 TimerSettings.cpp:58 rc.cpp:89
+msgid " sec"
+msgstr " sec"
+
+#: WorkSheetSettings.cpp:100 TimerSettings.cpp:61
+msgid "All displays of the sheet are updated at the rate specified here."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cpp:639
-#, kde-format
-msgctxt "units"
-msgid "%1 GiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:642
-#, kde-format
-msgctxt "units"
-msgid "%1 MiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:645
-#, kde-format
-msgctxt "units"
-msgid "%1 KiB/s"
-msgstr ""
-
-#: SensorDisplayLib/FancyPlotter.cpp:651
-#, fuzzy, kde-format
-#| msgctxt "a percentage"
-#| msgid "%"
-msgctxt "unitless - just a number"
-msgid "%1"
-msgstr "%"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
+#: WorkSheetSettings.cpp:101
+msgid "Enter the title of the worksheet here."
+msgstr "वर्कशीटचे शिर्षक येथे प्रविष्ट करा."
 
 #: HostConnector.cpp:44
 msgid "Connect Host"
@@ -669,6 +711,23 @@ msgstr ""
 msgid "e.g. ssh -l root remote.host.org ksysguardd"
 msgstr ""
 
+#: SensorBrowser.cpp:117
+msgid "Sensor Browser"
+msgstr "सेनसर ब्राऊजर"
+
+#: SensorBrowser.cpp:474
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr ""
+
+#: SensorBrowser.cpp:475
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
 msgstr ""
@@ -677,47 +736,119 @@ msgstr ""
 msgid "Use update interval of worksheet"
 msgstr ""
 
-#: TimerSettings.cpp:51 WorkSheetSettings.cpp:90
-msgid "Update interval:"
+#: WorkSheet.cpp:89
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "फाइल %1 उघडू शकत नाही."
+
+#: WorkSheet.cpp:97
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "फाइल %1 अंतर्गत वैध XML समाविष्टीत नाही."
+
+#: WorkSheet.cpp:104
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"फाइल %1 अंतर्गत वैध वर्कशीट वर्णन समाविष्टीत नाही, व त्याचे दस्तऐवज प्रकार "
+"'KSysGuardWorkSheet' असे असायला हवे."
+
+#: WorkSheet.cpp:128
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "फाइल %1 चे वर्कशीट आकार अवैध आहे."
+
+#: WorkSheet.cpp:229
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "फाइल %1 संचयीत करू शकले नाही"
+
+#: WorkSheet.cpp:275
+msgid "The clipboard does not contain a valid display description."
+msgstr "क्लिपबोर्ड अंतर्गत वैध प्रदर्शन वर्णन समाविष्टीत नाही."
+
+#: WorkSheet.cpp:376
+msgid "Select Display Type"
+msgstr "प्रदर्शन प्रकार निवडा"
+
+#: WorkSheet.cpp:377
+msgid "&Line graph"
+msgstr "लाइन ग्राफ (&L)"
+
+#: WorkSheet.cpp:378
+msgid "&Digital display"
+msgstr "डिजीटल प्रदर्शन (&D)"
+
+#: WorkSheet.cpp:379
+msgid "&Bar graph"
+msgstr "बार ग्राफ (&B)"
+
+#: WorkSheet.cpp:380
+msgid "Log to a &file"
+msgstr "फाइल करीता लॉग करा(&f)"
+
+#: WorkSheet.cpp:529
+msgid "Remove this display?"
 msgstr ""
 
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
-#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:89
-msgid " sec"
-msgstr " sec"
+#: WorkSheet.cpp:530
+#, fuzzy
+#| msgid "Delete Display"
+msgid "Remove Display"
+msgstr "प्रदर्शन नष्ट करा"
 
-#: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
-msgid "All displays of the sheet are updated at the rate specified here."
+#: WorkSheet.cpp:571
+msgid "Dummy"
+msgstr "नकल्ल"
+
+#: Workspace.cpp:113
+#, kde-format
+msgid "Sheet %1"
 msgstr ""
 
-#: WorkSheetSettings.cpp:40
-msgid "Tab Properties"
-msgstr "टॅब गुणधर्म"
+#: Workspace.cpp:172
+#, kde-format
+msgid ""
+"The tab '%1' contains unsaved data.\n"
+"Do you want to save the tab?"
+msgstr ""
 
-#: WorkSheetSettings.cpp:61
-msgid "Properties"
-msgstr "गुणधर्म"
+#: Workspace.cpp:187
+msgid "*.sgrd|Sensor Files (*.sgrd)"
+msgstr ""
 
-#: WorkSheetSettings.cpp:70
-msgid "Rows:"
-msgstr "ओळ:"
+#: Workspace.cpp:187
+msgid "Select Tab File to Import"
+msgstr ""
 
-#: WorkSheetSettings.cpp:79
-msgid "Columns:"
-msgstr "स्तंभ:"
+#: Workspace.cpp:215 Workspace.cpp:236
+msgid "You do not have a tab that could be saved."
+msgstr ""
 
-#: WorkSheetSettings.cpp:87
-msgid "Enter the number of rows the sheet should have."
-msgstr "शीट अंतर्गत ओळची संख्या प्रविष्ट करा."
+#: Workspace.cpp:243
+msgid "Export Tab"
+msgstr ""
 
-#: WorkSheetSettings.cpp:88
-msgid "Enter the number of columns the sheet should have."
-msgstr "शीट अंतर्गत स्तंभची संख्या प्रविष्ट करा."
+#: Workspace.cpp:261
+msgid "There are no tabs that could be deleted."
+msgstr ""
 
-#: WorkSheetSettings.cpp:101
-msgid "Enter the title of the worksheet here."
-msgstr "वर्कशीटचे शिर्षक येथे प्रविष्ट करा."
+#: Workspace.cpp:301
+#, kde-format
+msgid ""
+"<qt>To propose the current custom tab as a new System Monitor tab, email "
+"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
+"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
+"qt>"
+msgstr ""
+
+#: Workspace.cpp:301
+#, fuzzy
+#| msgid "System Monitor"
+msgid "Upload custom System Monitor tab"
+msgstr "प्रणाली मॉनिटर"
 
 #: ksysguard.cpp:74
 msgid "KDE System Monitor"
@@ -858,137 +989,6 @@ msgstr ""
 #: ksysguard.cpp:551
 msgid "Optional worksheet files to load"
 msgstr "दाखलनजोगी वैक्लपीक वर्कशीट फाइल"
-
-#: SensorBrowser.cpp:117
-msgid "Sensor Browser"
-msgstr "सेनसर ब्राऊजर"
-
-#: SensorBrowser.cpp:474
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr ""
-
-#: SensorBrowser.cpp:475
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
-
-#: Workspace.cpp:113
-#, kde-format
-msgid "Sheet %1"
-msgstr ""
-
-#: Workspace.cpp:172
-#, kde-format
-msgid ""
-"The tab '%1' contains unsaved data.\n"
-"Do you want to save the tab?"
-msgstr ""
-
-#: Workspace.cpp:187
-msgid "*.sgrd|Sensor Files (*.sgrd)"
-msgstr ""
-
-#: Workspace.cpp:187
-msgid "Select Tab File to Import"
-msgstr ""
-
-#: Workspace.cpp:215 Workspace.cpp:236
-msgid "You do not have a tab that could be saved."
-msgstr ""
-
-#: Workspace.cpp:243
-msgid "Export Tab"
-msgstr ""
-
-#: Workspace.cpp:261
-msgid "There are no tabs that could be deleted."
-msgstr ""
-
-#: Workspace.cpp:301
-#, kde-format
-msgid ""
-"<qt>To propose the current custom tab as a new System Monitor tab, email "
-"<br><a href=\"file:%1\">%2</a><br> to <a href=\"mailto:john.tapsell@kde.org?"
-"subject='System Monitor Tab'&attach='file://%2'\">john.tapsell@kde.org</a></"
-"qt>"
-msgstr ""
-
-#: Workspace.cpp:301
-#, fuzzy
-#| msgid "System Monitor"
-msgid "Upload custom System Monitor tab"
-msgstr "प्रणाली मॉनिटर"
-
-#: WorkSheet.cpp:89
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "फाइल %1 उघडू शकत नाही."
-
-#: WorkSheet.cpp:97
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "फाइल %1 अंतर्गत वैध XML समाविष्टीत नाही."
-
-#: WorkSheet.cpp:104
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"फाइल %1 अंतर्गत वैध वर्कशीट वर्णन समाविष्टीत नाही, व त्याचे दस्तऐवज प्रकार "
-"'KSysGuardWorkSheet' असे असायला हवे."
-
-#: WorkSheet.cpp:128
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "फाइल %1 चे वर्कशीट आकार अवैध आहे."
-
-#: WorkSheet.cpp:229
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "फाइल %1 संचयीत करू शकले नाही"
-
-#: WorkSheet.cpp:275
-msgid "The clipboard does not contain a valid display description."
-msgstr "क्लिपबोर्ड अंतर्गत वैध प्रदर्शन वर्णन समाविष्टीत नाही."
-
-#: WorkSheet.cpp:376
-msgid "Select Display Type"
-msgstr "प्रदर्शन प्रकार निवडा"
-
-#: WorkSheet.cpp:377
-msgid "&Line graph"
-msgstr "लाइन ग्राफ (&L)"
-
-#: WorkSheet.cpp:378
-msgid "&Digital display"
-msgstr "डिजीटल प्रदर्शन (&D)"
-
-#: WorkSheet.cpp:379
-msgid "&Bar graph"
-msgstr "बार ग्राफ (&B)"
-
-#: WorkSheet.cpp:380
-msgid "Log to a &file"
-msgstr "फाइल करीता लॉग करा(&f)"
-
-#: WorkSheet.cpp:529
-msgid "Remove this display?"
-msgstr ""
-
-#: WorkSheet.cpp:530
-#, fuzzy
-#| msgid "Delete Display"
-msgid "Remove Display"
-msgstr "प्रदर्शन नष्ट करा"
-
-#: WorkSheet.cpp:571
-msgid "Dummy"
-msgstr "नकल्ल"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
