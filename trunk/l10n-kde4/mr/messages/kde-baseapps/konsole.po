@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-03 03:45+0200\n"
+"POT-Creation-Date: 2011-10-04 04:23+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -645,7 +645,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "या चौकटीत अनेक टॅब आहेत, तुम्हाला नक्की बाहेर पडायचे?"
 
-#: MainWindow.cpp:422 SessionController.cpp:642
+#: MainWindow.cpp:422 SessionController.cpp:642 SessionController.cpp:668
 msgid "Confirm Close"
 msgstr "बंद निश्चित करा"
 
@@ -1823,43 +1823,63 @@ msgid ""
 "want to close it?"
 msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
 
-#: SessionController.cpp:1236
+#: SessionController.cpp:662
+#, fuzzy
+#| msgid ""
+#| "A program is currently running in this session.  Are you sure you want to "
+#| "close it?"
+msgid ""
+"A program in this session would not die.  Are you sure you want to kill it "
+"by force?"
+msgstr "वर्तमानक्षणी या सत्र अंतर्गत कार्यक्रम कार्यरत आहे. तुम्हाला नक्की बंद करायचे आहे?"
+
+#: SessionController.cpp:665
+#, fuzzy, kde-format
+#| msgid ""
+#| "The program '%1' is currently running in this session.  Are you sure you "
+#| "want to close it?"
+msgid ""
+"The program '%1' is in this session would not die.  Are you sure you want to "
+"kill it by force?"
+msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
+
+#: SessionController.cpp:1274
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1245
+#: SessionController.cpp:1283
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1257
+#: SessionController.cpp:1295
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1266
+#: SessionController.cpp:1304
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1272
+#: SessionController.cpp:1310
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1344
+#: SessionController.cpp:1382
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 पासून आऊटपुट संचयीत करा"
 
-#: SessionController.cpp:1355
+#: SessionController.cpp:1393
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 अवैध URL आहे, आऊटपुट संचयीत केले जाऊ शकत नाही."
 
-#: SessionController.cpp:1433
+#: SessionController.cpp:1471
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1910,35 +1930,35 @@ msgstr "सत्र '%1' अंतर्गत bell"
 msgid "Activity in session '%1'"
 msgstr "सत्र '%1' अंतर्गत क्रिया"
 
-#: Session.cpp:794
+#: Session.cpp:817
 #, fuzzy
 #| msgid "Finished"
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "पूर्ण झाले"
 
-#: Session.cpp:803
+#: Session.cpp:826
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "कार्यक्रम '%1' स्थिती %2 सह बाहेर पडले."
 
-#: Session.cpp:805
+#: Session.cpp:828
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "कार्यक्रम '%1' क्रॅश झाले."
 
-#: Session.cpp:1144
+#: Session.cpp:1167
 msgid "ZModem Progress"
 msgstr "ZModem प्रगती"
 
-#: SessionManager.cpp:932
+#: SessionManager.cpp:934
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "संख्या"
 
-#: SessionManager.cpp:934
+#: SessionManager.cpp:936
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
