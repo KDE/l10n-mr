@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-10-25 04:01+0200\n"
+"POT-Creation-Date: 2011-10-26 04:18+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -336,33 +336,35 @@ msgstr "इमेल पाठवा..."
 msgid "Copy Email Address"
 msgstr "इमेल पत्ता प्रतिकृत करा"
 
-#: HistorySizeDialog.cpp:51
-msgid "Scrollback Options"
-msgstr "स्क्रोलबॅक पर्याय"
+#: HistorySizeDialog.cpp:49
+#, fuzzy
+#| msgid "Scrollback"
+msgid "Adjust Scrollback"
+msgstr "स्क्रोलबॅक"
 
-#: HistorySizeDialog.cpp:62
+#: HistorySizeDialog.cpp:60
 msgid "No scrollback"
 msgstr "स्क्रोलबॅक नाही"
 
-#: HistorySizeDialog.cpp:63
+#: HistorySizeDialog.cpp:61
 msgid "Fixed size scrollback: "
 msgstr "ठराविक आकराचे स्क्रोलबॅक: "
 
 #. i18n: file: EditProfileDialog.ui:757
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedScrollbackButton)
-#: HistorySizeDialog.cpp:64 rc.cpp:236
+#: HistorySizeDialog.cpp:62 rc.cpp:236
 msgid "Unlimited scrollback"
 msgstr "अमर्यादीत स्क्रोलबॅक"
 
-#: HistorySizeDialog.cpp:88
+#: HistorySizeDialog.cpp:86
 msgid "lines"
 msgstr "रेषा"
 
-#: HistorySizeDialog.cpp:95
-#, fuzzy
-#| msgid "Edit Current Profile..."
-msgid "Save to current profile"
-msgstr "वर्तमान प्रोफाइल संपादीत करा..."
+#: HistorySizeDialog.cpp:93
+msgid ""
+"<span style=\"color:gray;\"><center><bold>The adjustment is only temporary.</"
+"bold></center></span>"
+msgstr ""
 
 #: IncrementalSearchBar.cpp:52
 msgid "Close the search bar"
@@ -712,7 +714,7 @@ msgstr ""
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "या चौकटीत अनेक टॅब आहेत, तुम्हाला नक्की बाहेर पडायचे?"
 
-#: MainWindow.cpp:422 SessionController.cpp:638 SessionController.cpp:664
+#: MainWindow.cpp:422 SessionController.cpp:639 SessionController.cpp:665
 msgid "Confirm Close"
 msgstr "बंद निश्चित करा"
 
@@ -1675,9 +1677,61 @@ msgstr "नविन टर्मिनल सत्र करीता नि�
 msgid "&Set as Default"
 msgstr "मुलभूथ नुरूप निश्चित करा"
 
+#. i18n: file: ../desktop/konsoleui.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:458
+msgid "File"
+msgstr "फाइल"
+
+#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:461
+msgid "Edit"
+msgstr "संपादन"
+
+#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: ectx: Menu (view)
+#: rc.cpp:464
+msgid "View"
+msgstr "दृश्य"
+
+#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: ectx: Menu (view-split)
+#: rc.cpp:467
+msgid "Split View"
+msgstr "दृश्य विभाजीत करा"
+
+#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: ectx: Menu (settings)
+#: rc.cpp:470
+msgid "Settings"
+msgstr "संयोजना"
+
+#. i18n: file: ../desktop/konsoleui.rc:44
+#. i18n: ectx: Menu (help)
+#: rc.cpp:473
+msgid "Help"
+msgstr "मदत"
+
+#. i18n: file: ../desktop/partui.rc:7
+#. i18n: ectx: Menu (history)
+#: rc.cpp:476
+msgid "S&crollback"
+msgstr "स्क्रोलबॅक (&c)"
+
+#. i18n: file: ../desktop/partui.rc:23
+#. i18n: ectx: Menu (switch-profile)
+#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: ectx: Menu (switch-profile)
+#: rc.cpp:479 rc.cpp:488
+#, fuzzy
+#| msgid "Edit Profile"
+msgid "&Switch Profile"
+msgstr "प्रोफाइल संपादीत करा"
+
 #. i18n: file: ../desktop/sessionui.rc:17
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:458
+#: rc.cpp:482
 #, fuzzy
 #| msgid "Copy Input To..."
 msgid "Copy Input To"
@@ -1685,61 +1739,9 @@ msgstr "इनपुट प्रतिकृत करा..."
 
 #. i18n: file: ../desktop/sessionui.rc:44
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:461
+#: rc.cpp:485
 msgid "Debug"
 msgstr "डीबग"
-
-#. i18n: file: ../desktop/sessionui.rc:63
-#. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/partui.rc:23
-#. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:464 rc.cpp:488
-#, fuzzy
-#| msgid "Edit Profile"
-msgid "&Switch Profile"
-msgstr "प्रोफाइल संपादीत करा"
-
-#. i18n: file: ../desktop/konsoleui.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:467
-msgid "File"
-msgstr "फाइल"
-
-#. i18n: file: ../desktop/konsoleui.rc:14
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:470
-msgid "Edit"
-msgstr "संपादन"
-
-#. i18n: file: ../desktop/konsoleui.rc:17
-#. i18n: ectx: Menu (view)
-#: rc.cpp:473
-msgid "View"
-msgstr "दृश्य"
-
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (view-split)
-#: rc.cpp:476
-msgid "Split View"
-msgstr "दृश्य विभाजीत करा"
-
-#. i18n: file: ../desktop/konsoleui.rc:33
-#. i18n: ectx: Menu (settings)
-#: rc.cpp:479
-msgid "Settings"
-msgstr "संयोजना"
-
-#. i18n: file: ../desktop/konsoleui.rc:44
-#. i18n: ectx: Menu (help)
-#: rc.cpp:482
-msgid "Help"
-msgstr "मदत"
-
-#. i18n: file: ../desktop/partui.rc:7
-#. i18n: ectx: Menu (history)
-#: rc.cpp:485
-msgid "S&crollback"
-msgstr "स्क्रोलबॅक (&c)"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -1872,45 +1874,45 @@ msgstr "आऊटपुट संचयीत करा..."
 #: SessionController.cpp:532
 #, fuzzy
 #| msgid "Manage Profiles..."
-msgid "Configure Scrollback..."
+msgid "Adjust Scrollback..."
 msgstr "प्रोफाइल व्यवस्थापीत करा..."
 
-#: SessionController.cpp:536
+#: SessionController.cpp:537
 msgid "Clear Scrollback"
 msgstr "स्क्रोलबॅक नष्ट करा"
 
-#: SessionController.cpp:540
+#: SessionController.cpp:541
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "स्क्रोलबॅक नष्ट करा && रिसेट करा"
 
-#: SessionController.cpp:546
+#: SessionController.cpp:547
 #, fuzzy
 #| msgid "Manage Profiles..."
 msgid "Configure Current Profile..."
 msgstr "प्रोफाइल व्यवस्थापीत करा..."
 
-#: SessionController.cpp:549
+#: SessionController.cpp:550
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "प्रोफाइल संपादीत करा"
 
-#: SessionController.cpp:632
+#: SessionController.cpp:633
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "वर्तमानक्षणी या सत्र अंतर्गत कार्यक्रम कार्यरत आहे. तुम्हाला नक्की बंद करायचे आहे?"
 
-#: SessionController.cpp:635
+#: SessionController.cpp:636
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
 
-#: SessionController.cpp:658
+#: SessionController.cpp:659
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1920,7 +1922,7 @@ msgid ""
 "by force?"
 msgstr "वर्तमानक्षणी या सत्र अंतर्गत कार्यक्रम कार्यरत आहे. तुम्हाला नक्की बंद करायचे आहे?"
 
-#: SessionController.cpp:661
+#: SessionController.cpp:662
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1930,43 +1932,43 @@ msgid ""
 "kill it by force?"
 msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
 
-#: SessionController.cpp:1258
+#: SessionController.cpp:1240
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1267
+#: SessionController.cpp:1249
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1279
+#: SessionController.cpp:1261
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1288
+#: SessionController.cpp:1270
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1294
+#: SessionController.cpp:1276
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1366
+#: SessionController.cpp:1348
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 पासून आऊटपुट संचयीत करा"
 
-#: SessionController.cpp:1377
+#: SessionController.cpp:1359
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 अवैध URL आहे, आऊटपुट संचयीत केले जाऊ शकत नाही."
 
-#: SessionController.cpp:1455
+#: SessionController.cpp:1437
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2242,6 +2244,14 @@ msgstr ""
 msgid "&Stop"
 msgstr "थांबा (&S)"
 
+#~ msgid "Scrollback Options"
+#~ msgstr "स्क्रोलबॅक पर्याय"
+
+#, fuzzy
+#~| msgid "Edit Current Profile..."
+#~ msgid "Save to current profile"
+#~ msgstr "वर्तमान प्रोफाइल संपादीत करा..."
+
 #, fuzzy
 #~| msgid "Manage Profiles..."
 #~ msgid "Configure Profiles..."
@@ -2355,9 +2365,6 @@ msgstr "थांबा (&S)"
 
 #~ msgid "&Detach View"
 #~ msgstr "दृश्य वेगळे करा (&D)"
-
-#~ msgid "Scrollback"
-#~ msgstr "स्क्रोलबॅक"
 
 #~ msgid "&Copy"
 #~ msgstr "प्रतिकृत करा (&C)"
