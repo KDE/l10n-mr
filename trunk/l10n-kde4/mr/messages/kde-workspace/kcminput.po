@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:37+0200\n"
+"POT-Creation-Date: 2011-11-10 04:06+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -524,6 +524,13 @@ msgstr "नविन सुत्रयोजना प्रतिष्ठा�
 msgid "Remove Theme"
 msgstr "सुत्रयोजना हटवा"
 
+#. i18n: file: xcursor/themepage.ui:99
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#: rc.cpp:83
+msgctxt "@label:listbox cursor size"
+msgid "Size:"
+msgstr ""
+
 #: core/themepage.cpp:54
 msgid "Select the cursor theme you want to use:"
 msgstr "वापरण्याजोगी कर्सर सुत्रयोजनाचा वापर करा:"
@@ -536,11 +543,11 @@ msgstr "नाव"
 msgid "Description"
 msgstr "वर्णन"
 
-#: core/themepage.cpp:100 xcursor/themepage.cpp:203
+#: core/themepage.cpp:100 xcursor/themepage.cpp:328
 msgid "You have to restart KDE for these changes to take effect."
 msgstr "या बदलावांचा प्रभाव लागू करण्याकरीता तुम्हाला KDE पुन्हाप्रारंभ करावे लागेल."
 
-#: core/themepage.cpp:101 xcursor/themepage.cpp:204
+#: core/themepage.cpp:101 xcursor/themepage.cpp:329
 msgid "Cursor Settings Changed"
 msgstr "कर्सर संयोजना बदलविले"
 
@@ -584,16 +591,21 @@ msgstr "KDE क्लासिक"
 msgid "The default cursor theme in KDE 2 and 3"
 msgstr "KDE 2 व 3 अंतर्गत मुलभूत कर्सर सुत्रयोजना"
 
-#: xcursor/themepage.cpp:309
+#: xcursor/themepage.cpp:155
+msgctxt "@item:inlistbox size"
+msgid "resolution dependent"
+msgstr ""
+
+#: xcursor/themepage.cpp:444
 msgid "Drag or Type Theme URL"
 msgstr "सुत्रयोजना URL ओढा किंवा टाइप करा"
 
-#: xcursor/themepage.cpp:320
+#: xcursor/themepage.cpp:455
 #, kde-format
 msgid "Unable to find the cursor theme archive %1."
 msgstr "कर्सर सुत्रयोजना संग्रह %1 शोधण्यास अपयशी."
 
-#: xcursor/themepage.cpp:323
+#: xcursor/themepage.cpp:458
 #, kde-format
 msgid ""
 "Unable to download the cursor theme archive; please check that the address "
@@ -601,38 +613,46 @@ msgid ""
 msgstr ""
 "कर्सर सुत्रयोजना संग्रह डाऊनलोड करण्यास अपयशी; कृपया पत्ता %1 योग्य आहे याची खात्री करा."
 
-#: xcursor/themepage.cpp:332
+#: xcursor/themepage.cpp:467
 #, kde-format
 msgid "The file %1 does not appear to be a valid cursor theme archive."
 msgstr "फाइल %1 वैध कर्सर सुत्रयोजना संग्रह नुरूप दृश्यास्पद आढळून येत नाही."
 
-#: xcursor/themepage.cpp:347
+#: xcursor/themepage.cpp:482
 msgid ""
 "<qt>You cannot delete the theme you are currently using.<br />You have to "
 "switch to another theme first.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:353
+#: xcursor/themepage.cpp:488
 #, kde-format
 msgid ""
 "<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
 "will delete all the files installed by this theme.</qt>"
 msgstr ""
 
-#: xcursor/themepage.cpp:359
+#: xcursor/themepage.cpp:494
 msgid "Confirmation"
 msgstr "पुष्टिकरण"
 
-#: xcursor/themepage.cpp:416
+#: xcursor/themepage.cpp:551
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
 "replace it with this one?"
 msgstr ""
 
-#: xcursor/themepage.cpp:420
+#: xcursor/themepage.cpp:555
 msgid "Overwrite Theme?"
 msgstr "सुत्रयोजना खोडून पुन्हा लिहायचे?"
+
+#: xcursor/xcursortheme.cpp:74
+#, kde-format
+msgctxt ""
+"@info/plain The argument is the list of available sizes (in pixel). Example: "
+"'Available sizes: 24' or 'Available sizes: 24, 36, 48'"
+msgid "(Available sizes: %1)"
+msgstr ""
 
 #~ msgid "No description available"
 #~ msgstr "वर्णन उपलब्ध नाही"
