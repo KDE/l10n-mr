@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-12-02 04:24+0100\n"
+"POT-Creation-Date: 2011-12-21 04:41+0100\n"
 "PO-Revision-Date: 2009-01-06 22:19+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -758,7 +758,7 @@ msgstr "संयोजना (&S)"
 
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:177
 #. i18n: ectx: Menu (help)
-#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:148
+#: rc.cpp:445 kdeui/widgets/khelpmenu.cpp:188
 msgid "&Help"
 msgstr "मदत (&H)"
 
@@ -2093,7 +2093,7 @@ msgstr "Enter"
 
 #. i18n: file: nepomuk/utils/daterangeselectionwidget.ui:81
 #. i18n: ectx: property (text), widget (QToolButton, m_rangesButton)
-#: rc.cpp:1109 kdecore/localization/klocale_kde.cpp:2517
+#: rc.cpp:1109 kdecore/localization/klocale_kde.cpp:2523
 #: nepomuk/utils/daterangeselectionwidget.cpp:193
 msgid "Today"
 msgstr "आज"
@@ -2370,7 +2370,7 @@ msgstr "(लोगो उपलब्ध नाही)"
 
 #: kde3support/kdeui/k3aboutdialog.cpp:1044
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:92
-#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:264
+#: kdeui/dialogs/kmessagebox.cpp:1049 kdeui/widgets/khelpmenu.cpp:290
 #, kde-format
 msgid "About %1"
 msgstr "%1 विषयी"
@@ -4728,49 +4728,49 @@ msgctxt ""
 msgid "%1 and %2"
 msgstr "%1 व %2"
 
-#: kdecore/localization/klocale_kde.cpp:2462
+#: kdecore/localization/klocale_kde.cpp:2468
 msgctxt "Before Noon KLocale::LongName"
 msgid "Ante Meridiem"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2463
+#: kdecore/localization/klocale_kde.cpp:2469
 msgctxt "Before Noon KLocale::ShortName"
 msgid "AM"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2464
+#: kdecore/localization/klocale_kde.cpp:2470
 #, fuzzy
 #| msgid "AC"
 msgctxt "Before Noon KLocale::NarrowName"
 msgid "A"
 msgstr "AC"
 
-#: kdecore/localization/klocale_kde.cpp:2467
+#: kdecore/localization/klocale_kde.cpp:2473
 msgctxt "After Noon KLocale::LongName"
 msgid "Post Meridiem"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2468
+#: kdecore/localization/klocale_kde.cpp:2474
 msgctxt "After Noon KLocale::ShortName"
 msgid "PM"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2469
+#: kdecore/localization/klocale_kde.cpp:2475
 msgctxt "After Noon KLocale::NarrowName"
 msgid "P"
 msgstr ""
 
-#: kdecore/localization/klocale_kde.cpp:2520
+#: kdecore/localization/klocale_kde.cpp:2526
 msgid "Yesterday"
 msgstr "काल"
 
-#: kdecore/localization/klocale_kde.cpp:2536
+#: kdecore/localization/klocale_kde.cpp:2542
 #, kde-format
 msgctxt "concatenation of dates and time"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: kdecore/localization/klocale_kde.cpp:2576
+#: kdecore/localization/klocale_kde.cpp:2582
 #, kde-format
 msgctxt "concatenation of date/time and time zone"
 msgid "%1 %2"
@@ -5417,18 +5417,6 @@ msgctxt "Encodings menu"
 msgid "Autodetect"
 msgstr "स्वशोध"
 
-#: kdeui/actions/krecentfilesaction.cpp:80
-#, fuzzy
-#| msgid "No entries"
-msgid "No Entries"
-msgstr "नोंदणी नाही"
-
-#: kdeui/actions/krecentfilesaction.cpp:84
-#, fuzzy
-#| msgid "Clear input"
-msgid "Clear List"
-msgstr "इनपुट खोडा"
-
 #: kdeui/actions/ktogglefullscreenaction.cpp:48
 #: kdeui/actions/ktogglefullscreenaction.cpp:55
 #: kdeui/actions/ktogglefullscreenaction.cpp:85
@@ -5461,6 +5449,18 @@ msgstr ""
 #: kdeui/actions/kaction.cpp:126
 msgid "Ambiguous shortcut detected"
 msgstr ""
+
+#: kdeui/actions/krecentfilesaction.cpp:81
+#, fuzzy
+#| msgid "No entries"
+msgid "No Entries"
+msgstr "नोंदणी नाही"
+
+#: kdeui/actions/krecentfilesaction.cpp:85
+#, fuzzy
+#| msgid "Clear input"
+msgid "Clear List"
+msgstr "इनपुट खोडा"
 
 #: kdeui/actions/kstandardaction.cpp:93 kdeui/util/kstandardguiitem.cpp:210
 msgctxt "go back"
@@ -5496,8 +5496,8 @@ msgstr "स्थितीपट्टी दर्शवा (&a)"
 
 #: kdeui/actions/kstandardaction.cpp:542
 msgid ""
-"Show Statusbar<p>Shows the statusbar, which is the bar at the bottom of the "
-"window used for status information.</p>"
+"Show Statusbar<br /><br />Shows the statusbar, which is the bar at the "
+"bottom of the window used for status information."
 msgstr ""
 
 #: kdeui/dialogs/kaboutapplicationdialog.cpp:84
@@ -7034,12 +7034,18 @@ msgctxt "@info:whatsthis"
 msgid "Here you can choose the font style to be used."
 msgstr "येथे तुम्ही वापरण्याजोगी फॉन्ट शैली निवडू शकता."
 
-#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:639
+#: kdeui/fonts/kfontchooser.cpp:295 kdeui/fonts/kfontchooser.cpp:623
+#: kdeui/fonts/kfontchooser.cpp:640
+msgctxt "@item font"
+msgid "Regular"
+msgstr "सर्वसाधारण"
+
+#: kdeui/fonts/kfontchooser.cpp:296 kdeui/fonts/kfontchooser.cpp:644
 msgctxt "@item font"
 msgid "Italic"
 msgstr "तिरपे"
 
-#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:640
+#: kdeui/fonts/kfontchooser.cpp:297 kdeui/fonts/kfontchooser.cpp:645
 msgctxt "@item font"
 msgid "Oblique"
 msgstr "तिरपा"
@@ -7097,7 +7103,7 @@ msgstr "वास्तविक फॉन्ट"
 #. noun-adjective congruence wrt. gender of the family name).
 #. The message provides the dynamic context 'family', which is
 #. the family name to which the style string corresponds.
-#: kdeui/fonts/kfontchooser.cpp:625
+#: kdeui/fonts/kfontchooser.cpp:630
 #, kde-format
 msgctxt "@item Font style"
 msgid "%1"
@@ -7269,24 +7275,24 @@ msgid "Minimize"
 msgstr "लहान करा"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:487
-#: kdeui/notifications/kstatusnotifieritem.cpp:925
+#: kdeui/notifications/kstatusnotifieritem.cpp:488
+#: kdeui/notifications/kstatusnotifieritem.cpp:926
 msgid "&Minimize"
 msgstr "लहान करा (&M)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:923
+#: kdeui/notifications/kstatusnotifieritem.cpp:924
 msgid "&Restore"
 msgstr "पुन्ह स्थापन (&R)"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:933
+#: kdeui/notifications/kstatusnotifieritem.cpp:934
 #, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>तुम्हाला नक्की बाहेर पडायचे <b>%1</b>?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:936
+#: kdeui/notifications/kstatusnotifieritem.cpp:937
 msgid "Confirm Quit From System Tray"
 msgstr "प्रणाली ट्रे जाण्याची पुष्टि करा"
 
@@ -9394,31 +9400,65 @@ msgstr "वर हलवा (&U)"
 msgid "Move &Down"
 msgstr "खाली हलवा (&D)"
 
-#: kdeui/widgets/khelpmenu.cpp:153 kdeui/actions/kstandardaction_p.h:111
-#, kde-format
-msgid "%1 &Handbook"
-msgstr "%1 हैंडबुक (&H)"
+#. i18n: Placeholder text in line edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter search pattern").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#. i18n: Placeholder text in text edit widgets is the text appearing
+#. before any user input, briefly explaining to the user what to type
+#. (e.g. "Enter message").
+#. By default the text is set in italic, which may not be appropriate
+#. for some languages and scripts (e.g. for CJK ideographs).
+#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
+msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
+msgid "1"
+msgstr "1"
 
-#: kdeui/widgets/khelpmenu.cpp:162
-msgid "What's &This"
-msgstr "हे काय आहे (&T)"
+#: kdeui/widgets/klineedit.cpp:296
+msgctxt "@action:button Clear current text in the line edit"
+msgid "Clear text"
+msgstr "पाठ्य खोडा"
 
-#: kdeui/widgets/khelpmenu.cpp:173 kdeui/actions/kstandardaction_p.h:114
-msgid "&Report Bug..."
-msgstr "बग सादर करा (&R)..."
+#: kdeui/widgets/klineedit.cpp:1216
+msgctxt "@title:menu"
+msgid "Text Completion"
+msgstr "पाठ्य पूर्णपणा"
 
-#: kdeui/widgets/khelpmenu.cpp:183 kdeui/actions/kstandardaction_p.h:115
-msgid "Switch Application &Language..."
-msgstr "अनुप्रयोग भाषा बदलवा (&L)..."
+#: kdeui/widgets/klineedit.cpp:1223
+msgctxt "@item:inmenu Text Completion"
+msgid "None"
+msgstr "काहीच नाही"
 
-#: kdeui/widgets/khelpmenu.cpp:194 kdeui/actions/kstandardaction_p.h:116
-#, kde-format
-msgid "&About %1"
-msgstr "%1 विषयी (&A)"
+#: kdeui/widgets/klineedit.cpp:1224
+msgctxt "@item:inmenu Text Completion"
+msgid "Manual"
+msgstr "पुस्तिका"
 
-#: kdeui/widgets/khelpmenu.cpp:199 kdeui/actions/kstandardaction_p.h:117
-msgid "About &KDE"
-msgstr "KDE विषयी (&K)"
+#: kdeui/widgets/klineedit.cpp:1225
+msgctxt "@item:inmenu Text Completion"
+msgid "Automatic"
+msgstr "स्वयंचलित"
+
+#: kdeui/widgets/klineedit.cpp:1226
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List"
+msgstr "ड्रापडाउन सूची"
+
+#: kdeui/widgets/klineedit.cpp:1227
+msgctxt "@item:inmenu Text Completion"
+msgid "Short Automatic"
+msgstr "किमान स्वयंचलित"
+
+#: kdeui/widgets/klineedit.cpp:1228
+msgctxt "@item:inmenu Text Completion"
+msgid "Dropdown List && Automatic"
+msgstr "ड्रापडाउन सूची && स्वयंचलित"
+
+#: kdeui/widgets/klineedit.cpp:1259
+msgctxt "@item:inmenu Text Completion"
+msgid "Default"
+msgstr "मुलभूत"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:936
 msgid "Clear &History"
@@ -9542,66 +9582,6 @@ msgstr "असमर्थीत कि"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "निनावी"
-
-#. i18n: Placeholder text in line edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter search pattern").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#. i18n: Placeholder text in text edit widgets is the text appearing
-#. before any user input, briefly explaining to the user what to type
-#. (e.g. "Enter message").
-#. By default the text is set in italic, which may not be appropriate
-#. for some languages and scripts (e.g. for CJK ideographs).
-#: kdeui/widgets/klineedit.cpp:87 kdeui/widgets/ktextedit.cpp:79
-msgctxt "Italic placeholder text in line edits: 0 no, 1 yes"
-msgid "1"
-msgstr "1"
-
-#: kdeui/widgets/klineedit.cpp:296
-msgctxt "@action:button Clear current text in the line edit"
-msgid "Clear text"
-msgstr "पाठ्य खोडा"
-
-#: kdeui/widgets/klineedit.cpp:1213
-msgctxt "@title:menu"
-msgid "Text Completion"
-msgstr "पाठ्य पूर्णपणा"
-
-#: kdeui/widgets/klineedit.cpp:1220
-msgctxt "@item:inmenu Text Completion"
-msgid "None"
-msgstr "काहीच नाही"
-
-#: kdeui/widgets/klineedit.cpp:1221
-msgctxt "@item:inmenu Text Completion"
-msgid "Manual"
-msgstr "पुस्तिका"
-
-#: kdeui/widgets/klineedit.cpp:1222
-msgctxt "@item:inmenu Text Completion"
-msgid "Automatic"
-msgstr "स्वयंचलित"
-
-#: kdeui/widgets/klineedit.cpp:1223
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List"
-msgstr "ड्रापडाउन सूची"
-
-#: kdeui/widgets/klineedit.cpp:1224
-msgctxt "@item:inmenu Text Completion"
-msgid "Short Automatic"
-msgstr "किमान स्वयंचलित"
-
-#: kdeui/widgets/klineedit.cpp:1225
-msgctxt "@item:inmenu Text Completion"
-msgid "Dropdown List && Automatic"
-msgstr "ड्रापडाउन सूची && स्वयंचलित"
-
-#: kdeui/widgets/klineedit.cpp:1256
-msgctxt "@item:inmenu Text Completion"
-msgid "Default"
-msgstr "मुलभूत"
 
 #: kdeui/widgets/ktextedit.cpp:527
 #, fuzzy
@@ -10958,6 +10938,10 @@ msgstr "थांबविलेले चौकट सक्रीय पॉप
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "जावास्क्रिप्ट नविन चौकट करार संयोजीत करा (&C)..."
 
+#: khtml/khtmlview.cpp:1842
+msgid "Access Keys activated"
+msgstr "प्रवेश किल्ली सक्रिय केले"
+
 #: khtml/khtmlimage.cpp:202
 #, kde-format
 msgid "%1 (%2 - %3x%4 Pixels)"
@@ -10981,10 +10965,6 @@ msgstr "प्रतिमा - %1x%2 पिक्सेल"
 #: khtml/khtmlimage.cpp:217
 msgid "Done."
 msgstr "संपन्न."
-
-#: khtml/khtmlview.cpp:1842
-msgid "Access Keys activated"
-msgstr "प्रवेश किल्ली सक्रिय केले"
 
 #: khtml/ecma/kjs_binding.cpp:185
 msgid ""
@@ -12567,76 +12547,6 @@ msgstr "तुम्हाला नक्की '%1' कार्यान्�
 msgid "Execute File?"
 msgstr "फाइल चालवायची?"
 
-#: kparts/browseropenorsavequestion.cpp:100
-#, fuzzy, kde-format
-#| msgid "Re: %1"
-msgctxt "@label Type of file"
-msgid "Type: %1"
-msgstr "Re: %1"
-
-#: kparts/browseropenorsavequestion.cpp:108
-#, fuzzy
-#| msgid "Do not show this message again"
-msgctxt "@label:checkbox"
-msgid "Remember action for files of this type"
-msgstr "हा संदेश पुन्हा दर्शवू नका"
-
-#: kparts/browseropenorsavequestion.cpp:139
-#: kparts/browseropenorsavequestion.cpp:214
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
-msgctxt "@label:button"
-msgid "&Open with %1"
-msgstr "'%1' सह उघडा (&O)"
-
-#: kparts/browseropenorsavequestion.cpp:188
-#, fuzzy, kde-format
-#| msgid "&Open with '%1'"
-msgctxt "@action:inmenu"
-msgid "Open &with %1"
-msgstr "'%1' सह उघडा (&O)"
-
-#: kparts/browseropenorsavequestion.cpp:199
-#: kparts/browseropenorsavequestion.cpp:293
-#, fuzzy, kde-format
-#| msgid "Open '%1'"
-msgctxt "@info"
-msgid "Open '%1'?"
-msgstr "'%1' उघडा"
-
-#: kparts/browseropenorsavequestion.cpp:203
-#, fuzzy
-#| msgid "&Open With..."
-msgctxt "@label:button"
-msgid "&Open with..."
-msgstr "सह उघडा (&O)..."
-
-#: kparts/browseropenorsavequestion.cpp:223
-#, fuzzy
-#| msgid "&Open With..."
-msgctxt "@label:button"
-msgid "&Open with"
-msgstr "सह उघडा (&O)..."
-
-#: kparts/browseropenorsavequestion.cpp:290
-#, fuzzy
-#| msgid "&Open"
-msgctxt "@label:button"
-msgid "&Open"
-msgstr "उघडा (&O)"
-
-#: kparts/browseropenorsavequestion.cpp:315
-#, fuzzy, kde-format
-#| msgid "Name: "
-msgctxt "@label File name"
-msgid "Name: %1"
-msgstr "नाव: "
-
-#: kparts/browseropenorsavequestion.cpp:317
-msgctxt "@info:whatsthis"
-msgid "This is the file name suggested by the server"
-msgstr ""
-
 #: kparts/part.cpp:815
 msgid "Untitled"
 msgstr "शिर्षकहीन"
@@ -12653,6 +12563,76 @@ msgstr ""
 #: kparts/part.cpp:823
 msgid "Close Document"
 msgstr "दस्तऐवज बंद करा"
+
+#: kparts/browseropenorsavequestion.cpp:100
+#, fuzzy, kde-format
+#| msgid "Re: %1"
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr "Re: %1"
+
+#: kparts/browseropenorsavequestion.cpp:108
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "@label:checkbox"
+msgid "Remember action for files of this type"
+msgstr "हा संदेश पुन्हा दर्शवू नका"
+
+#: kparts/browseropenorsavequestion.cpp:139
+#: kparts/browseropenorsavequestion.cpp:215
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "'%1' सह उघडा (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:189
+#, fuzzy, kde-format
+#| msgid "&Open with '%1'"
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "'%1' सह उघडा (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:200
+#: kparts/browseropenorsavequestion.cpp:294
+#, fuzzy, kde-format
+#| msgid "Open '%1'"
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "'%1' उघडा"
+
+#: kparts/browseropenorsavequestion.cpp:204
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "सह उघडा (&O)..."
+
+#: kparts/browseropenorsavequestion.cpp:224
+#, fuzzy
+#| msgid "&Open With..."
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "सह उघडा (&O)..."
+
+#: kparts/browseropenorsavequestion.cpp:291
+#, fuzzy
+#| msgid "&Open"
+msgctxt "@label:button"
+msgid "&Open"
+msgstr "उघडा (&O)"
+
+#: kparts/browseropenorsavequestion.cpp:316
+#, fuzzy, kde-format
+#| msgid "Name: "
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "नाव: "
+
+#: kparts/browseropenorsavequestion.cpp:318
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr ""
 
 #: kpty/kptydevice.cpp:322
 msgid "Error reading from PTY"
@@ -12944,7 +12924,7 @@ msgstr[1] "प्लगइन अवलंबनामुळे %1 प्लग�
 msgid "Search Plugins"
 msgstr "प्लगईन शोधा"
 
-#: kutils/kpluginselector.cpp:768 kutils/kpluginselector.cpp:797
+#: kutils/kpluginselector.cpp:767 kutils/kpluginselector.cpp:796
 #, fuzzy, kde-format
 #| msgid "About %1"
 msgctxt "Used only for plugins"
@@ -13230,7 +13210,7 @@ msgctxt "@option:check A filter on file type - media video"
 msgid "Video"
 msgstr "दृश्य (&V)"
 
-#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:74
+#: nepomuk/utils/facet.cpp:143 nepomuk/utils/typefacet.cpp:73
 #, fuzzy
 #| msgid "Pages"
 msgctxt "@option:check A filter on file type"
@@ -13403,42 +13383,42 @@ msgstr "इच्छिक..."
 msgid "Enter Search Terms..."
 msgstr "शोध वाक्य येथे दाखल करा"
 
-#: nepomuk/utils/typefacet.cpp:81
+#: nepomuk/utils/typefacet.cpp:80
 #, fuzzy
 #| msgid "Contact author"
 msgctxt "@option:check A filter on resource type"
 msgid "Contacts"
 msgstr "लेखकाचे संपर्क"
 
-#: nepomuk/utils/typefacet.cpp:83
+#: nepomuk/utils/typefacet.cpp:82
 #, fuzzy
 #| msgid "Email"
 msgctxt "@option:check A filter on resource type"
 msgid "Emails"
 msgstr "ईमेल"
 
-#: nepomuk/utils/typefacet.cpp:85
+#: nepomuk/utils/typefacet.cpp:84
 #, fuzzy
 #| msgid "Task"
 msgctxt "@option:check A filter on resource type"
 msgid "Tasks"
 msgstr "कार्य"
 
-#: nepomuk/utils/typefacet.cpp:87
+#: nepomuk/utils/typefacet.cpp:86
 #, fuzzy
 #| msgid "Task"
 msgctxt "@option:check A filter on resource type"
 msgid "Tags"
 msgstr "कार्य"
 
-#: nepomuk/utils/typefacet.cpp:221 nepomuk/utils/typefacet.cpp:230
+#: nepomuk/utils/typefacet.cpp:220 nepomuk/utils/typefacet.cpp:229
 #, fuzzy
 #| msgid "File"
 msgctxt "@option:check Do filter on type - show only files"
 msgid "Files"
 msgstr "फाइल"
 
-#: nepomuk/utils/typefacet.cpp:223 nepomuk/utils/typefacet.cpp:232
+#: nepomuk/utils/typefacet.cpp:222 nepomuk/utils/typefacet.cpp:231
 #, fuzzy
 #| msgctxt "@item Text character set"
 #| msgid "Other"
@@ -13749,6 +13729,11 @@ msgstr "साधनपट्टी संयोजीत करा (&b)..."
 msgid "Configure &Notifications..."
 msgstr "सूचना संयोजीत करा (&N)..."
 
+#: kdeui/actions/kstandardaction_p.h:111
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 हैंडबुक (&H)"
+
 #: kdeui/actions/kstandardaction_p.h:112
 msgid "What's &This?"
 msgstr "हे काय आहे (&T)?"
@@ -13756,6 +13741,23 @@ msgstr "हे काय आहे (&T)?"
 #: kdeui/actions/kstandardaction_p.h:113
 msgid "Tip of the &Day"
 msgstr "आज चा नुस्खा (&D)"
+
+#: kdeui/actions/kstandardaction_p.h:114
+msgid "&Report Bug..."
+msgstr "बग सादर करा (&R)..."
+
+#: kdeui/actions/kstandardaction_p.h:115
+msgid "Switch Application &Language..."
+msgstr "अनुप्रयोग भाषा बदलवा (&L)..."
+
+#: kdeui/actions/kstandardaction_p.h:116
+#, kde-format
+msgid "&About %1"
+msgstr "%1 विषयी (&A)"
+
+#: kdeui/actions/kstandardaction_p.h:117
+msgid "About &KDE"
+msgstr "KDE विषयी (&K)"
 
 #: kross/qts/values_p.h:69
 #, kde-format
@@ -13771,9 +13773,8 @@ msgstr "am"
 msgid "pm"
 msgstr "pm"
 
-#~ msgctxt "@item font"
-#~ msgid "Regular"
-#~ msgstr "सर्वसाधारण"
+#~ msgid "What's &This"
+#~ msgstr "हे काय आहे (&T)"
 
 #, fuzzy
 #~| msgid "Next year"
