@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-30 05:14+0100\n"
+"POT-Creation-Date: 2012-02-02 04:22+0100\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -1455,6 +1455,13 @@ msgstr "काढूण टाका"
 msgid "Web module"
 msgstr "वेब बाजूचीपट्टी"
 
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "ओळखचिन्ह जोडा"
+
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:74
 msgid "&Create New Folder"
 msgstr "नविन संचयीका बनवा (&C)"
@@ -1487,7 +1494,7 @@ msgstr "टॅब अंतर्गत संचयीका उघडा"
 msgid "Copy Link Address"
 msgstr "लिंक पत्ता प्रतिकृत करा"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:332
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
@@ -1496,7 +1503,7 @@ msgstr ""
 "तुम्हाला नक्की ओळखचिन्ह संचयीका\n"
 "\"%1\" काढून टाकायचे?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:333
 #, kde-format
 msgid ""
 "Are you sure you wish to remove the bookmark\n"
@@ -1505,50 +1512,62 @@ msgstr ""
 "तुम्हाला नक्की ओळखचिन्ह\n"
 "\"%1\" काढून टाकायचे?"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:334
 #, fuzzy
 #| msgid "Bookmark Folder Deletion"
 msgctxt "@title:window"
 msgid "Bookmark Folder Deletion"
 msgstr "ओळखचिन्ह संचयीका नष्ट करणे"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
 #, fuzzy
 #| msgid "Bookmark Deletion"
 msgctxt "@title:window"
 msgid "Bookmark Deletion"
 msgstr "ओळखचिन्ह नष्ट करणे"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:377
 #, fuzzy
 #| msgid "Bookmark Properties"
 msgctxt "@title:window"
 msgid "Bookmark Properties"
 msgstr "ओळखचिन्ह गुणधर्म"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:562
 msgid "&Update"
 msgstr "अद्ययावत (&U)"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:570
 msgid "Name:"
 msgstr "नाव:"
 
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:578
 msgid "Location:"
 msgstr "स्थान:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "ओळखचिन्ह जोडा"
 
 #: sidebar/trees/dirtree_module/dirtree_module.cpp:417
 #, kde-format
 msgid "Cannot find parent item %1 in the tree. Internal error."
 msgstr "वृक्ष अंतर्गत मुख्य घटक %1 आढळला नाही. आंतरीक त्रुटी."
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "नाव:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
 
 #: sidebar/trees/konq_sidebartree.cpp:203
 msgid "&Create New Folder..."
@@ -1580,25 +1599,6 @@ msgstr "नविन संचयीका बनवा"
 #: sidebar/trees/konq_sidebartree.cpp:956
 msgid "Enter folder name:"
 msgstr "संचयीका नाव प्रविष्ट करा:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "नाव:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
 
 #: sidebar/web_module/web_module.cpp:57
 msgid "&Open Link"
