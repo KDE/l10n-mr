@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 04:21+0200\n"
+"POT-Creation-Date: 2012-04-04 04:27+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -326,17 +326,27 @@ msgstr "इमेल पाठवा..."
 msgid "Copy Email Address"
 msgstr "इमेल पत्ता प्रतिकृत करा"
 
-#: HistorySizeDialog.cpp:41
+#: HistorySizeDialog.cpp:32
 #, fuzzy
 #| msgid "Scrollback"
+msgctxt "@title:window"
 msgid "Adjust Scrollback"
 msgstr "स्क्रोलबॅक"
 
-#: HistorySizeDialog.cpp:52
-msgid "<center>The adjustment is only temporary</center>"
+#: HistorySizeDialog.cpp:45
+msgctxt "@info:status"
+msgid "Any adjustments are only temporary to this session."
 msgstr ""
 
-#: HistorySizeWidget.cpp:51
+#: HistorySizeWidget.cpp:44
+msgctxt "@info:status"
+msgid ""
+"When using this option, the scrollback data will be written unencrypted to "
+"temporary files. Those temporary files will be deleted automatically when "
+"quitting Konsole."
+msgstr ""
+
+#: HistorySizeWidget.cpp:60
 #, fuzzy
 #| msgid "lines"
 msgctxt "Unit of scrollback"
@@ -1544,7 +1554,7 @@ msgstr "नविन टर्मिनल सत्र करीता नि�
 msgid "&Set as Default"
 msgstr "मुलभूथ नुरूप निश्चित करा"
 
-#. i18n: file: HistorySizeWidget.ui:23
+#. i18n: file: HistorySizeWidget.ui:29
 #. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
 #: rc.cpp:341
 #, fuzzy
@@ -1552,19 +1562,19 @@ msgstr "मुलभूथ नुरूप निश्चित करा"
 msgid "Do not remember previous output"
 msgstr "स्क्रोल पट्टी अकार्यान्वीत करा व पूर्वीचे आऊटपुट लक्षात ठेवू नका"
 
-#. i18n: file: HistorySizeWidget.ui:26
+#. i18n: file: HistorySizeWidget.ui:32
 #. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
 #: rc.cpp:344
 msgid "No scrollback"
 msgstr "स्क्रोलबॅक नाही"
 
-#. i18n: file: HistorySizeWidget.ui:41
+#. i18n: file: HistorySizeWidget.ui:50
 #. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
 #: rc.cpp:347
 msgid "Limit the remembered output to a fixed number of lines"
 msgstr "स्मृतीतील आऊटपुट ठराविक ओळ संख्या करीता मर्यादीत करा"
 
-#. i18n: file: HistorySizeWidget.ui:44
+#. i18n: file: HistorySizeWidget.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, fixedSizeHistoryButton)
 #: rc.cpp:350
 #, fuzzy
@@ -1572,19 +1582,19 @@ msgstr "स्मृतीतील आऊटपुट ठराविक ओळ
 msgid "Fixed size scrollback:"
 msgstr "ठराविक आकराचे स्क्रोलबॅक: "
 
-#. i18n: file: HistorySizeWidget.ui:51
+#. i18n: file: HistorySizeWidget.ui:60
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, historyLineSpinner)
 #: rc.cpp:353
 msgid "Number of lines of output to remember"
 msgstr "लक्षात ठेवण्याजोगी आऊटपुटची ओळ संख्या"
 
-#. i18n: file: HistorySizeWidget.ui:85
+#. i18n: file: HistorySizeWidget.ui:94
 #. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
 #: rc.cpp:356
 msgid "Remember all output produced by the terminal"
 msgstr "टर्मिनल द्वारे निर्मीत सर्व आऊटपुट लक्षात ठेवा"
 
-#. i18n: file: HistorySizeWidget.ui:88
+#. i18n: file: HistorySizeWidget.ui:97
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
 #: rc.cpp:359
 msgid "Unlimited scrollback"
@@ -2015,43 +2025,43 @@ msgid ""
 "kill it by force?"
 msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
 
-#: SessionController.cpp:1251
+#: SessionController.cpp:1255
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1259
+#: SessionController.cpp:1263
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1271
+#: SessionController.cpp:1275
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1280
+#: SessionController.cpp:1284
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1286
+#: SessionController.cpp:1290
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1354
+#: SessionController.cpp:1358
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 पासून आऊटपुट संचयीत करा"
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1369
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 अवैध URL आहे, आऊटपुट संचयीत केले जाऊ शकत नाही."
 
-#: SessionController.cpp:1440
+#: SessionController.cpp:1444
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2123,14 +2133,14 @@ msgstr "कार्यक्रम '%1' स्थिती %2 सह बाह�
 msgid "ZModem Progress"
 msgstr "ZModem प्रगती"
 
-#: SessionManager.cpp:388
+#: SessionManager.cpp:381
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "संख्या"
 
-#: SessionManager.cpp:390
+#: SessionManager.cpp:383
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
