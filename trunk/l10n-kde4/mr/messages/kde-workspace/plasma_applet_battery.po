@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-22 05:19+0200\n"
+"POT-Creation-Date: 2012-06-25 05:16+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -17,63 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.4\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-
-#: contents/ui/batterymonitor.qml:107
-#, kde-format
-msgctxt "overlay on the battery, needs to be really tiny"
-msgid "%1%"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:120
-#, fuzzy
-#| msgctxt "Battery is not plugged in"
-#| msgid "<b>Battery:</b> not present<br />"
-msgid "<b>Battery:</b>"
-msgstr "<b>बॅटरी:</b> आढळली नाही<br />"
-
-#: contents/ui/batterymonitor.qml:122 contents/ui/PopupDialog.qml:90
-msgctxt "Battery is not plugged in"
-msgid "Not present"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:124
-#, fuzzy
-#| msgid "<b>AC Adapter:</b> Plugged in"
-msgctxt "tooltip"
-msgid "<b>AC Adapter:</b>"
-msgstr "<b>AC एडॅप्टर:</b> जोडले"
-
-#: contents/ui/batterymonitor.qml:126
-msgctxt "tooltip"
-msgid "Plugged in"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:126
-msgctxt "tooltip"
-msgid "Not plugged in"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:142
-#, kde-format
-msgid "%1% (charging)"
-msgstr ""
-
-#: contents/ui/batterymonitor.qml:143
-#, fuzzy, kde-format
-#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
-msgid "%1% (charged)"
-msgstr "<b>बॅटरी:</b> %1% (पूर्णतया चार्ज केलेले)<br />"
-
-#: contents/ui/batterymonitor.qml:145
-#, fuzzy, kde-format
-#| msgctxt "Shown when a time estimate is not available"
-#| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgid "%1% (discharging)"
-msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
-
-#: contents/ui/batterymonitor.qml:191
-msgid "The battery applet has enabled system-wide inhibition"
-msgstr ""
 
 #: contents/ui/PopupDialog.qml:53
 #, fuzzy
@@ -107,6 +50,11 @@ msgstr "पावर व्यवस्थापन"
 #| msgid "Screen Brightness"
 msgid "Screen Brightness:"
 msgstr "पडद्याचा तेजपणा"
+
+#: contents/ui/PopupDialog.qml:90 contents/ui/batterymonitor.qml:122
+msgctxt "Battery is not plugged in"
+msgid "Not present"
+msgstr ""
 
 #: contents/ui/PopupDialog.qml:95
 msgid "Plugged in"
@@ -145,6 +93,58 @@ msgstr "स्लीप"
 msgctxt "Suspend the computer to disk; translation should be short"
 msgid "Hibernate"
 msgstr "हायबरनेट"
+
+#: contents/ui/batterymonitor.qml:107
+#, kde-format
+msgctxt "overlay on the battery, needs to be really tiny"
+msgid "%1%"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:120
+#, fuzzy
+#| msgctxt "Battery is not plugged in"
+#| msgid "<b>Battery:</b> not present<br />"
+msgid "<b>Battery:</b>"
+msgstr "<b>बॅटरी:</b> आढळली नाही<br />"
+
+#: contents/ui/batterymonitor.qml:124
+#, fuzzy
+#| msgid "<b>AC Adapter:</b> Plugged in"
+msgctxt "tooltip"
+msgid "<b>AC Adapter:</b>"
+msgstr "<b>AC एडॅप्टर:</b> जोडले"
+
+#: contents/ui/batterymonitor.qml:126
+msgctxt "tooltip"
+msgid "Plugged in"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:126
+msgctxt "tooltip"
+msgid "Not plugged in"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:153
+#, kde-format
+msgid "%1% (charging)"
+msgstr ""
+
+#: contents/ui/batterymonitor.qml:154
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgid "%1% (charged)"
+msgstr "<b>बॅटरी:</b> %1% (पूर्णतया चार्ज केलेले)<br />"
+
+#: contents/ui/batterymonitor.qml:156
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgid "%1% (discharging)"
+msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
+
+#: contents/ui/batterymonitor.qml:202
+msgid "The battery applet has enabled system-wide inhibition"
+msgstr ""
 
 #. i18n: file: contents/ui/config.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, batteryConfig)
