@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-26 07:39+0200\n"
+"POT-Creation-Date: 2012-07-04 04:54+0200\n"
 "PO-Revision-Date: 2009-01-06 22:19+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -9420,6 +9420,59 @@ msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "मुलभूत"
 
+#: kdeui/widgets/kdatepicker.cpp:174
+#, kde-format
+msgid "Week %1"
+msgstr "आठवडा %1"
+
+#: kdeui/widgets/kdatepicker.cpp:278
+msgid "Next year"
+msgstr "पुढील वर्ष"
+
+#: kdeui/widgets/kdatepicker.cpp:279
+msgid "Previous year"
+msgstr "मागील वर्ष"
+
+#: kdeui/widgets/kdatepicker.cpp:280
+msgid "Next month"
+msgstr "पुढील महिना"
+
+#: kdeui/widgets/kdatepicker.cpp:281
+msgid "Previous month"
+msgstr "मागील महिना"
+
+#: kdeui/widgets/kdatepicker.cpp:282
+msgid "Select a week"
+msgstr "आठवडा निवडा"
+
+#: kdeui/widgets/kdatepicker.cpp:283
+msgid "Select a month"
+msgstr "महिना निवडा"
+
+#: kdeui/widgets/kdatepicker.cpp:284
+msgid "Select a year"
+msgstr "वर्ष निवडा"
+
+#: kdeui/widgets/kdatepicker.cpp:285
+msgid "Select the current day"
+msgstr "सद्याचा दिवस निवडा"
+
+#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
+msgid "&Add"
+msgstr "जोडा(&A)"
+
+#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
+msgid "&Remove"
+msgstr "काढून टाका (&R)"
+
+#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
+msgid "Move &Up"
+msgstr "वर हलवा (&U)"
+
+#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
+msgid "Move &Down"
+msgstr "खाली हलवा (&D)"
+
 #: kdeui/widgets/ktoolbar.cpp:292
 #, fuzzy
 #| msgid "Show help"
@@ -9513,70 +9566,17 @@ msgstr "विशाल (%1x%2)"
 msgid "Lock Toolbar Positions"
 msgstr "साधनपट्टी कुलूपबंद करा"
 
-#: kdeui/widgets/ktoolbar.cpp:1321
+#: kdeui/widgets/ktoolbar.cpp:1326
 #, kde-format
 msgctxt "@action:intoolbar Text label of toolbar button"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/widgets/ktoolbar.cpp:1322
+#: kdeui/widgets/ktoolbar.cpp:1327
 #, kde-format
 msgctxt "@info:tooltip Tooltip of toolbar button"
 msgid "%1"
 msgstr "%1"
-
-#: kdeui/widgets/kdatepicker.cpp:174
-#, kde-format
-msgid "Week %1"
-msgstr "आठवडा %1"
-
-#: kdeui/widgets/kdatepicker.cpp:278
-msgid "Next year"
-msgstr "पुढील वर्ष"
-
-#: kdeui/widgets/kdatepicker.cpp:279
-msgid "Previous year"
-msgstr "मागील वर्ष"
-
-#: kdeui/widgets/kdatepicker.cpp:280
-msgid "Next month"
-msgstr "पुढील महिना"
-
-#: kdeui/widgets/kdatepicker.cpp:281
-msgid "Previous month"
-msgstr "मागील महिना"
-
-#: kdeui/widgets/kdatepicker.cpp:282
-msgid "Select a week"
-msgstr "आठवडा निवडा"
-
-#: kdeui/widgets/kdatepicker.cpp:283
-msgid "Select a month"
-msgstr "महिना निवडा"
-
-#: kdeui/widgets/kdatepicker.cpp:284
-msgid "Select a year"
-msgstr "वर्ष निवडा"
-
-#: kdeui/widgets/kdatepicker.cpp:285
-msgid "Select the current day"
-msgstr "सद्याचा दिवस निवडा"
-
-#: kdeui/widgets/keditlistbox.cpp:326 kdeui/widgets/keditlistwidget.cpp:305
-msgid "&Add"
-msgstr "जोडा(&A)"
-
-#: kdeui/widgets/keditlistbox.cpp:338 kdeui/widgets/keditlistwidget.cpp:317
-msgid "&Remove"
-msgstr "काढून टाका (&R)"
-
-#: kdeui/widgets/keditlistbox.cpp:350 kdeui/widgets/keditlistwidget.cpp:329
-msgid "Move &Up"
-msgstr "वर हलवा (&U)"
-
-#: kdeui/widgets/keditlistbox.cpp:355 kdeui/widgets/keditlistwidget.cpp:334
-msgid "Move &Down"
-msgstr "खाली हलवा (&D)"
 
 #: kdeui/widgets/khistorycombobox.cpp:177 khtml/rendering/render_form.cpp:993
 msgid "Clear &History"
@@ -11364,10 +11364,6 @@ msgstr "कॉपीराइट 2001, डेविड फॉउर <email>david
 msgid "No handler found for %1."
 msgstr "%1 करीता हॅन्डलर आढळला नाही."
 
-#: khtml/rendering/media_controls.cpp:47
-msgid "Play"
-msgstr ""
-
 #: khtml/rendering/render_form.cpp:849
 msgid "New Web Shortcut"
 msgstr "नविन वेब शॉर्टकट"
@@ -11392,6 +11388,10 @@ msgstr "URI शार्टकट (&I):"
 #: khtml/rendering/render_form.cpp:1008
 msgid "Create Web Shortcut"
 msgstr "वेब शार्टकट बनवा"
+
+#: khtml/rendering/media_controls.cpp:47
+msgid "Play"
+msgstr ""
 
 #: khtml/ui/findbar/khtmlfindbar.cpp:58
 #, fuzzy
