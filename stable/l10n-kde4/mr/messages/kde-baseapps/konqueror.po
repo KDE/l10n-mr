@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-05-27 04:35+0200\n"
+"POT-Creation-Date: 2012-08-07 21:36+0200\n"
 "PO-Revision-Date: 2009-01-07 15:14+0530\n"
 "Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
 "Language-Team: marathi\n"
@@ -18,132 +18,176 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: src/konqprofiledlg.cpp:111
+#: src/konqhistorydialog.cpp:45
 #, fuzzy
-#| msgid "Profile Management"
+#| msgid "Clear History"
 msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "प्रोफाइल व्यवस्थापन"
+msgid "History"
+msgstr "इतिहास नष्ट करा"
 
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "प्रोफाइल पुन्हनामांकीत करा (&R)"
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "क्रमबद्ध करा"
 
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "प्रोफाइल काढून टाका (&D)"
+#: src/konqsessiondlg.cpp:78
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "सत्र व्यवस्थापीत करा"
+
+#: src/konqsessiondlg.cpp:82
+msgid "&Open"
+msgstr "उघडा (&O)"
+
+#: src/konqsessiondlg.cpp:176
+#, fuzzy
+#| msgid "Rename session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "सत्र पुन्हनामांकीत करा"
+
+#: src/konqsessiondlg.cpp:224
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "सत्र संचयीत करा"
+
+#: src/konqsessiondlg.cpp:248
+#, kde-format
+msgid ""
+"A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "'%1' नावाचे सत्र आधिपासूनच अस्तित्वात आहे, तुम्हाला त्यांस खोडून पुन्हा लिहायचे?"
+
+#: src/konqsessiondlg.cpp:249
+#, fuzzy
+#| msgid "Session exists. Overwrite?"
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "सत्र अस्तित्वात आहे. खोडून पुन्हा लिहायचे?"
+
+#: src/konqtabs.cpp:67
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+
+#: src/konqtabs.cpp:101
+msgid "Open a new tab"
+msgstr "नविन टॅब उघडा"
+
+#: src/konqtabs.cpp:110
+msgid "Close the current tab"
+msgstr "वर्तमान टॅब बंद करा"
+
+#: src/konqtabs.cpp:330 src/konqmainwindow.cpp:3684
+msgid "&Reload All Tabs"
+msgstr "सर्व टॅब पुन्हदाखल करा (&R)"
+
+#: src/konqtabs.cpp:353 src/konqmainwindow.cpp:2497
+#: src/konqmainwindow.cpp:3622
+msgid "Close &Other Tabs"
+msgstr "इतर टॅब बंद करा (&O)"
+
+#: src/konqtabs.cpp:464 src/konqmainwindow.cpp:3595
+msgid "&New Tab"
+msgstr "नविन टॅब (&N)"
+
+#: src/konqtabs.cpp:469
+msgid "&Duplicate Tab"
+msgstr "हुबेहूब टॅब (&D)"
+
+#: src/konqtabs.cpp:474
+msgid "&Reload Tab"
+msgstr "टॅब पुन्हदाखल करा (&R)"
+
+#: src/konqtabs.cpp:481
+msgid "Other Tabs"
+msgstr "इतर टॅब"
+
+#: src/konqtabs.cpp:486
+msgid "D&etach Tab"
+msgstr "टॅब अलग करा (&e)"
+
+#: src/konqtabs.cpp:492
+msgid "&Close Tab"
+msgstr "टॅब बंद करा (&C)"
 
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5060
 #: src/konqmainwindow.cpp:5120
 msgid "no name"
 msgstr "नाव नाही"
 
-#: src/konqview.cpp:1200
+#: src/konqviewmanager.cpp:1407
 msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
 msgstr ""
-"तुम्ही जे पान पहाण्याचा प्रयत्न करत आहे ते सहसा पोस्ट केलेले फॉर्म माहितीचा परिणाम आहे. "
-"माहिती पुन्हा पाठविल्यास, फॉर्म द्वारे कार्यरत कुठलिही कृतीची (जसे की शोध किंवा ऑनलाइन "
-"विक्री) पुन्हाकृती केली जाईल. "
+"या चौकटीत अनेक टॅब उघडे आहेत.\n"
+"प्रोफाइल दृश्य दाखलनवेळी बंद होतात."
 
-#: src/konqview.cpp:1202
+#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4987
 #, fuzzy
-#| msgid "Warning"
+#| msgid "Confirmation"
 msgctxt "@title:window"
-msgid "Warning"
-msgstr "धोका"
+msgid "Confirmation"
+msgstr "पुष्टिकरण"
 
-#: src/konqview.cpp:1202
-msgid "Resend"
-msgstr "पुन्हापाठवा"
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "प्रोफाइल दृश्य दाखल करतात"
 
-#: src/konqguiclients.cpp:66
-#, kde-format
-msgid "Preview &in %1"
-msgstr "%1 अंतर्गत पूर्वदृश्य पहा (&i)"
-
-#: src/konqguiclients.cpp:135
-#, kde-format
-msgid "Show %1"
-msgstr "%1 दर्शवा"
-
-#: src/konqhistorymodel.cpp:137
-#, kde-format
+#: src/konqviewmanager.cpp:1422
 msgid ""
-"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
-"%3<br />Number of times visited: %4</qt>"
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
 msgstr ""
-"<qt><center><b>%1</b></center><hr />शेवटी भेट दिलेले: %2<br />प्रथमवेळी भेट दिलेले: "
-"%3<br />भेट दिल्याचे प्रमाण: %4</qt>"
+"या टॅब अंतर्गत सादर न केलेले बदलाव समाविष्टीत आहे.\n"
+"प्रोफाइल दाखल केल्यास बदलाव रद्द केले जातात."
 
-#: src/konqhistorymodel.cpp:233
-msgid "Local"
-msgstr ""
-
-#: src/konqhistorymodel.cpp:236
-msgid "Miscellaneous"
-msgstr "संकीर्ण"
-
-#: src/konqhistoryview.cpp:62 src/konqmainwindow.cpp:4578
-#: sidebar/web_module/web_module.cpp:61
-msgid "Open in New &Window"
-msgstr "नविन चौकट अंतर्गत उघडा (&W)"
-
-#: src/konqhistoryview.cpp:67
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
-#: sidebar/trees/konq_sidebartree.cpp:232
-msgid "Open in New Tab"
-msgstr "नविन टॅब अंतर्गत उघडा"
-
-#: src/konqhistoryview.cpp:71
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1634
+#: src/konqmainwindow.cpp:2361 src/konqmainwindow.cpp:2441
+#: src/konqmainwindow.cpp:2471 src/konqmainwindow.cpp:2513
+#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5022
 #, fuzzy
-#| msgid "Copy Link Address"
-msgid "&Copy Link Address"
-msgstr "लिंक पत्ता प्रतिकृत करा"
-
-#: src/konqhistoryview.cpp:76
-msgid "&Remove Entry"
-msgstr "नोंदणी काढून टाका (&R)"
-
-#: src/konqhistoryview.cpp:83
-msgid "C&lear History"
-msgstr "इतिहास काढून टाका (&l)"
-
-#: src/konqhistoryview.cpp:88
-msgid "&Preferences..."
-msgstr "प्राधान्यता (&P)..."
-
-#: src/konqhistoryview.cpp:95
-msgid "By &Name"
-msgstr "नाव नुरूप (&N)"
-
-#: src/konqhistoryview.cpp:101
-msgid "By &Date"
-msgstr "दिनांक नुरूप (&D)"
-
-#: src/konqhistoryview.cpp:111
-#, fuzzy
-#| msgid "Clear History"
-msgid "Search in history"
-msgstr "इतिहास नष्ट करा"
-
-#: src/konqhistoryview.cpp:143 src/konqhistorydialog.cpp:61
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "क्रमबद्ध करा"
-
-#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
-msgid "Do you really want to clear the entire history?"
-msgstr "तुम्हाला नक्की पूर्णतया इतिहास नष्ट करायचे?"
-
-#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
-#, fuzzy
-#| msgid "Clear History?"
+#| msgid "Discard Changes?"
 msgctxt "@title:window"
-msgid "Clear History?"
-msgstr "इतिहास नष्ट करायचे?"
+msgid "Discard Changes?"
+msgstr "बदलाव रद्द करा?"
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1634
+#: src/konqmainwindow.cpp:2361 src/konqmainwindow.cpp:2441
+#: src/konqmainwindow.cpp:2471 src/konqmainwindow.cpp:2513
+#: src/konqmainwindow.cpp:2536 src/konqmainwindow.cpp:5022
+msgid "&Discard Changes"
+msgstr "बदलाव रद्द करा (&D)"
+
+#: src/konqframestatusbar.cpp:116
+msgid ""
+"Checking this box on at least two views sets those views as 'linked'. Then, "
+"when you change directories in one view, the other views linked with it will "
+"automatically update to show the current directory. This is especially "
+"useful with different types of views, such as a directory tree with an icon "
+"view or detailed view, and possibly a terminal emulator window."
+msgstr ""
+
+#: src/konqframestatusbar.cpp:163
+msgid "Close View"
+msgstr "दृश्य बंद करा"
+
+#: src/konqframestatusbar.cpp:243
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#: src/konqframestatusbar.cpp:245
+msgid "Stalled"
+msgstr "स्तब्ध केले"
 
 #: src/konqmain.cpp:96
 #, fuzzy
@@ -208,23 +252,6 @@ msgid ""
 msgstr ""
 "या पानात सादर न केलेले बदलावा समाविष्टीत आहे.\n"
 "पान पुन्हदाखल केल्यास बदलाव रद्द केले जातिल."
-
-#: src/konqmainwindow.cpp:1634 src/konqmainwindow.cpp:2361
-#: src/konqmainwindow.cpp:2441 src/konqmainwindow.cpp:2471
-#: src/konqmainwindow.cpp:2513 src/konqmainwindow.cpp:2535
-#: src/konqmainwindow.cpp:5022 src/konqviewmanager.cpp:1423
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "बदलाव रद्द करा?"
-
-#: src/konqmainwindow.cpp:1634 src/konqmainwindow.cpp:2361
-#: src/konqmainwindow.cpp:2441 src/konqmainwindow.cpp:2471
-#: src/konqmainwindow.cpp:2513 src/konqmainwindow.cpp:2536
-#: src/konqmainwindow.cpp:5022 src/konqviewmanager.cpp:1423
-msgid "&Discard Changes"
-msgstr "बदलाव रद्द करा (&D)"
 
 #: src/konqmainwindow.cpp:1744
 msgid "File Management"
@@ -306,11 +333,6 @@ msgstr "तुम्हाला नक्की सर्व टॅब बं�
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "इतर टॅब बंद करण्याची थात्री"
-
-#: src/konqmainwindow.cpp:2497 src/konqmainwindow.cpp:3622
-#: src/konqtabs.cpp:353
-msgid "Close &Other Tabs"
-msgstr "इतर टॅब बंद करा (&O)"
 
 #: src/konqmainwindow.cpp:2512
 msgid ""
@@ -455,10 +477,6 @@ msgstr "दृश्य डावी/उजवे विभाजीत कर�
 msgid "Split View &Top/Bottom"
 msgstr "दृश्य वर/खाली विभाजीत करा (&L)"
 
-#: src/konqmainwindow.cpp:3595 src/konqtabs.cpp:464
-msgid "&New Tab"
-msgstr "नविन टॅब (&N)"
-
 #: src/konqmainwindow.cpp:3601
 msgid "&Duplicate Current Tab"
 msgstr "वर्तमान टॅबची प्रत बनवा (&D)"
@@ -511,10 +529,6 @@ msgstr "प्रोफाइल दृश्य दाखल करा (&V)"
 #: src/konqmainwindow.cpp:3679 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "पुन्हदाखलन (&R)"
-
-#: src/konqmainwindow.cpp:3684 src/konqtabs.cpp:330
-msgid "&Reload All Tabs"
-msgstr "सर्व टॅब पुन्हदाखल करा (&R)"
 
 #: src/konqmainwindow.cpp:3692
 msgid "&Force Reload"
@@ -755,6 +769,11 @@ msgstr "या चौकट अंतर्गत उघडा (&h)"
 msgid "Open the document in current window"
 msgstr "दस्तऐवज वर्तमान चौकट अंतर्गत उघडा"
 
+#: src/konqmainwindow.cpp:4578 src/konqhistoryview.cpp:62
+#: sidebar/web_module/web_module.cpp:61
+msgid "Open in New &Window"
+msgstr "नविन चौकट अंतर्गत उघडा (&W)"
+
 #: src/konqmainwindow.cpp:4579
 msgid "Open the document in a new window"
 msgstr "दस्तऐवज नविन चौकट अंतर्गत उघडा"
@@ -785,13 +804,6 @@ msgstr "दृश्य पद्धत (&V)"
 msgid ""
 "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr "या चौकट अंतर्गत अनेक टॅब उघडे आहेत, तुम्हाला नक्की बाहेर पडायचे?"
-
-#: src/konqmainwindow.cpp:4987 src/konqviewmanager.cpp:1409
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "पुष्टिकरण"
 
 #: src/konqmainwindow.cpp:4989
 msgid "C&lose Current Tab"
@@ -847,32 +859,41 @@ msgstr ""
 "ही संयोजना त्रुटी असू शकते. तुम्ही Konqueror ला %1 सह जोडले आहे, परंतु हे फाइल प्रकार "
 "हाताळले जाऊ शकत नाही."
 
-#: src/konqsessionmanager.cpp:330
+#: src/konqprofiledlg.cpp:111
 #, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "Konqueror योग्यरित्या बंद झाले नाही. सत्र पुन्हा स्थपीत करायचे?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
+#| msgid "Profile Management"
 msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "सत्र पुन्हस्थापन करायचे?"
+msgid "Profile Management"
+msgstr "प्रोफाइल व्यवस्थापन"
 
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "सत्र पुन्हस्थापन"
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "प्रोफाइल पुन्हनामांकीत करा (&R)"
 
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "पुन्हस्थापन करू नका"
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "प्रोफाइल काढून टाका (&D)"
 
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "नंतर विचारा"
+#: src/konqview.cpp:1200
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"तुम्ही जे पान पहाण्याचा प्रयत्न करत आहे ते सहसा पोस्ट केलेले फॉर्म माहितीचा परिणाम आहे. "
+"माहिती पुन्हा पाठविल्यास, फॉर्म द्वारे कार्यरत कुठलिही कृतीची (जसे की शोध किंवा ऑनलाइन "
+"विक्री) पुन्हाकृती केली जाईल. "
+
+#: src/konqview.cpp:1202
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "धोका"
+
+#: src/konqview.cpp:1202
+msgid "Resend"
+msgstr "पुन्हापाठवा"
 
 #: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
 msgid "Und&o: Closed Tab"
@@ -886,123 +907,6 @@ msgstr "पुन्हा करा: बंद चौकट (&o)"
 #: src/konqundomanager.cpp:122
 msgid "Und&o"
 msgstr ""
-
-#: src/konqsessiondlg.cpp:78
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "सत्र व्यवस्थापीत करा"
-
-#: src/konqsessiondlg.cpp:82
-msgid "&Open"
-msgstr "उघडा (&O)"
-
-#: src/konqsessiondlg.cpp:176
-#, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "सत्र पुन्हनामांकीत करा"
-
-#: src/konqsessiondlg.cpp:224
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "सत्र संचयीत करा"
-
-#: src/konqsessiondlg.cpp:248
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr "'%1' नावाचे सत्र आधिपासूनच अस्तित्वात आहे, तुम्हाला त्यांस खोडून पुन्हा लिहायचे?"
-
-#: src/konqsessiondlg.cpp:249
-#, fuzzy
-#| msgid "Session exists. Overwrite?"
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr "सत्र अस्तित्वात आहे. खोडून पुन्हा लिहायचे?"
-
-#: src/konqtabs.cpp:67
-msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
-msgstr ""
-
-#: src/konqtabs.cpp:101
-msgid "Open a new tab"
-msgstr "नविन टॅब उघडा"
-
-#: src/konqtabs.cpp:110
-msgid "Close the current tab"
-msgstr "वर्तमान टॅब बंद करा"
-
-#: src/konqtabs.cpp:469
-msgid "&Duplicate Tab"
-msgstr "हुबेहूब टॅब (&D)"
-
-#: src/konqtabs.cpp:474
-msgid "&Reload Tab"
-msgstr "टॅब पुन्हदाखल करा (&R)"
-
-#: src/konqtabs.cpp:481
-msgid "Other Tabs"
-msgstr "इतर टॅब"
-
-#: src/konqtabs.cpp:486
-msgid "D&etach Tab"
-msgstr "टॅब अलग करा (&e)"
-
-#: src/konqtabs.cpp:492
-msgid "&Close Tab"
-msgstr "टॅब बंद करा (&C)"
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"या चौकटीत अनेक टॅब उघडे आहेत.\n"
-"प्रोफाइल दृश्य दाखलनवेळी बंद होतात."
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "प्रोफाइल दृश्य दाखल करतात"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"या टॅब अंतर्गत सादर न केलेले बदलाव समाविष्टीत आहे.\n"
-"प्रोफाइल दाखल केल्यास बदलाव रद्द केले जातात."
-
-#: src/konqframestatusbar.cpp:116
-msgid ""
-"Checking this box on at least two views sets those views as 'linked'. Then, "
-"when you change directories in one view, the other views linked with it will "
-"automatically update to show the current directory. This is especially "
-"useful with different types of views, such as a directory tree with an icon "
-"view or detailed view, and possibly a terminal emulator window."
-msgstr ""
-
-#: src/konqframestatusbar.cpp:163
-msgid "Close View"
-msgstr "दृश्य बंद करा"
-
-#: src/konqframestatusbar.cpp:243
-#, kde-format
-msgid "%1/s"
-msgstr "%1/s"
-
-#: src/konqframestatusbar.cpp:245
-msgid "Stalled"
-msgstr "स्तब्ध केले"
 
 #: src/konqextensionmanager.cpp:54
 #, fuzzy
@@ -1293,12 +1197,108 @@ msgstr "डेव्हलपर (AdBlock फिल्टर)"
 msgid "Eduardo Robles Elvira"
 msgstr "Eduardo Robles Elvira"
 
-#: src/konqhistorydialog.cpp:45
+#: src/konqguiclients.cpp:66
+#, kde-format
+msgid "Preview &in %1"
+msgstr "%1 अंतर्गत पूर्वदृश्य पहा (&i)"
+
+#: src/konqguiclients.cpp:135
+#, kde-format
+msgid "Show %1"
+msgstr "%1 दर्शवा"
+
+#: src/konqhistorymodel.cpp:137
+#, kde-format
+msgid ""
+"<qt><center><b>%1</b></center><hr />Last visited: %2<br />First visited: "
+"%3<br />Number of times visited: %4</qt>"
+msgstr ""
+"<qt><center><b>%1</b></center><hr />शेवटी भेट दिलेले: %2<br />प्रथमवेळी भेट दिलेले: "
+"%3<br />भेट दिल्याचे प्रमाण: %4</qt>"
+
+#: src/konqhistorymodel.cpp:233
+msgid "Local"
+msgstr ""
+
+#: src/konqhistorymodel.cpp:236
+msgid "Miscellaneous"
+msgstr "संकीर्ण"
+
+#: src/konqhistoryview.cpp:67
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:95
+#: sidebar/trees/konq_sidebartree.cpp:232
+msgid "Open in New Tab"
+msgstr "नविन टॅब अंतर्गत उघडा"
+
+#: src/konqhistoryview.cpp:71
+#, fuzzy
+#| msgid "Copy Link Address"
+msgid "&Copy Link Address"
+msgstr "लिंक पत्ता प्रतिकृत करा"
+
+#: src/konqhistoryview.cpp:76
+msgid "&Remove Entry"
+msgstr "नोंदणी काढून टाका (&R)"
+
+#: src/konqhistoryview.cpp:83
+msgid "C&lear History"
+msgstr "इतिहास काढून टाका (&l)"
+
+#: src/konqhistoryview.cpp:88
+msgid "&Preferences..."
+msgstr "प्राधान्यता (&P)..."
+
+#: src/konqhistoryview.cpp:95
+msgid "By &Name"
+msgstr "नाव नुरूप (&N)"
+
+#: src/konqhistoryview.cpp:101
+msgid "By &Date"
+msgstr "दिनांक नुरूप (&D)"
+
+#: src/konqhistoryview.cpp:111
 #, fuzzy
 #| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
+msgid "Search in history"
 msgstr "इतिहास नष्ट करा"
+
+#: src/konqhistoryview.cpp:171 sidebar/history_module/kcmhistory.cpp:254
+msgid "Do you really want to clear the entire history?"
+msgstr "तुम्हाला नक्की पूर्णतया इतिहास नष्ट करायचे?"
+
+#: src/konqhistoryview.cpp:172 sidebar/history_module/kcmhistory.cpp:256
+#, fuzzy
+#| msgid "Clear History?"
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "इतिहास नष्ट करायचे?"
+
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "Konqueror योग्यरित्या बंद झाले नाही. सत्र पुन्हा स्थपीत करायचे?"
+
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "सत्र पुन्हस्थापन करायचे?"
+
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "सत्र पुन्हस्थापन"
+
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "पुन्हस्थापन करू नका"
+
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "नंतर विचारा"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
