@@ -3,86 +3,82 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_sftp\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-12-15 03:09+0100\n"
-"PO-Revision-Date: 2009-01-07 15:14+0530\n"
-"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
-"Language-Team: marathi\n"
-"Language: \n"
+"PO-Revision-Date: 2013-01-02 14:11+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: kio_sftp.cpp:203
-#, fuzzy
 #| msgid "Incorrect username or password"
 msgid "Incorrect or invalid passphrase"
-msgstr "अयोग्य वापरकर्ताना किंवा गुप्तशब्द"
+msgstr "अयोग्य किंवा चुकीचा गुप्तशब्द"
 
 #: kio_sftp.cpp:275 kio_sftp.cpp:277 kio_sftp.cpp:761
 msgid "SFTP Login"
-msgstr "SFTP दाखलन"
+msgstr "SFTP प्रवेश"
 
 #: kio_sftp.cpp:292
 msgid "Use the username input field to answer this question."
-msgstr ""
+msgstr "या प्रश्नाचे उत्तर देण्यासाठी वापरकर्तानाव हे इनपुट क्षेत्र वापरा."
 
 #: kio_sftp.cpp:305
-#, fuzzy
 #| msgid "Please enter your username and password."
 msgid "Please enter your password."
-msgstr "कृपया वापरकर्तानाव व गुप्तशब्द प्रविष्ट करा."
+msgstr "कृपया गुप्तशब्द प्रविष्ट करा."
 
 #: kio_sftp.cpp:310 kio_sftp.cpp:764
-#, fuzzy
 #| msgid "site:"
 msgid "Site:"
 msgstr "स्थळ:"
 
 #: kio_sftp.cpp:460
 msgid "Could not allocate callbacks"
-msgstr ""
+msgstr "परत बोलवण्याचे ठरवु शकत नाही"
 
 #: kio_sftp.cpp:506
 msgid "Could not create a new SSH session."
-msgstr ""
+msgstr "नविन SSH सत्र तयार करु शकत नाही."
 
 #: kio_sftp.cpp:517 kio_sftp.cpp:522
-#, fuzzy
 #| msgid "Could not read SFTP packet"
 msgid "Could not set a timeout."
-msgstr "SFTP पॅकेट वाचू शकले नाही"
+msgstr "वेळेचे बंधन लागु करु शकत नाही."
 
 #: kio_sftp.cpp:529 kio_sftp.cpp:535
 msgid "Could not set compression."
-msgstr ""
+msgstr "संक्षिप्तीकरण लागु करु शकत नाही."
 
 #: kio_sftp.cpp:542
 msgid "Could not set host."
-msgstr ""
+msgstr "यजमान लागु करु शकत नाही."
 
 #: kio_sftp.cpp:549
-#, fuzzy
 #| msgid "Could not read SFTP packet"
 msgid "Could not set port."
-msgstr "SFTP पॅकेट वाचू शकले नाही"
+msgstr "पोर्ट लागु करु शकत नाही."
 
 #: kio_sftp.cpp:558
 msgid "Could not set username."
-msgstr ""
+msgstr "वापरकर्तानाव लागु करु शकत नाही."
 
 #: kio_sftp.cpp:567
 msgid "Could not set log verbosity."
-msgstr ""
+msgstr "लॉग वाचाळता लागु करु शकत नाही."
 
 #: kio_sftp.cpp:575
 msgid "Could not parse the config file."
-msgstr ""
+msgstr "संयोजना फाइलची व्याख्या वाचु शकत नाही."
 
 #: kio_sftp.cpp:603
 #, kde-format
@@ -122,6 +118,9 @@ msgid ""
 "The key fingerprint is: %2\n"
 "Are you sure you want to continue connecting?"
 msgstr ""
+"%1 या यजमानाची सत्यता पडताळता आली नाही.\n"
+"किल्लीची प्रतिमुद्रा आहे : %2\n"
+"तुम्हाला पुढे जाण्याची खात्री आहे का?"
 
 #: kio_sftp.cpp:718 kio_sftp.cpp:732 kio_sftp.cpp:752 kio_sftp.cpp:807
 msgid "Authentication failed."
@@ -140,10 +139,12 @@ msgid ""
 "Unable to request the SFTP subsystem. Make sure SFTP is enabled on the "
 "server."
 msgstr ""
+"SFTP उपप्रणालीस विनंती करण्यास अपयश. SFTP सर्व्हरवर कार्यान्वीत केलेले आहे "
+"याची खात्री करा."
 
 #: kio_sftp.cpp:829
 msgid "Could not initialize the SFTP session."
-msgstr ""
+msgstr "SFTP सत्र सुरु करु शकत नाही."
 
 #: kio_sftp.cpp:834
 #, kde-format
@@ -151,10 +152,10 @@ msgid "Successfully connected to %1"
 msgstr "यशस्वीरित्या %1 शी जुळवणी स्थापीत केली"
 
 #: kio_sftp.cpp:1769
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Could not read SFTP packet"
 msgid "Could not read link: %1"
-msgstr "SFTP पॅकेट वाचू शकले नाही"
+msgstr "%1 ही लिंक वाचू शकत नाही"
 
 #: kio_sftp.cpp:2171
 #, kde-format
@@ -162,6 +163,8 @@ msgid ""
 "Could not change permissions for\n"
 "%1"
 msgstr ""
+"या साठी परवानगी बदलु शकत नाही\n"
+"%1"
 
 #, fuzzy
 #~| msgid "No hostname specified"
