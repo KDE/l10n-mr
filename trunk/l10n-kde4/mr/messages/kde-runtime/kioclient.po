@@ -3,19 +3,20 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+# Chetan Khona <chetan@kompkin.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: kioclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-07-10 08:40+0200\n"
-"PO-Revision-Date: 2009-01-07 15:14+0530\n"
-"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
-"Language-Team: marathi\n"
-"Language: \n"
+"PO-Revision-Date: 2012-12-30 09:09+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: kioclient.cpp:42
@@ -32,7 +33,7 @@ msgid ""
 "Syntax:\n"
 msgstr ""
 "\n"
-"सिनटॅक्स्:\n"
+"सिन्टॅक्स्:\n"
 
 #: kioclient.cpp:55
 msgid ""
@@ -40,12 +41,8 @@ msgid ""
 "            # Opens a properties menu\n"
 "\n"
 msgstr ""
-"  kioclient openProperties 'url'\n"
-"            # Opens a properties menu\n"
-"\n"
 
 #: kioclient.cpp:57
-#, fuzzy
 #| msgid ""
 #| "  kioclient exec 'url' ['mimetype']\n"
 #| "            # Tries to open the document pointed to by 'url', in the "
@@ -64,13 +61,6 @@ msgid ""
 "            #   document, or it may be a *.desktop file.\n"
 "            #   'url' can be an executable, too.\n"
 msgstr ""
-"  kioclient exec 'url' ['mimetype']\n"
-"            # Tries to open the document pointed to by 'url', in the "
-"application\n"
-"            #   associated with it in KDE. You may omit 'mimetype'.\n"
-"            #   In this case the mimetype is determined\n"
-"            #   automatically. Of course URL may be the URL of a\n"
-"            #   document, or it may be a *.desktop file.\n"
 
 #: kioclient.cpp:64
 msgid ""
@@ -78,9 +68,6 @@ msgid ""
 "            # Moves the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
-"  kioclient move 'src' 'dest'\n"
-"            # Moves the URL 'src' to 'dest'.\n"
-"            #   'src' may be a list of URLs.\n"
 
 #: kioclient.cpp:67
 msgid ""
@@ -103,14 +90,8 @@ msgid ""
 "            #   a URL will be requested.\n"
 "\n"
 msgstr ""
-"  kioclient download ['src']\n"
-"            # Copies the URL 'src' to a user-specified location'.\n"
-"            #   'src' may be a list of URLs, if not present then\n"
-"            #   a URL will be requested.\n"
-"\n"
 
 #: kioclient.cpp:75
-#, fuzzy
 #| msgid ""
 #| "  kioclient copy 'src' 'dest'\n"
 #| "            # Copies the URL 'src' to 'dest'.\n"
@@ -121,10 +102,6 @@ msgid ""
 "            # Copies the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
-"  kioclient copy 'src' 'dest'\n"
-"            # Copies the URL 'src' to 'dest'.\n"
-"            #   'src' may be a list of URLs.\n"
-"\n"
 
 #: kioclient.cpp:78
 msgid ""
@@ -139,12 +116,8 @@ msgid ""
 "            # Writes out the contents of 'url' to stdout\n"
 "\n"
 msgstr ""
-"  kioclient cat 'url'\n"
-"            # Writes out the contents of 'url' to stdout\n"
-"\n"
 
 #: kioclient.cpp:82
-#, fuzzy
 #| msgid ""
 #| "  kioclient cat 'url'\n"
 #| "            # Writes out the contents of 'url' to stdout\n"
@@ -154,12 +127,8 @@ msgid ""
 "            # Lists the contents of the directory 'url' to stdout\n"
 "\n"
 msgstr ""
-"  kioclient cat 'url'\n"
-"            # Writes out the contents of 'url' to stdout\n"
-"\n"
 
 #: kioclient.cpp:84
-#, fuzzy
 #| msgid ""
 #| "  kioclient move 'src' 'dest'\n"
 #| "            # Moves the URL 'src' to 'dest'.\n"
@@ -169,9 +138,6 @@ msgid ""
 "            # Removes the URL\n"
 "            #   'url' may be a list of URLs.\n"
 msgstr ""
-"  kioclient move 'src' 'dest'\n"
-"            # Moves the URL 'src' to 'dest'.\n"
-"            #   'src' may be a list of URLs.\n"
 
 #: kioclient.cpp:87
 msgid ""
@@ -187,10 +153,6 @@ msgid ""
 "             // Mounts the CDROM\n"
 "\n"
 msgstr ""
-"*** Examples:\n"
-"  kioclient exec file:/root/Desktop/cdrom.desktop \"Mount default\"\n"
-"             // Mounts the CDROM\n"
-"\n"
 
 #: kioclient.cpp:93
 msgid ""
@@ -198,9 +160,6 @@ msgid ""
 "             // Opens the file with default binding\n"
 "\n"
 msgstr ""
-"  kioclient exec file:/home/weis/data/test.html\n"
-"             // Opens the file with default binding\n"
-"\n"
 
 #: kioclient.cpp:95
 msgid ""
@@ -208,9 +167,6 @@ msgid ""
 "             // Opens the file with netscape\n"
 "\n"
 msgstr ""
-"  kioclient exec file:/home/weis/data/test.html Netscape\n"
-"             // Opens the file with netscape\n"
-"\n"
 
 #: kioclient.cpp:97
 msgid ""
@@ -218,9 +174,6 @@ msgid ""
 "             // Opens new window with URL\n"
 "\n"
 msgstr ""
-"  kioclient exec ftp://localhost/\n"
-"             // Opens new window with URL\n"
-"\n"
 
 #: kioclient.cpp:99
 msgid ""
@@ -228,9 +181,6 @@ msgid ""
 "             // Starts emacs\n"
 "\n"
 msgstr ""
-"  kioclient exec file:/root/Desktop/emacs.desktop\n"
-"             // Starts emacs\n"
-"\n"
 
 #: kioclient.cpp:101
 msgid ""
@@ -238,9 +188,6 @@ msgid ""
 "             // Opens the CDROM's mount directory\n"
 "\n"
 msgstr ""
-"  kioclient exec file:/root/Desktop/cdrom.desktop\n"
-"             // Opens the CDROM's mount directory\n"
-"\n"
 
 #: kioclient.cpp:103
 msgid ""
@@ -248,9 +195,6 @@ msgid ""
 "             // Opens the current directory. Very convenient.\n"
 "\n"
 msgstr ""
-"  kioclient exec .\n"
-"             // Opens the current directory. Very convenient.\n"
-"\n"
 
 #: kioclient.cpp:114
 msgid "Non-interactive use: no message boxes"
@@ -258,7 +202,7 @@ msgstr "विना-संवाद वापरणी: संदेश बॉ�
 
 #: kioclient.cpp:116
 msgid "Overwrite destination if it exists (for copy and move)"
-msgstr ""
+msgstr "लक्ष्य अस्तित्वात असल्यास ते खोडून लिहा (प्रत करा व हलवा)"
 
 #: kioclient.cpp:119
 msgid "URL or URLs"
@@ -300,3 +244,5 @@ msgstr "वैध URL पासून डाऊनलोड करू शकल�
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr "सिनटॅक्स् त्रुटी: अपरिचीत आदेश '%1'\n"
+
+
