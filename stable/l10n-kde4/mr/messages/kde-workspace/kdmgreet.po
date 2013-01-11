@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-20 05:30+0200\n"
-"PO-Revision-Date: 2013-01-03 14:05+0530\n"
+"PO-Revision-Date: 2013-01-11 17:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
 "Language: mr\n"
@@ -124,11 +124,11 @@ msgstr "सुरू करा (&S):"
 
 #: kdmshutdown.cpp:306
 msgid "T&imeout:"
-msgstr "टाइमआऊट (&i):"
+msgstr "वेळेचे बंधन (&I):"
 
 #: kdmshutdown.cpp:309
 msgid "&Force after timeout"
-msgstr ""
+msgstr "वेळेचे बंधन संपल्यावर बळपूर्वक करा (&F)"
 
 #: kdmshutdown.cpp:357
 msgid "Entered start date is invalid."
@@ -164,6 +164,9 @@ msgid ""
 "seconds after the last console session ends or after 40 seconds if no-one "
 "logs in in the first place.<br/>"
 msgstr ""
+"<br/>कंसोल पद्धतीवर गेल्यास सर्व स्थानीय X सर्व्हर्स बंद केले जातील व फक्त "
+"कंसोल प्रवेश राहील. ग्राफिकल पद्धत स्वयंचलितरीत्या कंसोल सत्र बंद झाल्यावर १० "
+"सेकंदानी किंवा कोणी प्रवेश न केल्यास ४० सेकंदानी सुरु होइल.<br/>"
 
 #: kdmshutdown.cpp:608
 msgid "Turn Off Computer"
@@ -201,16 +204,14 @@ msgid "Location"
 msgstr "ठिकाण"
 
 #: kdmshutdown.cpp:688
-#, fuzzy
 #| msgid "Abort pending shutdown:"
 msgid "Cancel pending shutdown:"
-msgstr "अनिर्णायक शटडाऊन रद्द करा:"
+msgstr "अपूर्ण बंद करणे रद्द करा :"
 
 #: kdmshutdown.cpp:689
-#, fuzzy
 #| msgid "No permission to abort pending shutdown:"
 msgid "No permission to cancel pending shutdown:"
-msgstr "अनिर्णायक शटडाऊन रद्द करण्याकरीता परवानागी नाही:"
+msgstr "अपूर्ण बंद करणे रद्द करण्याकरीता परवानगी नाही :"
 
 #: kdmshutdown.cpp:695
 msgctxt "start of shutdown:"
@@ -220,7 +221,7 @@ msgstr "आता"
 #: kdmshutdown.cpp:701
 msgctxt "timeout of shutdown:"
 msgid "infinite"
-msgstr ""
+msgstr "अमर्यादित"
 
 #: kdmshutdown.cpp:707
 #, kde-format
@@ -284,18 +285,17 @@ msgstr "स्वयं सत्र रद्द करा"
 #: kdmshutdown.cpp:729
 msgctxt "after timeout:"
 msgid "cancel shutdown"
-msgstr "शटडाऊन रद्द करा"
+msgstr "बंद करणे रद्द करा"
 
 #: kgdialog.cpp:57
 msgid "Sw&itch User"
 msgstr "वापरकर्ता बदलवा (&i)"
 
 #: kgdialog.cpp:72
-#, fuzzy
 #| msgctxt "@title:column"
 #| msgid "Session"
 msgid "Canc&el Session"
-msgstr "सत्र"
+msgstr "सत्र बंद करा (&E)"
 
 #: kgdialog.cpp:73
 msgid "R&estart X Server"
@@ -311,7 +311,7 @@ msgstr "कन्सोल प्रवेश (&n)"
 
 #: kgdialog.cpp:88
 msgid "&Shutdown..."
-msgstr "शटडाऊन (&S)..."
+msgstr "बंद करा (&S)..."
 
 #: kgdialog.cpp:228
 #, kde-format
@@ -327,7 +327,7 @@ msgstr "मुलभूत"
 #: kgreeter.cpp:483
 msgctxt "@item:inlistbox session type"
 msgid "Custom"
-msgstr "इच्छिक"
+msgstr "ऐच्छिक"
 
 #: kgreeter.cpp:484
 msgctxt "@item:inlistbox session type"
@@ -346,6 +346,8 @@ msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
 msgstr ""
+"'%1' हे तुम्ही संचयीत केलेले सत्र आता वैध नाही.\n"
+"कृपया नविन निवडा नाहीतर मुलभत वापरले जाईल."
 
 #: kgreeter.cpp:745
 msgid "Warning: this is an unsecured session"
@@ -357,11 +359,14 @@ msgid ""
 "This means that anybody can connect to it,\n"
 "open windows on it or intercept your input."
 msgstr ""
+"या डिस्प्लेला X परवानगीची गरज नाही.\n"
+"याचा अर्थ कोणीही त्याला जोडू शकतो,\n"
+"त्यावरील चौकटी उघडा किंवा तुमचा इनपुट थांबवा."
 
 #: kgreeter.cpp:799
 msgctxt "@action:button"
 msgid "L&ogin"
-msgstr "प्रवेश (&o)"
+msgstr "प्रवेश (&O)"
 
 #: kgreeter.cpp:833 kgreeter.cpp:970
 msgctxt "@title:menu"
@@ -445,8 +450,8 @@ msgstr ""
 #, kde-format
 msgid "Your account expires tomorrow."
 msgid_plural "Your account expires in %1 days."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "तुमचे खाते उद्या संपत आहे."
+msgstr[1] "तुमचे खाते %1 दिवसात संपत आहे."
 
 #: kgverify.cpp:544
 msgid "Your account expires today."
@@ -456,8 +461,8 @@ msgstr "तुमचे खाते आज एक्सपायर होई�
 #, kde-format
 msgid "Your password expires tomorrow."
 msgid_plural "Your password expires in %1 days."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "तुमचा गुप्तशब्द उद्या संपत आहे."
+msgstr[1] "तुमचा गुप्तशब्द %1 दिवसात संपत आहे."
 
 #: kgverify.cpp:552
 msgid "Your password expires today."
@@ -476,8 +481,8 @@ msgstr "अधिप्रमाणीत वापरकर्ता (%1) व�
 #, kde-format
 msgid "Automatic login in 1 second..."
 msgid_plural "Automatic login in %1 seconds..."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 सेकंदात स्वयंचलित प्रवेश..."
+msgstr[1] "%1 सेकंदात स्वयंचलित प्रवेश..."
 
 #: kgverify.cpp:1079
 msgid "Warning: Caps Lock is on"
@@ -503,7 +508,7 @@ msgstr "KRootImage"
 
 #: krootimage.cpp:331
 msgid "Fancy desktop background for kdm"
-msgstr ""
+msgstr "kdm साठी आकर्षक डेस्कटॉप पृष्ठभूमि"
 
 #: krootimage.cpp:334
 msgid "Name of the configuration file"
@@ -584,8 +589,8 @@ msgstr "प्रवेश (_L)"
 msgctxt "will login in ..."
 msgid "1 second"
 msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "1 सेकंद"
+msgstr[1] "%1 सेकंद"
 
 #: themer/kdmlabel.cpp:301
 #, no-c-format
@@ -613,8 +618,8 @@ msgstr "%1 योग्य सुत्रयोजना फाइल आढळ
 msgctxt "user: ..."
 msgid "%2: TTY login"
 msgid_plural "%2: %1 TTY logins"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%2: TTY प्रवेश"
+msgstr[1] "%2: %1 TTY प्रवेश"
 
 #: utils.cpp:99
 msgctxt "... session"
