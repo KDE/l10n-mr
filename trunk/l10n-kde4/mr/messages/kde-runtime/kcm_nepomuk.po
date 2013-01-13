@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-01 03:50+0100\n"
+"POT-Creation-Date: 2013-01-08 12:35+0100\n"
 "PO-Revision-Date: 2013-01-09 17:10+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -58,18 +58,30 @@ msgstr "अनुक्रमणिकेत समाविष्ट न कर
 msgid ""
 "Select expressions to exclude files from indexing by matching their filenames"
 msgstr ""
-"ज्या अभिव्यक्तिना जुळणाऱ्या नावांच्या फाइल्स अनुक्रमणिकेत समाविष्ट करायच्या "
-"नाहीत ती "
+"ज्या अभिव्यक्तिना जुळणाऱ्या नावांच्या फाइल्स अनुक्रमणिकेत समाविष्ट करायच्या नाहीत ती "
 "अभिव्यक्ति निवडा"
 
-#: folderselectionmodel.cpp:119
+#: folderselectionmodel.cpp:121
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+#| msgid ""
+#| "<filename>%1</filename><nl/> (will <emphasis>not</emphasis> be indexed "
+#| "for desktop search)"
+msgctxt "@info:tooltip %1 is the path of the folder in a listview"
+msgid ""
+"<filename>%1</filename><nl/> (symbolic links are <emphasis>not</emphasis> "
+"indexed for desktop search)"
+msgstr ""
+"<filename>%1</filename><nl/>(हे डेस्कटॉप शोधासाठी अनुक्रमीत केले जाणार "
+"<emphasis>नाहीत</emphasis>)"
+
+#: folderselectionmodel.cpp:125
 #, kde-format
 msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid "<filename>%1</filename><nl/>(will be indexed for desktop search)"
-msgstr ""
-"<filename>%1</filename><nl/>(हे डेस्कटॉप शोधासाठी अनुक्रमीत केले जातील)"
+msgstr "<filename>%1</filename><nl/>(हे डेस्कटॉप शोधासाठी अनुक्रमीत केले जातील)"
 
-#: folderselectionmodel.cpp:123
+#: folderselectionmodel.cpp:129
 #, kde-format
 msgctxt "@info:tooltip %1 is the path of the folder in a listview"
 msgid ""
@@ -97,8 +109,7 @@ msgid ""
 "Select the local folders that contain files to be indexed for fast desktop "
 "searches"
 msgstr ""
-"जलद डेस्कटॉप शोध करीता इनडेक्स करण्याजोगी फाइल समाविष्टीत असलेले स्थानीय "
-"संचयीका निवडा"
+"जलद डेस्कटॉप शोध करीता इनडेक्स करण्याजोगी फाइल समाविष्टीत असलेले स्थानीय संचयीका निवडा"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, m_checkShowHiddenFolders)
 #: indexfolderselectionwidget.ui:29
@@ -111,132 +122,129 @@ msgid "Show hidden folders"
 msgstr "लपविलेल्या संचयीका दर्शवा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: nepomukconfigwidget.ui:17
+#: nepomukconfigwidget.ui:25
 msgid "Basic Settings"
 msgstr "मुळ संयोजना"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: nepomukconfigwidget.ui:23
+#: nepomukconfigwidget.ui:31
 msgid "Nepomuk Semantic Desktop"
 msgstr "निपोमुक सिमॅन्टीक डेस्कटॉप"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: nepomukconfigwidget.ui:29
+#: nepomukconfigwidget.ui:37
 msgid ""
 "Nepomuk Semantic Desktop enables tagging and rating of files integrated with "
 "the Desktop Search."
 msgstr ""
-"निपोमुक सिमॅन्टीक डेस्कटॉप डेस्कटॉप शोधसह एकत्र केले गेलेल्या फाइल करीता "
-"टॅगींग व प्रमाणनाची "
+"निपोमुक सिमॅन्टीक डेस्कटॉप डेस्कटॉप शोधसह एकत्र केले गेलेल्या फाइल करीता टॅगींग व प्रमाणनाची "
 "सुविधा पुरवितो."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableNepomuk)
-#: nepomukconfigwidget.ui:43
+#: nepomukconfigwidget.ui:51
 msgid "Enable Nepomuk Semantic Desktop"
 msgstr "निपोमुक सिमॅन्टीक डेस्कटॉप कार्यान्वीत करा"
 
 #. i18n: ectx: property (text), widget (KUrlLabel, m_buttonDetails)
-#: nepomukconfigwidget.ui:92
+#: nepomukconfigwidget.ui:100
 msgid "Details..."
 msgstr "तपशील..."
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: nepomukconfigwidget.ui:104
+#: nepomukconfigwidget.ui:112
 msgid "Nepomuk Desktop File Indexer"
 msgstr "निपोमुक फाइल अनुक्रमणिका नियंत्रक"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: nepomukconfigwidget.ui:110
+#: nepomukconfigwidget.ui:118
 msgid ""
 "Nepomuk desktop search allows searching for files by content instead of just "
 "by name."
 msgstr "निपोमुक डेस्कटॉप शोध फक्त नावा ऐवजी मजकुरावरुन सुद्धा फाइल शोध करतो."
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableFileIndexer)
-#: nepomukconfigwidget.ui:120
+#: nepomukconfigwidget.ui:128
 msgid "Enable Nepomuk File Indexer"
 msgstr "निपोमुक फाइल अनुक्रमणिका नियंत्रक कार्यान्वीत करा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_emailIndexingBox)
-#: nepomukconfigwidget.ui:173
+#: nepomukconfigwidget.ui:181
 msgid "Email Indexing"
 msgstr "इमेल अनुक्रमीत करणे"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: nepomukconfigwidget.ui:179
+#: nepomukconfigwidget.ui:187
 msgid "Email indexing allows full text search in email and their attachments."
-msgstr ""
-"इमेल अनुक्रमीत केल्याने इमेल व त्यांच्या अटैचमेंटमध्ये पुर्ण मजकुर शोधणे शक्य "
-"होते. "
+msgstr "इमेल अनुक्रमीत केल्याने इमेल व त्यांच्या अटैचमेंटमध्ये पुर्ण मजकुर शोधणे शक्य होते. "
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkEnableEmailIndexer)
-#: nepomukconfigwidget.ui:186
+#: nepomukconfigwidget.ui:194
 msgid "Enable Email Indexer"
 msgstr "इमेल अनुक्रमीत करणे कार्यान्वीत करा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: nepomukconfigwidget.ui:210
+#: nepomukconfigwidget.ui:218
 msgid "Indexing"
 msgstr "अनुक्रमीत करणे"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_7)
-#: nepomukconfigwidget.ui:216
+#: nepomukconfigwidget.ui:224
 msgid "File Indexing"
 msgstr "फाइल अनुक्रमीत करणे"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: nepomukconfigwidget.ui:222
+#: nepomukconfigwidget.ui:230
 msgid "Customize the files and folders to be indexed"
 msgstr "अनुक्रमीत करण्याकरीताच्या फाइल्स व संचयीका संयोजन"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxDocuments)
-#: nepomukconfigwidget.ui:229
+#: nepomukconfigwidget.ui:237
 msgid "Index Documents"
 msgstr "दस्तऐवज अनुक्रमीत करा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxAudio)
-#: nepomukconfigwidget.ui:236
+#: nepomukconfigwidget.ui:244
 msgid "Index Audio"
 msgstr "आवाजी फाइल्स अनुक्रमीत करा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxImage)
-#: nepomukconfigwidget.ui:243
+#: nepomukconfigwidget.ui:251
 msgid "Index Images"
 msgstr "प्रतिमा अनुक्रमीत करा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxVideo)
-#: nepomukconfigwidget.ui:250
+#: nepomukconfigwidget.ui:258
 msgid "Index Videos"
 msgstr "व्हिडीओ अनुक्रमीत करा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_checkboxSourceCode)
-#: nepomukconfigwidget.ui:257
+#: nepomukconfigwidget.ui:265
 msgid "Index Source Code"
 msgstr "सोर्स कोड अनुक्रमीत करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonAdvancedFileIndexing)
-#: nepomukconfigwidget.ui:279
+#: nepomukconfigwidget.ui:287
 msgid "Advanced"
 msgstr "प्रगत"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_buttonCustomizeIndexFolders)
-#: nepomukconfigwidget.ui:286
+#: nepomukconfigwidget.ui:294
 msgid "Customize Folders"
 msgstr "संचयीका संयोजन"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: nepomukconfigwidget.ui:297
+#: nepomukconfigwidget.ui:305
 msgid "Removable media handling:"
 msgstr "काढता येणाऱ्या साधनांची हाताळणी :"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_comboRemovableMediaHandling)
-#: nepomukconfigwidget.ui:313
+#: nepomukconfigwidget.ui:321
 msgctxt "@info:tooltip"
 msgid "Indexing of files on removable media"
 msgstr "काढता येणाऱ्या साधनांवरील फाइल्स अनुक्रमीत करत आहे"
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, m_comboRemovableMediaHandling)
-#: nepomukconfigwidget.ui:319
+#: nepomukconfigwidget.ui:327
 msgctxt "@info:whatsthis"
 msgid ""
 "<para>Nepomuk can index files on removable devices like USB keys or external "
@@ -253,101 +261,99 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
-#: nepomukconfigwidget.ui:323
+#: nepomukconfigwidget.ui:331
 msgid "Ignore all removable media"
 msgstr "सर्व काढता येणारी साधने उपेक्षित करा"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
-#: nepomukconfigwidget.ui:328
+#: nepomukconfigwidget.ui:336
 msgid "Index files on all removable devices"
 msgstr "काढता येणाऱ्या साधनांवरील फाइल्स अनुक्रमीत करा"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, m_comboRemovableMediaHandling)
-#: nepomukconfigwidget.ui:333
+#: nepomukconfigwidget.ui:341
 msgid "Ask individually when newly mounted"
 msgstr "जेव्हा नविन साधन जोडले जाइल तेव्हा व्यक्तिशः विचारा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: nepomukconfigwidget.ui:360
+#: nepomukconfigwidget.ui:368
 msgid "Backup"
 msgstr "बॅकअप"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: nepomukconfigwidget.ui:366
+#: nepomukconfigwidget.ui:374
 msgid "Automatic Backups"
 msgstr "स्वयंचलित बॅकअप"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: nepomukconfigwidget.ui:372
+#: nepomukconfigwidget.ui:380
 msgctxt "@info"
 msgid ""
 "Nepomuk can perform regular automatic backups of all data that could not be "
 "restored otherwise. This includes manually created tags, ratings, but also "
 "statistical data."
 msgstr ""
-"निपोमुक सर्व माहितीचे नियमितपणे स्वयंचलित बॅकअप घेउ शकतो. ही माहीती इतर "
-"कोणत्याही "
-"मार्गाने पुन्हस्थापीत करता येत नाही. स्वहस्ते बनवलेले टॅग, गुणवत्ताश्रेणी, "
-"सांख्यिकीय माहिती हे "
+"निपोमुक सर्व माहितीचे नियमितपणे स्वयंचलित बॅकअप घेउ शकतो. ही माहीती इतर कोणत्याही "
+"मार्गाने पुन्हस्थापीत करता येत नाही. स्वहस्ते बनवलेले टॅग, गुणवत्ताश्रेणी, सांख्यिकीय माहिती हे "
 "यात अंतर्भूत आहे."
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: nepomukconfigwidget.ui:384
+#: nepomukconfigwidget.ui:392
 msgid "Backup frequency:"
 msgstr "बॅकअप वारंवारता :"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, m_comboBackupFrequency)
-#: nepomukconfigwidget.ui:394
+#: nepomukconfigwidget.ui:402
 msgid "How often should a backup of the Nepomuk database be created"
 msgstr "निपोमुक चा डेटाबेस बॅकअप कोणत्या वारंवारतेने घ्यावा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: nepomukconfigwidget.ui:401
+#: nepomukconfigwidget.ui:409
 msgid "Backup Time:"
 msgstr "बॅकअप वेळ :"
 
 #. i18n: ectx: property (toolTip), widget (QTimeEdit, m_editBackupTime)
-#: nepomukconfigwidget.ui:416
+#: nepomukconfigwidget.ui:424
 msgid "When should the backup be created"
 msgstr "बॅकअप केव्हा घ्यावा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: nepomukconfigwidget.ui:425
+#: nepomukconfigwidget.ui:433
 msgid "Max number of backups:"
 msgstr "बॅकअपची जास्तीत जास्त संख्या :"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, m_spinBackupMax)
-#: nepomukconfigwidget.ui:437
+#: nepomukconfigwidget.ui:445
 msgid "How many previous backups should be kept"
 msgstr "मागील कीती बॅकअप जपुन ठेवायचे आहेत"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_6)
-#: nepomukconfigwidget.ui:467
+#: nepomukconfigwidget.ui:475
 msgid "Tools"
 msgstr "साधने"
 
 #. i18n: ectx: property (text), widget (KPushButton, m_buttonManualBackup)
-#: nepomukconfigwidget.ui:473
+#: nepomukconfigwidget.ui:481
 msgid "Manual Backup..."
 msgstr "स्वहस्ते बॅकअप..."
 
 #. i18n: ectx: property (text), widget (KPushButton, m_buttonRestoreBackup)
-#: nepomukconfigwidget.ui:480
+#: nepomukconfigwidget.ui:488
 msgid "Restore Backup..."
 msgstr "बॅकअप पुन्ह स्थापन..."
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: nepomukconfigwidget.ui:517
+#: nepomukconfigwidget.ui:525
 msgid "Advanced Settings"
 msgstr "प्रगत संयोजना"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: nepomukconfigwidget.ui:523
+#: nepomukconfigwidget.ui:531
 msgid "Memory Usage"
 msgstr "स्मृती वापर"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: nepomukconfigwidget.ui:529
+#: nepomukconfigwidget.ui:537
 msgid ""
 "<p>The maximum amount of main memory the Nepomuk system should use for its "
 "database process. The more memory is available to Nepomuk the better will be "
@@ -356,9 +362,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_editMemoryUsage)
-#: nepomukconfigwidget.ui:557
+#: nepomukconfigwidget.ui:565
 msgid " MiB"
 msgstr " MiB"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_5)
+#: nepomukconfigwidget.ui:583
+msgid "Actions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_buttonCheckForNewFiles)
+#: nepomukconfigwidget.ui:604
+msgid "Check for New Files"
+msgstr ""
 
 #: nepomukserverkcm.cpp:101
 msgid "Desktop Search Configuration Module"
@@ -372,82 +388,79 @@ msgstr "(c) 2007-2010, सेबेस्तियन सॉअर"
 msgid "Sebastian Trüg"
 msgstr "सेबेस्तियन सॉअर"
 
-#: nepomukserverkcm.cpp:160
+#: nepomukserverkcm.cpp:162
 msgctxt "@item:inlistbox"
 msgid "Disable Automatic Backups"
 msgstr "स्वयंचलित बॅकअप अकार्यान्वीत करा"
 
-#: nepomukserverkcm.cpp:161
+#: nepomukserverkcm.cpp:163
 msgctxt "@item:inlistbox"
 msgid "Daily Backup"
 msgstr "रोजचा बॅकअप"
 
-#: nepomukserverkcm.cpp:162
+#: nepomukserverkcm.cpp:164
 msgctxt "@item:inlistbox"
 msgid "Weekly Backup"
 msgstr "आठवड्याचा बॅकअप"
 
-#: nepomukserverkcm.cpp:193
+#: nepomukserverkcm.cpp:195
 msgid ""
 "The Nepomuk installation is not complete. No desktop search settings can be "
 "provided."
 msgstr ""
-"Nepomuk प्रतिष्ठापना पूर्ण झालेली नाही. कोणतीही डेस्कटॉप शोध संयोजना पुरविता "
-"येणार "
+"Nepomuk प्रतिष्ठापना पूर्ण झालेली नाही. कोणतीही डेस्कटॉप शोध संयोजना पुरविता येणार "
 "नाही."
 
-#: nepomukserverkcm.cpp:327
+#: nepomukserverkcm.cpp:329
 msgid ""
 "Failed to start the desktop search service (Nepomuk). The settings have been "
 "saved and will be used the next time the server is started."
 msgstr ""
-"(Nepomuk) डेस्कटॉप शोध सेवा सुरु करण्यास अपयश. संयोजना संचयीत केले गेले आहेत "
-"व सर्वर "
+"(Nepomuk) डेस्कटॉप शोध सेवा सुरु करण्यास अपयश. संयोजना संचयीत केले गेले आहेत व सर्वर "
 "पुढच्यावेळी सुरू होतेवेळी संयोजनाचा वापर केला जाइल."
 
-#: nepomukserverkcm.cpp:329
+#: nepomukserverkcm.cpp:331
 msgid "Desktop search service not running"
 msgstr "डेस्कटॉप शोध सेवा कार्यरत नाही."
 
-#: nepomukserverkcm.cpp:366
+#: nepomukserverkcm.cpp:368
 msgctxt "@info:status"
 msgid "Desktop search services are active"
 msgstr "डेस्कटॉप शोध सेवा कार्यान्वीत आहेत"
 
-#: nepomukserverkcm.cpp:369
+#: nepomukserverkcm.cpp:371
 msgctxt "@info:status"
 msgid "Desktop search services are disabled"
 msgstr "डेस्कटॉप शोध सेवा अकार्यान्वीत आहेत"
 
-#: nepomukserverkcm.cpp:390
+#: nepomukserverkcm.cpp:392
 #, kde-format
 msgctxt "@info:status %1 is an error message returned by a dbus interface."
 msgid "Failed to contact File Indexer service (%1)"
 msgstr "फाइल अनुक्रमणिका सेवा (%1) शी संपर्क साधण्यास अपयशी"
 
-#: nepomukserverkcm.cpp:400
+#: nepomukserverkcm.cpp:402
 msgctxt "@info:status"
 msgid ""
 "File indexing service failed to initialize, most likely due to an "
 "installation problem."
 msgstr ""
-"फाइल अनुक्रमीत करणारी सेवा सुरु करता येत नाही. प्रतिष्ठापनेतील समस्येमुळे हे "
-"झाले असण्याची "
+"फाइल अनुक्रमीत करणारी सेवा सुरु करता येत नाही. प्रतिष्ठापनेतील समस्येमुळे हे झाले असण्याची "
 "शक्यता आहे."
 
-#: nepomukserverkcm.cpp:405
+#: nepomukserverkcm.cpp:407
 msgctxt "@info:status"
 msgid "File indexing service not running."
 msgstr "फाइल अनुक्रमीत करणारी सेवा सुरु नाही."
 
-#: nepomukserverkcm.cpp:416
+#: nepomukserverkcm.cpp:418
 #, kde-format
 msgid "1 existing backup"
 msgid_plural "%1 existing backups"
 msgstr[0] "१ सध्याचा बॅकअप"
 msgstr[1] "%1 सध्याचे बॅकअप"
 
-#: nepomukserverkcm.cpp:420
+#: nepomukserverkcm.cpp:422
 #, kde-format
 msgctxt ""
 "@info %1 is the creation date of a backup formatted vi KLocale::"
