@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
-# Chetan Khona <chetan@kompkin.com>, 2012.
+# Chetan Khona <chetan@kompkin.com>, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: kioclient\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-01-13 03:28+0100\n"
-"PO-Revision-Date: 2012-12-30 09:09+0530\n"
+"PO-Revision-Date: 2013-01-15 11:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
 "Language: mr\n"
@@ -41,6 +41,9 @@ msgid ""
 "            # Opens a properties menu\n"
 "\n"
 msgstr ""
+" Kioclient ओपन प्रॉपर्टीज 'url ' \n"
+"            # प्रॉपर्टीज मेनू उघडतो \n"
+"\n"
 
 #: kioclient.cpp:57
 msgid ""
@@ -53,6 +56,13 @@ msgid ""
 "            #   document, or it may be a *.desktop file.\n"
 "            #   'url' can be an executable, too.\n"
 msgstr ""
+" Kioclient exec'url'['mimetype']\n"
+"            #अप्लिकेशन मधील 'url' ने दर्शवलेले दस्तऐवज उघडण्याचा प्रयत्न "
+"करते.\n"
+"            #  या संबंधित KDE मध्ये 'mimetype' वगळू  शकता.\n"
+"            # या बाबतीत  'mimetype' हि निश्चित करू शकता\n"
+"            #आपोआप.यासाठी URL हि दस्तऐवजाची URL\n अथवा ती *.डेस्कटॉप फ़ाइल.\n"
+"            #'url' हि executable हि  असते.\n"
 
 #: kioclient.cpp:64
 msgid ""
@@ -60,12 +70,17 @@ msgid ""
 "            # Moves the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
+" Kioclient हलवा'src''dest'\n"
+"            # URL 'src'हलवा'dest'कडे.\n"
+"            #'src'हि URLची सूची असू शकते.\n"
 
 #: kioclient.cpp:67
 msgid ""
 "            #   'dest' may be \"trash:/\" to move the files\n"
 "            #   to the trash.\n"
 msgstr ""
+"            #'dest'हि \"trash:/\" असू शकतो फ़ाइल्स हलवण्यासाठी\n"
+"            # trash मध्ये.\n"
 
 #: kioclient.cpp:69
 msgid ""
@@ -73,6 +88,9 @@ msgid ""
 "            #   is also available.\n"
 "\n"
 msgstr ""
+"            # छोटी आवृत्ती Kioclient mv\n"
+"            #सुद्धा उपलब्ध.\n"
+"\n"
 
 #: kioclient.cpp:71
 msgid ""
@@ -82,6 +100,11 @@ msgid ""
 "            #   a URL will be requested.\n"
 "\n"
 msgstr ""
+" Kioclient download['src']\n"
+"            # वापरकर्त्याने स्पष्ट केलेल्या ठिकाणी URL 'src'कॉपी करते.\n"
+"            #'src' हि URL ची सूची असू शकते,जर नसेल तर \n"
+"            #URLला विनंती करता येईल.\n"
+"\n"
 
 #: kioclient.cpp:75
 msgid ""
@@ -89,6 +112,9 @@ msgid ""
 "            # Copies the URL 'src' to 'dest'.\n"
 "            #   'src' may be a list of URLs.\n"
 msgstr ""
+" Kioclient  कॉपी 'src''dest'\n"
+"            #URL'src'ला 'dest' वर कॉपी करते.\n"
+"            #'src'हि URL ची सूची असू शकते.\n"
 
 #: kioclient.cpp:78
 msgid ""
@@ -96,6 +122,9 @@ msgid ""
 "            #   is also available.\n"
 "\n"
 msgstr ""
+"            #  छोटी आवृत्ती Kioclient cp\n"
+"            #  सुद्धा उपलब्ध\n"
+"\n"
 
 #: kioclient.cpp:80
 msgid ""
@@ -103,6 +132,9 @@ msgid ""
 "            # Writes out the contents of 'url' to stdout\n"
 "\n"
 msgstr ""
+" Kioclient cat 'url'\n"
+"            #'url' चे कंटेंट stdout वर लिहितो\n"
+"\n"
 
 #: kioclient.cpp:82
 msgid ""
@@ -110,6 +142,9 @@ msgid ""
 "            # Lists the contents of the directory 'url' to stdout\n"
 "\n"
 msgstr ""
+" kioclient म्हणजे 'url'\n"
+"            # कंटेंट सूची'url'शब्दकोश stdout साठी \n"
+"\n"
 
 #: kioclient.cpp:84
 msgid ""
@@ -117,6 +152,9 @@ msgid ""
 "            # Removes the URL\n"
 "            #   'url' may be a list of URLs.\n"
 msgstr ""
+" kioclient काढा 'url'\n"
+"            #'url' काढतो \n"
+"            #'url' ही URLs ची सूची असू शकते.\n"
 
 #: kioclient.cpp:87
 msgid ""
@@ -124,6 +162,9 @@ msgid ""
 "            #   is also available.\n"
 "\n"
 msgstr ""
+"            #  kioclient rm ची छोटी आवृत्ती \n"
+"            #  सुद्धा उपलब्ध\n"
+"\n"
 
 #: kioclient.cpp:90
 msgid ""
@@ -132,6 +173,11 @@ msgid ""
 "             // Mounts the CDROM\n"
 "\n"
 msgstr ""
+"*** उदाहरणे:\n"
+" kioclient exe फ़ाइल :/root/Desktop/cdrom.desktop\"Mount "
+"default\"\n"
+"             //चालू करतेCDROM\n"
+"\n"
 
 #: kioclient.cpp:93
 msgid ""
@@ -139,6 +185,9 @@ msgid ""
 "             // Opens the file with default binding\n"
 "\n"
 msgstr ""
+" kioclient exe फ़ाइल:/home/weis/data/test.html\n"
+"             //डिफाँल्ट बाईंडिंग सह फ़ाइल उघडते\n"
+"\n"
 
 #: kioclient.cpp:95
 msgid ""
@@ -146,6 +195,9 @@ msgid ""
 "             // Opens the file with netscape\n"
 "\n"
 msgstr ""
+" kioclient exec file:/home/weis/data/test.html Netscape\n"
+"             //netscape सह फ़ाइल उघडते\n"
+"\n"
 
 #: kioclient.cpp:97
 msgid ""
@@ -153,6 +205,9 @@ msgid ""
 "             // Opens new window with URL\n"
 "\n"
 msgstr ""
+" kioclient exec ftp://localhost/\n"
+"             //URLसह नवीन विंडो उघडते.\n"
+"\n"
 
 #: kioclient.cpp:99
 msgid ""
@@ -160,6 +215,9 @@ msgid ""
 "             // Starts emacs\n"
 "\n"
 msgstr ""
+" kioclient exec file:/root/Desktop/emacs.desktop\n"
+"             //चालू करते emacs\n"
+"\n"
 
 #: kioclient.cpp:101
 msgid ""
@@ -167,6 +225,9 @@ msgid ""
 "             // Opens the CDROM's mount directory\n"
 "\n"
 msgstr ""
+" kioclient exec file:/root/Desktop/cdrom.desktop\n"
+"             //CDROM'sला सुरु करण्याचा शब्दकोश उघडतो.\n"
+"\n"
 
 #: kioclient.cpp:103
 msgid ""
@@ -174,6 +235,9 @@ msgid ""
 "             // Opens the current directory. Very convenient.\n"
 "\n"
 msgstr ""
+" kioclient exec .\n"
+"             //चालू  शब्दकोश उघडतो.खूप सुविधाजनक.\n"
+"\n"
 
 #: kioclient.cpp:114
 msgid "Non-interactive use: no message boxes"
@@ -223,3 +287,5 @@ msgstr "वैध URL पासून डाऊनलोड करू शकल�
 #, kde-format
 msgid "Syntax Error: Unknown command '%1'\n"
 msgstr "सिनटॅक्स् त्रुटी: अपरिचीत आदेश '%1'\n"
+
+
