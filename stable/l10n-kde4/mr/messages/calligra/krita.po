@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-16 02:04+0100\n"
+"POT-Creation-Date: 2012-10-30 17:29+0100\n"
 "PO-Revision-Date: 2013-01-29 10:30+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -26,8 +26,8 @@ msgid "Your emails"
 msgstr "तुमची ई-मेल्स"
 
 #: benchmarks/kis_floodfill_benchmark.cpp:87
-#: plugins/tools/defaulttools/kis_tool_fill.cc:106
-#: plugins/tools/defaulttools/kis_tool_fill.cc:111
+#: plugins/tools/defaulttools/kis_tool_fill.cc:103
+#: plugins/tools/defaulttools/kis_tool_fill.cc:108
 msgid "Flood Fill"
 msgstr "फ्लड फिल"
 
@@ -969,10 +969,17 @@ msgstr "स्थिर"
 msgid "default"
 msgstr "सुरुवातीचे"
 
-#: image/commands/kis_change_filter_command.h:48
+#: image/commands/kis_change_filter_command.h:40
 msgctxt "(qtundo-format)"
 msgid "Change Filter"
 msgstr "गाळणी बदला"
+
+#: image/commands/kis_change_generator_command.h:40
+#, fuzzy
+#| msgid "Generator"
+msgctxt "(qtundo-format)"
+msgid "Change Generator"
+msgstr "उत्पादक"
 
 #: image/commands/kis_deselect_global_selection_command.cpp:30
 msgctxt "(qtundo-format)"
@@ -1024,6 +1031,12 @@ msgctxt "(qtundo-format)"
 msgid "Node Composite Mode"
 msgstr "नोड कंपोझिट मोड"
 
+#: image/commands/kis_node_move_command.cpp:30
+#: image/commands_new/kis_node_move_command2.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Move"
+msgstr "हलवा"
+
 #: image/commands/kis_node_opacity_command.cpp:26
 msgctxt "(qtundo-format)"
 msgid "Node Opacity"
@@ -1044,13 +1057,9 @@ msgctxt "(qtundo-format)"
 msgid "Set Image Resolution"
 msgstr "प्रतिमेचे रेझोल्यशन ठरवा"
 
-#: image/commands_new/kis_node_move_command2.cpp:33
-msgctxt "(qtundo-format)"
-msgid "Move"
-msgstr "हलवा"
-
 #. i18n: ectx: property (text), widget (QPushButton, bnZoomAdjust)
-#: image/filter/kis_filter.cc:34 plugins/extensions/dockers/imagedocker/forms/wdgImageViewPopup.ui:35
+#: image/filter/kis_filter.cc:34
+#: plugins/extensions/dockers/imagedocker/forms/wdgImageViewPopup.ui:35
 msgid "Adjust"
 msgstr "आटोक्यात आणा"
 
@@ -1088,23 +1097,26 @@ msgid "Non-photorealistic"
 msgstr "छायाचित्रणास अयोग्य"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editMeteringMode)
-#: image/filter/kis_filter.cc:79 plugins/extensions/metadataeditor/editors/exif.ui:396
+#: image/filter/kis_filter.cc:79
+#: plugins/extensions/metadataeditor/editors/exif.ui:396
 msgid "Other"
 msgstr "इतर"
 
-#: image/generator/kis_generator_layer.cpp:104
+#: image/generator/kis_generator_layer.cpp:118
 msgid "Generator"
 msgstr "उत्पादक"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: image/kis_adjustment_layer.cc:123 plugins/paintops/libpaintop/kis_filter_option.cpp:51
+#: image/kis_adjustment_layer.cc:133
+#: plugins/paintops/libpaintop/kis_filter_option.cpp:51
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:844
 #: ui/recorder/kis_recorded_filter_action_creator.cpp:59
 msgid "Filter"
 msgstr "चाळणी"
 
 #. i18n: ectx: property (text), widget (QRadioButton, defaultRadioButton)
-#: image/kis_base_mask_generator.h:31 image/kis_bookmarked_configuration_manager.cc:34
+#: image/kis_base_mask_generator.h:31
+#: image/kis_bookmarked_configuration_manager.cc:34
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:968
 msgid "Default"
 msgstr "सुरुवातीचे"
@@ -1117,11 +1129,12 @@ msgstr "हलका कुंचला"
 msgid "Gaussian brush"
 msgstr "गॉसियन कुंचला"
 
-#: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:370
+#: image/kis_base_node.cpp:140 ui/kis_node_model.cpp:370
 msgid "Visible"
 msgstr "दृष्य"
 
-#: image/kis_base_node.cpp:142 plugins/extensions/dockers/channeldocker/channelmodel.cpp:67
+#: image/kis_base_node.cpp:141
+#: plugins/extensions/dockers/channeldocker/channelmodel.cpp:67
 #: ui/kis_node_model.cpp:371
 msgid "Locked"
 msgstr "बंद"
@@ -1130,7 +1143,7 @@ msgstr "बंद"
 msgid "Last used"
 msgstr "शेवटी वापरलेले"
 
-#: image/kis_clone_layer.cpp:252
+#: image/kis_clone_layer.cpp:250
 msgid "Copy From"
 msgstr "पासून प्रत बनवा"
 
@@ -1166,70 +1179,70 @@ msgstr "लँकझॉस 3"
 msgid "Mitchell"
 msgstr "मिशेल"
 
-#: image/kis_image.cc:270
+#: image/kis_image.cc:269
 msgid "background"
 msgstr "पार्श्वभूमी"
 
-#: image/kis_image.cc:273
+#: image/kis_image.cc:272
 #, kde-format
 msgid "Layer %1"
 msgstr "थर %1 "
 
-#: image/kis_image.cc:429
+#: image/kis_image.cc:428
 msgid "Crop Image"
 msgstr "प्रतिमा छाटा"
 
-#: image/kis_image.cc:429
+#: image/kis_image.cc:428
 msgid "Resize Image"
 msgstr "प्रतिमेचा आकार बदला"
 
-#: image/kis_image.cc:461
+#: image/kis_image.cc:460
 msgid "Crop Node"
 msgstr "छाटणी नोड"
 
-#: image/kis_image.cc:617 plugins/extensions/rotateimage/rotateimage.cc:148
+#: image/kis_image.cc:616 plugins/extensions/rotateimage/rotateimage.cc:149
 msgid "Rotate Layer"
 msgstr "थर फिरवा "
 
-#: image/kis_image.cc:684
+#: image/kis_image.cc:683
 msgid "Shear layer"
 msgstr "शीयर थर"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgShearImage)
-#: image/kis_image.cc:690 plugins/extensions/shearimage/dlg_shearimage.cc:32
-#: plugins/extensions/shearimage/shearimage.cc:87
+#: image/kis_image.cc:689 plugins/extensions/shearimage/dlg_shearimage.cc:32
+#: plugins/extensions/shearimage/shearimage.cc:88
 #: plugins/extensions/shearimage/wdg_shearimage.ui:16
 msgid "Shear Image"
 msgstr "शीयर प्रतिमा"
 
-#: image/kis_image.cc:702
+#: image/kis_image.cc:699
 msgid "Convert Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#: image/kis_image.cc:736
+#: image/kis_image.cc:733
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: image/kis_image.cc:910 ui/kis_layer_manager.cc:778
+#: image/kis_image.cc:907 ui/kis_layer_manager.cc:648
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
-#: image/kis_image.cc:988
+#: image/kis_image.cc:985
 msgid "Merge with Layer Below"
 msgstr "खालच्या थरात मिसळा"
 
-#: image/kis_image.cc:1013
+#: image/kis_image.cc:1010
 msgid "Flatten Layer"
 msgstr "थर सपाट करा"
 
-#: image/kis_layer.cc:139
+#: image/kis_layer.cc:141
 #, kde-format
 msgid "Duplicate of '%1'"
 msgstr "'%1'ची प्रतिकृती"
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
 #. i18n: ectx: property (text), widget (QLabel, opacityLabel)
-#: image/kis_layer.cc:176 plugins/paintops/hairy/wdghairyeoptions.ui:278
+#: image/kis_layer.cc:178 plugins/paintops/hairy/wdghairyeoptions.ui:278
 #: plugins/paintops/hairy/wdgInkOptions.ui:55
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:26
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:30
@@ -1237,60 +1250,24 @@ msgstr "'%1'ची प्रतिकृती"
 msgid "Opacity"
 msgstr "दृक्शक्ती"
 
-#: image/kis_layer.cc:176
+#: image/kis_layer.cc:178
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
-#: image/kis_layer.cc:178
+#: image/kis_layer.cc:180
 msgid "Composite Mode"
 msgstr "एकत्रित पध्दत"
 
-#: image/kis_paint_layer.cc:157 image/kis_paint_layer.cc:166
+#: image/kis_paint_layer.cc:156 image/kis_paint_layer.cc:165
 msgid "Alpha Channel Locked"
 msgstr "अल्फा चॅनेल बंद"
 
-#: image/kis_paint_layer.cc:158 image/kis_paint_layer.cc:169
+#: image/kis_paint_layer.cc:157 image/kis_paint_layer.cc:168
 msgid "Alpha Channel Disabled"
 msgstr "अल्फा चॅनेल कार्यहीन"
 
-#: image/kis_selection_manager_p.h:110
-msgid "Erode Selection"
-msgstr "निवड पुसा"
-
-#: image/kis_selection_manager_p.h:172
-msgid "Dilate Selection"
-msgstr "निवड विरळ करा"
-
-#: image/kis_selection_manager_p.h:240 plugins/extensions/modify_selection/dlg_border_selection.cc:31
-#: plugins/extensions/modify_selection/modify_selection.cc:173
-msgid "Border Selection"
-msgstr "सीमा निवड"
-
-#: image/kis_selection_manager_p.h:461 plugins/extensions/modify_selection/dlg_feather_selection.cc:32
-#: plugins/extensions/modify_selection/modify_selection.cc:196
-msgid "Feather Selection"
-msgstr "फेदर निवड"
-
-#: image/kis_selection_manager_p.h:510 plugins/extensions/modify_selection/dlg_grow_selection.cc:30
-#: plugins/extensions/modify_selection/modify_selection.cc:125
-msgid "Grow Selection"
-msgstr "निवड वाढवा"
-
-#: image/kis_selection_manager_p.h:639 plugins/extensions/modify_selection/dlg_shrink_selection.cc:30
-#: plugins/extensions/modify_selection/modify_selection.cc:148
-msgid "Shrink Selection"
-msgstr "निवड कमी घटवा"
-
-#: image/kis_selection_manager_p.h:785
-msgid "Smooth Selection"
-msgstr "सुलभ निवढ"
-
-#: image/kis_selection_manager_p.h:843
-msgid "Invert Selection"
-msgstr "उलट निवडा"
-
-#: image/kis_selection_mask.cpp:106 ui/kis_node_model.cpp:372
+#: image/kis_selection_mask.cpp:101 ui/kis_node_model.cpp:372
 msgid "Active"
 msgstr "कृतीशील"
 
@@ -1354,9 +1331,8 @@ msgid ""
 "instance by merging the list of authors together, or keeping identical "
 "photographic information."
 msgstr ""
-"ही मिसळण्याची पध्दती मिसळण्याचा उत्तम उपाय शोधून लेखकांची यादी एकत्र "
-"मिसळण्याच्या प्रसंगी , किंवा एकसारख्यांना ठेवण्याच्या बाबतीत छायाचित्रणात्मक "
-"माहिती"
+"ही मिसळण्याची पध्दती मिसळण्याचा उत्तम उपाय शोधून लेखकांची यादी एकत्र मिसळण्याच्या "
+"प्रसंगी , किंवा एकसारख्यांना ठेवण्याच्या बाबतीत छायाचित्रणात्मक माहिती"
 
 #: image/metadata/kis_meta_data_value.cc:423
 #: image/metadata/kis_meta_data_value.cc:462
@@ -1382,7 +1358,7 @@ msgid "Fill"
 msgstr "भरा"
 
 #: image/recorder/kis_recorded_path_paint_action.cpp:62
-#: plugins/tools/defaulttools/kis_tool_path.cc:185
+#: plugins/tools/defaulttools/kis_tool_path.cc:181
 msgid "Path"
 msgstr "मार्ग"
 
@@ -1394,7 +1370,7 @@ msgstr "मार्ग"
 #: plugins/paintops/gridbrush/wdgshapeoptions.ui:36
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:340
 #: plugins/paintops/spray/wdgshapeoptions.ui:51
-#: plugins/tools/defaulttools/kis_tool_ellipse.cc:63
+#: plugins/tools/defaulttools/kis_tool_ellipse.cc:62
 msgid "Ellipse"
 msgstr "लंबगोल"
 
@@ -1402,7 +1378,8 @@ msgstr "लंबगोल"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: image/recorder/kis_recorded_shape_paint_action.cpp:56
-#: plugins/filters/blur/wdgblur.ui:130 plugins/paintops/experiment/wdgshapeoptions.ui:56
+#: plugins/filters/blur/wdgblur.ui:130
+#: plugins/paintops/experiment/wdgshapeoptions.ui:56
 #: plugins/paintops/gridbrush/wdgshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:345
 #: plugins/paintops/spray/wdgshapeoptions.ui:56
@@ -1436,7 +1413,8 @@ msgid "Grid Spacing"
 msgstr "ग्रिडमधील अंतर"
 
 #. i18n: ectx: Menu (Image)
-#: krita.rc:73 plugins/extensions/colorspaceconversion/colorspaceconversion.rc:4
+#: krita.rc:73
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.rc:4
 #: plugins/extensions/rotateimage/rotateimage.rc:4
 #: plugins/extensions/shearimage/shearimage.rc:4
 #: sdk/templates/view/APPNAMELC.rc:4
@@ -1455,33 +1433,62 @@ msgstr "नवीन"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSelect)
 #. i18n: ectx: Menu (Select)
-#: krita.rc:113 plugins/extensions/colorrange/wdg_colorrange.ui:131
+#: krita.rc:112 plugins/extensions/colorrange/wdg_colorrange.ui:131
 #: plugins/extensions/imagesize/imagesize.rc:12
 #: plugins/extensions/modify_selection/modify_selection.rc:4
 msgid "&Select"
 msgstr "&निवडा"
 
 #. i18n: ectx: Menu (Filter)
-#: krita.rc:127
+#: krita.rc:126
 msgid "Filte&r"
 msgstr "चाळणी&"
 
 #. i18n: ectx: Menu (Tools)
-#: krita.rc:144
+#: krita.rc:143 ui/thememanager.rc:4
 msgid "&Tools"
 msgstr "&साधने"
 
 #. i18n: ectx: Menu (settings)
-#: krita.rc:147
+#: krita.rc:146
 msgid "Settings"
 msgstr "सेटिंग्ज"
 
 #. i18n: ectx: ToolBar (BrushesAndStuff)
-#: krita.rc:159
+#: krita.rc:158
 msgid "Brushes and Stuff"
 msgstr "कुंचले व तत्सम"
 
-#: main.cc:53
+#. i18n: ectx: Menu (view)
+#: krita_readonly.rc:5
+#, fuzzy
+#| msgid "&View"
+msgid "View"
+msgstr "&दृष्य"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
+#. i18n: ectx: Menu (Layer)
+#: krita_readonly.rc:10 plugins/extensions/compose/layercompose.rc:4
+#: plugins/extensions/imagesize/imagesize.rc:9
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:210
+msgid "Layer"
+msgstr "थर"
+
+#. i18n: ectx: ToolBar (edit)
+#: krita_readonly.rc:18
+#, fuzzy
+#| msgid "&Edit"
+msgid "Edit"
+msgstr "&संपादन"
+
+#. i18n: ectx: ToolBar (navigation)
+#: krita_readonly.rc:22
+#, fuzzy
+#| msgid "Saturation"
+msgid "Navigation"
+msgstr "गडदपणा"
+
+#: main.cc:50
 msgid "File(s) or URL(s) to open"
 msgstr "फाईल(ली) किंवा यूआरएल(एस) उघण्यासाठी"
 
@@ -1504,11 +1511,11 @@ msgstr "उघडा..."
 msgid "Ellipse assistant"
 msgstr "लंबगोल सहायक"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:428
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:426
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr "चुका आढळल्या. सर्व सहायक कार्यान्वित करता आले नाहीत."
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:84
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:82
 msgid "Ruler assistant editor tool"
 msgstr "रुलर सहायक संपादन साधन"
 
@@ -1537,20 +1544,54 @@ msgstr "स्प्लाईन सहायक"
 msgid "Spline"
 msgstr "स्प्लाईन"
 
+#. i18n: tag info attribute name
+#: plugins/colorspaces/ctlcs/ctlcolorspaces/rgba16f.ctlcs:3
+msgid "RGB (16-bit float/channel) for High Dynamic Range imaging"
+msgstr ""
+
+#. i18n: tag info attribute name
+#: plugins/colorspaces/ctlcs/ctlcolorspaces/xyza16f.ctlcs:3
+msgid "XYZ (16-bit float/channel) for High Dynamic Range imaging"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
+#. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
+#: plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:147
+#: plugins/extensions/metadataeditor/editors/exif.ui:788
+#: plugins/extensions/metadataeditor/editors/exif.ui:817
+msgid "Normal"
+msgstr "सामान्य"
+
+#: plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:150
+#, fuzzy
+#| msgid "Alpha Locked"
+msgid "Alpha darken"
+msgstr "अल्फा लॉक्ड"
+
+#: plugins/colorspaces/ctlcs/KoCtlCompositeOp.cpp:153
+#, fuzzy
+#| msgid "Eraser"
+msgid "Erase"
+msgstr "खोडणारा"
+
+#: plugins/colorspaces/ctlcs/KoCtlParser.cpp:41
+msgid "Float"
+msgstr ""
+
 #: plugins/colorspaces/extensions/kis_hsv_adjustment.cc:158
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.h:53
 msgid "HSV Adjustment"
 msgstr "HSV जुळवाजुळव"
 
-#: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:109
+#: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:105
 msgid "Failed to create an action."
 msgstr "कार्य करण्यात अपयश"
 
-#: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:141
+#: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:137
 msgid "No action is selected."
 msgstr "कोणतीही कृती निवडली नाही"
 
-#: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:144
+#: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:140
 msgid "No editor for current action."
 msgstr "सध्याच्य़ा कृतीसाठी संपादक उपलब्ध नाही."
 
@@ -1599,23 +1640,23 @@ msgstr "कृती खाली हलवा"
 msgid "Delete the current action"
 msgstr "सध्याची कृती रद्द करा"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:86
+#: plugins/extensions/bigbrother/bigbrother.cc:85
 msgid "Open and play..."
 msgstr "उघडा व वापरा"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:90
+#: plugins/extensions/bigbrother/bigbrother.cc:89
 msgid "Open and edit..."
 msgstr "उघडा व संपादन करा..."
 
-#: plugins/extensions/bigbrother/bigbrother.cc:94
+#: plugins/extensions/bigbrother/bigbrother.cc:93
 msgid "Save all actions"
 msgstr "सर्व कृती साठवा"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:98
+#: plugins/extensions/bigbrother/bigbrother.cc:97
 msgid "Start recording macro"
 msgstr "मॅक्रोचे रेकॉर्डिंग सुरू करा."
 
-#: plugins/extensions/bigbrother/bigbrother.cc:102
+#: plugins/extensions/bigbrother/bigbrother.cc:101
 msgid "Stop recording actions"
 msgstr "रेकॉर्डिंगची कृती थांबवा"
 
@@ -1634,12 +1675,12 @@ msgstr "मॅक्रोज"
 msgid "Tutorials"
 msgstr "ट्युटोरियल्स"
 
-#: plugins/extensions/colorrange/colorrange.cc:64
+#: plugins/extensions/colorrange/colorrange.cc:65
 msgid "Select from Color Range..."
 msgstr "रंगांच्या श्रेणीतून निवडा"
 
-#: plugins/extensions/colorrange/colorrange.cc:69
-#: plugins/extensions/colorrange/colorrange.cc:111
+#: plugins/extensions/colorrange/colorrange.cc:70
+#: plugins/extensions/colorrange/colorrange.cc:102
 msgid "Select Opaque"
 msgstr "ओपेक निवडा"
 
@@ -1713,7 +1754,7 @@ msgstr "गॅमुटच्या बाहेर"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkInvert)
 #: plugins/extensions/colorrange/wdg_colorrange.ui:89
-#: plugins/filters/example/example.cpp:54
+#: plugins/filters/example/example.cpp:55
 msgid "&Invert"
 msgstr "&इन्व्हर्ट"
 
@@ -1732,23 +1773,23 @@ msgstr "&सध्याच्या निवडीतून काढून �
 msgid "&Deselect"
 msgstr "&निवड रद्द करा"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:74
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:75
 msgid "&Convert Image Type..."
 msgstr "&प्रतिमेचा प्रकार बदला"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:77
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:78
 msgid "&Convert Layer Type..."
 msgstr "&थराचा प्रकार बदला"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:98
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:99
 msgid "Convert All Layers From "
 msgstr "पासूनचे सर्व थर बदला"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:126
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:124
 msgid "Convert Current Layer From"
 msgstr "पासून सध्याचा थर बदला"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:134
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:132
 msgid "Convert Layer Type"
 msgstr "सध्याचा थर बदला"
 
@@ -1798,13 +1839,14 @@ msgid ""
 "result in neutral grays. Intended for images."
 msgstr ""
 "रंगाची शुध्दता राखली आहे (पण आवश्यक नाही),\n"
-"अपेक्षित रंग राखण्यासाठी\n हलकेपणा व गडद  अशी तडजोड केली आहे.\n"
+"अपेक्षित रंग राखण्यासाठी\n"
+" हलकेपणा व गडद  अशी तडजोड केली आहे.\n"
 "प्रतिमांसाठी साधा राखाडी रंग लक्षित आहे."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioPerceptual)
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:41
-#: ui/forms/wdgapplyprofile.ui:108 ui/forms/wdgcolorsettings.ui:136
+#: ui/forms/wdgapplyprofile.ui:108 ui/forms/wdgcolorsettings.ui:132
 msgid "Perceptual"
 msgstr "आकलनीय"
 
@@ -1851,10 +1893,10 @@ msgid ""
 msgstr ""
 "रंगाची शुध्दता हलकेपणासाठी राखली आहे),\n"
 "गडदपणासाठी  अशी तडजोड केली आहे.\n"
-"पांढरा बिंदू सामान्य राखाडी रंगासाठी बदलला आहे."
-"व्यावसायिक चिरत्रांसाठी अपेक्षित\"(रंगीत कोष्टके, आलेख, ओव्हरहेडस् बनवा"
-"\n\"नंतर त्याचा वापर केला आहे."
-"जर योग्य कोष्टक तयार असेल तर ते वापरले आहे. अन्यथा परत आकलनीय कडे बदल\n"
+"पांढरा बिंदू सामान्य राखाडी रंगासाठी बदलला आहे.व्यावसायिक चिरत्रांसाठी अपेक्षित\"(रंगीत "
+"कोष्टके, आलेख, ओव्हरहेडस् बनवा\n"
+"\"नंतर त्याचा वापर केला आहे.जर योग्य कोष्टक तयार असेल तर ते वापरले आहे. अन्यथा परत "
+"आकलनीय कडे बदल\n"
 "अपेक्षित"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioSaturation)
@@ -1866,7 +1908,7 @@ msgstr ""
 #: plugins/paintops/hairy/wdgInkOptions.ui:68
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:175
 #: plugins/paintops/libpaintop/kis_pressure_hsv_option.cpp:29
-#: ui/forms/wdgapplyprofile.ui:128 ui/forms/wdgcolorsettings.ui:146
+#: ui/forms/wdgapplyprofile.ui:128 ui/forms/wdgcolorsettings.ui:142
 msgid "Saturation"
 msgstr "गडदपणा"
 
@@ -1887,8 +1929,8 @@ msgid ""
 msgstr ""
 "नियोजित साधनाच्या कक्षेतशुध्दता, हलकेपणा व गडदपणा कायम राखला आहे. \n"
 "कक्षेबाहेर शुध्दता व हलकेपणा राखला आहे\n"
-"गडदपणाशी तडजोड केली आहे. स्रोत व नियोजित बाबतीत पांढरा बिंदू अविचल आहे. "
-"जागेसाठी अपेक्षित रंगांसाठी (पॅनटोन, ट्रूमॅच, लोगो कलर्स,...)"
+"गडदपणाशी तडजोड केली आहे. स्रोत व नियोजित बाबतीत पांढरा बिंदू अविचल आहे. जागेसाठी "
+"अपेक्षित रंगांसाठी (पॅनटोन, ट्रूमॅच, लोगो कलर्स,...)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioAbsoluteColorimetric)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:108
@@ -1896,39 +1938,17 @@ msgstr ""
 msgid "Absolute colorimetric"
 msgstr "शुध्द कलरीमेट्रिक"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkBlackpointCompensation)
-#: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:121
-msgid "Use Blackpoint &Compensation"
-msgstr "काळा बिंदू व &कसर वापरा"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkAllowLCMSOptimization)
-#: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:128
-#: ui/forms/wdgcolorsettings.ui:283
-msgid ""
-"Allow Little CMS optimizations (uncheck when using linear light RGB or XYZ)"
-msgstr ""
-"सीएमएसचे थोडे फेरफार वापरण्याची मुभा द्या (लिनियर लाईट आरजीबी किंवा "
-"एक्सबवायझेड वापरताना अनचेक करा. "
-
 #: plugins/extensions/compose/dlg_compose.cpp:37
 msgid "compose Layer"
 msgstr "थर बनवा"
 
-#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:48
+#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:49
 msgid "Compose Layer..."
 msgstr "थर बनवा..."
 
-#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:65
+#: plugins/extensions/compose/kis_layer_compose_plugin.cpp:66
 msgid "Compose Layer"
 msgstr "थर बनवा"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#. i18n: ectx: Menu (Layer)
-#: plugins/extensions/compose/layercompose.rc:4
-#: plugins/extensions/imagesize/imagesize.rc:9
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:210
-msgid "Layer"
-msgstr "थर"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/extensions/compose/wdg_compose.ui:16
@@ -2053,7 +2073,7 @@ msgstr "रंग निवडण्याची योजना"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:24
-#: ui/dialogs/kis_dlg_preferences.cc:616 ui/dialogs/kis_dlg_preferences.cc:617
+#: ui/dialogs/kis_dlg_preferences.cc:573 ui/dialogs/kis_dlg_preferences.cc:574
 msgid "General"
 msgstr "सामान्य"
 
@@ -2256,8 +2276,8 @@ msgstr "दाखवा"
 #. i18n: ectx: property (text), widget (QLabel, lblCheckSize)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:461
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:663
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:180
-#: ui/forms/wdgdisplaysettings.ui:79 ui/kis_paintop_box.cc:139
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:186
+#: ui/forms/wdgdisplaysettings.ui:79 ui/kis_paintop_box.cc:138
 msgid "Size:"
 msgstr "आकार"
 
@@ -2413,98 +2433,142 @@ msgstr "मार्ग"
 msgid "Enabled"
 msgstr "कार्यान्वित"
 
-#: plugins/extensions/dockers/compositiondocker/compositiondocker_dock.cpp:39
+#: plugins/extensions/dockers/compositiondocker/compositiondocker_dock.cpp:37
 msgid "Compositions"
 msgstr "रचना"
 
-#: plugins/extensions/dockers/compositiondocker/compositiondocker_dock.cpp:56
+#: plugins/extensions/dockers/compositiondocker/compositiondocker_dock.cpp:54
 msgid "Insert Name"
 msgstr "नाव घाला"
 
-#: plugins/extensions/dockers/compositiondocker/compositionmodel.cpp:53
+#: plugins/extensions/dockers/compositiondocker/compositionmodel.cpp:52
 msgid "Composition"
 msgstr "रचना"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:82
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBirdEye)
+#: plugins/extensions/dockers/defaultdockers/kis_birdeye_box.cc:43
+#: plugins/extensions/dockers/defaultdockers/wdgbirdeye.ui:24
+#, fuzzy
+#| msgid "Preview"
+msgid "Overview"
+msgstr "पूर्वावलोकन"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: plugins/extensions/dockers/defaultdockers/kis_birdeye_box.cc:56
+#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:55
+msgid "Exposure:"
+msgstr "एक्सपोजरः"
+
+#: plugins/extensions/dockers/defaultdockers/kis_birdeye_box.cc:61
+#, fuzzy
+#| msgid "Select the exposure (stops) for HDR images."
+msgid "Select the exposure (stops) for HDR images"
+msgstr "एचडीआर प्रतिमांसाठी एक्सपोजर (स्टॉप) निवडा"
+
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:84
 msgid "Layers"
 msgstr "थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:108
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:110
 msgid "Minimal View"
 msgstr "किमान दृष्य"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:110
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:112
 msgid "Detailed View"
 msgstr "तपशीलवार दृष्य"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:112
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:114
 msgid "Thumbnail View"
 msgstr " छोटे प्रतिचित्र दृष्य"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:125
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:127
 msgid "View mode"
 msgstr "व्ह्यू मोड "
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:169
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:171
 msgid "&Paint Layer"
 msgstr "&रंगाचा थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:172
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:174
 msgid "&Group Layer"
 msgstr "&समूह थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:175
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:177
 msgid "&Clone Layer"
 msgstr "&प्रतिकृती थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:178
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:180
 msgid "&Vector Layer"
 msgstr "&व्हेक्टर थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:181
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:183
 msgid "&Filter Layer..."
 msgstr "&चाळणी थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:184
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:186
 msgid "&Generated Layer..."
 msgstr "&साधारण थर"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:187
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:189
 msgid "&Transparency Mask"
 msgstr "&पारदर्शिका मुखवटा"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:190
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:192
 msgid "&Filter Mask..."
 msgstr "&चाळणी मुखवटा..."
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:193
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:195
 msgid "&Local Selection"
 msgstr "&स्थानिक निवड"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:210
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:212
 msgid "&Transformation Mask..."
 msgstr "&रूपांतर मुखवटा"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:414
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:416
 msgid "&Properties..."
 msgstr "&गुणधर्म"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:416
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:418
 msgid "&Remove Layer"
 msgstr "&थर काढून टाका"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:417
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:419
 msgid "&Duplicate Layer or Mask"
 msgstr "&बदली थर किंवा मुखवटा"
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:419
-#: ui/kis_layer_manager.cc:286
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:421
+#: ui/kis_layer_manager.cc:144
 msgid "&Merge with Layer Below"
 msgstr "&खालच्या थरात मिसळा"
 
 #: plugins/extensions/dockers/defaultdockers/kis_palette_docker.cc:39
 msgid "Palettes"
 msgstr "पॅलेटस्"
+
+#. i18n: ectx: property (text), widget (QLabel, lblX)
+#: plugins/extensions/dockers/defaultdockers/wdgbirdeye.ui:49
+msgid "X:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, txtX)
+#. i18n: ectx: property (text), widget (QLabel, txtY)
+#: plugins/extensions/dockers/defaultdockers/wdgbirdeye.ui:74
+#: plugins/extensions/dockers/defaultdockers/wdgbirdeye.ui:106
+msgid "00000"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblY)
+#: plugins/extensions/dockers/defaultdockers/wdgbirdeye.ui:81
+msgid "Y:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, bn100)
+#: plugins/extensions/dockers/defaultdockers/wdgbirdeye.ui:224
+#, fuzzy
+#| msgid "1 : 1"
+msgid "1:1"
+msgstr "1 : 1"
 
 #. i18n: ectx: property (toolTip), widget (KisCompositeOpComboBox, cmbComposite)
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:28
@@ -2526,10 +2590,7 @@ msgstr "थरासाठी ब्लेंडिंग मोड निवड
 #. i18n: ectx: property (text), widget (QToolButton, bnRight)
 #. i18n: ectx: property (text), widget (QToolButton, bnProperties)
 #. i18n: ectx: property (text), widget (QToolButton, bnDelete)
-#. i18n: ectx: property (text), widget (QToolButton, m_bnSelectConfigurationFile)
-#. i18n: ectx: property (text), widget (QToolButton, m_bnSelectLut)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
-#. i18n: ectx: property (text), widget (QToolButton, bnSelectOcioConfigPath)
 #. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
 #. i18n: ectx: property (text), widget (QToolButton, bnLandscape)
 #. i18n: ectx: property (text), widget (QToolButton, paintColor)
@@ -2544,12 +2605,10 @@ msgstr "थरासाठी ब्लेंडिंग मोड निवड
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:224
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:249
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:290
-#: plugins/extensions/dockers/lut/wdglut.ui:144
-#: plugins/extensions/dockers/lut/wdglut.ui:172
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:109
-#: ui/forms/wdgcolorsettings.ui:343 ui/forms/wdgnewimage.ui:173
-#: ui/forms/wdgnewimage.ui:195 ui/forms/wdgpaintactioneditor.ui:46
-#: ui/forms/wdgpaintactioneditor.ui:69 ui/forms/wdgpaintoppresets.ui:64
+#: ui/forms/wdgnewimage.ui:173 ui/forms/wdgnewimage.ui:195
+#: ui/forms/wdgpaintactioneditor.ui:46 ui/forms/wdgpaintactioneditor.ui:69
+#: ui/forms/wdgpaintoppresets.ui:64
 msgid "..."
 msgstr "..."
 
@@ -2700,98 +2759,6 @@ msgstr "25%"
 msgid "Reference Images"
 msgstr "25%"
 
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:56
-msgid "LUT Management"
-msgstr "लुट व्यवस्थापन"
-
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:76
-msgid "Select custom configuration file."
-msgstr "इच्छेप्रमाणे कॉंन्फिग्युरेशन फाईल निवडा"
-
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:81
-msgid "Select LUT file"
-msgstr "लुट फाईल निवडा"
-
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:95
-msgid "Select the exposure (stops) for HDR images."
-msgstr "एचडीआर प्रतिमांसाठी एक्सपोजर (स्टॉप) निवडा"
-
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:108
-msgid ""
-"Select the amount of gamma modification for display. This does not affect "
-"the pixels of your image."
-msgstr ""
-"प्रदर्शनासाठी गॅमा बदलाचे प्रमाण निवडा. यामुळे तुमच्या प्रतिमेच्या पिक्सलवर "
-"परिणाम होत नाही"
-
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:166
-msgid "Luminance"
-msgstr "तेजस्विता"
-
-#: plugins/extensions/dockers/lut/lutdocker_dock.cpp:167
-msgid "All Channels"
-msgstr "सर्व चॅनेल्स"
-
-#. i18n: ectx: property (title), widget (QGroupBox, m_chkUseOcio)
-#: plugins/extensions/dockers/lut/wdglut.ui:20
-msgid "Use OpenColorIO"
-msgstr "OpenColorIO वापरा"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_chkUseOcioEnvironment)
-#: plugins/extensions/dockers/lut/wdglut.ui:34
-msgid "Use Environment"
-msgstr "परिसर वापरा"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/dockers/lut/wdglut.ui:55
-msgid "Display Device:"
-msgstr "प्रदर्शन यंत्र"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/dockers/lut/wdglut.ui:65
-msgid "Components:"
-msgstr "घटक"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/dockers/lut/wdglut.ui:95
-#: plugins/filters/dodgeburn/DodgeBurnConfigurationBaseWidget.ui:55
-msgid "Exposure:"
-msgstr "एक्सपोजरः"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/extensions/dockers/lut/wdglut.ui:105
-msgid "Input ColorSpace:"
-msgstr "कलरस्पेस भरा"
-
-#. i18n: ectx: property (text), widget (QLabel, lblConfig)
-#: plugins/extensions/dockers/lut/wdglut.ui:125
-msgid "Configuration:"
-msgstr "रचना"
-
-#. i18n: ectx: property (text), widget (QLabel, m_lblLut)
-#: plugins/extensions/dockers/lut/wdglut.ui:153
-msgid "LUT file:"
-msgstr "लुट फाईल"
-
-#. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
-#: plugins/extensions/dockers/lut/wdglut.ui:179
-#: ui/tool/kis_tool.cc:523
-msgid "Clear"
-msgstr "पुसून टाका"
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/extensions/dockers/lut/wdglut.ui:208
-msgid "Gamma:"
-msgstr "गॅमाः"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: plugins/extensions/dockers/lut/wdglut.ui:218
-#: plugins/extensions/histogram/wdghistogram.ui:122
-msgid "View:"
-msgstr "पहाः"
-
 #: plugins/extensions/dockers/patterndocker/patterndocker_dock.cpp:37
 #: ui/kis_control_frame.cpp:151
 msgid "Patterns"
@@ -2822,36 +2789,36 @@ msgstr "रंगजागा निर्वाचक दाखवा"
 msgid "Specific Color Selector"
 msgstr "विशिष्ट रंग निर्वाचक"
 
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:83
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:81
 msgid "Task Sets"
 msgstr "टास्क सेटस् "
 
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:181
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:179
 msgid "Taskset Name"
 msgstr "टास्क सेटचे नाव"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:182
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:180
 #: ui/forms/wdgfilternodecreation.ui:16 ui/forms/wdgpaintopsettings.ui:160
 msgid "Name:"
 msgstr "नावः"
 
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:203
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:201
 msgid "Taskset"
 msgstr "टास्क सेट"
 
-#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:214
+#: plugins/extensions/dockers/tasksetdocker/tasksetdocker_dock.cpp:212
 #, kde-format
 msgid "Taskset %1"
 msgstr "टास्क सेट%1"
 
-#: plugins/extensions/dockers/tasksetdocker/tasksetmodel.cpp:56
+#: plugins/extensions/dockers/tasksetdocker/tasksetmodel.cpp:55
 msgid "Task"
 msgstr "टास्क"
 
 #: plugins/extensions/dropshadow/dlg_dropshadow.cc:42
-#: plugins/extensions/dropshadow/kis_dropshadow.cc:125
-#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:79
+#: plugins/extensions/dropshadow/kis_dropshadow.cc:126
+#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:80
 msgid "Drop Shadow"
 msgstr "ड्रॉप शॅडो"
 
@@ -2860,11 +2827,11 @@ msgstr "ड्रॉप शॅडो"
 msgid "Layer Effects"
 msgstr "थराचे परिणाम"
 
-#: plugins/extensions/dropshadow/kis_dropshadow.cc:120
+#: plugins/extensions/dropshadow/kis_dropshadow.cc:121
 msgid "Add Drop Shadow"
 msgstr "ड्रॉप शॅडो आणा"
 
-#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:56
+#: plugins/extensions/dropshadow/kis_dropshadow_plugin.cc:57
 msgid "Add Drop Shadow..."
 msgstr "ड्रॉप शॅडो आणा..."
 
@@ -2900,7 +2867,7 @@ msgstr "रंगः"
 #: plugins/filters/noisefilter/wdgnoiseoptions.ui:22
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:48
 #: ui/forms/wdgautogradient.ui:238 ui/forms/wdgpaintactioneditor.ui:89
-#: ui/kis_paintop_box.cc:137
+#: ui/kis_paintop_box.cc:136
 msgid "Opacity:"
 msgstr "दृष्यमानता"
 
@@ -2934,7 +2901,7 @@ msgstr "आवश्यक असल्यास ड्रॉप शॅडो �
 msgid "Histogram"
 msgstr "हिस्टोग्रॅम"
 
-#: plugins/extensions/histogram/histogram.cc:63
+#: plugins/extensions/histogram/histogram.cc:64
 msgid "&Histogram..."
 msgstr "&हिस्टोग्रॅम"
 
@@ -2958,6 +2925,11 @@ msgstr "&लॉगरिथ्मिक"
 msgid "&Channel:"
 msgstr "& चॅनेल"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: plugins/extensions/histogram/wdghistogram.ui:122
+msgid "View:"
+msgstr "पहाः"
+
 #. i18n: ectx: property (text), widget (QPushButton, zoomIn)
 #. i18n: ectx: property (text), widget (QPushButton, pb_more_contrast)
 #. i18n: ectx: property (text), widget (QPushButton, pb_more_brightness)
@@ -2977,16 +2949,16 @@ msgid "-"
 msgstr "-"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgCanvasSize)
-#: plugins/extensions/imagesize/dlg_canvassize.cc:33
+#: plugins/extensions/imagesize/dlg_canvassize.cc:31
 #: plugins/extensions/imagesize/wdg_canvassize.ui:14
 msgid "Canvas Size"
 msgstr "कॅनव्हासचा आकार"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, comboWidthUnit)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboHeightUnit)
-#: plugins/extensions/imagesize/dlg_canvassize.cc:121
-#: plugins/extensions/imagesize/dlg_canvassize.cc:144
-#: plugins/extensions/imagesize/dlg_canvassize.cc:252
+#: plugins/extensions/imagesize/dlg_canvassize.cc:119
+#: plugins/extensions/imagesize/dlg_canvassize.cc:142
+#: plugins/extensions/imagesize/dlg_canvassize.cc:250
 #: plugins/extensions/imagesize/wdg_canvassize.ui:93
 #: plugins/extensions/imagesize/wdg_canvassize.ui:107
 msgid "Percent"
@@ -2996,7 +2968,7 @@ msgstr "प्रतिशत"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboHeightUnit)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbWidthPixelUnit)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbHeightPixelUnit)
-#: plugins/extensions/imagesize/dlg_canvassize.cc:249
+#: plugins/extensions/imagesize/dlg_canvassize.cc:247
 #: plugins/extensions/imagesize/wdg_canvassize.ui:88
 #: plugins/extensions/imagesize/wdg_canvassize.ui:102
 #: plugins/extensions/imagesize/wdg_imagescale.ui:121
@@ -3010,28 +2982,28 @@ msgstr "पिक्सेल्स"
 msgid "Scale To New Size"
 msgstr "नव्या आकारप्रमाणे वाढवा"
 
-#: plugins/extensions/imagesize/imagesize.cc:74
+#: plugins/extensions/imagesize/imagesize.cc:75
 msgid "Scale To New Size..."
 msgstr "नव्या आकारप्रमाणे वाढवा..."
 
-#: plugins/extensions/imagesize/imagesize.cc:78
+#: plugins/extensions/imagesize/imagesize.cc:79
 msgid "Size Canvas..."
 msgstr "कॅनव्हासचा आकार..."
 
-#: plugins/extensions/imagesize/imagesize.cc:82
+#: plugins/extensions/imagesize/imagesize.cc:83
 msgid "Scale &Layer..."
 msgstr "प्रमाण व &थर..."
 
-#: plugins/extensions/imagesize/imagesize.cc:88
+#: plugins/extensions/imagesize/imagesize.cc:89
 msgid "&Scale..."
 msgstr "&प्रमाण..."
 
-#: plugins/extensions/imagesize/imagesize.cc:157
+#: plugins/extensions/imagesize/imagesize.cc:158
 msgid "Layer Size"
 msgstr "थराचा आकार"
 
-#: plugins/extensions/imagesize/imagesize.cc:196
-#: plugins/extensions/imagesize/imagesize.cc:210
+#: plugins/extensions/imagesize/imagesize.cc:197
+#: plugins/extensions/imagesize/imagesize.cc:211
 msgid "Scale Selection"
 msgstr "प्रमाणाची निवड"
 
@@ -3097,10 +3069,10 @@ msgstr "पिक्सलमधील आकार"
 #. i18n: ectx: property (text), widget (QLabel, widthInfoLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblWidth)
 #: plugins/extensions/imagesize/wdg_imagescale.ui:48
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:226
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:232
 #: plugins/paintops/experiment/wdgshapeoptions.ui:92
-#: plugins/paintops/spray/wdgshapeoptions.ui:92
-#: ui/forms/wdg_resolution.ui:25 ui/forms/wdgimageproperties.ui:28
+#: plugins/paintops/spray/wdgshapeoptions.ui:92 ui/forms/wdg_resolution.ui:25
+#: ui/forms/wdgimageproperties.ui:28
 msgid "Width:"
 msgstr "रुंदीः"
 
@@ -3109,10 +3081,10 @@ msgstr "रुंदीः"
 #. i18n: ectx: property (text), widget (QLabel, heightInfoLbl)
 #. i18n: ectx: property (text), widget (QLabel, lblHeight)
 #: plugins/extensions/imagesize/wdg_imagescale.ui:91
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:240
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:246
 #: plugins/paintops/experiment/wdgshapeoptions.ui:159
-#: plugins/paintops/spray/wdgshapeoptions.ui:162
-#: ui/forms/wdg_resolution.ui:32 ui/forms/wdgimageproperties.ui:38
+#: plugins/paintops/spray/wdgshapeoptions.ui:162 ui/forms/wdg_resolution.ui:32
+#: ui/forms/wdgimageproperties.ui:38
 msgid "Height:"
 msgstr "उंचीः"
 
@@ -3162,12 +3134,11 @@ msgstr "घनता"
 
 #. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
 #. i18n: ectx: property (text), widget (QLabel, lblResolution)
+#. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
 #: plugins/extensions/imagesize/wdg_imagescale.ui:369
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:81
-#: ui/forms/wdg_resolution.ui:87 ui/forms/wdgimageproperties.ui:51
-#: ui/forms/wdgnewimage.ui:211
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:81 ui/forms/wdg_resolution.ui:87
+#: ui/forms/wdgimageproperties.ui:51 ui/forms/wdgnewimage.ui:211
 msgid "Resolution:"
 msgstr "घनताः"
 
@@ -3199,16 +3170,14 @@ msgstr "&पिक्सेल परिमाणे"
 
 #. i18n: ectx: property (text), widget (QLabel, lblWidth)
 #: plugins/extensions/imagesize/wdg_imagesize.ui:135
-#: plugins/extensions/imagesize/wdg_layersize.ui:31
-#: ui/forms/wdgnewimage.ui:81
+#: plugins/extensions/imagesize/wdg_layersize.ui:31 ui/forms/wdgnewimage.ui:81
 msgid "&Width:"
 msgstr "&रुंदीः"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: ectx: property (text), widget (QLabel, lblHeight)
 #: plugins/extensions/imagesize/wdg_imagesize.ui:152
-#: plugins/extensions/imagesize/wdg_layersize.ui:48
-#: ui/forms/wdgnewimage.ui:94
+#: plugins/extensions/imagesize/wdg_layersize.ui:48 ui/forms/wdgnewimage.ui:94
 msgid "&Height:"
 msgstr "&उंचीः"
 
@@ -3259,8 +3228,8 @@ msgstr ""
 "scaling, use when scaling at exact divisions.</p><p><span style=\" font-"
 "weight:600;\">Bilinear:</span> use when upscaling or downscaling, with a "
 "scale from half to 2 times the original size </p><p><span style=\" font-"
-"weight:600;\">Bicubic:</span>कधीकधी बायलिनियरपेक्षा जास्त चांगले, पण काहीसे "
-"अंधुक.</p></body></html>"
+"weight:600;\">Bicubic:</span>कधीकधी बायलिनियरपेक्षा जास्त चांगले, पण काहीसे अंधुक.</"
+"p></body></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFilterType)
 #: plugins/extensions/imagesize/wdg_layersize.ui:166
@@ -3271,36 +3240,36 @@ msgstr "&चाळणीः"
 msgid "Image Split"
 msgstr "प्रतिमा दुभंग"
 
-#: plugins/extensions/imagesplit/imagesplit.cpp:58
+#: plugins/extensions/imagesplit/imagesplit.cpp:59
 msgid "Image Split "
 msgstr "प्रतिमा दुभंग "
 
-#: plugins/extensions/imagesplit/imagesplit.cpp:146
+#: plugins/extensions/imagesplit/imagesplit.cpp:144
 msgid "Save Image on Split"
 msgstr "दुभंगावर प्रतिमा साठवा"
 
 #. i18n: ectx: property (text), widget (QLabel, lblHorizontalSplitLines)
-#: plugins/extensions/imagesplit/wdg_imagesplit.ui:24
+#: plugins/extensions/imagesplit/wdg_imagesplit.ui:31
 msgid "Horizontal Lines"
 msgstr "आडव्या रेषा"
 
 #. i18n: ectx: property (text), widget (QLabel, lblVerticalSplitLines)
-#: plugins/extensions/imagesplit/wdg_imagesplit.ui:34
+#: plugins/extensions/imagesplit/wdg_imagesplit.ui:41
 msgid "Vertical Lines"
 msgstr "उभ्या रेषा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkAutoSave)
-#: plugins/extensions/imagesplit/wdg_imagesplit.ui:51
+#: plugins/extensions/imagesplit/wdg_imagesplit.ui:58
 msgid "Autosave on Split"
 msgstr "दुभंगावर आपोआप साठवा"
 
 #. i18n: ectx: property (text), widget (QLabel, lblSuffix)
-#: plugins/extensions/imagesplit/wdg_imagesplit.ui:60
+#: plugins/extensions/imagesplit/wdg_imagesplit.ui:67
 msgid "Suffix"
 msgstr "जोड"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFileType)
-#: plugins/extensions/imagesplit/wdg_imagesplit.ui:77
+#: plugins/extensions/imagesplit/wdg_imagesplit.ui:84
 msgid "File Type"
 msgstr "फायलीचा प्रकार"
 
@@ -3522,8 +3491,7 @@ msgstr "बहु ठिपके"
 #: plugins/extensions/metadataeditor/editors/exif.ui:386
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:61
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:118
-#: plugins/tools/tool_text/wdgtextoptions.ui:39
-#: ui/forms/wdgshapeoptions.ui:66
+#: plugins/tools/tool_text/wdgtextoptions.ui:39 ui/forms/wdgshapeoptions.ui:66
 msgid "Pattern"
 msgstr "पॅटर्न"
 
@@ -3780,13 +3748,6 @@ msgstr "रेखीवता"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: plugins/extensions/metadataeditor/editors/exif.ui:788
-#: plugins/extensions/metadataeditor/editors/exif.ui:817
-msgid "Normal"
-msgstr "सामान्य"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
-#. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
 #: plugins/extensions/metadataeditor/editors/exif.ui:793
 #: plugins/extensions/metadataeditor/editors/exif.ui:822
 #: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:25
@@ -3905,7 +3866,7 @@ msgstr "त्रिरेषीय  सेन्सॉर"
 msgid "Color sequential linear sensor"
 msgstr "कलर सिक्वेंशियल लिनियर सेन्सॉर"
 
-#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:143
+#: plugins/extensions/metadataeditor/kis_meta_data_editor.cc:141
 msgid "List"
 msgstr "यादी"
 
@@ -3918,7 +3879,7 @@ msgid "Date"
 msgstr "तारीख"
 
 #: plugins/extensions/metadataeditor/kis_meta_data_model.cpp:68
-#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:396
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:397
 msgid "Number"
 msgstr "संख्या"
 
@@ -3972,19 +3933,43 @@ msgstr "किंमत"
 msgid "&Edit metadata..."
 msgstr "&मेटाडेटा संपादन"
 
-#: plugins/extensions/modify_selection/modify_selection.cc:69
+#: plugins/extensions/modify_selection/dlg_border_selection.cc:31
+#: plugins/extensions/modify_selection/modify_selection.cc:174
+#: ui/kis_selection_manager_p.h:237
+msgid "Border Selection"
+msgstr "सीमा निवड"
+
+#: plugins/extensions/modify_selection/dlg_feather_selection.cc:32
+#: plugins/extensions/modify_selection/modify_selection.cc:197
+#: ui/kis_selection_manager_p.h:458
+msgid "Feather Selection"
+msgstr "फेदर निवड"
+
+#: plugins/extensions/modify_selection/dlg_grow_selection.cc:30
+#: plugins/extensions/modify_selection/modify_selection.cc:126
+#: ui/kis_selection_manager_p.h:507
+msgid "Grow Selection"
+msgstr "निवड वाढवा"
+
+#: plugins/extensions/modify_selection/dlg_shrink_selection.cc:30
+#: plugins/extensions/modify_selection/modify_selection.cc:149
+#: ui/kis_selection_manager_p.h:636
+msgid "Shrink Selection"
+msgstr "निवड कमी घटवा"
+
+#: plugins/extensions/modify_selection/modify_selection.cc:70
 msgid "Grow Selection..."
 msgstr "निवड वाढवा..."
 
-#: plugins/extensions/modify_selection/modify_selection.cc:72
+#: plugins/extensions/modify_selection/modify_selection.cc:73
 msgid "Shrink Selection..."
 msgstr "निवड घटवा..."
 
-#: plugins/extensions/modify_selection/modify_selection.cc:75
+#: plugins/extensions/modify_selection/modify_selection.cc:76
 msgid "Border Selection..."
 msgstr "कडेची निवड"
 
-#: plugins/extensions/modify_selection/modify_selection.cc:78
+#: plugins/extensions/modify_selection/modify_selection.cc:79
 msgid "Feather Selection..."
 msgstr "फेदरची निवड..."
 
@@ -4023,45 +4008,45 @@ msgstr "प्रतिमेच्या कडेपासून घटवा"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgRotateImage)
 #: plugins/extensions/rotateimage/dlg_rotateimage.cc:31
-#: plugins/extensions/rotateimage/rotateimage.cc:114
+#: plugins/extensions/rotateimage/rotateimage.cc:115
 #: plugins/extensions/rotateimage/wdg_rotateimage.ui:16
 msgid "Rotate Image"
 msgstr "प्रतिमा गोल फिरवा"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:64
+#: plugins/extensions/rotateimage/rotateimage.cc:65
 msgid "&Rotate Image..."
 msgstr "&प्रतिमा गोल फिरवा..."
 
-#: plugins/extensions/rotateimage/rotateimage.cc:68
+#: plugins/extensions/rotateimage/rotateimage.cc:69
 msgctxt "rotate image 90 degrees to the right"
 msgid "Rotate Image 90° to the Right"
 msgstr "प्रतिमा ९० अंशातून उजवीकडे फिरवा"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:72
+#: plugins/extensions/rotateimage/rotateimage.cc:73
 msgctxt "rotate image 180 degrees to the right"
 msgid "Rotate Image 180°"
 msgstr "प्रतिमा १८० अंशातून फिरवा"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:76
+#: plugins/extensions/rotateimage/rotateimage.cc:77
 msgctxt "rotate image 90 degrees to the left"
 msgid "Rotate Image 90° to the Left"
 msgstr "प्रतिमा ९० अंशातून डावीकडे फिरवा"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:80
+#: plugins/extensions/rotateimage/rotateimage.cc:81
 msgid "&Rotate Layer..."
 msgstr "&थर फिरवा..."
 
-#: plugins/extensions/rotateimage/rotateimage.cc:84
+#: plugins/extensions/rotateimage/rotateimage.cc:85
 msgctxt "rotate the layer 180 degrees"
 msgid "Rotate Layer 180°"
 msgstr "थर १८० अंशातून फिरवा"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:88
+#: plugins/extensions/rotateimage/rotateimage.cc:89
 msgctxt "rotate the layer 90 degrees to the right"
 msgid "Rotate Layer 90° to the Right"
 msgstr "थर ९० अंशातून उजवीकडे फिरवा"
 
-#: plugins/extensions/rotateimage/rotateimage.cc:92
+#: plugins/extensions/rotateimage/rotateimage.cc:93
 msgctxt "rotate the layer 90 degrees to the left"
 msgid "Rotate Layer 90° to the Left"
 msgstr "थर ९० अंशातून डावीकडे फिरवा"
@@ -4120,18 +4105,18 @@ msgid "&Custom:"
 msgstr "&इच्छेप्रमाणे"
 
 #: plugins/extensions/separate_channels/dlg_separate.cc:40
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:205
-#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:83
-#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:94
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:206
+#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:84
+#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:95
 msgid "Separate Image"
 msgstr "वेगळी प्रतिमा"
 
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:236
-#: ui/kis_layer_manager.cc:875
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:237
+#: ui/kis_layer_manager.cc:745
 msgid "Export Layer"
 msgstr "निर्यात थर"
 
-#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:58
+#: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:59
 msgid "Separate Image..."
 msgstr "वेगळी प्रतिमा..."
 
@@ -4179,9 +4164,7 @@ msgstr "अल्फा पर्याय"
 #. i18n: ectx: property (text), widget (QRadioButton, radioCopyAlpha)
 #: plugins/extensions/separate_channels/wdg_separations.ui:101
 msgid "Copy alpha channel to each separated channel as an alpha channel"
-msgstr ""
-"अल्फा चॅनेल विलगीकरण केलेल्या प्रत्येक चॅनेल मध्ये अल्फा चॅनेलप्रमाणे "
-"प्रतिभूत करा"
+msgstr "अल्फा चॅनेल विलगीकरण केलेल्या प्रत्येक चॅनेल मध्ये अल्फा चॅनेलप्रमाणे प्रतिभूत करा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioDiscardAlpha)
 #: plugins/extensions/separate_channels/wdg_separations.ui:108
@@ -4203,15 +4186,15 @@ msgstr "विलगीकरणापूर्वी प्रमाण ८ ब
 msgid "Output to color, not grayscale"
 msgstr "रंगाकडे पाठवा, राखाडी कडे नव्हे"
 
-#: plugins/extensions/shearimage/shearimage.cc:61
+#: plugins/extensions/shearimage/shearimage.cc:62
 msgid "&Shear Image..."
 msgstr "&प्रतिमा समतलात विभागा... "
 
-#: plugins/extensions/shearimage/shearimage.cc:65
+#: plugins/extensions/shearimage/shearimage.cc:66
 msgid "&Shear Layer..."
 msgstr "&थर समतलात विभागा"
 
-#: plugins/extensions/shearimage/shearimage.cc:106
+#: plugins/extensions/shearimage/shearimage.cc:107
 msgid "Shear Layer"
 msgstr "थर विभागा"
 
@@ -4314,11 +4297,12 @@ msgstr "नेत्रिका"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #. i18n: ectx: property (text), widget (QLabel, widthInfoLbl_2)
 #: plugins/filters/blur/wdg_lens_blur.ui:29
-#: plugins/filters/blur/wdgblur.ui:111 plugins/filters/wavefilter/wdgwaveoptions.ui:119
+#: plugins/filters/blur/wdgblur.ui:111
+#: plugins/filters/wavefilter/wdgwaveoptions.ui:119
 #: plugins/filters/wavefilter/wdgwaveoptions.ui:197
 #: plugins/paintops/experiment/wdgshapeoptions.ui:37
 #: plugins/paintops/spray/wdgshapeoptions.ui:37
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:341
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:337
 msgid "Shape:"
 msgstr "आकार"
 
@@ -4360,7 +4344,7 @@ msgstr "अष्टकोन (8)"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/filters/blur/wdg_lens_blur.ui:73
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:130
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:249
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
 #: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:31
 msgid "Radius"
 msgstr "त्रिज्या"
@@ -4392,14 +4376,16 @@ msgid "Vertical Radius:"
 msgstr "उभी त्रिज्याः"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/filters/blur/wdgblur.ui:65 plugins/paintops/libpaintop/kis_texture_option.cpp:84
+#: plugins/filters/blur/wdgblur.ui:65
+#: plugins/paintops/libpaintop/kis_texture_option.cpp:84
 msgid "Strength:"
 msgstr "बलः"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/filters/blur/wdgblur.ui:91 plugins/paintops/hatching/wdghatchingoptions.ui:85
+#: plugins/filters/blur/wdgblur.ui:91
+#: plugins/paintops/hatching/wdghatchingoptions.ui:85
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:207
 msgid "Angle:"
 msgstr "कोनः"
@@ -4407,7 +4393,8 @@ msgstr "कोनः"
 #. i18n: ectx: property (text), item, widget (KComboBox, cbShape)
 #. i18n: ectx: property (text), widget (QRadioButton, circleRBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBoxShape)
-#: plugins/filters/blur/wdgblur.ui:125 plugins/paintops/dynadraw/wdgdynaoptions.ui:165
+#: plugins/filters/blur/wdgblur.ui:125
+#: plugins/paintops/dynadraw/wdgdynaoptions.ui:165
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:54
 msgid "Circle"
 msgstr "वर्तुळ"
@@ -4443,11 +4430,11 @@ msgstr "चॅनेल कमी करा"
 msgid "Threshold:"
 msgstr "प्रवेश"
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:87
+#: plugins/filters/colorsfilters/colorsfilters.cpp:88
 msgid "&Auto Contrast"
 msgstr "&स्वयंचलित विरोधाभास"
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:191
+#: plugins/filters/colorsfilters/colorsfilters.cpp:192
 msgid "&Desaturate"
 msgstr "&घनता कमी करा"
 
@@ -4610,11 +4597,11 @@ msgstr "डॉज"
 msgid "Burn"
 msgstr "बर्न"
 
-#: plugins/filters/embossfilter/kis_emboss_filter.cpp:58
+#: plugins/filters/embossfilter/kis_emboss_filter.cpp:59
 msgid "&Emboss with Variable Depth..."
 msgstr "&उभ्या खोलीप्रमाणे ठसवा..."
 
-#: plugins/filters/embossfilter/kis_emboss_filter.cpp:163
+#: plugins/filters/embossfilter/kis_emboss_filter.cpp:164
 msgid "Depth"
 msgstr "खोली"
 
@@ -4701,7 +4688,7 @@ msgstr "<b>प्रतिग्रहण पातळ्या</b>"
 msgid "Logarithmic"
 msgstr "लॉगरिदमिक"
 
-#: plugins/filters/noisefilter/noisefilter.cpp:67
+#: plugins/filters/noisefilter/noisefilter.cpp:68
 msgid "&Random Noise..."
 msgstr "& रॅंडम नॉइज..."
 
@@ -4715,11 +4702,11 @@ msgstr "नॉइज"
 msgid "Level:"
 msgstr "पाचळीः"
 
-#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:58
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:59
 msgid "&Oilpaint..."
 msgstr "&तैलरंग..."
 
-#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:212
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:213
 #: plugins/paintops/chalk/kis_chalkop_option.cpp:32
 #: plugins/paintops/dynadraw/kis_dynaop_option.cpp:42
 #: plugins/paintops/gridbrush/kis_gridop_option.cpp:34
@@ -4729,7 +4716,7 @@ msgstr "&तैलरंग..."
 msgid "Brush size"
 msgstr "कुंचल्याचा आकार"
 
-#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:213
+#: plugins/filters/oilpaintfilter/kis_oilpaint_filter.cpp:214
 msgctxt "smooth out the painting strokes the filter creates"
 msgid "Smooth"
 msgstr "मृदू"
@@ -4766,8 +4753,7 @@ msgstr "सार्वत्रिक प्रतिबिंबता"
 msgid ""
 "Uncheck to ignore diffuse reflectivity from computations and increase "
 "performance."
-msgstr ""
-"संगणिकरणातून डिफ्यूज प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
+msgstr "संगणिकरणातून डिफ्यूज प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, diffuseReflectivityCheckBox)
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:85
@@ -4779,8 +4765,7 @@ msgstr "डिफ्यूज प्रतिबिंबता"
 msgid ""
 "Uncheck to ignore specular reflectivity during computations and increase "
 "performance."
-msgstr ""
-"संगणिकरणातून स्पेक्युलर प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
+msgstr "संगणिकरणातून स्पेक्युलर प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, specularReflectivityCheckBox)
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:101
@@ -4837,7 +4822,7 @@ msgstr "अझिमुथ"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:971
 #: plugins/generators/solid/colorgenerator.h:53
 #: plugins/paintops/libpaintop/kis_paintop_option.cpp:31
-#: ui/dialogs/kis_dlg_preferences.cc:633 ui/forms/wdgnewimage.ui:312
+#: ui/dialogs/kis_dlg_preferences.cc:590 ui/forms/wdgnewimage.ui:312
 msgid "Color"
 msgstr "रंग"
 
@@ -4908,15 +4893,15 @@ msgstr "प्रकाशाचा स्रोत 3"
 msgid "Light Source 4"
 msgstr "प्रकाशाचा स्रोत 4 "
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:59
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:60
 msgid "&Pixelize..."
 msgstr "& पिक्सलाईझ..."
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:136
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:137
 msgid "Pixel width"
 msgstr "पिक्सल जाडी"
 
-#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:137
+#: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:138
 msgid "Pixel height"
 msgstr "पिक्सल उंची"
 
@@ -4924,15 +4909,15 @@ msgstr "पिक्सल उंची"
 msgid "Pixelize"
 msgstr "पिक्सलाईझ"
 
-#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:59
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:60
 msgid "&Raindrops..."
 msgstr "&पावसाचे थेंब..."
 
-#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:395
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:396
 msgid "Drop size"
 msgstr "थेंबाचा आकार"
 
-#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:397
+#: plugins/filters/raindropsfilter/kis_raindrops_filter.cpp:398
 msgid "Fish eyes"
 msgstr "मत्स्यनेत्र"
 
@@ -4940,7 +4925,7 @@ msgstr "मत्स्यनेत्र"
 msgid "Raindrops"
 msgstr "पावसाचे थेंब"
 
-#: plugins/filters/randompickfilter/randompickfilter.cpp:69
+#: plugins/filters/randompickfilter/randompickfilter.cpp:70
 msgid "&Random Pick..."
 msgstr "&रॅंडम पिक..."
 
@@ -4961,11 +4946,11 @@ msgstr "&गोल कोपरे..."
 msgid "Round Corners"
 msgstr "गोल कोपरे"
 
-#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:56
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:57
 msgid "&Small Tiles..."
 msgstr "&लहान फरशा..."
 
-#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:101
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:102
 msgid "Number of tiles"
 msgstr "फरशांची संख्या"
 
@@ -4973,23 +4958,23 @@ msgstr "फरशांची संख्या"
 msgid "Small Tiles"
 msgstr "लहान फरशा"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:77
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:78
 msgid "&Sobel..."
 msgstr "&सोबेल"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:202
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:203
 msgid "Sobel horizontally"
 msgstr "सोबेल आडवे"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:203
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:204
 msgid "Sobel vertically"
 msgstr " उभे सोबेल"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:204
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:205
 msgid "Keep sign of result"
 msgstr "परिणामाची खूण राखून ठेवा"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:205
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:206
 msgid "Make image opaque"
 msgstr "प्रतिमा गडद बनवा"
 
@@ -5015,7 +5000,7 @@ msgstr "निम्मा-आकारः"
 msgid "Amount:"
 msgstr "संख्याः"
 
-#: plugins/filters/wavefilter/wavefilter.cpp:103
+#: plugins/filters/wavefilter/wavefilter.cpp:104
 msgid "&Wave..."
 msgstr "&तरंग"
 
@@ -5076,8 +5061,8 @@ msgid ""
 "This option will merge all layers. It is advisable to check this option, "
 "otherwise other applications might not be able to read your file correctly."
 msgstr ""
-"या पर्यायामुळे सर्व थर विलीन होतील. हा पर्याय निवडण्याची शिफारस करण्यात येत "
-"आहे. नाहीतर इतर प्रणालींमध्ये तुमची फाईल नीट वाचली जाऊ शकणार नाही"
+"या पर्यायामुळे सर्व थर विलीन होतील. हा पर्याय निवडण्याची शिफारस करण्यात येत आहे. "
+"नाहीतर इतर प्रणालींमध्ये तुमची फाईल नीट वाचली जाऊ शकणार नाही"
 
 #. i18n: ectx: property (text), widget (QCheckBox, flatten)
 #: plugins/formats/exr/exr_export_widget.ui:26
@@ -5085,8 +5070,8 @@ msgstr ""
 msgid "Flatten the &image"
 msgstr "&प्रतिमा सपाट करा "
 
-#: plugins/formats/jp2/jp2_converter.cc:345
-#: plugins/formats/jp2/jp2_converter.cc:356
+#: plugins/formats/jp2/jp2_converter.cc:343
+#: plugins/formats/jp2/jp2_converter.cc:354
 #: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:66
 #: ui/kis_png_converter.cpp:83
 #, kde-format
@@ -5156,7 +5141,9 @@ msgstr "फेऱ्यांची संख्याः"
 msgid ""
 "Cannot export images in %1.\n"
 "Will save as RGB."
-msgstr "%1.\n मध्ये प्रतिमा निर्यात करता येत नाही. RGB म्हणून साठविले जाईल."
+msgstr ""
+"%1.\n"
+" मध्ये प्रतिमा निर्यात करता येत नाही. RGB म्हणून साठविले जाईल."
 
 #: plugins/formats/jpeg/kis_jpeg_export.cc:75
 msgid "JPEG Export Options"
@@ -5198,8 +5185,8 @@ msgid ""
 "<html><head/><body><p>Background color to replace transparent pixels with.</"
 "p></body></html>"
 msgstr ""
-"<html><head/><body><p> पार्श्वभूमीचा रंग पारदर्शी पिक्सेलना बदलेल द्वारा.</"
-"p></body></html>"
+"<html><head/><body><p> पार्श्वभूमीचा रंग पारदर्शी पिक्सेलना बदलेल द्वारा.</p></body></"
+"html>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:228
@@ -5283,16 +5270,6 @@ msgstr "चाळण्याः"
 msgid "Vector Layer"
 msgstr "व्हेक्टर थर"
 
-#: plugins/formats/ora/ora_export.cc:97
-msgid ""
-"This image contains vector, clone or generated layers..\n"
-"These layers will be saved as raster layers."
-msgstr "हे थर रास्टर थर म्हणून साठवले जातील"
-
-#: plugins/formats/ora/ora_export.cc:98
-msgid "Warning"
-msgstr "इशारा"
-
 #: plugins/formats/pdf/kis_pdf_import.cpp:103
 #: plugins/formats/pdf/kis_pdf_import.cpp:104
 msgid "A password is required to read that pdf"
@@ -5337,19 +5314,19 @@ msgstr "& पानाची निवड"
 msgid "Dimensions"
 msgstr "परिमाणे"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:120
-msgctxt "horizontal resolution"
-msgid "Horizontal:"
-msgstr "आडवेः"
-
 #. i18n: ectx: property (text), widget (QLabel, intVerticalqsdf)
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:127
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:120
 msgctxt "vertical resolution"
 msgid "Vertical:"
 msgstr "उभेः"
 
-#: plugins/formats/png/kis_png_export.cc:88
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:156
+msgctxt "horizontal resolution"
+msgid "Horizontal:"
+msgstr "आडवेः"
+
+#: plugins/formats/png/kis_png_export.cc:87
 msgid "PNG Export Options"
 msgstr "PNG निर्यात पर्याय"
 
@@ -5405,8 +5382,7 @@ msgid ""
 "p>"
 msgstr ""
 "<p>दाबण्याचा कालावधी जुळवा. चांगल्या दाबासाठी जास्त वेळ लागतो.\n"
-"<br> टीपः टीपः दाबण्याची पातळी परिणामांची गुणवत्ता बदलत नाही</"
-"p>"
+"<br> टीपः टीपः दाबण्याची पातळी परिणामांची गुणवत्ता बदलत नाही</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
@@ -5455,8 +5431,7 @@ msgid ""
 "even while downloading.</p>"
 msgstr ""
 "<p>इंटरप्लेसिंग हे इंटरनेटवर प्रकाशित करतानाउपयुक्त ठरते<br>\n"
-"इंटरप्लेसिंग सक्रीय केल्यास प्रतिमा ब्राउजरवर दिसेल व डाउनलोड करतानाही "
-"दिसेल.</p>"
+"इंटरप्लेसिंग सक्रीय केल्यास प्रतिमा ब्राउजरवर दिसेल व डाउनलोड करतानाही दिसेल.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, interlacing)
 #: plugins/formats/png/kis_wdg_options_png.ui:130
@@ -5467,8 +5442,7 @@ msgstr "इंटरप्लेसिंग"
 #: plugins/formats/png/kis_wdg_options_png.ui:137
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:142
 msgid "Disable to get smaller files if your image has no transparency"
-msgstr ""
-"तुमच्या प्रतिमेला पारदर्शिका नसेल तर छोटेया फायली मिळविण्यासाठी निष्क्रीय करा."
+msgstr "तुमच्या प्रतिमेला पारदर्शिका नसेल तर छोटेया फायली मिळविण्यासाठी निष्क्रीय करा."
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, alpha)
 #: plugins/formats/png/kis_wdg_options_png.ui:141
@@ -5480,11 +5454,11 @@ msgid ""
 "make the resulting file smaller .<br>Always saving the alpha channel is "
 "recommended.</p>"
 msgstr ""
-"पोर्टेबल नेटवर्क ग्राफिक्स (PNG) फायलीचे फॉर्मॅट तुमच्या प्रतिमेतील "
-"पारदर्शिकेला तुमची प्रतिमा अल्फा चॅनेल.\n मध्ये साठवण्यास मुभा देते"
-"तुम्ही पारदर्शिका वापरणार नसाल तर व तुम्हाला फाईल लहान आकाराची बनवायची असेल "
-"तर बॉक्स अनचेक करू शकता. <br> अल्फा चॅनेलमध्ये साठवण्याची नेहमीच शिफारस "
-"करण्यात येते.</p>"
+"पोर्टेबल नेटवर्क ग्राफिक्स (PNG) फायलीचे फॉर्मॅट तुमच्या प्रतिमेतील पारदर्शिकेला तुमची "
+"प्रतिमा अल्फा चॅनेल.\n"
+" मध्ये साठवण्यास मुभा देतेतुम्ही पारदर्शिका वापरणार नसाल तर व तुम्हाला फाईल लहान "
+"आकाराची बनवायची असेल तर बॉक्स अनचेक करू शकता. <br> अल्फा चॅनेलमध्ये साठवण्याची नेहमीच "
+"शिफारस करण्यात येते.</p>"
 
 #. i18n: ectx: property (text), widget (QCheckBox, alpha)
 #: plugins/formats/png/kis_wdg_options_png.ui:144
@@ -5497,37 +5471,13 @@ msgid ""
 "Indexed PNG images are smaller. If you enabled this option, your image will "
 "be analyzed to see whether it is possible to save as an indexed PNG."
 msgstr ""
-"अपेक्षित PNG प्रतिमा लहान आहेत . जर तुम्ही हा पर्याय निवडला तर तुमची प्रतिमा "
-"तपासली जाईल व इंडेक्सड PNG फाईल म्हणून साठवता येते का ते ठरविले जाईल "
+"अपेक्षित PNG प्रतिमा लहान आहेत . जर तुम्ही हा पर्याय निवडला तर तुमची प्रतिमा तपासली "
+"जाईल व इंडेक्सड PNG फाईल म्हणून साठवता येते का ते ठरविले जाईल "
 
 #. i18n: ectx: property (text), widget (QCheckBox, tryToSaveAsIndexed)
 #: plugins/formats/png/kis_wdg_options_png.ui:157
 msgid "Save as indexed PNG, if possible"
 msgstr "जर शक्य असेल तर  इंडेक्सड PNG म्हणून साठवा"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, chkSRGB)
-#: plugins/formats/png/kis_wdg_options_png.ui:201
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> files "
-"have <span style=\" font-style:italic;\">two</span> options to save <span "
-"style=\" font-weight:600;\">sRGB</span> information: as a tag or as an "
-"explicit profile. For use with in websites, <span style=\" font-style:italic;"
-"\">disable</span> this option. For interchange with other applications, "
-"<span style=\" font-style:italic;\">enable</span> this option.</p></body></"
-"html>"
-msgstr ""
-"<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> files "
-"have <span style=\" font-style:italic;\">two</span> options to save <span "
-"style=\" font-weight:600;\">sRGB</span> information: as a tag or as an "
-"explicit profile. For use with in websites, <span style=\" font-style:italic;"
-"\">disable</span> this option. For interchange with other applications, "
-"<span style=\" font-style:italic;\">enable</span> this option.</p></body></"
-"html>\""
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkSRGB)
-#: plugins/formats/png/kis_wdg_options_png.ui:204
-msgid "save sRGB profile"
-msgstr "sRGB profile साठवा"
 
 #: plugins/formats/ppm/kis_ppm_export.cpp:155
 msgid "PPM Export Options"
@@ -5548,11 +5498,11 @@ msgstr "बायनरी"
 msgid "Ascii"
 msgstr "आस्की"
 
-#: plugins/formats/psd/psd_loader.cpp:153
+#: plugins/formats/psd/psd_loader.cpp:152
 msgid "Duotone Colormode Block"
 msgstr "ड्युओटोन कलरमोड ब्लॉक"
 
-#: plugins/formats/psd/psd_loader.cpp:163
+#: plugins/formats/psd/psd_loader.cpp:162
 #: plugins/paintops/libpaintop/kis_pressure_mix_option.cpp:29
 msgid "Background"
 msgstr "पार्श्वभूमी"
@@ -5632,8 +5582,7 @@ msgstr "प्रेडिक्टर"
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:115
 msgid ""
 "Using a predictor can improve the compression (mostly for LZW and deflate.)"
-msgstr ""
-"प्रेडिक्टर वापरल्याने दाबण्याची क्रिया सुधारते (mostly for LZW and deflate.)"
+msgstr "प्रेडिक्टर वापरल्याने दाबण्याची क्रिया सुधारते (mostly for LZW and deflate.)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPredictor)
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:127
@@ -5724,7 +5673,7 @@ msgctxt "make a very small file, but take a long time saving"
 msgid "Small"
 msgstr "लहान"
 
-#: plugins/generators/solid/colorgenerator.cpp:63
+#: plugins/generators/solid/colorgenerator.cpp:64
 msgid "&Solid Color..."
 msgstr "&पक्का रंग..."
 
@@ -5733,7 +5682,7 @@ msgstr "&पक्का रंग..."
 msgid "&Color:"
 msgstr "&रंग"
 
-#: plugins/paintops/chalk/chalk_paintop_plugin.cpp:43
+#: plugins/paintops/chalk/chalk_paintop_plugin.cpp:44
 msgid "Chalk brush"
 msgstr "खडू कुंचला"
 
@@ -5763,21 +5712,21 @@ msgstr "दृष्यमानतेत घट"
 msgid "Saturation decrease"
 msgstr "घनतेत घट"
 
-#: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:44
+#: plugins/paintops/colorsmudge/colorsmudge_paintop_plugin.cpp:45
 msgid "Color Smudge Brush"
 msgstr "कलर स्मज ब्रश"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
 msgid "Smudge Rate"
 msgstr "स्मज दर"
 
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:49
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/libpaintop/kis_pressure_rate_option_widget.cpp:38
 msgid "Rate: "
 msgstr "दरः"
 
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
 msgid "Color Rate"
 msgstr "रंगाचा दर"
 
@@ -5792,9 +5741,9 @@ msgid ""
 "            NOTE: This mode is only able to work correctly with a fully "
 "opaque background"
 msgstr ""
-"सध्याच्या थरावरील\n रंग  "
-"	पण सर्व थरांचा वापर जे स्मज इनपुटसाठी दृष्यमान आहेत\n"
-" 	टीपःसंपूर्ण ओपेक पार्श्वभूमी असेल तरच हा मोड योग्य प्रकारे कार्य करू शकतो."
+"सध्याच्या थरावरील\n"
+" रंग  \tपण सर्व थरांचा वापर जे स्मज इनपुटसाठी दृष्यमान आहेत\n"
+" \tटीपःसंपूर्ण ओपेक पार्श्वभूमी असेल तरच हा मोड योग्य प्रकारे कार्य करू शकतो."
 
 #: plugins/paintops/colorsmudge/kis_smudge_option_widget.cpp:35
 msgid "Smearing"
@@ -5808,7 +5757,7 @@ msgstr "डलिंग"
 msgid "Smudge Mode"
 msgstr "स्मज मोड"
 
-#: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:43
+#: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:44
 msgid "Curve brush"
 msgstr "वलय कुंचला"
 
@@ -5863,7 +5812,7 @@ msgstr "रंग जोडणारी रेषा"
 msgid "Smoothing"
 msgstr "स्मूदिंग"
 
-#: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:47
+#: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:48
 msgid "Pixel Brush"
 msgstr "पिक्सल कुंचला"
 
@@ -6023,7 +5972,7 @@ msgstr "रेषांची संख्या"
 
 #. i18n: ectx: property (text), widget (QRadioButton, polygonRBox)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:215
-#: plugins/tools/tool_polygon/kis_tool_polygon.cc:62
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:59
 msgid "Polygon"
 msgstr "पॉलीगॉन"
 
@@ -6051,7 +6000,7 @@ msgstr "व्यास"
 msgid "Fixed angle"
 msgstr "ठराविक कोन"
 
-#: plugins/paintops/experiment/experiment_paintop_plugin.cpp:42
+#: plugins/paintops/experiment/experiment_paintop_plugin.cpp:43
 msgid "Experiment brush"
 msgstr "कुंचला प्रयोग"
 
@@ -6150,11 +6099,11 @@ msgstr "कर्सरचा मागोवा घ्या"
 msgid "Texture"
 msgstr "स्पर्श"
 
-#: plugins/paintops/filterop/filterop.cpp:45
+#: plugins/paintops/filterop/filterop.cpp:46
 msgid "Filter Brush"
 msgstr "चाळणी कुंचला"
 
-#: plugins/paintops/gridbrush/grid_paintop_plugin.cpp:41
+#: plugins/paintops/gridbrush/grid_paintop_plugin.cpp:42
 msgid "Grid brush"
 msgstr "जाळी कुंचला"
 
@@ -6209,7 +6158,7 @@ msgstr "Jitter borders"
 msgid "Line"
 msgstr "रेषा"
 
-#: plugins/paintops/hairy/hairy_paintop_plugin.cpp:44
+#: plugins/paintops/hairy/hairy_paintop_plugin.cpp:45
 msgid "Hairy brush"
 msgstr "केसाळ कुंचला"
 
@@ -6375,7 +6324,7 @@ msgstr "फटकाऱ्याच्या मूळच्या ठिका�
 msgid "Soak ink"
 msgstr "शाई भरा"
 
-#: plugins/paintops/hatching/hatching_paintop_plugin.cpp:43
+#: plugins/paintops/hatching/hatching_paintop_plugin.cpp:44
 msgid "Hatching brush"
 msgstr "हॅचिंग कुंचला"
 
@@ -6537,11 +6486,6 @@ msgstr "घनताः"
 msgid "Spacing:"
 msgstr "अंतरः"
 
-#. i18n: ectx: property (text), widget (QLabel, lblPrecision)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:70
-msgid "Precision:"
-msgstr "काटेकोर"
-
 #. i18n: ectx: property (text), widget (QLabel, spacingLbl)
 #. i18n: ectx: property (text), widget (QLabel, spacingLabel)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:149
@@ -6576,9 +6520,8 @@ msgid ""
 "color. The background of particle is rectangle of grid width and height and "
 "by default it is transparent."
 msgstr ""
-"जर चेक केले तर जाळीचा कुंचला प्रत्येक कणाला पार्श्वभूमीच्या रंगाने "
-"रंगवेलकणाची पार्श्वभूमी प्रथमपासूनच जाळीच्या सांबी रुदीनुसारचौकोनी असून "
-"पारदर्शक आहे."
+"जर चेक केले तर जाळीचा कुंचला प्रत्येक कणाला पार्श्वभूमीच्या रंगाने रंगवेलकणाची पार्श्वभूमी "
+"प्रथमपासूनच जाळीच्या सांबी रुदीनुसारचौकोनी असून पारदर्शक आहे."
 
 #. i18n: ectx: property (text), widget (QCheckBox, fillBackgroundCHBox)
 #: plugins/paintops/libpaintop/forms/wdgcoloroptions.ui:79
@@ -6619,12 +6562,12 @@ msgid "Eraser"
 msgstr "खोडणारा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxUseSameCurve)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:136
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:133
 msgid "Use the same curve"
 msgstr "तेच वलय वापरा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxUseCurve)
-#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:159
+#: plugins/paintops/libpaintop/forms/wdgcurveoption.ui:156
 msgid "Use Curve"
 msgstr "वलय वापरा"
 
@@ -6733,8 +6676,8 @@ msgid ""
 "Krita 1.6 freehand tool options.</p></html>"
 msgstr ""
 "<html>\n"
-"<p><b>Note:</b> क्रिता १.६ मधील मुक्तहस्त साधन पर्यायातील "
-"\"incremental\"प्रमाणेच हे आहे </p></html>"
+"<p><b>Note:</b> क्रिता १.६ मधील मुक्तहस्त साधन पर्यायातील \"incremental\"प्रमाणेच हे "
+"आहे </p></html>"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/libpaintop/forms/wdgincremental.ui:51
@@ -6746,10 +6689,10 @@ msgid ""
 "stroke even if you go over the same place again and again.</p></html>"
 msgstr ""
 "<html>\n"
-"<p><b>Painting mode</b>:दोन पेंटिंग मोडमध्ये क्रिता पर्याय देतेः"
-"<i>buildup</i> and <i>wash</i>.पहिल्या पर्यायात रंगाची बांधणी होते तर एकाच "
-"फटकाऱ्यात रंग यामध्ये दुसऱ्या पर्यायात तुम्ही पुन्हा पुन्हा त्याच जागी "
-"गेल्यास एकाच फटकाऱ्यात रंगाचा पर्याय मिळतो. </p></html>"
+"<p><b>Painting mode</b>:दोन पेंटिंग मोडमध्ये क्रिता पर्याय देतेः<i>buildup</i> and "
+"<i>wash</i>.पहिल्या पर्यायात रंगाची बांधणी होते तर एकाच फटकाऱ्यात रंग यामध्ये दुसऱ्या "
+"पर्यायात तुम्ही पुन्हा पुन्हा त्याच जागी गेल्यास एकाच फटकाऱ्यात रंगाचा पर्याय मिळतो. </"
+"p></html>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgTextBrush)
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:14
@@ -6814,87 +6757,23 @@ msgstr "अंतरः"
 msgid "Brush Tip"
 msgstr "कुंचल्याचे टोक"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:58
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:57
 msgid "Autobrush"
 msgstr "स्वयंकुंचला"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:61
 msgid "Predefined Brushes"
 msgstr "पूर्वलक्षित कुंचले"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:64
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:66
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:63
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:65
 msgid "Custom Brush"
 msgstr "ठराविक कुंचला"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:68
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:70
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:67
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:69
 msgid "Text Brush"
 msgstr "पाठ्य कुंचला"
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:212
-msgid ""
-"Precision Level 1 (fastest)\n"
-"Subpixel precision: disabled\n"
-"Brush size precision: 5%\n"
-"\n"
-"Optimal for very big brushes"
-msgstr ""
-"\"Precision Level 1 (fastest)\n"
-"Subpixel precision: disabled\n"
-"Brush size precision: 5%\n"
-"\n\" मोठ्या कुंचल्यांसाठी जुळविलेले"
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:220
-msgid ""
-"Precision Level 2\n"
-"Subpixel precision: disabled\n"
-"Brush size precision: 1%\n"
-"\n"
-"Optimal for big brushes"
-msgstr ""
-"\"Precision Level 2\n"
-"Subpixel precision: disabled\n"
-"Brush size precision: 1%\n"
-"\n\"मोठ्या कुंचल्यांसाठी जुळविलेले"
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:228
-msgid ""
-"Precision Level 3\n"
-"Subpixel precision: disabled\n"
-"Brush size precision: exact"
-msgstr ""
-"Precision Level 3\n"
-"Subpixel precision: disabled\n"
-"कुंचल्याचा काटेकोरः तोच आकार"
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:234
-msgid ""
-"Precision Level 4 (optimal)\n"
-"Subpixel precision: 50%\n"
-"Brush size precision: exact\n"
-"\n"
-"Gives up to 50% better performance in comparison to Level 5"
-msgstr ""
-"\"Precision Level 4 (optimal)\n"
-"Subpixel precision: 50%\n"
-"\"Brush size precision: exact\n"
-"\n"
-"पाचव्या पाळीपेक्षा ५० टक्के जास्त चांगले काम होते"
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:242
-msgid ""
-"Precision Level 5 (best quality)\n"
-"Subpixel precision: exact\n"
-"Brush size precision: exact\n"
-"\n"
-"The slowest performance. Best quality."
-msgstr ""
-"\"Precision Level 5 (best quality)\n"
-"Subpixel precision: exact\n"
-"Brush size precision: exact\n"
-"\n"
-"सर्वात मंद गतीचे काम पण उत्तम गुणवत्ता"
 
 #: plugins/paintops/libpaintop/kis_brush_size_option.cpp:38
 msgid "Brush tip"
@@ -6911,8 +6790,8 @@ msgstr "साधे रंग"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:58
 #: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:26
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:274
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:288
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:270
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:284
 #: plugins/tools/tool_text/wdgtextoptions.ui:44
 msgid "Gradient"
 msgstr "ग्रेडियंट"
@@ -7002,8 +6881,8 @@ msgid "Opaque"
 msgstr "स्पष्ट"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:31
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:207
-#: ui/kis_paintop_box.cc:212
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:203
+#: ui/kis_paintop_box.cc:211
 msgid "Mirror"
 msgstr "प्रतिबिंब"
 
@@ -7016,12 +6895,12 @@ msgid "Mirrored"
 msgstr "प्रतिबिंबित"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:227
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:223
 msgid "Horizontally"
 msgstr "आडवे"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:229
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:225
 msgid "Vertically"
 msgstr "उभ्याने"
 
@@ -7105,8 +6984,8 @@ msgid ""
 "When pattern texture values are outside the range specified by the slider, "
 "the cut-off policy will be applied."
 msgstr ""
-"जेव्हा पॅटर्न टेक्श्चरच्या किंमती स्लायडरच्या ठराविक मर्यादेच्या बाहेर जातील "
-"तेव्हा कट ऑफ धोरण कार्यान्वित होईल"
+"जेव्हा पॅटर्न टेक्श्चरच्या किंमती स्लायडरच्या ठराविक मर्यादेच्या बाहेर जातील तेव्हा कट ऑफ "
+"धोरण कार्यान्वित होईल"
 
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:99
 msgid "Cutoff"
@@ -7216,8 +7095,8 @@ msgid ""
 "The pressure reported by the tablet, between 0.0 and 1.0. If you use the "
 "mouse, it will be 0.5 when a button is pressed and 0.0 otherwise."
 msgstr ""
-"टॅबलेटने नदाब जर ०.० व १.०० दरम्यान असेल व जर तुम्ही माऊसचा वापर केला तर बटन "
-"दाबले तर दाब ०,५ राहील अन्यथा ०.० राहील"
+"टॅबलेटने नदाब जर ०.० व १.०० दरम्यान असेल व जर तुम्ही माऊसचा वापर केला तर बटन दाबले तर "
+"दाब ०,५ राहील अन्यथा ०.० राहील"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:82
 msgid ""
@@ -7225,9 +7104,9 @@ msgid ""
 "values' from the 'help' menu to get a feeling for the range; negative values "
 "are rare but possible for very low speed."
 msgstr ""
-"सध्या तुम्ही ज्या वेगाने जाता त्या प्रमाणात हे त्वरित बदलेल प्रिंट इनपुट "
-"संख्या मदत विभागातून वापरण्याचा प्रयत्न करा त्यामुळे तुम्हाला मर्यादेची जाणीव "
-"होईल फार संथ वेगासाठी क्वचितच उणे किंमती येणे शक्य आहे."
+"सध्या तुम्ही ज्या वेगाने जाता त्या प्रमाणात हे त्वरित बदलेल प्रिंट इनपुट संख्या मदत विभागातून "
+"वापरण्याचा प्रयत्न करा त्यामुळे तुम्हाला मर्यादेची जाणीव होईल फार संथ वेगासाठी क्वचितच उणे "
+"किंमती येणे शक्य आहे."
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:83
 msgid ""
@@ -7248,17 +7127,17 @@ msgid ""
 "be configured to jump back to zero periodically while you move. Look at the "
 "'stroke duration' and 'stroke hold time' settings."
 msgstr ""
-"तुम्ही फटकारा मारताना हा इनपुट संथपणे ० पासून १ पर्यंत जातो. तुम्ही जात "
-"असताना तो परत मागे ० वर येण्याची व्यवस्थाही करता येते"
-"फटकाऱ्याच्या कालावधीकडे पहा व फटकारा थांबून ठेवण्याच्या कालावधीकडे पहा."
+"तुम्ही फटकारा मारताना हा इनपुट संथपणे ० पासून १ पर्यंत जातो. तुम्ही जात असताना तो परत "
+"मागे ० वर येण्याची व्यवस्थाही करता येतेफटकाऱ्याच्या कालावधीकडे पहा व फटकारा थांबून "
+"ठेवण्याच्या कालावधीकडे पहा."
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:86
 msgid ""
 "The angle of the stroke, in degrees. The value will stay between 0.0 and "
 "180.0, effectively ignoring turns of 180 degrees."
 msgstr ""
-"फटकाऱ्या कोन अंशात आहे. त्याची किंमत ०.०  ते १८०.०\"पर्यंत राहील १८० अंशाचे "
-"वळण दुर्लक्षित केले जाईल."
+"फटकाऱ्या कोन अंशात आहे. त्याची किंमत ०.०  ते १८०.०\"पर्यंत राहील १८० अंशाचे वळण "
+"दुर्लक्षित केले जाईल."
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:87
 msgid ""
@@ -7303,8 +7182,7 @@ msgstr "opaque multiply"
 msgid ""
 "This gets multiplied with opaque. It is used for making opaque depend on "
 "pressure (or other inputs)."
-msgstr ""
-"स्पष्टतेबरोबर गयाचे गुणोत्तर वाढत जाते याचा वापर दाब आधारित स्पष्टतेसाठी होतो"
+msgstr "स्पष्टतेबरोबर गयाचे गुणोत्तर वाढत जाते याचा वापर दाब आधारित स्पष्टतेसाठी होतो"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:156
 msgid "opaque linearize"
@@ -7346,8 +7224,7 @@ msgstr "काठिण्य"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:158
 msgid "hard brush-circle borders (setting to zero will draw nothing)"
-msgstr ""
-"कठीण कुंचला-वर्तुळाकार कडा (शून्यावर सेट केल्यास काहीही काढता येणार नाही"
+msgstr "कठीण कुंचला-वर्तुळाकार कडा (शून्यावर सेट केल्यास काहीही काढता येणार नाही"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:159
 msgid "dabs per basic radius"
@@ -7358,8 +7235,8 @@ msgid ""
 "how many dabs to draw while the pointer moves a distance of one brush radius "
 "(more precise: the base value of the radius)"
 msgstr ""
-"एक कुंचला त्रिज्येइतका काटा सरकल्यास किती दाबून फटकारे काढता येतील (जास्त "
-"काटेकोरः त्रिज्येची मूळ किंमत)"
+"एक कुंचला त्रिज्येइतका काटा सरकल्यास किती दाबून फटकारे काढता येतील (जास्त काटेकोरः "
+"त्रिज्येची मूळ किंमत)"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:160
 msgid "dabs per actual radius"
@@ -7369,9 +7246,7 @@ msgstr "प्रत्यक्ष त्रिज्येनुसार द�
 msgid ""
 "same as above, but the radius actually drawn is used, which can change "
 "dynamically"
-msgstr ""
-"वरीलप्रमाणेच, पणप्रत्यक्ष काढलेली त्रिज्या वापरली जाते, ती गतिमानतेप्रमाणे "
-"बदलते"
+msgstr "वरीलप्रमाणेच, पणप्रत्यक्ष काढलेली त्रिज्या वापरली जाते, ती गतिमानतेप्रमाणे बदलते"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:161
 msgid "dabs per second"
@@ -7393,13 +7268,10 @@ msgid ""
 "transparent\n"
 "2) it will not change the actual radius seen by dabs_per_actual_radius"
 msgstr ""
-"प्रत्येक दाबून फटकाऱ्यानुसार त्रिज्या सहजतेने बदला. तुम्हाला हे by_random "
-"input on the radius settingनेही करता येईल. येथे जर तुम्ही हे केसे तर  दोन फरक "
-"आहेतः\n"
-"१) स्पष्टतेची किंमत सुधारली जाईल त्यामुळे मोठ्या त्रिज्येचे दाबून फटकारे "
-"जास्त पारदर्शी होतील."
-"२) यामुळे प्रत्यक्ष त्रिज्येनुसार दाबून फटकाऱ्यानुसार प्रत्यक्षात त्रिज्या "
-"बदलणार नाही"
+"प्रत्येक दाबून फटकाऱ्यानुसार त्रिज्या सहजतेने बदला. तुम्हाला हे by_random input on the "
+"radius settingनेही करता येईल. येथे जर तुम्ही हे केसे तर  दोन फरक आहेतः\n"
+"१) स्पष्टतेची किंमत सुधारली जाईल त्यामुळे मोठ्या त्रिज्येचे दाबून फटकारे जास्त पारदर्शी "
+"होतील.२) यामुळे प्रत्यक्ष त्रिज्येनुसार दाबून फटकाऱ्यानुसार प्रत्यक्षात त्रिज्या बदलणार नाही"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:163
 msgid "speed1 filter"
@@ -7411,8 +7283,8 @@ msgid ""
 "0.0 changes immediately as your speed changes (not recommended, but try it.)"
 msgstr ""
 "खऱ्या वेगाबरोबर वेग१ किती सावकाशपणे जुळवून घेतो.\n"
-"0.0 तुमच्या वेगातील बदलाबरोबर त्वरित बदलतो (मात्र याची शिफारस करण्यात येत "
-"नाही, तुम्ही प्यत्न करू शकता)"
+"0.0 तुमच्या वेगातील बदलाबरोबर त्वरित बदलतो (मात्र याची शिफारस करण्यात येत नाही, "
+"तुम्ही प्यत्न करू शकता)"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:164
 msgid "speed2 filter"
@@ -7434,9 +7306,8 @@ msgid ""
 "+8.0 very fast speed increases speed1 a lot\n"
 "For very slow speed the opposite happens."
 msgstr ""
-"यामुळे वेग१ ची प्रतिक्रिया बदलून प्रत्यक्षात अतिवेगवान होतो. जर वेग१ "
-"त्रिज्येशी जुळवला तर तुम्हाला हा फरक स्पष्टपणे पाहता येईल"
-"-8.0 अति जलद वेग वेग१ ला जास्त वाढवू शकत नाही\n"
+"यामुळे वेग१ ची प्रतिक्रिया बदलून प्रत्यक्षात अतिवेगवान होतो. जर वेग१ त्रिज्येशी जुळवला तर "
+"तुम्हाला हा फरक स्पष्टपणे पाहता येईल-8.0 अति जलद वेग वेग१ ला जास्त वाढवू शकत नाही\n"
 "+8.0 मात्रवेग१ खूपच वाढवतो\n"
 "अति संथ वेगासाठी मात्र उलट घडेल"
 
@@ -7497,9 +7368,8 @@ msgid ""
 "Slowdown pointer tracking speed. 0 disables it, higher values remove more "
 "jitter in cursor movements. Useful for drawing smooth, comic-like outlines."
 msgstr ""
-"काट्याचा मागोवा घेण्याचा वेग मंदावतो. ० निष्क्रीय करतो, उच्च किंमती कर्सर "
-"हालचासीतून जास्त जिटर काढून टाकतात. गुळगुळीत कॉमिक पध्दतीच्या कडा काढण्यासाठी "
-"उपयुक्त"
+"काट्याचा मागोवा घेण्याचा वेग मंदावतो. ० निष्क्रीय करतो, उच्च किंमती कर्सर हालचासीतून "
+"जास्त जिटर काढून टाकतात. गुळगुळीत कॉमिक पध्दतीच्या कडा काढण्यासाठी उपयुक्त"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:171
 msgid "slow tracking per dab"
@@ -7510,8 +7380,8 @@ msgid ""
 "Similar as above but at brushdab level (ignoring how much time has past, if "
 "brushdabs do not depend on time)"
 msgstr ""
-"वरीलप्रमाणेच पण ब्रश डॅब पातळीवर (जर ब्रश डॅब वेळेवर अवलंबून नसेल तर  किती "
-"कालावधी गेला याकडे दुर्लक्ष केले जाते,)"
+"वरीलप्रमाणेच पण ब्रश डॅब पातळीवर (जर ब्रश डॅब वेळेवर अवलंबून नसेल तर  किती कालावधी गेला "
+"याकडे दुर्लक्ष केले जाते,)"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:172
 msgid "tracking noise"
@@ -7522,8 +7392,8 @@ msgid ""
 "add randomness to the mouse pointer; this usually generates many small lines "
 "in random directions; maybe try this together with 'slow tracking'"
 msgstr ""
-"माऊस पॉइंटरमध्ये रॅंडमनेस मिळवा, यामुळे अनेक लहान रेषा तयार होतात व त्या "
-"वेगवेगळ्या दिशांना असतात, संथ मागावा पध्दतीत याचा प्रयोग होऊ शकतो"
+"माऊस पॉइंटरमध्ये रॅंडमनेस मिळवा, यामुळे अनेक लहान रेषा तयार होतात व त्या वेगवेगळ्या दिशांना "
+"असतात, संथ मागावा पध्दतीत याचा प्रयोग होऊ शकतो"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:174
 msgid "color hue"
@@ -7600,9 +7470,8 @@ msgid ""
 " 0.0 disable\n"
 " 1.0 brigher"
 msgstr ""
-"HSV color model वापरून रंगाची किंमत बदला (शुभ्रता , घनता) "
-"HSL.\n पूर्वी HSV बदल केले आहेत.  "
-"-1.0 darker\n"
+"HSV color model वापरून रंगाची किंमत बदला (शुभ्रता , घनता) HSL.\n"
+" पूर्वी HSV बदल केले आहेत.  -1.0 darker\n"
 " 0.0 disable\n"
 " 1.0 brigher"
 
@@ -7618,8 +7487,8 @@ msgid ""
 " 0.0 disable\n"
 " 1.0 more saturated"
 msgstr ""
-"HSV color model वापरून रंगाची किंमत बदला  ) HSL.\n पूर्वी HSV बदल केले आहेत. "
-"-1.0 more grayish\n"
+"HSV color model वापरून रंगाची किंमत बदला  ) HSL.\n"
+" पूर्वी HSV बदल केले आहेत. -1.0 more grayish\n"
 " 0.0 disable\n"
 " 1.0 more saturated"
 
@@ -7635,8 +7504,7 @@ msgid ""
 " 0.5 mix the smudge color with the brush color\n"
 " 1.0 use only the smudge color"
 msgstr ""
-"कुंचल्याच्या रंगाऐवजी स्मज रंगाने रंगवा. स्मजचा रंग हळूहळू तुम्ही रंगवत "
-"असलेल्या रंगात बदलेल\n"
+"कुंचल्याच्या रंगाऐवजी स्मज रंगाने रंगवा. स्मजचा रंग हळूहळू तुम्ही रंगवत असलेल्या रंगात बदलेल\n"
 " 0.0 do not use the smudge color\n"
 " 0.5 mix the smudge color with the brush color\n"
 " 1.0 use only the smudge color"
@@ -7652,8 +7520,7 @@ msgid ""
 "0.0 immediately change the smudge color\n"
 "1.0 never change the smudge color"
 msgstr ""
-" या नियंत्रणामुळे तुम्ही रंगवत असलेल्या रंगात स्मज रंग किती वेगाने बदलेल ते "
-"ठरविले जाते. \n"
+" या नियंत्रणामुळे तुम्ही रंगवत असलेल्या रंगात स्मज रंग किती वेगाने बदलेल ते ठरविले जाते. \n"
 "0.0 immediately change the smudge color\n"
 "1.0 never change the smudge color"
 
@@ -7670,8 +7537,8 @@ msgid ""
 "+0.7 twice the brush radius\n"
 "+1.6 five times the brush radius (slow)"
 msgstr ""
-"स्मजिंगसाठी जेथून रंग घेतलातेथील वर्तुळाची त्रिज्या सुधारली जाते"
-" 0.0 use the brush radius \n"
+"स्मजिंगसाठी जेथून रंग घेतलातेथील वर्तुळाची त्रिज्या सुधारली जाते 0.0 use the brush "
+"radius \n"
 "-0.7 half the brush radius\n"
 "+0.7 twice the brush radius\n"
 "+1.6 five times the brush radius (slow)"
@@ -7701,8 +7568,7 @@ msgid ""
 "How much pressure is needed to start a stroke. This affects the stroke input "
 "only. Mypaint does not need a minimal pressure to start drawing."
 msgstr ""
-"फटकारा सुरू करण्यासाठी किती दाब पाहिजे ते ठरते. यामुळे स्ट्रोक इनपुट वरच "
-"परिणाम होतो."
+"फटकारा सुरू करण्यासाठी किती दाब पाहिजे ते ठरते. यामुळे स्ट्रोक इनपुट वरच परिणाम होतो."
 "माय पेंट मध्येचित्र काढण्यासाठी किमान दाबाची गरज नसते"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:188
@@ -7714,8 +7580,8 @@ msgid ""
 "How far you have to move until the stroke input reaches 1.0. This value is "
 "logarithmic (negative values will not invert the process)."
 msgstr ""
-"फटकाऱ्याचा इनपुट 1.0 पर्यंत पोचण्यासाठी तुम्हाला किती अंतर जावे लागते"
-"ही किंमत लॉगरिदमिक आहे. ( ऋण किंमती प्रक्रिया उलट करणार नाहीत.). "
+"फटकाऱ्याचा इनपुट 1.0 पर्यंत पोचण्यासाठी तुम्हाला किती अंतर जावे लागतेही किंमत लॉगरिदमिक "
+"आहे. ( ऋण किंमती प्रक्रिया उलट करणार नाहीत.). "
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:189
 msgid "stroke hold time"
@@ -7729,8 +7595,8 @@ msgid ""
 "2.0 means twice as long as it takes to go from 0.0 to 1.0\n"
 "9.9 and bigger stands for infinite"
 msgstr ""
-"1.0 जवळ फटकाऱ्याचा इनपुट किती वेळ थांबतो, त्यानंतर तो ०.० वर रिसेट होऊन "
-"पुन्हा वाढायला सुरुवात होते. जरी फटकारा पूर्ण झाला नसला तरी.\n"
+"1.0 जवळ फटकाऱ्याचा इनपुट किती वेळ थांबतो, त्यानंतर तो ०.० वर रिसेट होऊन पुन्हा "
+"वाढायला सुरुवात होते. जरी फटकारा पूर्ण झाला नसला तरी.\n"
 "2.0 means twice as long as it takes to go from 0.0 to 1.0\n"
 "9.9 and bigger stands for infinite"
 
@@ -7748,11 +7614,10 @@ msgid ""
 "If you make it change 'by random' you can generate a slow (smooth) random "
 "input."
 msgstr ""
-"ठराविक इनपुट या किमतीवर ठेवा . जर वेग संथ झाला तर तर तो पुढील किंमतीवर न्या "
-"(खाली पहा) या मागची मुख्य कल्पना म्हणजे इनपुट हा दाब/वेग/व इतर जे असेल ते , "
-"यावर अवलंबून ठेवणे ही आहे. हे पुन्हा पुन्हा वापरण्याऐवजी 'custom "
-"input'प्रत्येक ठिकाणी वापरा \" जर तुम्ही बाय रॅंडम मध्ये बदलले तर तुम्ही संथ "
-"(स्मूथ) रॅंडम इनुपट निर्माण करू शकता."
+"ठराविक इनपुट या किमतीवर ठेवा . जर वेग संथ झाला तर तर तो पुढील किंमतीवर न्या (खाली "
+"पहा) या मागची मुख्य कल्पना म्हणजे इनपुट हा दाब/वेग/व इतर जे असेल ते , यावर अवलंबून ठेवणे "
+"ही आहे. हे पुन्हा पुन्हा वापरण्याऐवजी 'custom input'प्रत्येक ठिकाणी वापरा \" जर तुम्ही "
+"बाय रॅंडम मध्ये बदलले तर तुम्ही संथ (स्मूथ) रॅंडम इनुपट निर्माण करू शकता."
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:191
 msgid "custom input filter"
@@ -7765,9 +7630,8 @@ msgid ""
 "brushdabs do not depend on time).\n"
 "0.0 no slowdown (changes apply instantly)"
 msgstr ""
-"ठराविक इनपुट अपेक्षित किंमती पर्यंत किती संथपणे जाते (वरील किंमतीवर)  ब्रशडॅब "
-"पातळी वर हे घडते (किती कालावधी गेला याकडे दुर्लक्ष केले जाते जर \"ब्रशडॅब\" "
-"वेळेवर अवलंबून नसेल तर) .\n"
+"ठराविक इनपुट अपेक्षित किंमती पर्यंत किती संथपणे जाते (वरील किंमतीवर)  ब्रशडॅब पातळी वर हे "
+"घडते (किती कालावधी गेला याकडे दुर्लक्ष केले जाते जर \"ब्रशडॅब\" वेळेवर अवलंबून नसेल तर) .\n"
 "0.0 संथपणा नाही (बदल त्वरीत लागू केले जातील)"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:193
@@ -7779,8 +7643,8 @@ msgid ""
 "aspect ratio of the dabs; must be >= 1.0, where 1.0 means a perfectly round "
 "dab. TODO: linearize? start at 0.0 maybe, or log?"
 msgstr ""
-"\"aspect ratio of the dabs; must be >= 1.0, where 1.0 means a perfectly round "
-"dab. TODO: linearize? start at 0.0 maybe, or log?"
+"\"aspect ratio of the dabs; must be >= 1.0, where 1.0 means a perfectly "
+"round dab. TODO: linearize? start at 0.0 maybe, or log?"
 
 #: plugins/paintops/mypaint/mypaint_brush_resource.cpp:194
 msgid "elliptical dab: angle"
@@ -7793,8 +7657,7 @@ msgid ""
 " 45.0 45 degrees, turned clockwise\n"
 " 180.0 horizontal again"
 msgstr ""
-"लंबगोलीय  दाबून फटकारा किती अंशातून वळतो ते यामुळे ठरविले जाते."
-" 0.0 horizontal dabs\n"
+"लंबगोलीय  दाबून फटकारा किती अंशातून वळतो ते यामुळे ठरविले जाते. 0.0 horizontal dabs\n"
 " 45.0 45 degrees, turned clockwise\n"
 " 180.0 horizontal again"
 
@@ -7857,7 +7720,7 @@ msgstr "घनता"
 msgid "Offset scale"
 msgstr "ऑफसेट प्रमाण"
 
-#: plugins/paintops/sketch/sketch_paintop_plugin.cpp:43
+#: plugins/paintops/sketch/sketch_paintop_plugin.cpp:44
 msgid "Sketch brush"
 msgstr "स्केच ब्रश"
 
@@ -7907,7 +7770,7 @@ msgstr "आकाराची गतिमानता"
 msgid "Spray shape"
 msgstr "फवाऱ्याचा आकार"
 
-#: plugins/paintops/spray/spray_paintop_plugin.cpp:41
+#: plugins/paintops/spray/spray_paintop_plugin.cpp:42
 msgid "Spray brush"
 msgstr "फवाऱ्याचा कुंचला"
 
@@ -7930,7 +7793,7 @@ msgstr "गॉसियन वितरण"
 msgid "WateryMix options"
 msgstr "जलमिश्र पर्याय"
 
-#: plugins/paintops/waterymixbrush/waterymix_paintop_plugin.cpp:43
+#: plugins/paintops/waterymixbrush/waterymix_paintop_plugin.cpp:44
 msgid "Watery Mixbrush"
 msgstr "जलमिश्र कुंचला"
 
@@ -7961,7 +7824,7 @@ msgstr "हे साधन कार्यान्वित होण्या
 msgid "Assistant Magnetism"
 msgstr "सहायक चुंबकत्व"
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:66
+#: plugins/tools/defaulttools/kis_tool_brush.h:65
 msgid "Paint with brushes"
 msgstr "कुंचल्याने रंगवा"
 
@@ -7977,132 +7840,118 @@ msgstr "सक्रीय थर  दिसत नसल्यानेको�
 #: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
-msgstr ""
-"palette file %1. मध्ये लिहिता येत नाही. बहुधा ती फक्त वाचण्यापुरतीच असेल"
+msgstr "palette file %1. मध्ये लिहिता येत नाही. बहुधा ती फक्त वाचण्यापुरतीच असेल"
 
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:230
 #: ui/kis_custom_palette.cc:113 ui/kis_custom_palette.cc:152
 msgid "Palette"
 msgstr "पॅलेट"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.h:96
+#: plugins/tools/defaulttools/kis_tool_colorpicker.h:95
 msgid "Select a color from the image or current layer"
 msgstr "प्रतिमेतून किंवा सध्याच्या थरातून रंग निवडा"
 
-#: plugins/tools/defaulttools/kis_tool_ellipse.h:56
+#: plugins/tools/defaulttools/kis_tool_ellipse.h:55
 msgid "Draw an ellipse"
 msgstr "लंबगोल काढा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:227
+#: plugins/tools/defaulttools/kis_tool_fill.cc:219
 msgid "Threshold: "
 msgstr "प्रवेशः"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:234
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:167
-msgid "Grow/shrink selection: "
-msgstr "वाढवा / घटवा निवडः"
-
-#: plugins/tools/defaulttools/kis_tool_fill.cc:242
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:182
-msgid "Feathering radius: "
-msgstr "फेदरिंग त्रिज्या"
-
-#: plugins/tools/defaulttools/kis_tool_fill.cc:250
+#: plugins/tools/defaulttools/kis_tool_fill.cc:227
 msgid "Use pattern"
 msgstr "पॅटर्न वापरा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:251
+#: plugins/tools/defaulttools/kis_tool_fill.cc:228
 msgid ""
 "When checked do not use the foreground color, but the gradient selected to "
 "fill with"
-msgstr ""
-"हे चेक केल्यावर पुरोभागाचा रंग वापरू नका, पण ग्रेडियंट सिलेक्टेड टू\" \"fill "
-"with"
+msgstr "हे चेक केल्यावर पुरोभागाचा रंग वापरू नका, पण ग्रेडियंट सिलेक्टेड टू\" \"fill with"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:254
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:196
+#: plugins/tools/defaulttools/kis_tool_fill.cc:232
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:146
 msgid "Limit to current layer"
 msgstr "सध्याच्या थरापुरतेच मर्यादित"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:257
+#: plugins/tools/defaulttools/kis_tool_fill.cc:236
 msgid "Fill entire selection"
 msgstr "संपूर्ण निवड भरून काढा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:258
+#: plugins/tools/defaulttools/kis_tool_fill.cc:237
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
 msgstr ""
-"हे चेक केल्यावर सध्याच्या थराच्या रंकगांडे पाहू नका, पण सर्व \"सिलेक्टेड "
-"एरिया \"भरून काढा"
+"हे चेक केल्यावर सध्याच्या थराच्या रंकगांडे पाहू नका, पण सर्व \"सिलेक्टेड एरिया \"भरून काढा"
 
 #: plugins/tools/defaulttools/kis_tool_fill.h:89
 msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr "रंगाने सलग रंगाचा भाग  रंगवा , किंवा निवडलेला भाग भरून काढा"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:342
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:338
 msgid "Repeat:"
 msgstr "पुनरावृत्ती करा"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:344
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:340
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "मागे"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:351
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:347
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "रेषीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:352
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:348
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr "द्विरेषीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:353
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:349
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "रेडियल"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:354
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:350
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "चौरस"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:355
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:351
 msgctxt "the gradient will be drawn as an assymmetric cone"
 msgid "Conical"
 msgstr "कोनीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:356
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:352
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr "कोनीय समान"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:361
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:357
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "काहीही नाही"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:362
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:358
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr "पुढे"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:363
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:359
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
 msgstr "एक आड एक "
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:371
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:367
 msgid "Anti-alias threshold:"
 msgstr "Anti-alias threshold:"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:382
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:378
 msgid "Preview opacity:"
 msgstr "दृष्यमानतेची पूर्वावलोकन"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.h:124
+#: plugins/tools/defaulttools/kis_tool_gradient.h:123
 msgid "Draw a gradient."
 msgstr "ग्रेडियंट काढा"
 
@@ -8118,18 +7967,18 @@ msgstr "स्पर्ष रेषेचा दाब"
 msgid "Varying End-Points"
 msgstr "बदलते अन्त्य बिंदू"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:211
+#: plugins/tools/defaulttools/kis_tool_line.cc:207
 msgctxt "a straight drawn line"
 msgid "Line"
 msgstr "रेषा"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:291
+#: plugins/tools/defaulttools/kis_tool_line.cc:287
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr "+Drag मुळे तुम्हाला सरळ रेषा काढणे भाग पडेल"
 
-#: plugins/tools/defaulttools/kis_tool_line.h:86
+#: plugins/tools/defaulttools/kis_tool_line.h:85
 msgid "Draw a straight line with the current brush"
 msgstr "सध्याच्या कुंचल्याने सरळ रेषा काढा"
 
@@ -8145,35 +7994,35 @@ msgstr "कोनः"
 msgid "Measure the distance between two points"
 msgstr "दोन बिंदूंतील अंतर मोजा"
 
-#: plugins/tools/defaulttools/kis_tool_move.h:90
+#: plugins/tools/defaulttools/kis_tool_move.h:89
 msgid "Move a layer"
 msgstr "थर हलवा"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:200
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:196
 msgid "Axis point"
 msgstr "अक्ष बिंदू"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:206
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:202
 msgid "Symmetry"
 msgstr "समानता"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:208
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:204
 msgid "Translate"
 msgstr "परिवर्तित करा"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:214
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:210
 msgid "Brush count"
 msgstr "कुंचल्याची संख्या"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.h:91
+#: plugins/tools/defaulttools/kis_tool_multihand.h:90
 msgid "Paint with multibrushes"
 msgstr "अनेक कुंचल्यांनी रंगवा"
 
-#: plugins/tools/defaulttools/kis_tool_pan.h:74
+#: plugins/tools/defaulttools/kis_tool_pan.h:73
 msgid "Move and rotate your canvas"
 msgstr "तुमचा कॅनव्हास हलवा व फिरवा"
 
-#: plugins/tools/defaulttools/kis_tool_path.h:76
+#: plugins/tools/defaulttools/kis_tool_path.h:75
 msgid "Draw a path. Shift-mouseclick ends the path."
 msgstr "मार्ग काढा. Shift-mouseclick ने मार्ग थांबतो "
 
@@ -8246,8 +8095,8 @@ msgid ""
 "Move the first layer with visible content at the place where you click. This "
 "will also select that layer in the layerbox."
 msgstr ""
-"दृष्य आशयासह पहिला थर तुम्ही क्लिक कराल त्या ठिकाणी हलवा . यामुळे थरमंजुषेतील "
-"थरही निवडला जाईल."
+"दृष्य आशयासह पहिला थर तुम्ही क्लिक कराल त्या ठिकाणी हलवा . यामुळे थरमंजुषेतील थरही "
+"निवडला जाईल."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioFirstLayer)
 #: plugins/tools/defaulttools/wdgmovetool.ui:39
@@ -8259,9 +8108,7 @@ msgstr "आशयासह थर हलवा"
 msgid ""
 "Move the group containing the first layer that contains visible content. "
 "Shortcut: ctrl-shift-click."
-msgstr ""
-"दृष्य आशयासह असलेला पहिला थर असलेला गट हलवा"
-"Shortcut: ctrl-shift-click."
+msgstr "दृष्य आशयासह असलेला पहिला थर असलेला गट हलवाShortcut: ctrl-shift-click."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioGroup)
 #: plugins/tools/defaulttools/wdgmovetool.ui:65
@@ -8269,7 +8116,7 @@ msgid "Move the whole group"
 msgstr "संपूर्ण गट हलवा"
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:52
-#: plugins/tools/selectiontools/kis_tool_select_brush.cc:198
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:194
 msgid "Brush Selection"
 msgstr "कुंचल्याची निवड"
 
@@ -8277,30 +8124,30 @@ msgstr "कुंचल्याची निवड"
 msgid "Brush size:"
 msgstr "कुंचल्याचा आकारः"
 
-#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
+#: plugins/tools/selectiontools/kis_tool_select_brush.h:73
 msgid "Select by brush"
 msgstr "कुंचला निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:55
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:106
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:54
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:98
 msgid "Contiguous Area Selection"
 msgstr "सलग भाग निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:152
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:138
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:134
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:134
 msgid "Fuzziness: "
 msgstr "फझीनेस"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:67
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:62
 msgid "Select a contiguous area of colors"
 msgstr "रंगांचा सलग भाग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:39
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:71
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:38
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:69
 msgid "Elliptical Selection"
 msgstr "लंबगोलीय निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:53
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:52
 msgid "Select an elliptical area"
 msgstr "लंबगोलीय भाग निवडा"
 
@@ -8354,20 +8201,20 @@ msgid "Limit to Current Layer"
 msgstr "सध्याच्या थरापर्यंतच मर्यादित ठेवा"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:125
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:121
 msgid "Outline Selection"
 msgstr "निवडीची रूपरेषा"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.h:65
+#: plugins/tools/selectiontools/kis_tool_select_outline.h:64
 msgid "Select an area by its outline"
 msgstr "रूपरेषेनुसार भाग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.h:92
+#: plugins/tools/selectiontools/kis_tool_select_path.h:90
 msgid "Select an area of the image with path."
 msgstr "मार्गासह प्रतिमेचा भाग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:42
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:71
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:40
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:68
 msgid "Polygonal Selection"
 msgstr "बहुकोनीय आकृती निवड"
 
@@ -8380,20 +8227,20 @@ msgstr "बहुकोनीय आकृतीचा भाग  निवड�
 msgid "Rectangular Selection"
 msgstr "चौकोनी निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:54
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:53
 msgid "Select a rectangular area"
 msgstr "चौकोनी भाग निवडा"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:76
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:115
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:111
 msgid "Similar Selection"
 msgstr "समान निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:47
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:46
 msgid "Select similar colors"
 msgstr "समान रंग निवडा"
 
-#: plugins/tools/tool_crop/kis_tool_crop.h:146
+#: plugins/tools/tool_crop/kis_tool_crop.h:147
 msgid "Crop the image to an area"
 msgstr "या भागाइतकी प्रतिमा घटवा"
 
@@ -8461,31 +8308,31 @@ msgstr "सुरुवातीची रुंदी"
 msgid "Width range:"
 msgstr "रुंदीचा पल्ला"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.h:156
+#: plugins/tools/tool_dyna/kis_tool_dyna.h:155
 msgid "Paint with brushes using dynamic movements"
 msgstr "गतिमान हालचाली वापरून कुंचल्याने रंगवा"
 
-#: plugins/tools/tool_grid/kis_tool_grid.h:67
+#: plugins/tools/tool_grid/kis_tool_grid.h:66
 msgid "Edit the grid"
 msgstr "जाळीचे संपादन करा"
 
-#: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:92
+#: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:91
 msgid "Edit the perspective grid"
 msgstr "आकलन जाळीचे संपादन करा"
 
-#: plugins/tools/tool_polygon/kis_tool_polygon.h:51
+#: plugins/tools/tool_polygon/kis_tool_polygon.h:50
 msgid "Draw a polygon. Shift-mouseclick ends the polygon."
 msgstr "बहुकोनीय आकृती काढा. Shift-mouseclick ने आकृती थांबेल"
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.cc:66
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:63
 msgid "Polyline"
 msgstr "पॉलीलाईन"
 
-#: plugins/tools/tool_polyline/kis_tool_polyline.h:51
+#: plugins/tools/tool_polyline/kis_tool_polyline.h:52
 msgid "Draw a polyline. Shift-mouseclick ends the polyline."
 msgstr "पॉलीलाईन काढा. Shift-mouseclick ने पॉलीलाईन थांबेल  "
 
-#: plugins/tools/tool_text/kis_tool_text.h:56
+#: plugins/tools/tool_text/kis_tool_text.h:55
 msgid "Text tool"
 msgstr "मजकुराचे साधन"
 
@@ -8496,15 +8343,13 @@ msgstr "मजकुराचा पर्याय"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFill)
-#: plugins/tools/tool_text/wdgtextoptions.ui:29
-#: ui/forms/wdgshapeoptions.ui:56
+#: plugins/tools/tool_text/wdgtextoptions.ui:29 ui/forms/wdgshapeoptions.ui:56
 msgid "Foreground Color"
 msgstr "पुरोभागाचा रंग"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbFill)
-#: plugins/tools/tool_text/wdgtextoptions.ui:34
-#: ui/forms/wdgshapeoptions.ui:61
+#: plugins/tools/tool_text/wdgtextoptions.ui:34 ui/forms/wdgshapeoptions.ui:61
 msgid "Background Color"
 msgstr "पार्श्वभागाचा रंग"
 
@@ -8513,40 +8358,40 @@ msgstr "पार्श्वभागाचा रंग"
 msgid "Multiline"
 msgstr "बहुलरेषा"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2166
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2158
 msgid "Apply Transformation"
 msgstr "रूपांतर वापरा"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2169
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2161
 #: plugins/tools/tool_transform2/tool_transform_commands.cc:25
 msgid "Apply transformation"
 msgstr "रूपांतर वापराः"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2392
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2384
 msgid "Affine"
 msgstr "अॅफेन"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2393
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2385
 msgid "Similitude"
 msgstr "सिमिलिट्यूड"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2394
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2386
 msgid "Rigid"
 msgstr "रिजिड"
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2535
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2941
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2527
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2929
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1062
 msgid "Lock Points"
 msgstr "लॉक बिंदू"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2537
-#: plugins/tools/tool_transform2/kis_tool_transform.cc:2936
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2529
+#: plugins/tools/tool_transform2/kis_tool_transform.cc:2924
 msgid "Unlock Points"
 msgstr "अनलॉक बिंदू"
 
-#: plugins/tools/tool_transform2/kis_tool_transform.h:439
+#: plugins/tools/tool_transform2/kis_tool_transform.h:438
 msgid "Transform a layer or a selection"
 msgstr "थर किंवा निवड रूपांतरित करा"
 
@@ -8678,47 +8523,8 @@ msgstr "बिंदू काढून टाका"
 msgid "Show Decorations"
 msgstr "डेकोरेशन्स दाखवा"
 
-#: ui/actions/kis_selection_action_factories.cpp:141
-msgid "Select All"
-msgstr "सर्व निवडा"
-
-#: ui/actions/kis_selection_action_factories.cpp:204
-#: ui/kis_selection_manager.cc:187
-msgid "Fill with Pattern"
-msgstr "पॅटर्नने भरा"
-
-#: ui/actions/kis_selection_action_factories.cpp:207
-#: ui/kis_selection_manager.cc:182
-msgid "Fill with Background Color"
-msgstr "पार्श्वभागाच्या रंगाने भरा"
-
-#: ui/actions/kis_selection_action_factories.cpp:210
-#: ui/kis_selection_manager.cc:177
-msgid "Fill with Foreground Color"
-msgstr "पुरोभागाच्या रंगाने भरा"
-
-#: ui/actions/kis_selection_action_factories.cpp:371
-msgid "Cut"
-msgstr "कापा"
-
-#: ui/actions/kis_selection_action_factories.cpp:371
-msgid "Copy"
-msgstr "प्रत बनवा"
-
-#: ui/actions/kis_selection_action_factories.cpp:395
-msgid "Copy Merged"
-msgstr "प्रत मिसळा"
-
-#: ui/actions/kis_selection_action_factories.cpp:429
-msgid "(pasted)"
-msgstr "(चिकटविले)"
-
-#: ui/actions/kis_selection_action_factories.cpp:470
-msgid "Pasted"
-msgstr "चिकटविले"
-
-#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:650
-#: ui/dialogs/kis_dlg_preferences.cc:651
+#: ui/canvas/kis_grid_manager.cpp:47 ui/dialogs/kis_dlg_preferences.cc:607
+#: ui/dialogs/kis_dlg_preferences.cc:608
 msgid "Grid"
 msgstr "जाळी"
 
@@ -8778,63 +8584,63 @@ msgstr "प्तिमेचे गुणधर्म"
 msgid "Layer Properties"
 msgstr "थराचे  गुणधर्म"
 
-#: ui/dialogs/kis_dlg_preferences.cc:96
+#: ui/dialogs/kis_dlg_preferences.cc:91
 msgid "Small Circle"
 msgstr "लहान वर्तुळ"
 
-#: ui/dialogs/kis_dlg_preferences.cc:248
+#: ui/dialogs/kis_dlg_preferences.cc:239
 msgid "Monitor profile: "
 msgstr "दर्शकाची माहितीः"
 
-#: ui/dialogs/kis_dlg_preferences.cc:253
+#: ui/dialogs/kis_dlg_preferences.cc:242
 msgid "&Monitor profile: "
 msgstr "&दर्शकाची माहितीः"
 
-#: ui/dialogs/kis_dlg_preferences.cc:608
+#: ui/dialogs/kis_dlg_preferences.cc:565
 msgid "Preferences"
 msgstr "प्राधान्ये"
 
-#. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgDisplaySettings)
-#: ui/dialogs/kis_dlg_preferences.cc:624 ui/dialogs/kis_dlg_preferences.cc:625
-#: ui/forms/wdgcolorsettings.ui:53 ui/forms/wdgdisplaysettings.ui:20
+#. i18n: ectx: property (title), widget (QGroupBox, grpDisplay)
+#: ui/dialogs/kis_dlg_preferences.cc:581 ui/dialogs/kis_dlg_preferences.cc:582
+#: ui/forms/wdgcolorsettings.ui:59 ui/forms/wdgdisplaysettings.ui:20
 msgid "Display"
 msgstr "प्रदर्शन"
 
-#: ui/dialogs/kis_dlg_preferences.cc:632
+#: ui/dialogs/kis_dlg_preferences.cc:589
 msgid "Color Management"
 msgstr "रंग व्यवस्थापन"
 
-#: ui/dialogs/kis_dlg_preferences.cc:641 ui/dialogs/kis_dlg_preferences.cc:642
+#: ui/dialogs/kis_dlg_preferences.cc:598 ui/dialogs/kis_dlg_preferences.cc:599
 msgid "Performance"
 msgstr "सादरीकरण"
 
-#: ui/dialogs/kis_dlg_preferences.cc:658
+#: ui/dialogs/kis_dlg_preferences.cc:615
 msgid "Tablet settings"
 msgstr "टॅबलेट सेटिंग"
 
-#: ui/dialogs/kis_dlg_preferences.cc:659
+#: ui/dialogs/kis_dlg_preferences.cc:616
 msgid "Tablet"
 msgstr "टॅबलेट"
 
-#: ui/dialogs/kis_dlg_preferences.cc:667
+#: ui/dialogs/kis_dlg_preferences.cc:624
 msgid "Canvas-only settings"
 msgstr "फक्त कॅनव्हासची सेटिंग्ज"
 
-#: ui/dialogs/kis_dlg_preferences.cc:668
+#: ui/dialogs/kis_dlg_preferences.cc:625
 msgid "Canvas-only"
 msgstr "फक्त कॅनव्हास"
 
-#: ui/dialogs/kis_dlg_preferences.cc:677
+#: ui/dialogs/kis_dlg_preferences.cc:634
 msgctxt "@title:tab Author page"
 msgid "Author"
 msgstr "लेखक"
 
-#: ui/dialogs/kis_dlg_preferences.cc:678
+#: ui/dialogs/kis_dlg_preferences.cc:635
 msgid "Author"
 msgstr "अधिकारी"
 
-#: ui/dialogs/kis_dlg_preferences.cc:775
+#: ui/dialogs/kis_dlg_preferences.cc:724
 msgid ""
 "You are trying to enable OpenGL\n"
 "\n"
@@ -8843,12 +8649,15 @@ msgid ""
 "\n"
 "Are you sure you want to enable OpenGL?\n"
 msgstr ""
-"तुम्ही OpenGL\n\" कार्यान्वित करण्याचा प्रयत्न करीत आहात"
-"पण क्रिता मध्ये पूर्वीही  OpenGL कॅनव्हासबद्दल अडचणी होत्या,\n"
+"तुम्ही OpenGL\n"
+"\" कार्यान्वित करण्याचा प्रयत्न करीत आहातपण क्रिता मध्ये पूर्वीही  OpenGL कॅनव्हासबद्दल "
+"अडचणी होत्या,\n"
 "त्या ड्रायव्हर प्रश्नांमुळे किंवा खिडकीच्या परिणामांमुळे असू शकतात.\n"
-"\n\" OpenGL?\n सुरू करण्याची आपल्याला खात्री आहे?\n"
+"\n"
+"\" OpenGL?\n"
+" सुरू करण्याची आपल्याला खात्री आहे?\n"
 
-#: ui/dialogs/kis_dlg_preferences.cc:778 ui/kis_aboutdata.h:31
+#: ui/dialogs/kis_dlg_preferences.cc:727 ui/kis_aboutdata.h:31
 msgid "Krita"
 msgstr "क्रिता"
 
@@ -8862,8 +8671,8 @@ msgstr "व्हेक्टर थर  %1"
 msgid "Matrix Widget"
 msgstr "मॅट्रिक्स विजेट"
 
-#. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
+#. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
 #: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:56
 msgid "Preview"
 msgstr "पूर्वावलोकन"
@@ -8945,9 +8754,9 @@ msgid ""
 "with it. If you do not select a profile, Krita will assume that the image "
 "data is encoded in the import profile defined in the Settings dialog."
 msgstr ""
-"तुम्ही ज्या प्रतिमेची माहिती चिकटवू पहात आहात  तिला ICM profile जोडलेली नाही. "
-" यामुळे तुम्ही  जर रूपरेषा निवडली नाही तर प्रतिमेची माहिती एन्कोडेड असून तो "
-"आयात केलेल्या रूपरेषेच्या जुळणीनुसार आहे असे समजेल"
+"तुम्ही ज्या प्रतिमेची माहिती चिकटवू पहात आहात  तिला ICM profile जोडलेली नाही.  यामुळे "
+"तुम्ही  जर रूपरेषा निवडली नाही तर प्रतिमेची माहिती एन्कोडेड असून तो आयात केलेल्या "
+"रूपरेषेच्या जुळणीनुसार आहे असे समजेल"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfile)
 #: ui/forms/wdgapplyprofile.ui:63
@@ -8971,17 +8780,15 @@ msgid ""
 "sacrificed to maintain the perceived color. White point changed to result in "
 "neutral grays. Intended for images."
 msgstr ""
-"स्पष्टता राखून ठेवली आहे ( उण आवश्यक नाही), हलकेपणा व गडदपणा अपेक्षित रंग "
-"टिकवण्यासाठी बदलले जातात पांढरा बिंदू इंटेंटेड प्रतिमांसाठी निष्क्रीय राखाडीत "
-"बदलला जातो."
+"स्पष्टता राखून ठेवली आहे ( उण आवश्यक नाही), हलकेपणा व गडदपणा अपेक्षित रंग टिकवण्यासाठी "
+"बदलले जातात पांढरा बिंदू इंटेंटेड प्रतिमांसाठी निष्क्रीय राखाडीत बदलला जातो."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioRelativeColorimetric)
 #: ui/forms/wdgapplyprofile.ui:115
 msgid ""
 "Within and outside gamut; same as Absolute Colorimetric. White point changed "
 "to result in neutral grays."
-msgstr ""
-"समूहात व बाहेर कलरीमेट्रिक प्रमाणेच.पांढरा बिंदू  निष्क्रीय राखाडीत बदलला आहे."
+msgstr "समूहात व बाहेर कलरीमेट्रिक प्रमाणेच.पांढरा बिंदू  निष्क्रीय राखाडीत बदलला आहे."
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioSaturation)
 #: ui/forms/wdgapplyprofile.ui:125
@@ -8990,9 +8797,9 @@ msgid ""
 "saturation. White point changed to result in neutral grays. Intended for "
 "business graphics (make it colorful charts, graphs, overheads, ...)"
 msgstr ""
-"स्पष्टता व गडदपणा राखला आहे पण हलकेपणात बदल गडदपणा राखण्यासाठी झाला आहे. "
-"पांढरा बिंदू  निष्क्रीय राखाडीत बदलला आहे तो व्यापारी चित्रासाठी अपेक्षित "
-"आहे.(यामुळे रंगीत कोष्टके, आलेख, ओव्हरहेडस् ...बनवता येतील "
+"स्पष्टता व गडदपणा राखला आहे पण हलकेपणात बदल गडदपणा राखण्यासाठी झाला आहे. पांढरा "
+"बिंदू  निष्क्रीय राखाडीत बदलला आहे तो व्यापारी चित्रासाठी अपेक्षित आहे.(यामुळे रंगीत "
+"कोष्टके, आलेख, ओव्हरहेडस् ...बनवता येतील "
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, radioAbsoluteColorimetric)
 #: ui/forms/wdgapplyprofile.ui:135
@@ -9002,10 +8809,9 @@ msgid ""
 "is sacrificed. White point for source and destination; unchanged. Intended "
 "for spot colors (Pantone, TruMatch, logo colors, ...)"
 msgstr ""
-"अपेक्षित साधन समूहात स्पष्टता, हलकेपणा, व गडदपणा राखले आहेत, समूहाबाहेर "
-"स्पष्टता व हलकेपणा राखले आहेत तर गडदपणा बदलला आहे. स्रोत व अपेक्षित ठिकाणांचा "
-"पांढरा बिंदू बदससा नाही. हे स्पॉट कलर्ससाठी अपेक्षित आहे. (पॅनटोन, ट्रूमॅच, "
-"लोगो कलर्स...)"
+"अपेक्षित साधन समूहात स्पष्टता, हलकेपणा, व गडदपणा राखले आहेत, समूहाबाहेर स्पष्टता व "
+"हलकेपणा राखले आहेत तर गडदपणा बदलला आहे. स्रोत व अपेक्षित ठिकाणांचा पांढरा बिंदू बदससा "
+"नाही. हे स्पॉट कलर्ससाठी अपेक्षित आहे. (पॅनटोन, ट्रूमॅच, लोगो कलर्स...)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
 #: ui/forms/wdgautogradient.ui:22 ui/widgets/kis_gradient_chooser.cc:43
@@ -9083,122 +8889,94 @@ msgstr "चालू बुकमार्क"
 msgid "Delete"
 msgstr "खोडा"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgColorSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgTabletSettings)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgColorSettings)
 #: ui/forms/wdgcolorsettings.ui:14 ui/forms/wdgtabletsettings.ui:20
 msgid "Color Settings"
 msgstr "गंगाची सेटिंग्ज"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: ui/forms/wdgcolorsettings.ui:28
+#: ui/forms/wdgcolorsettings.ui:34
 msgid "Default color model for new images:"
 msgstr "नव्या प्रतिमांसाठी प्राथमिक कलर मॉडेलः"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkUseSystemMonitorProfile)
-#: ui/forms/wdgcolorsettings.ui:65
-msgid "Use system monitor profile"
-msgstr "सिस्टीम दर्शक रूपरेषा वापरा"
-
 #. i18n: ectx: property (toolTip), widget (QLabel, lblMonitorProfile)
-#. i18n: ectx: property (toolTip), widget (QLabel, lblRenderingIntent)
-#: ui/forms/wdgcolorsettings.ui:83 ui/forms/wdgcolorsettings.ui:116
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_4)
+#: ui/forms/wdgcolorsettings.ui:79 ui/forms/wdgcolorsettings.ui:112
 msgid "The icm profile for your calibrated monitor"
 msgstr "तुमच्या कॅलिब्रेटेड दर्शकासाठी  icm रूपरेषा"
 
 #. i18n: ectx: property (text), widget (QLabel, lblMonitorProfile)
-#: ui/forms/wdgcolorsettings.ui:86
+#: ui/forms/wdgcolorsettings.ui:82
 msgid "&Monitor profile:"
 msgstr "&दर्शक रूपरेषा\""
 
-#. i18n: ectx: property (text), widget (QLabel, lblRenderingIntent)
-#: ui/forms/wdgcolorsettings.ui:119
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
+#: ui/forms/wdgcolorsettings.ui:115
 msgid "&Rendering intent:"
 msgstr "&Rendering intent:"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
-#: ui/forms/wdgcolorsettings.ui:141
+#: ui/forms/wdgcolorsettings.ui:137
 msgid "Relative Colorimetric"
 msgstr "सापेक्ष कलरिमेट्रिक"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
-#: ui/forms/wdgcolorsettings.ui:151
+#: ui/forms/wdgcolorsettings.ui:147
 msgid "Absolute Colorimetric"
 msgstr "शुध्द कलरिमेट्रिक"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: ui/forms/wdgcolorsettings.ui:167
+#: ui/forms/wdgcolorsettings.ui:163
 msgid "Printing"
 msgstr "छपाई"
 
 #. i18n: ectx: property (text), widget (QLabel, lbldefaultprinterspace)
-#: ui/forms/wdgcolorsettings.ui:178
+#: ui/forms/wdgcolorsettings.ui:174
 msgid "Default printer color model:"
 msgstr "प्राथमिक छपाई रंग मॉडेल"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel4)
-#: ui/forms/wdgcolorsettings.ui:188
+#: ui/forms/wdgcolorsettings.ui:184
 msgid "The icm profile for your calibrated printer"
 msgstr "तुमच्या कॅलिब्रेटेड प्रिंटरसाठी icm रूपरेषा "
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: ui/forms/wdgcolorsettings.ui:191
+#: ui/forms/wdgcolorsettings.ui:187
 msgid "Default &printer profile:"
 msgstr "प्राथमिक  &प्रिंटर रूपरेषाः"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpPasteBehaviour)
-#: ui/forms/wdgcolorsettings.ui:222
+#: ui/forms/wdgcolorsettings.ui:218
 msgid "When Pasting Into Krita From Other Applications"
 msgstr "इतर प्रणालीतून क्रितामध्ये चिकटवताना"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioPasteWeb)
-#: ui/forms/wdgcolorsettings.ui:234
+#: ui/forms/wdgcolorsettings.ui:230
 msgid "Assume sRGB (like images from the web are supposed to be seen)"
 msgstr "sRGB गृहीत धरा (जसे वेबवरील प्रतिमापाहण्यासाठी गृहीत)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioPasteMonitor)
-#: ui/forms/wdgcolorsettings.ui:241
+#: ui/forms/wdgcolorsettings.ui:237
 msgid "Assume monitor profile (like you see it in the other application)"
 msgstr "दर्शक रूपरेषा गृहीत धरा (जसे तुम्ही इतर प्रणालीत पाहता)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioPasteAsk)
-#: ui/forms/wdgcolorsettings.ui:248
+#: ui/forms/wdgcolorsettings.ui:244
 msgid "Ask each time"
 msgstr "प्रत्येक वेळी विचारा"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
-#: ui/forms/wdgcolorsettings.ui:255
+#: ui/forms/wdgcolorsettings.ui:251
 msgid "Note: When copying/pasting inside Krita color info is always preserved."
-msgstr ""
-"टीपः क्रितामध्ये प्रत बनवताना किंवा चिकटवताना नेहमीच रंग राखून ठेवले जातात."
+msgstr "टीपः क्रितामध्ये प्रत बनवताना किंवा चिकटवताना नेहमीच रंग राखून ठेवले जातात."
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkBlackpoint)
-#: ui/forms/wdgcolorsettings.ui:273
-msgid "Use Blackpoint Compensation"
+#: ui/forms/wdgcolorsettings.ui:269
+#, fuzzy
+#| msgid "Use Blackpoint Compensation"
+msgid "Use Blackpoint compensation"
 msgstr "कृष्णबिंदू बदल वापरा"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpOcio)
-#: ui/forms/wdgcolorsettings.ui:295
-msgid "OpenColorIO"
-msgstr "OpenColorIO"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/forms/wdgcolorsettings.ui:304
-msgid ""
-"OpenColorIO supports on the fly selection of LUTs, exposure and gamma for "
-"HDR images. (16 and 32 bit floating point.)."
-msgstr ""
-"OpenColorIO supports on the fly selection of LUTs, exposure and gamma for "
-"HDR images. (16 and 32 bit floating point.)."
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkOcioUseEnvironment)
-#: ui/forms/wdgcolorsettings.ui:317
-msgid "Use the OpenColorIO environment variable (OCIO)"
-msgstr "OpenColorIO परिस्थिती चलनासाठी वापरा ((OCIO)"
-
-#. i18n: ectx: property (text), widget (QLabel, lblOcioConfig)
-#: ui/forms/wdgcolorsettings.ui:329
-msgid "OpenColorIO configuration path:"
-msgstr "OpenColorIO configuration path:"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColorModels)
 #: ui/forms/wdgcolorspaceselector.ui:49
@@ -9377,9 +9155,9 @@ msgid ""
 "a shape or with the brush outline, \n"
 "then you can try to enable this."
 msgstr ""
-"यामुळे Qt. \n मधील बगवर काम करणे शक्य होते."
-"तुम्हाला निवड करताना, आकार किंवा कुंचला रूपरेषेत अडचणआल्यास तुम्ही हे "
-"सक्री.ॉय करू शकता"
+"यामुळे Qt. \n"
+" मधील बगवर काम करणे शक्य होते.तुम्हाला निवड करताना, आकार किंवा कुंचला रूपरेषेत "
+"अडचणआल्यास तुम्ही हे सक्री.ॉय करू शकता"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseOpenGLToolOutlineWorkaround)
 #: ui/forms/wdgdisplaysettings.ui:247
@@ -9650,8 +9428,7 @@ msgid ""
 "Select the set of active channels. Only active channels will be visible, "
 "filtered or affected by painting."
 msgstr ""
-"सक्रीय चॅनेलचा संच निवडा, फक्त सक्रीय चॅनेल्स दिसतील, चाळणीद्वारा किंवा "
-"पेंटिंगमुळे बाधित"
+"सक्रीय चॅनेलचा संच निवडा, फक्त सक्रीय चॅनेल्स दिसतील, चाळणीद्वारा किंवा पेंटिंगमुळे बाधित"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpActiveChannels)
 #: ui/forms/wdglayerproperties.ui:132
@@ -9864,12 +9641,12 @@ msgid ""
 "Note that this number is only a guideline for Krita, and is not guaranteed "
 "to be the actual number of tiles in memory."
 msgstr ""
-"\"tiles\"ची कमाल संख्या स्मरणातठेवली आहे. नियमित RGBA8 प्रतिमांसाठी प्रत्येत "
-"टाईल १६ केबी आकाराची आहे. म्हणून ५०० टाईल्सचा आकारसाधारणपणे ८मेगाबाईटस् इतका "
-"होतो.तो प्रतिमेच्या माहितीसाठी वापरला जातो. जर तुम्ही नियमितपणे मोठ्या "
-"प्रतिमा हाताळत असाल तर, मोठी संख्या उपयुक्त ठरेल.\n क्रितासाठी या फक्त "
-"मार्गदर्शक सूचना आहेत हे लक्षात घ्या, स्मरणातील प्रत्यक्ष टाईलच्या संख्येची "
-"कोणतीही हमी देता येत नाही."
+"\"tiles\"ची कमाल संख्या स्मरणातठेवली आहे. नियमित RGBA8 प्रतिमांसाठी प्रत्येत टाईल १६ "
+"केबी आकाराची आहे. म्हणून ५०० टाईल्सचा आकारसाधारणपणे ८मेगाबाईटस् इतका होतो.तो "
+"प्रतिमेच्या माहितीसाठी वापरला जातो. जर तुम्ही नियमितपणे मोठ्या प्रतिमा हाताळत असाल "
+"तर, मोठी संख्या उपयुक्त ठरेल.\n"
+" क्रितासाठी या फक्त मार्गदर्शक सूचना आहेत हे लक्षात घ्या, स्मरणातील प्रत्यक्ष टाईलच्या "
+"संख्येची कोणतीही हमी देता येत नाही."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: ui/forms/wdgperformancesettings.ui:29
@@ -9954,8 +9731,8 @@ msgid ""
 "Alternate Invocation performs an alternate action with the current tool. For "
 "example, using the brush tool it picks a color from the canvas."
 msgstr ""
-"सध्याच्या साधनावर Alternate Invocation पर्यायी कृती करते उदा. कुंचल्याचे साधन "
-"कॅनव्हास मधून रंग निवडते"
+"सध्याच्या साधनावर Alternate Invocation पर्यायी कृती करते उदा. कुंचल्याचे साधन कॅनव्हास "
+"मधून रंग निवडते"
 
 #: ui/input/kis_change_primary_setting_action.cpp:29
 msgid "Change Tool Primary Setting"
@@ -9965,10 +9742,9 @@ msgstr "साधनाची प्राथमिक सेटिंग्ज 
 msgid ""
 "Changes a tool's \"Primary Setting\", for example the brush size for the "
 "brush tool."
-msgstr ""
-"साधनाची \"Primary Setting\" बदला उदा. कुंचल्याचा आकार कुंचल्याच्या साधनासाठी"
+msgstr "साधनाची \"Primary Setting\" बदला उदा. कुंचल्याचा आकार कुंचल्याच्या साधनासाठी"
 
-#: ui/input/kis_input_manager.cpp:302
+#: ui/input/kis_input_manager.cpp:104
 msgid "Set Mirror Axis"
 msgstr "प्रतिबिंब अक्ष ठरवा"
 
@@ -9996,23 +9772,23 @@ msgstr "पॅन वर"
 msgid "Pan Down"
 msgstr "पॅन खाली"
 
-#: ui/input/kis_rotate_canvas_action.cpp:43
+#: ui/input/kis_rotate_canvas_action.cpp:42
 msgid "Rotate Canvas"
 msgstr "कॅनव्हास फिरवा"
 
-#: ui/input/kis_rotate_canvas_action.cpp:45
+#: ui/input/kis_rotate_canvas_action.cpp:44
 msgid "Toggle Rotate Mode"
 msgstr "Toggle Rotate Mode"
 
-#: ui/input/kis_rotate_canvas_action.cpp:46
+#: ui/input/kis_rotate_canvas_action.cpp:45
 msgid "Rotate Left"
 msgstr "डावीकडे फिरवा"
 
-#: ui/input/kis_rotate_canvas_action.cpp:47
+#: ui/input/kis_rotate_canvas_action.cpp:46
 msgid "Rotate Right"
 msgstr "उजवीकडे फिरवा"
 
-#: ui/input/kis_rotate_canvas_action.cpp:48
+#: ui/input/kis_rotate_canvas_action.cpp:47
 msgid "Reset Rotation"
 msgstr "परिवलन पुन्हा ठरवा"
 
@@ -10029,8 +9805,7 @@ msgid ""
 "Tool Invocation invokes the current tool, for example, using the brush tool, "
 "it will start painting."
 msgstr ""
-"Tool Invocation सध्याचे साधन पाचारण करते उदा. कुंचला साधन वापरताना ते पेंटिंग "
-"सुरू करते"
+"Tool Invocation सध्याचे साधन पाचारण करते उदा. कुंचला साधन वापरताना ते पेंटिंग सुरू करते"
 
 #: ui/input/kis_zoom_action.cpp:42
 msgid "Zoom Canvas"
@@ -10047,10 +9822,6 @@ msgstr "Reset Zoom to 100%"
 #: ui/input/kis_zoom_action.cpp:49
 msgid "Fit to Page"
 msgstr "पानाप्रमाणे जुळवा"
-
-#: ui/input/kis_zoom_action.cpp:50
-msgid "Fit to Width"
-msgstr "रुंदीप्रमाणे जुळवा"
 
 #: ui/kis_aboutdata.h:33
 msgid "Digital Painting for Artists"
@@ -10241,7 +10012,9 @@ msgid "Timothée Giet"
 msgstr "Timothée Giet"
 
 #: ui/kis_aboutdata.h:77
-msgid "BD Artist, brush presets and templates"
+#, fuzzy
+#| msgid "BD Artist, brush presets and templates"
+msgid "BD Artist and template developer"
 msgstr "BD Artist, कुंतला प्रीसेटस् व टेंपलेटस्"
 
 #: ui/kis_aboutdata.h:78
@@ -10294,11 +10067,10 @@ msgid ""
 "How do you want to interpret these data?"
 msgstr ""
 "तुम्ही चिकटवू पहात असलेल्या प्रतिमा माहितीची रंग रंगरूपरेषा माहिती नाही\n"
-"वेबवर व इतर साध्या प्रणालीत माहिती sRGB "
-"color format.\n मध्ये असण्याची अपेक्षा असते."
-"वेबप्रमाणे आयात करताना जशी दिसायला पाहिजे तशी माहिती दिसेल."
-"सर्व दर्शक परिपूर्ण नसताततेव्हा जर तुम्ही स्वतः प्रतिमा बनवली असेल तर "
-"तुम्हाला ती आयात करताना तुमच्या दर्शकावर दिसेल अशी हवी असेल.\n"
+"वेबवर व इतर साध्या प्रणालीत माहिती sRGB color format.\n"
+" मध्ये असण्याची अपेक्षा असते.वेबप्रमाणे आयात करताना जशी दिसायला पाहिजे तशी माहिती दिसेल."
+"सर्व दर्शक परिपूर्ण नसताततेव्हा जर तुम्ही स्वतः प्रतिमा बनवली असेल तर तुम्हाला ती आयात "
+"करताना तुमच्या दर्शकावर दिसेल अशी हवी असेल.\n"
 "ही माहिती तुम्हाला कशाप्रकारे सादर होणे अपेक्षित आहे"
 
 #: ui/kis_clipboard.cc:248
@@ -10309,7 +10081,7 @@ msgstr "&वेबप्रमाणे"
 msgid "As on &Monitor"
 msgstr "&दर्शकाप्रमाणे"
 
-#: ui/kis_composite_ops_model.cc:33
+#: ui/kis_composite_ops_model.cc:30
 msgid "Favorites"
 msgstr "आवडती"
 
@@ -10354,8 +10126,28 @@ msgstr "पॅलेटचे नावः"
 msgid ""
 "The current image is too big to create a pattern. The pattern will be scaled "
 "down."
+msgstr "सध्याची प्रतिमा पॅटर्न निर्मितीसाठी खूपच मोठी आहेपॅटर्नचा आकार घटवला जाईल"
+
+#: ui/kis_doc2.cc:452
+msgid ""
+"The Calligra LittleCMS color management plugin is not installed. Krita will "
+"quit now."
 msgstr ""
-"सध्याची प्रतिमा पॅटर्न निर्मितीसाठी खूपच मोठी आहेपॅटर्नचा आकार घटवला जाईल"
+"The Calligra LittleCMS color management plugin स्थापित केलेली नाही. क्रिता आता "
+"बंद होईल."
+
+#: ui/kis_doc2.cc:463
+#, kde-format
+msgid ""
+"Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
+"you have a graphics tablet it will not work correctly!"
+msgstr ""
+"योग्य रीतीने काम करण्यासाठी क्रिताला किमान Qt 4.6.3 ची आवश्यकता आहे. तुमची Qt आवृत्ती "
+"%1. जर तुमची ग्राफिक टॅबलेट असेल तर ती योग्य प्रकारे काम करणार नाही!"
+
+#: ui/kis_doc2.cc:476
+msgid "Installation error"
+msgstr "स्थापनातील चूक"
 
 #: ui/kis_filter_handler.cc:110
 #, kde-format
@@ -10382,89 +10174,81 @@ msgstr "चाळणी परत वापरा"
 msgid "Apply Filter Again: %1"
 msgstr "चाळणी परत वापराः%1"
 
-#: ui/kis_image_manager.cc:56
+#: ui/kis_image_manager.cc:55
 msgid "I&nsert Image as Layer..."
 msgstr "&प्रतिमा थर म्हणून भरा"
 
-#: ui/kis_image_manager.cc:60
+#: ui/kis_image_manager.cc:59
 msgid "Properties..."
 msgstr "गुणधर्म..."
 
-#: ui/kis_image_manager.cc:91
+#: ui/kis_image_manager.cc:90
 msgid "Import Image"
 msgstr "प्रतिमा आयात करा"
 
-#: ui/kis_layer_manager.cc:281
+#: ui/kis_layer_manager.cc:139
 msgid "&Flatten image"
 msgstr "&प्रतिमा सपाट करा"
 
-#: ui/kis_layer_manager.cc:291
+#: ui/kis_layer_manager.cc:149
 msgid "&Flatten Layer"
 msgstr "&थर सपाट करा"
 
-#: ui/kis_layer_manager.cc:295 ui/kis_layer_manager.cc:847
+#: ui/kis_layer_manager.cc:153 ui/kis_layer_manager.cc:717
 msgid "Rasterize Layer"
 msgstr "थराची पूर्वतयारी करा"
 
-#: ui/kis_layer_manager.cc:299
+#: ui/kis_layer_manager.cc:157
 msgid "Save Layer as Image..."
 msgstr "थर प्रतिमा म्हणून साठवा..."
 
-#: ui/kis_layer_manager.cc:303
-msgid "Save Group Layers..."
-msgstr "थरांचा समूह साठवा..."
-
-#: ui/kis_layer_manager.cc:307
+#: ui/kis_layer_manager.cc:161
 msgid "Size Canvas to Size of Current Layer"
 msgstr "सध्याच्या थराप्रमाणे कॅनव्हासचा आकार ठेवा"
 
-#: ui/kis_layer_manager.cc:311
+#: ui/kis_layer_manager.cc:165
+msgid "Duplicate current layer"
+msgstr "सध्याच्या थराची द्विरुक्ती करा"
+
+#: ui/kis_layer_manager.cc:170
 msgid "Add new paint layer"
 msgstr "पेंटचा नवा थर मिळवा"
 
-#: ui/kis_layer_manager.cc:378
+#: ui/kis_layer_manager.cc:237
 msgid "Filter Layer Properties"
 msgstr "चाळणी थराचे गुणधर्म"
 
-#: ui/kis_layer_manager.cc:423
+#: ui/kis_layer_manager.cc:278
 msgid "Generator Layer Properties"
 msgstr "निर्माता थराचे गुणधर्म"
 
-#: ui/kis_layer_manager.cc:481 ui/kis_layer_manager.cc:495
-#: ui/kis_layer_manager.cc:536 ui/kis_layer_manager.cc:567
-#: ui/kis_layer_manager.cc:668
+#: ui/kis_layer_manager.cc:329 ui/kis_layer_manager.cc:343
+#: ui/kis_layer_manager.cc:384 ui/kis_layer_manager.cc:415
+#: ui/kis_layer_manager.cc:538
 msgid "Could not add layer to image."
 msgstr "प्रतिमेत थर मिळवता आला नाही"
 
-#: ui/kis_layer_manager.cc:481 ui/kis_layer_manager.cc:495
-#: ui/kis_layer_manager.cc:536 ui/kis_layer_manager.cc:567
-#: ui/kis_layer_manager.cc:668
+#: ui/kis_layer_manager.cc:329 ui/kis_layer_manager.cc:343
+#: ui/kis_layer_manager.cc:384 ui/kis_layer_manager.cc:415
+#: ui/kis_layer_manager.cc:538
 msgid "Layer Error"
 msgstr "थाराची चूक"
 
-#: ui/kis_layer_manager.cc:591
+#: ui/kis_layer_manager.cc:439
 msgid "New Filter Layer"
 msgstr "नवीन चाळणी थर"
 
-#: ui/kis_layer_manager.cc:735
+#: ui/kis_layer_manager.cc:605
 msgid "Scale Layer"
 msgstr "थर चढवा"
 
-#: ui/kis_layer_manager.cc:777
+#: ui/kis_layer_manager.cc:647
 msgid "The image contains hidden layers that will be lost."
 msgstr "प्रतिमेत लपलेले थर असून ते नष्ट होतील"
 
-#: ui/kis_layer_manager.cc:779
+#: ui/kis_layer_manager.cc:649
 msgid "&Flatten Image"
 msgstr "&प्रतिमा सपाट करा"
-
-#: ui/kis_layer_manager.cc:935
-msgid "Convert Invisible Groups"
-msgstr "न दिसणारे समूह रूपांतरित करा"
-
-#: ui/kis_layer_manager.cc:938
-msgid "Export Only Toplevel Groups"
-msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
 #: ui/kis_mask_manager.cc:65
 msgid "Mask To Selection"
@@ -10506,45 +10290,29 @@ msgstr "ची द्विरुक्ती"
 msgid "Effect Mask Properties"
 msgstr "मुखवटा गुणधर्मांचे परिणाम"
 
-#: ui/kis_mirror_visitor.cpp:94 ui/kis_node_manager.cpp:511
+#: ui/kis_mirror_visitor.cpp:94 ui/kis_node_manager.cpp:485
 msgid "Mirror Layer X"
 msgstr " X थर प्रतिबिंबित करा"
 
-#: ui/kis_mirror_visitor.cpp:96 ui/kis_node_manager.cpp:524
+#: ui/kis_mirror_visitor.cpp:96 ui/kis_node_manager.cpp:498
 msgid "Mirror Layer Y"
 msgstr "Y थर प्रतिबिंबित करा"
 
-#: ui/kis_mirror_visitor.cpp:128 ui/kis_node_manager.cpp:513
+#: ui/kis_mirror_visitor.cpp:128 ui/kis_node_manager.cpp:487
 msgid "Mirror Mask X"
 msgstr "X मुखवटा प्रतिहबिंबित करा"
 
-#: ui/kis_mirror_visitor.cpp:130 ui/kis_node_manager.cpp:526
+#: ui/kis_mirror_visitor.cpp:130 ui/kis_node_manager.cpp:500
 msgid "Mirror Mask Y"
 msgstr "Y मुखवटा प्रतिहबिंबित करा"
 
-#: ui/kis_node_manager.cpp:149
+#: ui/kis_node_manager.cpp:147
 msgid "Mirror Horizontally"
 msgstr "आडव्या रीतीने प्रतिहबिंबित करा "
 
-#: ui/kis_node_manager.cpp:153
+#: ui/kis_node_manager.cpp:151
 msgid "Mirror Vertically"
 msgstr "उभ्या  रीतीने प्रतिहबिंबित करा "
-
-#: ui/kis_node_manager.cpp:157
-msgid "Duplicate current layer"
-msgstr "सध्याच्या थराची द्विरुक्ती करा"
-
-#: ui/kis_node_manager.cpp:162
-msgid "Delete current layer"
-msgstr "सध्याचा थर रद्द करा"
-
-#: ui/kis_node_manager.cpp:166
-msgid "Activate next layer"
-msgstr "पुढचा थर सक्रीय करा"
-
-#: ui/kis_node_manager.cpp:171
-msgid "Activate previous layer"
-msgstr "पूर्वीचा थर सक्रीय करा"
 
 #: ui/kis_node_model.cpp:379
 msgid "Alpha Locked"
@@ -10562,261 +10330,290 @@ msgstr "पेंटिंग सहायक दाखवा"
 msgid "Hide Painting Assistants"
 msgstr "पेंटिंग सहायक लपवा"
 
-#: ui/kis_paintop_box.cc:95
+#: ui/kis_paintop_box.cc:94
 msgid "Painter's Toolchest"
 msgstr "Painter's Toolchest"
 
-#: ui/kis_paintop_box.cc:99
+#: ui/kis_paintop_box.cc:98
 msgid "Edit brush settings"
 msgstr "कुंचल्याची सेटिंग्ज संपादित करा"
 
-#: ui/kis_paintop_box.cc:104
+#: ui/kis_paintop_box.cc:103
 msgid "Choose brush preset"
 msgstr "कुंचल्याचा प्रीसेट निवडा"
 
-#: ui/kis_paintop_box.cc:110
+#: ui/kis_paintop_box.cc:109
 msgid "Set eraser mode"
 msgstr "Set eraser mode"
 
-#: ui/kis_paintop_box.cc:120
+#: ui/kis_paintop_box.cc:119
 msgid "Set horizontal mirror mode"
 msgstr "आडवे प्रतिबिंब मोड सेट करा"
 
-#: ui/kis_paintop_box.cc:129
+#: ui/kis_paintop_box.cc:128
 msgid "Set vertical mirror mode"
 msgstr "उभे प्रतिबिंब मोड सेट करा"
 
-#: ui/kis_paintop_box.cc:138
+#: ui/kis_paintop_box.cc:137
 msgid "Flow:"
 msgstr "प्रवाहः"
 
-#: ui/kis_paintop_box.cc:161
+#: ui/kis_paintop_box.cc:160
 msgid "Mode: "
 msgstr "मोडः"
 
-#: ui/kis_paintop_box.cc:167
+#: ui/kis_paintop_box.cc:166
 msgid "Save to Palette"
 msgstr "पॅलेटमध्ये साठवा"
 
-#: ui/kis_paintop_box.cc:172
+#: ui/kis_paintop_box.cc:171
 msgid "Choose workspace"
 msgstr "कार्यक्षेत्र निवडा"
 
-#: ui/kis_paintop_box.cc:193
+#: ui/kis_paintop_box.cc:192
 msgid "Brush composite"
 msgstr "ब्रश कॉंपोझिट"
 
-#: ui/kis_paintop_box.cc:197
+#: ui/kis_paintop_box.cc:196
 msgid "Brush option slider 1"
 msgstr "कुंचला पर्याय पट्टी १"
 
-#: ui/kis_paintop_box.cc:202
+#: ui/kis_paintop_box.cc:201
 msgid "Brush option slider 2"
 msgstr "कुंचला पर्याय पट्टी२"
 
-#: ui/kis_paintop_box.cc:216
+#: ui/kis_paintop_box.cc:215
 msgid "Add to palette"
 msgstr "पॅलेटमध्ये मिळवा"
 
-#: ui/kis_paintop_box.cc:220
+#: ui/kis_paintop_box.cc:219
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
-#: ui/kis_palette_manager.cpp:65
+#: ui/kis_palette_manager.cpp:64
 msgid "Palette Manager"
 msgstr "पॅलेट व्यवस्थापक"
 
-#: ui/kis_palette_manager.cpp:83
+#: ui/kis_palette_manager.cpp:82
 msgid "Add to Palette"
 msgstr "पॅलेटमध्ये मिळवा"
 
-#: ui/kis_palette_manager.cpp:89
+#: ui/kis_palette_manager.cpp:88
 msgid "Available Presets"
 msgstr "उपलब्ध प्रीसेटस्"
 
-#: ui/kis_palette_manager.cpp:100
+#: ui/kis_palette_manager.cpp:99
 msgid "Remove Preset"
 msgstr "प्रीसेट काढा"
 
-#: ui/kis_palette_manager.cpp:106
+#: ui/kis_palette_manager.cpp:105
 msgid "Favorite Presets"
 msgstr "आवडते प्रीसेटस्"
 
-#: ui/kis_palette_manager.cpp:127 ui/widgets/kis_paintop_presets_chooser_popup.cpp:50
+#: ui/kis_palette_manager.cpp:126
+#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
 msgid "Thumbnails"
 msgstr "चित्रमुद्रा"
 
-#: ui/kis_palette_manager.cpp:132 ui/widgets/kis_paintop_presets_chooser_popup.cpp:55
+#: ui/kis_palette_manager.cpp:131
+#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
 msgid "Details"
 msgstr "तपशील"
-
-#: ui/kis_part2.cpp:93
-msgid ""
-"The Calligra LittleCMS color management plugin is not installed. Krita will "
-"quit now."
-msgstr ""
-"The Calligra LittleCMS color management plugin स्थापित केलेली नाही. क्रिता "
-"आता बंद होईल."
-
-#: ui/kis_part2.cpp:104
-#, kde-format
-msgid ""
-"Krita needs at least Qt 4.6.3 to work correctly. Your Qt version is %1. If "
-"you have a graphics tablet it will not work correctly!"
-msgstr ""
-"योग्य रीतीने काम करण्यासाठी क्रिताला किमान Qt 4.6.3 ची आवश्यकता आहे. तुमची Qt "
-"आवृत्ती %1. जर तुमची ग्राफिक टॅबलेट असेल तर ती योग्य प्रकारे काम करणार नाही!"
-
-#: ui/kis_part2.cpp:142
-msgid "Installation error"
-msgstr "स्थापनातील चूक"
 
 #: ui/kis_selection_decoration.cc:38
 msgid "Selection decoration"
 msgstr "निवडीचे डेकोरेशन"
 
-#: ui/kis_selection_manager.cc:137
+#: ui/kis_selection_manager.cc:134
 msgid "Paste into &New Image"
 msgstr "&नव्या प्तिमेत चिकटवा"
 
-#: ui/kis_selection_manager.cc:141
+#: ui/kis_selection_manager.cc:138
 msgid "Paste at cursor"
 msgstr "कर्सर म्हणून चिकटवा"
 
-#: ui/kis_selection_manager.cc:145
+#: ui/kis_selection_manager.cc:142
 msgid "Copy merged"
 msgstr "Copy merged"
 
-#: ui/kis_selection_manager.cc:157
+#: ui/kis_selection_manager.cc:154
 msgid "&Reselect"
 msgstr "&पुन्हा निवडा"
 
-#: ui/kis_selection_manager.cc:162
+#: ui/kis_selection_manager.cc:159
 msgid "&Invert Selection"
 msgstr "&उलटी निवड"
 
-#: ui/kis_selection_manager.cc:167
+#: ui/kis_selection_manager.cc:164
 msgid "Copy Selection to New Layer"
 msgstr "निवडलेले नव्या थरात टाका"
 
-#: ui/kis_selection_manager.cc:172
+#: ui/kis_selection_manager.cc:169
 msgid "Cut Selection to New Layer"
 msgstr "निवड नव्या थरातून काढून टाका"
 
-#: ui/kis_selection_manager.cc:191
+#: ui/kis_selection_manager.cc:174 ui/kis_selection_manager.cc:593
+msgid "Fill with Foreground Color"
+msgstr "पुरोभागाच्या रंगाने भरा"
+
+#: ui/kis_selection_manager.cc:179 ui/kis_selection_manager.cc:598
+msgid "Fill with Background Color"
+msgstr "पार्श्वभागाच्या रंगाने भरा"
+
+#: ui/kis_selection_manager.cc:184 ui/kis_selection_manager.cc:603
+msgid "Fill with Pattern"
+msgstr "पॅटर्नने भरा"
+
+#: ui/kis_selection_manager.cc:188
 msgid "Display Selection"
 msgstr "निवड दाखवा"
 
-#: ui/kis_selection_manager.cc:198
+#: ui/kis_selection_manager.cc:195
 msgid "Smooth..."
 msgstr "गुळगुळीत..."
 
-#: ui/kis_selection_manager.cc:202
+#: ui/kis_selection_manager.cc:199
 msgid "Size Canvas to Size of Selection"
 msgstr "निवडीच्या आकाराप्रमाणे कॅनव्हासचा आकार ठेवा"
 
-#: ui/kis_statusbar.cc:133
+#: ui/kis_selection_manager.cc:366
+msgid "Cut"
+msgstr "कापा"
+
+#: ui/kis_selection_manager.cc:440
+msgid "(pasted)"
+msgstr "(चिकटविले)"
+
+#: ui/kis_selection_manager.cc:475
+msgid "Pasted"
+msgstr "चिकटविले"
+
+#: ui/kis_selection_manager.cc:499
+msgid "Select All"
+msgstr "सर्व निवडा"
+
+#: ui/kis_selection_manager_p.h:107
+msgid "Erode Selection"
+msgstr "निवड पुसा"
+
+#: ui/kis_selection_manager_p.h:169
+msgid "Dilate Selection"
+msgstr "निवड विरळ करा"
+
+#: ui/kis_selection_manager_p.h:782
+msgid "Smooth Selection"
+msgstr "सुलभ निवढ"
+
+#: ui/kis_selection_manager_p.h:840
+msgid "Invert Selection"
+msgstr "उलट निवडा"
+
+#: ui/kis_statusbar.cc:132
 #, kde-format
 msgid "Selection Active: x = %1 y = %2 width = %3 height = %4"
 msgstr "Selection Active: x = %1 y = %2 width = %3 height = %4"
 
-#: ui/kis_statusbar.cc:137
+#: ui/kis_statusbar.cc:136
 msgid "No Selection"
 msgstr "निवड नाही"
 
-#: ui/kis_statusbar.cc:149
+#: ui/kis_statusbar.cc:148
 msgid "No profile"
 msgstr "रूपरेषा नाही"
 
-#: ui/kis_view2.cpp:268
+#: ui/kis_view2.cpp:272
 msgid "Save Incremental &Version"
 msgstr "Save Incremental &Version"
 
-#: ui/kis_view2.cpp:273
+#: ui/kis_view2.cpp:277
 msgid "Save Incremental Backup"
 msgstr "Save Incremental Backup"
 
-#: ui/kis_view2.cpp:285
+#: ui/kis_view2.cpp:289
 msgid "Total Refresh"
 msgstr "समपूर्ण पुन्हा नव्याने"
 
-#: ui/kis_view2.cpp:290
+#: ui/kis_view2.cpp:294
 msgid "&Create Template From Image..."
 msgstr "&प्रतिमेपासून टेंपलेट बनवा..."
 
-#: ui/kis_view2.cpp:294
+#: ui/kis_view2.cpp:298
 msgid "Mirror Image"
 msgstr "प्रतिमा प्रतिबिंबित करा"
 
-#: ui/kis_view2.cpp:300
+#: ui/kis_view2.cpp:304
 msgid "Rotate Canvas Right"
 msgstr "कॅनव्हास उजवीकडे फिरवा"
 
-#: ui/kis_view2.cpp:305
+#: ui/kis_view2.cpp:309
 msgid "Rotate Canvas Left"
 msgstr "कॅनव्हास डावीकडे फिरवा"
 
-#: ui/kis_view2.cpp:310
+#: ui/kis_view2.cpp:314
 msgid "Reset Canvas Transformations"
 msgstr "कॅनव्हासमधील बदल पुन्हा सेट करा"
 
-#: ui/kis_view2.cpp:315
+#: ui/kis_view2.cpp:319
 msgid "Show Status Bar"
 msgstr "स्थिती पट्टिका दाखवा"
 
-#: ui/kis_view2.cpp:316
+#: ui/kis_view2.cpp:320
 msgid "Hide Status Bar"
 msgstr "स्थिती पट्टिका लपवा"
 
-#: ui/kis_view2.cpp:318
+#: ui/kis_view2.cpp:322
 msgid "Shows or hides the status bar"
 msgstr "स्थिती पट्टिका लपवते किंवा दाखवते"
 
-#: ui/kis_view2.cpp:322
+#: ui/kis_view2.cpp:326
 msgid "Show Canvas Only"
 msgstr "फक्त कॅनव्हास दाखवा"
 
-#: ui/kis_view2.cpp:323
+#: ui/kis_view2.cpp:327
 msgid "Return to Window"
 msgstr "खिडकीकडे परत या"
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:328
 msgid "Shows just the canvas or the whole window"
 msgstr "फक्त कॅनव्हास किंवा संपूर्ण खिडकी दाखवतो"
 
-#: ui/kis_view2.cpp:519
+#: ui/kis_view2.cpp:524
 msgid "Insert as New Layer"
 msgstr "नवा थर म्हणून घाला"
 
-#: ui/kis_view2.cpp:520
+#: ui/kis_view2.cpp:525
 msgid "Insert as New Layers"
 msgstr "नवे थर म्हणून घाला"
 
-#: ui/kis_view2.cpp:522
+#: ui/kis_view2.cpp:527
 msgid "Open in New Document"
 msgstr "नव्या दस्तात उघडा"
 
-#: ui/kis_view2.cpp:523
+#: ui/kis_view2.cpp:528
 msgid "Open in New Documents"
 msgstr "नव्या दस्तांत उघडा"
 
-#: ui/kis_view2.cpp:525
+#: ui/kis_view2.cpp:530
 msgid "Replace Current Document"
 msgstr "सध्याचा दस्त रद्द करा"
 
-#: ui/kis_view2.cpp:527
+#: ui/kis_view2.cpp:532
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: ui/kis_view2.cpp:768
+#: ui/kis_view2.cpp:760
 msgid "Edit Palette..."
 msgstr "पॅलेट संपादित करा..."
 
-#: ui/kis_view2.cpp:898 ui/kis_view2.cpp:901
+#: ui/kis_view2.cpp:765
+msgid "&Themes"
+msgstr ""
+
+#: ui/kis_view2.cpp:896 ui/kis_view2.cpp:899
 msgid "Edit Palette"
 msgstr "लेट संपादित करा."
 
-#: ui/kis_view2.cpp:1276
+#: ui/kis_view2.cpp:1295
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -10825,20 +10622,20 @@ msgstr ""
 "कॅनव्हास फक्त मोडमध्ये जातो \n"
 "मागे जाण्यासाठी %1 दाबा"
 
-#: ui/kis_zoom_manager.cc:115
+#: ui/kis_zoom_manager.cc:113
 msgid "Show Rulers"
 msgstr "पट्ट्या दाखवा"
 
-#: ui/kis_zoom_manager.cc:117
+#: ui/kis_zoom_manager.cc:115
 msgid ""
 "The rulers show the horizontal and vertical positions of the mouse on the "
 "image and can be used to position your mouse at the right place on the "
 "canvas. <p>Uncheck this to hide the rulers."
 msgstr ""
-"प्रतिमेवर माऊसची उभी व आडवी ल्थिती पट्ट्या दाखवतात यामुळे कॅनव्हासवर योग्य "
-"जागी माऊस नेण्यास तुम्हाला मदत होईल<p> हे अनचेक केल्यास पट्ट्या लपवल्या जातील"
+"प्रतिमेवर माऊसची उभी व आडवी ल्थिती पट्ट्या दाखवतात यामुळे कॅनव्हासवर योग्य जागी माऊस "
+"नेण्यास तुम्हाला मदत होईल<p> हे अनचेक केल्यास पट्ट्या लपवल्या जातील"
 
-#: ui/kis_zoom_manager.cc:121
+#: ui/kis_zoom_manager.cc:119
 msgid "Reset zoom"
 msgstr "झूम रिसेट करा"
 
@@ -10846,7 +10643,7 @@ msgstr "झूम रिसेट करा"
 msgid "Iptc"
 msgstr "Iptc"
 
-#: ui/recorder/kis_node_query_path_editor.cc:86
+#: ui/recorder/kis_node_query_path_editor.cc:85
 msgid ""
 "<b>/</b> represents the root of the image, or a separator<br/>\n"
 "<b>a number</b> represents a layer<br/>\n"
@@ -10870,67 +10667,66 @@ msgstr ""
 "current layer<br/>\n"
 "<i>./0</i> represents the first child of the current layer"
 
-#: ui/tool/kis_tool.cc:114
+#: ui/thememanager.cpp:70
+#, fuzzy
+#| msgid "Default"
+msgctxt "default theme name"
+msgid "Default"
+msgstr "सुरुवातीचे"
+
+#: ui/thememanager.cpp:242
+#, fuzzy
+#| msgid "Configuration:"
+msgid "Configuration..."
+msgstr "रचना"
+
+#: ui/thememanager.cpp:256
+msgid ""
+"Cannot start Colors Settings panel from KDE Control Center. Please check "
+"your system..."
+msgstr ""
+
+#: ui/tool/kis_tool.cc:111
 msgid "Swap Foreground and Background Color"
 msgstr "पुरोभागाच्या व पार्श्वभागाच्या रंगांची अदलाबदल करा"
 
-#: ui/tool/kis_tool.cc:120
+#: ui/tool/kis_tool.cc:117
 msgid "Reset Foreground and Background Color"
 msgstr "\"पुरोभागाच्या व पार्श्वभागाच्या रंगांचे पुन्हा सेटिंग करा"
 
-#: ui/tool/kis_tool.cc:552
+#: ui/tool/kis_tool.cc:519
+msgid "Clear"
+msgstr "पुसून टाका"
+
+#: ui/tool/kis_tool.cc:547
 msgid "No options"
 msgstr "पर्याय नाहीत"
 
-#: ui/tool/kis_tool.cc:708
-msgid "Layer is locked and invisible."
-msgstr "थर अडकला असून दिसत नाही"
-
-#: ui/tool/kis_tool.cc:710
-msgid "Layer is locked."
-msgstr "थर अडकला"
-
-#: ui/tool/kis_tool.cc:712
-msgid "Layer is invisible."
-msgstr "थर दिसत नाही"
-
-#: ui/tool/kis_tool.cc:714
-msgid "Group not editable."
-msgstr "समूह संपादनास अयोग्य"
-
-#: ui/tool/kis_tool.cc:729
-msgid "Local selection is locked."
-msgstr "स्थनाक निवड अडकली"
-
-#: ui/tool/kis_tool_freehand.cc:91
+#: ui/tool/kis_tool_freehand.cc:90
 msgid "Increase Brush Size"
 msgstr "कुंचल्याचा आकार वाढवा"
 
-#: ui/tool/kis_tool_freehand.cc:97
+#: ui/tool/kis_tool_freehand.cc:96
 msgid "Decrease Brush Size"
 msgstr "कुंचल्याचा आकार घटवा"
-
-#: ui/tool/kis_tool_freehand.cc:219
-msgid "Can't paint on vector layer."
-msgstr "व्हेक्टर थरावर पेंट होऊ शकत नाही"
 
 #: ui/tool/kis_tool_freehand_helper.cpp:127
 msgid "Freehand Stroke"
 msgstr "मुक्तहस्त फटकारा"
 
-#: ui/tool/kis_tool_paint.cc:91
+#: ui/tool/kis_tool_paint.cc:92
 msgid "Make brush color lighter"
 msgstr "कुंचल्याचा रंग हलका करा"
 
-#: ui/tool/kis_tool_paint.cc:97
+#: ui/tool/kis_tool_paint.cc:98
 msgid "Make brush color darker"
 msgstr "कुंचल्याचा रंग  गडद करा"
 
-#: ui/tool/kis_tool_paint.cc:106
+#: ui/tool/kis_tool_paint.cc:107
 msgid "Increase opacity"
 msgstr "स्पष्टता वाढवा"
 
-#: ui/tool/kis_tool_paint.cc:112
+#: ui/tool/kis_tool_paint.cc:113
 msgid "Decrease opacity"
 msgstr "स्पष्टता घटवा"
 
@@ -10940,15 +10736,15 @@ msgid ""
 "affected by any operation."
 msgstr "या थरातील सक्रीय चॅनेलवर चेक करा  फक्त याच चॅनेलवर कृती होऊ शकेल"
 
-#: ui/widgets/kis_color_space_selector.cc:63
+#: ui/widgets/kis_color_space_selector.cc:62
 msgid "Open Color Profile"
 msgstr "खुली रंग रूपरेषा"
 
-#: ui/widgets/kis_color_space_selector.cc:66
+#: ui/widgets/kis_color_space_selector.cc:65
 msgid "Download Color Profile"
 msgstr "रंग रूपरेषेचे अवतरण करा"
 
-#: ui/widgets/kis_color_space_selector.cc:71
+#: ui/widgets/kis_color_space_selector.cc:70
 msgid "Share Color Profile"
 msgstr "रंग रूपरेषेचे विभाजन करा"
 
@@ -11022,4 +10818,217 @@ msgstr "कार्यक्षेत्र"
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र%1"
 
+#~ msgid "Use Blackpoint &Compensation"
+#~ msgstr "काळा बिंदू व &कसर वापरा"
 
+#~ msgid ""
+#~ "Allow Little CMS optimizations (uncheck when using linear light RGB or "
+#~ "XYZ)"
+#~ msgstr ""
+#~ "सीएमएसचे थोडे फेरफार वापरण्याची मुभा द्या (लिनियर लाईट आरजीबी किंवा एक्सबवायझेड "
+#~ "वापरताना अनचेक करा. "
+
+#~ msgid "LUT Management"
+#~ msgstr "लुट व्यवस्थापन"
+
+#~ msgid "Select custom configuration file."
+#~ msgstr "इच्छेप्रमाणे कॉंन्फिग्युरेशन फाईल निवडा"
+
+#~ msgid "Select LUT file"
+#~ msgstr "लुट फाईल निवडा"
+
+#~ msgid ""
+#~ "Select the amount of gamma modification for display. This does not affect "
+#~ "the pixels of your image."
+#~ msgstr ""
+#~ "प्रदर्शनासाठी गॅमा बदलाचे प्रमाण निवडा. यामुळे तुमच्या प्रतिमेच्या पिक्सलवर परिणाम होत "
+#~ "नाही"
+
+#~ msgid "Luminance"
+#~ msgstr "तेजस्विता"
+
+#~ msgid "All Channels"
+#~ msgstr "सर्व चॅनेल्स"
+
+#~ msgid "Use OpenColorIO"
+#~ msgstr "OpenColorIO वापरा"
+
+#~ msgid "Use Environment"
+#~ msgstr "परिसर वापरा"
+
+#~ msgid "Display Device:"
+#~ msgstr "प्रदर्शन यंत्र"
+
+#~ msgid "Components:"
+#~ msgstr "घटक"
+
+#~ msgid "Input ColorSpace:"
+#~ msgstr "कलरस्पेस भरा"
+
+#~ msgid "LUT file:"
+#~ msgstr "लुट फाईल"
+
+#~ msgid "Gamma:"
+#~ msgstr "गॅमाः"
+
+#~ msgid ""
+#~ "This image contains vector, clone or generated layers..\n"
+#~ "These layers will be saved as raster layers."
+#~ msgstr "हे थर रास्टर थर म्हणून साठवले जातील"
+
+#~ msgid "Warning"
+#~ msgstr "इशारा"
+
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> files "
+#~ "have <span style=\" font-style:italic;\">two</span> options to save <span "
+#~ "style=\" font-weight:600;\">sRGB</span> information: as a tag or as an "
+#~ "explicit profile. For use with in websites, <span style=\" font-style:"
+#~ "italic;\">disable</span> this option. For interchange with other "
+#~ "applications, <span style=\" font-style:italic;\">enable</span> this "
+#~ "option.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">PNG</span> files "
+#~ "have <span style=\" font-style:italic;\">two</span> options to save <span "
+#~ "style=\" font-weight:600;\">sRGB</span> information: as a tag or as an "
+#~ "explicit profile. For use with in websites, <span style=\" font-style:"
+#~ "italic;\">disable</span> this option. For interchange with other "
+#~ "applications, <span style=\" font-style:italic;\">enable</span> this "
+#~ "option.</p></body></html>\""
+
+#~ msgid "save sRGB profile"
+#~ msgstr "sRGB profile साठवा"
+
+#~ msgid "Precision:"
+#~ msgstr "काटेकोर"
+
+#~ msgid ""
+#~ "Precision Level 1 (fastest)\n"
+#~ "Subpixel precision: disabled\n"
+#~ "Brush size precision: 5%\n"
+#~ "\n"
+#~ "Optimal for very big brushes"
+#~ msgstr ""
+#~ "\"Precision Level 1 (fastest)\n"
+#~ "Subpixel precision: disabled\n"
+#~ "Brush size precision: 5%\n"
+#~ "\n"
+#~ "\" मोठ्या कुंचल्यांसाठी जुळविलेले"
+
+#~ msgid ""
+#~ "Precision Level 2\n"
+#~ "Subpixel precision: disabled\n"
+#~ "Brush size precision: 1%\n"
+#~ "\n"
+#~ "Optimal for big brushes"
+#~ msgstr ""
+#~ "\"Precision Level 2\n"
+#~ "Subpixel precision: disabled\n"
+#~ "Brush size precision: 1%\n"
+#~ "\n"
+#~ "\"मोठ्या कुंचल्यांसाठी जुळविलेले"
+
+#~ msgid ""
+#~ "Precision Level 3\n"
+#~ "Subpixel precision: disabled\n"
+#~ "Brush size precision: exact"
+#~ msgstr ""
+#~ "Precision Level 3\n"
+#~ "Subpixel precision: disabled\n"
+#~ "कुंचल्याचा काटेकोरः तोच आकार"
+
+#~ msgid ""
+#~ "Precision Level 4 (optimal)\n"
+#~ "Subpixel precision: 50%\n"
+#~ "Brush size precision: exact\n"
+#~ "\n"
+#~ "Gives up to 50% better performance in comparison to Level 5"
+#~ msgstr ""
+#~ "\"Precision Level 4 (optimal)\n"
+#~ "Subpixel precision: 50%\n"
+#~ "\"Brush size precision: exact\n"
+#~ "\n"
+#~ "पाचव्या पाळीपेक्षा ५० टक्के जास्त चांगले काम होते"
+
+#~ msgid ""
+#~ "Precision Level 5 (best quality)\n"
+#~ "Subpixel precision: exact\n"
+#~ "Brush size precision: exact\n"
+#~ "\n"
+#~ "The slowest performance. Best quality."
+#~ msgstr ""
+#~ "\"Precision Level 5 (best quality)\n"
+#~ "Subpixel precision: exact\n"
+#~ "Brush size precision: exact\n"
+#~ "\n"
+#~ "सर्वात मंद गतीचे काम पण उत्तम गुणवत्ता"
+
+#~ msgid "Grow/shrink selection: "
+#~ msgstr "वाढवा / घटवा निवडः"
+
+#~ msgid "Feathering radius: "
+#~ msgstr "फेदरिंग त्रिज्या"
+
+#~ msgid "Copy"
+#~ msgstr "प्रत बनवा"
+
+#~ msgid "Copy Merged"
+#~ msgstr "प्रत मिसळा"
+
+#~ msgid "Use system monitor profile"
+#~ msgstr "सिस्टीम दर्शक रूपरेषा वापरा"
+
+#~ msgid "OpenColorIO"
+#~ msgstr "OpenColorIO"
+
+#~ msgid ""
+#~ "OpenColorIO supports on the fly selection of LUTs, exposure and gamma for "
+#~ "HDR images. (16 and 32 bit floating point.)."
+#~ msgstr ""
+#~ "OpenColorIO supports on the fly selection of LUTs, exposure and gamma for "
+#~ "HDR images. (16 and 32 bit floating point.)."
+
+#~ msgid "Use the OpenColorIO environment variable (OCIO)"
+#~ msgstr "OpenColorIO परिस्थिती चलनासाठी वापरा ((OCIO)"
+
+#~ msgid "OpenColorIO configuration path:"
+#~ msgstr "OpenColorIO configuration path:"
+
+#~ msgid "Fit to Width"
+#~ msgstr "रुंदीप्रमाणे जुळवा"
+
+#~ msgid "Save Group Layers..."
+#~ msgstr "थरांचा समूह साठवा..."
+
+#~ msgid "Convert Invisible Groups"
+#~ msgstr "न दिसणारे समूह रूपांतरित करा"
+
+#~ msgid "Export Only Toplevel Groups"
+#~ msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
+
+#~ msgid "Delete current layer"
+#~ msgstr "सध्याचा थर रद्द करा"
+
+#~ msgid "Activate next layer"
+#~ msgstr "पुढचा थर सक्रीय करा"
+
+#~ msgid "Activate previous layer"
+#~ msgstr "पूर्वीचा थर सक्रीय करा"
+
+#~ msgid "Layer is locked and invisible."
+#~ msgstr "थर अडकला असून दिसत नाही"
+
+#~ msgid "Layer is locked."
+#~ msgstr "थर अडकला"
+
+#~ msgid "Layer is invisible."
+#~ msgstr "थर दिसत नाही"
+
+#~ msgid "Group not editable."
+#~ msgstr "समूह संपादनास अयोग्य"
+
+#~ msgid "Local selection is locked."
+#~ msgstr "स्थनाक निवड अडकली"
+
+#~ msgid "Can't paint on vector layer."
+#~ msgstr "व्हेक्टर थरावर पेंट होऊ शकत नाही"
