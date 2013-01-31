@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-16 02:22+0100\n"
+"POT-Creation-Date: 2013-01-21 09:40+0100\n"
 "PO-Revision-Date: 2013-01-31 11:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -342,11 +342,11 @@ msgid_plural " days"
 msgstr[0] " दिवस"
 msgstr[1] " दिवस"
 
-#: app/kateconfigplugindialogpage.cpp:71 plugins/pate/src/engine.cpp:181
+#: app/kateconfigplugindialogpage.cpp:71 plugins/pate/src/engine.cpp:208
 msgid "Name"
 msgstr "नाव"
 
-#: app/kateconfigplugindialogpage.cpp:71 plugins/pate/src/engine.cpp:181
+#: app/kateconfigplugindialogpage.cpp:71 plugins/pate/src/engine.cpp:208
 msgid "Comment"
 msgstr "टीप"
 
@@ -1038,7 +1038,8 @@ msgid ""
 "before closing?</qt>"
 msgstr ""
 
-#: app/katesavemodifieddialog.cpp:201 plugins/filetree/katefiletreeplugin.cpp:105
+#: app/katesavemodifieddialog.cpp:201
+#: plugins/filetree/katefiletreeplugin.cpp:105
 #: plugins/filetree/katefiletreeplugin.cpp:176
 msgid "Documents"
 msgstr "दस्तऐवज"
@@ -1260,12 +1261,12 @@ msgstr ""
 msgid "Open File"
 msgstr ""
 
-#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:389
+#: app/kateviewspace.cpp:277 app/kateviewspace.cpp:390
 #, kde-format
 msgid " Line: %1 Col: %2 "
 msgstr ""
 
-#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:395
+#: app/kateviewspace.cpp:285 app/kateviewspace.cpp:396
 #, kde-format
 msgid " Characters: %1 "
 msgstr " अक्षरे : %1"
@@ -1274,11 +1275,11 @@ msgstr " अक्षरे : %1"
 msgid " INS "
 msgstr " INS "
 
-#: app/kateviewspace.cpp:303 app/kateviewspace.cpp:404
+#: app/kateviewspace.cpp:303 app/kateviewspace.cpp:405
 msgid " LINE "
 msgstr " रेषा "
 
-#: app/kateviewspace.cpp:404
+#: app/kateviewspace.cpp:405
 msgid " BLOCK "
 msgstr " BLOCK "
 
@@ -1360,7 +1361,8 @@ msgstr ""
 msgid "Set view style to List Mode"
 msgstr ""
 
-#: plugins/filetree/katefiletree.cpp:76 plugins/filetree/katefiletreeconfigpage.cpp:87
+#: plugins/filetree/katefiletree.cpp:76
+#: plugins/filetree/katefiletreeconfigpage.cpp:87
 msgid "Document Name"
 msgstr ""
 
@@ -1376,7 +1378,8 @@ msgstr ""
 msgid "Sort by Document Path"
 msgstr ""
 
-#: plugins/filetree/katefiletree.cpp:85 plugins/filetree/katefiletreeconfigpage.cpp:86
+#: plugins/filetree/katefiletree.cpp:85
+#: plugins/filetree/katefiletreeconfigpage.cpp:86
 msgid "Opening Order"
 msgstr ""
 
@@ -1514,117 +1517,126 @@ msgid ""
 "list.</p>"
 msgstr ""
 
-#: plugins/pate/src/engine.cpp:294
+#: plugins/pate/src/engine.cpp:318
 msgid "Hidden"
 msgstr "लपलेले"
 
-#: plugins/pate/src/engine.cpp:392
+#: plugins/pate/src/engine.cpp:416
 #, kde-format
 msgid "Missing plugin file %1"
 msgstr ""
 
-#: plugins/pate/src/engine.cpp:410
+#: plugins/pate/src/engine.cpp:434
 msgid "Loaded"
 msgstr ""
 
-#: plugins/pate/src/engine.cpp:414
+#: plugins/pate/src/engine.cpp:439
 #, kde-format
 msgid "Not Loaded: %1"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelTopics)
-#: plugins/pate/src/info.ui:20
-msgid "Module:"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWebView, help)
-#: plugins/pate/src/info.ui:37
-msgid "Reference"
-msgstr ""
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab2)
-#: plugins/pate/src/info.ui:42
+#: plugins/pate/src/info.ui:21
 msgid "Actions"
 msgstr "क्रिया"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, menu)
-#: plugins/pate/src/info.ui:50
-msgid ""
-"The menu under which to place this item such as 'tools' or 'settings', or "
-"None."
-msgstr ""
-
 #. i18n: ectx: property (whatsThis), widget (KIconButton, actionIcon)
 #. i18n: ectx: property (whatsThis), widget (KIconButton, configPageIcon)
-#: plugins/pate/src/info.ui:63 plugins/pate/src/info.ui:170
+#: plugins/pate/src/info.ui:35 plugins/pate/src/info.ui:211
 msgid ""
 "The icon associated with this action. It is shown alongside text in the menu "
 "bar and in toolbars as required. A string to use KDE's image loading system, "
 "or a custom QPixmap or QIcon, or None."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelActionIcon)
-#. i18n: ectx: property (text), widget (QLabel, labelPageIcon)
-#: plugins/pate/src/info.ui:73 plugins/pate/src/info.ui:180
-msgid "Icon:"
-msgstr "चिन्ह :"
-
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, text)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, name)
-#: plugins/pate/src/info.ui:83 plugins/pate/src/info.ui:190
-msgid ""
-"The text associated with the action (used as the menu item label, etc), or "
-"None."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, shortcut)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, fullName)
-#: plugins/pate/src/info.ui:90 plugins/pate/src/info.ui:197
+#. i18n: ectx: property (whatsThis), widget (QLabel, shortcut)
+#. i18n: ectx: property (whatsThis), widget (QLabel, fullName)
+#: plugins/pate/src/info.ui:45 plugins/pate/src/info.ui:175
 msgid ""
 "The shortcut to fire this action such as 'Ctrl+1', or a QKeySequence "
 "instance, or None."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelMenu)
-#: plugins/pate/src/info.ui:97
-msgid "Menu:"
-msgstr "मेन्यू :"
+#. i18n: ectx: property (text), widget (QLabel, labelTopics)
+#: plugins/pate/src/info.ui:52
+#, fuzzy
+#| msgid "Action:"
+msgid "Description:"
+msgstr "कृतीः"
 
 #. i18n: ectx: property (text), widget (QLabel, labelText)
-#: plugins/pate/src/info.ui:107
-msgid "Text:"
-msgstr "मजकूर :"
+#: plugins/pate/src/info.ui:72
+#, fuzzy
+#| msgid "Menu:"
+msgid "Menu Item:"
+msgstr "मेन्यू :"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, text)
+#. i18n: ectx: property (whatsThis), widget (QLabel, name)
+#: plugins/pate/src/info.ui:85 plugins/pate/src/info.ui:234
+msgid ""
+"The text associated with the action (used as the menu item label, etc), or "
+"None."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, menu)
+#: plugins/pate/src/info.ui:92
+msgid ""
+"The menu under which to place this item such as 'tools' or 'settings', or "
+"None."
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelShortcut)
-#: plugins/pate/src/info.ui:117
+#: plugins/pate/src/info.ui:99
 msgid "Shortcut:"
 msgstr "शॉर्टकट :"
 
-#. i18n: ectx: property (text), widget (QLabel, labelActions)
-#: plugins/pate/src/info.ui:127
+#. i18n: ectx: property (text), widget (QLabel, labelMenu)
+#: plugins/pate/src/info.ui:112
+msgid "Menu:"
+msgstr "मेन्यू :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelActionIcon)
+#. i18n: ectx: property (text), widget (QLabel, labelPageIcon)
+#: plugins/pate/src/info.ui:125 plugins/pate/src/info.ui:192
+msgid "Icon:"
+msgstr "चिन्ह :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/pate/src/info.ui:141
 msgid "Action:"
 msgstr "कृतीः"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab3)
-#: plugins/pate/src/info.ui:156
+#: plugins/pate/src/info.ui:167
 msgid "Configuration Pages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/pate/src/info.ui:182
+msgid "Title:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelName)
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: plugins/pate/src/info.ui:204 plugins/pate/src/plugins/console/config.ui:107
+#: plugins/pate/src/info.ui:221 plugins/pate/src/plugins/console/config.ui:107
 msgid "Name:"
 msgstr "नाव :"
 
-#. i18n: ectx: property (text), widget (QLabel, labelFullName)
-#: plugins/pate/src/info.ui:214
-msgid "Full Name:"
-msgstr "पूर्ण नाव :"
-
-#. i18n: ectx: property (text), widget (QLabel, labelConfigPages)
-#: plugins/pate/src/info.ui:224
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/pate/src/info.ui:244
 msgid "Page:"
 msgstr "पान :"
+
+#. i18n: ectx: attribute (title), widget (QWebView, help)
+#: plugins/pate/src/info.ui:270
+msgid "Programmer's Reference"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, topics)
+#: plugins/pate/src/info.ui:278
+msgid "Select a Plugin or Built-in Module"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, errorLabel)
 #: plugins/pate/src/manager.ui:23
@@ -1633,26 +1645,23 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, manageTab)
 #: plugins/pate/src/manager.ui:31
-msgid "Manage"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/pate/src/manager.ui:46
-msgid "Reload Selected Plugins"
+msgid "Manager"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/pate/src/manager.ui:52
+#: plugins/pate/src/manager.ui:37
 msgid ""
-"Reloading a running plugin may have unpredictable effects. Consider saving "
-"your work before using this command. Note that other modules will not be "
-"reloaded."
+"<html><head/><body><p>Reloading a running plugin may have unpredictable "
+"effects. Consider saving your work before using this command.</p></body></"
+"html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, reload)
-#: plugins/pate/src/manager.ui:62
-msgid "Reload"
-msgstr "पुन्हा दाखल करा"
+#: plugins/pate/src/manager.ui:47
+#, fuzzy
+#| msgid "Plugins"
+msgid "Reload Plugins"
+msgstr "प्लगइन्स"
 
 #: plugins/pate/src/plugin.cpp:83 plugins/pate/src/plugin.cpp:114
 msgid "Pate engine could not be initialised"
@@ -1667,8 +1676,10 @@ msgid "Pâté host for Python plugins"
 msgstr ""
 
 #: plugins/pate/src/plugin.cpp:267
-msgid "Modules"
-msgstr "विभाग"
+#, fuzzy
+#| msgid "Documents"
+msgid "Documentation"
+msgstr "दस्तऐवज"
 
 #. i18n: ectx: property (windowTitle), widget (KTabWidget, ConsoleConfig)
 #: plugins/pate/src/plugins/console/config.ui:14
@@ -1917,20 +1928,6 @@ msgstr ""
 msgid "Filter:"
 msgstr "चाळणीः"
 
-#: plugins/pate/src/utilities.cpp:353
-msgid "Configuration group name not a string"
-msgstr ""
-
-#: plugins/pate/src/utilities.cpp:358
-#, kde-format
-msgid "Configuration group %1 top level key not a dictionary"
-msgstr ""
-
-#: plugins/pate/src/utilities.cpp:369
-#, kde-format
-msgid "Configuration group %1 itemKey not a string"
-msgstr ""
-
 #. i18n: ectx: @info:tipoftheday
 #: tips:2
 msgid ""
@@ -2084,4 +2081,14 @@ msgid ""
 "next/previous frame.</p>\n"
 msgstr ""
 
+#~ msgid "Text:"
+#~ msgstr "मजकूर :"
 
+#~ msgid "Full Name:"
+#~ msgstr "पूर्ण नाव :"
+
+#~ msgid "Reload"
+#~ msgstr "पुन्हा दाखल करा"
+
+#~ msgid "Modules"
+#~ msgstr "विभाग"
