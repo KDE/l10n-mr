@@ -253,8 +253,7 @@ msgid "Remove &duplicate log lines (may be slower)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/generalConfigurationWidgetBase.ui:107
-#: src/loggerDialogBase.ui:206
+#: src/generalConfigurationWidgetBase.ui:107 src/loggerDialogBase.ui:206
 msgid "Options"
 msgstr "पर्याय"
 
@@ -421,8 +420,7 @@ msgstr[1] "लोड करीत आहे <b>%2</b>...<br /><i>%3</i> - (<b>%4
 msgid "Reloading <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>)"
 msgid_plural "Reloading <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>/%1 files)"
 msgstr[0] "पुन्हा लोड करीत आहे <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>)"
-msgstr[1] ""
-"पुन्हा लोड करीत आहे <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>/%1 फाईल्स)"
+msgstr[1] "पुन्हा लोड करीत आहे <b>%2</b>...<br /><i>%3</i> - (<b>%4</b>/%1 फाईल्स)"
 
 #: src/lib/loadingBar.cpp:105
 #, kde-format
@@ -434,7 +432,8 @@ msgstr "लोड करीत आहे <b>%1</b>...<br /><i>%2</i>"
 msgid "Reloading <b>%1</b>...<br /><i>%2</i>"
 msgstr "पुन्हा लोड करीत आहे <b>%1</b>...<br /><i>%2</i>"
 
-#: src/lib/localLogFileReader.cpp:115 src/lib/processOutputLogFileReader.cpp:109
+#: src/lib/localLogFileReader.cpp:115
+#: src/lib/processOutputLogFileReader.cpp:109
 msgid "This file is not valid. Please adjust it in the settings of KSystemLog."
 msgstr ""
 
@@ -481,9 +480,10 @@ msgid "URL '%1' is not valid, skipping this URL."
 msgstr ""
 
 #: src/lib/logModeItemBuilder.cpp:68 src/lib/logModeItemBuilder.cpp:85
-#: src/modes/acpid/acpidItemBuilder.h:57 src/modes/apache/apacheAccessItemBuilder.h:55
-#: src/modes/apache/apacheItemBuilder.h:55
-#: src/modes/cron/cronItemBuilder.h:55 src/modes/cups/cupsAccessItemBuilder.h:55
+#: src/modes/acpid/acpidItemBuilder.h:57
+#: src/modes/apache/apacheAccessItemBuilder.h:55
+#: src/modes/apache/apacheItemBuilder.h:55 src/modes/cron/cronItemBuilder.h:55
+#: src/modes/cups/cupsAccessItemBuilder.h:55
 #: src/modes/cups/cupsItemBuilder.h:53 src/modes/cups/cupsPageItemBuilder.h:55
 #: src/modes/cups/cupsPdfItemBuilder.h:55
 #: src/modes/kernel/kernelItemBuilder.h:57
@@ -501,9 +501,10 @@ msgid "Process:"
 msgstr ""
 
 #: src/lib/logModeItemBuilder.cpp:71 src/lib/logModeItemBuilder.cpp:86
-#: src/modes/acpid/acpidItemBuilder.h:58 src/modes/apache/apacheAccessItemBuilder.h:56
-#: src/modes/apache/apacheItemBuilder.h:56
-#: src/modes/cron/cronItemBuilder.h:59 src/modes/cups/cupsAccessItemBuilder.h:56
+#: src/modes/acpid/acpidItemBuilder.h:58
+#: src/modes/apache/apacheAccessItemBuilder.h:56
+#: src/modes/apache/apacheItemBuilder.h:56 src/modes/cron/cronItemBuilder.h:59
+#: src/modes/cups/cupsAccessItemBuilder.h:56
 #: src/modes/cups/cupsItemBuilder.h:54 src/modes/cups/cupsPageItemBuilder.h:56
 #: src/modes/cups/cupsPdfItemBuilder.h:56
 #: src/modes/kernel/kernelItemBuilder.h:58
@@ -636,9 +637,9 @@ msgstr ""
 msgid "Process Crashed"
 msgstr ""
 
-#: src/loggerDialog.cpp:91 src/loggerDialog.cpp:124 src/modes/apache/apacheAccessAnalyzer.h:56
-#: src/modes/cron/cronAnalyzer.h:54 src/modes/cups/cupsAccessAnalyzer.h:56
-#: src/modes/cups/cupsPageAnalyzer.h:55
+#: src/loggerDialog.cpp:91 src/loggerDialog.cpp:124
+#: src/modes/apache/apacheAccessAnalyzer.h:56 src/modes/cron/cronAnalyzer.h:54
+#: src/modes/cups/cupsAccessAnalyzer.h:56 src/modes/cups/cupsPageAnalyzer.h:55
 msgid "User"
 msgstr "वापरकर्ता"
 
@@ -1142,7 +1143,8 @@ msgstr ""
 msgid "Others"
 msgstr "इतर"
 
-#: src/modes/acpid/acpidAnalyzer.h:49 src/modes/apache/apacheAccessAnalyzer.h:53
+#: src/modes/acpid/acpidAnalyzer.h:49
+#: src/modes/apache/apacheAccessAnalyzer.h:53
 #: src/modes/apache/apacheAnalyzer.h:53 src/modes/base/syslogAnalyzer.cpp:58
 #: src/modes/cron/cronAnalyzer.h:51 src/modes/cups/cupsAccessAnalyzer.h:53
 #: src/modes/cups/cupsAnalyzer.h:55 src/modes/cups/cupsPageAnalyzer.h:53
@@ -1424,7 +1426,8 @@ msgid "&Remove"
 msgstr "काढून टाका (&R)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, removeAll)
-#: src/modes/base/fileListBase.ui:100 src/modes/base/multipleFileListBase.ui:99
+#: src/modes/base/fileListBase.ui:100
+#: src/modes/base/multipleFileListBase.ui:99
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1450,12 +1453,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, removeAll)
-#: src/modes/base/fileListBase.ui:109 src/modes/base/multipleFileListBase.ui:108
+#: src/modes/base/fileListBase.ui:109
+#: src/modes/base/multipleFileListBase.ui:108
 msgid "Rem&ove All"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, up)
-#: src/modes/base/fileListBase.ui:122 src/modes/base/multipleFileListBase.ui:121
+#: src/modes/base/fileListBase.ui:122
+#: src/modes/base/multipleFileListBase.ui:121
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1482,12 +1487,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, up)
-#: src/modes/base/fileListBase.ui:131 src/modes/base/multipleFileListBase.ui:130
+#: src/modes/base/fileListBase.ui:131
+#: src/modes/base/multipleFileListBase.ui:130
 msgid "Move &Up"
 msgstr "वर हलवा (&U)"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, down)
-#: src/modes/base/fileListBase.ui:141 src/modes/base/multipleFileListBase.ui:140
+#: src/modes/base/fileListBase.ui:141
+#: src/modes/base/multipleFileListBase.ui:140
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
 "\">\n"
@@ -1514,7 +1521,8 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, down)
-#: src/modes/base/fileListBase.ui:150 src/modes/base/multipleFileListBase.ui:149
+#: src/modes/base/fileListBase.ui:150
+#: src/modes/base/multipleFileListBase.ui:149
 msgid "Move &Down"
 msgstr "खाली हलवा (&D)"
 
@@ -2179,7 +2187,8 @@ msgstr ""
 msgid "<p>These files will be analyzed to show the <b>X.org log</b>.</p>"
 msgstr ""
 
-#: src/modes/xorg/xorgItemBuilder.h:74 src/modes/xsession/xsessionItemBuilder.h:74
+#: src/modes/xorg/xorgItemBuilder.h:74
+#: src/modes/xsession/xsessionItemBuilder.h:74
 msgid "none"
 msgstr "काही नाही"
 
@@ -2287,4 +2296,3 @@ msgstr ""
 #: src/tabLogViewsWidget.cpp:109
 msgid "No Log"
 msgstr ""
-
