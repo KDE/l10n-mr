@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-17 03:19+0100\n"
+"POT-Creation-Date: 2013-01-08 12:33+0100\n"
 "PO-Revision-Date: 2013-02-02 12:04+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -195,10 +195,10 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalDownloadLimit)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_GlobalUploadLimit)
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_TransferSpeedLimit)
-#. i18n: ectx: property (suffix), widget (QSpinBox, uploadSpin)
-#. i18n: ectx: property (suffix), widget (QSpinBox, downloadSpin)
 #. i18n: ectx: property (suffix), widget (QSpinBox, downloadBox)
 #. i18n: ectx: property (suffix), widget (QSpinBox, uploadBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, uploadSpin)
+#. i18n: ectx: property (suffix), widget (QSpinBox, downloadSpin)
 #: conf/dlgnetwork.ui:54 conf/dlgnetwork.ui:80 conf/dlgnetwork.ui:103
 #: ui/groupsettingsdialog.ui:90 ui/groupsettingsdialog.ui:109
 #: ui/transfersettingsdialog.ui:58 ui/transfersettingsdialog.ui:74
@@ -245,7 +245,8 @@ msgid "Enable Web Interface"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, portLabel)
-#: conf/dlgwebinterface.ui:32 transfer-plugins/bittorrent/btsettingswidget.ui:32
+#: conf/dlgwebinterface.ui:32
+#: transfer-plugins/bittorrent/btsettingswidget.ui:32
 msgid "Port:"
 msgstr "पोर्ट :"
 
@@ -255,7 +256,8 @@ msgid "User:"
 msgstr "वापरकर्ता :"
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
-#: conf/dlgwebinterface.ui:60 transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
+#: conf/dlgwebinterface.ui:60
+#: transfer-plugins/contentfetch/scripts/youtubedl/youtube_option.ui:87
 msgid "Password:"
 msgstr "गुप्तशब्द :"
 
@@ -317,7 +319,8 @@ msgid "Manage the groups"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, networkGroupBox)
-#: conf/preferencesdialog.cpp:76 transfer-plugins/bittorrent/btsettingswidget.ui:23
+#: conf/preferencesdialog.cpp:76
+#: transfer-plugins/bittorrent/btsettingswidget.ui:23
 msgid "Network"
 msgstr "संजाळ"
 
@@ -385,8 +388,8 @@ msgid "Strongest (slowest)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, signatureGroup)
-#. i18n: ectx: property (text), widget (KPushButton, signature)
 #. i18n: ectx: property (title), widget (QGroupBox, sigGroup)
+#. i18n: ectx: property (text), widget (KPushButton, signature)
 #: conf/verificationpreferences.ui:78 ui/signaturedlg.ui:20
 #: ui/transfersettingsdialog.ui:176
 msgid "Signature"
@@ -407,16 +410,16 @@ msgstr ""
 msgid "Keyservers:"
 msgstr ""
 
+#: core/datasourcefactory.cpp:279
+msgid "Filesize is larger than maximum file size supported by VFAT."
+msgstr ""
+
 #: core/datasourcefactory.cpp:279 core/datasourcefactory.cpp:624
 #: core/kget.cpp:1393 transfer-plugins/metalink/metalink.cpp:202
 #: ui/metalinkcreator/metalinkcreator.cpp:161
 #: ui/metalinkcreator/metalinkcreator.cpp:178
 msgid "Error"
 msgstr "त्रुटी"
-
-#: core/datasourcefactory.cpp:279
-msgid "Filesize is larger than maximum file size supported by VFAT."
-msgstr ""
 
 #: core/datasourcefactory.cpp:624
 #, kde-format
@@ -811,7 +814,8 @@ msgctxt "stop transfergroup downloads"
 msgid "Stop"
 msgstr "थांबा"
 
-#: core/transferhandler.cpp:137 transfer-plugins/bittorrent/btdetailswidget.cpp:27
+#: core/transferhandler.cpp:137
+#: transfer-plugins/bittorrent/btdetailswidget.cpp:27
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:28
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:29
 #: transfer-plugins/bittorrent/btdetailswidget.cpp:30
@@ -903,7 +907,8 @@ msgstr ""
 msgid "No URL specified."
 msgstr ""
 
-#: core/urlchecker.cpp:322 transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
+#: core/urlchecker.cpp:322
+#: transfer-plugins/bittorrent/advanceddetails/trackerview.cpp:94
 #: transfer-plugins/bittorrent/bttransfer.cpp:256
 msgid "Malformed URL."
 msgstr ""
@@ -2467,17 +2472,17 @@ msgctxt "the type of the checksum e.g. md5"
 msgid "Checksum type"
 msgstr ""
 
-#. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
 #. i18n: ectx: label, entry (SearchStrings), group (ChecksumSearch)
+#. i18n: ectx: label, entry (SearchEnginesNameList), group (SearchEngines)
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:9
 #: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.kcfg:12
 msgid "List of the available search engines"
 msgstr ""
 
-#. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
-#. i18n: ectx: label, entry (PathList), group (UserScripts)
 #. i18n: ectx: label, entry (UrlChangeModeList), group (ChecksumSearch)
 #. i18n: ectx: label, entry (ChecksumTypeList), group (ChecksumSearch)
+#. i18n: ectx: label, entry (PathList), group (UserScripts)
+#. i18n: ectx: label, entry (SearchEnginesUrlList), group (SearchEngines)
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:13
 #: transfer-plugins/checksumsearch/kget_checksumsearchfactory.kcfg:17
 #: transfer-plugins/contentfetch/kget_contentfetchfactory.kcfg:13
@@ -2531,8 +2536,8 @@ msgstr "वर्णन"
 msgid "New Script...."
 msgstr "नविन स्क्रिप्ट...."
 
-#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
 #. i18n: ectx: property (text), widget (QPushButton, removeScriptButton)
+#. i18n: ectx: property (text), widget (QPushButton, removeEngineBt)
 #: transfer-plugins/contentfetch/dlgcontentfetchsettingwidget.ui:67
 #: transfer-plugins/mirrorsearch/dlgmirrorsearch.ui:62
 msgid "Remove"
@@ -2688,8 +2693,8 @@ msgstr ""
 msgid "Number of mirrors per file:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: transfer-plugins/metalink/dlgmetalink.ui:56
 #: transfer-plugins/mmsthreads/dlgmms.ui:22
 #: transfer-plugins/multisegmentkio/dlgmultisegkio.ui:22
@@ -2874,11 +2879,11 @@ msgstr ""
 msgid "*movies*"
 msgstr "*मूव्हीज*"
 
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadSpin)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadSpin)
 #. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, ratioSpin)
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, downloadBox)
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, uploadBox)
 #: ui/groupsettingsdialog.ui:87 ui/groupsettingsdialog.ui:106
 #: ui/transfersettingsdialog.ui:55 ui/transfersettingsdialog.ui:71
 #: ui/transfersettingsdialog.ui:87
@@ -2960,11 +2965,13 @@ msgstr ""
 msgid "More than 1GiB"
 msgstr ""
 
-#: ui/history/transferhistory.cpp:271 ui/history/transferhistorycategorizeddelegate.cpp:45
+#: ui/history/transferhistory.cpp:271
+#: ui/history/transferhistorycategorizeddelegate.cpp:45
 msgid "Today"
 msgstr "आज"
 
-#: ui/history/transferhistory.cpp:272 ui/history/transferhistorycategorizeddelegate.cpp:49
+#: ui/history/transferhistory.cpp:272
+#: ui/history/transferhistorycategorizeddelegate.cpp:49
 msgid "Last week"
 msgstr "मागील आठवडा"
 
@@ -2972,7 +2979,8 @@ msgstr "मागील आठवडा"
 msgid "Last month"
 msgstr "मागील महीना"
 
-#: ui/history/transferhistory.cpp:274 ui/history/transferhistorycategorizeddelegate.cpp:57
+#: ui/history/transferhistory.cpp:274
+#: ui/history/transferhistorycategorizeddelegate.cpp:57
 msgid "A long time ago"
 msgstr "खूप काळापूर्वी"
 
@@ -3966,4 +3974,3 @@ msgstr "तपासणी (&V)"
 #: ui/verificationdialog.ui:71
 msgid "Verifying:"
 msgstr ""
-
