@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-17 05:23+0100\n"
+"POT-Creation-Date: 2013-02-11 17:31+0100\n"
 "PO-Revision-Date: 2013-02-05 12:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,6 +17,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
+#: behavior-config.cpp:49
+msgctxt ""
+"Part of config 'show last [spin box] messages' This is the suffix to the "
+"spin box. Be sure to include leading space"
+msgid " message"
+msgid_plural " messages"
+msgstr[0] ""
+msgstr[1] ""
+
 #. i18n: ectx: property (title), widget (KButtonGroup, newTabGroup)
 #: behavior-config.ui:17
 msgid "Tabs"
@@ -24,7 +33,9 @@ msgstr "टॅब्स"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: behavior-config.ui:23
-msgid "Open new conversations in :"
+#, fuzzy
+#| msgid "Open new conversations in :"
+msgid "Open new conversations :"
 msgstr "नवीन संवाद येथे उघडा :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioNew)
@@ -34,12 +45,21 @@ msgstr "नवीन चौकट"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioZero)
 #: behavior-config.ui:40
-msgid "A new tab in the first window"
+#, fuzzy
+#| msgid "A new tab in the first window"
+msgid "As tabs in the same window"
 msgstr "पहिल्या चौकटीत नवीन टॅब"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioLast)
-#: behavior-config.ui:50
-msgid "A new tab in the last focused window"
-msgstr "शेवटच्या चौकटीत नवीन टॅब"
+#. i18n: ectx: property (title), widget (KButtonGroup, scrollbackGroup)
+#: behavior-config.ui:53
+msgid "Last conversation scrollback"
+msgstr ""
 
+#. i18n: First part of &quot;Show last %1 messages&quot; string
+#. i18n: ectx: property (text), widget (QLabel, label_p1)
+#: behavior-config.ui:59
+msgid "Show last"
+msgstr ""
 
+#~ msgid "A new tab in the last focused window"
+#~ msgstr "शेवटच्या चौकटीत नवीन टॅब"
