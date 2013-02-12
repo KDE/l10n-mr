@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-12-23 02:21+0100\n"
+"POT-Creation-Date: 2012-12-19 08:39+0100\n"
 "PO-Revision-Date: 2013-02-08 13:10+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -25,6 +25,99 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
+#: kio-magnet/dbushandler.cpp:96
+msgid ""
+"The Web share for magnet-links is disabled. You can set it up at settings:/"
+"network-and-connectivity/sharing"
+msgstr ""
+
+#: kio-magnet/dbushandler.cpp:120
+msgid ""
+"Cannot start process for KTorrent.                           This should not "
+"happen, even if KTorrent is not installed.                           Check "
+"your machines resources and limits."
+msgstr ""
+
+#: kio-magnet/dbushandler.cpp:158
+#, kde-format
+msgid ""
+"Could not connect to KTorrent via DBus                                     "
+"after %1 seconds. Is it broken?"
+msgstr ""
+
+#: kio-magnet/dbushandler.cpp:180
+msgid ""
+"Could not get the group list, do you have a compatible KTorrent version "
+"running?"
+msgstr ""
+
+#: kio-magnet/dbushandler.cpp:333
+#, kde-format
+msgid "The link for %1 does not contain the required btih hash-parameter."
+msgstr ""
+
+#: kio-magnet/dbushandler.cpp:345
+#, kde-format
+msgid "The found value (%1) for the hash is neither 32 nor 40 chars long."
+msgstr ""
+
+#: kio-magnet/dbushandler.cpp:624
+msgid "Torrent has been removed from KTorrent."
+msgstr ""
+
+#: kio-magnet/kio_magnet.cpp:294 kio-magnet/kio_magnet.cpp:395
+#, kde-format
+msgid ""
+"File exists in KTorrent, but cannot open it on disk at path\"%1\". Have you "
+"removed the file manually?"
+msgstr ""
+
+#: kio-magnet/kio_magnet.cpp:375
+msgid "You cannot write to magnet resources."
+msgstr ""
+
+#: kio-magnet/kio_magnet.cpp:403
+#, kde-format
+msgid "File \"%1\" is a directory. This should not happen. Please file a bug."
+msgstr ""
+
+#: kio-magnet/kio_magnet.cpp:429
+#, kde-format
+msgid ""
+"File exists in KTorrent, but cannot open it on disk at path \"%1\". Have you "
+"removed the file manually?"
+msgstr ""
+
+#. i18n: ectx: label, entry (Enabled), group (Magnet)
+#: kio-magnet/magnetsettings.kcfg:10
+msgid "Enable the global magnet-link support."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShareSize), group (Magnet)
+#: kio-magnet/magnetsettings.kcfg:14
+msgid "Total maximum size used by the share in MiB."
+msgstr ""
+
+#. i18n: ectx: label, entry (TrustedHosts), group (Magnet)
+#: kio-magnet/magnetsettings.kcfg:18
+msgid "List of hosts which are directly accepted on loading"
+msgstr ""
+
+#. i18n: ectx: label, entry (ManagedTorrents), group (Magnet)
+#: kio-magnet/magnetsettings.kcfg:21
+msgid "Torrents inside KTorrent which are managed by these modules."
+msgstr ""
+
+#. i18n: ectx: label, entry (RunningTorrents), group (Magnet)
+#: kio-magnet/magnetsettings.kcfg:24
+msgid "Torrents currently used by the I/O-Slaves."
+msgstr ""
+
+#. i18n: ectx: label, entry (MaxShareRatio), group (Magnet)
+#: kio-magnet/magnetsettings.kcfg:27
+msgid "The maximum share ratio which should be targeted for each torrent."
+msgstr ""
+
 #: ktmagnetdownloader/magnetdownloader.cpp:44
 msgid "KTMagnetDownloader"
 msgstr ""
@@ -37,8 +130,7 @@ msgstr ""
 msgid "(C) 2009 Joris Guisson"
 msgstr ""
 
-#: ktmagnetdownloader/magnetdownloader.cpp:52
-#: ktorrent/main.cpp:154
+#: ktmagnetdownloader/magnetdownloader.cpp:52 ktorrent/main.cpp:153
 msgid "Document to open"
 msgstr ""
 
@@ -56,80 +148,80 @@ msgid ""
 "in use by another program."
 msgstr ""
 
-#: ktorrent/core.cpp:295
+#: ktorrent/core.cpp:307
 #, kde-format
 msgid ""
 "Opening the torrent <b>%1</b>, would share one or more files with the "
 "following torrents. Torrents are not allowed to write to the same files. "
 msgstr ""
 
-#: ktorrent/core.cpp:976
+#: ktorrent/core.cpp:1026
 msgid "KTorrent is running one or more torrents"
 msgstr ""
 
-#: ktorrent/core.cpp:1063
+#: ktorrent/core.cpp:1113
 #, kde-format
 msgid "Cannot create torrent: %1"
 msgstr ""
 
-#: ktorrent/core.cpp:1166
+#: ktorrent/core.cpp:1216
 msgid ""
 "One or more storage volumes are not mounted. In order to start this torrent, "
 "they need to be mounted."
 msgstr ""
 
-#: ktorrent/core.cpp:1167
+#: ktorrent/core.cpp:1217
 msgid "Retry"
 msgstr ""
 
-#: ktorrent/core.cpp:1176
+#: ktorrent/core.cpp:1226
 #, kde-format
 msgid "Storage volume %1 is not mounted"
 msgstr ""
 
-#: ktorrent/core.cpp:1178
+#: ktorrent/core.cpp:1228
 #, kde-format
 msgid "Storage volumes %1 are not mounted"
 msgstr ""
 
-#: ktorrent/core.cpp:1190
+#: ktorrent/core.cpp:1240
 #, kde-format
 msgid ""
 "Several data files of the torrent \"%1\" are missing. \n"
 "Do you want to recreate them, or do you want to not download them?"
 msgstr ""
 
-#: ktorrent/core.cpp:1199 ktorrent/core.cpp:1210 ktorrent/core.cpp:1223
+#: ktorrent/core.cpp:1249 ktorrent/core.cpp:1260 ktorrent/core.cpp:1273
 msgid "Data files are missing"
 msgstr ""
 
-#: ktorrent/core.cpp:1209
+#: ktorrent/core.cpp:1259
 #, kde-format
 msgid "Cannot deselect missing files: %1"
 msgstr ""
 
-#: ktorrent/core.cpp:1222
+#: ktorrent/core.cpp:1272
 #, kde-format
 msgid "Cannot recreate missing files: %1"
 msgstr ""
 
-#: ktorrent/core.cpp:1233
+#: ktorrent/core.cpp:1283
 #, kde-format
 msgid ""
 "The file where the data is saved of the torrent \"%1\" is missing.\n"
 "Do you want to recreate it?"
 msgstr ""
 
-#: ktorrent/core.cpp:1240 ktorrent/core.cpp:1250
+#: ktorrent/core.cpp:1290 ktorrent/core.cpp:1300
 msgid "Data file is missing"
 msgstr ""
 
-#: ktorrent/core.cpp:1249
+#: ktorrent/core.cpp:1299
 #, kde-format
 msgid "Cannot recreate data file: %1"
 msgstr ""
 
-#: ktorrent/core.cpp:1337
+#: ktorrent/core.cpp:1387
 #, kde-format
 msgid ""
 "KTorrent has found a torrent from the KDE3 version of KTorrent, do you want "
@@ -140,16 +232,16 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ktorrent/core.cpp:1359
+#: ktorrent/core.cpp:1409
 msgid "No torrents from the KDE3 version were found."
 msgstr ""
 
-#: ktorrent/core.cpp:1398
+#: ktorrent/core.cpp:1448
 #, kde-format
 msgid "Invalid magnet bittorrent link: %1"
 msgstr ""
 
-#: ktorrent/core.cpp:1403
+#: ktorrent/core.cpp:1453
 msgid ""
 "You are attempting to download a magnet link, and DHT is not enabled. For "
 "optimum results enable DHT."
@@ -192,9 +284,10 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: ktorrent/dialogs/addpeersdlg.ui:57 ktorrent/dialogs/torrentcreatordlg.ui:236
-#: ktorrent/pref/networkpref.ui:23 ktorrent/pref/proxypref.ui:49
-#: ktorrent/pref/proxypref.ui:130 ktupnptest/upnptestwidget.ui:65
+#: ktorrent/dialogs/addpeersdlg.ui:57
+#: ktorrent/dialogs/torrentcreatordlg.ui:236 ktorrent/pref/networkpref.ui:23
+#: ktorrent/pref/proxypref.ui:49 ktorrent/pref/proxypref.ui:130
+#: ktupnptest/upnptestwidget.ui:65
 #: plugins/scripting/scripts/email_notifications/emailconfig.ui:61
 #: plugins/webinterface/webinterfaceprefwidget.ui:148
 msgid "Port:"
@@ -205,19 +298,20 @@ msgstr "पोर्ट :"
 #. i18n: ectx: property (text), widget (KPushButton, m_add_webseed)
 #. i18n: ectx: property (text), widget (KPushButton, m_add)
 #. i18n: ectx: property (text), widget (QPushButton, m_add)
-#: ktorrent/dialogs/addpeersdlg.ui:109 ktorrent/dialogs/torrentcreatordlg.ui:169
+#: ktorrent/dialogs/addpeersdlg.ui:109
+#: ktorrent/dialogs/torrentcreatordlg.ui:169
 #: ktorrent/dialogs/torrentcreatordlg.ui:258
-#: ktorrent/dialogs/torrentcreatordlg.ui:319
-#: ktorrent/ipfilterwidget.ui:46 plugins/search/searchpref.ui:160
-#: plugins/syndication/managefiltersdlg.ui:60
+#: ktorrent/dialogs/torrentcreatordlg.ui:319 ktorrent/ipfilterwidget.ui:46
+#: plugins/search/searchpref.ui:160 plugins/syndication/managefiltersdlg.ui:60
 msgid "Add"
 msgstr "जोडा"
 
 #. i18n: ectx: property (text), widget (KPushButton, m_close_button)
 #. i18n: ectx: property (text), widget (KPushButton, m_close)
 #. i18n: ectx: property (text), widget (KPushButton, close_button)
-#: ktorrent/dialogs/addpeersdlg.ui:116 ktorrent/dialogs/torrentmigratordlg.ui:61
-#: ktorrent/ipfilterwidget.ui:106 ktorrent/view/scanextender.ui:221
+#: ktorrent/dialogs/addpeersdlg.ui:116
+#: ktorrent/dialogs/torrentmigratordlg.ui:61 ktorrent/ipfilterwidget.ui:106
+#: ktorrent/view/scanextender.ui:221
 msgid "Close"
 msgstr "बंद करा"
 
@@ -229,8 +323,7 @@ msgstr ""
 msgid "Show a file list"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:101
-#: plugins/infowidget/fileview.cpp:72
+#: ktorrent/dialogs/fileselectdlg.cpp:101 plugins/infowidget/fileview.cpp:72
 msgid "Filter"
 msgstr "गाळणी"
 
@@ -288,49 +381,48 @@ msgid ""
 "Please select a different location."
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:439
-#: ktorrent/dialogs/pastedialog.cpp:62 ktorrent/dialogs/torrentcreatordlg.cpp:118
-#: libktcore/groups/allgroup.cpp:26
+#: ktorrent/dialogs/fileselectdlg.cpp:430 ktorrent/dialogs/pastedialog.cpp:62
+#: ktorrent/dialogs/torrentcreatordlg.cpp:118 libktcore/groups/allgroup.cpp:26
 msgid "All Torrents"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:516
+#: ktorrent/dialogs/fileselectdlg.cpp:507
 msgid "<b>Unable to determine free space</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:526
+#: ktorrent/dialogs/fileselectdlg.cpp:517
 #, kde-format
 msgid "%1 (%2 in use by existing files)"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:535
+#: ktorrent/dialogs/fileselectdlg.cpp:526
 #, kde-format
 msgctxt "We are %1 bytes short of what we need"
 msgid "%1 short"
 msgstr "%1 लहान"
 
-#: ktorrent/dialogs/fileselectdlg.cpp:567
+#: ktorrent/dialogs/fileselectdlg.cpp:558
 msgid "Existing files: <b>None</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:569
+#: ktorrent/dialogs/fileselectdlg.cpp:560
 msgid "Existing files: <b>All</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:571
+#: ktorrent/dialogs/fileselectdlg.cpp:562
 #, kde-format
 msgid "Existing files: <b>%1</b> of <b>%2</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:578
+#: ktorrent/dialogs/fileselectdlg.cpp:569
 msgid "Existing file: <b>No</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:583
+#: ktorrent/dialogs/fileselectdlg.cpp:574
 msgid "Existing file: <b>Yes</b>"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:663
+#: ktorrent/dialogs/fileselectdlg.cpp:654
 msgid "Clear History"
 msgstr ""
 
@@ -341,7 +433,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QCheckBox, m_use_custom_download_location)
-#: ktorrent/dialogs/fileselectdlg.ui:25 plugins/syndication/filtereditor.ui:304
+#: ktorrent/dialogs/fileselectdlg.ui:25
+#: plugins/syndication/filtereditor.ui:304
 msgid "Download to:"
 msgstr ""
 
@@ -434,8 +527,10 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: ktorrent/dialogs/fileselectdlg.ui:193 ktorrent/dialogs/torrentcreatordlg.ui:46
-#: plugins/logviewer/logprefwidget.ui:36 plugins/scanfolder/scanfolderprefpage.ui:72
+#: ktorrent/dialogs/fileselectdlg.ui:193
+#: ktorrent/dialogs/torrentcreatordlg.ui:46
+#: plugins/logviewer/logprefwidget.ui:36
+#: plugins/scanfolder/scanfolderprefpage.ui:72
 #: plugins/syndication/filtereditor.ui:248
 msgid "Options"
 msgstr "पर्याय"
@@ -581,8 +676,7 @@ msgid "Do not download the missing files."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_dnd)
-#: ktorrent/dialogs/missingfilesdlg.ui:47
-#: plugins/infowidget/fileview.cpp:123
+#: ktorrent/dialogs/missingfilesdlg.ui:47 plugins/infowidget/fileview.cpp:123
 msgid "Do Not Download"
 msgstr ""
 
@@ -603,8 +697,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_cancel)
 #. i18n: ectx: property (text), widget (KPushButton, cancel_button)
-#: ktorrent/dialogs/missingfilesdlg.ui:80
-#: ktorrent/view/scanextender.ui:214
+#: ktorrent/dialogs/missingfilesdlg.ui:80 ktorrent/view/scanextender.ui:214
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -613,21 +706,22 @@ msgstr "रद्द करा"
 msgid "Open an URL"
 msgstr ""
 
-#: ktorrent/dialogs/pastedialog.cpp:106 ktorrent/dialogs/torrentcreatordlg.cpp:252
-#: ktorrent/gui.cpp:340
+#: ktorrent/dialogs/pastedialog.cpp:106
+#: ktorrent/dialogs/torrentcreatordlg.cpp:252 ktorrent/gui.cpp:348
 #, kde-format
 msgid "Invalid URL: %1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ktorrent/dialogs/pastedlgbase.ui:25 plugins/syndication/feedwidget.ui:32
+#: ktorrent/dialogs/pastedlgbase.ui:25 plugins/syndication/feedwidget.ui:27
 msgid "URL:"
 msgstr "URL:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, m_silently)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_openSilently)
-#: ktorrent/dialogs/pastedlgbase.ui:55 plugins/scanfolder/scanfolderprefpage.ui:81
+#: ktorrent/dialogs/pastedlgbase.ui:55
+#: plugins/scanfolder/scanfolderprefpage.ui:81
 msgid "Open silently"
 msgstr ""
 
@@ -686,7 +780,8 @@ msgstr ""
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, m_max_conn_global)
 #. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, ratio_limit)
 #. i18n: ectx: property (specialValueText), widget (QDoubleSpinBox, time_limit)
-#: ktorrent/dialogs/speedlimitsdlg.ui:80 ktorrent/dialogs/speedlimitsdlg.ui:103
+#: ktorrent/dialogs/speedlimitsdlg.ui:80
+#: ktorrent/dialogs/speedlimitsdlg.ui:103
 #: ktorrent/dialogs/speedlimitsmodel.cpp:138
 #: ktorrent/dialogs/speedlimitsmodel.cpp:143
 #: ktorrent/dialogs/spinboxdelegate.cpp:41
@@ -702,9 +797,8 @@ msgstr ""
 #: plugins/bwscheduler/edititemdlg.ui:176
 #: plugins/bwscheduler/edititemdlg.ui:196
 #: plugins/bwscheduler/edititemdlg.ui:236
-#: plugins/bwscheduler/edititemdlg.ui:253
-#: plugins/infowidget/statustab.cpp:68 plugins/infowidget/statustab.ui:306
-#: plugins/infowidget/statustab.ui:332
+#: plugins/bwscheduler/edititemdlg.ui:253 plugins/infowidget/statustab.cpp:68
+#: plugins/infowidget/statustab.ui:306 plugins/infowidget/statustab.ui:332
 msgid "No limit"
 msgstr ""
 
@@ -721,7 +815,8 @@ msgstr ""
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_upload_limit)
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_ss_download_limit)
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_ss_upload_limit)
-#: ktorrent/dialogs/speedlimitsdlg.ui:83 ktorrent/dialogs/speedlimitsdlg.ui:106
+#: ktorrent/dialogs/speedlimitsdlg.ui:83
+#: ktorrent/dialogs/speedlimitsdlg.ui:106
 #: ktorrent/dialogs/spinboxdelegate.cpp:39
 #: ktorrent/groups/grouppolicydlg.ui:75 ktorrent/groups/grouppolicydlg.ui:95
 #: ktorrent/pref/networkpref.ui:124 ktorrent/pref/networkpref.ui:147
@@ -746,7 +841,7 @@ msgstr ""
 
 #: ktorrent/dialogs/speedlimitsmodel.cpp:110
 #: plugins/shutdown/shutdowntorrentmodel.cpp:153
-#: plugins/syndication/feedwidgetmodel.cpp:90
+#: plugins/syndication/feedwidgetmodel.cpp:84
 msgid "Torrent"
 msgstr ""
 
@@ -893,8 +988,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, m_remove)
 #: ktorrent/dialogs/torrentcreatordlg.ui:181
 #: ktorrent/dialogs/torrentcreatordlg.ui:287
-#: ktorrent/dialogs/torrentcreatordlg.ui:331
-#: ktorrent/ipfilterwidget.ui:65 plugins/mediaplayer/playlistwidget.cpp:50
+#: ktorrent/dialogs/torrentcreatordlg.ui:331 ktorrent/ipfilterwidget.ui:65
+#: plugins/mediaplayer/playlistwidget.cpp:50
 #: plugins/syndication/managefiltersdlg.ui:67
 msgid "Remove"
 msgstr "काढून टाका"
@@ -929,8 +1024,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, m_node_list)
 #. i18n: ectx: label, entry (port), group (downloads)
 #. i18n: ectx: label, entry (udpTrackerPort), group (downloads)
-#: ktorrent/dialogs/torrentcreatordlg.ui:277
-#: libktcore/ktorrent.kcfg:54 libktcore/ktorrent.kcfg:60
+#: ktorrent/dialogs/torrentcreatordlg.ui:277 libktcore/ktorrent.kcfg:54
+#: libktcore/ktorrent.kcfg:60
 msgid "Port"
 msgstr "पोर्ट"
 
@@ -962,22 +1057,22 @@ msgstr ""
 msgid "Finished import."
 msgstr ""
 
-#: ktorrent/dialogs/torrentmigratordlg.cpp:146
+#: ktorrent/dialogs/torrentmigratordlg.cpp:145
 #, kde-format
 msgid "Torrent <b>%1</b> already loaded."
 msgstr ""
 
-#: ktorrent/dialogs/torrentmigratordlg.cpp:153
+#: ktorrent/dialogs/torrentmigratordlg.cpp:152
 #, kde-format
 msgid "Failed to load <b>%1</b>"
 msgstr ""
 
-#: ktorrent/dialogs/torrentmigratordlg.cpp:161
+#: ktorrent/dialogs/torrentmigratordlg.cpp:160
 #, kde-format
 msgid "Failed to import <b>%1</b>: %2"
 msgstr ""
 
-#: ktorrent/dialogs/torrentmigratordlg.cpp:165
+#: ktorrent/dialogs/torrentmigratordlg.cpp:164
 #, kde-format
 msgid "Imported <b>%1</b>"
 msgstr ""
@@ -1123,61 +1218,61 @@ msgstr ""
 msgid "Custom Groups"
 msgstr ""
 
-#: ktorrent/gui.cpp:273 ktorrent/gui.cpp:288
+#: ktorrent/gui.cpp:281 ktorrent/gui.cpp:296
 msgid "Open Location"
 msgstr ""
 
-#: ktorrent/gui.cpp:405
+#: ktorrent/gui.cpp:413
 msgid "Create a new torrent"
 msgstr ""
 
-#: ktorrent/gui.cpp:407
+#: ktorrent/gui.cpp:415
 msgid "Open a torrent"
 msgstr ""
 
-#: ktorrent/gui.cpp:410
+#: ktorrent/gui.cpp:418
 msgid "Open Silently"
 msgstr ""
 
-#: ktorrent/gui.cpp:411
+#: ktorrent/gui.cpp:419
 msgid "Open a torrent without asking any questions"
 msgstr ""
 
-#: ktorrent/gui.cpp:426
+#: ktorrent/gui.cpp:434
 msgid "Open URL"
 msgstr ""
 
-#: ktorrent/gui.cpp:427
+#: ktorrent/gui.cpp:435
 msgid "Open a URL which points to a torrent, magnet links are supported"
 msgstr ""
 
-#: ktorrent/gui.cpp:432 plugins/ipfilter/ipblockingprefpage.cpp:35
+#: ktorrent/gui.cpp:440 plugins/ipfilter/ipblockingprefpage.cpp:35
 #: plugins/ipfilter/ipfilterplugin.cpp:60
 #: plugins/ipfilter/ipfilterplugin.cpp:73
 msgid "IP Filter"
 msgstr ""
 
-#: ktorrent/gui.cpp:433
+#: ktorrent/gui.cpp:441
 msgid "Show the list of blocked IP addresses"
 msgstr ""
 
-#: ktorrent/gui.cpp:438
+#: ktorrent/gui.cpp:446
 msgid "Import Torrent"
 msgstr ""
 
-#: ktorrent/gui.cpp:439
+#: ktorrent/gui.cpp:447
 msgid "Import a torrent"
 msgstr ""
 
-#: ktorrent/gui.cpp:445
+#: ktorrent/gui.cpp:453
 msgid "Import KDE3 Torrents"
 msgstr ""
 
-#: ktorrent/gui.cpp:446
+#: ktorrent/gui.cpp:454
 msgid "Import all torrents from the KDE3 version of KTorrent"
 msgstr ""
 
-#: ktorrent/gui.cpp:453
+#: ktorrent/gui.cpp:461
 msgid "Show/Hide KTorrent"
 msgstr ""
 
@@ -1654,15 +1749,7 @@ msgstr ""
 msgid "Patch to rename single file torrents to the file inside"
 msgstr ""
 
-#: ktorrent/main.cpp:151
-msgid "Maarten De Meyer"
-msgstr ""
-
-#: ktorrent/main.cpp:151
-msgid "Fix for bug 305379"
-msgstr ""
-
-#: ktorrent/main.cpp:155
+#: ktorrent/main.cpp:154
 msgid "Silently open torrent given on URL"
 msgstr ""
 
@@ -1760,12 +1847,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_eta)
-#: ktorrent/pref/advancedpref.ui:163
+#: ktorrent/pref/advancedpref.ui:163 plugins/stats/SpdTabPage.cc:67
+#: plugins/stats/SpdTabPage.cc:68
 msgid "Current speed"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_eta)
-#: ktorrent/pref/advancedpref.ui:168
+#: ktorrent/pref/advancedpref.ui:168 plugins/stats/SpdTabPage.cc:70
+#: plugins/stats/SpdTabPage.cc:71
 msgid "Average speed"
 msgstr ""
 
@@ -2086,21 +2175,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoRenameSingleFileTorrents)
 #: ktorrent/pref/generalpref.ui:160
-msgid "Rename single file torrents with the name of its only file"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_highlightNewTorrents)
-#: ktorrent/pref/generalpref.ui:167
-msgid "Whether or not new torrents will be highlighted."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_highlightNewTorrents)
-#: ktorrent/pref/generalpref.ui:170
-msgid "Highlight new torrents"
+msgid "Rename single file torrents with the name its only file"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ktorrent/pref/networkpref.cpp:35 ktorrent/pref/recommendedsettingsdlg.ui:201
+#: ktorrent/pref/networkpref.cpp:35
+#: ktorrent/pref/recommendedsettingsdlg.ui:201
 msgid "Network"
 msgstr "संजाळ"
 
@@ -2379,7 +2459,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
-#: ktorrent/pref/proxypref.ui:170 plugins/scripting/scripts/email_notifications/emailconfig.ui:25
+#: ktorrent/pref/proxypref.ui:170
+#: plugins/scripting/scripts/email_notifications/emailconfig.ui:25
 #: plugins/webinterface/webinterfaceprefwidget.ui:101
 msgid "Username:"
 msgstr "वापरकर्ता नाव :"
@@ -2392,7 +2473,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ktorrent/pref/proxypref.ui:184 plugins/scripting/scripts/email_notifications/emailconfig.ui:35
+#: ktorrent/pref/proxypref.ui:184
+#: plugins/scripting/scripts/email_notifications/emailconfig.ui:35
 #: plugins/webinterface/webinterfaceprefwidget.ui:118
 msgid "Password:"
 msgstr "गुप्तशब्द :"
@@ -2709,13 +2791,19 @@ msgstr "DHT: %1, %2"
 msgid "Magnet Link"
 msgstr ""
 
-#: ktorrent/tools/magnetmodel.cpp:135 ktorrent/tools/queuemanagermodel.cpp:196
-#: ktorrent/trayicon.cpp:167 plugins/infowidget/trackermodel.cpp:148
+#: ktorrent/tools/magnetmodel.cpp:135 ktorrent/tools/queuemanagermodel.cpp:197
+#: ktorrent/trayicon.cpp:165 plugins/infowidget/trackermodel.cpp:148
 #: plugins/infowidget/webseedsmodel.cpp:127
 msgid "Status"
 msgstr "स्थिती"
 
-#: ktorrent/tools/magnetmodel.cpp:136 plugins/infowidget/infowidgetplugin.cpp:222
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (title), widget (QGroupBox, PeersSpdGbw)
+#: ktorrent/tools/magnetmodel.cpp:136
+#: plugins/infowidget/infowidgetplugin.cpp:222
+#: plugins/stats/DisplaySettings.ui:165 plugins/stats/Settings.ui:166
+#: plugins/stats/Spd.ui:31
 msgid "Peers"
 msgstr ""
 
@@ -2739,43 +2827,43 @@ msgstr ""
 msgid "Remove Magnet"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:192
+#: ktorrent/tools/queuemanagermodel.cpp:193
 msgid "Order"
 msgstr "क्रम"
 
-#: ktorrent/tools/queuemanagermodel.cpp:194
-#: ktorrent/view/viewmodel.cpp:536 plugins/downloadorder/downloadorderdialog.cpp:80
+#: ktorrent/tools/queuemanagermodel.cpp:195 ktorrent/view/viewmodel.cpp:533
+#: plugins/downloadorder/downloadorderdialog.cpp:80
 msgid "Name"
 msgstr "नाव"
 
-#: ktorrent/tools/queuemanagermodel.cpp:198
+#: ktorrent/tools/queuemanagermodel.cpp:199
 msgid "Time Stalled"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:200
+#: ktorrent/tools/queuemanagermodel.cpp:201
 #: plugins/infowidget/iwfilelistmodel.cpp:77
 #: plugins/infowidget/iwfiletreemodel.cpp:89
 msgid "Priority"
 msgstr "प्राधान्यता"
 
-#: ktorrent/tools/queuemanagermodel.cpp:235
+#: ktorrent/tools/queuemanagermodel.cpp:236
 msgid "Running"
 msgstr "कार्यरत आहे"
 
-#: ktorrent/tools/queuemanagermodel.cpp:237
+#: ktorrent/tools/queuemanagermodel.cpp:238
 msgid "Queued"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:239
+#: ktorrent/tools/queuemanagermodel.cpp:240
 msgid "Not queued"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:248
+#: ktorrent/tools/queuemanagermodel.cpp:249
 #, kde-format
 msgid "%1"
 msgstr ""
 
-#: ktorrent/tools/queuemanagermodel.cpp:261
+#: ktorrent/tools/queuemanagermodel.cpp:262
 msgid ""
 "Order of a torrent in the queue.\n"
 "Use drag and drop or the move up and down buttons on the right to change the "
@@ -2783,7 +2871,7 @@ msgid ""
 msgstr ""
 
 #: ktorrent/tools/queuemanagerwidget.cpp:57
-#: plugins/search/searchactivity.cpp:81 plugins/search/searchtoolbar.cpp:73
+#: plugins/search/searchactivity.cpp:81 plugins/search/searchtoolbar.cpp:70
 #: plugins/search/webview.cpp:178
 msgid "Search"
 msgstr "शोधा"
@@ -2848,7 +2936,8 @@ msgstr ""
 msgid "Widget to manage the torrent queue"
 msgstr ""
 
-#: ktorrent/torrentactivity.cpp:103 plugins/magnetgenerator/magnetgeneratorplugin.cpp:143
+#: ktorrent/torrentactivity.cpp:103
+#: plugins/magnetgenerator/magnetgeneratorplugin.cpp:143
 msgid "Magnet"
 msgstr ""
 
@@ -2897,15 +2986,15 @@ msgstr ""
 msgid "Filter torrents based on filter string"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:116
+#: ktorrent/trayicon.cpp:114
 msgid "Set max upload speed"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:118
+#: ktorrent/trayicon.cpp:116
 msgid "Set max download speed"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:156
+#: ktorrent/trayicon.cpp:154
 #, kde-format
 msgid ""
 "<table><tr><td>Download&nbsp;speed:</td><td><b>%1</b></td></"
@@ -2914,99 +3003,94 @@ msgid ""
 "table>"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:197
-#, kde-format
-msgid "<b>%1</b> was silently opened."
-msgstr ""
-
-#: ktorrent/trayicon.cpp:211
+#: ktorrent/trayicon.cpp:199
 #, kde-format
 msgid "<b>%1</b> has completed downloading.<br>Average speed: %2 DL / %3 UL."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:229
+#: ktorrent/trayicon.cpp:217
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum share ratio of %2 and has been stopped."
 "<br>Uploaded %3 at an average speed of %4."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:248
+#: ktorrent/trayicon.cpp:236
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum seed time of %2 hours and has been stopped."
 "<br>Uploaded %3 at an average speed of %4."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:263
+#: ktorrent/trayicon.cpp:251
 #, kde-format
 msgid "<b>%1</b> has been stopped with the following error: <br>%2"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:274
+#: ktorrent/trayicon.cpp:262
 #, kde-format
 msgid ""
 "Corrupted data has been found in the torrent <b>%1</b><br>It would be a good "
 "idea to do a data integrity check on the torrent."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:291
+#: ktorrent/trayicon.cpp:279
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum share ratio of %2 and cannot be enqueued. "
 "<br>Remove the limit manually if you want to continue seeding."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:295
+#: ktorrent/trayicon.cpp:283
 #, kde-format
 msgid ""
 "<b>%1</b> has reached its maximum seed time of %2 hours and cannot be "
 "enqueued. <br>Remove the limit manually if you want to continue seeding."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:307
+#: ktorrent/trayicon.cpp:295
 #, kde-format
 msgid "Cannot start <b>%1</b>: <br>"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:314
+#: ktorrent/trayicon.cpp:302
 #, kde-format
 msgid "Cannot seed more than 1 torrent. <br>"
 msgid_plural "Cannot seed more than %1 torrents. <br>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ktorrent/trayicon.cpp:319
+#: ktorrent/trayicon.cpp:307
 #, kde-format
 msgid "Cannot download more than 1 torrent. <br>"
 msgid_plural "Cannot download more than %1 torrents. <br>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ktorrent/trayicon.cpp:322
+#: ktorrent/trayicon.cpp:310
 msgid "Go to Settings -> Configure KTorrent, if you want to change the limits."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:326
+#: ktorrent/trayicon.cpp:314
 msgid "There is not enough diskspace available."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:339
+#: ktorrent/trayicon.cpp:327
 #, kde-format
 msgid ""
 "Your disk is running out of space.<br /><b>%1</b> is being downloaded to "
 "'%2'."
 msgstr ""
 
-#: ktorrent/trayicon.cpp:342
+#: ktorrent/trayicon.cpp:330
 msgid "Torrent has been stopped.<br />"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:378
+#: ktorrent/trayicon.cpp:366
 msgid "Speed limit in KiB/s"
 msgstr ""
 
-#: ktorrent/trayicon.cpp:380 plugins/bwscheduler/schedulegraphicsitem.cpp:93
+#: ktorrent/trayicon.cpp:368 plugins/bwscheduler/schedulegraphicsitem.cpp:93
 #: plugins/bwscheduler/schedulegraphicsitem.cpp:94
 msgid "Unlimited"
 msgstr "अमर्यादीत"
@@ -3137,7 +3221,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: ktorrent/view/scanextender.ui:153 plugins/infowidget/chunkdownloadview.ui:98
+#: ktorrent/view/scanextender.ui:153
+#: plugins/infowidget/chunkdownloadview.ui:98
 msgid "Downloaded:"
 msgstr "डाउनलोड केलेले :"
 
@@ -3154,7 +3239,7 @@ msgstr ""
 msgid "Errors:"
 msgstr ""
 
-#: ktorrent/view/torrentsearchbar.cpp:48
+#: ktorrent/view/torrentsearchbar.cpp:47
 msgid "Torrent filter"
 msgstr ""
 
@@ -3320,147 +3405,149 @@ msgstr ""
 msgid "Select a directory to move the data to."
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:538 plugins/infowidget/peerviewmodel.cpp:266
+#: ktorrent/view/viewmodel.cpp:535 plugins/infowidget/peerviewmodel.cpp:266
 #: plugins/infowidget/webseedsmodel.cpp:126
 msgid "Downloaded"
 msgstr "डाउनलोड केलेले"
 
-#: ktorrent/view/viewmodel.cpp:540 libktcore/torrent/torrentfilelistmodel.cpp:77
+#: ktorrent/view/viewmodel.cpp:537
+#: libktcore/torrent/torrentfilelistmodel.cpp:77
 #: libktcore/torrent/torrentfiletreemodel.cpp:400
 msgid "Size"
 msgstr "आकार"
 
-#: ktorrent/view/viewmodel.cpp:542 plugins/infowidget/peerviewmodel.cpp:267
+#: ktorrent/view/viewmodel.cpp:539 plugins/infowidget/peerviewmodel.cpp:267
 msgid "Uploaded"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:544
+#: ktorrent/view/viewmodel.cpp:541
 msgctxt "Bytes left to downloaded"
 msgid "Left"
 msgstr "डावे"
 
-#: ktorrent/view/viewmodel.cpp:546 plugins/infowidget/chunkdownloadmodel.cpp:200
+#: ktorrent/view/viewmodel.cpp:543
+#: plugins/infowidget/chunkdownloadmodel.cpp:200
 #: plugins/infowidget/peerviewmodel.cpp:257
 msgid "Down Speed"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:548 plugins/infowidget/peerviewmodel.cpp:258
+#: ktorrent/view/viewmodel.cpp:545 plugins/infowidget/peerviewmodel.cpp:258
 msgid "Up Speed"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:550
+#: ktorrent/view/viewmodel.cpp:547
 msgid "Time Left"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:552 plugins/infowidget/trackermodel.cpp:149
+#: ktorrent/view/viewmodel.cpp:549 plugins/infowidget/trackermodel.cpp:149
 msgid "Seeders"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:554 plugins/infowidget/trackermodel.cpp:150
+#: ktorrent/view/viewmodel.cpp:551 plugins/infowidget/trackermodel.cpp:150
 msgid "Leechers"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:557
+#: ktorrent/view/viewmodel.cpp:554
 #, no-c-format
 msgid "% Complete"
 msgstr "% पूर्ण"
 
-#: ktorrent/view/viewmodel.cpp:559
+#: ktorrent/view/viewmodel.cpp:556
 msgid "Share Ratio"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:561
+#: ktorrent/view/viewmodel.cpp:558
 msgid "Time Downloaded"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:563
+#: ktorrent/view/viewmodel.cpp:560
 msgid "Time Seeded"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:565
+#: ktorrent/view/viewmodel.cpp:562
 msgid "Location"
 msgstr "स्थान"
 
-#: ktorrent/view/viewmodel.cpp:567
+#: ktorrent/view/viewmodel.cpp:564
 msgid "Added"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:577
+#: ktorrent/view/viewmodel.cpp:574
 msgid "How much data we have downloaded of the torrent"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:579
+#: ktorrent/view/viewmodel.cpp:576
 msgid "Total size of the torrent, excluded files are not included"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:581
+#: ktorrent/view/viewmodel.cpp:578
 msgid "How much data we have uploaded"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:583
+#: ktorrent/view/viewmodel.cpp:580
 msgid "How much data left to download"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:585
+#: ktorrent/view/viewmodel.cpp:582
 msgid "Current download speed"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:587
+#: ktorrent/view/viewmodel.cpp:584
 msgid "Current upload speed"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:589
+#: ktorrent/view/viewmodel.cpp:586
 msgid ""
 "How much time is left before the torrent is finished or before the maximum "
 "share ratio is reached, if that is enabled"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:591
+#: ktorrent/view/viewmodel.cpp:588
 msgid ""
 "How many seeders we are connected to (How many seeders there are according "
 "to the tracker)"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:593
+#: ktorrent/view/viewmodel.cpp:590
 msgid ""
 "How many leechers we are connected to (How many leechers there are according "
 "to the tracker)"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:596
+#: ktorrent/view/viewmodel.cpp:593
 msgid ""
 "The percentage of data we have of the whole torrent, not including excluded "
 "files"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:598
+#: ktorrent/view/viewmodel.cpp:595
 msgid ""
 "Share ratio is the number of bytes uploaded divided by the number of bytes "
 "downloaded"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:600
+#: ktorrent/view/viewmodel.cpp:597
 msgid "How long we have been downloading the torrent"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:602
+#: ktorrent/view/viewmodel.cpp:599
 msgid "How long we have been seeding the torrent"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:604
+#: ktorrent/view/viewmodel.cpp:601
 msgid "The location of the torrent's data on disk"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:606
+#: ktorrent/view/viewmodel.cpp:603
 msgid "When this torrent was added"
 msgstr ""
 
-#: ktorrent/view/viewmodel.cpp:656
+#: ktorrent/view/viewmodel.cpp:653
 #, kde-format
 msgid "%1<br>Url: <b>%2</b>"
 msgstr "%1<br>Url: <b>%2</b>"
 
-#: ktorrent/view/viewmodel.cpp:662
+#: ktorrent/view/viewmodel.cpp:659
 msgid "<br/><br/>Unable to contact a tracker."
 msgstr ""
 
@@ -3845,16 +3932,16 @@ msgstr ""
 msgid "File"
 msgstr "फाईल"
 
-#: libktcore/util/mmapfile.cpp:166
+#: libktcore/util/mmapfile.cpp:164
 msgid "Cannot write beyond end of the mmap buffer."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AppletConfig)
-#: plasma/applet/applet.cpp:240 plasma/applet/appletconfig.ui:13
+#: plasma/applet/applet.cpp:239 plasma/applet/appletconfig.ui:13
 msgid "Applet"
 msgstr ""
 
-#: plasma/applet/applet.cpp:305 plasma/applet/applet.cpp:389
+#: plasma/applet/applet.cpp:303 plasma/applet/applet.cpp:387
 #, kde-format
 msgid ""
 "<table>\t\t\t\t<tr><td>Download Speed:</td><td>%5 </td><td>Seeders: </td><td>"
@@ -3862,7 +3949,7 @@ msgid ""
 "</td><td>%3 (%4)</td></tr>"
 msgstr ""
 
-#: plasma/applet/applet.cpp:310 plasma/applet/applet.cpp:394
+#: plasma/applet/applet.cpp:308 plasma/applet/applet.cpp:392
 #, kde-format
 msgid ""
 "<tr><td>Downloaded:</td><td>%1 </td><td>Size: </td><td>%2</td></tr>\t\t\t"
@@ -3870,20 +3957,20 @@ msgid ""
 "\t\t</table>"
 msgstr ""
 
-#: plasma/applet/applet.cpp:316
+#: plasma/applet/applet.cpp:314
 #, kde-format
 msgid "<b>%1</b><br/>%2 (Share Ratio: <font color=\"%4\">%3</font>)"
 msgstr ""
 
-#: plasma/applet/applet.cpp:400
+#: plasma/applet/applet.cpp:398
 msgid "KTorrent is not running."
 msgstr ""
 
-#: plasma/applet/applet.cpp:402
+#: plasma/applet/applet.cpp:400
 msgid "No torrents loaded."
 msgstr ""
 
-#: plasma/applet/applet.cpp:404
+#: plasma/applet/applet.cpp:402
 msgid "Selected torrent is unavailable."
 msgstr ""
 
@@ -3892,7 +3979,8 @@ msgstr ""
 msgid "Torrent to display:"
 msgstr ""
 
-#: plugins/bwscheduler/bwprefpage.cpp:27 plugins/bwscheduler/bwschedulerplugin.cpp:87
+#: plugins/bwscheduler/bwprefpage.cpp:27
+#: plugins/bwscheduler/bwschedulerplugin.cpp:87
 msgid "Scheduler"
 msgstr "नियोजक"
 
@@ -4626,7 +4714,11 @@ msgstr ""
 msgid "Availability"
 msgstr ""
 
-#: plugins/infowidget/peerviewmodel.cpp:262
+#. i18n: ectx: property (title), widget (QGroupBox, DhtGbw)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: plugins/infowidget/peerviewmodel.cpp:262 plugins/stats/Conns.ui:31
+#: plugins/stats/DisplaySettings.ui:796 plugins/stats/Settings.ui:234
 msgid "DHT"
 msgstr ""
 
@@ -5011,8 +5103,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: plugins/ipfilter/ipblockingprefpage.ui:94
 msgid ""
-"Download PeerGuardian filter from bluetack.co.uk or iblocklist.org.\n"
-"NOTE: archive files like zip and tar.gz or tar.bz2 are supported."
+"Download PeerGuardian filter from bluetack.co.uk or blocklist.org.\n"
+"NOTE: ZIP file from bluetack.co.uk is supported."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, m_auto_update_group_box)
@@ -5068,24 +5160,28 @@ msgstr "प्रणाली"
 msgid "Log Level"
 msgstr ""
 
-#: plugins/logviewer/logflags.cpp:201 plugins/logviewer/logflagsdelegate.cpp:46
+#: plugins/logviewer/logflags.cpp:201
+#: plugins/logviewer/logflagsdelegate.cpp:46
 msgid "Debug"
 msgstr "डिबग"
 
-#: plugins/logviewer/logflags.cpp:202 plugins/logviewer/logflagsdelegate.cpp:45
+#: plugins/logviewer/logflags.cpp:202
+#: plugins/logviewer/logflagsdelegate.cpp:45
 msgid "Notice"
 msgstr ""
 
-#: plugins/logviewer/logflags.cpp:203 plugins/logviewer/logflagsdelegate.cpp:44
+#: plugins/logviewer/logflags.cpp:203
+#: plugins/logviewer/logflagsdelegate.cpp:44
 msgid "Important"
 msgstr ""
 
-#: plugins/logviewer/logflags.cpp:204 plugins/logviewer/logflagsdelegate.cpp:43
+#: plugins/logviewer/logflags.cpp:204
+#: plugins/logviewer/logflagsdelegate.cpp:43
 msgid "All"
 msgstr "सर्व"
 
-#: plugins/logviewer/logflags.cpp:205 plugins/logviewer/logflagsdelegate.cpp:47
-#: plugins/syndication/feed.cpp:506
+#: plugins/logviewer/logflags.cpp:205
+#: plugins/logviewer/logflagsdelegate.cpp:47
 msgid "None"
 msgstr "काही नाही"
 
@@ -5168,11 +5264,11 @@ msgstr ""
 msgid "Suspend Output"
 msgstr ""
 
-#: plugins/logviewer/logviewer.cpp:138
+#: plugins/logviewer/logviewer.cpp:127
 msgid "<font color=\"#FF0000\">Logging output suspended</font>"
 msgstr ""
 
-#: plugins/logviewer/logviewer.cpp:140
+#: plugins/logviewer/logviewer.cpp:129
 msgid "<font color=\"#00FF00\">Logging output resumed</font>"
 msgstr ""
 
@@ -5318,8 +5414,8 @@ msgstr ""
 
 #: plugins/mediaplayer/mediaplayeractivity.cpp:51
 #: plugins/mediaplayer/mediaplayeractivity.cpp:68
-#: plugins/mediaplayer/mediaplayeractivity.cpp:159
-#: plugins/mediaplayer/mediaplayeractivity.cpp:363
+#: plugins/mediaplayer/mediaplayeractivity.cpp:163
+#: plugins/mediaplayer/mediaplayeractivity.cpp:367
 #: plugins/mediaplayer/mediaplayerplugin.cpp:49
 #: plugins/mediaplayer/mediaplayerplugin.cpp:60
 msgid "Media Player"
@@ -5361,12 +5457,12 @@ msgstr ""
 msgid "Clear Playlist"
 msgstr ""
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:145
+#: plugins/mediaplayer/mediaplayeractivity.cpp:149
 msgid "Toggle Fullscreen"
 msgstr ""
 
-#: plugins/mediaplayer/mediaplayeractivity.cpp:173
-#: plugins/mediaplayer/mediaplayeractivity.cpp:366
+#: plugins/mediaplayer/mediaplayeractivity.cpp:177
+#: plugins/mediaplayer/mediaplayeractivity.cpp:370
 msgid "Movie player"
 msgstr ""
 
@@ -5375,7 +5471,7 @@ msgid "Show incomplete files"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_refresh)
-#: plugins/mediaplayer/mediaview.cpp:106 plugins/syndication/feedwidget.ui:124
+#: plugins/mediaplayer/mediaview.cpp:106 plugins/syndication/feedwidget.ui:128
 msgid "Refresh"
 msgstr "ताजे करा"
 
@@ -5387,7 +5483,8 @@ msgstr ""
 msgid "Search media files"
 msgstr ""
 
-#: plugins/mediaplayer/playlist.cpp:97 plugins/syndication/feedwidgetmodel.cpp:88
+#: plugins/mediaplayer/playlist.cpp:97
+#: plugins/syndication/feedwidgetmodel.cpp:82
 msgid "Title"
 msgstr "शिर्षक"
 
@@ -5696,7 +5793,7 @@ msgstr " तास"
 #. i18n: ectx: property (suffix), widget (QSpinBox, minutes)
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_refresh_rate)
 #: plugins/scripting/scripts/auto_resume/auto_resume.ui:51
-#: plugins/syndication/feedwidget.ui:141
+#: plugins/syndication/feedwidget.ui:87
 msgid " minutes"
 msgstr " मिनिटे"
 
@@ -5802,7 +5899,8 @@ msgstr "URL: <b>%1</b>"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SearchPref)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WebInterfacePrefWidget)
-#: plugins/search/searchpref.ui:26 plugins/webinterface/webinterfaceprefwidget.ui:26
+#: plugins/search/searchpref.ui:26
+#: plugins/webinterface/webinterfaceprefwidget.ui:26
 msgid "Search Preferences"
 msgstr ""
 
@@ -5927,19 +6025,19 @@ msgstr ""
 msgid "The URL %1 does not contain {searchTerms}."
 msgstr ""
 
-#: plugins/search/searchtoolbar.cpp:69
+#: plugins/search/searchtoolbar.cpp:66
 msgid "Search Text"
 msgstr ""
 
-#: plugins/search/searchtoolbar.cpp:78
+#: plugins/search/searchtoolbar.cpp:75
 msgid "Search Engine"
 msgstr ""
 
-#: plugins/search/searchtoolbar.cpp:84
+#: plugins/search/searchtoolbar.cpp:80
 msgid "Search Engine Label"
 msgstr ""
 
-#: plugins/search/searchtoolbar.cpp:85
+#: plugins/search/searchtoolbar.cpp:81
 msgid " Engine: "
 msgstr ""
 
@@ -5960,8 +6058,13 @@ msgstr ""
 msgid "Download Torrent"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
 #. i18n: ectx: property (text), widget (KPushButton, m_download)
-#: plugins/search/searchwidget.cpp:247 plugins/syndication/feedwidget.ui:117
+#: plugins/search/searchwidget.cpp:247 plugins/stats/DisplaySettings.ui:37
+#: plugins/stats/Settings.ui:114 plugins/stats/Spd.ui:19
+#: plugins/syndication/feedwidget.ui:121
 msgid "Download"
 msgstr ""
 
@@ -6120,199 +6223,144 @@ msgid "Event"
 msgstr "घटना"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ConnsWgt)
-#: plugins/stats/Conns.ui:13 plugins/stats/ConnsTabPage.cc:53
-msgid "Connections"
-msgstr "जुळवण्या"
-
 #. i18n: ectx: property (title), widget (QGroupBox, ConnsGbw)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: plugins/stats/Conns.ui:19 plugins/stats/DisplaySettings.ui:505
-#: plugins/stats/Settings.ui:140
-msgctxt "Chart name"
+#: plugins/stats/Conns.ui:13 plugins/stats/Conns.ui:19
+#: plugins/stats/DisplaySettings.ui:505 plugins/stats/Settings.ui:140
 msgid "Connections"
 msgstr "जुळवण्या"
 
-#. i18n: ectx: property (title), widget (QGroupBox, DhtGbw)
-#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: plugins/stats/Conns.ui:31 plugins/stats/DisplaySettings.ui:796
-#: plugins/stats/Settings.ui:234
-msgctxt "Chart name"
-msgid "DHT"
-msgstr ""
-
-#: plugins/stats/ConnsTabPage.cc:54
-msgid "Nodes"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_23)
 #: plugins/stats/ConnsTabPage.cc:60 plugins/stats/DisplaySettings.ui:513
-msgctxt "Name of a line on chart"
 msgid "Leechers connected"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_24)
 #: plugins/stats/ConnsTabPage.cc:65 plugins/stats/ConnsTabPage.cc:118
 #: plugins/stats/DisplaySettings.ui:548
-msgctxt "Name of a line on chart"
 msgid "Leechers in swarms"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_25)
 #: plugins/stats/ConnsTabPage.cc:69 plugins/stats/DisplaySettings.ui:583
-msgctxt "Name of a line on chart"
 msgid "Seeds connected"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_26)
 #: plugins/stats/ConnsTabPage.cc:74 plugins/stats/ConnsTabPage.cc:132
-#: plugins/stats/ConnsTabPage.cc:136 plugins/stats/DisplaySettings.ui:618
-msgctxt "Name of a line on chart"
+#: plugins/stats/ConnsTabPage.cc:136
 msgid "Seeds in swarms"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_27)
 #: plugins/stats/ConnsTabPage.cc:78 plugins/stats/DisplaySettings.ui:653
-msgctxt "Name of a line on chart"
 msgid "Average leechers connected per torrent"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_28)
 #: plugins/stats/ConnsTabPage.cc:81 plugins/stats/DisplaySettings.ui:688
-msgctxt "Name of a line on chart"
 msgid "Average seeds connected per torrent"
 msgstr ""
 
 #: plugins/stats/ConnsTabPage.cc:84
-msgctxt "Name of a line on chart"
 msgid "Average leechers connected per running torrent"
 msgstr ""
 
 #: plugins/stats/ConnsTabPage.cc:87
-msgctxt "Name of a line on chart"
 msgid "Average seeds connected per running torrent"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_31)
 #: plugins/stats/ConnsTabPage.cc:93 plugins/stats/DisplaySettings.ui:806
-msgctxt "Name of a line on chart"
 msgid "Nodes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_32)
 #: plugins/stats/ConnsTabPage.cc:94 plugins/stats/DisplaySettings.ui:845
-msgctxt "Name of a line on chart"
+#, fuzzy
+#| msgctxt "Name of a line on chart"
+#| msgid "Tasks"
 msgid "Tasks"
 msgstr "कार्ये"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#. i18n: ectx: property (title), widget (QGroupBox, DlSpdGbw)
-#: plugins/stats/DisplaySettings.ui:27 plugins/stats/Settings.ui:114
-#: plugins/stats/Spd.ui:19
-msgctxt "Chart name"
+#: plugins/stats/DisplaySettings.ui:27
+#, fuzzy
+#| msgid "Downloads"
+msgctxt "Noun"
 msgid "Download"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_8)
-#: plugins/stats/DisplaySettings.ui:37 plugins/stats/SpdTabPage.cc:67
-msgctxt "Name of a line on download chart"
-msgid "Current speed"
-msgstr ""
+msgstr "डाउनलोड"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: plugins/stats/DisplaySettings.ui:73
-msgctxt "Name of a line on download chart"
+#. i18n: ectx: property (text), widget (QLabel, label_16)
+#: plugins/stats/DisplaySettings.ui:73 plugins/stats/DisplaySettings.ui:413
+#, fuzzy
+#| msgctxt "Name of a line on download chart"
+#| msgid "Average"
 msgid "Average"
 msgstr "सरासरी"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: plugins/stats/DisplaySettings.ui:112
-msgctxt "Name of a line on download chart"
+#. i18n: ectx: property (text), widget (QLabel, label_17)
+#: plugins/stats/DisplaySettings.ui:112 plugins/stats/DisplaySettings.ui:452
+#, fuzzy
+#| msgctxt "Name of a line on download chart"
+#| msgid "Limit"
 msgid "Limit"
 msgstr "मर्यादा"
 
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#. i18n: ectx: property (title), widget (QGroupBox, PeersSpdGbw)
-#: plugins/stats/DisplaySettings.ui:165 plugins/stats/Settings.ui:166
-#: plugins/stats/Spd.ui:31
-msgctxt "Chart name"
-msgid "Peers"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #: plugins/stats/DisplaySettings.ui:173 plugins/stats/SpdTabPage.cc:76
-msgctxt "Name of a line on chart"
 msgid "Average from leechers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: plugins/stats/DisplaySettings.ui:208 plugins/stats/SpdTabPage.cc:77
-msgctxt "Name of a line on chart"
 msgid "Average to leechers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #: plugins/stats/DisplaySettings.ui:243 plugins/stats/SpdTabPage.cc:78
-msgctxt "Name of a line on chart"
 msgid "Average from seeds"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_21)
 #: plugins/stats/DisplaySettings.ui:278 plugins/stats/SpdTabPage.cc:79
-msgctxt "Name of a line on chart"
 msgid "From leechers"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_22)
 #: plugins/stats/DisplaySettings.ui:313 plugins/stats/SpdTabPage.cc:80
-msgctxt "Name of a line on chart"
 msgid "From seeds"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#. i18n: ectx: property (text), widget (QLabel, label_15)
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (title), widget (QGroupBox, UlSpdGbw)
-#: plugins/stats/DisplaySettings.ui:364 plugins/stats/Settings.ui:192
-#: plugins/stats/Spd.ui:43
-msgctxt "Chart name"
+#: plugins/stats/DisplaySettings.ui:364 plugins/stats/DisplaySettings.ui:374
+#: plugins/stats/Settings.ui:192 plugins/stats/Spd.ui:43
 msgid "Upload"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_15)
-#: plugins/stats/DisplaySettings.ui:374 plugins/stats/SpdTabPage.cc:68
-msgctxt "Name of a line on upload chart"
-msgid "Current speed"
+#. i18n: ectx: property (text), widget (QLabel, label_26)
+#: plugins/stats/DisplaySettings.ui:618
+msgid "Seeds  in swarms"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_16)
-#: plugins/stats/DisplaySettings.ui:413
-msgctxt "Name of a line on upload chart"
-msgid "Average"
-msgstr "सरासरी"
-
-#. i18n: ectx: property (text), widget (QLabel, label_17)
-#: plugins/stats/DisplaySettings.ui:452
-msgctxt "Name of a line on upload chart"
-msgid "Limit"
-msgstr "मर्यादा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_29)
 #: plugins/stats/DisplaySettings.ui:723
-msgctxt "Name of a line on chart"
 msgid "Avg. leechers connected per running torr."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_30)
 #: plugins/stats/DisplaySettings.ui:758
-msgctxt "Name of a line on chart"
 msgid "Avg. seeds connected per running torrent"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: plugins/stats/DisplaySettings.ui:904
+#: plugins/stats/DisplaySettingsPage.cc:28
 msgid "Display"
 msgstr "दर्शवा"
 
@@ -6328,7 +6376,6 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #: plugins/stats/DisplaySettings.ui:932
-msgctxt "@label:listbox"
 msgid "Widget type:"
 msgstr ""
 
@@ -6347,16 +6394,11 @@ msgstr ""
 msgid "(plugin reload is needed after change)"
 msgstr ""
 
-#: plugins/stats/DisplaySettingsPage.cc:28
-msgctxt "@title:window"
-msgid "Display"
-msgstr "दर्शवा"
-
-#: plugins/stats/drawer/ChartDrawer.cc:27
+#: plugins/stats/drawer/ChartDrawer.cc:26
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: plugins/stats/drawer/ChartDrawerData.cc:26
+#: plugins/stats/drawer/ChartDrawerData.cc:25
 msgid "Unknown"
 msgstr "अपरिचीत"
 
@@ -6377,19 +6419,19 @@ msgstr ""
 
 #: plugins/stats/drawer/KPlotWgtDrawer.cc:396
 #: plugins/stats/drawer/PlainChartDrawer.cc:337
-msgctxt "@action:inmenu"
 msgid "Save as image…"
 msgstr ""
 
 #: plugins/stats/drawer/KPlotWgtDrawer.cc:400
 #: plugins/stats/drawer/PlainChartDrawer.cc:341
-msgctxt "@action:inmenu Recalculate the 0Y axis and then redraw the chart"
 msgid "Rescale"
 msgstr ""
 
 #: plugins/stats/drawer/KPlotWgtDrawer.cc:404
 #: plugins/stats/drawer/PlainChartDrawer.cc:345
-msgctxt "@action:inmenu"
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Reset"
 msgid "Reset"
 msgstr "पुनर्प्रस्थापित करा"
 
@@ -6572,35 +6614,38 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, UpdateGbw)
 #: plugins/stats/Settings.ui:19
-msgctxt "@title:group"
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Update"
 msgid "Update"
 msgstr "अद्ययावत करा"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/stats/Settings.ui:25
-msgctxt "Continues with: [number field] GUI updates"
 msgid "Update charts every"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/stats/Settings.ui:50
-msgctxt "Continuation of: Update charts every [number field]"
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Update"
 msgid "GUI updates"
-msgstr ""
+msgstr "अद्ययावत करा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/stats/Settings.ui:69
-msgctxt "Continues with: [number field] milliseconds"
 msgid "Gather data every"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/stats/Settings.ui:95
-msgctxt "Continuation of: Gather data every [number field]"
+#, fuzzy
+#| msgctxt "Continuation of: Gather data every [number field]"
+#| msgid "milliseconds"
 msgid "milliseconds"
 msgstr "मिलीसेकंद"
 
-#. i18n: The maximums of 0X axes on charts
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/stats/Settings.ui:108
 msgid "Measurements counts"
@@ -6611,28 +6656,29 @@ msgstr ""
 msgid "Maximum"
 msgstr ""
 
-#. i18n: The way the maximum of 0Y axis is calculated
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/stats/Settings.ui:255
-msgctxt "@label:listbox"
 msgid "Maximum speed scale mode: "
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MaxMode)
 #: plugins/stats/Settings.ui:272
-msgid "Maximum ever achieved"
-msgstr ""
+#, fuzzy
+#| msgid "To:"
+msgid "Top"
+msgstr "पर्यंत :"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_MaxMode)
 #: plugins/stats/Settings.ui:277
-msgid "Maximum visible on chart"
+msgid "Exact"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: plugins/stats/Settings.ui:290
-msgctxt "@title:group"
+#, fuzzy
+#| msgid "Connections"
 msgid "Peers connections"
-msgstr ""
+msgstr "जुळवण्या"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSeedsInSwarms)
 #: plugins/stats/Settings.ui:296
@@ -6645,7 +6691,9 @@ msgid "Show leechers in swarms"
 msgstr ""
 
 #: plugins/stats/SettingsPage.cc:27
-msgctxt "@title:window"
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Statistics"
 msgid "Statistics"
 msgstr "आकडेवारी"
 
@@ -6660,25 +6708,11 @@ msgctxt "@title:window"
 msgid "Speed"
 msgstr "वेग"
 
-#: plugins/stats/SpdTabPage.cc:70
-msgctxt "Name of a line on download chart"
-msgid "Average speed"
-msgstr ""
-
-#: plugins/stats/SpdTabPage.cc:71
-msgctxt "Name of a line on upload chart"
-msgid "Average speed"
-msgstr ""
-
-#: plugins/stats/SpdTabPage.cc:73
-msgctxt "Name of a line on download chart"
+#: plugins/stats/SpdTabPage.cc:73 plugins/stats/SpdTabPage.cc:74
+#, fuzzy
+#| msgid "Speed"
 msgid "Speed limit"
-msgstr ""
-
-#: plugins/stats/SpdTabPage.cc:74
-msgctxt "Name of a line on upload chart"
-msgid "Speed limit"
-msgstr ""
+msgstr "वेग"
 
 #: plugins/stats/StatsPlugin.cc:52
 msgid "Speed charts"
@@ -6696,31 +6730,31 @@ msgstr ""
 msgid "Displays charts about connections"
 msgstr ""
 
-#: plugins/syndication/feed.cpp:483
+#: plugins/syndication/feed.cpp:478
 msgid "Aborted"
 msgstr "तोडले"
 
-#: plugins/syndication/feed.cpp:485
+#: plugins/syndication/feed.cpp:480
 msgid "Timeout when downloading feed"
 msgstr ""
 
-#: plugins/syndication/feed.cpp:487
+#: plugins/syndication/feed.cpp:482
 msgid "Unknown hostname"
 msgstr ""
 
-#: plugins/syndication/feed.cpp:489
+#: plugins/syndication/feed.cpp:484
 msgid "File not found"
 msgstr "फाईल सापडली नाही"
 
-#: plugins/syndication/feed.cpp:491
+#: plugins/syndication/feed.cpp:486
 msgid "Unknown retriever error"
 msgstr ""
 
-#: plugins/syndication/feed.cpp:495
+#: plugins/syndication/feed.cpp:490
 msgid "Invalid feed data"
 msgstr ""
 
-#: plugins/syndication/feed.cpp:497
+#: plugins/syndication/feed.cpp:492
 msgid "Success"
 msgstr "यश"
 
@@ -6740,79 +6774,66 @@ msgstr[1] ""
 msgid "<b>%1</b><br/><br/>Download failed: <b>%2</b>"
 msgstr ""
 
-#: plugins/syndication/feedwidget.cpp:36
-#, kde-format
-msgid ""
-"    <html>    <body>    <div style=\"border-style:solid; border-width:1px; "
-"margin:5px; padding:5px\">    <b>Title:</b> %1<br/>    <b>Date:</b> %2<br/"
-">    </div>    <p>%3</p>    </body>    </html>    "
-msgstr ""
-
-#: plugins/syndication/feedwidget.cpp:192
+#: plugins/syndication/feedwidget.cpp:107
 msgid "Authentication Cookie"
 msgstr ""
 
-#: plugins/syndication/feedwidget.cpp:192
+#: plugins/syndication/feedwidget.cpp:107
 msgid "Enter the new authentication cookie"
 msgstr ""
 
-#: plugins/syndication/feedwidget.cpp:226
+#: plugins/syndication/feedwidget.cpp:126
 msgid "<b>OK</b>"
 msgstr "<b>ठीक आहे</b>"
 
-#: plugins/syndication/feedwidget.cpp:229
+#: plugins/syndication/feedwidget.cpp:129
 msgid "<b>Not Loaded</b>"
 msgstr ""
 
-#: plugins/syndication/feedwidget.cpp:232
+#: plugins/syndication/feedwidget.cpp:132
 #, kde-format
 msgid "<b>Download Failed: %1</b>"
 msgstr ""
 
-#: plugins/syndication/feedwidget.cpp:235
+#: plugins/syndication/feedwidget.cpp:135
 msgid "<b>Downloading</b>"
 msgstr "<b>डाउनलोड करत आहे</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/syndication/feedwidget.ui:65
+#: plugins/syndication/feedwidget.ui:53
 msgid "Status:"
 msgstr "स्थिती :"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/syndication/feedwidget.ui:85
-msgid "Active Filters:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/syndication/feedwidget.ui:131
+#: plugins/syndication/feedwidget.ui:77
 msgid "Refresh every:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, m_refresh_rate)
-#: plugins/syndication/feedwidget.ui:138
+#: plugins/syndication/feedwidget.ui:84
 msgid "Time between automatic refreshes of the feed."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (KPushButton, m_cookies)
-#: plugins/syndication/feedwidget.ui:170
-msgid "Cookies"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (KPushButton, m_filters)
-#: plugins/syndication/feedwidget.ui:177
+#: plugins/syndication/feedwidget.ui:148
 msgid "Filters"
 msgstr "गाळणी"
 
-#: plugins/syndication/feedwidgetmodel.cpp:89
+#. i18n: ectx: property (text), widget (KPushButton, m_cookies)
+#: plugins/syndication/feedwidget.ui:155
+msgid "Cookies"
+msgstr ""
+
+#: plugins/syndication/feedwidgetmodel.cpp:83
 msgid "Date Published"
 msgstr ""
 
 #: plugins/syndication/filtereditor.cpp:39
-#: plugins/syndication/syndicationplugin.cpp:103
+#: plugins/syndication/syndicationplugin.cpp:107
 msgid "Edit Filter"
 msgstr ""
 
-#: plugins/syndication/filtereditor.cpp:234
+#: plugins/syndication/filtereditor.cpp:233
 #, kde-format
 msgid "There already is a filter named %1, filter names must be unique."
 msgstr ""
@@ -7017,7 +7038,7 @@ msgid "Could not find a valid link to a torrent on %1"
 msgstr ""
 
 #: plugins/syndication/managefiltersdlg.cpp:33
-#: plugins/syndication/syndicationplugin.cpp:91
+#: plugins/syndication/syndicationplugin.cpp:95
 msgid "Add/Remove Filters"
 msgstr ""
 
@@ -7053,7 +7074,7 @@ msgstr "सर्व काढून टाका"
 
 #. i18n: ectx: property (text), widget (QPushButton, m_new_filter)
 #: plugins/syndication/managefiltersdlg.ui:127
-#: plugins/syndication/syndicationactivity.cpp:213
+#: plugins/syndication/syndicationactivity.cpp:296
 msgid "New Filter"
 msgstr ""
 
@@ -7067,45 +7088,49 @@ msgstr ""
 msgid "Manages RSS and Atom feeds"
 msgstr ""
 
-#: plugins/syndication/syndicationactivity.cpp:118
+#: plugins/syndication/syndicationactivity.cpp:134
 msgid "Enter the URL"
 msgstr ""
 
-#: plugins/syndication/syndicationactivity.cpp:118
+#: plugins/syndication/syndicationactivity.cpp:134
 msgid "Please enter the URL of the RSS or Atom feed."
 msgstr ""
 
-#: plugins/syndication/syndicationactivity.cpp:144
+#: plugins/syndication/syndicationactivity.cpp:160
 #, kde-format
 msgid "Failed to load feed %1: %2"
 msgstr ""
 
-#: plugins/syndication/syndicationactivity.cpp:161
+#: plugins/syndication/syndicationactivity.cpp:176
 #, kde-format
 msgid "Failed to create directory for feed %1: %2"
 msgstr ""
 
-#: plugins/syndication/syndicationactivity.cpp:215
+#: plugins/syndication/syndicationactivity.cpp:298
 msgid "Add New Filter"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:85
+#: plugins/syndication/syndicationplugin.cpp:86
 msgid "Add Feed"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:88
+#: plugins/syndication/syndicationplugin.cpp:89
 msgid "Remove Feed"
 msgstr ""
 
-#: plugins/syndication/syndicationplugin.cpp:94
+#: plugins/syndication/syndicationplugin.cpp:92
+msgid "Show Feed"
+msgstr ""
+
+#: plugins/syndication/syndicationplugin.cpp:98
 msgid "Rename"
 msgstr "नाव बदला"
 
-#: plugins/syndication/syndicationplugin.cpp:97
+#: plugins/syndication/syndicationplugin.cpp:101
 msgid "Add Filter"
 msgstr "गाळणी जोडा"
 
-#: plugins/syndication/syndicationplugin.cpp:100
+#: plugins/syndication/syndicationplugin.cpp:104
 msgid "Remove Filter"
 msgstr ""
 
@@ -7149,11 +7174,11 @@ msgstr ""
 msgid "An internal server error occurred: %1"
 msgstr ""
 
-#: plugins/webinterface/httpserver.cpp:329
+#: plugins/webinterface/httpserver.cpp:327
 msgid "Cannot find web interface skins."
 msgstr ""
 
-#: plugins/webinterface/httpserver.cpp:494
+#: plugins/webinterface/httpserver.cpp:492
 msgid "Unsupported HTTP method"
 msgstr ""
 
@@ -7299,4 +7324,18 @@ msgstr ""
 msgid "ZeroConf"
 msgstr ""
 
+#~ msgctxt "Chart name"
+#~ msgid "Connections"
+#~ msgstr "जुळवण्या"
 
+#~ msgctxt "Name of a line on upload chart"
+#~ msgid "Average"
+#~ msgstr "सरासरी"
+
+#~ msgctxt "Name of a line on upload chart"
+#~ msgid "Limit"
+#~ msgstr "मर्यादा"
+
+#~ msgctxt "@title:window"
+#~ msgid "Display"
+#~ msgstr "दर्शवा"
