@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-11 03:08+0100\n"
+"POT-Creation-Date: 2013-02-14 02:41+0100\n"
 "PO-Revision-Date: 2013-02-14 15:15+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -30,7 +30,7 @@ msgid "Select all 9999 matches"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, selectAllCB)
-#: plugin_search.cpp:78 plugin_search.cpp:400 plugin_search.cpp:478
+#: plugin_search.cpp:78 plugin_search.cpp:408 plugin_search.cpp:486
 #: results.ui:50
 msgid "Select all"
 msgstr "सर्वांची निवड करा"
@@ -43,166 +43,170 @@ msgstr ""
 msgid "Search & replace in files"
 msgstr ""
 
-#: plugin_search.cpp:159
-msgid "Search in Files"
-msgstr ""
-
-#: plugin_search.cpp:163
-msgid "Go to Next Match"
-msgstr ""
-
-#: plugin_search.cpp:167
-msgid "Go to Previous Match"
-msgstr ""
-
-#: plugin_search.cpp:173
+#: plugin_search.cpp:161
 msgid "Search and Replace"
 msgstr ""
 
-#: plugin_search.cpp:188
-msgid ""
-"Comma separated list of file types to search in. example: \"*.cpp,*.h\"\n"
-"NOTE: Put a minus sign ('-') in front of the list to make it into an exclude "
-"list. example: \"-*.o,*.obj\""
+#: plugin_search.cpp:167
+msgid "Search in Files"
 msgstr ""
 
-#: plugin_search.cpp:541
+#: plugin_search.cpp:171
+msgid "Search in Files (new tab)"
+msgstr ""
+
+#: plugin_search.cpp:178
+msgid "Go to Next Match"
+msgstr ""
+
+#: plugin_search.cpp:182
+msgid "Go to Previous Match"
+msgstr ""
+
+#: plugin_search.cpp:196
+msgid ""
+"Comma separated list of file types to search in. example: \"*.cpp,*.h\"\n"
+"NOTE: Put a minus sign ('-') in front of an element to exclude those files "
+"and directories. example: \"*.cpp,*.h,-build*\""
+msgstr ""
+
+#: plugin_search.cpp:549
 msgid "SearchHighLight"
 msgstr ""
 
-#: plugin_search.cpp:560 replace_matches.cpp:117
+#: plugin_search.cpp:568 replace_matches.cpp:117
 #, kde-format
 msgid "Line: <b>%1</b>: %2"
 msgstr "ओळ : <b>%1</b>: %2"
 
-#: plugin_search.cpp:574
+#: plugin_search.cpp:582
 #, kde-format
 msgid "Select %1 match"
 msgid_plural "Select all %1 matches"
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugin_search.cpp:988
+#: plugin_search.cpp:997
 msgid "Add..."
 msgstr "जोडा..."
 
-#: plugin_search.cpp:993
+#: plugin_search.cpp:1002
 msgid "Beginning of line"
 msgstr "ओळीची सुरुवात"
 
-#: plugin_search.cpp:994
+#: plugin_search.cpp:1003
 msgid "End of line"
 msgstr "ओळीची समाप्ती"
 
-#: plugin_search.cpp:996
+#: plugin_search.cpp:1005
 msgid "Any single character (excluding line breaks)"
 msgstr ""
 
-#: plugin_search.cpp:998
+#: plugin_search.cpp:1007
 msgid "One or more occurrences"
 msgstr ""
 
-#: plugin_search.cpp:999
+#: plugin_search.cpp:1008
 msgid "Zero or more occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1000
+#: plugin_search.cpp:1009
 msgid "Zero or one occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1001
+#: plugin_search.cpp:1010
 msgid "<a> through <b> occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1003
+#: plugin_search.cpp:1012
 msgid "Group, capturing"
 msgstr ""
 
-#: plugin_search.cpp:1004
+#: plugin_search.cpp:1013
 msgid "Or"
 msgstr "Or"
 
-#: plugin_search.cpp:1005
+#: plugin_search.cpp:1014
 msgid "Set of characters"
 msgstr "अक्षरांचे संच"
 
-#: plugin_search.cpp:1006
+#: plugin_search.cpp:1015
 msgid "Negative set of characters"
 msgstr ""
 
-#: plugin_search.cpp:1007
+#: plugin_search.cpp:1016
 msgid "Group, non-capturing"
 msgstr ""
 
-#: plugin_search.cpp:1008
+#: plugin_search.cpp:1017
 msgid "Lookahead"
 msgstr ""
 
-#: plugin_search.cpp:1009
+#: plugin_search.cpp:1018
 msgid "Negative lookahead"
 msgstr ""
 
-#: plugin_search.cpp:1012
+#: plugin_search.cpp:1021
 msgid "Line break"
 msgstr ""
 
-#: plugin_search.cpp:1013
+#: plugin_search.cpp:1022
 msgid "Tab"
 msgstr "Tab"
 
-#: plugin_search.cpp:1014
+#: plugin_search.cpp:1023
 msgid "Word boundary"
 msgstr ""
 
-#: plugin_search.cpp:1015
+#: plugin_search.cpp:1024
 msgid "Not word boundary"
 msgstr ""
 
-#: plugin_search.cpp:1016
+#: plugin_search.cpp:1025
 msgid "Digit"
 msgstr "डिजीट"
 
-#: plugin_search.cpp:1017
+#: plugin_search.cpp:1026
 msgid "Non-digit"
 msgstr ""
 
-#: plugin_search.cpp:1018
+#: plugin_search.cpp:1027
 msgid "Whitespace (excluding line breaks)"
 msgstr ""
 
-#: plugin_search.cpp:1019
+#: plugin_search.cpp:1028
 msgid "Non-whitespace (excluding line breaks)"
 msgstr ""
 
-#: plugin_search.cpp:1020
+#: plugin_search.cpp:1029
 msgid "Word character (alphanumerics plus '_')"
 msgstr ""
 
-#: plugin_search.cpp:1021
+#: plugin_search.cpp:1030
 msgid "Non-word character"
 msgstr ""
 
-#: plugin_search.cpp:1095
+#: plugin_search.cpp:1104
 msgid "in Project"
 msgstr ""
 
-#: plugin_search.cpp:1163
+#: plugin_search.cpp:1172
 msgid "Usage: grep [pattern to search for in folder]"
 msgstr ""
 
-#: plugin_search.cpp:1166
+#: plugin_search.cpp:1175
 msgid "Usage: newGrep [pattern to search for in folder]"
 msgstr ""
 
-#: plugin_search.cpp:1170 plugin_search.cpp:1173
+#: plugin_search.cpp:1179 plugin_search.cpp:1182
 msgid "Usage: search [pattern to search for in open files]"
 msgstr ""
 
-#: plugin_search.cpp:1177
+#: plugin_search.cpp:1186
 msgid "Usage: pgrep [pattern to search for in current project]"
 msgstr ""
 
-#: plugin_search.cpp:1180
+#: plugin_search.cpp:1189
 msgid "Usage: newPGrep [pattern to search for in current project]"
 msgstr ""
 
@@ -218,82 +222,90 @@ msgstr "थांबा"
 
 #. i18n: ectx: property (text), widget (QToolButton, newTabButton)
 #. i18n: ectx: property (text), widget (QToolButton, displayOptions)
-#: search.ui:20 search.ui:50
+#: search.ui:20 search.ui:47
 msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (text), widget (KPushButton, searchButton)
-#: search.ui:43
+#: search.ui:40
 msgid "Search"
 msgstr "शोधा"
 
-#. i18n: ectx: property (text), widget (QCheckBox, matchCase)
-#: search.ui:99
-msgid "Match Case"
-msgstr "आकार जुळवा"
-
-#. i18n: ectx: property (text), widget (QCheckBox, useRegExp)
-#: search.ui:106
-msgid "Regular Expressions"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QToolButton, currentFolderButton)
-#: search.ui:151
+#: search.ui:108
 msgid "Use the current document's path."
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, filterCombo)
-#: search.ui:168
+#: search.ui:122
 msgid "*"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, folderLabel)
-#: search.ui:176
+#: search.ui:130
 msgid "Folder"
 msgstr "संचयीका"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, folderUpButton)
-#: search.ui:193
+#: search.ui:147
 msgid "Go one folder up."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, filterLabel)
-#: search.ui:203
+#: search.ui:154
 msgid "Filter"
 msgstr "गाळणी"
 
 #. i18n: ectx: property (text), widget (QCheckBox, recursiveCheckBox)
-#: search.ui:213
+#: search.ui:164
 msgid "Recursive"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, hiddenCheckBox)
-#: search.ui:223
+#: search.ui:174
 msgid "Include hidden"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, symLinkCheckBox)
-#: search.ui:243
+#: search.ui:194
 msgid "Follow symbolic links"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, binaryCheckBox)
-#: search.ui:250
+#: search.ui:201
 msgid "Include binary files"
 msgstr ""
 
+#. i18n: When this is checked the result treeview will be expanded after a search
+#. i18n: ectx: property (text), widget (QCheckBox, u_expandResults)
+#: search.ui:211
+msgid "Expand results"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, matchCase)
+#: search.ui:218
+#, fuzzy
+#| msgid "Match Case"
+msgid "Match case"
+msgstr "आकार जुळवा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useRegExp)
+#: search.ui:238
+msgid "Regular expressions"
+msgstr ""
+
 #. i18n: ectx: property (text), item, widget (KComboBox, searchPlaceCombo)
-#: search.ui:310
+#: search.ui:308
 msgid "in Open files"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, searchPlaceCombo)
-#: search.ui:315
+#: search.ui:313
 msgid "in Folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, stopButton)
-#: search.ui:342
+#: search.ui:340
 msgid "Stop"
 msgstr "थांबा"
 
@@ -301,4 +313,3 @@ msgstr "थांबा"
 #: ui.rc:5
 msgid "&Edit"
 msgstr "संपादन (&E)"
-

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-13 04:08+0100\n"
+"POT-Creation-Date: 2013-02-16 03:03+0100\n"
 "PO-Revision-Date: 2013-02-16 18:07+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Cannot load more than one URL in webapp mode"
 msgstr ""
 
-#: application.cpp:383
+#: application.cpp:384
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -157,36 +157,41 @@ msgstr ""
 "अवैध स्वरूपातील URL:\n"
 "%1"
 
-#: application.cpp:636
+#: application.cpp:637
 msgid "Do you want to close the window or the whole application?"
 msgstr "तुम्हाला चौकट बंद करायची आहे का संपूर्ण अनुप्रयोग बंद करायचा आहे?"
 
-#: application.cpp:637
+#: application.cpp:638
 msgid "Application/Window closing..."
 msgstr "अनुप्रयोग/चौकट बंद करत आहे..."
 
-#: application.cpp:638
+#: application.cpp:639
 msgid "C&lose Current Window"
 msgstr "वर्तमान चौकट बंद करा (&L)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ClearDataWidget)
-#: application.cpp:667 cleardata.ui:17
+#: application.cpp:668 cleardata.ui:17
 msgctxt "@title:window"
 msgid "Clear Private Data"
 msgstr "वैयक्तिक माहिती पुसून टाका"
 
-#: application.cpp:671
+#: application.cpp:672
 msgid "Clear"
 msgstr "पुसून टाका"
 
-#: application.cpp:747
+#: application.cpp:748
 msgctxt "@title:window"
 msgid "Create Application Shortcut"
 msgstr "अनुप्रयोग शॉर्टकट निर्माण करा"
 
-#: application.cpp:749
+#: application.cpp:750
 msgid "Create"
 msgstr "निर्माण करा"
+
+#. i18n: ectx: Menu (go)
+#: bookmarks/bookmarkmanager.cpp:326 webwindow/rekonqui.rc:124
+msgid "&Bookmarks"
+msgstr "ओळखचिन्हे (&B)"
 
 #: bookmarks/bookmarkowner.cpp:73
 msgid "Open"
@@ -562,8 +567,7 @@ msgstr "बेंजामिन पौलैन"
 #: main.cpp:154
 msgid ""
 "The \"QtWebKit guy\". Adblock (new) implementation. Code quality improvements"
-msgstr ""
-"\"QtWebKit\" व्यक्ति. जाहिरात प्रतिबंध (नवीन) लागू केले. कोड गुणवत्ता सुधारणा"
+msgstr "\"QtWebKit\" व्यक्ति. जाहिरात प्रतिबंध (नवीन) लागू केले. कोड गुणवत्ता सुधारणा"
 
 #: main.cpp:158
 msgid "Rohan Garg"
@@ -1532,7 +1536,7 @@ msgid "Check"
 msgstr "तपासा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, syncGroupBox)
-#: sync/sync_data.ui:23 webwindow/webwindow.cpp:331
+#: sync/sync_data.ui:23 webwindow/webwindow.cpp:341
 msgid "Sync"
 msgstr "सिंक"
 
@@ -1641,8 +1645,8 @@ msgstr ""
 msgid "Clone"
 msgstr "प्रतिकृती"
 
-#: tabwindow/tabbar.cpp:198 webwindow/webwindow.cpp:259
-#: webwindow/webwindow.cpp:416
+#: tabwindow/tabbar.cpp:198 webwindow/webwindow.cpp:261
+#: webwindow/webwindow.cpp:426
 msgid "Reload"
 msgstr "पुन्हा दाखल करा"
 
@@ -1773,7 +1777,7 @@ msgid "Nepomuk is actually disabled."
 msgstr "नेपोमुक अकार्यान्वीत आहे."
 
 #. i18n: ectx: ToolBar (bookmarkToolBar)
-#: urlbar/bookmarkwidget.cpp:242 webwindow/rekonqui.rc:171
+#: urlbar/bookmarkwidget.cpp:242 webwindow/rekonqui.rc:164
 msgid "Bookmark Toolbar"
 msgstr "ओळखचिन्ह साधनपट्टी"
 
@@ -2049,7 +2053,7 @@ msgctxt "describe UA platform, eg: firefox 3.1 \"on Windows XP\""
 msgid " on %1 %2"
 msgstr " %1 %2 वर"
 
-#: useragent/useragentmanager.cpp:64 webwindow/webwindow.cpp:308
+#: useragent/useragentmanager.cpp:64 webwindow/webwindow.cpp:318
 msgid "Browser Identification"
 msgstr "ब्राऊजर ओळख"
 
@@ -2183,8 +2187,7 @@ msgid ""
 "You don't have a default search engine set. Without it, rekonq will not show "
 "proper url suggestions."
 msgstr ""
-"तुमचे मूलभूत शोध इंजिन संयोजीत नाही. त्याशिवाय रीकॉन्क तुम्हाला योग्य url "
-"सुचवू शकत नाही."
+"तुमचे मूलभूत शोध इंजिन संयोजीत नाही. त्याशिवाय रीकॉन्क तुम्हाला योग्य url सुचवू शकत नाही."
 
 #: webtab/searchenginebar.cpp:63
 msgid "Set it"
@@ -2379,8 +2382,7 @@ msgid ""
 "It seems rekonq was not closed properly. Do you want to restore the last "
 "saved session?"
 msgstr ""
-"असे वाटते कि रीकॉन्क योग्यरित्या बंद झाले नाही. तुम्हाला शेवटचे साठवलेले सत्र "
-"पुन्हस्थापित "
+"असे वाटते कि रीकॉन्क योग्यरित्या बंद झाले नाही. तुम्हाला शेवटचे साठवलेले सत्र पुन्हस्थापित "
 "करायचे आहे का?"
 
 #: webtab/webtab.cpp:404
@@ -2547,133 +2549,127 @@ msgstr "झूम (&Z)"
 
 #. i18n: ectx: Menu (toolsMenu)
 #. i18n: ectx: Menu (tools)
-#: webwindow/rekonqui.rc:30 webwindow/rekonqui.rc:135
-#: webwindow/webwindow.cpp:347
+#: webwindow/rekonqui.rc:30 webwindow/rekonqui.rc:128
+#: webwindow/webwindow.cpp:357
 msgid "&Tools"
 msgstr "साधने (&T)"
 
-#. i18n: ectx: Menu (bookmarksMenu)
-#. i18n: ectx: Menu (go)
-#: webwindow/rekonqui.rc:45 webwindow/rekonqui.rc:131
-msgid "&Bookmarks"
-msgstr "ओळखचिन्हे (&B)"
-
 #. i18n: ectx: Menu (help)
-#: webwindow/rekonqui.rc:60
+#: webwindow/rekonqui.rc:53
 msgid "&Help"
 msgstr "मदत (&H)"
 
 #. i18n: ectx: Menu (file)
-#: webwindow/rekonqui.rc:82
+#: webwindow/rekonqui.rc:75
 msgid "&File"
 msgstr "फाईल (&F)"
 
 #. i18n: ectx: Menu (edit)
-#: webwindow/rekonqui.rc:97
+#: webwindow/rekonqui.rc:90
 msgid "&Edit"
 msgstr "संपादन (&E)"
 
 #. i18n: ectx: Menu (view)
-#: webwindow/rekonqui.rc:111
+#: webwindow/rekonqui.rc:104
 msgid "&View"
 msgstr "दृश्य (&V)"
 
 #. i18n: ectx: Menu (go)
-#: webwindow/rekonqui.rc:127
+#: webwindow/rekonqui.rc:120
 msgid "Hi&story"
 msgstr "इतिहास (&S)"
 
 #. i18n: ectx: Menu (settings)
-#: webwindow/rekonqui.rc:147
+#: webwindow/rekonqui.rc:140
 msgid "&Settings"
 msgstr "संयोजना (&S)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: webwindow/rekonqui.rc:161
+#: webwindow/rekonqui.rc:154
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
-#: webwindow/webwindow.cpp:192
+#: webwindow/webwindow.cpp:194
 msgid "Location Bar"
 msgstr "स्थान पट्टी"
 
-#: webwindow/webwindow.cpp:203
+#: webwindow/webwindow.cpp:205
 msgid "&New Window"
 msgstr "नवीन चौकट (&N)"
 
-#: webwindow/webwindow.cpp:217
+#: webwindow/webwindow.cpp:219
 msgid "Configure Main ToolBar"
 msgstr "मुख्य साधनपट्टी संयोजीत करा"
 
-#: webwindow/webwindow.cpp:222
+#: webwindow/webwindow.cpp:224
 msgid "Bookmarks Toolbar"
 msgstr "ओळखचिन्हे साधनपट्टी"
 
-#: webwindow/webwindow.cpp:233
+#: webwindow/webwindow.cpp:235
 msgid "Downloads page"
 msgstr "डाउनलोड पान"
 
-#: webwindow/webwindow.cpp:239
+#: webwindow/webwindow.cpp:241
 msgid "History page"
 msgstr "इतिहास पान"
 
-#: webwindow/webwindow.cpp:245
+#: webwindow/webwindow.cpp:247
 msgid "Bookmarks page"
 msgstr "ओळखचिन्हे पान"
 
-#: webwindow/webwindow.cpp:264
+#: webwindow/webwindow.cpp:266
 msgid "&Stop"
 msgstr "थांबा (&S)"
 
-#: webwindow/webwindow.cpp:270
+#: webwindow/webwindow.cpp:272
 msgid "Open Location"
 msgstr "स्थान उघडा"
 
-#: webwindow/webwindow.cpp:278
+#: webwindow/webwindow.cpp:280
 msgid "View Page S&ource"
 msgstr "पानाचा स्रोत बघा (&O)"
 
-#: webwindow/webwindow.cpp:284
+#: webwindow/webwindow.cpp:286
 msgid "New Private Window"
 msgstr "नवीन व्यक्तिगत चौकट"
 
-#: webwindow/webwindow.cpp:288
+#: webwindow/webwindow.cpp:290
 msgid "Clear Private Data..."
 msgstr "व्यक्तिगत माहिती पुसून टाका..."
 
-#: webwindow/webwindow.cpp:315
+#: webwindow/webwindow.cpp:325
 msgid "Set Editable"
 msgstr "संपादनास योग्य करा"
 
-#: webwindow/webwindow.cpp:321
+#: webwindow/webwindow.cpp:331
 msgid "Ad Block"
 msgstr "जाहिरात प्रतिबंध"
 
-#: webwindow/webwindow.cpp:326
+#: webwindow/webwindow.cpp:336
 msgid "Create application shortcut"
 msgstr "अनुप्रयोग शॉर्टकट निर्माण करा"
 
-#: webwindow/webwindow.cpp:336
+#: webwindow/webwindow.cpp:346
 msgid "&Inspect"
 msgstr "तपासा (&I)"
 
-#: webwindow/webwindow.cpp:396
+#: webwindow/webwindow.cpp:406
 msgid "Stop loading the current page"
 msgstr "वर्तमान पान दाखल करणे थांबवा"
 
-#: webwindow/webwindow.cpp:397
+#: webwindow/webwindow.cpp:407
 msgid "Stop"
 msgstr "थांबा"
 
-#: webwindow/webwindow.cpp:415
+#: webwindow/webwindow.cpp:425
 msgid "Reload the current page"
 msgstr "वर्तमान पान पुन्हा दाखल करा"
 
-#: webwindow/webwindow.cpp:427 webwindow/webwindow.cpp:428
+#: webwindow/webwindow.cpp:437 webwindow/webwindow.cpp:438
 msgid "Go"
 msgstr "जा"
 
-#: webwindow/webwindow.cpp:711
+#: webwindow/webwindow.cpp:721
 msgid ""
 "*.html *.htm *.svg *.png *.gif *.svgz|Web Resources (*.html *.htm *.svg *."
 "png *.gif *.svgz)\n"
@@ -2683,15 +2679,15 @@ msgstr ""
 "png *.gif *.svgz)\n"
 "*.*|All files (*.*)"
 
-#: webwindow/webwindow.cpp:714
+#: webwindow/webwindow.cpp:724
 msgid "Open Web Resource"
 msgstr "वेब संसाधन उघडा"
 
-#: webwindow/webwindow.cpp:984
+#: webwindow/webwindow.cpp:994
 msgid "web window"
 msgstr "वेब चौकट"
 
-#: webwindow/webwindow.cpp:988
+#: webwindow/webwindow.cpp:998
 msgid "tab window"
 msgstr "टॅब चौकट"
 

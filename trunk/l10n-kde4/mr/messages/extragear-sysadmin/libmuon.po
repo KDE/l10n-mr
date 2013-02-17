@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-01 03:15+0100\n"
+"POT-Creation-Date: 2013-02-16 03:11+0100\n"
 "PO-Revision-Date: 2013-02-12 15:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -48,11 +48,11 @@ msgctxt "@info app size"
 msgid "%1 on disk"
 msgstr ""
 
-#: libmuon/backends/ApplicationBackend/ApplicationBackend.cpp:63
+#: libmuon/backends/ApplicationBackend/ApplicationBackend.cpp:64
 msgid "Applications Backend"
 msgstr "अनुप्रयोग बॅकएन्ड"
 
-#: libmuon/backends/ApplicationBackend/ApplicationBackend.cpp:63
+#: libmuon/backends/ApplicationBackend/ApplicationBackend.cpp:64
 msgid "Applications in your system"
 msgstr "तुमच्या प्रणालीतील अनुप्रयोग"
 
@@ -61,31 +61,31 @@ msgstr "तुमच्या प्रणालीतील अनुप्र�
 msgid "Log in to the Ubuntu SSO service"
 msgstr ""
 
-#: libmuon/backends/BodegaBackend/BodegaBackend.cpp:38
+#: libmuon/backends/BodegaBackend/BodegaBackend.cpp:39
 msgid "Bodega Backend"
 msgstr ""
 
-#: libmuon/backends/BodegaBackend/BodegaBackend.cpp:38
+#: libmuon/backends/BodegaBackend/BodegaBackend.cpp:39
 msgid "Install Bodega data in your system"
 msgstr ""
 
-#: libmuon/backends/BodegaBackend/BodegaBackend.cpp:59
+#: libmuon/backends/BodegaBackend/BodegaBackend.cpp:60
 msgid "Enter MakePlayLive credentials"
 msgstr ""
 
-#: libmuon/backends/DummyBackend/DummyBackend.cpp:32
+#: libmuon/backends/DummyBackend/DummyBackend.cpp:33
 msgid "Dummy Backend"
 msgstr ""
 
-#: libmuon/backends/DummyBackend/DummyBackend.cpp:32
+#: libmuon/backends/DummyBackend/DummyBackend.cpp:33
 msgid "Dummy backend to test muon frontends"
 msgstr ""
 
-#: libmuon/backends/KNSBackend/KNSBackend.cpp:43
+#: libmuon/backends/KNSBackend/KNSBackend.cpp:50
 msgid "KNewStuff Backend"
 msgstr ""
 
-#: libmuon/backends/KNSBackend/KNSBackend.cpp:43
+#: libmuon/backends/KNSBackend/KNSBackend.cpp:50
 msgid "Install KNewStuff data in your system"
 msgstr ""
 
@@ -153,36 +153,49 @@ msgstr ""
 msgid "Popup notifications only"
 msgstr ""
 
-#: libmuon/Transaction/TransactionListener.cpp:109
+#: libmuon/Transaction/TransactionModel.cpp:82
+#, fuzzy
+#| msgctxt "@info:status Progress text when waiting"
+#| msgid "Waiting"
+msgctxt "@info:status"
+msgid "Starting"
+msgstr "वाट पाहत आहे"
+
+#: libmuon/Transaction/TransactionModel.cpp:84
+#, fuzzy
+#| msgctxt "@info:status Progress text when waiting"
+#| msgid "Waiting"
+msgctxt "@info:status"
+msgid "Waiting"
+msgstr "वाट पाहत आहे"
+
+#: libmuon/Transaction/TransactionModel.cpp:86
 msgctxt "@info:status"
 msgid "Downloading"
 msgstr "डाउनलोड करत आहे"
 
-#: libmuon/Transaction/TransactionListener.cpp:144
-#: libmuon/Transaction/TransactionListener.cpp:161
-msgctxt "@info:status Progress text when done"
-msgid "Done"
-msgstr "झाले"
-
-#: libmuon/Transaction/TransactionListener.cpp:154
-msgctxt "@info:status Progress text when waiting"
-msgid "Waiting"
-msgstr "वाट पाहत आहे"
-
-#: libmuon/Transaction/TransactionListener.cpp:175
+#: libmuon/Transaction/TransactionModel.cpp:90
 msgctxt "@info:status"
 msgid "Installing"
 msgstr ""
 
-#: libmuon/Transaction/TransactionListener.cpp:179
+#: libmuon/Transaction/TransactionModel.cpp:92
+msgctxt "@info:status"
+msgid "Removing"
+msgstr ""
+
+#: libmuon/Transaction/TransactionModel.cpp:94
 msgctxt "@info:status"
 msgid "Changing Addons"
 msgstr ""
 
-#: libmuon/Transaction/TransactionListener.cpp:183
+#: libmuon/Transaction/TransactionModel.cpp:98
+#, fuzzy
+#| msgctxt "@info:status Progress text when done"
+#| msgid "Done"
 msgctxt "@info:status"
-msgid "Removing"
-msgstr ""
+msgid "Done"
+msgstr "झाले"
 
 #~ msgctxt "Category"
 #~ msgid "Accessibility"
