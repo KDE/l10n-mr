@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin_clients\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-14 03:24+0100\n"
-"PO-Revision-Date: 2013-02-12 11:31+0530\n"
+"POT-Creation-Date: 2013-01-08 19:49+0100\n"
+"PO-Revision-Date: 2013-02-17 11:48+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
 "Language: mr\n"
@@ -38,23 +38,20 @@ msgid "Title &Alignment"
 msgstr "शिर्षक स्थान (&A)"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignLeft)
-#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
 #: aurorae/themes/plastik/package/contents/ui/config.ui:29
-#: oxygen/config/ui/oxygenconfigurationui.ui:115
+#: oxygen/oxygenconfiguration.cpp:247
 msgid "Left"
 msgstr "डावीकडे"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignCenter)
-#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
 #: aurorae/themes/plastik/package/contents/ui/config.ui:36
-#: oxygen/config/ui/oxygenconfigurationui.ui:120
+#: oxygen/oxygenconfiguration.cpp:252
 msgid "Center"
 msgstr "मध्यभागी"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_titleAlignRight)
-#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
 #: aurorae/themes/plastik/package/contents/ui/config.ui:43
-#: oxygen/config/ui/oxygenconfigurationui.ui:130
+#: oxygen/oxygenconfiguration.cpp:255
 msgid "Right"
 msgstr "उजवीकडे"
 
@@ -106,19 +103,19 @@ msgstr "सर्व डेस्कटॉप वर नाही"
 msgid "On all desktops"
 msgstr "सर्व डेस्कटॉप वर"
 
-#: b2/b2client.cpp:406 oxygen/oxygenclient.cpp:226
+#: b2/b2client.cpp:406 oxygen/oxygenclient.cpp:224
 msgid "Minimize"
 msgstr "लहान करा"
 
-#: b2/b2client.cpp:406 b2/b2client.cpp:901 oxygen/oxygenclient.cpp:229
+#: b2/b2client.cpp:406 b2/b2client.cpp:901 oxygen/oxygenclient.cpp:227
 msgid "Maximize"
 msgstr "मोठी करा"
 
-#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:232
+#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:230
 msgid "Close"
 msgstr "बंद करा"
 
-#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:223
+#: b2/b2client.cpp:407 oxygen/oxygenclient.cpp:221
 msgid "Help"
 msgstr "मदत"
 
@@ -206,8 +203,10 @@ msgid ""
 "An action can be associated to a double click of the menu button. Leave it "
 "to none if in doubt."
 msgstr ""
+"मेन्यू बटन दोनदा क्लिक करण्याशी एक क्रिया संबंधित होऊ शकते. जर शंका असेल तर "
+"रिकामे ठेवा."
 
-#: laptop/laptopclient.cpp:376
+#: laptop/laptopclient.cpp:370
 msgid "Laptop"
 msgstr "लैपटॉप"
 
@@ -225,7 +224,7 @@ msgstr "शिर्षक बदल"
 
 #: oxygen/config/oxygenanimationconfigwidget.cpp:53
 msgid "Configure fading transitions when window title is changed"
-msgstr ""
+msgstr "ज्यावेळी चौकटीचे शिर्षक बदलेल त्यावेळी पुसट होणारे बदल संयोजीत करा"
 
 #: oxygen/config/oxygenanimationconfigwidget.cpp:56
 msgid "Window active state change transitions"
@@ -236,6 +235,8 @@ msgid ""
 "Configure fading between window shadow and glow when window's active state "
 "is changed"
 msgstr ""
+"ज्यावेळी चौकटींची सक्रिय स्थिती बदलते त्यावेळी चौकट सावलीमध्ये पुसट करणे व "
+"चमकणे संयोजीत करा"
 
 #: oxygen/config/oxygenanimationconfigwidget.cpp:60
 msgid "Window grouping animations"
@@ -244,24 +245,39 @@ msgstr "चौकट समूहीकरण ऍनीमेशन"
 #: oxygen/config/oxygenanimationconfigwidget.cpp:61
 msgid "Configure window titlebar animations when windows are grouped/ungrouped"
 msgstr ""
+"ज्यावेळी चौकटी समूहात/वेगळ्या असतील त्यावेळी चौकट शिर्षकपट्टी ऍनीमेशन संयोजीत "
+"करा"
 
-#: oxygen/config/oxygenconfigwidget.cpp:160
+#: oxygen/config/oxygenconfigurationui.cpp:144
 msgid "Hide Advanced Configuration Options"
 msgstr "प्रगत संयोजना पर्याय लपवा"
 
-#: oxygen/config/oxygenconfigwidget.cpp:160
+#: oxygen/config/oxygenconfigurationui.cpp:144
 msgid "Show Advanced Configuration Options"
 msgstr "प्रगत संयोजना पर्याय दर्शवा"
 
-#: oxygen/config/oxygenconfigwidget.cpp:177
+#: oxygen/config/oxygenconfigurationui.cpp:162
 msgid "Animations"
 msgstr "ऍनीमेशन"
 
-#: oxygen/config/oxygenexceptionlistwidget.cpp:190
+#: oxygen/config/oxygenexceptiondialog.cpp:92
+#: oxygen/config/oxygenexceptiondialog.cpp:118
+#: oxygen/config/oxygenexceptiondialog.cpp:146
+msgctxt "outline window title"
+msgid "Enabled"
+msgstr "कार्यान्वित"
+
+#: oxygen/config/oxygenexceptiondialog.cpp:92
+#: oxygen/config/oxygenexceptiondialog.cpp:118
+msgctxt "outline window title"
+msgid "Disabled"
+msgstr "अकार्यान्वित"
+
+#: oxygen/config/oxygenexceptionlistwidget.cpp:201
 msgid "Remove selected exception?"
 msgstr "निवडलेले अपवाद काढून टाकायचे का?"
 
-#: oxygen/config/oxygenexceptionlistwidget.cpp:331
+#: oxygen/config/oxygenexceptionlistwidget.cpp:340
 msgid "Regular Expression syntax is incorrect"
 msgstr "नियमित अभिव्यक्ति सिन्टेक्स चुकीचा आहे"
 
@@ -273,19 +289,7 @@ msgstr "अपवाद प्रकार"
 msgid "Regular Expression"
 msgstr "नियमित अभिव्यक्ति"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, exceptionType)
-#: oxygen/config/oxygenexceptionmodel.cpp:61
-#: oxygen/config/ui/oxygenexceptiondialog.ui:69
-msgid "Window Title"
-msgstr "चौकट शिर्षक"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, exceptionType)
-#: oxygen/config/oxygenexceptionmodel.cpp:65
-#: oxygen/config/ui/oxygenexceptiondialog.ui:64
-msgid "Window Class Name"
-msgstr "चौकट वर्ग नाव"
-
-#: oxygen/config/oxygenexceptionmodel.cpp:81
+#: oxygen/config/oxygenexceptionmodel.cpp:67
 msgid "Enable/disable this exception"
 msgstr "हा अपवाद कार्यान्वित/अकार्यान्वित करा"
 
@@ -294,233 +298,103 @@ msgstr "हा अपवाद कार्यान्वित/अकार्
 msgid "General"
 msgstr "सामान्य"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QCheckBox, frameBorderCheckBox)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: oxygen/config/ui/oxygenconfigurationui.ui:39
-#: oxygen/config/ui/oxygenexceptiondialog.ui:86
+#: oxygen/config/ui/oxygenexceptiondialog.ui:75
 msgid "Border size:"
 msgstr "किनार आकार :"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:53
-#: oxygen/config/ui/oxygenexceptiondialog.ui:142
-msgctxt "@item:inlistbox Border size:"
-msgid "No Border"
-msgstr "किनार नाही"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:58
-#: oxygen/config/ui/oxygenexceptiondialog.ui:147
-msgctxt "@item:inlistbox Border size:"
-msgid "No Side Borders"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:63
-#: oxygen/config/ui/oxygenexceptiondialog.ui:152
-msgctxt "@item:inlistbox Border size:"
-msgid "Tiny"
-msgstr "लहान"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:68
-#: oxygen/config/ui/oxygenexceptiondialog.ui:157
-msgctxt "@item:inlistbox Border size:"
-msgid "Normal"
-msgstr "सामान्य"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:73
-#: oxygen/config/ui/oxygenexceptiondialog.ui:162
-msgctxt "@item:inlistbox Border size:"
-msgid "Large"
-msgstr "मोठा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:78
-#: oxygen/config/ui/oxygenexceptiondialog.ui:167
-msgctxt "@item:inlistbox Border size:"
-msgid "Very Large"
-msgstr "खूप मोठा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:83
-#: oxygen/config/ui/oxygenexceptiondialog.ui:172
-msgctxt "@item:inlistbox Border size:"
-msgid "Huge"
-msgstr "अवाढव्य"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:88
-#: oxygen/config/ui/oxygenexceptiondialog.ui:177
-msgctxt "@item:inlistbox Border size:"
-msgid "Very Huge"
-msgstr "प्रचंड अवाढव्य"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorder)
-#. i18n: ectx: property (text), item, widget (KComboBox, frameBorderComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:93
-#: oxygen/config/ui/oxygenexceptiondialog.ui:182
-msgctxt "@item:inlistbox Border size:"
-msgid "Oversized"
-msgstr "आकारापेक्षा जास्त"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: oxygen/config/ui/oxygenconfigurationui.ui:101
+#: oxygen/config/ui/oxygenconfigurationui.ui:55
 msgid "Title alignment:"
 msgstr "शिर्षक स्थान :"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, titleAlignment)
-#: oxygen/config/ui/oxygenconfigurationui.ui:125
-msgid "Center (Full Width)"
-msgstr "मध्य (पूर्ण रुंदी)"
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: oxygen/config/ui/oxygenconfigurationui.ui:151
+#: oxygen/config/ui/oxygenconfigurationui.ui:84
 msgid "Button size:"
 msgstr "बटन आकार :"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
-#: oxygen/config/ui/oxygenconfigurationui.ui:165
-msgctxt "@item:inlistbox Button size:"
-msgid "Small"
-msgstr "लहान"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
-#: oxygen/config/ui/oxygenconfigurationui.ui:170
-msgctxt "@item:inlistbox Button size:"
-msgid "Normal"
-msgstr "सामान्य"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
-#: oxygen/config/ui/oxygenconfigurationui.ui:175
-msgctxt "@item:inlistbox Button size:"
-msgid "Large"
-msgstr "मोठा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
-#: oxygen/config/ui/oxygenconfigurationui.ui:180
-msgctxt "@item:inlistbox Button size:"
-msgid "Very Large"
-msgstr "खूप मोठा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, buttonSize)
-#: oxygen/config/ui/oxygenconfigurationui.ui:185
-msgctxt "@item:inlistbox Button size:"
-msgid "Huge"
-msgstr "अवाढव्य"
-
 #. i18n: ectx: property (text), widget (QCheckBox, animationsEnabled)
-#: oxygen/config/ui/oxygenconfigurationui.ui:206
+#: oxygen/config/ui/oxygenconfigurationui.ui:100
 msgid "Enable animations"
 msgstr "ऍनीमेशन कार्यान्वित करा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: oxygen/config/ui/oxygenconfigurationui.ui:214
+#: oxygen/config/ui/oxygenconfigurationui.ui:121
 msgid "Fine Tuning"
 msgstr "फाईन ट्युनिंग"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
-#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:224
-#: oxygen/config/ui/oxygenexceptiondialog.ui:250
-msgid "Never Draw Separator"
-msgstr "विभाजक कधीही आखु नका"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
-#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:229
-#: oxygen/config/ui/oxygenexceptiondialog.ui:255
-msgid "Draw Separator When Window is Active"
-msgstr "चौकट सक्रिय असताना विभाजक आखा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
-#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:234
-#: oxygen/config/ui/oxygenexceptiondialog.ui:260
-msgid "Always Draw Separator"
-msgstr "नेहमी विभाजक आखा"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QCheckBox, separatorCheckBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:242
-#: oxygen/config/ui/oxygenexceptiondialog.ui:107
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: oxygen/config/ui/oxygenconfigurationui.ui:130
+#: oxygen/config/ui/oxygenexceptiondialog.ui:96
 msgid "Separator display:"
 msgstr "विभाजक दृश्य :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: oxygen/config/ui/oxygenconfigurationui.ui:255
+#: oxygen/config/ui/oxygenconfigurationui.ui:143
 msgid "Background style: "
 msgstr "पार्श्वभूमी शैली : "
 
-#. i18n: ectx: property (text), item, widget (KComboBox, blendColor)
-#. i18n: ectx: property (text), item, widget (KComboBox, blendColorComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:269
-#: oxygen/config/ui/oxygenexceptiondialog.ui:194
-msgid "Solid Color"
-msgstr "घन रंग"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, blendColor)
-#. i18n: ectx: property (text), item, widget (KComboBox, blendColorComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:274
-#: oxygen/config/ui/oxygenexceptiondialog.ui:199
-msgid "Radial Gradient"
-msgstr "दीप्तिमान उतरणी"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, blendColor)
-#. i18n: ectx: property (text), item, widget (KComboBox, blendColorComboBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:279
-#: oxygen/config/ui/oxygenexceptiondialog.ui:204
-msgid "Follow Style Hint"
-msgstr "शैली हिंटचा मागोवा"
-
 #. i18n: ectx: property (text), widget (QCheckBox, titleOutline)
-#: oxygen/config/ui/oxygenconfigurationui.ui:300
+#: oxygen/config/ui/oxygenconfigurationui.ui:172
 msgid "Outline active window title"
 msgstr "सक्रिय चौकट शिर्षक रूपरेषा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, narrowButtonSpacing)
-#: oxygen/config/ui/oxygenconfigurationui.ui:307
+#: oxygen/config/ui/oxygenconfigurationui.ui:192
 msgid "Use narrow space between decoration buttons"
 msgstr "सजावट बटनांमध्ये कमी अंतर वापरा"
 
-#. i18n: ectx: property (text), widget (QCheckBox, drawSizeGrip)
-#. i18n: ectx: property (text), widget (QCheckBox, sizeGripCheckBox)
-#: oxygen/config/ui/oxygenconfigurationui.ui:314
-#: oxygen/config/ui/oxygenexceptiondialog.ui:93
-msgid "Add handle to resize windows with no border"
-msgstr ""
+#. i18n: ectx: property (text), widget (QLabel, sizeGripModeLabel)
+#: oxygen/config/ui/oxygenconfigurationui.ui:202
+msgid "Extra size grip display: "
+msgstr "मोठया आकाराचे पकड दृश्य : "
+
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
+#: oxygen/config/ui/oxygenconfigurationui.ui:216
+#: oxygen/config/ui/oxygenexceptiondialog.ui:140
+msgid "Never Draw Separator"
+msgstr "विभाजक कधीही आखु नका"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
+#: oxygen/config/ui/oxygenconfigurationui.ui:221
+#: oxygen/config/ui/oxygenexceptiondialog.ui:145
+msgid "Draw Separator When Window is Active"
+msgstr "चौकट सक्रिय असताना विभाजक आखा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, separatorMode)
+#: oxygen/config/ui/oxygenconfigurationui.ui:226
+#: oxygen/config/ui/oxygenexceptiondialog.ui:150
+msgid "Always Draw Separator"
+msgstr "नेहमी विभाजक आखा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, closeFromMenuButton)
-#: oxygen/config/ui/oxygenconfigurationui.ui:321
+#: oxygen/config/ui/oxygenconfigurationui.ui:234
 msgid "Close windows by double clicking the menu button"
 msgstr "मेन्यू बटन वर दोनदा क्लिक करून चौकटी बंद करा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: oxygen/config/ui/oxygenconfigurationui.ui:342
+#: oxygen/config/ui/oxygenconfigurationui.ui:242
 msgid "Shadows"
 msgstr "सावल्या"
 
-#. i18n: ectx: property (title), widget (Oxygen::ShadowConfigWidget, inactiveShadowConfiguration)
-#: oxygen/config/ui/oxygenconfigurationui.ui:350
+#. i18n: ectx: property (title), widget (Oxygen::ShadowConfigurationUi, inactiveShadowConfiguration)
+#: oxygen/config/ui/oxygenconfigurationui.ui:250
 msgid "Window Drop-Down Shadow"
 msgstr "चौकटी खालील सावली"
 
-#. i18n: ectx: property (title), widget (Oxygen::ShadowConfigWidget, activeShadowConfiguration)
-#: oxygen/config/ui/oxygenconfigurationui.ui:360
+#. i18n: ectx: property (title), widget (Oxygen::ShadowConfigurationUi, activeShadowConfiguration)
+#: oxygen/config/ui/oxygenconfigurationui.ui:260
 msgid "Active Window Glow"
 msgstr "सक्रिय चौकट चमक"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: oxygen/config/ui/oxygenconfigurationui.ui:386
+#: oxygen/config/ui/oxygenconfigurationui.ui:286
 msgid "Window-Specific Overrides"
 msgstr "चौकट-संबंधित अपवाद"
 
@@ -575,48 +449,29 @@ msgid "Detect Window Properties"
 msgstr "चौकट गुणधर्म शोधा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:80
+#: oxygen/config/ui/oxygenexceptiondialog.ui:69
 msgid "Decoration Options"
 msgstr "सजावट पर्याय"
 
+#. i18n: ectx: property (text), widget (QCheckBox, sizeGripCheckBox)
+#: oxygen/config/ui/oxygenexceptiondialog.ui:82
+msgid "Extra size grip display:"
+msgstr "मोठया आकाराचे पकड दृश्य :"
+
 #. i18n: ectx: property (text), widget (QCheckBox, titleOutlineCheckBox)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:100
+#: oxygen/config/ui/oxygenexceptiondialog.ui:89
 msgid "Outline active window title:"
 msgstr "सक्रिय चौकट शिर्षक रूपरेषा :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, blendColorCheckBox)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:114
+#: oxygen/config/ui/oxygenexceptiondialog.ui:103
 msgid "Background style:"
 msgstr "पार्श्वभूमी शैली :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, hideTitleBar)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:121
+#: oxygen/config/ui/oxygenexceptiondialog.ui:110
 msgid "Hide window title bar"
 msgstr "चौकट शिर्षक पट्टी लपवा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, sizeGripComboBox)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:216
-msgctxt "Add handle to resize windows with no border"
-msgid "Disabled"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, sizeGripComboBox)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:221
-msgctxt "Add handle to resize windows with no border"
-msgid "Enabled"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, titleOutlineComboBox)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:233
-msgctxt "outline window title"
-msgid "Disabled"
-msgstr "अकार्यान्वित"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, titleOutlineComboBox)
-#: oxygen/config/ui/oxygenexceptiondialog.ui:238
-msgctxt "outline window title"
-msgid "Enabled"
-msgstr "कार्यान्वित"
 
 #. i18n: ectx: property (text), widget (KPushButton, moveUpButton)
 #: oxygen/config/ui/oxygenexceptionlistwidget.ui:29
@@ -643,13 +498,40 @@ msgstr "काढून टाका"
 msgid "Edit"
 msgstr "संपादीत करा"
 
-#: oxygen/demo/main.cpp:42 oxygen/demo/oxygenshadowdemodialog.cpp:46
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: oxygen/config/ui/oxygenshadowconfigurationui.ui:23
+msgid "Inner Color:"
+msgstr "आतील रंग :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: oxygen/config/ui/oxygenshadowconfigurationui.ui:42
+msgid "Outer Color:"
+msgstr "बाहेरील रंग :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: oxygen/config/ui/oxygenshadowconfigurationui.ui:69
+msgid "Vertical Offset:"
+msgstr "उभे आँफसेट :"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: oxygen/config/ui/oxygenshadowconfigurationui.ui:82
+msgid "Size: "
+msgstr "आकार : "
+
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, shadowSize)
+#. i18n: ectx: property (suffix), widget (KIntSpinBox, verticalOffset)
+#: oxygen/config/ui/oxygenshadowconfigurationui.ui:95
+#: oxygen/config/ui/oxygenshadowconfigurationui.ui:102
+msgid "px"
+msgstr "px"
+
+#: oxygen/demo/main.cpp:42 oxygen/demo/oxygenshadowdemodialog.cpp:47
 msgid "Oxygen Shadow Demo"
 msgstr "ऑक्सीजन सावलीचा डेमो"
 
 #: oxygen/demo/main.cpp:44
 msgid "Oxygen decoration shadows demonstration"
-msgstr ""
+msgstr "ऑक्सीजन सजावट सावलीचा डेमो"
 
 #: oxygen/demo/main.cpp:46
 msgid "(c) 2011, Hugo Pereira Da Costa"
@@ -659,15 +541,15 @@ msgstr "(c) 2011, ह्युगो परैरा डा कोस्टा"
 msgid "Hugo Pereira Da Costa"
 msgstr "ह्युगो परैरा डा कोस्टा"
 
-#: oxygen/demo/oxygenshadowdemodialog.cpp:49
+#: oxygen/demo/oxygenshadowdemodialog.cpp:50
 msgid "Save"
 msgstr "साठवा"
 
-#: oxygen/demo/oxygenshadowdemodialog.cpp:51
+#: oxygen/demo/oxygenshadowdemodialog.cpp:52
 msgid "Save shadows as pixmaps in provided directory"
-msgstr ""
+msgstr "सावल्या पिक्समेप म्हणून दिलेल्या संचयीकेत साठवा"
 
-#: oxygen/demo/oxygenshadowdemodialog.cpp:71
+#: oxygen/demo/oxygenshadowdemodialog.cpp:72
 msgid "Draw window background"
 msgstr "चौकट पार्श्वभूमी आखा"
 
@@ -685,35 +567,131 @@ msgstr "सक्रिय चौकटी"
 msgid "Oxygen"
 msgstr "ऑक्सीजन"
 
-#: oxygen/oxygenclient.cpp:217
+#: oxygen/oxygenclient.cpp:215
 msgid "Window Actions Menu"
 msgstr "चौकट क्रिया मेन्यू"
 
-#: oxygen/oxygenclient.cpp:220
+#: oxygen/oxygenclient.cpp:218
 msgid "Application Menu"
 msgstr "अनुप्रयोग मेन्यू"
 
-#: oxygen/oxygenclient.cpp:235
+#: oxygen/oxygenclient.cpp:233
 msgid "Keep Above Others"
 msgstr "इतरांच्या वर ठेवा"
 
-#: oxygen/oxygenclient.cpp:238
+#: oxygen/oxygenclient.cpp:236
 msgid "Keep Below Others"
 msgstr "इतरांच्या खाली ठेवा"
 
-#: oxygen/oxygenclient.cpp:241
+#: oxygen/oxygenclient.cpp:239
 msgid "On All Desktops"
 msgstr "सर्व डेस्कटॉप वर"
 
-#: oxygen/oxygenclient.cpp:244
+#: oxygen/oxygenclient.cpp:242
 msgid "Shade Button"
 msgstr "सावली बटन"
 
-#~ msgid "Large"
-#~ msgstr "मोठे"
+#: oxygen/oxygenconfiguration.cpp:251
+msgid "Center (Full Width)"
+msgstr "मध्य (पूर्ण रुंदी)"
 
-#~ msgid "Small"
-#~ msgstr "लहान"
+#: oxygen/oxygenconfiguration.cpp:278
+msgctxt "@item:inlistbox Button size:"
+msgid "Small"
+msgstr "लहान"
+
+#: oxygen/oxygenconfiguration.cpp:279
+msgctxt "@item:inlistbox Button size:"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: oxygen/oxygenconfiguration.cpp:280
+msgctxt "@item:inlistbox Button size:"
+msgid "Large"
+msgstr "मोठा"
+
+#: oxygen/oxygenconfiguration.cpp:281
+msgctxt "@item:inlistbox Button size:"
+msgid "Very Large"
+msgstr "खूप मोठा"
+
+#: oxygen/oxygenconfiguration.cpp:282
+msgctxt "@item:inlistbox Button size:"
+msgid "Huge"
+msgstr "अवाढव्य"
+
+#: oxygen/oxygenconfiguration.cpp:322
+msgctxt "@item:inlistbox Border size:"
+msgid "No Border"
+msgstr "किनार नाही"
+
+#: oxygen/oxygenconfiguration.cpp:323
+msgctxt "@item:inlistbox Border size:"
+msgid "No Side Border"
+msgstr "बाजुची किनार नाही"
+
+#: oxygen/oxygenconfiguration.cpp:324
+msgctxt "@item:inlistbox Border size:"
+msgid "Tiny"
+msgstr "लहान"
+
+#: oxygen/oxygenconfiguration.cpp:325
+msgctxt "@item:inlistbox Border size:"
+msgid "Normal"
+msgstr "सामान्य"
+
+#: oxygen/oxygenconfiguration.cpp:326
+msgctxt "@item:inlistbox Border size:"
+msgid "Large"
+msgstr "मोठा"
+
+#: oxygen/oxygenconfiguration.cpp:327
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Large"
+msgstr "खूप मोठा"
+
+#: oxygen/oxygenconfiguration.cpp:328
+msgctxt "@item:inlistbox Border size:"
+msgid "Huge"
+msgstr "अवाढव्य"
+
+#: oxygen/oxygenconfiguration.cpp:329
+msgctxt "@item:inlistbox Border size:"
+msgid "Very Huge"
+msgstr "प्रचंड अवाढव्य"
+
+#: oxygen/oxygenconfiguration.cpp:330
+msgctxt "@item:inlistbox Border size:"
+msgid "Oversized"
+msgstr "आकारापेक्षा जास्त"
+
+#: oxygen/oxygenconfiguration.cpp:359
+msgid "Solid Color"
+msgstr "घन रंग"
+
+#: oxygen/oxygenconfiguration.cpp:360
+msgid "Radial Gradient"
+msgstr "दीप्तिमान उतरणी"
+
+#: oxygen/oxygenconfiguration.cpp:361
+msgid "Follow Style Hint"
+msgstr "शैली हिंटचा मागोवा"
+
+#: oxygen/oxygenconfiguration.cpp:384
+msgid "Always Hide Extra Size Grip"
+msgstr "मोठया आकाराची पकड नेहमी लपवा"
+
+#: oxygen/oxygenconfiguration.cpp:385
+msgid "Show Extra Size Grip When Needed"
+msgstr "मोठया आकाराची पकड गरजेप्रमाणे दर्शवा"
+
+#: oxygen/oxygenexception.cpp:79
+msgid "Window Title"
+msgstr "चौकट शिर्षक"
+
+#: oxygen/oxygenexception.cpp:80
+msgid "Window Class Name"
+msgstr "चौकट वर्ग नाव"
 
 #~ msgid "Plastik"
 #~ msgstr "प्लास्टिक"
@@ -785,8 +763,14 @@ msgstr "सावली बटन"
 #~ msgid "Redmond"
 #~ msgstr "रेडमंड"
 
+#~ msgid "Small"
+#~ msgstr "लहान"
+
 #~ msgid "Medium"
 #~ msgstr "मध्यम"
+
+#~ msgid "Large"
+#~ msgstr "मोठे"
 
 #~ msgid "Modern System"
 #~ msgstr "आधुनिक प्रणाली"
