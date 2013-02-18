@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2012-08-20 04:10+0200\n"
-"PO-Revision-Date: 2013-02-06 17:10+0530\n"
+"PO-Revision-Date: 2013-02-18 13:43+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
 "Language: mr\n"
@@ -56,6 +56,8 @@ msgid ""
 "Specify a location for the drive you want to use. Normally, this is a file "
 "inside the /dev folder representing your CD or DVD drive."
 msgstr ""
+"या ड्राइव्ह करिता कोणते स्थान वापरायचे ते निर्देशीत करा. सामान्यतः हि /dev "
+"संचयीकेतील सीडी किंवा डीव्हीडी चे प्रतिनिधित्व करणारी एक फाईल असते."
 
 #. i18n: ectx: property (text), widget (QLineEdit, cd_device_string)
 #: audiocdconfig.ui:119
@@ -68,11 +70,13 @@ msgid ""
 "Uncheck this if you want to specify a CD device different from the one "
 "autoprobed"
 msgstr ""
+"स्वयंचलित शोधलेल्या सीडी साधनाशिवाय जे वेगळे साधन तुम्हाला निर्देशीत करायचे "
+"असेल तर हे निवडू नका"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cd_autosearch_check)
 #: audiocdconfig.ui:129
 msgid "&Specify CD Device:"
-msgstr "CD साधन निर्देशीत करा (&S):"
+msgstr "सीडी साधन निर्देशीत करा (&S):"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ec_enable_check)
 #: audiocdconfig.ui:136
@@ -81,11 +85,14 @@ msgid ""
 "which can be useful for reading damaged CDs. However, this feature can be "
 "problematic in some cases, so you can switch it off here."
 msgstr ""
+"जर तुम्ही हा पर्याय निवडला नाही तर स्लेव त्रुटी बरोबर करण्याचा प्रयत्न करणार "
+"नाही (खराब सीडी वाचण्यासाठी ते उपयोगी असते). पण काही वेळा तो समस्या निर्माण "
+"करू शकतो म्हणून येथे तुम्ही तो बंद करू शकता."
 
 #. i18n: ectx: property (text), widget (QCheckBox, ec_enable_check)
 #: audiocdconfig.ui:139
 msgid "Use &error correction when reading the CD"
-msgstr "CD वाचताना त्रुटी सुधारणा वापरा (&E)"
+msgstr "सीडी वाचताना त्रुटी सुधारणा वापरा (&E)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ec_skip_check)
 #: audiocdconfig.ui:149
@@ -214,6 +221,9 @@ msgid ""
 "This defines where files will appear in relation to the encoder root, you "
 "can use / to create subdirectories. E.g: %{albumartist}/%{albumtitle} "
 msgstr ""
+"एन्कोडर रूटच्या संदर्भात कोठे फाईल्स उपस्थित होतील ते हा ठरवितो. तुम्ही "
+"उपसंचयीका तयार करण्याकरिता / वापरू शकता. उदा. %{अल्बम शिर्षक}/%{अल्बमचे "
+"कलाकार}"
 
 #. i18n: ectx: property (title), widget (QGroupBox, fileLocationGroupBox)
 #: audiocdconfig.ui:473
@@ -242,6 +252,8 @@ msgid ""
 "Regular expression used on all file names. For example using selection \" \" "
 "and replace with \"_\" would replace all the spaces with underlines.\n"
 msgstr ""
+"सर्व फाईल नावांवर नियमीत अभिव्यक्ति वापरलेली आहे. उदाहरणार्थ \" \" हि निवड "
+"वापरून \"_\" याने बदलल्यास सर्व रिकाम्या जागा अधोरेखनाने बदलल्या जातील.\n"
 
 #. i18n: ectx: property (text), widget (QLabel, inputlabel)
 #: audiocdconfig.ui:635
@@ -277,15 +289,15 @@ msgstr "%1 एन्कोडर"
 
 #: kcmaudiocd.cpp:101
 msgid "kcmaudiocd"
-msgstr "केसीएम-ऑडिओ-CD"
+msgstr "केसीएम-ऑडिओ-सीडी"
 
 #: kcmaudiocd.cpp:101
 msgid "KDE Audio CD IO Slave"
-msgstr "KDE ऑडिओ CD IO स्लेव्ह"
+msgstr "KDE ऑडिओ सीडी IO स्लेव्ह"
 
 #: kcmaudiocd.cpp:103
 msgid "(c) 2000 - 2005 Audio CD developers"
-msgstr "(c) 2000 - 2005 ऑडिओ CD विकासकर्ते"
+msgstr "(c) 2000 - 2005 ऑडिओ सीडी विकासकर्ते"
 
 #: kcmaudiocd.cpp:105
 msgid "Benjamin C. Meyer"
@@ -308,3 +320,5 @@ msgid ""
 "Ogg Vorbis encoding are only available if KDE was built with a recent "
 "version of the LAME or Ogg Vorbis libraries."
 msgstr ""
+
+
