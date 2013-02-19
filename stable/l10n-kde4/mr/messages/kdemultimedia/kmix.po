@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-01-03 03:04+0100\n"
-"PO-Revision-Date: 2013-02-16 13:03+0530\n"
+"PO-Revision-Date: 2013-02-19 10:47+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -39,11 +39,11 @@ msgstr "मिक्सर चौकट लपवा"
 
 #: apps/kmix.cpp:192
 msgid "Configure &Channels..."
-msgstr "प्रवाह संयोजीत करा (&C)..."
+msgstr "माध्यम संयोजीत करा (&C)..."
 
 #: apps/kmix.cpp:195 gui/kmixdockwidget.cpp:161
 msgid "Select Master Channel..."
-msgstr "मुख्य प्रवाह निवडा..."
+msgstr "मुख्य माध्यम निवडा..."
 
 #: apps/kmix.cpp:200
 msgid "Save volume profile 1"
@@ -103,6 +103,8 @@ msgid ""
 "The soundcard containing the master device was unplugged. Changing to "
 "control %1 on card %2."
 msgstr ""
+"मुख्य साधन अंतर्भूत असणारे साऊंडकार्ड काढले गेले. नियंत्रण %2 कार्ड वरील %1 "
+"कडे बदलत आहे."
 
 #: apps/kmix.cpp:994 apps/kmixd.cpp:309
 msgid "The last soundcard was unplugged."
@@ -114,7 +116,7 @@ msgstr "मिक्सर हार्डवेअर माहिती"
 
 #: apps/kmix.cpp:1343
 msgid "The helper application is either not installed or not working."
-msgstr ""
+msgstr "मदत अनुप्रयोग प्रतिष्ठापीत नाही किंवा चालत नाही."
 
 #: apps/kmix.cpp:1359
 msgid "Error"
@@ -248,13 +250,15 @@ msgstr "TerraTec DMX6Fire समर्थन"
 #: apps/main.cpp:63
 msgid ""
 "Inhibits the unhiding of the KMix main window, if KMix is already running."
-msgstr ""
+msgstr "जर के-मिक्स अगोदरच चालू असेल तर के-मिक्सची मुख्य चौकट लपविणे थांबवतो."
 
 #: backends/mixer_alsa9.cpp:923
 msgid ""
 "You do not have permission to access the alsa mixer device.\n"
 "Please verify if all alsa devices are properly created."
 msgstr ""
+"तुम्हाला अल्सा मिक्सर साधन वापरायची परवानगी नाही.\n"
+"अल्सा साधने नीट निर्माण केलेली आहेत का ते कृपया तपासा."
 
 #: backends/mixer_alsa9.cpp:927
 msgid ""
@@ -262,20 +266,25 @@ msgid ""
 "Please check that the soundcard is installed and the\n"
 "soundcard driver is loaded.\n"
 msgstr ""
+"अल्सा मिक्सर सापडला नाही.\n"
+"कृपया साऊंडकार्ड प्रतिष्ठापीत आहे व\n"
+"साऊंडकार्ड ड्राइव्हर दाखल केलेला आहे हे तपासा.\n"
 
 #: backends/mixer_backend.cpp:310
 msgid ""
 "kmix:You do not have permission to access the mixer device.\n"
 "Please check your operating systems manual to allow the access."
 msgstr ""
+"के-मिक्स : तुम्हाला मिक्सर साधन वापरायची परवानगी नाही.\n"
+"वापरण्याच्या परवानगी करिता कृपया तुमच्या प्रणालीची मदत पुस्तिका तपासा."
 
 #: backends/mixer_backend.cpp:314
 msgid "kmix: Could not write to mixer."
-msgstr ""
+msgstr "के-मिक्स : मिक्सर वर लिहू शकत नाही."
 
 #: backends/mixer_backend.cpp:317
 msgid "kmix: Could not read from mixer."
-msgstr ""
+msgstr "के-मिक्स : मिक्सर वर वाचू शकत नाही."
 
 #: backends/mixer_backend.cpp:320
 msgid ""
@@ -283,14 +292,19 @@ msgid ""
 "Please check that the soundcard is installed and that\n"
 "the soundcard driver is loaded.\n"
 msgstr ""
+"के-मिक्स : मिक्सर सापडला नाही.\n"
+"कृपया साऊंडकार्ड प्रतिष्ठापीत आहे व\n"
+"साऊंडकार्ड ड्राइव्हर दाखल केलेला आहे हे तपासा.\n"
 
 #: backends/mixer_backend.cpp:325
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr ""
+"के-मिक्स : अपरिचीत त्रुटी. कृपया हि त्रुटी कशी निर्माण झाली त्याचा अहवाल दाखल "
+"करा."
 
 #: backends/mixer_backend_i18n.cpp:24
 msgid "Recording level of the microphone input."
-msgstr ""
+msgstr "मायक्रोफोन इनपुटची पातळी रेकॉर्डिंग करत आहे."
 
 #: backends/mixer_backend_i18n.cpp:25
 msgid ""
@@ -312,6 +326,8 @@ msgid ""
 "Controls the headphone volume. Some soundcards include a switch that must be "
 "manually activated to enable the headphone output."
 msgstr ""
+"हेडफोनच्या आवाजाच्या पातळीचे नियंत्रण करतो. काही साऊंडकार्ड मध्ये स्विच असतो "
+"व हेडफोन आउटपुट्स कार्यान्वित करण्याकरिता तो स्वहस्ते सक्रिय करावा लागतो."
 
 #: backends/mixer_backend_i18n.cpp:28
 msgid "---"
@@ -447,6 +463,9 @@ msgid ""
 "kmix: You do not have permission to access the mixer device.\n"
 "Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
 msgstr ""
+"के-मिक्स : तुम्हाला मिक्सर साधन वापरायची परवानगी नाही.\n"
+"प्रशासक म्हणून प्रवेश करून 'chmod a+rw /dev/mixer*' हा आदेश दिल्यावर परवानगी "
+"मिळेल."
 
 #: backends/mixer_oss.cpp:232
 msgid ""
@@ -456,6 +475,11 @@ msgid ""
 "On Linux you might need to use 'insmod' to load the driver.\n"
 "Use 'soundon' when using commercial OSS."
 msgstr ""
+"के-मिक्स : मिक्सर सापडला नाही.\n"
+"कृपया साऊंडकार्ड प्रतिष्ठापीत आहे व\n"
+"साऊंडकार्ड ड्राइव्हर दाखल केलेला आहे हे तपासा.\n"
+"लिनक्स वर 'insmod' आदेश दिल्यावर ड्राइव्हर दाखल होईल.\n"
+"व्यावसायीक प्रणालींवर 'soundon' हा आदेश वापरा."
 
 #: backends/mixer_oss4.cpp:500
 msgid ""
@@ -465,6 +489,11 @@ msgid ""
 "On Linux you might need to use 'insmod' to load the driver.\n"
 "Use 'soundon' when using OSS4 from 4front."
 msgstr ""
+"के-मिक्स : मिक्सर सापडला नाही.\n"
+"कृपया साऊंडकार्ड प्रतिष्ठापीत आहे व\n"
+"साऊंडकार्ड ड्राइव्हर दाखल केलेला आहे हे तपासा.\n"
+"लिनक्स वर 'insmod' आदेश दिल्यावर ड्राइव्हर दाखल होईल.\n"
+"4front वरून OSS4 वापरताना 'soundon' हा आदेश वापरा."
 
 #: backends/mixer_pulse.cpp:331 backends/mixer_pulse.cpp:390
 msgid "Unknown Application"
@@ -519,6 +548,8 @@ msgid ""
 "kmix: You do not have permission to access the mixer device.\n"
 "Ask your system administrator to fix /dev/audioctl to allow access."
 msgstr ""
+"के-मिक्स : तुम्हाला मिक्सर साधन वापरायची परवानगी नाही.\n"
+"परवानगी करिता तुमच्या प्रणाली प्रशासकास /dev/audioctl ठीक करण्यास सांगा."
 
 #. i18n: ectx: property (text), widget (QCheckBox, customColors)
 #: colorwidget.ui:20
@@ -611,7 +642,7 @@ msgstr "आवाजाच्या मेन्यूत दर्शवाय�
 
 #: gui/dialogselectmaster.cpp:42 gui/dialogselectmaster.cpp:155
 msgid "Select Master Channel"
-msgstr "मुख्य प्रवाह निवडा"
+msgstr "मुख्य माध्यम निवडा"
 
 #: gui/dialogselectmaster.cpp:80
 msgid "Current mixer:"
@@ -619,31 +650,31 @@ msgstr "वर्तमान मिक्सर :"
 
 #: gui/dialogselectmaster.cpp:106
 msgid "Select the channel representing the master volume:"
-msgstr "मुख्य आवाजाचे प्रतिनिधित्व करणारा प्रवाह निवडा :"
+msgstr "मुख्य आवाजाचे प्रतिनिधित्व करणारा माध्यम निवडा :"
 
 #: gui/dialogviewconfiguration.cpp:154 gui/viewbase.cpp:104
 msgid "Configure Channels"
-msgstr "प्रवाह संयोजीत करा"
+msgstr "माध्यम संयोजीत करा"
 
 #: gui/dialogviewconfiguration.cpp:168
 msgid "Configuration of the channels. Drag icon to update."
-msgstr ""
+msgstr "माध्यम संयोजना. चिन्ह अद्ययावत करण्याकरिता खेचा."
 
 #: gui/dialogviewconfiguration.cpp:260 gui/dialogviewconfiguration.cpp:358
 msgid "Visible channels"
-msgstr "दृश्य प्रवाह"
+msgstr "दृश्य माध्यम"
 
 #: gui/dialogviewconfiguration.cpp:263 gui/dialogviewconfiguration.cpp:359
 msgid "Available channels"
-msgstr "उपलब्ध प्रवाह"
+msgstr "उपलब्ध माध्यम"
 
 #: gui/dialogviewconfiguration.cpp:356
 msgid "Show the selected channel"
-msgstr "निवडलेले प्रवाह दर्शवा"
+msgstr "निवडलेले माध्यम दर्शवा"
 
 #: gui/dialogviewconfiguration.cpp:357
 msgid "Hide the selected channel"
-msgstr "निवडलेले प्रवाह लपवा"
+msgstr "निवडलेले माध्यम लपवा"
 
 #: gui/kmixdockwidget.cpp:58
 msgid "Volume Control"
@@ -680,7 +711,7 @@ msgstr "प्रणाली ट्रे मध्ये टाका (&D)"
 
 #: gui/kmixprefdlg.cpp:58
 msgid "Docks the mixer into the KDE system tray"
-msgstr ""
+msgstr "केडीई प्रणाली ट्रे मध्ये मिक्सर डॉक करतो"
 
 #: gui/kmixprefdlg.cpp:61
 msgid "Enable system tray &volume control"
@@ -688,7 +719,7 @@ msgstr "प्रणाली ट्रे आवाज नियंत्रण
 
 #: gui/kmixprefdlg.cpp:62
 msgid "Allows to control the volume from the system tray"
-msgstr ""
+msgstr "प्रणाली ट्रे मदून आवाज नियंत्रण करण्याची परवानगी देतो"
 
 #: gui/kmixprefdlg.cpp:64
 msgid "Volume Feedback"
@@ -696,7 +727,7 @@ msgstr "आवाज फीडबॅक"
 
 #: gui/kmixprefdlg.cpp:67
 msgid "Volume feedback is only available for Pulseaudio."
-msgstr ""
+msgstr "आवाज फीडबॅक फक्त पल्स ऑडिओ करिता उपलब्ध आहे."
 
 #: gui/kmixprefdlg.cpp:73
 msgid "Startup"
@@ -708,11 +739,11 @@ msgstr "प्रवेश करताना आवाज पुन्हस्
 
 #: gui/kmixprefdlg.cpp:77
 msgid "Restore all volume levels and switches."
-msgstr ""
+msgstr "सर्व आवाज पातळ्या व स्विचेस पुन्हस्थापित करा."
 
 #: gui/kmixprefdlg.cpp:80
 msgid "Dynamic controls from Pulseaudio and MPRIS2 will not be restored."
-msgstr ""
+msgstr "पल्स ऑडिओ व MPRIS2 मधील डायनेमिक नियंत्रणे पुन्हस्थापित होणार नाहीत."
 
 #: gui/kmixprefdlg.cpp:84
 msgid "Autostart"
@@ -721,12 +752,15 @@ msgstr "स्वयंप्रारंभ"
 #: gui/kmixprefdlg.cpp:85
 msgid "Enables the KMix autostart service (kmix_autostart.desktop)"
 msgstr ""
+"के-मिक्स स्वयंचलित प्रारंभ सेवा कार्यान्वित करतो (kmix_autostart.desktop)"
 
 #: gui/kmixprefdlg.cpp:88
 msgid ""
 "Autostart can not be enabled, as the autostart file kmix_autostart.desktop "
 "is not installed."
 msgstr ""
+"स्वयंचलित प्रारंभ कार्यान्वित करू शकत नाही कारण kmix_autostart.desktop हि "
+"स्वयंचलित प्रारंभ फाईल प्रतिष्ठापीत नाही."
 
 #: gui/kmixprefdlg.cpp:94
 msgid "Visual"
@@ -734,11 +768,11 @@ msgstr "दर्शनीय"
 
 #: gui/kmixprefdlg.cpp:98
 msgid "Show &tickmarks"
-msgstr ""
+msgstr "टिकमार्क्स दर्शवा (&T)"
 
 #: gui/kmixprefdlg.cpp:99
 msgid "Enable/disable tickmark scales on the sliders"
-msgstr ""
+msgstr "स्लाइडर वर टिकमार्क प्रमाण कार्यान्वित/अकार्यान्वित करा"
 
 #: gui/kmixprefdlg.cpp:101
 msgid "Show &labels"
@@ -746,11 +780,11 @@ msgstr "लेबल दर्शवा (&L)"
 
 #: gui/kmixprefdlg.cpp:102
 msgid "Enables/disables description labels above the sliders"
-msgstr ""
+msgstr "स्लाइडर वर वर्णन लेबल कार्यान्वित/अकार्यान्वित करा"
 
 #: gui/kmixprefdlg.cpp:104
 msgid "Show On Screen Display (&OSD)"
-msgstr ""
+msgstr "स्क्रीनवर दृश्य दर्शवा (&OSD)"
 
 #: gui/kmixprefdlg.cpp:113
 msgid "Slider orientation: "
@@ -766,7 +800,7 @@ msgstr "उभे (&V)"
 
 #: gui/kmixprefdlg.cpp:131
 msgid "Slider orientation (System tray volume control):"
-msgstr ""
+msgstr "स्लाइडर कल (प्रणाली ट्रे आवाज नियंत्रण):"
 
 #: gui/mdwenum.cpp:60 gui/mdwslider.cpp:108
 msgid "&Hide"
@@ -778,7 +812,7 @@ msgstr "शॉर्टकट संयोजीत करा (&O)..."
 
 #: gui/mdwslider.cpp:102
 msgid "&Split Channels"
-msgstr "प्रवाह तोडा (&S)"
+msgstr "माध्यम तोडा (&S)"
 
 #: gui/mdwslider.cpp:115
 msgid "&Muted"
@@ -825,7 +859,7 @@ msgstr "विभागा प्रमाणे स्वयंचलित"
 
 #: gui/viewbase.cpp:148
 msgid "&Channels"
-msgstr "प्रवाह (&C)"
+msgstr "माध्यम (&C)"
 
 #: gui/viewbase.cpp:179
 msgid "Device Settings"
@@ -865,4 +899,5 @@ msgstr "फाईल (&F)"
 #: kmixui.rc:21
 msgid "&Help"
 msgstr "मदत (&H)"
+
 
