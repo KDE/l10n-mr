@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2013-02-11 13:02+0100\n"
-"PO-Revision-Date: 2013-02-16 15:26+0530\n"
+"PO-Revision-Date: 2013-02-20 17:35+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
 "Language: en_US\n"
@@ -96,8 +96,8 @@ msgstr "कचरापेटी (&T)"
 #, kde-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%1 घटक तुम्हाला काढून टाकायचा आहे का?"
+msgstr[1] "%1 इतके घटक तुम्हाला काढून टाकायचे आहेत का?"
 
 #: ../kfile/kdiroperator.cpp:872
 msgid "Trash Files"
@@ -391,12 +391,12 @@ msgstr "'%1' हे साधन डिस्क नाही. त्याम�
 #: ../kfile/kfileplacesmodel.cpp:839
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
-msgstr ""
+msgstr "'%1' हे वापरताना त्रुटी निर्माण झाली आहे, प्रणालीचा प्रतिसाद : %2"
 
 #: ../kfile/kfileplacesmodel.cpp:843
 #, kde-format
 msgid "An error occurred while accessing '%1'"
-msgstr ""
+msgstr "'%1' हे वापरताना त्रुटी निर्माण झाली आहे"
 
 #: ../kfile/kfileplacesview.cpp:579
 msgctxt "@action:inmenu"
@@ -465,15 +465,15 @@ msgstr ""
 
 #: ../kfile/kfilewidget.cpp:423
 msgid "Click this button to move backwards one step in the browsing history."
-msgstr ""
+msgstr "संचारण इतिहास अंतर्गत एक पायरी मागे जाण्यासाठी हे बटन क्लिक करा."
 
 #: ../kfile/kfilewidget.cpp:424
 msgid "Click this button to move forward one step in the browsing history."
-msgstr ""
+msgstr "संचारण इतिहास अंतर्गत एक पायरी पुढे जाण्यासाठी हे बटन क्लिक करा."
 
 #: ../kfile/kfilewidget.cpp:426
 msgid "Click this button to reload the contents of the current location."
-msgstr ""
+msgstr "वर्तमान स्थानाचा मजकूर पुन्हा दाखल करण्याकरिता हे बटन क्लिक करा."
 
 #: ../kfile/kfilewidget.cpp:428
 msgid "Click this button to create a new folder."
@@ -527,19 +527,19 @@ msgstr "गाळणी (&F):"
 
 #: ../kfile/kfilewidget.cpp:788
 msgid "You can only select one file"
-msgstr ""
+msgstr "तुम्ही फक्त एक फाईल निवडू शकता"
 
 #: ../kfile/kfilewidget.cpp:789
 msgid "More than one file provided"
-msgstr ""
+msgstr "एका पेक्षा जास्त फाईल्स पुरविल्या"
 
 #: ../kfile/kfilewidget.cpp:953
 msgid "You can only select local files"
-msgstr ""
+msgstr "तुम्ही फक्त स्थानीय फाईल्स निवडू शकता"
 
 #: ../kfile/kfilewidget.cpp:954
 msgid "Remote files not accepted"
-msgstr ""
+msgstr "दूरस्थ फाईल्स स्वीकारल्या जाणार नाहीत"
 
 #: ../kfile/kfilewidget.cpp:972
 msgid ""
@@ -550,7 +550,7 @@ msgstr ""
 
 #: ../kfile/kfilewidget.cpp:972
 msgid "More than one folder provided"
-msgstr ""
+msgstr "एका पेक्षा जास्त संचयीका पुरविल्या"
 
 #: ../kfile/kfilewidget.cpp:980
 msgid ""
@@ -565,7 +565,7 @@ msgstr "फाईल्स व संचयीका निवडल्या"
 #: ../kfile/kfilewidget.cpp:995
 #, kde-format
 msgid "The file \"%1\" could not be found"
-msgstr ""
+msgstr "\"%1\" हि फाईल आढळली नाही"
 
 #: ../kfile/kfilewidget.cpp:995
 msgid "Cannot open file"
@@ -573,7 +573,7 @@ msgstr "फाईल उघडू शकत नाही"
 
 #: ../kfile/kfilewidget.cpp:1266
 msgid "This is the name to save the file as."
-msgstr ""
+msgstr "साठवल्या जाणाऱ्या फाईलचे हे नाव आहे."
 
 #: ../kfile/kfilewidget.cpp:1271
 msgid ""
@@ -583,7 +583,7 @@ msgstr ""
 
 #: ../kfile/kfilewidget.cpp:1278
 msgid "This is the name of the file to open."
-msgstr ""
+msgstr "उघडावयाच्या फाईलचे हे नाव आहे."
 
 #: ../kfile/kfilewidget.cpp:1292
 msgctxt "@title:window"
@@ -594,6 +594,7 @@ msgstr "जागा"
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr ""
+"\"%1\" फाईल आधीपासूनच अस्तित्वात आहे, तुम्हाला ती खोडून पुन्हा लिहायची आहे का?"
 
 #: ../kfile/kfilewidget.cpp:1482
 msgid "Overwrite File?"
@@ -604,6 +605,8 @@ msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
 msgstr ""
+"निवडलेली फाईलनावे\n"
+"वैध वाटत नाहीत."
 
 #: ../kfile/kfilewidget.cpp:1615
 msgid "Invalid Filenames"
@@ -611,11 +614,11 @@ msgstr "अवैध फाईलनावे"
 
 #: ../kfile/kfilewidget.cpp:1695
 msgid "You can only select local files."
-msgstr ""
+msgstr "तुम्ही फक्त स्थानीय फाईल्स निवडू शकता."
 
 #: ../kfile/kfilewidget.cpp:1696
 msgid "Remote Files Not Accepted"
-msgstr ""
+msgstr "दूरस्थ फाईल्स स्वीकारल्या जाणार नाहीत"
 
 #: ../kfile/kfilewidget.cpp:1799
 msgid "*|All Folders"
@@ -628,30 +631,30 @@ msgstr "उघडा (&O)"
 #: ../kfile/kfilewidget.cpp:2051
 #, kde-format
 msgid "Icon size: %1 pixels (standard size)"
-msgstr ""
+msgstr "चिन्ह आकार : %1 पिक्सेल्स (प्रमाणित आकार)"
 
 #: ../kfile/kfilewidget.cpp:2054
 #, kde-format
 msgid "Icon size: %1 pixels"
-msgstr ""
+msgstr "चिन्ह आकार : %1 पिक्सेल्स"
 
 #: ../kfile/kfilewidget.cpp:2191
 #, kde-format
 msgid "Automatically select filename e&xtension (%1)"
-msgstr ""
+msgstr "स्वयंचलितरित्या फाईलनाव विस्तारण निवडा (%1) (&X)"
 
 #: ../kfile/kfilewidget.cpp:2192
 #, kde-format
 msgid "the extension <b>%1</b>"
-msgstr ""
+msgstr "विस्तारण <b>%1</b>"
 
 #: ../kfile/kfilewidget.cpp:2200
 msgid "Automatically select filename e&xtension"
-msgstr ""
+msgstr "स्वयंचलितरित्या फाईलनाव विस्तारण निवडा (&X)"
 
 #: ../kfile/kfilewidget.cpp:2201
 msgid "a suitable extension"
-msgstr ""
+msgstr "एक अनुकूल विस्तारण"
 
 #: ../kfile/kfilewidget.cpp:2211
 #, kde-format
@@ -689,7 +692,7 @@ msgstr "क्षमा करा"
 #: ../kfile/knewfilemenu.cpp:374
 #, kde-format
 msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr ""
+msgstr "<qt>रचना फाईल <b>%1</b> अस्तित्वात नाही.</qt>"
 
 #: ../kfile/knewfilemenu.cpp:393
 msgctxt "@action:button"
@@ -711,6 +714,7 @@ msgid ""
 "The name \"%1\" starts with a dot, so the directory will be hidden by "
 "default."
 msgstr ""
+"\"%1\" हे नाव टिंबाने सुरु होते त्यामुळे हि संचयीका मूलभूतरित्या लपवली जाईल."
 
 #: ../kfile/knewfilemenu.cpp:404
 msgid "Do not ask again"
@@ -817,7 +821,7 @@ msgstr "स्थान संपादनासाठी क्लिक कर
 #: ../kioslave/file/file.cpp:204
 #, kde-format
 msgid "Setting ACL for %1"
-msgstr ""
+msgstr " %1 करिता एसीएल निश्चित करत आहे"
 
 #: ../kioslave/file/file.cpp:721 ../kioslave/file/file_unix.cpp:289
 #, kde-format
@@ -825,60 +829,62 @@ msgid ""
 "Could not change permissions for\n"
 "%1"
 msgstr ""
+"पुढील करिता परवानगी बदलू शकत नाही\n"
+"%1"
 
 #: ../kioslave/file/file.cpp:916
 msgid "No Media inserted or Media not recognized."
-msgstr ""
+msgstr "मीडिया अंतर्भूत केला नाही किंवा मीडिया ओळखता आला नाही."
 
 #: ../kioslave/file/file.cpp:926 ../kioslave/file/file.cpp:1135
 msgid "\"vold\" is not running."
-msgstr ""
+msgstr "\"vold\" चालू नाही."
 
 #: ../kioslave/file/file.cpp:961
 msgid "Could not find program \"mount\""
-msgstr ""
+msgstr "\"mount\" कार्यक्रम सापडला नाही"
 
 #: ../kioslave/file/file.cpp:1040
 msgid "mounting is not supported by wince."
-msgstr ""
+msgstr "विन्स द्वारे माऊंटिंग समर्थीत नाही."
 
 #: ../kioslave/file/file.cpp:1148
 msgid "Could not find program \"umount\""
-msgstr ""
+msgstr "\"umount\" कार्यक्रम सापडला नाही"
 
 #: ../kioslave/file/file.cpp:1162
 msgid "unmounting is not supported by wince."
-msgstr ""
+msgstr "विन्स द्वारे अनमाऊंटिंग समर्थीत नाही."
 
 #: ../kioslave/file/file_unix.cpp:220
 #, kde-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr ""
+msgstr "फाईलला %1 पासून %2 वर प्रत करू शकत नाही. (त्रुटी क्र.: %3)"
 
 #: ../kioslave/file/file_unix.cpp:333
 #, kde-format
 msgid "No media in device for %1"
-msgstr ""
+msgstr "%1 करिता साधनात मीडिया नाही"
 
 #: ../kioslave/file/file_unix.cpp:579
 #, kde-format
 msgid "Could not get user id for given user name %1"
-msgstr ""
+msgstr "%1 या दिलेल्या वापरकर्ता नावाकरिता वापरकर्ता आईडी प्राप्त करू शकत नाही"
 
 #: ../kioslave/file/file_unix.cpp:592
 #, kde-format
 msgid "Could not get group id for given group name %1"
-msgstr ""
+msgstr "%1 या दिलेल्या समूह नावाकरिता समूह आईडी प्राप्त करू शकत नाही"
 
 #: ../kioslave/ftp/ftp.cpp:356
 #, kde-format
 msgid "Opening connection to host %1"
-msgstr ""
+msgstr "%1 या यजमानाशी जुळवणी उघडत आहे"
 
 #: ../kioslave/ftp/ftp.cpp:371
 #, kde-format
 msgid "Connected to host %1"
-msgstr ""
+msgstr "%1 या यजमानास जुळलेले आहे"
 
 #: ../kioslave/ftp/ftp.cpp:478
 #, kde-format
@@ -905,10 +911,17 @@ msgid ""
 "%2\n"
 "\n"
 msgstr ""
+"संदेश पाठविला :\n"
+"वापरकर्ता नाव=%1 व गुप्तशब्द=[hidden] वापरून प्रवेश\n"
+"\n"
+"सर्व्हरचे उत्तर :\n"
+"%2\n"
+"\n"
 
 #: ../kioslave/ftp/ftp.cpp:578 ../kioslave/http/http.cpp:5358
 msgid "You need to supply a username and a password to access this site."
 msgstr ""
+"या साइटवर प्रवेश करण्याकरिता तुमचे वापरकर्ता नाव व गुप्तशब्द देणे गरजेचे आहे."
 
 #: ../kioslave/ftp/ftp.cpp:580 ../kioslave/http/http.cpp:5360
 msgid "Site:"
@@ -934,6 +947,8 @@ msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
+"कोणत्याही साइटवर प्रवेशाची परवानगी मिळण्यापूर्वी खाली दिलेल्या प्रॉक्सी "
+"सर्व्हर करिता तुमचे वापरकर्ता नाव व गुप्तशब्द देणे गरजेचे आहे."
 
 #: ../kioslave/ftp/ftp.cpp:2598 ../kioslave/http/http.cpp:5252
 #: ../kioslave/http/http.cpp:5373
@@ -957,77 +972,77 @@ msgstr "एकही यजमान निर्देशीत केला �
 
 #: ../kioslave/http/http.cpp:1590
 msgid "Otherwise, the request would have succeeded."
-msgstr ""
+msgstr "अन्यथा, विनंती यशस्वी झाली असती."
 
 #: ../kioslave/http/http.cpp:1594
 msgctxt "request type"
 msgid "retrieve property values"
-msgstr ""
+msgstr "गुणधर्म मूल्ये बाहेर काढा"
 
 #: ../kioslave/http/http.cpp:1597
 msgctxt "request type"
 msgid "set property values"
-msgstr ""
+msgstr "गुणधर्म मूल्ये निश्चित करा"
 
 #: ../kioslave/http/http.cpp:1600
 msgctxt "request type"
 msgid "create the requested folder"
-msgstr ""
+msgstr "विनंतीकृत संचयीका तयार करा"
 
 #: ../kioslave/http/http.cpp:1603
 msgctxt "request type"
 msgid "copy the specified file or folder"
-msgstr ""
+msgstr "निर्देशीत फाईल किंवा संचयीका प्रत करा"
 
 #: ../kioslave/http/http.cpp:1606
 msgctxt "request type"
 msgid "move the specified file or folder"
-msgstr ""
+msgstr "निर्देशीत फाईल किंवा संचयीका हलवा"
 
 #: ../kioslave/http/http.cpp:1609
 msgctxt "request type"
 msgid "search in the specified folder"
-msgstr ""
+msgstr "निर्देशीत संचयीकेत शोधा"
 
 #: ../kioslave/http/http.cpp:1612
 msgctxt "request type"
 msgid "lock the specified file or folder"
-msgstr ""
+msgstr "निर्देशीत फाईल किंवा संचयीका कुलूपबंद करा"
 
 #: ../kioslave/http/http.cpp:1615
 msgctxt "request type"
 msgid "unlock the specified file or folder"
-msgstr ""
+msgstr "निर्देशीत फाईल किंवा संचयीकेचे कुलूप काढून टाका"
 
 #: ../kioslave/http/http.cpp:1618
 msgctxt "request type"
 msgid "delete the specified file or folder"
-msgstr ""
+msgstr "निर्देशीत फाईल किंवा संचयीका काढून टाका"
 
 #: ../kioslave/http/http.cpp:1621
 msgctxt "request type"
 msgid "query the server's capabilities"
-msgstr ""
+msgstr "सर्व्हरची क्षमता शोधा"
 
 #: ../kioslave/http/http.cpp:1624
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
-msgstr ""
+msgstr "निर्देशीत फाईल किंवा संचयीकेतील मजकूर बाहेर काढा"
 
 #: ../kioslave/http/http.cpp:1627
 msgctxt "request type"
 msgid "run a report in the specified folder"
-msgstr ""
+msgstr "निर्देशीत संचयीकेत अहवाल चालवा"
 
 #: ../kioslave/http/http.cpp:1638
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
-msgstr ""
+msgstr "%2 चा प्रयत्न करताना (%1) एक अनपेक्षीत त्रुटी आढळली."
 
 #: ../kioslave/http/http.cpp:1646
 msgid "The server does not support the WebDAV protocol."
-msgstr ""
+msgstr "सर्व्हर वेब-डीएवी शिष्टाचार समर्थीत करत नाही."
 
 #: ../kioslave/http/http.cpp:1688
 #, kde-format
