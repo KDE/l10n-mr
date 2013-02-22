@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-28 10:16+0100\n"
+"POT-Creation-Date: 2013-02-22 01:58+0100\n"
 "PO-Revision-Date: 2013-02-21 14:42+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -199,13 +199,11 @@ msgstr ""
 
 #. i18n: ectx: Menu (file)
 #: data/katepartsimpleui.rc:4 data/katepartui.rc:4
-#: plugins/exporter/ktexteditor_exporterui.rc:5
 msgid "&File"
 msgstr "फाईल (&F)"
 
 #. i18n: ectx: Menu (edit)
 #: data/katepartsimpleui.rc:12 data/katepartui.rc:12
-#: plugins/exporter/ktexteditor_exporterui.rc:9
 msgid "&Edit"
 msgstr "संपादन (&E)"
 
@@ -216,8 +214,6 @@ msgstr "दृश्य (&V)"
 
 #. i18n: ectx: Menu (tools)
 #: data/katepartsimpleui.rc:43 data/katepartui.rc:80
-#: plugins/hlselection/ktexteditor_hlselectionui.rc:4
-#: plugins/insertfile/ktexteditor_insertfileui.rc:4
 msgid "&Tools"
 msgstr "साधने (&T)"
 
@@ -1969,8 +1965,7 @@ msgstr ""
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
-"\"%1\" नावाची फाईल आधीपासूनच अस्तित्वात आहे. तुम्हाला ती खोडून पुन्हा लिहायची "
-"आहे का?"
+"\"%1\" नावाची फाईल आधीपासूनच अस्तित्वात आहे. तुम्हाला ती खोडून पुन्हा लिहायची आहे का?"
 
 #: document/katedocument.cpp:4545
 msgid "Overwrite File?"
@@ -1987,16 +1982,16 @@ msgstr ""
 msgid "Close Document"
 msgstr ""
 
-#: document/katedocument.cpp:4883
+#: document/katedocument.cpp:4884
 #, kde-format
 msgid "The file %1 is still loading."
 msgstr ""
 
-#: document/katedocument.cpp:5418 search/katesearchbar.cpp:282
+#: document/katedocument.cpp:5419 search/katesearchbar.cpp:282
 msgid "&Close"
 msgstr "बंद करा (&C)"
 
-#: document/katedocument.cpp:5419
+#: document/katedocument.cpp:5420
 msgid "Close message"
 msgstr ""
 
@@ -2183,7 +2178,7 @@ msgstr ""
 msgid "Marker Colors"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:202 view/kateviewhelpers.cpp:1305
+#: schema/kateschemaconfig.cpp:202 view/kateviewhelpers.cpp:1374
 msgid "Bookmark"
 msgstr "ओळखचिन्हे"
 
@@ -2558,8 +2553,26 @@ msgstr ""
 msgid "Navigation"
 msgstr "संचारण"
 
+#: script/data/commands/jumpMatchingIndent.js:36
+#: script/data/commands/jumpMatchingIndent.js:50
+msgid "Move cursor to previous matching indent"
+msgstr ""
+
+#: script/data/commands/jumpMatchingIndent.js:40
+#: script/data/commands/jumpMatchingIndent.js:53
+msgid "Move cursor to next matching indent"
+msgstr ""
+
 #: script/data/commands/quickcoding.js:19
 msgid "Quick Coding"
+msgstr ""
+
+#: script/data/commands/quickcoding.js:22
+msgid "Expand Abbreviation"
+msgstr ""
+
+#: script/data/commands/quickcoding.js:32
+msgid "Expand Quick Coding Abbreviation"
 msgstr ""
 
 #: script/data/commands/utils.js:274 utils/kateglobal.cpp:393
@@ -6852,34 +6865,34 @@ msgstr "वर हलवा"
 msgid "Move Down"
 msgstr "खाली हलवा"
 
-#: view/kateviewhelpers.cpp:167 view/kateviewhelpers.cpp:199
-#: view/kateviewhelpers.cpp:639
+#: view/kateviewhelpers.cpp:207 view/kateviewhelpers.cpp:255
+#: view/kateviewhelpers.cpp:708
 #, kde-format
 msgctxt "from line - to line"
 msgid "<center>%1<br>&mdash;<br/>%2</center>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:848
+#: view/kateviewhelpers.cpp:917
 msgid "Available Commands"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:850
+#: view/kateviewhelpers.cpp:919
 msgid ""
 "<p>For help on individual commands, do <code>'help &lt;command&gt;'</code></"
 "p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:861
+#: view/kateviewhelpers.cpp:930
 #, kde-format
 msgid "No help for '%1'"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:864
+#: view/kateviewhelpers.cpp:933
 #, kde-format
 msgid "No such command <b>%1</b>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:869
+#: view/kateviewhelpers.cpp:938
 msgid ""
 "<p>This is the Katepart <b>command line</b>.<br />Syntax: <code><b>command "
 "[ arguments ]</b></code><br />For a list of available commands, enter "
@@ -6887,35 +6900,35 @@ msgid ""
 "<code><b>help &lt;command&gt;</b></code></p>"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1040
+#: view/kateviewhelpers.cpp:1109
 #, kde-format
 msgid "Error: No range allowed for command \"%1\"."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1057
+#: view/kateviewhelpers.cpp:1126
 msgid "Success: "
 msgstr "यश : "
 
-#: view/kateviewhelpers.cpp:1073
+#: view/kateviewhelpers.cpp:1142
 #, kde-format
 msgid "Command \"%1\" failed."
 msgstr ""
 
-#: view/kateviewhelpers.cpp:1080
+#: view/kateviewhelpers.cpp:1149
 #, kde-format
 msgid "No such command: \"%1\""
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2105 view/kateviewhelpers.cpp:2106
+#: view/kateviewhelpers.cpp:2174 view/kateviewhelpers.cpp:2175
 #, kde-format
 msgid "Mark Type %1"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2125
+#: view/kateviewhelpers.cpp:2194
 msgid "Set Default Mark Type"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2191
+#: view/kateviewhelpers.cpp:2260
 msgid "Disable Annotation Bar"
 msgstr ""
 
@@ -6958,5 +6971,3 @@ msgstr ""
 #, kde-format
 msgid "Mark not set: %1"
 msgstr ""
-
-
