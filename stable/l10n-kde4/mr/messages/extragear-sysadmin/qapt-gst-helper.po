@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-18 02:11+0100\n"
+"POT-Creation-Date: 2012-03-09 11:23+0100\n"
 "PO-Revision-Date: 2013-02-24 14:41+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -47,36 +47,22 @@ msgctxt "@info:shell"
 msgid "GStreamer install info"
 msgstr "जी-स्ट्रीमर प्रतिष्ठापना माहिती"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:77
+#: utils/qapt-gst-helper/PluginHelper.cpp:82
 msgctxt "@info Error message"
 msgid "No valid plugin info was provided, so no plugins could be found."
 msgstr "वैध प्लगइन माहिती पुरविली नाही, म्हणून एकही प्लगइन्स सापडले नाही."
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:80
+#: utils/qapt-gst-helper/PluginHelper.cpp:85
 msgctxt "@title:window"
 msgid "Couldn't Find Plugins"
 msgstr "प्लगइन्स सापडले नाहीत"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:86
+#: utils/qapt-gst-helper/PluginHelper.cpp:91
 msgctxt "@info:progress"
 msgid "Looking for plugins"
 msgstr "प्लगइन्स करिता शोध करत आहे"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:113
-#: utils/qapt-gst-helper/PluginHelper.cpp:225
-msgctxt "@label"
-msgid ""
-"The package system could not be initialized, your configuration may be "
-"broken."
-msgstr ""
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:115
-#: utils/qapt-gst-helper/PluginHelper.cpp:227
-msgctxt "@title:window"
-msgid "Initialization error"
-msgstr "प्रारंभ करताना त्रुटी"
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:130
+#: utils/qapt-gst-helper/PluginHelper.cpp:129
 #, kde-format
 msgid ""
 "The following plugin is required: <ul><li>%2</li></ul>Do you want to search "
@@ -92,41 +78,53 @@ msgctxt "A program for which we have no name"
 msgid "A program"
 msgstr "एक कार्यक्रम"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:149
+#: utils/qapt-gst-helper/PluginHelper.cpp:151
 #, kde-format
 msgid "%2 requires an additional plugin to encode this file"
 msgid_plural "%2 requires additional plugins to encode this file"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:155
+#: utils/qapt-gst-helper/PluginHelper.cpp:157
 #, kde-format
 msgid "%2 requires an additional plugin to decode this file"
 msgid_plural "%2 requires additional plugins to decode this file"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:167
+#: utils/qapt-gst-helper/PluginHelper.cpp:169
 msgctxt "Search for packages"
 msgid "Search"
 msgstr "शोधा"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:193
+#: utils/qapt-gst-helper/PluginHelper.cpp:195
 msgid "Confirm Changes"
 msgstr "बदलांची खात्री करा"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:194
+#: utils/qapt-gst-helper/PluginHelper.cpp:196
 msgid "Install the following package?"
 msgid_plural "Install the following packages?"
 msgstr[0] "पुढील पॅकेज प्रतिष्ठापीत करायचे का?"
 msgstr[1] "पुढील पॅकेजेस प्रतिष्ठापीत करायचे का?"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:199
+#: utils/qapt-gst-helper/PluginHelper.cpp:201
 msgctxt "Install packages"
 msgid "Install"
 msgstr "प्रतिष्ठापीत करा"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:235
+#: utils/qapt-gst-helper/PluginHelper.cpp:225
+msgctxt "@label"
+msgid ""
+"The package system could not be initialized, your configuration may be "
+"broken."
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:227
+msgctxt "@title:window"
+msgid "Initialization error"
+msgstr "प्रारंभ करताना त्रुटी"
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:236
 msgctxt "@label"
 msgid ""
 "Another application seems to be using the package system at this time. You "
@@ -134,12 +132,12 @@ msgid ""
 "remove any packages."
 msgstr ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:239
+#: utils/qapt-gst-helper/PluginHelper.cpp:240
 msgctxt "@title:window"
 msgid "Unable to obtain package system lock"
 msgstr "पॅकेज प्रणाली कुलूप उघडु शकत नाही"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:244
+#: utils/qapt-gst-helper/PluginHelper.cpp:246
 #, kde-format
 msgctxt "@label"
 msgid ""
@@ -147,55 +145,45 @@ msgid ""
 "this operation."
 msgstr ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:246
+#: utils/qapt-gst-helper/PluginHelper.cpp:248
 msgctxt "@title:window"
 msgid "Low disk space"
 msgstr "डिस्कवर कमी जागा शिल्लक आहे"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:250
+#: utils/qapt-gst-helper/PluginHelper.cpp:253
 msgctxt "@label"
 msgid "Could not download packages"
 msgstr "पॅकेज डाउनलोड करू शकत नाही"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:251
+#: utils/qapt-gst-helper/PluginHelper.cpp:254
 msgctxt "@title:window"
 msgid "Download failed"
 msgstr "डाउनलोड अपयशी"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:256
-msgctxt "@label"
-msgid "An error occurred while applying changes:"
-msgstr "बदल लागू करताना त्रुटी आढळली :"
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:257
-msgctxt "@title:window"
-msgid "Commit Error"
-msgstr "सादर करताना त्रुटी"
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:263
+#: utils/qapt-gst-helper/PluginHelper.cpp:262
 msgctxt "@label"
 msgid ""
 "This operation cannot continue since proper authorization was not provided"
 msgstr ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:265
+#: utils/qapt-gst-helper/PluginHelper.cpp:264
 msgctxt "@title:window"
 msgid "Authentication error"
 msgstr "परवानगी विषयक त्रुटी"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:269
+#: utils/qapt-gst-helper/PluginHelper.cpp:268
 msgctxt "@label"
 msgid ""
 "It appears that the QApt worker has either crashed or disappeared. Please "
 "report a bug to the QApt maintainers"
 msgstr ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:271
+#: utils/qapt-gst-helper/PluginHelper.cpp:270
 msgctxt "@title:window"
 msgid "Unexpected Error"
 msgstr "अनपेक्षीत त्रुटी"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:279
+#: utils/qapt-gst-helper/PluginHelper.cpp:278
 msgctxt "@label"
 msgid ""
 "The following package has not been verified by its author. Downloading "
@@ -206,7 +194,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:288
+#: utils/qapt-gst-helper/PluginHelper.cpp:287
 msgctxt "@title:window"
 msgid "Untrusted Packages"
 msgstr "अविश्वासर्ह पॅकेजेस"
@@ -224,23 +212,33 @@ msgctxt "@title:window"
 msgid "Package Not Found"
 msgstr "पॅकेजसापडले नाही"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:312
+#: utils/qapt-gst-helper/PluginHelper.cpp:319
+msgctxt "@label"
+msgid "The size of the downloaded items did not equal the expected size."
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:321
+msgctxt "@title:window"
+msgid "Size Mismatch"
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:345
 msgctxt "@title:window"
 msgid "Media Change Required"
 msgstr "मीडिया बदल आवश्यक"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:313
+#: utils/qapt-gst-helper/PluginHelper.cpp:346
 #, kde-format
 msgctxt "@label"
 msgid "Please insert %1 into <filename>%2</filename>"
 msgstr "कृपया %1 हे <filename>%2</filename> यात अंतर्भूत करा"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:322
+#: utils/qapt-gst-helper/PluginHelper.cpp:355
 msgctxt "@title:window"
 msgid "Warning - Unverified Software"
 msgstr "इशारा - न तपासलेले सॉफ़्टवेअर"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:324
+#: utils/qapt-gst-helper/PluginHelper.cpp:357
 msgctxt "@label"
 msgid ""
 "The following piece of software cannot be verified. <warning>Installing "
@@ -253,92 +251,136 @@ msgid_plural ""
 "presence of unverifiable software can be a sign of tampering.</warning> Do "
 "you wish to continue?"
 msgstr[0] ""
-"पुढील सॉफ़्टवेअर तपासता येत नाही. <warning>न तपासलेले सॉफ़्टवेअर सुरक्षेकरिता "
-"धोका ठरू शकते, कारण न तपासलेल्या सॉफ़्टवेअरची उपस्थिती ही छेडछाड केल्याची खूण "
-"आहे.</warning> तुम्हाला पुढे जायचे आहे का?"
+"पुढील सॉफ़्टवेअर तपासता येत नाही. <warning>न तपासलेले सॉफ़्टवेअर सुरक्षेकरिता धोका ठरू "
+"शकते, कारण न तपासलेल्या सॉफ़्टवेअरची उपस्थिती ही छेडछाड केल्याची खूण आहे.</warning> "
+"तुम्हाला पुढे जायचे आहे का?"
 msgstr[1] ""
-"पुढील सॉफ़्टवेअर तपासता येत नाही <warning>न तपासलेले सॉफ़्टवेअर सुरक्षेकरिता "
-"धोका ठरू शकते, कारण न तपासलेल्या सॉफ़्टवेअरची उपस्थिती ही छेडछाड केल्याची खूण "
-"आहे.</warning> तुम्हाला पुढे जायचे आहे का?"
+"पुढील सॉफ़्टवेअर तपासता येत नाही <warning>न तपासलेले सॉफ़्टवेअर सुरक्षेकरिता धोका ठरू शकते, "
+"कारण न तपासलेल्या सॉफ़्टवेअरची उपस्थिती ही छेडछाड केल्याची खूण आहे.</warning> तुम्हाला पुढे "
+"जायचे आहे का?"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:353
-msgctxt "@label Progress bar label when waiting to start"
-msgid "Waiting to start."
-msgstr "सुरु करण्याची वाट पाहत आहे."
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:358
-msgctxt "@label Status label when waiting for a password"
-msgid "Waiting for authentication."
-msgstr "अधिप्रमाणनाची वाट पाहत आहे."
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:363
-msgctxt "@label Status label when waiting for a CD-ROM"
-msgid "Waiting for required media."
-msgstr "गरजेच्या माध्यमाची वाट पाहत आहे."
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:368
-msgctxt "@label Status label"
-msgid "Waiting for other package managers to quit."
-msgstr "इतर सॉफ़्टवेअर व्यवस्थापकाने बाहेर पडण्याची वाट पाहत आहे."
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:376
-msgctxt "@label Status label"
-msgid "Loading package cache."
-msgstr "पॅकेज कॅशे दाखल करत आहे."
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:379
+#: utils/qapt-gst-helper/PluginHelper.cpp:398
 msgctxt "@title:window"
 msgid "Downloading"
 msgstr "डाउनलोड करत आहे"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:380
+#: utils/qapt-gst-helper/PluginHelper.cpp:399
 msgctxt "@info:status"
 msgid "Downloading codecs"
 msgstr "कोडेक्स डाउनलोड करत आहे"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:383
+#: utils/qapt-gst-helper/PluginHelper.cpp:406
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Installing codecs"
 msgctxt "@title:window"
-msgid "Installing"
-msgstr "प्रतिष्ठापन करत आहे"
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:384
-msgctxt "@info:status"
-msgid "Installing codecs"
+msgid "Installing Codecs"
 msgstr "कोडेक्सची प्रतिष्ठापन करत आहे"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:391
-msgctxt "@label"
-msgid "Package installation finished with errors."
-msgstr "पॅकेजची प्रतिष्ठापना त्रुटींसह पूर्ण झाले."
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:392
-msgctxt "@title:window"
-msgid "Installation Failed"
-msgstr "प्रतिष्ठापना करण्यास अपयश"
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:394
-msgctxt "@label"
-msgid "Codecs successfully installed"
-msgstr "कोडेक्स यशस्वीरित्या प्रतिष्ठापीत केले"
-
-#: utils/qapt-gst-helper/PluginHelper.cpp:395
+#: utils/qapt-gst-helper/PluginHelper.cpp:418
 msgctxt "@title:window"
 msgid "Installation Complete"
 msgstr "प्रतिष्ठापना पूर्ण"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:428
-msgctxt "@info"
-msgid "No plugins could be found"
-msgstr "एकही प्लगइन्स सापडले नाही"
+#: utils/qapt-gst-helper/PluginHelper.cpp:422
+msgctxt "@label"
+msgid "Package installation finished with errors."
+msgstr "पॅकेजची प्रतिष्ठापना त्रुटींसह पूर्ण झाले."
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:429
-msgctxt "@title"
-msgid "Plugins Not Found"
-msgstr "प्लगइन्स सापडले नाही"
+#: utils/qapt-gst-helper/PluginHelper.cpp:425
+msgctxt "@label"
+msgid "Codecs successfully installed"
+msgstr "कोडेक्स यशस्वीरित्या प्रतिष्ठापीत केले"
 
-#: utils/qapt-gst-helper/PluginHelper.cpp:490
+#: utils/qapt-gst-helper/PluginHelper.cpp:439
+#, fuzzy
+#| msgid "Install the following package?"
+#| msgid_plural "Install the following packages?"
+msgctxt "@label"
+msgid "Unable to download the following packages:"
+msgstr "पुढील पॅकेज प्रतिष्ठापीत करायचे का?"
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:444
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Failed to download %1\n"
+"%2\n"
+"\n"
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:447
+msgctxt "@title:window"
+msgid "Some Packages Could not be Downloaded"
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:454
+#, fuzzy
+#| msgctxt "@label"
+#| msgid "An error occurred while applying changes:"
+msgctxt "@label"
+msgid "An error occurred while applying changes:"
+msgid_plural "The following errors occurred while applying changes:"
+msgstr[0] "बदल लागू करताना त्रुटी आढळली :"
+msgstr[1] "बदल लागू करताना त्रुटी आढळली :"
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:458
+#, kde-format
+msgctxt "@label Shows which package failed"
+msgid "Package: %1"
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:459
+#, kde-format
+msgctxt "@label Shows the error"
+msgid "Error: %1"
+msgstr ""
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:463
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Commit Error"
+msgctxt "@title:window"
+msgid "Commit error"
+msgstr "सादर करताना त्रुटी"
+
+#: utils/qapt-gst-helper/PluginHelper.cpp:513
 msgctxt "@label Progress bar label when waiting to start"
 msgid "Waiting"
 msgstr "वाट पाहत आहे"
 
+#~ msgctxt "@label Progress bar label when waiting to start"
+#~ msgid "Waiting to start."
+#~ msgstr "सुरु करण्याची वाट पाहत आहे."
 
+#~ msgctxt "@label Status label when waiting for a password"
+#~ msgid "Waiting for authentication."
+#~ msgstr "अधिप्रमाणनाची वाट पाहत आहे."
+
+#~ msgctxt "@label Status label when waiting for a CD-ROM"
+#~ msgid "Waiting for required media."
+#~ msgstr "गरजेच्या माध्यमाची वाट पाहत आहे."
+
+#~ msgctxt "@label Status label"
+#~ msgid "Waiting for other package managers to quit."
+#~ msgstr "इतर सॉफ़्टवेअर व्यवस्थापकाने बाहेर पडण्याची वाट पाहत आहे."
+
+#~ msgctxt "@label Status label"
+#~ msgid "Loading package cache."
+#~ msgstr "पॅकेज कॅशे दाखल करत आहे."
+
+#~ msgctxt "@title:window"
+#~ msgid "Installing"
+#~ msgstr "प्रतिष्ठापन करत आहे"
+
+#~ msgctxt "@title:window"
+#~ msgid "Installation Failed"
+#~ msgstr "प्रतिष्ठापना करण्यास अपयश"
+
+#~ msgctxt "@info"
+#~ msgid "No plugins could be found"
+#~ msgstr "एकही प्लगइन्स सापडले नाही"
+
+#~ msgctxt "@title"
+#~ msgid "Plugins Not Found"
+#~ msgstr "प्लगइन्स सापडले नाही"
