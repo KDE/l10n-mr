@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-23 03:46+0000\n"
+"POT-Creation-Date: 2013-02-27 03:09+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -54,6 +54,87 @@ msgctxt "Name"
 msgid "Calligra"
 msgstr "कॅलिग्रा"
 
+#: extras/okularodpgenerator/libokularGenerator_odp.desktop:3
+msgctxt "Name"
+msgid "OpenDocument Presentation Document"
+msgstr "ओपनडोक्युमेंट प्रेझेंटेशन दस्तऐवज"
+
+#: extras/okularodpgenerator/libokularGenerator_odp.desktop:36
+msgctxt "Comment"
+msgid "Odp for okular"
+msgstr "ओक्युलर करिता Odp"
+
+#: extras/okularodpgenerator/okularApplication_odp.desktop:4
+#: extras/okularodpgenerator/okularOdp.desktop:3
+msgctxt "Name"
+msgid "okular"
+msgstr "ओक्युलर"
+
+#: extras/okularodpgenerator/okularApplication_odp.desktop:41
+msgctxt "GenericName"
+msgid "Document Viewer"
+msgstr "दस्तऐवज प्रदर्शक"
+
+#: extras/properties/calligradocinfopropspage.desktop:3
+msgctxt "Name"
+msgid "Calligra Document Info Properties Page"
+msgstr ""
+
+#: extras/quickprint/flow_print.desktop:8
+msgctxt "Name"
+msgid "Print with Calligra Flow..."
+msgstr ""
+
+#: extras/quickprint/karbon_print.desktop:8
+msgctxt "Name"
+msgid "Print with Karbon..."
+msgstr "कार्बनने छापा ..."
+
+#: extras/quickprint/krita_print.desktop:8
+msgctxt "Name"
+msgid "Print..."
+msgstr "छापा..."
+
+#: extras/quickprint/sheets_print.desktop:8
+msgctxt "Name"
+msgid "Print with Calligra Sheets..."
+msgstr ""
+
+#: extras/quickprint/stage_print.desktop:8
+msgctxt "Name"
+msgid "Print with Calligra Stage..."
+msgstr ""
+
+#: extras/quickprint/words_print.desktop:9
+msgctxt "Name"
+msgid "Print with Calligra Words..."
+msgstr ""
+
+#: extras/thumbnail/calligra_odg_thumbnail.desktop:3
+msgctxt "Name"
+msgid "OpenDocument Drawings"
+msgstr ""
+
+#: extras/thumbnail/krita_kra_thumbnail.desktop:3
+msgctxt "Name"
+msgid "Krita Documents"
+msgstr "क्रिटा दस्तऐवज"
+
+#: extras/thumbnail/sheets_ods_thumbnail.desktop:3
+msgctxt "Name"
+msgid "OpenDocument Spreadsheets"
+msgstr ""
+
+#: extras/thumbnail/stage_odp_thumbnail.desktop:3
+msgctxt "Name"
+msgid "OpenDocument Presentations"
+msgstr ""
+
+#: extras/thumbnail/words_odt_thumbnail.desktop:3
+msgctxt "Name"
+msgid "OpenDocument Texts"
+msgstr ""
+
 #: filters/flow/imageexport/flow_image_export.desktop:3
 msgctxt "Name"
 msgid "Flow Image Export Filter"
@@ -69,16 +150,6 @@ msgstr "फ्लो व्हिजिओ आयात गाळणी"
 msgctxt "Name"
 msgid "Microsoft Visio Documents"
 msgstr ""
-
-#: filters/karbon/applixgraphics/kontour_applixgraphic_import.desktop:3
-msgctxt "Name"
-msgid "Kontour Applixgraphics Import Filter"
-msgstr "कंटूर एप्लिक्सग्राफिक्स आयात गाळणी"
-
-#: filters/karbon/eps/karbon_eps_export.desktop:3
-msgctxt "Name"
-msgid "Karbon EPS Export Filter"
-msgstr "कार्बन EPS निर्यात गाळणी"
 
 #: filters/karbon/eps/karbon_eps_import.desktop:3
 #: filters/karbon/eps/karbon_ps_import.desktop:3
@@ -6936,15 +7007,30 @@ msgctxt "Name"
 msgid "Basic"
 msgstr "मुळ"
 
-#: flow/templates/basic/empty.desktop:5 karbon/templates/basic/empty.desktop:5
-#: plan/workpackage/templates/Simple/Empty.desktop:5
+#: flow/templates/basic/empty-landscape.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita Documents"
 msgctxt "Name"
-msgid "Empty Document"
+msgid "Empty Landscape Document"
+msgstr "क्रिटा दस्तऐवज"
+
+#: flow/templates/basic/empty-landscape.desktop:8
+msgctxt "Comment"
+msgid "Creates a landscape-oriented document with no stencils loaded."
 msgstr ""
 
-#: flow/templates/basic/empty.desktop:62
+#: flow/templates/basic/empty-portrait.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita Documents"
+msgctxt "Name"
+msgid "Empty Portrait Document"
+msgstr "क्रिटा दस्तऐवज"
+
+#: flow/templates/basic/empty-portrait.desktop:8
 msgctxt "Comment"
-msgid "Creates a document with no stencils loaded."
+msgid "Creates a portrait-oriented document with no stencils loaded."
 msgstr ""
 
 #: karbon/data/karbon.desktop:3
@@ -6986,6 +7072,12 @@ msgstr ""
 msgctxt "Name"
 msgid "Karbon Tools"
 msgstr "कार्बन साधने"
+
+#: karbon/templates/basic/empty.desktop:5
+#: plan/workpackage/templates/Simple/Empty.desktop:5
+msgctxt "Name"
+msgid "Empty Document"
+msgstr ""
 
 #: karbon/templates/basic/empty.desktop:62
 #: plan/workpackage/templates/Simple/Empty.desktop:62
@@ -7500,6 +7592,7 @@ msgstr ""
 #: krita/krita.desktop:2 krita/plugins/formats/bmp/krita_bmp.desktop:2
 #: krita/plugins/formats/eps/krita_eps.desktop:6
 #: krita/plugins/formats/exr/krita_exr.desktop:53
+#: krita/plugins/formats/flipbook/krita_flipbook.desktop:2
 #: krita/plugins/formats/jp2/krita_jp2.desktop:53
 #: krita/plugins/formats/jpeg/krita_jpeg.desktop:6
 #: krita/plugins/formats/odg/krita_odg.desktop:2
@@ -7622,6 +7715,11 @@ msgstr "प्रिसेट डॉकर"
 #: krita/plugins/extensions/dockers/presetdocker/krita_presetdocker.desktop:32
 msgctxt "Comment"
 msgid "Docker for selecting presets"
+msgstr ""
+
+#: krita/plugins/extensions/dockers/flipbook/krita_flipbookdocker.desktop:2
+msgctxt "Name"
+msgid "Flipbook Docker"
 msgstr ""
 
 #: krita/plugins/extensions/dockers/historydocker/kritahistorydocker.desktop:2
@@ -7966,6 +8064,14 @@ msgctxt "Name"
 msgid "Krita exr Import Filter"
 msgstr ""
 
+#: krita/plugins/formats/flipbook/krita_flipbook_import.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Karbon XFig Import Filter"
+msgctxt "Name"
+msgid "Krita Flipbook Import Filter"
+msgstr "कार्बन XFig आयात गाळणी"
+
 #: krita/plugins/formats/jp2/krita_jp2_export.desktop:3
 msgctxt "Name"
 msgid "Krita jp2 Export Filter"
@@ -8050,6 +8156,14 @@ msgstr ""
 msgctxt "Name"
 msgid "Krita PhotoShop Import Filter"
 msgstr ""
+
+#: krita/plugins/formats/qml/krita_qml_export.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Karbon WMF Export Filter"
+msgctxt "Name"
+msgid "Krita QML Export Filter"
+msgstr "कार्बन WMF निर्यात गाळणी"
 
 #: krita/plugins/formats/raw/krita_raw_import.desktop:3
 msgctxt "Name"
@@ -8238,6 +8352,11 @@ msgctxt "Name"
 msgid "Krita %{APPNAMELC} Import Filter"
 msgstr ""
 
+#: libs/basicflakes/plugin/basicflakesplugin.desktop:2
+msgctxt "Name"
+msgid "Basic Flakes"
+msgstr ""
+
 #: libs/db/calligradb_driver.desktop:4
 msgctxt "Comment"
 msgid "Kexi SQL-Driver plugin"
@@ -8381,11 +8500,6 @@ msgstr ""
 #: libs/main/calligradocker.desktop:34
 msgctxt "Comment"
 msgid "A plugin that contains a so called 'dockwidget'"
-msgstr ""
-
-#: libs/main/kodocinfopropspage.desktop:3
-msgctxt "Name"
-msgid "Calligra Document Info Properties Page"
 msgstr ""
 
 #: libs/pigment/pigment.desktop:4
@@ -9111,7 +9225,7 @@ msgctxt "Name"
 msgid "Fade"
 msgstr "फिकटणे"
 
-#: stage/plugins/pageeffects/fade/kpr_pageeffect_fade.desktop:40
+#: stage/plugins/pageeffects/fade/kpr_pageeffect_fade.desktop:41
 msgctxt "Comment"
 msgid "Fade Effect"
 msgstr "फिकटणे परिणाम"
@@ -9372,10 +9486,11 @@ msgid "Presentation Document..."
 msgstr "प्रेझेंटेशन दस्तऐवज..."
 
 #: templates/Presentation.desktop:58
+#, fuzzy
 #| msgctxt "Comment"
 #| msgid "New KPresenter presentation document:"
 msgctxt "Comment"
-msgid "New KPresenter presentation document:"
+msgid "New Stage presentation document:"
 msgstr "नवीन के-प्रेझेंटर प्रेझेंटेशन दस्तऐवज :"
 
 #: templates/SpreadSheet.desktop:2
@@ -9384,10 +9499,11 @@ msgid "Spread Sheet Document..."
 msgstr "स्प्रेड शीट दस्तऐवज..."
 
 #: templates/SpreadSheet.desktop:57
+#, fuzzy
 #| msgctxt "Comment"
-#| msgid "New Words document:"
+#| msgid "New KSpread document:"
 msgctxt "Comment"
-msgid "New KSpread document:"
+msgid "New Sheets document:"
 msgstr "नवीन के-स्प्रेड दस्तऐवज :"
 
 #: templates/TextDocument.desktop:2
@@ -9399,82 +9515,6 @@ msgstr "पाठ्य दस्तऐवज..."
 msgctxt "Comment"
 msgid "New Words document:"
 msgstr "नवीन वर्डस् दस्तऐवज :"
-
-#: tools/okularodpgenerator/libokularGenerator_odp.desktop:3
-msgctxt "Name"
-msgid "OpenDocument Presentation Document"
-msgstr "ओपनडोक्युमेंट प्रेझेंटेशन दस्तऐवज"
-
-#: tools/okularodpgenerator/libokularGenerator_odp.desktop:36
-msgctxt "Comment"
-msgid "Odp for okular"
-msgstr "ओक्युलर करिता Odp"
-
-#: tools/okularodpgenerator/okularApplication_odp.desktop:4
-#: tools/okularodpgenerator/okularOdp.desktop:3
-msgctxt "Name"
-msgid "okular"
-msgstr "ओक्युलर"
-
-#: tools/okularodpgenerator/okularApplication_odp.desktop:41
-msgctxt "GenericName"
-msgid "Document Viewer"
-msgstr "दस्तऐवज प्रदर्शक"
-
-#: tools/quickprint/flow_print.desktop:8
-msgctxt "Name"
-msgid "Print with Calligra Flow..."
-msgstr ""
-
-#: tools/quickprint/karbon_print.desktop:8
-msgctxt "Name"
-msgid "Print with Karbon..."
-msgstr "कार्बनने छापा ..."
-
-#: tools/quickprint/krita_print.desktop:8
-msgctxt "Name"
-msgid "Print..."
-msgstr "छापा..."
-
-#: tools/quickprint/sheets_print.desktop:8
-msgctxt "Name"
-msgid "Print with Calligra Sheets..."
-msgstr ""
-
-#: tools/quickprint/stage_print.desktop:8
-msgctxt "Name"
-msgid "Print with Calligra Stage..."
-msgstr ""
-
-#: tools/quickprint/words_print.desktop:9
-msgctxt "Name"
-msgid "Print with Calligra Words..."
-msgstr ""
-
-#: tools/thumbnail/calligra_odg_thumbnail.desktop:3
-msgctxt "Name"
-msgid "OpenDocument Drawings"
-msgstr ""
-
-#: tools/thumbnail/krita_kra_thumbnail.desktop:3
-msgctxt "Name"
-msgid "Krita Documents"
-msgstr "क्रिटा दस्तऐवज"
-
-#: tools/thumbnail/sheets_ods_thumbnail.desktop:3
-msgctxt "Name"
-msgid "OpenDocument Spreadsheets"
-msgstr ""
-
-#: tools/thumbnail/stage_odp_thumbnail.desktop:3
-msgctxt "Name"
-msgid "OpenDocument Presentations"
-msgstr ""
-
-#: tools/thumbnail/words_odt_thumbnail.desktop:3
-msgctxt "Name"
-msgid "OpenDocument Texts"
-msgstr ""
 
 #: words/part/author/author.desktop:3
 msgctxt "Name"
@@ -9573,32 +9613,18 @@ msgid ""
 "Creates a blank document with wide margins for professional looking documents"
 msgstr ""
 
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Krita Documents"
 #~ msgctxt "Name"
-#~ msgid "Empty Portrait Document"
-#~ msgstr "क्रिटा दस्तऐवज"
+#~ msgid "Kontour Applixgraphics Import Filter"
+#~ msgstr "कंटूर एप्लिक्सग्राफिक्स आयात गाळणी"
 
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Karbon XFig Import Filter"
 #~ msgctxt "Name"
-#~ msgid "Krita Flipbook Import Filter"
-#~ msgstr "कार्बन XFig आयात गाळणी"
+#~ msgid "Karbon EPS Export Filter"
+#~ msgstr "कार्बन EPS निर्यात गाळणी"
 
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Karbon WMF Export Filter"
-#~ msgctxt "Name"
-#~ msgid "Krita QML Export Filter"
-#~ msgstr "कार्बन WMF निर्यात गाळणी"
-
-#, fuzzy
 #~| msgctxt "Comment"
-#~| msgid "New KSpread document:"
+#~| msgid "New Words document:"
 #~ msgctxt "Comment"
-#~ msgid "New Sheets document:"
+#~ msgid "New KSpread document:"
 #~ msgstr "नवीन के-स्प्रेड दस्तऐवज :"
 
 #~ msgctxt "Name"
