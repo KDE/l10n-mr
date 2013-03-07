@@ -1,0 +1,756 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Chetan Khona <chetan@kompkin.com>, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-12-30 02:16+0100\n"
+"PO-Revision-Date: 2013-03-07 18:37+0530\n"
+"Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
+"Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "चेतन खोना"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chetan@kompkin.com"
+
+#: breakpointcontroller.cpp:505
+#, kde-format
+msgid "<br>Old value: %1"
+msgstr ""
+
+#: breakpointcontroller.cpp:508
+#, kde-format
+msgid "<br>New value: %1"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DebuggerConfigWidget)
+#: debuggerconfigwidget.ui:14
+msgid "Debugger Configuration"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: debuggerconfigwidget.ui:26 debuggerplugin.cpp:429
+msgid "Debugger"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_gdbPath)
+#: debuggerconfigwidget.ui:32
+msgid "Gdb executable"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_gdbPath)
+#: debuggerconfigwidget.ui:35
+msgid ""
+"To run \"gdb\" binary from $PATH, leave this field empty. To run custom gdb, "
+"for example, for a different architecture, enter the executable name here. "
+"You can either run gdb from $PATH, but with a different name (say, \"arm-gdb"
+"\"), by typing the name here, or specify full path to the gdb executable."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_debuggingShell)
+#. i18n: ectx: property (toolTip), widget (QLabel, debuggingShell_label)
+#: debuggerconfigwidget.ui:42 debuggerconfigwidget.ui:77
+msgid "Run gdb in a special shell (mainly for automake projects)"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_debuggingShell)
+#: debuggerconfigwidget.ui:45
+msgid ""
+"If you want gdb to be executed by a special shell or tool insert it here. "
+"The main use-case is for Automake based projects where the application is "
+"actually only a script and <b>libtool</b> is needed to get it to run inside "
+"gdb."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, gdbPath_label)
+#: debuggerconfigwidget.ui:58
+msgid "Debugger executable:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, debuggingShell_label)
+#: debuggerconfigwidget.ui:80
+msgid ""
+"If you want gdb to be executed by a special shell or tool insert it here. "
+"The main use-case is for Automake based projects where the application is "
+"actually only a script and libtool is needed to get it to run inside gdb."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, debuggingShell_label)
+#: debuggerconfigwidget.ui:83
+msgid "Debugging &shell:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: debuggerconfigwidget.ui:99
+msgid "Options"
+msgstr "पर्याय"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: debuggerconfigwidget.ui:108
+msgid "Display static &members:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_displayStaticMembers)
+#: debuggerconfigwidget.ui:123
+msgid ""
+"Displaying static members makes GDB slower in\n"
+"producing data within KDE and Qt.\n"
+"It may change the \"signature\" of the data\n"
+"which QString and friends rely on,\n"
+"but if you need to debug into these values then\n"
+"check this option."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: debuggerconfigwidget.ui:133
+msgid "Display &demangled names:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_asmDemangle)
+#: debuggerconfigwidget.ui:145
+msgid ""
+"When displaying the disassembled code you\n"
+"can select to see the methods' mangled names.\n"
+"However, non-mangled names are easier to read."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: debuggerconfigwidget.ui:155
+msgid "Start Debugger with:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
+#: debuggerconfigwidget.ui:166
+msgid "Application Output"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
+#: debuggerconfigwidget.ui:171
+msgid "GDB Console"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
+#: debuggerconfigwidget.ui:176
+msgid "Frame Stack"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
+#: debuggerconfigwidget.ui:190
+msgid ""
+"This script is intended for the actual commands needed to connect to a "
+"remotely running executable.\n"
+"\tshell sleep 5\twait for remote program to start\n"
+"\ttarget remote ...\tconnect to the remote debugger\n"
+"\tcontinue\t[optional] run debugging to the first breakpoint"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: debuggerconfigwidget.ui:193
+msgid "Remote Debugging"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, runShellScript_label)
+#: debuggerconfigwidget.ui:202
+msgctxt "Shell script to be executed at run time"
+msgid "R&un shell script:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_runShellScript)
+#: debuggerconfigwidget.ui:215
+msgid "Script to start remote application"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_runShellScript)
+#: debuggerconfigwidget.ui:224
+msgid ""
+"This shell script is run after the Config gdb script has been sourced by "
+"gdb.\n"
+"When debugging remotely this script is intended to actually start the remote "
+"process.\n"
+"[It is expected that the debug executable can be reached on the target, "
+"maybe by downloading it as a final build step]\n"
+"1) Find a way to execute a command remotely - rsh, ssh, telnet, ...\n"
+"2a) Execute \"gdbserver ... application\" on target.\n"
+"or if your executable contains the gdb stub\n"
+"2b) Execute \"application\" on target."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, configGdbScript_label)
+#: debuggerconfigwidget.ui:231
+msgid "&Config gdb script:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_runGdbScript)
+#: debuggerconfigwidget.ui:244
+msgid "Script to connect with remote application"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_runGdbScript)
+#: debuggerconfigwidget.ui:251
+msgid ""
+"This script is sourced by gdb after the two preceding scripts have been "
+"executed.\n"
+"This script is intended for the actual commands needed to connect to a "
+"remotely running executable.\n"
+"\tshell sleep 5\twait for remote program to start\n"
+"\ttarget remote ...\tconnect to the remote debugger\n"
+"\tcontinue\t[optional] run debugging to the first breakpoint."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, runGdbScript_label)
+#: debuggerconfigwidget.ui:258
+msgctxt "Gdb script to be executed at run time."
+msgid "Run &gdb script:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_configGdbScript)
+#: debuggerconfigwidget.ui:271
+msgid "Gdb configure script"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_configGdbScript)
+#: debuggerconfigwidget.ui:274
+msgid "This script is sourced by gdb when the debugging starts."
+msgstr ""
+
+#: debuggerplugin.cpp:93
+msgid "GDB Support"
+msgstr ""
+
+#: debuggerplugin.cpp:93
+msgid "Support for running apps in GDB"
+msgstr ""
+
+#: debuggerplugin.cpp:155
+msgid "Disassemble"
+msgstr ""
+
+#: debuggerplugin.cpp:159 gdblaunchconfig.cpp:139
+msgid "GDB"
+msgstr "GDB"
+
+#: debuggerplugin.cpp:213
+msgid "Examine Core File..."
+msgstr ""
+
+#: debuggerplugin.cpp:214
+msgid "Examine core file"
+msgstr ""
+
+#: debuggerplugin.cpp:215
+msgid ""
+"<b>Examine core file</b><p>This loads a core file, which is typically "
+"created after the application has crashed, e.g. with a segmentation fault. "
+"The core file contains an image of the program memory at the time it "
+"crashed, allowing you to do a post-mortem analysis.</p>"
+msgstr ""
+
+#: debuggerplugin.cpp:225
+msgid "Attach to Process"
+msgstr ""
+
+#: debuggerplugin.cpp:226
+msgid "Attach to process..."
+msgstr ""
+
+#: debuggerplugin.cpp:227
+msgid ""
+"<b>Attach to process</b><p>Attaches the debugger to a running process.</p>"
+msgstr ""
+
+#: debuggerplugin.cpp:259
+msgid "KDevelop"
+msgstr ""
+
+#: debuggerplugin.cpp:332
+#, kde-format
+msgid "Evaluate: %1"
+msgstr ""
+
+#: debuggerplugin.cpp:334
+msgid ""
+"<b>Evaluate expression</b><p>Shows the value of the expression under the "
+"cursor.</p>"
+msgstr ""
+
+#: debuggerplugin.cpp:337
+#, kde-format
+msgid "Watch: %1"
+msgstr ""
+
+#: debuggerplugin.cpp:339
+msgid ""
+"<b>Watch expression</b><p>Adds an expression under the cursor to the "
+"Variables/Watch list.</p>"
+msgstr ""
+
+#: debuggerplugin.cpp:369
+msgid "Choose a core file to examine..."
+msgstr ""
+
+#: debuggerplugin.cpp:376
+#, kde-format
+msgid "Examining core file %1"
+msgstr ""
+
+#: debuggerplugin.cpp:382
+msgid "Debug core file"
+msgstr ""
+
+#: debuggerplugin.cpp:390
+msgid "Choose a process to attach to..."
+msgstr ""
+
+#: debuggerplugin.cpp:399
+#, kde-format
+msgid "Not attaching to process %1: cannot attach the debugger to itself."
+msgstr ""
+
+#: debuggerplugin.cpp:407
+#, kde-format
+msgid "Attaching to process %1"
+msgstr ""
+
+#: debuggerplugin.cpp:413
+#, kde-format
+msgid "Debug process %1"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DebuggerTracingDialog)
+#: debuggertracingdialog.ui:13
+msgid "Tracing Configuration"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, enable)
+#: debuggertracingdialog.ui:20
+msgid ""
+"<b>Enable tracing</b>\n"
+"<p>Tracing is a mechanism to automatically print values of the chosen "
+"expressions and continue execution when breakpoint is hit. You can think of "
+"it as printf debugging that does not require modifying the source.</p>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enable)
+#: debuggertracingdialog.ui:23
+msgid "Enable tracing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#: debuggertracingdialog.ui:30 memviewdlg.cpp:120
+msgid "Cancel"
+msgstr "रद्द करा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableCustomFormat)
+#: debuggertracingdialog.ui:40
+msgid "Custom format string"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, okButton)
+#: debuggertracingdialog.ui:47 memviewdlg.cpp:117
+msgid "OK"
+msgstr "ठीक आहे"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, customFormat)
+#: debuggertracingdialog.ui:79
+#, no-c-format
+msgid ""
+"<b>Custom format string</b>\n"
+"<p>Specify a C-style format string that will be used when printing the "
+"chosen expression. For example:\n"
+"<p align=\"center\"> <tt>Tracepoint 1: g = %d</tt></p>\n"
+"If custom format string is not enabled, names and values of all expressions "
+"will be printed, using \"%d\" as format specifier for all expressions."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, expressionsLabel)
+#: debuggertracingdialog.ui:99
+msgid "Expressions to print:"
+msgstr ""
+
+#: debugjob.cpp:70
+#, kde-format
+msgid ""
+"No environment group specified, looks like a broken configuration, please "
+"check run configuration '%1'. Using default environment group."
+msgstr ""
+
+#: debugsession.cpp:157
+msgid "Debugger stopped"
+msgstr ""
+
+#: debugsession.cpp:186
+msgid "Application interrupted"
+msgstr ""
+
+#: debugsession.cpp:190
+msgid "Process exited"
+msgstr ""
+
+#: debugsession.cpp:197
+msgid "Application is running"
+msgstr ""
+
+#: debugsession.cpp:203
+msgid "Application is paused"
+msgstr ""
+
+#: debugsession.cpp:417
+msgid ""
+"<b>GDB exited abnormally</b><p>This is likely a bug in GDB. Examine the gdb "
+"output window and then stop the debugger"
+msgstr ""
+
+#: debugsession.cpp:420
+msgid "GDB exited abnormally"
+msgstr ""
+
+#: debugsession.cpp:549
+#, kde-format
+msgid ""
+"<b>Gdb command sent when debugger is not running</b><br>The command was:<br> "
+"%1"
+msgstr ""
+
+#: debugsession.cpp:551
+msgid "Internal error"
+msgstr "अंतर्गत त्रुटी"
+
+#: debugsession.cpp:648
+#, kde-format
+msgid "<b>Invalid debugger command</b><br>%1"
+msgstr ""
+
+#: debugsession.cpp:649
+msgid "Invalid debugger command"
+msgstr ""
+
+#: debugsession.cpp:677
+#, kde-format
+msgid "Exited with return code: %1"
+msgstr ""
+
+#: debugsession.cpp:679
+msgid "Exited normally"
+msgstr ""
+
+#: debugsession.cpp:688
+#, kde-format
+msgid "Exited on signal %1"
+msgstr ""
+
+#: debugsession.cpp:743
+#, kde-format
+msgid "Program received signal %1 (%2)"
+msgstr ""
+
+#: debugsession.cpp:952
+msgid "Running program"
+msgstr ""
+
+#: debugsession.cpp:1017
+msgid ""
+"GDB cannot use the tty* or pty* devices.\n"
+"Check the settings on /dev/tty* and /dev/pty*\n"
+"As root you may need to \"chmod ug+rw\" tty* and pty* devices and/or add the "
+"user to the tty group using \"usermod -G tty username\"."
+msgstr ""
+
+#: debugsession.cpp:1021
+msgid "Warning"
+msgstr "इशारा"
+
+#: debugsession.cpp:1209
+#, kde-format
+msgid "<b>Debugger error</b><p>Debugger reported the following error:<p><tt>%1"
+msgstr ""
+
+#: debugsession.cpp:1212
+msgid "Debugger error"
+msgstr ""
+
+#: debugsession.cpp:1311
+#, kde-format
+msgid "1 command in queue\n"
+msgid_plural "%1 commands in queue\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: debugsession.cpp:1312
+#, kde-format
+msgctxt "Only the 0 and 1 cases need to be translated"
+msgid "1 command being processed by gdb\n"
+msgid_plural "%1 commands being processed by gdb\n"
+msgstr[0] ""
+msgstr[1] ""
+
+#: debugsession.cpp:1313
+#, kde-format
+msgid "Debugger state: %1\n"
+msgstr ""
+
+#: debugsession.cpp:1317
+#, kde-format
+msgid ""
+"Current command class: '%1'\n"
+"Current command text: '%2'\n"
+"Current command original text: '%3'\n"
+msgstr ""
+
+#: debugsession.cpp:1328
+msgid "Debugger status"
+msgstr ""
+
+#: debugsession.cpp:1437
+#, kde-format
+msgid "<b>You need gdb 7.0.0 or higher.</b><br />You are using: %1"
+msgstr ""
+
+#: debugsession.cpp:1439
+msgid "gdb error"
+msgstr ""
+
+#: debugsession.cpp:1450
+msgid "<b>Could not start debugger:</b><br />"
+msgstr ""
+
+#: debugsession.cpp:1452 debugsession.cpp:1464
+msgid "Startup error"
+msgstr ""
+
+#: debugsession.cpp:1462
+msgid "<b>Could not attach debugger:</b><br />"
+msgstr ""
+
+#: disassemblewidget.cpp:60
+msgid "Address Selector"
+msgstr ""
+
+#: disassemblewidget.cpp:111
+msgid "Start address:"
+msgstr ""
+
+#: disassemblewidget.cpp:112
+msgid "End Address:"
+msgstr ""
+
+#: disassemblewidget.cpp:126
+msgctxt "@action:button"
+msgid "Display"
+msgstr "दर्शवा"
+
+#: disassemblewidget.cpp:149
+msgid ""
+"<b>Machine code display</b><p>A machine code view into your running "
+"executable with the current instruction highlighted. You can step "
+"instruction by instruction using the debuggers toolbar buttons of \"step over"
+"\" instruction and \"step into\" instruction."
+msgstr ""
+
+#: disassemblewidget.cpp:163
+msgid "Address"
+msgstr "पत्ता"
+
+#: disassemblewidget.cpp:163
+msgid "Function"
+msgstr "कार्य"
+
+#: disassemblewidget.cpp:164
+msgid "Offset"
+msgstr "ऑफसेट"
+
+#: disassemblewidget.cpp:164
+msgid "Instruction"
+msgstr ""
+
+#: disassemblewidget.cpp:174
+msgid "Disassemble View"
+msgstr ""
+
+#: disassemblewidget.cpp:186
+msgid "Change &address"
+msgstr ""
+
+#: gdb.cpp:104
+#, kde-format
+msgid "Could not locate the debugging shell '%1'."
+msgstr ""
+
+#: gdb.cpp:105
+msgid "Debugging Shell Not Found"
+msgstr ""
+
+#: gdb.cpp:331
+msgctxt "<b>Internal debugger error</b>"
+msgid ""
+"<p>The debugger component encountered internal error while processing reply "
+"from gdb. Please submit a bug report."
+msgstr ""
+
+#: gdb.cpp:333
+#, kde-format
+msgid ""
+"The exception is: %1\n"
+"The MI response is: %2"
+msgstr ""
+
+#: gdb.cpp:336
+msgid "Internal debugger error"
+msgstr ""
+
+#: gdb.cpp:388
+#, kde-format
+msgid ""
+"<b>Could not start debugger.</b><p>Could not run '%1'. Make sure that the "
+"path name is specified correctly."
+msgstr ""
+
+#: gdb.cpp:392
+msgid "Could not start debugger"
+msgstr ""
+
+#: gdb.cpp:409
+msgid ""
+"<b>Gdb crashed.</b><p>Because of that the debug session has to be ended."
+"<br>Try to reproduce the crash with plain gdb and report a bug.<br>"
+msgstr ""
+
+#: gdb.cpp:412
+msgid "Gdb crashed"
+msgstr ""
+
+#: gdblaunchconfig.cpp:118
+msgid "GDB Configuration"
+msgstr ""
+
+#: gdblaunchconfig.cpp:173
+msgid "Executes a Native application in GDB"
+msgstr ""
+
+#: gdboutputwidget.cpp:68
+msgid "GDB Output"
+msgstr ""
+
+#: gdboutputwidget.cpp:69
+msgid ""
+"<b>GDB output</b><p>Shows all gdb commands being executed. You can also "
+"issue any other gdb command while debugging.</p>"
+msgstr ""
+
+#: gdboutputwidget.cpp:78
+msgid "&GDB cmd:"
+msgstr ""
+
+#: gdboutputwidget.cpp:83
+msgid "Pause execution of the app to enter gdb commands"
+msgstr ""
+
+#: gdboutputwidget.cpp:395 gdboutputwidget.cpp:445
+msgid "Show Internal Commands"
+msgstr ""
+
+#: gdboutputwidget.cpp:402 gdboutputwidget.cpp:452
+msgid ""
+"Controls if commands issued internally by KDevelop will be shown or not."
+"<br>This option will affect only future commands, it will not add or remove "
+"already issued commands from the view."
+msgstr ""
+
+#: gdboutputwidget.cpp:407
+msgid "Copy All"
+msgstr ""
+
+#. i18n: ectx: Menu (run)
+#: kdevgdbui.rc:5
+msgctxt "@title:menu"
+msgid "Run"
+msgstr "चालवा"
+
+#. i18n: ectx: ToolBar (debugToolBar)
+#: kdevgdbui.rc:16
+msgid "Debugger Toolbar"
+msgstr ""
+
+#: memviewdlg.cpp:99
+msgid "Start"
+msgstr "सुरु करा"
+
+#: memviewdlg.cpp:105
+msgid "Amount"
+msgstr "संख्या"
+
+#: memviewdlg.cpp:146
+msgid "Memory view"
+msgstr ""
+
+#: memviewdlg.cpp:308
+#, kde-format
+msgid "%2 (1 byte)"
+msgid_plural "%2 (%1 bytes)"
+msgstr[0] "%2 (1 बाइट)"
+msgstr[1] "%2 (%1 बाइटस्)"
+
+#: memviewdlg.cpp:373
+msgid "Change memory range"
+msgstr ""
+
+#: memviewdlg.cpp:378
+msgid "Reload"
+msgstr "पुन्हा दाखल करा"
+
+#: memviewdlg.cpp:383
+msgid "Close this view"
+msgstr ""
+
+#: memviewdlg.cpp:443
+msgid "Special debugger views"
+msgstr ""
+
+#: processselection.cpp:38
+msgid "Attach to a process"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SelectAddress)
+#: selectaddress.ui:20
+msgid "Address selector"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, SelectAddress)
+#: selectaddress.ui:23
+msgid "Select the address to disassemble around"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: selectaddress.ui:29
+msgid "Select address to disassemble around"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: selectcore.ui:17
+msgid "Executable:"
+msgstr "एक्जीक्यूटेबल :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: selectcore.ui:27
+msgid "Core File:"
+msgstr ""
+
+#: selectcoredialog.cpp:32
+msgid "Select Core File"
+msgstr ""
+
+#: stty.cpp:332
+msgid "kdevelop: Debug application console"
+msgstr ""
+
