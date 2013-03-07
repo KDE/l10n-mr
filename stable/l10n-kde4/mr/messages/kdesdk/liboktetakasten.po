@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 17:42+0100\n"
+"POT-Creation-Date: 2013-03-02 10:41+0100\n"
 "PO-Revision-Date: 2013-03-06 17:47+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -100,15 +100,15 @@ msgid "%1: %2"
 msgstr ""
 
 #: controllers/view/bookmarks/bookmarkscontroller.cpp:244
-#, fuzzy
 #: controllers/view/bookmarks/bookmarkstool.cpp:144
+#, fuzzy
 msgctxt "default name of a bookmark"
 msgid "Bookmark"
 msgstr "ओळखचिन्ह"
 
 #: controllers/view/bookmarks/bookmarkstool.cpp:55
-#, fuzzy
 #: controllers/view/bookmarks/bookmarkstoolviewfactory.cpp:38
+#, fuzzy
 msgctxt "@title:window"
 msgid "Bookmarks"
 msgstr "ओळखचिन्ह"
@@ -173,8 +173,8 @@ msgid "Dec"
 msgstr "डिसें"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:124
-#, fuzzy
 #: controllers/view/info/statistictablemodel.cpp:186
+#, fuzzy
 msgctxt "@title:column short for Hexadecimal"
 msgid "Hex"
 msgstr "हेक्सा (&X)"
@@ -186,8 +186,8 @@ msgid "Oct"
 msgstr "ऑक्ट"
 
 #: controllers/view/bytetable/bytetablemodel.cpp:126
-#, fuzzy
 #: controllers/view/info/statistictablemodel.cpp:189
+#, fuzzy
 msgctxt "@title:column short for Binary"
 msgid "Bin"
 msgstr "बायनरी (&B)"
@@ -564,7 +564,8 @@ msgid ""
 "in the document to or, on your option, by the offset you entered above."
 msgstr ""
 
-#: controllers/view/info/infotool.cpp:50 controllers/view/info/infotoolviewfactory.cpp:38
+#: controllers/view/info/infotool.cpp:50
+#: controllers/view/info/infotoolviewfactory.cpp:38
 msgctxt "@title:window"
 msgid "Statistics"
 msgstr "आकडेवारी"
@@ -887,8 +888,7 @@ msgid ""
 "Perform a case sensitive search: entering the pattern 'Joe' will not match "
 "'joe' or 'JOE', only 'Joe'."
 msgstr ""
-"अक्षराकार संवेदनशील शोध करा: 'Joe' दाखल केल्यास 'joe' किंवा 'JOE' सापडणार "
-"नाहीत, "
+"अक्षराकार संवेदनशील शोध करा: 'Joe' दाखल केल्यास 'joe' किंवा 'JOE' सापडणार नाहीत, "
 "फक्त 'Joe' सापडेल."
 
 #: controllers/view/libfinddialog/kabstractfinddialog.cpp:103
@@ -1546,25 +1546,19 @@ msgstr ""
 msgid "%1 (value not in enum)"
 msgstr ""
 
-#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:61
-#, kde-format
-msgctxt ""
-"Displayed in the type column. first comes the name of the enum, then the "
-"underlying type (e.g. uint32)"
-msgid "enum %1 (%2)"
-msgstr ""
+#: controllers/view/structures/datatypes/primitive/enumdatainformation.cpp:59
+#, fuzzy, kde-format
+msgid "enum (%1)"
+msgstr "खरे"
 
 #: controllers/view/structures/datatypes/primitive/flagdatainformation.cpp:95
 #, kde-format
 msgid "0x%1 (no matching flags)"
 msgstr ""
 
-#: controllers/view/structures/datatypes/primitive/flagdatainformation.cpp:126
+#: controllers/view/structures/datatypes/primitive/flagdatainformation.cpp:124
 #, kde-format
-msgctxt ""
-"Displayed in the type column. first comes the name of the enum, then the "
-"underlying type (e.g. uint32)"
-msgid "flag %1 (%2)"
+msgid "flags (%1)"
 msgstr ""
 
 #: controllers/view/structures/datatypes/primitive/pointerdatainformation.cpp:124
@@ -1680,7 +1674,7 @@ msgstr ""
 msgid "Latin1 string"
 msgstr ""
 
-#: controllers/view/structures/datatypes/strings/stringdatainformation.cpp:302
+#: controllers/view/structures/datatypes/strings/stringdatainformation.cpp:291
 msgid "End of file reached prematurely"
 msgstr ""
 
@@ -1806,49 +1800,29 @@ msgstr ""
 msgid "Dynamic Structure Definitions"
 msgstr ""
 
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.cpp:61
-msgctxt "@item:inlistbox"
-msgid "Binary"
-msgstr "बायनरी"
-
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.cpp:62
-msgctxt "@item:inlistbox"
-msgid "Octal"
-msgstr "ऑक्टल"
-
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.cpp:63
-msgctxt "@item:inlistbox"
-msgid "Decimal"
-msgstr ""
-
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.cpp:64
-msgctxt "@item:inlistbox"
-msgid "Hexadecimal"
-msgstr "हेक्साडेसिमल"
-
-#. i18n: ectx: property (text), widget (QLabel, byteOrderLabel)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:22
-msgid "Byte order:"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ByteOrder)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:36
-msgid "Big endian"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ByteOrder)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:41
-msgid "Little endian"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShortTypeNames)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:49
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:22
 msgid "Use short type names"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LocaleAwareDecimalFormatting)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:56
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:29
 msgid "Use locale-aware integer formatting"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, byteOrderLabel)
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:36
+msgid "Byte Order:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ByteOrder)
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:50
+msgid "Little Endian"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ByteOrder)
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:55
+msgid "Big Endian"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, unsigned_label)
@@ -1856,69 +1830,110 @@ msgstr ""
 msgid "Unsigned values:"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_UnsignedDisplayBase)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SignedDisplayBase)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CharDisplayBase)
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:74
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:103
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:159
+#, fuzzy
+#| msgctxt "@info:tooltip column contains the value in binary format"
+#| msgid "Binary"
+msgid "Binary"
+msgstr "बायनरी"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_UnsignedDisplayBase)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SignedDisplayBase)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CharDisplayBase)
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:79
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:108
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:164
+#, fuzzy
+#| msgctxt "@info:tooltip column contains the value in hexadecimal format"
+#| msgid "Hexadecimal"
+msgid "Decimal"
+msgstr "हेक्साडेसिमल"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_UnsignedDisplayBase)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SignedDisplayBase)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_CharDisplayBase)
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:84
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:113
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:169
+#, fuzzy
+#| msgctxt "@info:tooltip column contains the value in hexadecimal format"
+#| msgid "Hexadecimal"
+msgid "Hexadecimal"
+msgstr "हेक्साडेसिमल"
+
 #. i18n: ectx: property (text), widget (QLabel, signed_label)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:76
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:92
 msgid "Signed values:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LocaleAwareFloatFormatting)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:89
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:121
 msgid "Use locale-aware floating-point formatting"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:96
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:128
 msgid "Floating-point precision:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCharNumericalValue)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:109
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:141
 msgid "Show numerical value of chars"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, char_label)
-#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:116
+#: controllers/view/structures/settings/structviewdisplaysettingswidget.ui:148
 msgid "Character value:"
 msgstr ""
 
-#. i18n: ectx: tooltip, entry (UnsignedDisplayBase), group (ValueDisplay)
+#. i18n: ectx: label, entry (UnsignedDisplayBase), group (ValueDisplay)
 #: controllers/view/structures/settings/structviewpreferences.kcfg:9
+msgid "Unsigned values display"
+msgstr ""
+
+#. i18n: ectx: tooltip, entry (UnsignedDisplayBase), group (ValueDisplay)
+#: controllers/view/structures/settings/structviewpreferences.kcfg:10
 msgctxt "@info:tooltip"
 msgid "The base to use when converting unsigned numbers to a string."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (SignedDisplayBase), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:13
+#: controllers/view/structures/settings/structviewpreferences.kcfg:19
 msgctxt "@info:tooltip"
 msgid "The base to use when converting signed numbers to a string."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (CharDisplayBase), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:17
+#: controllers/view/structures/settings/structviewpreferences.kcfg:28
 msgctxt "@info:tooltip"
 msgid "The base to use when converting characters to a value string."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (ShowCharNumericalValue), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:21
+#: controllers/view/structures/settings/structviewpreferences.kcfg:37
 msgctxt "@info:tooltip"
 msgid "Whether to show the numerical value of chars"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (LocaleAwareFloatFormatting), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:25
+#: controllers/view/structures/settings/structviewpreferences.kcfg:41
 msgctxt "@info:tooltip"
 msgid "Whether to format floating point values according to the current locale"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (ShortTypeNames), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:29
+#: controllers/view/structures/settings/structviewpreferences.kcfg:45
 msgctxt "@info:tooltip"
 msgid "Whether to use short type names (i.e. uint32 instead of unsigned int)"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (LocaleAwareDecimalFormatting), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:33
+#: controllers/view/structures/settings/structviewpreferences.kcfg:49
 msgctxt "@info:tooltip"
 msgid ""
 "If true, integers being displayed in decimal format will be formatted "
@@ -1926,53 +1941,35 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (LocaleAwareDecimalFormatting), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:34
+#: controllers/view/structures/settings/structviewpreferences.kcfg:50
 msgid "Whether to format integer values according to the current locale"
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (FloatPrecision), group (ValueDisplay)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:38
+#: controllers/view/structures/settings/structviewpreferences.kcfg:54
 msgctxt "@info:tooltip"
 msgid ""
 "The precision used for converting floating-point numbers to strings (number "
 "of decimal digits)"
 msgstr ""
 
-#. i18n: ectx: label, entry (ByteOrder), group (StructureSettings)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:47
-msgctxt "@label:listbox"
-msgid "Byte order"
-msgstr ""
-
-#. i18n: ectx: label, entry (ByteOrder), group (StructureSettings)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:49
-msgctxt "@item:inlistbox"
-msgid "Big endian"
-msgstr ""
-
-#. i18n: ectx: label, entry (ByteOrder), group (StructureSettings)
-#: controllers/view/structures/settings/structviewpreferences.kcfg:50
-msgctxt "@item:inlistbox"
-msgid "Little endian"
-msgstr ""
-
-#: controllers/view/structures/structtool.cpp:106
+#: controllers/view/structures/structtool.cpp:114
 #: controllers/view/structures/structurestoolviewfactory.cpp:44
 msgctxt "@title:window"
 msgid "Structures"
 msgstr ""
 
-#: controllers/view/structures/structtool.cpp:222
+#: controllers/view/structures/structtool.cpp:225
 msgctxt "name of a data structure"
 msgid "Name"
 msgstr "नाव"
 
-#: controllers/view/structures/structtool.cpp:224
+#: controllers/view/structures/structtool.cpp:227
 msgctxt "type of a data structure"
 msgid "Type"
 msgstr "प्रकार"
 
-#: controllers/view/structures/structtool.cpp:226
+#: controllers/view/structures/structtool.cpp:229
 msgctxt "value of a data structure (primitive type)"
 msgid "Value"
 msgstr "मूल्य"
@@ -1987,55 +1984,55 @@ msgctxt "@info:tooltip"
 msgid "Validate all structures."
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:119
+#: controllers/view/structures/structview.cpp:117
 msgctxt "@action:button"
 msgid "Script console"
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:120
+#: controllers/view/structures/structview.cpp:118
 msgctxt "@info:tooltip"
 msgid "Open script console."
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:125
+#: controllers/view/structures/structview.cpp:123
 msgctxt "@action:button"
 msgid "Settings"
 msgstr "संयोजना"
 
-#: controllers/view/structures/structview.cpp:126
+#: controllers/view/structures/structview.cpp:124
 msgctxt "@info:tooltip"
 msgid "Open settings."
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:159
+#: controllers/view/structures/structview.cpp:157
 msgid "Value Display"
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:165
+#: controllers/view/structures/structview.cpp:163
 msgid "Structures management"
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:274
+#: controllers/view/structures/structview.cpp:263
 msgctxt ""
 "@action:pushbutton unlock the starting offset of the current structure"
 msgid "Unlock"
 msgstr "कुलूप काढून टाका"
 
-#: controllers/view/structures/structview.cpp:276
+#: controllers/view/structures/structview.cpp:265
 msgctxt "@info:tooltip"
 msgid ""
 "Unlock selected structure, i.e. the starting offset is always set to the "
 "current cursor position."
 msgstr ""
 
-#: controllers/view/structures/structview.cpp:283
+#: controllers/view/structures/structview.cpp:272
 #, fuzzy
 msgctxt ""
 "@action:pushbutton unlock the starting offset of the current structure"
 msgid "Lock"
 msgstr "कुलूपबंद करा"
 
-#: controllers/view/structures/structview.cpp:285
+#: controllers/view/structures/structview.cpp:274
 msgctxt "@info:tooltip"
 msgid "Lock selected structure to current offset."
 msgstr ""
@@ -2527,8 +2524,8 @@ msgid "Offset: -"
 msgstr "ऑफसेट"
 
 #: controllers/view/viewstatus/viewstatuscontroller.cpp:184
-#, fuzzy
 #: controllers/view/viewstatus/viewstatuscontroller.cpp:243
+#, fuzzy
 msgctxt "@info:status offset value not available"
 msgid "Selection: -"
 msgstr "निवड"
@@ -2868,3 +2865,14 @@ msgctxt ""
 msgid "UTF-8"
 msgstr "UTF-8"
 
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Binary"
+#~ msgstr "बायनरी"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Octal"
+#~ msgstr "ऑक्टल"
+
+#~ msgctxt "@item:inlistbox"
+#~ msgid "Hexadecimal"
+#~ msgstr "हेक्साडेसिमल"
