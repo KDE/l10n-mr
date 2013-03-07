@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-27 02:54+0100\n"
+"POT-Creation-Date: 2013-03-06 03:39+0100\n"
 "PO-Revision-Date: 2013-02-17 13:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -30,7 +30,7 @@ msgid "Select all 9999 matches"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, selectAllCB)
-#: plugin_search.cpp:78 plugin_search.cpp:421 plugin_search.cpp:508
+#: plugin_search.cpp:78 plugin_search.cpp:415 plugin_search.cpp:521
 #: results.ui:50
 msgid "Select all"
 msgstr "सर्वांची निवड करा"
@@ -74,143 +74,158 @@ msgid ""
 "Example: \"build*\""
 msgstr ""
 
-#: plugin_search.cpp:573
+#: plugin_search.cpp:425
+#, kde-format
+msgid "<b><i>Results from %1 open files</i></b>"
+msgstr ""
+
+#: plugin_search.cpp:430
+#, kde-format
+msgid "<b><i>Results in folder %1</i></b>"
+msgstr ""
+
+#: plugin_search.cpp:451
+#, kde-format
+msgid "<b><i>Results in project %1 (%2)</i></b>"
+msgstr ""
+
+#: plugin_search.cpp:627
 msgid "SearchHighLight"
 msgstr ""
 
-#: plugin_search.cpp:592 replace_matches.cpp:127
+#: plugin_search.cpp:646 replace_matches.cpp:127
 #, kde-format
 msgid "Line: <b>%1</b>: %2"
 msgstr "ओळ : <b>%1</b>: %2"
 
-#: plugin_search.cpp:606
+#: plugin_search.cpp:660
 #, kde-format
 msgid "Select %1 match"
 msgid_plural "Select all %1 matches"
 msgstr[0] ""
 msgstr[1] ""
 
-#: plugin_search.cpp:1043
+#: plugin_search.cpp:1100
 msgid "Add..."
 msgstr "जोडा..."
 
-#: plugin_search.cpp:1048
+#: plugin_search.cpp:1105
 msgid "Beginning of line"
 msgstr "ओळीची सुरुवात"
 
-#: plugin_search.cpp:1049
+#: plugin_search.cpp:1106
 msgid "End of line"
 msgstr "ओळीची समाप्ती"
 
-#: plugin_search.cpp:1051
+#: plugin_search.cpp:1108
 msgid "Any single character (excluding line breaks)"
 msgstr ""
 
-#: plugin_search.cpp:1053
+#: plugin_search.cpp:1110
 msgid "One or more occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1054
+#: plugin_search.cpp:1111
 msgid "Zero or more occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1055
+#: plugin_search.cpp:1112
 msgid "Zero or one occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1056
+#: plugin_search.cpp:1113
 msgid "<a> through <b> occurrences"
 msgstr ""
 
-#: plugin_search.cpp:1058
+#: plugin_search.cpp:1115
 msgid "Group, capturing"
 msgstr ""
 
-#: plugin_search.cpp:1059
+#: plugin_search.cpp:1116
 msgid "Or"
 msgstr "Or"
 
-#: plugin_search.cpp:1060
+#: plugin_search.cpp:1117
 msgid "Set of characters"
 msgstr "अक्षरांचे संच"
 
-#: plugin_search.cpp:1061
+#: plugin_search.cpp:1118
 msgid "Negative set of characters"
 msgstr ""
 
-#: plugin_search.cpp:1062
+#: plugin_search.cpp:1119
 msgid "Group, non-capturing"
 msgstr ""
 
-#: plugin_search.cpp:1063
+#: plugin_search.cpp:1120
 msgid "Lookahead"
 msgstr ""
 
-#: plugin_search.cpp:1064
+#: plugin_search.cpp:1121
 msgid "Negative lookahead"
 msgstr ""
 
-#: plugin_search.cpp:1067
+#: plugin_search.cpp:1124
 msgid "Line break"
 msgstr ""
 
-#: plugin_search.cpp:1068
+#: plugin_search.cpp:1125
 msgid "Tab"
 msgstr "Tab"
 
-#: plugin_search.cpp:1069
+#: plugin_search.cpp:1126
 msgid "Word boundary"
 msgstr ""
 
-#: plugin_search.cpp:1070
+#: plugin_search.cpp:1127
 msgid "Not word boundary"
 msgstr ""
 
-#: plugin_search.cpp:1071
+#: plugin_search.cpp:1128
 msgid "Digit"
 msgstr "डिजीट"
 
-#: plugin_search.cpp:1072
+#: plugin_search.cpp:1129
 msgid "Non-digit"
 msgstr ""
 
-#: plugin_search.cpp:1073
+#: plugin_search.cpp:1130
 msgid "Whitespace (excluding line breaks)"
 msgstr ""
 
-#: plugin_search.cpp:1074
+#: plugin_search.cpp:1131
 msgid "Non-whitespace (excluding line breaks)"
 msgstr ""
 
-#: plugin_search.cpp:1075
+#: plugin_search.cpp:1132
 msgid "Word character (alphanumerics plus '_')"
 msgstr ""
 
-#: plugin_search.cpp:1076
+#: plugin_search.cpp:1133
 msgid "Non-word character"
 msgstr ""
 
-#: plugin_search.cpp:1150
+#: plugin_search.cpp:1207
 msgid "in Project"
 msgstr ""
 
-#: plugin_search.cpp:1220
+#: plugin_search.cpp:1277
 msgid "Usage: grep [pattern to search for in folder]"
 msgstr ""
 
-#: plugin_search.cpp:1223
+#: plugin_search.cpp:1280
 msgid "Usage: newGrep [pattern to search for in folder]"
 msgstr ""
 
-#: plugin_search.cpp:1227 plugin_search.cpp:1230
+#: plugin_search.cpp:1284 plugin_search.cpp:1287
 msgid "Usage: search [pattern to search for in open files]"
 msgstr ""
 
-#: plugin_search.cpp:1234
+#: plugin_search.cpp:1291
 msgid "Usage: pgrep [pattern to search for in current project]"
 msgstr ""
 
-#: plugin_search.cpp:1237
+#: plugin_search.cpp:1294
 msgid "Usage: newPGrep [pattern to search for in current project]"
 msgstr ""
 

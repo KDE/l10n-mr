@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-12 14:22+0100\n"
+"POT-Creation-Date: 2013-03-01 04:03+0100\n"
 "PO-Revision-Date: 2013-03-06 17:41+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -41,8 +41,7 @@ msgstr "दृश्य"
 msgid "Settings"
 msgstr "संयोजना"
 
-#: src/accountwizard.cpp:187 src/accountwizard.cpp:349
-#: src/sflphone.cpp:352
+#: src/accountwizard.cpp:187 src/accountwizard.cpp:349 src/sflphone.cpp:352
 msgid "Account creation wizard"
 msgstr ""
 
@@ -244,9 +243,9 @@ msgid "Please enter a transfer number and press Enter, press Escape to cancel"
 msgstr ""
 
 #: src/callview.cpp:281 src/widgets/bookmarkdock.cpp:130
-#, fuzzy
 #: src/widgets/bookmarkdock.cpp:131 src/widgets/historytreeitem.cpp:579
 #: src/widgets/historytreeitem.cpp:622
+#, fuzzy
 msgctxt "Unknown peer"
 msgid "Unknown"
 msgstr "अपरिचीत"
@@ -356,49 +355,49 @@ msgid "Info"
 msgstr "माहिती"
 
 #. i18n: ectx: property (text), widget (QLabel, m_pNameL)
-#: src/conf/dlgaccessibility.ui:142
+#: src/conf/dlgaccessibility.ui:145
 #, fuzzy
 msgid "Name*"
 msgstr "नाव"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pNameLE)
-#: src/conf/dlgaccessibility.ui:149
+#: src/conf/dlgaccessibility.ui:152
 msgid "Identifier for this macro (toolbar text)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pCategoryL)
-#: src/conf/dlgaccessibility.ui:159
+#: src/conf/dlgaccessibility.ui:165
 #, fuzzy
 msgid "Category*"
 msgstr "विभाग :"
 
 #. i18n: ectx: property (text), widget (QLabel, m_mSequenceL)
-#: src/conf/dlgaccessibility.ui:173
+#: src/conf/dlgaccessibility.ui:182
 msgid "Sequence*"
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pSequenceLE)
-#: src/conf/dlgaccessibility.ui:180
+#: src/conf/dlgaccessibility.ui:189
 msgid "The key sequence to be executed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_pDelayL)
-#: src/conf/dlgaccessibility.ui:190
+#: src/conf/dlgaccessibility.ui:202
 msgid "Delay"
 msgstr "विलंब"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, m_pDelaySB)
-#: src/conf/dlgaccessibility.ui:197
+#: src/conf/dlgaccessibility.ui:209
 msgid "ms"
 msgstr "ms"
 
 #. i18n: ectx: property (text), widget (QLabel, m_pDescriptionL)
-#: src/conf/dlgaccessibility.ui:210
+#: src/conf/dlgaccessibility.ui:225
 msgid "Description"
 msgstr "वर्णन"
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, m_pDescriptionLE)
-#: src/conf/dlgaccessibility.ui:217
+#: src/conf/dlgaccessibility.ui:232
 msgid "A description for this macro"
 msgstr ""
 
@@ -1230,14 +1229,20 @@ msgid "No registered accounts"
 msgstr ""
 
 #: src/klib/macromodel.cpp:135 src/klib/macromodel.cpp:158
+#, fuzzy
+#| msgid "Other"
+msgctxt "Other category"
 msgid "Other"
 msgstr "इतर"
 
 #: src/klib/macromodel.cpp:157
+#, fuzzy
+#| msgid "New"
+msgctxt "New macro"
 msgid "New"
 msgstr "नवीन"
 
-#: src/klib/macromodel.cpp:252
+#: src/klib/macromodel.cpp:291
 msgid "Macros"
 msgstr ""
 
@@ -1467,7 +1472,7 @@ msgid "New call"
 msgstr ""
 
 #: src/lib/sflphone_const.h:41 src/lib/sflphone_const.h:46
-#: src/sflphone.cpp:110
+#: src/sflphone.cpp:109
 msgid "Hang up"
 msgstr ""
 
@@ -1475,8 +1480,9 @@ msgstr ""
 msgid "Hold on"
 msgstr ""
 
-#: src/lib/sflphone_const.h:43 src/sflphone.cpp:105 src/widgets/calltreeitem.cpp:299
-#: src/widgets/contactitemwidget.cpp:107 src/widgets/historytreeitem.cpp:190
+#: src/lib/sflphone_const.h:43 src/sflphone.cpp:105
+#: src/widgets/calltreeitem.cpp:299 src/widgets/contactitemwidget.cpp:107
+#: src/widgets/historytreeitem.cpp:190
 msgid "Transfer"
 msgstr ""
 
@@ -1528,18 +1534,19 @@ msgstr "काम थांबवा"
 msgid "Refuse"
 msgstr ""
 
-#: src/sflphone.cpp:109 src/sflphoneview.cpp:938
-#, fuzzy
-msgid "Mute"
-msgstr "मौन"
-
-#: src/sflphone.cpp:111
+#: src/sflphone.cpp:110
 msgid "Unhold"
 msgstr ""
 
-#: src/sflphone.cpp:112
+#: src/sflphone.cpp:111
 msgid "Pickup"
 msgstr ""
+
+#: src/sflphone.cpp:112 src/sflphoneview.cpp:938
+#, fuzzy
+msgctxt "Mute the current audio device"
+msgid "Mute"
+msgstr "मौन"
 
 #: src/sflphone.cpp:181 src/sflphone.cpp:236 src/sflphone.cpp:653
 #, fuzzy
@@ -1614,9 +1621,9 @@ msgid ""
 msgstr ""
 
 #: src/sflphone.cpp:656 src/widgets/bookmarkdock.cpp:96
-#, fuzzy
 #: src/widgets/bookmarkdock.cpp:97 src/widgets/contactitemwidget.cpp:95
 #: src/widgets/historytreeitem.cpp:125 src/widgets/historytreeitem.cpp:127
+#, fuzzy
 msgid "Bookmark"
 msgstr "ओळखचिन्ह"
 
@@ -1673,8 +1680,17 @@ msgstr ""
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/sflphonecmd.cpp:27
+#: src/sflphonecmd.cpp:47
 msgid "Place a call to a given number"
+msgstr ""
+
+#: src/sflphonecmd.cpp:48
+msgid ""
+"Send a text to &lt;number&gt;, use --message to set the content, then hangup"
+msgstr ""
+
+#: src/sflphonecmd.cpp:49
+msgid "Used in combination with --send-text"
 msgstr ""
 
 #: src/sflphoneview.cpp:124 src/widgets/historydock.cpp:111
@@ -1696,6 +1712,7 @@ msgid "Using account '%1' (%2)"
 msgstr ""
 
 #: src/sflphoneview.cpp:944
+msgctxt "Unmute the current audio device"
 msgid "Unmute"
 msgstr ""
 
@@ -1882,15 +1899,15 @@ msgid ""
 "dropping one call on an other one?"
 msgstr ""
 
-#: src/widgets/tips/conlosttip.cpp:33
+#: src/widgets/tips/connectionlosttip.cpp:33
 msgid "Account ****** has disconnected, trying to reconnect in 10 seconds"
 msgstr ""
 
 #: src/widgets/tips/dialpadtip.cpp:32
 msgid ""
 "Use the dialpad below or start typing a number. Use the dialpad below or "
-"start typing a number. Use the dsadasdialpad below or start typing a number. "
-"Use thasdasde dialpad below or sasdasdtart typing a number. "
+"start typing a number. Use the dialpad below or start typing a number. Use "
+"the dialpad below or start typing a number. "
 msgstr ""
 
 #: src/widgets/tips/tipcollection.cpp:76
@@ -1900,4 +1917,3 @@ msgstr ""
 #: src/widgets/tips/tipcollection.cpp:86
 msgid "Peer is busy"
 msgstr ""
-

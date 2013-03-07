@@ -191,8 +191,10 @@ msgstr "Id"
 #: src/collection.cpp:50 src/collection.cpp:63 src/collection.cpp:68
 #: src/collections/boardgamecollection.cpp:32
 #: src/collections/bookcollection.cpp:34 src/collections/cardcollection.cpp:31
-#: src/collections/coincollection.cpp:31 src/collections/comicbookcollection.cpp:33
-#: src/collections/gamecollection.cpp:32 src/collections/musiccollection.cpp:32
+#: src/collections/coincollection.cpp:31
+#: src/collections/comicbookcollection.cpp:33
+#: src/collections/gamecollection.cpp:32
+#: src/collections/musiccollection.cpp:32
 #: src/collections/stampcollection.cpp:32
 #: src/collections/videocollection.cpp:34
 #: src/collections/winecollection.cpp:31 src/document.cpp:457
@@ -207,11 +209,11 @@ msgid "Title"
 msgstr "शिर्षक"
 
 #: src/collection.cpp:57 src/collections/bibtexcollection.cpp:38
-#, fuzzy
 #: src/collections/bibtexcollection.cpp:100
 #: src/collections/boardgamecollection.cpp:31
 #: src/collections/bookcollection.cpp:31 src/collections/cardcollection.cpp:30
-#: src/collections/coincollection.cpp:30 src/collections/comicbookcollection.cpp:30
+#: src/collections/coincollection.cpp:30
+#: src/collections/comicbookcollection.cpp:30
 #: src/collections/filecatalog.cpp:31 src/collections/gamecollection.cpp:31
 #: src/collections/musiccollection.cpp:31
 #: src/collections/stampcollection.cpp:30
@@ -224,6 +226,7 @@ msgstr "शिर्षक"
 #: src/fetch/imdbfetcher.cpp:947 src/fetch/imdbfetcher.cpp:1285
 #: src/fetch/moviemeterfetcher.cpp:247 src/fetch/openlibraryfetcher.cpp:283
 #: src/field.cpp:37 src/field.cpp:78 src/translators/gcstarimporter.cpp:89
+#, fuzzy
 msgid "General"
 msgstr "सामान्य"
 
@@ -607,14 +610,15 @@ msgid "A field with a derived value must have a value template."
 msgstr ""
 
 #: src/collections/bibtexcollection.cpp:39
-#: src/collections/bookcollection.cpp:32 src/collections/comicbookcollection.cpp:31
+#: src/collections/bookcollection.cpp:32
+#: src/collections/comicbookcollection.cpp:31
 #: src/fetch/citebasefetcher.cpp:155 src/translators/grs1importer.cpp:71
 #: src/translators/grs1importer.cpp:76 src/translators/pdfimporter.cpp:200
 msgid "Publishing"
 msgstr ""
 
-#: src/collections/bibtexcollection.cpp:40
-#: src/fetch/entrezfetcher.cpp:399 src/translators/risimporter.cpp:338
+#: src/collections/bibtexcollection.cpp:40 src/fetch/entrezfetcher.cpp:399
+#: src/translators/risimporter.cpp:338
 msgid "Miscellaneous"
 msgstr "किरकोळ"
 
@@ -650,9 +654,10 @@ msgid "Organization"
 msgstr "संस्था"
 
 #: src/collections/bibtexcollection.cpp:132
-#, fuzzy
 #: src/collections/boardgamecollection.cpp:68
-#: src/collections/bookcollection.cpp:87 src/collections/comicbookcollection.cpp:80
+#: src/collections/bookcollection.cpp:87
+#: src/collections/comicbookcollection.cpp:80
+#, fuzzy
 msgid "Publisher"
 msgstr "प्रकाशक :"
 
@@ -663,15 +668,16 @@ msgid "Address"
 msgstr "पत्ता"
 
 #: src/collections/bibtexcollection.cpp:145
+#: src/collections/bookcollection.cpp:93
+#: src/collections/comicbookcollection.cpp:86
 #, fuzzy
-#: src/collections/bookcollection.cpp:93 src/collections/comicbookcollection.cpp:86
 msgid "Edition"
 msgstr "आवृत्ती :"
 
 #: src/collections/bibtexcollection.cpp:152
-#, fuzzy
 #: src/collections/bookcollection.cpp:119
 #: src/collections/comicbookcollection.cpp:97
+#, fuzzy
 msgid "Pages"
 msgstr "पाने"
 
@@ -682,15 +688,13 @@ msgid "Year"
 msgstr "वर्ष"
 
 #: src/collections/bibtexcollection.cpp:163
+#: src/collections/bookcollection.cpp:109 src/translators/grs1importer.cpp:70
 #, fuzzy
-#: src/collections/bookcollection.cpp:109
-#: src/translators/grs1importer.cpp:70
 msgid "ISBN#"
 msgstr "ISBN:"
 
 #: src/collections/bibtexcollection.cpp:166
-#: src/collections/bookcollection.cpp:111
-#: src/translators/grs1importer.cpp:72
+#: src/collections/bookcollection.cpp:111 src/translators/grs1importer.cpp:72
 msgid "International Standard Book Number"
 msgstr ""
 
@@ -699,8 +703,7 @@ msgstr ""
 msgid "Journal"
 msgstr "जर्नल"
 
-#: src/collections/bibtexcollection.cpp:176
-#: src/fetch/fetchmanager.cpp:74
+#: src/collections/bibtexcollection.cpp:176 src/fetch/fetchmanager.cpp:74
 msgid "DOI"
 msgstr ""
 
@@ -712,9 +715,8 @@ msgstr "डिजिटल ऑब्जेक्ट ओळखकर्ता"
 msgid "Month"
 msgstr "महीना"
 
-#: src/collections/bibtexcollection.cpp:190
+#: src/collections/bibtexcollection.cpp:190 src/field.cpp:199
 #, fuzzy
-#: src/field.cpp:199
 msgid "Number"
 msgstr "संख्या"
 
@@ -728,7 +730,8 @@ msgstr "प्रकरण"
 
 #: src/collections/bibtexcollection.cpp:212
 #: src/collections/bookcollection.cpp:146
-#: src/collections/cardcollection.cpp:82 src/collections/comicbookcollection.cpp:69
+#: src/collections/cardcollection.cpp:82
+#: src/collections/comicbookcollection.cpp:69
 msgid "Series"
 msgstr ""
 
@@ -746,20 +749,19 @@ msgstr ""
 #: src/collections/cardcollection.cpp:111
 #: src/collections/comicbookcollection.cpp:119
 #: src/collections/musiccollection.cpp:113
-#: src/collections/videocollection.cpp:215
-#: src/fetch/amazonfetcher.cpp:913
+#: src/collections/videocollection.cpp:215 src/fetch/amazonfetcher.cpp:913
 msgid "Keywords"
 msgstr "परवलीचे शब्द"
 
-#: src/collections/bibtexcollection.cpp:240
-#: src/collections/filecatalog.cpp:53 src/fetch/entrezfetcher.cpp:398
-#: src/fetch/entrezfetcher.cpp:464 src/field.cpp:200 src/translators/gcstarimporter.cpp:88
+#: src/collections/bibtexcollection.cpp:240 src/collections/filecatalog.cpp:53
+#: src/fetch/entrezfetcher.cpp:398 src/fetch/entrezfetcher.cpp:464
+#: src/field.cpp:200 src/translators/gcstarimporter.cpp:88
 msgid "URL"
 msgstr "URL"
 
-#: src/collections/bibtexcollection.cpp:245
-#: src/fetch/entrezfetcher.cpp:463 src/fetch/hathitrustfetcher.cpp:305
-#: src/fetch/srufetcher.cpp:466 src/fetch/z3950fetcher.cpp:566
+#: src/collections/bibtexcollection.cpp:245 src/fetch/entrezfetcher.cpp:463
+#: src/fetch/hathitrustfetcher.cpp:305 src/fetch/srufetcher.cpp:466
+#: src/fetch/z3950fetcher.cpp:566
 msgid "Abstract"
 msgstr ""
 
@@ -769,8 +771,8 @@ msgid "Notes"
 msgstr "नोंदी"
 
 #: src/collections/bibtexcollection.cpp:478
-#, fuzzy
 #: src/translators/xmlstatehandler.cpp:298
+#, fuzzy
 msgid "Unknown"
 msgstr "अपरिचीत"
 
@@ -781,7 +783,8 @@ msgstr ""
 #: src/collections/boardgamecollection.cpp:51
 #: src/collections/bookcollection.cpp:134
 #: src/collections/comicbookcollection.cpp:113
-#: src/collections/gamecollection.cpp:62 src/collections/musiccollection.cpp:77
+#: src/collections/gamecollection.cpp:62
+#: src/collections/musiccollection.cpp:77
 #: src/collections/videocollection.cpp:74
 msgid "Genre"
 msgstr "शैली"
@@ -806,18 +809,17 @@ msgstr ""
 #: src/collections/boardgamecollection.cpp:85
 #: src/collections/filecatalog.cpp:57 src/collections/gamecollection.cpp:94
 #: src/collections/stampcollection.cpp:54
-#: src/collections/winecollection.cpp:125
-#: src/entrymatchdialog.cpp:86 src/fetchdialog.cpp:217
+#: src/collections/winecollection.cpp:125 src/entrymatchdialog.cpp:86
+#: src/fetchdialog.cpp:217
 msgid "Description"
 msgstr "वर्णन"
 
 #: src/collections/boardgamecollection.cpp:88
-#, fuzzy
 #: src/collections/bookcollection.cpp:177
 #: src/collections/comicbookcollection.cpp:153
 #: src/collections/musiccollection.cpp:91
-#: src/collections/winecollection.cpp:113
-#: src/field.cpp:204
+#: src/collections/winecollection.cpp:113 src/field.cpp:204
+#, fuzzy
 msgid "Rating"
 msgstr "गुणवत्ताश्रेणी"
 
@@ -863,8 +865,7 @@ msgstr ""
 #: src/collections/comicbookcollection.cpp:149
 #: src/collections/gamecollection.cpp:119
 #: src/collections/musiccollection.cpp:109
-#: src/collections/videocollection.cpp:211
-#: src/document.cpp:455
+#: src/collections/videocollection.cpp:211 src/document.cpp:455
 msgid "Loaned"
 msgstr ""
 
@@ -888,7 +889,8 @@ msgstr "कव्हर"
 msgid "Comments"
 msgstr "टिपण्णी"
 
-#: src/collections/bookcollection.cpp:33 src/collections/comicbookcollection.cpp:32
+#: src/collections/bookcollection.cpp:33
+#: src/collections/comicbookcollection.cpp:32
 msgid "Classification"
 msgstr ""
 
@@ -896,7 +898,8 @@ msgstr ""
 msgid "My Books"
 msgstr ""
 
-#: src/collections/bookcollection.cpp:53 src/collections/comicbookcollection.cpp:52
+#: src/collections/bookcollection.cpp:53
+#: src/collections/comicbookcollection.cpp:52
 msgid "Subtitle"
 msgstr ""
 
@@ -956,8 +959,8 @@ msgstr "भाषा"
 msgid "Series Number"
 msgstr ""
 
-#: src/collections/bookcollection.cpp:156
-#: src/mainwindow.cpp:236 src/mainwindow.cpp:491
+#: src/collections/bookcollection.cpp:156 src/mainwindow.cpp:236
+#: src/mainwindow.cpp:491
 msgid "New"
 msgstr "नवीन"
 
@@ -982,9 +985,9 @@ msgid "Read"
 msgstr "वाचा"
 
 #: src/collections/bookcollection.cpp:182
-#: src/collections/comicbookcollection.cpp:158
-#: src/fetch/arxivfetcher.cpp:204 src/fetch/crossreffetcher.cpp:195
-#: src/translators/pdfimporter.cpp:229 src/translators/referencerimporter.cpp:62
+#: src/collections/comicbookcollection.cpp:158 src/fetch/arxivfetcher.cpp:204
+#: src/fetch/crossreffetcher.cpp:195 src/translators/pdfimporter.cpp:229
+#: src/translators/referencerimporter.cpp:62
 msgid "Front Cover"
 msgstr ""
 
@@ -1013,10 +1016,10 @@ msgid "Card Type"
 msgstr ""
 
 #: src/collections/cardcollection.cpp:102
-#, fuzzy
 #: src/collections/coincollection.cpp:126
 #: src/collections/stampcollection.cpp:123
 #: src/collections/winecollection.cpp:99
+#, fuzzy
 msgid "Location"
 msgstr "स्थान"
 
@@ -1050,7 +1053,8 @@ msgstr ""
 msgid "Mint Mark"
 msgstr ""
 
-#: src/collections/coincollection.cpp:77 src/collections/comicbookcollection.cpp:101
+#: src/collections/coincollection.cpp:77
+#: src/collections/comicbookcollection.cpp:101
 #: src/collections/stampcollection.cpp:65
 #: src/collections/winecollection.cpp:84
 msgid "Country"
@@ -1270,7 +1274,8 @@ msgstr ""
 msgid "ESRB Rating"
 msgstr ""
 
-#: src/collections/gamecollection.cpp:97 src/collections/videocollection.cpp:193
+#: src/collections/gamecollection.cpp:97
+#: src/collections/videocollection.cpp:193
 msgid "Personal Rating"
 msgstr ""
 
@@ -1295,8 +1300,7 @@ msgid "Compact Disc"
 msgstr ""
 
 #: src/collections/musiccollection.cpp:54
-#: src/collections/videocollection.cpp:54
-#: src/fetch/amazonfetcher.cpp:877
+#: src/collections/videocollection.cpp:54 src/fetch/amazonfetcher.cpp:877
 msgid "DVD"
 msgstr "डिव्हीडी"
 
@@ -1348,8 +1352,7 @@ msgid "Issue Year"
 msgstr ""
 
 #: src/collections/stampcollection.cpp:76
-#: src/collections/videocollection.cpp:180
-#: src/fetch/imdbfetcher.cpp:1397
+#: src/collections/videocollection.cpp:180 src/fetch/imdbfetcher.cpp:1397
 msgid "Color"
 msgstr "रंग"
 
@@ -1379,18 +1382,15 @@ msgstr ""
 msgid "Gummed"
 msgstr ""
 
-#: src/collections/stampcollection.cpp:133
-#: src/field.cpp:202
+#: src/collections/stampcollection.cpp:133 src/field.cpp:202
 msgid "Image"
 msgstr "प्रतिमा"
 
-#: src/collections/videocollection.cpp:32
-#: src/fetch/animenfofetcher.cpp:286
+#: src/collections/videocollection.cpp:32 src/fetch/animenfofetcher.cpp:286
 msgid "Other People"
 msgstr ""
 
-#: src/collections/videocollection.cpp:33
-#: src/fetch/animenfofetcher.cpp:292
+#: src/collections/videocollection.cpp:33 src/fetch/animenfofetcher.cpp:292
 msgid "Features"
 msgstr ""
 
@@ -1398,8 +1398,7 @@ msgstr ""
 msgid "My Videos"
 msgstr ""
 
-#: src/collections/videocollection.cpp:54
-#: src/fetch/amazonfetcher.cpp:864
+#: src/collections/videocollection.cpp:54 src/fetch/amazonfetcher.cpp:864
 msgid "VHS"
 msgstr ""
 
@@ -1411,13 +1410,11 @@ msgstr ""
 msgid "DivX"
 msgstr ""
 
-#: src/collections/videocollection.cpp:54
-#: src/fetch/amazonfetcher.cpp:858
+#: src/collections/videocollection.cpp:54 src/fetch/amazonfetcher.cpp:858
 msgid "Blu-ray"
 msgstr ""
 
-#: src/collections/videocollection.cpp:54
-#: src/fetch/amazonfetcher.cpp:861
+#: src/collections/videocollection.cpp:54 src/fetch/amazonfetcher.cpp:861
 msgid "HD DVD"
 msgstr ""
 
@@ -1483,13 +1480,11 @@ msgstr "विभाग"
 msgid "Region"
 msgstr "विभाग"
 
-#: src/collections/videocollection.cpp:95
-#: src/fetch/discogsfetcher.cpp:214
+#: src/collections/videocollection.cpp:95 src/fetch/discogsfetcher.cpp:214
 msgid "Nationality"
 msgstr ""
 
-#: src/collections/videocollection.cpp:102
-#: src/fetch/amazonfetcher.cpp:873
+#: src/collections/videocollection.cpp:102 src/fetch/amazonfetcher.cpp:873
 msgid "NTSC"
 msgstr ""
 
@@ -1516,8 +1511,8 @@ msgid "Actor/Actress"
 msgstr ""
 
 #: src/collections/videocollection.cpp:111
-#, fuzzy
 #: src/translators/xmlstatehandler.cpp:414
+#, fuzzy
 msgid "Role"
 msgstr "भूमीका :"
 
@@ -1529,8 +1524,7 @@ msgstr ""
 msgid "Director"
 msgstr ""
 
-#: src/collections/videocollection.cpp:123
-#: src/fetch/discogsfetcher.cpp:213
+#: src/collections/videocollection.cpp:123 src/fetch/discogsfetcher.cpp:213
 msgid "Producer"
 msgstr "निर्माता"
 
@@ -1567,8 +1561,7 @@ msgstr ""
 msgid "Aspect Ratio"
 msgstr "क्रियाप्राप्तीचे गुणोत्तर (&R)"
 
-#: src/collections/videocollection.cpp:175
-#: src/fetch/amazonfetcher.cpp:847
+#: src/collections/videocollection.cpp:175 src/fetch/amazonfetcher.cpp:847
 msgid "Widescreen"
 msgstr ""
 
@@ -1580,13 +1573,11 @@ msgstr ""
 msgid "Color Mode"
 msgstr "रंग पद्धत"
 
-#: src/collections/videocollection.cpp:186
-#: src/fetch/amazonfetcher.cpp:868
+#: src/collections/videocollection.cpp:186 src/fetch/amazonfetcher.cpp:868
 msgid "Director's Cut"
 msgstr ""
 
-#: src/collections/videocollection.cpp:190
-#: src/fetch/ibsfetcher.cpp:387
+#: src/collections/videocollection.cpp:190 src/fetch/ibsfetcher.cpp:387
 msgid "Plot Summary"
 msgstr ""
 
@@ -1745,8 +1736,8 @@ msgid "Printing"
 msgstr "छपाई"
 
 #: src/configdialog.cpp:163 src/configdialog.cpp:186 src/configdialog.cpp:213
-#, fuzzy
 #: src/configdialog.cpp:432
+#, fuzzy
 msgid "Templates"
 msgstr "नमूने"
 
@@ -2088,16 +2079,16 @@ msgid "*.tar.gz *.tgz|Template Packages (*.tar.gz)"
 msgstr ""
 
 #: src/configdialog.cpp:1137 src/importdialog.cpp:355 src/mainwindow.cpp:1077
-#, fuzzy
-#: src/mainwindow.cpp:1242 src/reportdialog.cpp:215 src/translators/bibtexexporter.cpp:61
-#: src/translators/bibtexmlexporter.cpp:53
-#: src/translators/csvexporter.cpp:59 src/translators/gcstarexporter.cpp:60
-#: src/translators/htmlexporter.cpp:91 src/translators/onixexporter.cpp:71
-#: src/translators/pilotdbexporter.cpp:58
+#: src/mainwindow.cpp:1242 src/reportdialog.cpp:215
+#: src/translators/bibtexexporter.cpp:61
+#: src/translators/bibtexmlexporter.cpp:53 src/translators/csvexporter.cpp:59
+#: src/translators/gcstarexporter.cpp:60 src/translators/htmlexporter.cpp:91
+#: src/translators/onixexporter.cpp:71 src/translators/pilotdbexporter.cpp:58
 #: src/translators/tellicoxmlexporter.cpp:70
 #: src/translators/tellicozipexporter.cpp:56
 #: src/translators/xsltexporter.cpp:54 src/translators/xsltexporter.cpp:99
 #: src/translators/xsltimporter.cpp:118
+#, fuzzy
 msgid "*|All Files"
 msgstr "*|सर्व फाईल्स"
 
@@ -2197,8 +2188,7 @@ msgstr "खोडून लिहा"
 msgid ""
 "A file named \"%1\" already exists. Are you sure you want to overwrite it?"
 msgstr ""
-"\"%1\" नावाची फाईल आधीपासूनच अस्तित्वात आहे. तुम्हाला ती खोडून पुन्हा लिहायची "
-"आहे का?"
+"\"%1\" नावाची फाईल आधीपासूनच अस्तित्वात आहे. तुम्हाला ती खोडून पुन्हा लिहायची आहे का?"
 
 #: src/core/filehandler.cpp:231
 #, fuzzy
@@ -2815,12 +2805,12 @@ msgstr ""
 #: src/fetch/dblpfetcher.cpp:126 src/fetch/discogsfetcher.cpp:222
 #: src/fetch/dvdfrfetcher.cpp:180 src/fetch/entrezfetcher.cpp:475
 #: src/fetch/filmasterfetcher.cpp:319 src/fetch/freebasefetcher.cpp:902
-#: src/fetch/googlescholarfetcher.cpp:267
-#: src/fetch/hathitrustfetcher.cpp:315 src/fetch/ibsfetcher.cpp:445
-#: src/fetch/masfetcher.cpp:328 src/fetch/moviemeterfetcher.cpp:367
-#: src/fetch/musicbrainzfetcher.cpp:334 src/fetch/openlibraryfetcher.cpp:429
-#: src/fetch/springerfetcher.cpp:179 src/fetch/thegamesdbfetcher.cpp:161
-#: src/fetch/vndbfetcher.cpp:328 src/fetch/yahoofetcher.cpp:396
+#: src/fetch/googlescholarfetcher.cpp:267 src/fetch/hathitrustfetcher.cpp:315
+#: src/fetch/ibsfetcher.cpp:445 src/fetch/masfetcher.cpp:328
+#: src/fetch/moviemeterfetcher.cpp:367 src/fetch/musicbrainzfetcher.cpp:334
+#: src/fetch/openlibraryfetcher.cpp:429 src/fetch/springerfetcher.cpp:179
+#: src/fetch/thegamesdbfetcher.cpp:161 src/fetch/vndbfetcher.cpp:328
+#: src/fetch/yahoofetcher.cpp:396
 msgid "This source has no options."
 msgstr ""
 
@@ -4991,8 +4981,7 @@ msgstr "बिटदर"
 msgid "Tracks (Disc %1)"
 msgstr ""
 
-#: src/translators/audiofileimporter.cpp:242
-#: xslt.cpp:4
+#: src/translators/audiofileimporter.cpp:242 xslt.cpp:4
 msgid "(Various)"
 msgstr ""
 
@@ -5290,7 +5279,8 @@ msgid ""
 "the folder listing."
 msgstr ""
 
-#: src/translators/freedbimporter.cpp:95 src/translators/freedbimporter.cpp:178
+#: src/translators/freedbimporter.cpp:95
+#: src/translators/freedbimporter.cpp:178
 #, kde-format
 msgid "<qt>Tellico was unable to access the CD-ROM device - <i>%1</i>.</qt>"
 msgstr ""
@@ -5698,4 +5688,3 @@ msgstr ""
 #: z3950.cpp:26
 msgid "Pontifical Biblical Institute"
 msgstr ""
-

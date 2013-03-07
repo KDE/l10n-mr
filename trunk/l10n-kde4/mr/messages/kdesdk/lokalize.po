@@ -143,15 +143,15 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, querySourceLabel)
 #: scripts/newprojectwizard.py:281 src/filesearch/filesearchoptions.ui:19
-#, fuzzy
 #: src/tm/queryoptions.ui:81
+#, fuzzy
 msgid "Source:"
 msgstr "स्रोत :"
 
 #. i18n: ectx: property (text), widget (QLabel, queryTargetLabel)
 #: scripts/newprojectwizard.py:282 src/filesearch/filesearchoptions.ui:39
-#, fuzzy
 #: src/tm/queryoptions.ui:91
+#, fuzzy
 msgid "Target:"
 msgstr "लक्ष्य"
 
@@ -734,15 +734,13 @@ msgstr "पर्याय"
 msgid "Reset individual filter"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:195
+#: src/cataloglistview/cataloglistview.cpp:195 src/tm/tmtab.cpp:373
 #, fuzzy
-#: src/tm/tmtab.cpp:373
 msgid "Case insensitive"
 msgstr "अक्षराकार असंवेदनशील"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
-#: src/cataloglistview/cataloglistview.cpp:196
-#: src/kaider_findextension.ui:40
+#: src/cataloglistview/cataloglistview.cpp:196 src/kaider_findextension.ui:40
 msgid "Ignore accelerator marks"
 msgstr ""
 
@@ -823,21 +821,21 @@ msgctxt "@title:column"
 msgid "Translation Status"
 msgstr ""
 
-#: src/cataloglistview/catalogmodel.cpp:198
+#: src/cataloglistview/catalogmodel.cpp:198 src/editortab.cpp:1062
+#: src/editortab.cpp:1254 src/tm/tmtab.cpp:236
 #, fuzzy
-#: src/editortab.cpp:1062 src/editortab.cpp:1254 src/tm/tmtab.cpp:236
 msgctxt "@info:status 'non-fuzzy' in gettext terminology"
 msgid "Ready"
 msgstr "तयार"
 
-#: src/cataloglistview/catalogmodel.cpp:199
-#: src/editortab.cpp:1063 src/editortab.cpp:1249 src/tm/tmtab.cpp:237
+#: src/cataloglistview/catalogmodel.cpp:199 src/editortab.cpp:1063
+#: src/editortab.cpp:1249 src/tm/tmtab.cpp:237
 msgctxt "@info:status 'fuzzy' in gettext terminology"
 msgid "Needs review"
 msgstr ""
 
-#: src/cataloglistview/catalogmodel.cpp:200
-#: src/editortab.cpp:1061 src/tm/tmtab.cpp:238
+#: src/cataloglistview/catalogmodel.cpp:200 src/editortab.cpp:1061
+#: src/tm/tmtab.cpp:238
 msgctxt "@info:status"
 msgid "Untranslated"
 msgstr ""
@@ -854,8 +852,9 @@ msgctxt "@info:status message entry"
 msgid "Current: %1"
 msgstr "वर्तमान"
 
-#: src/editortab.cpp:165 src/editortab.cpp:840 src/filesearch/filesearchtab.cpp:794
-#: src/project/projecttab.cpp:336 src/tm/tmtab.cpp:592
+#: src/editortab.cpp:165 src/editortab.cpp:840
+#: src/filesearch/filesearchtab.cpp:794 src/project/projecttab.cpp:336
+#: src/tm/tmtab.cpp:592
 #, fuzzy, kde-format
 msgctxt "@info:status message entries"
 msgid "Total: %1"
@@ -1205,7 +1204,8 @@ msgid ""
 "Do you want to save your changes or discard them?"
 msgstr ""
 
-#: src/editortab.cpp:794 src/editortab.cpp:947 src/glossary/glossarywindow.cpp:506
+#: src/editortab.cpp:794 src/editortab.cpp:947
+#: src/glossary/glossarywindow.cpp:506
 #, fuzzy
 msgctxt "@title:window"
 msgid "Warning"
@@ -1389,8 +1389,8 @@ msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/editorui.rc:233 src/filesearch/filesearchtabui.rc:10
-#, fuzzy
 #: src/project/projectmanagerui.rc:18 src/tm/translationmemoryrui.rc:10
+#, fuzzy
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
@@ -1444,8 +1444,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KLineEdit, queryTarget)
-#: src/filesearch/filesearchoptions.ui:50
-#: src/tm/queryoptions.ui:74
+#: src/filesearch/filesearchoptions.ui:50 src/tm/queryoptions.ui:74
 msgid ""
 "Search expression for target language part.\n"
 "Press Enter to start the search."
@@ -1457,8 +1456,7 @@ msgid "Regular expressions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, doFind)
-#: src/filesearch/filesearchoptions.ui:64
-#: src/tm/queryoptions.ui:186
+#: src/filesearch/filesearchoptions.ui:64 src/tm/queryoptions.ui:186
 msgid "&Search"
 msgstr "शोध (&S)"
 
@@ -1529,9 +1527,9 @@ msgid "Subject Field"
 msgstr ""
 
 #: src/glossary/glossaryview.cpp:61 src/glossary/glossaryview.cpp:69
-#, fuzzy
 #: src/glossary/glossarywindow.cpp:426 src/glossary/glossarywindow.cpp:452
 #: src/glossary/glossarywindow.cpp:462 src/glossary/glossarywindow.cpp:481
+#, fuzzy
 msgctxt "@title:window"
 msgid "Glossary"
 msgstr "शब्दकोष (&G)"
@@ -2052,8 +2050,8 @@ msgstr ""
 #. i18n: ectx: label, entry (OnFlySpellCheck), group (Appearance)
 #. i18n: ectx: label, entry (WhitespacePoints), group (Appearance)
 #: src/prefs/lokalize.kcfg:61 src/prefs/lokalize.kcfg:77
-#, fuzzy
 #: src/prefs/lokalize.kcfg:82
+#, fuzzy
 msgid ""
 "\n"
 "        "
@@ -3156,4 +3154,3 @@ msgstr ""
 msgctxt "@item Undo action item"
 msgid "Copy source to target"
 msgstr ""
-

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 17:54+0100\n"
+"POT-Creation-Date: 2013-02-24 03:47+0100\n"
 "PO-Revision-Date: 2013-03-06 17:40+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2250,7 +2250,8 @@ msgstr "ओळखचिन्हे संपादीत करा"
 msgid "Add Group"
 msgstr ""
 
-#: core/smb4kbookmarkhandler_p.cpp:501 smb4k/configdlg/smb4kauthoptionspage.cpp:167
+#: core/smb4kbookmarkhandler_p.cpp:501
+#: smb4k/configdlg/smb4kauthoptionspage.cpp:167
 #: smb4k/configdlg/smb4kcustomoptionspage.cpp:67
 msgid "Remove"
 msgstr "काढून टाका"
@@ -2263,10 +2264,10 @@ msgstr ""
 msgid "Login:"
 msgstr "प्रवेश :"
 
-#: core/smb4kbookmarkhandler_p.cpp:524 core/smb4kcustomoptionsmanager_p.cpp:130
+#: core/smb4kbookmarkhandler_p.cpp:524
+#: core/smb4kcustomoptionsmanager_p.cpp:130 core/smb4kmounter_p.cpp:1263
+#: core/smb4kprint_p.cpp:411 smb4k/configdlg/smb4kcustomoptionspage.cpp:111
 #, fuzzy
-#: core/smb4kmounter_p.cpp:1263 core/smb4kprint_p.cpp:411
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:111
 msgid "IP Address:"
 msgstr "IP पत्ता"
 
@@ -2292,24 +2293,23 @@ msgid "<p>Define custom options for share <b>%1</b> at host <b>%2</b>.</p>"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:121
-#, fuzzy
 #: smb4k/configdlg/smb4kcustomoptionspage.cpp:95
-#: smb4k/configdlg/smb4krsyncoptions.cpp:79
-#: smb4k/configdlg/smb4krsyncoptions.cpp:342
-#: smb4k/configdlg/smb4krsyncoptions.cpp:439
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:79
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:342
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:439
+#, fuzzy
 msgid "General"
 msgstr "सामान्य"
 
-#: core/smb4kcustomoptionsmanager_p.cpp:126
-#: core/smb4kmounter_p.cpp:1252 core/smb4kprint_p.cpp:409
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:104
+#: core/smb4kcustomoptionsmanager_p.cpp:126 core/smb4kmounter_p.cpp:1252
+#: core/smb4kprint_p.cpp:409 smb4k/configdlg/smb4kcustomoptionspage.cpp:104
 msgid "UNC Address:"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:139
-#, fuzzy
 #: smb4k/configdlg/smb4kconfigdialog.cpp:157
 #: smb4k/configdlg/smb4kcustomoptionspage.cpp:123
+#, fuzzy
 msgid "Samba"
 msgstr "सांबा"
 
@@ -2334,7 +2334,7 @@ msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:387
 #: smb4k/configdlg/smb4kcustomoptionspage.cpp:240
-#: smb4k/configdlg/smb4knetworkoptions.cpp:145
+#: smb4k/configdlg/smb4knetworkoptionspage.cpp:145
 msgid "Wake-On-LAN"
 msgstr ""
 
@@ -2362,7 +2362,8 @@ msgstr ""
 msgid "Specify User"
 msgstr ""
 
-#: core/smb4khomesshareshandler_p.cpp:83 smb4k/configdlg/smb4kauthoptionspage.cpp:168
+#: core/smb4khomesshareshandler_p.cpp:83
+#: smb4k/configdlg/smb4kauthoptionspage.cpp:168
 #: smb4k/configdlg/smb4kcustomoptionspage.cpp:71
 msgid "Clear List"
 msgstr "यादी रिकामी करा"
@@ -2915,8 +2916,8 @@ msgid "IP Address"
 msgstr "IP पत्ता"
 
 #: smb4k/browser/smb4knetworkbrowser.cpp:70
-#, fuzzy
 #: smb4k/tooltips/smb4ktooltip.cpp:261 smb4k/tooltips/smb4ktooltip.cpp:348
+#, fuzzy
 msgid "Comment"
 msgstr "टीप"
 
@@ -2929,8 +2930,7 @@ msgstr ""
 msgid "&Abort"
 msgstr ""
 
-#: smb4k/browser/smb4knetworkbrowser_part.cpp:216
-#: smb4k/smb4ksystemtray.cpp:69
+#: smb4k/browser/smb4knetworkbrowser_part.cpp:216 smb4k/smb4ksystemtray.cpp:69
 msgid "&Open Mount Dialog"
 msgstr ""
 
@@ -2944,9 +2944,9 @@ msgid "&Custom Options"
 msgstr ""
 
 #: smb4k/browser/smb4knetworkbrowser_part.cpp:230
-#, fuzzy
 #: smb4k/sharesview/smb4ksharesview_part.cpp:337
 #: smb4k/smb4kbookmarkmenu.cpp:149
+#, fuzzy
 msgid "Add &Bookmark"
 msgstr "ओळखचिन्ह जोडा (&A)"
 
@@ -2959,17 +2959,15 @@ msgid "&Print File"
 msgstr ""
 
 #: smb4k/browser/smb4knetworkbrowser_part.cpp:253
+#: smb4k/search/smb4knetworksearch_part.cpp:162 smb4k/smb4kmainwindow.cpp:168
 #, fuzzy
-#: smb4k/search/smb4knetworksearch_part.cpp:162
-#: smb4k/smb4kmainwindow.cpp:168
 msgid "&Mount"
 msgstr "माऊंट करा"
 
 #: smb4k/browser/smb4knetworkbrowser_part.cpp:254
-#, fuzzy
 #: smb4k/search/smb4knetworksearch_part.cpp:163
-#: smb4k/sharesview/smb4ksharesview_part.cpp:309
-#: smb4k/smb4kmainwindow.cpp:169
+#: smb4k/sharesview/smb4ksharesview_part.cpp:309 smb4k/smb4kmainwindow.cpp:169
+#, fuzzy
 msgid "&Unmount"
 msgstr "अनमाऊंट करा"
 
@@ -3033,8 +3031,7 @@ msgid "Done."
 msgstr "संपन्न."
 
 #. i18n: ectx: Menu (network)
-#: smb4k/browser/smb4knetworkbrowser_part.rc:4
-#: smb4k/smb4k_shell.rc:7
+#: smb4k/browser/smb4knetworkbrowser_part.rc:4 smb4k/smb4k_shell.rc:7
 msgid "&Network"
 msgstr "संजाळ (&N)"
 
@@ -3052,8 +3049,8 @@ msgid "Default Login"
 msgstr ""
 
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:115
-#: smb4k/configdlg/smb4ksambaoptions.cpp:194
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:88
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:194
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:88
 msgid "General Settings"
 msgstr "सामान्य संयोजना"
 
@@ -3100,8 +3097,8 @@ msgid ""
 msgstr ""
 
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:169
-#, fuzzy
 #: smb4k/configdlg/smb4kcustomoptionspage.cpp:63
+#, fuzzy
 msgid "Edit"
 msgstr "संपादन"
 
@@ -3116,8 +3113,8 @@ msgid "Wallet Entries"
 msgstr ""
 
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:364
-#, fuzzy
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:400
+#, fuzzy
 msgid "Entry"
 msgstr "नोंद :"
 
@@ -3150,8 +3147,8 @@ msgid "Shares"
 msgstr ""
 
 #: smb4k/configdlg/smb4kconfigdialog.cpp:156
-#: smb4k/configdlg/smb4knetworkoptions.cpp:106
-#: smb4k/configdlg/smb4ksambaoptions.cpp:141
+#: smb4k/configdlg/smb4knetworkoptionspage.cpp:106
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:141
 msgid "Authentication"
 msgstr "अधिप्रमाणन"
 
@@ -3260,197 +3257,197 @@ msgid ""
 "manually.</qt>"
 msgstr ""
 
-#: smb4k/configdlg/smb4knetworkoptions.cpp:62
+#: smb4k/configdlg/smb4knetworkoptionspage.cpp:62
 msgid "Browse List"
 msgstr ""
 
-#: smb4k/configdlg/smb4knetworkoptions.cpp:118
+#: smb4k/configdlg/smb4knetworkoptionspage.cpp:118
 msgid "Periodic Scanning"
 msgstr ""
 
-#: smb4k/configdlg/smb4knetworkoptions.cpp:176
+#: smb4k/configdlg/smb4knetworkoptionspage.cpp:176
 msgid ""
 "<qt>Define the hosts that should be woken up via the custom options dialog.</"
 "qt>"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:61
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:61
 msgid "Default Destination"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:126
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:126
 msgid "Links"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:163
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:163
 msgid "File Permissions, etc."
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:207
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:207
 msgid "Copying"
 msgstr "प्रत करत आहे"
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:219
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:219
 msgid "File Deletion"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:266
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:266
 msgid "Restrictions"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:282
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:282
 msgid "File Transfer"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:330
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:330
 msgid "File Deletion && Transfer"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:392
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:392
 msgid "Filter Rules"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:405
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:405
 msgid "Special filter rules:"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:427
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:427
 msgid "Filtering"
 msgstr "गाळणी"
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:476
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:476
 msgid "Backup"
 msgstr "बॅकअप"
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:507
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:507
 msgid "Checksums"
 msgstr ""
 
-#: smb4k/configdlg/smb4krsyncoptions.cpp:543
+#: smb4k/configdlg/smb4krsyncoptionspage.cpp:543
 msgid "Advanced Settings"
 msgstr "प्रगत संयोजना"
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:74
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:74
 msgid "General Options"
 msgstr "सामान्य पर्याय"
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:113
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:113
 msgid "Remote Ports"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:162
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:162
 msgid "Security"
 msgstr "सुरक्षा"
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:206
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:206
 msgid "Common Options"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:227
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:227
 msgid "Choose a different user"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:274
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:274
 msgid "Choose a different group"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:498
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:498
 msgid "Advanced Options"
 msgstr "प्रगत पर्याय"
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:585
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:585
 msgid "Mounting"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:597
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:597
 msgid "net"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:622
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:622
 msgid "smbclient"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:640
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:640
 #, fuzzy
 msgid " Bytes"
 msgstr "बाइट्स :"
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:651
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:651
 msgid "nmblookup"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:673
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:673
 msgid "smbtree"
 msgstr ""
 
-#: smb4k/configdlg/smb4ksambaoptions.cpp:690
+#: smb4k/configdlg/smb4ksambaoptionspage.cpp:690
 msgid "Utility Programs"
 msgstr ""
 
-#: smb4k/configdlg/smb4kshareoptions.cpp:58
+#: smb4k/configdlg/smb4kshareoptionspage.cpp:58
 msgid "Directories"
 msgstr ""
 
-#: smb4k/configdlg/smb4kshareoptions.cpp:80
+#: smb4k/configdlg/smb4kshareoptionspage.cpp:80
 msgid "Mounting && Unmounting"
 msgstr ""
 
-#: smb4k/configdlg/smb4kshareoptions.cpp:139
+#: smb4k/configdlg/smb4kshareoptionspage.cpp:139
 msgid "Checks"
 msgstr ""
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:61
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:61
 msgid "Notifications"
 msgstr "सूचना"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:73
-#, fuzzy
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:73
 #: smb4k/smb4kbookmarkmenu.cpp:52
+#, fuzzy
 msgid "Bookmarks"
 msgstr "ओळखचिन्ह"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:100
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:100
 msgid "Behavior"
 msgstr "वर्तन"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:112
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:112
 msgid "Remote Shares"
 msgstr ""
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:139
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:139
 msgid "Columns"
 msgstr "स्थंभ"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:161
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:161
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:281
 #, fuzzy
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:281
 msgid "Tooltips"
 msgstr "टूलटिप्स :"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:178
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:178
 #: smb4k/smb4kmainwindow.cpp:288
 msgid "Network Neighborhood"
 msgstr ""
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:190
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:190
 msgid "View"
 msgstr "दृश्य"
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:210
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:210
 msgid "Settings for the list view:"
 msgstr ""
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:264
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:299
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:264
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:299
 #: smb4k/smb4kmainwindow.cpp:380 smb4k/smb4ksharesmenu.cpp:55
 msgid "Mounted Shares"
 msgstr ""
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:311
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:311
 msgid "Hidden Files && Directories"
 msgstr ""
 
-#: smb4k/configdlg/smb4kuserinterfaceoptions.cpp:327
+#: smb4k/configdlg/smb4kuserinterfaceoptionspage.cpp:327
 msgid "Preview Dialog"
 msgstr ""
 
@@ -3484,8 +3481,7 @@ msgid "Enter the search string here."
 msgstr ""
 
 #. i18n: ectx: Menu (search)
-#: smb4k/search/smb4knetworksearch_part.cpp:151
-#: smb4k/smb4k_shell.rc:9
+#: smb4k/search/smb4knetworksearch_part.cpp:151 smb4k/smb4k_shell.rc:9
 msgid "&Search"
 msgstr "शोध (&S)"
 
@@ -3507,8 +3503,7 @@ msgstr ""
 msgid "The network search KPart of Smb4K"
 msgstr ""
 
-#: smb4k/search/smb4knetworksearch_part.cpp:566
-#: smb4k/smb4kmainwindow.cpp:1055
+#: smb4k/search/smb4knetworksearch_part.cpp:566 smb4k/smb4kmainwindow.cpp:1055
 #, fuzzy, kde-format
 msgid "Searching for \"%1\"..."
 msgstr "'%1'ला शोधत आहे"
@@ -3553,8 +3548,7 @@ msgstr "एकूण"
 msgid "Usage"
 msgstr "वापर"
 
-#: smb4k/sharesview/smb4ksharesview_part.cpp:314
-#: smb4k/smb4ksharesmenu.cpp:108
+#: smb4k/sharesview/smb4ksharesview_part.cpp:314 smb4k/smb4ksharesmenu.cpp:108
 msgid "U&nmount All"
 msgstr ""
 
@@ -3621,22 +3615,28 @@ msgid "&Settings"
 msgstr "संयोजना (&S)"
 
 #. i18n: ectx: ToolBar (networkToolBar)
-#: smb4k/smb4k_shell.rc:28
+#: smb4k/smb4k_shell.rc:27
 msgid "Network Toolbar"
 msgstr ""
 
 #. i18n: ectx: ToolBar (searchToolBar)
-#: smb4k/smb4k_shell.rc:31
+#: smb4k/smb4k_shell.rc:29
 msgid "Search Toolbar"
 msgstr "शोध साधनपट्टी"
 
 #. i18n: ectx: ToolBar (sharesViewToolBar)
-#: smb4k/smb4k_shell.rc:34
+#: smb4k/smb4k_shell.rc:31
 msgid "Shares Toolbar"
 msgstr ""
 
+#. i18n: ectx: ToolBar (altMainToolBar)
+#: smb4k/smb4k_shell.rc:33
+#, fuzzy
+msgid "Alternative Main Toolbar"
+msgstr "मुख्य साधनपट्टी"
+
 #. i18n: ectx: ToolBar (mainToolBar)
-#: smb4k/smb4k_shell.rc:37
+#: smb4k/smb4k_shell.rc:42
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
@@ -3763,6 +3763,12 @@ msgstr ""
 msgid "Retrieving preview from %1..."
 msgstr ""
 
+#: smb4k/smb4kmainwindow.cpp:1310
+#, fuzzy
+#| msgid "Open"
+msgid "Open With"
+msgstr "उघडा"
+
 #: smb4k/smb4ksharesmenu.cpp:221
 msgid "Unmount"
 msgstr "अनमाऊंट करा"
@@ -3837,4 +3843,3 @@ msgstr "आकार"
 #, kde-format
 msgid "%1 free of %2 (%3 used)"
 msgstr ""
-

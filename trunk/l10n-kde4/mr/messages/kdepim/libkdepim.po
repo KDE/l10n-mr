@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-12 13:17+0100\n"
+"POT-Creation-Date: 2013-03-06 04:14+0100\n"
 "PO-Revision-Date: 2013-03-06 13:04+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -33,12 +33,12 @@ msgid ""
 "manually."
 msgstr ""
 
-#: addcontactjob.cpp:80 addemailaddressjob.cpp:177
+#: addcontactjob.cpp:80 addemailaddressjob.cpp:179
 msgctxt "@title:window"
 msgid "Select Address Book"
 msgstr ""
 
-#: addcontactjob.cpp:83 addemailaddressjob.cpp:180
+#: addcontactjob.cpp:83 addemailaddressjob.cpp:182
 msgctxt "@info"
 msgid "Select the address book where the contact will be saved:"
 msgstr ""
@@ -50,7 +50,7 @@ msgid ""
 "this entry by opening the address book."
 msgstr ""
 
-#: addemailaddressjob.cpp:83
+#: addemailaddressjob.cpp:85
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -58,23 +58,23 @@ msgid ""
 "address book."
 msgstr ""
 
-#: addemailaddressjob.cpp:137
+#: addemailaddressjob.cpp:139
 msgctxt "@info"
 msgid ""
 "You must create an address book before adding a contact. Do you want to "
 "create an address book?"
 msgstr ""
 
-#: addemailaddressjob.cpp:138
+#: addemailaddressjob.cpp:140
 msgctxt "@title:window"
 msgid "No Address Book Available"
 msgstr ""
 
-#: addemailaddressjob.cpp:140
+#: addemailaddressjob.cpp:142
 msgid "Add Address Book"
 msgstr ""
 
-#: addemailaddressjob.cpp:230
+#: addemailaddressjob.cpp:232
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -82,12 +82,25 @@ msgid ""
 "book.</para><para>Do you want to edit this new contact now?</para>"
 msgstr ""
 
+#: addemailaddressjob.cpp:260
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr ""
+
+#: addemailaddressjob.cpp:260
+msgid "Failed to store contact"
+msgstr ""
+
+#: addemailaddressjob.cpp:265
+msgid "Contact created successfully"
+msgstr ""
+
 #: addresseelineedit.cpp:296
 msgctxt "@title:group"
 msgid "Contacts found in your data"
 msgstr ""
 
-#: addresseelineedit.cpp:1457
+#: addresseelineedit.cpp:1455
 msgid "Configure Completion Order..."
 msgstr ""
 
@@ -155,12 +168,12 @@ msgstr[1] ""
 msgid "Transmission for account %1 complete. No new messages."
 msgstr ""
 
-#: completionordereditor.cpp:75
+#: completionordereditor.cpp:77
 #, kde-format
 msgid "LDAP server %1"
 msgstr ""
 
-#: completionordereditor.cpp:196
+#: completionordereditor.cpp:198
 msgid "Edit Completion Order"
 msgstr ""
 
@@ -221,241 +234,261 @@ msgctxt "fewer widgets"
 msgid "Fewer"
 msgstr "कमी"
 
-#: ldap/addhostdialog.cpp:36
+#: ldap/addhostdialog.cpp:34
 msgid "Add Host"
 msgstr ""
 
-#: ldap/kcmldap.cpp:93
+#: ldap/kcmldap.cpp:94
 msgid "kcmldap"
 msgstr ""
 
-#: ldap/kcmldap.cpp:94
+#: ldap/kcmldap.cpp:95
 msgid "LDAP Server Settings"
 msgstr "LDAP सर्व्हर संयोजना"
 
-#: ldap/kcmldap.cpp:96
+#: ldap/kcmldap.cpp:97
 msgid "(c) 2009 - 2010 Tobias Koenig"
 msgstr "(c) 2009 - 2010 टोबिआस कोएनिग"
 
-#: ldap/kcmldap.cpp:98
+#: ldap/kcmldap.cpp:99
 msgid "Tobias Koenig"
 msgstr "टोबीआस कोएनींग"
 
-#: ldap/kcmldap.cpp:162
+#: ldap/kcmldap.cpp:164
 msgid "Edit Host"
 msgstr ""
 
-#: ldap/kcmldap.cpp:317
+#: ldap/kcmldap.cpp:179
+#, kde-format
+msgid "Do you want to remove setting for host \"%1\"?"
+msgstr ""
+
+#: ldap/kcmldap.cpp:179
+#, fuzzy
+#| msgid "&Remove"
+msgid "Remove Host"
+msgstr "काढून टाका (&R)"
+
+#: ldap/kcmldap.cpp:319
 msgid "LDAP Servers"
 msgstr ""
 
-#: ldap/kcmldap.cpp:321
+#: ldap/kcmldap.cpp:323
 msgid "Check all servers that should be used:"
 msgstr ""
 
-#: ldap/kcmldap.cpp:349
+#: ldap/kcmldap.cpp:351
 msgid "&Add Host..."
 msgstr ""
 
-#: ldap/kcmldap.cpp:351
+#: ldap/kcmldap.cpp:353
 msgid "&Edit Host..."
 msgstr ""
 
-#: ldap/kcmldap.cpp:354
+#: ldap/kcmldap.cpp:356
 msgid "&Remove Host"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:94
+#: ldap/ldapclientsearchconfig.cpp:107
+msgid ""
+"LDAP password is stored as clear text, do you want to store it in kwallet?"
+msgstr ""
+
+#: ldap/ldapclientsearchconfig.cpp:108
+msgid "Store clear text password in KWallet"
+msgstr ""
+
+#: ldap/ldapsearchdialog.cpp:93
 msgctxt "@item LDAP search key"
 msgid "Title"
 msgstr "शिर्षक"
 
-#: ldap/ldapsearchdialog.cpp:95 ldap/ldapsearchdialog.cpp:304
+#: ldap/ldapsearchdialog.cpp:94 ldap/ldapsearchdialog.cpp:303
 msgid "Full Name"
 msgstr "पूर्ण नाव"
 
-#: ldap/ldapsearchdialog.cpp:96
+#: ldap/ldapsearchdialog.cpp:95
 msgctxt "@item LDAP search key"
 msgid "Email"
 msgstr "इमेल"
 
-#: ldap/ldapsearchdialog.cpp:97 ldap/ldapsearchdialog.cpp:139
-#: ldap/ldapsearchdialog.cpp:310
+#: ldap/ldapsearchdialog.cpp:96 ldap/ldapsearchdialog.cpp:138
+#: ldap/ldapsearchdialog.cpp:309
 msgid "Home Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:98 ldap/ldapsearchdialog.cpp:141
-#: ldap/ldapsearchdialog.cpp:313
+#: ldap/ldapsearchdialog.cpp:97 ldap/ldapsearchdialog.cpp:140
+#: ldap/ldapsearchdialog.cpp:312
 msgid "Work Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:99 ldap/ldapsearchdialog.cpp:316
+#: ldap/ldapsearchdialog.cpp:98 ldap/ldapsearchdialog.cpp:315
 msgid "Mobile Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:100 ldap/ldapsearchdialog.cpp:319
+#: ldap/ldapsearchdialog.cpp:99 ldap/ldapsearchdialog.cpp:318
 msgid "Fax Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:101
+#: ldap/ldapsearchdialog.cpp:100
 msgid "Pager"
 msgstr "पेजर"
 
-#: ldap/ldapsearchdialog.cpp:102 ldap/ldapsearchdialog.cpp:328
+#: ldap/ldapsearchdialog.cpp:101 ldap/ldapsearchdialog.cpp:327
 msgid "Street"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:103
+#: ldap/ldapsearchdialog.cpp:102
 msgctxt "@item LDAP search key"
 msgid "State"
 msgstr "स्थिती"
 
-#: ldap/ldapsearchdialog.cpp:104 ldap/ldapsearchdialog.cpp:335
+#: ldap/ldapsearchdialog.cpp:103 ldap/ldapsearchdialog.cpp:334
 msgid "Country"
 msgstr "देश"
 
-#: ldap/ldapsearchdialog.cpp:105 ldap/ldapsearchdialog.cpp:344
+#: ldap/ldapsearchdialog.cpp:104 ldap/ldapsearchdialog.cpp:343
 msgid "City"
 msgstr "शहर"
 
-#: ldap/ldapsearchdialog.cpp:106 ldap/ldapsearchdialog.cpp:325
+#: ldap/ldapsearchdialog.cpp:105 ldap/ldapsearchdialog.cpp:324
 msgid "Organization"
 msgstr "संस्था"
 
-#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:322
+#: ldap/ldapsearchdialog.cpp:106 ldap/ldapsearchdialog.cpp:321
 msgid "Company"
 msgstr "कंपनी"
 
-#: ldap/ldapsearchdialog.cpp:108 ldap/ldapsearchdialog.cpp:347
+#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:346
 msgid "Department"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:109 ldap/ldapsearchdialog.cpp:338
+#: ldap/ldapsearchdialog.cpp:108 ldap/ldapsearchdialog.cpp:337
 msgid "Zip Code"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:110 ldap/ldapsearchdialog.cpp:341
+#: ldap/ldapsearchdialog.cpp:109 ldap/ldapsearchdialog.cpp:340
 msgid "Postal Address"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:111 ldap/ldapsearchdialog.cpp:350
+#: ldap/ldapsearchdialog.cpp:110 ldap/ldapsearchdialog.cpp:349
 msgid "Description"
 msgstr "वर्णन"
 
-#: ldap/ldapsearchdialog.cpp:112 ldap/ldapsearchdialog.cpp:353
+#: ldap/ldapsearchdialog.cpp:111 ldap/ldapsearchdialog.cpp:352
 msgid "User ID"
 msgstr "वापरकर्ता ID :"
 
-#: ldap/ldapsearchdialog.cpp:132
+#: ldap/ldapsearchdialog.cpp:131
 msgctxt "Search attribute: Name of contact"
 msgid "Name"
 msgstr "नाव"
 
-#: ldap/ldapsearchdialog.cpp:137
+#: ldap/ldapsearchdialog.cpp:136
 msgctxt "Search attribute: Email of the contact"
 msgid "Email"
 msgstr "इमेल"
 
-#: ldap/ldapsearchdialog.cpp:307
+#: ldap/ldapsearchdialog.cpp:306
 msgctxt "@title:column Column containing email addresses"
 msgid "Email"
 msgstr "इमेल"
 
-#: ldap/ldapsearchdialog.cpp:332
+#: ldap/ldapsearchdialog.cpp:331
 msgctxt "@title:column Column containing the residential state of the address"
 msgid "State"
 msgstr "स्थिती"
 
-#: ldap/ldapsearchdialog.cpp:356
+#: ldap/ldapsearchdialog.cpp:355
 msgctxt "@title:column Column containing title of the person"
 msgid "Title"
 msgstr "शिर्षक"
 
-#: ldap/ldapsearchdialog.cpp:513
+#: ldap/ldapsearchdialog.cpp:512
 msgid "Import Contacts from LDAP"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:529
+#: ldap/ldapsearchdialog.cpp:528
 msgid "Search for Addresses in Directory"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:536
+#: ldap/ldapsearchdialog.cpp:535
 msgid "Search for:"
 msgstr "याकरिता शोधा :"
 
-#: ldap/ldapsearchdialog.cpp:543
+#: ldap/ldapsearchdialog.cpp:542
 msgctxt "In LDAP attribute"
 msgid "in"
 msgstr "च्या आत"
 
-#: ldap/ldapsearchdialog.cpp:547
+#: ldap/ldapsearchdialog.cpp:546
 msgctxt "@item:inlistbox Name of the contact"
 msgid "Name"
 msgstr "नाव"
 
-#: ldap/ldapsearchdialog.cpp:548
+#: ldap/ldapsearchdialog.cpp:547
 msgctxt "@item:inlistbox email address of the contact"
 msgid "Email"
 msgstr "इमेल"
 
-#: ldap/ldapsearchdialog.cpp:549
+#: ldap/ldapsearchdialog.cpp:548
 msgctxt "@item:inlistbox"
 msgid "Home Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:550
+#: ldap/ldapsearchdialog.cpp:549
 msgctxt "@item:inlistbox"
 msgid "Work Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:554 ldap/ldapsearchdialog.cpp:734
+#: ldap/ldapsearchdialog.cpp:553 ldap/ldapsearchdialog.cpp:735
 msgid "Stop"
 msgstr "थांबा"
 
-#: ldap/ldapsearchdialog.cpp:556 ldap/ldapsearchdialog.cpp:775
+#: ldap/ldapsearchdialog.cpp:555 ldap/ldapsearchdialog.cpp:776
 msgctxt "@action:button Start searching"
 msgid "&Search"
 msgstr "शोध (&S)"
 
-#: ldap/ldapsearchdialog.cpp:565
+#: ldap/ldapsearchdialog.cpp:564
 msgid "Recursive search"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:570
+#: ldap/ldapsearchdialog.cpp:569
 msgid "Contains"
 msgstr "समाविष्टीत आहे"
 
-#: ldap/ldapsearchdialog.cpp:571
+#: ldap/ldapsearchdialog.cpp:570
 msgid "Starts With"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:587
+#: ldap/ldapsearchdialog.cpp:586
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: ldap/ldapsearchdialog.cpp:589
+#: ldap/ldapsearchdialog.cpp:588
 msgid "Unselect All"
 msgstr "सर्व निवड काढून टाका"
 
-#: ldap/ldapsearchdialog.cpp:596
+#: ldap/ldapsearchdialog.cpp:595
 msgid "Add Selected"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:598
+#: ldap/ldapsearchdialog.cpp:597
 msgid "Configure LDAP Servers..."
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:726
+#: ldap/ldapsearchdialog.cpp:727
 msgid "You must select an LDAP server before searching."
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:821
+#: ldap/ldapsearchdialog.cpp:822
 #, kde-format
 msgctxt "arguments are host name, datetime"
 msgid "Imported from LDAP directory %1 on %2"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:838
+#: ldap/ldapsearchdialog.cpp:839
 msgid "Configure the Address Book LDAP Settings"
 msgstr ""
 
@@ -487,7 +520,7 @@ msgid ""
 "will not work correctly:<ul><li>%1</li></ul>"
 msgstr ""
 
-#: progressdialog.cpp:175
+#: progressdialog.cpp:173
 msgid "Cancel this operation."
 msgstr ""
 
@@ -507,23 +540,7 @@ msgstr "जोडा (&A)"
 msgid "&Remove"
 msgstr "काढून टाका (&R)"
 
-#: sendsmsdialog.cpp:35
-msgid "Send SMS"
-msgstr "SMS पाठवा"
-
-#: sendsmsdialog.cpp:47
-msgid "Message"
-msgstr "संदेश"
-
-#: sendsmsdialog.cpp:56
-msgid "Recipient:"
-msgstr ""
-
-#: sendsmsdialog.cpp:59
-msgid "Send"
-msgstr "पाठवा"
-
-#: spellchecklineedit.cpp:190
+#: spellchecklineedit.cpp:211
 msgid "Spell Checking Language"
 msgstr ""
 
@@ -582,3 +599,11 @@ msgstr ""
 msgid "Show detailed progress window"
 msgstr ""
 
+#~ msgid "Send SMS"
+#~ msgstr "SMS पाठवा"
+
+#~ msgid "Message"
+#~ msgstr "संदेश"
+
+#~ msgid "Send"
+#~ msgstr "पाठवा"
