@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-13 04:26+0100\n"
+"POT-Creation-Date: 2013-02-14 10:44+0100\n"
 "PO-Revision-Date: 2013-03-07 18:17+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -78,7 +78,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (DialPhoneNumberAction), group (Phone Dial Settings)
-#: actions/contactactionssettings.kcfg.cmake:49
+#: actions/contactactionssettings.kcfg.cmake:47
 msgid ""
 "Defines which application shall be used to dial the phone number of a "
 "contact. If 'Skype' is selected the Skype application will be started (if "
@@ -87,19 +87,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (PhoneCommand), group (Phone Dial Settings)
-#: actions/contactactionssettings.kcfg.cmake:53
+#: actions/contactactionssettings.kcfg.cmake:51
 msgid "Phone Command"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (PhoneCommand), group (Phone Dial Settings)
-#: actions/contactactionssettings.kcfg.cmake:54
+#: actions/contactactionssettings.kcfg.cmake:52
 msgid ""
 "This command defines the application that shall be executed to dial a "
 "contact's phone number."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (PhoneCommand), group (Phone Dial Settings)
-#: actions/contactactionssettings.kcfg.cmake:57
+#: actions/contactactionssettings.kcfg.cmake:55
 #, no-c-format
 msgid ""
 "The following placeholders can be used in the command:\n"
@@ -108,7 +108,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SendSmsAction), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:68
+#: actions/contactactionssettings.kcfg.cmake:66
 msgid ""
 "Defines which application shall be used to send an SMS to the phone number "
 "of a contact. If 'Skype' is selected the Skype application will be started "
@@ -117,19 +117,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:72
+#: actions/contactactionssettings.kcfg.cmake:70
 msgid "SMS Command"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:73
+#: actions/contactactionssettings.kcfg.cmake:71
 msgid ""
 "This command defines the application that shall be executed to send an SMS "
 "to a contact's phone number."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:77
+#: actions/contactactionssettings.kcfg.cmake:75
 #, no-c-format
 msgid ""
 "The following placeholders can be used in the command:\n"
@@ -138,7 +138,7 @@ msgid ""
 "   %t: The text"
 msgstr ""
 
-#: actions/dialphonenumberaction.cpp:88 actions/sendsmsaction.cpp:80
+#: actions/dialphonenumberaction.cpp:80 actions/sendsmsaction.cpp:75
 msgid ""
 "There is no application set which could be executed. Please go to the "
 "settings dialog and configure one."
@@ -150,26 +150,6 @@ msgstr ""
 
 #: actions/qdialer.cpp:45
 msgid "Sending an SMS is not supported"
-msgstr ""
-
-#: actions/qekigadialer.cpp:70
-msgid ""
-"Unable to start ekiga process, check that ekiga executable is in your PATH "
-"variable."
-msgstr ""
-
-#: actions/qekigadialer.cpp:97
-msgid "Sending an SMS is currently not supported on Ekiga"
-msgstr ""
-
-#: actions/qsflphonedialer.cpp:71
-msgid ""
-"Unable to start sflphone-client-kde process, check that sflphone-client-kde "
-"executable is in your PATH variable."
-msgstr ""
-
-#: actions/qsflphonedialer.cpp:105
-msgid "Sending an SMS is currently not supported on SflPhone"
 msgstr ""
 
 #: actions/qskypedialer.cpp:88
@@ -199,16 +179,16 @@ msgstr ""
 msgid "Sending an SMS is currently not supported on WinCE"
 msgstr ""
 
-#: actions/smsdialog.cpp:53
+#: actions/smsdialog.cpp:50
 msgid "SMS text"
 msgstr ""
 
-#: actions/smsdialog.cpp:67
+#: actions/smsdialog.cpp:64
 #, kde-format
 msgid "Please insert SMS text for an SMS to the following number: %1"
 msgstr ""
 
-#: actions/smsdialog.cpp:100
+#: actions/smsdialog.cpp:97
 #, fuzzy, kde-format
 msgid "%1/%2 (%3 SMS)"
 msgstr "एसएमएस"
@@ -312,7 +292,7 @@ msgstr "इमेल"
 msgid "Contact Group %1"
 msgstr ""
 
-#: contactgroupviewer.cpp:83 standardcontactformatter.cpp:215
+#: contactgroupviewer.cpp:83 standardcontactformatter.cpp:195
 msgid "Address Book"
 msgstr ""
 
@@ -366,7 +346,7 @@ msgctxt "@title:column all email addresses of a person"
 msgid "All EMails"
 msgstr ""
 
-#: contactviewer.cpp:82
+#: contactviewer.cpp:80
 #, fuzzy, kde-format
 msgid "Contact %1"
 msgstr "संपर्क"
@@ -899,51 +879,51 @@ msgctxt "@item:inlistbox Undefined location"
 msgid "Undefined"
 msgstr "व्याख्यारहित"
 
-#: editor/im/imeditordialog.cpp:40
+#: editor/im/imeditordialog.cpp:39
 msgctxt "@title:window"
 msgid "Edit Instant Messaging Addresses"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:49
+#: editor/im/imeditordialog.cpp:48
 #, fuzzy
 msgctxt "@action:button"
 msgid "Add..."
 msgstr "जोडा..."
 
-#: editor/im/imeditordialog.cpp:50
+#: editor/im/imeditordialog.cpp:49
 #, fuzzy
 msgctxt "@action:button"
 msgid "Edit..."
 msgstr "संपादीत करा..."
 
-#: editor/im/imeditordialog.cpp:51
+#: editor/im/imeditordialog.cpp:50
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "काढून टाका"
 
-#: editor/im/imeditordialog.cpp:52
+#: editor/im/imeditordialog.cpp:51
 msgctxt "@action:button"
 msgid "Set as Standard"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:94
+#: editor/im/imeditordialog.cpp:93
 msgctxt "@title:window"
 msgid "Add IM Address"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:114
+#: editor/im/imeditordialog.cpp:112
 msgctxt "@title:window"
 msgid "Edit IM Address"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:137
+#: editor/im/imeditordialog.cpp:134
 #, kde-format
 msgctxt "@info Instant messaging"
 msgid ""
 "Do you really want to delete the selected <resource>%1</resource> address?"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:139
+#: editor/im/imeditordialog.cpp:136
 msgctxt "@title:window"
 msgid "Confirm Delete Resource"
 msgstr ""
@@ -1013,27 +993,27 @@ msgstr ""
 msgid "..."
 msgstr ""
 
-#: editor/kdatepickerpopup.cpp:94
+#: editor/kdatepickerpopup.cpp:102
 msgctxt "@option today"
 msgid "&Today"
 msgstr "आज (&T)"
 
-#: editor/kdatepickerpopup.cpp:95
+#: editor/kdatepickerpopup.cpp:103
 msgctxt "@option tomorrow"
 msgid "To&morrow"
 msgstr "उद्या (&M)"
 
-#: editor/kdatepickerpopup.cpp:96
+#: editor/kdatepickerpopup.cpp:104
 msgctxt "@option next week"
 msgid "Next &Week"
 msgstr "पुढील आठवडा (&W)"
 
-#: editor/kdatepickerpopup.cpp:97
+#: editor/kdatepickerpopup.cpp:105
 msgctxt "@option next month"
 msgid "Next M&onth"
 msgstr "पुढील महिना (&O)"
 
-#: editor/kdatepickerpopup.cpp:105
+#: editor/kdatepickerpopup.cpp:113
 msgctxt "@option do not specify a date"
 msgid "No Date"
 msgstr "दिनांक नाही"
@@ -1067,8 +1047,7 @@ msgstr "टॅग काढून टाका"
 #, kde-format
 msgctxt "@info"
 msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
-msgstr ""
-"<resource>%1</resource> हा टॅग सर्व फाईल्समधून खरच काढून टाकायचा आहे का?"
+msgstr "<resource>%1</resource> हा टॅग सर्व फाईल्समधून खरच काढून टाकायचा आहे का?"
 
 #: editor/kedittagsdialog.cpp:208
 msgctxt "@title"
@@ -1515,113 +1494,107 @@ msgstr ""
 msgid "Edit Group..."
 msgstr "समूह संपादीत करा"
 
-#: standardcontactactionmanager.cpp:564
+#: standardcontactactionmanager.cpp:554
 #, fuzzy
 msgid "New &Contact..."
 msgstr "नवीन संपर्क"
 
-#: standardcontactactionmanager.cpp:566
+#: standardcontactactionmanager.cpp:556
 msgid ""
 "Create a new contact<p>You will be presented with a dialog where you can add "
 "data about a person, including addresses and phone numbers.</p>"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:574
+#: standardcontactactionmanager.cpp:564
 #, fuzzy
 msgid "New &Group..."
 msgstr "नवीन समूह"
 
-#: standardcontactactionmanager.cpp:576
+#: standardcontactactionmanager.cpp:566
 msgid ""
 "Create a new group<p>You will be presented with a dialog where you can add a "
 "new group of contacts.</p>"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:584
+#: standardcontactactionmanager.cpp:574
 msgid "Edit Contact..."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:585
+#: standardcontactactionmanager.cpp:575
 msgid ""
 "Edit the selected contact<p>You will be presented with a dialog where you "
 "can edit the data stored about a person, including addresses and phone "
 "numbers.</p>"
 msgstr ""
 
-#: standardcontactformatter.cpp:119
+#: standardcontactformatter.cpp:104
 #, kde-format
 msgid "(One year old)"
 msgid_plural "(%1 years old)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactformatter.cpp:131
-msgctxt "@info:tooltip"
-msgid "Send SMS"
-msgstr "SMS पाठवा"
-
-#: standardcontactformatter.cpp:147
+#: standardcontactformatter.cpp:127
 msgctxt "a contact's email address"
 msgid "Email"
 msgstr "इमेल"
 
-#: standardcontactformatter.cpp:164
+#: standardcontactformatter.cpp:144
 msgid "Homepage"
 msgstr "मुख्यपान"
 
-#: standardcontactformatter.cpp:170
+#: standardcontactformatter.cpp:150
 msgid "Blog Feed"
 msgstr ""
 
-#: standardcontactformatter.cpp:188
-msgctxt "@info:tooltip"
+#: standardcontactformatter.cpp:169
 msgid "Show address on map"
 msgstr ""
 
-#: standardcontactformatter.cpp:200
+#: standardcontactformatter.cpp:180
 #, fuzzy
 msgid "Notes"
 msgstr "नोंदी"
 
-#: standardcontactformatter.cpp:207
+#: standardcontactformatter.cpp:187
 msgid "Department"
 msgstr ""
 
-#: standardcontactformatter.cpp:208
+#: standardcontactformatter.cpp:188
 msgid "Profession"
 msgstr ""
 
-#: standardcontactformatter.cpp:209
+#: standardcontactformatter.cpp:189
 msgid "Assistant's Name"
 msgstr ""
 
-#: standardcontactformatter.cpp:210
+#: standardcontactformatter.cpp:190
 msgid "Manager's Name"
 msgstr ""
 
-#: standardcontactformatter.cpp:211
+#: standardcontactformatter.cpp:191
 msgctxt "Wife/Husband/..."
 msgid "Partner's Name"
 msgstr ""
 
-#: standardcontactformatter.cpp:212
+#: standardcontactformatter.cpp:192
 msgid "Office"
 msgstr "ऑफीस"
 
-#: standardcontactformatter.cpp:213
+#: standardcontactformatter.cpp:193
 msgid "IM Address"
 msgstr ""
 
-#: standardcontactformatter.cpp:214
+#: standardcontactformatter.cpp:194
 msgid "Anniversary"
 msgstr "वर्धापनदिन/स्मृतीदिन"
 
-#: standardcontactformatter.cpp:261
+#: standardcontactformatter.cpp:241
 msgctxt "Boolean value"
 msgid "yes"
 msgstr "हो"
 
-#: standardcontactformatter.cpp:263
+#: standardcontactformatter.cpp:243
 msgctxt "Boolean value"
 msgid "no"
 msgstr "नाही"
@@ -1634,3 +1607,6 @@ msgstr ""
 msgid "<p style=\"color: white;\"><b>Waiting for operation</b><br/></p>"
 msgstr ""
 
+#~ msgctxt "@info:tooltip"
+#~ msgid "Send SMS"
+#~ msgstr "SMS पाठवा"
