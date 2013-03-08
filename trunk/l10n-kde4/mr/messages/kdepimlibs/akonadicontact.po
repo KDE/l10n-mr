@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-13 04:26+0100\n"
+"POT-Creation-Date: 2013-03-02 03:41+0100\n"
 "PO-Revision-Date: 2013-03-07 18:17+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -108,7 +108,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SendSmsAction), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:68
+#: actions/contactactionssettings.kcfg.cmake:69
 msgid ""
 "Defines which application shall be used to send an SMS to the phone number "
 "of a contact. If 'Skype' is selected the Skype application will be started "
@@ -117,19 +117,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:72
+#: actions/contactactionssettings.kcfg.cmake:73
 msgid "SMS Command"
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:73
+#: actions/contactactionssettings.kcfg.cmake:74
 msgid ""
 "This command defines the application that shall be executed to send an SMS "
 "to a contact's phone number."
 msgstr ""
 
 #. i18n: ectx: tooltip, entry (SmsCommand), group (Send SMS Settings)
-#: actions/contactactionssettings.kcfg.cmake:77
+#: actions/contactactionssettings.kcfg.cmake:78
 #, no-c-format
 msgid ""
 "The following placeholders can be used in the command:\n"
@@ -138,7 +138,7 @@ msgid ""
 "   %t: The text"
 msgstr ""
 
-#: actions/dialphonenumberaction.cpp:88 actions/sendsmsaction.cpp:80
+#: actions/dialphonenumberaction.cpp:86 actions/sendsmsaction.cpp:80
 msgid ""
 "There is no application set which could be executed. Please go to the "
 "settings dialog and configure one."
@@ -152,13 +152,17 @@ msgstr ""
 msgid "Sending an SMS is not supported"
 msgstr ""
 
-#: actions/qekigadialer.cpp:70
+#: actions/qekigadialer.cpp:85
 msgid ""
 "Unable to start ekiga process, check that ekiga executable is in your PATH "
 "variable."
 msgstr ""
 
-#: actions/qekigadialer.cpp:97
+#: actions/qekigadialer.cpp:106
+msgid "Ekiga Public API (D-Bus) seems to be disabled."
+msgstr ""
+
+#: actions/qekigadialer.cpp:125
 msgid "Sending an SMS is currently not supported on Ekiga"
 msgstr ""
 
@@ -166,10 +170,6 @@ msgstr ""
 msgid ""
 "Unable to start sflphone-client-kde process, check that sflphone-client-kde "
 "executable is in your PATH variable."
-msgstr ""
-
-#: actions/qsflphonedialer.cpp:105
-msgid "Sending an SMS is currently not supported on SflPhone"
 msgstr ""
 
 #: actions/qskypedialer.cpp:88
@@ -199,51 +199,51 @@ msgstr ""
 msgid "Sending an SMS is currently not supported on WinCE"
 msgstr ""
 
-#: actions/smsdialog.cpp:53
+#: actions/smsdialog.cpp:49
 msgid "SMS text"
 msgstr ""
 
-#: actions/smsdialog.cpp:67
+#: actions/smsdialog.cpp:63
 #, kde-format
 msgid "Please insert SMS text for an SMS to the following number: %1"
 msgstr ""
 
-#: actions/smsdialog.cpp:100
+#: actions/smsdialog.cpp:96
 #, fuzzy, kde-format
 msgid "%1/%2 (%3 SMS)"
 msgstr "एसएमएस"
 
-#: contacteditor.cpp:166
+#: contacteditor.cpp:168
 msgid ""
 "The contact has been changed by someone else.\n"
 "What should be done?"
 msgstr ""
 
-#: contacteditor.cpp:167 contactgroupeditor.cpp:147
+#: contacteditor.cpp:169 contactgroupeditor.cpp:147
 msgid "Take over changes"
 msgstr ""
 
-#: contacteditor.cpp:168 contactgroupeditor.cpp:148
+#: contacteditor.cpp:170 contactgroupeditor.cpp:148
 msgid "Ignore and Overwrite changes"
 msgstr ""
 
-#: contacteditor.cpp:276 contactgroupeditor.cpp:284
+#: contacteditor.cpp:275 contacteditor.cpp:326 contactgroupeditor.cpp:284
 msgid "Select Address Book"
 msgstr ""
 
-#: contacteditor.cpp:277
+#: contacteditor.cpp:276 contacteditor.cpp:327
 msgid "Select the address book the new contact shall be saved in:"
 msgstr ""
 
-#: contacteditordialog.cpp:46
+#: contacteditordialog.cpp:48
 msgid "New Contact"
 msgstr "नवीन संपर्क"
 
-#: contacteditordialog.cpp:46
+#: contacteditordialog.cpp:48
 msgid "Edit Contact"
 msgstr ""
 
-#: contacteditordialog.cpp:61 contactgroupeditordialog.cpp:82
+#: contacteditordialog.cpp:63 contactgroupeditordialog.cpp:84
 #, fuzzy
 msgid "Add to:"
 msgstr "\"%1\" ला जोडा."
@@ -275,11 +275,11 @@ msgctxt "@label"
 msgid "Contact group members:"
 msgstr ""
 
-#: contactgroupeditordialog.cpp:64
+#: contactgroupeditordialog.cpp:66
 msgid "New Contact Group"
 msgstr "नवीन संपर्क समूह"
 
-#: contactgroupeditordialog.cpp:64
+#: contactgroupeditordialog.cpp:66
 msgid "Edit Contact Group"
 msgstr ""
 
@@ -312,7 +312,7 @@ msgstr "इमेल"
 msgid "Contact Group %1"
 msgstr ""
 
-#: contactgroupviewer.cpp:83 standardcontactformatter.cpp:215
+#: contactgroupviewer.cpp:83 standardcontactformatter.cpp:216
 msgid "Address Book"
 msgstr ""
 
@@ -320,48 +320,48 @@ msgstr ""
 msgid "Show Contact Group"
 msgstr ""
 
-#: contactstreemodel.cpp:242
+#: contactstreemodel.cpp:243
 msgctxt "@title:column address books overview"
 msgid "Address Books"
 msgstr ""
 
-#: contactstreemodel.cpp:252
+#: contactstreemodel.cpp:253
 msgctxt "@title:column name of a person"
 msgid "Name"
 msgstr "नाव"
 
-#: contactstreemodel.cpp:255
+#: contactstreemodel.cpp:256
 msgctxt "@title:column family name of a person"
 msgid "Family Name"
 msgstr ""
 
-#: contactstreemodel.cpp:258
+#: contactstreemodel.cpp:259
 msgctxt "@title:column given name of a person"
 msgid "Given Name"
 msgstr ""
 
-#: contactstreemodel.cpp:264
+#: contactstreemodel.cpp:265
 #, fuzzy
 msgctxt "@title:column home address of a person"
 msgid "Home"
 msgstr "मुख्य"
 
-#: contactstreemodel.cpp:267
+#: contactstreemodel.cpp:268
 msgctxt "@title:column work address of a person"
 msgid "Work"
 msgstr ""
 
-#: contactstreemodel.cpp:270
+#: contactstreemodel.cpp:271
 msgctxt "@title:column phone numbers of a person"
 msgid "Phone Numbers"
 msgstr ""
 
-#: contactstreemodel.cpp:273
+#: contactstreemodel.cpp:274
 msgctxt "@title:column the preferred email addresses of a person"
 msgid "Preferred EMail"
 msgstr ""
 
-#: contactstreemodel.cpp:276
+#: contactstreemodel.cpp:277
 msgctxt "@title:column all email addresses of a person"
 msgid "All EMails"
 msgstr ""
@@ -375,295 +375,295 @@ msgstr "संपर्क"
 msgid "Show Contact"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:197 editor/phoneeditwidget.cpp:86
+#: editor/addresseditwidget.cpp:198 editor/phoneeditwidget.cpp:86
 #, fuzzy
 msgctxt "@item:inlistbox Category of contact info field"
 msgid "Other..."
 msgstr "इतर"
 
-#: editor/addresseditwidget.cpp:254
+#: editor/addresseditwidget.cpp:255
 msgctxt "street/postal"
 msgid "New..."
 msgstr "नवीन..."
 
-#: editor/addresseditwidget.cpp:256
+#: editor/addresseditwidget.cpp:257
 #, fuzzy
 msgctxt "street/postal"
 msgid "Edit..."
 msgstr "संपादीत करा..."
 
-#: editor/addresseditwidget.cpp:258
+#: editor/addresseditwidget.cpp:259
 #, fuzzy
 msgctxt "street/postal"
 msgid "Delete"
 msgstr "काढून टाका"
 
-#: editor/addresseditwidget.cpp:316
+#: editor/addresseditwidget.cpp:317
 msgid "Do you really want to delete this address?"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:398
+#: editor/addresseditwidget.cpp:399
 msgctxt "street/postal"
 msgid "Edit Address"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:413
+#: editor/addresseditwidget.cpp:414
 #, kde-format
 msgctxt "<streetLabel>:"
 msgid "%1:"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:424
+#: editor/addresseditwidget.cpp:425
 #, kde-format
 msgctxt "<postOfficeBoxLabel>:"
 msgid "%1:"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:430
+#: editor/addresseditwidget.cpp:431
 #, kde-format
 msgctxt "<localityLabel>:"
 msgid "%1:"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:436
+#: editor/addresseditwidget.cpp:437
 #, kde-format
 msgctxt "<regionLabel>:"
 msgid "%1:"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:442
+#: editor/addresseditwidget.cpp:443
 #, kde-format
 msgctxt "<postalCodeLabel>:"
 msgid "%1:"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:448
+#: editor/addresseditwidget.cpp:449
 #, kde-format
 msgctxt "<countryLabel>:"
 msgid "%1:"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:454
+#: editor/addresseditwidget.cpp:455
 msgid "Edit Label..."
 msgstr ""
 
-#: editor/addresseditwidget.cpp:462
+#: editor/addresseditwidget.cpp:463
 msgctxt "street/postal"
 msgid "This is the preferred address"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:558
+#: editor/addresseditwidget.cpp:559
 msgctxt "street/postal"
 msgid "Edit Address Type"
 msgstr ""
 
-#: editor/addresseditwidget.cpp:568
+#: editor/addresseditwidget.cpp:569
 msgctxt "street/postal"
 msgid "Address Types"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:165
+#: editor/contacteditorwidget.cpp:164
 msgctxt "@title:tab"
 msgid "Contact"
 msgstr "संपर्क"
 
-#: editor/contacteditorwidget.cpp:167
+#: editor/contacteditorwidget.cpp:166
 msgctxt "@title:group Name related properties of a contact"
 msgid "Name"
 msgstr "नाव"
 
-#: editor/contacteditorwidget.cpp:168
+#: editor/contacteditorwidget.cpp:167
 msgctxt "@title:group"
 msgid "Internet"
 msgstr "महाजाळ"
 
-#: editor/contacteditorwidget.cpp:169
+#: editor/contacteditorwidget.cpp:168
 msgctxt "@title:group"
 msgid "Phones"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:182
+#: editor/contacteditorwidget.cpp:181
 #, fuzzy
 msgctxt "@label The name of a contact"
 msgid "Name:"
 msgstr "नाव :"
 
-#: editor/contacteditorwidget.cpp:194
+#: editor/contacteditorwidget.cpp:193
 #, fuzzy
 msgctxt "@label The display name of a contact"
 msgid "Display:"
 msgstr "दर्शवा"
 
-#: editor/contacteditorwidget.cpp:202
+#: editor/contacteditorwidget.cpp:201
 msgctxt "@label The nickname of a contact"
 msgid "Nickname:"
 msgstr "टोपणनाव :"
 
-#: editor/contacteditorwidget.cpp:210
+#: editor/contacteditorwidget.cpp:209
 msgctxt "@label The pronunciation of a contact's name"
 msgid "Pronunciation:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:221
+#: editor/contacteditorwidget.cpp:220
 msgctxt "@label The email address of a contact"
 msgid "Email:"
 msgstr "इमेल :"
 
-#: editor/contacteditorwidget.cpp:229
+#: editor/contacteditorwidget.cpp:228
 msgctxt "@label The homepage URL of a contact"
 msgid "Homepage:"
 msgstr "मुख्यपान :"
 
-#: editor/contacteditorwidget.cpp:237
+#: editor/contacteditorwidget.cpp:236
 msgctxt "@label The blog URL of a contact"
 msgid "Blog:"
 msgstr "ब्लॉग :"
 
-#: editor/contacteditorwidget.cpp:245
+#: editor/contacteditorwidget.cpp:244
 msgctxt "@label The instant messaging address of a contact"
 msgid "Messaging:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:264
+#: editor/contacteditorwidget.cpp:263
 msgctxt "@label The categories of a contact"
 msgid "Categories:"
 msgstr "विभाग :"
 
-#: editor/contacteditorwidget.cpp:278
+#: editor/contacteditorwidget.cpp:277
 msgid "Prefers to receive messages formatted as:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:282
+#: editor/contacteditorwidget.cpp:281
 #, fuzzy
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: editor/contacteditorwidget.cpp:282
+#: editor/contacteditorwidget.cpp:281
 #, fuzzy
 msgid "Plain Text"
 msgstr "साधा मजकूर (&T) ..."
 
-#: editor/contacteditorwidget.cpp:282
+#: editor/contacteditorwidget.cpp:281
 #, fuzzy
 msgid "HTML"
 msgstr "HTML"
 
-#: editor/contacteditorwidget.cpp:288
+#: editor/contacteditorwidget.cpp:287
 msgid "Allow remote content."
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:299
+#: editor/contacteditorwidget.cpp:298
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Location"
 msgstr "स्थान"
 
-#: editor/contacteditorwidget.cpp:301
+#: editor/contacteditorwidget.cpp:300
 msgctxt "@title:group"
 msgid "Addresses"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:302
+#: editor/contacteditorwidget.cpp:301
 msgctxt "@title:group"
 msgid "Coordinates"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:327
+#: editor/contacteditorwidget.cpp:326
 msgctxt "@title:tab"
 msgid "Business"
 msgstr "व्यवसाय"
 
-#: editor/contacteditorwidget.cpp:329
+#: editor/contacteditorwidget.cpp:328
 #, fuzzy
 msgctxt "@title:group General properties of a contact"
 msgid "General"
 msgstr "सामान्य"
 
-#: editor/contacteditorwidget.cpp:330
+#: editor/contacteditorwidget.cpp:329
 msgctxt "@title:group"
 msgid "Groupware"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:344
+#: editor/contacteditorwidget.cpp:343
 msgctxt "@label The organization of a contact"
 msgid "Organization:"
 msgstr "संस्था :"
 
-#: editor/contacteditorwidget.cpp:352
+#: editor/contacteditorwidget.cpp:351
 msgctxt "@label The profession of a contact"
 msgid "Profession:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:360
+#: editor/contacteditorwidget.cpp:359
 #, fuzzy
 msgctxt "@label The title of a contact"
 msgid "Title:"
 msgstr "शिर्षक :"
 
-#: editor/contacteditorwidget.cpp:368
+#: editor/contacteditorwidget.cpp:367
 msgctxt "@label The department of a contact"
 msgid "Department:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:376
+#: editor/contacteditorwidget.cpp:375
 msgctxt "@label The office of a contact"
 msgid "Office:"
 msgstr "ऑफीस :"
 
-#: editor/contacteditorwidget.cpp:384
+#: editor/contacteditorwidget.cpp:383
 msgctxt "@label The manager's name of a contact"
 msgid "Manager's name:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:392
+#: editor/contacteditorwidget.cpp:391
 msgctxt "@label The assistant's name of a contact"
 msgid "Assistant's name:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:401
+#: editor/contacteditorwidget.cpp:400
 #, fuzzy
 msgctxt "@label The free/busy information of a contact"
 msgid "Free/Busy:"
 msgstr "मोकळे/कार्यरत"
 
-#: editor/contacteditorwidget.cpp:416
+#: editor/contacteditorwidget.cpp:415
 msgctxt "@title:tab Personal properties of a contact"
 msgid "Personal"
 msgstr "खाजगी"
 
-#: editor/contacteditorwidget.cpp:418
+#: editor/contacteditorwidget.cpp:417
 msgctxt "@title:group Date related properties of a contact"
 msgid "Dates"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:419
+#: editor/contacteditorwidget.cpp:418
 msgctxt "@title:group Family related properties of a contact"
 msgid "Family"
 msgstr "परिवार"
 
-#: editor/contacteditorwidget.cpp:430
+#: editor/contacteditorwidget.cpp:429
 msgctxt "@label The birthdate of a contact"
 msgid "Birthdate:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:438
+#: editor/contacteditorwidget.cpp:437
 #, fuzzy
 msgctxt "@label The anniversary of a contact"
 msgid "Anniversary:"
 msgstr "वर्धापनदिन/स्मृतीदिन"
 
-#: editor/contacteditorwidget.cpp:450
+#: editor/contacteditorwidget.cpp:449
 msgctxt "@label The partner's name of a contact"
 msgid "Partner's name:"
 msgstr ""
 
-#: editor/contacteditorwidget.cpp:466
+#: editor/contacteditorwidget.cpp:465
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Notes"
 msgstr "नोंदी"
 
-#: editor/contacteditorwidget.cpp:478
+#: editor/contacteditorwidget.cpp:477
 msgctxt "@title:tab"
 msgid "Custom Fields"
 msgstr ""
@@ -722,18 +722,22 @@ msgstr "वेळ"
 msgid "DateTime"
 msgstr ""
 
-#: editor/customfieldseditwidget.cpp:68 editor/emaileditwidget.cpp:199
+#: editor/customfieldeditordialog.cpp:65
+msgid "Url"
+msgstr ""
+
+#: editor/customfieldseditwidget.cpp:68 editor/emaileditwidget.cpp:198
 #, fuzzy
 msgid "Add..."
 msgstr "जोडा..."
 
-#: editor/customfieldseditwidget.cpp:69 editor/emaileditwidget.cpp:203
+#: editor/customfieldseditwidget.cpp:69 editor/emaileditwidget.cpp:202
 #, fuzzy
 msgid "Edit..."
 msgstr "संपादीत करा..."
 
 #: editor/customfieldseditwidget.cpp:70 editor/dateeditwidget.cpp:51
-#: editor/emaileditwidget.cpp:208 editor/phoneeditwidget.cpp:295
+#: editor/emaileditwidget.cpp:207 editor/phoneeditwidget.cpp:295
 #: editor/soundeditwidget.cpp:167
 msgid "Remove"
 msgstr "काढून टाका"
@@ -747,203 +751,203 @@ msgstr ""
 msgid "Confirm Delete"
 msgstr "काढून टाकण्याविषयी खात्री करा"
 
-#: editor/customfieldsmodel.cpp:217
+#: editor/customfieldsmodel.cpp:219
 msgctxt "custom field title"
 msgid "Title"
 msgstr "शिर्षक"
 
-#: editor/customfieldsmodel.cpp:219
+#: editor/customfieldsmodel.cpp:221
 msgctxt "custom field value"
 msgid "Value"
 msgstr "मूल्य"
 
-#: editor/displaynameeditwidget.cpp:60
+#: editor/displaynameeditwidget.cpp:59
 msgid "Short Name"
 msgstr ""
 
-#: editor/displaynameeditwidget.cpp:61
+#: editor/displaynameeditwidget.cpp:60
 msgid "Full Name"
 msgstr "पूर्ण नाव"
 
-#: editor/displaynameeditwidget.cpp:62
+#: editor/displaynameeditwidget.cpp:61
 msgid "Reverse Name with Comma"
 msgstr ""
 
-#: editor/displaynameeditwidget.cpp:63
+#: editor/displaynameeditwidget.cpp:62
 msgid "Reverse Name"
 msgstr ""
 
-#: editor/displaynameeditwidget.cpp:64
+#: editor/displaynameeditwidget.cpp:63
 msgid "Organization"
 msgstr "संस्था"
 
-#: editor/displaynameeditwidget.cpp:65
+#: editor/displaynameeditwidget.cpp:64
 msgctxt "@item:inlistbox A custom name format"
 msgid "Custom"
 msgstr "ऐच्छिक"
 
-#: editor/emaileditwidget.cpp:177
+#: editor/emaileditwidget.cpp:176
 msgid "Edit Email Addresses"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:213
+#: editor/emaileditwidget.cpp:212
 msgid "Set as Standard"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:264
+#: editor/emaileditwidget.cpp:263
 msgid "Add Email"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:264
+#: editor/emaileditwidget.cpp:263
 msgid "New Email:"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:291
+#: editor/emaileditwidget.cpp:290
 msgid "Edit Email"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:292
+#: editor/emaileditwidget.cpp:291
 msgctxt "@label:textbox Inputfield for an email address"
 msgid "Email:"
 msgstr "इमेल :"
 
-#: editor/emaileditwidget.cpp:318
+#: editor/emaileditwidget.cpp:317
 #, kde-format
 msgid ""
 "<qt>Are you sure that you want to remove the email address <b>%1</b>?</qt>"
 msgstr ""
 
-#: editor/emaileditwidget.cpp:319
+#: editor/emaileditwidget.cpp:318
 #, fuzzy
 msgid "Confirm Remove"
 msgstr "काढून टाकण्याची खात्री करा"
 
-#: editor/emaileditwidget.cpp:321
+#: editor/emaileditwidget.cpp:320
 #, fuzzy
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
 
-#: editor/geoeditwidget.cpp:102
+#: editor/geoeditwidget.cpp:103
 msgctxt "@label"
 msgid "Latitude:"
 msgstr "अक्षांश :"
 
-#: editor/geoeditwidget.cpp:109
+#: editor/geoeditwidget.cpp:110
 msgctxt "@label"
 msgid "Longitude:"
 msgstr "रेषांश :"
 
-#: editor/geoeditwidget.cpp:116
+#: editor/geoeditwidget.cpp:117
 msgctxt "@label Change the coordinates"
 msgid "Change..."
 msgstr "बदला..."
 
-#: editor/geoeditwidget.cpp:149 editor/geoeditwidget.cpp:150
+#: editor/geoeditwidget.cpp:150 editor/geoeditwidget.cpp:151
 msgctxt "@label Coordinates are not available"
 msgid "n/a"
 msgstr "नाही"
 
-#: editor/geoeditwidget.cpp:152 editor/geoeditwidget.cpp:153
+#: editor/geoeditwidget.cpp:153 editor/geoeditwidget.cpp:154
 #, kde-format
 msgctxt "@label The formatted coordinates"
 msgid "%1 %2"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:211
+#: editor/geoeditwidget.cpp:212
 msgctxt "@title:window"
 msgid "Coordinate Selection"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:225
+#: editor/geoeditwidget.cpp:226
 msgctxt "@title:group Decimal representation of coordinates"
 msgid "Decimal"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:230 editor/geoeditwidget.cpp:259
+#: editor/geoeditwidget.cpp:231 editor/geoeditwidget.cpp:260
 msgctxt "@label:spinbox"
 msgid "Latitude:"
 msgstr "अक्षांश :"
 
-#: editor/geoeditwidget.cpp:242 editor/geoeditwidget.cpp:291
+#: editor/geoeditwidget.cpp:243 editor/geoeditwidget.cpp:292
 msgctxt "@label:spinbox"
 msgid "Longitude:"
 msgstr "रेषांश :"
 
-#: editor/geoeditwidget.cpp:254
+#: editor/geoeditwidget.cpp:255
 msgctxt "@title:group"
 msgid "Sexagesimal"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:287
+#: editor/geoeditwidget.cpp:288
 msgctxt "@item:inlistbox Latitude direction"
 msgid "North"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:288
+#: editor/geoeditwidget.cpp:289
 msgctxt "@item:inlistbox Latitude direction"
 msgid "South"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:317
+#: editor/geoeditwidget.cpp:318
 msgctxt "@item:inlistbox Longtitude direction"
 msgid "East"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:318
+#: editor/geoeditwidget.cpp:319
 msgctxt "@item:inlistbox Longtitude direction"
 msgid "West"
 msgstr ""
 
-#: editor/geoeditwidget.cpp:515
+#: editor/geoeditwidget.cpp:516
 msgctxt "@item:inlistbox Undefined location"
 msgid "Undefined"
 msgstr "व्याख्यारहित"
 
-#: editor/im/imeditordialog.cpp:40
+#: editor/im/imeditordialog.cpp:39
 msgctxt "@title:window"
 msgid "Edit Instant Messaging Addresses"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:49
+#: editor/im/imeditordialog.cpp:48
 #, fuzzy
 msgctxt "@action:button"
 msgid "Add..."
 msgstr "जोडा..."
 
-#: editor/im/imeditordialog.cpp:50
+#: editor/im/imeditordialog.cpp:49
 #, fuzzy
 msgctxt "@action:button"
 msgid "Edit..."
 msgstr "संपादीत करा..."
 
-#: editor/im/imeditordialog.cpp:51
+#: editor/im/imeditordialog.cpp:50
 msgctxt "@action:button"
 msgid "Remove"
 msgstr "काढून टाका"
 
-#: editor/im/imeditordialog.cpp:52
+#: editor/im/imeditordialog.cpp:51
 msgctxt "@action:button"
 msgid "Set as Standard"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:94
+#: editor/im/imeditordialog.cpp:93
 msgctxt "@title:window"
 msgid "Add IM Address"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:114
+#: editor/im/imeditordialog.cpp:113
 msgctxt "@title:window"
 msgid "Edit IM Address"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:137
+#: editor/im/imeditordialog.cpp:136
 #, kde-format
 msgctxt "@info Instant messaging"
 msgid ""
 "Do you really want to delete the selected <resource>%1</resource> address?"
 msgstr ""
 
-#: editor/im/imeditordialog.cpp:139
+#: editor/im/imeditordialog.cpp:138
 msgctxt "@title:window"
 msgid "Confirm Delete Resource"
 msgstr ""
@@ -1009,31 +1013,32 @@ msgstr ""
 msgid "Remove logo"
 msgstr ""
 
-#: editor/imeditwidget.cpp:47 editor/nameeditwidget.cpp:47
+#: editor/imeditwidget.cpp:47 editor/nameeditwidget.cpp:46
+#: editor/tagwidget.cpp:43
 msgid "..."
 msgstr ""
 
-#: editor/kdatepickerpopup.cpp:94
+#: editor/kdatepickerpopup.cpp:102
 msgctxt "@option today"
 msgid "&Today"
 msgstr "आज (&T)"
 
-#: editor/kdatepickerpopup.cpp:95
+#: editor/kdatepickerpopup.cpp:103
 msgctxt "@option tomorrow"
 msgid "To&morrow"
 msgstr "उद्या (&M)"
 
-#: editor/kdatepickerpopup.cpp:96
+#: editor/kdatepickerpopup.cpp:104
 msgctxt "@option next week"
 msgid "Next &Week"
 msgstr "पुढील आठवडा (&W)"
 
-#: editor/kdatepickerpopup.cpp:97
+#: editor/kdatepickerpopup.cpp:105
 msgctxt "@option next month"
 msgid "Next M&onth"
 msgstr "पुढील महिना (&O)"
 
-#: editor/kdatepickerpopup.cpp:105
+#: editor/kdatepickerpopup.cpp:113
 msgctxt "@option do not specify a date"
 msgid "No Date"
 msgstr "दिनांक नाही"
@@ -1067,8 +1072,7 @@ msgstr "टॅग काढून टाका"
 #, kde-format
 msgctxt "@info"
 msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
-msgstr ""
-"<resource>%1</resource> हा टॅग सर्व फाईल्समधून खरच काढून टाकायचा आहे का?"
+msgstr "<resource>%1</resource> हा टॅग सर्व फाईल्समधून खरच काढून टाकायचा आहे का?"
 
 #: editor/kedittagsdialog.cpp:208
 msgctxt "@title"
@@ -1207,7 +1211,7 @@ msgctxt "Name and email address of a contact"
 msgid "%1 <%2>"
 msgstr ""
 
-#: emailaddressselectionwidget.cpp:145
+#: emailaddressselectionwidget.cpp:146
 #, fuzzy
 msgctxt "@label Search in a list of contacts"
 msgid "Search:"
@@ -1228,52 +1232,52 @@ msgstr ""
 msgid "Id of the contacts resource containing the recent contacts collection."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:110
+#: standardcontactactionmanager.cpp:111
 msgid "Add Address Book Folder..."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:113
+#: standardcontactactionmanager.cpp:114
 msgid ""
 "Add a new address book folder to the currently selected address book folder."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:116
+#: standardcontactactionmanager.cpp:117
 msgctxt "@title:window"
 msgid "New Address Book Folder"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:120
+#: standardcontactactionmanager.cpp:121
 #, kde-format
 msgid "Could not create address book folder: %1"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:124
+#: standardcontactactionmanager.cpp:125
 msgid "Address book folder creation failed"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:129
+#: standardcontactactionmanager.cpp:130
 #, kde-format
 msgid "Copy Address Book Folder"
 msgid_plural "Copy %1 Address Book Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:132
+#: standardcontactactionmanager.cpp:133
 msgid "Copy the selected address book folders to the clipboard."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:136
+#: standardcontactactionmanager.cpp:137
 #, kde-format
 msgid "Delete Address Book Folder"
 msgid_plural "Delete %1 Address Book Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:139
+#: standardcontactactionmanager.cpp:140
 msgid "Delete the selected address book folders from the address book."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:143
+#: standardcontactactionmanager.cpp:144
 #, kde-format
 msgid ""
 "Do you really want to delete this address book folder and all its sub-"
@@ -1284,344 +1288,353 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:147
+#: standardcontactactionmanager.cpp:148
 msgctxt "@title:window"
 msgid "Delete address book folder?"
 msgid_plural "Delete address book folders?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:151
+#: standardcontactactionmanager.cpp:152
 #, kde-format
 msgid "Could not delete address book folder: %1"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:156
+#: standardcontactactionmanager.cpp:157
 msgid "Address book folder deletion failed"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:160
+#: standardcontactactionmanager.cpp:161
 #, kde-format
 msgid "Update Address Book Folder"
 msgid_plural "Update %1 Address Book Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:163
+#: standardcontactactionmanager.cpp:164
 msgid "Update the content of the selected address book folders."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:167
+#: standardcontactactionmanager.cpp:168
 #, kde-format
 msgid "Cut Address Book Folder"
 msgid_plural "Cut %1 Address Book Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:170
+#: standardcontactactionmanager.cpp:171
 msgid "Cut the selected address book folders from the address book."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:174
+#: standardcontactactionmanager.cpp:175
 msgid "Folder Properties..."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:176
+#: standardcontactactionmanager.cpp:177
 msgid ""
 "Open a dialog to edit the properties of the selected address book folder."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:179
+#: standardcontactactionmanager.cpp:180
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Address Book Folder %1"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:183 standardcontactactionmanager.cpp:337
+#: standardcontactactionmanager.cpp:184 standardcontactactionmanager.cpp:338
 #, kde-format
 msgid "Copy Contact"
 msgid_plural "Copy %1 Contacts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:185
+#: standardcontactactionmanager.cpp:186
 msgid "Copy the selected contacts to the clipboard."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:189 standardcontactactionmanager.cpp:345
+#: standardcontactactionmanager.cpp:190 standardcontactactionmanager.cpp:346
 #, kde-format
 msgid "Delete Contact"
 msgid_plural "Delete %1 Contacts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:191
+#: standardcontactactionmanager.cpp:192
 msgid "Delete the selected contacts from the address book."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:194
+#: standardcontactactionmanager.cpp:195
 #, kde-format
 msgid "Do you really want to delete the selected contact?"
 msgid_plural "Do you really want to delete %1 contacts?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:199
+#: standardcontactactionmanager.cpp:200
 msgctxt "@title:window"
 msgid "Delete Contact?"
 msgid_plural "Delete Contacts?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:203
+#: standardcontactactionmanager.cpp:204
 #, kde-format
 msgid "Could not delete contact: %1"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:207
+#: standardcontactactionmanager.cpp:208
 msgid "Contact deletion failed"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:211 standardcontactactionmanager.cpp:349
+#: standardcontactactionmanager.cpp:212 standardcontactactionmanager.cpp:350
 #, kde-format
 msgid "Cut Contact"
 msgid_plural "Cut %1 Contacts"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:213
+#: standardcontactactionmanager.cpp:214
 msgid "Cut the selected contacts from the address book."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:217
+#: standardcontactactionmanager.cpp:218
 msgid "Add &Address Book..."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:219
+#: standardcontactactionmanager.cpp:220
 msgid ""
 "Add a new address book<p>You will be presented with a dialog where you can "
 "select the type of the address book that shall be added.</p>"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:224
+#: standardcontactactionmanager.cpp:225
 msgctxt "@title:window"
 msgid "Add Address Book"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:228
+#: standardcontactactionmanager.cpp:229
 #, kde-format
 msgid "Could not create address book: %1"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:232
+#: standardcontactactionmanager.cpp:233
 msgid "Address book creation failed"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:237
+#: standardcontactactionmanager.cpp:238
 #, kde-format
 msgid "&Delete Address Book"
 msgid_plural "&Delete %1 Address Books"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:240
+#: standardcontactactionmanager.cpp:241
 msgid ""
 "Delete the selected address books<p>The currently selected address books "
 "will be deleted, along with all the contacts and contact groups they contain."
 "</p>"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:245
+#: standardcontactactionmanager.cpp:246
 #, kde-format
 msgid "Do you really want to delete this address book?"
 msgid_plural "Do you really want to delete %1 address books?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:250
+#: standardcontactactionmanager.cpp:251
 msgctxt "@title:window"
 msgid "Delete Address Book?"
 msgid_plural "Delete Address Books?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:256
+#: standardcontactactionmanager.cpp:257
 msgid "Address Book Properties..."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:258
+#: standardcontactactionmanager.cpp:259
 msgid "Open a dialog to edit properties of the selected address book."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:262
+#: standardcontactactionmanager.cpp:263
 #, kde-format
 msgid "Update Address Book"
 msgid_plural "Update %1 Address Books"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:266
+#: standardcontactactionmanager.cpp:267
 msgid "Updates the content of all folders of the selected address books."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:272
+#: standardcontactactionmanager.cpp:273
 #, kde-format
 msgid "Could not paste contact: %1"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:276
+#: standardcontactactionmanager.cpp:277
 msgid "Paste failed"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:338 standardcontactactionmanager.cpp:341
+#: standardcontactactionmanager.cpp:339 standardcontactactionmanager.cpp:342
 msgid "Copy Contact To"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:352 standardcontactactionmanager.cpp:355
+#: standardcontactactionmanager.cpp:353 standardcontactactionmanager.cpp:356
 msgid "Move Contact To"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:360
+#: standardcontactactionmanager.cpp:361
 #, kde-format
 msgid "Copy Group"
 msgid_plural "Copy %1 Groups"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:363 standardcontactactionmanager.cpp:366
+#: standardcontactactionmanager.cpp:364 standardcontactactionmanager.cpp:367
 msgid "Copy Group To"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:370
+#: standardcontactactionmanager.cpp:371
 #, kde-format
 msgid "Delete Group"
 msgid_plural "Delete %1 Groups"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:374
+#: standardcontactactionmanager.cpp:375
 #, kde-format
 msgid "Cut Group"
 msgid_plural "Cut %1 Groups"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactactionmanager.cpp:377 standardcontactactionmanager.cpp:380
+#: standardcontactactionmanager.cpp:378 standardcontactactionmanager.cpp:381
 msgid "Move Group To"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:383
+#: standardcontactactionmanager.cpp:384
 #, fuzzy
 msgid "Edit Group..."
 msgstr "समूह संपादीत करा"
 
-#: standardcontactactionmanager.cpp:564
+#: standardcontactactionmanager.cpp:511
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr ""
+
+#: standardcontactactionmanager.cpp:511
+msgid "Failed to store contact"
+msgstr ""
+
+#: standardcontactactionmanager.cpp:572
 #, fuzzy
 msgid "New &Contact..."
 msgstr "नवीन संपर्क"
 
-#: standardcontactactionmanager.cpp:566
+#: standardcontactactionmanager.cpp:574
 msgid ""
 "Create a new contact<p>You will be presented with a dialog where you can add "
 "data about a person, including addresses and phone numbers.</p>"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:574
+#: standardcontactactionmanager.cpp:582
 #, fuzzy
 msgid "New &Group..."
 msgstr "नवीन समूह"
 
-#: standardcontactactionmanager.cpp:576
+#: standardcontactactionmanager.cpp:584
 msgid ""
 "Create a new group<p>You will be presented with a dialog where you can add a "
 "new group of contacts.</p>"
 msgstr ""
 
-#: standardcontactactionmanager.cpp:584
+#: standardcontactactionmanager.cpp:592
 msgid "Edit Contact..."
 msgstr ""
 
-#: standardcontactactionmanager.cpp:585
+#: standardcontactactionmanager.cpp:593
 msgid ""
 "Edit the selected contact<p>You will be presented with a dialog where you "
 "can edit the data stored about a person, including addresses and phone "
 "numbers.</p>"
 msgstr ""
 
-#: standardcontactformatter.cpp:119
+#: standardcontactformatter.cpp:120
 #, kde-format
 msgid "(One year old)"
 msgid_plural "(%1 years old)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: standardcontactformatter.cpp:131
+#: standardcontactformatter.cpp:132
 msgctxt "@info:tooltip"
 msgid "Send SMS"
 msgstr "SMS पाठवा"
 
-#: standardcontactformatter.cpp:147
+#: standardcontactformatter.cpp:148
 msgctxt "a contact's email address"
 msgid "Email"
 msgstr "इमेल"
 
-#: standardcontactformatter.cpp:164
+#: standardcontactformatter.cpp:165
 msgid "Homepage"
 msgstr "मुख्यपान"
 
-#: standardcontactformatter.cpp:170
+#: standardcontactformatter.cpp:171
 msgid "Blog Feed"
 msgstr ""
 
-#: standardcontactformatter.cpp:188
+#: standardcontactformatter.cpp:189
 msgctxt "@info:tooltip"
 msgid "Show address on map"
 msgstr ""
 
-#: standardcontactformatter.cpp:200
+#: standardcontactformatter.cpp:201
 #, fuzzy
 msgid "Notes"
 msgstr "नोंदी"
 
-#: standardcontactformatter.cpp:207
+#: standardcontactformatter.cpp:208
 msgid "Department"
 msgstr ""
 
-#: standardcontactformatter.cpp:208
+#: standardcontactformatter.cpp:209
 msgid "Profession"
 msgstr ""
 
-#: standardcontactformatter.cpp:209
+#: standardcontactformatter.cpp:210
 msgid "Assistant's Name"
 msgstr ""
 
-#: standardcontactformatter.cpp:210
+#: standardcontactformatter.cpp:211
 msgid "Manager's Name"
 msgstr ""
 
-#: standardcontactformatter.cpp:211
+#: standardcontactformatter.cpp:212
 msgctxt "Wife/Husband/..."
 msgid "Partner's Name"
 msgstr ""
 
-#: standardcontactformatter.cpp:212
+#: standardcontactformatter.cpp:213
 msgid "Office"
 msgstr "ऑफीस"
 
-#: standardcontactformatter.cpp:213
+#: standardcontactformatter.cpp:214
 msgid "IM Address"
 msgstr ""
 
-#: standardcontactformatter.cpp:214
+#: standardcontactformatter.cpp:215
 msgid "Anniversary"
 msgstr "वर्धापनदिन/स्मृतीदिन"
 
-#: standardcontactformatter.cpp:261
+#: standardcontactformatter.cpp:264
 msgctxt "Boolean value"
 msgid "yes"
 msgstr "हो"
 
-#: standardcontactformatter.cpp:263
+#: standardcontactformatter.cpp:266
 msgctxt "Boolean value"
 msgid "no"
 msgstr "नाही"
@@ -1633,4 +1646,3 @@ msgstr ""
 #: waitingoverlay.cpp:51
 msgid "<p style=\"color: white;\"><b>Waiting for operation</b><br/></p>"
 msgstr ""
-

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-04 03:01+0100\n"
+"POT-Creation-Date: 2013-03-06 02:40+0100\n"
 "PO-Revision-Date: 2013-03-07 18:40+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -113,6 +113,96 @@ msgstr ""
 msgid "Developer"
 msgstr "विकासकर्ता"
 
+#: src/common/buttonshortcut.cpp:248
+msgctxt "Tablet button triggers a left mouse button click."
+msgid "Left Mouse Button Click"
+msgstr ""
+
+#: src/common/buttonshortcut.cpp:250
+msgctxt "Tablet button triggers a middle mouse button click."
+msgid "Middle Mouse Button Click"
+msgstr ""
+
+#: src/common/buttonshortcut.cpp:252
+msgctxt "Tablet button triggers a right mouse button click."
+msgid "Right Mouse Button Click"
+msgstr ""
+
+#: src/common/buttonshortcut.cpp:254
+msgctxt "Tablet button triggers mouse wheel up."
+msgid "Mouse Wheel Up"
+msgstr ""
+
+#: src/common/buttonshortcut.cpp:256
+msgctxt "Tablet button triggers mouse wheel down."
+msgid "Mouse Wheel Down"
+msgstr ""
+
+#: src/common/buttonshortcut.cpp:258
+#, kde-format
+msgctxt "Tablet button triggers a click of mouse button with number #"
+msgid "Mouse Button %1 Click"
+msgstr ""
+
+#: src/kcmodule/buttonactionselectiondialog.cpp:48
+msgctxt "The action that will be assigned to a tablet button."
+msgid "Select Button Action"
+msgstr ""
+
+#: src/kcmodule/buttonactionselectionwidget.cpp:154
+msgctxt "Select a mouse button from a dropwdown."
+msgid "Click to select..."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ButtonActionSelectionWidget)
+#: src/kcmodule/buttonactionselectionwidget.ui:14
+msgid "Select Key Function"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/kcmodule/buttonactionselectionwidget.ui:35
+msgid "Select Button Action"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ctrlModifierCheckBox)
+#: src/kcmodule/buttonactionselectionwidget.ui:100
+msgid "Ctrl"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, altModifierCheckBox)
+#: src/kcmodule/buttonactionselectionwidget.ui:123
+msgid "Alt"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, metaModifierCheckBox)
+#: src/kcmodule/buttonactionselectionwidget.ui:146
+msgid "Meta"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, shiftModifierCheckBox)
+#: src/kcmodule/buttonactionselectionwidget.ui:169
+msgid "Shift"
+msgstr ""
+
+#. i18n: Select an action which will be assigned to a tablet button.
+#. i18n: ectx: property (placeholderText), widget (Wacom::ButtonActionDisplayWidget, actionNameLineEdit)
+#: src/kcmodule/buttonactionselectionwidget.ui:218
+msgid "Please select an action."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KKeySequenceWidget, shortcutSelectorWidget)
+#: src/kcmodule/buttonactionselectionwidget.ui:231
+msgid ""
+"Click on the button and press the key or key combination to assign a "
+"shortcut."
+msgstr ""
+
+#. i18n: Click to assign an action (shortcut) to a tablet button.
+#. i18n: ectx: property (placeholderText), widget (Wacom::ButtonActionDisplayWidget, actionNameDisplayWidget)
+#: src/kcmodule/buttonactionselectorwidget.ui:56
+msgid "Click to assign an action."
+msgstr ""
+
 #: src/kcmodule/calibrationdialog.cpp:56
 msgid ""
 "Please tab into all four corners to calibrate the tablet.\n"
@@ -201,243 +291,135 @@ msgstr ""
 msgid "In this module you can configure your Wacom tablet profiles"
 msgstr ""
 
-#: src/kcmodule/padbuttonwidget.cpp:201 src/kcmodule/penwidget.cpp:328
-#, fuzzy
-msgctxt "Disable button function"
-msgid "Disable"
-msgstr "अकार्यान्वित करा"
-
-#: src/kcmodule/padbuttonwidget.cpp:202 src/kcmodule/penwidget.cpp:332
-#, fuzzy
-msgctxt "Indicates the use of one of the standard buttons (1-32)"
-msgid "Button..."
-msgstr "बटन"
-
-#: src/kcmodule/padbuttonwidget.cpp:203 src/kcmodule/penwidget.cpp:333
-msgctxt "Indicates the use of a specific key/keystroke"
-msgid "Keystroke..."
-msgstr ""
-
 #. i18n: ectx: property (windowTitle), widget (QWidget, PadButtonWidget)
-#: src/kcmodule/padbuttonwidget.ui:14 src/kcmodule/tabletwidget.cpp:330
+#: src/kcmodule/padbuttonwidget.ui:20
 msgid "Pad Buttons"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox)
-#: src/kcmodule/padbuttonwidget.ui:23
+#: src/kcmodule/padbuttonwidget.ui:29
 msgid "Express Keys"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button1Label)
-#: src/kcmodule/padbuttonwidget.ui:31
+#: src/kcmodule/padbuttonwidget.ui:43
 #, fuzzy
-msgid "Button 1:"
+msgid "Button 1"
 msgstr "बटन"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, button1ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:41
-msgid "Set the action for Button 1"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, button2Label)
 #. i18n: ectx: property (text), widget (QLabel, labelButton2)
-#: src/kcmodule/padbuttonwidget.ui:58 src/kcmodule/penwidget.ui:358
+#. i18n: ectx: property (text), widget (QLabel, button2Label)
+#: src/kcmodule/padbuttonwidget.ui:56 src/kcmodule/penwidget.ui:62
 #, fuzzy
-msgid "Button 2:"
+msgid "Button 2"
 msgstr "बटन"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, button2ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:68
-msgid "Set the action for Button 2"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, button3Label)
 #. i18n: ectx: property (text), widget (QLabel, labelButton3)
-#: src/kcmodule/padbuttonwidget.ui:85 src/kcmodule/penwidget.ui:331
+#. i18n: ectx: property (text), widget (QLabel, button3Label)
+#: src/kcmodule/padbuttonwidget.ui:69 src/kcmodule/penwidget.ui:43
 #, fuzzy
-msgid "Button 3:"
+msgid "Button 3"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button3ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:95
-msgid "Set the action for Button 3"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button4Label)
-#: src/kcmodule/padbuttonwidget.ui:112
+#: src/kcmodule/padbuttonwidget.ui:82
 #, fuzzy
-msgid "Button 4:"
+msgid "Button 4"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button4ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:122
-msgid "Set the action for Button 4"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button5Label)
-#: src/kcmodule/padbuttonwidget.ui:139
+#: src/kcmodule/padbuttonwidget.ui:95
 #, fuzzy
-msgid "Button 5:"
+msgid "Button 5"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button5ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:149
-msgid "Set the action for Button 5"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button6Label)
-#: src/kcmodule/padbuttonwidget.ui:183
+#: src/kcmodule/padbuttonwidget.ui:223
 #, fuzzy
-msgid "Button 6:"
+msgid "Button 6"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button6ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:193
-msgid "Set the action for Button 6"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button7Label)
-#: src/kcmodule/padbuttonwidget.ui:210
+#: src/kcmodule/padbuttonwidget.ui:236
 #, fuzzy
-msgid "Button 7:"
+msgid "Button 7"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button7ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:220
-msgid "Set the action for Button 7"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button8Label)
-#: src/kcmodule/padbuttonwidget.ui:237
+#: src/kcmodule/padbuttonwidget.ui:249
 #, fuzzy
-msgid "Button 8:"
+msgid "Button 8"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button8ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:247
-msgid "Set the action for Button 8"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button9Label)
-#: src/kcmodule/padbuttonwidget.ui:264
+#: src/kcmodule/padbuttonwidget.ui:262
 #, fuzzy
-msgid "Button 9:"
+msgid "Button 9"
 msgstr "बटन"
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button9ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:274
-msgid "Set the action for Button 9"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, button10Label)
-#: src/kcmodule/padbuttonwidget.ui:291
+#: src/kcmodule/padbuttonwidget.ui:275
 #, fuzzy
-msgid "Button 10:"
+msgid "Button 10"
 msgstr "बटन"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, button10ComboBox)
-#: src/kcmodule/padbuttonwidget.ui:301
-msgid "Set the action for Button 10"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, tochStripGroupBox)
-#: src/kcmodule/padbuttonwidget.ui:323
+#. i18n: ectx: property (title), widget (QGroupBox, touchStripGroupBox)
+#: src/kcmodule/padbuttonwidget.ui:353
 msgid "Touch Strip"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, stripLUpLabel)
-#: src/kcmodule/padbuttonwidget.ui:341
-msgid "Strip Left Up:"
+#. i18n: ectx: property (text), widget (QLabel, leftStripUpLabel)
+#: src/kcmodule/padbuttonwidget.ui:371
+msgid "Left Strip Up"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, stripLUpComboBox)
-#: src/kcmodule/padbuttonwidget.ui:351
-msgid "Set the up action for the left strip"
+#. i18n: ectx: property (text), widget (QLabel, leftStripDownLabel)
+#: src/kcmodule/padbuttonwidget.ui:388
+msgid "Left Strip Down"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, stripRUpLabel)
-#: src/kcmodule/padbuttonwidget.ui:374
-msgid "Strip Right Up:"
+#. i18n: ectx: property (text), widget (QLabel, rightStripUpLabel)
+#: src/kcmodule/padbuttonwidget.ui:436
+msgid "Right Strip Up"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, stripRUpComboBox)
-#: src/kcmodule/padbuttonwidget.ui:384
-msgid "Set the up action for the right strip"
+#. i18n: ectx: property (text), widget (QLabel, rightStripDownLabel)
+#: src/kcmodule/padbuttonwidget.ui:453
+msgid "Right Strip Down"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, stripLDnLabel)
-#: src/kcmodule/padbuttonwidget.ui:414
-msgid "Strip Left Down:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, stripRDnLabel)
-#: src/kcmodule/padbuttonwidget.ui:424
-msgid "Strip Right Down:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, stripRDnComboBox)
-#: src/kcmodule/padbuttonwidget.ui:434
-msgid "Set the down action for the right strip"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, stripLDnComboBox)
-#: src/kcmodule/padbuttonwidget.ui:464
-msgid "Set the down action for the left strip"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, tochRingGroupBox)
-#: src/kcmodule/padbuttonwidget.ui:477
+#. i18n: ectx: property (title), widget (QGroupBox, touchRingGroupBox)
+#: src/kcmodule/padbuttonwidget.ui:476
 msgid "Touch Ring"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, ringDnComboBox)
-#: src/kcmodule/padbuttonwidget.ui:534
-msgid "Set the down action for the touch ring"
+#. i18n: ectx: property (text), widget (QLabel, ringUpLabel)
+#: src/kcmodule/padbuttonwidget.ui:487
+msgid "Ring Up"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, ringUpComboBox)
-#: src/kcmodule/padbuttonwidget.ui:544
-msgid "Set the up action for the touch ring"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, ringUpLabeL)
-#: src/kcmodule/padbuttonwidget.ui:554
-msgid "Ring Up:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, ringDnLabel)
-#: src/kcmodule/padbuttonwidget.ui:564
-msgid "Ring Down:"
+#. i18n: ectx: property (text), widget (QLabel, ringDownLabel)
+#: src/kcmodule/padbuttonwidget.ui:527
+msgid "Ring Down"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, wheelGroupBox)
-#: src/kcmodule/padbuttonwidget.ui:591
+#: src/kcmodule/padbuttonwidget.ui:549
 #, fuzzy
 msgid "Wheel"
 msgstr "चक्र (&W)"
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, wheelDnComboBox)
-#: src/kcmodule/padbuttonwidget.ui:648
-msgid "Set the down action for the wheel"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, wheelUpComboBox)
-#: src/kcmodule/padbuttonwidget.ui:658
-msgid "Set the up action for the wheel"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, wheelUpLabeL)
-#: src/kcmodule/padbuttonwidget.ui:668
-msgctxt "Action when the Wheel is used upwards"
-msgid "Up:"
-msgstr "वर :"
-
-#. i18n: ectx: property (text), widget (QLabel, wheelDnLabel)
-#: src/kcmodule/padbuttonwidget.ui:678
+#. i18n: ectx: property (text), widget (QLabel, wheelUpLabel)
+#: src/kcmodule/padbuttonwidget.ui:557
 #, fuzzy
-msgctxt "Action when the Wheel is used downwards"
-msgid "Down:"
-msgstr "खाली"
+msgid "Wheel Up"
+msgstr "चक्र (&W)"
+
+#. i18n: ectx: property (text), widget (QLabel, wheelDownLabel)
+#: src/kcmodule/padbuttonwidget.ui:594
+#, fuzzy
+msgid "Wheel Down"
+msgstr "चक्र (&W)"
 
 #: src/kcmodule/padmapping.cpp:376
 #, kde-format
@@ -461,7 +443,7 @@ msgid "Screen 2 TabletArea"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PadMapping)
-#: src/kcmodule/padmapping.ui:14 src/kcmodule/tabletwidget.cpp:339
+#: src/kcmodule/padmapping.ui:14 src/kcmodule/tabletwidget.cpp:340
 msgid "Pad Mapping"
 msgstr ""
 
@@ -608,148 +590,90 @@ msgid ""
 "Use the drag handles to change the selected area."
 msgstr ""
 
-#: src/kcmodule/penwidget.cpp:329
-msgctxt "Left mouse click"
-msgid "Left Click"
-msgstr ""
-
-#: src/kcmodule/penwidget.cpp:330
-msgctxt "Middle mouse click"
-msgid "Middle Click"
-msgstr ""
-
-#: src/kcmodule/penwidget.cpp:331
-msgctxt "Right mouse click"
-msgid "Right Click"
-msgstr ""
-
-#: src/kcmodule/penwidget.cpp:334
-msgctxt "Function to toggle between absolute/relative mousemode"
-msgid "Mode Toggle"
-msgstr ""
-
-#: src/kcmodule/penwidget.cpp:335
-msgctxt "Function to toggle between single/multi display support"
-msgid "Display Toggle"
-msgstr ""
-
 #. i18n: ectx: property (windowTitle), widget (QWidget, PenWidget)
 #: src/kcmodule/penwidget.ui:14
 msgid "Pen Settings"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox)
+#: src/kcmodule/penwidget.ui:28
+msgid "Button Settings"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, tpcCheckBox)
+#: src/kcmodule/penwidget.ui:94
+msgid ""
+"If selected, the stylus must be in contact with the tablet for a stylus side "
+"button to work.\n"
+"If deselected, stylus buttons will work once the stylus is in proximity of "
+"the tablet."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, tpcCheckBox)
+#: src/kcmodule/penwidget.ui:97
+msgid "Tap to execute action."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, eraserBox)
-#: src/kcmodule/penwidget.ui:86
+#: src/kcmodule/penwidget.ui:167
 msgid "Eraser Feel"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, eraserSlider)
 #. i18n: ectx: property (toolTip), widget (QSlider, tipSlider)
-#: src/kcmodule/penwidget.ui:114 src/kcmodule/penwidget.ui:485
+#: src/kcmodule/penwidget.ui:189 src/kcmodule/penwidget.ui:385
 msgid ""
 "Set the minimum pressure necessary to generate a Button event for the stylus/"
 "tip, eraser, or touch.\n"
 " The pressure levels of all tablets are normalized to 2048 levels "
-"irregardless of the actual hardware supported levels. \n"
+"irregardless of the actual hardware supported levels.\n"
 "This parameter is independent of the PressureCurve parameter."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelSlow_2)
 #. i18n: ectx: property (text), widget (QLabel, labelSlow_3)
-#: src/kcmodule/penwidget.ui:144 src/kcmodule/penwidget.ui:515
+#: src/kcmodule/penwidget.ui:219 src/kcmodule/penwidget.ui:415
 msgctxt "slow movement of the cursor (minimal value)"
 msgid "Soft"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelFast_2)
 #. i18n: ectx: property (text), widget (QLabel, labelFast_3)
-#: src/kcmodule/penwidget.ui:170 src/kcmodule/penwidget.ui:541
+#: src/kcmodule/penwidget.ui:245 src/kcmodule/penwidget.ui:441
 msgctxt "fast movement of the cursor (maximal value)"
 msgid "Firm"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, eraserPressureButton)
 #. i18n: ectx: property (toolTip), widget (QPushButton, tipPressureButton)
-#: src/kcmodule/penwidget.ui:199 src/kcmodule/penwidget.ui:570
+#: src/kcmodule/penwidget.ui:277 src/kcmodule/penwidget.ui:479
 msgid "Defines the pressure sensitivity with a bezier curve"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, eraserPressureButton)
 #. i18n: ectx: property (text), widget (QPushButton, tipPressureButton)
-#: src/kcmodule/penwidget.ui:202 src/kcmodule/penwidget.ui:573
-msgid "Edit Press Curve..."
+#: src/kcmodule/penwidget.ui:280 src/kcmodule/penwidget.ui:482
+msgid "Edit Pressure Curve..."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, DblClickBox)
-#: src/kcmodule/penwidget.ui:220
-msgid "Double Click Distance"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QSlider, doubleClickSlider)
-#: src/kcmodule/penwidget.ui:235
-msgid ""
-"The time difference between two tip clicks that still counts as double click"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelClickDistOff)
-#: src/kcmodule/penwidget.ui:268
-msgctxt "doubleclick with the tip disabled"
-msgid "Small"
-msgstr "लहान"
-
-#. i18n: ectx: property (text), widget (QLabel, labelClickDistLarge)
-#: src/kcmodule/penwidget.ui:294
-#, fuzzy
-msgctxt ""
-"large distance between two tip clicks to still count is as double click"
-msgid "Big"
-msgstr "मोठा"
-
-#. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox)
-#: src/kcmodule/penwidget.ui:322
-msgid "Button Settings"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button3ComboBox)
-#: src/kcmodule/penwidget.ui:341
-msgid "Action defined by the 3rd stylus button"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, button2ComboBox)
-#: src/kcmodule/penwidget.ui:368
-msgid "Action defined by the 2nd stylus button"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_Cursor)
-#: src/kcmodule/penwidget.ui:388
-msgid "Cursor Settings"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, tpcCheckBox)
-#: src/kcmodule/penwidget.ui:394
-msgid ""
-"If enabled pressing a button is recognized when the pen is above the tablet. "
-"If disabled the click and tap function is active"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, tpcCheckBox)
-#: src/kcmodule/penwidget.ui:397
-msgid "use Hover Click"
+#. i18n: ectx: property (title), widget (QGroupBox, trackingModeGroupBox)
+#: src/kcmodule/penwidget.ui:314
+msgid "Tracking Mode"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioButton_Absolute)
-#: src/kcmodule/penwidget.ui:420 src/kcmodule/touchwidget.ui:51
+#: src/kcmodule/penwidget.ui:320 src/kcmodule/touchwidget.ui:51
 msgid "The mouse cursor will move exactly to the position on the tablet."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_Absolute)
-#: src/kcmodule/penwidget.ui:423 src/kcmodule/touchwidget.ui:54
+#: src/kcmodule/penwidget.ui:323
 msgctxt "absolute pen movement (pen mode)"
-msgid "Absolute (Pen Mode)"
+msgid "Map to Screen (Absolute Mode)"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioButton_Relative)
-#: src/kcmodule/penwidget.ui:434 src/kcmodule/touchwidget.ui:65
+#: src/kcmodule/penwidget.ui:334 src/kcmodule/touchwidget.ui:65
 msgid ""
 "The mouse cursor can be moved freely. The tablet working space does not "
 "represent the screen space\n"
@@ -758,13 +682,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioButton_Relative)
-#: src/kcmodule/penwidget.ui:437 src/kcmodule/touchwidget.ui:68
+#: src/kcmodule/penwidget.ui:337
 msgctxt "relative pen movement (mouse mode)"
-msgid "Relative (Mouse Mode)"
+msgid "Map to Cursor (Relative Mode)"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/kcmodule/penwidget.ui:460
+#. i18n: ectx: property (title), widget (QGroupBox, tipFeelGroupBox)
+#: src/kcmodule/penwidget.ui:363
 msgid "Tip Feel"
 msgstr ""
 
@@ -861,147 +785,6 @@ msgstr ""
 msgid "Map to screen:"
 msgstr ""
 
-#: src/kcmodule/selectkeybutton.cpp:34
-msgid "Select Key Button"
-msgstr ""
-
-#: src/kcmodule/selectkeybutton.cpp:37
-#, fuzzy, kde-format
-msgctxt "Pad Button action"
-msgid "Button %1"
-msgstr "बटन"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/kcmodule/selectkeybutton.ui:17
-msgid "Select the default button action that should be used by this action."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/kcmodule/selectkeybutton.ui:42
-msgid "Select Button:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, kcombobox)
-#: src/kcmodule/selectkeybutton.ui:52
-msgid "Select the standard button action that should be used by this action"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, SelectKeyStroke)
-#: src/kcmodule/selectkeystroke.cpp:39 src/kcmodule/selectkeystroke.ui:14
-msgid "Select Key Function"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:46
-msgctxt ""
-"none means no special modifier is used. instead use the values from the Key "
-"Sequence Widget"
-msgid "none"
-msgstr "काही नाही"
-
-#: src/kcmodule/selectkeystroke.cpp:47
-#, fuzzy
-msgctxt "ALT key"
-msgid "ALT"
-msgstr "Alt"
-
-#: src/kcmodule/selectkeystroke.cpp:48
-#, fuzzy
-msgctxt "CTRL key"
-msgid "CTRL"
-msgstr "Ctrl"
-
-#: src/kcmodule/selectkeystroke.cpp:49
-msgctxt "SHIFT key"
-msgid "SHIFT"
-msgstr "SHIFT"
-
-#: src/kcmodule/selectkeystroke.cpp:50
-#, fuzzy
-msgctxt "META key"
-msgid "META"
-msgstr "Meta"
-
-#: src/kcmodule/selectkeystroke.cpp:51
-msgctxt "ALT+CTRL key combination"
-msgid "ALT+CTRL"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:52
-msgctxt "ALT+SHIFT key combination"
-msgid "ALT+SHIFT"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:53
-msgctxt "ALT+META key combination"
-msgid "ALT+META"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:54
-msgctxt "CTRL+SHIFT key combination"
-msgid "CTRL+SHIFT"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:55
-msgctxt "CTRL+META key combination"
-msgid "CTRL+META"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:56
-msgctxt "SHIFT+META key combination"
-msgid "SHIFT+META"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:57
-msgctxt "ALT+CTRL+META key combination"
-msgid "ALT+CTRL+META"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:58
-msgctxt "ALT+CTRL+SHIFT key combination"
-msgid "ALT+CTRL+SHIFT"
-msgstr ""
-
-#: src/kcmodule/selectkeystroke.cpp:59
-msgctxt "CTRL+META+SHIFT key combination"
-msgid "CTRL+META+SHIFT"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/kcmodule/selectkeystroke.ui:22
-msgid ""
-"Select either one of the special key modifiers alone or enter a specific key "
-"or key combination into the shortcut field.\n"
-"\n"
-"The selected keys will be send if you activate this action."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/kcmodule/selectkeystroke.ui:50
-msgid "Key Modifier:"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBox)
-#: src/kcmodule/selectkeystroke.ui:60
-msgid "Select the special modifier or modifier combination used by this action"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/kcmodule/selectkeystroke.ui:67
-msgid "or"
-msgstr "किंवा"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/kcmodule/selectkeystroke.ui:74
-msgid "Shortcut:"
-msgstr "शॉर्टकट :"
-
-#. i18n: ectx: property (toolTip), widget (KKeySequenceWidget, kkeysequencewidget)
-#: src/kcmodule/selectkeystroke.ui:81
-msgid ""
-"Click on the field and press the key or keycombo that should be used with "
-"this action"
-msgstr ""
-
 #: src/kcmodule/selectquotetext.cpp:34
 msgid "Select Quote Text"
 msgstr ""
@@ -1022,20 +805,23 @@ msgid "Enter the text that should be pasted when the action is used."
 msgstr ""
 
 #: src/kcmodule/tabletwidget.cpp:132
+msgid "KDE tablet service not found"
+msgstr ""
+
+#: src/kcmodule/tabletwidget.cpp:133
 msgid ""
-"D-Bus connection to the kded daemon not available.\n"
-"\n"
-"Please start the Wacom tablet daemon and try again.\n"
-"The daemon is responsible for tablet detection and profile support."
+"Please start the Wacom tablet service and try again.\n"
+"The daemon is required for tablet detection and profile support."
 msgstr ""
 
 #: src/kcmodule/tabletwidget.cpp:138
+msgid "No tablet device detected"
+msgstr ""
+
+#: src/kcmodule/tabletwidget.cpp:139
 msgid ""
-"No tablet device was found.\n"
-"\n"
-"Please connect the device before you start this module.\n"
-"If the device is already connected refer to the help file for any further "
-"information."
+"Please connect a tablet device to continue.\n"
+"If your device is already connected it is currently unsupported."
 msgstr ""
 
 #: src/kcmodule/tabletwidget.cpp:152
@@ -1046,21 +832,25 @@ msgstr ""
 msgid "Profile name:"
 msgstr "प्रोफाईल नाव:"
 
-#: src/kcmodule/tabletwidget.cpp:325
+#: src/kcmodule/tabletwidget.cpp:326
 #, fuzzy
 msgctxt "Basic overview page for the tablet hardware"
 msgid "General"
 msgstr "सामान्य"
 
-#: src/kcmodule/tabletwidget.cpp:326
-msgid "Pen"
-msgstr "पेन"
+#: src/kcmodule/tabletwidget.cpp:327
+msgid "Stylus"
+msgstr ""
 
-#: src/kcmodule/tabletwidget.cpp:336
+#: src/kcmodule/tabletwidget.cpp:331
+msgid "Express Buttons"
+msgstr ""
+
+#: src/kcmodule/tabletwidget.cpp:337
 msgid "Touch"
 msgstr ""
 
-#: src/kcmodule/tabletwidget.cpp:341
+#: src/kcmodule/tabletwidget.cpp:342
 msgid "Touch Mapping"
 msgstr ""
 
@@ -1113,6 +903,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, scrollDirection)
 #: src/kcmodule/touchwidget.ui:44
 msgid "Invert Scrolldirection"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_Absolute)
+#: src/kcmodule/touchwidget.ui:54
+msgctxt "absolute pen movement (pen mode)"
+msgid "Absolute (Pen Mode)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_Relative)
+#: src/kcmodule/touchwidget.ui:68
+msgctxt "relative pen movement (mouse mode)"
+msgid "Relative (Mouse Mode)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -1200,3 +1002,70 @@ msgstr ""
 msgid "Profile <b>%1</b> does not exist"
 msgstr ""
 
+#, fuzzy
+#~ msgctxt "Disable button function"
+#~ msgid "Disable"
+#~ msgstr "अकार्यान्वित करा"
+
+#, fuzzy
+#~ msgctxt "Indicates the use of one of the standard buttons (1-32)"
+#~ msgid "Button..."
+#~ msgstr "बटन"
+
+#~ msgctxt "Action when the Wheel is used upwards"
+#~ msgid "Up:"
+#~ msgstr "वर :"
+
+#, fuzzy
+#~ msgctxt "Action when the Wheel is used downwards"
+#~ msgid "Down:"
+#~ msgstr "खाली"
+
+#~ msgctxt "doubleclick with the tip disabled"
+#~ msgid "Small"
+#~ msgstr "लहान"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "large distance between two tip clicks to still count is as double click"
+#~ msgid "Big"
+#~ msgstr "मोठा"
+
+#, fuzzy
+#~ msgctxt "Pad Button action"
+#~ msgid "Button %1"
+#~ msgstr "बटन"
+
+#~ msgctxt ""
+#~ "none means no special modifier is used. instead use the values from the "
+#~ "Key Sequence Widget"
+#~ msgid "none"
+#~ msgstr "काही नाही"
+
+#, fuzzy
+#~ msgctxt "ALT key"
+#~ msgid "ALT"
+#~ msgstr "Alt"
+
+#, fuzzy
+#~ msgctxt "CTRL key"
+#~ msgid "CTRL"
+#~ msgstr "Ctrl"
+
+#~ msgctxt "SHIFT key"
+#~ msgid "SHIFT"
+#~ msgstr "SHIFT"
+
+#, fuzzy
+#~ msgctxt "META key"
+#~ msgid "META"
+#~ msgstr "Meta"
+
+#~ msgid "or"
+#~ msgstr "किंवा"
+
+#~ msgid "Shortcut:"
+#~ msgstr "शॉर्टकट :"
+
+#~ msgid "Pen"
+#~ msgstr "पेन"
