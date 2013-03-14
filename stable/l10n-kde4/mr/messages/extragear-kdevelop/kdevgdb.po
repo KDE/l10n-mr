@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-22 12:34+0100\n"
+"POT-Creation-Date: 2013-01-13 09:19+0100\n"
 "PO-Revision-Date: 2013-03-07 18:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -41,7 +41,7 @@ msgid "Debugger Configuration"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: debuggerconfigwidget.ui:26 debuggerplugin.cpp:414
+#: debuggerconfigwidget.ui:26 debuggerplugin.cpp:429
 msgid "Debugger"
 msgstr ""
 
@@ -241,19 +241,15 @@ msgstr ""
 msgid "GDB"
 msgstr "GDB"
 
-#: debuggerplugin.cpp:165
-msgid "Memory"
-msgstr ""
-
-#: debuggerplugin.cpp:198
+#: debuggerplugin.cpp:213
 msgid "Examine Core File..."
 msgstr ""
 
-#: debuggerplugin.cpp:199
+#: debuggerplugin.cpp:214
 msgid "Examine core file"
 msgstr ""
 
-#: debuggerplugin.cpp:200
+#: debuggerplugin.cpp:215
 msgid ""
 "<b>Examine core file</b><p>This loads a core file, which is typically "
 "created after the application has crashed, e.g. with a segmentation fault. "
@@ -261,73 +257,73 @@ msgid ""
 "crashed, allowing you to do a post-mortem analysis.</p>"
 msgstr ""
 
-#: debuggerplugin.cpp:210
+#: debuggerplugin.cpp:225
 msgid "Attach to Process"
 msgstr ""
 
-#: debuggerplugin.cpp:211
+#: debuggerplugin.cpp:226
 msgid "Attach to process..."
 msgstr ""
 
-#: debuggerplugin.cpp:212
+#: debuggerplugin.cpp:227
 msgid ""
 "<b>Attach to process</b><p>Attaches the debugger to a running process.</p>"
 msgstr ""
 
-#: debuggerplugin.cpp:244
+#: debuggerplugin.cpp:259
 msgid "KDevelop"
 msgstr ""
 
-#: debuggerplugin.cpp:317
+#: debuggerplugin.cpp:332
 #, kde-format
 msgid "Evaluate: %1"
 msgstr ""
 
-#: debuggerplugin.cpp:319
+#: debuggerplugin.cpp:334
 msgid ""
 "<b>Evaluate expression</b><p>Shows the value of the expression under the "
 "cursor.</p>"
 msgstr ""
 
-#: debuggerplugin.cpp:322
+#: debuggerplugin.cpp:337
 #, kde-format
 msgid "Watch: %1"
 msgstr ""
 
-#: debuggerplugin.cpp:324
+#: debuggerplugin.cpp:339
 msgid ""
 "<b>Watch expression</b><p>Adds an expression under the cursor to the "
 "Variables/Watch list.</p>"
 msgstr ""
 
-#: debuggerplugin.cpp:354
+#: debuggerplugin.cpp:369
 msgid "Choose a core file to examine..."
 msgstr ""
 
-#: debuggerplugin.cpp:361
+#: debuggerplugin.cpp:376
 #, kde-format
 msgid "Examining core file %1"
 msgstr ""
 
-#: debuggerplugin.cpp:367
+#: debuggerplugin.cpp:382
 msgid "Debug core file"
 msgstr ""
 
-#: debuggerplugin.cpp:375
+#: debuggerplugin.cpp:390
 msgid "Choose a process to attach to..."
 msgstr ""
 
-#: debuggerplugin.cpp:384
+#: debuggerplugin.cpp:399
 #, kde-format
 msgid "Not attaching to process %1: cannot attach the debugger to itself."
 msgstr ""
 
-#: debuggerplugin.cpp:392
+#: debuggerplugin.cpp:407
 #, kde-format
 msgid "Attaching to process %1"
 msgstr ""
 
-#: debuggerplugin.cpp:398
+#: debuggerplugin.cpp:413
 #, kde-format
 msgid "Debug process %1"
 msgstr ""
@@ -352,7 +348,7 @@ msgid "Enable tracing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: debuggertracingdialog.ui:30 memviewdlg.cpp:102
+#: debuggertracingdialog.ui:30 memviewdlg.cpp:120
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -362,7 +358,7 @@ msgid "Custom format string"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, okButton)
-#: debuggertracingdialog.ui:47 memviewdlg.cpp:99
+#: debuggertracingdialog.ui:47 memviewdlg.cpp:117
 msgid "OK"
 msgstr "ठीक आहे"
 
@@ -686,102 +682,41 @@ msgstr "चालवा"
 msgid "Debugger Toolbar"
 msgstr ""
 
-#: memviewdlg.cpp:81
+#: memviewdlg.cpp:99
 msgid "Start"
 msgstr "सुरु करा"
 
-#: memviewdlg.cpp:87
+#: memviewdlg.cpp:105
 msgid "Amount"
 msgstr "संख्या"
 
-#: memviewdlg.cpp:127
+#: memviewdlg.cpp:146
 msgid "Memory view"
 msgstr ""
 
-#: memviewdlg.cpp:270
+#: memviewdlg.cpp:308
 #, kde-format
 msgid "%2 (1 byte)"
 msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (1 बाइट)"
 msgstr[1] "%2 (%1 बाइटस्)"
 
-#: memviewdlg.cpp:317
-#, fuzzy
-#| msgid "Reload"
-msgid "&Reload"
-msgstr "पुन्हा दाखल करा"
-
-#: memviewdlg.cpp:326
-msgid "&Format"
-msgstr ""
-
-#: memviewdlg.cpp:329
-msgid "&Binary"
-msgstr ""
-
-#: memviewdlg.cpp:334
-msgid "&Octal"
-msgstr ""
-
-#: memviewdlg.cpp:339
-msgid "&Decimal"
-msgstr ""
-
-#: memviewdlg.cpp:344
-msgid "&Hexadecimal"
-msgstr ""
-
-#: memviewdlg.cpp:360
-msgid "&Grouping"
-msgstr ""
-
-#: memviewdlg.cpp:363
-msgid "&0"
-msgstr ""
-
-#: memviewdlg.cpp:368
-msgid "&1"
-msgstr ""
-
 #: memviewdlg.cpp:373
-msgid "&2"
-msgstr ""
-
-#: memviewdlg.cpp:378
-msgid "&4"
-msgstr ""
-
-#: memviewdlg.cpp:383
-msgid "&8"
-msgstr ""
-
-#: memviewdlg.cpp:388
-msgid "1&6"
-msgstr ""
-
-#: memviewdlg.cpp:403
-msgid "Write changes"
-msgstr ""
-
-#: memviewdlg.cpp:407
 msgid "Change memory range"
 msgstr ""
 
-#: memviewdlg.cpp:411
+#: memviewdlg.cpp:378
+#, fuzzy
+#| msgid "Reload"
+msgid "Reload"
+msgstr "पुन्हा दाखल करा"
+
+#: memviewdlg.cpp:383
 msgid "Close this view"
 msgstr ""
 
-#: memviewdlg.cpp:481
-msgid "Memory viewer"
-msgstr ""
-
-#: memviewdlg.cpp:485
-msgid "New memory viewer"
-msgstr ""
-
-#: memviewdlg.cpp:486
-msgctxt "@info:tooltip"
-msgid "Open a new memory viewer."
+#: memviewdlg.cpp:443
+msgid "Special debugger views"
 msgstr ""
 
 #: processselection.cpp:38

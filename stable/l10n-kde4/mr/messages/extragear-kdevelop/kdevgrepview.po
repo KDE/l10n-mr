@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-09 02:49+0100\n"
+"POT-Creation-Date: 2013-03-09 10:34+0100\n"
 "PO-Revision-Date: 2013-03-13 16:38+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -37,9 +37,8 @@ msgstr ""
 msgid "Search..."
 msgstr "शोधा..."
 
-#: grepdialog.cpp:117 grepdialog.cpp:436 grepviewplugin.cpp:48
-#: grepviewplugin.cpp:73
-msgid "Find/Replace in Files"
+#: grepdialog.cpp:117 grepviewplugin.cpp:48
+msgid "Find/Replace In Files"
 msgstr ""
 
 #: grepdialog.cpp:433
@@ -48,6 +47,10 @@ msgid "%2, and %1 more item"
 msgid_plural "%2, and %1 more items"
 msgstr[0] ""
 msgstr[1] ""
+
+#: grepdialog.cpp:436 grepviewplugin.cpp:74
+msgid "Find/Replace in Files"
+msgstr ""
 
 #: grepjob.cpp:100
 msgid "Find in Files"
@@ -213,17 +216,17 @@ msgstr ""
 
 #: grepviewplugin.cpp:63
 msgid ""
-"Opens the 'Find/Replace in files' dialog. There you can enter a regular "
-"expression which is then searched for within all files in the directories "
-"you specify. Matches will be displayed, you can switch to a match directly. "
-"You can also do replacement."
+"<b>Find/Replace in files</b><p>Opens the 'Find/Replace in files' dialog. "
+"There you can enter a regular expression which is then searched for within "
+"all files in the directories you specify. Matches will be displayed, you can "
+"switch to a match directly. You can also do replacement.</p>"
 msgstr ""
 
-#: grepviewplugin.cpp:103 grepviewplugin.cpp:124
-msgid "Find/Replace in This Folder"
+#: grepviewplugin.cpp:104 grepviewplugin.cpp:125
+msgid "Find and replace in this folder"
 msgstr ""
 
-#: grepviewplugin.cpp:114
+#: grepviewplugin.cpp:115
 msgid "&Find/Replace in Files"
 msgstr ""
 
@@ -384,51 +387,45 @@ msgstr ""
 msgid "Synchronize with current document directory."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, depthLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: grepwidget.ui:217
-msgid "Depth:"
-msgstr "खोली :"
-
-#. i18n: Full recursion will be used. For folder-based searches, that means searching in the target folder and all the subfolders, their subfolders, and so on.
-#. i18n: ectx: property (specialValueText), widget (QSpinBox, depthSpin)
-#: grepwidget.ui:233
-msgid "Full"
-msgstr "पूर्ण"
+msgid "Recursive:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, limitToProjectLabel)
-#: grepwidget.ui:246
+#: grepwidget.ui:240
 msgid "Limit to project files:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: grepwidget.ui:275
+#: grepwidget.ui:269
 msgid "Files:"
 msgstr "फाईल्स :"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, filesCombo)
-#: grepwidget.ui:288
+#: grepwidget.ui:282
 msgid "Files filter."
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, filesCombo)
-#: grepwidget.ui:291
+#: grepwidget.ui:285
 msgid ""
 "Enter the file name pattern of the files to search here. You may give "
 "several patterns separated by commas or spaces."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: grepwidget.ui:304
+#: grepwidget.ui:298
 msgid "Exclude:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, excludeCombo)
-#: grepwidget.ui:317
+#: grepwidget.ui:311
 msgid "Files pattern to exclude"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KComboBox, excludeCombo)
-#: grepwidget.ui:320
+#: grepwidget.ui:314
 msgid ""
 "Enter the file name pattern of the files to exclude from the search here. "
 "You may give several patterns separated by commas or spaces.<p>Every pattern "
@@ -437,12 +434,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, replacementTemplateEdit)
-#: grepwidget.ui:397
+#: grepwidget.ui:391
 msgid "Enter the replacement template."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: grepwidget.ui:404
+#: grepwidget.ui:398
 msgid "Replacement Template:"
 msgstr ""
 
@@ -452,3 +449,8 @@ msgctxt "@title:menu"
 msgid "Edit"
 msgstr "संपादन"
 
+#~ msgid "Depth:"
+#~ msgstr "खोली :"
+
+#~ msgid "Full"
+#~ msgstr "पूर्ण"
