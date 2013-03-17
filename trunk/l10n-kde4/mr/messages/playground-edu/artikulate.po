@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-15 04:54+0100\n"
+"POT-Creation-Date: 2013-03-17 03:54+0100\n"
 "PO-Revision-Date: 2013-03-11 18:04+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -49,99 +49,118 @@ msgstr ""
 msgid "Original Author"
 msgstr "मूळ लेखक"
 
-#: src/mainwindow.cpp:70
+#: src/mainwindow.cpp:70 src/qml/Editor.qml:224
 msgid "Course Editor"
 msgstr ""
 
-#: src/models/coursemodel.cpp:112 src/models/languagemodel.cpp:97
+#: src/models/coursemodel.cpp:112 src/models/languagemodel.cpp:95
 #: src/models/phonemegroupmodel.cpp:95 src/models/phonemeunitmodel.cpp:120
-#: src/models/phrasemodel.cpp:101 src/models/unitmodel.cpp:97
+#: src/models/phrasemodel.cpp:101 src/models/skeletonmodel.cpp:94
+#: src/models/unitmodel.cpp:97
 msgid "<No title>"
 msgstr ""
 
-#: src/models/coursemodel.cpp:114 src/models/languagemodel.cpp:99
+#: src/models/coursemodel.cpp:114 src/models/languagemodel.cpp:97
 #: src/models/phonemegroupmodel.cpp:97 src/models/phonemeunitmodel.cpp:122
-#: src/models/phrasemodel.cpp:103 src/models/unitmodel.cpp:99
+#: src/models/phrasemodel.cpp:103 src/models/skeletonmodel.cpp:96
+#: src/models/unitmodel.cpp:99
 #, kde-format
 msgid "<p>%1</p>"
 msgstr ""
 
-#: src/models/coursemodel.cpp:182 src/models/languagemodel.cpp:162
+#: src/models/coursemodel.cpp:182 src/models/languagemodel.cpp:160
 #: src/models/phonemegroupmodel.cpp:159 src/models/phonemeunitmodel.cpp:190
-#: src/models/phrasemodel.cpp:167 src/models/unitmodel.cpp:163
+#: src/models/phrasemodel.cpp:167 src/models/skeletonmodel.cpp:162
+#: src/models/unitmodel.cpp:163
 msgid "Title"
 msgstr "शिर्षक"
 
-#: src/qml/CourseSelector.qml:70
+#: src/qml/CourseSelector.qml:77
 msgid "Please select a language."
 msgstr ""
 
-#: src/qml/CourseSelector.qml:73
+#: src/qml/CourseSelector.qml:80
 msgid "There are no courses for the selected language."
 msgstr ""
 
-#: src/qml/Editor.qml:33 src/qml/Editor.qml:34 src/qml/Editor.qml:35
-#: src/qml/Editor.qml:42 src/qml/Editor.qml:53 src/qml/Editor.qml:62
+#: src/qml/Editor.qml:34 src/qml/Editor.qml:35 src/qml/Editor.qml:36
+#: src/qml/Editor.qml:43 src/qml/Editor.qml:54 src/qml/Editor.qml:63
 msgid "Unselected"
 msgstr ""
 
-#: src/qml/Editor.qml:111
+#: src/qml/Editor.qml:101
 #, kde-format
 msgid "<strong>Language:</strong> %1"
 msgstr "<strong>भाषा :</strong> %1"
 
-#: src/qml/Editor.qml:125
+#: src/qml/Editor.qml:115
 #, kde-format
 msgid "<strong>Course:</strong> %1"
 msgstr ""
 
-#: src/qml/Editor.qml:129
+#: src/qml/Editor.qml:119
 msgid "Update from Course Prototype"
 msgstr ""
 
-#: src/qml/Editor.qml:144
+#: src/qml/Editor.qml:132
+#, fuzzy, kde-format
+#| msgid "<strong>Current Unit:</strong> %1"
+msgid "<strong>Skeleton:</strong> %1"
+msgstr "<strong>वर्तमान एकक :</strong> %1"
+
+#: src/qml/Editor.qml:151
 msgid "OK"
 msgstr "ठीक आहे"
 
-#: src/qml/Editor.qml:161
+#: src/qml/Editor.qml:168
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/qml/Editor.qml:178 src/qml/Trainer.qml:82
+#: src/qml/Editor.qml:185 src/qml/Trainer.qml:77
 msgid "Close Course"
 msgstr ""
 
-#: src/qml/Editor.qml:193
+#: src/qml/Editor.qml:200
 msgid "Close Editor"
 msgstr ""
 
-#: src/qml/Editor.qml:212
-msgid "<h1>Course Editor</h1>"
-msgstr ""
+#: src/qml/Editor.qml:246
+#, fuzzy
+#| msgid "Add Unit"
+msgid "Units"
+msgstr "एकक जोडा"
 
-#: src/qml/Editor.qml:221
-msgid "<h2>Select Language</h2>"
-msgstr ""
-
-#: src/qml/Editor.qml:240
-msgid "<h2>Select Course</h2>"
-msgstr ""
-
-#: src/qml/Editor.qml:243 src/ui/newcoursedialog.cpp:48
-msgid "New Course"
-msgstr ""
-
-#: src/qml/Editor.qml:266
-msgid "<h2>Units</h2>"
-msgstr "<h2>एकके</h2>"
-
-#: src/qml/Editor.qml:269
+#: src/qml/Editor.qml:250
 msgid "Add Unit"
 msgstr "एकक जोडा"
 
-#: src/qml/Editor.qml:288
+#: src/qml/Editor.qml:269
 msgid "Current Unit:"
 msgstr "वर्तमान एकक :"
+
+#: src/qml/EditorSelector.qml:57
+msgid "Edit Courses"
+msgstr ""
+
+#: src/qml/EditorSelector.qml:66
+msgid "Edit Skeletons"
+msgstr ""
+
+#: src/qml/EditorSelector.qml:81
+msgid "Select Course Language:"
+msgstr ""
+
+#: src/qml/EditorSelector.qml:101
+msgid "Select Course:"
+msgstr ""
+
+#: src/qml/EditorSelector.qml:105 src/ui/newcoursedialog.cpp:48
+msgid "New Course"
+msgstr ""
+
+#: src/qml/EditorSelector.qml:127
+msgid "Select Skeleton:"
+msgstr ""
 
 #: src/qml/PhraseEditor.qml:117
 msgid "Type:"
@@ -167,65 +186,73 @@ msgstr "वाक्य"
 msgid "Paragraph"
 msgstr "परिच्छेद"
 
-#: src/qml/TrainerCourse.qml:56
+#: src/qml/SkeletonSelector.qml:72
+msgid "There are no course skeletons available."
+msgstr ""
+
+#: src/qml/TrainerCourse.qml:45
 #, kde-format
 msgid "Course: %1"
 msgstr ""
 
-#: src/qml/TrainerCourse.qml:64
+#: src/qml/TrainerCourse.qml:53
 msgid "unselected"
 msgstr "न निवडलेले"
 
-#: src/qml/TrainerCourse.qml:68
+#: src/qml/TrainerCourse.qml:57
 #, kde-format
-msgid "<strong>Current Unit:</strong> %1"
-msgstr "<strong>वर्तमान एकक :</strong> %1"
+msgid "Unit: %1"
+msgstr ""
 
-#: src/qml/TrainerCourse.qml:82
+#: src/qml/TrainerCourse.qml:80
+msgid "Change Unit"
+msgstr ""
+
+#: src/qml/TrainerCourse.qml:109
 msgid "<strong>Niveau</strong>"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:61
+#: src/qml/TrainerStart.qml:59
 msgid "Welcome to"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:65
+#: src/qml/TrainerStart.qml:63
 msgid "Artikulate!"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:85
+#: src/qml/TrainerStart.qml:83
 msgid "No language selected"
 msgstr "कोणतीही भाषा निवडली नाही"
 
-#: src/qml/TrainerStart.qml:105
+#: src/qml/TrainerStart.qml:103
 msgid "No course selected"
 msgstr "कोणताही कोर्स निवडला नाही"
 
-#: src/qml/TrainerStart.qml:122
+#: src/qml/TrainerStart.qml:120
 msgid "Select a language:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:125
+#: src/qml/TrainerStart.qml:123
 msgid "Select a course:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:129
+#: src/qml/TrainerStart.qml:127
 msgid "Select a scenario unit:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:132
+#: src/qml/TrainerStart.qml:130
 msgid "Select a phoneme unit:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:135
+#: src/qml/TrainerStart.qml:133
 msgid "Training is starting..."
 msgstr ""
 
-#: src/qml/TrainerStart.qml:194
+#: src/qml/TrainerStart.qml:193
 msgid "Scenario Training Units"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:201
+#: src/qml/TrainerStart.qml:200
 msgid "Phoneme Training Units"
 msgstr ""
 
@@ -251,6 +278,9 @@ msgstr "शिर्षक :"
 #: src/ui/newcoursedialog.ui:37
 msgid "Description:"
 msgstr "वर्णन :"
+
+#~ msgid "<h2>Units</h2>"
+#~ msgstr "<h2>एकके</h2>"
 
 #, fuzzy
 #~| msgid "<h2>Units</h2>"
