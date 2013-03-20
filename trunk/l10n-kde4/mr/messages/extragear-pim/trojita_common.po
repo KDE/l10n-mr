@@ -90,33 +90,33 @@ msgctxt "Composer::SenderIdentitiesModel|"
 msgid "Signature"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:83
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:84
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "%2, %3"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:103
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:104
 msgctxt "Gui::AttachmentView|"
 msgid "Download"
 msgstr "डाउनलोड"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:104
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:105
 msgctxt "Gui::AttachmentView|"
 msgid "Open Directly"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:153
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:154
 msgctxt "Gui::AttachmentView|"
 msgid "Save Attachment"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:158
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:159
 msgctxt "Gui::AttachmentView|"
 msgid "Can't save attachment"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:158
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/AttachmentView.cpp:159
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid ""
@@ -1005,9 +1005,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:47
+#, fuzzy
 msgctxt "ImapPage|"
-msgid "IMAP Ser&ver"
-msgstr ""
+msgid "Ser&ver"
+msgstr "SMTP सर्व्हर :"
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:57
 #, fuzzy
@@ -1090,9 +1091,10 @@ msgid ""
 msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:159
+#, fuzzy
 msgctxt "ImapPage|"
-msgid "IMAP Username"
-msgstr ""
+msgid "Username"
+msgstr "वापरकर्ता नाव"
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:162
 msgctxt "ImapPage|"
@@ -1100,9 +1102,12 @@ msgid "User name to log in to the IMAP server"
 msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:172
+#, fuzzy
+#| msgctxt "Gui::XtConnectPage|"
+#| msgid "Password"
 msgctxt "ImapPage|"
-msgid "IMAP Password"
-msgstr ""
+msgid "Password"
+msgstr "गुप्तशब्द"
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:175
 msgctxt "ImapPage|"
@@ -1211,7 +1216,7 @@ msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:261
 msgctxt "ImapPage|"
-msgid "Blacklisted &Capabilities"
+msgid "Extension &Blacklist"
 msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsImapPage.ui:274
@@ -1230,7 +1235,7 @@ msgstr "पद्धत"
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsOutgoingPage.ui:32
 #, fuzzy
 msgctxt "OutgoingPage|"
-msgid "SMTP Ser&ver"
+msgid "Ser&ver"
 msgstr "SMTP सर्व्हर :"
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsOutgoingPage.ui:42
@@ -1241,7 +1246,7 @@ msgstr "पोर्ट"
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsOutgoingPage.ui:52
 msgctxt "OutgoingPage|"
-msgid "SMTP &Auth"
+msgid "&Authenticate"
 msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/SettingsOutgoingPage.ui:62
@@ -1640,253 +1645,260 @@ msgctxt "Gui::MainWindow|"
 msgid "&Free Access"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:198
+#. a debugging tool showing the full contents of the whole IMAP server; all folders, messages and their parts
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:199
 msgctxt "Gui::MainWindow|"
 msgid "Show Full &Tree Window"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:203
+#. list of active "tasks", entities which are performing certain action like downloading a message or syncing a mailbox
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:205
 msgctxt "Gui::MainWindow|"
 msgid "Show ImapTask t&ree"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:208
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:210
 msgctxt "Gui::MainWindow|"
 msgid "Show IMAP protocol &log"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:213
+#. file to save the debug log into
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:216
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Log &into %1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:217
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:220
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server In&formation..."
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:226
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:229
 msgctxt "Gui::MainWindow|"
 msgid "Show &Toolbar"
 msgstr "साधनपट्टी दर्शवा (&T)"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:231
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:234
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Settings..."
 msgstr "संयोजना"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:236
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:239
 msgctxt "Gui::MainWindow|"
 msgid "&Edit draft..."
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:268
+#. "mailbox" as a "folder of messages", not as a "mail account"
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:272
 msgctxt "Gui::MainWindow|"
 msgid "Create &Child Mailbox..."
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:271
+#. "mailbox" as a "folder of messages", not as a "mail account"
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:276
 msgctxt "Gui::MainWindow|"
 msgid "Create &New Mailbox..."
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:274
+#. "mailbox" as a "folder of messages", not as a "mail account"
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:280
 msgctxt "Gui::MainWindow|"
-msgid "&Delete Mailbox"
+msgid "&Remove Mailbox"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:278
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:284
 msgctxt "Gui::MainWindow|"
 msgid "&Synchronize with xTuple"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:298
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:304
 msgctxt "Gui::MainWindow|"
 msgid "Show Messages in &Threads"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:309
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:315
 msgctxt "Gui::MainWindow|"
 msgid "&Ascending"
 msgstr "चढत्या क्रमाने (&A)"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:312
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:318
 msgctxt "Gui::MainWindow|"
 msgid "&Descending"
 msgstr "उतरत्या क्रमाने (&D)"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:317
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:323
 msgctxt "Gui::MainWindow|"
 msgid "&No sorting"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:319
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:325
 msgctxt "Gui::MainWindow|"
 msgid "Sorted by &Threading"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:321
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:327
 msgctxt "Gui::MainWindow|"
 msgid "A&rrival"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:323
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:329
 msgctxt "Gui::MainWindow|"
 msgid "&Cc (Carbon Copy)"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:325
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:331
 msgctxt "Gui::MainWindow|"
 msgid "Date from &Message Headers"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:327
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:333
 msgctxt "Gui::MainWindow|"
 msgid "&From Address"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:329
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:335
 msgctxt "Gui::MainWindow|"
 msgid "&Size"
 msgstr "आकार (&S)"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:331
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:337
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "S&ubject"
 msgstr "विषय"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:333
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:339
 msgctxt "Gui::MainWindow|"
 msgid "T&o Address"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:338
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:344
 msgctxt "Gui::MainWindow|"
 msgid "&Hide Read Messages"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:348
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:354
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Compact"
 msgstr "संक्षिप्त"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:352
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:358
 msgctxt "Gui::MainWindow|"
 msgid "&Wide"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:361
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:367
 msgctxt "Gui::MainWindow|"
 msgid "Show Only S&ubscribed Folders"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:365
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:371
 msgctxt "Gui::MainWindow|"
 msgid "Su&bscribed"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:370
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:376
 msgctxt "Gui::MainWindow|"
 msgid "&About Trojitá..."
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:373
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:379
 msgctxt "Gui::MainWindow|"
 msgid "&Donate to the project"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:417
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:423
 msgctxt "Gui::MainWindow|"
 msgid "&IMAP"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:425
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:431
 msgctxt "Gui::MainWindow|"
 msgid "Network Access"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:426
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:432
 msgctxt "Gui::MainWindow|"
 msgid "&Network Access"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:430
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:436
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Debugging"
 msgstr "डिबगिंग"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:442
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:448
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&View"
 msgstr "दृश्य (&V)"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:445
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:451
 msgctxt "Gui::MainWindow|"
 msgid "&Layout"
 msgstr "रचना (&L):"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:452
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:458
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "S&orting"
 msgstr "अनुक्रमीत करणे :"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:470
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:476
 msgctxt "Gui::MainWindow|"
 msgid "&Mailbox"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:475
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:481
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "&Help"
 msgstr "मदत (&H)"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:539
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:545
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:592
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:599
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:598
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:605
 msgctxt "Gui::MainWindow|"
 msgid "Cache Error"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:592
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:598
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to create directory %1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:599
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:605
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Failed to set safe permissions on cache directory %1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:839
+#. "ALERT" is a special warning which we're required to show to the user
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:846
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:845
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:852
 msgctxt "Gui::MainWindow|"
 msgid "Connection Error"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:858
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:865
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:859
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:866
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -1896,67 +1908,67 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:873
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:880
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:912
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:919
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Password"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:913
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:920
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Please provide password for %1 on %2:"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:931
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:938
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Login Failed"
 msgstr "प्रवेश अपयशी"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1027
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1029
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1034
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1036
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1029
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1036
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1177
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1184
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1178
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1185
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1201
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1208
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1202
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1209
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1348
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1355
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1349
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1356
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -1964,12 +1976,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1354
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1361
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1355
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1362
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -1977,18 +1989,19 @@ msgid ""
 "%2"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1406
+#. target of a hyperlink from the currently visible e-mail that the mouse is pointing to
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1414
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1411
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1420
 msgctxt "Gui::MainWindow|"
 msgid "About Trojitá"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1412
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1421
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -1999,12 +2012,12 @@ msgid ""
 "trojita.flaska.net/</a></p><p>You are using version %1.</p>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1457
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1466
 msgctxt "Gui::MainWindow|"
 msgid "Can't save message"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1458
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1467
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2012,118 +2025,118 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1463
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1472
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1482
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1512
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1491
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1521
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "बंद करा"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1484
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1514
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1493
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1523
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1486
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1495
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1516
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1525
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message headers of UID %1 in %2"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1758
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1767
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "N"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1767
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1770
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1776
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1779
 #, fuzzy
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1785
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1794
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
-msgstr ""
-
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1787
-#, fuzzy, qt-format
-msgctxt "Gui::MainWindow|"
-msgid "Server: %1 %2"
-msgstr "सर्व्हर"
-
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1789
-#, fuzzy, qt-format
-msgctxt "Gui::MainWindow|"
-msgid "Server: %1"
-msgstr "सर्व्हर : %1"
-
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1792
-#, qt-format
-msgctxt "Gui::MainWindow|"
-msgid " (%1)"
 msgstr ""
 
 #: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1796
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
+msgid "Server: %1 %2"
+msgstr "सर्व्हर"
+
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1798
+#, fuzzy, qt-format
+msgctxt "Gui::MainWindow|"
+msgid "Server: %1"
+msgstr "सर्व्हर : %1"
+
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1801
+#, qt-format
+msgctxt "Gui::MainWindow|"
+msgid " (%1)"
+msgstr ""
+
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1805
+#, fuzzy, qt-format
+msgctxt "Gui::MainWindow|"
 msgid " on %1 %2"
 msgstr "चालू"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1798
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1807
 #, fuzzy, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " on %1"
 msgstr "चालू"
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1800
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1809
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1802
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1811
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1807
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1809
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1816
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1818
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1812
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1821
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1814
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1823
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1817
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1826
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server Information"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1818
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1827
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2132,19 +2145,19 @@ msgid ""
 "%2</ul>"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1833
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1842
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %2 unread - Trojitá"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1837
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1846
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
 msgstr ""
 
-#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1840
+#: ../../../../../../srv/cvs/prod/git-unstable/extragear-pim_trojita/src/Gui/Window.cpp:1849
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr ""
