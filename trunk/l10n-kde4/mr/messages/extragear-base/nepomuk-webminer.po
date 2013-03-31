@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-14 03:18+0100\n"
+"POT-Creation-Date: 2013-03-31 03:26+0200\n"
 "PO-Revision-Date: 2013-03-26 13:07+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -304,7 +304,8 @@ msgstr ""
 msgid "About %1"
 msgstr "%1 विषयी"
 
-#: src/kcm/pluginlist.cpp:158
+#. i18n: ectx: property (text), widget (QLabel, labelAlbumName)
+#: src/kcm/pluginlist.cpp:158 src/lib/metadatawidget/musicwidget.ui:172
 msgid "Name:"
 msgstr "नाव :"
 
@@ -401,15 +402,18 @@ msgstr ""
 msgid "Title"
 msgstr "शिर्षक"
 
-#: src/kcm/regexpdialog.cpp:205
+#. i18n: ectx: attribute (title), widget (QWidget, tabShow)
+#: src/kcm/regexpdialog.cpp:205 src/lib/metadatawidget/tvshowwidget.ui:319
 msgid "Show"
 msgstr "दर्शवा"
 
-#: src/kcm/regexpdialog.cpp:209
+#. i18n: ectx: attribute (title), widget (QWidget, tabSeason)
+#: src/kcm/regexpdialog.cpp:209 src/lib/metadatawidget/tvshowwidget.ui:239
 msgid "Season"
 msgstr ""
 
-#: src/kcm/regexpdialog.cpp:213
+#. i18n: ectx: attribute (title), widget (QWidget, tabEpisode)
+#: src/kcm/regexpdialog.cpp:213 src/lib/metadatawidget/tvshowwidget.ui:51
 msgid "Episode"
 msgstr ""
 
@@ -417,7 +421,8 @@ msgstr ""
 msgid "Person"
 msgstr "व्यक्ति"
 
-#: src/kcm/regexpdialog.cpp:221
+#. i18n: ectx: attribute (title), widget (QWidget, tabAlbum)
+#: src/kcm/regexpdialog.cpp:221 src/lib/metadatawidget/musicwidget.ui:135
 msgid "Album"
 msgstr "अल्बम"
 
@@ -425,7 +430,8 @@ msgstr "अल्बम"
 msgid "Year"
 msgstr "वर्ष"
 
-#: src/kcm/regexpdialog.cpp:230
+#. i18n: ectx: attribute (title), widget (QWidget, tabTrack)
+#: src/kcm/regexpdialog.cpp:230 src/lib/metadatawidget/musicwidget.ui:33
 msgid "Track"
 msgstr "ट्रॅक"
 
@@ -484,6 +490,384 @@ msgstr ""
 
 #: src/kcm/regexpmodel.cpp:57
 msgid "Regular Expression"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelTitle)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeTitle)
+#. i18n: ectx: property (text), widget (QLabel, labelShowTitle)
+#: src/lib/metadatawidget/moviewidget.ui:44
+#: src/lib/metadatawidget/musicwidget.ui:60
+#: src/lib/metadatawidget/publicationwidget.ui:70
+#: src/lib/metadatawidget/tvshowwidget.ui:111
+#: src/lib/metadatawidget/tvshowwidget.ui:361
+#, fuzzy
+#| msgctxt "The title of a publication/movie/show"
+#| msgid "Title:"
+msgid "Title:"
+msgstr "शिर्षक :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelYear)
+#: src/lib/metadatawidget/moviewidget.ui:54
+#, fuzzy
+#| msgid "Year"
+msgid "Year:"
+msgstr "वर्ष"
+
+#. i18n: ectx: property (text), widget (QLabel, labelGenre)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: src/lib/metadatawidget/moviewidget.ui:61
+#: src/lib/metadatawidget/musicwidget.ui:100
+#, fuzzy
+#| msgctxt "The genre of the movie/tvshow/music track"
+#| msgid "Genre"
+msgid "Genre:"
+msgstr "शैली"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPlot)
+#: src/lib/metadatawidget/moviewidget.ui:71
+msgid "Plot:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDirector)
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeDirector)
+#: src/lib/metadatawidget/moviewidget.ui:81
+#: src/lib/metadatawidget/tvshowwidget.ui:151
+#, fuzzy
+#| msgctxt "The director of a movie/tvshow"
+#| msgid "Director"
+msgid "Director:"
+msgstr "दिग्दर्शक"
+
+#. i18n: ectx: property (text), widget (QLabel, labelWriter)
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeWriter)
+#: src/lib/metadatawidget/moviewidget.ui:91
+#: src/lib/metadatawidget/tvshowwidget.ui:161
+#, fuzzy
+#| msgctxt "The writer of the tv show/movie script"
+#| msgid "Writer"
+msgid "Writer:"
+msgstr "लेखक"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCast)
+#: src/lib/metadatawidget/moviewidget.ui:101
+msgid "Cast:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelSeeAlso)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeSeeAlso)
+#: src/lib/metadatawidget/moviewidget.ui:111
+#: src/lib/metadatawidget/musicwidget.ui:110
+#: src/lib/metadatawidget/tvshowwidget.ui:181
+msgid "See Also:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelPoster)
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodePoster)
+#. i18n: ectx: property (text), widget (QLabel, labelSeasonPoster)
+#. i18n: ectx: property (text), widget (QLabel, labelShowPoster)
+#: src/lib/metadatawidget/moviewidget.ui:121
+#: src/lib/metadatawidget/tvshowwidget.ui:204
+#: src/lib/metadatawidget/tvshowwidget.ui:298
+#: src/lib/metadatawidget/tvshowwidget.ui:381
+msgid "Poster:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, labelNumber)
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeNumber)
+#. i18n: ectx: property (text), widget (QLabel, labelSeasonNumber)
+#: src/lib/metadatawidget/musicwidget.ui:70
+#: src/lib/metadatawidget/publicationwidget.ui:238
+#: src/lib/metadatawidget/tvshowwidget.ui:121
+#: src/lib/metadatawidget/tvshowwidget.ui:278
+#, fuzzy
+#| msgctxt "The number of journal"
+#| msgid "Number"
+msgid "Number:"
+msgstr "संख्या"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: src/lib/metadatawidget/musicwidget.ui:80
+msgid "Release Date:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, labelAlbumPerformer)
+#: src/lib/metadatawidget/musicwidget.ui:90
+#: src/lib/metadatawidget/musicwidget.ui:162
+msgid "Performer:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: src/lib/metadatawidget/musicwidget.ui:120
+msgid "Lyrics:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAlbumCover)
+#: src/lib/metadatawidget/musicwidget.ui:182
+msgid "Cover:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAlbumTracks)
+#: src/lib/metadatawidget/musicwidget.ui:192
+#, fuzzy
+#| msgctxt "List of tracks for a music album"
+#| msgid "Tracks"
+msgid "Tracks:"
+msgstr "ट्रॅक्स"
+
+#: src/lib/metadatawidget/publicationwidget.cpp:49
+msgid "Article"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:50
+msgid "Book"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:51
+msgid "Booklet"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:52
+msgid "Collection"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:53
+msgid "Thesis"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:54
+msgid "Report"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:55
+msgid "Techreport"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:56
+msgid "Website"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:57
+msgid "Script"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:58
+msgid "Presentation"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:59
+msgid "Proceedings"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:60
+msgid "Manual"
+msgstr ""
+
+#: src/lib/metadatawidget/publicationwidget.cpp:61
+msgid "Misc"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, PublicationWidget)
+#: src/lib/metadatawidget/publicationwidget.ui:14
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabBasic)
+#: src/lib/metadatawidget/publicationwidget.ui:33
+msgid "Basics"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEntryType)
+#: src/lib/metadatawidget/publicationwidget.ui:60
+msgid "Entry Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelCiteKey)
+#: src/lib/metadatawidget/publicationwidget.ui:80
+msgid "Citekey:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelPages)
+#: src/lib/metadatawidget/publicationwidget.ui:90
+#, fuzzy
+#| msgctxt "Range of pages like 15--45"
+#| msgid "Pages"
+msgid "Pages:"
+msgstr "पाने"
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthors)
+#: src/lib/metadatawidget/publicationwidget.ui:100
+#, fuzzy
+#| msgid "Author:"
+msgid "Authors:"
+msgstr "लेखक :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelEditors)
+#: src/lib/metadatawidget/publicationwidget.ui:110
+msgid "Editors:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelOrganization)
+#: src/lib/metadatawidget/publicationwidget.ui:120
+msgid "Organization:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelPublisher)
+#: src/lib/metadatawidget/publicationwidget.ui:130
+msgid "Publisher:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelTopics)
+#: src/lib/metadatawidget/publicationwidget.ui:140
+msgid "Topics:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAbstract)
+#: src/lib/metadatawidget/publicationwidget.ui:150
+msgid "Abstract:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabExtra)
+#: src/lib/metadatawidget/publicationwidget.ui:178
+msgid "Extra"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEvent)
+#: src/lib/metadatawidget/publicationwidget.ui:208
+msgid "Event:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelSeries)
+#: src/lib/metadatawidget/publicationwidget.ui:218
+msgid "Series:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelVolume)
+#: src/lib/metadatawidget/publicationwidget.ui:228
+#, fuzzy
+#| msgctxt "The volume of the publication journal"
+#| msgid "Volume"
+msgid "Volume:"
+msgstr "आवाज"
+
+#. i18n: ectx: property (text), widget (QLabel, labelEdition)
+#: src/lib/metadatawidget/publicationwidget.ui:248
+#, fuzzy
+#| msgid "Description:"
+msgid "Edition:"
+msgstr "वर्णन :"
+
+#. i18n: ectx: property (text), widget (QLabel, labelReportType)
+#: src/lib/metadatawidget/publicationwidget.ui:258
+#, fuzzy
+#| msgctxt "The publication type. Like Book, Article, Blog etc"
+#| msgid "Type"
+msgid "Type:"
+msgstr "प्रकार"
+
+#. i18n: ectx: property (text), widget (QLabel, labelCopyright)
+#: src/lib/metadatawidget/publicationwidget.ui:268
+msgid "Copyright:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelLanguage)
+#: src/lib/metadatawidget/publicationwidget.ui:278
+msgid "Language:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabIdentification)
+#: src/lib/metadatawidget/publicationwidget.ui:293
+msgid "Identification"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelArchive)
+#: src/lib/metadatawidget/publicationwidget.ui:320
+msgid "Archive:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelArchiveLocation)
+#: src/lib/metadatawidget/publicationwidget.ui:330
+msgid "Archive Location:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEPrint)
+#: src/lib/metadatawidget/publicationwidget.ui:340
+msgid "E-Print:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelISBN)
+#: src/lib/metadatawidget/publicationwidget.ui:350
+msgid "ISBN:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelISSN)
+#: src/lib/metadatawidget/publicationwidget.ui:360
+msgid "ISSN:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelLCCN)
+#: src/lib/metadatawidget/publicationwidget.ui:370
+msgid "LCCN:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMRNumber)
+#: src/lib/metadatawidget/publicationwidget.ui:380
+#, fuzzy
+#| msgctxt "The number of journal"
+#| msgid "Number"
+msgid "MRNumber:"
+msgstr "संख्या"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPubMed)
+#: src/lib/metadatawidget/publicationwidget.ui:390
+msgid "PubMed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelDOI)
+#: src/lib/metadatawidget/publicationwidget.ui:400
+msgid "DOI:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabReferences)
+#: src/lib/metadatawidget/publicationwidget.ui:415
+msgid "References"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeFirstAired)
+#: src/lib/metadatawidget/tvshowwidget.ui:131
+msgid "First Aired:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeGenres)
+#: src/lib/metadatawidget/tvshowwidget.ui:141
+#, fuzzy
+#| msgctxt "The genre of the movie/tvshow/music track"
+#| msgid "Genre"
+msgid "Genres:"
+msgstr "शैली"
+
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeActors)
+#: src/lib/metadatawidget/tvshowwidget.ui:171
+msgid "Actors:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeBanner)
+#. i18n: ectx: property (text), widget (QLabel, labelSeasonBanner)
+#. i18n: ectx: property (text), widget (QLabel, labelShowBanner)
+#: src/lib/metadatawidget/tvshowwidget.ui:191
+#: src/lib/metadatawidget/tvshowwidget.ui:288
+#: src/lib/metadatawidget/tvshowwidget.ui:371
+msgid "Banner:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelEpisodeSynopsis)
+#. i18n: ectx: property (text), widget (QLabel, labelShowSynopsis)
+#: src/lib/metadatawidget/tvshowwidget.ui:211
+#: src/lib/metadatawidget/tvshowwidget.ui:394
+msgid "Synopsis:"
 msgstr ""
 
 #. i18n: ectx: label, entry (DownloadBanner), group (Fetcher)
@@ -684,365 +1068,188 @@ msgstr ""
 msgid "all files for the metadata fetching found"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:282
+#: src/lib/ui/fetcherdialog.cpp:284
 #, kde-format
 msgid "Resource %1 of %2"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:284
+#: src/lib/ui/fetcherdialog.cpp:286
 #, kde-format
 msgid "Fetch metadata for the resource: <b>%1</b>"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:485
-#, kde-format
-msgctxt "%2 is a search engine"
-msgid "Found <b>1</b> result via <b>%2</b>"
-msgid_plural "Found <b>%1</b> results via <b>%2</b>"
-msgstr[0] ""
-msgstr[1] ""
-
-#: src/lib/ui/fetcherdialog.cpp:501
+#: src/lib/ui/fetcherdialog.cpp:502
 msgid "Show online"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:530
+#: src/lib/ui/fetcherdialog.cpp:531
 msgctxt "The title of a publication/movie/show"
 msgid "Title:"
 msgstr "शिर्षक :"
 
-#: src/lib/ui/fetcherdialog.cpp:534
-msgid "Alternative Title:"
-msgstr ""
-
-#: src/lib/ui/fetcherdialog.cpp:539
+#: src/lib/ui/fetcherdialog.cpp:536
 msgid "Year Min:"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:544
+#: src/lib/ui/fetcherdialog.cpp:541
 msgid "Year Max:"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:571
+#: src/lib/ui/fetcherdialog.cpp:568
 msgctxt "The author of the publication"
 msgid "Author:"
 msgstr "लेखक :"
 
-#: src/lib/ui/fetcherdialog.cpp:576
+#: src/lib/ui/fetcherdialog.cpp:573
 msgctxt "The name of the journal the article is in"
 msgid "Journal:"
 msgstr "जर्नल :"
 
-#: src/lib/ui/fetcherdialog.cpp:581
+#: src/lib/ui/fetcherdialog.cpp:578
 msgctxt "The number of the tv season"
 msgid "Season:"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:586
+#: src/lib/ui/fetcherdialog.cpp:583
 msgctxt "The number of the tv show episode"
 msgid "Episode:"
 msgstr ""
 
-#: src/lib/ui/fetcherdialog.cpp:591
+#: src/lib/ui/fetcherdialog.cpp:588
 msgctxt "The name of the tv Show"
 msgid "Show:"
 msgstr "दर्शवा :"
 
-#: src/lib/ui/fetcherdialog.cpp:598
+#: src/lib/ui/fetcherdialog.cpp:595
 msgctxt "The music artist of the track"
 msgid "Artist:"
 msgstr "कलाकार :"
 
-#: src/lib/ui/fetcherdialog.cpp:603
+#: src/lib/ui/fetcherdialog.cpp:600
 msgctxt "The single music piece/track "
 msgid "Track:"
 msgstr "ट्रॅक :"
 
-#: src/lib/ui/fetcherdialog.cpp:608
+#: src/lib/ui/fetcherdialog.cpp:605
 msgctxt "The name of the music album the track is in"
 msgid "Album:"
 msgstr "अल्बम :"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FetcherDialog)
-#: src/lib/ui/fetcherdialog.ui:14
+#: src/lib/ui/fetcherdialog.ui:20
 msgid "Meta Data Fetcher"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelSearchEngine)
-#: src/lib/ui/fetcherdialog.ui:38
+#: src/lib/ui/fetcherdialog.ui:50
 msgid "Search Engine:"
 msgstr "शोध इंजिन :"
 
 #. i18n: ectx: property (text), widget (QLabel, labelTitle)
-#: src/lib/ui/fetcherdialog.ui:67
+#: src/lib/ui/fetcherdialog.ui:79
 msgctxt "Title of the Publication/Movie/Music Track/tv-show episode"
 msgid "Title:"
 msgstr "शिर्षक :"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbSelectType)
-#: src/lib/ui/fetcherdialog.ui:97
+#: src/lib/ui/fetcherdialog.ui:109
 msgid "Movie"
 msgstr "सिनेमा"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cbSelectType)
-#: src/lib/ui/fetcherdialog.ui:102
+#: src/lib/ui/fetcherdialog.ui:114
 msgid "TvShow"
 msgstr "टीव्ही शो"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonSearch)
-#: src/lib/ui/fetcherdialog.ui:141
+#: src/lib/ui/fetcherdialog.ui:153
 msgctxt "Start the Web-Search"
 msgid "Search"
 msgstr "शोधा"
 
 #. i18n: ectx: property (text), widget (QLabel, labelShow)
-#: src/lib/ui/fetcherdialog.ui:148
+#: src/lib/ui/fetcherdialog.ui:160
 msgid "Show:"
 msgstr "दर्शवा :"
 
-#. i18n: ectx: property (text), widget (QLabel, labelArtist)
-#: src/lib/ui/fetcherdialog.ui:155
-msgid "Artist:"
-msgstr "कलाकार :"
-
 #. i18n: ectx: property (text), widget (QLabel, labelAlbum)
-#: src/lib/ui/fetcherdialog.ui:167
+#: src/lib/ui/fetcherdialog.ui:172
 msgid "Album:"
 msgstr "अल्बम :"
 
 #. i18n: ectx: property (text), widget (QLabel, labelSeason)
-#: src/lib/ui/fetcherdialog.ui:184
+#: src/lib/ui/fetcherdialog.ui:189
 msgid "Season:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelEpisode)
-#: src/lib/ui/fetcherdialog.ui:207
+#: src/lib/ui/fetcherdialog.ui:212
 msgid "Episode:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/lib/ui/fetcherdialog.ui:257
-msgid "Search Result"
+#. i18n: ectx: property (text), widget (QLabel, labelArtist)
+#: src/lib/ui/fetcherdialog.ui:237
+msgid "Artist:"
+msgstr "कलाकार :"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: src/lib/ui/fetcherdialog.ui:268
+msgid "Search Results"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonFetchMore)
-#: src/lib/ui/fetcherdialog.ui:314
+#: src/lib/ui/fetcherdialog.ui:341
 msgid "Fetch Metadata"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonFetchAndSave)
-#: src/lib/ui/fetcherdialog.ui:321
+#: src/lib/ui/fetcherdialog.ui:348
 msgid "Fetch and Save"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBoxMetaData)
-#: src/lib/ui/fetcherdialog.ui:339
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: src/lib/ui/fetcherdialog.ui:364
 msgid "Metadata to Save"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonSave)
-#: src/lib/ui/fetcherdialog.ui:420
+#: src/lib/ui/fetcherdialog.ui:407
 msgctxt "Save metadata to nepomuk"
 msgid "Save"
 msgstr "साठवा"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonHelp)
-#: src/lib/ui/fetcherdialog.ui:431
+#: src/lib/ui/fetcherdialog.ui:423
 msgid "Help"
 msgstr "मदत"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonLog)
-#: src/lib/ui/fetcherdialog.ui:438
+#: src/lib/ui/fetcherdialog.ui:430
 msgid "View Log"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelResourceCount)
-#: src/lib/ui/fetcherdialog.ui:458
+#: src/lib/ui/fetcherdialog.ui:450
 msgid "ResourceCount"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonPrevious)
-#: src/lib/ui/fetcherdialog.ui:465
+#: src/lib/ui/fetcherdialog.ui:457
 msgctxt "Select previous file"
 msgid "Previous"
 msgstr "मागील"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonNext)
-#: src/lib/ui/fetcherdialog.ui:472
+#: src/lib/ui/fetcherdialog.ui:464
 msgctxt "Select next file"
 msgid "Next"
 msgstr "पुढील"
 
 #. i18n: ectx: property (text), widget (KPushButton, buttonCancel)
-#: src/lib/ui/fetcherdialog.ui:482
+#: src/lib/ui/fetcherdialog.ui:474
 msgctxt "Close the Dialog"
 msgid "Close"
 msgstr "बंद करा"
-
-#: src/lib/ui/metadatawidget.cpp:169
-msgctxt "Title of the Show/Publication/Episode/Track"
-msgid "Title"
-msgstr "शिर्षक"
-
-#: src/lib/ui/metadatawidget.cpp:172
-msgctxt "The Nepomuk resource Uri"
-msgid "Resource"
-msgstr "संसाधन"
-
-#: src/lib/ui/metadatawidget.cpp:175
-msgctxt "The list of tv show Episodes"
-msgid "Episodes"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:178
-msgctxt "The writer of the tv show/movie script"
-msgid "Writer"
-msgstr "लेखक"
-
-#: src/lib/ui/metadatawidget.cpp:181
-msgctxt "Tvshow/ MoviePlot overview"
-msgid "Overview"
-msgstr "आढावा"
-
-#: src/lib/ui/metadatawidget.cpp:184
-msgctxt "First aired date of a tvshow"
-msgid "First-Aired"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:187
-msgctxt "The director of a movie/tvshow"
-msgid "Director"
-msgstr "दिग्दर्शक"
-
-#: src/lib/ui/metadatawidget.cpp:190
-msgctxt "The number of journal"
-msgid "Number"
-msgstr "संख्या"
-
-#: src/lib/ui/metadatawidget.cpp:193
-msgctxt "Actor names of tvshows/movies"
-msgid "Actors"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:196
-msgctxt "The genre of the movie/tvshow/music track"
-msgid "Genre"
-msgstr "शैली"
-
-#: src/lib/ui/metadatawidget.cpp:199
-msgctxt "Banner url for the movie/tvshow"
-msgid "Banner"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:202
-msgctxt "Poster url for the movie/tvshow"
-msgid "Poster"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:205
-msgctxt "List of season in the tvshow"
-msgid "Seasons"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:208
-msgctxt "The performer of a music track"
-msgid "Performer"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:211
-msgctxt "MusicBrainz id for a music track"
-msgid "MusicBrainz"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:214
-msgctxt "List of tracks for a music album"
-msgid "Tracks"
-msgstr "ट्रॅक्स"
-
-#: src/lib/ui/metadatawidget.cpp:217
-msgctxt "Release date of the movie"
-msgid "Release date"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:220
-msgctxt "Release/publication year"
-msgid "Year"
-msgstr "वर्ष"
-
-#: src/lib/ui/metadatawidget.cpp:223
-msgctxt "Movie/ Tvshow cast member"
-msgid "Cast"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:226
-msgctxt "Tvshow/ MoviePlot overview"
-msgid "Plot"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:229
-msgctxt "Movie/tvshow length"
-msgid "Runtime"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:232
-msgctxt "List of countries the movie is from"
-msgid "Countries"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:237
-msgctxt "The publication abstract"
-msgid "Abstract"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:240
-msgctxt "Publication author"
-msgid "Author"
-msgstr "लेखक"
-
-#: src/lib/ui/metadatawidget.cpp:243
-msgctxt "Publication booktitle"
-msgid "Booktitle"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:246
-msgctxt "List of publication references"
-msgid "References"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:249
-msgctxt "Range of pages like 15--45"
-msgid "Pages"
-msgstr "पाने"
-
-#: src/lib/ui/metadatawidget.cpp:252
-msgctxt "Digital object identifier"
-msgid "DOI"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:255
-msgctxt "The publication type. Like Book, Article, Blog etc"
-msgid "Type"
-msgstr "प्रकार"
-
-#: src/lib/ui/metadatawidget.cpp:258
-msgctxt "The chapter (name and/or number) that will be referenced"
-msgid "Chapter"
-msgstr "प्रकरण"
-
-#: src/lib/ui/metadatawidget.cpp:261
-msgctxt "The volume of the publication journal"
-msgid "Volume"
-msgstr "आवाज"
-
-#: src/lib/ui/metadatawidget.cpp:264
-msgctxt "The issue number of the journal"
-msgid "Issue"
-msgstr ""
-
-#: src/lib/ui/metadatawidget.cpp:267
-msgctxt "The name of the journal"
-msgid "Journal"
-msgstr "जर्नल"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, StartupDialog)
 #: src/lib/ui/startupdialog.ui:14
@@ -1182,3 +1389,31 @@ msgstr "अनुक्रमीत करत आहे %1"
 msgctxt "@info:status"
 msgid "WebMiner service is idle."
 msgstr ""
+
+#~ msgctxt "Title of the Show/Publication/Episode/Track"
+#~ msgid "Title"
+#~ msgstr "शिर्षक"
+
+#~ msgctxt "The Nepomuk resource Uri"
+#~ msgid "Resource"
+#~ msgstr "संसाधन"
+
+#~ msgctxt "Tvshow/ MoviePlot overview"
+#~ msgid "Overview"
+#~ msgstr "आढावा"
+
+#~ msgctxt "Release/publication year"
+#~ msgid "Year"
+#~ msgstr "वर्ष"
+
+#~ msgctxt "Publication author"
+#~ msgid "Author"
+#~ msgstr "लेखक"
+
+#~ msgctxt "The chapter (name and/or number) that will be referenced"
+#~ msgid "Chapter"
+#~ msgstr "प्रकरण"
+
+#~ msgctxt "The name of the journal"
+#~ msgid "Journal"
+#~ msgstr "जर्नल"
