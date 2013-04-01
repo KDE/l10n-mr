@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-29 03:52+0100\n"
+"POT-Creation-Date: 2013-04-01 04:05+0200\n"
 "PO-Revision-Date: 2013-03-30 16:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -25,66 +25,83 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: connectiondetaileditor.cpp:119
+#: btwidget.cpp:34
+msgid "DUN (dial up networking)"
+msgstr ""
+
+#: btwidget.cpp:35
+msgid "PAN (personal area network)"
+msgstr ""
+
+#: connectiondetaileditor.cpp:120
 #, kde-format
 msgid "New Connection (%1)"
 msgstr "नवीन जुळवणी (%1)"
 
-#: connectiondetaileditor.cpp:120
+#: connectiondetaileditor.cpp:121
 #, kde-format
 msgid "New %1 connection"
 msgstr "नवीन %1 जुळवणी"
 
-#: connectiondetaileditor.cpp:122
+#: connectiondetaileditor.cpp:123
 #, kde-format
 msgid "Edit Connection '%1'"
 msgstr "जुळवणी संपादन '%1'"
 
-#: connectiondetaileditor.cpp:132
+#: connectiondetaileditor.cpp:133
 msgid "General"
 msgstr "सामान्य"
 
-#: connectiondetaileditor.cpp:140 connectiondetaileditor.cpp:162
+#: connectiondetaileditor.cpp:141 connectiondetaileditor.cpp:163
 #: connectioneditor.cpp:67 connectiontypeitem.cpp:64
 msgid "Wired"
 msgstr "वायर्ड"
 
-#: connectiondetaileditor.cpp:142
+#: connectiondetaileditor.cpp:143
 msgid "802.1x Security"
 msgstr "802.1x सुरक्षा"
 
-#: connectiondetaileditor.cpp:144 connectiondetaileditor.cpp:155
-#: connectiondetaileditor.cpp:166 connectiondetaileditor.cpp:173
-#: connectiondetaileditor.cpp:180
+#: connectiondetaileditor.cpp:145 connectiondetaileditor.cpp:156
+#: connectiondetaileditor.cpp:167 connectiondetaileditor.cpp:174
+#: connectiondetaileditor.cpp:181 connectiondetaileditor.cpp:194
 msgid "IPv4"
 msgstr "IPv4"
 
-#: connectiondetaileditor.cpp:146 connectiondetaileditor.cpp:157
+#: connectiondetaileditor.cpp:147 connectiondetaileditor.cpp:158
+#: connectiondetaileditor.cpp:196
 msgid "IPv6"
 msgstr "IPv6"
 
-#: connectiondetaileditor.cpp:149 connectioneditor.cpp:70
+#: connectiondetaileditor.cpp:150 connectioneditor.cpp:70
 msgid "Wireless"
 msgstr "वायरलेस"
 
-#: connectiondetaileditor.cpp:153
+#: connectiondetaileditor.cpp:154
 msgid "Wi-Fi Security"
 msgstr "वाय-फाय सुरक्षा"
 
-#: connectiondetaileditor.cpp:160 connectioneditor.cpp:54
+#: connectiondetaileditor.cpp:161 connectioneditor.cpp:54
 #: connectiontypeitem.cpp:37
 msgid "DSL"
 msgstr "DSL"
 
-#: connectiondetaileditor.cpp:164 connectiondetaileditor.cpp:171
-#: connectiondetaileditor.cpp:178
+#: connectiondetaileditor.cpp:165 connectiondetaileditor.cpp:172
+#: connectiondetaileditor.cpp:179 connectiondetaileditor.cpp:190
 msgid "PPP"
 msgstr "PPP"
 
-#: connectiondetaileditor.cpp:169 connectiondetaileditor.cpp:176
+#: connectiondetaileditor.cpp:170 connectiondetaileditor.cpp:177
 #: connectioneditor.cpp:62
 msgid "Mobile Broadband"
 msgstr "मोबाईल ब्रॉडबैंड"
+
+#: connectiondetaileditor.cpp:184 connectiontypeitem.cpp:40
+msgid "Bluetooth"
+msgstr "ब्लूटूथ"
+
+#: connectiondetaileditor.cpp:188
+msgid "GSM"
+msgstr ""
 
 #: connectioneditor.cpp:52
 msgid "Hardware"
@@ -186,10 +203,6 @@ msgstr "जुळवणी तोडा"
 #: connectiontypeitem.cpp:34
 msgid "ADSL"
 msgstr "ADSL"
-
-#: connectiontypeitem.cpp:40
-msgid "Bluetooth"
-msgstr "ब्लूटूथ"
 
 #: connectiontypeitem.cpp:47 connectiontypeitem.cpp:50
 msgid "Mobile broadband"
@@ -500,6 +513,18 @@ msgstr "आवृत्ती 0"
 #: ui/802-1x.ui:652
 msgid "Version 1"
 msgstr "आवृत्ती 1"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/bt.ui:18
+msgid "&Address of the device:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/bt.ui:31
+#, fuzzy
+#| msgid "Connection &name:"
+msgid "Connection &type:"
+msgstr "जुळवणी नाव (&N):"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/cdma.ui:17 ui/gsm.ui:24

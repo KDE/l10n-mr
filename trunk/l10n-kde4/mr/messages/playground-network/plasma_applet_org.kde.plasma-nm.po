@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-30 03:52+0100\n"
+"POT-Creation-Date: 2013-04-01 04:05+0200\n"
 "PO-Revision-Date: 2013-03-30 10:54+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -21,6 +21,31 @@ msgstr ""
 msgid "Network management"
 msgstr "संजाळ व्यवस्थापन"
 
+#: applet/declarative/contents/ui/ConnectionItem.qml:168
+#: applet/declarative/contents/ui/main.qml:91
+#: applet/declarative/contents/ui/main.qml:101
+#: declarative-plugins/model/modelitem.cpp:136
+#, fuzzy
+#| msgid "Edit connections..."
+msgid "Active connections"
+msgstr "जुळवण्या संपादित करा..."
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:169
+#: applet/declarative/contents/ui/main.qml:93
+#: applet/declarative/contents/ui/main.qml:103
+#: declarative-plugins/model/modelitem.cpp:138
+#, fuzzy
+#| msgid "Edit connections..."
+msgid "Previous connections"
+msgstr "जुळवण्या संपादित करा..."
+
+#: applet/declarative/contents/ui/ConnectionItem.qml:170
+#: declarative-plugins/model/modelitem.cpp:140
+#, fuzzy
+#| msgid "Edit connections..."
+msgid "Unknown connections"
+msgstr "जुळवण्या संपादित करा..."
+
 #: applet/declarative/contents/ui/DetailsWidget.qml:67
 msgid "Back"
 msgstr "मागे"
@@ -30,15 +55,15 @@ msgid "Edit"
 msgstr "संपादन"
 
 #: applet/declarative/contents/ui/DetailsWidget.qml:91
-#: applet/declarative/contents/ui/main.qml:158
+#: applet/declarative/contents/ui/main.qml:183
 msgid "Remove"
 msgstr "काढून टाका"
 
-#: applet/declarative/contents/ui/main.qml:148
+#: applet/declarative/contents/ui/main.qml:173
 msgid "Do you really want to remove connection %1?"
 msgstr "तुम्हाला नक्की जुळवणी %1 काढून टाकायची आहे का?"
 
-#: applet/declarative/contents/ui/main.qml:166
+#: applet/declarative/contents/ui/main.qml:191
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -83,61 +108,69 @@ msgstr "जुळवत आहे"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: declarative-plugins/model/modelitem.cpp:114
+#: declarative-plugins/model/modelitem.cpp:154
 msgctxt "type of network device"
 msgid "Type:"
 msgstr "प्रकार :"
 
-#: declarative-plugins/model/modelitem.cpp:121
+#: declarative-plugins/model/modelitem.cpp:161
 msgid "IPv4 Address:"
 msgstr "IPv4 पत्ता :"
 
-#: declarative-plugins/model/modelitem.cpp:126
+#: declarative-plugins/model/modelitem.cpp:166
 msgid "IPv6 Address:"
 msgstr "IPv6 पत्ता :"
 
-#: declarative-plugins/model/modelitem.cpp:133
-#: declarative-plugins/model/modelitem.cpp:135
-#: declarative-plugins/model/modelitem.cpp:144
-#: declarative-plugins/model/modelitem.cpp:146
+#: declarative-plugins/model/modelitem.cpp:175
+msgid "System name:"
+msgstr ""
+
+#: declarative-plugins/model/modelwireditem.cpp:50
+#: declarative-plugins/model/modelwireditem.cpp:52
+#: declarative-plugins/model/modelwirelessitem.cpp:93
+#: declarative-plugins/model/modelwirelessitem.cpp:95
 msgid "Connection speed:"
 msgstr "जुळवणी वेग :"
 
-#: declarative-plugins/model/modelitem.cpp:133
-#: declarative-plugins/model/modelitem.cpp:146
+#: declarative-plugins/model/modelwireditem.cpp:50
+#: declarative-plugins/model/modelwirelessitem.cpp:95
 #, kde-format
 msgid "%1 Mb/s"
 msgstr "%1 Mb/s"
 
-#: declarative-plugins/model/modelitem.cpp:135
+#: declarative-plugins/model/modelwireditem.cpp:52
 #, kde-format
 msgid "%1 Gb/s"
 msgstr "%1 Gb/s"
 
-#: declarative-plugins/model/modelitem.cpp:138
-#: declarative-plugins/model/modelitem.cpp:149
+#: declarative-plugins/model/modelwireditem.cpp:55
+#: declarative-plugins/model/modelwirelessitem.cpp:98
 msgid "MAC Address:"
 msgstr "Mac पत्ता :"
 
-#: declarative-plugins/model/modelitem.cpp:144
+#: declarative-plugins/model/modelwirelessitem.cpp:93
 #, kde-format
 msgid "%1 Kb/s"
 msgstr "%1 Kb/s"
 
-#: declarative-plugins/model/modelitem.cpp:164
+#: declarative-plugins/model/modelwirelessitem.cpp:105
+msgid "Signal strength:"
+msgstr ""
+
+#: declarative-plugins/model/modelwirelessitem.cpp:106
 msgid "Access point (SSID):"
 msgstr "प्रवेश बिंदू (SSID):"
 
-#: declarative-plugins/model/modelitem.cpp:165
+#: declarative-plugins/model/modelwirelessitem.cpp:107
 msgid "Access point (BSSID):"
 msgstr "प्रवेश बिंदू (BSSID):"
 
-#: declarative-plugins/model/modelitem.cpp:166
+#: declarative-plugins/model/modelwirelessitem.cpp:108
 msgctxt "Wifi AP frequency"
 msgid "Frequency:"
 msgstr "फ्रीक्वेन्सी :"
 
-#: declarative-plugins/model/modelitem.cpp:166
+#: declarative-plugins/model/modelwirelessitem.cpp:108
 #, kde-format
 msgid "%1 Mhz"
 msgstr "%1 Mhz"
