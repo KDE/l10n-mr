@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-19 18:04+0100\n"
+"POT-Creation-Date: 2013-03-06 03:33+0100\n"
 "PO-Revision-Date: 2013-03-23 14:41+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -348,39 +348,39 @@ msgstr "© 2009-2012 जोनाथन थोमस"
 msgid "Jonathan Thomas"
 msgstr "जोनाथन थोमस"
 
-#: muon/MainWindow.cpp:180
+#: muon/MainWindow.cpp:177
 msgctxt "@action Marks upgradeable packages for upgrade"
 msgid "Cautious Upgrade"
 msgstr "सावधानीने अद्ययावत"
 
-#: muon/MainWindow.cpp:186
+#: muon/MainWindow.cpp:183
 msgctxt ""
 "@action Marks upgradeable packages, including ones that install/remove new "
 "things"
 msgid "Full Upgrade"
 msgstr "पूर्ण अद्ययावत"
 
-#: muon/MainWindow.cpp:192
+#: muon/MainWindow.cpp:189
 msgctxt "@action Marks packages no longer needed for removal"
 msgid "Remove Unnecessary Packages"
 msgstr "गरज नसलेले पॅकेजेस काढून टाका"
 
-#: muon/MainWindow.cpp:197
+#: muon/MainWindow.cpp:194
 msgctxt "@action Takes the user to the preview page"
 msgid "Preview Changes"
 msgstr "बदलांचे पूर्वावलोकन"
 
-#: muon/MainWindow.cpp:202
+#: muon/MainWindow.cpp:199
 msgctxt "@action Applys the changes a user has made"
 msgid "Apply Changes"
 msgstr "बदल लागू करा"
 
-#: muon/MainWindow.cpp:209
-msgctxt "@action::inmenu"
-msgid "History..."
-msgstr ""
+#: muon/MainWindow.cpp:204
+msgctxt "@action Checks the Internet for updates"
+msgid "Check for Updates"
+msgstr "अद्ययावत तपासा"
 
-#: muon/MainWindow.cpp:224
+#: muon/MainWindow.cpp:225
 msgctxt "@label"
 msgid ""
 "Unable to mark upgrades. The available upgrades may require new packages to "
@@ -391,12 +391,12 @@ msgstr ""
 "काढून टाकणे गरजेचे आहे. तुम्ही पूर्ण अद्ययावत करण्याचा प्रयत्न <interface>पूर्ण अद्ययावत</"
 "interface> हे बटन दाबून करू शकता."
 
-#: muon/MainWindow.cpp:229 muon/MainWindow.cpp:244
+#: muon/MainWindow.cpp:230 muon/MainWindow.cpp:245
 msgctxt "@title:window"
 msgid "Unable to Mark Upgrades"
 msgstr "अद्ययावत निवडू शकत नाही"
 
-#: muon/MainWindow.cpp:241
+#: muon/MainWindow.cpp:242
 msgctxt "@label"
 msgid ""
 "Unable to mark upgrades. Some upgrades may have unsatisfiable dependencies "
@@ -405,20 +405,15 @@ msgstr ""
 "अद्ययावत निवडू शकत नाही. काही अद्ययावत करिता असमाधानी अवलंबीत आहेत किंवा स्वहस्ते मागे "
 "ठेवलेले आहेत."
 
-#: muon/MainWindow.cpp:317
+#: muon/MainWindow.cpp:318
 msgctxt "@action:intoolbar Return from the preview page"
 msgid "Back"
 msgstr "मागे"
 
-#: muon/MainWindow.cpp:331
+#: muon/MainWindow.cpp:332
 msgctxt "@action"
 msgid "Preview Changes"
 msgstr "बदलांचे पूर्वावलोकन"
-
-#: muon/MainWindow.cpp:445
-msgctxt "@title:window"
-msgid "Package History"
-msgstr ""
 
 #: muon/PackageModel/PackageModel.cpp:79
 msgid "Package"
@@ -491,18 +486,15 @@ msgid "Warning - Removing Important Package"
 msgstr "इशारा - महत्वपूर्ण पॅकेज काढून टाकत आहे"
 
 #: muon/PackageModel/PackageWidget.cpp:561
-#, fuzzy
-#| msgctxt "@title:window"
-#| msgid "Unable to Mark Package"
 msgctxt "@title:window"
 msgid "Failed to Lock Package"
-msgstr "पॅकेज निवडू शकत नाही"
+msgstr "पॅकेज कुलूपबंद करण्यास अपयश"
 
 #: muon/PackageModel/PackageWidget.cpp:562
 #, kde-format
 msgctxt "@info Error text"
 msgid "The package %1 could not be locked. Failed to write lock file."
-msgstr ""
+msgstr "%1 हे पॅकेज कुलूपबंद करू शकत नाही. कुलूपबंद फाईल मध्ये लिहिण्यास अपयशी."
 
 #: muon/PackageModel/PackageWidget.cpp:611
 #, kde-format
@@ -621,107 +613,86 @@ msgid "Cancel"
 msgstr "रद्द करा"
 
 #: muon/TransactionWidget.cpp:147
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Committing Changes</title>"
 msgctxt "@info Status information, widget title"
 msgid "<title>Starting</title>"
-msgstr "<title>बदल लागू करत आहे</title>"
+msgstr "<title>सुरु करत आहे</title>"
 
 #: muon/TransactionWidget.cpp:149
 msgctxt "@info Status info"
 msgid "Waiting for service to start"
-msgstr ""
+msgstr "सेवा सुरू होण्याची वाट पाहत आहे"
 
 #: muon/TransactionWidget.cpp:154
 msgctxt "@info Status info"
 msgid "Waiting for authentication"
-msgstr ""
+msgstr "अधिप्रमाणनाची वाट पाहत आहे"
 
 #: muon/TransactionWidget.cpp:158 muon/TransactionWidget.cpp:165
 #: muon/TransactionWidget.cpp:172 muon/TransactionWidget.cpp:179
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Committing Changes</title>"
 msgctxt "@info Status information, widget title"
 msgid "<title>Waiting</title>"
-msgstr "<title>बदल लागू करत आहे</title>"
+msgstr "<title>वाट पाहत आहे</title>"
 
 #: muon/TransactionWidget.cpp:160
 msgctxt "@info Status info"
 msgid "Waiting for other transactions to finish"
-msgstr ""
+msgstr "जुन्या क्रिया संपण्याची वाट पाहत आहे"
 
 #: muon/TransactionWidget.cpp:167
 msgctxt "@info Status info"
 msgid "Waiting for other software managers to quit"
-msgstr ""
+msgstr "इतर सॉफ़्टवेअर व्यवस्थापकाने बाहेर पडण्याची वाट पाहत आहे"
 
 #: muon/TransactionWidget.cpp:174
 msgctxt "@info Status info"
 msgid "Waiting for required medium"
-msgstr ""
+msgstr "गरजेच्या माध्यमाची वाट पाहत आहे"
 
 #: muon/TransactionWidget.cpp:181
 msgctxt "@info Status info"
 msgid "Waiting for configuration file"
-msgstr ""
+msgstr "संयोजना फाईलची वाट पाहत आहे"
 
 #: muon/TransactionWidget.cpp:192
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Updating software sources</title>"
 msgctxt "@info Status info"
 msgid "<title>Loading Software List</title>"
-msgstr "<title>सॉफ़्टवेअर स्रोत अद्ययावत करत आहे</title>"
+msgstr "<title>सॉफ़्टवेअर यादी दाखल करत आहे</title>"
 
 #: muon/TransactionWidget.cpp:200
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Updating software sources</title>"
 msgctxt "@info Status information, widget title"
 msgid "<title>Updating software sources</title>"
 msgstr "<title>सॉफ़्टवेअर स्रोत अद्ययावत करत आहे</title>"
 
 #: muon/TransactionWidget.cpp:205
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Downloading Packages</title>"
 msgctxt "@info Status information, widget title"
 msgid "<title>Downloading Packages</title>"
 msgstr "<title>पॅकेजेस डाउनलोड करत आहे</title>"
 
 #: muon/TransactionWidget.cpp:217
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Committing Changes</title>"
 msgctxt "@info Status information, widget title"
 msgid "<title>Committing Changes</title>"
 msgstr "<title>बदल लागू करत आहे</title>"
 
 #: muon/TransactionWidget.cpp:224
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "<title>Committing Changes</title>"
 msgctxt "@info Status information, widget title"
 msgid "<title>Finished</title>"
-msgstr "<title>बदल लागू करत आहे</title>"
+msgstr "<title>संपले</title>"
 
 #: muon/TransactionWidget.cpp:253
 msgctxt "@title:window"
 msgid "Media Change Required"
-msgstr ""
+msgstr "मीडिया बदल आवश्यक"
 
 #: muon/TransactionWidget.cpp:254
 #, kde-format
 msgctxt "@label"
 msgid "Please insert %1 into <filename>%2</filename>"
-msgstr ""
+msgstr "कृपया %1 हे <filename>%2</filename> यात अंतर्भूत करा"
 
 #: muon/TransactionWidget.cpp:263
 msgctxt "@title:window"
 msgid "Warning - Unverified Software"
-msgstr ""
+msgstr "इशारा - न तपासलेले सॉफ़्टवेअर"
 
 #: muon/TransactionWidget.cpp:265
 msgctxt "@label"
@@ -736,12 +707,18 @@ msgid_plural ""
 "unverifiable software can be a sign of tampering.</warning> Do you wish to "
 "continue?"
 msgstr[0] ""
+"पुढील सॉफ़्टवेअर तपासता येत नाही. <warning>न तपासलेले सॉफ़्टवेअर सुरक्षेकरिता धोका ठरू "
+"शकते, कारण न तपासलेल्या सॉफ़्टवेअरची उपस्थिती ही छेडछाड केल्याची खूण आहे.</warning> "
+"तुम्हाला पुढे जायचे आहे का?"
 msgstr[1] ""
+"पुढील सॉफ़्टवेअर तपासता येत नाही. <warning>न तपासलेले सॉफ़्टवेअर सुरक्षेकरिता धोका ठरू "
+"शकते, कारण न तपासलेल्या सॉफ़्टवेअरची उपस्थिती ही छेडछाड केल्याची खूण आहे.</warning> "
+"तुम्हाला पुढे जायचे आहे का?"
 
 #: muon/TransactionWidget.cpp:283
 msgctxt "@title:window"
 msgid "Configuration File Changed"
-msgstr ""
+msgstr "संयोजना फाईल बदलली गेली आहे"
 
 #: muon/TransactionWidget.cpp:285
 #, kde-format
@@ -751,19 +728,15 @@ msgid ""
 "available, but your version has been modified. Would you like to keep your "
 "current version or install the new version?"
 msgstr ""
+"<filename>%1</filename> या संयोजना फाईलची नवीन आवृत्ती उपलब्ध आहे, पण तुमची आवृत्ती "
+"बदललेली आहे. तुम्हाला तुमची आवृत्ती ठेवायची आहे का नवीन आवृत्ती प्रतिष्ठापीत करायची आहे?"
 
 #: muon/TransactionWidget.cpp:290
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Force Version"
 msgctxt "@action Use the new config file"
 msgid "Use New Version"
-msgstr "बळपूर्वक आवृत्ती लागू करा"
+msgstr "नवीन आवृत्ती वापरा"
 
 #: muon/TransactionWidget.cpp:291
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Force Version"
 msgctxt "@action Keep the old config file"
 msgid "Keep Old Version"
-msgstr "बळपूर्वक आवृत्ती लागू करा"
+msgstr "जुनी आवृत्ती ठेवा"

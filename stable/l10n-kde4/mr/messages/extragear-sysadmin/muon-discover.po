@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-09 10:35+0100\n"
-"PO-Revision-Date: 2013-02-24 12:19+0530\n"
+"POT-Creation-Date: 2013-03-31 04:23+0200\n"
+"PO-Revision-Date: 2013-04-01 10:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
 "Language: mr\n"
@@ -53,16 +53,23 @@ msgstr "नोंदींची यादी विभागासहित द
 msgid ""
 "Open Muon Discover in a said mode. Modes correspond to the toolbar buttons."
 msgstr ""
+"म्युओन डिस्कव्हर सांगितलेल्या पद्धतीने उघडा. पध्दती साधनपट्टी बटनांशी संलग्न "
+"असतात."
 
 #: discover/main.cpp:48
 msgid "List all the available modes and output them on stdout."
-msgstr ""
+msgstr "उपलब्ध पद्धतीची यादी करा व त्याचे आउटपुट stdout वर द्या."
 
-#: discover/main.cpp:70
+#: discover/main.cpp:49
+msgid "List all the backends we'll want to have loaded, separated by coma ','."
+msgstr ""
+"जे बॅकएन्ड दाखल होणे गरजेचे आहेत त्यांची स्वल्पविरामाने ',' विभाजीत यादी."
+
+#: discover/main.cpp:71
 msgid "Available modes:\n"
-msgstr ""
+msgstr "उपलब्ध पद्धती :\n"
 
-#: discover/MuonDiscoverMainWindow.cpp:93 discover/qml/CategoryPage.qml:36
+#: discover/MuonDiscoverMainWindow.cpp:91 discover/qml/CategoryPage.qml:37
 msgid "Search..."
 msgstr "शोधा..."
 
@@ -70,18 +77,19 @@ msgstr "शोधा..."
 msgid ""
 "Found some errors while setting up the GUI, the application can't proceed."
 msgstr ""
+"GUI संयोजीत करताना काही त्रुटी आढळल्यामुळे अनुप्रयोग पुढे जाऊ शकत नाही."
 
 #: discover/MuonDiscoverMainWindow.cpp:110
 msgid "Initialization error"
-msgstr ""
+msgstr "प्रारंभ करताना त्रुटी"
 
-#: discover/MuonDiscoverMainWindow.cpp:240
+#: discover/MuonDiscoverMainWindow.cpp:230
 msgid "Menu"
-msgstr ""
+msgstr "मेन्यू"
 
-#: discover/MuonDiscoverMainWindow.cpp:241
+#: discover/MuonDiscoverMainWindow.cpp:231
 msgid "Configure and learn about Muon Discover"
-msgstr ""
+msgstr "म्युओन डिस्कव्हर विषयी शिका व संयोजीत करा"
 
 #: discover/qml/AddonsView.qml:37
 #, kde-format
@@ -118,97 +126,100 @@ msgstr "समीक्षा"
 msgid "<b>Total Size:</b> %1<br/>"
 msgstr "<b>एकूण आकार :</b> %1<br/>"
 
-#: discover/qml/ApplicationPage.qml:87
+#: discover/qml/ApplicationPage.qml:88
 msgid "Overview"
 msgstr "पूर्वावलोकन"
 
-#: discover/qml/ApplicationPage.qml:91
+#: discover/qml/ApplicationPage.qml:92
 msgid "Add-ons"
 msgstr "एडोन्स"
 
-#: discover/qml/ApplicationPage.qml:96
+#: discover/qml/ApplicationPage.qml:97
 msgid "Reviews"
 msgstr "प्रतिक्रिया"
 
-#: discover/qml/ApplicationsGridDelegate.qml:194
-#: discover/qml/ApplicationsList.qml:120
-#: discover/qml/InstallApplicationButton.qml:38
-#: discover/qml/InstalledPage.qml:11
+#: discover/qml/ApplicationsGridDelegate.qml:195
+#: discover/qml/ApplicationsList.qml:123
+#: discover/qml/ApplicationsListPage.qml:210
+#: discover/qml/InstallApplicationButton.qml:37
 msgid "Update"
 msgstr "अद्ययावत करा"
 
-#: discover/qml/ApplicationsListPage.qml:111
+#: discover/qml/ApplicationsListPage.qml:88
 msgid "Name"
 msgstr "नाव"
 
-#: discover/qml/ApplicationsListPage.qml:117
+#: discover/qml/ApplicationsListPage.qml:96
 msgid "Rating"
 msgstr "गुणवत्ताश्रेणी"
 
-#: discover/qml/ApplicationsListPage.qml:123
+#: discover/qml/ApplicationsListPage.qml:104
 msgid "Buzz"
 msgstr "बोलले जाणारे"
 
-#: discover/qml/ApplicationsListPage.qml:129
+#: discover/qml/ApplicationsListPage.qml:112
 msgid "Popularity"
 msgstr "लोकप्रियता"
 
-#: discover/qml/ApplicationsListPage.qml:135
+#: discover/qml/ApplicationsListPage.qml:120
 msgid "Origin"
 msgstr "मूळ"
 
-#: discover/qml/CategoryPage.qml:34
+#: discover/qml/ApplicationsListPage.qml:128
+#: discover/qml/ApplicationsListPage.qml:211 discover/qml/Main.qml:96
+msgid "Installed"
+msgstr "प्रतिष्ठापीत केलेले"
+
+#: discover/qml/ApplicationsListPage.qml:147
+msgid "List"
+msgstr "यादी"
+
+#: discover/qml/ApplicationsListPage.qml:156
+msgid "Grid"
+msgstr "जाळे"
+
+#: discover/qml/CategoryPage.qml:35
 #, kde-format
 msgid "Search in '%1'..."
 msgstr "यामध्ये शोधा '%1'..."
 
-#: discover/qml/CategoryPage.qml:139
-#, fuzzy
-#| msgid "Popularity"
-msgid "Popularity Contest"
-msgstr "लोकप्रियता"
-
 #: discover/qml/CategoryPage.qml:140
+msgid "Popularity Contest"
+msgstr "लोकप्रियता प्रतियोगिता"
+
+#: discover/qml/CategoryPage.qml:141
 #, kde-format
 msgid "points: %1"
 msgstr "गुण : %1"
 
-#: discover/qml/CategoryPage.qml:151
-#, fuzzy
-#| msgid "Rating"
+#: discover/qml/CategoryPage.qml:152
 msgid "Best Ratings"
-msgstr "गुणवत्ताश्रेणी"
+msgstr "सर्वोत्कृष्ट गुणवत्ताश्रेणी"
 
-#: discover/qml/DefaultBanner.qml:16
-#, fuzzy
-#| msgid "Muon Discover"
+#: discover/qml/DefaultBanner.qml:17
 msgid ""
 "Welcome to\n"
 "Muon Discover!"
-msgstr "म्युओन डिस्कव्हर"
+msgstr ""
+"म्युओन डिस्कव्हर\n"
+"मध्ये तुमचे स्वागत आहे!"
 
-#: discover/qml/FeaturedBanner.qml:88
+#: discover/qml/FeaturedBanner.qml:89
 #, kde-format
 msgid "<b>%1</b><br/>%2"
 msgstr "<b>%1</b><br/>%2"
 
-#: discover/qml/InstallApplicationButton.qml:43
+#: discover/qml/InstallApplicationButton.qml:42
 msgid "Install"
 msgstr "प्रतिष्ठापीत करा"
 
-#: discover/qml/InstallApplicationButton.qml:48
+#: discover/qml/InstallApplicationButton.qml:47
 msgid "Remove"
 msgstr "काढून टाका"
 
-#: discover/qml/InstalledPage.qml:12 discover/qml/Main.qml:94
-msgid "Installed"
-msgstr "प्रतिष्ठापीत केलेले"
-
-#: discover/qml/InstalledPage.qml:31
-#, fuzzy
-#| msgid "Update"
+#: discover/qml/InstalledPage.qml:19
 msgid "Update All"
-msgstr "अद्ययावत करा"
+msgstr "सर्व अद्ययावत करा"
 
 #: discover/qml/Main.qml:41
 msgid "Loading..."
@@ -216,21 +227,20 @@ msgstr "दाखल करत आहे..."
 
 #: discover/qml/Main.qml:79
 msgid "Back"
-msgstr ""
+msgstr "मागे"
 
-#: discover/qml/Main.qml:88
+#: discover/qml/Main.qml:89
 msgid "Discover"
 msgstr "शोधा"
 
-#: discover/qml/Main.qml:94
-#, fuzzy, kde-format
-#| msgid "Installed"
+#: discover/qml/Main.qml:96
+#, kde-format
 msgid "Installed (%1 update)"
 msgid_plural "Installed (%1 updates)"
-msgstr[0] "प्रतिष्ठापीत केलेले"
-msgstr[1] "प्रतिष्ठापीत केलेले"
+msgstr[0] "प्रतिष्ठापीत केलेले (%1 अद्ययावत)"
+msgstr[1] "प्रतिष्ठापीत केलेले (%1 अद्ययावत)"
 
-#: discover/qml/Main.qml:100
+#: discover/qml/Main.qml:103
 msgid "Sources"
 msgstr "स्रोत"
 
@@ -274,10 +284,25 @@ msgid ""
 "<p style='margin: 0 0 0 0'><b>%1</b> by %2</p><p style='margin: 0 0 0 0'>%3</"
 "p><p style='margin: 0 0 0 0'>%4</p>"
 msgstr ""
+"<p style='margin: 0 0 0 0'><b>%1</b> by %2</p><p style='margin: 0 0 0 0'>%3</"
+"p><p style='margin: 0 0 0 0'>%4</p>"
 
-#: discover/qml/ReviewsView.qml:59
+#: discover/qml/ReviewsView.qml:61
+#| msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'>No</a></em>"
+msgid "<em>Useful? <a href='true'><b>Yes</b></a>/<a href='false'>No</a></em>"
+msgstr ""
+"<em>उपयोगी आहे का? <a href='true'><b>होय</b></a>/<a href='false'>नाही</a></em>"
+
+#: discover/qml/ReviewsView.qml:63
+#| msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'>No</a></em>"
+msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'><b>No</b></a></em>"
+msgstr ""
+"<em>उपयोगी आहे का? <a href='true'>होय</a>/<a href='false'><b>नाही</b></a></em>"
+
+#: discover/qml/ReviewsView.qml:65
 msgid "<em>Useful? <a href='true'>Yes</a>/<a href='false'>No</a></em>"
-msgstr "<em>उपयोगी आहे का? <a href='true'>होय</a>/<a href='false'>नाही</a></em>"
+msgstr ""
+"<em>उपयोगी आहे का? <a href='true'>होय</a>/<a href='false'>नाही</a></em>"
 
 #: discover/qml/SourcesPage.qml:17
 msgid "Add Source"
@@ -289,7 +314,7 @@ msgstr "नवीन स्रोत निर्देशीत करा"
 
 #: discover/qml/SourcesPage.qml:44
 msgid "OK"
-msgstr ""
+msgstr "ठीक आहे"
 
 #: discover/qml/SourcesPage.qml:50
 msgid "Cancel"
@@ -297,7 +322,8 @@ msgstr "रद्द करा"
 
 #: discover/qml/SourcesPage.qml:72
 msgid "<sourceline> - The apt repository source line to add. This is one of:\n"
-msgstr "<sourceline> - जोडण्याकरिता एप्ट रीपोझिटरी स्रोत ओळ. हि पुढील पैकी एक :\n"
+msgstr ""
+"<sourceline> - जोडण्याकरिता एप्ट रीपोझिटरी स्रोत ओळ. हि पुढील पैकी एक :\n"
 
 #: discover/qml/SourcesPage.qml:136
 #, kde-format
