@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-19 03:22+0100\n"
+"POT-Creation-Date: 2013-04-03 03:18+0200\n"
 "PO-Revision-Date: 2013-03-28 15:17+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -148,7 +148,7 @@ msgstr ""
 msgid "Cannot load more than one URL in webapp mode"
 msgstr ""
 
-#: application.cpp:526
+#: application.cpp:536
 #, kde-format
 msgid ""
 "Malformed URL:\n"
@@ -157,39 +157,39 @@ msgstr ""
 "अवैध स्वरूपातील URL:\n"
 "%1"
 
-#: application.cpp:705
+#: application.cpp:715
 msgid "Do you want to close the window or the whole application?"
 msgstr "तुम्हाला चौकट बंद करायची आहे का संपूर्ण अनुप्रयोग बंद करायचा आहे?"
 
-#: application.cpp:706
+#: application.cpp:716
 msgid "Application/Window closing..."
 msgstr "अनुप्रयोग/चौकट बंद करत आहे..."
 
-#: application.cpp:707
+#: application.cpp:717
 msgid "C&lose Current Window"
 msgstr "वर्तमान चौकट बंद करा (&L)"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ClearDataWidget)
-#: application.cpp:736 cleardata.ui:17
+#: application.cpp:746 cleardata.ui:17
 msgctxt "@title:window"
 msgid "Clear Private Data"
 msgstr "वैयक्तिक माहिती पुसून टाका"
 
-#: application.cpp:740
+#: application.cpp:750
 msgid "Clear"
 msgstr "पुसून टाका"
 
-#: application.cpp:824
+#: application.cpp:834
 msgctxt "@title:window"
 msgid "Create Application Shortcut"
 msgstr "अनुप्रयोग शॉर्टकट निर्माण करा"
 
-#: application.cpp:826
+#: application.cpp:836
 msgid "Create"
 msgstr "निर्माण करा"
 
 #. i18n: ectx: Menu (go)
-#: bookmarks/bookmarkmanager.cpp:326 webwindow/rekonqui.rc:131
+#: bookmarks/bookmarkmanager.cpp:326 webwindow/rekonqui.rc:132
 msgid "&Bookmarks"
 msgstr "ओळखचिन्हे (&B)"
 
@@ -274,7 +274,7 @@ msgid "Link Nepomuk resources"
 msgstr "नेपोमुक संसाधने लिंक करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: bookmarks/bookmarkowner.cpp:106 urlbar/urlbar.cpp:478
+#: bookmarks/bookmarkowner.cpp:106 session.ui:36 urlbar/urlbar.cpp:478
 #: useragent/useragentsettings.ui:39
 msgid "Delete"
 msgstr "काढून टाका"
@@ -847,13 +847,42 @@ msgstr "लघुप्रतिमा पुन्हा दाखल करा
 msgid "Loading Preview..."
 msgstr "पूर्वावलोकन दाखल करत आहे..."
 
+#. i18n: ectx: property (windowTitle), widget (QWidget, Session)
+#: session.ui:14
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, saveButton)
+#: session.ui:29
+#, fuzzy
+#| msgid "Save Link"
+msgid "Save"
+msgstr "लिंक साठवा"
+
+#: sessionmanager.cpp:488
+#, fuzzy
+#| msgid "Manage Exceptions"
+msgctxt "@title:window"
+msgid "Manage Session"
+msgstr "अपवादांचे व्यवस्थापन करा"
+
+#: sessionmanager.cpp:492
+msgid "Load"
+msgstr ""
+
+#: sessionwidget.cpp:88
+#, fuzzy
+#| msgid "(Untitled)"
+msgid "untitled"
+msgstr "(शिर्षक नसलेले)"
+
 #: settings/appearancewidget.cpp:104
 msgid ""
 "Select the default encoding to be used; normally, you will be fine with 'Use "
 "language encoding' and should not have to change this."
 msgstr ""
 
-#: settings/generalwidget.cpp:115
+#: settings/generalwidget.cpp:104
 msgid "Install KGet to enable rekonq to use it as download manager"
 msgstr ""
 
@@ -1041,87 +1070,84 @@ msgstr "ऐच्छिक CSS फाईल करिता मार्ग :"
 msgid "*.css"
 msgstr "*.css"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, general)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (windowTitle), widget (QWidget, general)
 #: settings/settings_general.ui:14 settings/settings_webkit.ui:17
 #: settings/settingsdialog.cpp:83
 msgid "General"
 msgstr "सामान्य"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: settings/settings_general.ui:20
-msgid "Startup"
-msgstr "सुरुवात"
+#, fuzzy
+#| msgid "&Settings"
+msgid "First settings"
+msgstr "संयोजना (&S)"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settings/settings_general.ui:41
 msgid "When starting rekonq:"
 msgstr "रीकॉन्क सुरुवात करताना :"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
-#: settings/settings_general.ui:58
-msgid "Open the Home Page"
-msgstr "मुख्य पान उघडा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
-#: settings/settings_general.ui:63
-msgid "Open the New Tab Page"
-msgstr "नवीन टॅब पान उघडा"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
-#: settings/settings_general.ui:68
-msgid "Restore the Last Opened Tabs"
-msgstr "शेवटी उघडलेले टॅब पुन्हस्थापित करा"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: settings/settings_general.ui:79
-msgid "Home Page"
-msgstr "मुख्य पान"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: settings/settings_general.ui:97
+#: settings/settings_general.ui:63
 msgid "Home page URL:"
 msgstr "मुख्य पान URL :"
 
 #. i18n: ectx: property (text), widget (QPushButton, setHomeToCurrentPageButton)
-#: settings/settings_general.ui:122
+#: settings/settings_general.ui:88
 msgid "Set to Current Page"
 msgstr "वर्तमान पानावर निश्चित करा"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useNewTabPage)
-#: settings/settings_general.ui:144
-msgid "Use the New Tab Page as home page"
-msgstr "नवीन टॅब मुख्य पान म्हणून वापरा"
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:117
+msgid "Open the Home Page"
+msgstr "मुख्य पान उघडा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:122
+msgid "Open the New Tab Page"
+msgstr "नवीन टॅब पान उघडा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:127
+msgid "Restore the Last Opened Tabs"
+msgstr "शेवटी उघडलेले टॅब पुन्हस्थापित करा"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_startupBehaviour)
+#: settings/settings_general.ui:132
+msgid "Show session dialog"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
-#: settings/settings_general.ui:154
+#: settings/settings_general.ui:143
 msgid "Downloads Management"
 msgstr "डाउनलोड व्यवस्थापन"
 
 #. i18n: ectx: property (text), widget (QRadioButton, askDownloadNo)
-#: settings/settings_general.ui:174
+#: settings/settings_general.ui:163
 msgid "Save files to:"
 msgstr "यामध्ये फाईल्स साठवा :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, askDownloadYes)
-#: settings/settings_general.ui:193
+#: settings/settings_general.ui:182
 msgid "Always ask me where to save files"
 msgstr "कोठे फाईल्स साठवायच्या ते नेहमी विचारा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_kgetDownload)
-#: settings/settings_general.ui:216
+#: settings/settings_general.ui:205
 msgid "Use KGet for downloading files"
 msgstr "फाईल्स डाउनलोड करण्याकरिता के-गेट वापरा"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_kgetList)
-#: settings/settings_general.ui:223
+#: settings/settings_general.ui:212
 msgid ""
 "If enabled, rekonq will display an additional context menu entry, which, "
 "when selected, lists all available links of the current website in KGet."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_kgetList)
-#: settings/settings_general.ui:226
+#: settings/settings_general.ui:215
 msgid "List links with KGet"
 msgstr "के-गेटने लिंक्सची यादी करा"
 
@@ -1583,7 +1609,7 @@ msgid "Check"
 msgstr "तपासा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, syncGroupBox)
-#: sync/sync_data.ui:23 webwindow/webwindow.cpp:345
+#: sync/sync_data.ui:23 webwindow/webwindow.cpp:351
 msgid "Sync"
 msgstr "सिंक"
 
@@ -1688,13 +1714,13 @@ msgstr "काही नाही"
 msgid "Rekonq has been compiled without support for Opera Sync"
 msgstr ""
 
-#: tabwindow/rekonqwindow.cpp:158 tabwindow/tabwidget.cpp:196
+#: tabwindow/rekonqwindow.cpp:159 tabwindow/tabwidget.cpp:196
 #, fuzzy
 #| msgid "Bookmarks page"
 msgid "Bookmarks Panel"
 msgstr "ओळखचिन्हे पान"
 
-#: tabwindow/rekonqwindow.cpp:182 tabwindow/tabwidget.cpp:203
+#: tabwindow/rekonqwindow.cpp:183 tabwindow/tabwidget.cpp:203
 #, fuzzy
 #| msgid "History page"
 msgid "History Panel"
@@ -1704,8 +1730,8 @@ msgstr "इतिहास पान"
 msgid "Clone"
 msgstr "प्रतिकृती"
 
-#: tabwindow/tabbar.cpp:206 webwindow/webwindow.cpp:264
-#: webwindow/webwindow.cpp:430
+#: tabwindow/tabbar.cpp:206 webwindow/webwindow.cpp:265
+#: webwindow/webwindow.cpp:436
 msgid "Reload"
 msgstr "पुन्हा दाखल करा"
 
@@ -1836,7 +1862,7 @@ msgid "Nepomuk is actually disabled."
 msgstr "नेपोमुक अकार्यान्वीत आहे."
 
 #. i18n: ectx: ToolBar (bookmarkToolBar)
-#: urlbar/bookmarkwidget.cpp:242 webwindow/rekonqui.rc:171
+#: urlbar/bookmarkwidget.cpp:242 webwindow/rekonqui.rc:172
 msgid "Bookmark Toolbar"
 msgstr "ओळखचिन्ह साधनपट्टी"
 
@@ -2112,7 +2138,7 @@ msgctxt "describe UA platform, eg: firefox 3.1 \"on Windows XP\""
 msgid " on %1 %2"
 msgstr " %1 %2 वर"
 
-#: useragent/useragentmanager.cpp:64 webwindow/webwindow.cpp:322
+#: useragent/useragentmanager.cpp:64 webwindow/webwindow.cpp:328
 msgid "Browser Identification"
 msgstr "ब्राऊजर ओळख"
 
@@ -2619,132 +2645,138 @@ msgstr "झूम (&Z)"
 
 #. i18n: ectx: Menu (toolsMenu)
 #. i18n: ectx: Menu (tools)
-#: webwindow/rekonqui.rc:30 webwindow/rekonqui.rc:135
-#: webwindow/webwindow.cpp:361
+#: webwindow/rekonqui.rc:30 webwindow/rekonqui.rc:136
+#: webwindow/webwindow.cpp:367
 msgid "&Tools"
 msgstr "साधने (&T)"
 
 #. i18n: ectx: Menu (panelsMenu)
-#: webwindow/rekonqui.rc:50
+#: webwindow/rekonqui.rc:51
 msgid "&Panels"
 msgstr ""
 
 #. i18n: ectx: Menu (help)
-#: webwindow/rekonqui.rc:60
+#: webwindow/rekonqui.rc:61
 msgid "&Help"
 msgstr "मदत (&H)"
 
 #. i18n: ectx: Menu (file)
-#: webwindow/rekonqui.rc:82
+#: webwindow/rekonqui.rc:83
 msgid "&File"
 msgstr "फाईल (&F)"
 
 #. i18n: ectx: Menu (edit)
-#: webwindow/rekonqui.rc:97
+#: webwindow/rekonqui.rc:98
 msgid "&Edit"
 msgstr "संपादन (&E)"
 
 #. i18n: ectx: Menu (view)
-#: webwindow/rekonqui.rc:111
+#: webwindow/rekonqui.rc:112
 msgid "&View"
 msgstr "दृश्य (&V)"
 
 #. i18n: ectx: Menu (go)
-#: webwindow/rekonqui.rc:127
+#: webwindow/rekonqui.rc:128
 msgid "Hi&story"
 msgstr "इतिहास (&S)"
 
 #. i18n: ectx: Menu (settings)
-#: webwindow/rekonqui.rc:147
+#: webwindow/rekonqui.rc:148
 msgid "&Settings"
 msgstr "संयोजना (&S)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: webwindow/rekonqui.rc:161
+#: webwindow/rekonqui.rc:162
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
-#: webwindow/webwindow.cpp:197
+#: webwindow/webwindow.cpp:198
 msgid "Location Bar"
 msgstr "स्थान पट्टी"
 
-#: webwindow/webwindow.cpp:208
+#: webwindow/webwindow.cpp:209
 msgid "&New Window"
 msgstr "नवीन चौकट (&N)"
 
-#: webwindow/webwindow.cpp:222
+#: webwindow/webwindow.cpp:223
 msgid "Configure Main ToolBar"
 msgstr "मुख्य साधनपट्टी संयोजीत करा"
 
-#: webwindow/webwindow.cpp:227
+#: webwindow/webwindow.cpp:228
 msgid "Bookmarks Toolbar"
 msgstr "ओळखचिन्हे साधनपट्टी"
 
-#: webwindow/webwindow.cpp:238
+#: webwindow/webwindow.cpp:239
 msgid "Downloads page"
 msgstr "डाउनलोड पान"
 
-#: webwindow/webwindow.cpp:244
+#: webwindow/webwindow.cpp:245
 msgid "History page"
 msgstr "इतिहास पान"
 
-#: webwindow/webwindow.cpp:250
+#: webwindow/webwindow.cpp:251
 msgid "Bookmarks page"
 msgstr "ओळखचिन्हे पान"
 
-#: webwindow/webwindow.cpp:269
+#: webwindow/webwindow.cpp:270
 msgid "&Stop"
 msgstr "थांबा (&S)"
 
-#: webwindow/webwindow.cpp:275
+#: webwindow/webwindow.cpp:276
 msgid "Open Location"
 msgstr "स्थान उघडा"
 
-#: webwindow/webwindow.cpp:283
+#: webwindow/webwindow.cpp:284
+#, fuzzy
+#| msgid "Manage Exceptions"
+msgid "&Manage Sessions"
+msgstr "अपवादांचे व्यवस्थापन करा"
+
+#: webwindow/webwindow.cpp:289
 msgid "View Page S&ource"
 msgstr "पानाचा स्रोत बघा (&O)"
 
-#: webwindow/webwindow.cpp:289
+#: webwindow/webwindow.cpp:295
 msgid "New Private Window"
 msgstr "नवीन व्यक्तिगत चौकट"
 
-#: webwindow/webwindow.cpp:294
+#: webwindow/webwindow.cpp:300
 msgid "Clear Private Data..."
 msgstr "व्यक्तिगत माहिती पुसून टाका..."
 
-#: webwindow/webwindow.cpp:329
+#: webwindow/webwindow.cpp:335
 msgid "Set Editable"
 msgstr "संपादनास योग्य करा"
 
-#: webwindow/webwindow.cpp:335
+#: webwindow/webwindow.cpp:341
 msgid "Ad Block"
 msgstr "जाहिरात प्रतिबंध"
 
-#: webwindow/webwindow.cpp:340
+#: webwindow/webwindow.cpp:346
 msgid "Create application shortcut"
 msgstr "अनुप्रयोग शॉर्टकट निर्माण करा"
 
-#: webwindow/webwindow.cpp:350
+#: webwindow/webwindow.cpp:356
 msgid "&Inspect"
 msgstr "तपासा (&I)"
 
-#: webwindow/webwindow.cpp:410
+#: webwindow/webwindow.cpp:416
 msgid "Stop loading the current page"
 msgstr "वर्तमान पान दाखल करणे थांबवा"
 
-#: webwindow/webwindow.cpp:411
+#: webwindow/webwindow.cpp:417
 msgid "Stop"
 msgstr "थांबा"
 
-#: webwindow/webwindow.cpp:429
+#: webwindow/webwindow.cpp:435
 msgid "Reload the current page"
 msgstr "वर्तमान पान पुन्हा दाखल करा"
 
-#: webwindow/webwindow.cpp:441 webwindow/webwindow.cpp:442
+#: webwindow/webwindow.cpp:447 webwindow/webwindow.cpp:448
 msgid "Go"
 msgstr "जा"
 
-#: webwindow/webwindow.cpp:725
+#: webwindow/webwindow.cpp:731
 msgid ""
 "*.html *.htm *.svg *.png *.gif *.svgz|Web Resources (*.html *.htm *.svg *."
 "png *.gif *.svgz)\n"
@@ -2754,17 +2786,26 @@ msgstr ""
 "png *.gif *.svgz)\n"
 "*.*|All files (*.*)"
 
-#: webwindow/webwindow.cpp:728
+#: webwindow/webwindow.cpp:734
 msgid "Open Web Resource"
 msgstr "वेब संसाधन उघडा"
 
-#: webwindow/webwindow.cpp:998
+#: webwindow/webwindow.cpp:1002
 msgid "web window"
 msgstr "वेब चौकट"
 
-#: webwindow/webwindow.cpp:1002
+#: webwindow/webwindow.cpp:1006
 msgid "tab window"
 msgstr "टॅब चौकट"
+
+#~ msgid "Startup"
+#~ msgstr "सुरुवात"
+
+#~ msgid "Home Page"
+#~ msgstr "मुख्य पान"
+
+#~ msgid "Use the New Tab Page as home page"
+#~ msgstr "नवीन टॅब मुख्य पान म्हणून वापरा"
 
 #~| msgid "Shortcuts"
 #~ msgctxt "@title:window"
@@ -2785,9 +2826,6 @@ msgstr "टॅब चौकट"
 
 #~ msgid "Pending"
 #~ msgstr "अनिर्णायक"
-
-#~ msgid "(Untitled)"
-#~ msgstr "(शिर्षक नसलेले)"
 
 #~ msgctxt "window title, %1 = title of the active website"
 #~ msgid "%1 – rekonq"
