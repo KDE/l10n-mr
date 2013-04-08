@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-07 02:17+0200\n"
+"POT-Creation-Date: 2013-04-08 02:27+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1300,7 +1300,7 @@ msgid "Path editing tool"
 msgstr ""
 
 #: flake/tools/KoZoomToolFactory.cpp:30 widgets/KoZoomAction.cpp:307
-#: widgets/KoZoomController.cpp:39
+#: widgets/KoZoomController_p.h:42
 msgid "Zoom"
 msgstr "झूम"
 
@@ -3520,66 +3520,66 @@ msgstr "आयात गाळणी सापडत नाही"
 msgid "Choose Filter"
 msgstr "गाळणी निवडा"
 
-#: main/KoFindText.cpp:89
+#: main/KoFindText.cpp:59
 msgid "Case Sensitive"
 msgstr "अक्षराकार संवेदनशील"
 
-#: main/KoFindText.cpp:89
+#: main/KoFindText.cpp:59
 msgid "Match cases when searching"
 msgstr ""
 
-#: main/KoFindText.cpp:90
+#: main/KoFindText.cpp:60
 msgid "Whole Words Only"
 msgstr "फक्त पूर्ण शब्द"
 
-#: main/KoFindText.cpp:90
+#: main/KoFindText.cpp:60
 msgid "Match only whole words"
 msgstr ""
 
-#: main/KoFindText.cpp:91
+#: main/KoFindText.cpp:61
 msgid "Find from Cursor"
 msgstr ""
 
-#: main/KoFindText.cpp:91
+#: main/KoFindText.cpp:61
 msgid "Start searching from the current cursor"
 msgstr ""
 
-#: main/KoFindToolbar.cpp:109
+#: main/KoFindToolbar.cpp:71
 msgctxt "Label for the Find text input box"
 msgid "Find:"
 msgstr "शोधा :"
 
-#: main/KoFindToolbar.cpp:122
+#: main/KoFindToolbar.cpp:84
 msgctxt "Next search result"
 msgid "Next"
 msgstr "पुढील"
 
-#: main/KoFindToolbar.cpp:132
+#: main/KoFindToolbar.cpp:94
 msgctxt "Previous search result"
 msgid "Previous"
 msgstr "मागील"
 
-#: main/KoFindToolbar.cpp:141
+#: main/KoFindToolbar.cpp:103
 msgctxt "Search options"
 msgid "Options"
 msgstr "पर्याय"
 
-#: main/KoFindToolbar.cpp:168
+#: main/KoFindToolbar.cpp:130
 msgctxt "Label for the Replace text input box"
 msgid "Replace:"
 msgstr "बदला :"
 
-#: main/KoFindToolbar.cpp:178
+#: main/KoFindToolbar.cpp:140
 msgctxt "Replace the current match"
 msgid "Replace"
 msgstr "बदला"
 
-#: main/KoFindToolbar.cpp:184
+#: main/KoFindToolbar.cpp:146
 msgctxt "Replace all found matches"
 msgid "Replace All"
 msgstr "सर्व बदला"
 
-#: main/KoFindToolbar.cpp:250
+#: main/KoFindToolbar.cpp:212
 #, kde-format
 msgctxt "Total number of matches"
 msgid "1 match found"
@@ -3587,15 +3587,15 @@ msgid_plural "%1 matches found"
 msgstr[0] "1 जुळवणी आढळली"
 msgstr[1] "%1 जुळवणी आढळल्या."
 
-#: main/KoFindToolbar.cpp:260
+#: main/KoFindToolbar.cpp:222
 msgid "No matches found"
 msgstr "जुळवणी आढळली नाही"
 
-#: main/KoFindToolbar.cpp:266
+#: main/KoFindToolbar.cpp:228
 msgid "Search hit bottom, continuing from top."
 msgstr ""
 
-#: main/KoFindToolbar.cpp:268
+#: main/KoFindToolbar.cpp:230
 msgid "Search hit top, continuing from bottom."
 msgstr ""
 
@@ -3767,21 +3767,21 @@ msgid ""
 "Reason: %2"
 msgstr ""
 
-#: main/KoPrintingDialog.cpp:147
+#: main/KoPrintingDialog.cpp:57
+msgid "Stop"
+msgstr "थांबा"
+
+#: main/KoPrintingDialog_p.h:150
 msgid "Printing done"
 msgstr ""
 
-#: main/KoPrintingDialog.cpp:148
+#: main/KoPrintingDialog_p.h:151
 msgid "Close"
 msgstr "बंद करा"
 
-#: main/KoPrintingDialog.cpp:168
+#: main/KoPrintingDialog_p.h:171
 msgid "Stopped"
 msgstr "थांबले"
-
-#: main/KoPrintingDialog.cpp:210
-msgid "Stop"
-msgstr "थांबा"
 
 #: main/KoRecentDocumentsPane.cpp:82
 msgid "Open This Document"
@@ -5363,11 +5363,11 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
-#: widgets/KoColorSetWidget.cpp:184
+#: widgets/KoColorSetWidget.cpp:163
 msgid "Recent:"
 msgstr ""
 
-#: widgets/KoColorSetWidget.cpp:197
+#: widgets/KoColorSetWidget.cpp:176
 msgid "Add / Remove Colors..."
 msgstr ""
 
