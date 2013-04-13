@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-11 04:03+0200\n"
+"POT-Creation-Date: 2013-04-13 04:04+0200\n"
 "PO-Revision-Date: 2013-03-26 15:08+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -88,62 +88,62 @@ msgstr "%1 करिता पॅकेज hash तयार करण्या�
 msgid "SHA1 hash for Package at %1: '%2'"
 msgstr "%1 येथील पॅकेजचे SHA1 hash : '%2'"
 
-#: plasmapkg.cpp:144 plasmapkg.cpp:187 plasmapkg.cpp:209
+#: plasmapkg.cpp:144 plasmapkg.cpp:187 plasmapkg.cpp:208
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "वॉलपेपर"
 
-#: plasmapkg.cpp:194
+#: plasmapkg.cpp:193
 msgctxt "package type"
 msgid "plasmoid"
 msgstr "प्लाज्मोइड"
 
-#: plasmapkg.cpp:201
+#: plasmapkg.cpp:200
 msgctxt "package type"
 msgid "package"
 msgstr ""
 
-#: plasmapkg.cpp:206
+#: plasmapkg.cpp:205
 msgctxt "package type"
 msgid "theme"
 msgstr "शैली"
 
-#: plasmapkg.cpp:214
+#: plasmapkg.cpp:213
 msgctxt "package type"
 msgid "dataengine"
 msgstr "डेटाइंजिन"
 
-#: plasmapkg.cpp:219
+#: plasmapkg.cpp:218
 msgctxt "package type"
 msgid "runner"
 msgstr "रनर"
 
-#: plasmapkg.cpp:224
+#: plasmapkg.cpp:223
 msgctxt "package type"
 msgid "wallpaperplugin"
 msgstr "वॉलपेपर प्लगइन"
 
-#: plasmapkg.cpp:229
+#: plasmapkg.cpp:228
 msgctxt "package type"
 msgid "layout-template"
 msgstr "मांडणी-नमूना"
 
-#: plasmapkg.cpp:234
+#: plasmapkg.cpp:233
 msgctxt "package type"
 msgid "kwineffect"
 msgstr "के-विन परिणाम"
 
-#: plasmapkg.cpp:239
+#: plasmapkg.cpp:238
 msgctxt "package type"
 msgid "windowswitcher"
 msgstr "चौकट बदल"
 
-#: plasmapkg.cpp:244
+#: plasmapkg.cpp:243
 msgctxt "package type"
 msgid "kwinscript"
 msgstr "के-विन स्क्रिप्ट"
 
-#: plasmapkg.cpp:253
+#: plasmapkg.cpp:252
 #, kde-format
 msgid "Could not find a suitable installer for package of type %1"
 msgstr "%1 या पॅकेज प्रकारासाठी योग्य प्रतिष्ठापना कार्यक्रम सापडला नाही"
@@ -154,9 +154,15 @@ msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "%1 या पॅकेज प्रकारासाठी प्रतिष्ठापना कार्यक्रम लोड होऊ शकला नाही. ही त्रुटी होती : %2"
 
-#: plasmapkg.cpp:333
+#: plasmapkg.cpp:273
 #, kde-format
-msgid "Plugin %1 is not installed."
+msgid "Listing service types: %1"
+msgstr ""
+
+#: plasmapkg.cpp:333
+#, fuzzy, kde-format
+#| msgid "Plugin %1 is not installed."
+msgid "Error: Plugin %1 is not installed."
 msgstr "%1 हे प्लगइन प्रतिष्ठापीत झालेले नाही."
 
 #: plasmapkg.cpp:343
@@ -168,7 +174,7 @@ msgstr "प्रतिष्ठापन, काढून टाका, अद�
 
 #: plasmapkg.cpp:422
 #, kde-format
-msgid "Can't find plugin metadata: %1"
+msgid "Error: Can't find plugin metadata: %1"
 msgstr ""
 
 #: plasmapkg.cpp:425
@@ -239,7 +245,7 @@ msgid "Layout Template"
 msgstr "मांडणी नमूना"
 
 #: plasmapkg.cpp:513
-msgid "Packages"
+msgid "Package"
 msgstr ""
 
 #: plasmapkg.cpp:514
@@ -283,21 +289,34 @@ msgid "Provided by .desktop files:"
 msgstr ".desktop फाईल्सने पुरविलेले :"
 
 #: plasmapkg.cpp:573
+#, fuzzy, kde-format
+#| msgid "Successfully uninstalled %1"
+msgid "Successfully upgraded %1"
+msgstr "यशस्वीरित्या अप्रतिष्ठापीत केले %1"
+
+#: plasmapkg.cpp:575
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "%1 हे यशस्वीरित्या प्रतिष्ठापीत केले"
 
-#: plasmapkg.cpp:575
-#, kde-format
-msgid "Installation of %1 failed: %2"
+#: plasmapkg.cpp:578
+#, fuzzy, kde-format
+#| msgid "Installation of %1 failed: %2"
+msgid "Error: Installation of %1 failed: %2"
 msgstr "%1 ची प्रतिष्ठापना करण्यास अपयश: %2"
 
-#: plasmapkg.cpp:586
+#: plasmapkg.cpp:590
+#, kde-format
+msgid "Upgrading package from file: %1"
+msgstr ""
+
+#: plasmapkg.cpp:595
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "यशस्वीरित्या अप्रतिष्ठापीत केले %1"
 
-#: plasmapkg.cpp:593
-#, kde-format
-msgid "Uninstallation of %1 failed: %2"
+#: plasmapkg.cpp:597
+#, fuzzy, kde-format
+#| msgid "Uninstallation of %1 failed: %2"
+msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "%1 ची अप्रतिष्ठापना करण्यास अपयश: %2"
