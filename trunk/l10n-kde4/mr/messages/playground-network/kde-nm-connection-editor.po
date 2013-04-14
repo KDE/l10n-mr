@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-13 04:05+0200\n"
+"POT-Creation-Date: 2013-04-14 03:50+0200\n"
 "PO-Revision-Date: 2013-03-30 16:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -33,78 +33,78 @@ msgstr ""
 msgid "PAN (personal area network)"
 msgstr ""
 
-#: connectiondetaileditor.cpp:180
+#: connectiondetaileditor.cpp:181
 #, kde-format
 msgid "New Connection (%1)"
 msgstr "नवीन जुळवणी (%1)"
 
-#: connectiondetaileditor.cpp:181
+#: connectiondetaileditor.cpp:182
 #, kde-format
 msgid "New %1 connection"
 msgstr "नवीन %1 जुळवणी"
 
-#: connectiondetaileditor.cpp:183
+#: connectiondetaileditor.cpp:184
 #, kde-format
 msgid "Edit Connection '%1'"
 msgstr "जुळवणी संपादन '%1'"
 
-#: connectiondetaileditor.cpp:193
+#: connectiondetaileditor.cpp:194
 msgid "General"
 msgstr "सामान्य"
 
-#: connectiondetaileditor.cpp:200 connectiondetaileditor.cpp:222
+#: connectiondetaileditor.cpp:201 connectiondetaileditor.cpp:223
 #: connectioneditor.cpp:69 connectiontypeitem.cpp:61
 msgid "Wired"
 msgstr "वायर्ड"
 
-#: connectiondetaileditor.cpp:202
+#: connectiondetaileditor.cpp:203
 msgid "802.1x Security"
 msgstr "802.1x सुरक्षा"
 
-#: connectiondetaileditor.cpp:204 connectiondetaileditor.cpp:215
-#: connectiondetaileditor.cpp:226 connectiondetaileditor.cpp:233
-#: connectiondetaileditor.cpp:240 connectiondetaileditor.cpp:252
-#: connectiondetaileditor.cpp:278
+#: connectiondetaileditor.cpp:205 connectiondetaileditor.cpp:216
+#: connectiondetaileditor.cpp:227 connectiondetaileditor.cpp:234
+#: connectiondetaileditor.cpp:241 connectiondetaileditor.cpp:253
+#: connectiondetaileditor.cpp:279
 msgid "IPv4"
 msgstr "IPv4"
 
-#: connectiondetaileditor.cpp:206 connectiondetaileditor.cpp:217
+#: connectiondetaileditor.cpp:207 connectiondetaileditor.cpp:218
 msgid "IPv6"
 msgstr "IPv6"
 
-#: connectiondetaileditor.cpp:209 connectioneditor.cpp:72
+#: connectiondetaileditor.cpp:210 connectioneditor.cpp:72
 msgid "Wireless"
 msgstr "वायरलेस"
 
-#: connectiondetaileditor.cpp:213
+#: connectiondetaileditor.cpp:214
 msgid "Wi-Fi Security"
 msgstr "वाय-फाय सुरक्षा"
 
-#: connectiondetaileditor.cpp:220 connectioneditor.cpp:58
+#: connectiondetaileditor.cpp:221 connectioneditor.cpp:58
 #: connectiontypeitem.cpp:37
 msgid "DSL"
 msgstr "DSL"
 
-#: connectiondetaileditor.cpp:224 connectiondetaileditor.cpp:231
-#: connectiondetaileditor.cpp:238 connectiondetaileditor.cpp:249
+#: connectiondetaileditor.cpp:225 connectiondetaileditor.cpp:232
+#: connectiondetaileditor.cpp:239 connectiondetaileditor.cpp:250
 msgid "PPP"
 msgstr "PPP"
 
-#: connectiondetaileditor.cpp:229 connectiondetaileditor.cpp:236
+#: connectiondetaileditor.cpp:230 connectiondetaileditor.cpp:237
 #, fuzzy, kde-format
 #| msgid "Mobile Broadband"
 msgid "Mobile Broadband (%1)"
 msgstr "मोबाईल ब्रॉडबैंड"
 
-#: connectiondetaileditor.cpp:243 connectiontypeitem.cpp:40
+#: connectiondetaileditor.cpp:244 connectiontypeitem.cpp:40
 msgid "Bluetooth"
 msgstr "ब्लूटूथ"
 
-#: connectiondetaileditor.cpp:247
+#: connectiondetaileditor.cpp:248
 msgid "GSM"
 msgstr ""
 
-#: connectiondetaileditor.cpp:276
+#: connectiondetaileditor.cpp:277
 #, kde-format
 msgid "VPN (%1)"
 msgstr ""
@@ -482,13 +482,13 @@ msgstr "CHAP"
 msgid "PEAP &version:"
 msgstr ""
 
+#. i18n: ectx: property (text), item, widget (QComboBox, peapVersion)
+#. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, mtu)
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, speed)
-#. i18n: ectx: property (text), item, widget (QComboBox, peapVersion)
-#. i18n: ectx: property (text), item, widget (KComboBox, method)
-#: ui/802-1x.ui:642 ui/ipv6.ui:72 ui/wificonnectionwidget.ui:166
-#: ui/wiredconnectionwidget.ui:79 ui/wiredconnectionwidget.ui:108
+#: ui/802-1x.ui:642 ui/ipv6.ui:72 ui/wificonnectionwidget.ui:177
+#: ui/wiredconnectionwidget.ui:102 ui/wiredconnectionwidget.ui:134
 msgid "Automatic"
 msgstr "स्वयंचलित"
 
@@ -933,29 +933,34 @@ msgstr ""
 msgid "Access Point"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, BSSIDLabel)
 #: ui/wificonnectionwidget.ui:75
+msgid "&BSSID:"
+msgstr "&BSSID:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/wificonnectionwidget.ui:98 ui/wiredconnectionwidget.ui:23
 msgid "&Device MAC address:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ui/wificonnectionwidget.ui:98
+#: ui/wificonnectionwidget.ui:121 ui/wiredconnectionwidget.ui:46
 msgid "&Cloned MAC address:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, btnRandomMacAddr)
+#: ui/wificonnectionwidget.ui:149 ui/wiredconnectionwidget.ui:74
+msgid "&Random..."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ui/wificonnectionwidget.ui:124
+#: ui/wificonnectionwidget.ui:158
 msgid "M&TU:"
 msgstr "M&TU:"
 
-#. i18n: ectx: property (text), widget (QLabel, BSSIDLabel)
-#: ui/wificonnectionwidget.ui:134
-msgid "&BSSID:"
-msgstr "&BSSID:"
-
 #. i18n: ectx: property (suffix), widget (QSpinBox, mtu)
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, mtu)
-#: ui/wificonnectionwidget.ui:169 ui/wiredconnectionwidget.ui:82
+#: ui/wificonnectionwidget.ui:180 ui/wiredconnectionwidget.ui:105
 msgid " bytes"
 msgstr " बाइट्स"
 
@@ -1044,50 +1049,46 @@ msgstr ""
 msgid "Shared Key"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/wiredconnectionwidget.ui:20
-msgid "Device MAC address:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ui/wiredconnectionwidget.ui:40
-msgid "Cloned MAC address:"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ui/wiredconnectionwidget.ui:63
-msgid "MTU:"
+#: ui/wiredconnectionwidget.ui:83
+#, fuzzy
+#| msgid "MTU:"
+msgid "&MTU:"
 msgstr "MTU:"
 
 #. i18n: ectx: property (text), widget (QLabel, speedLabel)
-#: ui/wiredconnectionwidget.ui:92
-msgid "Speed:"
+#: ui/wiredconnectionwidget.ui:115
+#, fuzzy
+#| msgid "Speed:"
+msgid "&Speed:"
 msgstr "वेग :"
 
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, speed)
-#: ui/wiredconnectionwidget.ui:111
+#: ui/wiredconnectionwidget.ui:137
 msgid " Mbit/s"
 msgstr " Mbit/s"
 
 #. i18n: ectx: property (text), widget (QLabel, duplexLabel)
-#: ui/wiredconnectionwidget.ui:121
-msgid "Duplex"
+#: ui/wiredconnectionwidget.ui:147
+msgid "D&uplex:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, duplex)
-#: ui/wiredconnectionwidget.ui:135
+#: ui/wiredconnectionwidget.ui:164
 msgid "Full"
 msgstr "पूर्ण"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, duplex)
-#: ui/wiredconnectionwidget.ui:140
+#: ui/wiredconnectionwidget.ui:169
 msgid "Half"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autonegotiate)
-#: ui/wiredconnectionwidget.ui:154
-msgid "Autonegotiate"
-msgstr ""
+#: ui/wiredconnectionwidget.ui:183
+#, fuzzy
+#| msgid "&Authentication:"
+msgid "&Autonegotiate"
+msgstr "अधिप्रमाणन (&A):"
 
 #. i18n: ectx: property (text), widget (QCheckBox, use8021X)
 #: ui/wiredsecurity.ui:17
