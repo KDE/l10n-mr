@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-19 03:51+0200\n"
+"POT-Creation-Date: 2013-04-20 03:52+0200\n"
 "PO-Revision-Date: 2013-04-13 16:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -109,6 +109,32 @@ msgstr "सीव्ह स्क्रिप्ट"
 msgid "Add Flags"
 msgstr "निशाण जोडा"
 
+#: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:31
+#, fuzzy
+#| msgid "headers:"
+msgid "Add header"
+msgstr "शिर्षक :"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:51
+#: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:51
+#, fuzzy
+#| msgid "headers:"
+msgid "header:"
+msgstr "शिर्षक :"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionaddheader.cpp:58
+#: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:58
+#, fuzzy
+#| msgid "With value:"
+msgid "value:"
+msgstr "मूल्या सकट :"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactiondeleteheader.cpp:31
+#, fuzzy
+#| msgid "Delete template"
+msgid "Delete header"
+msgstr "नमूना काढून टाका"
+
 #: ksieveui/autocreatescripts/sieveactions/sieveactiondiscard.cpp:23
 msgid "Discard"
 msgstr "सोडून द्या"
@@ -121,6 +147,10 @@ msgstr ""
 msgid "Keep"
 msgstr "ठेवा"
 
+#: ksieveui/autocreatescripts/sieveactions/sieveactionnotify.cpp:26
+msgid "Notify"
+msgstr ""
+
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:29
 msgid "Redirect"
 msgstr "पुन्हा वळवा"
@@ -129,7 +159,7 @@ msgstr "पुन्हा वळवा"
 msgid "Reject"
 msgstr "अस्वीकार करा"
 
-#: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:42
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:43
 msgid "text:"
 msgstr "मजकूर :"
 
@@ -145,18 +175,38 @@ msgstr "निशाण निश्चित करा"
 msgid "Stop"
 msgstr "थांबा"
 
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectaddheaderpositioncombobox.cpp:36
+msgid "Insert at the beginning"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectaddheaderpositioncombobox.cpp:37
+msgid "Append at the end"
+msgstr ""
+
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectfileintowidget.cpp:31
 msgid "Select folder"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sieveactions/widgets/selectfileintowidget.cpp:55
-#: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:106
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectfileintowidget.cpp:56
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:107
 msgid "..."
 msgstr "..."
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectflagswidget.cpp:33
 msgid "Flags"
 msgstr "निशाण"
+
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectimportancecombobox.cpp:37
+msgid "high importance"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectimportancecombobox.cpp:38
+msgid "normal importance"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/widgets/selectimportancecombobox.cpp:39
+msgid "low importance"
+msgstr ""
 
 #: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:59
 msgid "Please select an action."
@@ -166,14 +216,18 @@ msgstr "कृपया क्रिया निवडा."
 msgid "Address"
 msgstr "पत्ता"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:62
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:63
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:63
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:64
 msgid "address:"
 msgstr "पत्ता :"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:67
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:68
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:68
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:69
 msgid "Use ; to separate emails"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionbody.cpp:31
+msgid "Body"
 msgstr ""
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvelope.cpp:36
@@ -184,15 +238,15 @@ msgstr "पाकिट"
 msgid "Exists"
 msgstr "अस्तित्वात आहे"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:50
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:51
 msgid "exists"
 msgstr "अस्तित्वात आहे"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:51
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:52
 msgid "not exists"
 msgstr "अस्तित्वात नाही"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:54
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:55
 msgid "headers:"
 msgstr "शिर्षक :"
 
@@ -200,7 +254,7 @@ msgstr "शिर्षक :"
 msgid "Header"
 msgstr "शिर्षक"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionheader.cpp:55
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionheader.cpp:56
 msgid "With value:"
 msgstr "मूल्या सकट :"
 
@@ -208,15 +262,15 @@ msgstr "मूल्या सकट :"
 msgid "Size"
 msgstr "आकार"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:46
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:47
 msgid "under"
 msgstr "खाली"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:47
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:48
 msgid "over"
 msgstr "वर"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:53
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:54
 msgid "kb"
 msgstr "kb"
 
@@ -224,7 +278,7 @@ msgstr "kb"
 msgid "True"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditiontrue.cpp:43
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditiontrue.cpp:44
 msgid "true"
 msgstr ""
 
@@ -239,6 +293,22 @@ msgstr "स्थानिक-भाग"
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectaddresspartcombobox.cpp:38
 msgid "domain"
 msgstr "क्षेत्र(डोमेन)"
+
+#: ksieveui/autocreatescripts/sieveconditions/widgets/selectbodytypewidget.cpp:47
+msgid "raw"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveconditions/widgets/selectbodytypewidget.cpp:48
+#, fuzzy
+#| msgid "contains"
+msgid "content"
+msgstr "समाविष्टीत आहे"
+
+#: ksieveui/autocreatescripts/sieveconditions/widgets/selectbodytypewidget.cpp:49
+#, fuzzy
+#| msgid "text:"
+msgid "text"
+msgstr "मजकूर :"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:25
 msgid "Select multiple headers..."
@@ -269,14 +339,6 @@ msgstr "Bcc"
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:127
 msgid "Sender"
 msgstr "पाठवणारा"
-
-#: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:128
-msgid "Sender-From"
-msgstr "पाठवणारा-पासून"
-
-#: ksieveui/autocreatescripts/sieveconditions/widgets/selectheadertypecombobox.cpp:129
-msgid "Sender-To"
-msgstr "पाठवणारा-कडे"
 
 #: ksieveui/autocreatescripts/sieveconditions/widgets/selectmatchtypecombobox.cpp:36
 msgid "is"
@@ -343,7 +405,7 @@ msgid "Edit description..."
 msgstr "वर्णन संपादित करा..."
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:187
-#: ksieveui/managesievescriptsdialog.cpp:417
+#: ksieveui/managesievescriptsdialog.cpp:422
 msgid "New Script"
 msgstr "नवीन स्क्रिप्ट"
 
@@ -502,32 +564,32 @@ msgstr "स्क्रिप्ट नाव :"
 msgid "Sieve Template:"
 msgstr "सीव्ह नमूना :"
 
-#: ksieveui/editor/sieveeditor.cpp:169 ksieveui/editor/sieveeditor.cpp:208
+#: ksieveui/editor/sieveeditor.cpp:170 ksieveui/editor/sieveeditor.cpp:209
 msgid ""
 "*.siv|sieve files (*.siv)\n"
 "*|all files (*)"
 msgstr ""
 
-#: ksieveui/editor/sieveeditor.cpp:179
+#: ksieveui/editor/sieveeditor.cpp:180
 #, kde-format
 msgid ""
 "Could not write the file %1:\n"
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: ksieveui/editor/sieveeditor.cpp:183 ksieveui/editor/sieveeditor.cpp:221
+#: ksieveui/editor/sieveeditor.cpp:184 ksieveui/editor/sieveeditor.cpp:222
 msgid "Sieve Editor Error"
 msgstr ""
 
-#: ksieveui/editor/sieveeditor.cpp:204
+#: ksieveui/editor/sieveeditor.cpp:205
 msgid "You will overwrite script. Do you want to continue?"
 msgstr ""
 
-#: ksieveui/editor/sieveeditor.cpp:204
+#: ksieveui/editor/sieveeditor.cpp:205
 msgid "Import Script"
 msgstr "स्क्रिप्ट आयात करा"
 
-#: ksieveui/editor/sieveeditor.cpp:217
+#: ksieveui/editor/sieveeditor.cpp:218
 #, kde-format
 msgid ""
 "Could not load the file %1:\n"
@@ -657,65 +719,65 @@ msgstr ""
 msgid "No Sieve URL configured"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:225
+#: ksieveui/managesievescriptsdialog.cpp:228
 msgid "Failed to fetch the list of scripts"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:254
+#: ksieveui/managesievescriptsdialog.cpp:257
 msgid "Edit Script..."
 msgstr "स्क्रिप्ट संपादित करा..."
 
-#: ksieveui/managesievescriptsdialog.cpp:255
+#: ksieveui/managesievescriptsdialog.cpp:258
 msgid "Delete Script"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:258
+#: ksieveui/managesievescriptsdialog.cpp:261
 msgid "Deactivate Script"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:263
+#: ksieveui/managesievescriptsdialog.cpp:266
 msgid "New Script..."
 msgstr "नवीन स्क्रिप्ट..."
 
-#: ksieveui/managesievescriptsdialog.cpp:354
+#: ksieveui/managesievescriptsdialog.cpp:357
 #, kde-format
 msgid "Really delete script \"%1\" from the server?"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:355
+#: ksieveui/managesievescriptsdialog.cpp:358
 msgid "Delete Sieve Script Confirmation"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:401
+#: ksieveui/managesievescriptsdialog.cpp:405
 msgid "New Sieve Script"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:402
+#: ksieveui/managesievescriptsdialog.cpp:406
 msgid "Please enter a name for the new Sieve script:"
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:403
+#: ksieveui/managesievescriptsdialog.cpp:407
 msgid "unnamed"
 msgstr "निनावी"
 
-#: ksieveui/managesievescriptsdialog.cpp:416
+#: ksieveui/managesievescriptsdialog.cpp:421
 #, kde-format
 msgid "Script name already used \"%1\"."
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:484
+#: ksieveui/managesievescriptsdialog.cpp:491
 msgid "No errors found."
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:487
+#: ksieveui/managesievescriptsdialog.cpp:494
 msgid "An unknown error was encountered."
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:497
+#: ksieveui/managesievescriptsdialog.cpp:504
 msgid "The Sieve script was successfully uploaded."
 msgstr ""
 
-#: ksieveui/managesievescriptsdialog.cpp:498
+#: ksieveui/managesievescriptsdialog.cpp:505
 msgid "Sieve Script Upload"
 msgstr ""
 
@@ -1030,11 +1092,14 @@ msgstr ""
 msgid "Unknown error"
 msgstr "अपरिचीत त्रुटी"
 
+#~ msgid "Sender-From"
+#~ msgstr "पाठवणारा-पासून"
+
+#~ msgid "Sender-To"
+#~ msgstr "पाठवणारा-कडे"
+
 #~ msgid "Show..."
 #~ msgstr "दर्शवा..."
 
 #~ msgid "Modify..."
 #~ msgstr "बदला..."
-
-#~ msgid "Delete template"
-#~ msgstr "नमूना काढून टाका"
