@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-04 04:14+0200\n"
+"POT-Creation-Date: 2013-04-21 03:59+0200\n"
 "PO-Revision-Date: 2013-03-18 17:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -24,6 +24,17 @@ msgstr "चेतन खोना"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
+
+#. i18n: ectx: label, entry (UseCourseRepository), group (artikulate)
+#: src/artikulate.kcfg:10
+msgid ""
+"If enabled, course files are only read from the local contributor repository"
+msgstr ""
+
+#. i18n: ectx: label, entry (CourseRepositoryPath), group (artikulate)
+#: src/artikulate.kcfg:14
+msgid "Path to local contributor repository"
+msgstr ""
 
 #: src/core/course.cpp:184
 msgid "New Unit"
@@ -49,8 +60,12 @@ msgstr ""
 msgid "Original Author"
 msgstr "मूळ लेखक"
 
-#: src/mainwindow.cpp:70 src/qml/Editor.qml:229
+#: src/mainwindow.cpp:73 src/qml/Editor.qml:229
 msgid "Course Editor"
+msgstr ""
+
+#: src/mainwindow.cpp:78
+msgid "Settings"
 msgstr ""
 
 #: src/models/coursemodel.cpp:112 src/models/languagemodel.cpp:95
@@ -283,6 +298,39 @@ msgstr "वर्णन :"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/ui/newcoursedialog.ui:47
 msgid "Use Skeleton"
+msgstr ""
+
+#: src/ui/resourcesdialog.cpp:35
+#, fuzzy
+#| msgid "Close Course"
+msgid "Course Resources"
+msgstr "कोर्स बंद करा"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/ui/resourcesdialog.ui:47
+msgid ""
+"This dialog enables pronunciation course contributors to disable the use of "
+"installed courses and switch to a working repository."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioRepository)
+#: src/ui/resourcesdialog.ui:60
+msgid "Use contributor repository"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, repositoryUrl)
+#: src/ui/resourcesdialog.ui:73
+msgid "Path to the contributor repository."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioIntalledCourses)
+#: src/ui/resourcesdialog.ui:89
+msgid "Use installed courses"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, restartInfo)
+#: src/ui/resourcesdialog.ui:121
+msgid "This change will only take effect after restarting the application."
 msgstr ""
 
 #~ msgid "<h2>Units</h2>"
