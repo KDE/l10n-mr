@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-19 03:28+0200\n"
+"POT-Creation-Date: 2013-04-23 03:59+0200\n"
 "PO-Revision-Date: 2013-03-28 15:17+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -225,7 +225,7 @@ msgstr "टॅब मध्ये संचयीका उघडा"
 msgid "Open all the bookmarks in folder in tabs"
 msgstr "संचयीकेतील सर्व ओळखचिन्हे टॅब मध्ये उघडा"
 
-#: bookmarks/bookmarkowner.cpp:86
+#: bookmarks/bookmarkowner.cpp:86 urlbar/urlbar.cpp:777
 msgid "Add Bookmark"
 msgstr "ओळखचिन्ह जोडा"
 
@@ -274,7 +274,7 @@ msgid "Link Nepomuk resources"
 msgstr "नेपोमुक संसाधने लिंक करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: bookmarks/bookmarkowner.cpp:106 session.ui:33 urlbar/urlbar.cpp:473
+#: bookmarks/bookmarkowner.cpp:106 session.ui:33 urlbar/urlbar.cpp:468
 #: useragent/useragentsettings.ui:39
 msgid "Delete"
 msgstr "काढून टाका"
@@ -1877,20 +1877,6 @@ msgstr "ओळखचिन्ह साधनपट्टी"
 msgid "Root folder"
 msgstr "रूट संचयीका"
 
-#: urlbar/favoritewidget.cpp:68
-msgid "<h4>Remove this favorite?</h4>"
-msgstr "<h4>हे पसंत काढून टाकायचे का?</h4>"
-
-#: urlbar/favoritewidget.cpp:73
-#, kde-format
-msgid "Name: %1"
-msgstr "नाव : %1"
-
-#: urlbar/favoritewidget.cpp:78
-#, kde-format
-msgid "URL: %1"
-msgstr "URL: %1"
-
 #: urlbar/listitem.cpp:295
 #, kde-format
 msgctxt "%1=search engine, e.g. Google, Wikipedia %2=text to search for"
@@ -2082,53 +2068,55 @@ msgid ""
 "Your first visit was on %1.\n"
 msgstr ""
 
-#: urlbar/urlbar.cpp:141 urlbar/urlbar.cpp:280
+#: urlbar/urlbar.cpp:140 urlbar/urlbar.cpp:279
 msgid "Type here to search your bookmarks, history and the web..."
 msgstr "तुमची ओळखचिन्हे, इतिहास व वेब शोधण्याकरिता येथे टाइप करा..."
 
-#: urlbar/urlbar.cpp:461
+#: urlbar/urlbar.cpp:456
 msgid "Paste && Go"
 msgstr "चिटकवा व जा"
 
-#: urlbar/urlbar.cpp:466
+#: urlbar/urlbar.cpp:461
 msgid "Paste && Search"
 msgstr "चिटकवा व शोधा"
 
-#: urlbar/urlbar.cpp:518
+#: urlbar/urlbar.cpp:513
 msgid "List all links with KGet"
 msgstr "के-गेटने सर्व लिंक्सची यादी करा"
 
-#: urlbar/urlbar.cpp:522
+#: urlbar/urlbar.cpp:517
 msgid "List all available RSS feeds"
 msgstr "सर्व उपलब्ध RSS फीड्सची यादी दर्शवा"
 
-#: urlbar/urlbar.cpp:528
-msgid "Bookmark this page"
-msgstr "या पानाला ओळखचिन्ह जोडा"
-
-#: urlbar/urlbar.cpp:533
-msgid "Edit this bookmark"
-msgstr "हे ओळखचिन्ह संपादित करा"
-
-#: urlbar/urlbar.cpp:544
+#: urlbar/urlbar.cpp:538
 msgid "Add search engine"
 msgstr "शोध इंजिन जोडा"
 
-#: urlbar/urlbar.cpp:551
-msgid "Remove from favorite"
-msgstr "पसंत काढून टाका"
-
-#: urlbar/urlbar.cpp:556
-msgid "Add to favorites"
-msgstr "पसंत मध्ये जोडा"
-
-#: urlbar/urlbar.cpp:565
+#: urlbar/urlbar.cpp:547
 msgid "AdBlock is enabled on this site"
 msgstr "या साइटवर जाहिरात प्रतिबंध कार्यान्वीत आहे"
 
-#: urlbar/urlbar.cpp:570
+#: urlbar/urlbar.cpp:552
 msgid "AdBlock is NOT enabled on this site"
 msgstr "या साइटवर जाहिरात प्रतिबंध अकार्यान्वीत आहे"
+
+#: urlbar/urlbar.cpp:782
+#, fuzzy
+#| msgid "Edit Bookmarks"
+msgid "Edit Bookmark"
+msgstr "ओळखचिन्हे संपादित करा"
+
+#: urlbar/urlbar.cpp:790
+#, fuzzy
+#| msgid "Remove from favorite"
+msgid "Remove from Favorites"
+msgstr "पसंत काढून टाका"
+
+#: urlbar/urlbar.cpp:795
+#, fuzzy
+#| msgid "Add to favorites"
+msgid "Add to Favorites"
+msgstr "पसंत मध्ये जोडा"
 
 #: urlbar/urlsuggester.cpp:308
 msgctxt "Browse a website"
@@ -2800,6 +2788,21 @@ msgstr "वेब चौकट"
 #: webwindow/webwindow.cpp:1006
 msgid "tab window"
 msgstr "टॅब चौकट"
+
+#~ msgid "<h4>Remove this favorite?</h4>"
+#~ msgstr "<h4>हे पसंत काढून टाकायचे का?</h4>"
+
+#~ msgid "Name: %1"
+#~ msgstr "नाव : %1"
+
+#~ msgid "URL: %1"
+#~ msgstr "URL: %1"
+
+#~ msgid "Bookmark this page"
+#~ msgstr "या पानाला ओळखचिन्ह जोडा"
+
+#~ msgid "Edit this bookmark"
+#~ msgstr "हे ओळखचिन्ह संपादित करा"
 
 #~ msgid "Show SSL Info"
 #~ msgstr "SSL माहिती दर्शवा"
