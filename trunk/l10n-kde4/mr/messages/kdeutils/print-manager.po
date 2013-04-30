@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-03 03:34+0200\n"
+"POT-Creation-Date: 2013-04-30 05:08+0200\n"
 "PO-Revision-Date: 2013-03-15 15:30+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -532,13 +532,15 @@ msgid "Failed to configure printer"
 msgstr "छपाईयंत्र संयोजीत करण्यास अपयशी"
 
 #: configure-printer/ModifyPrinter.cpp:287
-#: printer-manager-kcm/PrintKCM.cpp:347
+#: printer-manager-kcm/PrintKCM.cpp:344
 msgctxt "@title:window"
 msgid "Failed"
 msgstr "अपयशी"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, nameL)
 #: configure-printer/ModifyPrinter.ui:25
+#: printer-manager-kcm/PrinterDescription.ui:234
 msgid "Name:"
 msgstr "नाव :"
 
@@ -861,12 +863,12 @@ msgstr "छपाईयंत्र"
 msgid "From Hostname"
 msgstr ""
 
-#: libkcups/PrintQueueModel.cpp:521 printqueue/PrintQueueUi.cpp:511
+#: libkcups/PrintQueueModel.cpp:521 printqueue/PrintQueueUi.cpp:522
 #, kde-format
 msgid "Failed to move '%1' to '%2'"
 msgstr ""
 
-#: libkcups/PrintQueueModel.cpp:524 printqueue/PrintQueueUi.cpp:517
+#: libkcups/PrintQueueModel.cpp:524 printqueue/PrintQueueUi.cpp:528
 msgid "Failed"
 msgstr "अपयशी"
 
@@ -1025,15 +1027,15 @@ msgstr ""
 msgid "Share this printer"
 msgstr "हे छपाईयंत्र शेअर करा"
 
-#. i18n: ectx: property (text), item, widget (KPushButton, openQueuePB)
-#: printer-manager-kcm/PrinterDescription.cpp:260
-#: printer-manager-kcm/PrinterDescription.ui:270
+#. i18n: ectx: property (text), item, widget (QLabel, nameMsgL)
+#: printer-manager-kcm/PrinterDescription.cpp:264
+#: printer-manager-kcm/PrinterDescription.ui:290
 msgid "Clean Print Heads"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), item, widget (KPushButton, openQueuePB)
-#: printer-manager-kcm/PrinterDescription.cpp:271
-#: printer-manager-kcm/PrinterDescription.ui:278
+#. i18n: ectx: property (toolTip), item, widget (QLabel, nameMsgL)
+#: printer-manager-kcm/PrinterDescription.cpp:275
+#: printer-manager-kcm/PrinterDescription.ui:298
 msgid "Print Self-Test Page"
 msgstr "स्व-चाचणी पान छापा"
 
@@ -1083,13 +1085,13 @@ msgctxt "@action:button"
 msgid "Open Print Queue"
 msgstr "छपाई रांग उघडा"
 
-#. i18n: ectx: property (text), item, widget (KPushButton, openQueuePB)
-#: printer-manager-kcm/PrinterDescription.ui:265
+#. i18n: ectx: property (text), item, widget (QLabel, nameMsgL)
+#: printer-manager-kcm/PrinterDescription.ui:285
 msgid "Print Test Page"
 msgstr "चाचणी पान छापा"
 
-#. i18n: ectx: property (text), item, widget (KPushButton, openQueuePB)
-#: printer-manager-kcm/PrinterDescription.ui:275
+#. i18n: ectx: property (text), item, widget (QLabel, nameMsgL)
+#: printer-manager-kcm/PrinterDescription.ui:295
 msgid "Print Self Test Page"
 msgstr "स्व-चाचणी पान छापा"
 
@@ -1140,34 +1142,34 @@ msgstr ""
 msgid "Configure the global preferences"
 msgstr "जागतिक प्राधान्ये संयोजीत करा"
 
-#: printer-manager-kcm/PrintKCM.cpp:155 printer-manager-kcm/PrintKCM.cpp:257
+#: printer-manager-kcm/PrintKCM.cpp:155 printer-manager-kcm/PrintKCM.cpp:254
 msgid "No printers have been configured or discovered"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:298
+#: printer-manager-kcm/PrintKCM.cpp:295
 msgid "Remove class"
 msgstr "वर्ग काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:299
+#: printer-manager-kcm/PrintKCM.cpp:296
 #, kde-format
 msgid "Are you sure you want to remove the class '%1'?"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:302
+#: printer-manager-kcm/PrintKCM.cpp:299
 msgid "Remove printer"
 msgstr "छपाईयंत्र काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:303
+#: printer-manager-kcm/PrintKCM.cpp:300
 #, kde-format
 msgid "Are you sure you want to remove the printer '%1'?"
 msgstr "तुम्हाला नक्की \"%1\" हे छपाईयंत्र काढून टाकायचे आहे का?"
 
-#: printer-manager-kcm/PrintKCM.cpp:345
+#: printer-manager-kcm/PrintKCM.cpp:342
 msgctxt "@info"
 msgid "Failed to get server settings"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:376
+#: printer-manager-kcm/PrintKCM.cpp:373
 msgctxt "@info"
 msgid "Failed to configure server settings"
 msgstr ""
@@ -1205,74 +1207,70 @@ msgstr "छपाई रांग"
 msgid "Show printer queue"
 msgstr "छपाई रांग दर्शवा"
 
-#: printqueue/PrintQueueUi.cpp:78
-msgid "All printers"
-msgstr "सर्व छपाईयंत्रे"
-
-#: printqueue/PrintQueueUi.cpp:236
+#: printqueue/PrintQueueUi.cpp:241
 msgid "Printer ready"
 msgstr "छपाईयंत्र सज्ज आहे"
 
 #. i18n: ectx: property (text), widget (QPushButton, pausePrinterPB)
-#: printqueue/PrintQueueUi.cpp:237 printqueue/PrintQueueUi.cpp:248
+#: printqueue/PrintQueueUi.cpp:242 printqueue/PrintQueueUi.cpp:253
 #: printqueue/PrintQueueUi.ui:109
 msgid "Pause Printer"
 msgstr "छपाईयंत्र स्तब्ध करा"
 
-#: printqueue/PrintQueueUi.cpp:244
+#: printqueue/PrintQueueUi.cpp:249
 msgid "Printing..."
 msgstr "छपाई..."
 
-#: printqueue/PrintQueueUi.cpp:246
+#: printqueue/PrintQueueUi.cpp:251
 #, kde-format
 msgid "Printing '%1'"
 msgstr "छपाई '%1'"
 
-#: printqueue/PrintQueueUi.cpp:254
+#: printqueue/PrintQueueUi.cpp:259
 msgid "Printer paused"
 msgstr "छपाईयंत्र स्तब्ध केले"
 
-#: printqueue/PrintQueueUi.cpp:255
+#: printqueue/PrintQueueUi.cpp:260
 msgid "Resume Printer"
 msgstr "छपाईयंत्र पुन्हा सुरु करा"
 
-#: printqueue/PrintQueueUi.cpp:270
+#: printqueue/PrintQueueUi.cpp:275
 msgid "Printer state unknown"
 msgstr "छपाईयंत्र स्थिती अपरिचीत"
 
-#: printqueue/PrintQueueUi.cpp:304
+#: printqueue/PrintQueueUi.cpp:309
 msgid "Move to"
 msgstr "येथे हलवा"
 
-#: printqueue/PrintQueueUi.cpp:434
+#: printqueue/PrintQueueUi.cpp:445
 #, kde-format
 msgid "All Printers (%1 Job)"
 msgid_plural "All Printers (%1 Jobs)"
 msgstr[0] "सर्व छपाईयंत्रे (%1 कार्य)"
 msgstr[1] "सर्व छपाईयंत्रे (%1 कार्ये)"
 
-#: printqueue/PrintQueueUi.cpp:436
+#: printqueue/PrintQueueUi.cpp:447
 #, kde-format
 msgid "%2 (%1 Job)"
 msgid_plural "%2 (%1 Jobs)"
 msgstr[0] "%2 (%1 कार्य)"
 msgstr[1] "%2 (%1 कार्ये)"
 
-#: printqueue/PrintQueueUi.cpp:439
+#: printqueue/PrintQueueUi.cpp:450
 msgid "All Printers"
 msgstr "सर्व छपाईयंत्रे"
 
-#: printqueue/PrintQueueUi.cpp:502
+#: printqueue/PrintQueueUi.cpp:513
 #, kde-format
 msgid "Failed to cancel '%1'"
 msgstr "'%1' हे रद्द करण्यास अपयश"
 
-#: printqueue/PrintQueueUi.cpp:505
+#: printqueue/PrintQueueUi.cpp:516
 #, kde-format
 msgid "Failed to hold '%1'"
 msgstr "'%1' हे थांबवण्यास अपयश"
 
-#: printqueue/PrintQueueUi.cpp:508
+#: printqueue/PrintQueueUi.cpp:519
 #, kde-format
 msgid "Failed to release '%1'"
 msgstr "'%1' हे सोडण्यास अपयश"
@@ -1316,3 +1314,6 @@ msgstr "पूर्ण कार्ये"
 #: printqueue/PrintQueueUi.ui:300
 msgid "All Jobs"
 msgstr "सर्व कार्ये"
+
+#~ msgid "All printers"
+#~ msgstr "सर्व छपाईयंत्रे"
