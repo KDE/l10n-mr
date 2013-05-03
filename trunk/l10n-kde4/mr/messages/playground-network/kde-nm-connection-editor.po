@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-01 04:16+0200\n"
+"POT-Creation-Date: 2013-05-03 03:53+0200\n"
 "PO-Revision-Date: 2013-03-30 16:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -25,55 +25,68 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: bondwidget.cpp:44
+#: bondwidget.cpp:47 bridgewidget.cpp:44
 msgid "Ethernet"
 msgstr ""
 
-#: bondwidget.cpp:47 connectioneditor.cpp:68
+#: bondwidget.cpp:50 bridgewidget.cpp:47 connectioneditor.cpp:68
 msgid "InfiniBand"
 msgstr "InfiniBand"
 
-#: bondwidget.cpp:54
+#: bondwidget.cpp:59
 msgctxt "bond mode"
 msgid "Round-robin"
 msgstr ""
 
-#: bondwidget.cpp:55
+#: bondwidget.cpp:60
 msgctxt "bond mode"
 msgid "Active backup"
 msgstr ""
 
-#: bondwidget.cpp:56
+#: bondwidget.cpp:61
 msgctxt "bond mode"
 msgid "Broadcast"
 msgstr ""
 
-#: bondwidget.cpp:57
+#: bondwidget.cpp:62
 msgctxt "bond mode"
 msgid "802.3ad"
 msgstr ""
 
-#: bondwidget.cpp:58
+#: bondwidget.cpp:63
 msgctxt "bond mode"
 msgid "Adaptive transmit load balancing"
 msgstr ""
 
-#: bondwidget.cpp:59
+#: bondwidget.cpp:64
 msgctxt "bond mode"
 msgid "Adaptive load balancing"
 msgstr ""
 
-#: bondwidget.cpp:62
+#: bondwidget.cpp:67
 msgctxt "bond link monitoring"
 msgid "MII (recommended)"
 msgstr ""
 
-#: bondwidget.cpp:63
+#: bondwidget.cpp:68
 #, fuzzy
 #| msgid "PAP"
 msgctxt "bond link monitoring"
 msgid "ARP"
 msgstr "PAP"
+
+#: bondwidget.cpp:226 bridgewidget.cpp:178 connectioneditor.cpp:329
+#, kde-format
+msgid "Do you want to remove the connection '%1'?"
+msgstr ""
+
+#: bondwidget.cpp:226 bridgewidget.cpp:178 connectioneditor.cpp:329
+msgid "Remove Connection"
+msgstr "जुळवणी तोडा"
+
+#: bridgewidget.cpp:50 connectiondetaileditor.cpp:232 connectioneditor.cpp:77
+msgid "Wireless"
+msgstr "वायरलेस"
 
 #: btwidget.cpp:34
 msgid "DUN (dial up networking)"
@@ -83,86 +96,87 @@ msgstr ""
 msgid "PAN (personal area network)"
 msgstr ""
 
-#: connectiondetaileditor.cpp:194
+#: connectiondetaileditor.cpp:197
 #, kde-format
 msgid "New Connection (%1)"
 msgstr "नवीन जुळवणी (%1)"
 
-#: connectiondetaileditor.cpp:195
+#: connectiondetaileditor.cpp:198
 #, kde-format
 msgid "New %1 connection"
 msgstr "नवीन %1 जुळवणी"
 
-#: connectiondetaileditor.cpp:197
+#: connectiondetaileditor.cpp:200
 #, kde-format
 msgid "Edit Connection '%1'"
 msgstr "जुळवणी संपादन '%1'"
 
-#: connectiondetaileditor.cpp:209
+#: connectiondetaileditor.cpp:212
 msgid "General"
 msgstr "सामान्य"
 
-#: connectiondetaileditor.cpp:224 connectiondetaileditor.cpp:238
+#: connectiondetaileditor.cpp:227 connectiondetaileditor.cpp:241
 #: connectioneditor.cpp:74 connectiontypeitem.cpp:61
 msgid "Wired"
 msgstr "वायर्ड"
 
-#: connectiondetaileditor.cpp:226
+#: connectiondetaileditor.cpp:229
 msgid "802.1x Security"
 msgstr "802.1x सुरक्षा"
 
-#: connectiondetaileditor.cpp:229 connectioneditor.cpp:77
-msgid "Wireless"
-msgstr "वायरलेस"
-
-#: connectiondetaileditor.cpp:233
+#: connectiondetaileditor.cpp:236
 msgid "Wi-Fi Security"
 msgstr "वाय-फाय सुरक्षा"
 
-#: connectiondetaileditor.cpp:236 connectioneditor.cpp:65
+#: connectiondetaileditor.cpp:239 connectioneditor.cpp:65
 #: connectiontypeitem.cpp:37
 msgid "DSL"
 msgstr "DSL"
 
-#: connectiondetaileditor.cpp:241 connectiondetaileditor.cpp:244
+#: connectiondetaileditor.cpp:244 connectiondetaileditor.cpp:247
 #, fuzzy, kde-format
 #| msgid "Mobile Broadband"
 msgid "Mobile Broadband (%1)"
 msgstr "मोबाईल ब्रॉडबैंड"
 
-#: connectiondetaileditor.cpp:247 connectiontypeitem.cpp:40
+#: connectiondetaileditor.cpp:250 connectiontypeitem.cpp:40
 msgid "Bluetooth"
 msgstr "ब्लूटूथ"
 
-#: connectiondetaileditor.cpp:251
+#: connectiondetaileditor.cpp:254
 msgid "GSM"
 msgstr ""
 
-#: connectiondetaileditor.cpp:253 connectiondetaileditor.cpp:295
+#: connectiondetaileditor.cpp:256 connectiondetaileditor.cpp:301
 msgid "PPP"
 msgstr "PPP"
 
-#: connectiondetaileditor.cpp:258 connectiontypeitem.cpp:50
+#: connectiondetaileditor.cpp:261 connectiontypeitem.cpp:50
 #, fuzzy
 #| msgid "InfiniBand"
 msgid "Infiniband"
 msgstr "InfiniBand"
 
-#: connectiondetaileditor.cpp:261 connectioneditor.cpp:89
+#: connectiondetaileditor.cpp:264 connectioneditor.cpp:89
 #: connectiontypeitem.cpp:43
 msgid "Bond"
 msgstr ""
 
-#: connectiondetaileditor.cpp:285
+#: connectiondetaileditor.cpp:267 connectioneditor.cpp:92
+#: connectiontypeitem.cpp:45
+msgid "Bridge"
+msgstr "ब्रीज"
+
+#: connectiondetaileditor.cpp:291
 #, kde-format
 msgid "VPN (%1)"
 msgstr ""
 
-#: connectiondetaileditor.cpp:301
+#: connectiondetaileditor.cpp:307
 msgid "IPv4"
 msgstr "IPv4"
 
-#: connectiondetaileditor.cpp:308
+#: connectiondetaileditor.cpp:315
 msgid "IPv6"
 msgstr "IPv6"
 
@@ -184,15 +198,11 @@ msgstr ""
 msgid "Virtual"
 msgstr "आभासी"
 
-#: connectioneditor.cpp:93 connectiontypeitem.cpp:45
-msgid "Bridge"
-msgstr "ब्रीज"
-
-#: connectioneditor.cpp:98 connectiontypeitem.cpp:54
+#: connectioneditor.cpp:95 connectiontypeitem.cpp:54
 msgid "VLAN"
 msgstr ""
 
-#: connectioneditor.cpp:105 connectiontypeitem.cpp:56
+#: connectioneditor.cpp:102 connectiontypeitem.cpp:56
 msgid "VPN"
 msgstr ""
 
@@ -227,15 +237,6 @@ msgctxt ""
 "Label for last used time for a network connection that has never been used"
 msgid "Never"
 msgstr "कधीही नाही"
-
-#: connectioneditor.cpp:329
-#, kde-format
-msgid "Do you want to remove the connection '%1'?"
-msgstr ""
-
-#: connectioneditor.cpp:329
-msgid "Remove Connection"
-msgstr "जुळवणी तोडा"
 
 #: connectiontypeitem.cpp:34
 msgid "ADSL"
@@ -391,53 +392,53 @@ msgstr "जुळवणी संपादन"
 msgid "&Authentication:"
 msgstr "अधिप्रमाणन (&A):"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, auth)
-#. i18n: ectx: property (text), item, widget (QComboBox, peapInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
 #: ui/802-1x.ui:35 ui/802-1x.ui:568
 msgid "MD5"
 msgstr "एमडी5"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #: ui/802-1x.ui:40
 msgid "TLS"
 msgstr "टीएलएस"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, securityCombo)
-#. i18n: ectx: property (text), item, widget (QComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: ui/802-1x.ui:45 ui/wifisecurity.ui:38
 msgid "LEAP"
 msgstr "LEAP"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #: ui/802-1x.ui:50
 msgid "FAST"
 msgstr "गतीशील"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #: ui/802-1x.ui:55
 msgid "Tunneled TLS (TTLS)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, auth)
+#. i18n: ectx: property (text), item, widget (KComboBox, auth)
 #: ui/802-1x.ui:60
 msgid "Protected EAP (PEAP)"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. i18n: ectx: property (text), widget (QLabel, label_25)
+#. i18n: ectx: property (text), widget (QLabel, label_8)
 #: ui/802-1x.ui:75 ui/802-1x.ui:218 ui/802-1x.ui:350 ui/802-1x.ui:468
 #: ui/802-1x.ui:581 ui/cdma.ui:34 ui/gsm.ui:41 ui/pppoe.ui:30
 #: ui/wifisecurity.ui:177
 msgid "&Username:"
 msgstr "वापरकर्ता नाव (&U):"
 
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: property (text), widget (QLabel, label_9)
 #: ui/802-1x.ui:88 ui/802-1x.ui:231 ui/cdma.ui:47 ui/gsm.ui:54 ui/pppoe.ui:43
 #: ui/wifisecurity.ui:190 ui/wifisecurity.ui:218
 msgid "&Password:"
@@ -483,9 +484,9 @@ msgstr "वैयक्तिक कळ (&P):"
 msgid "Private &key password:"
 msgstr "वैयक्तिक कळ गुप्तशब्द (&K)"
 
+#. i18n: ectx: property (text), widget (QCheckBox, cbShowTlsPassword)
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowLeapPassword)
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowPsk)
-#. i18n: ectx: property (text), widget (QCheckBox, cbShowTlsPassword)
 #: ui/802-1x.ui:200 ui/802-1x.ui:244 ui/wifisecurity.ui:207
 #: ui/wifisecurity.ui:235
 msgid "&Show password"
@@ -503,17 +504,17 @@ msgstr "निनावी ओळख (&N):"
 msgid "Automatic &PAC provisioning"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, pacMethod)
+#. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
 #: ui/802-1x.ui:285
 msgid "Anonymous"
 msgstr "निनावी"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, pacMethod)
+#. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
 #: ui/802-1x.ui:290
 msgid "Authenticated"
 msgstr "अधिप्रमाणीत"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, pacMethod)
+#. i18n: ectx: property (text), item, widget (KComboBox, pacMethod)
 #: ui/802-1x.ui:295
 msgid "Both"
 msgstr "दोन्ही"
@@ -530,15 +531,15 @@ msgstr ""
 msgid "&Inner authentication:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, fastInnerAuth)
-#. i18n: ectx: property (text), item, widget (QComboBox, peapInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
 #: ui/802-1x.ui:337 ui/802-1x.ui:573
 msgid "GTC"
 msgstr "GTC"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, fastInnerAuth)
-#. i18n: ectx: property (text), item, widget (QComboBox, ttlsInnerAuth)
-#. i18n: ectx: property (text), item, widget (QComboBox, peapInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, fastInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, peapInnerAuth)
 #: ui/802-1x.ui:342 ui/802-1x.ui:455 ui/802-1x.ui:563
 msgid "MSCHAPv2"
 msgstr "MSCHAPv2"
@@ -554,20 +555,20 @@ msgstr "गुप्तशब्द (&W):"
 #. i18n: ectx: property (text), widget (QCheckBox, cbAskTtlsPassword)
 #. i18n: ectx: property (text), widget (QCheckBox, cbAskPeapPassword)
 #: ui/802-1x.ui:380 ui/802-1x.ui:498 ui/802-1x.ui:611
-msgid "Ask for this password &everytime"
+msgid "Ask for this password every time"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, ttlsInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
 #: ui/802-1x.ui:445
 msgid "PAP"
 msgstr "PAP"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, ttlsInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
 #: ui/802-1x.ui:450
 msgid "MSCHAP"
 msgstr "MSCHAP"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, ttlsInnerAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, ttlsInnerAuth)
 #: ui/802-1x.ui:460
 msgid "CHAP"
 msgstr "CHAP"
@@ -577,7 +578,7 @@ msgstr "CHAP"
 msgid "PEAP &version:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, peapVersion)
+#. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #. i18n: ectx: property (specialValueText), widget (KIntSpinBox, mtu)
 #. i18n: ectx: property (text), item, widget (KComboBox, method)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, mtu)
@@ -588,18 +589,18 @@ msgstr ""
 msgid "Automatic"
 msgstr "स्वयंचलित"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, peapVersion)
+#. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #: ui/802-1x.ui:647
 msgid "Version 0"
 msgstr "आवृत्ती 0"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, peapVersion)
+#. i18n: ectx: property (text), item, widget (KComboBox, peapVersion)
 #: ui/802-1x.ui:652
 msgid "Version 1"
 msgstr "आवृत्ती 1"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: ui/bond.ui:18
+#: ui/bond.ui:18 ui/bridge.ui:17
 msgid "Inter&face name:"
 msgstr ""
 
@@ -611,14 +612,14 @@ msgid "&Bonded connections:"
 msgstr "जुळवणी संपादन"
 
 #. i18n: ectx: property (text), widget (KPushButton, btnAdd)
-#: ui/bond.ui:56
+#: ui/bond.ui:56 ui/bridge.ui:55
 #, fuzzy
 #| msgid "&Add"
 msgid "&Add..."
 msgstr "जोडा (&A)"
 
 #. i18n: ectx: property (text), widget (KPushButton, btnEdit)
-#: ui/bond.ui:71
+#: ui/bond.ui:71 ui/bridge.ui:70
 #, fuzzy
 #| msgid "&Edit"
 msgid "&Edit..."
@@ -626,12 +627,12 @@ msgstr "संपादन (&E)"
 
 #. i18n: ectx: property (text), widget (KPushButton, deleteButton)
 #. i18n: ectx: property (text), widget (KPushButton, btnDelete)
-#: ui/bond.ui:86 ui/connectioneditor.ui:114
+#: ui/bond.ui:86 ui/bridge.ui:85 ui/connectioneditor.ui:114
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
 
-#. i18n: ectx: property (text), widget (QLabel, modeLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, modeLabel)
 #: ui/bond.ui:113 ui/wificonnectionwidget.ui:37
 msgid "&Mode:"
 msgstr "पद्धत (&M):"
@@ -668,9 +669,57 @@ msgstr ""
 msgid "ARP &targets:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, arpTargets)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, arpTargets)
 #: ui/bond.ui:246
 msgid "An IP address or comma-separated list of addresses."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: ui/bridge.ui:30
+#, fuzzy
+#| msgid "Edit connection"
+msgid "&Bridged connections:"
+msgstr "जुळवणी संपादन"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/bridge.ui:112
+msgid "A&ging time:"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, agingTime)
+#. i18n: ectx: property (suffix), widget (QSpinBox, forwardDelay)
+#. i18n: ectx: property (suffix), widget (QSpinBox, helloTime)
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxAge)
+#: ui/bridge.ui:128 ui/bridge.ui:192 ui/bridge.ui:221 ui/bridge.ui:250
+msgctxt "seconds"
+msgid " s"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, stpGroup)
+#: ui/bridge.ui:141
+msgid "Enable &STP (Spanning Tree Protocol)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/bridge.ui:150
+#, fuzzy
+#| msgid "&Privacy:"
+msgid "&Priority:"
+msgstr "गुप्तता (&P):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/bridge.ui:176
+msgid "Fo&rward delay:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/bridge.ui:205
+msgid "&Hello time:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/bridge.ui:234
+msgid "&Max age:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -871,7 +920,7 @@ msgctxt "@info"
 msgid "&DNS Servers:"
 msgstr "&DNS सर्व्हर्स :"
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, dns)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, dns)
 #: ui/ipv4.ui:117 ui/ipv6.ui:149
 msgid ""
 "Use this field to specify the IP address(es) of one or more DNS servers. Use "
@@ -890,7 +939,7 @@ msgctxt "@info"
 msgid "&Search Domains:"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, dnsSearch)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, dnsSearch)
 #: ui/ipv4.ui:157 ui/ipv6.ui:189
 msgid ""
 "Use this field to specify one or more DNS domains to search. Use ',' to "
@@ -927,7 +976,7 @@ msgstr ""
 msgid "&Routes..."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QLineEdit, dhcpClientId)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, dhcpClientId)
 #: ui/ipv4.ui:307
 msgid ""
 "Use this field to specify the DHCP client ID which is a string sent to the "
@@ -988,17 +1037,17 @@ msgstr "दुर्लक्ष केले"
 msgid "IPv6 is required for this connection"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, privacyCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: ui/ipv6.ui:321
 msgid "Disabled"
 msgstr "अकार्यान्वित"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, privacyCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: ui/ipv6.ui:326
 msgid "Enabled (prefer public address)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, privacyCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, privacyCombo)
 #: ui/ipv6.ui:331
 msgid "Enabled (prefer temporary addresses)"
 msgstr ""
@@ -1111,17 +1160,17 @@ msgstr "सेवा (&S):"
 msgid "&SSID"
 msgstr "&SSID"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, modeComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #: ui/wificonnectionwidget.ui:54
 msgid "Infrastructure"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, modeComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #: ui/wificonnectionwidget.ui:59
 msgid "Ad-hoc"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, modeComboBox)
+#. i18n: ectx: property (text), item, widget (KComboBox, modeComboBox)
 #: ui/wificonnectionwidget.ui:64
 msgid "Access Point"
 msgstr ""
@@ -1156,27 +1205,27 @@ msgstr ""
 msgid "Wifi Security"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, securityCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: ui/wifisecurity.ui:28
 msgid "None"
 msgstr "काही नाही"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, securityCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: ui/wifisecurity.ui:33
 msgid "WEP key or passphrase"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, securityCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: ui/wifisecurity.ui:43
 msgid "Dynamic WEP (802.1x)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, securityCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: ui/wifisecurity.ui:48
 msgid "WPA & WPA2 Personal"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, securityCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, securityCombo)
 #: ui/wifisecurity.ui:53
 msgid "WPA & WPA2 Enterprise"
 msgstr ""
@@ -1201,22 +1250,22 @@ msgstr ""
 msgid "WEP index&:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, wepIndex)
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
 #: ui/wifisecurity.ui:120
 msgid "1 (default)"
 msgstr "1 (मूलभूत)"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, wepIndex)
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
 #: ui/wifisecurity.ui:125
 msgid "2"
 msgstr "2"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, wepIndex)
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
 #: ui/wifisecurity.ui:130
 msgid "3"
 msgstr "3"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, wepIndex)
+#. i18n: ectx: property (text), item, widget (KComboBox, wepIndex)
 #: ui/wifisecurity.ui:135
 msgid "4"
 msgstr "4"
@@ -1226,12 +1275,12 @@ msgstr "4"
 msgid "Au&thentication:"
 msgstr "अधिप्रमाणन (&T):"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, wepAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, wepAuth)
 #: ui/wifisecurity.ui:160
 msgid "Open System"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, wepAuth)
+#. i18n: ectx: property (text), item, widget (KComboBox, wepAuth)
 #: ui/wifisecurity.ui:165
 msgid "Shared Key"
 msgstr ""
@@ -1253,12 +1302,12 @@ msgstr " Mbit/s"
 msgid "D&uplex:"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, duplex)
+#. i18n: ectx: property (text), item, widget (KComboBox, duplex)
 #: ui/wiredconnectionwidget.ui:158
 msgid "Full"
 msgstr "पूर्ण"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, duplex)
+#. i18n: ectx: property (text), item, widget (KComboBox, duplex)
 #: ui/wiredconnectionwidget.ui:163
 msgid "Half"
 msgstr ""
