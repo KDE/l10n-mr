@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-02 02:19+0200\n"
+"POT-Creation-Date: 2013-05-04 02:32+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -743,6 +743,12 @@ msgstr "हो/नाही"
 msgid "Date/Time"
 msgstr "दिनांक/वेळ"
 
+#: db/global.cpp:66
+msgid ""
+"You can correct data in this record or use \"Cancel record changes\" "
+"function."
+msgstr ""
+
 #: db/object.cpp:60
 msgid "Unspecified error encountered"
 msgstr ""
@@ -837,6 +843,33 @@ msgstr ""
 msgid "Enter password for %1: "
 msgstr ""
 
+#: db/tableviewdata.cpp:581 db/tableviewdata.cpp:592
+#, kde-format
+msgid "\"%1\" column requires a value to be entered."
+msgstr ""
+
+#: db/tableviewdata.cpp:583
+msgid "The column's constraint is declared as NOT NULL."
+msgstr ""
+
+#: db/tableviewdata.cpp:594
+msgid "The column's constraint is declared as NOT EMPTY."
+msgstr ""
+
+#: db/tableviewdata.cpp:605
+msgid "Record inserting failed."
+msgstr ""
+
+#: db/tableviewdata.cpp:623
+msgid "Record changing failed."
+msgstr ""
+
+#: db/tableviewdata.cpp:691
+#, fuzzy
+#| msgid "Error deleting layers"
+msgid "Record deleting failed."
+msgstr "स्तर काढताना त्रुटी"
+
 #: db/utils.cpp:143
 msgid "Message from server:"
 msgstr ""
@@ -880,6 +913,11 @@ msgstr "संख्या"
 #: textlayout/ListItemsHelper.cpp:256
 msgid "Image"
 msgstr "प्रतिमा"
+
+#: db/validator.cpp:86
+#, kde-format
+msgid "\"%1\" value has to be entered."
+msgstr ""
 
 #: flake/commands/KoConnectionShapeTypeCommand.cpp:31
 msgctxt "(qtundo-format)"
