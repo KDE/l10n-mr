@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-28 02:00+0100\n"
+"POT-Creation-Date: 2013-05-05 02:58+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -149,7 +149,7 @@ msgid "Start numbering from:"
 msgstr "पासून क्रमांक सुरू करा :"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SkanliteSettings)
-#: settings.ui:14 skanlite.cpp:55
+#: settings.ui:14 skanlite.cpp:58
 msgid "Settings"
 msgstr "संयोजना"
 
@@ -244,58 +244,49 @@ msgstr "स्वयंचलित निवड अकार्यान्व�
 msgid "Revert scanner options to default values"
 msgstr "स्कॅनर पर्याय मुलभूत मूल्य करिता पुन्हस्थापित करा"
 
-#: skanlite.cpp:57
+#: skanlite.cpp:60
 msgid "About"
 msgstr "विषयी"
 
-#: skanlite.cpp:120
+#: skanlite.cpp:123
 msgid "Skanlite Settings"
 msgstr "स्कॅनलाइट संयोजना"
 
-#: skanlite.cpp:141
+#: skanlite.cpp:144
 msgid "Opening the selected scanner failed."
 msgstr "निवडलेला स्कॅनर उघडण्यास अपयश."
 
-#: skanlite.cpp:145
+#: skanlite.cpp:148
 #, kde-format
 msgctxt "@title:window %1 = scanner maker, %2 = scanner model"
 msgid "%1 %2 - Skanlite"
 msgstr "%1 %2 - स्कॅनलाइट"
 
-#: skanlite.cpp:150
+#: skanlite.cpp:153
 #, kde-format
 msgctxt "@title:window %1 = scanner device"
 msgid "%1 - Skanlite"
 msgstr "%1 - स्कॅनलाइट"
 
-#: skanlite.cpp:159
+#: skanlite.cpp:162
 msgid "Save"
 msgstr "साठवा"
 
-#: skanlite.cpp:170
+#: skanlite.cpp:173
 msgid "New Image File Name"
 msgstr "नवीन प्रतिमा फाईल नाव"
 
-#: skanlite.cpp:203
+#: skanlite.cpp:206
 #, kde-format
 msgid "%1: %2"
 msgstr "%1: %2"
 
-#: skanlite.cpp:222
+#: skanlite.cpp:225
 msgctxt "prefix for auto naming"
 msgid "Image-"
 msgstr "प्रतिमा-"
 
-#: skanlite.cpp:364
-#, kde-format
-msgid "Do you want to overwrite \"%1\"?"
-msgstr "\"%1\" खोडून पुन्हा लिहायचे आहे का?"
-
-#: skanlite.cpp:366
-msgid "Overwrite"
-msgstr "खोडून पुन्हा लिहा"
-
-#: skanlite.cpp:394
+#: skanlite.cpp:336
 msgid ""
 "The image will be saved in the PNG format, as Skanlite only supports saving "
 "16 bit color images in the PNG format."
@@ -303,6 +294,21 @@ msgstr ""
 "प्रतिमा PNG स्वरूपात साठवली जाईल. स्कॅनलाइट १६-बिट रंग प्रतिमा साठवण्याकरिता फक्त PNG "
 "स्वरूप समर्थीत करतो."
 
-#: skanlite.cpp:402 skanlite.cpp:415
+#: skanlite.cpp:376
+#, kde-format
+msgid "Do you want to overwrite \"%1\"?"
+msgstr "\"%1\" खोडून पुन्हा लिहायचे आहे का?"
+
+#: skanlite.cpp:378
+msgid "Overwrite"
+msgstr "खोडून पुन्हा लिहा"
+
+#: skanlite.cpp:421 skanlite.cpp:433
 msgid "Failed to save image"
+msgstr "प्रतिमा साठवण्यास अपयश"
+
+#: skanlite.cpp:439
+#, fuzzy
+#| msgid "Failed to save image"
+msgid "Failed to upload image"
 msgstr "प्रतिमा साठवण्यास अपयश"
