@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-04 04:09+0200\n"
+"POT-Creation-Date: 2013-05-07 06:06+0200\n"
 "PO-Revision-Date: 2013-03-30 10:54+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -82,9 +82,10 @@ msgstr "मोबाईल ब्रॉडबैंड कार्यान्�
 msgid "Edit connections..."
 msgstr "जुळवण्या संपादित करा..."
 
-#: declarative-plugins/applet/globalstatus.cpp:81
-#, kde-format
-msgid "Connected (via %1)"
+#: declarative-plugins/applet/globalstatus.cpp:83
+#, fuzzy, kde-format
+#| msgid "Connected (via %1)"
+msgid "Connected to %1"
 msgstr "जुळलेले (द्वारे %1)"
 
 #: declarative-plugins/applet/globalstatus.cpp:89
@@ -113,7 +114,20 @@ msgstr "जुळवणी तोडत आहे"
 msgid "Connecting"
 msgstr "जुळवत आहे"
 
-#: declarative-plugins/applet/globalstatus.cpp:109
+#: declarative-plugins/applet/globalstatus.cpp:125
+#, fuzzy
+#| msgid "Network management"
+msgid "NetworkManager not running"
+msgstr "संजाळ व्यवस्थापन"
+
+#: declarative-plugins/applet/globalstatus.cpp:129
+msgid "Incompatible NM version, O.9.8 required"
+msgstr ""
+
+#: declarative-plugins/applet/globalstatus.cpp:132
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "global connection state"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
@@ -194,81 +208,81 @@ msgstr ""
 msgid "System name:"
 msgstr ""
 
-#: declarative-plugins/model/modelbtitem.cpp:77
-#: declarative-plugins/model/modelmodemitem.cpp:104
-#: declarative-plugins/model/modelwireditem.cpp:79
-#: declarative-plugins/model/modelwirelessitem.cpp:133
+#: declarative-plugins/model/modelbtitem.cpp:80
+#: declarative-plugins/model/modelmodemitem.cpp:107
+#: declarative-plugins/model/modelwireditem.cpp:82
+#: declarative-plugins/model/modelwirelessitem.cpp:136
 msgid "IPv4 Address:"
 msgstr "IPv4 पत्ता :"
 
-#: declarative-plugins/model/modelbtitem.cpp:82
-#: declarative-plugins/model/modelmodemitem.cpp:109
-#: declarative-plugins/model/modelwireditem.cpp:84
-#: declarative-plugins/model/modelwirelessitem.cpp:138
+#: declarative-plugins/model/modelbtitem.cpp:88
+#: declarative-plugins/model/modelmodemitem.cpp:115
+#: declarative-plugins/model/modelwireditem.cpp:90
+#: declarative-plugins/model/modelwirelessitem.cpp:144
 msgid "IPv4 Gateway:"
 msgstr ""
 
-#: declarative-plugins/model/modelbtitem.cpp:87
-#: declarative-plugins/model/modelmodemitem.cpp:114
-#: declarative-plugins/model/modelwireditem.cpp:89
-#: declarative-plugins/model/modelwirelessitem.cpp:143
+#: declarative-plugins/model/modelbtitem.cpp:96
+#: declarative-plugins/model/modelmodemitem.cpp:123
+#: declarative-plugins/model/modelwireditem.cpp:98
+#: declarative-plugins/model/modelwirelessitem.cpp:152
 msgid "IPv6 Address:"
 msgstr "IPv6 पत्ता :"
 
-#: declarative-plugins/model/modelbtitem.cpp:92
-#: declarative-plugins/model/modelmodemitem.cpp:119
-#: declarative-plugins/model/modelwireditem.cpp:94
-#: declarative-plugins/model/modelwirelessitem.cpp:148
+#: declarative-plugins/model/modelbtitem.cpp:104
+#: declarative-plugins/model/modelmodemitem.cpp:131
+#: declarative-plugins/model/modelwireditem.cpp:106
+#: declarative-plugins/model/modelwirelessitem.cpp:160
 msgid "IPv6 Gateway:"
 msgstr ""
 
-#: declarative-plugins/model/modelbtitem.cpp:96
+#: declarative-plugins/model/modelbtitem.cpp:108
 msgid "Name:"
 msgstr ""
 
-#: declarative-plugins/model/modelbtitem.cpp:100
-#: declarative-plugins/model/modelwireditem.cpp:102
-#: declarative-plugins/model/modelwirelessitem.cpp:160
+#: declarative-plugins/model/modelbtitem.cpp:112
+#: declarative-plugins/model/modelwireditem.cpp:114
+#: declarative-plugins/model/modelwirelessitem.cpp:172
 msgid "MAC Address:"
 msgstr "Mac पत्ता :"
 
-#: declarative-plugins/model/modelbtitem.cpp:104
-#: declarative-plugins/model/modelwirelessitem.cpp:152
+#: declarative-plugins/model/modelbtitem.cpp:116
+#: declarative-plugins/model/modelwirelessitem.cpp:164
 msgid "Driver:"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:123
+#: declarative-plugins/model/modelmodemitem.cpp:135
 msgid "Operator:"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:127
+#: declarative-plugins/model/modelmodemitem.cpp:139
 msgid "Signal quality:"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:131
+#: declarative-plugins/model/modelmodemitem.cpp:143
 msgid "Access technology:"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:135
+#: declarative-plugins/model/modelmodemitem.cpp:147
 msgid "Allowed Mode"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:139
+#: declarative-plugins/model/modelmodemitem.cpp:151
 #, fuzzy
 #| msgctxt "Wifi AP frequency"
 #| msgid "Frequency:"
 msgid "Frequency Band:"
 msgstr "फ्रीक्वेन्सी :"
 
-#: declarative-plugins/model/modelmodemitem.cpp:143
+#: declarative-plugins/model/modelmodemitem.cpp:155
 msgid "Unlock Required:"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:150
+#: declarative-plugins/model/modelmodemitem.cpp:162
 msgid "IMEI:"
 msgstr ""
 
-#: declarative-plugins/model/modelmodemitem.cpp:158
+#: declarative-plugins/model/modelmodemitem.cpp:170
 msgid "IMSI:"
 msgstr ""
 
@@ -280,34 +294,34 @@ msgstr ""
 msgid "Banner:"
 msgstr ""
 
-#: declarative-plugins/model/modelwireditem.cpp:98
-#: declarative-plugins/model/modelwirelessitem.cpp:156
+#: declarative-plugins/model/modelwireditem.cpp:110
+#: declarative-plugins/model/modelwirelessitem.cpp:168
 msgid "Connection speed:"
 msgstr "जुळवणी वेग :"
 
-#: declarative-plugins/model/modelwirelessitem.cpp:164
+#: declarative-plugins/model/modelwirelessitem.cpp:176
 msgid "Signal strength:"
 msgstr ""
 
-#: declarative-plugins/model/modelwirelessitem.cpp:164
+#: declarative-plugins/model/modelwirelessitem.cpp:176
 #, kde-format
 msgid "%1%"
 msgstr ""
 
-#: declarative-plugins/model/modelwirelessitem.cpp:168
+#: declarative-plugins/model/modelwirelessitem.cpp:180
 msgid "Access point (SSID):"
 msgstr "प्रवेश बिंदू (SSID):"
 
-#: declarative-plugins/model/modelwirelessitem.cpp:172
+#: declarative-plugins/model/modelwirelessitem.cpp:184
 msgid "Access point (BSSID):"
 msgstr "प्रवेश बिंदू (BSSID):"
 
-#: declarative-plugins/model/modelwirelessitem.cpp:176
+#: declarative-plugins/model/modelwirelessitem.cpp:188
 msgctxt "Wifi AP channel and frequency"
 msgid "Channel:"
 msgstr ""
 
-#: declarative-plugins/model/modelwirelessitem.cpp:176
+#: declarative-plugins/model/modelwirelessitem.cpp:188
 #, fuzzy, kde-format
 #| msgid "%1 Mhz"
 msgid "%1 (%2 MHz)"
@@ -901,6 +915,238 @@ msgctxt "Error message in VPN import/export dialog"
 msgid "Operation not supported for this VPN type."
 msgstr ""
 
+#: settings/details/detailkeyseditor.cpp:108
+#, fuzzy
+#| msgctxt "type of network device"
+#| msgid "Type:"
+msgid "Type"
+msgstr "प्रकार :"
+
+#: settings/details/detailkeyseditor.cpp:108
+msgid "Interface type"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:109
+#, fuzzy
+#| msgid "Connection speed:"
+msgid "Connection State"
+msgstr "जुळवणी वेग :"
+
+#: settings/details/detailkeyseditor.cpp:109
+#, fuzzy
+#| msgid "Connection speed:"
+msgid "Connection state"
+msgstr "जुळवणी वेग :"
+
+#: settings/details/detailkeyseditor.cpp:110
+msgid "Driver"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:110
+msgid "Device driver"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:111
+#, fuzzy
+#| msgid "Connection speed:"
+msgid "Connection Speed"
+msgstr "जुळवणी वेग :"
+
+#: settings/details/detailkeyseditor.cpp:111
+#, fuzzy
+#| msgid "Connection speed:"
+msgid "Connection speed"
+msgstr "जुळवणी वेग :"
+
+#: settings/details/detailkeyseditor.cpp:112
+msgid "System Name"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:113
+#, fuzzy
+#| msgid "MAC Address:"
+msgid "MAC Address"
+msgstr "Mac पत्ता :"
+
+#: settings/details/detailkeyseditor.cpp:113
+msgid "Hardware address"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:116
+#, fuzzy
+#| msgid "IPv4 Address:"
+msgid "IPv4 Address"
+msgstr "IPv4 पत्ता :"
+
+#: settings/details/detailkeyseditor.cpp:116
+#, fuzzy
+#| msgid "IPv4 Address:"
+msgid "IP version 4 address"
+msgstr "IPv4 पत्ता :"
+
+#: settings/details/detailkeyseditor.cpp:119
+msgid "IPv4 Gateway"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:119
+msgid "IP version 4 default gateway"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:122
+#, fuzzy
+#| msgid "IPv6 Address:"
+msgid "IPv6 Address"
+msgstr "IPv6 पत्ता :"
+
+#: settings/details/detailkeyseditor.cpp:122
+#, fuzzy
+#| msgid "IPv6 Address:"
+msgid "IP version 6 address"
+msgstr "IPv6 पत्ता :"
+
+#: settings/details/detailkeyseditor.cpp:125
+msgid "IPv6 Gateway"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:125
+msgid "IP version 6 default gateway"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:128
+#, fuzzy
+#| msgid "Access point (SSID):"
+msgid "Access Point (SSID)"
+msgstr "प्रवेश बिंदू (SSID):"
+
+#: settings/details/detailkeyseditor.cpp:128
+#, fuzzy
+#| msgid "Access point (SSID):"
+msgid "Wireless Access Point's SSID"
+msgstr "प्रवेश बिंदू (SSID):"
+
+#: settings/details/detailkeyseditor.cpp:129
+msgid "Signal Strengh"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:129
+msgid "Wireless Access Point's signal strengh"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:130
+#, fuzzy
+#| msgid "Access point (SSID):"
+msgid "Access Point (MAC)"
+msgstr "प्रवेश बिंदू (SSID):"
+
+#: settings/details/detailkeyseditor.cpp:130
+msgid "Wireless Access Point's Hardware Address"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:131
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Wireless Band"
+msgstr "वायरलेस कार्यान्वित केले"
+
+#: settings/details/detailkeyseditor.cpp:131
+#, fuzzy
+#| msgctxt "Wifi AP frequency"
+#| msgid "Frequency:"
+msgid "Wireless Frequency Band"
+msgstr "फ्रीक्वेन्सी :"
+
+#: settings/details/detailkeyseditor.cpp:132
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Wireless Channel"
+msgstr "वायरलेस कार्यान्वित केले"
+
+#: settings/details/detailkeyseditor.cpp:132
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Wireless Frequency Channel"
+msgstr "वायरलेस कार्यान्वित केले"
+
+#: settings/details/detailkeyseditor.cpp:135
+msgid "Mobile Operator"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:135
+msgid "Mobile Operator's Name"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:136
+msgid "Mobile Signal Quality"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:137
+msgid "Mobile Access Technology"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:138
+#, fuzzy
+#| msgctxt "Wifi AP frequency"
+#| msgid "Frequency:"
+msgid "Mobile Frequency Band"
+msgstr "फ्रीक्वेन्सी :"
+
+#: settings/details/detailkeyseditor.cpp:139
+msgid "Mobile Allowed Mode"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:140
+msgid "Mobile Unlock Required"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:140
+msgid "Mobile Master Device"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:141
+msgid "Mobile Device IMEI"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:141
+msgid "Mobile Device Serial Number"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:142
+msgid "Mobile Device IMSI"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:142
+msgid "Mobile Device Identity Number"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:145
+msgid "Bluetooth Name"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:145
+msgid "Bluetooth name of the device"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:146
+msgid "VPN Plugin"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:146
+msgid "VPN plugin type"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:147
+msgid "VPN Banner"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:147
+#, fuzzy
+#| msgid "Connection speed:"
+msgid "VPN connection banner"
+msgstr "जुळवणी वेग :"
+
+#~ msgid "Connected (via %1)"
+#~ msgstr "जुळलेले (द्वारे %1)"
+
 #~ msgid "%1 Mb/s"
 #~ msgstr "%1 Mb/s"
 
@@ -918,6 +1164,3 @@ msgstr ""
 
 #~ msgid "Please provide a password below"
 #~ msgstr "कृपया गुप्तशब्द खाली दाखल करा"
-
-#~ msgid "Network management"
-#~ msgstr "संजाळ व्यवस्थापन"
