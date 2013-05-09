@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-04-26 03:46+0200\n"
+"POT-Creation-Date: 2013-05-08 22:55+0000\n"
 "PO-Revision-Date: 2013-04-13 16:15+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -64,7 +64,7 @@ msgid "List the content of a folder and let you browse into sub-folders"
 msgstr ""
 
 #: components/sourceregistry.cpp:264
-#: components/sources/favorites/favoriteplacesmodel.cpp:152
+#: components/sources/favorites/favoriteplacesmodel.cpp:139
 msgid "Favorite Places"
 msgstr "पसंत जागा"
 
@@ -73,7 +73,7 @@ msgid "Browse the content of your favorite places"
 msgstr ""
 
 #: components/sourceregistry.cpp:268
-#: components/sources/favorites/favoriteappsmodel.cpp:169
+#: components/sources/favorites/favoriteappsmodel.cpp:234
 msgid "Favorite Applications"
 msgstr "पसंत अनुप्रयोग"
 
@@ -128,6 +128,61 @@ msgstr "शिर्षक :"
 #. i18n: ectx: property (text), widget (QLabel, titleHelpLabel)
 #: components/sources/dir/dirconfigurationwidget.ui:68
 msgid "If title is left empty, the folder name will be used"
+msgstr ""
+
+#: components/sources/favorites/fileplacesmodel.cpp:124
+msgctxt "KFile System Bookmarks"
+msgid "Home"
+msgstr "मुख्य"
+
+#: components/sources/favorites/fileplacesmodel.cpp:127
+msgctxt "KFile System Bookmarks"
+msgid "Network"
+msgstr "संजाळ"
+
+#: components/sources/favorites/fileplacesmodel.cpp:139
+msgctxt "KFile System Bookmarks"
+msgid "Root"
+msgstr "रूट"
+
+#: components/sources/favorites/fileplacesmodel.cpp:143
+msgctxt "KFile System Bookmarks"
+msgid "Trash"
+msgstr "कचरापेटी"
+
+#: components/sources/favorites/fileplacesmodel.cpp:758
+#, kde-format
+msgid "&Release '%1'"
+msgstr "'%1' सोडा (&R)"
+
+#: components/sources/favorites/fileplacesmodel.cpp:760
+#, kde-format
+msgid "&Safely Remove '%1'"
+msgstr "'%1' सुरक्षितरित्या बाहेर काढा (&S)"
+
+#: components/sources/favorites/fileplacesmodel.cpp:763
+#, kde-format
+msgid "&Unmount '%1'"
+msgstr "अनमाऊंट करा (&U) '%1'"
+
+#: components/sources/favorites/fileplacesmodel.cpp:784
+#, kde-format
+msgid "&Eject '%1'"
+msgstr "बाहेर काढा (&E) '%1'"
+
+#: components/sources/favorites/fileplacesmodel.cpp:818
+#, kde-format
+msgid "The device '%1' is not a disk and cannot be ejected."
+msgstr "'%1' हे साधन डिस्क नाही. त्यामुळे ते बाहेर काढता येत नाही."
+
+#: components/sources/favorites/fileplacesmodel.cpp:854
+#, kde-format
+msgid "An error occurred while accessing '%1', the system responded: %2"
+msgstr ""
+
+#: components/sources/favorites/fileplacesmodel.cpp:858
+#, kde-format
+msgid "An error occurred while accessing '%1'"
 msgstr ""
 
 #: components/sources/installedapps/installedappsconfigurationwidget.cpp:133
@@ -199,31 +254,28 @@ msgstr "वर्ल्ड"
 msgid "Hello World"
 msgstr "हेलो वर्ल्ड"
 
-#: internal/aboutdata.cpp:49
+#: internal/aboutdata.cpp:41
 msgctxt "Program name"
 msgid "Homerun"
 msgstr "होमरन"
 
-#: internal/aboutdata.cpp:52
-msgid "(C) 2012 Blue Systems"
+#: internal/aboutdata.cpp:44
+#, fuzzy
+#| msgid "(C) 2012 Blue Systems"
+msgid "(C) 2012-2013 Blue Systems"
 msgstr "(C) 2012 ब्लू सिस्टीम्स"
 
-#: internal/aboutdata.cpp:55
+#: internal/aboutdata.cpp:47
 msgid "Shaun Reich"
 msgstr "शोन राइश"
 
-#: internal/aboutdata.cpp:55 internal/aboutdata.cpp:56
+#: internal/aboutdata.cpp:47 internal/aboutdata.cpp:48
 msgid "Developer"
 msgstr "विकासकर्ता"
 
-#: internal/aboutdata.cpp:56
+#: internal/aboutdata.cpp:48
 msgid "Aurélien Gâteau"
 msgstr "ओरेलीन गेत्यू"
-
-#: internal/aboutdata.cpp:60
-#, kde-format
-msgid "Nightly build using source from: %1"
-msgstr ""
 
 #: internal/i18nconfig.cpp:30
 msgctxt "Tab title"
@@ -245,11 +297,19 @@ msgctxt "Tab title"
 msgid "Power"
 msgstr "पॉवर"
 
-#: lib/actionlist.cpp:74
+#: lib/actionlist.cpp:75
+#, fuzzy
+#| msgctxt "KFile System Bookmarks"
+#| msgid "Trash"
+msgctxt "@action:inmenu"
+msgid "Empty Trash"
+msgstr "कचरापेटी"
+
+#: lib/actionlist.cpp:93
 msgid "Open with:"
 msgstr "यामध्ये उघडा :"
 
-#: lib/actionlist.cpp:86
+#: lib/actionlist.cpp:105
 msgid "Properties"
 msgstr "गुणधर्म"
 
@@ -282,69 +342,127 @@ msgstr "स्वयंचलित"
 msgid "Custom:"
 msgstr "ऐच्छिक :"
 
+#: package/contents/ui/main.qml:86
+msgid "Go to previous tab"
+msgstr ""
+
+#: package/contents/ui/main.qml:92
+msgid "Go to next tab"
+msgstr ""
+
 #: package/contents/ui/main.qml:98
+msgid "Focus search field"
+msgstr ""
+
+#: package/contents/ui/main.qml:104
+msgid "Go back"
+msgstr ""
+
+#: package/contents/ui/main.qml:110
+msgid "Go forward"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+msgid "Go up"
+msgstr ""
+
+#: package/contents/ui/main.qml:142
 msgctxt "Used for tabs which have no name"
 msgid "<Untitled>"
 msgstr "<विनाशिर्षक>"
 
-#: package/contents/ui/main.qml:183
+#: package/contents/ui/main.qml:227
+msgctxt "Button to leave configure mode"
+msgid "Done"
+msgstr ""
+
+#: package/contents/ui/main.qml:249
 msgid "Search in current tab..."
 msgstr "वर्तमान टॅब मध्ये शोधा..."
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:285
+msgid "Configure Shortcuts..."
+msgstr ""
+
+#: package/contents/ui/main.qml:289
 msgid "End Configure"
 msgstr "संयोजना बंद करा"
 
-#: package/contents/ui/main.qml:219
+#: package/contents/ui/main.qml:289
 msgid "Configure"
 msgstr "संयोजीत करा"
 
-#: package/contents/ui/main.qml:231
+#: package/contents/ui/main.qml:301
 msgid "Restore Tabs to Default"
 msgstr "टॅब्स मूलभूतरित्या पुन्हस्थापित करा"
 
-#: package/contents/ui/main.qml:234
+#: package/contents/ui/main.qml:304
 msgid ""
 "Are you sure you want to restore tabs?\n"
 "Restoring tabs will reset your configuration to the default Homerun tabs.\n"
 "Your lists of favorite applications and places will remain untouched."
 msgstr ""
 
-#: package/contents/ui/main.qml:235 package/contents/ui/main.qml:236
+#: package/contents/ui/main.qml:305 package/contents/ui/main.qml:306
 msgid "Restore Tabs"
 msgstr "टॅब्स पुन्हस्थापित करा"
 
-#: package/contents/ui/main.qml:249
+#: package/contents/ui/main.qml:319
 #, kde-format
 msgid "About %1"
 msgstr "%1 विषयी"
 
-#: package/contents/ui/ResultsView.qml:162
-msgid "Remove from favorites"
+#: package/contents/ui/Result.qml:148
+msgid "Drag to reorder; release to show menu"
+msgstr ""
+
+#: package/contents/ui/Result.qml:150
+msgid "Release to show menu"
+msgstr ""
+
+#: package/contents/ui/Result.qml:152
+msgid "Drag to reorder"
+msgstr ""
+
+#: package/contents/ui/Result.qml:155
+msgid "This item has no menu and cannot be dragged"
+msgstr ""
+
+#: package/contents/ui/ResultsView.qml:176
+#, fuzzy
+#| msgid "Remove from favorites"
+msgid "Remove from Favorites"
 msgstr "पसंत मधून काढून टाका"
 
-#: package/contents/ui/ResultsView.qml:167
-msgid "Add to favorites"
+#: package/contents/ui/ResultsView.qml:180
+#, fuzzy
+#| msgid "Add to favorites"
+msgid "Add to Favorites"
 msgstr "पसंत मध्ये जोडा"
+
+#: package/contents/ui/ResultsView.qml:351
+#, kde-format
+msgid "%1 has been added to your favorites"
+msgstr ""
 
 #: package/contents/ui/SourceItem.qml:55
 #, kde-format
 msgid "Broken source '%1'"
 msgstr "तुटलेला स्रोत '%1'"
 
-#: package/contents/ui/TabContent.qml:81
+#: package/contents/ui/TabContent.qml:82
 msgid "Tab Icon:"
 msgstr "टॅब चिन्ह :"
 
-#: package/contents/ui/TabContent.qml:100
+#: package/contents/ui/TabContent.qml:101
 msgid "Tab Label:"
 msgstr "टॅब लेबल :"
 
-#: plugins/recentdocuments/recentdocuments.cpp:121
+#: plugins/recentdocuments/recentdocuments.cpp:130
 msgid "Recent Documents"
 msgstr "अलिकडील दस्तऐवज"
 
-#: plugins/recentdocuments/recentdocuments.cpp:143
+#: plugins/recentdocuments/recentdocuments.cpp:152
 msgid "Forget Document"
 msgstr "दस्तऐवज विसरा"
 
@@ -371,34 +489,3 @@ msgstr ""
 #: shell/main.cpp:67
 msgid "Use a plain window (for debug purposes)"
 msgstr "साधी चौकट वापरा (डिबग कार्यपध्दती करिता)"
-
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Home"
-#~ msgstr "मुख्य"
-
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Network"
-#~ msgstr "संजाळ"
-
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Root"
-#~ msgstr "रूट"
-
-#~ msgctxt "KFile System Bookmarks"
-#~ msgid "Trash"
-#~ msgstr "कचरापेटी"
-
-#~ msgid "&Release '%1'"
-#~ msgstr "'%1' सोडा (&R)"
-
-#~ msgid "&Safely Remove '%1'"
-#~ msgstr "'%1' सुरक्षितरित्या बाहेर काढा (&S)"
-
-#~ msgid "&Unmount '%1'"
-#~ msgstr "अनमाऊंट करा (&U) '%1'"
-
-#~ msgid "&Eject '%1'"
-#~ msgstr "बाहेर काढा (&E) '%1'"
-
-#~ msgid "The device '%1' is not a disk and cannot be ejected."
-#~ msgstr "'%1' हे साधन डिस्क नाही. त्यामुळे ते बाहेर काढता येत नाही."

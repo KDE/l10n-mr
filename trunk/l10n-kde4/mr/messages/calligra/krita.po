@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-02 02:19+0200\n"
+"POT-Creation-Date: 2013-05-09 02:15+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -952,13 +952,13 @@ msgstr "हलका कुंचला"
 msgid "Gaussian brush"
 msgstr "गॉसियन कुंचला"
 
-#: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:370
+#: image/kis_base_node.cpp:141 ui/kis_node_model.cpp:373
 msgid "Visible"
 msgstr "दर्शनीय"
 
 #: image/kis_base_node.cpp:142
 #: plugins/extensions/dockers/channeldocker/channelmodel.cpp:67
-#: ui/kis_node_model.cpp:371
+#: ui/kis_node_model.cpp:374
 msgid "Locked"
 msgstr "कुलूपबंद"
 
@@ -1089,7 +1089,7 @@ msgid "Composite Mode"
 msgstr "एकत्रित पध्दत"
 
 #: image/kis_paint_layer.cc:157 image/kis_paint_layer.cc:166
-#: ui/kis_node_model.cpp:379
+#: ui/kis_node_model.cpp:382
 msgid "Alpha Locked"
 msgstr "अल्फा कुलूपबंद"
 
@@ -1133,7 +1133,7 @@ msgstr "सुलभ निवड"
 msgid "Invert Selection"
 msgstr "उलटी निवड"
 
-#: image/kis_selection_mask.cpp:106 ui/kis_node_model.cpp:372
+#: image/kis_selection_mask.cpp:106 ui/kis_node_model.cpp:375
 msgid "Active"
 msgstr "सक्रिय"
 
@@ -2364,7 +2364,7 @@ msgstr "अपारदर्शक निवडा (&S)"
 msgid "&Transformation Mask..."
 msgstr "रूपांतर मुखवटा (&T)..."
 
-#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:484
+#: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:485
 #: ui/kis_layer_manager.cc:286
 msgid "&Merge with Layer Below"
 msgstr "खालच्या स्तरात मिसळा (&M)"
@@ -2408,8 +2408,6 @@ msgstr "स्तरासाठी ब्लेंडिंग पद्धत 
 #. i18n: ectx: property (text), widget (QToolButton, paintColor)
 #. i18n: ectx: property (text), widget (QToolButton, backgroundColor)
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectOcioConfigPath)
-#. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
-#. i18n: ectx: property (text), widget (QToolButton, bnLandscape)
 #. i18n: ectx: property (text), widget (QToolButton, viewModeButton)
 #. i18n: ectx: property (text), widget (KoGroupButton, intersect)
 #. i18n: ectx: property (text), widget (KoGroupButton, shape)
@@ -2418,6 +2416,8 @@ msgstr "स्तरासाठी ब्लेंडिंग पद्धत 
 #. i18n: ectx: property (text), widget (KoGroupButton, pixel)
 #. i18n: ectx: property (text), widget (KoGroupButton, subtract)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetFileName)
+#. i18n: ectx: property (text), widget (QToolButton, bnPortrait)
+#. i18n: ectx: property (text), widget (QToolButton, bnLandscape)
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:50
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:99
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:124
@@ -2728,7 +2728,7 @@ msgid "LUT file:"
 msgstr "लुट फाईल"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
-#: plugins/extensions/dockers/lut/wdglut.ui:179 ui/tool/kis_tool.cc:545
+#: plugins/extensions/dockers/lut/wdglut.ui:179 ui/tool/kis_tool.cc:569
 msgid "Clear"
 msgstr "पुसून टाका"
 
@@ -4899,7 +4899,7 @@ msgstr "अझिमुथ"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:971
 #: plugins/generators/solid/colorgenerator.h:53
 #: plugins/paintops/libpaintop/kis_paintop_option.cpp:31
-#: ui/dialogs/kis_dlg_preferences.cc:632 ui/forms/wdgnewimage.ui:303
+#: ui/dialogs/kis_dlg_preferences.cc:632 ui/forms/wdgnewimage.ui:317
 msgid "Color"
 msgstr "रंग"
 
@@ -7043,14 +7043,14 @@ msgstr "गडद"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:36
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:30
-#: ui/forms/wdgnewimage.ui:359
+#: ui/forms/wdgnewimage.ui:373
 msgid "Transparent"
 msgstr "पारदर्शक"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:37
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:31
-#: ui/forms/wdgnewimage.ui:391
+#: ui/forms/wdgnewimage.ui:405
 msgid "Opaque"
 msgstr "अपारदर्शक"
 
@@ -8775,11 +8775,11 @@ msgstr "प्रत बनवा"
 msgid "Copy Merged"
 msgstr "प्रत मिसळा"
 
-#: ui/actions/kis_selection_action_factories.cpp:331
+#: ui/actions/kis_selection_action_factories.cpp:307
 msgid "(pasted)"
 msgstr "(चिकटविले)"
 
-#: ui/actions/kis_selection_action_factories.cpp:365
+#: ui/actions/kis_selection_action_factories.cpp:341
 msgid "Pasted"
 msgstr "चिकटविले"
 
@@ -9770,7 +9770,7 @@ msgstr "नाव (&N)"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #. i18n: ectx: property (text), widget (QLabel, lblOpacity)
-#: ui/forms/wdglayerproperties.ui:38 ui/forms/wdgnewimage.ui:334
+#: ui/forms/wdglayerproperties.ui:38 ui/forms/wdgnewimage.ui:348
 msgid "&Opacity:"
 msgstr "अपारदर्शकता (&O):"
 
@@ -9887,48 +9887,53 @@ msgstr "स्क्रीनच्या रेझोल्युशनप्�
 msgid "&Screen size"
 msgstr "स्क्रीनचा आकार (&S)"
 
+#. i18n: ectx: property (text), widget (QPushButton, btnFromClipboard)
+#: ui/forms/wdgnewimage.ui:265
+msgid "Use clip image"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkFromClipboard)
+#: ui/forms/wdgnewimage.ui:272
+msgid "&First layer from clipboard"
+msgstr "चिकटपट्टीवरील पहिला स्तर (&F)"
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSaveAsPredefined)
-#: ui/forms/wdgnewimage.ui:288
+#: ui/forms/wdgnewimage.ui:302
 msgid "Save the current dimensions"
 msgstr "वर्तमान परिमाणे साठवा"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSaveAsPredefined)
-#: ui/forms/wdgnewimage.ui:291
+#: ui/forms/wdgnewimage.ui:305
 msgid "&Save"
 msgstr "साठवा (&S)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpContents)
-#: ui/forms/wdgnewimage.ui:315
+#: ui/forms/wdgnewimage.ui:329
 msgid "Contents"
 msgstr "मजकूर"
 
 #. i18n: ectx: property (text), widget (QLabel, lblColor)
-#: ui/forms/wdgnewimage.ui:321
+#: ui/forms/wdgnewimage.ui:335
 msgid "C&anvas color:"
 msgstr "कॅनव्हासचा रंग (&A):"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, sliderOpacity)
-#: ui/forms/wdgnewimage.ui:366
+#: ui/forms/wdgnewimage.ui:380
 msgid "Opacity of the background color"
 msgstr "पार्श्वभूमीच्या रंगाची अपारदर्शकता"
 
 #. i18n: ectx: property (whatsThis), widget (QSlider, sliderOpacity)
-#: ui/forms/wdgnewimage.ui:369
+#: ui/forms/wdgnewimage.ui:383
 msgid "Opacity of the background color."
 msgstr "पार्श्वभूमीच्या रंगाची अपारदर्शकता."
 
 #. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#: ui/forms/wdgnewimage.ui:401
+#: ui/forms/wdgnewimage.ui:415
 msgid "&Description:"
 msgstr "वर्णन (&D):"
 
-#. i18n: ectx: property (text), widget (QCheckBox, chkFromClipboard)
-#: ui/forms/wdgnewimage.ui:417
-msgid "&First layer from clipboard"
-msgstr "चिकटपट्टीवरील पहिला स्तर (&F)"
-
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: ui/forms/wdgnewimage.ui:466
+#: ui/forms/wdgnewimage.ui:473
 msgid "&Create"
 msgstr "निर्माण करा (&C)"
 
@@ -10450,11 +10455,11 @@ msgstr "सिध्दार्थ शर्मा"
 msgid "New configuration %1"
 msgstr "नवीन संयोजना %1"
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid "Pasting data from simple source"
 msgstr "साध्या स्रोतातून माहिती चिकटविणे"
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid ""
 "The image data you are trying to paste has no color profile information.\n"
 "\n"
@@ -10473,11 +10478,11 @@ msgstr ""
 "करताना तुमच्या दर्शकावर दिसेल अशी हवी असेल.\n"
 "ही माहिती तुम्हाला कशाप्रकारे सादर होणे अपेक्षित आहे"
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid "As &Web"
 msgstr "वेबप्रमाणे (&W)"
 
-#: ui/kis_clipboard.cc:250
+#: ui/kis_clipboard.cc:257
 msgid "As on &Monitor"
 msgstr "दर्शकाप्रमाणे (&M)"
 
@@ -10925,91 +10930,91 @@ msgstr "निवड नाही"
 msgid "No profile"
 msgstr "रूपरेषा नाही"
 
-#: ui/kis_view2.cpp:277
+#: ui/kis_view2.cpp:279
 msgid "Save Incremental &Version"
 msgstr "वाढती आवृत्ती साठवा (&V)"
 
-#: ui/kis_view2.cpp:282
+#: ui/kis_view2.cpp:284
 msgid "Save Incremental Backup"
 msgstr "वाढता बॅकअप साठवा"
 
-#: ui/kis_view2.cpp:294
+#: ui/kis_view2.cpp:296
 msgid "Total Refresh"
 msgstr "संपूर्ण ताजे करा"
 
-#: ui/kis_view2.cpp:299
+#: ui/kis_view2.cpp:301
 msgid "&Create Template From Image..."
 msgstr "प्रतिमेपासून टेंपलेट बनवा (&C)..."
 
-#: ui/kis_view2.cpp:303
+#: ui/kis_view2.cpp:305
 msgid "Mirror View"
 msgstr "प्रतिबिंबित दृश्य"
 
-#: ui/kis_view2.cpp:309
+#: ui/kis_view2.cpp:311
 msgid "Rotate Canvas Right"
 msgstr "कॅनव्हास उजवीकडे फिरवा"
 
-#: ui/kis_view2.cpp:314
+#: ui/kis_view2.cpp:316
 msgid "Rotate Canvas Left"
 msgstr "कॅनव्हास डावीकडे फिरवा"
 
-#: ui/kis_view2.cpp:319
+#: ui/kis_view2.cpp:321
 msgid "Reset Canvas Transformations"
 msgstr "कॅनव्हासमधील बदल पुन्हा निश्चित करा"
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:326
 msgid "Show Status Bar"
 msgstr "स्थिती पट्टि दर्शवा"
 
-#: ui/kis_view2.cpp:325
+#: ui/kis_view2.cpp:327
 msgid "Hide Status Bar"
 msgstr "स्थिती पट्टि लपवा"
 
-#: ui/kis_view2.cpp:327
+#: ui/kis_view2.cpp:329
 msgid "Shows or hides the status bar"
 msgstr "स्थिती पट्टि लपवतो किंवा दाखवतो"
 
-#: ui/kis_view2.cpp:331
+#: ui/kis_view2.cpp:333
 msgid "Show Canvas Only"
 msgstr "फक्त कॅनव्हास दर्शवा"
 
-#: ui/kis_view2.cpp:332
+#: ui/kis_view2.cpp:334
 msgid "Return to Window"
 msgstr "चौकटीकडे परत या"
 
-#: ui/kis_view2.cpp:333
+#: ui/kis_view2.cpp:335
 msgid "Shows just the canvas or the whole window"
 msgstr "फक्त कॅनव्हास किंवा संपूर्ण चौकट दाखवतो"
 
-#: ui/kis_view2.cpp:528
+#: ui/kis_view2.cpp:503
 msgid "Insert as New Layer"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/kis_view2.cpp:529
+#: ui/kis_view2.cpp:504
 msgid "Insert as New Layers"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/kis_view2.cpp:531
+#: ui/kis_view2.cpp:506
 msgid "Open in New Document"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/kis_view2.cpp:532
+#: ui/kis_view2.cpp:507
 msgid "Open in New Documents"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/kis_view2.cpp:534
+#: ui/kis_view2.cpp:509
 msgid "Replace Current Document"
 msgstr "वर्तमान दस्तऐवज बदला"
 
-#: ui/kis_view2.cpp:536
+#: ui/kis_view2.cpp:511
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: ui/kis_view2.cpp:784
+#: ui/kis_view2.cpp:757
 msgid "Cleanup removed files..."
 msgstr "काढून टाकलेल्या फाईल्स साफ करा..."
 
-#: ui/kis_view2.cpp:1343
+#: ui/kis_view2.cpp:1316
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -11053,35 +11058,35 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
-#: ui/tool/kis_tool.cc:114
+#: ui/tool/kis_tool.cc:122
 msgid "Swap Foreground and Background Color"
 msgstr "पृष्ठभूमीच्या व पार्श्वभूमीच्या रंगांची अदलाबदल करा"
 
-#: ui/tool/kis_tool.cc:120
+#: ui/tool/kis_tool.cc:128
 msgid "Reset Foreground and Background Color"
 msgstr "पृष्ठभूमीचे व पार्श्वभूमीचे रंग पुन्हस्थापित करा"
 
-#: ui/tool/kis_tool.cc:574
+#: ui/tool/kis_tool.cc:598
 msgid "No options"
 msgstr "पर्याय नाहीत"
 
-#: ui/tool/kis_tool.cc:730
+#: ui/tool/kis_tool.cc:754
 msgid "Layer is locked and invisible."
 msgstr "स्तर कुलूपबंद व अदृश्य आहे."
 
-#: ui/tool/kis_tool.cc:732
+#: ui/tool/kis_tool.cc:756
 msgid "Layer is locked."
 msgstr "स्तर कुलूपबंद आहे."
 
-#: ui/tool/kis_tool.cc:734
+#: ui/tool/kis_tool.cc:758
 msgid "Layer is invisible."
 msgstr "स्तर अदृश्य आहे."
 
-#: ui/tool/kis_tool.cc:736
+#: ui/tool/kis_tool.cc:760
 msgid "Group not editable."
 msgstr "समूह संपादनास अयोग्य."
 
-#: ui/tool/kis_tool.cc:751
+#: ui/tool/kis_tool.cc:775
 msgid "Local selection is locked."
 msgstr "स्थानिक निवड कुलूपबंद आहे."
 
