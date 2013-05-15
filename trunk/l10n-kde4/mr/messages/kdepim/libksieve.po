@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-14 05:31+0200\n"
+"POT-Creation-Date: 2013-05-15 03:53+0200\n"
 "PO-Revision-Date: 2013-04-13 16:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -140,14 +140,40 @@ msgstr "नमूना काढून टाका"
 msgid "Discard"
 msgstr "सोडून द्या"
 
+#: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:31
+#, fuzzy
+#| msgid "Close"
+msgid "Enclose"
+msgstr "बंद करा"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:48
+msgid "Subject:"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:55
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:55
+msgid "headers:"
+msgstr "शिर्षक :"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:62
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:44
+msgid "text:"
+msgstr "मजकूर :"
+
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:29
 msgid "File Into"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:60
+#: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:66
 #: ksieveui/autocreatescripts/sieveactions/sieveactionredirect.cpp:48
 msgid "Keep a copy"
 msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:71
+#, fuzzy
+#| msgid "Create sieve filter"
+msgid "Create folder"
+msgstr "सीव्ह गाळणी निर्माण करा"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionkeep.cpp:23
 msgid "Keep"
@@ -165,13 +191,9 @@ msgstr ""
 msgid "Redirect"
 msgstr "पुन्हा वळवा"
 
-#: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:28
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:29
 msgid "Reject"
 msgstr "अस्वीकार करा"
-
-#: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:43
-msgid "text:"
-msgstr "मजकूर :"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionremoveflags.cpp:25
 msgid "Remove Flags"
@@ -185,29 +207,29 @@ msgstr "निशाण निश्चित करा"
 msgid "Stop"
 msgstr "थांबा"
 
-#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:37
+#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:38
 #, fuzzy
 #| msgid "Vacations"
 msgid "Vacation"
 msgstr "सुट्ट्या"
 
-#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:61
+#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:62
 msgid "day:"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:70
+#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:72
+msgid "Message subject:"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:79
+msgid "Additional email:"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:86
 #, fuzzy
 #| msgid "Vacations"
 msgid "Vacation reason:"
 msgstr "सुट्ट्या"
-
-#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:77
-msgid "Message subject:"
-msgstr ""
-
-#: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:84
-msgid "Additional email:"
-msgstr ""
 
 #: ksieveui/autocreatescripts/sieveactions/widgets/selectaddheaderpositioncombobox.cpp:36
 msgid "Insert at the beginning"
@@ -291,6 +313,20 @@ msgstr "शिर्षक :"
 msgid "Envelope"
 msgstr "पाकिट"
 
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:31
+msgid "Environment"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:46
+msgid "Item:"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionenvironment.cpp:66
+#, fuzzy
+#| msgid "With value:"
+msgid "Value:"
+msgstr "मूल्या सकट :"
+
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:33
 msgid "Exists"
 msgstr "अस्तित्वात आहे"
@@ -303,10 +339,6 @@ msgstr "अस्तित्वात आहे"
 msgid "not exists"
 msgstr "अस्तित्वात नाही"
 
-#: ksieveui/autocreatescripts/sieveconditions/sieveconditionexists.cpp:55
-msgid "headers:"
-msgstr "शिर्षक :"
-
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionfalse.cpp:28
 msgid "False"
 msgstr ""
@@ -314,6 +346,12 @@ msgstr ""
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionfalse.cpp:44
 msgid "false"
 msgstr ""
+
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionhasflag.cpp:29
+#, fuzzy
+#| msgid "Flags"
+msgid "Has Flag"
+msgstr "निशाण"
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionheader.cpp:32
 msgid "Header"
@@ -660,7 +698,8 @@ msgid "Script name: %1"
 msgstr "स्क्रिप्ट नाव : %1"
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:64
-msgid "Script has always a \"Else\" block. We can not add an other one."
+msgid ""
+"Script should always have just one \"Else\" block. We cannot add another one."
 msgstr ""
 
 #: ksieveui/autocreatescripts/sievescriptpage.cpp:75
