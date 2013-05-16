@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-15 03:53+0200\n"
+"POT-Creation-Date: 2013-05-16 04:13+0200\n"
 "PO-Revision-Date: 2013-04-13 16:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -140,6 +140,10 @@ msgstr "नमूना काढून टाका"
 msgid "Discard"
 msgstr "सोडून द्या"
 
+#: ksieveui/autocreatescripts/sieveactions/sieveactiondiscard.cpp:39
+msgid "Discard is used to silently throw away the message."
+msgstr ""
+
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:31
 #, fuzzy
 #| msgid "Close"
@@ -147,6 +151,7 @@ msgid "Enclose"
 msgstr "बंद करा"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:48
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:47
 msgid "Subject:"
 msgstr ""
 
@@ -157,8 +162,15 @@ msgstr "शिर्षक :"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionenclose.cpp:62
 #: ksieveui/autocreatescripts/sieveactions/sieveactionreject.cpp:44
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:61
 msgid "text:"
 msgstr "मजकूर :"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionextracttext.cpp:29
+#, fuzzy
+#| msgid "Speak Text"
+msgid "Extra Text"
+msgstr "मजकूर बोला"
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionfileinto.cpp:29
 msgid "File Into"
@@ -178,6 +190,13 @@ msgstr "सीव्ह गाळणी निर्माण करा"
 #: ksieveui/autocreatescripts/sieveactions/sieveactionkeep.cpp:23
 msgid "Keep"
 msgstr "ठेवा"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionkeep.cpp:39
+msgid ""
+"The \"keep\" action is whatever action is taken in lieu of all other "
+"actions, if no filtering happens at all; generally, this simply means to "
+"file the message into the user's main mailbox."
+msgstr ""
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionnotify.cpp:32
 msgid "Notify"
@@ -199,6 +218,14 @@ msgstr "अस्वीकार करा"
 msgid "Remove Flags"
 msgstr "निशाण काढून टाका"
 
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:31
+msgid "Replace"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionreplace.cpp:54
+msgid "from:"
+msgstr ""
+
 #: ksieveui/autocreatescripts/sieveactions/sieveactionsetflags.cpp:26
 msgid "Set Flags"
 msgstr "निशाण निश्चित करा"
@@ -206,6 +233,12 @@ msgstr "निशाण निश्चित करा"
 #: ksieveui/autocreatescripts/sieveactions/sieveactionstop.cpp:25
 msgid "Stop"
 msgstr "थांबा"
+
+#: ksieveui/autocreatescripts/sieveactions/sieveactionstop.cpp:41
+msgid ""
+"The \"stop\" action ends all processing.  If the implicit keep has not been "
+"cancelled, then it is taken."
+msgstr ""
 
 #: ksieveui/autocreatescripts/sieveactions/sieveactionvacation.cpp:38
 #, fuzzy
@@ -272,9 +305,14 @@ msgstr ""
 msgid "seconds"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:60
+#: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:62
 msgid "Please select an action."
 msgstr "कृपया क्रिया निवडा."
+
+#: ksieveui/autocreatescripts/sieveactionwidgetlister.cpp:112
+#: ksieveui/autocreatescripts/sieveconditionwidgetlister.cpp:110
+msgid "Help"
+msgstr ""
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:34
 msgid "Address"
@@ -390,6 +428,13 @@ msgstr "वर"
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:54
 msgid "kb"
 msgstr "kb"
+
+#: ksieveui/autocreatescripts/sieveconditions/sieveconditionsize.cpp:71
+msgid ""
+"The \"size\" test deals with the size of a message.  It takes either a "
+"tagged argument of \":over\" or \":under\", followed by a number "
+"representing the size of the message."
+msgstr ""
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionspamtest.cpp:32
 msgid "Spam Test"
@@ -593,41 +638,68 @@ msgstr ""
 msgid "Not equal to"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sieveconditionwidgetlister.cpp:57
+#: ksieveui/autocreatescripts/sieveconditionwidgetlister.cpp:59
 msgid "Please select an condition."
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:40
+#: ksieveui/autocreatescripts/sieveincludewidget.cpp:45
+msgid "personal"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveincludewidget.cpp:46
+msgid "global"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveincludewidget.cpp:86
+msgid "Include:"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveincludewidget.cpp:91
+#, fuzzy
+#| msgid "Options"
+msgid "Optional"
+msgstr "पर्याय"
+
+#: ksieveui/autocreatescripts/sieveincludewidget.cpp:94
+msgid "Once"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveincludewidget.cpp:97
+#: ksieveui/templates/sievetemplateeditdialog.cpp:47
+msgid "Name:"
+msgstr "नाव :"
+
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:39
 msgid "Conditions"
 msgstr "शर्त"
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:43
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:42
 msgid "Match all messages"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:44
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:43
 msgid "Match a&ll of the following"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:45
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:44
 msgid "Match an&y of the following"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:68
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:67
 msgid "Actions"
 msgstr "क्रिया"
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:76
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:75
 #, fuzzy
 #| msgid "Add new name:"
 msgid "Add new block:"
 msgstr "नवीन नाव जोडा :"
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:80
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:79
 msgid "\"elsif\" block"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:81
+#: ksieveui/autocreatescripts/sievescriptblockwidget.cpp:80
 msgid "\"else\" block"
 msgstr ""
 
@@ -697,20 +769,24 @@ msgstr "नाव बदला"
 msgid "Script name: %1"
 msgstr "स्क्रिप्ट नाव : %1"
 
-#: ksieveui/autocreatescripts/sievescriptpage.cpp:64
+#: ksieveui/autocreatescripts/sievescriptpage.cpp:42
+msgid "Includes"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sievescriptpage.cpp:76
 msgid ""
 "Script should always have just one \"Else\" block. We cannot add another one."
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptpage.cpp:75
+#: ksieveui/autocreatescripts/sievescriptpage.cpp:90
 msgid "Main block"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptpage.cpp:77
+#: ksieveui/autocreatescripts/sievescriptpage.cpp:92
 msgid "Block \"Elsif\""
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptpage.cpp:79
+#: ksieveui/autocreatescripts/sievescriptpage.cpp:94
 msgid "Block \"Else\""
 msgstr ""
 
@@ -1091,10 +1167,6 @@ msgstr "मूलभूत नमूना"
 #: ksieveui/templates/sievetemplateeditdialog.cpp:36
 msgid "Template"
 msgstr "नमूना"
-
-#: ksieveui/templates/sievetemplateeditdialog.cpp:47
-msgid "Name:"
-msgstr "नाव :"
 
 #: ksieveui/templates/sievetemplatewidget.cpp:85
 msgid "You can drag and drop element on editor to import template"
