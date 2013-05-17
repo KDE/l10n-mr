@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-16 04:28+0200\n"
+"POT-Creation-Date: 2013-05-17 04:24+0200\n"
 "PO-Revision-Date: 2013-03-30 10:54+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -291,7 +291,7 @@ msgid "Signal Quality:"
 msgstr ""
 
 #: declarative-plugins/model/modelitem.cpp:392
-#: declarative-plugins/model/modelitem.cpp:450
+#: declarative-plugins/model/modelitem.cpp:454
 #, kde-format
 msgid "%1%"
 msgstr ""
@@ -308,33 +308,54 @@ msgid "Connection speed:"
 msgstr "जुळवणी वेग :"
 
 #: declarative-plugins/model/modelitem.cpp:450
-msgid "Signal strength:"
+msgid "Mode:"
 msgstr ""
 
 #: declarative-plugins/model/modelitem.cpp:454
+msgid "Signal strength:"
+msgstr ""
+
+#: declarative-plugins/model/modelitem.cpp:458
 msgid "Access point (SSID):"
 msgstr "प्रवेश बिंदू (SSID):"
 
-#: declarative-plugins/model/modelitem.cpp:458
+#: declarative-plugins/model/modelitem.cpp:462
 msgid "Access point (BSSID):"
 msgstr "प्रवेश बिंदू (BSSID):"
 
-#: declarative-plugins/model/modelitem.cpp:462
+#: declarative-plugins/model/modelitem.cpp:466
 msgctxt "Wifi AP channel and frequency"
 msgid "Channel:"
 msgstr ""
 
-#: declarative-plugins/model/modelitem.cpp:462
+#: declarative-plugins/model/modelitem.cpp:466
 #, fuzzy, kde-format
 #| msgid "%1 Mhz"
 msgid "%1 (%2 MHz)"
 msgstr "%1 Mhz"
 
-#: declarative-plugins/model/modelitem.cpp:487
+#: declarative-plugins/model/modelitem.cpp:472
+#: declarative-plugins/model/modelitem.cpp:475
+#: declarative-plugins/model/modelitem.cpp:477
+#: declarative-plugins/model/modelitem.cpp:479
+msgid "Security:"
+msgstr ""
+
+#: declarative-plugins/model/modelitem.cpp:472
+msgid "Unsecured"
+msgstr ""
+
+#: declarative-plugins/model/modelitem.cpp:479
+#, fuzzy
+#| msgid "Edit connections..."
+msgid "Uknown security"
+msgstr "जुळवण्या संपादित करा..."
+
+#: declarative-plugins/model/modelitem.cpp:506
 msgid "VPN plugin:"
 msgstr ""
 
-#: declarative-plugins/model/modelitem.cpp:491
+#: declarative-plugins/model/modelitem.cpp:510
 msgid "Banner:"
 msgstr ""
 
@@ -755,294 +776,293 @@ msgctxt "Format for <Vendor> <Product>"
 msgid "%1 - %2"
 msgstr ""
 
-#: lib/uiutils.cpp:469
+#: lib/uiutils.cpp:471
+#, fuzzy
+#| msgid "Unknown"
 msgctxt "wireless network operation mode"
-msgid "Unassociated"
-msgstr ""
+msgid "Unknown"
+msgstr "अपरिचीत"
 
-#: lib/uiutils.cpp:472
+#: lib/uiutils.cpp:474
 msgctxt "wireless network operation mode"
 msgid "Adhoc"
 msgstr ""
 
-#: lib/uiutils.cpp:475
+#: lib/uiutils.cpp:477
 msgctxt "wireless network operation mode"
-msgid "Managed"
+msgid "Infrastructure"
 msgstr ""
 
-#: lib/uiutils.cpp:478
+#: lib/uiutils.cpp:480
+#, fuzzy
+#| msgid "Access point (SSID):"
 msgctxt "wireless network operation mode"
-msgid "Master"
-msgstr ""
+msgid "Access point"
+msgstr "प्रवेश बिंदू (SSID):"
 
-#: lib/uiutils.cpp:481
-msgctxt "wireless network operation mode"
-msgid "Repeater"
-msgstr ""
-
-#: lib/uiutils.cpp:484
+#: lib/uiutils.cpp:483
 msgid "INCORRECT MODE FIX ME"
 msgstr ""
 
-#: lib/uiutils.cpp:506
+#: lib/uiutils.cpp:505
 msgctxt "wireless network cipher"
 msgid "Pairwise WEP40"
 msgstr ""
 
-#: lib/uiutils.cpp:508
+#: lib/uiutils.cpp:507
 msgctxt "wireless network cipher"
 msgid "Pairwise WEP104"
 msgstr ""
 
-#: lib/uiutils.cpp:510
+#: lib/uiutils.cpp:509
 msgctxt "wireless network cipher"
 msgid "Pairwise TKIP"
 msgstr ""
 
-#: lib/uiutils.cpp:512
+#: lib/uiutils.cpp:511
 msgctxt "wireless network cipher"
 msgid "Pairwise CCMP"
 msgstr ""
 
-#: lib/uiutils.cpp:514
+#: lib/uiutils.cpp:513
 msgctxt "wireless network cipher"
 msgid "Group WEP40"
 msgstr ""
 
-#: lib/uiutils.cpp:516
+#: lib/uiutils.cpp:515
 msgctxt "wireless network cipher"
 msgid "Group WEP104"
 msgstr ""
 
-#: lib/uiutils.cpp:518
+#: lib/uiutils.cpp:517
 msgctxt "wireless network cipher"
 msgid "Group TKIP"
 msgstr ""
 
-#: lib/uiutils.cpp:520
+#: lib/uiutils.cpp:519
 msgctxt "wireless network cipher"
 msgid "Group CCMP"
 msgstr ""
 
-#: lib/uiutils.cpp:522
+#: lib/uiutils.cpp:521
 msgctxt "wireless network cipher"
 msgid "PSK"
 msgstr ""
 
-#: lib/uiutils.cpp:524
+#: lib/uiutils.cpp:523
 msgctxt "wireless network cipher"
 msgid "802.1x"
 msgstr ""
 
-#: lib/uiutils.cpp:534
+#: lib/uiutils.cpp:533
 #, kde-format
 msgctxt "connection speed"
 msgid "<numid>%1</numid> Bit/s"
 msgstr ""
 
-#: lib/uiutils.cpp:536
+#: lib/uiutils.cpp:535
 #, kde-format
 msgctxt "connection speed"
 msgid "<numid>%1</numid> MBit/s"
 msgstr ""
 
-#: lib/uiutils.cpp:538
+#: lib/uiutils.cpp:537
 #, kde-format
 msgctxt "connection speed"
 msgid "<numid>%1</numid> GBit/s"
 msgstr ""
 
-#: lib/uiutils.cpp:623 lib/uiutils.cpp:628
+#: lib/uiutils.cpp:622 lib/uiutils.cpp:627
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown cellular type"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: lib/uiutils.cpp:624
+#: lib/uiutils.cpp:623
 msgctxt "Gsm cellular type"
 msgid "Gsm"
 msgstr ""
 
-#: lib/uiutils.cpp:625
+#: lib/uiutils.cpp:624
 msgctxt "Cdma cellular type"
 msgid "Cdma"
 msgstr ""
 
-#: lib/uiutils.cpp:634 lib/uiutils.cpp:651
+#: lib/uiutils.cpp:633 lib/uiutils.cpp:650
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown cellular frequency band"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: lib/uiutils.cpp:635
+#: lib/uiutils.cpp:634
 msgctxt "Any cellular frequency band"
 msgid "Any"
 msgstr ""
 
-#: lib/uiutils.cpp:636
+#: lib/uiutils.cpp:635
 msgctxt "Cellular frequency band"
 msgid "GSM/GPRS/EDGE 900 MHz"
 msgstr ""
 
-#: lib/uiutils.cpp:637
+#: lib/uiutils.cpp:636
 msgctxt "Cellular frequency band"
 msgid "GSM/GPRS/EDGE 1800 MHz"
 msgstr ""
 
-#: lib/uiutils.cpp:638
+#: lib/uiutils.cpp:637
 msgctxt "Cellular frequency band"
 msgid "GSM/GPRS/EDGE 1900 MHz"
 msgstr ""
 
-#: lib/uiutils.cpp:639
+#: lib/uiutils.cpp:638
 msgctxt "Cellular frequency band"
 msgid "GSM/GPRS/EDGE 850 MHz"
 msgstr ""
 
-#: lib/uiutils.cpp:640
+#: lib/uiutils.cpp:639
 msgctxt "Cellular frequency band"
 msgid "WCDMA 2100 MHz (Class I)"
 msgstr ""
 
-#: lib/uiutils.cpp:641
+#: lib/uiutils.cpp:640
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP 1800 MHz (Class III)"
 msgstr ""
 
-#: lib/uiutils.cpp:642
+#: lib/uiutils.cpp:641
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP AWS 1700/2100 MHz (Class IV)"
 msgstr ""
 
-#: lib/uiutils.cpp:643
+#: lib/uiutils.cpp:642
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP UMTS 800 MHz (Class VI)"
 msgstr ""
 
-#: lib/uiutils.cpp:644
+#: lib/uiutils.cpp:643
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP UMTS 850 MHz (Class V)"
 msgstr ""
 
-#: lib/uiutils.cpp:645
+#: lib/uiutils.cpp:644
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP UMTS 900 MHz (Class VIII)"
 msgstr ""
 
-#: lib/uiutils.cpp:646
+#: lib/uiutils.cpp:645
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP UMTS 1700 MHz (Class IX)"
 msgstr ""
 
-#: lib/uiutils.cpp:647
+#: lib/uiutils.cpp:646
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP UMTS 1900 MHz (Class II)"
 msgstr ""
 
-#: lib/uiutils.cpp:648
+#: lib/uiutils.cpp:647
 msgctxt "Cellular frequency band"
 msgid "WCDMA 3GPP UMTS 2600 MHz (Class VII)"
 msgstr ""
 
-#: lib/uiutils.cpp:657 lib/uiutils.cpp:664
+#: lib/uiutils.cpp:656 lib/uiutils.cpp:663
 msgctxt "Allowed Gsm modes (2G/3G/any)"
 msgid "Any"
 msgstr ""
 
-#: lib/uiutils.cpp:658
+#: lib/uiutils.cpp:657
 msgctxt "Allowed Gsm modes (2G/3G/any)"
 msgid "Prefer 2G"
 msgstr ""
 
-#: lib/uiutils.cpp:659
+#: lib/uiutils.cpp:658
 msgctxt "Allowed Gsm modes (2G/3G/any)"
 msgid "Prefer 3G"
 msgstr ""
 
-#: lib/uiutils.cpp:660
+#: lib/uiutils.cpp:659
 msgctxt "Allowed Gsm modes (2G/3G/any)"
 msgid "Only 2G"
 msgstr ""
 
-#: lib/uiutils.cpp:661
+#: lib/uiutils.cpp:660
 msgctxt "Allowed Gsm modes (2G/3G/any)"
 msgid "Only 3G"
 msgstr ""
 
-#: lib/uiutils.cpp:670 lib/uiutils.cpp:683
+#: lib/uiutils.cpp:669 lib/uiutils.cpp:682
 #, fuzzy
 #| msgid "Unknown"
 msgctxt "Unknown cellular access technology"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: lib/uiutils.cpp:671
+#: lib/uiutils.cpp:670
 msgctxt "Cellular access technology"
 msgid "GSM"
 msgstr ""
 
-#: lib/uiutils.cpp:672
+#: lib/uiutils.cpp:671
 msgctxt "Cellular access technology"
 msgid "Compact GSM"
 msgstr ""
 
-#: lib/uiutils.cpp:673
+#: lib/uiutils.cpp:672
 msgctxt "Cellular access technology"
 msgid "GPRS"
 msgstr ""
 
-#: lib/uiutils.cpp:674
+#: lib/uiutils.cpp:673
 msgctxt "Cellular access technology"
 msgid "EDGE"
 msgstr ""
 
-#: lib/uiutils.cpp:675
+#: lib/uiutils.cpp:674
 msgctxt "Cellular access technology"
 msgid "UMTS"
 msgstr ""
 
-#: lib/uiutils.cpp:676
+#: lib/uiutils.cpp:675
 msgctxt "Cellular access technology"
 msgid "HSDPA"
 msgstr ""
 
-#: lib/uiutils.cpp:677
+#: lib/uiutils.cpp:676
 msgctxt "Cellular access technology"
 msgid "HSUPA"
 msgstr ""
 
-#: lib/uiutils.cpp:678
+#: lib/uiutils.cpp:677
 msgctxt "Cellular access technology"
 msgid "HSPA"
 msgstr ""
 
-#: lib/uiutils.cpp:679
+#: lib/uiutils.cpp:678
 msgctxt "Cellular access technology"
 msgid "HSPA+"
 msgstr ""
 
-#: lib/uiutils.cpp:680
+#: lib/uiutils.cpp:679
 msgctxt "Cellular access technology"
 msgid "LTE"
 msgstr ""
 
-#: lib/uiutils.cpp:689 lib/uiutils.cpp:695
+#: lib/uiutils.cpp:688 lib/uiutils.cpp:694
 #, fuzzy
 #| msgid "Unknown"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: lib/uiutils.cpp:690
+#: lib/uiutils.cpp:689
 msgid "Home"
 msgstr ""
 
-#: lib/uiutils.cpp:691
+#: lib/uiutils.cpp:690
 msgid "Partner"
 msgstr ""
 
-#: lib/uiutils.cpp:692
+#: lib/uiutils.cpp:691
 msgid "Roaming partner"
 msgstr ""
 
@@ -1237,78 +1257,98 @@ msgstr "वायरलेस कार्यान्वित केले"
 msgid "Wireless Frequency Channel"
 msgstr "वायरलेस कार्यान्वित केले"
 
-#: settings/details/detailkeyseditor.cpp:121
-msgid "Mobile Operator"
+#: settings/details/detailkeyseditor.cpp:119
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Wireless Security"
+msgstr "वायरलेस कार्यान्वित केले"
+
+#: settings/details/detailkeyseditor.cpp:119
+msgid "Describes the security capabilities of the access point"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:121
-msgid "Mobile Operator's Name"
-msgstr ""
+#: settings/details/detailkeyseditor.cpp:120
+#, fuzzy
+#| msgid "Wireless enabled"
+msgid "Wireless Mode"
+msgstr "वायरलेस कार्यान्वित केले"
 
-#: settings/details/detailkeyseditor.cpp:122
-msgid "Mobile Signal Quality"
+#: settings/details/detailkeyseditor.cpp:120
+msgid "The operating mode of the wireless device"
 msgstr ""
 
 #: settings/details/detailkeyseditor.cpp:123
-msgid "Mobile Access Technology"
+msgid "Mobile Operator"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:123
+msgid "Mobile Operator's Name"
 msgstr ""
 
 #: settings/details/detailkeyseditor.cpp:124
+msgid "Mobile Signal Quality"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:125
+msgid "Mobile Access Technology"
+msgstr ""
+
+#: settings/details/detailkeyseditor.cpp:126
 #, fuzzy
 #| msgctxt "Wifi AP frequency"
 #| msgid "Frequency:"
 msgid "Mobile Frequency Band"
 msgstr "फ्रीक्वेन्सी :"
 
-#: settings/details/detailkeyseditor.cpp:125
+#: settings/details/detailkeyseditor.cpp:127
 msgid "Mobile Allowed Mode"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:126
+#: settings/details/detailkeyseditor.cpp:128
 msgid "Mobile Unlock Required"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:126
+#: settings/details/detailkeyseditor.cpp:128
 msgid "Mobile Master Device"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:127
+#: settings/details/detailkeyseditor.cpp:129
 msgid "Mobile Device IMEI"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:127
+#: settings/details/detailkeyseditor.cpp:129
 msgid "Mobile Device Serial Number"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:128
+#: settings/details/detailkeyseditor.cpp:130
 msgid "Mobile Device IMSI"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:128
+#: settings/details/detailkeyseditor.cpp:130
 msgid "Mobile Device Identity Number"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:131
+#: settings/details/detailkeyseditor.cpp:133
 msgid "Bluetooth Name"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:131
+#: settings/details/detailkeyseditor.cpp:133
 msgid "Bluetooth name of the device"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:132
+#: settings/details/detailkeyseditor.cpp:134
 msgid "VPN Plugin"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:132
+#: settings/details/detailkeyseditor.cpp:134
 msgid "VPN plugin type"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:133
+#: settings/details/detailkeyseditor.cpp:135
 msgid "VPN Banner"
 msgstr ""
 
-#: settings/details/detailkeyseditor.cpp:133
+#: settings/details/detailkeyseditor.cpp:135
 #, fuzzy
 #| msgid "Connection speed:"
 msgid "VPN connection banner"

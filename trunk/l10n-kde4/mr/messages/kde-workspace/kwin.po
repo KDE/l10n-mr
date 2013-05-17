@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-16 04:18+0200\n"
+"POT-Creation-Date: 2013-05-17 04:15+0200\n"
 "PO-Revision-Date: 2013-02-24 11:33+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -65,9 +65,11 @@ msgstr "GLX/OpenGL व XRender/XFixes हे उपलब्ध नाहीत.
 msgid "KWin: "
 msgstr "के-विन : "
 
-#: killer/killer.cpp:43 main.cpp:533
-msgid "KWin"
-msgstr "के-विन"
+#: killer/killer.cpp:43
+#, fuzzy
+#| msgid "KDE window manager"
+msgid "Window Manager"
+msgstr "केडीई चौकट व्यवस्थापक"
 
 #: killer/killer.cpp:44
 msgid "KWin helper utility"
@@ -101,19 +103,44 @@ msgstr "वापरकर्त्याच्या ज्या कृती�
 msgid "This helper utility is not supposed to be called directly."
 msgstr "या सहाय्यक उपकार्यक्रमास प्रत्यक्षरित्या कॉल करणे अपेक्षित नाही."
 
-#: killer/killer.cpp:76
+#: killer/killer.cpp:79
 #, kde-format
-msgid ""
-"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
-"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
-"the application process <em>including <b>all</b> of its child windows</em>?"
-"<br /><b>Any unsaved data will be lost.</b></p>"
+msgctxt "@info"
+msgid "<b>Application \"%1\" is not responding</b>"
 msgstr ""
 
-#: killer/killer.cpp:82
+#: killer/killer.cpp:81
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3) but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:83
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You tried to close window \"%1\" from application \"%2\" (Process ID: "
+"%3), running on host \"%4\", but the application is not responding.</para>"
+msgstr ""
+
+#: killer/killer.cpp:86
+msgctxt "@info"
+msgid ""
+"<para>Do you want to terminate this application?</"
+"para><para><warning>Terminating the application will close all of its child "
+"windows. Any unsaved data will be lost.</warning></para>"
+msgstr ""
+
+#: killer/killer.cpp:90
 #, kde-format
 msgid "&Terminate Application %1"
 msgstr "%1 हा अनुप्रयोग बंद करा (&T)"
+
+#: killer/killer.cpp:91
+msgid "Wait Longer"
+msgstr ""
 
 #. i18n: ectx: label, entry (DesktopMode), group (TabBox)
 #: kwin.kcfg:277
@@ -444,6 +471,10 @@ msgstr ""
 #: main.cpp:452
 msgid "KDE window manager"
 msgstr "केडीई चौकट व्यवस्थापक"
+
+#: main.cpp:533
+msgid "KWin"
+msgstr "के-विन"
 
 #: main.cpp:537
 msgid "(c) 1999-2008, The KDE Developers"
