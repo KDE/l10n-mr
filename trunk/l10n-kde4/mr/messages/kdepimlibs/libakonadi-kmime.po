@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-06 04:14+0100\n"
+"POT-Creation-Date: 2013-05-18 04:12+0200\n"
 "PO-Revision-Date: 2013-04-12 14:48+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -330,58 +330,68 @@ msgstr ""
 
 #: standardmailactionmanager.cpp:196
 #, kde-format
-msgid "Copy Email"
-msgid_plural "Copy %1 Emails"
-msgstr[0] "इमेल प्रत करा"
-msgstr[1] "%1 इमेल प्रत करा"
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] ""
+msgstr[1] ""
 
 #: standardmailactionmanager.cpp:198
-msgid "Copy the selected emails to the clipboard."
+#, fuzzy
+#| msgid "Copy the selected emails to the clipboard."
+msgid "Copy the selected messages to the clipboard."
 msgstr "निवडलेल्या इमेल क्लिपबोर्ड वर प्रत करा."
 
 #: standardmailactionmanager.cpp:202
 #, kde-format
-msgid "Delete Email"
-msgid_plural "Delete %1 Emails"
+msgid "Delete Message"
+msgid_plural "Delete %1 Messages"
 msgstr[0] ""
 msgstr[1] ""
 
 #: standardmailactionmanager.cpp:204
-msgid "Delete the selected emails from the folder."
-msgstr ""
+#, fuzzy
+#| msgid "Cut the selected emails from the folder."
+msgid "Delete the selected messages from the folder."
+msgstr "निवडलेल्या इमेल्स संचयीकेतून कापा."
 
 #: standardmailactionmanager.cpp:207
 #, kde-format
-msgid "Do you really want to delete the selected email?"
-msgid_plural "Do you really want to delete %1 emails?"
+msgid "Do you really want to delete the selected message?"
+msgid_plural "Do you really want to delete %1 messages?"
 msgstr[0] ""
 msgstr[1] ""
 
 #: standardmailactionmanager.cpp:212
+#, fuzzy
+#| msgctxt "@title:window"
+#| msgid "Delete folder?"
+#| msgid_plural "Delete folders?"
 msgctxt "@title:window"
-msgid "Delete Email?"
-msgid_plural "Delete Emails?"
-msgstr[0] ""
-msgstr[1] ""
+msgid "Delete Message?"
+msgid_plural "Delete Messages?"
+msgstr[0] "संचयीका काढून टाकायची का?"
+msgstr[1] "संचयीका काढून टाकायच्या का?"
 
 #: standardmailactionmanager.cpp:216
 #, kde-format
-msgid "Could not delete email: %1"
+msgid "Could not delete message: %1"
 msgstr ""
 
 #: standardmailactionmanager.cpp:220
-msgid "Email deletion failed"
+msgid "Message deletion failed"
 msgstr ""
 
 #: standardmailactionmanager.cpp:224
 #, kde-format
-msgid "Cut Email"
-msgid_plural "Cut %1 Emails"
-msgstr[0] "इमेल कापा"
-msgstr[1] "%1 इमेल कापा"
+msgid "Cut Message"
+msgid_plural "Cut %1 Messages"
+msgstr[0] ""
+msgstr[1] ""
 
 #: standardmailactionmanager.cpp:226
-msgid "Cut the selected emails from the folder."
+#, fuzzy
+#| msgid "Cut the selected emails from the folder."
+msgid "Cut the selected message from the folder."
 msgstr "निवडलेल्या इमेल्स संचयीकेतून कापा."
 
 #: standardmailactionmanager.cpp:230
@@ -418,7 +428,7 @@ msgstr[1] ""
 #: standardmailactionmanager.cpp:251
 msgid ""
 "Delete the selected accounts<p>The currently selected accounts will be "
-"deleted, along with all the emails they contain.</p>"
+"deleted, along with all the messages they contain.</p>"
 msgstr ""
 
 #: standardmailactionmanager.cpp:256
@@ -466,7 +476,7 @@ msgstr "निवडलेल्या संचयीकातील व त्
 
 #: standardmailactionmanager.cpp:287
 #, kde-format
-msgid "Could not paste email: %1"
+msgid "Could not paste message: %1"
 msgstr ""
 
 #: standardmailactionmanager.cpp:291
@@ -477,7 +487,7 @@ msgstr ""
 msgid "Remove Important Mark"
 msgstr ""
 
-#: standardmailactionmanager.cpp:355 standardmailactionmanager.cpp:716
+#: standardmailactionmanager.cpp:355
 msgid "&Mark Mail as Important"
 msgstr ""
 
@@ -485,90 +495,160 @@ msgstr ""
 msgid "Remove Action Item Mark"
 msgstr ""
 
-#: standardmailactionmanager.cpp:366 standardmailactionmanager.cpp:725
+#: standardmailactionmanager.cpp:366
 msgid "&Mark Mail as Action Item"
 msgstr ""
 
 #: standardmailactionmanager.cpp:694
-msgid "&Mark Mail as Read"
+msgid "&Mark Message as Read"
 msgstr ""
 
 #: standardmailactionmanager.cpp:695
 msgid "Mark as Read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:696
+#: standardmailactionmanager.cpp:696 standardmailactionmanager.cpp:697
 msgid "Mark selected messages as read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:704
-msgid "&Mark Mail as Unread"
+#: standardmailactionmanager.cpp:706
+msgid "&Mark Message as Unread"
 msgstr ""
 
-#: standardmailactionmanager.cpp:705
+#: standardmailactionmanager.cpp:707
 msgid "Mark as Unread"
 msgstr ""
 
-#: standardmailactionmanager.cpp:717
+#: standardmailactionmanager.cpp:708 standardmailactionmanager.cpp:709
+msgid "Mark selected messages as unread"
+msgstr ""
+
+#: standardmailactionmanager.cpp:719
+msgid "&Mark Message as Important"
+msgstr ""
+
+#: standardmailactionmanager.cpp:720
 msgid "Mark as Important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:726
+#: standardmailactionmanager.cpp:721 standardmailactionmanager.cpp:722
+msgid "Mark selected messages as important"
+msgstr ""
+
+#: standardmailactionmanager.cpp:731
+msgid "&Mark Message as Action Item"
+msgstr ""
+
+#: standardmailactionmanager.cpp:732
 msgid "Mark as Action Item"
 msgstr ""
 
-#: standardmailactionmanager.cpp:736
-msgid "Mark &All Mails as Read"
+#: standardmailactionmanager.cpp:733 standardmailactionmanager.cpp:734
+msgid "Mark selected messages as action items"
 msgstr ""
 
-#: standardmailactionmanager.cpp:737
+#: standardmailactionmanager.cpp:743
+msgid "Mark &All Messages as Read"
+msgstr ""
+
+#: standardmailactionmanager.cpp:744
 msgid "Mark All as Read"
 msgstr ""
 
-#: standardmailactionmanager.cpp:745
-msgid "Mark &All Mails as Unread"
-msgstr ""
-
-#: standardmailactionmanager.cpp:746
-msgid "Mark All as Unread"
+#: standardmailactionmanager.cpp:745 standardmailactionmanager.cpp:746
+msgid "Mark all messages as read"
 msgstr ""
 
 #: standardmailactionmanager.cpp:755
-msgid "Mark &All Mails as Important"
+msgid "Mark &All Messages as Unread"
 msgstr ""
 
 #: standardmailactionmanager.cpp:756
+msgid "Mark All as Unread"
+msgstr ""
+
+#: standardmailactionmanager.cpp:757 standardmailactionmanager.cpp:758
+msgid "Mark all messages as unread"
+msgstr ""
+
+#: standardmailactionmanager.cpp:767
+msgid "Mark &All Messages as Important"
+msgstr ""
+
+#: standardmailactionmanager.cpp:768
 msgid "Mark All as Important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:765
-msgid "Mark &All Mails as Action Item"
+#: standardmailactionmanager.cpp:769 standardmailactionmanager.cpp:770
+msgid "Mark all messages as important"
 msgstr ""
 
-#: standardmailactionmanager.cpp:766
+#: standardmailactionmanager.cpp:778
 msgid "Mark All as Action Item"
 msgstr ""
 
-#: standardmailactionmanager.cpp:776
+#: standardmailactionmanager.cpp:779
+msgid "Mark &All Messages as Action Item"
+msgstr ""
+
+#: standardmailactionmanager.cpp:781 standardmailactionmanager.cpp:782
+msgid "Mark all messages as action items"
+msgstr ""
+
+#: standardmailactionmanager.cpp:791
 msgid "Move to &Trash"
 msgstr "कचरापेटीत टाका (&T)"
 
-#: standardmailactionmanager.cpp:778
-msgid "Move message to trashcan"
-msgstr "संदेश कचरापेटीत टाका"
+#: standardmailactionmanager.cpp:793 standardmailactionmanager.cpp:794
+#, fuzzy
+#| msgid "Cut the selected emails from the folder."
+msgid "Move selected messages to the trash folder"
+msgstr "निवडलेल्या इमेल्स संचयीकेतून कापा."
 
-#: standardmailactionmanager.cpp:786
+#: standardmailactionmanager.cpp:802
 msgid "Move All to &Trash"
 msgstr "सर्व कचरापेटीत टाका (&T)"
 
-#: standardmailactionmanager.cpp:793
-msgid "Remove &Duplicate Mails"
+#: standardmailactionmanager.cpp:803 standardmailactionmanager.cpp:804
+#, fuzzy
+#| msgid "Move message to trashcan"
+msgid "Move all messages to the trash folder"
+msgstr "संदेश कचरापेटीत टाका"
+
+#: standardmailactionmanager.cpp:811
+#, fuzzy
+#| msgid "Remove &Duplicate Mails"
+msgid "Remove &Duplicate Messages"
 msgstr "प्रतिकृती मेल्स काढून टाका (&D)"
 
-#: standardmailactionmanager.cpp:801
+#: standardmailactionmanager.cpp:812 standardmailactionmanager.cpp:813
+#, fuzzy
+#| msgid "Remove &Duplicate Mails"
+msgid "Remove duplicate messages"
+msgstr "प्रतिकृती मेल्स काढून टाका (&D)"
+
+#: standardmailactionmanager.cpp:821
 msgid "Empty All &Trash Folders"
 msgstr "सर्व कचरापेटी संचयीका रिकाम्या करा (&T)"
 
-#: standardmailactionmanager.cpp:808
+#: standardmailactionmanager.cpp:822 standardmailactionmanager.cpp:823
+msgid "Permanently delete all messages from all trash folders"
+msgstr ""
+
+#: standardmailactionmanager.cpp:830
 msgid "E&mpty Trash"
 msgstr "कचरापेटी रिकामी करा (&M)"
+
+#: standardmailactionmanager.cpp:831 standardmailactionmanager.cpp:832
+msgid "Permanently delete all messages from the the trash folder"
+msgstr ""
+
+#~ msgid "Copy Email"
+#~ msgid_plural "Copy %1 Emails"
+#~ msgstr[0] "इमेल प्रत करा"
+#~ msgstr[1] "%1 इमेल प्रत करा"
+
+#~ msgid "Cut Email"
+#~ msgid_plural "Cut %1 Emails"
+#~ msgstr[0] "इमेल कापा"
+#~ msgstr[1] "%1 इमेल कापा"
