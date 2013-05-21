@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nepomuk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-22 03:51+0100\n"
+"POT-Creation-Date: 2013-05-21 08:14+0000\n"
 "PO-Revision-Date: 2013-03-22 15:46+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -32,8 +32,8 @@ msgstr ""
 "chetan@kompkin.com"
 
 #: backup/gui/backupwizardpages.cpp:45 backup/gui/backupwizardpages.cpp:77
-#: backup/gui/backupwizardpages.cpp:254 backup/gui/backupwizardpages.cpp:310
-#: backup/gui/backupwizardpages.cpp:354
+#: backup/gui/backupwizardpages.cpp:251 backup/gui/backupwizardpages.cpp:307
+#: backup/gui/backupwizardpages.cpp:341
 msgid "Nepomuk Backup"
 msgstr "नेपोमुक बॅकअप"
 
@@ -77,17 +77,17 @@ msgstr "बॅकअप पुन्हस्थापित करत आहे
 msgid "The backup is being restored..."
 msgstr "बॅकअप पुन्हस्थापित करत आहे..."
 
-#: backup/gui/backupwizardpages.cpp:255
+#: backup/gui/backupwizardpages.cpp:252
 msgid "Please configure the Nepomuk backup"
 msgstr "कृपया नेपोमुक बॅकअप संयोजीत करा"
 
-#: backup/gui/backupwizardpages.cpp:311
+#: backup/gui/backupwizardpages.cpp:308
 msgid ""
 "The following files were not found. Please either discard them or find them "
 "manually"
 msgstr "पुढील फाईल्स सापडल्या नाहीत. कृपया त्यांना काढून टाका किंवा त्यांना स्वहस्ते शोधा"
 
-#: backup/gui/backupwizardpages.cpp:355
+#: backup/gui/backupwizardpages.cpp:342
 msgid "The Backup has been successfully restored"
 msgstr "बॅकअप यशस्वीरित्या पुन्हस्थापित झाला"
 
@@ -99,7 +99,7 @@ msgstr "सोडून द्या"
 msgid "Resolve"
 msgstr "समाधान करा"
 
-#: backup/gui/fileconflictwidget.cpp:140
+#: backup/gui/fileconflictwidget.cpp:147
 msgid "Find the url"
 msgstr "url शोधा"
 
@@ -115,19 +115,19 @@ msgstr "नेपोमुक बॅकअप साधन"
 msgid "(c) 2010, Nepomuk-KDE Team"
 msgstr "(c) 2010, नेपोमुक-केडीई समूह"
 
-#: backup/gui/main.cpp:47 storage.cpp:92
+#: backup/gui/main.cpp:47 migrator/main.cpp:46 storage.cpp:365
 msgid "Vishesh Handa"
 msgstr "विशेश हांडा"
 
-#: backup/gui/main.cpp:47 storage.cpp:92
+#: backup/gui/main.cpp:47 migrator/main.cpp:46 storage.cpp:365
 msgid "Maintainer"
 msgstr "नियंत्रक"
 
-#: backup/gui/main.cpp:48 storage.cpp:91
+#: backup/gui/main.cpp:48 storage.cpp:364
 msgid "Sebastian Trüg"
 msgstr "सेबेस्तियन सॉअर"
 
-#: backup/gui/main.cpp:48 storage.cpp:91
+#: backup/gui/main.cpp:48 storage.cpp:364
 msgid "Developer"
 msgstr "विकासकर्ता"
 
@@ -149,18 +149,78 @@ msgid ""
 "Nepomuk does not seem to be running. Backups cannot be handled without it."
 msgstr "नेपोमुक चालू असलेले वाटत नाही. त्याशिवाय बॅकअप हाताळता येणार नाही."
 
-#: modelcopyjob.cpp:127
-msgctxt "@title job"
-msgid "Converting Nepomuk database"
-msgstr "नेपोमुक डेटाबेसचे रूपांतरण करत आहे"
+#: migrator/main.cpp:39
+#, fuzzy
+#| msgid "Nepomuk Storage"
+msgid "NepomukMigrator"
+msgstr "निपोमुक संचयन"
 
-#: modelcopyjob.cpp:128
-msgid "Old backend"
-msgstr "जुने बॅकएन्ड"
+#: migrator/main.cpp:41
+#, fuzzy
+#| msgid "Nepomuk Configuration Module"
+msgid "Nepomuk Data Migration Tool"
+msgstr "Nepomuk संयोजना विभाग"
 
-#: modelcopyjob.cpp:129
-msgid "New backend"
-msgstr "नवीन बॅकएन्ड"
+#: migrator/main.cpp:43
+#, fuzzy
+#| msgid "(c) 2010, Nepomuk-KDE Team"
+msgid "(c) 2013, Nepomuk-KDE Team"
+msgstr "(c) 2010, नेपोमुक-केडीई समूह"
+
+#: migrator/main.cpp:51
+msgid "Opens the advanced menu for migration"
+msgstr ""
+
+#: migrator/main.cpp:65
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "Nepomuk does not seem to be running. Backups cannot be handled without it."
+msgctxt "@info"
+msgid ""
+"Nepomuk does not seem to be running. <br/>Cannot migrate the data without it"
+msgstr "नेपोमुक चालू असलेले वाटत नाही. त्याशिवाय बॅकअप हाताळता येणार नाही."
+
+#: migrator/systray.cpp:36 migrator/systray.cpp:37
+msgid "Optimizing search database"
+msgstr ""
+
+#: migrator/systray.cpp:55
+msgid "In Progress"
+msgstr ""
+
+#: migrator/systray.cpp:57
+#, kde-format
+msgid "Progress: %1%"
+msgstr ""
+
+#: migrator/wizard.cpp:75
+#, fuzzy
+#| msgid "Nepomuk Configuration Module"
+msgid "Nepomuk Data Migration"
+msgstr "Nepomuk संयोजना विभाग"
+
+#: migrator/wizard.cpp:80
+msgid ""
+"With this new release Nepomuk has migrated its internal data format. You "
+"have launched this wizard because you wish to migrate your data and not go "
+"with the recommended method of backup and restore. This migration can take "
+"several hours"
+msgstr ""
+
+#: migrator/wizard.cpp:107
+msgid "The internal data is being migrated"
+msgstr ""
+
+#: migrator/wizard.cpp:108
+msgid "This process could take a while"
+msgstr ""
+
+#: migrator/wizard.cpp:158
+#, fuzzy
+#| msgid "The Backup has been successfully restored"
+msgid "Data has been successfully migrated"
+msgstr "बॅकअप यशस्वीरित्या पुन्हस्थापित झाला"
 
 #: ontologyloader.cpp:142
 #, kde-format
@@ -196,44 +256,52 @@ msgstr ""
 "नेपोमुक सेमेंटिक डेस्कटॉप ला Virtuoso RDF सर्व्हर डेटा संचयनासाठी लागतो. नेपोमुक "
 "वापरण्याकरिता Virtuoso सर्व्हर व ODBC ड्राइव्हर प्रतिष्ठापीत करणे आवश्यक आहे."
 
-#: repository.cpp:264
-#, kde-format
-msgctxt "@info - notification message"
-msgid ""
-"Nepomuk was not able to find the configured database backend '%1'. Existing "
-"data can thus not be accessed. For data security reasons Nepomuk will be "
-"disabled until the situation has been resolved manually."
-msgstr ""
-"नेपोमुक ला संयोजीत डेटाबेस बॅकऐन्ड '%1' सापडले नाही. त्यामुळे अस्तित्वात असलेला डेटा कडे "
-"पोहोचु शकत नाही. सुरक्षा कारणांमुळे नेपोमुक अकार्यान्वित करण्यात येत आहे - जो पर्यंत ही "
-"परिस्थीती मानवीरित्या सोडवली जात नाही तो पर्यंत."
-
-#: repository.cpp:298
-msgctxt "@info - notification message"
-msgid "Converting Nepomuk data to a new backend. This might take a while."
-msgstr "नेपोमुक माहिती यांस नवीन बॅकएन्ड करिता रूपांतरीत करतो. यांस जरा वेळ लागू शकतो."
-
-#: repository.cpp:311
-msgctxt "@info - notification message"
-msgid ""
-"Converting Nepomuk data to the new backend failed. For data security reasons "
-"Nepomuk will be disabled until the situation has been resolved manually."
-msgstr ""
-"नेपोमुक माहितीचे नवीन बॅकऐन्ड करिता रूपांतरण अपयशी. सुरक्षा कारणांमुळे नेपोमुक अकार्यान्वित "
-"करण्यात येत आहे - जो पर्यंत ही परिस्थीती मानवीरित्या सोडवली जात नाही तो पर्यंत."
-
-#: repository.cpp:325
-msgctxt "@info - notification message"
-msgid "Successfully converted Nepomuk data to the new backend."
-msgstr "नेपोमुक माहितीला नवीन बॅकएन्ड करिता यशस्वीरूपी रूपांतरीत केले."
-
-#: storage.cpp:84 storage.cpp:86
+#: storage.cpp:357 storage.cpp:359
 msgid "Nepomuk Storage"
 msgstr "निपोमुक संचयन"
 
-#: storage.cpp:88
+#: storage.cpp:361
 msgid "(c) 2008-2013, Sebastian Trüg"
 msgstr "(c) 2008-2013, सेबास्टिअन ट्र्युग"
+
+#~ msgctxt "@title job"
+#~ msgid "Converting Nepomuk database"
+#~ msgstr "नेपोमुक डेटाबेसचे रूपांतरण करत आहे"
+
+#~ msgid "Old backend"
+#~ msgstr "जुने बॅकएन्ड"
+
+#~ msgid "New backend"
+#~ msgstr "नवीन बॅकएन्ड"
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Nepomuk was not able to find the configured database backend '%1'. "
+#~ "Existing data can thus not be accessed. For data security reasons Nepomuk "
+#~ "will be disabled until the situation has been resolved manually."
+#~ msgstr ""
+#~ "नेपोमुक ला संयोजीत डेटाबेस बॅकऐन्ड '%1' सापडले नाही. त्यामुळे अस्तित्वात असलेला डेटा कडे "
+#~ "पोहोचु शकत नाही. सुरक्षा कारणांमुळे नेपोमुक अकार्यान्वित करण्यात येत आहे - जो पर्यंत ही "
+#~ "परिस्थीती मानवीरित्या सोडवली जात नाही तो पर्यंत."
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Converting Nepomuk data to a new backend. This might take a while."
+#~ msgstr ""
+#~ "नेपोमुक माहिती यांस नवीन बॅकएन्ड करिता रूपांतरीत करतो. यांस जरा वेळ लागू शकतो."
+
+#~ msgctxt "@info - notification message"
+#~ msgid ""
+#~ "Converting Nepomuk data to the new backend failed. For data security "
+#~ "reasons Nepomuk will be disabled until the situation has been resolved "
+#~ "manually."
+#~ msgstr ""
+#~ "नेपोमुक माहितीचे नवीन बॅकऐन्ड करिता रूपांतरण अपयशी. सुरक्षा कारणांमुळे नेपोमुक "
+#~ "अकार्यान्वित करण्यात येत आहे - जो पर्यंत ही परिस्थीती मानवीरित्या सोडवली जात नाही "
+#~ "तो पर्यंत."
+
+#~ msgctxt "@info - notification message"
+#~ msgid "Successfully converted Nepomuk data to the new backend."
+#~ msgstr "नेपोमुक माहितीला नवीन बॅकएन्ड करिता यशस्वीरूपी रूपांतरीत केले."
 
 #, fuzzy
 #~| msgid "File indexer is suspended"
@@ -294,9 +362,6 @@ msgstr "(c) 2008-2013, सेबास्टिअन ट्र्युग"
 
 #~ msgid "Nepomuk Server - Manages Nepomuk storage and services"
 #~ msgstr "Nepomuk सर्वर - Nepomuk संचयन व सेवाचे व्यवस्थापन करतो"
-
-#~ msgid "Nepomuk Configuration Module"
-#~ msgstr "Nepomuk संयोजना विभाग"
 
 #, fuzzy
 #~| msgid "Copyright 2007 Sebastian Trüg"
