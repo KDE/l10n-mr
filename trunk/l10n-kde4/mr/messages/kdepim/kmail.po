@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-20 03:43+0200\n"
+"POT-Creation-Date: 2013-05-23 01:32+0000\n"
 "PO-Revision-Date: 2013-04-15 11:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -4718,7 +4718,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "उत्तर द्या (&R)"
 
-#: messageactions.cpp:83 searchwindow.cpp:297
+#: messageactions.cpp:83 searchwindow.cpp:236
 msgid "&Reply..."
 msgstr "उत्तर द्या (&R)..."
 
@@ -4726,11 +4726,11 @@ msgstr "उत्तर द्या (&R)..."
 msgid "Reply to A&uthor..."
 msgstr "लेखकाला उत्तर द्या (&U)"
 
-#: messageactions.cpp:97 searchwindow.cpp:301
+#: messageactions.cpp:97 searchwindow.cpp:240
 msgid "Reply to &All..."
 msgstr "सर्वाना उत्तर द्या (&A)"
 
-#: messageactions.cpp:104 searchwindow.cpp:305
+#: messageactions.cpp:104 searchwindow.cpp:244
 msgid "Reply to Mailing-&List..."
 msgstr "मेलिंग यादीला उत्तर द्या (&L)"
 
@@ -4778,7 +4778,7 @@ msgstr "संदेश संपादित करा (&E)"
 msgid "Add Note..."
 msgstr "सूचना/नोंद वाढवा..."
 
-#: messageactions.cpp:168 searchwindow.cpp:309
+#: messageactions.cpp:168 searchwindow.cpp:248
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "पुढे (&F)"
@@ -4891,74 +4891,50 @@ msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "शोध (&S)"
 
-#: searchwindow.cpp:111
-msgid "Search in &all folders"
-msgstr "सर्व संचयीकांत शोधा (&A)"
-
-#: searchwindow.cpp:115
-msgid "Search &only in:"
-msgstr "फक्त यात शोधा (&O):"
-
-#: searchwindow.cpp:122
-msgid "I&nclude sub-folders"
-msgstr "उपसंचयीकांचा अंतर्भाव करा (&N)"
-
-#: searchwindow.cpp:218
-msgid "Search folder &name:"
-msgstr "संचयीकेचे नाव शोधा (&N):"
-
-#: searchwindow.cpp:228 searchwindow.cpp:456
+#: searchwindow.cpp:188 searchwindow.cpp:395
 msgid "Last Search"
 msgstr "शेवटचा शोध"
 
-#: searchwindow.cpp:238
-msgid "Op&en Search Folder"
-msgstr "शोध संचयीका उघडा (&E)"
-
-#: searchwindow.cpp:247
-msgid "Open &Message"
-msgstr "संदेश उघडा (&M)"
-
-#: searchwindow.cpp:258
+#: searchwindow.cpp:207
 msgid "AMiddleLengthText..."
 msgstr "मध्यम लांबीचा मजकूर..."
 
-#: searchwindow.cpp:259
+#: searchwindow.cpp:208
 msgctxt "@info:status finished searching."
 msgid "Ready."
 msgstr "तयार."
 
-#: searchwindow.cpp:314
+#: searchwindow.cpp:253
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "इनलाइन (&I)..."
 
-#: searchwindow.cpp:319
+#: searchwindow.cpp:258
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "अटॅचमेंट प्रमाणे (&A)..."
 
-#: searchwindow.cpp:333
+#: searchwindow.cpp:272
 msgid "Save Attachments..."
 msgstr "अटॅचमेंट साठवा..."
 
-#: searchwindow.cpp:339
+#: searchwindow.cpp:278
 msgid "Clear Selection"
 msgstr "निवड काढून टाका"
 
-#: searchwindow.cpp:423
+#: searchwindow.cpp:362
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1 जुळवणी"
 msgstr[1] "%1 जुळवण्या"
 
-#: searchwindow.cpp:524
+#: searchwindow.cpp:463
 #, kde-format
 msgid "Can not get search result. %1"
 msgstr "परिणाम निश्कर्ष शोधू शकत नाही. %1"
 
-#: searchwindow.cpp:639
+#: searchwindow.cpp:578
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
 "that another search folder with the same name already exists."
@@ -4966,14 +4942,14 @@ msgstr ""
 "तुमच्या संचयीकेला दुसरे नाव देण्यात अडचणी होत्या. याचे नेहमीचे कारण म्हणजे याच नावाची दुसरी "
 "शोध संचयीका अस्तित्वात आहे."
 
-#: searchwindow.cpp:746
+#: searchwindow.cpp:685
 #, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "संदेशाची प्रत करा"
 msgstr[1] "%1 संदेशांची प्रत करा"
 
-#: searchwindow.cpp:749
+#: searchwindow.cpp:688
 #, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -5497,6 +5473,40 @@ msgstr "अनुप्रयोगातून बाहेर पडतान�
 #: ui/miscpagemaintab.ui:187
 msgid "Print only selected text"
 msgstr "फक्त निवडलेला मजकूर छापा"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mChkbxAllFolders)
+#: ui/searchwindow.ui:17
+msgid "Search in &all folders"
+msgstr "सर्व संचयीकांत शोधा (&A)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mChkbxSpecificFolders)
+#: ui/searchwindow.ui:26
+msgid "Search &only in:"
+msgstr "फक्त यात शोधा (&O):"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mChkSubFolders)
+#: ui/searchwindow.ui:39
+#, fuzzy
+#| msgid "I&nclude sub-folders"
+msgid "&Include sub-folders"
+msgstr "उपसंचयीकांचा अंतर्भाव करा (&N)"
+
+#. i18n: ectx: property (text), widget (QLabel, mSearchFolderLbl)
+#: ui/searchwindow.ui:93
+msgid "Search folder &name:"
+msgstr "संचयीकेचे नाव शोधा (&N):"
+
+#. i18n: ectx: property (text), widget (KPushButton, mSearchFolderOpenBtn)
+#: ui/searchwindow.ui:113
+#, fuzzy
+#| msgid "Op&en Search Folder"
+msgid "Open &Search Folder"
+msgstr "शोध संचयीका उघडा (&E)"
+
+#. i18n: ectx: property (text), widget (KPushButton, mSearchResultOpenBtn)
+#: ui/searchwindow.ui:123
+msgid "Open &Message"
+msgstr "संदेश उघडा (&M)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/securitypagegeneraltab.ui:17

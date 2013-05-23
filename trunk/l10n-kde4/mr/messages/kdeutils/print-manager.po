@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-22 01:34+0000\n"
+"POT-Creation-Date: 2013-05-23 01:33+0000\n"
 "PO-Revision-Date: 2013-03-15 15:30+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -288,7 +288,7 @@ msgid "Tool for adding new printers"
 msgstr "नवीन छपाईयंत्र जोडण्याकरिताचे साधन"
 
 #: add-printer/main.cpp:38 configure-printer/main.cpp:38
-#: printer-manager-kcm/PrintKCM.cpp:62 printqueue/main.cpp:38
+#: printer-manager-kcm/PrintKCM.cpp:61 printqueue/main.cpp:38
 #, fuzzy
 #| msgid "(C) 2010-2012 Daniel Nicoletti"
 msgid "(C) 2010-2013 Daniel Nicoletti"
@@ -300,18 +300,30 @@ msgid "Daniel Nicoletti"
 msgstr "डेनियल निलोलेट्टी"
 
 #: add-printer/main.cpp:44
+msgid "Parent Window ID"
+msgstr ""
+
+#: add-printer/main.cpp:45
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Add a New Printer"
 msgid "Add a new printer"
 msgstr "नवीन छपाईयंत्र जोडा"
 
-#: add-printer/main.cpp:45
+#: add-printer/main.cpp:46
 #, fuzzy
 #| msgctxt "@action:intoolbar"
 #| msgid "Add a Printer Class"
 msgid "Add a new printer class"
 msgstr "नवीन छपाईयंत्र वर्ग जोडा"
+
+#: add-printer/main.cpp:47
+msgid "Changes the PPD of a given printer"
+msgstr ""
+
+#: add-printer/main.cpp:48
+msgid "Changes the PPD of a given printer/deviceid"
+msgstr ""
 
 #: add-printer/PageAddPrinter.cpp:141
 #, kde-format
@@ -490,8 +502,8 @@ msgstr "छपाईयंत्र बदला"
 #. i18n: ectx: property (text), widget (KPushButton, configurePB)
 #. i18n: ectx: property (text), widget (QPushButton, configurePrinterPB)
 #: configure-printer/ConfigureDialog.cpp:100
-#: print-manager-kded/NewPrinterNotification.cpp:168
-#: print-manager-kded/NewPrinterNotification.cpp:177
+#: print-manager-kded/NewPrinterNotification.cpp:169
+#: print-manager-kded/NewPrinterNotification.cpp:178
 #: printer-manager-kcm/PrinterDescription.ui:198
 #: printqueue/PrintQueueUi.ui:131
 msgid "Configure"
@@ -544,7 +556,7 @@ msgid "Failed to configure printer"
 msgstr "छपाईयंत्र संयोजीत करण्यास अपयशी"
 
 #: configure-printer/ModifyPrinter.cpp:290
-#: printer-manager-kcm/PrintKCM.cpp:343
+#: printer-manager-kcm/PrintKCM.cpp:334
 msgctxt "@title:window"
 msgid "Failed"
 msgstr "अपयशी"
@@ -820,23 +832,23 @@ msgstr ""
 msgid "Wrong username or password"
 msgstr "अयोग्य वापरकर्ता किंवा गुप्तशब्द"
 
-#: libkcups/KCupsRequest.cpp:50
+#: libkcups/KCupsRequest.cpp:51
 msgid "Service is unavailable"
 msgstr "सेवा अनुपलब्ध आहे"
 
-#: libkcups/KCupsRequest.cpp:52
+#: libkcups/KCupsRequest.cpp:53
 msgid "Not found"
 msgstr "सापडले नाही"
 
-#: libkcups/KCupsRequest.cpp:423
+#: libkcups/KCupsRequest.cpp:429
 msgid "Test Page"
 msgstr "चाचणी पान"
 
-#: libkcups/KCupsRequest.cpp:477
+#: libkcups/KCupsRequest.cpp:461
 msgid "Unable to send command to printer driver!"
 msgstr ""
 
-#: libkcups/KCupsRequest.cpp:599
+#: libkcups/KCupsRequest.cpp:583
 #, kde-format
 msgid "Failed to invoke method: %1"
 msgstr ""
@@ -933,65 +945,65 @@ msgstr "यादीतून ड्राइव्हर निवडा"
 msgid "Manually Provide a PPD File:"
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:70
+#: print-manager-kded/NewPrinterNotification.cpp:71
 msgid "A New Printer was detected"
 msgstr "नवीन छपाईयंत्र सापडले"
 
-#: print-manager-kded/NewPrinterNotification.cpp:71
+#: print-manager-kded/NewPrinterNotification.cpp:72
 msgid "Configuring new printer..."
 msgstr "नवीन छपाईयंत्र संयोजीत करा..."
 
-#: print-manager-kded/NewPrinterNotification.cpp:108
+#: print-manager-kded/NewPrinterNotification.cpp:109
 msgid "Missing printer driver"
 msgstr "छपाईयंत्र ड्राइव्हर आढळला नाही"
 
-#: print-manager-kded/NewPrinterNotification.cpp:110
+#: print-manager-kded/NewPrinterNotification.cpp:111
 #, kde-format
 msgid "No printer driver for %1 %2."
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:112
+#: print-manager-kded/NewPrinterNotification.cpp:113
 #, kde-format
 msgid "No printer driver for %1."
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:114
+#: print-manager-kded/NewPrinterNotification.cpp:115
 msgid "No driver for this printer."
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:117
+#: print-manager-kded/NewPrinterNotification.cpp:118
 msgid "Search"
 msgstr "शोधा"
 
-#: print-manager-kded/NewPrinterNotification.cpp:124
+#: print-manager-kded/NewPrinterNotification.cpp:125
 msgid "The New Printer was Added"
 msgstr "नवीन छपाईयंत्र जोडले"
 
-#: print-manager-kded/NewPrinterNotification.cpp:126
+#: print-manager-kded/NewPrinterNotification.cpp:127
 msgid "The New Printer is Missing Drivers"
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:165
+#: print-manager-kded/NewPrinterNotification.cpp:166
 #, kde-format
 msgid "'%1' is ready for printing."
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:166
-#: print-manager-kded/NewPrinterNotification.cpp:181
+#: print-manager-kded/NewPrinterNotification.cpp:167
+#: print-manager-kded/NewPrinterNotification.cpp:182
 msgid "Print test page"
 msgstr "चाचणी पान छापा"
 
-#: print-manager-kded/NewPrinterNotification.cpp:176
+#: print-manager-kded/NewPrinterNotification.cpp:177
 #, kde-format
 msgid "'%1' has been added, please check its driver."
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:180
+#: print-manager-kded/NewPrinterNotification.cpp:181
 #, kde-format
 msgid "'%1' has been added, using the '%2' driver."
 msgstr ""
 
-#: print-manager-kded/NewPrinterNotification.cpp:183
+#: print-manager-kded/NewPrinterNotification.cpp:184
 msgid "Find driver"
 msgstr "ड्राइव्हर शोधा"
 
@@ -1071,81 +1083,81 @@ msgstr "चाचणी पान छापा"
 msgid "Print Self Test Page"
 msgstr "स्व-चाचणी पान छापा"
 
-#: printer-manager-kcm/PrintKCM.cpp:58 printer-manager-kcm/PrintKCM.cpp:60
+#: printer-manager-kcm/PrintKCM.cpp:57 printer-manager-kcm/PrintKCM.cpp:59
 msgid "Print settings"
 msgstr "छपाई संयोजना"
 
-#: printer-manager-kcm/PrintKCM.cpp:73
+#: printer-manager-kcm/PrintKCM.cpp:72
 msgctxt "@action:intoolbar"
 msgid "Add a Printer Class"
 msgstr "नवीन छपाईयंत्र वर्ग जोडा"
 
-#: printer-manager-kcm/PrintKCM.cpp:76
+#: printer-manager-kcm/PrintKCM.cpp:75
 msgid "Add a new printer or a printer class"
 msgstr "नवीन छपाईयंत्र किंवा छपाईयंत्र वर्ग जोडा"
 
 #. i18n: ectx: property (text), widget (QToolButton, removeTB)
-#: printer-manager-kcm/PrintKCM.cpp:80 printer-manager-kcm/PrintKCM.ui:32
+#: printer-manager-kcm/PrintKCM.cpp:79 printer-manager-kcm/PrintKCM.ui:32
 msgid "Remove Printer"
 msgstr "छपाईयंत्र काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:86
+#: printer-manager-kcm/PrintKCM.cpp:85
 msgctxt "@action:intoolbar"
 msgid "Show printers shared by other systems"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:90
+#: printer-manager-kcm/PrintKCM.cpp:89
 msgctxt "@action:intoolbar"
 msgid "Share printers connected to this system"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:92
+#: printer-manager-kcm/PrintKCM.cpp:91
 msgctxt "@action:intoolbar"
 msgid "Allow printing from the Internet"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:98
+#: printer-manager-kcm/PrintKCM.cpp:97
 msgctxt "@action:intoolbar"
 msgid "Allow remote administration"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:100
+#: printer-manager-kcm/PrintKCM.cpp:99
 msgctxt "@action:intoolbar"
 msgid "Allow users to cancel any job (not just their own)"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:104
+#: printer-manager-kcm/PrintKCM.cpp:103
 msgid "Configure the global preferences"
 msgstr "जागतिक प्राधान्ये संयोजीत करा"
 
-#: printer-manager-kcm/PrintKCM.cpp:154 printer-manager-kcm/PrintKCM.cpp:253
+#: printer-manager-kcm/PrintKCM.cpp:153 printer-manager-kcm/PrintKCM.cpp:252
 msgid "No printers have been configured or discovered"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:294
+#: printer-manager-kcm/PrintKCM.cpp:285
 msgid "Remove class"
 msgstr "वर्ग काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:295
+#: printer-manager-kcm/PrintKCM.cpp:286
 #, kde-format
 msgid "Are you sure you want to remove the class '%1'?"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:298
+#: printer-manager-kcm/PrintKCM.cpp:289
 msgid "Remove printer"
 msgstr "छपाईयंत्र काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:299
+#: printer-manager-kcm/PrintKCM.cpp:290
 #, kde-format
 msgid "Are you sure you want to remove the printer '%1'?"
 msgstr "तुम्हाला नक्की \"%1\" हे छपाईयंत्र काढून टाकायचे आहे का?"
 
-#: printer-manager-kcm/PrintKCM.cpp:341
+#: printer-manager-kcm/PrintKCM.cpp:332
 msgctxt "@info"
 msgid "Failed to get server settings"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:372
+#: printer-manager-kcm/PrintKCM.cpp:363
 msgctxt "@info"
 msgid "Failed to configure server settings"
 msgstr ""
