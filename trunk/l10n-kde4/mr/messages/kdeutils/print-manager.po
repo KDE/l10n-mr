@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-24 01:35+0000\n"
+"POT-Creation-Date: 2013-05-25 01:47+0000\n"
 "PO-Revision-Date: 2013-03-15 15:30+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -556,7 +556,7 @@ msgid "Failed to configure printer"
 msgstr "छपाईयंत्र संयोजीत करण्यास अपयशी"
 
 #: configure-printer/ModifyPrinter.cpp:290
-#: printer-manager-kcm/PrintKCM.cpp:334
+#: printer-manager-kcm/PrintKCM.cpp:336
 msgctxt "@title:window"
 msgid "Failed"
 msgstr "अपयशी"
@@ -840,15 +840,15 @@ msgstr "सेवा अनुपलब्ध आहे"
 msgid "Not found"
 msgstr "सापडले नाही"
 
-#: libkcups/KCupsRequest.cpp:429
+#: libkcups/KCupsRequest.cpp:422
 msgid "Test Page"
 msgstr "चाचणी पान"
 
-#: libkcups/KCupsRequest.cpp:461
+#: libkcups/KCupsRequest.cpp:454
 msgid "Unable to send command to printer driver!"
 msgstr ""
 
-#: libkcups/KCupsRequest.cpp:583
+#: libkcups/KCupsRequest.cpp:576
 #, kde-format
 msgid "Failed to invoke method: %1"
 msgstr ""
@@ -1007,25 +1007,31 @@ msgstr ""
 msgid "Find driver"
 msgstr "ड्राइव्हर शोधा"
 
-#: printer-manager-kcm/PrinterDescription.cpp:145
+#: printer-manager-kcm/PrinterDescription.cpp:134
 msgid "Share this class"
 msgstr ""
 
-#: printer-manager-kcm/PrinterDescription.cpp:145
+#: printer-manager-kcm/PrinterDescription.cpp:134
 msgid "Share this printer"
 msgstr "हे छपाईयंत्र शेअर करा"
 
-#. i18n: ectx: property (text), item, widget (QLabel, nameMsgL)
-#: printer-manager-kcm/PrinterDescription.cpp:264
-#: printer-manager-kcm/PrinterDescription.ui:290
+#. i18n: ectx: property (text), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.cpp:255
+#: printer-manager-kcm/PrinterDescription.ui:293
 msgid "Clean Print Heads"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), item, widget (QLabel, nameMsgL)
-#: printer-manager-kcm/PrinterDescription.cpp:275
-#: printer-manager-kcm/PrinterDescription.ui:298
+#. i18n: ectx: property (toolTip), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.cpp:264
+#: printer-manager-kcm/PrinterDescription.ui:301
 msgid "Print Self-Test Page"
 msgstr "स्व-चाचणी पान छापा"
+
+#: printer-manager-kcm/PrinterDescription.cpp:271
+#, fuzzy, kde-format
+#| msgid "Failed to release '%1'"
+msgid "Failed to perform request: %1"
+msgstr "'%1' हे सोडण्यास अपयश"
 
 #. i18n: ectx: property (text), widget (QLabel, printerNameL)
 #: printer-manager-kcm/PrinterDescription.ui:83
@@ -1073,13 +1079,13 @@ msgctxt "@action:button"
 msgid "Open Print Queue"
 msgstr "छपाई रांग उघडा"
 
-#. i18n: ectx: property (text), item, widget (QLabel, nameMsgL)
-#: printer-manager-kcm/PrinterDescription.ui:285
+#. i18n: ectx: property (text), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.ui:288
 msgid "Print Test Page"
 msgstr "चाचणी पान छापा"
 
-#. i18n: ectx: property (text), item, widget (QLabel, nameMsgL)
-#: printer-manager-kcm/PrinterDescription.ui:295
+#. i18n: ectx: property (text), widget (KMessageWidget, errorMessage)
+#: printer-manager-kcm/PrinterDescription.ui:298
 msgid "Print Self Test Page"
 msgstr "स्व-चाचणी पान छापा"
 
@@ -1087,77 +1093,77 @@ msgstr "स्व-चाचणी पान छापा"
 msgid "Print settings"
 msgstr "छपाई संयोजना"
 
-#: printer-manager-kcm/PrintKCM.cpp:72
+#: printer-manager-kcm/PrintKCM.cpp:74
 msgctxt "@action:intoolbar"
 msgid "Add a Printer Class"
 msgstr "नवीन छपाईयंत्र वर्ग जोडा"
 
-#: printer-manager-kcm/PrintKCM.cpp:75
+#: printer-manager-kcm/PrintKCM.cpp:77
 msgid "Add a new printer or a printer class"
 msgstr "नवीन छपाईयंत्र किंवा छपाईयंत्र वर्ग जोडा"
 
 #. i18n: ectx: property (text), widget (QToolButton, removeTB)
-#: printer-manager-kcm/PrintKCM.cpp:79 printer-manager-kcm/PrintKCM.ui:32
+#: printer-manager-kcm/PrintKCM.cpp:81 printer-manager-kcm/PrintKCM.ui:32
 msgid "Remove Printer"
 msgstr "छपाईयंत्र काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:85
+#: printer-manager-kcm/PrintKCM.cpp:87
 msgctxt "@action:intoolbar"
 msgid "Show printers shared by other systems"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:89
+#: printer-manager-kcm/PrintKCM.cpp:91
 msgctxt "@action:intoolbar"
 msgid "Share printers connected to this system"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:91
+#: printer-manager-kcm/PrintKCM.cpp:93
 msgctxt "@action:intoolbar"
 msgid "Allow printing from the Internet"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:97
+#: printer-manager-kcm/PrintKCM.cpp:99
 msgctxt "@action:intoolbar"
 msgid "Allow remote administration"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:99
+#: printer-manager-kcm/PrintKCM.cpp:101
 msgctxt "@action:intoolbar"
 msgid "Allow users to cancel any job (not just their own)"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:103
+#: printer-manager-kcm/PrintKCM.cpp:105
 msgid "Configure the global preferences"
 msgstr "जागतिक प्राधान्ये संयोजीत करा"
 
-#: printer-manager-kcm/PrintKCM.cpp:153 printer-manager-kcm/PrintKCM.cpp:252
+#: printer-manager-kcm/PrintKCM.cpp:155 printer-manager-kcm/PrintKCM.cpp:254
 msgid "No printers have been configured or discovered"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:285
+#: printer-manager-kcm/PrintKCM.cpp:287
 msgid "Remove class"
 msgstr "वर्ग काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:286
+#: printer-manager-kcm/PrintKCM.cpp:288
 #, kde-format
 msgid "Are you sure you want to remove the class '%1'?"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:289
+#: printer-manager-kcm/PrintKCM.cpp:291
 msgid "Remove printer"
 msgstr "छपाईयंत्र काढून टाका"
 
-#: printer-manager-kcm/PrintKCM.cpp:290
+#: printer-manager-kcm/PrintKCM.cpp:292
 #, kde-format
 msgid "Are you sure you want to remove the printer '%1'?"
 msgstr "तुम्हाला नक्की \"%1\" हे छपाईयंत्र काढून टाकायचे आहे का?"
 
-#: printer-manager-kcm/PrintKCM.cpp:332
+#: printer-manager-kcm/PrintKCM.cpp:334
 msgctxt "@info"
 msgid "Failed to get server settings"
 msgstr ""
 
-#: printer-manager-kcm/PrintKCM.cpp:363
+#: printer-manager-kcm/PrintKCM.cpp:365
 msgctxt "@info"
 msgid "Failed to configure server settings"
 msgstr ""
