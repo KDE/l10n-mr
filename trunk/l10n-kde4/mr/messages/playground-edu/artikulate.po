@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-19 04:05+0200\n"
+"POT-Creation-Date: 2013-05-26 01:40+0000\n"
 "PO-Revision-Date: 2013-03-18 17:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -91,6 +91,21 @@ msgstr ""
 msgid "Path to local contributor repository"
 msgstr ""
 
+#. i18n: ectx: label, entry (AudioInputDevice), group (artikulate)
+#: src/artikulate.kcfg:17
+msgid "Name of audio input device"
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioInputVolume), group (artikulate)
+#: src/artikulate.kcfg:20
+msgid "Audio input volume"
+msgstr ""
+
+#. i18n: ectx: label, entry (AudioOutputVolume), group (artikulate)
+#: src/artikulate.kcfg:24
+msgid "Audio output volume"
+msgstr ""
+
 #: src/core/course.cpp:184
 msgid "New Unit"
 msgstr ""
@@ -115,12 +130,34 @@ msgstr ""
 msgid "Original Author"
 msgstr "मूळ लेखक"
 
-#: src/mainwindow.cpp:73 src/qml/Editor.qml:229
+#: src/mainwindow.cpp:75 src/qml/Editor.qml:229
 msgid "Course Editor"
 msgstr ""
 
-#: src/mainwindow.cpp:78
+#: src/mainwindow.cpp:80
 msgid "Settings"
+msgstr ""
+
+#: src/mainwindow.cpp:145
+msgctxt "@item:inmenu"
+msgid "Sound Devices"
+msgstr ""
+
+#: src/mainwindow.cpp:145
+msgctxt "@title:tab"
+msgid "Sound Device Settings"
+msgstr ""
+
+#: src/mainwindow.cpp:146
+#, fuzzy
+#| msgid "Close Course"
+msgctxt "@item:inmenu"
+msgid "Course Resources"
+msgstr "कोर्स बंद करा"
+
+#: src/mainwindow.cpp:146
+msgctxt "@title:tab"
+msgid "Resource Repository Settings"
 msgstr ""
 
 #: src/models/coursemodel.cpp:112 src/models/languagemodel.cpp:96
@@ -375,37 +412,84 @@ msgstr "वर्णन :"
 msgid "Use Skeleton"
 msgstr ""
 
-#: src/ui/resourcesdialog.cpp:35
-#, fuzzy
-#| msgid "Close Course"
-msgid "Course Resources"
-msgstr "कोर्स बंद करा"
-
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/resourcesdialog.ui:47
+#: src/ui/resourcesdialogpage.ui:47
 msgid ""
 "This dialog enables pronunciation course contributors to disable the use of "
 "installed courses and switch to a working repository."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioRepository)
-#: src/ui/resourcesdialog.ui:60
-msgid "Use contributor repository"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KUrlRequester, repositoryUrl)
-#: src/ui/resourcesdialog.ui:73
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_CourseRepositoryPath)
+#: src/ui/resourcesdialogpage.ui:66
 msgid "Path to the contributor repository."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioIntalledCourses)
-#: src/ui/resourcesdialog.ui:89
-msgid "Use installed courses"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseCourseRepository)
+#: src/ui/resourcesdialogpage.ui:76
+msgid ""
+"Use this option only if you are a course contributor and you are working on "
+"a course repository."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseCourseRepository)
+#: src/ui/resourcesdialogpage.ui:79
+msgid "Use contributor repository"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, restartInfo)
-#: src/ui/resourcesdialog.ui:121
+#: src/ui/resourcesdialogpage.ui:101
 msgid "This change will only take effect after restarting the application."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, boxSpeakers)
+#: src/ui/sounddevicedialogpage.ui:23
+msgid "Speakers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelOutputVolume)
+#. i18n: ectx: property (text), widget (QLabel, labelVolume)
+#: src/ui/sounddevicedialogpage.ui:35 src/ui/sounddevicedialogpage.ui:117
+msgid "Volume"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, boxMicrophone)
+#: src/ui/sounddevicedialogpage.ui:67
+msgid "Microphone"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInputDevice)
+#: src/ui/sounddevicedialogpage.ui:136
+msgid "Input Device"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelPlayTestSound)
+#: src/ui/sounddevicedialogpage.ui:162
+msgid "Play Test Sound"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonPlayTestSound)
+#: src/ui/sounddevicedialogpage.ui:169
+msgid "Play test sound."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelRecordTestSound)
+#: src/ui/sounddevicedialogpage.ui:179
+msgid "Record Test Sound"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonPlayRecordedTestSound)
+#: src/ui/sounddevicedialogpage.ui:186
+msgid "Play recorded test sound."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonRecordTestSound)
+#: src/ui/sounddevicedialogpage.ui:196
+msgid "Record test sound."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelTestSoundSettings)
+#: src/ui/sounddevicedialogpage.ui:218
+msgid "Test Sound Settings"
 msgstr ""
 
 #~ msgid "Type:"
