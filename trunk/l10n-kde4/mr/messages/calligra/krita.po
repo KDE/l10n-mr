@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:41+0000\n"
+"POT-Creation-Date: 2013-06-01 01:24+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1063,11 +1063,11 @@ msgstr "प्रक्षेपणाच्या रंगाची जाग�
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
-#: image/kis_image.cc:974
+#: image/kis_image.cc:975
 msgid "Merge with Layer Below"
 msgstr "खालच्या स्तरात मिसळा"
 
-#: image/kis_image.cc:1020
+#: image/kis_image.cc:1021
 msgid "Flatten Layer"
 msgstr "स्तर सपाट करा"
 
@@ -1831,7 +1831,7 @@ msgstr "स्तर 1"
 #: plugins/extensions/compose/wdg_compose.ui:140
 #: plugins/extensions/compose/wdg_compose.ui:176
 #: plugins/extensions/compose/wdg_compose.ui:248
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:124
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:144
 msgid "Blue"
 msgstr "निळा"
 
@@ -1859,7 +1859,7 @@ msgstr "निळा :"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_9)
 #. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
 #: plugins/extensions/compose/wdg_compose.ui:212
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:119
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:139
 msgid "Green"
 msgstr "हिरवा"
 
@@ -4391,7 +4391,7 @@ msgstr "अष्टकोन (8)"
 #: plugins/filters/blur/wdg_lens_blur.ui:73
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:130
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:249
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:31
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:88
 msgid "Radius"
 msgstr "त्रिज्या"
 
@@ -4479,7 +4479,7 @@ msgstr "माध्यम कमी करा"
 #: plugins/filters/colors/wdgcolortoalphabase.ui:61
 #: plugins/filters/unsharp/wdgunsharp.ui:68
 #: plugins/paintops/libpaintop/kis_pressure_sharpness_option_widget.cpp:37
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:57
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:121
 msgid "Threshold:"
 msgstr "मर्यादा :"
 
@@ -8348,14 +8348,14 @@ msgid "Move layer with content"
 msgstr "आशयासह स्तर हलवा"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, radioGroup)
-#: plugins/tools/defaulttools/wdgmovetool.ui:62
+#: plugins/tools/defaulttools/wdgmovetool.ui:49
 msgid ""
 "Move the group containing the first layer that contains visible content. "
 "Shortcut: ctrl-shift-click."
 msgstr "दृश्य आशयासह असलेला पहिला स्तर असलेला समूह हलवा. Shortcut: ctrl-shift-click."
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioGroup)
-#: plugins/tools/defaulttools/wdgmovetool.ui:65
+#: plugins/tools/defaulttools/wdgmovetool.ui:52
 msgid "Move the whole group"
 msgstr "संपूर्ण समूह हलवा"
 
@@ -8410,39 +8410,39 @@ msgid "Magnetic selection tool"
 msgstr "चुंबकीय निवड साधन"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:80
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:44
 msgid "Start Search From"
 msgstr "पासून शोध सुरू करा"
 
-#. i18n: ectx: property (text), widget (QRadioButton, m_searchFromLeft)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:87
-msgid "Left"
-msgstr "डावा"
-
-#. i18n: ectx: property (text), widget (QRadioButton, m_searchFromRight)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:94
-msgid "Right"
-msgstr "उजवा"
-
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:101
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:51
 msgid "Limit to Color"
 msgstr "रंगापुरतेच मर्यादित ठेवा"
 
+#. i18n: ectx: property (text), widget (QRadioButton, m_searchFromRight)
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:58
+msgid "Right"
+msgstr "उजवा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_limitToCurrentLayer)
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:65
+msgid "Limit to Current Layer"
+msgstr "वर्तमान स्तरापर्यंतच मर्यादित ठेवा"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_searchFromLeft)
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:95
+msgid "Left"
+msgstr "डावा"
+
 #. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:109
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:129
 msgid "All"
 msgstr "सर्व"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, m_colorLimitation)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:114
+#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:134
 msgid "Red"
 msgstr "लाल"
-
-#. i18n: ectx: property (text), widget (QCheckBox, m_limitToCurrentLayer)
-#: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:132
-msgid "Limit to Current Layer"
-msgstr "वर्तमान स्तरापर्यंतच मर्यादित ठेवा"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:115
@@ -10604,13 +10604,13 @@ msgstr "निर्माता स्तराचे गुणधर्म"
 
 #: ui/kis_layer_manager.cc:468 ui/kis_layer_manager.cc:482
 #: ui/kis_layer_manager.cc:523 ui/kis_layer_manager.cc:554
-#: ui/kis_layer_manager.cc:661 ui/kis_layer_manager.cc:957
+#: ui/kis_layer_manager.cc:661 ui/kis_layer_manager.cc:963
 msgid "Could not add layer to image."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
 #: ui/kis_layer_manager.cc:468 ui/kis_layer_manager.cc:482
 #: ui/kis_layer_manager.cc:523 ui/kis_layer_manager.cc:554
-#: ui/kis_layer_manager.cc:661 ui/kis_layer_manager.cc:957
+#: ui/kis_layer_manager.cc:661 ui/kis_layer_manager.cc:963
 msgid "Layer Error"
 msgstr "स्तराची चूक"
 
@@ -10638,44 +10638,52 @@ msgstr "न दिसणारे समूह रूपांतरित क�
 msgid "Export Only Toplevel Groups"
 msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
-#: ui/kis_mask_manager.cc:65
+#: ui/kis_layer_manager.cc:939
+msgid "No file name specified."
+msgstr ""
+
+#: ui/kis_layer_manager.cc:939
+msgid "No file specified"
+msgstr ""
+
+#: ui/kis_mask_manager.cc:67
 msgid "Mask To Selection"
 msgstr "निवडीसाठी मुखवटा"
 
-#: ui/kis_mask_manager.cc:69
+#: ui/kis_mask_manager.cc:71
 msgid "Create Layer from Mask"
 msgstr "मुखवट्यापासून स्तर बनवा"
 
-#: ui/kis_mask_manager.cc:138
+#: ui/kis_mask_manager.cc:140
 #, kde-format
 msgid "Selection <numid>%1</numid>"
 msgstr "निवड <numid>%1</numid>"
 
-#: ui/kis_mask_manager.cc:152
+#: ui/kis_mask_manager.cc:154
 msgid "Transparency Mask"
 msgstr "पारदर्शी मुखवटा"
 
-#: ui/kis_mask_manager.cc:163
+#: ui/kis_mask_manager.cc:165
 msgid "New filter mask"
 msgstr "नवीन गाळणी मुखवटा"
 
-#: ui/kis_mask_manager.cc:175
+#: ui/kis_mask_manager.cc:177
 msgid "New Filter Mask"
 msgstr "नवीन गाळणी मुखवटा"
 
-#: ui/kis_mask_manager.cc:196
+#: ui/kis_mask_manager.cc:198
 msgid "Mask to Selection"
 msgstr "निवडीसाठी मुखवटा"
 
-#: ui/kis_mask_manager.cc:237
+#: ui/kis_mask_manager.cc:239
 msgid "Layer from Mask"
 msgstr "मुखवट्यापासून स्तर"
 
-#: ui/kis_mask_manager.cc:250
+#: ui/kis_mask_manager.cc:252
 msgid "Duplication of "
 msgstr "ची प्रतिकृती "
 
-#: ui/kis_mask_manager.cc:280
+#: ui/kis_mask_manager.cc:287
 msgid "Effect Mask Properties"
 msgstr "मुखवटा गुणधर्मांचे परिणाम"
 
