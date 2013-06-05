@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:42+0000\n"
+"POT-Creation-Date: 2013-06-05 02:02+0000\n"
 "PO-Revision-Date: 2013-04-01 10:24+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -398,7 +398,9 @@ msgid "Configure"
 msgstr "संयोजीत करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: ectx: property (text), item, widget (QComboBox, addMinusCombo)
 #: src/kcm/regexpbox.ui:53
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:362
 #: src/lib/webextractor/plugins/uifiles/tvdbmalconfig.ui:53
 msgid "Add"
 msgstr "जोडा"
@@ -415,11 +417,13 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, moveUpButton)
 #: src/kcm/regexpbox.ui:74
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:128
 msgid "Move Up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, moveDownButton)
 #: src/kcm/regexpbox.ui:81
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:135
 msgid "Move Down"
 msgstr ""
 
@@ -466,7 +470,9 @@ msgid "Show"
 msgstr "दर्शवा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabSeason)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
 #: src/kcm/regexpdialog.cpp:209 src/lib/metadatawidget/tvshowwidget.ui:236
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:402
 msgid "Season"
 msgstr ""
 
@@ -1298,8 +1304,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:29
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:113
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:260
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:395
 msgid "for:"
 msgstr "करिता :"
 
@@ -1310,69 +1318,99 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoRadio)
 #: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:58
-msgid "Automatically deduce season number for all episodes"
+msgid " Keep episode number and season number for all episodes"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, manualRadio)
 #: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:77
-msgid "Configure custom season rules:"
+msgid "Configure custom season/episode rules:"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:93
-msgid "Use Season number"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, allOrRangeCombo)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:130
-msgid "All episodes"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, allOrRangeCombo)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:135
-msgid "Episodes starting from"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, toOrOnwardsCombo)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:160
-msgid "onwards"
-msgstr ""
-
-#. i18n: ectx: property (text), item, widget (QComboBox, toOrOnwardsCombo)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:165
-msgid "to"
-msgstr "पर्यंत"
-
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:198
-msgid "Add rule"
-msgstr "नियम जोडा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:211
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:90
 msgid "Configured Custom Season Rules"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:239
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:121
 #: src/lib/webextractor/plugins/uifiles/tvdbmalconfig.ui:67
 msgid "Delete"
 msgstr "काढून टाका"
 
-#. i18n: ectx: property (text), widget (QCheckBox, resetEpisodes)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:256
-msgid "Reset episode numbers in this range"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, okButton)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:272
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:152
 msgid "OK"
 msgstr "ठीक आहे"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:285
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:165
 msgid "Cancel"
 msgstr "रद्द करा"
+
+#. i18n: ectx: attribute (label), widget (QWidget, page)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:190
+msgid "Custom Season Rule"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. i18n: ectx: property (text), widget (QPushButton, episodeAddButton)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:205
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:497
+msgid "Add rule"
+msgstr "नियम जोडा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, resetEpisodes)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:221
+msgid "Reset episode numbers in this range"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:240
+msgid "Use Season number"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, allOrRangeCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, episodeAllOrRangeCombo)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:277
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:438
+msgid "All episodes"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, allOrRangeCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, episodeAllOrRangeCombo)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:282
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:443
+msgid "Episodes starting from"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, toOrOnwardsCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, episodeToOrOnwardsCombo)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:307
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:468
+msgid "onwards"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, toOrOnwardsCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, episodeToOrOnwardsCombo)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:312
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:473
+msgid "to"
+msgstr "पर्यंत"
+
+#. i18n: ectx: attribute (label), widget (QWidget, page_2)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:343
+msgid "Custom Episode Rule"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, addMinusCombo)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:367
+msgid "Minus"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/lib/webextractor/plugins/uifiles/tvdbmalaliasconfig.ui:388
+msgid "To/From Episode Number"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, tvdbmalconfig)
 #: src/lib/webextractor/plugins/uifiles/tvdbmalconfig.ui:14
