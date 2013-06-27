@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-06-26 01:37+0000\n"
+"POT-Creation-Date: 2013-06-27 01:32+0000\n"
 "PO-Revision-Date: 2013-03-06 13:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -522,6 +522,7 @@ msgid "Name"
 msgstr "नाव"
 
 #: src/lib/MapViewWidget.cpp:80 src/lib/MapViewWidget.cpp:81
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:45
 msgid "Moon"
 msgstr ""
 
@@ -1284,6 +1285,11 @@ msgstr ""
 msgid "Current Location"
 msgstr ""
 
+#: src/lib/MarbleGlobal.h:233
+#, fuzzy
+msgid "not available"
+msgstr "वर्णन उपलब्ध नाही."
+
 #: src/lib/MarbleLineEdit.cpp:58
 #, fuzzy
 msgid "Clear"
@@ -1822,8 +1828,18 @@ msgstr "संयोजना"
 msgid "Directions - Marble"
 msgstr ""
 
+#: src/lib/routing/RoutingWidget.cpp:394
+#, qt-format
+msgid "placemarks found: %1"
+msgstr ""
+
 #: src/lib/routing/RoutingWidget.cpp:400
 msgid "No placemark found"
+msgstr ""
+
+#: src/lib/routing/RoutingWidget.cpp:604
+#, qt-format
+msgid "routes found: %1"
 msgstr ""
 
 #: src/lib/routing/RoutingWidget.cpp:669
@@ -2239,43 +2255,43 @@ msgstr ""
 msgid "A plugin that shows a coordinate grid."
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:209
+#: src/plugins/render/graticule/GraticulePlugin.cpp:207
 msgid "Please choose the color for the coordinate grid."
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:220
+#: src/plugins/render/graticule/GraticulePlugin.cpp:218
 msgid "Please choose the color for the tropic circles."
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:231
+#: src/plugins/render/graticule/GraticulePlugin.cpp:229
 msgid "Please choose the color for the equator."
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:356
+#: src/plugins/render/graticule/GraticulePlugin.cpp:354
 msgid "Equator"
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:361
+#: src/plugins/render/graticule/GraticulePlugin.cpp:359
 msgid "Prime Meridian"
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:362
+#: src/plugins/render/graticule/GraticulePlugin.cpp:360
 msgid "Antimeridian"
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:377
+#: src/plugins/render/graticule/GraticulePlugin.cpp:375
 msgid "Tropic of Cancer"
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:378
+#: src/plugins/render/graticule/GraticulePlugin.cpp:376
 msgid "Tropic of Capricorn"
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:381
+#: src/plugins/render/graticule/GraticulePlugin.cpp:379
 msgid "Arctic Circle"
 msgstr ""
 
-#: src/plugins/render/graticule/GraticulePlugin.cpp:382
+#: src/plugins/render/graticule/GraticulePlugin.cpp:380
 msgid "Antarctic Circle"
 msgstr ""
 
@@ -2801,6 +2817,68 @@ msgstr ""
 msgid "Routing information and navigation controls"
 msgstr ""
 
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:38
+msgid "Comets"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:39
+msgid "Moons"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:40
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:399
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:419
+#, fuzzy
+#| msgid "Weather"
+msgid "Other"
+msgstr "हवामान"
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:41
+msgid "Spacecrafts"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:42
+msgid "Spaceprobes"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:46
+#: src/plugins/render/sun/SunPlugin.cpp:52
+#: src/plugins/render/sun/SunPlugin.cpp:57
+msgid "Sun"
+msgstr "रवि"
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:47
+msgid "Mercury"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:48
+msgid "Venus"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:49
+msgid "Earth"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:50
+msgid "Mars"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:51
+msgid "Jupiter"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:52
+msgid "Saturn"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:53
+msgid "Uranus"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesConfigDialog.cpp:54
+msgid "Neptune"
+msgstr ""
+
 #: src/plugins/render/satellites/SatellitesConfigDialog.cpp:145
 #: src/plugins/render/satellites/SatellitesPlugin.cpp:91
 msgid "&Satellites"
@@ -2889,24 +2967,176 @@ msgstr ""
 msgid "Special-Interest Satellites"
 msgstr ""
 
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:372
+msgid "Last 30 Days' Launches"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:373
+msgid "Space Stations"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:374
+msgid "100 (or so) Brightest"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:375
+msgid "FENGYUN 1C Debris"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:376
+msgid "IRIDIUM 33 Debris"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:377
+msgid "COSMOS 2251 Debris"
+msgstr ""
+
 #: src/plugins/render/satellites/SatellitesPlugin.cpp:379
 msgid "Weather & Earth Resources Satellites"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:380
+#: src/plugins/render/weather/WeatherItem.cpp:59
+#: src/plugins/render/weather/WeatherPlugin.cpp:80
+msgid "Weather"
+msgstr "हवामान"
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:381
+msgid "NOAA"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:382
+msgid "GOES"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:383
+#, fuzzy
+#| msgid "Search Results"
+msgid "Earth Resources"
+msgstr "शोध परिणाम"
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:384
+msgid "Search & Rescue (SARSAT)"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:385
+msgid "Disaster Monitoring"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:386
+msgid "Tracking and Data Relay Satellite System (TDRSS)"
 msgstr ""
 
 #: src/plugins/render/satellites/SatellitesPlugin.cpp:388
 msgid "Communications Satellites"
 msgstr ""
 
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:389
+#, fuzzy
+#| msgid "Annotation"
+msgid "Geostationary"
+msgstr "टीप"
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:390
+msgid "Intelsat"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:391
+msgid "Gorizont"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:392
+msgid "Raduga"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:393
+msgid "Molniya"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:394
+msgid "Iridium"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:395
+msgid "Orbcomm"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:396
+msgid "Globalstar"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:397
+msgid "Amateur radio"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:398
+msgid "Experimental"
+msgstr ""
+
 #: src/plugins/render/satellites/SatellitesPlugin.cpp:401
 msgid "Navigation Satellites"
 msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:402
+msgid "GPS Operational"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:403
+msgid "Glonass Operational"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:404
+msgid "Galileo"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:405
+msgid "Satellite-Based Augmentation System (WAAS/EGNOS/MSAS)"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:406
+msgid "Navy Navigation Satellite System (NNSS)"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:407
+#, fuzzy
+msgid "Russian LEO Navigation"
+msgstr "संचारण"
 
 #: src/plugins/render/satellites/SatellitesPlugin.cpp:409
 msgid "Scientific Satellites"
 msgstr ""
 
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:410
+msgid "Space & Earth Science"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:411
+msgid "Geodetic"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:412
+msgid "Engineering"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:413
+#, fuzzy
+msgid "Education"
+msgstr "स्थान"
+
 #: src/plugins/render/satellites/SatellitesPlugin.cpp:415
 msgid "Miscellaneous Satellites"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:416
+msgid "Miscellaneous Military"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:417
+msgid "Radar Calibration"
+msgstr ""
+
+#: src/plugins/render/satellites/SatellitesPlugin.cpp:418
+msgid "CubeSats"
 msgstr ""
 
 #: src/plugins/render/speedometer/Speedometer.cpp:56
@@ -3326,11 +3556,6 @@ msgstr ""
 msgid "Show &Sun"
 msgstr ""
 
-#: src/plugins/render/sun/SunPlugin.cpp:52
-#: src/plugins/render/sun/SunPlugin.cpp:57
-msgid "Sun"
-msgstr "रवि"
-
 #: src/plugins/render/sun/SunPlugin.cpp:72
 msgid "A plugin that shows the Sun."
 msgstr ""
@@ -3585,11 +3810,6 @@ msgstr ""
 #, qt-format
 msgid "Humidity: %1<br>"
 msgstr ""
-
-#: src/plugins/render/weather/WeatherItem.cpp:59
-#: src/plugins/render/weather/WeatherPlugin.cpp:80
-msgid "Weather"
-msgstr "हवामान"
 
 #: src/plugins/render/weather/WeatherItem.cpp:113
 #, qt-format
