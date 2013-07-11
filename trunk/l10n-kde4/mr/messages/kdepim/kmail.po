@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-10 07:42+0000\n"
+"POT-Creation-Date: 2013-07-11 01:37+0000\n"
 "PO-Revision-Date: 2013-04-15 11:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -713,7 +713,7 @@ msgid "Common Options"
 msgstr "सामान्य पर्याय"
 
 #. i18n: ectx: label, entry (ConfirmBeforeSend), group (Composer)
-#: configuredialog/configuredialog.cpp:339 kmail.kcfg.cmake:246
+#: configuredialog/configuredialog.cpp:339 settings/kmail.kcfg.cmake:229
 msgid "Confirm &before send"
 msgstr "पाठविण्यापूर्वी खात्री करा (&B)"
 
@@ -786,7 +786,7 @@ msgstr "खाते काढून टाकायचे का?"
 
 #: configuredialog/configuredialog.cpp:679
 msgid ""
-"New Mail Notifier Agent not registred. Please contact your administrator."
+"New Mail Notifier Agent not registered. Please contact your administrator."
 msgstr ""
 
 #: configuredialog/configuredialog.cpp:728
@@ -830,7 +830,7 @@ msgid "Message List - Action Item Messages"
 msgstr "संदेश यादी - क्रिया घटक संदेश"
 
 #. i18n: ectx: label, entry (FolderList), group (Geometry)
-#: configuredialog/configuredialog.cpp:785 kmail.kcfg.cmake:390
+#: configuredialog/configuredialog.cpp:785 settings/kmail.kcfg.cmake:373
 msgid "Folder List"
 msgstr "संचयीका यादी"
 
@@ -1088,7 +1088,7 @@ msgstr ""
 "एकमेव/एकाच संदेशासाठीची खिडकी त्याला उत्तर दिल्यावर वा तो पुढे पाठविल्यावर बंद करा"
 
 #. i18n: ectx: label, entry (SystemTrayEnabled), group (General)
-#: configuredialog/configuredialog.cpp:1610 kmail.kcfg.cmake:89
+#: configuredialog/configuredialog.cpp:1610 settings/kmail.kcfg.cmake:83
 msgid "Enable system tray icon"
 msgstr "प्रणाली ट्रे चिन्ह कार्यान्वित करा"
 
@@ -2820,498 +2820,6 @@ msgstr "संपर्क साठवू शकत नाही : %1"
 #: job/createnewcontactjob.cpp:137 kmreaderwin.cpp:776
 msgid "Failed to store contact"
 msgstr "संपर्क साठविण्यास अपयश"
-
-#. i18n: ectx: whatsthis, entry (ExcludeImportantMailFromExpiry), group (Behaviour)
-#: kmail.kcfg.cmake:49
-msgid ""
-"This prevents the automatic expiry of old messages in a folder from deleting "
-"(or moving to an archive folder) the messages that are marked 'Important' or "
-"'Action Item'"
-msgstr ""
-"'महत्वाचे' वा 'कार्यवाही करणे' अशा खुणा केलेले आणि संचयीकेत काढून टाकण्यासाठी साठविलेले "
-"संदेशआपोआप बाद होणे किंवा (अर्काईव्ह संचयीकेत हलविणे) ही कृती हे थांबविते"
-
-#. i18n: ectx: label, entry (SendOnCheck), group (Behaviour)
-#: kmail.kcfg.cmake:54
-msgid "Send queued mail on mail check"
-msgstr "मेल तपासताना रांगेतील मेल पाठवा"
-
-#. i18n: ectx: whatsthis, entry (SendOnCheck), group (Behaviour)
-#: kmail.kcfg.cmake:55
-msgid ""
-"<qt><p>Select whether you want KMail to send all messages in the outbox on "
-"manual or all mail checks, or whether you do not want messages to be sent "
-"automatically at all. </p></qt>"
-msgstr ""
-"<qt><p>तुम्हाला के-मेल ने आउटबॉक्समधील सर्व संदेश मानवी तपासणी अथवा सर्व मेल तपासणीसाठी "
-"पाठवायचे आहेत का किंवा तुम्ही संदेश आपोआप अजिबात पाठवू इच्छित नाही.</p></qt>"
-
-#. i18n: ectx: label, entry (AutoLostFoundMove), group (Behaviour)
-#: kmail.kcfg.cmake:65
-msgid ""
-"Automatically move non-synced mails from folders with insufficient access "
-"rights"
-msgstr "प्रवेशाची मोकळीक असलेल्या संचीकांमधून न जुळवलेले मेल्स हलवा"
-
-#. i18n: ectx: whatsthis, entry (AutoLostFoundMove), group (Behaviour)
-#: kmail.kcfg.cmake:66
-msgid ""
-"If there are new messages in a folder, which have not been uploaded to the "
-"server yet, but you do not have sufficient access rights on the folder now "
-"to upload them, these messages will automatically be moved into a lost and "
-"found folder."
-msgstr ""
-"अजून सर्वरमध्ये दाखल न केलेले काही संदेश संचयीकेत असतील आणि ते दाखल करण्याची मोकळीक "
-"तुम्हाला नसतील तर हे संदेश हरवले/सापडले या संचयीकेत आपोआप हलविले जातील."
-
-#. i18n: ectx: label, entry (AllowLocalFlags), group (Behaviour)
-#: kmail.kcfg.cmake:71
-msgid "Allow local flags in read-only folders"
-msgstr "फक्त वाचण्यासाठी ह्या संचयीकेत स्थानिक खुणा/बाबींना परवानगी द्या"
-
-#. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (FolderSelectionDialog)
-#: kmail.kcfg.cmake:78
-msgid "The most recently selected folder in the folder selection dialog."
-msgstr "संचयीका निवड संवादातील आताच निवडलेल्या संचयीका"
-
-#. i18n: ectx: label, entry (SystemTrayPolicy), group (General)
-#: kmail.kcfg.cmake:93
-msgid "Policy for showing the system tray icon"
-msgstr "प्रणाली ट्रे चिन्ह दर्शविण्याचे धोरण"
-
-#. i18n: ectx: label, entry (SystemTrayShowUnread), group (General)
-#: kmail.kcfg.cmake:101
-msgid "Show unread mail in system tray"
-msgstr "न वाचलेले मेल प्रणाली ट्रे मध्ये दर्शवा"
-
-#. i18n: ectx: label, entry (CloseDespiteSystemTray), group (General)
-#: kmail.kcfg.cmake:105
-msgid ""
-"Close the application when the main window is closed, even if there is a "
-"system tray icon active."
-msgstr ""
-"जरी प्रणाली ट्रे प्रतिक सक्रिय असले तरी जेंव्हा मुख्य खिडकी बंद असेल तेंव्हा अनुप्रयोग पद्धती "
-"बंद करा."
-
-#. i18n: ectx: label, entry (ExternalEditor), group (General)
-#: kmail.kcfg.cmake:109
-msgid "Specify e&ditor:"
-msgstr "संपादक निर्देशीत करा (&D):"
-
-#. i18n: ectx: label, entry (UseExternalEditor), group (General)
-#: kmail.kcfg.cmake:113
-msgid "Use e&xternal editor instead of composer"
-msgstr "कंपोझर ऐवजी बाहेरील संपादकाचा वापर करा (&X)"
-
-#. i18n: ectx: label, entry (CustomMessageHeadersCount), group (General)
-#: kmail.kcfg.cmake:117
-msgid ""
-"Specifies the number of custom MIME header fields to be inserted in messages "
-"(for internal use only)"
-msgstr ""
-"संदेशात समाविष्ट करावयाची इच्छिक MIME ची शीर्षक प्रक्षेत्रे विनिर्दिष्ट करते (फक्त अंतर्गत "
-"उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (CloseToQuotaThreshold), group (General)
-#: kmail.kcfg.cmake:123
-msgid ""
-"The threshold for when to warn the user that a folder is nearing its quota "
-"limit."
-msgstr "प्रयोगकर्त्याला संचयीकेतील जागा संपत आल्याचा इशारा देणारी मर्यादा सूचना"
-
-#. i18n: ectx: label, entry (EmptyTrashOnExit), group (General)
-#: kmail.kcfg.cmake:127
-msgid "Empty the local trash folder on program exit"
-msgstr "कार्यक्रमातून बाहेर पडताना स्थानिक कचरापेटी रिकामी करा"
-
-#. i18n: ectx: label, entry (StartupFolder), group (General)
-#: kmail.kcfg.cmake:131
-msgid "Specify the folder to open when the program is started"
-msgstr "प्रणाली सुरु झाल्यावर कोणती संचयीका उघडायची ते विनिर्दिष्ट करा"
-
-#. i18n: ectx: label, entry (ConfirmBeforeEmpty), group (General)
-#: kmail.kcfg.cmake:135
-msgid "Ask for confirmation before moving all messages to trash"
-msgstr "सर्व मेल कचरा पेटीत हलवण्यापूर्वी त्याची पुष्टी करून घ्या"
-
-#. i18n: ectx: label, entry (AutoExpiring), group (General)
-#: kmail.kcfg.cmake:139
-msgid ""
-"Specifies whether the folders will expire in the background (for internal "
-"use only)"
-msgstr ""
-"पार्श्वभूमीवरील संचयीकांची मुदत केंव्हा संपत आहे ते विनिर्दिष्ट करते (फक्त अंतर्गत उपयोगासाठी) "
-
-#. i18n: ectx: label, entry (FirstStart), group (General)
-#: kmail.kcfg.cmake:143
-msgid ""
-"Specifies whether this is the very first time that the application is run "
-"(for internal use only)"
-msgstr ""
-"कार्यप्रणाली अगदी पहिल्यांदाच वापरली जात आहे का हे विनिर्दिष्ट करते (फक्त अंतर्गत "
-"उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (PreviousVersion), group (General)
-#: kmail.kcfg.cmake:147
-msgid ""
-"Specifies the version of the application that was last used (for internal "
-"use only)"
-msgstr ""
-"याआधी/शेवटी वापरलेल्या कार्यप्रणालीचा पाठभेद विनिर्दिष्ट करते (फक्त अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (PrintSelectedText), group (General)
-#: kmail.kcfg.cmake:151
-msgid "Only print selected text in viewer"
-msgstr "फक्त प्रदर्शकातील निवडलेले पाठ्य छापा"
-
-#. i18n: ectx: whatsthis, entry (PreviousNewFeaturesMD5), group (Internal)
-#: kmail.kcfg.cmake:166
-msgid ""
-"This value is used to decide whether the KMail Introduction should be "
-"displayed."
-msgstr ""
-"के-मेल चा माहितीपर परिचय प्रदर्शित करावा की नाही हे ठरविण्यासाठी ह्या तंत्राचा उपयोग "
-"केला जातो"
-
-#. i18n: ectx: label, entry (MaxConnectionsPerHost), group (Network)
-#: kmail.kcfg.cmake:173
-msgid "Maximal number of connections per host"
-msgstr "प्रत्येक जागेसाठी जोडण्यांची कमाल संख्या"
-
-#. i18n: ectx: whatsthis, entry (MaxConnectionsPerHost), group (Network)
-#: kmail.kcfg.cmake:174
-msgid ""
-"This can be used to restrict the number of connections per host while "
-"checking for new mail. By default the number of connections is unlimited (0)."
-msgstr ""
-"नवीन मेल तपासताना/पाहताना जोडण्यांची संख्या मर्यादित ठेवण्यासाठी याचा उपयोग करता "
-"येतो. पूर्वनिर्धारणेप्रमाणे जोडण्यांची संख्या अमर्यादित असते (०)"
-
-#. i18n: ectx: label, entry (EnableFolderQuickSearch), group (UserInterface)
-#: kmail.kcfg.cmake:182
-msgid "Show folder quick search line edit"
-msgstr "संचयीका जलद शोध घेणारी संपादित पद्धती "
-
-#. i18n: ectx: label, entry (HideLocalInbox), group (UserInterface)
-#: kmail.kcfg.cmake:186
-msgid "Hide local inbox if unused"
-msgstr "उपयोगात आणली नसेल तर स्थानीय इनबॉक्स लपवा"
-
-#. i18n: ectx: label, entry (ForwardingInlineByDefault), group (Composer)
-#: kmail.kcfg.cmake:194
-msgid "Forward Inline As Default."
-msgstr "मूलभूतसारखे इनलाइन फॉर्वर्ड करा."
-
-#. i18n: ectx: whatsthis, entry (StickyIdentity), group (Composer)
-#: kmail.kcfg.cmake:198
-msgid ""
-"Remember this identity, so that it will be used in future composer windows "
-"as well.\n"
-"        "
-msgstr ""
-
-#. i18n: ectx: whatsthis, entry (StickyFcc), group (Composer)
-#: kmail.kcfg.cmake:202
-msgid ""
-"Remember this folder for sent items, so that it will be used in future "
-"composer windows as well."
-msgstr ""
-"पाठविलेल्या बाबी/कलमे यांची ही संचयीका लक्षात ठेवा म्हणजे ती भविष्यातील संयोजना/जुळणी "
-"करणाऱ्या खिडक्यातसुद्धा वापरता येईल."
-
-#. i18n: ectx: whatsthis, entry (StickyTransport), group (Composer)
-#: kmail.kcfg.cmake:206
-msgid ""
-"Remember this mail transport, so that it will be used in future composer "
-"windows as well."
-msgstr ""
-"मेलचा हा प्रवास/परिवहन लक्षात ठेवा म्हणजे तो भविष्यातील संयोजना/जुळणी करणाऱ्या "
-"खिडक्यातसुद्धा वापरता येईल."
-
-#. i18n: ectx: whatsthis, entry (StickyDictionary), group (Composer)
-#: kmail.kcfg.cmake:211
-msgid ""
-"Remember this dictionary, so that it will be used in future composer windows "
-"as well.\n"
-"        "
-msgstr ""
-
-#. i18n: ectx: label, entry (TooManyRecipients), group (Composer)
-#: kmail.kcfg.cmake:215
-msgid "Warn if the number of recipients is larger than"
-msgstr "प्राप्तकर्त्यांची संख्या   पेक्षा मोठी असेल तर इशारा द्या"
-
-#. i18n: ectx: whatsthis, entry (TooManyRecipients), group (Composer)
-#. i18n: ectx: whatsthis, entry (RecipientThreshold), group (Composer)
-#: kmail.kcfg.cmake:217 kmail.kcfg.cmake:224
-msgid ""
-"If the number of recipients is larger than this value, KMail will warn and "
-"ask for a confirmation before sending the mail. The warning can be turned "
-"off."
-msgstr ""
-"ह्या मूल्यापेक्षा प्राप्तकर्त्यांची संख्या जास्त असेल तर के-मेल इशारा देईल आणि मेल पाठविण्याआधी "
-"पुष्टीसाठी विचारणा करेल. इशारा इशाऱ्याकडे दुर्लक्ष करा/इशारा बंद करा."
-
-#. i18n: ectx: label, entry (CheckSpellingBeforeSend), group (Composer)
-#: kmail.kcfg.cmake:250
-msgid "Check spelling before send"
-msgstr "पाठविण्यापूर्वी वर्णलेखन तपासा"
-
-#. i18n: ectx: label, entry (RequestMDN), group (Composer)
-#: kmail.kcfg.cmake:254
-msgid "Automatically request &message disposition notifications"
-msgstr "विनंती आणि संदेशाच्या मांडणीची स्वयंचलीत सूचना (&M)"
-
-#. i18n: ectx: whatsthis, entry (RequestMDN), group (Composer)
-#: kmail.kcfg.cmake:255
-msgid ""
-"<qt><p>Enable this option if you want KMail to request Message Disposition "
-"Notifications (MDNs) for each of your outgoing messages.</p><p>This option "
-"only affects the default; you can still enable or disable MDN requesting on "
-"a per-message basis in the composer, menu item <em>Options</em>-><em>Request "
-"Disposition Notification</em>.</p></qt>"
-msgstr ""
-"<qt><p>तुमच्या पाठविल्या जाणाऱ्या प्रत्येक मेलसाठी तुम्हाला के-मेल कडे संदेश अधिसूचनेसाठी "
-"विनंती करायची असेल तर हा पर्याय वापरा.</p><p>तरीही तुम्हाला मांडणी/मेनू यादीत असलेल्या "
-"प्रत्येक संदेशासाठी MDN वापरण्याची वा न वापरण्याची मुभा आहे <em>पर्याय</em>-><em>मांडणी "
-"अधिसूचनेसाठी विनंती</em>.</p></qt>"
-
-#. i18n: ectx: label, entry (AutosaveInterval), group (Composer)
-#: kmail.kcfg.cmake:276
-msgid "Autosave interval:"
-msgstr "स्वयंचलित साठवणे मध्यांतर :"
-
-#. i18n: ectx: whatsthis, entry (AutosaveInterval), group (Composer)
-#: kmail.kcfg.cmake:277
-msgid ""
-"A backup copy of the text in the composer window can be created regularly. "
-"The interval used to create the backups is set here. You can disable "
-"autosaving by setting it to the value 0."
-msgstr ""
-"मांडणीच्या खिडकीत मजकुराची जादा सुरक्षित प्रत नेहमी तयार करता येईल. सुरक्षित प्रती तयार "
-"करण्याचा कालावधी येथे निश्चीत केलेला आहे. स्वयंचलिट पद्धतीने साठा करण्याची सुविधा तुम्ही ती "
-"० ह्या मूल्यावर निश्चीत करून असमर्थ करू शकता."
-
-#. i18n: ectx: label, entry (ShowSnippetManager), group (Composer)
-#: kmail.kcfg.cmake:284
-msgid "Show the Text Snippet Management and Insertion Panel in the composer."
-msgstr "मांडणीतील मजकुराच्या तुकड्याचे/छोट्या भागाचे व्यवस्थापन आणि समावेशन चौकोन दाखवा."
-
-#. i18n: ectx: label, entry (ShowGnuPGAuditLogAfterSuccessfulSignEncrypt), group (Composer)
-#: kmail.kcfg.cmake:290
-msgid ""
-"Show the GnuPG Audit Log even after crypto operations that completed "
-"successfully."
-msgstr ""
-"संकेतन क्रिया यशस्वीपणे पूर्ण झाल्या असल्या तरी GnuPG अंकेक्षण/तपासणी क्रमलेख/नोंदवही दाखवा."
-
-#. i18n: ectx: label, entry (CryptoShowEncryptionResult), group (Composer)
-#: kmail.kcfg.cmake:295
-msgid "Show signed/encrypted text after composing"
-msgstr "संकेत चिन्हे दिलेला/संकेतीकरण केलेला मजकूर जुळणी /मांडणी केल्यानंतर दाखवा"
-
-#. i18n: ectx: label, entry (CryptoStoreEncrypted), group (Composer)
-#: kmail.kcfg.cmake:299
-msgid "When check, sent messages will be stored in the encrypted form"
-msgstr "तपासणी झाल्यानंतर पाठविलेले संदेश संकेतन स्वरूपात साठविले जातील"
-
-#. i18n: ectx: label, entry (RecentUrls), group (Composer)
-#: kmail.kcfg.cmake:303
-msgid "A list of all the recently used URLs"
-msgstr "नुकत्याच वापरलेल्या वैश्विक/एकात्म साधन शोधकांची (URLs) यादी"
-
-#. i18n: ectx: label, entry (RecentEncodings), group (Composer)
-#: kmail.kcfg.cmake:309
-msgid "A list of all the recently used encodings"
-msgstr "नुकत्याच वापरलेल्या सर्व संकेतनांची यादी"
-
-#. i18n: ectx: label, entry (FilterDialogSize), group (Geometry)
-#: kmail.kcfg.cmake:328
-msgid "The size of the filter dialog (for internal use only)"
-msgstr "गाळणी संवादाचा आकार (अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (IdentityDialogSize), group (Geometry)
-#: kmail.kcfg.cmake:332
-msgid "The size of the identity dialog (for internal use only)"
-msgstr "ऑनलाईन ओळख संवादाचा आकार (अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (SearchWidgetWidth), group (Geometry)
-#: kmail.kcfg.cmake:336
-msgid "The width of the search window (for internal use only)"
-msgstr "शोध खिडकीची रुंदी (अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (SearchWidgetHeight), group (Geometry)
-#: kmail.kcfg.cmake:340
-msgid "The height of the search window (for internal use only)"
-msgstr "शोध खिडकीची उंची (अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (ConfigureDialogWidth), group (Geometry)
-#: kmail.kcfg.cmake:344
-msgid "The width of the Configure KMail dialog (for internal use only)"
-msgstr "व्यूहरचना केलेल्या के-मेल संवादाची रुंदी (अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (ConfigureDialogHeight), group (Geometry)
-#: kmail.kcfg.cmake:348
-msgid "The height of the Configure KMail dialog (for internal use only)"
-msgstr " व्यूहरचना केलेल्या के-मेल संवादाची उंची (अंतर्गत उपयोगासाठी) "
-
-#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
-#: kmail.kcfg.cmake:374
-msgid "Message Preview Pane"
-msgstr "संदेश पूर्वावलोकन उपखंड"
-
-#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
-#: kmail.kcfg.cmake:377
-msgid "Do not show a message preview pane"
-msgstr "संदेश पूर्वावलोकन उपखंड दाखवू नका"
-
-#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
-#: kmail.kcfg.cmake:380
-msgid "Show the message preview pane below the message list"
-msgstr "संदेशांच्या यादीखाली पूर्वावलोकन उपखंड दाखवा"
-
-#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
-#: kmail.kcfg.cmake:383
-msgid "Show the message preview pane next to the message list"
-msgstr " संदेश पूर्ववलोकन उपखंड संदेशांच्या यादीखाली दाखवा"
-
-#. i18n: ectx: label, entry (FolderList), group (Geometry)
-#: kmail.kcfg.cmake:393
-msgid "Long folder list"
-msgstr "लांब/नोठ्या संचयीकांची यादी"
-
-#. i18n: ectx: label, entry (FolderList), group (Geometry)
-#: kmail.kcfg.cmake:396
-msgid "Short folder list"
-msgstr "लहान संचयीकांची यादी"
-
-#. i18n: ectx: label, entry (CloseAfterReplyOrForward), group (Reader)
-#: kmail.kcfg.cmake:405
-msgid "Close message window after replying or forwarding"
-msgstr "उत्तर दिल्यानंतर वा पाठविल्यानंतर संदेश खिडकी बंद करा"
-
-#. i18n: ectx: label, entry (SendMDNsWithEmptySender), group (MDN)
-#: kmail.kcfg.cmake:413
-msgid "Send Message Disposition Notifications with an empty sender."
-msgstr "संदेशांच्या मांडणीची स्वयंचालीत सूचना रिकाम्या प्रेषण स्थानकासह पाठवा"
-
-#. i18n: ectx: whatsthis, entry (SendMDNsWithEmptySender), group (MDN)
-#: kmail.kcfg.cmake:414
-msgid ""
-"Send Message Disposition Notifications with an empty sender string. Some "
-"servers might be configure to reject such messages, so if you are "
-"experiencing problems sending MDNs, uncheck this option."
-msgstr ""
-" संदेशांच्या मांडणीची स्वयंचलीत सूचना रिकाम्या प्रेषण स्थानकाच्या स्ट्रिंगसह पाठवा. काही "
-"सेवाकेंद्रांची संयोजना असे संदेश नाकारण्यासाठी केलेली असते,त्यामुळे तुम्हाला जर MDNs पाठविण्यात "
-"काही अडचणी आल्या तर हा पर्याय न वापरता सोडून द्या."
-
-#. i18n: ectx: label, entry (TemplateNewMessage), group (GlobalTemplates)
-#: kmail.kcfg.cmake:420
-msgid "Message template for new message"
-msgstr "नवीन संदेशासाठी प्रमाणित संदेश मजकूर"
-
-#. i18n: ectx: label, entry (TemplateReply), group (GlobalTemplates)
-#: kmail.kcfg.cmake:425
-msgid "Message template for reply"
-msgstr "उत्तरासाठी प्रमाणित संदेश मजकूर"
-
-#. i18n: ectx: label, entry (TemplateReplyAll), group (GlobalTemplates)
-#: kmail.kcfg.cmake:430
-msgid "Message template for reply to all"
-msgstr "सर्वाना उत्तर पाठविण्यासाठी प्रमाणित संदेश मजकूर"
-
-#. i18n: ectx: label, entry (TemplateForward), group (GlobalTemplates)
-#: kmail.kcfg.cmake:435
-msgid "Message template for forward"
-msgstr "फॉर्वर्ड करिता संदेश नमूना"
-
-#. i18n: ectx: label, entry (QuoteString), group (GlobalTemplates)
-#: kmail.kcfg.cmake:440
-msgid "Quote characters"
-msgstr "अक्षर समूह उधृत करा"
-
-#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
-#: kmail.kcfg.cmake:451
-msgid "Display Mode of the Favorite Collections View"
-msgstr "पसंतीचे संग्रह पाहण्याचे प्रकार/पद्धती दाखवा"
-
-#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
-#: kmail.kcfg.cmake:454
-msgid "Do not show the favorite folders view."
-msgstr " पसंतीचे संग्रह पाहण्याचे प्रकार/पद्धती दाखवू नका "
-
-#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
-#: kmail.kcfg.cmake:457
-msgid "Show favorite folders in icon mode."
-msgstr "पसंतीच्या संचयीका प्रतिक पद्धतीत दाखवा"
-
-#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
-#: kmail.kcfg.cmake:460
-msgid "Show favorite folders in list mode."
-msgstr "पसंतीच्या संचयीका यादी पद्धती/प्रकारात दाखवा"
-
-#. i18n: ectx: label, entry (UpdateLevel), group (Startup)
-#: kmail.kcfg.cmake:476
-msgid "Specifies the number of updates to perform (for internal use only)"
-msgstr "अंमलबजावणीसाठी अद्यावतकरणाची संख्या दाखवते (अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (ToolTipDisplayPolicy), group (MainFolderView)
-#: kmail.kcfg.cmake:483
-msgid "Specifies the policy used when displaying policy"
-msgstr "नीति प्रदर्शित करताना उपयोगात आणलेली नीति दाखवते"
-
-#. i18n: ectx: label, entry (CollectionWidth), group (SearchDialog)
-#: kmail.kcfg.cmake:491
-msgid ""
-"Specifies the width of the collection field in the Search Window dialog (for "
-"internal use only)"
-msgstr ""
-"शोध खिडकी संवादातील संचय/संग्रह प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत उपयोगासाठी)"
-
-#. i18n: ectx: label, entry (SubjectWidth), group (SearchDialog)
-#: kmail.kcfg.cmake:495
-msgid ""
-"Specifies the width of the subject field in the Search Window dialog (for "
-"internal use only)"
-msgstr ""
-"शोध खिडकी संवादातील विषय या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत उपयोगासाठी) "
-
-#. i18n: ectx: label, entry (SenderWidth), group (SearchDialog)
-#: kmail.kcfg.cmake:499
-msgid ""
-"Specifies the width of the sender field in the Search Window dialog (for "
-"internal use only)"
-msgstr ""
-"शोध खिडकी संवादातील प्रेषक/पाठविणारा या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
-"उपयोगासाठी) "
-
-#. i18n: ectx: label, entry (ReceiverWidth), group (SearchDialog)
-#: kmail.kcfg.cmake:503
-msgid ""
-"Specifies the width of the receiver field in the Search Window dialog (for "
-"internal use only)"
-msgstr ""
-"शोध खिडकी संवादातील प्राप्तकर्ता या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
-"उपयोगासाठी) "
-
-#. i18n: ectx: label, entry (DateWidth), group (SearchDialog)
-#: kmail.kcfg.cmake:507
-msgid ""
-"Specifies the width of the date field in the Search Window dialog (for "
-"internal use only)"
-msgstr ""
-"शोध खिडकी संवादातील दिनांक या  प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
-"उपयोगासाठी) "
-
-#. i18n: ectx: label, entry (FolderWidth), group (SearchDialog)
-#: kmail.kcfg.cmake:511
-msgid ""
-"Specifies the width of the folder field in the Search Window dialog (for "
-"internal use only)"
-msgstr ""
-"शोध खिडकी संवादातील संचयीका या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
-"उपयोगासाठी) "
 
 #: kmail_options.h:12
 msgid "Set subject of message"
@@ -5052,6 +4560,458 @@ msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr " – "
 
+#. i18n: ectx: whatsthis, entry (ExcludeImportantMailFromExpiry), group (Behaviour)
+#: settings/kmail.kcfg.cmake:49
+msgid ""
+"This prevents the automatic expiry of old messages in a folder from deleting "
+"(or moving to an archive folder) the messages that are marked 'Important' or "
+"'Action Item'"
+msgstr ""
+"'महत्वाचे' वा 'कार्यवाही करणे' अशा खुणा केलेले आणि संचयीकेत काढून टाकण्यासाठी साठविलेले "
+"संदेशआपोआप बाद होणे किंवा (अर्काईव्ह संचयीकेत हलविणे) ही कृती हे थांबविते"
+
+#. i18n: ectx: label, entry (AllowLocalFlags), group (Behaviour)
+#: settings/kmail.kcfg.cmake:53
+msgid "Allow local flags in read-only folders"
+msgstr "फक्त वाचण्यासाठी ह्या संचयीकेत स्थानिक खुणा/बाबींना परवानगी द्या"
+
+#. i18n: ectx: label, entry (SendOnCheck), group (Behaviour)
+#: settings/kmail.kcfg.cmake:59
+msgid "Send queued mail on mail check"
+msgstr "मेल तपासताना रांगेतील मेल पाठवा"
+
+#. i18n: ectx: whatsthis, entry (SendOnCheck), group (Behaviour)
+#: settings/kmail.kcfg.cmake:60
+msgid ""
+"<qt><p>Select whether you want KMail to send all messages in the outbox on "
+"manual or all mail checks, or whether you do not want messages to be sent "
+"automatically at all. </p></qt>"
+msgstr ""
+"<qt><p>तुम्हाला के-मेल ने आउटबॉक्समधील सर्व संदेश मानवी तपासणी अथवा सर्व मेल तपासणीसाठी "
+"पाठवायचे आहेत का किंवा तुम्ही संदेश आपोआप अजिबात पाठवू इच्छित नाही.</p></qt>"
+
+#. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (FolderSelectionDialog)
+#: settings/kmail.kcfg.cmake:72
+msgid "The most recently selected folder in the folder selection dialog."
+msgstr "संचयीका निवड संवादातील आताच निवडलेल्या संचयीका"
+
+#. i18n: ectx: label, entry (SystemTrayPolicy), group (General)
+#: settings/kmail.kcfg.cmake:87
+msgid "Policy for showing the system tray icon"
+msgstr "प्रणाली ट्रे चिन्ह दर्शविण्याचे धोरण"
+
+#. i18n: ectx: label, entry (SystemTrayShowUnread), group (General)
+#: settings/kmail.kcfg.cmake:95
+msgid "Show unread mail in system tray"
+msgstr "न वाचलेले मेल प्रणाली ट्रे मध्ये दर्शवा"
+
+#. i18n: ectx: label, entry (CloseDespiteSystemTray), group (General)
+#: settings/kmail.kcfg.cmake:99
+msgid ""
+"Close the application when the main window is closed, even if there is a "
+"system tray icon active."
+msgstr ""
+"जरी प्रणाली ट्रे प्रतिक सक्रिय असले तरी जेंव्हा मुख्य खिडकी बंद असेल तेंव्हा अनुप्रयोग पद्धती "
+"बंद करा."
+
+#. i18n: ectx: label, entry (ExternalEditor), group (General)
+#: settings/kmail.kcfg.cmake:103
+msgid "Specify e&ditor:"
+msgstr "संपादक निर्देशीत करा (&D):"
+
+#. i18n: ectx: label, entry (UseExternalEditor), group (General)
+#: settings/kmail.kcfg.cmake:107
+msgid "Use e&xternal editor instead of composer"
+msgstr "कंपोझर ऐवजी बाहेरील संपादकाचा वापर करा (&X)"
+
+#. i18n: ectx: label, entry (CustomMessageHeadersCount), group (General)
+#: settings/kmail.kcfg.cmake:111
+msgid ""
+"Specifies the number of custom MIME header fields to be inserted in messages "
+"(for internal use only)"
+msgstr ""
+"संदेशात समाविष्ट करावयाची इच्छिक MIME ची शीर्षक प्रक्षेत्रे विनिर्दिष्ट करते (फक्त अंतर्गत "
+"उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (CloseToQuotaThreshold), group (General)
+#: settings/kmail.kcfg.cmake:114
+msgid ""
+"The threshold for when to warn the user that a folder is nearing its quota "
+"limit."
+msgstr "प्रयोगकर्त्याला संचयीकेतील जागा संपत आल्याचा इशारा देणारी मर्यादा सूचना"
+
+#. i18n: ectx: label, entry (EmptyTrashOnExit), group (General)
+#: settings/kmail.kcfg.cmake:118
+msgid "Empty the local trash folder on program exit"
+msgstr "कार्यक्रमातून बाहेर पडताना स्थानिक कचरापेटी रिकामी करा"
+
+#. i18n: ectx: label, entry (StartupFolder), group (General)
+#: settings/kmail.kcfg.cmake:122
+msgid "Specify the folder to open when the program is started"
+msgstr "प्रणाली सुरु झाल्यावर कोणती संचयीका उघडायची ते विनिर्दिष्ट करा"
+
+#. i18n: ectx: label, entry (ConfirmBeforeEmpty), group (General)
+#: settings/kmail.kcfg.cmake:126
+msgid "Ask for confirmation before moving all messages to trash"
+msgstr "सर्व मेल कचरा पेटीत हलवण्यापूर्वी त्याची पुष्टी करून घ्या"
+
+#. i18n: ectx: label, entry (AutoExpiring), group (General)
+#: settings/kmail.kcfg.cmake:130
+msgid ""
+"Specifies whether the folders will expire in the background (for internal "
+"use only)"
+msgstr ""
+"पार्श्वभूमीवरील संचयीकांची मुदत केंव्हा संपत आहे ते विनिर्दिष्ट करते (फक्त अंतर्गत उपयोगासाठी) "
+
+#. i18n: ectx: label, entry (FirstStart), group (General)
+#: settings/kmail.kcfg.cmake:134
+msgid ""
+"Specifies whether this is the very first time that the application is run "
+"(for internal use only)"
+msgstr ""
+"कार्यप्रणाली अगदी पहिल्यांदाच वापरली जात आहे का हे विनिर्दिष्ट करते (फक्त अंतर्गत "
+"उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (PreviousVersion), group (General)
+#: settings/kmail.kcfg.cmake:138
+msgid ""
+"Specifies the version of the application that was last used (for internal "
+"use only)"
+msgstr ""
+"याआधी/शेवटी वापरलेल्या कार्यप्रणालीचा पाठभेद विनिर्दिष्ट करते (फक्त अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (PrintSelectedText), group (General)
+#: settings/kmail.kcfg.cmake:142
+msgid "Only print selected text in viewer"
+msgstr "फक्त प्रदर्शकातील निवडलेले पाठ्य छापा"
+
+#. i18n: ectx: whatsthis, entry (PreviousNewFeaturesMD5), group (Internal)
+#: settings/kmail.kcfg.cmake:157
+msgid ""
+"This value is used to decide whether the KMail Introduction should be "
+"displayed."
+msgstr ""
+"के-मेल चा माहितीपर परिचय प्रदर्शित करावा की नाही हे ठरविण्यासाठी ह्या तंत्राचा उपयोग "
+"केला जातो"
+
+#. i18n: ectx: label, entry (EnableFolderQuickSearch), group (UserInterface)
+#: settings/kmail.kcfg.cmake:165
+msgid "Show folder quick search line edit"
+msgstr "संचयीका जलद शोध घेणारी संपादित पद्धती "
+
+#. i18n: ectx: label, entry (HideLocalInbox), group (UserInterface)
+#: settings/kmail.kcfg.cmake:169
+msgid "Hide local inbox if unused"
+msgstr "उपयोगात आणली नसेल तर स्थानीय इनबॉक्स लपवा"
+
+#. i18n: ectx: label, entry (ForwardingInlineByDefault), group (Composer)
+#: settings/kmail.kcfg.cmake:177
+msgid "Forward Inline As Default."
+msgstr "मूलभूतसारखे इनलाइन फॉर्वर्ड करा."
+
+#. i18n: ectx: whatsthis, entry (StickyIdentity), group (Composer)
+#: settings/kmail.kcfg.cmake:181
+msgid ""
+"Remember this identity, so that it will be used in future composer windows "
+"as well.\n"
+"        "
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (StickyFcc), group (Composer)
+#: settings/kmail.kcfg.cmake:185
+msgid ""
+"Remember this folder for sent items, so that it will be used in future "
+"composer windows as well."
+msgstr ""
+"पाठविलेल्या बाबी/कलमे यांची ही संचयीका लक्षात ठेवा म्हणजे ती भविष्यातील संयोजना/जुळणी "
+"करणाऱ्या खिडक्यातसुद्धा वापरता येईल."
+
+#. i18n: ectx: whatsthis, entry (StickyTransport), group (Composer)
+#: settings/kmail.kcfg.cmake:189
+msgid ""
+"Remember this mail transport, so that it will be used in future composer "
+"windows as well."
+msgstr ""
+"मेलचा हा प्रवास/परिवहन लक्षात ठेवा म्हणजे तो भविष्यातील संयोजना/जुळणी करणाऱ्या "
+"खिडक्यातसुद्धा वापरता येईल."
+
+#. i18n: ectx: whatsthis, entry (StickyDictionary), group (Composer)
+#: settings/kmail.kcfg.cmake:194
+msgid ""
+"Remember this dictionary, so that it will be used in future composer windows "
+"as well.\n"
+"        "
+msgstr ""
+
+#. i18n: ectx: label, entry (TooManyRecipients), group (Composer)
+#: settings/kmail.kcfg.cmake:198
+msgid "Warn if the number of recipients is larger than"
+msgstr "प्राप्तकर्त्यांची संख्या   पेक्षा मोठी असेल तर इशारा द्या"
+
+#. i18n: ectx: whatsthis, entry (TooManyRecipients), group (Composer)
+#. i18n: ectx: whatsthis, entry (RecipientThreshold), group (Composer)
+#: settings/kmail.kcfg.cmake:200 settings/kmail.kcfg.cmake:207
+msgid ""
+"If the number of recipients is larger than this value, KMail will warn and "
+"ask for a confirmation before sending the mail. The warning can be turned "
+"off."
+msgstr ""
+"ह्या मूल्यापेक्षा प्राप्तकर्त्यांची संख्या जास्त असेल तर के-मेल इशारा देईल आणि मेल पाठविण्याआधी "
+"पुष्टीसाठी विचारणा करेल. इशारा इशाऱ्याकडे दुर्लक्ष करा/इशारा बंद करा."
+
+#. i18n: ectx: label, entry (CheckSpellingBeforeSend), group (Composer)
+#: settings/kmail.kcfg.cmake:233
+msgid "Check spelling before send"
+msgstr "पाठविण्यापूर्वी वर्णलेखन तपासा"
+
+#. i18n: ectx: label, entry (RequestMDN), group (Composer)
+#: settings/kmail.kcfg.cmake:237
+msgid "Automatically request &message disposition notifications"
+msgstr "विनंती आणि संदेशाच्या मांडणीची स्वयंचलीत सूचना (&M)"
+
+#. i18n: ectx: whatsthis, entry (RequestMDN), group (Composer)
+#: settings/kmail.kcfg.cmake:238
+msgid ""
+"<qt><p>Enable this option if you want KMail to request Message Disposition "
+"Notifications (MDNs) for each of your outgoing messages.</p><p>This option "
+"only affects the default; you can still enable or disable MDN requesting on "
+"a per-message basis in the composer, menu item <em>Options</em>-><em>Request "
+"Disposition Notification</em>.</p></qt>"
+msgstr ""
+"<qt><p>तुमच्या पाठविल्या जाणाऱ्या प्रत्येक मेलसाठी तुम्हाला के-मेल कडे संदेश अधिसूचनेसाठी "
+"विनंती करायची असेल तर हा पर्याय वापरा.</p><p>तरीही तुम्हाला मांडणी/मेनू यादीत असलेल्या "
+"प्रत्येक संदेशासाठी MDN वापरण्याची वा न वापरण्याची मुभा आहे <em>पर्याय</em>-><em>मांडणी "
+"अधिसूचनेसाठी विनंती</em>.</p></qt>"
+
+#. i18n: ectx: label, entry (AutosaveInterval), group (Composer)
+#: settings/kmail.kcfg.cmake:259
+msgid "Autosave interval:"
+msgstr "स्वयंचलित साठवणे मध्यांतर :"
+
+#. i18n: ectx: whatsthis, entry (AutosaveInterval), group (Composer)
+#: settings/kmail.kcfg.cmake:260
+msgid ""
+"A backup copy of the text in the composer window can be created regularly. "
+"The interval used to create the backups is set here. You can disable "
+"autosaving by setting it to the value 0."
+msgstr ""
+"मांडणीच्या खिडकीत मजकुराची जादा सुरक्षित प्रत नेहमी तयार करता येईल. सुरक्षित प्रती तयार "
+"करण्याचा कालावधी येथे निश्चीत केलेला आहे. स्वयंचलिट पद्धतीने साठा करण्याची सुविधा तुम्ही ती "
+"० ह्या मूल्यावर निश्चीत करून असमर्थ करू शकता."
+
+#. i18n: ectx: label, entry (ShowSnippetManager), group (Composer)
+#: settings/kmail.kcfg.cmake:272
+msgid "Show the Text Snippet Management and Insertion Panel in the composer."
+msgstr "मांडणीतील मजकुराच्या तुकड्याचे/छोट्या भागाचे व्यवस्थापन आणि समावेशन चौकोन दाखवा."
+
+#. i18n: ectx: label, entry (CryptoShowEncryptionResult), group (Composer)
+#: settings/kmail.kcfg.cmake:278
+msgid "Show signed/encrypted text after composing"
+msgstr "संकेत चिन्हे दिलेला/संकेतीकरण केलेला मजकूर जुळणी /मांडणी केल्यानंतर दाखवा"
+
+#. i18n: ectx: label, entry (CryptoStoreEncrypted), group (Composer)
+#: settings/kmail.kcfg.cmake:282
+msgid "When check, sent messages will be stored in the encrypted form"
+msgstr "तपासणी झाल्यानंतर पाठविलेले संदेश संकेतन स्वरूपात साठविले जातील"
+
+#. i18n: ectx: label, entry (RecentUrls), group (Composer)
+#: settings/kmail.kcfg.cmake:286
+msgid "A list of all the recently used URLs"
+msgstr "नुकत्याच वापरलेल्या वैश्विक/एकात्म साधन शोधकांची (URLs) यादी"
+
+#. i18n: ectx: label, entry (RecentEncodings), group (Composer)
+#: settings/kmail.kcfg.cmake:292
+msgid "A list of all the recently used encodings"
+msgstr "नुकत्याच वापरलेल्या सर्व संकेतनांची यादी"
+
+#. i18n: ectx: label, entry (FilterDialogSize), group (Geometry)
+#: settings/kmail.kcfg.cmake:311
+msgid "The size of the filter dialog (for internal use only)"
+msgstr "गाळणी संवादाचा आकार (अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (IdentityDialogSize), group (Geometry)
+#: settings/kmail.kcfg.cmake:315
+msgid "The size of the identity dialog (for internal use only)"
+msgstr "ऑनलाईन ओळख संवादाचा आकार (अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (SearchWidgetWidth), group (Geometry)
+#: settings/kmail.kcfg.cmake:319
+msgid "The width of the search window (for internal use only)"
+msgstr "शोध खिडकीची रुंदी (अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (SearchWidgetHeight), group (Geometry)
+#: settings/kmail.kcfg.cmake:323
+msgid "The height of the search window (for internal use only)"
+msgstr "शोध खिडकीची उंची (अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (ConfigureDialogWidth), group (Geometry)
+#: settings/kmail.kcfg.cmake:327
+msgid "The width of the Configure KMail dialog (for internal use only)"
+msgstr "व्यूहरचना केलेल्या के-मेल संवादाची रुंदी (अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (ConfigureDialogHeight), group (Geometry)
+#: settings/kmail.kcfg.cmake:331
+msgid "The height of the Configure KMail dialog (for internal use only)"
+msgstr " व्यूहरचना केलेल्या के-मेल संवादाची उंची (अंतर्गत उपयोगासाठी) "
+
+#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
+#: settings/kmail.kcfg.cmake:357
+msgid "Message Preview Pane"
+msgstr "संदेश पूर्वावलोकन उपखंड"
+
+#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
+#: settings/kmail.kcfg.cmake:360
+msgid "Do not show a message preview pane"
+msgstr "संदेश पूर्वावलोकन उपखंड दाखवू नका"
+
+#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
+#: settings/kmail.kcfg.cmake:363
+msgid "Show the message preview pane below the message list"
+msgstr "संदेशांच्या यादीखाली पूर्वावलोकन उपखंड दाखवा"
+
+#. i18n: ectx: label, entry (readerWindowMode), group (Geometry)
+#: settings/kmail.kcfg.cmake:366
+msgid "Show the message preview pane next to the message list"
+msgstr " संदेश पूर्ववलोकन उपखंड संदेशांच्या यादीखाली दाखवा"
+
+#. i18n: ectx: label, entry (FolderList), group (Geometry)
+#: settings/kmail.kcfg.cmake:376
+msgid "Long folder list"
+msgstr "लांब/नोठ्या संचयीकांची यादी"
+
+#. i18n: ectx: label, entry (FolderList), group (Geometry)
+#: settings/kmail.kcfg.cmake:379
+msgid "Short folder list"
+msgstr "लहान संचयीकांची यादी"
+
+#. i18n: ectx: label, entry (CloseAfterReplyOrForward), group (Reader)
+#: settings/kmail.kcfg.cmake:388
+msgid "Close message window after replying or forwarding"
+msgstr "उत्तर दिल्यानंतर वा पाठविल्यानंतर संदेश खिडकी बंद करा"
+
+#. i18n: ectx: label, entry (SendMDNsWithEmptySender), group (MDN)
+#: settings/kmail.kcfg.cmake:396
+msgid "Send Message Disposition Notifications with an empty sender."
+msgstr "संदेशांच्या मांडणीची स्वयंचालीत सूचना रिकाम्या प्रेषण स्थानकासह पाठवा"
+
+#. i18n: ectx: whatsthis, entry (SendMDNsWithEmptySender), group (MDN)
+#: settings/kmail.kcfg.cmake:397
+msgid ""
+"Send Message Disposition Notifications with an empty sender string. Some "
+"servers might be configure to reject such messages, so if you are "
+"experiencing problems sending MDNs, uncheck this option."
+msgstr ""
+" संदेशांच्या मांडणीची स्वयंचलीत सूचना रिकाम्या प्रेषण स्थानकाच्या स्ट्रिंगसह पाठवा. काही "
+"सेवाकेंद्रांची संयोजना असे संदेश नाकारण्यासाठी केलेली असते,त्यामुळे तुम्हाला जर MDNs पाठविण्यात "
+"काही अडचणी आल्या तर हा पर्याय न वापरता सोडून द्या."
+
+#. i18n: ectx: label, entry (TemplateNewMessage), group (GlobalTemplates)
+#: settings/kmail.kcfg.cmake:403
+msgid "Message template for new message"
+msgstr "नवीन संदेशासाठी प्रमाणित संदेश मजकूर"
+
+#. i18n: ectx: label, entry (TemplateReply), group (GlobalTemplates)
+#: settings/kmail.kcfg.cmake:408
+msgid "Message template for reply"
+msgstr "उत्तरासाठी प्रमाणित संदेश मजकूर"
+
+#. i18n: ectx: label, entry (TemplateReplyAll), group (GlobalTemplates)
+#: settings/kmail.kcfg.cmake:413
+msgid "Message template for reply to all"
+msgstr "सर्वाना उत्तर पाठविण्यासाठी प्रमाणित संदेश मजकूर"
+
+#. i18n: ectx: label, entry (TemplateForward), group (GlobalTemplates)
+#: settings/kmail.kcfg.cmake:418
+msgid "Message template for forward"
+msgstr "फॉर्वर्ड करिता संदेश नमूना"
+
+#. i18n: ectx: label, entry (QuoteString), group (GlobalTemplates)
+#: settings/kmail.kcfg.cmake:423
+msgid "Quote characters"
+msgstr "अक्षर समूह उधृत करा"
+
+#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
+#: settings/kmail.kcfg.cmake:434
+msgid "Display Mode of the Favorite Collections View"
+msgstr "पसंतीचे संग्रह पाहण्याचे प्रकार/पद्धती दाखवा"
+
+#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
+#: settings/kmail.kcfg.cmake:437
+msgid "Do not show the favorite folders view."
+msgstr " पसंतीचे संग्रह पाहण्याचे प्रकार/पद्धती दाखवू नका "
+
+#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
+#: settings/kmail.kcfg.cmake:440
+msgid "Show favorite folders in icon mode."
+msgstr "पसंतीच्या संचयीका प्रतिक पद्धतीत दाखवा"
+
+#. i18n: ectx: label, entry (FavoriteCollectionViewMode), group (FavoriteCollectionView)
+#: settings/kmail.kcfg.cmake:443
+msgid "Show favorite folders in list mode."
+msgstr "पसंतीच्या संचयीका यादी पद्धती/प्रकारात दाखवा"
+
+#. i18n: ectx: label, entry (UpdateLevel), group (Startup)
+#: settings/kmail.kcfg.cmake:459
+msgid "Specifies the number of updates to perform (for internal use only)"
+msgstr "अंमलबजावणीसाठी अद्यावतकरणाची संख्या दाखवते (अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (ToolTipDisplayPolicy), group (MainFolderView)
+#: settings/kmail.kcfg.cmake:466
+msgid "Specifies the policy used when displaying policy"
+msgstr "नीति प्रदर्शित करताना उपयोगात आणलेली नीति दाखवते"
+
+#. i18n: ectx: label, entry (CollectionWidth), group (SearchDialog)
+#: settings/kmail.kcfg.cmake:474
+msgid ""
+"Specifies the width of the collection field in the Search Window dialog (for "
+"internal use only)"
+msgstr ""
+"शोध खिडकी संवादातील संचय/संग्रह प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत उपयोगासाठी)"
+
+#. i18n: ectx: label, entry (SubjectWidth), group (SearchDialog)
+#: settings/kmail.kcfg.cmake:478
+msgid ""
+"Specifies the width of the subject field in the Search Window dialog (for "
+"internal use only)"
+msgstr ""
+"शोध खिडकी संवादातील विषय या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत उपयोगासाठी) "
+
+#. i18n: ectx: label, entry (SenderWidth), group (SearchDialog)
+#: settings/kmail.kcfg.cmake:482
+msgid ""
+"Specifies the width of the sender field in the Search Window dialog (for "
+"internal use only)"
+msgstr ""
+"शोध खिडकी संवादातील प्रेषक/पाठविणारा या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
+"उपयोगासाठी) "
+
+#. i18n: ectx: label, entry (ReceiverWidth), group (SearchDialog)
+#: settings/kmail.kcfg.cmake:486
+msgid ""
+"Specifies the width of the receiver field in the Search Window dialog (for "
+"internal use only)"
+msgstr ""
+"शोध खिडकी संवादातील प्राप्तकर्ता या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
+"उपयोगासाठी) "
+
+#. i18n: ectx: label, entry (DateWidth), group (SearchDialog)
+#: settings/kmail.kcfg.cmake:490
+msgid ""
+"Specifies the width of the date field in the Search Window dialog (for "
+"internal use only)"
+msgstr ""
+"शोध खिडकी संवादातील दिनांक या  प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
+"उपयोगासाठी) "
+
+#. i18n: ectx: label, entry (FolderWidth), group (SearchDialog)
+#: settings/kmail.kcfg.cmake:494
+msgid ""
+"Specifies the width of the folder field in the Search Window dialog (for "
+"internal use only)"
+msgstr ""
+"शोध खिडकी संवादातील संचयीका या प्रक्षेत्राची रुंदी निर्देशित करते (फक्त अंतर्गत "
+"उपयोगासाठी) "
+
 #: tag/tagactionmanager.cpp:125
 #, kde-format
 msgid "Message Tag %1"
@@ -6327,6 +6287,38 @@ msgstr "नंतर पाठवा"
 #| msgid "External Editor"
 msgid "External editor was started."
 msgstr "बाहेरील संपादक"
+
+#~ msgid ""
+#~ "Automatically move non-synced mails from folders with insufficient access "
+#~ "rights"
+#~ msgstr "प्रवेशाची मोकळीक असलेल्या संचीकांमधून न जुळवलेले मेल्स हलवा"
+
+#~ msgid ""
+#~ "If there are new messages in a folder, which have not been uploaded to "
+#~ "the server yet, but you do not have sufficient access rights on the "
+#~ "folder now to upload them, these messages will automatically be moved "
+#~ "into a lost and found folder."
+#~ msgstr ""
+#~ "अजून सर्वरमध्ये दाखल न केलेले काही संदेश संचयीकेत असतील आणि ते दाखल करण्याची मोकळीक "
+#~ "तुम्हाला नसतील तर हे संदेश हरवले/सापडले या संचयीकेत आपोआप हलविले जातील."
+
+#~ msgid "Maximal number of connections per host"
+#~ msgstr "प्रत्येक जागेसाठी जोडण्यांची कमाल संख्या"
+
+#~ msgid ""
+#~ "This can be used to restrict the number of connections per host while "
+#~ "checking for new mail. By default the number of connections is unlimited "
+#~ "(0)."
+#~ msgstr ""
+#~ "नवीन मेल तपासताना/पाहताना जोडण्यांची संख्या मर्यादित ठेवण्यासाठी याचा उपयोग करता "
+#~ "येतो. पूर्वनिर्धारणेप्रमाणे जोडण्यांची संख्या अमर्यादित असते (०)"
+
+#~ msgid ""
+#~ "Show the GnuPG Audit Log even after crypto operations that completed "
+#~ "successfully."
+#~ msgstr ""
+#~ "संकेतन क्रिया यशस्वीपणे पूर्ण झाल्या असल्या तरी GnuPG अंकेक्षण/तपासणी क्रमलेख/नोंदवही "
+#~ "दाखवा."
 
 #~ msgid "Verbose new mail notification"
 #~ msgstr "नवीन मेलची सूचना देणारी बहुशब्दांकित पद्धत"
