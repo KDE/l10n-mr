@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-09 21:09+0000\n"
+"POT-Creation-Date: 2013-07-13 01:30+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -5142,7 +5142,6 @@ msgstr "संक्षिप्त करताना किती माहि
 #: plugins/formats/jp2/kis_wdg_options_jp2.ui:101
 #: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:131
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:242
-#: plugins/tools/defaulttools/kis_tool_brush.cc:101
 msgid "Quality:"
 msgstr "गुणवत्ता :"
 
@@ -7963,40 +7962,54 @@ msgstr "संख्या"
 msgid "Gaussian distribution"
 msgstr "गॉसियन वितरण"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:39
+#: plugins/tools/defaulttools/kis_tool_brush.cc:38
 msgctxt "(qtundo-format)"
 msgid "Brush"
 msgstr "कुंचला"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:91
+#: plugins/tools/defaulttools/kis_tool_brush.cc:98
 msgid "No Smoothing"
 msgstr "मृदू करू नका"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:91
+#: plugins/tools/defaulttools/kis_tool_brush.cc:98
 msgid "Basic Smoothing"
 msgstr "मूळ मृदू करणे"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:91
+#: plugins/tools/defaulttools/kis_tool_brush.cc:98
 msgid "Weighted Smoothing"
 msgstr "वजनी मृदू करणे"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:109
-msgid "Weight:"
-msgstr "वजन :"
+#: plugins/tools/defaulttools/kis_tool_brush.cc:108
+#, fuzzy
+#| msgid "Distance: "
+msgid "Distance:"
+msgstr "अंतर : "
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:114
+#: plugins/tools/defaulttools/kis_tool_brush.cc:115
+#, fuzzy
+#| msgid "stroke duration"
+msgid "Stroke Ending:"
+msgstr "फटकाऱ्याचा कालावधी"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:120
+#, fuzzy
+#| msgid "Pressure"
+msgid "Smooth Pressure"
+msgstr "दाब"
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:125
 msgid "Assistant:"
 msgstr "सहायक :"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:115
+#: plugins/tools/defaulttools/kis_tool_brush.cc:126
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr "हे साधन कार्यान्वित होण्यापूर्वी तुम्हाला मोजपट्टी सहायक भरावे लागतील."
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:118
+#: plugins/tools/defaulttools/kis_tool_brush.cc:129
 msgid "Assistant Magnetism"
 msgstr "सहायक चुंबकत्व"
 
-#: plugins/tools/defaulttools/kis_tool_brush.h:71
+#: plugins/tools/defaulttools/kis_tool_brush.h:73
 msgid "Paint with brushes"
 msgstr "कुंचल्याने रंगवा"
 
@@ -11076,7 +11089,7 @@ msgstr "कुंचल्याचा आकार घटवा"
 msgid "Can't paint on vector layer."
 msgstr "व्हेक्टर स्तरावर पेंट होऊ शकत नाही."
 
-#: ui/tool/kis_tool_freehand_helper.cpp:128
+#: ui/tool/kis_tool_freehand_helper.cpp:131
 msgid "Freehand Stroke"
 msgstr "मुक्तहस्त फटकारा"
 
@@ -11183,6 +11196,9 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#~ msgid "Weight:"
+#~ msgstr "वजन :"
 
 #~ msgid "compose Layer"
 #~ msgstr "स्तर बनवा"
