@@ -190,54 +190,72 @@ msgctxt "OneContact|"
 msgid "Photo"
 msgstr ""
 
-#: ../src/Composer/ComposerAttachments.cpp:67
+#: ../src/Composer/ComposerAttachments.cpp:102
+#, qt-format
+msgctxt "Composer::MessageComposer|"
+msgid ""
+"%1\n"
+"(from %2)"
+msgstr ""
+
+#: ../src/Composer/ComposerAttachments.cpp:113
 msgctxt "Composer::MessageComposer|"
 msgid "File does not exist"
 msgstr "फाईल अस्तित्वात नाही"
 
-#: ../src/Composer/ComposerAttachments.cpp:70
+#: ../src/Composer/ComposerAttachments.cpp:116
 msgctxt "Composer::MessageComposer|"
 msgid "File is not readable"
 msgstr "फाईल वाचण्यायोग्य नाही"
 
-#: ../src/Composer/ComposerAttachments.cpp:72
+#: ../src/Composer/ComposerAttachments.cpp:118
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "%1: %2, %3"
 msgstr "%1: %2, %3"
 
-#: ../src/Composer/ComposerAttachments.cpp:151
+#: ../src/Composer/ComposerAttachments.cpp:203
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Message not available: /%1;UIDVALIDITY=%2;UID=%3"
 msgstr ""
 
-#: ../src/Composer/ComposerAttachments.cpp:161
+#: ../src/Composer/ComposerAttachments.cpp:207
+#, fuzzy, qt-format
+#| msgctxt "Imap::Mailbox::PrettyMailboxModel|"
+#| msgid "%1 (%2)"
+msgctxt "Composer::MessageComposer|"
+msgid ""
+"%1\n"
+"(%2)"
+msgstr "%1 (%2)"
+
+#: ../src/Composer/ComposerAttachments.cpp:218
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "IMAP message %1"
 msgstr "IMAP संदेश %1"
 
-#: ../src/Composer/ComposerAttachments.cpp:281
+#: ../src/Composer/ComposerAttachments.cpp:342
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "IMAP part %1"
 msgstr "IMAP भाग %1"
 
-#: ../src/Composer/ComposerAttachments.cpp:290
+#: ../src/Composer/ComposerAttachments.cpp:355
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "%1, %2"
 msgstr "%1, %2"
 
-#: ../src/Composer/MessageComposer.cpp:559
-#: ../src/Composer/MessageComposer.cpp:588
+#: ../src/Composer/MessageComposer.cpp:580
+#: ../src/Composer/MessageComposer.cpp:609
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 is not available"
 msgstr ""
 
-#: ../src/Composer/MessageComposer.cpp:593
+#: ../src/Composer/MessageComposer.cpp:614
 #, qt-format
 msgctxt "Composer::MessageComposer|"
 msgid "Attachment %1 disappeared"
@@ -359,33 +377,38 @@ msgctxt "Composer::Submission|"
 msgid "The URLAUTH response does not contain a proper URL"
 msgstr ""
 
-#: ../src/Gui/AttachmentView.cpp:84
+#: ../src/Gui/AttachmentView.cpp:94
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid "%2, %3"
 msgstr ""
 
-#: ../src/Gui/AttachmentView.cpp:104
+#: ../src/Gui/AttachmentView.cpp:115
 msgctxt "Gui::AttachmentView|"
 msgid "Download"
 msgstr "डाउनलोड"
 
-#: ../src/Gui/AttachmentView.cpp:105
+#: ../src/Gui/AttachmentView.cpp:116
 msgctxt "Gui::AttachmentView|"
 msgid "Open Directly"
 msgstr ""
 
-#: ../src/Gui/AttachmentView.cpp:154
+#: ../src/Gui/AttachmentView.cpp:120
+msgctxt "Gui::AttachmentView|"
+msgid "Show Preview"
+msgstr ""
+
+#: ../src/Gui/AttachmentView.cpp:172
 msgctxt "Gui::AttachmentView|"
 msgid "Save Attachment"
 msgstr ""
 
-#: ../src/Gui/AttachmentView.cpp:159
+#: ../src/Gui/AttachmentView.cpp:177
 msgctxt "Gui::AttachmentView|"
 msgid "Can't save attachment"
 msgstr ""
 
-#: ../src/Gui/AttachmentView.cpp:159
+#: ../src/Gui/AttachmentView.cpp:177
 #, qt-format
 msgctxt "Gui::AttachmentView|"
 msgid ""
@@ -393,49 +416,78 @@ msgid ""
 "%1"
 msgstr ""
 
+#: ../src/Gui/ComposerAttachmentsList.cpp:44
+msgctxt "ComposerAttachmentsList|"
+msgid "Send Inline"
+msgstr ""
+
+#: ../src/Gui/ComposerAttachmentsList.cpp:49
+#, fuzzy
+#| msgctxt "Gui::SimplePartWidget|"
+#| msgid "Save..."
+msgctxt "ComposerAttachmentsList|"
+msgid "Rename..."
+msgstr "साठवा..."
+
+#: ../src/Gui/ComposerAttachmentsList.cpp:53
+#, fuzzy
+#| msgctxt "Gui::ComposeWidget|"
+#| msgid "Remove"
+msgctxt "ComposerAttachmentsList|"
+msgid "Remove"
+msgstr "काढून टाका"
+
+#: ../src/Gui/ComposerAttachmentsList.cpp:119
+msgctxt "ComposerAttachmentsList|"
+msgid "Rename Attachment"
+msgstr ""
+
+#: ../src/Gui/ComposerAttachmentsList.cpp:119
+#, fuzzy
+#| msgctxt "EditIdentity|"
+#| msgid "Real Name"
+msgctxt "ComposerAttachmentsList|"
+msgid "New Name"
+msgstr "खरे नाव"
+
 #: ../src/Gui/ComposerTextEdit.cpp:45
 msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:83
+#: ../src/Gui/ComposeWidget.cpp:84
 msgctxt "Gui::ComposeWidget|"
 msgid "Send"
 msgstr "पाठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:91
-msgctxt "Gui::ComposeWidget|"
-msgid "Remove"
-msgstr "काढून टाका"
-
-#: ../src/Gui/ComposeWidget.cpp:171
+#: ../src/Gui/ComposeWidget.cpp:164
 msgctxt "Gui::ComposeWidget|"
 msgid "Safe Draft?"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:172
+#: ../src/Gui/ComposeWidget.cpp:165
 msgctxt "Gui::ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:174
+#: ../src/Gui/ComposeWidget.cpp:167
 msgctxt "Gui::ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:189 ../src/Gui/ComposeWidget.cpp:191
+#: ../src/Gui/ComposeWidget.cpp:182 ../src/Gui/ComposeWidget.cpp:184
 msgctxt "Gui::ComposeWidget|"
 msgid "Drafts"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:191
+#: ../src/Gui/ComposeWidget.cpp:184
 msgctxt "Gui::ComposeWidget|"
 msgid "Save as"
 msgstr "असे साठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:219
+#: ../src/Gui/ComposeWidget.cpp:212
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid ""
@@ -443,53 +495,53 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:223
+#: ../src/Gui/ComposeWidget.cpp:216
 msgctxt "Gui::ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:230
+#: ../src/Gui/ComposeWidget.cpp:223
 msgctxt "Gui::ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:234
+#: ../src/Gui/ComposeWidget.cpp:227
 msgctxt "Gui::ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:267
+#: ../src/Gui/ComposeWidget.cpp:260
 msgctxt "Gui::ComposeWidget|"
 msgid "Sent"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:417
+#: ../src/Gui/ComposeWidget.cpp:410
 msgctxt "Gui::ComposeWidget|"
 msgid "To"
 msgstr "पर्यंत"
 
-#: ../src/Gui/ComposeWidget.cpp:418
+#: ../src/Gui/ComposeWidget.cpp:411
 msgctxt "Gui::ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
-#: ../src/Gui/ComposeWidget.cpp:419
+#: ../src/Gui/ComposeWidget.cpp:412
 msgctxt "Gui::ComposeWidget|"
 msgid "Bcc"
 msgstr "Bcc"
 
-#: ../src/Gui/ComposeWidget.cpp:515
+#: ../src/Gui/ComposeWidget.cpp:508
 msgctxt "Gui::ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:542
+#: ../src/Gui/ComposeWidget.cpp:535
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:609
+#: ../src/Gui/ComposeWidget.cpp:602
 msgctxt "Gui::ComposeWidget|"
 msgid "Attach File..."
 msgstr ""
@@ -559,10 +611,18 @@ msgctxt "EditIdentity|"
 msgid "Signature"
 msgstr "हस्ताक्षर"
 
-#: ../src/Gui/EmbeddedWebView.cpp:70
+#: ../src/Gui/EmbeddedWebView.cpp:73
 msgctxt "Gui::EmbeddedWebView|"
 msgid "Ctrl+C"
 msgstr "Ctrl+C"
+
+#: ../src/Gui/EmbeddedWebView.cpp:231
+#, qt-format
+msgctxt "Gui::ErrorCheckingPage|"
+msgid ""
+"<img src='%2'/><span style='font-family: sans-serif; color: gray'>Uncached "
+"data not available when offline</span>"
+msgstr ""
 
 #: ../src/Gui/EnvelopeView.cpp:95
 #, qt-format
@@ -692,7 +752,7 @@ msgctxt "LineEdit|"
 msgid "Clear input field"
 msgstr ""
 
-#: ../src/Gui/LoadablePartWidget.cpp:39
+#: ../src/Gui/LoadablePartWidget.cpp:47
 #, qt-format
 msgctxt "Gui::LoadablePartWidget|"
 msgid "Load %1 (%2)"
@@ -865,41 +925,28 @@ msgctxt "Gui::MsgListView|"
 msgid "Seen status"
 msgstr ""
 
-#: ../src/Gui/PartWidget.cpp:118
+#: ../src/Gui/PartWidget.cpp:119
 msgctxt "Gui::MultipartSignedWidget|"
 msgid "Signed Message"
 msgstr ""
 
-#: ../src/Gui/PartWidget.cpp:126
+#: ../src/Gui/PartWidget.cpp:127
 msgctxt "Gui::MultipartSignedWidget|"
 msgid "Malformed multipart/signed message: only one nested part"
 msgstr ""
 
-#: ../src/Gui/PartWidget.cpp:131
+#: ../src/Gui/PartWidget.cpp:132
 #, qt-format
 msgctxt "Gui::MultipartSignedWidget|"
 msgid "Malformed multipart/signed message: %1 nested parts"
 msgstr ""
 
-#: ../src/Gui/PartWidget.cpp:173
-#, fuzzy
-#| msgctxt "Gui::Message822Widget|"
-#| msgid "Message"
-msgctxt "Gui::Message822Widget|"
-msgid "Attached Message"
-msgstr "संदेश"
-
-#: ../src/Gui/PartWidgetFactory.cpp:61
+#: ../src/Gui/PartWidgetFactory.cpp:66
 msgctxt "PartWidgetFactory|"
 msgid ""
 "This message contains too deep nesting of MIME message parts.\n"
 "To prevent stack exhaustion and your head from exploding, only\n"
 "the top-most thousand items or so are shown."
-msgstr ""
-
-#: ../src/Gui/PartWidgetFactory.cpp:163
-msgctxt "PartWidgetFactory|"
-msgid "Offline"
 msgstr ""
 
 #: ../src/Gui/PasswordDialog.ui:14
@@ -2770,34 +2817,34 @@ msgid ""
 "Couldn't save the part %1 of message %2 (mailbox %3) into file %4: %5 (%6)"
 msgstr ""
 
-#: ../src/Imap/Model/MailboxTree.cpp:1000
+#: ../src/Imap/Model/MailboxTree.cpp:1006
 msgctxt "Imap::Mailbox::Model|"
 msgid "Today"
 msgstr "आज"
 
-#: ../src/Imap/Model/MailboxTree.cpp:1004
+#: ../src/Imap/Model/MailboxTree.cpp:1010
 msgctxt "Imap::Mailbox::Model|"
 msgid "Last Week"
 msgstr "गेला आठवडा"
 
-#: ../src/Imap/Model/MailboxTree.cpp:1006
+#: ../src/Imap/Model/MailboxTree.cpp:1012
 msgctxt "Imap::Mailbox::Model|"
 msgid "MMMM yyyy"
 msgstr "MMMM yyyy"
 
-#: ../src/Imap/Model/MailboxTree.cpp:1310
+#: ../src/Imap/Model/MailboxTree.cpp:1318
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1...]"
 msgstr "[दाखल करत आहे %1...]"
 
-#: ../src/Imap/Model/MailboxTree.cpp:1311
+#: ../src/Imap/Model/MailboxTree.cpp:1319
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "[loading %1: %2...]"
 msgstr "[दाखल करत आहे %1: %2...]"
 
-#: ../src/Imap/Model/MailboxTree.cpp:1323
+#: ../src/Imap/Model/MailboxTree.cpp:1331
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid "%1 bytes of data"
@@ -3543,6 +3590,11 @@ msgctxt "Imap::Network::ForbiddenReply|"
 msgid "Remote Content Is Banned"
 msgstr ""
 
+#: ../src/Imap/Network/MsgPartNetworkReply.cpp:84
+msgctxt "Imap::Network::MsgPartNetworkReply|"
+msgid "Offline"
+msgstr ""
+
 #: ../src/Imap/Tasks/AppendTask.cpp:97
 msgctxt "Imap::Mailbox::AppendTask|"
 msgid "Uploading message"
@@ -4002,9 +4054,12 @@ msgctxt "XtConnect::XtConnect|"
 msgid "Database Password: "
 msgstr ""
 
-#~ msgctxt "Gui::SimplePartWidget|"
-#~ msgid "Save..."
-#~ msgstr "साठवा..."
+#, fuzzy
+#~| msgctxt "Gui::Message822Widget|"
+#~| msgid "Message"
+#~ msgctxt "Gui::Message822Widget|"
+#~ msgid "Attached Message"
+#~ msgstr "संदेश"
 
 #~ msgctxt "Gui::Rfc822HeaderView|"
 #~ msgid "Loading..."
