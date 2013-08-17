@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-15 01:39+0000\n"
+"POT-Creation-Date: 2013-08-17 01:40+0000\n"
 "PO-Revision-Date: 2013-04-15 11:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -4346,7 +4346,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "उत्तर द्या (&R)"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:227
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:231
 msgid "&Reply..."
 msgstr "उत्तर द्या (&R)..."
 
@@ -4354,11 +4354,11 @@ msgstr "उत्तर द्या (&R)..."
 msgid "Reply to A&uthor..."
 msgstr "लेखकाला उत्तर द्या (&U)"
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:231
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:235
 msgid "Reply to &All..."
 msgstr "सर्वाना उत्तर द्या (&A)"
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:235
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:239
 msgid "Reply to Mailing-&List..."
 msgstr "मेलिंग यादीला उत्तर द्या (&L)"
 
@@ -4406,7 +4406,7 @@ msgstr "संदेश संपादित करा (&E)"
 msgid "Add Note..."
 msgstr "सूचना/नोंद वाढवा..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:239
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:243
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "पुढे (&F)"
@@ -4533,56 +4533,127 @@ msgctxt "@title:column, folder (e.g. email)"
 msgid "Folder"
 msgstr "संचयीका"
 
-#: searchdialog/searchwindow.cpp:90
+#: searchdialog/searchdebugdialog.cpp:35
+msgid "Search query debug"
+msgstr ""
+
+#: searchdialog/searchdebugdialog.cpp:37
+#, fuzzy
+#| msgid "Save &As..."
+msgid "Save As..."
+msgstr "असे साठवा (&A)..."
+
+#: searchdialog/searchdebugdialog.cpp:71
+msgid "all files (*)"
+msgstr ""
+
+#: searchdialog/searchdebugdialog.cpp:81
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+
+#: searchdialog/searchdebugdialog.cpp:85
+msgid "Sieve Editor Error"
+msgstr ""
+
+#: searchdialog/searchdebugwidget.cpp:52
+msgid "UIDS:"
+msgstr ""
+
+#: searchdialog/searchdebugwidget.cpp:53
+#, fuzzy
+#| msgid "Messages"
+msgid "Message:"
+msgstr "संदेश"
+
+#: searchdialog/searchdebugwidget.cpp:57 searchdialog/searchwindow.cpp:410
+#: searchdialog/searchwindow.cpp:438 searchdialog/searchwindow.cpp:441
+#, fuzzy
+#| msgctxt "@action:button Search for messages"
+#| msgid "&Search"
+msgid "Search"
+msgstr "शोध (&S)"
+
+#: searchdialog/searchdebugwidget.cpp:176
+#, fuzzy, kde-format
+#| msgid "Message Body"
+msgid "1 message found"
+msgid_plural "%1 messages found"
+msgstr[0] "संदेश मसूदा"
+msgstr[1] "संदेश मसूदा"
+
+#: searchdialog/searchdebugwidget.cpp:195
+msgid "Error on fetching item"
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:91
 msgid "Find Messages"
 msgstr "संदेश शोधा"
 
-#: searchdialog/searchwindow.cpp:102
+#: searchdialog/searchwindow.cpp:103
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "शोध (&S)"
 
-#: searchdialog/searchwindow.cpp:189 searchdialog/searchwindow.cpp:382
+#: searchdialog/searchwindow.cpp:108
+msgid "Debug query"
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:193 searchdialog/searchwindow.cpp:386
 msgid "Last Search"
 msgstr "शेवटचा शोध"
 
-#: searchdialog/searchwindow.cpp:244
+#: searchdialog/searchwindow.cpp:248
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "इनलाइन (&I)..."
 
-#: searchdialog/searchwindow.cpp:249
+#: searchdialog/searchwindow.cpp:253
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "अटॅचमेंट प्रमाणे (&A)..."
 
-#: searchdialog/searchwindow.cpp:263
+#: searchdialog/searchwindow.cpp:267
 msgid "Save Attachments..."
 msgstr "अटॅचमेंट साठवा..."
 
-#: searchdialog/searchwindow.cpp:269
+#: searchdialog/searchwindow.cpp:273
 msgid "Clear Selection"
 msgstr "निवड काढून टाका"
 
-#: searchdialog/searchwindow.cpp:353
+#: searchdialog/searchwindow.cpp:357
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1 जुळवणी"
 msgstr[1] "%1 जुळवण्या"
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:410
+msgid "You did not selected a valid folder."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:438
+msgid "You forgot to define condition."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:441
+msgid "All folders selected are empty or were not indexed."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:463
 #, fuzzy
 #| msgid "Starting..."
 msgid "Searching..."
 msgstr "सुरु करत आहे..."
 
-#: searchdialog/searchwindow.cpp:451
+#: searchdialog/searchwindow.cpp:471
 #, kde-format
 msgid "Can not get search result. %1"
 msgstr "परिणाम निश्कर्ष शोधू शकत नाही. %1"
 
-#: searchdialog/searchwindow.cpp:562
+#: searchdialog/searchwindow.cpp:582
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
 "that another search folder with the same name already exists."
@@ -4590,14 +4661,14 @@ msgstr ""
 "तुमच्या संचयीकेला दुसरे नाव देण्यात अडचणी होत्या. याचे नेहमीचे कारण म्हणजे याच नावाची दुसरी "
 "शोध संचयीका अस्तित्वात आहे."
 
-#: searchdialog/searchwindow.cpp:665
+#: searchdialog/searchwindow.cpp:685
 #, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "संदेशाची प्रत करा"
 msgstr[1] "%1 संदेशांची प्रत करा"
 
-#: searchdialog/searchwindow.cpp:668
+#: searchdialog/searchwindow.cpp:688
 #, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
