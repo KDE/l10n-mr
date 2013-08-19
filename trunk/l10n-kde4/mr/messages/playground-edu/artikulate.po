@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-18 01:50+0000\n"
+"POT-Creation-Date: 2013-08-19 01:50+0000\n"
 "PO-Revision-Date: 2013-03-18 17:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -120,35 +120,39 @@ msgstr ""
 msgid "New Unit"
 msgstr ""
 
-#: src/main.cpp:30
+#: src/core/soundbackends/qtgstreamerbackend.cpp:79
+msgid "Default"
+msgstr ""
+
+#: src/main.cpp:31
 msgid "Learn and practice pronunciation."
 msgstr ""
 
-#: src/main.cpp:37
+#: src/main.cpp:38
 msgid "Artikulate Pronunciation Trainer"
 msgstr ""
 
-#: src/main.cpp:41
+#: src/main.cpp:42
 msgid "Copyright (C) 2013 by Andreas Cord-Landwehr"
 msgstr ""
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 msgid "Andreas Cord-Landwehr"
 msgstr ""
 
-#: src/main.cpp:44
+#: src/main.cpp:45
 msgid "Original Author"
 msgstr "मूळ लेखक"
 
-#: src/main.cpp:45
+#: src/main.cpp:46
 msgid "Oindrila Gupta"
 msgstr ""
 
-#: src/main.cpp:45 src/main.cpp:46
+#: src/main.cpp:46 src/main.cpp:47
 msgid "Developer and Course Data"
 msgstr ""
 
-#: src/main.cpp:46
+#: src/main.cpp:47
 msgid "Magdalena Konkiewicz"
 msgstr ""
 
@@ -156,32 +160,32 @@ msgstr ""
 msgid "Course Editor"
 msgstr ""
 
-#: src/mainwindow.cpp:83
+#: src/mainwindow.cpp:84
 msgid "Settings"
 msgstr ""
 
-#: src/mainwindow.cpp:88
+#: src/mainwindow.cpp:90
 msgid "Download New Language Course"
 msgstr ""
 
-#: src/mainwindow.cpp:155
+#: src/mainwindow.cpp:157
 msgctxt "@item:inmenu"
 msgid "Sound Devices"
 msgstr ""
 
-#: src/mainwindow.cpp:155
+#: src/mainwindow.cpp:157
 msgctxt "@title:tab"
 msgid "Sound Device Settings"
 msgstr ""
 
-#: src/mainwindow.cpp:156
+#: src/mainwindow.cpp:158
 #, fuzzy
 #| msgid "Close Course"
 msgctxt "@item:inmenu"
 msgid "Course Resources"
 msgstr "कोर्स बंद करा"
 
-#: src/mainwindow.cpp:156
+#: src/mainwindow.cpp:158
 msgctxt "@title:tab"
 msgid "Resource Repository Settings"
 msgstr ""
@@ -405,6 +409,14 @@ msgstr ""
 msgid "Training Progress"
 msgstr ""
 
+#: src/qml/TrainerPhrase.qml:88
+msgid "Native Speaker"
+msgstr ""
+
+#: src/qml/TrainerPhrase.qml:136
+msgid "Learner (You)"
+msgstr ""
+
 #: src/qml/TrainerPhraseTypeStatus.qml:65
 #: src/qml/TrainerPhraseTypeStatus.qml:104
 #: src/qml/TrainerPhraseTypeStatus.qml:135
@@ -431,6 +443,18 @@ msgstr ""
 msgid "Change to train: Paragraphs"
 msgstr ""
 
+#: src/qml/TrainerSessionScreen.qml:51
+msgid "Correctly Pronounced"
+msgstr ""
+
+#: src/qml/TrainerSessionScreen.qml:60
+msgid "Retry Later"
+msgstr ""
+
+#: src/qml/TrainerSessionScreen.qml:69
+msgid "Not Correctly Pronounced"
+msgstr ""
+
 #: src/qml/TrainerStart.qml:59
 msgid "Welcome to"
 msgstr ""
@@ -439,39 +463,43 @@ msgstr ""
 msgid "Artikulate!"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:83
+#: src/qml/TrainerStart.qml:70
+msgid "Download new courses"
+msgstr ""
+
+#: src/qml/TrainerStart.qml:94
 msgid "No language selected"
 msgstr "कोणतीही भाषा निवडली नाही"
 
-#: src/qml/TrainerStart.qml:103
+#: src/qml/TrainerStart.qml:114
 msgid "No course selected"
 msgstr "कोणताही कोर्स निवडला नाही"
 
-#: src/qml/TrainerStart.qml:120
+#: src/qml/TrainerStart.qml:131
 msgid "Select a language:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:123
+#: src/qml/TrainerStart.qml:134
 msgid "Select a course:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:127
+#: src/qml/TrainerStart.qml:138
 msgid "Select a scenario unit:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:130
+#: src/qml/TrainerStart.qml:141
 msgid "Select a phoneme unit:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:133
+#: src/qml/TrainerStart.qml:144
 msgid "Training is starting..."
 msgstr ""
 
-#: src/qml/TrainerStart.qml:197
+#: src/qml/TrainerStart.qml:208
 msgid "Scenario Training Units"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:204
+#: src/qml/TrainerStart.qml:215
 msgid "Phoneme Training Units"
 msgstr ""
 
@@ -547,54 +575,44 @@ msgstr ""
 msgid "This change will only take effect after restarting the application."
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, boxSpeakers)
-#: src/ui/sounddevicedialogpage.ui:23
-msgid "Speakers"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelOutputVolume)
-#: src/ui/sounddevicedialogpage.ui:35
-msgid "Volume"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, boxMicrophone)
-#: src/ui/sounddevicedialogpage.ui:67
-msgid "Microphone"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelInputDevice)
-#: src/ui/sounddevicedialogpage.ui:104
-msgid "Input Device"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, labelPlayTestSound)
-#: src/ui/sounddevicedialogpage.ui:130
+#: src/ui/sounddevicedialogpage.ui:23
 msgid "Play Test Sound"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonPlayTestSound)
-#: src/ui/sounddevicedialogpage.ui:137
+#: src/ui/sounddevicedialogpage.ui:30
 msgid "Play test sound."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelRecordTestSound)
-#: src/ui/sounddevicedialogpage.ui:147
+#: src/ui/sounddevicedialogpage.ui:40
 msgid "Record Test Sound"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonPlayRecordedTestSound)
-#: src/ui/sounddevicedialogpage.ui:154
+#: src/ui/sounddevicedialogpage.ui:47
 msgid "Play recorded test sound."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonRecordTestSound)
-#: src/ui/sounddevicedialogpage.ui:164
+#: src/ui/sounddevicedialogpage.ui:57
 msgid "Record test sound."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, labelTestSoundSettings)
-#: src/ui/sounddevicedialogpage.ui:186
-msgid "Test Sound Settings"
+#: src/ui/sounddevicedialogpage.ui:79
+msgid "Test Sound"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, boxSpeakers)
+#: src/ui/sounddevicedialogpage.ui:95
+msgid "Configure Speakers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelOutputVolume)
+#: src/ui/sounddevicedialogpage.ui:107
+msgid "Volume"
 msgstr ""
 
 #~ msgid "Type:"
