@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-20 01:37+0000\n"
+"POT-Creation-Date: 2013-08-23 01:34+0000\n"
 "PO-Revision-Date: 2013-03-06 13:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -56,7 +56,7 @@ msgid "Legend"
 msgstr ""
 
 #: src/ControlView.cpp:516 src/lib/MarbleControlBox.cpp:126
-#: src/lib/MarbleControlBox.cpp:205 src/lib/QtMarbleConfigDialog.cpp:146
+#: src/lib/MarbleControlBox.cpp:205 src/lib/QtMarbleConfigDialog.cpp:148
 #: src/plugins/render/routing/RoutingPlugin.cpp:449 src/QtMainWindow.cpp:342
 msgid "Routing"
 msgstr ""
@@ -66,7 +66,7 @@ msgstr ""
 msgid "Location"
 msgstr "स्थान"
 
-#: src/ControlView.cpp:531 src/lib/routing/RoutingWidget.cpp:155
+#: src/ControlView.cpp:531 src/lib/routing/RoutingWidget.cpp:163
 #, fuzzy
 msgid "Search"
 msgstr "शोधा"
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Export Bookmarks"
 msgstr ""
 
-#: src/lib/BookmarkManagerDialog.cpp:401 src/lib/routing/RoutingWidget.cpp:652
+#: src/lib/BookmarkManagerDialog.cpp:401 src/lib/routing/RoutingWidget.cpp:678
 msgid "KML files (*.kml)"
 msgstr ""
 
@@ -141,7 +141,7 @@ msgstr ""
 msgid "Import Bookmarks - Marble"
 msgstr ""
 
-#: src/lib/BookmarkManagerDialog.cpp:419 src/lib/routing/RoutingWidget.cpp:618
+#: src/lib/BookmarkManagerDialog.cpp:419 src/lib/routing/RoutingWidget.cpp:644
 msgid "KML Files (*.kml)"
 msgstr ""
 
@@ -194,6 +194,38 @@ msgstr "रद्द करा"
 
 #: src/lib/CacheStoragePolicy.cpp:39
 msgid "Unable to insert data into cache"
+msgstr ""
+
+#: src/lib/cloudsync/RouteItemDelegate.cpp:174
+#: src/lib/cloudsync/RouteItemDelegate.cpp:195
+#: src/lib/MapThemeDownloadDialog.cpp:278
+#, fuzzy
+#| msgid "&Open..."
+msgid "Open"
+msgstr "उघडा (&O)..."
+
+#: src/lib/cloudsync/RouteItemDelegate.cpp:175
+#: src/lib/cloudsync/RouteItemDelegate.cpp:200
+msgid "Load"
+msgstr ""
+
+#: src/lib/cloudsync/RouteItemDelegate.cpp:176
+#: src/lib/cloudsync/RouteItemDelegate.cpp:205
+#, fuzzy
+msgid "Remove from device"
+msgstr "'पसंत' मधून काढून टाका"
+
+#: src/lib/cloudsync/RouteItemDelegate.cpp:177
+#: src/lib/cloudsync/RouteItemDelegate.cpp:210
+msgid "Delete from cloud"
+msgstr ""
+
+#: src/lib/cloudsync/RouteItemDelegate.cpp:215
+msgid "Upload to cloud"
+msgstr ""
+
+#: src/lib/cloudsync/RouteSyncManager.cpp:68
+msgid "Uploading route..."
 msgstr ""
 
 #: src/lib/CurrentLocationWidget.cpp:206
@@ -454,7 +486,7 @@ msgstr ""
 msgid "Home"
 msgstr "मुख्य"
 
-#: src/lib/GoToDialog.cpp:358
+#: src/lib/GoToDialog.cpp:359
 msgid "Address or search term"
 msgstr ""
 
@@ -509,12 +541,6 @@ msgstr ""
 #: src/plugins/runner/monav/MonavMapsModel.cpp:56
 msgid "Update"
 msgstr "अद्ययावत करा"
-
-#: src/lib/MapThemeDownloadDialog.cpp:278
-#, fuzzy
-#| msgid "&Open..."
-msgid "Open"
-msgstr "उघडा (&O)..."
 
 #: src/lib/MapThemeManager.cpp:396
 #: src/plugins/runner/monav/MonavMapsModel.cpp:45
@@ -1268,7 +1294,7 @@ msgid ""
 "\"http://edu.kde.org/marble\">http://edu.kde.org/marble</a>"
 msgstr ""
 
-#: src/lib/MarbleControlBox.cpp:167 src/lib/QtMarbleConfigDialog.cpp:128
+#: src/lib/MarbleControlBox.cpp:167 src/lib/QtMarbleConfigDialog.cpp:130
 #: src/plugins/render/navigation/NavigationFloatItem.cpp:77
 #, fuzzy
 msgid "Navigation"
@@ -1396,7 +1422,7 @@ msgstr ""
 msgid "Address Details"
 msgstr ""
 
-#: src/lib/NewstuffModel.cpp:679 src/lib/NewstuffModel.cpp:688
+#: src/lib/NewstuffModel.cpp:680 src/lib/NewstuffModel.cpp:689
 msgid "Installation aborted by user."
 msgstr ""
 
@@ -1492,39 +1518,43 @@ msgstr "संयोजीत करा"
 msgid "Unknown error"
 msgstr "अपरिचीत त्रुटी"
 
-#: src/lib/QtMarbleConfigDialog.cpp:107
+#: src/lib/QtMarbleConfigDialog.cpp:109
 msgid "View"
 msgstr "दृश्य"
 
-#: src/lib/QtMarbleConfigDialog.cpp:113
+#: src/lib/QtMarbleConfigDialog.cpp:115
 msgid "Native"
 msgstr "मूळ"
 
-#: src/lib/QtMarbleConfigDialog.cpp:116
+#: src/lib/QtMarbleConfigDialog.cpp:118
 msgid "Native (X11)"
 msgstr ""
 
-#: src/lib/QtMarbleConfigDialog.cpp:119
+#: src/lib/QtMarbleConfigDialog.cpp:121
 msgid "Native (Mac OS X Core Graphics)"
 msgstr ""
 
-#: src/lib/QtMarbleConfigDialog.cpp:134
+#: src/lib/QtMarbleConfigDialog.cpp:136
 msgid "Cache and Proxy"
 msgstr ""
 
-#: src/lib/QtMarbleConfigDialog.cpp:142
+#: src/lib/QtMarbleConfigDialog.cpp:144
 msgid "Date and Time"
 msgstr "दिनांक व वेळ"
 
-#: src/lib/QtMarbleConfigDialog.cpp:153
+#: src/lib/QtMarbleConfigDialog.cpp:155
 msgid "Plugins"
 msgstr "प्लगइन्स"
 
-#: src/lib/QtMarbleConfigDialog.cpp:363
+#: src/lib/QtMarbleConfigDialog.cpp:166
+msgid "Synchronization"
+msgstr ""
+
+#: src/lib/QtMarbleConfigDialog.cpp:387
 msgid "Graphics System Change"
 msgstr ""
 
-#: src/lib/QtMarbleConfigDialog.cpp:364
+#: src/lib/QtMarbleConfigDialog.cpp:388
 msgid ""
 "You have decided to run Marble with a different graphics system.\n"
 "For this change to become effective, Marble has to be restarted.\n"
@@ -1794,61 +1824,69 @@ msgstr "अपरिचीत"
 msgid "New Profile"
 msgstr "नवीन रूपरेषा"
 
-#: src/lib/routing/RoutingWidget.cpp:144
+#: src/lib/routing/RoutingWidget.cpp:152
 msgid "Get Directions"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:145
+#: src/lib/routing/RoutingWidget.cpp:153
 msgid "Retrieve routing instructions for the selected destinations."
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:156
+#: src/lib/routing/RoutingWidget.cpp:164
 msgid "Find places matching the search term"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:179 src/lib/routing/RoutingWidget.cpp:617
+#: src/lib/routing/RoutingWidget.cpp:187 src/lib/routing/RoutingWidget.cpp:643
 msgid "Open Route"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:184 src/lib/routing/RoutingWidget.cpp:650
+#: src/lib/routing/RoutingWidget.cpp:192 src/lib/routing/RoutingWidget.cpp:676
 msgid "Save Route"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:191
-msgid "Add Via"
-msgstr ""
-
-#: src/lib/routing/RoutingWidget.cpp:196
-msgid "Reverse Route"
+#: src/lib/routing/RoutingWidget.cpp:197
+msgid "Upload to Cloud"
 msgstr ""
 
 #: src/lib/routing/RoutingWidget.cpp:201
+msgid "Manage Cloud Routes"
+msgstr ""
+
+#: src/lib/routing/RoutingWidget.cpp:213
+msgid "Add Via"
+msgstr ""
+
+#: src/lib/routing/RoutingWidget.cpp:218
+msgid "Reverse Route"
+msgstr ""
+
+#: src/lib/routing/RoutingWidget.cpp:223
 msgid "Clear Route"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:208
+#: src/lib/routing/RoutingWidget.cpp:230
 msgid "Settings"
 msgstr "संयोजना"
 
-#: src/lib/routing/RoutingWidget.cpp:328
+#: src/lib/routing/RoutingWidget.cpp:354
 msgid "Directions - Marble"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:394
+#: src/lib/routing/RoutingWidget.cpp:420
 #, qt-format
 msgid "placemarks found: %1"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:400
+#: src/lib/routing/RoutingWidget.cpp:426
 msgid "No placemark found"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:604
+#: src/lib/routing/RoutingWidget.cpp:630
 #, qt-format
 msgid "routes found: %1"
 msgstr ""
 
-#: src/lib/routing/RoutingWidget.cpp:669
+#: src/lib/routing/RoutingWidget.cpp:714
 msgid "No route found"
 msgstr ""
 
@@ -4893,31 +4931,31 @@ msgstr "सर्व समर्थीत फाईल्स"
 msgid "Unnamed"
 msgstr "निनावी"
 
-#: src/QtMainWindow.cpp:1481
+#: src/QtMainWindow.cpp:1497
 msgid "Map View - Marble"
 msgstr ""
 
-#: src/QtMainWindow.cpp:1500
+#: src/QtMainWindow.cpp:1516
 msgid "Routing - Marble"
 msgstr ""
 
-#: src/QtMainWindow.cpp:1509
+#: src/QtMainWindow.cpp:1525
 msgid "Open Route..."
 msgstr ""
 
-#: src/QtMainWindow.cpp:1513
+#: src/QtMainWindow.cpp:1529
 msgid "Save Route..."
 msgstr ""
 
-#: src/QtMainWindow.cpp:1537
+#: src/QtMainWindow.cpp:1553
 msgid "Tracking - Marble"
 msgstr ""
 
-#: src/QtMainWindow.cpp:1561
+#: src/QtMainWindow.cpp:1577
 msgid "Zoom &In"
 msgstr "मोठे करा (&I)"
 
-#: src/QtMainWindow.cpp:1566
+#: src/QtMainWindow.cpp:1582
 msgid "Zoom &Out"
 msgstr "लहान करा (&O)"
 
