@@ -873,25 +873,35 @@ msgctxt "Gui::MessageListWidget|"
 msgid "Allow raw IMAP search"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:360
+#: ../src/Gui/MessageView.cpp:149
+#, fuzzy
+#| msgctxt "Gui::Message822Widget|"
+#| msgid "Message"
+msgctxt "Gui::MessageView|"
+msgid ""
+"Fetching\n"
+"Message"
+msgstr "संदेश"
+
+#: ../src/Gui/MessageView.cpp:358
 msgctxt "Gui::MessageView|"
 msgid "you"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:365
+#: ../src/Gui/MessageView.cpp:363
 #, qt-format
 msgctxt "Gui::MessageView|"
 msgid "On %1, %2 wrote:\n"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:396
+#: ../src/Gui/MessageView.cpp:394
 msgctxt "Gui::MessageView|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
 "the recipients manually."
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:399
+#: ../src/Gui/MessageView.cpp:397
 msgctxt "Gui::MessageView|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -899,7 +909,7 @@ msgid ""
 "the list of addresses manually."
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:404
+#: ../src/Gui/MessageView.cpp:402
 msgctxt "Gui::MessageView|"
 msgid "Cannot Determine Recipients"
 msgstr ""
@@ -2154,7 +2164,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: ../src/Gui/Window.cpp:857 ../src/Gui/Window.cpp:864
-#: ../src/Gui/Window.cpp:2121
+#: ../src/Gui/Window.cpp:2129
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr ""
@@ -2167,22 +2177,22 @@ msgid ""
 msgstr ""
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: ../src/Gui/Window.cpp:1041
+#: ../src/Gui/Window.cpp:1049
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1047
+#: ../src/Gui/Window.cpp:1055
 msgctxt "Gui::MainWindow|"
 msgid "Connection Error"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1060
+#: ../src/Gui/Window.cpp:1068
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1061
+#: ../src/Gui/Window.cpp:1069
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2192,12 +2202,12 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1075
+#: ../src/Gui/Window.cpp:1083
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1111
+#: ../src/Gui/Window.cpp:1119
 #, fuzzy
 #| msgctxt "QStandardPaths|"
 #| msgid "Configuration"
@@ -2205,61 +2215,61 @@ msgctxt "Gui::MainWindow|"
 msgid "No Configuration"
 msgstr "संयोजना"
 
-#: ../src/Gui/Window.cpp:1112
+#: ../src/Gui/Window.cpp:1120
 msgctxt "Gui::MainWindow|"
 msgid "No IMAP account is configured. Trojitá cannot do much without one."
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1123
+#: ../src/Gui/Window.cpp:1131
 msgctxt "Gui::MainWindow|"
 msgid "Authentication Required"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1124
+#: ../src/Gui/Window.cpp:1132
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<p>Please provide IMAP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1149
+#: ../src/Gui/Window.cpp:1157
 msgctxt "Gui::MainWindow|"
 msgid "Login Failed"
 msgstr "प्रवेश अपयशी"
 
-#: ../src/Gui/Window.cpp:1254 ../src/Gui/Window.cpp:1256
+#: ../src/Gui/Window.cpp:1262 ../src/Gui/Window.cpp:1264
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1256
+#: ../src/Gui/Window.cpp:1264
 msgctxt "Gui::MainWindow|"
 msgid "Edit draft"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1410
+#: ../src/Gui/Window.cpp:1418
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Create a Subfolder of %1"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1411
+#: ../src/Gui/Window.cpp:1419
 msgctxt "Gui::MainWindow|"
 msgid "Create a Top-level Mailbox"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1434
+#: ../src/Gui/Window.cpp:1442
 msgctxt "Gui::MainWindow|"
 msgid "Delete Mailbox"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1435
+#: ../src/Gui/Window.cpp:1443
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Are you sure to delete mailbox %1?"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1588 ../src/Gui/Window.cpp:1595
-#: ../src/Gui/Window.cpp:1600
+#: ../src/Gui/Window.cpp:1596 ../src/Gui/Window.cpp:1603
+#: ../src/Gui/Window.cpp:1608
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Error"
@@ -2267,29 +2277,29 @@ msgctxt "Gui::MainWindow|"
 msgid "Error"
 msgstr "त्रुटी"
 
-#: ../src/Gui/Window.cpp:1588
+#: ../src/Gui/Window.cpp:1596
 msgctxt "Gui::MainWindow|"
 msgid "Please configure the SMTP or sendmail settings in application settings."
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1595
+#: ../src/Gui/Window.cpp:1603
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The IMAP server does not support mail submission. Please reconfigure the "
 "application."
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1600
+#: ../src/Gui/Window.cpp:1608
 msgctxt "Gui::MainWindow|"
 msgid "Please configure e-mail delivery method in application settings."
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1625
+#: ../src/Gui/Window.cpp:1633
 msgctxt "Gui::MainWindow|"
 msgid "Can't delete mailbox"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1626
+#: ../src/Gui/Window.cpp:1634
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2297,12 +2307,12 @@ msgid ""
 "%2"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1631
+#: ../src/Gui/Window.cpp:1639
 msgctxt "Gui::MainWindow|"
 msgid "Can't create mailbox"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1632
+#: ../src/Gui/Window.cpp:1640
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2311,18 +2321,18 @@ msgid ""
 msgstr ""
 
 #. target of a hyperlink from the currently visible e-mail that the mouse is pointing to
-#: ../src/Gui/Window.cpp:1686
+#: ../src/Gui/Window.cpp:1694
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Link target: %1"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1697
+#: ../src/Gui/Window.cpp:1705
 msgctxt "Gui::MainWindow|"
 msgid "About Trojitá"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1698
+#: ../src/Gui/Window.cpp:1706
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2333,12 +2343,12 @@ msgid ""
 "trojita.flaska.net/</a></p><p>You are using version %1.</p>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1742
+#: ../src/Gui/Window.cpp:1750
 msgctxt "Gui::MainWindow|"
 msgid "Can't save into file"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1743
+#: ../src/Gui/Window.cpp:1751
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2346,113 +2356,113 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1748
+#: ../src/Gui/Window.cpp:1756
 msgctxt "Gui::MainWindow|"
 msgid "Save Message"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1765 ../src/Gui/Window.cpp:1796
+#: ../src/Gui/Window.cpp:1773 ../src/Gui/Window.cpp:1804
 msgctxt "Gui::MainWindow|"
 msgid "Close"
 msgstr "बंद करा"
 
-#: ../src/Gui/Window.cpp:1767 ../src/Gui/Window.cpp:1798
+#: ../src/Gui/Window.cpp:1775 ../src/Gui/Window.cpp:1806
 msgctxt "Gui::MainWindow|"
 msgid "Ctrl+W"
 msgstr "Ctrl+W"
 
-#: ../src/Gui/Window.cpp:1769
+#: ../src/Gui/Window.cpp:1777
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message source of UID %1 in %2"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1800
+#: ../src/Gui/Window.cpp:1808
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Message headers of UID %1 in %2"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2039
+#: ../src/Gui/Window.cpp:2047
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1</li>\n"
 msgstr "<li>%1</li>\n"
 
-#: ../src/Gui/Window.cpp:2048 ../src/Gui/Window.cpp:2051
+#: ../src/Gui/Window.cpp:2056 ../src/Gui/Window.cpp:2059
 msgctxt "Gui::MainWindow|"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: ../src/Gui/Window.cpp:2066
+#: ../src/Gui/Window.cpp:2074
 msgctxt "Gui::MainWindow|"
 msgid "<p>"
 msgstr "<p>"
 
-#: ../src/Gui/Window.cpp:2068
+#: ../src/Gui/Window.cpp:2076
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1 %2"
 msgstr "सर्व्हर : %1 %2"
 
-#: ../src/Gui/Window.cpp:2070
+#: ../src/Gui/Window.cpp:2078
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "Server: %1"
 msgstr "सर्व्हर : %1"
 
-#: ../src/Gui/Window.cpp:2073
+#: ../src/Gui/Window.cpp:2081
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " (%1)"
 msgstr " (%1)"
 
-#: ../src/Gui/Window.cpp:2077
+#: ../src/Gui/Window.cpp:2085
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " on %1 %2"
 msgstr " %1 %2 वर"
 
-#: ../src/Gui/Window.cpp:2079
+#: ../src/Gui/Window.cpp:2087
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid " on %1"
 msgstr " %1 वर"
 
-#: ../src/Gui/Window.cpp:2081
+#: ../src/Gui/Window.cpp:2089
 msgctxt "Gui::MainWindow|"
 msgid "</p>"
 msgstr "</p>"
 
-#: ../src/Gui/Window.cpp:2083
+#: ../src/Gui/Window.cpp:2091
 msgctxt "Gui::MainWindow|"
 msgid "<p>The IMAP server did not return usable information about itself.</p>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2088 ../src/Gui/Window.cpp:2090
+#: ../src/Gui/Window.cpp:2096 ../src/Gui/Window.cpp:2098
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<li>%1: %2</li>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2093
+#: ../src/Gui/Window.cpp:2101
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "<ul>%1</ul>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2095
+#: ../src/Gui/Window.cpp:2103
 msgctxt "Gui::MainWindow|"
 msgid ""
 "<p>The server has not provided information about its software version.</p>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2098
+#: ../src/Gui/Window.cpp:2106
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Server Information"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2099
+#: ../src/Gui/Window.cpp:2107
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2461,13 +2471,13 @@ msgid ""
 "%2</ul>"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2114
+#: ../src/Gui/Window.cpp:2122
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - %2 unread - Trojitá"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:2118
+#: ../src/Gui/Window.cpp:2126
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid "%1 - Trojitá"
@@ -4011,13 +4021,6 @@ msgstr ""
 msgctxt "XtConnect::XtConnect|"
 msgid "Database Password: "
 msgstr ""
-
-#, fuzzy
-#~| msgctxt "Gui::Message822Widget|"
-#~| msgid "Message"
-#~ msgctxt "Gui::Message822Widget|"
-#~ msgid "Attached Message"
-#~ msgstr "संदेश"
 
 #~ msgctxt "Gui::Rfc822HeaderView|"
 #~ msgid "Loading..."
