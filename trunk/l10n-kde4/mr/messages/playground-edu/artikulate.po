@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-19 01:50+0000\n"
+"POT-Creation-Date: 2013-08-29 01:45+0000\n"
 "PO-Revision-Date: 2013-03-18 17:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -116,7 +116,12 @@ msgstr ""
 msgid "Audio output volume"
 msgstr ""
 
-#: src/core/course.cpp:184
+#. i18n: ectx: Menu (mode)
+#: src/artikulateui.rc:16
+msgid "M&ode"
+msgstr ""
+
+#: src/core/course.cpp:187
 msgid "New Unit"
 msgstr ""
 
@@ -156,36 +161,38 @@ msgstr ""
 msgid "Magdalena Konkiewicz"
 msgstr ""
 
-#: src/mainwindow.cpp:78 src/qml/Editor.qml:240
-msgid "Course Editor"
+#: src/mainwindow.cpp:109
+#, fuzzy
+#| msgid "Close Editor"
+msgid "Course Editor mode"
+msgstr "संपादक बंद करा"
+
+#: src/mainwindow.cpp:117
+msgid "Configure Artikulate"
 msgstr ""
 
-#: src/mainwindow.cpp:84
-msgid "Settings"
-msgstr ""
-
-#: src/mainwindow.cpp:90
+#: src/mainwindow.cpp:122
 msgid "Download New Language Course"
 msgstr ""
 
-#: src/mainwindow.cpp:157
+#: src/mainwindow.cpp:168
 msgctxt "@item:inmenu"
 msgid "Sound Devices"
 msgstr ""
 
-#: src/mainwindow.cpp:157
+#: src/mainwindow.cpp:168
 msgctxt "@title:tab"
 msgid "Sound Device Settings"
 msgstr ""
 
-#: src/mainwindow.cpp:158
+#: src/mainwindow.cpp:169
 #, fuzzy
 #| msgid "Close Course"
 msgctxt "@item:inmenu"
 msgid "Course Resources"
 msgstr "कोर्स बंद करा"
 
-#: src/mainwindow.cpp:158
+#: src/mainwindow.cpp:169
 msgctxt "@title:tab"
 msgid "Resource Repository Settings"
 msgstr ""
@@ -193,14 +200,14 @@ msgstr ""
 #: src/models/coursemodel.cpp:112 src/models/languagemodel.cpp:96
 #: src/models/phonemegroupmodel.cpp:95 src/models/phonememodel.cpp:76
 #: src/models/phonemeunitmodel.cpp:120 src/models/phrasemodel.cpp:101
-#: src/models/skeletonmodel.cpp:94 src/models/unitmodel.cpp:97
+#: src/models/skeletonmodel.cpp:95 src/models/unitmodel.cpp:97
 msgid "<No title>"
 msgstr ""
 
 #: src/models/coursemodel.cpp:114 src/models/languagemodel.cpp:98
 #: src/models/phonemegroupmodel.cpp:97 src/models/phonememodel.cpp:78
 #: src/models/phonemeunitmodel.cpp:122 src/models/phrasemodel.cpp:103
-#: src/models/skeletonmodel.cpp:96 src/models/unitmodel.cpp:99
+#: src/models/skeletonmodel.cpp:97 src/models/unitmodel.cpp:99
 #, kde-format
 msgid "<p>%1</p>"
 msgstr ""
@@ -208,7 +215,7 @@ msgstr ""
 #: src/models/coursemodel.cpp:182 src/models/languagemodel.cpp:163
 #: src/models/phonemegroupmodel.cpp:159 src/models/phonememodel.cpp:138
 #: src/models/phonemeunitmodel.cpp:190 src/models/phrasemodel.cpp:167
-#: src/models/skeletonmodel.cpp:162 src/models/unitmodel.cpp:163
+#: src/models/skeletonmodel.cpp:163 src/models/unitmodel.cpp:163
 msgid "Title"
 msgstr "शिर्षक"
 
@@ -225,66 +232,70 @@ msgstr ""
 msgid "Unselected"
 msgstr ""
 
-#: src/qml/Editor.qml:113
+#: src/qml/Editor.qml:104
 #, kde-format
 msgid "<strong>Language:</strong> %1"
 msgstr "<strong>भाषा :</strong> %1"
 
-#: src/qml/Editor.qml:127
+#: src/qml/Editor.qml:118
 #, kde-format
 msgid "<strong>Course:</strong> %1"
 msgstr ""
 
-#: src/qml/Editor.qml:131
+#: src/qml/Editor.qml:122
 msgid "Update from Course Prototype"
 msgstr ""
 
-#: src/qml/Editor.qml:144
+#: src/qml/Editor.qml:135
 #, kde-format
 msgid "<strong>Skeleton:</strong> %1"
 msgstr "<strong>स्केलेटन :</strong> %1"
 
-#: src/qml/Editor.qml:163
+#: src/qml/Editor.qml:154
 msgid "OK"
 msgstr "ठीक आहे"
 
-#: src/qml/Editor.qml:180
+#: src/qml/Editor.qml:171
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/qml/Editor.qml:197 src/qml/Trainer.qml:77
+#: src/qml/Editor.qml:188 src/qml/Trainer.qml:69
 msgid "Close Course"
 msgstr "कोर्स बंद करा"
 
-#: src/qml/Editor.qml:212
+#: src/qml/Editor.qml:203
 msgid "Close Editor"
 msgstr "संपादक बंद करा"
 
-#: src/qml/Editor.qml:249
+#: src/qml/Editor.qml:231
+msgid "Course Editor"
+msgstr ""
+
+#: src/qml/Editor.qml:240
 msgid "Course Skeleton:"
 msgstr ""
 
-#: src/qml/Editor.qml:251
+#: src/qml/Editor.qml:242
 #, fuzzy
 #| msgid "Close Course"
 msgid "Course:"
 msgstr "कोर्स बंद करा"
 
-#: src/qml/Editor.qml:283
+#: src/qml/Editor.qml:274
 msgid "Units"
 msgstr "एकके"
 
-#: src/qml/Editor.qml:288
+#: src/qml/Editor.qml:279
 msgid "Add Unit"
 msgstr "एकक जोडा"
 
-#: src/qml/Editor.qml:325
+#: src/qml/Editor.qml:316
 #, fuzzy
 #| msgid "No course selected"
 msgid "No Course Repository Selected"
 msgstr "कोणताही कोर्स निवडला नाही"
 
-#: src/qml/Editor.qml:329
+#: src/qml/Editor.qml:320
 msgid ""
 "Editor is only available when Artikulate works on a course data repository. "
 "Please see program settings."
@@ -313,7 +324,7 @@ msgstr "भाषा :"
 msgid "unselected"
 msgstr "न निवडलेले"
 
-#: src/qml/EditorSelector.qml:128 src/ui/newcoursedialog.cpp:60
+#: src/qml/EditorSelector.qml:128 src/ui/newcoursedialog.cpp:63
 msgid "New Course"
 msgstr ""
 
@@ -467,39 +478,39 @@ msgstr ""
 msgid "Download new courses"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:94
+#: src/qml/TrainerStart.qml:95
 msgid "No language selected"
 msgstr "कोणतीही भाषा निवडली नाही"
 
-#: src/qml/TrainerStart.qml:114
+#: src/qml/TrainerStart.qml:115
 msgid "No course selected"
 msgstr "कोणताही कोर्स निवडला नाही"
 
-#: src/qml/TrainerStart.qml:131
+#: src/qml/TrainerStart.qml:132
 msgid "Select a language:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:134
+#: src/qml/TrainerStart.qml:135
 msgid "Select a course:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:138
+#: src/qml/TrainerStart.qml:139
 msgid "Select a scenario unit:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:141
+#: src/qml/TrainerStart.qml:142
 msgid "Select a phoneme unit:"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:144
+#: src/qml/TrainerStart.qml:145
 msgid "Training is starting..."
 msgstr ""
 
-#: src/qml/TrainerStart.qml:208
+#: src/qml/TrainerStart.qml:209
 msgid "Scenario Training Units"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:215
+#: src/qml/TrainerStart.qml:216
 msgid "Phoneme Training Units"
 msgstr ""
 
@@ -513,11 +524,11 @@ msgstr "एकके"
 msgid "Add Phrase"
 msgstr "वाक्यांश जोडा"
 
-#: src/ui/newcoursedialog.cpp:36
+#: src/ui/newcoursedialog.cpp:39
 msgid "Create New Course"
 msgstr ""
 
-#: src/ui/newcoursedialog.cpp:55
+#: src/ui/newcoursedialog.cpp:58
 msgid "none"
 msgstr ""
 
