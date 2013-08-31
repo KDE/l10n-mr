@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-29 01:45+0000\n"
+"POT-Creation-Date: 2013-08-31 01:45+0000\n"
 "PO-Revision-Date: 2013-03-18 17:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -197,14 +197,14 @@ msgctxt "@title:tab"
 msgid "Resource Repository Settings"
 msgstr ""
 
-#: src/models/coursemodel.cpp:112 src/models/languagemodel.cpp:96
+#: src/models/coursemodel.cpp:112 src/models/languageresourcemodel.cpp:95
 #: src/models/phonemegroupmodel.cpp:95 src/models/phonememodel.cpp:76
 #: src/models/phonemeunitmodel.cpp:120 src/models/phrasemodel.cpp:101
 #: src/models/skeletonmodel.cpp:95 src/models/unitmodel.cpp:97
 msgid "<No title>"
 msgstr ""
 
-#: src/models/coursemodel.cpp:114 src/models/languagemodel.cpp:98
+#: src/models/coursemodel.cpp:114 src/models/languageresourcemodel.cpp:97
 #: src/models/phonemegroupmodel.cpp:97 src/models/phonememodel.cpp:78
 #: src/models/phonemeunitmodel.cpp:122 src/models/phrasemodel.cpp:103
 #: src/models/skeletonmodel.cpp:97 src/models/unitmodel.cpp:99
@@ -212,7 +212,7 @@ msgstr ""
 msgid "<p>%1</p>"
 msgstr ""
 
-#: src/models/coursemodel.cpp:182 src/models/languagemodel.cpp:163
+#: src/models/coursemodel.cpp:182 src/models/languageresourcemodel.cpp:164
 #: src/models/phonemegroupmodel.cpp:159 src/models/phonememodel.cpp:138
 #: src/models/phonemeunitmodel.cpp:190 src/models/phrasemodel.cpp:167
 #: src/models/skeletonmodel.cpp:163 src/models/unitmodel.cpp:163
@@ -259,7 +259,7 @@ msgstr "ठीक आहे"
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: src/qml/Editor.qml:188 src/qml/Trainer.qml:69
+#: src/qml/Editor.qml:188 src/qml/Trainer.qml:71
 msgid "Close Course"
 msgstr "कोर्स बंद करा"
 
@@ -313,22 +313,22 @@ msgstr ""
 msgid "Select Course Language:"
 msgstr ""
 
-#: src/qml/EditorSelector.qml:106
+#: src/qml/EditorSelector.qml:107
 #, fuzzy
 #| msgid "Language:"
 msgid "Language: "
 msgstr "भाषा :"
 
-#: src/qml/EditorSelector.qml:120 src/qml/TrainerCourse.qml:71
+#: src/qml/EditorSelector.qml:121 src/qml/TrainerCourse.qml:72
 #: src/qml/UnitEditor.qml:138
 msgid "unselected"
 msgstr "न निवडलेले"
 
-#: src/qml/EditorSelector.qml:128 src/ui/newcoursedialog.cpp:63
+#: src/qml/EditorSelector.qml:129 src/ui/newcoursedialog.cpp:63
 msgid "New Course"
 msgstr ""
 
-#: src/qml/EditorSelector.qml:151
+#: src/qml/EditorSelector.qml:152
 msgid "Select Skeleton:"
 msgstr ""
 
@@ -403,20 +403,20 @@ msgstr ""
 msgid "Course: %1"
 msgstr ""
 
-#: src/qml/TrainerCourse.qml:75
+#: src/qml/TrainerCourse.qml:76
 #, kde-format
 msgid "Unit: %1"
 msgstr ""
 
-#: src/qml/TrainerCourse.qml:109
+#: src/qml/TrainerCourse.qml:113
 msgid "Congratulations! This training unit is completed."
 msgstr ""
 
-#: src/qml/TrainerCourse.qml:114
+#: src/qml/TrainerCourse.qml:118
 msgid "Close Training"
 msgstr ""
 
-#: src/qml/TrainerCourse.qml:129
+#: src/qml/TrainerCourse.qml:133
 msgid "Training Progress"
 msgstr ""
 
@@ -428,30 +428,29 @@ msgstr ""
 msgid "Learner (You)"
 msgstr ""
 
-#: src/qml/TrainerPhraseTypeStatus.qml:65
-#: src/qml/TrainerPhraseTypeStatus.qml:104
-#: src/qml/TrainerPhraseTypeStatus.qml:135
-#: src/qml/TrainerPhraseTypeStatus.qml:167
-#: src/qml/TrainerPhraseTypeStatus.qml:199
-#, fuzzy
-#| msgid "Current Unit:"
-msgid "Currently training: "
-msgstr "वर्तमान एकक :"
-
-#: src/qml/TrainerPhraseTypeStatus.qml:100
-msgid "Change to train: Words"
+#: src/qml/TrainerPhraseTypeStatus.qml:49
+#: src/qml/TrainerPhraseTypeStatus.qml:89
+#: src/qml/TrainerPhraseTypeStatus.qml:121
+#: src/qml/TrainerPhraseTypeStatus.qml:154
+#: src/qml/TrainerPhraseTypeStatus.qml:187
+#, kde-format
+msgid "Difficulty: %1"
 msgstr ""
 
-#: src/qml/TrainerPhraseTypeStatus.qml:131
-msgid "Change to train: Expressions"
+#: src/qml/TrainerPhraseTypeStatus.qml:85
+msgid "Difficulty: <i>change to Words</i>"
 msgstr ""
 
-#: src/qml/TrainerPhraseTypeStatus.qml:163
-msgid "Change to train: Sentences"
+#: src/qml/TrainerPhraseTypeStatus.qml:117
+msgid "Difficulty: <i>change to Expressions</i>"
 msgstr ""
 
-#: src/qml/TrainerPhraseTypeStatus.qml:195
-msgid "Change to train: Paragraphs"
+#: src/qml/TrainerPhraseTypeStatus.qml:150
+msgid "Difficulty: <i>change to Sentences</i>"
+msgstr ""
+
+#: src/qml/TrainerPhraseTypeStatus.qml:183
+msgid "Difficulty: <i>change to Paragraphs</i>"
 msgstr ""
 
 #: src/qml/TrainerSessionScreen.qml:51
@@ -506,11 +505,11 @@ msgstr ""
 msgid "Training is starting..."
 msgstr ""
 
-#: src/qml/TrainerStart.qml:209
+#: src/qml/TrainerStart.qml:210
 msgid "Scenario Training Units"
 msgstr ""
 
-#: src/qml/TrainerStart.qml:216
+#: src/qml/TrainerStart.qml:217
 msgid "Phoneme Training Units"
 msgstr ""
 
@@ -625,6 +624,11 @@ msgstr ""
 #: src/ui/sounddevicedialogpage.ui:107
 msgid "Volume"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Current Unit:"
+#~ msgid "Currently training: "
+#~ msgstr "वर्तमान एकक :"
 
 #~ msgid "Type:"
 #~ msgstr "प्रकार :"
