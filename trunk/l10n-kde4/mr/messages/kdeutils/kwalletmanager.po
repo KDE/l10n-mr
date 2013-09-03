@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-03 01:39+0000\n"
+"POT-Creation-Date: 2013-09-03 01:43+0000\n"
 "PO-Revision-Date: 2013-04-06 12:34+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -180,7 +180,7 @@ msgstr "नवीन संचयीका"
 msgid "Please choose a name for the new folder:"
 msgstr "नवीन संचयीकेकरिता कृपया नाव निवडा :"
 
-#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:290
+#: kwalleteditor.cpp:438 kwalleteditor.cpp:787 kwalletmanager.cpp:295
 msgid "Do Not Try"
 msgstr "प्रयत्न करू नका"
 
@@ -283,16 +283,16 @@ msgstr ""
 msgid "Error: XML file does not contain a wallet."
 msgstr ""
 
-#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:187
-#: kwalletmanager.cpp:238
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:78 kwalletmanager.cpp:192
+#: kwalletmanager.cpp:243
 msgid "KDE Wallet"
 msgstr "केडीई पाकीट"
 
-#: kwalletmanager.cpp:71 kwalletmanager.cpp:238
+#: kwalletmanager.cpp:71 kwalletmanager.cpp:243
 msgid "No wallets open."
 msgstr ""
 
-#: kwalletmanager.cpp:78 kwalletmanager.cpp:187
+#: kwalletmanager.cpp:78 kwalletmanager.cpp:192
 msgid "A wallet is open."
 msgstr ""
 
@@ -300,66 +300,72 @@ msgstr ""
 msgid "&New Wallet..."
 msgstr "नवीन पाकीट (&N)..."
 
-#: kwalletmanager.cpp:125
+#: kwalletmanager.cpp:126
+#, fuzzy
+#| msgid "&New Wallet..."
+msgid "Open Wallet..."
+msgstr "नवीन पाकीट (&N)..."
+
+#: kwalletmanager.cpp:130
 #, fuzzy
 #| msgid "&Delete wallet..."
 msgid "&Delete Wallet..."
 msgstr "पाकीट काढून टाका (&D)..."
 
-#: kwalletmanager.cpp:129
+#: kwalletmanager.cpp:134
 msgid "Configure &Wallet..."
 msgstr "पाकीट संयोजीत करा (&W)..."
 
-#: kwalletmanager.cpp:137
+#: kwalletmanager.cpp:142
 msgid "Close &All Wallets"
 msgstr ""
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid ""
 "Unable to close wallet cleanly. It is probably in use by other applications. "
 "Do you wish to force it closed?"
 msgstr ""
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid "Force Closure"
 msgstr ""
 
-#: kwalletmanager.cpp:211 walletcontrolwidget.cpp:102
+#: kwalletmanager.cpp:216 walletcontrolwidget.cpp:118
 msgid "Do Not Force"
 msgstr "बळपूर्वक करू नका"
 
-#: kwalletmanager.cpp:215 walletcontrolwidget.cpp:106
+#: kwalletmanager.cpp:220 walletcontrolwidget.cpp:122
 #, kde-format
 msgid "Unable to force the wallet closed. Error code was %1."
 msgstr ""
 
-#: kwalletmanager.cpp:231
+#: kwalletmanager.cpp:236
 #, kde-format
 msgid "Error opening wallet %1."
 msgstr ""
 
-#: kwalletmanager.cpp:273
+#: kwalletmanager.cpp:278
 msgid "Please choose a name for the new wallet:"
 msgstr "नवीन पाकीटाकरिता कृपया नाव निवडा :"
 
-#: kwalletmanager.cpp:282
+#: kwalletmanager.cpp:287
 msgid "New Wallet"
 msgstr "नवीन पाकीट"
 
-#: kwalletmanager.cpp:290
+#: kwalletmanager.cpp:295
 msgid "Sorry, that wallet already exists. Try a new name?"
 msgstr ""
 
-#: kwalletmanager.cpp:290
+#: kwalletmanager.cpp:295
 msgid "Try New"
 msgstr ""
 
-#: kwalletmanager.cpp:312
+#: kwalletmanager.cpp:317
 #, kde-format
 msgid "Are you sure you wish to delete the wallet '%1'?"
 msgstr ""
 
-#: kwalletmanager.cpp:318
+#: kwalletmanager.cpp:323
 #, kde-format
 msgid "Unable to delete the wallet. Error code was %1."
 msgstr ""
@@ -379,7 +385,7 @@ msgstr "संयोजना (&S)"
 msgid "&Help"
 msgstr "मदत (&H)"
 
-#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:78
+#: kwalletpopup.cpp:44 walletcontrolwidget.cpp:94
 msgid "&Open..."
 msgstr "उघडा (&O)..."
 
@@ -422,12 +428,12 @@ msgid "(c) 2003,2004 George Staikos"
 msgstr "(c) 2003,2004 जॉर्ज स्टैकोस"
 
 #: main.cpp:50
-msgid "Michael Leupold"
-msgstr "माइकेल ल्युपोल्ड"
+msgid "Valentin Rusu"
+msgstr "व्हेलेन्टिन रुसु"
 
 #: main.cpp:50
-msgid "Maintainer"
-msgstr "पालक"
+msgid "Maintainer, user interface refactoring"
+msgstr ""
 
 #: main.cpp:51
 msgid "George Staikos"
@@ -438,20 +444,22 @@ msgid "Original author and former maintainer"
 msgstr "मूळ लेखक व पूर्वीचा पालक"
 
 #: main.cpp:52
+msgid "Michael Leupold"
+msgstr "माइकेल ल्युपोल्ड"
+
+#: main.cpp:52
+#, fuzzy
+#| msgid "Original author and former maintainer"
+msgid "Developer and former maintainer"
+msgstr "मूळ लेखक व पूर्वीचा पालक"
+
+#: main.cpp:53
 msgid "Isaac Clerencia"
 msgstr "इझाक क्लेरेन्सिया"
 
-#: main.cpp:52
+#: main.cpp:53
 msgid "Developer"
 msgstr "विकासकर्ता"
-
-#: main.cpp:53
-msgid "Valentin Rusu"
-msgstr "व्हेलेन्टिन रुसु"
-
-#: main.cpp:53
-msgid "Developer - user interface refactoring"
-msgstr ""
 
 #: main.cpp:58
 msgid "Show window on startup"
@@ -469,11 +477,11 @@ msgstr "पाकीट नाव"
 msgid "Revoke Authorization"
 msgstr "अधिप्रमाणन रद्द करा"
 
-#: walletcontrolwidget.cpp:57
+#: walletcontrolwidget.cpp:74
 msgid "&Close"
 msgstr "बंद करा (&C)"
 
-#: walletcontrolwidget.cpp:74
+#: walletcontrolwidget.cpp:91
 #, kde-format
 msgctxt ""
 "the 'kdewallet' is currently open (e.g. %1 will be replaced with current "
@@ -481,7 +489,7 @@ msgctxt ""
 msgid "The '%1' wallet is currently open"
 msgstr ""
 
-#: walletcontrolwidget.cpp:90
+#: walletcontrolwidget.cpp:106
 msgid "The wallet is currently closed"
 msgstr ""
 
@@ -538,6 +546,9 @@ msgstr "पूर्ववत करा (&U)"
 #: walletwidget.ui:341
 msgid "&Save"
 msgstr "&साठवा"
+
+#~ msgid "Maintainer"
+#~ msgstr "पालक"
 
 #~ msgid "&Export..."
 #~ msgstr "निर्यात (&E)..."
