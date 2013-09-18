@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-17 01:45+0000\n"
+"POT-Creation-Date: 2013-09-18 01:46+0000\n"
 "PO-Revision-Date: 2013-04-15 10:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -58,7 +58,7 @@ msgctxt "@item Undefined import field type"
 msgid "Undefined"
 msgstr "व्याख्यारहित"
 
-#: contactfields.cpp:56 grantlee/grantleecontactformatter.cpp:240
+#: contactfields.cpp:56
 msgid "Anniversary"
 msgstr "वर्धापनदिन/स्मृतीदिन"
 
@@ -82,15 +82,15 @@ msgctxt "Fourth email address"
 msgid "EMail (4)"
 msgstr "इमेल (4)"
 
-#: contactfields.cpp:155 grantlee/grantleecontactformatter.cpp:283
+#: contactfields.cpp:155
 msgid "Blog Feed"
 msgstr "ब्लॉग फीड"
 
-#: contactfields.cpp:158 grantlee/grantleecontactformatter.cpp:335
+#: contactfields.cpp:158
 msgid "Profession"
 msgstr "व्यवसाय"
 
-#: contactfields.cpp:161 grantlee/grantleecontactformatter.cpp:339
+#: contactfields.cpp:161
 msgid "Office"
 msgstr "ऑफीस"
 
@@ -224,59 +224,6 @@ msgstr "यादीतील पुढील संपर्काकडे ज
 msgctxt "@info:status"
 msgid "%1 out of %2"
 msgstr "%2 पैकी %1"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: grantlee/grantleecontactformatter.cpp:229 printing/rbs_appearance.ui:99
-msgid "Birthday"
-msgstr "वाढदिवस"
-
-#: grantlee/grantleecontactformatter.cpp:252
-msgid "Emails"
-msgstr "इमेल"
-
-#: grantlee/grantleecontactformatter.cpp:275
-msgid "Website"
-msgstr "वेबसाईट"
-
-#: grantlee/grantleecontactformatter.cpp:291 mainwidget.cpp:625
-#: mainwidget.cpp:641
-msgid "Address Book"
-msgstr "पत्ते नोंदवही"
-
-#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
-#: grantlee/grantleecontactformatter.cpp:305 printing/rbs_appearance.ui:112
-msgid "Note"
-msgstr "नोंद"
-
-#: grantlee/grantleecontactformatter.cpp:328
-msgid "Department"
-msgstr "विभाग"
-
-#: grantlee/grantleecontactformatter.cpp:344
-msgid "Manager's Name"
-msgstr "व्यवस्थापकाचे नाव"
-
-#: grantlee/grantleecontactformatter.cpp:349
-msgid "Assistant's Name"
-msgstr "सहाय्यकाचे नाव"
-
-#: grantlee/grantleecontactformatter.cpp:354
-msgid "Partner's Name"
-msgstr "भागीदाराचे नाव"
-
-#: grantlee/grantleecontactformatter.cpp:359
-msgid "IM Address"
-msgstr "आयएम-इंटरनेट मेल(IM) पत्ता"
-
-#: grantlee/grantleecontactformatter.cpp:406
-msgctxt "Boolean value"
-msgid "yes"
-msgstr "हो"
-
-#: grantlee/grantleecontactformatter.cpp:408
-msgctxt "Boolean value"
-msgid "no"
-msgstr "नाही"
 
 #: kaddressbookpart.cpp:65
 msgid "&Configure KAddressBook..."
@@ -453,6 +400,10 @@ msgstr "GMX फील निर्यात करा"
 #: mainwidget.cpp:613
 msgid "Export contacts to a GMX address book file."
 msgstr "संपर्क GMX पत्ते नोंदवहीकडे निर्यात करा"
+
+#: mainwidget.cpp:625 mainwidget.cpp:641
+msgid "Address Book"
+msgstr "पत्ते नोंदवही"
 
 #: mainwidget.cpp:648 printing/printingwizard.cpp:56
 msgid "Print Contacts"
@@ -827,6 +778,11 @@ msgstr "संपर्काचे वाढदिवस छापा"
 msgid "Check this box if you want contact birthdays to be printed."
 msgstr "संपर्काचे वाढदिवस छापायचे असतील तर ही पेटी तपासा."
 
+#. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
+#: printing/rbs_appearance.ui:99
+msgid "Birthday"
+msgstr "वाढदिवस"
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, cbNote)
 #: printing/rbs_appearance.ui:106
 msgid "Print contact notes"
@@ -836,6 +792,11 @@ msgstr "संपर्काच्या नोंदी छापा"
 #: printing/rbs_appearance.ui:109
 msgid "Check this box if you want contact notes to be printed."
 msgstr "संपर्काच्या नोंदी छापायच्या असतील तर ही पेटी तपासा."
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbNote)
+#: printing/rbs_appearance.ui:112
+msgid "Note"
+msgstr "नोंद"
 
 #: printing/ringbinderstyle.cpp:149
 msgid "Ring Binder Printing Style - Appearance"
@@ -1394,32 +1355,32 @@ msgctxt "@info"
 msgid "Do you want to import this contact into your address book?"
 msgstr "तुम्हाला हा संपर्क तुमच्या पत्ते नोंदवहीत आयात करावयाचा आहे का?"
 
-#: xxport/vcard/vcard_xxport.cpp:515
+#: xxport/vcard/vcard_xxport.cpp:516
 msgctxt "@action:button"
 msgid "Import All..."
 msgstr "सर्व आयात करा..."
 
-#: xxport/vcard/vcard_xxport.cpp:579
+#: xxport/vcard/vcard_xxport.cpp:580
 msgctxt "@title:window"
 msgid "Select vCard Fields"
 msgstr "vcard प्रक्षेत्रे निवडा"
 
-#: xxport/vcard/vcard_xxport.cpp:593
+#: xxport/vcard/vcard_xxport.cpp:594
 msgctxt "@title:group"
 msgid "Fields to be exported"
 msgstr "पाठवायची/निर्यात करायची प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:597
+#: xxport/vcard/vcard_xxport.cpp:598
 msgctxt "@option:check"
 msgid "Private fields"
 msgstr "वैयक्तिक/खाजगी प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:599
+#: xxport/vcard/vcard_xxport.cpp:600
 msgctxt "@info:tooltip"
 msgid "Export private fields"
 msgstr "वैयक्तिक/खाजगी प्रक्षेत्रे निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:602
+#: xxport/vcard/vcard_xxport.cpp:603
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's private fields to the "
@@ -1428,17 +1389,17 @@ msgstr ""
 "संपर्काची वैयक्तिक/खाजगी प्रक्षेत्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास "
 "ही पेटी तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:606
+#: xxport/vcard/vcard_xxport.cpp:607
 msgctxt "@option:check"
 msgid "Business fields"
 msgstr "व्यावसायिक प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:608
+#: xxport/vcard/vcard_xxport.cpp:609
 msgctxt "@info:tooltip"
 msgid "Export business fields"
 msgstr "व्यावसायिक प्रक्षेत्रे निर्यात करा/पाठवा"
 
-#: xxport/vcard/vcard_xxport.cpp:611
+#: xxport/vcard/vcard_xxport.cpp:612
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's business fields to the "
@@ -1447,17 +1408,17 @@ msgstr ""
 "संपर्काची व्यावसायिक प्रक्षेत्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही "
 "पेटी तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:615
+#: xxport/vcard/vcard_xxport.cpp:616
 msgctxt "@option:check"
 msgid "Other fields"
 msgstr "अन्य प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:617
+#: xxport/vcard/vcard_xxport.cpp:618
 msgctxt "@info:tooltip"
 msgid "Export other fields"
 msgstr "अन्य प्रक्षेत्रे पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:620
+#: xxport/vcard/vcard_xxport.cpp:621
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's other fields to the vCard "
@@ -1466,17 +1427,17 @@ msgstr ""
 "संपर्काची अन्य प्रक्षेत्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही पेटी "
 "तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:624
+#: xxport/vcard/vcard_xxport.cpp:625
 msgctxt "@option:check"
 msgid "Encryption keys"
 msgstr "सांकेतिक लीपिबध्द माहितीची संकेतसूची/कळपट्टीवरील बटण"
 
-#: xxport/vcard/vcard_xxport.cpp:626
+#: xxport/vcard/vcard_xxport.cpp:627
 msgctxt "@info:tooltip"
 msgid "Export encryption keys"
 msgstr "सांकेतिक लीपिबद्ध माहितीची संकेतसूची/कळपट्टीवरील बटण पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:629
+#: xxport/vcard/vcard_xxport.cpp:630
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's encryption keys to the "
@@ -1485,17 +1446,17 @@ msgstr ""
 "संपर्काच्या सांकेतिक लिपिबद्ध माहितीची संकेतसूची/कळपट्टीवरील बटण vCard च्या संगणक "
 "निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही पेटी तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:633
+#: xxport/vcard/vcard_xxport.cpp:634
 msgctxt "@option:check"
 msgid "Pictures"
 msgstr "प्रतिमा"
 
-#: xxport/vcard/vcard_xxport.cpp:635
+#: xxport/vcard/vcard_xxport.cpp:636
 msgctxt "@info:tooltip"
 msgid "Export pictures"
 msgstr "प्रतिमा/चित्रे पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:638
+#: xxport/vcard/vcard_xxport.cpp:639
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's picture to the vCard "
@@ -1504,22 +1465,22 @@ msgstr ""
 "संपर्काच्या प्रतिमा/चित्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही पेटी "
 "तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:643
+#: xxport/vcard/vcard_xxport.cpp:644
 msgctxt "@title:group"
 msgid "Export options"
 msgstr "पर्याय पाठवा"
 
-#: xxport/vcard/vcard_xxport.cpp:647
+#: xxport/vcard/vcard_xxport.cpp:648
 msgctxt "@option:check"
 msgid "Display name as full name"
 msgstr "पूर्ण नावात नाव दाखवा/प्रदर्शित करा"
 
-#: xxport/vcard/vcard_xxport.cpp:649
+#: xxport/vcard/vcard_xxport.cpp:650
 msgctxt "@info:tooltip"
 msgid "Export display name as full name"
 msgstr "प्रदर्शित केलेले नाव, पूर्ण नाव स्वरूपात पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:652
+#: xxport/vcard/vcard_xxport.cpp:653
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's display name in the "
@@ -1555,6 +1516,35 @@ msgstr "तुम्हाला कोणता संपर्क पाठव
 #: xxportmanager.cpp:170
 msgid "You have not selected any contacts to export."
 msgstr "निर्यात करण्यासाठी/पाठविण्यासाठी तुम्ही कोणतेही संपर्क निवडलेले नाहीत."
+
+#~ msgid "Emails"
+#~ msgstr "इमेल"
+
+#~ msgid "Website"
+#~ msgstr "वेबसाईट"
+
+#~ msgid "Department"
+#~ msgstr "विभाग"
+
+#~ msgid "Manager's Name"
+#~ msgstr "व्यवस्थापकाचे नाव"
+
+#~ msgid "Assistant's Name"
+#~ msgstr "सहाय्यकाचे नाव"
+
+#~ msgid "Partner's Name"
+#~ msgstr "भागीदाराचे नाव"
+
+#~ msgid "IM Address"
+#~ msgstr "आयएम-इंटरनेट मेल(IM) पत्ता"
+
+#~ msgctxt "Boolean value"
+#~ msgid "yes"
+#~ msgstr "हो"
+
+#~ msgctxt "Boolean value"
+#~ msgid "no"
+#~ msgstr "नाही"
 
 #~ msgid "Copyright © 2007–2012 KAddressBook authors"
 #~ msgstr "स्वामित्व हक्क © २००७-२०१२ Kaddressbook लेखक"
