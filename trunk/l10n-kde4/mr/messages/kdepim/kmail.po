@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-26 01:44+0000\n"
+"POT-Creation-Date: 2013-09-27 01:50+0000\n"
 "PO-Revision-Date: 2013-04-15 11:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -4394,7 +4394,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "उत्तर द्या (&R)"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:230
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:242
 msgid "&Reply..."
 msgstr "उत्तर द्या (&R)..."
 
@@ -4402,11 +4402,11 @@ msgstr "उत्तर द्या (&R)..."
 msgid "Reply to A&uthor..."
 msgstr "लेखकाला उत्तर द्या (&U)"
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:234
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:246
 msgid "Reply to &All..."
 msgstr "सर्वाना उत्तर द्या (&A)"
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:238
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:250
 msgid "Reply to Mailing-&List..."
 msgstr "मेलिंग यादीला उत्तर द्या (&L)"
 
@@ -4454,7 +4454,7 @@ msgstr "संदेश संपादित करा (&E)"
 msgid "Add Note..."
 msgstr "सूचना/नोंद वाढवा..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:242
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:254
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "पुढे (&F)"
@@ -4596,7 +4596,7 @@ msgid "Search"
 msgstr "शोध (&S)"
 
 #: searchdialog/debug/searchdebugwidget.cpp:124
-#: searchdialog/searchwindow.cpp:472
+#: searchdialog/searchwindow.cpp:499
 #, fuzzy
 #| msgid "Starting..."
 msgid "Searching..."
@@ -4668,78 +4668,82 @@ msgstr "संचयीका"
 msgid "Nepomuk cannot make search. Errors found: <ul><li>%1</li></ul>"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:84
+#: searchdialog/searchwindow.cpp:85
 msgid "Find Messages"
 msgstr "संदेश शोधा"
 
-#: searchdialog/searchwindow.cpp:106
+#: searchdialog/searchwindow.cpp:107
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "शोध (&S)"
 
-#: searchdialog/searchwindow.cpp:111
+#: searchdialog/searchwindow.cpp:112
 msgid "Debug query"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:192 searchdialog/searchwindow.cpp:385
+#: searchdialog/searchwindow.cpp:204 searchdialog/searchwindow.cpp:397
 msgid "Last Search"
 msgstr "शेवटचा शोध"
 
-#: searchdialog/searchwindow.cpp:247
+#: searchdialog/searchwindow.cpp:259
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "इनलाइन (&I)..."
 
-#: searchdialog/searchwindow.cpp:252
+#: searchdialog/searchwindow.cpp:264
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "अटॅचमेंट प्रमाणे (&A)..."
 
-#: searchdialog/searchwindow.cpp:266
+#: searchdialog/searchwindow.cpp:278
 msgid "Save Attachments..."
 msgstr "अटॅचमेंट साठवा..."
 
-#: searchdialog/searchwindow.cpp:272
+#: searchdialog/searchwindow.cpp:284
 msgid "Clear Selection"
 msgstr "निवड काढून टाका"
 
-#: searchdialog/searchwindow.cpp:356
+#: searchdialog/searchwindow.cpp:368
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1 जुळवणी"
 msgstr[1] "%1 जुळवण्या"
 
-#: searchdialog/searchwindow.cpp:409
+#: searchdialog/searchwindow.cpp:421
 msgid "You did not selected a valid folder."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:432
+#: searchdialog/searchwindow.cpp:439
+msgid "You forgot to select collections."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:459
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:437
+#: searchdialog/searchwindow.cpp:464
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:470
 #, fuzzy
 #| msgid "Message Body"
 msgid "No message found."
 msgstr "संदेश मसूदा"
 
-#: searchdialog/searchwindow.cpp:448
+#: searchdialog/searchwindow.cpp:475
 msgid ""
 "Contains condition cannot be used with a number of characters inferior to 4."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:480
+#: searchdialog/searchwindow.cpp:507
 #, fuzzy, kde-format
 #| msgid "Can not get search result. %1"
 msgid "Cannot get search result. %1"
 msgstr "परिणाम निश्कर्ष शोधू शकत नाही. %1"
 
-#: searchdialog/searchwindow.cpp:594
+#: searchdialog/searchwindow.cpp:628
 #, fuzzy, kde-format
 #| msgid ""
 #| "There was a problem renaming your search folder. A common reason for this "
@@ -4752,19 +4756,31 @@ msgstr ""
 "तुमच्या संचयीकेला दुसरे नाव देण्यात अडचणी होत्या. याचे नेहमीचे कारण म्हणजे याच नावाची दुसरी "
 "शोध संचयीका अस्तित्वात आहे."
 
-#: searchdialog/searchwindow.cpp:700
+#: searchdialog/searchwindow.cpp:734
 #, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "संदेशाची प्रत करा"
 msgstr[1] "%1 संदेशांची प्रत करा"
 
-#: searchdialog/searchwindow.cpp:703
+#: searchdialog/searchwindow.cpp:737
 #, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
 msgstr[0] "संदेश कापा"
 msgstr[1] "%1 संदेश कापा"
+
+#: searchdialog/selectmulticollectiondialog.cpp:27
+#, fuzzy
+#| msgid "Delete Folder"
+msgid "Select Multiple Folders"
+msgstr "संचयीका काढून टाका"
+
+#: searchdialog/selectmulticollectionwidget.cpp:76
+#, fuzzy
+#| msgid "Starting..."
+msgid "Search..."
+msgstr "सुरु करत आहे..."
 
 #: secondarywindow.cpp:88
 msgctxt "Document/application separator in titlebar"
@@ -5704,20 +5720,34 @@ msgstr "फक्त यात शोधा (&O):"
 msgid "&Include sub-folders"
 msgstr "उपसंचयीकांचा अंतर्भाव करा (&N)"
 
+#. i18n: ectx: property (text), widget (QRadioButton, mChkMultiFolders)
+#: ui/searchwindow.ui:53
+#, fuzzy
+#| msgid "Select Shortcut for Folder"
+msgid "Select specific folders"
+msgstr "संचयीकेसाठी जवळचा मार्ग शोधा"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectMultipleFolders)
+#: ui/searchwindow.ui:60
+#, fuzzy
+#| msgid "Select File..."
+msgid "Select folders..."
+msgstr "फाईल निवडा ..."
+
 #. i18n: ectx: property (text), widget (QLabel, mSearchFolderLbl)
-#: ui/searchwindow.ui:82
+#: ui/searchwindow.ui:113
 msgid "Search folder &name:"
 msgstr "संचयीकेचे नाव शोधा (&N):"
 
 #. i18n: ectx: property (text), widget (KPushButton, mSearchFolderOpenBtn)
-#: ui/searchwindow.ui:102
+#: ui/searchwindow.ui:133
 #, fuzzy
 #| msgid "Op&en Search Folder"
 msgid "Open &Search Folder"
 msgstr "शोध संचयीका उघडा (&E)"
 
 #. i18n: ectx: property (text), widget (KPushButton, mSearchResultOpenBtn)
-#: ui/searchwindow.ui:112
+#: ui/searchwindow.ui:143
 msgid "Open &Message"
 msgstr "संदेश उघडा (&M)"
 
@@ -6627,9 +6657,6 @@ msgstr "बाहेरील संपादक"
 
 #~ msgid "Shortcut for Folder %1"
 #~ msgstr "संचयीकेसाठी जवळचा मार्ग %1"
-
-#~ msgid "Select Shortcut for Folder"
-#~ msgstr "संचयीकेसाठी जवळचा मार्ग शोधा"
 
 #~ msgid "Create own vcard"
 #~ msgstr "स्वतःचे vcard  तयार/निर्माण करा"
