@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-10-20 01:34+0000\n"
+"POT-Creation-Date: 2013-10-30 01:39+0000\n"
 "PO-Revision-Date: 2013-03-09 14:59+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -202,93 +202,6 @@ msgstr ""
 msgid "An unknown error occurred."
 msgstr ""
 
-#: bodega/handlers/epub/bookhandler.cpp:88
-msgid "Read book"
-msgstr ""
-
-#: bodega/handlers/epub/bookinstalljob.cpp:65
-#: bodega/handlers/package/packageinstalljob.cpp:57
-#: bodega/handlers/package/packageinstalljob.cpp:80
-#: bodega/handlers/package/packageuninstalljob.cpp:44
-#: bodega/handlers/rpm/packageidinstalljob.cpp:120
-#: bodega/handlers/rpm/rpminstalljob.cpp:106
-#: bodega/handlers/wallpaper/wallpaperinstalljob.cpp:84
-#: bodega/handlers/wallpaper/wallpaperinstalljob.cpp:90
-msgid "Install failed"
-msgstr ""
-
-#: bodega/handlers/epub/bookinstalljob.cpp:66
-msgid ""
-"Impossible to install the book, wrong permissions or no space left on device."
-msgstr ""
-
-#: bodega/handlers/epub/bookuninstalljob.cpp:36
-#: bodega/handlers/epub/bookuninstalljob.cpp:41
-#: bodega/handlers/package/packageuninstalljob.cpp:61
-#: bodega/handlers/rpm/rpmuninstalljob.cpp:44
-#: bodega/handlers/rpm/rpmuninstalljob.cpp:70
-#: bodega/handlers/wallpaper/wallpaperuninstalljob.cpp:55
-#: bodega/handlers/wallpaper/wallpaperuninstalljob.cpp:63
-#: bodega/handlers/wallpaper/wallpaperuninstalljob.cpp:68
-msgid "Uninstall failed"
-msgstr ""
-
-#: bodega/handlers/epub/bookuninstalljob.cpp:37
-msgid "The book is not installed."
-msgstr ""
-
-#: bodega/handlers/epub/bookuninstalljob.cpp:42
-#: bodega/handlers/wallpaper/wallpaperuninstalljob.cpp:69
-msgid "Impossible to delete the file."
-msgstr ""
-
-#: bodega/handlers/package/packageuninstalljob.cpp:45
-msgid "Plugin name or service type tags not specified."
-msgstr ""
-
-#: bodega/handlers/package/packageuninstalljob.cpp:62
-msgid "Impossible to uninstall the package."
-msgstr ""
-
-#: bodega/handlers/rpm/packageidinstalljob.cpp:54
-#: bodega/handlers/rpm/packageidinstalljob.cpp:69
-msgid "Install error"
-msgstr ""
-
-#: bodega/handlers/rpm/packageidinstalljob.cpp:55
-msgid "failed to open the descriptor file"
-msgstr ""
-
-#: bodega/handlers/rpm/packageidinstalljob.cpp:70
-msgid "failed to parse the descriptor file"
-msgstr ""
-
-#: bodega/handlers/rpm/rpmhandler.cpp:129
-msgid "Launch"
-msgstr "प्रक्षेपण करा"
-
-#: bodega/handlers/rpm/rpmuninstalljob.cpp:45
-msgid "Package not installed."
-msgstr ""
-
-#: bodega/handlers/wallpaper/wallpaperinstalljob.cpp:85
-msgid ""
-"Impossible to install the wallpaper, wrong permissions or no space left on "
-"device."
-msgstr ""
-
-#: bodega/handlers/wallpaper/wallpaperinstalljob.cpp:91
-msgid "Impossible to install the wallpaper, unknown file type."
-msgstr ""
-
-#: bodega/handlers/wallpaper/wallpaperuninstalljob.cpp:56
-msgid "Impossible to uninstall the wallpaper package."
-msgstr ""
-
-#: bodega/handlers/wallpaper/wallpaperuninstalljob.cpp:64
-msgid "The wallpaper is not installed."
-msgstr ""
-
 #: bodega/historymodel.cpp:60
 msgid "No events for this account. Go download something interesting! :)"
 msgstr ""
@@ -308,32 +221,123 @@ msgstr ""
 msgid "Added %1 points"
 msgstr ""
 
-#: bodega/networkjob.cpp:101
+#: bodega/networkjob.cpp:103
 msgid "Invalid response from the server"
 msgstr ""
 
-#: bodega/networkjob.cpp:102
+#: bodega/networkjob.cpp:104
 msgid "Server has sent an invalid response."
 msgstr ""
 
-#: bodega/networkjob.cpp:126
+#: bodega/networkjob.cpp:128
 msgid "Download error"
 msgstr ""
 
-#: bodega/networkjob.cpp:127
+#: bodega/networkjob.cpp:129
 msgid "Error downloading the asset."
 msgstr ""
 
-#: bodega/networkjob.cpp:169
+#: bodega/networkjob.cpp:177
 msgid "Network Error"
 msgstr "संजाळ त्रुटी"
 
-#: bodega/networkjob.cpp:205
+#: bodega/networkjob.cpp:213
 msgid "Authentication Error"
 msgstr "परवानगी विषयक त्रुटी"
 
-#: bodega/networkjob.cpp:206
+#: bodega/networkjob.cpp:214
 msgid "Invalid username or password"
+msgstr ""
+
+#: handlers/epub/bookhandler.cpp:88
+msgid "Read book"
+msgstr ""
+
+#: handlers/generic/filethread.cpp:58
+#: handlers/package/packageinstalljob.cpp:57
+#: handlers/package/packageinstalljob.cpp:80
+#: handlers/package/packageuninstalljob.cpp:44
+#: handlers/rpm/packageidinstalljob.cpp:120 handlers/rpm/rpminstalljob.cpp:106
+#: handlers/wallpaper/wallpaperinstalljob.cpp:84
+#: handlers/wallpaper/wallpaperinstalljob.cpp:90
+msgid "Install failed"
+msgstr ""
+
+#: handlers/generic/filethread.cpp:59
+msgid ""
+"Could not install the file; wrong permissions or no space left on device."
+msgstr ""
+
+#: handlers/generic/filethread.cpp:66 handlers/generic/filethread.cpp:71
+#: handlers/package/packageuninstalljob.cpp:61
+#: handlers/rpm/rpmuninstalljob.cpp:44 handlers/rpm/rpmuninstalljob.cpp:70
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:55
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:63
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:68
+msgid "Uninstall failed"
+msgstr ""
+
+#: handlers/generic/filethread.cpp:67
+msgid "The file is not installed."
+msgstr ""
+
+#: handlers/generic/filethread.cpp:72
+msgid "Unable to delete the file."
+msgstr ""
+
+#: handlers/generic/generichandler.cpp:76
+msgid "Open"
+msgstr ""
+
+#: handlers/package/packageuninstalljob.cpp:45
+msgid "Plugin name or service type tags not specified."
+msgstr ""
+
+#: handlers/package/packageuninstalljob.cpp:62
+msgid "Impossible to uninstall the package."
+msgstr ""
+
+#: handlers/rpm/packageidinstalljob.cpp:54
+#: handlers/rpm/packageidinstalljob.cpp:69
+msgid "Install error"
+msgstr ""
+
+#: handlers/rpm/packageidinstalljob.cpp:55
+msgid "failed to open the descriptor file"
+msgstr ""
+
+#: handlers/rpm/packageidinstalljob.cpp:70
+msgid "failed to parse the descriptor file"
+msgstr ""
+
+#: handlers/rpm/rpmhandler.cpp:129
+msgid "Launch"
+msgstr "प्रक्षेपण करा"
+
+#: handlers/rpm/rpmuninstalljob.cpp:45
+msgid "Package not installed."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperinstalljob.cpp:85
+msgid ""
+"Impossible to install the wallpaper, wrong permissions or no space left on "
+"device."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperinstalljob.cpp:91
+msgid "Impossible to install the wallpaper, unknown file type."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:56
+msgid "Impossible to uninstall the wallpaper package."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:64
+msgid "The wallpaper is not installed."
+msgstr ""
+
+#: handlers/wallpaper/wallpaperuninstalljob.cpp:69
+msgid "Impossible to delete the file."
 msgstr ""
 
 #: tests/model/window.cpp:32
