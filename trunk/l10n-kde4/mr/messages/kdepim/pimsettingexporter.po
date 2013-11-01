@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-10-30 01:38+0000\n"
+"POT-Creation-Date: 2013-11-01 01:42+0000\n"
 "PO-Revision-Date: 2013-03-11 16:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -78,17 +78,31 @@ msgid "Copy file"
 msgstr ""
 
 #: abstractimportexportjob.cpp:266 abstractimportexportjob.cpp:273
-#: abstractimportexportjob.cpp:388 addressbook/exportaddressbookjob.cpp:86
-#: mail/exportmailjob.cpp:508 mail/exportmailjob.cpp:514
+#: abstractimportexportjob.cpp:393 addressbook/exportaddressbookjob.cpp:86
+#: mail/exportmailjob.cpp:509 mail/exportmailjob.cpp:515
 #, kde-format
 msgid "\"%1\" was backuped."
 msgstr ""
 
 #: abstractimportexportjob.cpp:275 abstractimportexportjob.cpp:279
-#: abstractimportexportjob.cpp:390 addressbook/exportaddressbookjob.cpp:88
-#: mail/exportmailjob.cpp:310 mail/exportmailjob.cpp:516
+#: abstractimportexportjob.cpp:395 addressbook/exportaddressbookjob.cpp:88
+#: mail/exportmailjob.cpp:311 mail/exportmailjob.cpp:517
 #, kde-format
 msgid "\"%1\" file cannot be added to backup file."
+msgstr ""
+
+#: abstractimportexportjob.cpp:338 addressbook/importaddressbookjob.cpp:114
+#: mail/importmailjob.cpp:413
+msgid "Resources restored."
+msgstr ""
+
+#: abstractimportexportjob.cpp:340
+msgid "No resources files found."
+msgstr ""
+
+#: abstractimportexportjob.cpp:420
+#, kde-format
+msgid "Resource  '%1' created."
 msgstr ""
 
 #: addressbook/exportaddressbookjob.cpp:45
@@ -118,7 +132,7 @@ msgstr ""
 #: addressbook/exportaddressbookjob.cpp:137
 #: akregator/exportakregatorjob.cpp:72 alarm/exportalarmjob.cpp:109
 #: blogilo/exportblogilojob.cpp:73 calendar/exportcalendarjob.cpp:134
-#: jot/exportjotjob.cpp:108 mail/exportmailjob.cpp:420
+#: jot/exportjotjob.cpp:108 mail/exportmailjob.cpp:421
 #: notes/exportnotesjob.cpp:73
 msgid "Config backup done."
 msgstr ""
@@ -133,16 +147,10 @@ msgstr ""
 msgid "Restore resources..."
 msgstr ""
 
-#: addressbook/importaddressbookjob.cpp:113 alarm/importalarmjob.cpp:63
-#: calendar/importcalendarjob.cpp:59 jot/importjotjob.cpp:61
-#: mail/importmailjob.cpp:406
-msgid "Resources restored."
-msgstr ""
-
-#: addressbook/importaddressbookjob.cpp:191
-#: akregator/importakregatorjob.cpp:57 alarm/importalarmjob.cpp:130
-#: blogilo/importblogilojob.cpp:57 calendar/importcalendarjob.cpp:192
-#: jot/importjotjob.cpp:128 mail/importmailjob.cpp:800
+#: addressbook/importaddressbookjob.cpp:192
+#: akregator/importakregatorjob.cpp:57 alarm/importalarmjob.cpp:129
+#: blogilo/importblogilojob.cpp:57 calendar/importcalendarjob.cpp:191
+#: jot/importjotjob.cpp:127 mail/importmailjob.cpp:824
 #: notes/importnotesjob.cpp:57
 msgid "Config restored."
 msgstr ""
@@ -253,69 +261,69 @@ msgstr ""
 msgid "Filters cannot be exported."
 msgstr ""
 
-#: mail/exportmailjob.cpp:426
+#: mail/exportmailjob.cpp:427
 msgid "Backing up identity..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:464
+#: mail/exportmailjob.cpp:465
 #, kde-format
 msgid "vCard file \"%1\" cannot be saved."
 msgstr ""
 
-#: mail/exportmailjob.cpp:476
+#: mail/exportmailjob.cpp:477
 msgid "Identity backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:478
+#: mail/exportmailjob.cpp:479
 msgid "Identity file cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:483
+#: mail/exportmailjob.cpp:484
 msgid "Backing up Mails..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:525
+#: mail/exportmailjob.cpp:526
 msgid "Mails backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:556 mail/exportmailjob.cpp:582
+#: mail/exportmailjob.cpp:557 mail/exportmailjob.cpp:583
 #, kde-format
 msgid "Mail \"%1\" file cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:579
+#: mail/exportmailjob.cpp:580
 #, kde-format
 msgid "Mail \"%1\" was backuped."
 msgstr ""
 
-#: mail/exportmailjob.cpp:589
+#: mail/exportmailjob.cpp:590
 msgid "Backing up Akonadi Database..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:616 mail/importmailjob.cpp:933
+#: mail/exportmailjob.cpp:617 mail/importmailjob.cpp:957
 #, kde-format
 msgid "Database driver \"%1\" not supported."
 msgstr ""
 
-#: mail/exportmailjob.cpp:621
+#: mail/exportmailjob.cpp:622
 #, kde-format
 msgid "Could not find \"%1\" necessary to dump database."
 msgstr ""
 
-#: mail/exportmailjob.cpp:634
+#: mail/exportmailjob.cpp:635
 #, kde-format
 msgid "Akonadi Database \"%1\" cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:636
+#: mail/exportmailjob.cpp:637
 msgid "Akonadi Database backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:641
+#: mail/exportmailjob.cpp:642
 msgid "Backing up Nepomuk Database..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:643
+#: mail/exportmailjob.cpp:644
 msgid "Nepomuk Database backup done."
 msgstr ""
 
@@ -339,60 +347,60 @@ msgstr ""
 msgid "Failed to restore transports file."
 msgstr ""
 
-#: mail/importmailjob.cpp:411
+#: mail/importmailjob.cpp:418
 msgid "Restore mails..."
 msgstr ""
 
-#: mail/importmailjob.cpp:510
+#: mail/importmailjob.cpp:520
 msgid "Mails restored."
 msgstr ""
 
-#: mail/importmailjob.cpp:517
+#: mail/importmailjob.cpp:527
 msgid "filters file could not be found in the archive."
 msgstr ""
 
-#: mail/importmailjob.cpp:807
+#: mail/importmailjob.cpp:831
 msgid "emailidentities file could not be found in the archive."
 msgstr ""
 
-#: mail/importmailjob.cpp:810
+#: mail/importmailjob.cpp:834
 msgid "Restore identities..."
 msgstr ""
 
-#: mail/importmailjob.cpp:876
+#: mail/importmailjob.cpp:900
 msgid "Identities restored."
 msgstr ""
 
-#: mail/importmailjob.cpp:878
+#: mail/importmailjob.cpp:902
 msgid "Failed to restore identity file."
 msgstr ""
 
-#: mail/importmailjob.cpp:897
+#: mail/importmailjob.cpp:921
 msgid "akonadi database file could not be found in the archive."
 msgstr ""
 
-#: mail/importmailjob.cpp:900
+#: mail/importmailjob.cpp:924
 msgid "Restore Akonadi Database..."
 msgstr ""
 
-#: mail/importmailjob.cpp:938
+#: mail/importmailjob.cpp:962
 #, kde-format
 msgid "Could not find \"%1\" necessary to restore database."
 msgstr ""
 
-#: mail/importmailjob.cpp:947
+#: mail/importmailjob.cpp:971
 msgid "Failed to restore Akonadi Database."
 msgstr ""
 
-#: mail/importmailjob.cpp:951
+#: mail/importmailjob.cpp:975
 msgid "Akonadi Database restored."
 msgstr ""
 
-#: mail/importmailjob.cpp:957
+#: mail/importmailjob.cpp:981
 msgid "Nepomuk Database restored."
 msgstr ""
 
-#: mail/importmailjob.cpp:958
+#: mail/importmailjob.cpp:982
 msgid "Failed to restore Nepomuk Database."
 msgstr ""
 
