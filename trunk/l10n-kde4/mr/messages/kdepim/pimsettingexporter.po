@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-10 01:33+0000\n"
+"POT-Creation-Date: 2013-11-11 01:35+0000\n"
 "PO-Revision-Date: 2013-03-11 16:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -79,18 +79,18 @@ msgstr ""
 
 #: abstractimportexportjob.cpp:270 abstractimportexportjob.cpp:279
 #: abstractimportexportjob.cpp:307 abstractimportexportjob.cpp:314
-#: abstractimportexportjob.cpp:448 addressbook/exportaddressbookjob.cpp:86
-#: alarm/exportalarmjob.cpp:91 calendar/exportcalendarjob.cpp:92
-#: mail/exportmailjob.cpp:509 mail/exportmailjob.cpp:515
+#: abstractimportexportjob.cpp:448 addressbook/exportaddressbookjob.cpp:88
+#: alarm/exportalarmjob.cpp:91 calendar/exportcalendarjob.cpp:94
+#: mail/exportmailjob.cpp:513
 #, kde-format
 msgid "\"%1\" was backuped."
 msgstr ""
 
 #: abstractimportexportjob.cpp:281 abstractimportexportjob.cpp:286
 #: abstractimportexportjob.cpp:316 abstractimportexportjob.cpp:320
-#: abstractimportexportjob.cpp:450 addressbook/exportaddressbookjob.cpp:88
-#: alarm/exportalarmjob.cpp:93 calendar/exportcalendarjob.cpp:94
-#: mail/exportmailjob.cpp:517
+#: abstractimportexportjob.cpp:450 addressbook/exportaddressbookjob.cpp:90
+#: alarm/exportalarmjob.cpp:93 calendar/exportcalendarjob.cpp:96
+#: mail/exportmailjob.cpp:515
 #, kde-format
 msgid "\"%1\" file cannot be added to backup file."
 msgstr ""
@@ -123,25 +123,25 @@ msgstr ""
 msgid "Backing up resources..."
 msgstr ""
 
-#: addressbook/exportaddressbookjob.cpp:96 alarm/exportalarmjob.cpp:100
-#: calendar/exportcalendarjob.cpp:103 jot/exportjotjob.cpp:78
-#: mail/exportmailjob.cpp:177
+#: addressbook/exportaddressbookjob.cpp:99 alarm/exportalarmjob.cpp:100
+#: calendar/exportcalendarjob.cpp:106 jot/exportjotjob.cpp:78
+#: mail/exportmailjob.cpp:176
 msgid "Resources backup done."
 msgstr ""
 
-#: addressbook/exportaddressbookjob.cpp:101
+#: addressbook/exportaddressbookjob.cpp:104
 #: akregator/exportakregatorjob.cpp:67 alarm/exportalarmjob.cpp:105
-#: blogilo/exportblogilojob.cpp:67 calendar/exportcalendarjob.cpp:108
+#: blogilo/exportblogilojob.cpp:67 calendar/exportcalendarjob.cpp:111
 #: jot/exportjotjob.cpp:83 knode/exportknodejob.cpp:67
-#: mail/exportmailjob.cpp:182 notes/exportnotesjob.cpp:66
+#: mail/exportmailjob.cpp:181 notes/exportnotesjob.cpp:66
 msgid "Backing up config..."
 msgstr ""
 
-#: addressbook/exportaddressbookjob.cpp:137
+#: addressbook/exportaddressbookjob.cpp:140
 #: akregator/exportakregatorjob.cpp:72 alarm/exportalarmjob.cpp:130
-#: blogilo/exportblogilojob.cpp:73 calendar/exportcalendarjob.cpp:154
+#: blogilo/exportblogilojob.cpp:73 calendar/exportcalendarjob.cpp:157
 #: jot/exportjotjob.cpp:108 knode/exportknodejob.cpp:73
-#: mail/exportmailjob.cpp:421 notes/exportnotesjob.cpp:72
+#: mail/exportmailjob.cpp:420 notes/exportnotesjob.cpp:72
 msgid "Config backup done."
 msgstr ""
 
@@ -172,7 +172,7 @@ msgstr ""
 msgid "Backing up data..."
 msgstr ""
 
-#: akregator/exportakregatorjob.cpp:84 calendar/exportcalendarjob.cpp:148
+#: akregator/exportakregatorjob.cpp:84 calendar/exportcalendarjob.cpp:151
 #: knode/exportknodejob.cpp:85 notes/exportnotesjob.cpp:90
 #: notes/exportnotesjob.cpp:98
 #, kde-format
@@ -205,20 +205,9 @@ msgstr ""
 msgid "Archive cannot be opened in write mode."
 msgstr ""
 
-#: archivestorage.cpp:48 utils.cpp:271
+#: archivestorage.cpp:48 dialog/showarchivestructuredialog.cpp:53
+#: utils.cpp:271
 msgid "Archive cannot be opened in read mode."
-msgstr ""
-
-#: backupfilestructureinfodialog.cpp:35
-msgid "Archive File Structure"
-msgstr ""
-
-#: backupfilestructureinfodialog.cpp:45
-msgid "Backup Archive Structure:"
-msgstr ""
-
-#: backupfilestructureinfodialog.cpp:67
-msgid "backup-structure.txt file was not found."
 msgstr ""
 
 #: blogilo/exportblogilojob.cpp:46 mail/exportmailjob.cpp:68
@@ -236,6 +225,86 @@ msgstr ""
 
 #: calendar/importcalendarjob.cpp:46
 msgid "Start import korganizer settings..."
+msgstr ""
+
+#: dialog/backupfilestructureinfodialog.cpp:35
+msgid "Archive File Structure"
+msgstr ""
+
+#: dialog/backupfilestructureinfodialog.cpp:45
+msgid "Backup Archive Structure:"
+msgstr ""
+
+#: dialog/backupfilestructureinfodialog.cpp:67
+msgid "backup-structure.txt file was not found."
+msgstr ""
+
+#: dialog/selectiontypedialog.cpp:28
+msgid "Select Type"
+msgstr ""
+
+#: dialog/selectiontypedialog.cpp:40
+msgid "Select All"
+msgstr ""
+
+#: dialog/selectiontypedialog.cpp:44
+msgid "Unselect All"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:32
+msgid "Show Archive Content"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:53
+msgid "Can not open archive"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:58
+msgid "Infos"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:59 selectiontypetreewidget.cpp:43
+msgid "KMail"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:60 selectiontypetreewidget.cpp:58
+msgid "KAlarm"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:61 selectiontypetreewidget.cpp:64
+msgid "KOrganizer"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:62 selectiontypetreewidget.cpp:52
+msgid "KAddressBook"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:63 selectiontypetreewidget.cpp:70
+msgid "KJots"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:64 selectiontypetreewidget.cpp:162
+msgid "Identity"
+msgstr "ओळख"
+
+#: dialog/showarchivestructuredialog.cpp:65 selectiontypetreewidget.cpp:186
+msgid "Resources"
+msgstr "संसाधने"
+
+#: dialog/showarchivestructuredialog.cpp:66
+msgid "Configs"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:67
+msgid "Transports Config"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:68
+msgid "Datas"
+msgstr ""
+
+#: dialog/showarchivestructuredialog.cpp:69
+msgid "Akonadi"
 msgstr ""
 
 #: jot/exportjotjob.cpp:46
@@ -270,82 +339,72 @@ msgstr ""
 msgid "Transport file cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:193
+#: mail/exportmailjob.cpp:192
 msgid "Filters backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:195
+#: mail/exportmailjob.cpp:194
 msgid "Filters cannot be exported."
 msgstr ""
 
-#: mail/exportmailjob.cpp:311
+#: mail/exportmailjob.cpp:310
 #, kde-format
 msgid "Theme directory \"%1\" cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:427
+#: mail/exportmailjob.cpp:426
 msgid "Backing up identity..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:465
+#: mail/exportmailjob.cpp:464
 #, kde-format
 msgid "vCard file \"%1\" cannot be saved."
 msgstr ""
 
-#: mail/exportmailjob.cpp:477
+#: mail/exportmailjob.cpp:476
 msgid "Identity backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:479
+#: mail/exportmailjob.cpp:478
 msgid "Identity file cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:484
+#: mail/exportmailjob.cpp:483
 msgid "Backing up Mails..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:526
+#: mail/exportmailjob.cpp:523
 msgid "Mails backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:557 mail/exportmailjob.cpp:583
-#, kde-format
-msgid "Mail \"%1\" file cannot be added to backup file."
-msgstr ""
-
-#: mail/exportmailjob.cpp:580
-#, kde-format
-msgid "Mail \"%1\" was backuped."
-msgstr ""
-
-#: mail/exportmailjob.cpp:590
+#: mail/exportmailjob.cpp:548
 msgid "Backing up Akonadi Database..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:617 mail/importmailjob.cpp:943
+#: mail/exportmailjob.cpp:575 mail/importmailjob.cpp:943
 #, kde-format
 msgid "Database driver \"%1\" not supported."
 msgstr ""
 
-#: mail/exportmailjob.cpp:622
+#: mail/exportmailjob.cpp:580
 #, kde-format
 msgid "Could not find \"%1\" necessary to dump database."
 msgstr ""
 
-#: mail/exportmailjob.cpp:635
+#: mail/exportmailjob.cpp:593
 #, kde-format
 msgid "Akonadi Database \"%1\" cannot be added to backup file."
 msgstr ""
 
-#: mail/exportmailjob.cpp:637
+#: mail/exportmailjob.cpp:595
 msgid "Akonadi Database backup done."
 msgstr ""
 
-#: mail/exportmailjob.cpp:642
+#: mail/exportmailjob.cpp:600
 msgid "Backing up Nepomuk Database..."
 msgstr ""
 
-#: mail/exportmailjob.cpp:644
+#: mail/exportmailjob.cpp:602
 msgid "Nepomuk Database backup done."
 msgstr ""
 
@@ -446,124 +505,100 @@ msgstr "पालक"
 msgid "Start import knotes settings..."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:96
+#: pimsettingexporterwindow.cpp:97
 msgid "Zip program not found. Install it before to launch this application."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:96
+#: pimsettingexporterwindow.cpp:97
 msgid "Zip program not found."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:114
+#: pimsettingexporterwindow.cpp:115
 msgid "Back Up Data..."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:118
+#: pimsettingexporterwindow.cpp:119
 msgid "Restore Data..."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:122
+#: pimsettingexporterwindow.cpp:123
 msgid "Save log..."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:125
+#: pimsettingexporterwindow.cpp:126
 msgid "Show Archive Structure Information..."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:145
+#: pimsettingexporterwindow.cpp:129
+msgid "Show Archive Informations..."
+msgstr ""
+
+#: pimsettingexporterwindow.cpp:149
+msgid "Select Archive"
+msgstr ""
+
+#: pimsettingexporterwindow.cpp:161
 msgid "Log is empty."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:145
+#: pimsettingexporterwindow.cpp:161
 msgid "Save log"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:155
+#: pimsettingexporterwindow.cpp:171
 msgid ""
 "Before to backup data, close all kdepim applications. Do you want to "
 "continue?"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:155 pimsettingexporterwindow.cpp:286
+#: pimsettingexporterwindow.cpp:171 pimsettingexporterwindow.cpp:302
 msgid "Backup"
 msgstr "बॅकअप"
 
-#: pimsettingexporterwindow.cpp:158
+#: pimsettingexporterwindow.cpp:174
 msgid "Create backup"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:179
+#: pimsettingexporterwindow.cpp:195
 #, kde-format
 msgid "Start to backup data in '%1'"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:244
+#: pimsettingexporterwindow.cpp:260
 #, kde-format
 msgid "Backup in '%1' done."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:250
+#: pimsettingexporterwindow.cpp:266
 msgid ""
 "For restoring data, you must use \"pimsettingexporter\". Be careful it can "
 "overwrite existing settings, data."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:250
+#: pimsettingexporterwindow.cpp:266
 #, fuzzy
 #| msgid "Backup"
 msgid "Backup infos."
 msgstr "बॅकअप"
 
-#: pimsettingexporterwindow.cpp:278
+#: pimsettingexporterwindow.cpp:294
 msgid "Restore backup"
 msgstr "बॅकअप पुन्ह स्थापन"
 
-#: pimsettingexporterwindow.cpp:286
+#: pimsettingexporterwindow.cpp:302
 msgid ""
 "Before to restore data, close all kdepim applications. Do you want to "
 "continue?"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:308
+#: pimsettingexporterwindow.cpp:324
 #, kde-format
 msgid "Start to restore data from '%1'"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:371
+#: pimsettingexporterwindow.cpp:387
 #, kde-format
 msgid "Restoring data from '%1' done."
-msgstr ""
-
-#: selectiontypedialog.cpp:28
-msgid "Select Type"
-msgstr ""
-
-#: selectiontypedialog.cpp:40
-msgid "Select All"
-msgstr ""
-
-#: selectiontypedialog.cpp:44
-msgid "Unselect All"
-msgstr ""
-
-#: selectiontypetreewidget.cpp:43
-msgid "KMail"
-msgstr ""
-
-#: selectiontypetreewidget.cpp:52
-msgid "KAddressBook"
-msgstr ""
-
-#: selectiontypetreewidget.cpp:58
-msgid "KAlarm"
-msgstr ""
-
-#: selectiontypetreewidget.cpp:64
-msgid "KOrganizer"
-msgstr ""
-
-#: selectiontypetreewidget.cpp:70
-msgid "KJots"
 msgstr ""
 
 #: selectiontypetreewidget.cpp:76
@@ -582,10 +617,6 @@ msgstr ""
 msgid "KNode"
 msgstr ""
 
-#: selectiontypetreewidget.cpp:162
-msgid "Identity"
-msgstr "ओळख"
-
 #: selectiontypetreewidget.cpp:170
 msgid "Mails"
 msgstr ""
@@ -593,10 +624,6 @@ msgstr ""
 #: selectiontypetreewidget.cpp:178
 msgid "Mail Transport"
 msgstr "मेल वाहतुक"
-
-#: selectiontypetreewidget.cpp:186
-msgid "Resources"
-msgstr "संसाधने"
 
 #: selectiontypetreewidget.cpp:194
 msgid "Config"
