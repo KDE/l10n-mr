@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-18 01:30+0000\n"
+"POT-Creation-Date: 2013-11-20 01:23+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1082,35 +1082,60 @@ msgstr "शेवटी वापरलेले"
 msgid "Copy From"
 msgstr "पासून प्रत करा"
 
-#: image/kis_filter_strategy.h:66
+#: image/kis_filter_strategy.h:71
 msgid "Hermite"
 msgstr "गणिती"
 
-#: image/kis_filter_strategy.h:78
+#: image/kis_filter_strategy.h:83
 msgid "Bicubic"
 msgstr "दुहेरी घन"
 
-#: image/kis_filter_strategy.h:88
+#: image/kis_filter_strategy.h:89
+msgid ""
+"Adds pixels using the color of sorrounding pixels. Produces smoother tonal "
+"gradiatons than Bilinear."
+msgstr ""
+
+#: image/kis_filter_strategy.h:97
 msgid "Box"
 msgstr "पेटी"
 
 #: image/kis_filter_strategy.h:103
+msgid ""
+"Replicate pixels in the image. Preserves all the original detail, but can "
+"produce jagged effects."
+msgstr ""
+
+#: image/kis_filter_strategy.h:116
 msgid "Bilinear"
 msgstr "द्विरेषीय"
 
-#: image/kis_filter_strategy.h:115
+#: image/kis_filter_strategy.h:122
+msgid ""
+"Adds pixels averaging the color values of surrounding pixels. Produces "
+"medium quality results when the image is scaled from half to two times the "
+"original size."
+msgstr ""
+
+#: image/kis_filter_strategy.h:132
 msgid "Bell"
 msgstr "बेल"
 
-#: image/kis_filter_strategy.h:126
+#: image/kis_filter_strategy.h:143
 msgid "BSpline"
 msgstr "बी-स्प्लाईन"
 
-#: image/kis_filter_strategy.h:137
+#: image/kis_filter_strategy.h:154
 msgid "Lanczos3"
 msgstr "लँकझॉस 3"
 
-#: image/kis_filter_strategy.h:150
+#: image/kis_filter_strategy.h:160
+msgid ""
+"Offers similar results than Bicubic, but maybe a little bit sharper. Can "
+"produce light and dark halos along strong edges."
+msgstr ""
+
+#: image/kis_filter_strategy.h:171
 msgid "Mitchell"
 msgstr "मिशेल"
 
@@ -1935,13 +1960,8 @@ msgid "Convert Layer Type"
 msgstr "वर्तमान स्तर बदला"
 
 #. i18n: ectx: property (title), widget (QGroupBox, grpImage)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgImageSize)
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgLayerSize)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgImagesplit)
 #: plugins/extensions/colorspaceconversion/dlg_colorspaceconversion.cc:44
-#: plugins/extensions/imagesize/dlg_layersize.cc:36
-#: plugins/extensions/imagesize/wdg_imagesize.ui:14
-#: plugins/extensions/imagesize/wdg_layersize.ui:14
 #: plugins/extensions/imagesplit/wdg_imagesplit.ui:14
 #: ui/forms/wdgimageproperties.ui:20 ui/forms/wdgnewimage.ui:46
 msgid "Image Size"
@@ -3030,9 +3050,17 @@ msgstr "अंधुक त्रिज्या"
 #. i18n: ectx: property (text), widget (QLabel, lblCanvasBorderColor)
 #. i18n: ectx: property (text), widget (QLabel, lblColor)
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. i18n: ectx: property (text), widget (QLabel, colorLabel1)
+#. i18n: ectx: property (text), widget (QLabel, colorLabel2)
+#. i18n: ectx: property (text), widget (QLabel, colorLabel4)
+#. i18n: ectx: property (text), widget (QLabel, colorLabel3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:47
 #: plugins/filters/colors/wdgcolortoalphabase.ui:20
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:321
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:511
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:694
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:871
 #: ui/forms/wdgdisplaysettings.ui:32 ui/forms/wdgdisplaysettings.ui:103
 msgid "Color:"
 msgstr "रंगः"
@@ -3050,18 +3078,12 @@ msgstr "रंगः"
 msgid "Opacity:"
 msgstr "अपारदर्शकता :"
 
-#. i18n: ectx: property (suffix), widget (KIntNumInput, intWidthPercent)
-#. i18n: ectx: property (suffix), widget (KIntNumInput, intHeightPercent)
 #. i18n: ectx: property (suffix), widget (QSpinBox, opacitySpinBox)
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, offsetSPBox)
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, densitySPBox)
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, densityBox)
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, coverageSpin)
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:80
-#: plugins/extensions/imagesize/wdg_imagesize.ui:234
-#: plugins/extensions/imagesize/wdg_imagesize.ui:247
-#: plugins/extensions/imagesize/wdg_layersize.ui:136
-#: plugins/extensions/imagesize/wdg_layersize.ui:149
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:374
 #: plugins/paintops/sketch/wdgsketchoptions.ui:103
 #: plugins/paintops/sketch/wdgsketchoptions.ui:141
@@ -3167,65 +3189,40 @@ msgstr "+"
 msgid "-"
 msgstr "-"
 
+#: plugins/extensions/imagesize/dlg_canvassize.cc:30
+#: plugins/extensions/imagesize/dlg_imagesize.cc:33
+#: plugins/extensions/imagesize/dlg_layersize.cc:33
+msgid "Percent (%)"
+msgstr "प्रतिशत (%)"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgCanvasSize)
-#: plugins/extensions/imagesize/dlg_canvassize.cc:39
+#: plugins/extensions/imagesize/dlg_canvassize.cc:44
 #: plugins/extensions/imagesize/wdg_canvassize.ui:14
 msgid "Canvas Size"
 msgstr "कॅनव्हासचा आकार"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, comboUnit)
-#: plugins/extensions/imagesize/dlg_canvassize.cc:123
-#: plugins/extensions/imagesize/dlg_canvassize.cc:144
-#: plugins/extensions/imagesize/dlg_canvassize.cc:245
-#: plugins/extensions/imagesize/wdg_canvassize.ui:104
-msgid "Percent"
-msgstr "प्रतिशत"
+#: plugins/extensions/imagesize/dlg_imagesize.cc:34
+#, fuzzy
+#| msgid "pixels/inch"
+msgid "Pixels/Inch"
+msgstr "पिक्सेल/इंच"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbWidthPixelUnit)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbHeightPixelUnit)
-#. i18n: ectx: property (text), item, widget (QComboBox, comboUnit)
-#: plugins/extensions/imagesize/dlg_canvassize.cc:240
-#: plugins/extensions/imagesize/wdg_canvassize.ui:99
-#: plugins/extensions/imagesize/wdg_imagescale.ui:205
-#: plugins/extensions/imagesize/wdg_imagescale.ui:219
-msgid "Pixels"
-msgstr "पिक्सेल्स"
+#: plugins/extensions/imagesize/dlg_imagesize.cc:35
+msgid "Pixels/Centimeter"
+msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgImageScale)
-#: plugins/extensions/imagesize/dlg_imagesize.cc:40
-#: plugins/extensions/imagesize/wdg_imagescale.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgImageSize)
+#: plugins/extensions/imagesize/dlg_imagesize.cc:50
+#: plugins/extensions/imagesize/wdg_imagesize.ui:14
 msgid "Scale To New Size"
 msgstr "नव्या आकाराप्रमाणे वाढवा"
 
-#: plugins/extensions/imagesize/dlg_imagesize.cc:402
-msgid "Mitchell: No guidance available"
-msgstr "मिशेल : मार्गदर्शन उपलब्ध नाही"
-
-#: plugins/extensions/imagesize/dlg_imagesize.cc:404
-msgid "Lanczos: No guidance available"
-msgstr "लांक्झोस : मार्गदर्शन उपलब्ध नाही"
-
-#: plugins/extensions/imagesize/dlg_imagesize.cc:406
-msgid "BSpline: No guidance available"
-msgstr "बीस्प्लाइन : मार्गदर्शन उपलब्ध नाही"
-
-#: plugins/extensions/imagesize/dlg_imagesize.cc:408
-msgid "Bell: No guidance available"
-msgstr "घंटी : मार्गदर्शन उपलब्ध नाही"
-
-#: plugins/extensions/imagesize/dlg_imagesize.cc:410
-msgid ""
-"Box: replicate pixels exactly. Only useful for upscaling when doubling the "
-"size."
-msgstr ""
-
-#: plugins/extensions/imagesize/dlg_imagesize.cc:412
-msgid "Bicubic: slow and slightly fuzzy. Best for natural images."
-msgstr ""
-
-#: plugins/extensions/imagesize/dlg_imagesize.cc:414
-msgid "Bilinear: good for up and downscaling, but only between 50% to 200%."
-msgstr ""
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgLayerSize)
+#: plugins/extensions/imagesize/dlg_layersize.cc:46
+#: plugins/extensions/imagesize/imagesize.cc:135
+#: plugins/extensions/imagesize/wdg_layersize.ui:14
+msgid "Layer Size"
+msgstr "स्तराचा आकार"
 
 #: plugins/extensions/imagesize/imagesize.cc:56
 msgid "Scale To New Size..."
@@ -3243,12 +3240,8 @@ msgstr "स्तर प्रमाणात करा (&L)..."
 msgid "&Scale..."
 msgstr "प्रमाण (&S)..."
 
-#: plugins/extensions/imagesize/imagesize.cc:132
-msgid "Layer Size"
-msgstr "स्तराचा आकार"
-
-#: plugins/extensions/imagesize/imagesize.cc:169
-#: plugins/extensions/imagesize/imagesize.cc:182
+#: plugins/extensions/imagesize/imagesize.cc:165
+#: plugins/extensions/imagesize/imagesize.cc:172
 msgid "Scale Selection"
 msgstr "प्रमाणाची निवड"
 
@@ -3272,89 +3265,24 @@ msgid "Layer"
 msgstr "स्तर"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:29
-#: plugins/paintops/libpaintop/kis_pressure_size_option.cpp:26
-msgid "Size"
-msgstr "आकार"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, intWidth)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:53
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:158
-msgid "Width"
-msgstr "रुंदी"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, intHeight)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:73
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:181
-msgid "Height"
-msgstr "उंची"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:128
-#: plugins/extensions/offsetimage/kis_offset_processing_visitor.cpp:109
-#: plugins/extensions/offsetimage/wdg_offsetimage.ui:20
-msgid "Offset"
-msgstr "ऑफसेट"
-
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:134
-msgid "X Offset"
-msgstr "X ऑफसेट"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:176
-msgid "Y Offset"
-msgstr "Y ऑफसेट"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: plugins/extensions/imagesize/wdg_canvassize.ui:482
-msgid "Anchor"
-msgstr "अँकर"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:36
-msgid "Resolution"
-msgstr "घनता"
-
-#. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
-#. i18n: ectx: property (text), widget (QLabel, lblResolution)
-#. i18n: ectx: property (text), widget (QLabel, labelResolution)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:74
-#: ui/forms/wdg_resolution.ui:106 ui/forms/wdgimageproperties.ui:48
-#: ui/forms/wdgnewimage.ui:237
-msgid "Resolution:"
-msgstr "घनता :"
-
-#. i18n: ectx: property (text), widget (QLabel, labelResolutionUnit)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:97
-msgid "pixels/inch"
-msgstr "पिक्सेल/इंच"
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupPixelSize)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:107
-msgid "Size in Pixels"
-msgstr "पिक्सेलमधील आकार"
-
-#. i18n: ectx: property (text), widget (QLabel, lblWidth)
-#. i18n: ectx: property (text), widget (QLabel, labelWidth)
-#. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
-#. i18n: ectx: property (text), widget (QLabel, widthInfoLbl)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:132
-#: plugins/formats/pdf/pdfimportwidgetbase.ui:268
-#: plugins/paintops/experiment/wdgshapeoptions.ui:101
-#: plugins/paintops/spray/wdgshapeoptions.ui:101 ui/forms/wdg_resolution.ui:20
-#: ui/forms/wdgimageproperties.ui:28
-msgid "Width:"
-msgstr "रुंदी :"
+#. i18n: ectx: property (title), widget (QGroupBox, groupNewSize)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:20
+#: plugins/extensions/imagesize/wdg_layersize.ui:20
+#, fuzzy
+#| msgid "Image Size"
+msgid "New Size"
+msgstr "प्रतिमेचा आकार"
 
 #. i18n: ectx: property (text), widget (QLabel, lblHeight)
-#. i18n: ectx: property (text), widget (QLabel, labelHeight)
+#. i18n: ectx: property (text), widget (QLabel, lblPixelHeight)
+#. i18n: ectx: property (text), widget (QLabel, lblPrintHeight)
+#. i18n: ectx: property (text), widget (QLabel, lblNewHeight)
 #. i18n: ectx: property (text), widget (QLabel, intHeightqsdfq)
 #. i18n: ectx: property (text), widget (QLabel, heightInfoLbl)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:175
+#: plugins/extensions/imagesize/wdg_canvassize.ui:39
+#: plugins/extensions/imagesize/wdg_imagesize.ui:119
+#: plugins/extensions/imagesize/wdg_imagesize.ui:195
+#: plugins/extensions/imagesize/wdg_layersize.ui:151
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:288
 #: plugins/paintops/experiment/wdgshapeoptions.ui:168
 #: plugins/paintops/spray/wdgshapeoptions.ui:171 ui/forms/wdg_resolution.ui:27
@@ -3362,133 +3290,105 @@ msgstr "रुंदी :"
 msgid "Height:"
 msgstr "उंची :"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbWidthPixelUnit)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbHeightPixelUnit)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:210
-#: plugins/extensions/imagesize/wdg_imagescale.ui:224
-#, no-c-format
-msgid "Percent (%)"
-msgstr "प्रतिशत (%)"
-
-#. i18n: ectx: property (text), widget (QLabel, labelFilter)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:267
-msgid "Interpolation:"
-msgstr "इंटरपोलेशन :"
-
-#. i18n: ectx: property (toolTip), widget (KisCmbIDList, cmbFilterType)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:280
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Box</span>: simple "
-"scaling, use when scaling at exact divisions.</p><p><span style=\" font-"
-"weight:600;\">Bilinear</span>: use when upscaling or downscaling, with a "
-"scale from half to 2 times the original size </p><p><span style=\" font-"
-"weight:600;\">Bicubic</span>: sometimes better than bilinear, but could be a "
-"little blurry.</p></body></html>"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupPhysicalsize)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:293
-msgid "Print Size"
-msgstr "छपाई आकार"
-
-#. i18n: ectx: property (text), widget (QLabel, labelPhysicalWidth)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:367
-msgid "Print Width:"
-msgstr "छपाई रुंदी :"
-
-#. i18n: ectx: property (text), widget (QLabel, labelPhysicalHeight)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:380
-msgid "Print Height:"
-msgstr "छपाई उंची :"
-
-#. i18n: ectx: property (text), widget (QLabel, lblInterpolationGuidance)
-#: plugins/extensions/imagesize/wdg_imagescale.ui:415
-msgid "TextLabel"
-msgstr "पाठ्य-लेबल"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioResize)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:84
-msgid "&Resize"
-msgstr "आकार बदला (&R)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkCrop)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:91
-msgid "&Crop layers on image resize"
-msgstr "प्रतिमेच्या आकारा बदलावर स्तर कापा (&C)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, radioScale)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:117
-msgid "&Scale"
-msgstr "प्रमाण (&S)"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpPixelDimensions)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:130
-#: plugins/extensions/imagesize/wdg_layersize.ui:32
-msgid "&Pixel Dimensions"
-msgstr "पिक्सेल परिमाणे (&P)"
-
 #. i18n: ectx: property (text), widget (QLabel, lblWidth)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:136
-#: plugins/extensions/imagesize/wdg_layersize.ui:38 ui/forms/wdgnewimage.ui:95
-msgid "&Width:"
-msgstr "रुंदी (&W):"
+#. i18n: ectx: property (text), widget (QLabel, lblPixelWidth)
+#. i18n: ectx: property (text), widget (QLabel, lblPrintWidth)
+#. i18n: ectx: property (text), widget (QLabel, lblNewWidth)
+#. i18n: ectx: property (text), widget (QLabel, intWidthzqffs)
+#. i18n: ectx: property (text), widget (QLabel, widthInfoLbl)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:65
+#: plugins/extensions/imagesize/wdg_imagesize.ui:83
+#: plugins/extensions/imagesize/wdg_imagesize.ui:233
+#: plugins/extensions/imagesize/wdg_layersize.ui:58
+#: plugins/formats/pdf/pdfimportwidgetbase.ui:268
+#: plugins/paintops/experiment/wdgshapeoptions.ui:101
+#: plugins/paintops/spray/wdgshapeoptions.ui:101 ui/forms/wdg_resolution.ui:20
+#: ui/forms/wdgimageproperties.ui:28
+msgid "Width:"
+msgstr "रुंदी :"
 
-#. i18n: ectx: property (text), widget (QLabel, lblHeight)
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:153
-#: plugins/extensions/imagesize/wdg_layersize.ui:55
-#: ui/forms/wdgnewimage.ui:108
-msgid "&Height:"
-msgstr "उंची (&H):"
-
-#. i18n: ectx: property (text), widget (QLabel, lblOrignal)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:195
-#: plugins/extensions/imagesize/wdg_layersize.ui:97
-msgid "Original:"
-msgstr "मूलभूत :"
-
-#. i18n: ectx: property (text), widget (QLabel, lblNew)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:205
-#: plugins/extensions/imagesize/wdg_layersize.ui:107
-msgid "&New:"
-msgstr "नवीन (&N):"
-
-#. i18n: ectx: property (text), widget (QLabel, lblPercent)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:254
-#: plugins/extensions/imagesize/wdg_layersize.ui:156
-msgid "&Percent:"
-msgstr "प्रतिशत (&P):"
-
-#. i18n: ectx: property (text), widget (QCheckBox, chkConstrain)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:267
-#: plugins/extensions/imagesize/wdg_layersize.ui:169
-msgid "&Constrain proportions"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, aspectRatioCkb)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:136
+#: plugins/extensions/imagesize/wdg_imagesize.ui:361
+#: plugins/extensions/imagesize/wdg_layersize.ui:164
+#, fuzzy
+#| msgid "&Constrain proportions"
+msgid "Constrain aspect ratio"
 msgstr "गुणोत्तर निसाधनण (&C)"
 
+#. i18n: ectx: property (text), widget (QCheckBox, aspectRatioCkb)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:139
+#: plugins/extensions/imagesize/wdg_imagesize.ui:364
+#: plugins/extensions/imagesize/wdg_layersize.ui:167
+#, fuzzy
+#| msgid "&Constrain proportions"
+msgid "Constrain proportions"
+msgstr "गुणोत्तर निसाधनण (&C)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, grpAngle)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:152
+#: plugins/extensions/offsetimage/kis_offset_processing_visitor.cpp:109
+#: plugins/extensions/offsetimage/wdg_offsetimage.ui:20
+msgid "Offset"
+msgstr "ऑफसेट"
+
+#. i18n: ectx: property (text), widget (QLabel, lblXOff)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:193
+#, fuzzy
+#| msgid "X Offset"
+msgid "X Offset:"
+msgstr "X ऑफसेट"
+
+#. i18n: ectx: property (text), widget (QLabel, lblAnchor)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:242
+#, fuzzy
+#| msgid "Anchor"
+msgid "Anchor:"
+msgstr "अँकर"
+
+#. i18n: ectx: property (text), widget (QLabel, lblYOff)
+#: plugins/extensions/imagesize/wdg_canvassize.ui:252
+#, fuzzy
+#| msgid "Y Offset"
+msgid "Y Offset:"
+msgstr "Y ऑफसेट"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupImageSize)
+#: plugins/extensions/imagesize/wdg_imagesize.ui:20
+#, fuzzy
+#| msgid "&Pixel Dimensions"
+msgid "Pixel Dimensions"
+msgstr "पिक्सेल परिमाणे (&P)"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, lblFilterType)
+#. i18n: ectx: property (text), widget (QLabel, lblPixelFilter)
+#. i18n: ectx: property (text), widget (QLabel, lblFilter)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:280
+#: plugins/extensions/imagesize/wdg_imagesize.ui:96
+#: plugins/extensions/imagesize/wdg_layersize.ui:141
 #: plugins/paintops/libpaintop/forms/wdgfilteroption.ui:24
 #: ui/forms/wdgfilterselector.ui:39
 msgid "Filter:"
 msgstr "गाळणी :"
 
-#. i18n: ectx: property (toolTip), widget (KisCmbIDList, cmbFilterType)
-#: plugins/extensions/imagesize/wdg_imagesize.ui:293
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Box:</span> simple "
-"scaling, use when scaling at exact divisions.</p><p><span style=\" font-"
-"weight:600;\">Bilinear:</span> use when upscaling or downscaling, with a "
-"scale from half to 2 times the original size </p><p><span style=\" font-"
-"weight:600;\">Bicubic:</span> sometimes better than bilinear, but could be a "
-"little blurry.</p></body></html>"
-msgstr ""
+#. i18n: ectx: property (title), widget (QGroupBox, groupPrintSize)
+#: plugins/extensions/imagesize/wdg_imagesize.ui:186
+msgid "Print Size"
+msgstr "छपाई आकार"
 
-#. i18n: ectx: property (text), widget (QLabel, lblFilterType)
-#: plugins/extensions/imagesize/wdg_layersize.ui:182
-msgid "&Filter:"
-msgstr "गाळणी (&F):"
+#. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
+#. i18n: ectx: property (text), widget (QLabel, lblResolution)
+#: plugins/extensions/imagesize/wdg_imagesize.ui:275
+#: ui/forms/wdg_resolution.ui:106 ui/forms/wdgimageproperties.ui:48
+#: ui/forms/wdgnewimage.ui:237
+msgid "Resolution:"
+msgstr "घनता :"
+
+#. i18n: ectx: property (text), widget (QCheckBox, adjustPrintSizeSeparatelyCkb)
+#: plugins/extensions/imagesize/wdg_imagesize.ui:374
+msgid "Adjust print size separately"
+msgstr ""
 
 #: plugins/extensions/imagesplit/dlg_imagesplit.cpp:39
 msgid "Image Split"
@@ -4486,14 +4386,14 @@ msgstr "समतल विभाजन कोन X:"
 #. i18n: ectx: property (suffix), widget (KIntNumInput, shearAngleY)
 #. i18n: ectx: property (suffix), widget (KIntNumInput, irisRotationSlider)
 #. i18n: ectx: property (suffix), widget (KIntNumInput, blurAngleSlider)
-#. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox1)
 #. i18n: ectx: property (suffix), widget (QSpinBox, azimuthSpinBox1)
+#. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox1)
 #. i18n: ectx: property (suffix), widget (QSpinBox, azimuthSpinBox2)
 #. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox2)
-#. i18n: ectx: property (suffix), widget (QSpinBox, azimuthSpinBox3)
-#. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox3)
 #. i18n: ectx: property (suffix), widget (QSpinBox, azimuthSpinBox4)
 #. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox4)
+#. i18n: ectx: property (suffix), widget (QSpinBox, azimuthSpinBox3)
+#. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox3)
 #. i18n: ectx: property (suffix), widget (QSpinBox, fixedRotationSPBox)
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, rotationBox)
 #. i18n: ectx: property (suffix), widget (KDoubleNumInput, rotationSPBox)
@@ -4502,14 +4402,14 @@ msgstr "समतल विभाजन कोन X:"
 #: plugins/extensions/shearimage/wdg_shearimage.ui:65
 #: plugins/filters/blur/wdg_lens_blur.ui:98
 #: plugins/filters/blur/wdg_motion_blur.ui:64
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:383
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:423
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:599
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:636
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:796
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:830
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:1016
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:1050
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:370
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:411
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:560
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:604
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:740
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:781
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:917
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:958
 #: plugins/paintops/experiment/wdgshapeoptions.ui:273
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:295
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:58
@@ -5158,128 +5058,110 @@ msgstr "सामान्य संयोजना"
 
 #. i18n: ectx: property (title), widget (QGroupBox, materialParametersGroupBox)
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:60
-msgid "Material parameters"
+#, fuzzy
+#| msgid "Material parameters"
+msgid "Material properties"
 msgstr "साहित्याचे निकष"
 
-#. i18n: ectx: property (text), widget (QLabel, ambientReflectivityLabel)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:75
-msgid "Ambient Reflectivity"
+#. i18n: ectx: property (title), widget (QGroupBox, specularReflectivityGroup)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:69
+#, fuzzy
+#| msgid "Regular"
+msgid "Specular"
+msgstr "नियमित"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSpecularReflectivity)
+#. i18n: ectx: property (text), widget (QLabel, lblDiffuseReflectivity)
+#. i18n: ectx: property (text), widget (QLabel, lblAmbientReflectivity)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:81
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:160
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:207
+#, fuzzy
+#| msgid "Ambient Reflectivity"
+msgid "Reflectivity:"
 msgstr "सार्वत्रिक प्रतिबिंबता"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, diffuseReflectivityCheckBox)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:82
-msgid ""
-"Uncheck to ignore diffuse reflectivity from computations and increase "
-"performance."
-msgstr "संगणिकरणातून डिफ्यूज प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
-
-#. i18n: ectx: property (text), widget (QCheckBox, diffuseReflectivityCheckBox)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:85
-msgid "Diffuse reflectivity"
-msgstr "डिफ्यूज प्रतिबिंबता"
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, specularReflectivityCheckBox)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:98
-msgid ""
-"Uncheck to ignore specular reflectivity during computations and increase "
-"performance."
-msgstr "संगणिकरणातून स्पेक्युलर प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
-
-#. i18n: ectx: property (text), widget (QCheckBox, specularReflectivityCheckBox)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:101
-msgid "Specular reflectivity"
-msgstr "स्पेक्युलर प्रतिबिंबता"
-
-#. i18n: ectx: property (text), widget (QLabel, shinynessExponentLabel)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:114
-msgid "Shinyness exponent"
+#. i18n: ectx: property (text), widget (QLabel, lblSpecularShinyExp)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:91
+#, fuzzy
+#| msgid "Shinyness exponent"
+msgid "Shinyness exponent:"
 msgstr "शायनीलेस एक्स्पोनंट"
 
-#. i18n: ectx: property (text), widget (QLabel, heightChannelLabel)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:231
-msgid "Channel to use as heightmap"
-msgstr "हाईटमॅप म्हणून वापरायचे माध्यम"
+#. i18n: ectx: property (title), widget (QGroupBox, diffuseReflectivityGroup)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:148
+msgid "Diffuse"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, AmbientGroup)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:195
+msgid "Ambient"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblHeightmapChannel)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:245
+msgid "Heightmap channel:"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, lightSources)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:237
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:295
 msgid "Light Sources"
 msgstr "प्रकाशाचे स्रोत"
 
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox1)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:243
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:307
 msgid "Light Source 1"
 msgstr "प्रकाशाचा स्रोत 1"
-
-#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial1)
-#. i18n: ectx: property (text), widget (QLabel, azimuthLabel1)
-#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial2)
-#. i18n: ectx: property (text), widget (QLabel, azimuthLabel2)
-#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial3)
-#. i18n: ectx: property (text), widget (QLabel, azimuthLabel3)
-#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial4)
-#. i18n: ectx: property (text), widget (QLabel, azimuthLabel4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:273
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:351
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:477
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:561
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:693
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:852
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:897
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:981
-msgid "Azimuth"
-msgstr "अझिमुथ"
-
-#. i18n: ectx: property (title), widget (QGroupBox, grpMode)
-#. i18n: ectx: property (text), widget (QLabel, colorLabel1)
-#. i18n: ectx: property (text), widget (QLabel, colorLabel2)
-#. i18n: ectx: property (text), widget (QLabel, colorLabel3)
-#. i18n: ectx: property (text), widget (QLabel, colorLabel4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:341
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:551
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:761
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:971
-#: plugins/generators/solid/colorgenerator.h:53
-#: ui/dialogs/kis_dlg_preferences.cc:611 ui/forms/wdgnewimage.ui:356
-#: ui/kis_paintop_option.cpp:31
-msgid "Color"
-msgstr "रंग"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel1)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, azimuthSpinBox1)
 #. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel2)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, azimuthSpinBox2)
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, azimuthSpinBox3)
-#. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel3)
 #. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel4)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, azimuthSpinBox4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:348
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:417
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:558
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:593
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:790
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:849
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:978
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:1010
+#. i18n: ectx: property (toolTip), widget (QLabel, azimuthLabel3)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, azimuthSpinBox3)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:342
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:364
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:532
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:554
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:715
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:734
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:892
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:911
 msgid ""
 "Direction of the light, the dial tip represents where the light comes from."
 msgstr "प्रकाशाची दिशा, प्रकाश जेथून येतो तेथे डयलटिप दाखवली आहे."
+
+#. i18n: ectx: property (text), widget (QLabel, azimuthLabel1)
+#. i18n: ectx: property (text), widget (QLabel, azimuthLabel2)
+#. i18n: ectx: property (text), widget (QLabel, azimuthLabel4)
+#. i18n: ectx: property (text), widget (QLabel, azimuthLabel3)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:345
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:535
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:718
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:895
+#, fuzzy
+#| msgid "Azimuth"
+msgid "Azimuth:"
+msgstr "अझिमुथ"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel1)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, inclinationSpinBox1)
 #. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel2)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, inclinationSpinBox2)
-#. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel3)
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, inclinationSpinBox3)
 #. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel4)
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, inclinationSpinBox4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:358
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:380
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:568
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:633
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:768
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:827
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:988
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:1047
+#. i18n: ectx: property (toolTip), widget (QLabel, inclinationLabel3)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, inclinationSpinBox3)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:389
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:408
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:579
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:601
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:759
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:778
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:936
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:955
 msgid ""
 "Vertical tilt of the light. 90° is perpendicular to the canvas, 0° is "
 "parallel."
@@ -5287,29 +5169,42 @@ msgstr "प्रकाशाची उभी तिरीप. कॅनव्�
 
 #. i18n: ectx: property (text), widget (QLabel, inclinationLabel1)
 #. i18n: ectx: property (text), widget (QLabel, inclinationLabel2)
-#. i18n: ectx: property (text), widget (QLabel, inclinationLabel3)
 #. i18n: ectx: property (text), widget (QLabel, inclinationLabel4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:361
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:571
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:771
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:991
-msgid "Inclination"
+#. i18n: ectx: property (text), widget (QLabel, inclinationLabel3)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:392
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:582
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:762
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:939
+#, fuzzy
+#| msgid "Inclination"
+msgid "Inclination:"
 msgstr "तिरकेपणा"
 
+#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial1)
+#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial2)
+#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial4)
+#. i18n: ectx: property (toolTip), widget (QDial, azimuthDial3)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:432
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:625
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:802
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:979
+msgid "Azimuth"
+msgstr "अझिमुथ"
+
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox2)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:447
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:497
 msgid "Light Source 2"
 msgstr "प्रकाशाचा स्रोत 2"
 
-#. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox3)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:660
-msgid "Light Source 3"
-msgstr "प्रकाशाचा स्रोत 3"
-
 #. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox4)
-#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:864
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:677
 msgid "Light Source 4"
 msgstr "प्रकाशाचा स्रोत 4 "
+
+#. i18n: ectx: property (title), widget (QGroupBox, lightSourceGroupBox3)
+#: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:854
+msgid "Light Source 3"
+msgstr "प्रकाशाचा स्रोत 3"
 
 #: plugins/filters/pixelizefilter/kis_pixelize_filter.cpp:58
 msgid "&Pixelize..."
@@ -6159,6 +6054,13 @@ msgstr "रंग (&C):"
 #: plugins/generators/solid/colorgenerator.cpp:62
 msgid "&Solid Color..."
 msgstr "पक्का रंग (&S)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpMode)
+#: plugins/generators/solid/colorgenerator.h:53
+#: ui/dialogs/kis_dlg_preferences.cc:611 ui/forms/wdgnewimage.ui:356
+#: ui/kis_paintop_option.cpp:31
+msgid "Color"
+msgstr "रंग"
 
 #: plugins/paintops/chalk/chalk_paintop_plugin.cpp:43
 msgid "Chalk brush"
@@ -7540,6 +7442,10 @@ msgstr "विखुरण्याची संख्या"
 #: plugins/paintops/libpaintop/kis_pressure_sharpness_option.cpp:32
 msgid "Sharpness"
 msgstr "तीव्रता"
+
+#: plugins/paintops/libpaintop/kis_pressure_size_option.cpp:26
+msgid "Size"
+msgstr "आकार"
 
 #: plugins/paintops/libpaintop/kis_pressure_softness_option.cpp:23
 msgid "Softness"
@@ -8951,10 +8857,20 @@ msgstr ""
 msgid "Will keep the width of the crop constant"
 msgstr "कापण्याच्या स्थिरांकाची जाडी कायम राखली जाईल"
 
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, intWidth)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:158
+msgid "Width"
+msgstr "रुंदी"
+
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolHeight)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:171
 msgid "Will keep the height of the crop constant"
 msgstr "कापण्याच्या स्थिरांकाची उंची कायम राखली जाईल"
+
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, intHeight)
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:181
+msgid "Height"
+msgstr "उंची"
 
 #. i18n: ectx: property (toolTip), widget (KDoubleNumInput, doubleRatio)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:194
@@ -10371,6 +10287,16 @@ msgstr "शिर्षकहीन-1"
 msgid "&Predefined:"
 msgstr "पूर्वनियोजित (&P):"
 
+#. i18n: ectx: property (text), widget (QLabel, lblWidth)
+#: ui/forms/wdgnewimage.ui:95
+msgid "&Width:"
+msgstr "रुंदी (&W):"
+
+#. i18n: ectx: property (text), widget (QLabel, lblHeight)
+#: ui/forms/wdgnewimage.ui:108
+msgid "&Height:"
+msgstr "उंची (&H):"
+
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnScreenSize)
 #: ui/forms/wdgnewimage.ui:290
 msgid "Set Width and Height to screen resolution."
@@ -11035,7 +10961,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:535
+#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:542
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -11951,35 +11877,47 @@ msgstr "चौकटीकडे परत या"
 msgid "Shows just the canvas or the whole window"
 msgstr "फक्त कॅनव्हास किंवा संपूर्ण चौकट दाखवतो"
 
-#: ui/kis_view2.cpp:527
+#: ui/kis_view2.cpp:445
+#, fuzzy
+#| msgid "Vertical border:"
+msgid "Critical Error"
+msgstr "उभी किनार :"
+
+#: ui/kis_view2.cpp:445
+msgid ""
+"Krita cannot find any brush presets and will close now. Please check your "
+"installation."
+msgstr ""
+
+#: ui/kis_view2.cpp:534
 msgid "Insert as New Layer"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/kis_view2.cpp:528
+#: ui/kis_view2.cpp:535
 #, fuzzy
 #| msgid "Insert as New Layers"
 msgid "Insert Many Layers"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/kis_view2.cpp:530
+#: ui/kis_view2.cpp:537
 msgid "Open in New Document"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/kis_view2.cpp:531
+#: ui/kis_view2.cpp:538
 #, fuzzy
 #| msgid "Open in New Documents"
 msgid "Open Many Documents"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/kis_view2.cpp:533
+#: ui/kis_view2.cpp:540
 msgid "Replace Current Document"
 msgstr "वर्तमान दस्तऐवज बदला"
 
-#: ui/kis_view2.cpp:896
+#: ui/kis_view2.cpp:903
 msgid "Cleanup removed files..."
 msgstr "काढून टाकलेल्या फाईल्स साफ करा..."
 
-#: ui/kis_view2.cpp:1420
+#: ui/kis_view2.cpp:1427
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -12166,6 +12104,82 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#~ msgid "Percent"
+#~ msgstr "प्रतिशत"
+
+#~ msgid "Pixels"
+#~ msgstr "पिक्सेल्स"
+
+#~ msgid "Mitchell: No guidance available"
+#~ msgstr "मिशेल : मार्गदर्शन उपलब्ध नाही"
+
+#~ msgid "Lanczos: No guidance available"
+#~ msgstr "लांक्झोस : मार्गदर्शन उपलब्ध नाही"
+
+#~ msgid "BSpline: No guidance available"
+#~ msgstr "बीस्प्लाइन : मार्गदर्शन उपलब्ध नाही"
+
+#~ msgid "Bell: No guidance available"
+#~ msgstr "घंटी : मार्गदर्शन उपलब्ध नाही"
+
+#~ msgid "Resolution"
+#~ msgstr "घनता"
+
+#~ msgid "Size in Pixels"
+#~ msgstr "पिक्सेलमधील आकार"
+
+#~ msgid "Interpolation:"
+#~ msgstr "इंटरपोलेशन :"
+
+#~ msgid "Print Width:"
+#~ msgstr "छपाई रुंदी :"
+
+#~ msgid "Print Height:"
+#~ msgstr "छपाई उंची :"
+
+#~ msgid "TextLabel"
+#~ msgstr "पाठ्य-लेबल"
+
+#~ msgid "&Resize"
+#~ msgstr "आकार बदला (&R)"
+
+#~ msgid "&Crop layers on image resize"
+#~ msgstr "प्रतिमेच्या आकारा बदलावर स्तर कापा (&C)"
+
+#~ msgid "&Scale"
+#~ msgstr "प्रमाण (&S)"
+
+#~ msgid "Original:"
+#~ msgstr "मूलभूत :"
+
+#~ msgid "&New:"
+#~ msgstr "नवीन (&N):"
+
+#~ msgid "&Percent:"
+#~ msgstr "प्रतिशत (&P):"
+
+#~ msgid "&Filter:"
+#~ msgstr "गाळणी (&F):"
+
+#~ msgid ""
+#~ "Uncheck to ignore diffuse reflectivity from computations and increase "
+#~ "performance."
+#~ msgstr "संगणिकरणातून डिफ्यूज प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
+
+#~ msgid "Diffuse reflectivity"
+#~ msgstr "डिफ्यूज प्रतिबिंबता"
+
+#~ msgid ""
+#~ "Uncheck to ignore specular reflectivity during computations and increase "
+#~ "performance."
+#~ msgstr "संगणिकरणातून स्पेक्युलर प्रतिबिंबता टाळण्यासाठी अनचेक करा व कार्यक्षमता वाढवा"
+
+#~ msgid "Specular reflectivity"
+#~ msgstr "स्पेक्युलर प्रतिबिंबता"
+
+#~ msgid "Channel to use as heightmap"
+#~ msgstr "हाईटमॅप म्हणून वापरायचे माध्यम"
 
 #~ msgid "Effect Mask Properties"
 #~ msgstr "मुखवटा गुणधर्मांचे परिणाम"
