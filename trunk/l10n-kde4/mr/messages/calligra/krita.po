@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-28 01:26+0000\n"
+"POT-Creation-Date: 2013-11-29 01:31+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -26,7 +26,7 @@ msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
 #: benchmarks/kis_floodfill_benchmark.cpp:86
-#: plugins/tools/defaulttools/kis_tool_fill.cc:128
+#: plugins/tools/defaulttools/kis_tool_fill.cc:122
 #: ui/actions/kis_selection_action_factories.cpp:171
 msgid "Flood Fill"
 msgstr "फ्लड फिल"
@@ -1380,6 +1380,7 @@ msgstr ""
 
 #: image/recorder/kis_recorded_path_paint_action.cpp:61
 #: plugins/tools/defaulttools/kis_tool_path.cc:63
+#: plugins/tools/defaulttools/kis_tool_pencil.cc:61
 msgid "Path"
 msgstr "मार्ग"
 
@@ -1514,11 +1515,11 @@ msgstr "उघडा..."
 msgid "Ellipse assistant"
 msgstr "लंबवर्तुळ सहायक"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:593
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:571
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr "चुका आढळल्या. सर्व सहायक कार्यान्वित करता आले नाहीत."
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:99
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:101
 msgid "Ruler assistant editor tool"
 msgstr "मोजपट्टी सहायक संपादन साधन"
 
@@ -2907,7 +2908,7 @@ msgid "LUT file:"
 msgstr "लुट फाईल"
 
 #. i18n: ectx: property (text), widget (QToolButton, m_bnClearLut)
-#: plugins/extensions/dockers/lut/wdglut.ui:215 ui/tool/kis_tool.cc:576
+#: plugins/extensions/dockers/lut/wdglut.ui:215 ui/tool/kis_tool.cc:511
 msgid "Clear"
 msgstr "पुसून टाका"
 
@@ -2930,7 +2931,7 @@ msgid "Overview"
 msgstr "पूर्वावलोकन"
 
 #: plugins/extensions/dockers/palettedocker/palettedocker_dock.cpp:89
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:303
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:289
 msgid "Palette"
 msgstr "पटल"
 
@@ -4488,7 +4489,7 @@ msgstr "नेत्रिका"
 #: plugins/paintops/experiment/wdgshapeoptions.ui:46
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:326
 #: plugins/paintops/spray/wdgshapeoptions.ui:46
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:229
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:204
 msgid "Shape:"
 msgstr "आकार :"
 
@@ -4530,7 +4531,7 @@ msgstr "अष्टकोन (8)"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/filters/blur/wdg_lens_blur.ui:73
 #: plugins/filters/roundcorners/kis_round_corners_filter.cpp:130
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:291
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:287
 #: plugins/tools/selectiontools/kis_tool_select_magnetic_option_widget.ui:103
 msgid "Radius"
 msgstr "त्रिज्या"
@@ -6320,25 +6321,25 @@ msgstr "डायनॅमिक्स जुळणी"
 
 #. i18n: ectx: property (text), widget (QLabel, initWidthLbl)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:66
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:308
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:302
 msgid "Initial width:"
 msgstr "सुरुवातीची रुंदी :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:89
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:278
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:272
 msgid "Mass:"
 msgstr "मास :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:112
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:285
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:279
 msgid "Drag:"
 msgstr "खेचा :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:148
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:314
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:308
 msgid "Width range:"
 msgstr "रुंदीचा पल्ला :"
 
@@ -7268,8 +7269,8 @@ msgstr "साधे रंग"
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbStyle)
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:58
 #: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:26
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:162
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:176
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:141
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:155
 #: plugins/tools/tool_text/wdgtextoptions.ui:53
 msgid "Gradient"
 msgstr "ग्रेडियंट"
@@ -7382,7 +7383,7 @@ msgid "Lower value "
 msgstr "कमी मूल्य "
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:30
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:249
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
 #: ui/kis_paintop_box.cc:240
 msgid "Mirror"
 msgstr "प्रतिबिंब"
@@ -7396,12 +7397,12 @@ msgid "Mirrored"
 msgstr "प्रतिबिंबित"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:35
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:269
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:265
 msgid "Horizontally"
 msgstr "आडवे"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:271
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:267
 msgid "Vertically"
 msgstr "उभे"
 
@@ -8372,15 +8373,15 @@ msgstr "सहायक चुंबकत्व"
 msgid "Paint with brushes"
 msgstr "कुंचल्याने रंगवा"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:253
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:249
 msgid "Cannot pick a color as no layer is active."
 msgstr "कोणताही स्तर सक्रिय नसल्याने रंग घेता येत नाही."
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:257
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:253
 msgid "Cannot pick a color as the active layer is not visible."
 msgstr "सक्रिय स्तर  दिसत नसल्यानेकोणताही रंग घेता येत नाही."
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:303
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:289
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "पटल फाईल %1. मध्ये लिहिता येत नाही. बहुधा ती फक्त वाचण्यापुरतीच असेल"
@@ -8393,40 +8394,40 @@ msgstr "प्रतिमेतून किंवा वर्तमान स
 msgid "Draw an ellipse"
 msgstr "लंबवर्तुळ काढा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:161
+#: plugins/tools/defaulttools/kis_tool_fill.cc:151
 msgid "Threshold: "
 msgstr "मर्यादा : "
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:168
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:169
+#: plugins/tools/defaulttools/kis_tool_fill.cc:158
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:162
 msgid "Grow/shrink selection: "
 msgstr "वाढवा/घटवा निवड : "
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:176
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:184
+#: plugins/tools/defaulttools/kis_tool_fill.cc:166
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:177
 msgid "Feathering radius: "
 msgstr "फेदरिंग त्रिज्या"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:184
+#: plugins/tools/defaulttools/kis_tool_fill.cc:174
 msgid "Use pattern"
 msgstr "पॅटर्न वापरा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:185
+#: plugins/tools/defaulttools/kis_tool_fill.cc:175
 msgid ""
 "When checked do not use the foreground color, but the gradient selected to "
 "fill with"
 msgstr "हे चेक केल्यावर पृष्ठभूमीचा रंग वापरत नाही, पण ग्रेडियंट याने भरण्यासाठी निवडली गेली"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:188
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:198
+#: plugins/tools/defaulttools/kis_tool_fill.cc:178
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:191
 msgid "Limit to current layer"
 msgstr "वर्तमान स्तरापुरतेच मर्यादित"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:191
+#: plugins/tools/defaulttools/kis_tool_fill.cc:181
 msgid "Fill entire selection"
 msgstr "संपूर्ण निवड भरून काढा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:192
+#: plugins/tools/defaulttools/kis_tool_fill.cc:182
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
@@ -8437,61 +8438,61 @@ msgstr ""
 msgid "Fill a contiguous area of color with a color, or fill a selection."
 msgstr "रंगाने सलग रंगाचा भाग  रंगवा , किंवा निवडलेला भाग भरून काढा"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:230
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:205
 msgid "Repeat:"
 msgstr "पुनरावृत्ती करा :"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:232
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:207
 msgctxt "the gradient will be drawn with the color order reversed"
 msgid "Reverse"
 msgstr "मागे"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:239
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:214
 msgctxt "the gradient will be drawn linearly"
 msgid "Linear"
 msgstr "रेषीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:240
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:215
 msgctxt "the gradient will be drawn bilinearly"
 msgid "Bi-Linear"
 msgstr "द्विरेषीय"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:241
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:216
 msgctxt "the gradient will be drawn radially"
 msgid "Radial"
 msgstr "रेडियल"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:242
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:217
 msgctxt "the gradient will be drawn in a square around a centre"
 msgid "Square"
 msgstr "चौरस"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:243
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:218
 msgctxt "the gradient will be drawn as an assymmetric cone"
 msgid "Conical"
 msgstr "शंक्वाकृती"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:244
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:219
 msgctxt "the gradient will be drawn as a symmetric cone"
 msgid "Conical Symmetric"
 msgstr "शंक्वाकृती समान"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:249
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:224
 msgctxt "The gradient will not repeat"
 msgid "None"
 msgstr "काही नाही"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:250
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:225
 msgctxt "The gradient will repeat forwards"
 msgid "Forwards"
 msgstr "पुढे"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:251
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:226
 msgctxt "The gradient will repeat alternatingly"
 msgid "Alternating"
 msgstr "एक आड एक"
 
-#: plugins/tools/defaulttools/kis_tool_gradient.cc:259
+#: plugins/tools/defaulttools/kis_tool_gradient.cc:234
 msgid "Anti-alias threshold:"
 msgstr "एंटिएलायस मर्यादा :"
 
@@ -8511,18 +8512,18 @@ msgstr "स्पर्ष रेषेचा दाब"
 msgid "Varying End-Points"
 msgstr "बदलते अन्त्य बिंदू"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:232
+#: plugins/tools/defaulttools/kis_tool_line.cc:186
 msgctxt "a straight drawn line"
 msgid "Line"
 msgstr "रेषा"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:312
+#: plugins/tools/defaulttools/kis_tool_line.cc:259
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr "Alt+Drag मुळे तुम्हाला सरळ रेषा काढणे भाग पडेल"
 
-#: plugins/tools/defaulttools/kis_tool_line.h:87
+#: plugins/tools/defaulttools/kis_tool_line.h:85
 msgid "Draw a straight line with the current brush"
 msgstr "वर्तमान कुंचल्याने सरळ रेषा काढा"
 
@@ -8538,47 +8539,47 @@ msgstr "कोन : "
 msgid "Measure the distance between two points"
 msgstr "दोन बिंदूंतील अंतर मोजा"
 
-#: plugins/tools/defaulttools/kis_tool_move.h:99
+#: plugins/tools/defaulttools/kis_tool_move.h:108
 msgid "Move a layer"
 msgstr "स्तर हलवा"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:230
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:226
 #, fuzzy
 #| msgid "Show"
 msgid "Show Axis"
 msgstr "दर्शवा"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:234
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:230
 msgid "Axis point"
 msgstr "अक्ष बिंदू"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:240
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:236
 msgid "Set axis angle (degrees)"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:245
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:241
 #, fuzzy
 #| msgid "Angle:"
 msgid "Axis Angle:"
 msgstr "कोन :"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:248
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:244
 msgid "Symmetry"
 msgstr "समानता"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:250
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:246
 msgid "Translate"
 msgstr "रूपांतर"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.cpp:256
+#: plugins/tools/defaulttools/kis_tool_multihand.cpp:252
 msgid "Brush count"
 msgstr "कुंचल्याची संख्या"
 
-#: plugins/tools/defaulttools/kis_tool_multihand.h:97
+#: plugins/tools/defaulttools/kis_tool_multihand.h:99
 msgid "Paint with multibrushes"
 msgstr "अनेक कुंचल्यांनी रंगवा"
 
-#: plugins/tools/defaulttools/kis_tool_pan.h:74
+#: plugins/tools/defaulttools/kis_tool_pan.h:76
 msgid "Move and rotate your canvas"
 msgstr "तुमचा कॅनव्हास हलवा व फिरवा"
 
@@ -8586,11 +8587,7 @@ msgstr "तुमचा कॅनव्हास हलवा व फिरव�
 msgid "Draw a path. Shift-mouseclick ends the path."
 msgstr "मार्ग काढा. Shift-mouseclick ने मार्ग थांबतो."
 
-#: plugins/tools/defaulttools/kis_tool_pencil.cc:141
-msgid "Freehand path"
-msgstr "मुक्तहस्त मार्ग"
-
-#: plugins/tools/defaulttools/kis_tool_pencil.h:74
+#: plugins/tools/defaulttools/kis_tool_pencil.h:67
 msgid "Draw a freehand path."
 msgstr "मुक्तहस्त मार्ग काढा."
 
@@ -8692,7 +8689,7 @@ msgid "Move the whole group"
 msgstr "संपूर्ण समूह हलवा"
 
 #: plugins/tools/selectiontools/kis_tool_select_brush.cc:53
-#: plugins/tools/selectiontools/kis_tool_select_brush.cc:195
+#: plugins/tools/selectiontools/kis_tool_select_brush.cc:172
 msgid "Brush Selection"
 msgstr "कुंचल्याची निवड"
 
@@ -8700,17 +8697,17 @@ msgstr "कुंचल्याची निवड"
 msgid "Brush size:"
 msgstr "कुंचल्याचा आकार :"
 
-#: plugins/tools/selectiontools/kis_tool_select_brush.h:74
+#: plugins/tools/selectiontools/kis_tool_select_brush.h:76
 msgid "Select by brush"
 msgstr "कुंचल्याने निवडा"
 
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:55
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:108
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:105
 msgid "Contiguous Area Selection"
 msgstr "सलग भाग निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:154
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:149
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:147
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:142
 msgid "Fuzziness: "
 msgstr "फझीनेस : "
 
@@ -8782,11 +8779,11 @@ msgid "Blue"
 msgstr "निळा"
 
 #: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:115
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:101
 msgid "Outline Selection"
 msgstr "निवडीची रूपरेषा"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.h:65
+#: plugins/tools/selectiontools/kis_tool_select_outline.h:66
 msgid "Select an area by its outline"
 msgstr "रूपरेषेनुसार भाग निवडा"
 
@@ -8813,7 +8810,7 @@ msgid "Select a rectangular area"
 msgstr "चौकोनी भाग निवडा"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:79
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:126
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:123
 msgid "Similar Selection"
 msgstr "समान निवड"
 
@@ -8821,7 +8818,7 @@ msgstr "समान निवड"
 msgid "Select similar colors"
 msgstr "समान रंग निवडा"
 
-#: plugins/tools/tool_crop/kis_tool_crop.h:195
+#: plugins/tools/tool_crop/kis_tool_crop.h:200
 msgid "Crop the image to an area"
 msgstr "या भागाइतकी प्रतिमा कापा"
 
@@ -8934,19 +8931,19 @@ msgctxt "(qtundo-format)"
 msgid "Dyna"
 msgstr "डायना"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:294
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:288
 msgid "Fixed angle:"
 msgstr "स्थिर कोन :"
 
-#: plugins/tools/tool_dyna/kis_tool_dyna.h:156
+#: plugins/tools/tool_dyna/kis_tool_dyna.h:155
 msgid "Paint with brushes using dynamic movements"
 msgstr "गतिमान हालचाली वापरून कुंचल्याने रंगवा"
 
-#: plugins/tools/tool_grid/kis_tool_grid.h:67
+#: plugins/tools/tool_grid/kis_tool_grid.h:71
 msgid "Edit the grid"
 msgstr "जाळीचे संपादन करा"
 
-#: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:92
+#: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:93
 msgid "Edit the perspective grid"
 msgstr "आकलन जाळीचे संपादन करा"
 
@@ -9162,27 +9159,27 @@ msgstr "कलाकारांकरिता डिजिटल पेंट�
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: ui/actions/kis_selection_action_factories.cpp:262
+#: ui/actions/kis_selection_action_factories.cpp:259
 msgid "Cut"
 msgstr "कापा"
 
-#: ui/actions/kis_selection_action_factories.cpp:262
+#: ui/actions/kis_selection_action_factories.cpp:259
 msgid "Copy"
 msgstr "प्रत बनवा"
 
-#: ui/actions/kis_selection_action_factories.cpp:286
+#: ui/actions/kis_selection_action_factories.cpp:283
 msgid "Copy Merged"
 msgstr "प्रत मिसळा"
 
-#: ui/actions/kis_selection_action_factories.cpp:296
+#: ui/actions/kis_selection_action_factories.cpp:293
 msgid "(pasted)"
 msgstr "(चिकटविले)"
 
-#: ui/actions/kis_selection_action_factories.cpp:327
+#: ui/actions/kis_selection_action_factories.cpp:324
 msgid "Pasted"
 msgstr "चिकटविले"
 
-#: ui/actions/kis_selection_action_factories.cpp:374
+#: ui/actions/kis_selection_action_factories.cpp:371
 #: ui/kis_selection_manager.cc:222
 #, fuzzy
 #| msgid "Vector Selection"
@@ -10730,15 +10727,15 @@ msgid "Edit Mouse Wheel Input"
 msgstr ""
 
 #: ui/input/kis_abstract_input_action.cpp:41
-#: ui/input/kis_tool_invocation_action.cpp:49
+#: ui/input/kis_tool_invocation_action.cpp:48
 msgid "Activate"
 msgstr "सक्रिय करा"
 
-#: ui/input/kis_alternate_invocation_action.cpp:31
+#: ui/input/kis_alternate_invocation_action.cpp:39
 msgid "Alternate Invocation"
 msgstr "वैकल्पिक इन्व्होकेशन"
 
-#: ui/input/kis_alternate_invocation_action.cpp:32
+#: ui/input/kis_alternate_invocation_action.cpp:40
 #, fuzzy
 #| msgid ""
 #| "Alternate Invocation performs an alternate action with the current tool. "
@@ -10751,21 +10748,37 @@ msgstr ""
 "वर्तमान साधनावर वैकल्पिक इन्व्होकेशन पर्यायी कृती करते उदा. कुंचल्याचे साधन कॅनव्हास मधून रंग "
 "निवडते"
 
-#: ui/input/kis_alternate_invocation_action.cpp:34
+#: ui/input/kis_alternate_invocation_action.cpp:42
 msgid "Toggle Primary Mode"
 msgstr "प्राथमिक पद्धत चालू/बंद करा"
 
-#: ui/input/kis_alternate_invocation_action.cpp:35
+#: ui/input/kis_alternate_invocation_action.cpp:43
 msgid "Toggle Secondary Mode"
 msgstr "द्वितिय पद्धत चालू/बंद करा"
 
-#: ui/input/kis_change_primary_setting_action.cpp:29
+#: ui/input/kis_alternate_invocation_action.cpp:45
+msgid "Pick Foreground Color from Current Node"
+msgstr ""
+
+#: ui/input/kis_alternate_invocation_action.cpp:46
+msgid "Pick Background Color from Current Node"
+msgstr ""
+
+#: ui/input/kis_alternate_invocation_action.cpp:48
+msgid "Pick Foreground Color from Merged Image"
+msgstr ""
+
+#: ui/input/kis_alternate_invocation_action.cpp:49
+msgid "Pick Background Color from Merged Image"
+msgstr ""
+
+#: ui/input/kis_change_primary_setting_action.cpp:33
 #, fuzzy
 #| msgid "Change Tool Primary Setting"
 msgid "Change Primary Setting"
 msgstr "साधनाची प्राथमिक संयोजना बदला"
 
-#: ui/input/kis_change_primary_setting_action.cpp:30
+#: ui/input/kis_change_primary_setting_action.cpp:34
 #, fuzzy
 #| msgid ""
 #| "Changes a tool's \"Primary Setting\", for example the brush size for the "
@@ -10775,7 +10788,7 @@ msgid ""
 "\", for example the brush size for the brush tool."
 msgstr "साधनाची \"प्राथमिक संयोजना\" बदला उदा. कुंचल्याचा आकार कुंचल्याच्या साधनासाठी"
 
-#: ui/input/kis_input_manager.cpp:473
+#: ui/input/kis_input_manager.cpp:479
 msgid "Set Mirror Axis"
 msgstr "प्रतिबिंब अक्ष ठरवा"
 
@@ -10951,11 +10964,11 @@ msgstr "पॉप अप पटल दर्शवा"
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:45
+#: ui/input/kis_tool_invocation_action.cpp:44
 msgid "Tool Invocation"
 msgstr "साधन इन्व्होकेशन"
 
-#: ui/input/kis_tool_invocation_action.cpp:46
+#: ui/input/kis_tool_invocation_action.cpp:45
 #, fuzzy
 #| msgid ""
 #| "Tool Invocation invokes the current tool, for example, using the brush "
@@ -10966,11 +10979,11 @@ msgid ""
 msgstr ""
 "साधन इन्व्होकेशन वर्तमान साधन पाचारण करते उदा. कुंचला साधन वापरताना ते पेंटिंग सुरू करते"
 
-#: ui/input/kis_tool_invocation_action.cpp:50
+#: ui/input/kis_tool_invocation_action.cpp:49
 msgid "Confirm"
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:542
+#: ui/input/kis_tool_invocation_action.cpp:50 ui/kis_view2.cpp:542
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -11970,39 +11983,39 @@ msgid ""
 "<i>./0</i> represents the first child of the current layer"
 msgstr ""
 
-#: ui/tool/kis_tool.cc:127
+#: ui/tool/kis_tool.cc:113
 msgid "Swap Foreground and Background Color"
 msgstr "पृष्ठभूमीच्या व पार्श्वभूमीच्या रंगांची अदलाबदल करा"
 
-#: ui/tool/kis_tool.cc:133
+#: ui/tool/kis_tool.cc:119
 msgid "Reset Foreground and Background Color"
 msgstr "पृष्ठभूमीचे व पार्श्वभूमीचे रंग पुन्हस्थापित करा"
 
-#: ui/tool/kis_tool.cc:605
+#: ui/tool/kis_tool.cc:540
 msgid "No options"
 msgstr "पर्याय नाहीत"
 
-#: ui/tool/kis_tool.cc:740
+#: ui/tool/kis_tool.cc:675
 msgid "Layer is locked and invisible."
 msgstr "स्तर कुलूपबंद व अदृश्य आहे."
 
-#: ui/tool/kis_tool.cc:742
+#: ui/tool/kis_tool.cc:677
 msgid "Layer is locked."
 msgstr "स्तर कुलूपबंद आहे."
 
-#: ui/tool/kis_tool.cc:744
+#: ui/tool/kis_tool.cc:679
 msgid "Layer is invisible."
 msgstr "स्तर अदृश्य आहे."
 
-#: ui/tool/kis_tool.cc:746
+#: ui/tool/kis_tool.cc:681
 msgid "Group not editable."
 msgstr "समूह संपादनास अयोग्य."
 
-#: ui/tool/kis_tool.cc:761
+#: ui/tool/kis_tool.cc:696
 msgid "Local selection is locked."
 msgstr "स्थानिक निवड कुलूपबंद आहे."
 
-#: ui/tool/kis_tool_freehand.cc:205
+#: ui/tool/kis_tool_freehand.cc:182
 msgid "Can't paint on vector layer."
 msgstr "व्हेक्टर स्तरावर पेंट होऊ शकत नाही."
 
@@ -12113,6 +12126,9 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#~ msgid "Freehand path"
+#~ msgstr "मुक्तहस्त मार्ग"
 
 #~ msgid "Border selection by"
 #~ msgstr "कडेची निवड द्वारा"
