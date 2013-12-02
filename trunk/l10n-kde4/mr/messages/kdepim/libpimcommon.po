@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-01 01:39+0000\n"
+"POT-Creation-Date: 2013-12-02 01:36+0000\n"
 "PO-Revision-Date: 2013-04-06 12:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -448,26 +448,26 @@ msgstr ""
 msgid "TriopAB"
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:50 shorturl/shorturlwidget.cpp:52
+#: shorturl/shorturlwidget.cpp:52 shorturl/shorturlwidget.cpp:54
 #: texteditor/commonwidget/texteditfindbarbase.cpp:49
 #: texteditor/commonwidget/texteditfindbarbase.cpp:52
-#: translator/translatorwidget.cpp:225 translator/translatorwidget.cpp:228
+#: translator/translatorwidget.cpp:227 translator/translatorwidget.cpp:230
 msgid "Close"
 msgstr "बंद करा"
 
-#: shorturl/shorturlwidget.cpp:59
+#: shorturl/shorturlwidget.cpp:61
 msgid "Configure..."
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:63
+#: shorturl/shorturlwidget.cpp:65
 msgid "In progress to generate short url..."
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:67
+#: shorturl/shorturlwidget.cpp:69
 msgid "Original url:"
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:77
+#: shorturl/shorturlwidget.cpp:79
 #, fuzzy
 #| msgctxt ""
 #| "Invert language choices so that from becomes to and to becomes from"
@@ -475,43 +475,47 @@ msgstr ""
 msgid "Convert"
 msgstr "उलट करा"
 
-#: shorturl/shorturlwidget.cpp:81
+#: shorturl/shorturlwidget.cpp:83
 msgid "Short url:"
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:89
+#: shorturl/shorturlwidget.cpp:91
 msgid "Copy to clipboard"
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:137
+#: shorturl/shorturlwidget.cpp:139
 msgid "No network connection detected, we cannot shorten url."
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:137 translator/translatorwidget.cpp:360
+#: shorturl/shorturlwidget.cpp:139 translator/translatorwidget.cpp:372
 msgid "No network"
 msgstr ""
 
-#: shorturl/shorturlwidget.cpp:173
+#: shorturl/shorturlwidget.cpp:175
 #, kde-format
 msgid "An error occurs: \"%1\""
 msgstr ""
 
-#: storageservice/dropbox/dropboxjob.cpp:145
+#: shorturl/shorturlwidget.cpp:208
+msgid "Generate Shorten Url"
+msgstr ""
+
+#: storageservice/dropbox/dropboxjob.cpp:146
 #, kde-format
 msgid "Upload File returns an error: %1"
 msgstr ""
 
-#: storageservice/dropbox/dropboxjob.cpp:149
+#: storageservice/dropbox/dropboxjob.cpp:150
 #, kde-format
 msgid "Create Folder returns an error: %1"
 msgstr ""
 
-#: storageservice/dropbox/dropboxjob.cpp:153
+#: storageservice/dropbox/dropboxjob.cpp:154
 #, kde-format
 msgid "Get account info returns an error: %1"
 msgstr ""
 
-#: storageservice/dropbox/dropboxjob.cpp:157
+#: storageservice/dropbox/dropboxjob.cpp:158
 #, kde-format
 msgid "List folder returns an error: %1"
 msgstr ""
@@ -526,11 +530,11 @@ msgid ""
 "cloud storage, file synchronization, and client software."
 msgstr ""
 
-#: storageservice/hubic/hubicstorageservice.cpp:73
+#: storageservice/hubic/hubicstorageservice.cpp:76
 msgid "Hubic"
 msgstr ""
 
-#: storageservice/hubic/hubicstorageservice.cpp:88
+#: storageservice/hubic/hubicstorageservice.cpp:91
 msgid ""
 "Hubic is a file hosting service operated by Ovh, Inc. that offers cloud "
 "storage, file synchronization, and client software."
@@ -556,13 +560,14 @@ msgstr ""
 msgid "Delete Service"
 msgstr "नमूना काढून टाका"
 
-#: storageservice/settings/storageservicesettingswidget.cpp:177
+#: storageservice/settings/storageservicesettingswidget.cpp:176
 #, fuzzy, kde-format
 #| msgid "Name:"
 msgid "Name: %1"
 msgstr "नाव :"
 
 #: storageservice/storageauthviewdialog.cpp:27
+#: storageservice/ubuntuone/logindialog.cpp:31
 msgid "Authorize"
 msgstr ""
 
@@ -578,7 +583,17 @@ msgstr ""
 msgid "File to upload"
 msgstr ""
 
-#: storageservice/ubuntuone/ubuntuonestorageservice.cpp:73
+#: storageservice/ubuntuone/logindialog.cpp:38
+#, fuzzy
+#| msgid "&Rename"
+msgid "Username:"
+msgstr "नाव बदला (&R)"
+
+#: storageservice/ubuntuone/logindialog.cpp:44
+msgid "Password:"
+msgstr ""
+
+#: storageservice/ubuntuone/ubuntuonestorageservice.cpp:76
 msgid "Ubuntu One"
 msgstr ""
 
@@ -983,46 +998,52 @@ msgstr "वेल्श"
 msgid "Yiddish"
 msgstr "यिड्डिष"
 
-#: translator/translatorwidget.cpp:133
+#: translator/translatorwidget.cpp:135
 msgid "Problem when connecting to the translator web site."
 msgstr ""
 
-#: translator/translatorwidget.cpp:234
+#: translator/translatorwidget.cpp:236
 msgctxt "Translate from language"
 msgid "From:"
 msgstr "पासून :"
 
-#: translator/translatorwidget.cpp:239
+#: translator/translatorwidget.cpp:241
 msgctxt "Translate to language"
 msgid "To:"
 msgstr "पर्यंत :"
 
-#: translator/translatorwidget.cpp:251
+#: translator/translatorwidget.cpp:253
 msgctxt "Invert language choices so that from becomes to and to becomes from"
 msgid "Invert"
 msgstr "उलट करा"
 
-#: translator/translatorwidget.cpp:255 translator/translatorwidget.cpp:257
+#: translator/translatorwidget.cpp:257 translator/translatorwidget.cpp:259
 msgid "Clear"
 msgstr "पुसून टाका"
 
-#: translator/translatorwidget.cpp:262 translator/translatorwidget.cpp:264
+#: translator/translatorwidget.cpp:264 translator/translatorwidget.cpp:266
 msgid "Translate"
 msgstr "भाषांतर"
 
-#: translator/translatorwidget.cpp:272
+#: translator/translatorwidget.cpp:274
 msgid "Debug"
 msgstr ""
 
-#: translator/translatorwidget.cpp:289
+#: translator/translatorwidget.cpp:291
 msgid "Drag text that you want to translate."
 msgstr ""
 
-#: translator/translatorwidget.cpp:360
+#: translator/translatorwidget.cpp:329
+#, fuzzy
+#| msgid "Translate"
+msgid "&Translator"
+msgstr "भाषांतर"
+
+#: translator/translatorwidget.cpp:372
 msgid "No network connection detected, we cannot translate text."
 msgstr ""
 
-#: translator/translatorwidget.cpp:395
+#: translator/translatorwidget.cpp:407
 #, fuzzy
 #| msgid "Translate"
 msgid "Translate error"
