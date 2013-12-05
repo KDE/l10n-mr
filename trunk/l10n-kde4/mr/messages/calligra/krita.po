@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-03 01:21+0000\n"
+"POT-Creation-Date: 2013-12-05 01:22+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -5374,7 +5374,7 @@ msgstr "उभा तरंग"
 msgid "HDR Layer"
 msgstr "HDR स्तर"
 
-#: plugins/formats/exr/exr_export.cc:66
+#: plugins/formats/exr/exr_export.cc:72
 msgid "OpenEXR Export Options"
 msgstr "OpenEXR निर्यात पर्याय"
 
@@ -5396,59 +5396,35 @@ msgstr "प्रतिमा सपाट करा (&I)"
 
 #: plugins/formats/jp2/jp2_converter.cc:345
 #: plugins/formats/jp2/jp2_converter.cc:356
-#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:66
+#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:67
 #, kde-format
 msgid "Cannot export images in %1.\n"
 msgstr "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
 
-#: plugins/formats/jp2/jp2_export.cc:74
+#: plugins/formats/jp2/jp2_export.cc:76
 msgid "JPEG 2000 Export Options"
 msgstr "JPEG 2000 चे निर्यात पर्याय"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/formats/jp2/kis_wdg_options_jp2.ui:19
-msgid "File size:"
-msgstr "फाईलचा आकार :"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:34
-msgctxt "the file will be much compressed, thus small, but quality will be bad"
-msgid "Small"
-msgstr "लहान"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:57
-msgctxt "the file will be good quality, but big"
-msgid "Big"
-msgstr "मोठा"
+#: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:29
+#, fuzzy
+#| msgid "Compress:"
+msgid "Compression"
+msgstr "संक्षिप्त करा :"
 
 #. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:68
-#: plugins/formats/tiff/kis_wdg_options_tiff.ui:275
+#: plugins/formats/jp2/kis_wdg_options_jp2.ui:26
+#: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:36
 msgid ""
-"These settings determine how much information is lost during compression"
-msgstr "संक्षिप्त करताना किती माहिती नष्ट झाली ते या जुळणीवरून ठरविता येते."
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:101
-#: plugins/formats/tiff/kis_wdg_options_tiff.ui:260
-msgid "Quality:"
-msgstr "गुणवत्ता :"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel4_2)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:116
-msgctxt "the file will be much compressed, so the quality will be bad"
-msgid "Bad"
-msgstr "वाईट"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:142
-msgctxt "the quality will be good but the file will not be much compressed"
-msgid "Good"
-msgstr "चांगले"
+"<html><head/><body><p>These settings determine how much information is lost "
+"during compression. Low: small files, bad quality. High: big files, good "
+"quality.</p></body></html>"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/formats/jp2/kis_wdg_options_jp2.ui:159
+#: plugins/formats/jp2/kis_wdg_options_jp2.ui:74
 msgid "Number of resolutions:"
 msgstr "घनतांची संख्या :"
 
@@ -5461,7 +5437,7 @@ msgstr ""
 "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
 "RGB म्हणून साठविले जाईल."
 
-#: plugins/formats/jpeg/kis_jpeg_export.cc:75
+#: plugins/formats/jpeg/kis_jpeg_export.cc:81
 msgid "JPEG Export Options"
 msgstr "JPEG निर्यात पर्याय"
 
@@ -5469,21 +5445,6 @@ msgstr "JPEG निर्यात पर्याय"
 #: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:21
 msgid "Basic"
 msgstr "मूलभूत"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:29
-#, fuzzy
-#| msgid "Compress:"
-msgid "Compression"
-msgstr "संक्षिप्त करा :"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
-#: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:36
-msgid ""
-"<html><head/><body><p>These settings determine how much information is lost "
-"during compression. Low: small files, bad quality. High: big files, good "
-"quality.</p></body></html>"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, progressive)
 #: plugins/formats/jpeg/kis_wdg_options_jpeg.ui:82
@@ -5588,13 +5549,13 @@ msgstr "गाळणी :"
 msgid "Vector Layer"
 msgstr "व्हेक्टर स्तर"
 
-#: plugins/formats/ora/ora_export.cc:97
+#: plugins/formats/ora/ora_export.cc:100
 msgid ""
 "This image contains vector, clone or generated layers..\n"
 "These layers will be saved as raster layers."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: plugins/formats/ora/ora_export.cc:98
+#: plugins/formats/ora/ora_export.cc:101
 msgid "Warning"
 msgstr "इशारा"
 
@@ -5672,11 +5633,11 @@ msgstr "ppi"
 msgid "PNG Export Options"
 msgstr "PNG निर्यात पर्याय"
 
-#: plugins/formats/png/kis_png_export.cc:109
+#: plugins/formats/png/kis_png_export.cc:112
 msgid "Cannot export images in this colorspace or channel depth to PNG"
 msgstr "कलरस्पेस किंवा माध्यम खोलीतील  प्रतिमा PNG मध्ये निर्यात करता येत नाहीत"
 
-#: plugins/formats/png/kis_png_export.cc:109
+#: plugins/formats/png/kis_png_export.cc:112
 msgid "Krita PNG Export"
 msgstr "क्रिता PNG निर्यात"
 
@@ -5968,6 +5929,17 @@ msgstr "अल्फा माध्यममध्ये साठवा (प�
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:254
 msgid "JPEG Compression Options"
 msgstr "JPEG संक्षिप्त करण्याचे पर्याय"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: plugins/formats/tiff/kis_wdg_options_tiff.ui:260
+msgid "Quality:"
+msgstr "गुणवत्ता :"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
+#: plugins/formats/tiff/kis_wdg_options_tiff.ui:275
+msgid ""
+"These settings determine how much information is lost during compression"
+msgstr "संक्षिप्त करताना किती माहिती नष्ट झाली ते या जुळणीवरून ठरविता येते."
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
 #: plugins/formats/tiff/kis_wdg_options_tiff.ui:308
@@ -12124,6 +12096,26 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#~ msgid "File size:"
+#~ msgstr "फाईलचा आकार :"
+
+#~ msgctxt ""
+#~ "the file will be much compressed, thus small, but quality will be bad"
+#~ msgid "Small"
+#~ msgstr "लहान"
+
+#~ msgctxt "the file will be good quality, but big"
+#~ msgid "Big"
+#~ msgstr "मोठा"
+
+#~ msgctxt "the file will be much compressed, so the quality will be bad"
+#~ msgid "Bad"
+#~ msgstr "वाईट"
+
+#~ msgctxt "the quality will be good but the file will not be much compressed"
+#~ msgid "Good"
+#~ msgstr "चांगले"
 
 #~ msgctxt ""
 #~ "Show a preview of the image after saving to assess the quality difference"
