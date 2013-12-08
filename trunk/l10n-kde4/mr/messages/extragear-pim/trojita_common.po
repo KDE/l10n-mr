@@ -451,56 +451,56 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:95
+#: ../src/Gui/ComposeWidget.cpp:97
 msgctxt "Gui::ComposeWidget|"
 msgid "Send"
 msgstr "पाठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:161
+#: ../src/Gui/ComposeWidget.cpp:163
 msgctxt "Gui::ComposeWidget|"
 msgid "Authentication Required"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:162
+#: ../src/Gui/ComposeWidget.cpp:164
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:203
+#: ../src/Gui/ComposeWidget.cpp:205
 msgctxt "Gui::ComposeWidget|"
 msgid "Safe Draft?"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:204
+#: ../src/Gui/ComposeWidget.cpp:206
 msgctxt "Gui::ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:206
+#: ../src/Gui/ComposeWidget.cpp:208
 msgctxt "Gui::ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:217 ../src/Gui/Window.cpp:1240
+#: ../src/Gui/ComposeWidget.cpp:219 ../src/Gui/Window.cpp:1240
 #: ../src/Gui/Window.cpp:1242
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:227
+#: ../src/Gui/ComposeWidget.cpp:229
 msgctxt "Gui::ComposeWidget|"
 msgid "Save as"
 msgstr "असे साठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:228
+#: ../src/Gui/ComposeWidget.cpp:230
 msgctxt "Gui::ComposeWidget|"
 msgid "Drafts"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:256
+#: ../src/Gui/ComposeWidget.cpp:258
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid ""
@@ -508,63 +508,69 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:260
+#: ../src/Gui/ComposeWidget.cpp:262
 msgctxt "Gui::ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:267
+#: ../src/Gui/ComposeWidget.cpp:269
 msgctxt "Gui::ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:271
+#: ../src/Gui/ComposeWidget.cpp:273
 msgctxt "Gui::ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:306
+#: ../src/Gui/ComposeWidget.cpp:318
 msgctxt "Gui::ComposeWidget|"
 msgid "Sent"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:494
+#: ../src/Gui/ComposeWidget.cpp:366 ../src/Gui/ComposeWidget.cpp:1053
+#, qt-format
+msgctxt "Gui::ComposeWidget|"
+msgid "In-Reply-To: %1"
+msgstr ""
+
+#: ../src/Gui/ComposeWidget.cpp:512
 msgctxt "Gui::ComposeWidget|"
 msgid "To"
 msgstr "पर्यंत"
 
-#: ../src/Gui/ComposeWidget.cpp:495
+#: ../src/Gui/ComposeWidget.cpp:513
 msgctxt "Gui::ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
-#: ../src/Gui/ComposeWidget.cpp:496
+#: ../src/Gui/ComposeWidget.cpp:514
 msgctxt "Gui::ComposeWidget|"
 msgid "Bcc"
 msgstr "Bcc"
 
-#: ../src/Gui/ComposeWidget.cpp:755
+#: ../src/Gui/ComposeWidget.cpp:773
 msgctxt "Gui::ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:782
+#: ../src/Gui/ComposeWidget.cpp:800
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:884
+#: ../src/Gui/ComposeWidget.cpp:902
 msgctxt "Gui::ComposeWidget|"
 msgid "Attach File..."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:1060
+#: ../src/Gui/ComposeWidget.cpp:1085
 msgctxt "Gui::ComposeWidget|"
 msgid "Compose Mail"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:1062
+#: ../src/Gui/ComposeWidget.cpp:1087
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "%1 - Compose Mail"
@@ -583,6 +589,11 @@ msgstr "विषय"
 #: ../src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
 msgid "Attach..."
+msgstr ""
+
+#: ../src/Gui/ComposeWidget.ui:193
+msgctxt "ComposeWidget|"
+msgid "In-Reply-To: "
 msgstr ""
 
 #: ../src/Gui/CreateMailboxDialog.ui:6
@@ -766,7 +777,7 @@ msgctxt "Gui::FindBar|"
 msgid "Shift+F3"
 msgstr "Shift+F3"
 
-#: ../src/Gui/LineEdit.cpp:41
+#: ../src/Gui/LineEdit.cpp:42
 msgctxt "LineEdit|"
 msgid "Clear input field"
 msgstr ""
@@ -910,7 +921,7 @@ msgid ""
 "Message"
 msgstr "संदेश"
 
-#: ../src/Gui/MessageView.cpp:150
+#: ../src/Gui/MessageView.cpp:151
 #, fuzzy
 #| msgctxt "Gui::Message822Widget|"
 #| msgid "Message"
@@ -920,25 +931,25 @@ msgid ""
 "Message"
 msgstr "संदेश"
 
-#: ../src/Gui/MessageView.cpp:370
+#: ../src/Gui/MessageView.cpp:371
 msgctxt "Gui::MessageView|"
 msgid "you"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:375
+#: ../src/Gui/MessageView.cpp:376
 #, qt-format
 msgctxt "Gui::MessageView|"
 msgid "On %1, %2 wrote:\n"
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:406
+#: ../src/Gui/MessageView.cpp:407
 msgctxt "Gui::MessageView|"
 msgid ""
 "It doesn't look like this is a message to the mailing list. Please fill in "
 "the recipients manually."
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:409
+#: ../src/Gui/MessageView.cpp:410
 msgctxt "Gui::MessageView|"
 msgid ""
 "Trojitá was unable to safely determine the real e-mail address of the author "
@@ -946,7 +957,7 @@ msgid ""
 "the list of addresses manually."
 msgstr ""
 
-#: ../src/Gui/MessageView.cpp:414
+#: ../src/Gui/MessageView.cpp:415
 msgctxt "Gui::MessageView|"
 msgid "Cannot Determine Recipients"
 msgstr ""
@@ -2931,34 +2942,34 @@ msgid ""
 "command.</p>"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:342
+#: ../src/Imap/Model/Model.cpp:335
 msgctxt "Imap::Mailbox::Model|"
 msgid "Warning: unhandled untagged OK with a response code"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:346
+#: ../src/Imap/Model/Model.cpp:339
 msgctxt "Imap::Mailbox::Model|"
 msgid "Warning: unhandled untagged NO..."
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:1162
+#: ../src/Imap/Model/Model.cpp:1156
 msgctxt "Imap::Mailbox::Model|"
 msgid "a POP3"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:1164
+#: ../src/Imap/Model/Model.cpp:1158
 msgctxt "Imap::Mailbox::Model|"
 msgid "an SMTP"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:1167
+#: ../src/Imap/Model/Model.cpp:1161
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
 "<p>It appears that you are connecting to %1 server. That won't work here.</p>"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:1168
+#: ../src/Imap/Model/Model.cpp:1162
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -2967,7 +2978,7 @@ msgid ""
 "is 143 or 993.</p><p>The server said:</p><pre>%2</pre>"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:1175
+#: ../src/Imap/Model/Model.cpp:1169
 #, qt-format
 msgctxt "Imap::Mailbox::Model|"
 msgid ""
@@ -2978,7 +2989,7 @@ msgid ""
 "%4</pre>"
 msgstr ""
 
-#: ../src/Imap/Model/Model.cpp:1226
+#: ../src/Imap/Model/Model.cpp:1221
 msgctxt "Imap::Mailbox::Model|"
 msgid "We aren't talking to an IMAP4 server"
 msgstr ""
@@ -3641,12 +3652,12 @@ msgctxt "Imap::Mailbox::CopyMoveMessagesTask|"
 msgid "Copying messages"
 msgstr ""
 
-#: ../src/Imap/Tasks/CreateMailboxTask.cpp:88
+#: ../src/Imap/Tasks/CreateMailboxTask.cpp:89
 msgctxt "Imap::Mailbox::CreateMailboxTask|"
 msgid "Creating mailbox"
 msgstr ""
 
-#: ../src/Imap/Tasks/DeleteMailboxTask.cpp:91
+#: ../src/Imap/Tasks/DeleteMailboxTask.cpp:92
 msgctxt "Imap::Mailbox::DeleteMailboxTask|"
 msgid "Deleting mailbox"
 msgstr ""
@@ -3699,7 +3710,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:815
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:816
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "The UIDVALIDITY has changed while mailbox is open. Please reconnect."
 msgstr ""
@@ -3724,12 +3735,12 @@ msgctxt "Imap::Mailbox::ObtainSynchronizedMailboxTask|"
 msgid "Synchronizing mailbox"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:182
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:183
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server has closed the connection"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:189
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:190
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
@@ -3737,35 +3748,35 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:191
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:192
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server has greeted us with a BAD response"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:223
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:224
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "STARTTLS failed: %1"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:252
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:253
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Capabilities still contain LOGINDISABLED even after STARTTLS"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:287
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:288
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Temporary failure because a subsystem is down."
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:290
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:291
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "Authentication failed.  This often happens due to bad password or wrong user "
 "name."
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:293
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:294
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "Authentication succeeded in using the authentication identity, but the "
@@ -3773,7 +3784,7 @@ msgid ""
 "requested authorization identity."
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:298
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:299
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "Either authentication succeeded or the server no longer had the necessary "
@@ -3781,23 +3792,23 @@ msgid ""
 "should get a new passphrase."
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:303
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:304
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The operation is not permitted due to a lack of privacy."
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:306
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:307
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "You should contact the system administrator or support desk."
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:313
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:314
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Login failed: %1"
 msgstr "प्रवेश अपयशी : %1"
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:315
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:316
 #, qt-format
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
@@ -3809,37 +3820,37 @@ msgstr ""
 "\n"
 "%2"
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:366
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:367
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server does not support STARTTLS"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:386
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:387
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Server did not provide useful capabilities"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:390
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:391
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "CAPABILITIES command has failed"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:441
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:442
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "No credentials available"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:448
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:449
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "Connecting to mail server"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:468
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:469
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid "The security state of the SSL connection got rejected"
 msgstr ""
 
-#: ../src/Imap/Tasks/OpenConnectionTask.cpp:477
+#: ../src/Imap/Tasks/OpenConnectionTask.cpp:478
 msgctxt "Imap::Mailbox::OpenConnectionTask|"
 msgid ""
 "The security state of the connection after a STARTTLS operation got rejected"
