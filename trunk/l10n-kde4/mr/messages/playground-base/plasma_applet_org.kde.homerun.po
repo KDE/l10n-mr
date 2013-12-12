@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-07-15 01:44+0000\n"
+"POT-Creation-Date: 2013-12-12 01:36+0000\n"
 "PO-Revision-Date: 2013-04-13 16:15+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -25,106 +25,126 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: applet/configmanager.cpp:46
-msgid "General"
-msgstr "सामान्य"
+#: components/qml/ActionMenu.qml:75
+msgid "(Empty)"
+msgstr "(रिकामी)"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: applet/generalconfigpage.ui:17
-msgid "Icon:"
-msgstr "चिन्ह :"
-
-#: components/sourceregistry.cpp:235
+#: components/sourceregistry.cpp:237
 #, kde-format
 msgid "Runner: %1"
 msgstr "रनर : %1"
 
-#: components/sourceregistry.cpp:253
+#: components/sourceregistry.cpp:255
 msgid "Installed Applications"
 msgstr "प्रतिष्ठापीत केलेले अनुप्रयोग"
 
-#: components/sourceregistry.cpp:254
+#: components/sourceregistry.cpp:256
 msgid "Browse installed applications by categories"
 msgstr "प्रतिष्ठापीत केलेले अनुप्रयोग विभागाप्रमाणे संचारण करा"
 
-#: components/sourceregistry.cpp:257
+#: components/sourceregistry.cpp:259
 msgid "All Installed Applications"
 msgstr "प्रतिष्ठापीत केलेले अनुप्रयोग"
 
-#: components/sourceregistry.cpp:258
+#: components/sourceregistry.cpp:260
 msgid "List all installed applications in a flat list, grouped by categories"
 msgstr "प्रतिष्ठापीत केलेले अनुप्रयोग विभागाप्रमाणे समूहात यादी करा"
 
-#: components/sourceregistry.cpp:261
+#: components/sourceregistry.cpp:263
 #, fuzzy
 #| msgid "All Installed Applications"
 msgid "All Installed Applications With Filters"
 msgstr "प्रतिष्ठापीत केलेले अनुप्रयोग"
 
-#: components/sourceregistry.cpp:262
+#: components/sourceregistry.cpp:264
 #, fuzzy
 #| msgid ""
 #| "List all installed applications in a flat list, grouped by categories"
 msgid "List all installed applications and filter via the sidebar"
 msgstr "प्रतिष्ठापीत केलेले अनुप्रयोग विभागाप्रमाणे समूहात यादी करा"
 
-#: components/sourceregistry.cpp:265
+#: components/sourceregistry.cpp:267
+#: components/sources/recentapps/recentappsmodel.cpp:290
+#, fuzzy
+#| msgid "Applications"
+msgid "Recent Applications"
+msgstr "अनुप्रयोग"
+
+#: components/sourceregistry.cpp:268
+msgid "List the most recently launched applications"
+msgstr ""
+
+#: components/sourceregistry.cpp:271
 msgid "Folder"
 msgstr "संचयीका"
 
-#: components/sourceregistry.cpp:266
+#: components/sourceregistry.cpp:272
 msgid "List the content of a folder and let you browse into sub-folders"
 msgstr ""
 
-#: components/sourceregistry.cpp:269
+#: components/sourceregistry.cpp:275
 #: components/sources/favorites/favoriteplacesmodel.cpp:139
 msgid "Favorite Places"
 msgstr "पसंत जागा"
 
-#: components/sourceregistry.cpp:270
+#: components/sourceregistry.cpp:276
 msgid "Browse the content of your favorite places"
 msgstr ""
 
-#: components/sourceregistry.cpp:273
+#: components/sourceregistry.cpp:279
 #: components/sources/favorites/favoriteappsmodel.cpp:234
 msgid "Favorite Applications"
 msgstr "पसंत अनुप्रयोग"
 
-#: components/sourceregistry.cpp:274
+#: components/sourceregistry.cpp:280
 msgid "List applications marked as favorite"
 msgstr "पसंत केलेले अनुप्रयोगांची यादी करा"
 
-#: components/sourceregistry.cpp:277
+#: components/sourceregistry.cpp:283
 msgid "Power Management"
 msgstr "वीज व्यवस्थापन"
 
-#: components/sourceregistry.cpp:278
+#: components/sourceregistry.cpp:284
 msgid "Provide buttons to suspend, hibernate, reboot or halt your computer"
 msgstr ""
 
-#: components/sourceregistry.cpp:281
+#: components/sourceregistry.cpp:287
 #: components/sources/session/sessionmodel.cpp:98
 msgid "Session"
 msgstr "सत्र"
 
-#: components/sourceregistry.cpp:282
+#: components/sourceregistry.cpp:288
 msgid "Provide buttons to lock the screen, log out, or switch to another user"
 msgstr ""
 
-#: components/sourceregistry.cpp:285
+#: components/sourceregistry.cpp:291
 #: components/sources/session/openedsessionsmodel.cpp:67
 msgid "Opened Sessions"
 msgstr "उघडलेले सत्र"
 
-#: components/sourceregistry.cpp:286
+#: components/sourceregistry.cpp:292
 msgid "Provide buttons to switch to opened sessions"
 msgstr ""
 
-#: components/sourceregistry.cpp:289
+#: components/sourceregistry.cpp:295
+#: components/sources/power/combinedpowersessionmodel.cpp:307
+#, fuzzy
+#| msgctxt "an action"
+#| msgid "New Session"
+msgid "Power / Session"
+msgstr "नवीन सत्र"
+
+#: components/sourceregistry.cpp:296
+msgid ""
+"Provide buttons to manage your workspace session and the power state of your "
+"computer"
+msgstr ""
+
+#: components/sourceregistry.cpp:299
 msgid "KRunner"
 msgstr "के-रनर"
 
-#: components/sourceregistry.cpp:290
+#: components/sourceregistry.cpp:300
 msgid "Perform searchs using a selection of runners"
 msgstr ""
 
@@ -199,7 +219,7 @@ msgid "An error occurred while accessing '%1'"
 msgstr ""
 
 #: components/sources/installedapps/installedappsconfigurationwidget.cpp:133
-#: components/sources/installedapps/installedappsmodel.cpp:240
+#: components/sources/installedapps/installedappsmodel.cpp:328
 msgid "All Applications"
 msgstr "सर्व अनुप्रयोग"
 
@@ -208,21 +228,44 @@ msgstr "सर्व अनुप्रयोग"
 msgid "Pick the application folder to display:"
 msgstr ""
 
-#: components/sources/installedapps/installedappsmodel.cpp:200
+#: components/sources/installedapps/installedappsmodel.cpp:256
+#: components/sources/installedapps/installedappsmodel.cpp:267
+#: components/sources/recentapps/recentappsmodel.cpp:121
+#: components/sources/recentapps/recentappsmodel.cpp:132
 #, fuzzy
 #| msgid "Add to favorites"
 msgid "Add to Desktop"
 msgstr "पसंत मध्ये जोडा"
 
-#: components/sources/installedapps/installedappsmodel.cpp:204
+#: components/sources/installedapps/installedappsmodel.cpp:260
+#: components/sources/installedapps/installedappsmodel.cpp:271
+#: components/sources/recentapps/recentappsmodel.cpp:125
+#: components/sources/recentapps/recentappsmodel.cpp:136
 #, fuzzy
 #| msgid "Add to favorites"
 msgid "Add to Panel"
 msgstr "पसंत मध्ये जोडा"
 
-#: components/sources/installedapps/installedappsmodel.cpp:333
+#: components/sources/installedapps/installedappsmodel.cpp:291
+#: components/sources/recentapps/recentappsmodel.cpp:154
+msgid "Add as Launcher"
+msgstr ""
+
+#: components/sources/installedapps/installedappsmodel.cpp:421
 msgid "Applications"
 msgstr "अनुप्रयोग"
+
+#: components/sources/power/combinedpowersessionmodel.cpp:241
+#, fuzzy
+#| msgid "Remove from favorites"
+msgid "Remove from Sidebar"
+msgstr "पसंत मधून काढून टाका"
+
+#: components/sources/power/combinedpowersessionmodel.cpp:245
+#, fuzzy
+#| msgid "Add to favorites"
+msgid "Add to Sidebar"
+msgstr "पसंत मध्ये जोडा"
 
 #: components/sources/power/powermodel.cpp:43
 msgid "Power"
@@ -247,6 +290,12 @@ msgstr "पुन्हा सुरु करा"
 msgctxt "an action"
 msgid "Shutdown"
 msgstr "बंद करा"
+
+#: components/sources/recentapps/recentappsmodel.cpp:112
+#, fuzzy
+#| msgid "Favorite Applications"
+msgid "Forget Application"
+msgstr "पसंत अनुप्रयोग"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: components/sources/runners/runnerconfigurationwidget.ui:17
@@ -279,6 +328,193 @@ msgstr "वर्ल्ड"
 #: devdoc/helloworld/helloworld.cpp:67
 msgid "Hello World"
 msgstr "हेलो वर्ल्ड"
+
+#: fullscreen/applet/configmanager.cpp:46
+msgid "General"
+msgstr "सामान्य"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: fullscreen/applet/generalconfigpage.ui:17
+msgid "Icon:"
+msgstr "चिन्ह :"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: fullscreen/package/contents/ui/config.ui:17
+msgid "Text Color:"
+msgstr "मजकूर रंग :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: fullscreen/package/contents/ui/config.ui:30
+msgid "Text Shadow:"
+msgstr "मजकूर सावली :"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeNone)
+#: fullscreen/package/contents/ui/config.ui:40
+msgid "None"
+msgstr "काही नाही"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeAuto)
+#: fullscreen/package/contents/ui/config.ui:47
+msgid "Automatic"
+msgstr "स्वयंचलित"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeCustom)
+#: fullscreen/package/contents/ui/config.ui:56
+msgid "Custom:"
+msgstr "ऐच्छिक :"
+
+#: fullscreen/package/contents/ui/main.qml:99
+msgid "Go to previous tab"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:105
+msgid "Go to next tab"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:111
+msgid "Focus search field"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:117
+msgid "Go back"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:123
+msgid "Go forward"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:129
+msgid "Go up"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:154
+msgctxt "Used for tabs which have no name"
+msgid "<Untitled>"
+msgstr "<विनाशिर्षक>"
+
+#: fullscreen/package/contents/ui/main.qml:239
+msgctxt "Button to leave configure mode"
+msgid "Done"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:261
+msgid "Search in current tab..."
+msgstr "वर्तमान टॅब मध्ये शोधा..."
+
+#: fullscreen/package/contents/ui/main.qml:297
+#, fuzzy
+#| msgid "End Configure"
+msgid "End Configure Tabs"
+msgstr "संयोजना बंद करा"
+
+#: fullscreen/package/contents/ui/main.qml:297
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure Tabs"
+msgstr "संयोजीत करा"
+
+#: fullscreen/package/contents/ui/main.qml:306
+msgid "Configure Shortcuts..."
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:310
+msgid "Show Action List Buttons"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:319
+msgid "Show Desktop Tool Box"
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:330
+msgid "Restore Tabs to Default"
+msgstr "टॅब्स मूलभूतरित्या पुन्हस्थापित करा"
+
+#: fullscreen/package/contents/ui/main.qml:333
+msgid ""
+"Are you sure you want to restore tabs?\n"
+"Restoring tabs will reset your configuration to the default Homerun tabs.\n"
+"Your lists of favorite applications and places will remain untouched."
+msgstr ""
+
+#: fullscreen/package/contents/ui/main.qml:334
+#: fullscreen/package/contents/ui/main.qml:335
+msgid "Restore Tabs"
+msgstr "टॅब्स पुन्हस्थापित करा"
+
+#: fullscreen/package/contents/ui/main.qml:348
+#, kde-format
+msgid "About %1"
+msgstr "%1 विषयी"
+
+#: fullscreen/package/contents/ui/Result.qml:149
+msgid "Drag to reorder; release to show menu"
+msgstr ""
+
+#: fullscreen/package/contents/ui/Result.qml:151
+msgid "Release to show menu"
+msgstr ""
+
+#: fullscreen/package/contents/ui/Result.qml:153
+msgid "Drag to reorder"
+msgstr ""
+
+#: fullscreen/package/contents/ui/Result.qml:156
+msgid "This item has no menu and cannot be dragged"
+msgstr ""
+
+#: fullscreen/package/contents/ui/ResultsView.qml:192
+#: kicker/package/contents/ui/ItemListDelegate.qml:252
+#: kicker/package/contents/ui/SidebarItem.qml:122
+#, fuzzy
+#| msgid "Remove from favorites"
+msgid "Remove from Favorites"
+msgstr "पसंत मधून काढून टाका"
+
+#: fullscreen/package/contents/ui/ResultsView.qml:196
+#: kicker/package/contents/ui/ItemListDelegate.qml:256
+#: kicker/package/contents/ui/SidebarItem.qml:126
+#, fuzzy
+#| msgid "Add to favorites"
+msgid "Add to Favorites"
+msgstr "पसंत मध्ये जोडा"
+
+#: fullscreen/package/contents/ui/ResultsView.qml:367
+#, kde-format
+msgid "%1 has been added to your favorites"
+msgstr ""
+
+#: fullscreen/package/contents/ui/SourceItem.qml:55
+#, kde-format
+msgid "Broken source '%1'"
+msgstr "तुटलेला स्रोत '%1'"
+
+#: fullscreen/package/contents/ui/TabContent.qml:84
+msgid "Tab Icon:"
+msgstr "टॅब चिन्ह :"
+
+#: fullscreen/package/contents/ui/TabContent.qml:103
+msgid "Tab Label:"
+msgstr "टॅब लेबल :"
+
+#: fullscreen/viewer/main.cpp:41
+#, kde-format
+msgid ""
+"<p><b>Sorry, Homerun failed to load</b></p><p>Do you want to report this "
+"error?</p><p>If you decide to report it, please copy and paste the following "
+"output in your report:</p><pre>%1</pre>"
+msgstr ""
+
+#: fullscreen/viewer/main.cpp:48
+msgid "Report Error"
+msgstr "त्रुटी अहवाल दाखल करा"
+
+#: fullscreen/viewer/main.cpp:65
+msgid "Log focused item (for debug purposes)"
+msgstr ""
+
+#: fullscreen/viewer/main.cpp:66
+msgid "Use a plain window (for debug purposes)"
+msgstr "साधी चौकट वापरा (डिबग कार्यपध्दती करिता)"
 
 #: internal/aboutdata.cpp:41
 msgctxt "Program name"
@@ -323,6 +559,65 @@ msgctxt "Tab title"
 msgid "Power"
 msgstr "पॉवर"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: kicker/package/contents/ui/config.ui:20
+msgid "Behavior"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_runnerSupport)
+#: kicker/package/contents/ui/config.ui:29
+msgid ""
+"If this option is enabled, search may display additional columns with search "
+"results powered by certain Plasma runner plugins, such as \"Bookmarks\" and "
+"\"Desktop Search\"."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_runnerSupport)
+#: kicker/package/contents/ui/config.ui:32
+msgid "Use Plasma runners for additional search results"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: kicker/package/contents/ui/config.ui:42
+msgid "Appearance"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useCustomButtonImage)
+#: kicker/package/contents/ui/config.ui:51
+msgid "Custom button image:"
+msgstr ""
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, kcfg_buttonImage)
+#: kicker/package/contents/ui/config.ui:58
+msgid "*.jpg *.png *.xpm *.gif *.webp"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_alignToBottom)
+#: kicker/package/contents/ui/config.ui:65
+msgid "Align contents to bottom"
+msgstr ""
+
+#: kicker/package/contents/ui/main.qml:309
+msgid "Search..."
+msgstr ""
+
+#: kicker/package/contents/ui/main.qml:562
+#, fuzzy
+#| msgctxt "Program name"
+#| msgid "Homerun"
+msgid "Homerun Kicker"
+msgstr "होमरन"
+
+#: kicker/package/contents/ui/main.qml:563
+msgid "Launch applications and manage your desktop."
+msgstr ""
+
+#: kicker/package/contents/ui/main.qml:566
+#, fuzzy
+#| msgid "Applications"
+msgid "Edit Applications..."
+msgstr "अनुप्रयोग"
+
 #: lib/actionlist.cpp:75
 #, fuzzy
 #| msgctxt "KFile System Bookmarks"
@@ -339,159 +634,6 @@ msgstr "यामध्ये उघडा :"
 msgid "Properties"
 msgstr "गुणधर्म"
 
-#: package/contents/ui/ActionMenu.qml:71
-msgid "(Empty)"
-msgstr "(रिकामी)"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: package/contents/ui/config.ui:17
-msgid "Text Color:"
-msgstr "मजकूर रंग :"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: package/contents/ui/config.ui:30
-msgid "Text Shadow:"
-msgstr "मजकूर सावली :"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeNone)
-#: package/contents/ui/config.ui:40
-msgid "None"
-msgstr "काही नाही"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeAuto)
-#: package/contents/ui/config.ui:47
-msgid "Automatic"
-msgstr "स्वयंचलित"
-
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_shadowModeCustom)
-#: package/contents/ui/config.ui:56
-msgid "Custom:"
-msgstr "ऐच्छिक :"
-
-#: package/contents/ui/main.qml:93
-msgid "Go to previous tab"
-msgstr ""
-
-#: package/contents/ui/main.qml:99
-msgid "Go to next tab"
-msgstr ""
-
-#: package/contents/ui/main.qml:105
-msgid "Focus search field"
-msgstr ""
-
-#: package/contents/ui/main.qml:111
-msgid "Go back"
-msgstr ""
-
-#: package/contents/ui/main.qml:117
-msgid "Go forward"
-msgstr ""
-
-#: package/contents/ui/main.qml:123
-msgid "Go up"
-msgstr ""
-
-#: package/contents/ui/main.qml:148
-msgctxt "Used for tabs which have no name"
-msgid "<Untitled>"
-msgstr "<विनाशिर्षक>"
-
-#: package/contents/ui/main.qml:233
-msgctxt "Button to leave configure mode"
-msgid "Done"
-msgstr ""
-
-#: package/contents/ui/main.qml:255
-msgid "Search in current tab..."
-msgstr "वर्तमान टॅब मध्ये शोधा..."
-
-#: package/contents/ui/main.qml:291
-#, fuzzy
-#| msgid "End Configure"
-msgid "End Configure Tabs"
-msgstr "संयोजना बंद करा"
-
-#: package/contents/ui/main.qml:291
-#, fuzzy
-#| msgid "Configure"
-msgid "Configure Tabs"
-msgstr "संयोजीत करा"
-
-#: package/contents/ui/main.qml:300
-msgid "Configure Shortcuts..."
-msgstr ""
-
-#: package/contents/ui/main.qml:304
-msgid "Show Action List Buttons"
-msgstr ""
-
-#: package/contents/ui/main.qml:315
-msgid "Restore Tabs to Default"
-msgstr "टॅब्स मूलभूतरित्या पुन्हस्थापित करा"
-
-#: package/contents/ui/main.qml:318
-msgid ""
-"Are you sure you want to restore tabs?\n"
-"Restoring tabs will reset your configuration to the default Homerun tabs.\n"
-"Your lists of favorite applications and places will remain untouched."
-msgstr ""
-
-#: package/contents/ui/main.qml:319 package/contents/ui/main.qml:320
-msgid "Restore Tabs"
-msgstr "टॅब्स पुन्हस्थापित करा"
-
-#: package/contents/ui/main.qml:333
-#, kde-format
-msgid "About %1"
-msgstr "%1 विषयी"
-
-#: package/contents/ui/Result.qml:149
-msgid "Drag to reorder; release to show menu"
-msgstr ""
-
-#: package/contents/ui/Result.qml:151
-msgid "Release to show menu"
-msgstr ""
-
-#: package/contents/ui/Result.qml:153
-msgid "Drag to reorder"
-msgstr ""
-
-#: package/contents/ui/Result.qml:156
-msgid "This item has no menu and cannot be dragged"
-msgstr ""
-
-#: package/contents/ui/ResultsView.qml:192
-#, fuzzy
-#| msgid "Remove from favorites"
-msgid "Remove from Favorites"
-msgstr "पसंत मधून काढून टाका"
-
-#: package/contents/ui/ResultsView.qml:196
-#, fuzzy
-#| msgid "Add to favorites"
-msgid "Add to Favorites"
-msgstr "पसंत मध्ये जोडा"
-
-#: package/contents/ui/ResultsView.qml:367
-#, kde-format
-msgid "%1 has been added to your favorites"
-msgstr ""
-
-#: package/contents/ui/SourceItem.qml:55
-#, kde-format
-msgid "Broken source '%1'"
-msgstr "तुटलेला स्रोत '%1'"
-
-#: package/contents/ui/TabContent.qml:84
-msgid "Tab Icon:"
-msgstr "टॅब चिन्ह :"
-
-#: package/contents/ui/TabContent.qml:103
-msgid "Tab Label:"
-msgstr "टॅब लेबल :"
-
 #: plugins/recentdocuments/recentdocuments.cpp:130
 msgid "Recent Documents"
 msgstr "अलिकडील दस्तऐवज"
@@ -499,26 +641,6 @@ msgstr "अलिकडील दस्तऐवज"
 #: plugins/recentdocuments/recentdocuments.cpp:152
 msgid "Forget Document"
 msgstr "दस्तऐवज विसरा"
-
-#: shell/main.cpp:41
-#, kde-format
-msgid ""
-"<p><b>Sorry, Homerun failed to load</b></p><p>Do you want to report this "
-"error?</p><p>If you decide to report it, please copy and paste the following "
-"output in your report:</p><pre>%1</pre>"
-msgstr ""
-
-#: shell/main.cpp:48
-msgid "Report Error"
-msgstr "त्रुटी अहवाल दाखल करा"
-
-#: shell/main.cpp:65
-msgid "Log focused item (for debug purposes)"
-msgstr ""
-
-#: shell/main.cpp:66
-msgid "Use a plain window (for debug purposes)"
-msgstr "साधी चौकट वापरा (डिबग कार्यपध्दती करिता)"
 
 #~ msgid "Show on screen <screen>"
 #~ msgstr "स्क्रीन वर दर्शवा <screen>"
