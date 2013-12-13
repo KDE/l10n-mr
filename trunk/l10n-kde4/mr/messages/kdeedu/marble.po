@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-11 01:30+0000\n"
+"POT-Creation-Date: 2013-12-13 01:40+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1813,6 +1813,15 @@ msgstr ""
 msgid "A Virtual Globe"
 msgstr ""
 
+#: src/apps/marble-kde/marble_part.cpp:235
+#, kde-format
+msgid "Sorry, unable to open '%1'. The file is not accessible."
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:236
+msgid "File not accessible"
+msgstr ""
+
 #: src/apps/marble-kde/marble_part.cpp:258
 msgid "All Supported Files"
 msgstr "सर्व समर्थीत फाईल्स"
@@ -1837,6 +1846,36 @@ msgstr ""
 #: src/apps/marble-kde/marble_part.cpp:299
 msgid "An error occurred while trying to save the file.\n"
 msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:445
+msgid "Please allow access to KWallet."
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:447
+msgid ""
+"You haven't allowed Marble to use KWallet yet.\n"
+"This is dangerous since Marble will store your password without encryption.\n"
+"Are you sure?"
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:464
+msgid "Do you allow Marble to use KWallet?"
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:466
+msgid ""
+"You still don't allow Marble to use KWallet.\n"
+"If you haven't seen the KWallet dialog asking to allow access, it means that "
+"you have disabled it.\n"
+"If you would like to change this see System Information -> Account Details -"
+"> KDE Wallet -> Access Control.\n"
+"Choose your wallet and allow Marble to use it."
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:544
+#, fuzzy
+msgid "Unnamed"
+msgstr "वापरकर्ता नाव :"
 
 #: src/apps/marble-kde/marble_part.cpp:800
 msgctxt "Action for downloading an entire region of a map"
@@ -1952,6 +1991,14 @@ msgstr "ओळखचिन्ह जोडा (&A)"
 #: src/apps/marble-kde/marble_part.cpp:974
 msgctxt "Show Bookmarks"
 msgid "Show &Bookmarks"
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:975
+msgid "Show or hide bookmarks in the map"
+msgstr ""
+
+#: src/apps/marble-kde/marble_part.cpp:983
+msgid "&Set Home Location"
 msgstr ""
 
 #: src/apps/marble-kde/marble_part.cpp:990
@@ -5470,6 +5517,18 @@ msgstr ""
 #: src/plugins/render/wikipedia/WikipediaConfigWidget.ui:20
 msgid "Show thumbnail images"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, planLabel)
+#: src/plugins/runner/cyclestreets/CycleStreetsConfigWidget.ui:20
+msgid "Route type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, speedLabel)
+#: src/plugins/runner/cyclestreets/CycleStreetsConfigWidget.ui:30
+#, fuzzy
+#| msgid "Speed"
+msgid "Speed:"
+msgstr "वेग"
 
 #. i18n: ectx: property (text), widget (QLabel, appKeyLabel)
 #: src/plugins/runner/mapquest/MapQuestConfigWidget.ui:17
