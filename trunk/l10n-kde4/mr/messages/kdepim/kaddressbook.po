@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-16 01:35+0000\n"
+"POT-Creation-Date: 2013-12-19 01:33+0000\n"
 "PO-Revision-Date: 2013-04-15 10:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -449,20 +449,25 @@ msgstr ""
 "तुम्ही जेंव्हा आज्ञावली/अनुप्रयोग आधारित सोप्या उपायांची रचना/मांडणी कराल तेंव्हा तुम्हाला "
 "एक संगणकीय संवाद खिडकी उपलब्ध करून दिली जाईल. "
 
-#: merge/mergecontactsdialog.cpp:33
+#: merge/mergecontactsdialog.cpp:34
 #, fuzzy
 #| msgid "Select Contacts"
 msgid "Select Contacts to merge"
 msgstr "संपर्क निवडा"
 
-#: merge/mergecontactsdialog.cpp:40
+#: merge/mergecontactsdialog.cpp:41
 #, fuzzy
 #| msgctxt "@info:status"
 #| msgid "You must assign at least one column."
 msgid "You must select at least two elements."
 msgstr "तुम्ही कमीतकमी एक तरी स्तंभ/रकाना निश्चीत केला पाहिजे."
 
-#: merge/mergecontactsdialog.cpp:42
+#: merge/mergecontactsdialog.cpp:44
+#, kde-format
+msgid "You select %1 and some item has not the same name"
+msgstr ""
+
+#: merge/mergecontactsdialog.cpp:46
 #, kde-format
 msgid "You select %1"
 msgstr ""
@@ -1385,17 +1390,23 @@ msgctxt "@action:button"
 msgid "Export to Several Files"
 msgstr "अनेक फाईल्सकडे पाठवा"
 
-#: xxport/vcard/vcard_xxport.cpp:213
+#: xxport/vcard/vcard_xxport.cpp:208
+msgid ""
+"*.vcf|Vcard (*.vcf)\n"
+"*|all files (*)"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:214
 msgctxt "@title:window"
 msgid "Select vCard to Import"
 msgstr "आणण्यासाठी/आयातीसाठी vCard  निवडा"
 
-#: xxport/vcard/vcard_xxport.cpp:220
+#: xxport/vcard/vcard_xxport.cpp:221
 msgctxt "@title:window"
 msgid "vCard Import Failed"
 msgstr "vCardची आयात यशस्वी झाली नही"
 
-#: xxport/vcard/vcard_xxport.cpp:242
+#: xxport/vcard/vcard_xxport.cpp:243
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1405,58 +1416,58 @@ msgstr ""
 "<para>vCard वाचण्याचा प्रयत्न करतेवेळी फाईल उघडण्यात एक चूक आढळली <filename>%1</"
 "filename>:</para><para>%2</para>"
 
-#: xxport/vcard/vcard_xxport.cpp:253
+#: xxport/vcard/vcard_xxport.cpp:254
 #, kde-format
 msgctxt "@info"
 msgid "<para>Unable to access vCard:</para><para>%1</para>"
 msgstr "<para>vCard  मिळवता आले नाही:</para><para>%1</para>"
 
-#: xxport/vcard/vcard_xxport.cpp:265
+#: xxport/vcard/vcard_xxport.cpp:266
 msgctxt "@info"
 msgid "No contacts were imported, due to errors with the vCards."
 msgstr "vCards मधील चुकांमुळे संपर्क आयात करता आले नाहीत."
 
-#: xxport/vcard/vcard_xxport.cpp:269
+#: xxport/vcard/vcard_xxport.cpp:270
 msgctxt "@info"
 msgid "The vCard does not contain any contacts."
 msgstr "vCard मध्ये कोणतेही संपर्क नाहीत."
 
-#: xxport/vcard/vcard_xxport.cpp:495
+#: xxport/vcard/vcard_xxport.cpp:496
 msgctxt "@title:window"
 msgid "Import vCard"
 msgstr "vcard आयात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:512
+#: xxport/vcard/vcard_xxport.cpp:513
 msgctxt "@info"
 msgid "Do you want to import this contact into your address book?"
 msgstr "तुम्हाला हा संपर्क तुमच्या पत्ते नोंदवहीत आयात करावयाचा आहे का?"
 
-#: xxport/vcard/vcard_xxport.cpp:522
+#: xxport/vcard/vcard_xxport.cpp:523
 msgctxt "@action:button"
 msgid "Import All..."
 msgstr "सर्व आयात करा..."
 
-#: xxport/vcard/vcard_xxport.cpp:613
+#: xxport/vcard/vcard_xxport.cpp:614
 msgctxt "@title:window"
 msgid "Select vCard Fields"
 msgstr "vcard प्रक्षेत्रे निवडा"
 
-#: xxport/vcard/vcard_xxport.cpp:627
+#: xxport/vcard/vcard_xxport.cpp:628
 msgctxt "@title:group"
 msgid "Fields to be exported"
 msgstr "पाठवायची/निर्यात करायची प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:631
+#: xxport/vcard/vcard_xxport.cpp:632
 msgctxt "@option:check"
 msgid "Private fields"
 msgstr "वैयक्तिक/खाजगी प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:633
+#: xxport/vcard/vcard_xxport.cpp:634
 msgctxt "@info:tooltip"
 msgid "Export private fields"
 msgstr "वैयक्तिक/खाजगी प्रक्षेत्रे निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:636
+#: xxport/vcard/vcard_xxport.cpp:637
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's private fields to the "
@@ -1465,17 +1476,17 @@ msgstr ""
 "संपर्काची वैयक्तिक/खाजगी प्रक्षेत्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास "
 "ही पेटी तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:640
+#: xxport/vcard/vcard_xxport.cpp:641
 msgctxt "@option:check"
 msgid "Business fields"
 msgstr "व्यावसायिक प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:642
+#: xxport/vcard/vcard_xxport.cpp:643
 msgctxt "@info:tooltip"
 msgid "Export business fields"
 msgstr "व्यावसायिक प्रक्षेत्रे निर्यात करा/पाठवा"
 
-#: xxport/vcard/vcard_xxport.cpp:645
+#: xxport/vcard/vcard_xxport.cpp:646
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's business fields to the "
@@ -1484,17 +1495,17 @@ msgstr ""
 "संपर्काची व्यावसायिक प्रक्षेत्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही "
 "पेटी तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:649
+#: xxport/vcard/vcard_xxport.cpp:650
 msgctxt "@option:check"
 msgid "Other fields"
 msgstr "अन्य प्रक्षेत्रे"
 
-#: xxport/vcard/vcard_xxport.cpp:651
+#: xxport/vcard/vcard_xxport.cpp:652
 msgctxt "@info:tooltip"
 msgid "Export other fields"
 msgstr "अन्य प्रक्षेत्रे पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:654
+#: xxport/vcard/vcard_xxport.cpp:655
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's other fields to the vCard "
@@ -1503,17 +1514,17 @@ msgstr ""
 "संपर्काची अन्य प्रक्षेत्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही पेटी "
 "तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:658
+#: xxport/vcard/vcard_xxport.cpp:659
 msgctxt "@option:check"
 msgid "Encryption keys"
 msgstr "सांकेतिक लीपिबध्द माहितीची संकेतसूची/कळपट्टीवरील बटण"
 
-#: xxport/vcard/vcard_xxport.cpp:660
+#: xxport/vcard/vcard_xxport.cpp:661
 msgctxt "@info:tooltip"
 msgid "Export encryption keys"
 msgstr "सांकेतिक लीपिबद्ध माहितीची संकेतसूची/कळपट्टीवरील बटण पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:663
+#: xxport/vcard/vcard_xxport.cpp:664
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's encryption keys to the "
@@ -1522,17 +1533,17 @@ msgstr ""
 "संपर्काच्या सांकेतिक लिपिबद्ध माहितीची संकेतसूची/कळपट्टीवरील बटण vCard च्या संगणक "
 "निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही पेटी तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:667
+#: xxport/vcard/vcard_xxport.cpp:668
 msgctxt "@option:check"
 msgid "Pictures"
 msgstr "प्रतिमा"
 
-#: xxport/vcard/vcard_xxport.cpp:669
+#: xxport/vcard/vcard_xxport.cpp:670
 msgctxt "@info:tooltip"
 msgid "Export pictures"
 msgstr "प्रतिमा/चित्रे पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:672
+#: xxport/vcard/vcard_xxport.cpp:673
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's picture to the vCard "
@@ -1541,22 +1552,22 @@ msgstr ""
 "संपर्काच्या प्रतिमा/चित्रे vCard च्या संगणक निष्पत्तीच्या फाईलकडे पाठवायची असल्यास ही पेटी "
 "तपासा."
 
-#: xxport/vcard/vcard_xxport.cpp:677
+#: xxport/vcard/vcard_xxport.cpp:678
 msgctxt "@title:group"
 msgid "Export options"
 msgstr "पर्याय पाठवा"
 
-#: xxport/vcard/vcard_xxport.cpp:681
+#: xxport/vcard/vcard_xxport.cpp:682
 msgctxt "@option:check"
 msgid "Display name as full name"
 msgstr "पूर्ण नावात नाव दाखवा/प्रदर्शित करा"
 
-#: xxport/vcard/vcard_xxport.cpp:683
+#: xxport/vcard/vcard_xxport.cpp:684
 msgctxt "@info:tooltip"
 msgid "Export display name as full name"
 msgstr "प्रदर्शित केलेले नाव, पूर्ण नाव स्वरूपात पाठवा/निर्यात करा"
 
-#: xxport/vcard/vcard_xxport.cpp:686
+#: xxport/vcard/vcard_xxport.cpp:687
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's display name in the "
