@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-19 01:30+0000\n"
+"POT-Creation-Date: 2013-12-26 01:26+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2187,9 +2187,10 @@ msgstr "नाव बदला"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeFolderButton)
 #. i18n: ectx: property (text), widget (QPushButton, removeBookmarkButton)
-#. i18n: ectx: property (text), widget (QListView, m_listView)
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
 #: src/lib/marble/BookmarkManagerDialog.ui:91
-#: src/lib/marble/BookmarkManagerDialog.ui:151 src/lib/marble/TourWidget.ui:93
+#: src/lib/marble/BookmarkManagerDialog.ui:151
+#: src/lib/marble/TourWidget.ui:105
 #, fuzzy
 msgid "Delete"
 msgstr "काढून टाका"
@@ -4367,53 +4368,84 @@ msgstr ""
 msgid "Tour"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QToolBar, m_toolBar)
-#: src/lib/marble/TourWidget.ui:20
+#. i18n: ectx: property (windowTitle), widget (QToolBar, m_toolBarControl)
+#. i18n: ectx: property (windowTitle), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:20 src/lib/marble/TourWidget.ui:47
 msgid "toolBar"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:54
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:66
 #, fuzzy
 msgid "Add FlyTo"
 msgstr "संचयीका जोडा"
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#. i18n: ectx: property (toolTip), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:66 src/lib/marble/TourWidget.ui:69
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#. i18n: ectx: property (toolTip), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:78 src/lib/marble/TourWidget.ui:81
 #, fuzzy
 #| msgid "Move &Up"
 msgid "Move up"
 msgstr "वर हलवा (&U)"
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:81
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:93
 #, fuzzy
 #| msgid "Move &Down"
 msgid "Move down"
 msgstr "खाली हलवा (&D)"
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:102
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:114
 msgid "New Tour"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:114
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:126
 msgid "Save Tour"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:126
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:138
 msgid "Save Tour As"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QListView, m_listView)
-#: src/lib/marble/TourWidget.ui:135
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:147
 #, fuzzy
 #| msgid "OpenGL"
 msgid "Open Tour"
 msgstr "OpenGL"
+
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:156
+msgid "Play"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:159
+msgid "Begins touring"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:168
+msgid "Pause"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:171
+msgid "Pauses touring until you start it again"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:180
+msgid "Stop"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolBar, m_toolBarPlayback)
+#: src/lib/marble/TourWidget.ui:183
+msgid "Stops touring (playing again will start tour from the start)"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, worldclockConfig)
 #: src/plasmoid/worldclockConfig.ui:35
