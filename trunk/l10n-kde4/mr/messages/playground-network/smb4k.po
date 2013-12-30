@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-24 01:40+0000\n"
+"POT-Creation-Date: 2013-12-30 01:43+0000\n"
 "PO-Revision-Date: 2013-03-30 16:49+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1076,7 +1076,7 @@ msgstr "युनिकोड"
 
 #. i18n: ectx: label, entry (UserID), group (Samba)
 #: core/smb4k.kcfg:542 core/smb4kcustomoptionsmanager_p.cpp:436
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:211
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:226
 msgid "User ID:"
 msgstr "वापरकर्ता ID:"
 
@@ -1090,7 +1090,7 @@ msgstr ""
 
 #. i18n: ectx: label, entry (GroupID), group (Samba)
 #: core/smb4k.kcfg:547 core/smb4kcustomoptionsmanager_p.cpp:459
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:225
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:240
 msgid "Group ID:"
 msgstr ""
 
@@ -1376,44 +1376,44 @@ msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:663
-msgid "Kerberos version 5 authentication"
-msgstr ""
+#, fuzzy
+#| msgid "Authentication"
+msgid "Kerberos 5 authentication"
+msgstr "अधिप्रमाणन"
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:666
-msgid "Kerberos authentication and packet signing"
+msgid "Kerberos 5 authentication and packet signing"
 msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:669
-msgid "NTLM password hashing"
+msgid "NTLM protocol"
 msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:672
-msgid "NTLM password hashing and packet signing"
+msgid "NTLM protocol and packet signing"
 msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:675
-msgid "NTLMv2 password hashing"
+msgid "NTLMv2 protocol"
 msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:678
-msgid "NTLMv2 password hashing and packet signing"
+msgid "NTLMv2 protocol and packet signing"
 msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:681
-msgid "NTLMv2 password hashing encapsulated in Raw NTLMSSP message"
+msgid "NTLMSSP protocol"
 msgstr ""
 
 #. i18n: ectx: label, entry (SecurityMode), group (Samba)
 #: core/smb4k.kcfg:684
-msgid ""
-"NTLMv2 password hashing encapsulated in Raw NTLMSSP message and packet "
-"signing"
+msgid "NTLMSSP protocol and packet signing"
 msgstr ""
 
 #. i18n: ectx: label, entry (RsyncPrefix), group (Synchronization)
@@ -2259,7 +2259,7 @@ msgstr "समूह जोडा"
 
 #: core/smb4kbookmarkhandler_p.cpp:439
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:167
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:67
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:70
 msgid "Remove"
 msgstr "काढून टाका"
 
@@ -2273,7 +2273,7 @@ msgstr "प्रवेश :"
 
 #: core/smb4kbookmarkhandler_p.cpp:462
 #: core/smb4kcustomoptionsmanager_p.cpp:131 core/smb4kmounter_p.cpp:1366
-#: core/smb4kprint_p.cpp:416 smb4k/configdlg/smb4kcustomoptionspage.cpp:111
+#: core/smb4kprint_p.cpp:416 smb4k/configdlg/smb4kcustomoptionspage.cpp:117
 msgid "IP Address:"
 msgstr "IP पत्ता :"
 
@@ -2299,7 +2299,7 @@ msgid "<p>Define custom options for share <b>%1</b> at host <b>%2</b>.</p>"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:122
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:95
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:101
 #: smb4k/configdlg/smb4krsyncoptionspage.cpp:79
 #: smb4k/configdlg/smb4krsyncoptionspage.cpp:342
 #: smb4k/configdlg/smb4krsyncoptionspage.cpp:439
@@ -2308,7 +2308,7 @@ msgid "General"
 msgstr "सामान्य"
 
 #: core/smb4kcustomoptionsmanager_p.cpp:127 core/smb4kmounter_p.cpp:1355
-#: core/smb4kprint_p.cpp:414 smb4k/configdlg/smb4kcustomoptionspage.cpp:104
+#: core/smb4kprint_p.cpp:414 smb4k/configdlg/smb4kcustomoptionspage.cpp:110
 msgid "UNC Address:"
 msgstr ""
 
@@ -2317,30 +2317,30 @@ msgid "SMB Port:"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:165
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:145
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:160
 msgid "Filesystem Port:"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:173
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:154
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:169
 msgid "Write Access:"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:224
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:166
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:181
 #, fuzzy
 #| msgid "Security"
 msgid "Security Mode:"
 msgstr "सुरक्षा"
 
 #: core/smb4kcustomoptionsmanager_p.cpp:359
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:193
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:208
 msgid "Protocol Hint:"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:535
 #: smb4k/configdlg/smb4kconfigdialog.cpp:157
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:126
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:325
 #, fuzzy
 msgid "Samba"
 msgstr "सांबा"
@@ -2350,17 +2350,17 @@ msgid "MAC Address:"
 msgstr "Mac पत्ता :"
 
 #: core/smb4kcustomoptionsmanager_p.cpp:553
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:289
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:312
 msgid "Send magic package before scanning the network neighborhood"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:557
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:291
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:314
 msgid "Send magic package before mounting a share"
 msgstr ""
 
 #: core/smb4kcustomoptionsmanager_p.cpp:567
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:271
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:326
 #: smb4k/configdlg/smb4knetworkoptionspage.cpp:145
 msgid "Wake-On-LAN"
 msgstr ""
@@ -2376,7 +2376,7 @@ msgstr ""
 
 #: core/smb4khomesshareshandler_p.cpp:83
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:168
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:71
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:74
 msgid "Clear List"
 msgstr "यादी रिकामी करा"
 
@@ -2919,7 +2919,7 @@ msgstr ""
 
 #: plasmoid/package/contents/ui/bookmarkspage.qml:62
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:169
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:63
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:66
 #, fuzzy
 msgid "Edit"
 msgstr "संपादन"
@@ -3164,7 +3164,7 @@ msgstr ""
 
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:170
 #: smb4k/configdlg/smb4kauthoptionspage.cpp:171
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:75
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:78
 msgid "Undo"
 msgstr "पूर्ववत करा"
 
@@ -3301,11 +3301,11 @@ msgstr ""
 msgid "Enter the default login information."
 msgstr ""
 
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:118
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:124
 msgid "Remount this share"
 msgstr ""
 
-#: smb4k/configdlg/smb4kcustomoptionspage.cpp:280
+#: smb4k/configdlg/smb4kcustomoptionspage.cpp:303
 #, fuzzy
 msgid "MAC address:"
 msgstr "Mac पत्ता :"
