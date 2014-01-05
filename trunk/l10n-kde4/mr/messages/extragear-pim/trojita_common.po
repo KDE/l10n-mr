@@ -451,23 +451,40 @@ msgctxt "ComposerTextEdit|"
 msgid "Paste as Quoted Text"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:98
+#: ../src/Gui/ComposeWidget.cpp:99
 msgctxt "Gui::ComposeWidget|"
 msgid "Send"
 msgstr "पाठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:166
+#: ../src/Gui/ComposeWidget.cpp:134
+msgctxt "Gui::ComposeWidget|"
+msgid "New Thread"
+msgstr ""
+
+#: ../src/Gui/ComposeWidget.cpp:137
+msgctxt "Gui::ComposeWidget|"
+msgid ""
+"This mail will be sent as a standalone message.<hr/>Change to preserve the "
+"reply hierarchy."
+msgstr ""
+
+#: ../src/Gui/ComposeWidget.cpp:138
+msgctxt "Gui::ComposeWidget|"
+msgid "Threaded"
+msgstr ""
+
+#: ../src/Gui/ComposeWidget.cpp:194
 msgctxt "Gui::ComposeWidget|"
 msgid "Authentication Required"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:167
+#: ../src/Gui/ComposeWidget.cpp:195
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "<p>Please provide SMTP password for user <b>%1</b> on <b>%2</b>:</p>"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:208
+#: ../src/Gui/ComposeWidget.cpp:236
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Save as"
@@ -475,35 +492,35 @@ msgctxt "Gui::ComposeWidget|"
 msgid "Save Draft?"
 msgstr "असे साठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:209
+#: ../src/Gui/ComposeWidget.cpp:237
 msgctxt "Gui::ComposeWidget|"
 msgid "The mail has not been sent.<br>Do you want to save the draft?"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:211
+#: ../src/Gui/ComposeWidget.cpp:239
 msgctxt "Gui::ComposeWidget|"
 msgid ""
 "<br><span style=\"color:red\">Warning: Attachments are <b>not</b> saved with "
 "the draft!</span>"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:222 ../src/Gui/Window.cpp:1252
+#: ../src/Gui/ComposeWidget.cpp:250 ../src/Gui/Window.cpp:1252
 #: ../src/Gui/Window.cpp:1254
 msgctxt "Gui::MainWindow|"
 msgid "Drafts"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:232
+#: ../src/Gui/ComposeWidget.cpp:260
 msgctxt "Gui::ComposeWidget|"
 msgid "Save as"
 msgstr "असे साठवा"
 
-#: ../src/Gui/ComposeWidget.cpp:233
+#: ../src/Gui/ComposeWidget.cpp:261
 msgctxt "Gui::ComposeWidget|"
 msgid "Drafts"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:261
+#: ../src/Gui/ComposeWidget.cpp:289
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid ""
@@ -511,85 +528,77 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:265
+#: ../src/Gui/ComposeWidget.cpp:293
 msgctxt "Gui::ComposeWidget|"
 msgid "You haven't entered any recipients"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:272
+#: ../src/Gui/ComposeWidget.cpp:300
 msgctxt "Gui::ComposeWidget|"
 msgid "The From: address does not look like a valid one"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:276
+#: ../src/Gui/ComposeWidget.cpp:304
 msgctxt "Gui::ComposeWidget|"
 msgid "You haven't entered any subject. Cannot send such a mail, sorry."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:321
+#: ../src/Gui/ComposeWidget.cpp:349
 msgctxt "Gui::ComposeWidget|"
 msgid "Sent"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:524
+#: ../src/Gui/ComposeWidget.cpp:398 ../src/Gui/ComposeWidget.cpp:1105
+#, qt-format
+msgctxt "Gui::ComposeWidget|"
+msgid "This mail will be marked as a response<hr/>%1"
+msgstr ""
+
+#: ../src/Gui/ComposeWidget.cpp:557
 msgctxt "Gui::ComposeWidget|"
 msgid "To"
 msgstr "पर्यंत"
 
-#: ../src/Gui/ComposeWidget.cpp:525
+#: ../src/Gui/ComposeWidget.cpp:558
 msgctxt "Gui::ComposeWidget|"
 msgid "Cc"
 msgstr "Cc"
 
-#: ../src/Gui/ComposeWidget.cpp:526
+#: ../src/Gui/ComposeWidget.cpp:559
 msgctxt "Gui::ComposeWidget|"
 msgid "Bcc"
 msgstr "Bcc"
 
-#: ../src/Gui/ComposeWidget.cpp:785
+#: ../src/Gui/ComposeWidget.cpp:818
 msgctxt "Gui::ComposeWidget|"
 msgid "Failed to Send Mail"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:812
+#: ../src/Gui/ComposeWidget.cpp:845
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "Can't parse \"%1\" as an e-mail address."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:914
+#: ../src/Gui/ComposeWidget.cpp:947
 msgctxt "Gui::ComposeWidget|"
 msgid "Attach File..."
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:1076
-#, qt-format
+#: ../src/Gui/ComposeWidget.cpp:1107 ../src/Gui/ComposeWidget.cpp:1109
 msgctxt "Gui::ComposeWidget|"
-msgid "In-Reply-To: %1"
+msgid "<br/>"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:1076
-#, fuzzy
-#| msgctxt "Imap::Mailbox::CertificateUtils|"
-#| msgid ", "
-msgctxt "Gui::ComposeWidget|"
-msgid ", "
-msgstr ", "
-
-#: ../src/Gui/ComposeWidget.cpp:1108
+#: ../src/Gui/ComposeWidget.cpp:1152
 msgctxt "Gui::ComposeWidget|"
 msgid "Compose Mail"
 msgstr ""
 
-#: ../src/Gui/ComposeWidget.cpp:1110
+#: ../src/Gui/ComposeWidget.cpp:1154
 #, qt-format
 msgctxt "Gui::ComposeWidget|"
 msgid "%1 - Compose Mail"
-msgstr ""
-
-#: ../src/Gui/ComposeWidget.cpp:1119
-msgctxt "Gui::ComposeWidget|"
-msgid "Change to preserve reply hierarchy"
 msgstr ""
 
 #: ../src/Gui/ComposeWidget.ui:51
@@ -597,17 +606,12 @@ msgctxt "ComposeWidget|"
 msgid "From"
 msgstr "पासून"
 
-#: ../src/Gui/ComposeWidget.ui:85 ../src/Gui/ComposeWidget.ui:107
+#: ../src/Gui/ComposeWidget.ui:77
 msgctxt "ComposeWidget|"
 msgid "Subject"
 msgstr "विषय"
 
-#: ../src/Gui/ComposeWidget.ui:102
-msgctxt "ComposeWidget|"
-msgid "Reply to"
-msgstr ""
-
-#: ../src/Gui/ComposeWidget.ui:151
+#: ../src/Gui/ComposeWidget.ui:121
 msgctxt "ComposeWidget|"
 msgid "Attach..."
 msgstr ""
@@ -4165,6 +4169,13 @@ msgstr ""
 msgctxt "XtConnect::XtConnect|"
 msgid "Database Password: "
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Imap::Mailbox::CertificateUtils|"
+#~| msgid ", "
+#~ msgctxt "Gui::ComposeWidget|"
+#~ msgid ", "
+#~ msgstr ", "
 
 #~ msgctxt "Gui::Rfc822HeaderView|"
 #~ msgid "Loading..."
