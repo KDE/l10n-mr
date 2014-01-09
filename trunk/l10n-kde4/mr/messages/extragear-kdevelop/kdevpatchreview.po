@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-12-20 01:32+0000\n"
+"POT-Creation-Date: 2014-01-09 01:30+0000\n"
 "PO-Revision-Date: 2013-03-13 16:43+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -82,9 +82,58 @@ msgstr ""
 msgid "Could not write to the temporary file."
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, patchSelection)
-#: localpatchsource.cpp:38 patchreview.ui:152
+#: localpatchsource.cpp:43
 msgid "Custom Patch"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, LocalPatchWidget)
+#: localpatchwidget.ui:14
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, localPatchOptions)
+#: localpatchwidget.ui:20
+msgid "Patch"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: localpatchwidget.ui:29
+msgid "Base:"
+msgstr "मूळ :"
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, baseDir)
+#: localpatchwidget.ui:36
+msgid "Patch base..."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, fileTab)
+#: localpatchwidget.ui:47
+msgid "From File"
+msgstr ""
+
+#. i18n: ectx: property (clickMessage), widget (KUrlRequester, filename)
+#: localpatchwidget.ui:53
+msgid "Patch location..."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, commandTab)
+#: localpatchwidget.ui:61
+msgid "From Command"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, command)
+#: localpatchwidget.ui:67
+msgid "Command's output..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, applied)
+#: localpatchwidget.ui:78
+msgid "Patch is already applied on local version"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applied)
+#: localpatchwidget.ui:81
+msgid "Already applied"
 msgstr ""
 
 #: patchhighlighter.cpp:74
@@ -132,21 +181,26 @@ msgstr ""
 msgid "Change"
 msgstr "बदला"
 
-#: patchreview.cpp:271 patchreview.cpp:273
+#: patchreview.cpp:272 patchreview.cpp:274
 msgid "Kompare Model Update"
 msgstr ""
 
-#: patchreview.cpp:284 patchreview.cpp:478 patchreview.cpp:514
+#: patchreview.cpp:285 patchreview.cpp:467 patchreview.cpp:506
 msgid "Patch Review"
 msgstr ""
 
-#: patchreview.cpp:284
+#: patchreview.cpp:285
 msgid "Highlights code affected by a patch"
 msgstr ""
 
-#: patchreview.cpp:440
+#: patchreview.cpp:429
 msgid "Overview"
 msgstr "आढावा"
+
+#. i18n: ectx: property (text), widget (QToolButton, finishReview)
+#: patchreview.cpp:492 patchreview.ui:134
+msgid "Finish Review"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, EditPatch)
 #: patchreview.ui:14
@@ -154,7 +208,7 @@ msgid "Edit Patch"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, previousFile)
-#: patchreview.ui:22
+#: patchreview.ui:24
 msgid "Previous file"
 msgstr ""
 
@@ -162,102 +216,47 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, previousHunk)
 #. i18n: ectx: property (text), widget (QToolButton, nextHunk)
 #. i18n: ectx: property (text), widget (QToolButton, nextFile)
-#: patchreview.ui:25 patchreview.ui:35 patchreview.ui:45 patchreview.ui:55
+#: patchreview.ui:27 patchreview.ui:37 patchreview.ui:47 patchreview.ui:57
 msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, previousHunk)
-#: patchreview.ui:32
+#: patchreview.ui:34
 msgid "Previous difference"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, nextHunk)
-#: patchreview.ui:42
+#: patchreview.ui:44
 msgid "Next difference"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, nextFile)
-#: patchreview.ui:52
+#: patchreview.ui:54
 msgid "Next file"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, updateButton)
-#: patchreview.ui:81
+#: patchreview.ui:83
 msgid "Update"
 msgstr "अद्ययावत करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, testsButton)
-#: patchreview.ui:88
+#: patchreview.ui:90
 msgid "Run Tests"
 msgstr "चाचण्या चालवा"
 
 #. i18n: ectx: property (text), widget (QToolButton, exportReview)
-#: patchreview.ui:111
+#: patchreview.ui:117
 msgid "Export Diff..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelReview)
-#: patchreview.ui:121
+#: patchreview.ui:127
 msgid "Cancel Review"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QToolButton, finishReview)
-#: patchreview.ui:128 patchreviewtoolview.cpp:156
-msgid "Finish Review"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, localPatchOptions)
-#: patchreview.ui:143
-msgid "Patch"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, showButton)
-#: patchreview.ui:166
-msgid "Show"
-msgstr "दर्शवा"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: patchreview.ui:175
-msgid "Base:"
-msgstr "मूळ :"
-
-#. i18n: ectx: property (clickMessage), widget (KUrlRequester, baseDir)
-#: patchreview.ui:182
-msgid "Patch base..."
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, fileTab)
-#: patchreview.ui:193
-msgid "From File"
-msgstr ""
-
-#. i18n: ectx: property (clickMessage), widget (KUrlRequester, filename)
-#: patchreview.ui:199
-msgid "Patch location..."
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, commandTab)
-#: patchreview.ui:207
-msgid "From Command"
-msgstr ""
-
-#. i18n: ectx: property (placeholderText), widget (QLineEdit, command)
-#: patchreview.ui:213
-msgid "Command's output..."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, applied)
-#: patchreview.ui:224
-msgid "Patch is already applied on local version"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, applied)
-#: patchreview.ui:227
-msgid "Already applied"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, filesGroup)
-#: patchreview.ui:250
+#: patchreview.ui:153
 msgid "Changes"
 msgstr "बदल"
 
@@ -269,26 +268,26 @@ msgid_plural "%2 (%1 hunks)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: patchreviewtoolview.cpp:291
+#: patchreviewtoolview.cpp:229
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: patchreviewtoolview.cpp:293
+#: patchreviewtoolview.cpp:231
 msgid "Deselect All"
 msgstr "सर्व निवडू नका"
 
-#: patchreviewtoolview.cpp:571
+#: patchreviewtoolview.cpp:509
 msgid "Running tests: %p%"
 msgstr ""
 
-#: patchreviewtoolview.cpp:599
+#: patchreviewtoolview.cpp:537
 #, kde-format
 msgid "Test passed"
 msgid_plural "All %1 tests passed"
 msgstr[0] ""
 msgstr[1] ""
 
-#: patchreviewtoolview.cpp:603
+#: patchreviewtoolview.cpp:541
 #, kde-format
 msgid "Test results: %1 passed, %2 failed, %3 errors"
 msgstr ""
@@ -308,3 +307,6 @@ msgstr ""
 #: standardpatchexport.cpp:89
 msgid "Side view (Kompare)..."
 msgstr ""
+
+#~ msgid "Show"
+#~ msgstr "दर्शवा"
