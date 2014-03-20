@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-19 04:38+0000\n"
+"POT-Creation-Date: 2014-03-20 02:06+0000\n"
 "PO-Revision-Date: 2013-04-12 16:13+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1030,7 +1030,7 @@ msgid "Sensor exceeded critical limit"
 msgstr "सेन्सर संकटाच्या सीमे पलीकडे गेला"
 
 #: ksysguard/gui/ksysguard.desktop:2
-#: libs/ksysguard/processcore/actions.actions:2
+#: libksysguard/processcore/actions.actions:2
 msgctxt "Name"
 msgid "KSysGuard"
 msgstr "के सिसगार्ड"
@@ -1980,48 +1980,48 @@ msgctxt "Comment"
 msgid "The daemon received a new message sent with wall(1) or write(1)"
 msgstr "डीमनने wall(1) किंवा write(1) सह पाठविलेले नवीन संदेश प्राप्त केले"
 
-#: libs/ksysguard/processcore/actions.actions:80
+#: libksysguard/processcore/actions.actions:80
 msgctxt "Name"
 msgid "Kill or stop etc a process"
 msgstr "प्रक्रीया बंद करा"
 
-#: libs/ksysguard/processcore/actions.actions:145
+#: libksysguard/processcore/actions.actions:145
 msgctxt "Description"
 msgid "Sends a given signal to a given process"
 msgstr "दिलेल्या प्रक्रीयेस दिलेला संकेत पाठवतो"
 
-#: libs/ksysguard/processcore/actions.actions:213
+#: libksysguard/processcore/actions.actions:213
 msgctxt "Name"
 msgid "Change the priority of a process"
 msgstr "प्रक्रीयेची प्राधान्यता बदला"
 
-#: libs/ksysguard/processcore/actions.actions:280
+#: libksysguard/processcore/actions.actions:280
 msgctxt "Description"
 msgid "Change the niceness of a given process"
 msgstr "दिलेल्या प्रक्रीयेचा चांगुलपणा बदला"
 
-#: libs/ksysguard/processcore/actions.actions:346
+#: libksysguard/processcore/actions.actions:346
 msgctxt "Name"
 msgid "Change IO Scheduler and priority"
 msgstr "IO नियोजक व प्राधान्यता बदला"
 
-#: libs/ksysguard/processcore/actions.actions:409
+#: libksysguard/processcore/actions.actions:409
 msgctxt "Description"
 msgid "Change how the read and writes of a given process are prioritized"
 msgstr "दिलेल्या प्रक्रीयेचे वाचन व लिखाण यांना कशी प्राधान्यता द्यायची ते बदला"
 
-#: libs/ksysguard/processcore/actions.actions:474
+#: libksysguard/processcore/actions.actions:474
 msgctxt "Name"
 msgid "Change CPU Scheduler and priority"
 msgstr "CPU नियोजक व प्राधान्यता बदला"
 
-#: libs/ksysguard/processcore/actions.actions:536
+#: libksysguard/processcore/actions.actions:536
 msgctxt "Description"
 msgid ""
 "Change which CPU scheduler is to schedule the running of a given process"
 msgstr "कोणता CPU नियोजक दिलेल्या प्रक्रीयेचे नियोजन करेल ते बदला"
 
-#: libs/ksysguard/scripts/smaps/smaps.desktop:2
+#: libksysguard/scripts/smaps/smaps.desktop:2
 msgctxt "Name"
 msgid "Detailed Memory Information"
 msgstr "तपशीलवार स्मृती माहिती"
@@ -2087,7 +2087,7 @@ msgid "Plasmoid to show list of opened windows."
 msgstr "उघडलेल्या चौकटींची यादी दर्शविणारे प्लाज्मोइड"
 
 #: plasma-desktop/containments/desktop/package/metadata.desktop:2
-#: plasma-desktop/qmlpackages/desktop/metadata.desktop:34
+#: plasma-desktop/desktoppackage/metadata.desktop:34
 msgctxt "Name"
 msgid "Desktop"
 msgstr "डेस्कटॉप"
@@ -2127,6 +2127,14 @@ msgstr "रिकामे पटल"
 msgctxt "Comment"
 msgid "A simple linear panel"
 msgstr "सोपे रेषीय पटल"
+
+#: plasma-desktop/desktoppackage/metadata.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Magnifier"
+msgctxt "Comment"
+msgid "Desktop view furniture"
+msgstr "डेस्कटॉप वर्धक"
 
 #: plasma-desktop/kcms/access/kaccess.desktop:3
 msgctxt "Name"
@@ -2671,37 +2679,6 @@ msgstr "केडीई टचपॅड कार्यान्वित कर
 msgctxt "Comment"
 msgid "Toggles the enable status of the TouchPad"
 msgstr "टचपॅडची कार्यान्वित स्थिती बदलतो"
-
-#: plasma-desktop/qmlpackages/desktop/metadata.desktop:2
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Desktop Magnifier"
-msgctxt "Comment"
-msgid "Desktop view furniture"
-msgstr "डेस्कटॉप वर्धक"
-
-#: plasma-desktop/qmlpackages/lookandfeel/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Desktop Sessions"
-msgctxt "Comment"
-msgid "Desktop Design Language"
-msgstr "डेस्कटॉप सत्र"
-
-#: plasma-desktop/qmlpackages/lookandfeel/metadata.desktop:37
-msgctxt "Keywords"
-msgid ""
-"Desktop, Workspace, Appearance, Look and Feel, Logout, Lock, Suspend, "
-"Shutdown, Hibernate,"
-msgstr ""
-
-#: plasma-desktop/qmlpackages/lookandfeel/metadata.desktop:68
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Look & Feel"
-msgctxt "Name"
-msgid "Look and Feel"
-msgstr "रूप व आकार"
 
 #: plasma-desktop/runners/plasma-desktop/plasma-runner-plasma-desktop.desktop:2
 msgctxt "Name"
@@ -4139,6 +4116,29 @@ msgstr "स्प्लॅश स्क्रीन शैली करिता
 msgctxt "X-KDE-Keywords"
 msgid "splash screen,splash theme,startup"
 msgstr "स्प्लॅश स्क्रीन, स्प्लॅश शैली, सुरुवात"
+
+#: plasma-workspace/lookandfeel/metadata.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Sessions"
+msgctxt "Comment"
+msgid "Desktop Design Language"
+msgstr "डेस्कटॉप सत्र"
+
+#: plasma-workspace/lookandfeel/metadata.desktop:37
+msgctxt "Keywords"
+msgid ""
+"Desktop, Workspace, Appearance, Look and Feel, Logout, Lock, Suspend, "
+"Shutdown, Hibernate,"
+msgstr ""
+
+#: plasma-workspace/lookandfeel/metadata.desktop:68
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Look & Feel"
+msgctxt "Name"
+msgid "Look and Feel"
+msgstr "रूप व आकार"
 
 #: plasma-workspace/runners/activities/plasma-runner-activityrunner.desktop:57
 msgctxt "Comment"
