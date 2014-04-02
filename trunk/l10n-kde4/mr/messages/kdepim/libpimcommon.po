@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-01 01:57+0000\n"
+"POT-Creation-Date: 2014-04-02 01:49+0000\n"
 "PO-Revision-Date: 2013-04-06 12:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -415,6 +415,8 @@ msgstr ""
 #: shorturl/shorturlwidget.cpp:55 shorturl/shorturlwidget.cpp:57
 #: texteditor/commonwidget/texteditfindbarbase.cpp:49
 #: texteditor/commonwidget/texteditfindbarbase.cpp:52
+#: texteditor/commonwidget/textgotolinewidget.cpp:41
+#: texteditor/commonwidget/textgotolinewidget.cpp:44
 #: translator/translatorwidget.cpp:225 translator/translatorwidget.cpp:228
 msgid "Close"
 msgstr "बंद करा"
@@ -780,10 +782,9 @@ msgid "Add..."
 msgstr "जोडा..."
 
 #: storageservice/settings/storageservicesettingswidget.cpp:74
-#, fuzzy
-#| msgid "&Modify..."
-msgid "Modify"
-msgstr "बदला (&M)..."
+#: templatewidgets/templatelistwidget.cpp:172
+msgid "Modify..."
+msgstr "बदला..."
 
 #: storageservice/settings/storageservicesettingswidget.cpp:111
 msgid "Authenticate"
@@ -1067,10 +1068,6 @@ msgstr "नमूना अंतर्भूत करा"
 msgid "Show..."
 msgstr "दर्शवा..."
 
-#: templatewidgets/templatelistwidget.cpp:172
-msgid "Modify..."
-msgstr "बदला..."
-
 #: templatewidgets/templatelistwidget.cpp:173
 msgid "Duplicate"
 msgstr ""
@@ -1145,6 +1142,14 @@ msgstr ""
 msgid "Whole word"
 msgstr ""
 
+#: texteditor/commonwidget/textgotolinewidget.cpp:51
+msgid "Go to Line:"
+msgstr ""
+
+#: texteditor/commonwidget/textgotolinewidget.cpp:58
+msgid "Go"
+msgstr ""
+
 #: texteditor/plaintexteditor/plaintexteditor.cpp:108
 #: texteditor/richtexteditor/richtexteditor.cpp:120
 msgid "Replace..."
@@ -1160,13 +1165,13 @@ msgstr ""
 msgid "Speak Text"
 msgstr ""
 
-#: texteditor/plaintexteditor/plaintexteditor.cpp:146
+#: texteditor/plaintexteditor/plaintexteditor.cpp:147
 #: texteditor/richtexteditor/richtexteditor.cpp:181
 msgid "Starting Jovie Text-to-Speech Service Failed"
 msgstr ""
 
-#: texteditor/plaintexteditor/plaintexteditor.cpp:227
-#: texteditor/richtexteditor/richtexteditor.cpp:272
+#: texteditor/plaintexteditor/plaintexteditor.cpp:228
+#: texteditor/richtexteditor/richtexteditor.cpp:273
 msgid "Nothing to spell check."
 msgstr ""
 
@@ -1179,18 +1184,18 @@ msgstr ""
 msgid "Spell Checking Language"
 msgstr ""
 
-#: texteditor/richtexteditor/richtexteditor.cpp:493
+#: texteditor/richtexteditor/richtexteditor.cpp:494
 #, kde-format
 msgid "No suggestions for %1"
 msgstr ""
 
-#: texteditor/richtexteditor/richtexteditor.cpp:504
+#: texteditor/richtexteditor/richtexteditor.cpp:505
 #, fuzzy
 #| msgid "&Ignore"
 msgid "Ignore"
 msgstr "दुर्लक्ष करा (&I)"
 
-#: texteditor/richtexteditor/richtexteditor.cpp:505
+#: texteditor/richtexteditor/richtexteditor.cpp:506
 msgid "Add to Dictionary"
 msgstr ""
 
@@ -1541,25 +1546,25 @@ msgstr ""
 msgid "Failed to create resource instance: %1"
 msgstr ""
 
-#: util/pimutil.cpp:71
+#: util/pimutil.cpp:72
 #, kde-format
 msgid ""
 "Could not write the file %1:\n"
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: util/pimutil.cpp:75
+#: util/pimutil.cpp:76
 msgid "Save File Error"
 msgstr ""
 
-#: util/pimutil.cpp:105
+#: util/pimutil.cpp:107
 #, kde-format
 msgid ""
 "Could not read the file %1:\n"
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: util/pimutil.cpp:109
+#: util/pimutil.cpp:111
 msgid "Load File Error"
 msgstr ""
 
@@ -1625,13 +1630,18 @@ msgstr "बदला (&M)..."
 msgid "&Remove"
 msgstr "काढून टाका (&R)"
 
-#: widgets/simplestringlisteditor.cpp:228
+#: widgets/simplestringlisteditor.cpp:233
 msgid "New Value"
 msgstr "नवीन मूल्य"
 
-#: widgets/simplestringlisteditor.cpp:257
+#: widgets/simplestringlisteditor.cpp:272
 msgid "Change Value"
 msgstr "मूल्य बदला"
+
+#, fuzzy
+#~| msgid "&Modify..."
+#~ msgid "Modify"
+#~ msgstr "बदला (&M)..."
 
 #, fuzzy
 #~| msgid "Name:"
