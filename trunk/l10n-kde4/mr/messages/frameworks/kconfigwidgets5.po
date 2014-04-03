@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-28 01:55+0000\n"
+"POT-Creation-Date: 2014-04-03 01:40+0000\n"
 "PO-Revision-Date: 2013-03-29 16:14+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -81,7 +81,7 @@ msgctxt "show help"
 msgid "&Help"
 msgstr "मदत (&H)"
 
-#: kstandardaction.cpp:514
+#: kstandardaction.cpp:514 kstandardaction_p.h:96
 msgid "Show &Menubar"
 msgstr "मेन्यूपट्टी दर्शवा (&M)"
 
@@ -89,7 +89,7 @@ msgstr "मेन्यूपट्टी दर्शवा (&M)"
 msgid "Show Menubar<p>Shows the menubar again after it has been hidden</p>"
 msgstr "मेन्यूपट्टी दर्शवा <p>लपवलेली मेन्यूपट्टी पुन्हा दर्शवितो </p>"
 
-#: kstandardaction.cpp:538
+#: kstandardaction.cpp:538 kstandardaction_p.h:98
 msgid "Show St&atusbar"
 msgstr "स्थितीपट्टी दर्शवा (&A)"
 
@@ -100,6 +100,373 @@ msgid ""
 msgstr ""
 "स्थितीपट्टी दर्शवा <p>स्थितीपट्टी दर्शवतो, ही पट्टी चौकटीच्या खालच्या बाजुस असून तिचा "
 "वापर वस्तुस्थितीची माहिती देण्यासाठी होतो.</p>"
+
+#: kstandardaction_p.h:41
+msgid "&New"
+msgstr "नवीन (&N)"
+
+#: kstandardaction_p.h:41
+msgid "Create new document"
+msgstr "नवीन दस्तऐवज बनवा"
+
+#: kstandardaction_p.h:42
+msgid "&Open..."
+msgstr "उघडा (&O)..."
+
+#: kstandardaction_p.h:42
+msgid "Open an existing document"
+msgstr "अस्तित्वात असलेला दस्तऐवज उघडा"
+
+#: kstandardaction_p.h:43
+msgid "Open &Recent"
+msgstr "अलिकडील उघडा (&R)"
+
+#: kstandardaction_p.h:43
+msgid "Open a document which was recently opened"
+msgstr "नुकताच बंद केलेला दस्तऐवज उघडा"
+
+#: kstandardaction_p.h:44
+msgid "&Save"
+msgstr "साठवा (&S)"
+
+#: kstandardaction_p.h:44
+msgid "Save document"
+msgstr "दस्तऐवज साठवा"
+
+#: kstandardaction_p.h:45
+msgid "Save &As..."
+msgstr "असे साठवा (&A)..."
+
+#: kstandardaction_p.h:45
+msgid "Save document under a new name"
+msgstr "दस्तऐवज नव्या नावाने साठवा"
+
+#: kstandardaction_p.h:46
+msgid "Re&vert"
+msgstr "पूर्वस्थितीकडे जा (&v)"
+
+#: kstandardaction_p.h:46
+msgid "Revert unsaved changes made to document"
+msgstr "दस्तऐवजातील न साठवलेले बदल काढून टाका"
+
+#: kstandardaction_p.h:47
+msgid "&Close"
+msgstr "बंद करा (&C)"
+
+#: kstandardaction_p.h:47
+msgid "Close document"
+msgstr "दस्तऐवज बंद करा"
+
+#: kstandardaction_p.h:48
+msgid "&Print..."
+msgstr "छपाई (&P)..."
+
+#: kstandardaction_p.h:48
+msgid "Print document"
+msgstr "दस्तऐवज छापा"
+
+#: kstandardaction_p.h:49
+msgid "Print Previe&w"
+msgstr "छपाई पूर्वावलोकन (&W)"
+
+#: kstandardaction_p.h:49
+msgid "Show a print preview of document"
+msgstr "दस्तऐवजाचे छपाई पूर्वावलोकन दर्शवा"
+
+#: kstandardaction_p.h:50
+msgid "&Mail..."
+msgstr "मेल (&M)..."
+
+#: kstandardaction_p.h:50
+msgid "Send document by mail"
+msgstr "दस्तऐवज इमेलने पाठवा"
+
+#: kstandardaction_p.h:51
+msgid "&Quit"
+msgstr "बाहेर पडा (&Q)"
+
+#: kstandardaction_p.h:51
+msgid "Quit application"
+msgstr "अनुप्रयोगातून बाहेर पडा"
+
+#: kstandardaction_p.h:53
+msgid "&Undo"
+msgstr "पूर्ववत करा (&U)"
+
+#: kstandardaction_p.h:53
+msgid "Undo last action"
+msgstr "शेवटची केलेली क्रिया पूर्ववत करा"
+
+#: kstandardaction_p.h:54
+msgid "Re&do"
+msgstr "पुन्हा करा (&D)"
+
+#: kstandardaction_p.h:54
+msgid "Redo last undone action"
+msgstr "शेवटची नष्ट केलेली क्रिया पूर्ववत करा"
+
+#: kstandardaction_p.h:55
+msgid "Cu&t"
+msgstr "कापा (&T)"
+
+#: kstandardaction_p.h:55
+msgid "Cut selection to clipboard"
+msgstr "निवड कापुन क्लिपबोर्ड मधे टाका "
+
+#: kstandardaction_p.h:56
+msgid "&Copy"
+msgstr "प्रत करा (&C)"
+
+#: kstandardaction_p.h:56
+msgid "Copy selection to clipboard"
+msgstr "निवडीची प्रत क्लिपबोर्ड मधे टाका"
+
+#: kstandardaction_p.h:57 kstandardaction_p.h:58
+msgid "&Paste"
+msgstr "चिटकवा (&P)"
+
+#: kstandardaction_p.h:57 kstandardaction_p.h:58
+msgid "Paste clipboard content"
+msgstr "क्लिपबोर्ड मधील मजकूर चिटकवा "
+
+#: kstandardaction_p.h:59
+msgid "C&lear"
+msgstr "पुसून टाका (&L)"
+
+#: kstandardaction_p.h:60
+msgid "Select &All"
+msgstr "सर्व निवडा (&A)"
+
+#: kstandardaction_p.h:61
+msgid "Dese&lect"
+msgstr "निवड काढून टाका (&L)"
+
+#: kstandardaction_p.h:62
+msgid "&Find..."
+msgstr "शोधा (&F)..."
+
+#: kstandardaction_p.h:63
+msgid "Find &Next"
+msgstr "पुढील शोधा (&N)"
+
+#: kstandardaction_p.h:64
+msgid "Find Pre&vious"
+msgstr "मागील शोधा (&V)"
+
+#: kstandardaction_p.h:65
+msgid "&Replace..."
+msgstr "बदला (&R)..."
+
+#: kstandardaction_p.h:67
+msgid "&Actual Size"
+msgstr "वास्तविक आकार (&A)"
+
+#: kstandardaction_p.h:67
+msgid "View document at its actual size"
+msgstr "दस्तऐवज मूळ आकारात बघा"
+
+#: kstandardaction_p.h:68
+msgid "&Fit to Page"
+msgstr "पानाप्रमाणे समर्पक बसवा (&F)"
+
+#: kstandardaction_p.h:68
+msgid "Zoom to fit page in window"
+msgstr "चौकटीत पुर्ण पान समर्पक बसेल असे झूम करा"
+
+#: kstandardaction_p.h:69
+msgid "Fit to Page &Width"
+msgstr "पानाच्या रुंदीप्रमाणे समर्पक बसवा (&W)"
+
+#: kstandardaction_p.h:69
+msgid "Zoom to fit page width in window"
+msgstr "चौकटीत पानाची रुंदी समर्पक बसेल असे झूम करा"
+
+#: kstandardaction_p.h:70
+msgid "Fit to Page &Height"
+msgstr "पानाच्या उंचीप्रमाणे समर्पक बसवा (&H)"
+
+#: kstandardaction_p.h:70
+msgid "Zoom to fit page height in window"
+msgstr "चौकटीत पानाची उंची समर्पक बसेल असे झूम करा"
+
+#: kstandardaction_p.h:71
+msgid "Zoom &In"
+msgstr "मोठे करा (&I)"
+
+#: kstandardaction_p.h:72
+msgid "Zoom &Out"
+msgstr "लहान करा (&O)"
+
+#: kstandardaction_p.h:73
+msgid "&Zoom..."
+msgstr "झूम (&Z)..."
+
+#: kstandardaction_p.h:73
+msgid "Select zoom level"
+msgstr "झूमचा स्तर निवडा"
+
+#: kstandardaction_p.h:74
+msgid "&Redisplay"
+msgstr "पुन्हा प्रदर्शन (&R)"
+
+#: kstandardaction_p.h:74
+msgid "Redisplay document"
+msgstr "दस्तऐवज पुन्हप्रदर्शन "
+
+#: kstandardaction_p.h:76
+msgid "&Up"
+msgstr "वर (&U)"
+
+#: kstandardaction_p.h:76
+msgid "Go up"
+msgstr "वर जा"
+
+#: kstandardaction_p.h:81
+msgid "&Previous Page"
+msgstr "मागील पान (&P)"
+
+#: kstandardaction_p.h:81
+msgid "Go to previous page"
+msgstr "मागील पानावर जा"
+
+#: kstandardaction_p.h:82
+msgid "&Next Page"
+msgstr "पुढील पान (&N)"
+
+#: kstandardaction_p.h:82
+msgid "Go to next page"
+msgstr "पुढील पानावर जा"
+
+#: kstandardaction_p.h:83
+msgid "&Go To..."
+msgstr "येथे जा (&G)..."
+
+#: kstandardaction_p.h:84
+msgid "&Go to Page..."
+msgstr "या पानावर जा (&G)..."
+
+#: kstandardaction_p.h:85
+msgid "&Go to Line..."
+msgstr "या ओळीवर जा (&G)..."
+
+#: kstandardaction_p.h:86
+msgid "&First Page"
+msgstr "पहिले पान (&F)"
+
+#: kstandardaction_p.h:86
+msgid "Go to first page"
+msgstr "पहिल्या पानावर जा"
+
+#: kstandardaction_p.h:87
+msgid "&Last Page"
+msgstr "शेवटचे पान (&L)"
+
+#: kstandardaction_p.h:87
+msgid "Go to last page"
+msgstr "शेवटच्या पानावर जा"
+
+#: kstandardaction_p.h:88
+msgid "&Back"
+msgstr "मागे (&B)"
+
+#: kstandardaction_p.h:88
+msgid "Go back in document"
+msgstr "दस्तऐवजात मागे जा"
+
+#: kstandardaction_p.h:89
+msgid "&Forward"
+msgstr "पुढे (&F)"
+
+#: kstandardaction_p.h:89
+msgid "Go forward in document"
+msgstr "दस्तऐवजात पुढे जा"
+
+#: kstandardaction_p.h:91
+msgid "&Add Bookmark"
+msgstr "ओळखचिन्ह जोडा (&A)"
+
+#: kstandardaction_p.h:92
+msgid "&Edit Bookmarks..."
+msgstr "ओळखचिन्ह संपादित करा (&E)"
+
+#: kstandardaction_p.h:94
+msgid "&Spelling..."
+msgstr "वर्णलेखन (&S)..."
+
+#: kstandardaction_p.h:94
+msgid "Check spelling in document"
+msgstr "दस्तऐवजात स्पेलिंग तपासा"
+
+#: kstandardaction_p.h:96
+msgid "Show or hide menubar"
+msgstr "मेन्यूपट्टी दर्शवा किंवा लपवा (&M)"
+
+#: kstandardaction_p.h:97
+msgid "Show &Toolbar"
+msgstr "साधनपट्टी दर्शवा (&T)"
+
+#: kstandardaction_p.h:97
+msgid "Show or hide toolbar"
+msgstr "साधनपट्टी दर्शवा किंवा लपवा"
+
+#: kstandardaction_p.h:98
+msgid "Show or hide statusbar"
+msgstr "स्थितीपट्टी दर्शवा किंवा लपवा"
+
+#: kstandardaction_p.h:99
+msgid "F&ull Screen Mode"
+msgstr "पूर्ण स्क्रीन पद्धत (&U)"
+
+#: kstandardaction_p.h:100
+msgid "&Save Settings"
+msgstr "संयोजना साठवा (&S)"
+
+#: kstandardaction_p.h:101
+msgid "Configure S&hortcuts..."
+msgstr "शॉर्टकट संयोजीत करा (&H)..."
+
+#: kstandardaction_p.h:102
+#, kde-format
+msgid "&Configure %1..."
+msgstr "%1 संयोजीत करा (&C)..."
+
+#: kstandardaction_p.h:103
+msgid "Configure Tool&bars..."
+msgstr "साधनपट्टी संयोजीत करा (&B)..."
+
+#: kstandardaction_p.h:104
+msgid "Configure &Notifications..."
+msgstr "सूचना संयोजीत करा (&N)..."
+
+#: kstandardaction_p.h:109
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "%1 पुस्तिका (&H)"
+
+#: kstandardaction_p.h:110
+msgid "What's &This?"
+msgstr "हे काय आहे? (&T)"
+
+#: kstandardaction_p.h:111
+msgid "Tip of the &Day"
+msgstr "आजची विशेष टिपण्णी (&D)"
+
+#: kstandardaction_p.h:112
+msgid "&Report Bug..."
+msgstr "बग सादर करा (&R)..."
+
+#: kstandardaction_p.h:113
+msgid "Switch Application &Language..."
+msgstr "अनुप्रयोग भाषा बदला (&L)..."
+
+#: kstandardaction_p.h:114
+#, kde-format
+msgid "&About %1"
+msgstr "%1 विषयी (&A)"
+
+#: kstandardaction_p.h:115
+msgid "About &KDE"
+msgstr "केडीई विषयी (&K)"
 
 #~ msgid "Name"
 #~ msgstr "नाव"
@@ -251,9 +618,6 @@ msgstr ""
 
 #~ msgid "Redo: %1"
 #~ msgstr "पुन्हा करा : %1"
-
-#~ msgid "&Undo"
-#~ msgstr "पूर्ववत करा (&U)"
 
 #~ msgid "&Redo"
 #~ msgstr "पुन्हा करा (&R)"
@@ -636,9 +1000,6 @@ msgstr ""
 
 #~ msgid "Spell Checking"
 #~ msgstr "शब्दलेखन तपास"
-
-#~ msgid "&Back"
-#~ msgstr "मागे (&B)"
 
 #~ msgctxt "Opposite to Back"
 #~ msgid "&Next"
@@ -2475,273 +2836,6 @@ msgstr ""
 
 #~ msgid "Ambiguous shortcut detected"
 #~ msgstr "अस्पष्ट शॉर्टकट सापडला"
-
-#~ msgid "&New"
-#~ msgstr "नवीन (&N)"
-
-#~ msgid "Create new document"
-#~ msgstr "नवीन दस्तऐवज बनवा"
-
-#~ msgid "&Open..."
-#~ msgstr "उघडा (&O)..."
-
-#~ msgid "Open an existing document"
-#~ msgstr "अस्तित्वात असलेला दस्तऐवज उघडा"
-
-#~ msgid "Open &Recent"
-#~ msgstr "अलिकडील उघडा (&R)"
-
-#~ msgid "Open a document which was recently opened"
-#~ msgstr "नुकताच बंद केलेला दस्तऐवज उघडा"
-
-#~ msgid "&Save"
-#~ msgstr "साठवा (&S)"
-
-#~ msgid "Save document"
-#~ msgstr "दस्तऐवज साठवा"
-
-#~ msgid "Save &As..."
-#~ msgstr "असे साठवा (&A)..."
-
-#~ msgid "Save document under a new name"
-#~ msgstr "दस्तऐवज नव्या नावाने साठवा"
-
-#~ msgid "Re&vert"
-#~ msgstr "पूर्वस्थितीकडे जा (&v)"
-
-#~ msgid "Revert unsaved changes made to document"
-#~ msgstr "दस्तऐवजातील न साठवलेले बदल काढून टाका"
-
-#~ msgid "&Close"
-#~ msgstr "बंद करा (&C)"
-
-#~ msgid "Close document"
-#~ msgstr "दस्तऐवज बंद करा"
-
-#~ msgid "&Print..."
-#~ msgstr "छपाई (&P)..."
-
-#~ msgid "Print document"
-#~ msgstr "दस्तऐवज छापा"
-
-#~ msgid "Print Previe&w"
-#~ msgstr "छपाई पूर्वावलोकन (&W)"
-
-#~ msgid "Show a print preview of document"
-#~ msgstr "दस्तऐवजाचे छपाई पूर्वावलोकन दर्शवा"
-
-#~ msgid "&Mail..."
-#~ msgstr "मेल (&M)..."
-
-#~ msgid "Send document by mail"
-#~ msgstr "दस्तऐवज इमेलने पाठवा"
-
-#~ msgid "&Quit"
-#~ msgstr "बाहेर पडा (&Q)"
-
-#~ msgid "Quit application"
-#~ msgstr "अनुप्रयोगातून बाहेर पडा"
-
-#~ msgid "Undo last action"
-#~ msgstr "शेवटची केलेली क्रिया पूर्ववत करा"
-
-#~ msgid "Re&do"
-#~ msgstr "पुन्हा करा (&D)"
-
-#~ msgid "Redo last undone action"
-#~ msgstr "शेवटची नष्ट केलेली क्रिया पूर्ववत करा"
-
-#~ msgid "Cu&t"
-#~ msgstr "कापा (&T)"
-
-#~ msgid "Cut selection to clipboard"
-#~ msgstr "निवड कापुन क्लिपबोर्ड मधे टाका "
-
-#~ msgid "&Copy"
-#~ msgstr "प्रत करा (&C)"
-
-#~ msgid "Copy selection to clipboard"
-#~ msgstr "निवडीची प्रत क्लिपबोर्ड मधे टाका"
-
-#~ msgid "&Paste"
-#~ msgstr "चिटकवा (&P)"
-
-#~ msgid "Paste clipboard content"
-#~ msgstr "क्लिपबोर्ड मधील मजकूर चिटकवा "
-
-#~ msgid "C&lear"
-#~ msgstr "पुसून टाका (&L)"
-
-#~ msgid "Select &All"
-#~ msgstr "सर्व निवडा (&A)"
-
-#~ msgid "Dese&lect"
-#~ msgstr "निवड काढून टाका (&L)"
-
-#~ msgid "&Find..."
-#~ msgstr "शोधा (&F)..."
-
-#~ msgid "Find &Next"
-#~ msgstr "पुढील शोधा (&N)"
-
-#~ msgid "Find Pre&vious"
-#~ msgstr "मागील शोधा (&V)"
-
-#~ msgid "&Replace..."
-#~ msgstr "बदला (&R)..."
-
-#~ msgid "&Actual Size"
-#~ msgstr "वास्तविक आकार (&A)"
-
-#~ msgid "View document at its actual size"
-#~ msgstr "दस्तऐवज मूळ आकारात बघा"
-
-#~ msgid "&Fit to Page"
-#~ msgstr "पानाप्रमाणे समर्पक बसवा (&F)"
-
-#~ msgid "Zoom to fit page in window"
-#~ msgstr "चौकटीत पुर्ण पान समर्पक बसेल असे झूम करा"
-
-#~ msgid "Fit to Page &Width"
-#~ msgstr "पानाच्या रुंदीप्रमाणे समर्पक बसवा (&W)"
-
-#~ msgid "Zoom to fit page width in window"
-#~ msgstr "चौकटीत पानाची रुंदी समर्पक बसेल असे झूम करा"
-
-#~ msgid "Fit to Page &Height"
-#~ msgstr "पानाच्या उंचीप्रमाणे समर्पक बसवा (&H)"
-
-#~ msgid "Zoom to fit page height in window"
-#~ msgstr "चौकटीत पानाची उंची समर्पक बसेल असे झूम करा"
-
-#~ msgid "Zoom &In"
-#~ msgstr "मोठे करा (&I)"
-
-#~ msgid "Zoom &Out"
-#~ msgstr "लहान करा (&O)"
-
-#~ msgid "&Zoom..."
-#~ msgstr "झूम (&Z)..."
-
-#~ msgid "Select zoom level"
-#~ msgstr "झूमचा स्तर निवडा"
-
-#~ msgid "&Redisplay"
-#~ msgstr "पुन्हा प्रदर्शन (&R)"
-
-#~ msgid "Redisplay document"
-#~ msgstr "दस्तऐवज पुन्हप्रदर्शन "
-
-#~ msgid "&Up"
-#~ msgstr "वर (&U)"
-
-#~ msgid "Go up"
-#~ msgstr "वर जा"
-
-#~ msgid "&Previous Page"
-#~ msgstr "मागील पान (&P)"
-
-#~ msgid "Go to previous page"
-#~ msgstr "मागील पानावर जा"
-
-#~ msgid "&Next Page"
-#~ msgstr "पुढील पान (&N)"
-
-#~ msgid "Go to next page"
-#~ msgstr "पुढील पानावर जा"
-
-#~ msgid "&Go To..."
-#~ msgstr "येथे जा (&G)..."
-
-#~ msgid "&Go to Page..."
-#~ msgstr "या पानावर जा (&G)..."
-
-#~ msgid "&Go to Line..."
-#~ msgstr "या ओळीवर जा (&G)..."
-
-#~ msgid "&First Page"
-#~ msgstr "पहिले पान (&F)"
-
-#~ msgid "Go to first page"
-#~ msgstr "पहिल्या पानावर जा"
-
-#~ msgid "&Last Page"
-#~ msgstr "शेवटचे पान (&L)"
-
-#~ msgid "Go to last page"
-#~ msgstr "शेवटच्या पानावर जा"
-
-#~ msgid "Go back in document"
-#~ msgstr "दस्तऐवजात मागे जा"
-
-#~ msgid "&Forward"
-#~ msgstr "पुढे (&F)"
-
-#~ msgid "Go forward in document"
-#~ msgstr "दस्तऐवजात पुढे जा"
-
-#~ msgid "&Add Bookmark"
-#~ msgstr "ओळखचिन्ह जोडा (&A)"
-
-#~ msgid "&Edit Bookmarks..."
-#~ msgstr "ओळखचिन्ह संपादित करा (&E)"
-
-#~ msgid "&Spelling..."
-#~ msgstr "वर्णलेखन (&S)..."
-
-#~ msgid "Check spelling in document"
-#~ msgstr "दस्तऐवजात स्पेलिंग तपासा"
-
-#~ msgid "Show or hide menubar"
-#~ msgstr "मेन्यूपट्टी दर्शवा किंवा लपवा (&M)"
-
-#~ msgid "Show &Toolbar"
-#~ msgstr "साधनपट्टी दर्शवा (&T)"
-
-#~ msgid "Show or hide toolbar"
-#~ msgstr "साधनपट्टी दर्शवा किंवा लपवा"
-
-#~ msgid "Show or hide statusbar"
-#~ msgstr "स्थितीपट्टी दर्शवा किंवा लपवा"
-
-#~ msgid "F&ull Screen Mode"
-#~ msgstr "पूर्ण स्क्रीन पद्धत (&U)"
-
-#~ msgid "&Save Settings"
-#~ msgstr "संयोजना साठवा (&S)"
-
-#~ msgid "Configure S&hortcuts..."
-#~ msgstr "शॉर्टकट संयोजीत करा (&H)..."
-
-#~ msgid "&Configure %1..."
-#~ msgstr "%1 संयोजीत करा (&C)..."
-
-#~ msgid "Configure Tool&bars..."
-#~ msgstr "साधनपट्टी संयोजीत करा (&B)..."
-
-#~ msgid "Configure &Notifications..."
-#~ msgstr "सूचना संयोजीत करा (&N)..."
-
-#~ msgid "%1 &Handbook"
-#~ msgstr "%1 पुस्तिका (&H)"
-
-#~ msgid "What's &This?"
-#~ msgstr "हे काय आहे? (&T)"
-
-#~ msgid "Tip of the &Day"
-#~ msgstr "आजची विशेष टिपण्णी (&D)"
-
-#~ msgid "&Report Bug..."
-#~ msgstr "बग सादर करा (&R)..."
-
-#~ msgid "Switch Application &Language..."
-#~ msgstr "अनुप्रयोग भाषा बदला (&L)..."
-
-#~ msgid "&About %1"
-#~ msgstr "%1 विषयी (&A)"
-
-#~ msgid "About &KDE"
-#~ msgstr "केडीई विषयी (&K)"
 
 #~ msgctxt "@action:inmenu"
 #~ msgid "Exit F&ull Screen Mode"
