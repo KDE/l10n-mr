@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-09 06:22+0000\n"
+"POT-Creation-Date: 2014-04-11 06:54+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1638,15 +1638,21 @@ msgstr "उघडा..."
 msgid "Ellipse assistant"
 msgstr "लंबवर्तुळ सहायक"
 
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:493
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:443
+#, fuzzy
+#| msgid "Spline assistant"
+msgid "Select an Assistant"
+msgstr "स्प्लाईन सहायक"
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:528
+msgid "Errors were encountered. Not all assistants were successfully loaded."
+msgstr "चुका आढळल्या. सर्व सहायक कार्यान्वित करता आले नाहीत."
+
+#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:573
 #, fuzzy
 #| msgid "Assistant:"
 msgid "Save Assistant"
 msgstr "सहायक :"
-
-#: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.cc:589
-msgid "Errors were encountered. Not all assistants were successfully loaded."
-msgstr "चुका आढळल्या. सर्व सहायक कार्यान्वित करता आले नाहीत."
 
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:101
 msgid "Ruler assistant editor tool"
@@ -1811,7 +1817,7 @@ msgstr "कार्याचे रेकॉर्डिंग थांबव�
 msgid "Open Macro"
 msgstr "मॅक्रो साठवा"
 
-#: plugins/extensions/bigbrother/bigbrother.cc:237
+#: plugins/extensions/bigbrother/bigbrother.cc:236
 #, fuzzy
 #| msgid "Save macro"
 msgid "Save Macro"
@@ -2882,13 +2888,13 @@ msgstr "वर्तमान फ्लिपबूक मधील निवड
 msgid "Save flipbook"
 msgstr "फ्लिपबूक साठवा"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:193
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:264
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:192
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:261
 #: ui/widgets/KisFlipbookSelector.cpp:50
 msgid "Select files to add to flipbook"
 msgstr "फ्लिपबूकला जोडण्याकरिता फाईल्स निवडा"
 
-#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:232
+#: plugins/extensions/dockers/flipbook/flipbookdocker_dock.cpp:230
 msgid "Load flipbook"
 msgstr "फ्लिपबूक दाखल करा"
 
@@ -3006,7 +3012,7 @@ msgid "All Channels"
 msgstr "सर्व माध्यमे"
 
 #: plugins/extensions/dockers/lut/lutdocker_dock.cpp:281
-#: ui/dialogs/kis_dlg_preferences.cc:353
+#: ui/dialogs/kis_dlg_preferences.cc:352
 #, fuzzy
 #| msgid "OpenColorIO configuration path:"
 msgid "Select OpenColorIO Configuration"
@@ -4282,9 +4288,10 @@ msgstr "कडेची निवड..."
 msgid "Feather Selection..."
 msgstr "फेदरची निवड..."
 
-#. i18n: ectx: property (text), widget (QCheckBox, smoothCHBox)
 #: plugins/extensions/modify_selection/modify_selection.cc:78
-#: plugins/paintops/experiment/wdgexperimentoptions.ui:70
+#, fuzzy
+#| msgid "Smooth"
+msgctxt "Verb for a selection modification action"
 msgid "Smooth"
 msgstr "मृदू"
 
@@ -4449,7 +4456,7 @@ msgstr "ऐच्छिक (&C):"
 msgid "Separate Image"
 msgstr "वेगळी प्रतिमा"
 
-#: plugins/extensions/separate_channels/kis_channel_separator.cc:243
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:241
 msgid "Export Layer"
 msgstr "निर्यात स्तर"
 
@@ -4874,8 +4881,10 @@ msgstr "हिरवा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: ectx: property (text), widget (QLabel, label_14)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:68
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:168
+#: plugins/filters/colorsfilters/wdg_color_balance.ui:268
 #, fuzzy
 #| msgid "Yellows"
 msgid "Yellow"
@@ -4901,8 +4910,10 @@ msgstr "शॅडोज"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_17)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:99
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:151
+#: plugins/filters/colorsfilters/wdg_color_balance.ui:251
 #, fuzzy
 #| msgid "Cyans"
 msgid "Cyan"
@@ -4915,24 +4926,12 @@ msgstr "सायन्स"
 msgid "Reset Midtones  "
 msgstr "मिडटोन्स"
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: plugins/filters/colorsfilters/wdg_color_balance.ui:251
-msgid "     Cyan"
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QPushButton, pushResetHighlights)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:261
 #, fuzzy
 #| msgid "Highlights"
 msgid "Reset Highlights"
 msgstr "हायलाईटस्"
-
-#. i18n: ectx: property (text), widget (QLabel, label_14)
-#: plugins/filters/colorsfilters/wdg_color_balance.ui:268
-#, fuzzy
-#| msgid "Yellows"
-msgid "    Yellow"
-msgstr "यलोज"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkPreserveLuminosity)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:336
@@ -5993,7 +5992,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSRGB)
 #: plugins/formats/png/kis_wdg_options_png.ui:216
-msgid "save sRGB profile"
+#, fuzzy
+#| msgid "save sRGB profile"
+msgid "Embed sRGB profile"
 msgstr "sRGB रूपरेषा साठवा"
 
 #: plugins/formats/ppm/kis_ppm_export.cpp:155
@@ -6584,6 +6585,14 @@ msgstr "आकार निर्मिती :"
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:41
 msgid "Speed"
 msgstr "वेग"
+
+#. i18n: ectx: property (text), widget (QCheckBox, smoothCHBox)
+#: plugins/paintops/experiment/wdgexperimentoptions.ui:70
+#, fuzzy
+#| msgid "Smooth"
+msgctxt "Noun for an experiment brush shape smoothness"
+msgid "Smooth"
+msgstr "मृदू"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPostprocessing)
 #: plugins/paintops/experiment/wdgexperimentoptions.ui:89
@@ -9444,7 +9453,7 @@ msgstr "या गाळणीसाठी कोणतेही दुळवण
 msgid "Cleanup resource files"
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: ui/dialogs/kis_dlg_file_layer.cpp:99
+#: ui/dialogs/kis_dlg_file_layer.cpp:97
 msgid "Select file to use as dynamic file layer."
 msgstr ""
 
@@ -9498,11 +9507,11 @@ msgstr "खुली रंग रूपरेषा"
 msgid "Install Color Profiles"
 msgstr "खुली रंग रूपरेषा"
 
-#: ui/dialogs/kis_dlg_preferences.cc:273
+#: ui/dialogs/kis_dlg_preferences.cc:272
 msgid "Monitor profile: "
 msgstr "दर्शकाची रूपरेषा : "
 
-#: ui/dialogs/kis_dlg_preferences.cc:278
+#: ui/dialogs/kis_dlg_preferences.cc:277
 msgid "&Monitor profile: "
 msgstr "दर्शकाची माहिती (&M): "
 
@@ -11845,15 +11854,15 @@ msgstr "Y मुखवटा प्रतिबिंबित करा"
 msgid "Export Node"
 msgstr "नोड निर्यात करा"
 
-#: ui/kis_painting_assistants_manager.cc:41
+#: ui/kis_painting_assistants_decoration.cpp:41
 msgid "Painting assistants"
 msgstr "पेंटिंग सहायक"
 
-#: ui/kis_painting_assistants_manager.cc:107
+#: ui/kis_painting_assistants_decoration.cpp:107
 msgid "Show Painting Assistants"
 msgstr "पेंटिंग सहायक दर्शवा"
 
-#: ui/kis_painting_assistants_manager.cc:111
+#: ui/kis_painting_assistants_decoration.cpp:111
 msgid "Hide Painting Assistants"
 msgstr "पेंटिंग सहायक लपवा"
 
@@ -12421,6 +12430,11 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बंद करा"
+
+#, fuzzy
+#~| msgid "Yellows"
+#~ msgid "    Yellow"
+#~ msgstr "यलोज"
 
 #, fuzzy
 #~| msgid "No profile"
