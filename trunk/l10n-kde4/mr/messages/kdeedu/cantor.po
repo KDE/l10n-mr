@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-11 01:57+0000\n"
+"POT-Creation-Date: 2014-04-17 01:38+0000\n"
 "PO-Revision-Date: 2013-03-05 17:03+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -260,11 +260,28 @@ msgstr ""
 msgid "Make this the default backend"
 msgstr ""
 
-#: backends/kalgebra/kalgebrabackend.cpp:53
+#: backends/kalgebra/kalgebrabackend.cpp:69
 msgctxt ""
 "the url to the documentation of KAlgebra, please check if there is a "
 "translated version and use the correct url"
 msgid "http://docs.kde.org/stable/en/kdeedu/kalgebra/"
+msgstr ""
+
+#. i18n: ectx: label, entry (autorunScripts), group (RBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (MaximaBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (SageBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (PythonBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (ScilabBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (KAlgebraBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (OctaveBackend)
+#. i18n: ectx: label, entry (autorunScripts), group (QalculateBackend)
+#: backends/kalgebra/kalgebrabackend.kcfg:10
+#: backends/maxima/maximabackend.kcfg:22 backends/octave/octavebackend.kcfg:18
+#: backends/python2/python2backend.kcfg:18
+#: backends/qalculate/qalculatebackend.kcfg:130
+#: backends/R/rserver/rserver.kcfg:13 backends/sage/sagebackend.kcfg:14
+#: backends/scilab/scilabbackend.kcfg:18
+msgid "List of scripts to autorun at the beginning of session"
 msgstr ""
 
 #: backends/kalgebra/kalgebraexpression.cpp:59
@@ -275,6 +292,14 @@ msgstr "त्रुटी : %1"
 #: backends/kalgebra/kalgebrasyntaxhelpobject.cpp:39
 #, kde-format
 msgid "<p><b>%1:</b> %2</p>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (KEditListBox, kcfg_autorunScripts)
+#: backends/kalgebra/settings.ui:17 backends/maxima/settings.ui:48
+#: backends/octave/settings.ui:38 backends/python2/settings.ui:38
+#: backends/qalculate/settings.ui:183 backends/R/settings.ui:24
+#: backends/sage/settings.ui:31 backends/scilab/settings.ui:38
+msgid "Scripts to autorun"
 msgstr ""
 
 #: backends/maxima/maximabackend.cpp:89
@@ -315,21 +340,6 @@ msgstr ""
 #. i18n: ectx: label, entry (variableManagement), group (MaximaBackend)
 #: backends/maxima/maximabackend.kcfg:18 backends/maxima/settings.ui:41
 msgid "Enable Variable Management"
-msgstr ""
-
-#. i18n: ectx: label, entry (autorunScripts), group (RBackend)
-#. i18n: ectx: label, entry (autorunScripts), group (MaximaBackend)
-#. i18n: ectx: label, entry (autorunScripts), group (SageBackend)
-#. i18n: ectx: label, entry (autorunScripts), group (PythonBackend)
-#. i18n: ectx: label, entry (autorunScripts), group (ScilabBackend)
-#. i18n: ectx: label, entry (autorunScripts), group (OctaveBackend)
-#. i18n: ectx: label, entry (autorunScripts), group (QalculateBackend)
-#: backends/maxima/maximabackend.kcfg:22 backends/octave/octavebackend.kcfg:18
-#: backends/python2/python2backend.kcfg:18
-#: backends/qalculate/qalculatebackend.kcfg:130
-#: backends/R/rserver/rserver.kcfg:13 backends/sage/sagebackend.kcfg:14
-#: backends/scilab/scilabbackend.kcfg:18
-msgid "List of scripts to autorun at the beginning of session"
 msgstr ""
 
 #: backends/maxima/maximaexpression.cpp:108
@@ -389,14 +399,6 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_variableManagement)
 #: backends/maxima/settings.ui:38
 msgid "Let Cantor follow the creation/destruction of variables"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (KEditListBox, kcfg_autorunScripts)
-#: backends/maxima/settings.ui:48 backends/octave/settings.ui:38
-#: backends/python2/settings.ui:38 backends/qalculate/settings.ui:183
-#: backends/R/settings.ui:24 backends/sage/settings.ui:31
-#: backends/scilab/settings.ui:38
-msgid "Scripts to autorun"
 msgstr ""
 
 #: backends/octave/octavebackend.cpp:71

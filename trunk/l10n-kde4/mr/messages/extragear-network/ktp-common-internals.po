@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-15 01:37+0000\n"
+"POT-Creation-Date: 2014-04-17 01:34+0000\n"
 "PO-Revision-Date: 2013-03-29 15:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -698,27 +698,35 @@ msgstr "अकार्यान्वित"
 msgid "Unsorted"
 msgstr "विनाक्रम"
 
-#: KTp/Models/rooms-model.cpp:72
+#: KTp/Models/rooms-model.cpp:73
 msgid "Password required"
 msgstr ""
 
-#: KTp/Models/rooms-model.cpp:74
+#: KTp/Models/rooms-model.cpp:75
 msgid "No password required"
 msgstr ""
 
-#: KTp/Models/rooms-model.cpp:94
+#: KTp/Models/rooms-model.cpp:93
 msgid "Member count"
 msgstr ""
 
-#: KTp/Models/rooms-model.cpp:114
+#: KTp/Models/rooms-model.cpp:113
 msgctxt "Chatrooms name"
 msgid "Name"
 msgstr "नाव"
 
-#: KTp/Models/rooms-model.cpp:116
+#: KTp/Models/rooms-model.cpp:115
 msgctxt "Chatrooms description"
 msgid "Description"
 msgstr "वर्णन"
+
+#: KTp/Models/rooms-model.cpp:199
+msgid "Room bookmarked"
+msgstr ""
+
+#: KTp/Models/rooms-model.cpp:201
+msgid "Room not bookmarked"
+msgstr ""
 
 #: KTp/presence.cpp:95
 msgctxt "IM presence: a person is available"
@@ -812,19 +820,39 @@ msgstr ""
 msgid "Search in Contacts..."
 msgstr ""
 
-#: KTp/Widgets/join-chat-room-dialog.cpp:242
-msgid "This room is already in your favorites."
+#: KTp/Widgets/join-chat-room-dialog.cpp:63
+msgctxt "Dialog title"
+msgid "Join Chat Room"
 msgstr ""
 
-#: KTp/Widgets/join-chat-room-dialog.cpp:244
-msgid "Add room"
+#: KTp/Widgets/join-chat-room-dialog.cpp:78
+msgctxt "button"
+msgid "Join/Create"
 msgstr ""
 
-#: KTp/Widgets/join-chat-room-dialog.cpp:244
-msgid "Name"
-msgstr "नाव"
+#: KTp/Widgets/join-chat-room-dialog.cpp:359
+msgctxt "Button text"
+msgid "Query"
+msgstr ""
 
-#: KTp/Widgets/join-chat-room-dialog.cpp:533
+#: KTp/Widgets/join-chat-room-dialog.cpp:360
+msgctxt "Tooltip text"
+msgid "Start query"
+msgstr ""
+
+#: KTp/Widgets/join-chat-room-dialog.cpp:372
+#, fuzzy
+#| msgid "Stop"
+msgctxt "Button text"
+msgid "Stop"
+msgstr "थांबा"
+
+#: KTp/Widgets/join-chat-room-dialog.cpp:373
+msgctxt "Tooltip text"
+msgid "Stop query"
+msgstr ""
+
+#: KTp/Widgets/join-chat-room-dialog.cpp:421
 msgid "Could not join chatroom"
 msgstr ""
 
@@ -833,71 +861,56 @@ msgstr ""
 msgid "Join Chatroom"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: KTp/Widgets/join-chat-room-dialog.ui:32
-msgid "Enter chat room:"
+#. i18n: ectx: property (title), widget (QGroupBox, accountGroupBox)
+#: KTp/Widgets/join-chat-room-dialog.ui:35
+#, fuzzy
+#| msgid "Account:"
+msgid "Account"
+msgstr "खाते :"
+
+#. i18n: ectx: property (title), widget (QGroupBox, chatRoomGroupBox)
+#: KTp/Widgets/join-chat-room-dialog.ui:60
+msgid "Chat Room"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, favoritesTab)
-#: KTp/Widgets/join-chat-room-dialog.ui:50
-msgid "Favorites"
-msgstr "पसंत"
-
-#. i18n: ectx: property (text), widget (QPushButton, addFavoritePushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:66
-msgid "Add Room"
+#. i18n: ectx: attribute (title), widget (QWidget, previousTab)
+#: KTp/Widgets/join-chat-room-dialog.ui:70
+msgid "Previous"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, editFavoritePushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:76
-msgid "Edit Room"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, removeFavoritePushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:86
-msgid "Remove Room"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, recentTab)
-#: KTp/Widgets/join-chat-room-dialog.ui:111
-msgid "Recent"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, removeRecentPushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:125
-msgid "Remove"
-msgstr "काढून टाका"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearRecentPushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:135
-msgid "Clear list"
-msgstr "यादी रिकामी करा"
+#: KTp/Widgets/join-chat-room-dialog.ui:98
+msgid "Clear Recent Rooms"
+msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, queryTab)
-#. i18n: ectx: property (text), widget (QPushButton, queryPushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:158
-#: KTp/Widgets/join-chat-room-dialog.ui:189
-msgid "Query"
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, lineEdit)
+#: KTp/Widgets/join-chat-room-dialog.ui:109
+msgid "Enter chat room name or address"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, searchTab)
+#: KTp/Widgets/join-chat-room-dialog.ui:120
+msgid "Search"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, serverLabel)
-#: KTp/Widgets/join-chat-room-dialog.ui:164
+#: KTp/Widgets/join-chat-room-dialog.ui:126
 msgid "Server to be queried:"
 msgstr ""
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, serverLineEdit)
-#: KTp/Widgets/join-chat-room-dialog.ui:176
+#: KTp/Widgets/join-chat-room-dialog.ui:138
 msgid "Leave blank for the selected account's default server"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, stopPushButton)
-#: KTp/Widgets/join-chat-room-dialog.ui:199
-msgid "Stop"
-msgstr "थांबा"
+#. i18n: ectx: property (text), widget (QToolButton, queryButton)
+#: KTp/Widgets/join-chat-room-dialog.ui:151
+msgid "Query"
+msgstr ""
 
 #. i18n: ectx: property (clickMessage), widget (KLineEdit, filterBar)
-#: KTp/Widgets/join-chat-room-dialog.ui:230
-msgid "Search rooms"
+#: KTp/Widgets/join-chat-room-dialog.ui:196
+msgid "Filter rooms"
 msgstr ""
 
 #: KTp/Widgets/notification-config-dialog.cpp:43
@@ -955,3 +968,15 @@ msgstr ""
 #: KTp/Widgets/start-chat-dialog.cpp:132
 msgid "Failed to start a chat with the contact."
 msgstr ""
+
+#~ msgid "Name"
+#~ msgstr "नाव"
+
+#~ msgid "Favorites"
+#~ msgstr "पसंत"
+
+#~ msgid "Remove"
+#~ msgstr "काढून टाका"
+
+#~ msgid "Clear list"
+#~ msgstr "यादी रिकामी करा"
