@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-11 06:54+0000\n"
+"POT-Creation-Date: 2014-04-30 06:10+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -734,9 +734,13 @@ msgstr "M_05"
 msgid "M_06"
 msgstr "M_06"
 
-#: i18ndata:129 i18ndata:130
+#: i18ndata:129
 msgid "M_07"
 msgstr "M_07"
+
+#: i18ndata:130
+msgid "M_08"
+msgstr ""
 
 #: i18ndata:131
 msgid "M_09"
@@ -1289,7 +1293,7 @@ msgstr "प्रतिमेच्या रंगाची जागा बद
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: image/kis_image.cc:918 ui/kis_layer_manager.cc:710
+#: image/kis_image.cc:918 ui/kis_layer_manager.cc:704
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
@@ -2692,7 +2696,7 @@ msgid "&Select Opaque"
 msgstr "अपारदर्शक निवडा (&S)"
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:458
-#: ui/kis_layer_manager.cc:285
+#: ui/kis_layer_manager.cc:284
 msgid "&Merge with Layer Below"
 msgstr "खालच्या स्तरात मिसळा (&M)"
 
@@ -2975,7 +2979,7 @@ msgstr "50%"
 msgid "25%"
 msgstr "25%"
 
-#: plugins/extensions/dockers/imagedocker/imagedocker_dock.cpp:163
+#: plugins/extensions/dockers/imagedocker/imagedocker_dock.cpp:177
 msgid "Reference Images"
 msgstr "25%"
 
@@ -6416,7 +6420,9 @@ msgid "Deform Mode"
 msgstr "डिफॉर्म पद्धत"
 
 #. i18n: ectx: property (text), widget (QRadioButton, growBtn)
+#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
 #: plugins/paintops/deform/wdgdeformoptions.ui:44
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:108
 msgid "Grow"
 msgstr "वाढवा"
 
@@ -8738,21 +8744,23 @@ msgstr "स्तर हलवा"
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:223
 #, fuzzy
 #| msgid "Show"
-msgid "Show Axis"
+msgid "Show Axes"
 msgstr "दर्शवा"
 
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:227
-msgid "Axis point"
+#, fuzzy
+#| msgid "Axis point"
+msgid "Axes point"
 msgstr "अक्ष बिंदू"
 
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:233
-msgid "Set axis angle (degrees)"
+msgid "Set axes angle (degrees)"
 msgstr ""
 
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:238
 #, fuzzy
 #| msgid "Angle:"
-msgid "Axis Angle:"
+msgid "Axes Angle:"
 msgstr "कोन :"
 
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:241
@@ -9030,24 +9038,19 @@ msgstr "उभी स्थिती"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:95
-msgid "resize keeping center fixed"
+msgid "Resize keeping center fixed"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, boolCenter)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:98
 #, fuzzy
 #| msgid "Percent"
-msgid "center"
+msgid "Center"
 msgstr "प्रतिशत"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolGrow)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:105
-msgid "allow growing the image by dragging outside bounds of the image"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, boolGrow)
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:108
-msgid "grow"
+msgid "Allow growing the image by dragging outside bounds of the image"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, boolWidth)
@@ -10796,21 +10799,21 @@ msgstr "टेक्शर"
 msgid "Unknown Input"
 msgstr "अपरिचीत"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:194
+#: ui/input/config/kis_action_shortcuts_model.cpp:186
 #, fuzzy
 #| msgid "Type"
 msgctxt "Type of shortcut"
 msgid "Type"
 msgstr "प्रकार"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:197
+#: ui/input/config/kis_action_shortcuts_model.cpp:189
 #, fuzzy
 #| msgid "Input:"
 msgctxt "Input for shortcut"
 msgid "Input"
 msgstr "इनपुट :"
 
-#: ui/input/config/kis_action_shortcuts_model.cpp:200
+#: ui/input/config/kis_action_shortcuts_model.cpp:192
 #, fuzzy
 #| msgid "Action:"
 msgctxt "Action to trigger with shortcut"
@@ -10884,7 +10887,7 @@ msgstr "काही नाही"
 #, fuzzy
 #| msgid "Input:"
 msgctxt "Waiting for user input"
-msgid "Input ..."
+msgid "Input..."
 msgstr "इनपुट :"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -11033,7 +11036,9 @@ msgid ""
 msgstr "साधनाची \"प्राथमिक संयोजना\" बदला उदा. कुंचल्याचा आकार कुंचल्याच्या साधनासाठी"
 
 #: ui/input/kis_input_manager.cpp:490
-msgid "Set Mirror Axis"
+#, fuzzy
+#| msgid "Set Mirror Axis"
+msgid "Set Mirror Axes"
 msgstr "प्रतिबिंब अक्ष ठरवा"
 
 #: ui/input/kis_pan_action.cpp:50
@@ -11108,33 +11113,38 @@ msgstr ""
 msgid "Toggle Select Layer Mode"
 msgstr "द्वितिय पद्धत चालू/बंद करा"
 
-#: ui/input/kis_shortcut_configuration.cpp:238
+#: ui/input/kis_shortcut_configuration.cpp:234
+msgctxt "Separator in the list of mouse buttons for shortcut"
+msgid " + "
+msgstr ""
+
+#: ui/input/kis_shortcut_configuration.cpp:239
 #, fuzzy
 #| msgid "Left"
 msgctxt "Left Mouse Button"
 msgid "Left"
 msgstr "डावा"
 
-#: ui/input/kis_shortcut_configuration.cpp:247
+#: ui/input/kis_shortcut_configuration.cpp:248
 #, fuzzy
 #| msgid "Right"
 msgctxt "Right Mouse Button"
 msgid "Right"
 msgstr "उजवा"
 
-#: ui/input/kis_shortcut_configuration.cpp:255
+#: ui/input/kis_shortcut_configuration.cpp:256
 msgctxt "Middle Mouse Button"
 msgid "Middle"
 msgstr ""
 
-#: ui/input/kis_shortcut_configuration.cpp:263
+#: ui/input/kis_shortcut_configuration.cpp:264
 #, fuzzy
 #| msgid "Back"
 msgctxt "Mouse Back Button"
 msgid "Back"
 msgstr "मागे"
 
-#: ui/input/kis_shortcut_configuration.cpp:271
+#: ui/input/kis_shortcut_configuration.cpp:272
 #, fuzzy
 #| msgctxt "The gradient will repeat forwards"
 #| msgid "Forwards"
@@ -11142,62 +11152,94 @@ msgctxt "Mouse Forward Button"
 msgid "Forward"
 msgstr "पुढे"
 
-#: ui/input/kis_shortcut_configuration.cpp:275
-#: ui/input/kis_shortcut_configuration.cpp:320
-#: ui/input/kis_shortcut_configuration.cpp:346
+#: ui/input/kis_shortcut_configuration.cpp:276
 #, fuzzy
 #| msgid "None"
-msgctxt "No input"
+msgctxt "No mouse buttons for shortcut"
 msgid "None"
 msgstr "काही नाही"
 
-#: ui/input/kis_shortcut_configuration.cpp:279
-msgctxt "Mouse Buttons"
-msgid "Button"
-msgid_plural "Buttons"
+#: ui/input/kis_shortcut_configuration.cpp:282
+#, kde-format
+msgctxt ""
+"%1 = List of mouse buttons for shortcut. Plural form is chosen upon the "
+"number of buttons in that list."
+msgid "%1 Button"
+msgid_plural "%1 Buttons"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ui/input/kis_shortcut_configuration.cpp:296
+#: ui/input/kis_shortcut_configuration.cpp:294
+msgctxt "Separator in the list of keys for shortcut"
+msgid " + "
+msgstr ""
+
+#: ui/input/kis_shortcut_configuration.cpp:299
 msgctxt "Ctrl key"
 msgid "Ctrl"
 msgstr ""
 
-#: ui/input/kis_shortcut_configuration.cpp:300
+#: ui/input/kis_shortcut_configuration.cpp:303
 #, fuzzy
 #| msgid "Metadata"
 msgctxt "Meta key"
 msgid "Meta"
 msgstr "मेटाडेटा"
 
-#: ui/input/kis_shortcut_configuration.cpp:304
+#: ui/input/kis_shortcut_configuration.cpp:307
 #, fuzzy
 #| msgid "All"
 msgctxt "Alt key"
 msgid "Alt"
 msgstr "सर्व"
 
-#: ui/input/kis_shortcut_configuration.cpp:308
+#: ui/input/kis_shortcut_configuration.cpp:311
 #, fuzzy
 #| msgid "Shift:"
 msgctxt "Shift key"
 msgid "Shift"
 msgstr "उचला :"
 
-#: ui/input/kis_shortcut_configuration.cpp:330
+#: ui/input/kis_shortcut_configuration.cpp:323
+#, fuzzy
+#| msgid "None"
+msgctxt "No keys for shortcut"
+msgid "None"
+msgstr "काही नाही"
+
+#: ui/input/kis_shortcut_configuration.cpp:333
 msgid "Mouse Wheel Up"
 msgstr ""
 
-#: ui/input/kis_shortcut_configuration.cpp:334
+#: ui/input/kis_shortcut_configuration.cpp:337
 msgid "Mouse Wheel Down"
 msgstr ""
 
-#: ui/input/kis_shortcut_configuration.cpp:338
+#: ui/input/kis_shortcut_configuration.cpp:341
 msgid "Mouse Wheel Left"
 msgstr ""
 
-#: ui/input/kis_shortcut_configuration.cpp:342
+#: ui/input/kis_shortcut_configuration.cpp:345
 msgid "Mouse Wheel Right"
+msgstr ""
+
+#: ui/input/kis_shortcut_configuration.cpp:349
+#, fuzzy
+#| msgid "None"
+msgctxt "No mouse wheel buttons for shortcut"
+msgid "None"
+msgstr "काही नाही"
+
+#: ui/input/kis_shortcut_configuration.cpp:361
+#, kde-format
+msgctxt "%1 = modifier keys in shortcut; %2 = mouse buttons in shortcut"
+msgid "%1 + %2"
+msgstr ""
+
+#: ui/input/kis_shortcut_configuration.cpp:377
+#, kde-format
+msgctxt "%1 = modifier keys in shortcut; %2 = mouse wheel buttons in shortcut"
+msgid "%1 + %2"
 msgstr ""
 
 #: ui/input/kis_show_palette_action.cpp:33
@@ -11607,73 +11649,73 @@ msgstr "गुणधर्म..."
 msgid "Import Image"
 msgstr "प्रतिमा आयात करा"
 
-#: ui/kis_layer_manager.cc:280
+#: ui/kis_layer_manager.cc:279
 msgid "&Flatten image"
 msgstr "प्रतिमा सपाट करा (&F)"
 
-#: ui/kis_layer_manager.cc:290
+#: ui/kis_layer_manager.cc:289
 msgid "&Flatten Layer"
 msgstr "स्तर सपाट करा (&F)"
 
-#: ui/kis_layer_manager.cc:294 ui/kis_layer_manager.cc:779
+#: ui/kis_layer_manager.cc:293 ui/kis_layer_manager.cc:773
 msgid "Rasterize Layer"
 msgstr "स्तर रास्टराईझ करा"
 
-#: ui/kis_layer_manager.cc:300
+#: ui/kis_layer_manager.cc:299
 msgid "Save Group Layers..."
 msgstr "स्तरांचा समूह साठवा..."
 
-#: ui/kis_layer_manager.cc:304
+#: ui/kis_layer_manager.cc:303
 msgid "Size Canvas to Size of Current Layer"
 msgstr "वर्तमान स्तराप्रमाणे कॅनव्हासचा आकार ठेवा"
 
-#: ui/kis_layer_manager.cc:359
+#: ui/kis_layer_manager.cc:353
 msgid "Filter Layer Properties"
 msgstr "गाळणी स्तराचे गुणधर्म"
 
-#: ui/kis_layer_manager.cc:404
+#: ui/kis_layer_manager.cc:398
 msgid "Generator Layer Properties"
 msgstr "निर्माता स्तराचे गुणधर्म"
 
-#: ui/kis_layer_manager.cc:485
+#: ui/kis_layer_manager.cc:479
 #, fuzzy
 #| msgid "Convert Current Layer From"
 msgid "Convert to a Paint Layer"
 msgstr "पासून वर्तमान स्तर बदला"
 
-#: ui/kis_layer_manager.cc:564
+#: ui/kis_layer_manager.cc:558
 msgid "New Filter Layer"
 msgstr "नवीन गाळणी स्तर"
 
-#: ui/kis_layer_manager.cc:623
+#: ui/kis_layer_manager.cc:617
 msgid "Could not add layer to image."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: ui/kis_layer_manager.cc:623
+#: ui/kis_layer_manager.cc:617
 msgid "Layer Error"
 msgstr "स्तराची चूक"
 
-#: ui/kis_layer_manager.cc:709
+#: ui/kis_layer_manager.cc:703
 msgid "The image contains hidden layers that will be lost."
 msgstr "प्रतिमेत लपलेले स्तर असून ते नष्ट होतील."
 
-#: ui/kis_layer_manager.cc:711
+#: ui/kis_layer_manager.cc:705
 msgid "&Flatten Image"
 msgstr "प्रतिमा सपाट करा (&F)"
 
-#: ui/kis_layer_manager.cc:815
+#: ui/kis_layer_manager.cc:809
 msgid "Convert Invisible Groups"
 msgstr "न दिसणारे समूह रूपांतरित करा"
 
-#: ui/kis_layer_manager.cc:818
+#: ui/kis_layer_manager.cc:812
 msgid "Export Only Toplevel Groups"
 msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
-#: ui/kis_layer_manager.cc:876
+#: ui/kis_layer_manager.cc:870
 msgid "No file name specified."
 msgstr ""
 
-#: ui/kis_layer_manager.cc:876
+#: ui/kis_layer_manager.cc:870
 msgid "No file specified"
 msgstr ""
 
@@ -11834,23 +11876,23 @@ msgstr "उलटी निवड"
 msgid "Remove Last Layer"
 msgstr "स्तर काढून टाका"
 
-#: ui/kis_node_manager.cpp:666
+#: ui/kis_node_manager.cpp:669
 msgid "Mirror Layer X"
 msgstr "X स्तर प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:668
+#: ui/kis_node_manager.cpp:671
 msgid "Mirror Mask X"
 msgstr "X मुखवटा प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:679
+#: ui/kis_node_manager.cpp:682
 msgid "Mirror Layer Y"
 msgstr "Y स्तर प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:681
+#: ui/kis_node_manager.cpp:684
 msgid "Mirror Mask Y"
 msgstr "Y मुखवटा प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:802
+#: ui/kis_node_manager.cpp:805
 msgid "Export Node"
 msgstr "नोड निर्यात करा"
 
@@ -12430,6 +12472,12 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बंद करा"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "No input"
+#~ msgid "None"
+#~ msgstr "काही नाही"
 
 #, fuzzy
 #~| msgid "Yellows"
