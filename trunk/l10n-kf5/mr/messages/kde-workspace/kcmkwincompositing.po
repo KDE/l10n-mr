@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwincompositing\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-05 07:58+0000\n"
+"POT-Creation-Date: 2014-05-13 09:50+0000\n"
 "PO-Revision-Date: 2013-03-28 16:35+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -19,21 +19,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: compositing.cpp:348
+#: compositing.cpp:380
 #, fuzzy
 #| msgid "OpenGL"
 msgid "OpenGL 3.1"
 msgstr "ओपन GL"
 
-#: compositing.cpp:349
+#: compositing.cpp:381
 #, fuzzy
 #| msgid "OpenGL"
 msgid "OpenGL 2.0"
 msgstr "ओपन GL"
 
-#: compositing.cpp:350
+#: compositing.cpp:382
 msgid "XRender"
 msgstr "X रेंडर"
+
+#: compositing.cpp:481
+msgctxt "OpenGL Platform Interface"
+msgid "EGL"
+msgstr ""
+
+#: compositing.cpp:483
+msgctxt "OpenGL Platform Interface"
+msgid "GLX"
+msgstr ""
 
 #: model.cpp:66
 #, fuzzy
@@ -86,50 +96,50 @@ msgstr "चौकट व्यवस्थापन"
 msgid "KWin development team"
 msgstr ""
 
-#: qml/CompositingView.qml:55
+#: qml/CompositingView.qml:56
 #, fuzzy
 #| msgctxt "@option:check"
 #| msgid "Enable desktop effects at startup"
 msgid "Enable compositor on startup"
 msgstr "सुरुवात होताना डेस्कटॉप परिणाम कार्यान्वित करा"
 
-#: qml/CompositingView.qml:67
+#: qml/CompositingView.qml:68
 #, fuzzy
 #| msgid "Animation speed:"
 msgid "Animation Speed:"
 msgstr "ऍनीमेशन वेग:"
 
-#: qml/CompositingView.qml:81
+#: qml/CompositingView.qml:82
 msgid "Rendering backend:"
 msgstr ""
 
-#: qml/CompositingView.qml:106 qml/CompositingView.qml:120
+#: qml/CompositingView.qml:107 qml/CompositingView.qml:121
 #, fuzzy
 #| msgid "Scale method:"
 msgid "Scale Method:"
 msgstr "प्रमाण पद्धत :"
 
-#: qml/CompositingView.qml:113 qml/CompositingView.qml:127
+#: qml/CompositingView.qml:114 qml/CompositingView.qml:128
 msgid "Crisp"
 msgstr "चपळ"
 
-#: qml/CompositingView.qml:113
+#: qml/CompositingView.qml:114
 msgid "Smooth"
 msgstr "मृदू"
 
-#: qml/CompositingView.qml:113
+#: qml/CompositingView.qml:114
 msgid "Accurate"
 msgstr "यथार्थ"
 
-#: qml/CompositingView.qml:127
+#: qml/CompositingView.qml:128
 msgid "Smooth (slower)"
 msgstr "मृदू (हळुवार)"
 
-#: qml/CompositingView.qml:135
+#: qml/CompositingView.qml:136
 msgid "Tearing Prevention (VSync):"
 msgstr ""
 
-#: qml/CompositingView.qml:141 qml/CompositingView.qml:154
+#: qml/CompositingView.qml:142 qml/CompositingView.qml:155
 #, fuzzy
 #| msgctxt ""
 #| "Windows are unmapped as they are requested. This can lead to not having "
@@ -138,33 +148,33 @@ msgstr ""
 msgid "Never"
 msgstr "कधीही नाही"
 
-#: qml/CompositingView.qml:141
+#: qml/CompositingView.qml:142
 msgid "Automatic"
 msgstr "स्वयंचलित"
 
-#: qml/CompositingView.qml:141
+#: qml/CompositingView.qml:142
 #, fuzzy
 #| msgid "Only when Cheap"
 msgid "Only when cheap"
 msgstr "फक्त स्वस्त असताना"
 
-#: qml/CompositingView.qml:141
+#: qml/CompositingView.qml:142
 #, fuzzy
 #| msgid "Full scene repaints"
 msgid "Full screen repaints"
 msgstr "पूर्ण दृश्य पुन्हप्रदर्शन"
 
-#: qml/CompositingView.qml:141
+#: qml/CompositingView.qml:142
 msgid "Re-use screen content"
 msgstr "स्क्रीन मजकूर पुन्हा वापरा"
 
-#: qml/CompositingView.qml:148
+#: qml/CompositingView.qml:149
 #, fuzzy
 #| msgid "Keep window thumbnails:"
 msgid "Keep Window Thumbnails:"
 msgstr "चौकट लघुप्रतिमा ठेवा :"
 
-#: qml/CompositingView.qml:154
+#: qml/CompositingView.qml:155
 #, fuzzy
 #| msgctxt ""
 #| "A window thumbnail requires to have the corresponding window mapped. To "
@@ -174,7 +184,7 @@ msgstr "चौकट लघुप्रतिमा ठेवा :"
 msgid "Always (Breaks Animations)"
 msgstr "नेहमी (न्यूनतमता तोडतो)"
 
-#: qml/CompositingView.qml:154
+#: qml/CompositingView.qml:155
 #, fuzzy
 #| msgctxt ""
 #| "Windows are not unmapped if the window is somewhere visible on any of the "
@@ -183,21 +193,25 @@ msgstr "नेहमी (न्यूनतमता तोडतो)"
 msgid "Only for Shown Windows"
 msgstr "फक्त दर्शविलेल्या चौकटीं करिताच"
 
-#: qml/CompositingView.qml:160
+#: qml/CompositingView.qml:161
+msgid "OpenGL Platform Interface:"
+msgstr ""
+
+#: qml/CompositingView.qml:176
 msgid "Expert:"
 msgstr ""
 
-#: qml/CompositingView.qml:167
+#: qml/CompositingView.qml:183
 #, fuzzy
 #| msgid "Suspend desktop effects for fullscreen windows"
 msgid "Suspend compositor for full screen windows"
 msgstr "पूर्ण स्क्रीन चौकटींकरिता डेस्कटॉप परिणाम अकार्यान्वित करा"
 
-#: qml/CompositingView.qml:177
+#: qml/CompositingView.qml:193
 msgid "Experimental:"
 msgstr ""
 
-#: qml/CompositingView.qml:185
+#: qml/CompositingView.qml:201
 #, fuzzy
 #| msgid "Enable color correction (experimental)"
 msgid "Enable color correction"
