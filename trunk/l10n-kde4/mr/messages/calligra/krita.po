@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-21 01:41+0000\n"
+"POT-Creation-Date: 2014-05-22 01:39+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -10431,13 +10431,35 @@ msgid "Pasted"
 msgstr "चिकटविले"
 
 #: ui/actions/kis_selection_action_factories.cpp:373
-#: ui/kis_selection_manager.cc:222
+#: ui/kis_selection_manager.cc:225
 #, fuzzy
 #| msgid "Vector Selection"
 msgid "Convert to Vector Selection"
 msgstr "व्हेक्टर निवड"
 
-#: ui/canvas/kis_canvas_controller.cpp:193
+#: ui/canvas/kis_canvas_controller.cpp:164
+msgid "ON"
+msgstr ""
+
+#: ui/canvas/kis_canvas_controller.cpp:164
+msgid "OFF"
+msgstr ""
+
+#: ui/canvas/kis_canvas_controller.cpp:164
+#, fuzzy, kde-format
+#| msgid "Horizontal spacing:"
+msgctxt "floating message about mirroring"
+msgid "Horizontal mirroring: %1 "
+msgstr "आडवे अंतर :"
+
+#: ui/canvas/kis_canvas_controller.cpp:183
+#, fuzzy, kde-format
+#| msgid "Rotation:"
+msgctxt "floating message about rotation"
+msgid "Rotation: %1° "
+msgstr "फिरवणे :"
+
+#: ui/canvas/kis_canvas_controller.cpp:222
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
@@ -12392,7 +12414,7 @@ msgstr ""
 msgid "Confirm"
 msgstr ""
 
-#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:557
+#: ui/input/kis_tool_invocation_action.cpp:51 ui/kis_view2.cpp:558
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -13223,43 +13245,43 @@ msgstr "पुन्हा निवडा (&R)"
 msgid "&Invert Selection"
 msgstr "उलट निवडा (&I)"
 
-#: ui/kis_selection_manager.cc:172
+#: ui/kis_selection_manager.cc:174
 msgid "Copy Selection to New Layer"
 msgstr "निवडलेले नव्या स्तरात प्रत करा"
 
-#: ui/kis_selection_manager.cc:178
+#: ui/kis_selection_manager.cc:181
 msgid "Cut Selection to New Layer"
 msgstr "निवड नव्या स्तरातून काढून टाका"
 
-#: ui/kis_selection_manager.cc:185
+#: ui/kis_selection_manager.cc:188
 msgid "Fill with Foreground Color"
 msgstr "पृष्ठभूमीच्या रंगाने भरा"
 
-#: ui/kis_selection_manager.cc:192
+#: ui/kis_selection_manager.cc:195
 msgid "Fill with Background Color"
 msgstr "पार्श्वभूमीच्या रंगाने भरा"
 
-#: ui/kis_selection_manager.cc:199
+#: ui/kis_selection_manager.cc:202
 msgid "Fill with Pattern"
 msgstr "पॅटर्नने भरा"
 
-#: ui/kis_selection_manager.cc:205
+#: ui/kis_selection_manager.cc:208
 msgid "Stroke selected shapes"
 msgstr "निवडलेले आकार फटकारे"
 
-#: ui/kis_selection_manager.cc:210
+#: ui/kis_selection_manager.cc:213
 msgid "Display Selection"
 msgstr "निवड दर्शवा"
 
-#: ui/kis_selection_manager.cc:217
+#: ui/kis_selection_manager.cc:220
 msgid "Size Canvas to Size of Selection"
 msgstr "निवडीच्या आकाराप्रमाणे कॅनव्हासचा आकार ठेवा"
 
-#: ui/kis_selection_manager.cc:497
+#: ui/kis_selection_manager.cc:500
 msgid "Stroked Shapes"
 msgstr "फटकाऱ्याचे आकार"
 
-#: ui/kis_selection_manager.cc:499 ui/kis_selection_manager.cc:502
+#: ui/kis_selection_manager.cc:502 ui/kis_selection_manager.cc:505
 msgid "Stroke Shapes"
 msgstr "फटकाऱ्याचे आकार"
 
@@ -13276,119 +13298,119 @@ msgstr "निवड नाही"
 msgid "No profile"
 msgstr "रूपरेषा नाही"
 
-#: ui/kis_view2.cpp:280
+#: ui/kis_view2.cpp:281
 msgid "Save Incremental &Version"
 msgstr "वाढती आवृत्ती साठवा (&V)"
 
-#: ui/kis_view2.cpp:285
+#: ui/kis_view2.cpp:286
 msgid "Save Incremental Backup"
 msgstr "वाढता बॅकअप साठवा"
 
-#: ui/kis_view2.cpp:298
+#: ui/kis_view2.cpp:299
 msgid "Toggle Tablet Debugger"
 msgstr ""
 
-#: ui/kis_view2.cpp:303
+#: ui/kis_view2.cpp:304
 msgid "&Create Template From Image..."
 msgstr "प्रतिमेपासून टेंपलेट बनवा (&C)..."
 
-#: ui/kis_view2.cpp:307
+#: ui/kis_view2.cpp:308
 msgid "Mirror View"
 msgstr "प्रतिबिंबित दृश्य"
 
-#: ui/kis_view2.cpp:313
+#: ui/kis_view2.cpp:314
 #, fuzzy
 #| msgid "Cleanup resource files"
 msgid "Open Resources Folder"
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: ui/kis_view2.cpp:314 ui/kis_view2.cpp:315
+#: ui/kis_view2.cpp:315 ui/kis_view2.cpp:316
 msgid ""
 "Opens a file browser at the location Krita saves resources such as brushes "
 "to."
 msgstr ""
 
-#: ui/kis_view2.cpp:319
+#: ui/kis_view2.cpp:320
 msgid "Rotate Canvas Right"
 msgstr "कॅनव्हास उजवीकडे फिरवा"
 
-#: ui/kis_view2.cpp:324
+#: ui/kis_view2.cpp:325
 msgid "Rotate Canvas Left"
 msgstr "कॅनव्हास डावीकडे फिरवा"
 
-#: ui/kis_view2.cpp:329
+#: ui/kis_view2.cpp:330
 msgid "Reset Canvas Transformations"
 msgstr "कॅनव्हासमधील बदल पुन्हा निश्चित करा"
 
-#: ui/kis_view2.cpp:334
+#: ui/kis_view2.cpp:335
 msgid "Wrap Around Mode"
 msgstr ""
 
-#: ui/kis_view2.cpp:339
+#: ui/kis_view2.cpp:340
 msgid "Show Status Bar"
 msgstr "स्थिती पट्टि दर्शवा"
 
-#: ui/kis_view2.cpp:340
+#: ui/kis_view2.cpp:341
 msgid "Hide Status Bar"
 msgstr "स्थिती पट्टि लपवा"
 
-#: ui/kis_view2.cpp:342
+#: ui/kis_view2.cpp:343
 msgid "Shows or hides the status bar"
 msgstr "स्थिती पट्टि लपवतो किंवा दाखवतो"
 
-#: ui/kis_view2.cpp:346
+#: ui/kis_view2.cpp:347
 msgid "Show Canvas Only"
 msgstr "फक्त कॅनव्हास दर्शवा"
 
-#: ui/kis_view2.cpp:347
+#: ui/kis_view2.cpp:348
 msgid "Return to Window"
 msgstr "चौकटीकडे परत या"
 
-#: ui/kis_view2.cpp:348
+#: ui/kis_view2.cpp:349
 msgid "Shows just the canvas or the whole window"
 msgstr "फक्त कॅनव्हास किंवा संपूर्ण चौकट दाखवतो"
 
-#: ui/kis_view2.cpp:449
+#: ui/kis_view2.cpp:450
 #, fuzzy
 #| msgid "Vertical border:"
 msgid "Critical Error"
 msgstr "उभी किनार :"
 
-#: ui/kis_view2.cpp:449
+#: ui/kis_view2.cpp:450
 msgid ""
 "Krita cannot find any brush presets and will close now. Please check your "
 "installation."
 msgstr ""
 
-#: ui/kis_view2.cpp:549
+#: ui/kis_view2.cpp:550
 msgid "Insert as New Layer"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/kis_view2.cpp:550
+#: ui/kis_view2.cpp:551
 #, fuzzy
 #| msgid "Insert as New Layers"
 msgid "Insert Many Layers"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/kis_view2.cpp:552
+#: ui/kis_view2.cpp:553
 msgid "Open in New Document"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/kis_view2.cpp:553
+#: ui/kis_view2.cpp:554
 #, fuzzy
 #| msgid "Open in New Documents"
 msgid "Open Many Documents"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/kis_view2.cpp:555
+#: ui/kis_view2.cpp:556
 msgid "Replace Current Document"
 msgstr "वर्तमान दस्तऐवज बदला"
 
-#: ui/kis_view2.cpp:970
+#: ui/kis_view2.cpp:971
 msgid "Cleanup removed files..."
 msgstr "काढून टाकलेल्या फाईल्स साफ करा..."
 
-#: ui/kis_view2.cpp:1536
+#: ui/kis_view2.cpp:1538
 #, kde-format
 msgid ""
 "Going into Canvas-Only mode.\n"
@@ -13397,11 +13419,11 @@ msgstr ""
 "कॅनव्हास फक्त पद्धतमध्ये जातो \n"
 "मागे जाण्यासाठी %1 दाबा"
 
-#: ui/kis_zoom_manager.cc:120
+#: ui/kis_zoom_manager.cc:121
 msgid "Show Rulers"
 msgstr "मोजपट्ट्या दर्शवा"
 
-#: ui/kis_zoom_manager.cc:122
+#: ui/kis_zoom_manager.cc:123
 msgid ""
 "The rulers show the horizontal and vertical positions of the mouse on the "
 "image and can be used to position your mouse at the right place on the "
@@ -13410,9 +13432,15 @@ msgstr ""
 "प्रतिमेवर माऊसची उभी व आडवी स्थिती पट्ट्या दाखवतात यामुळे कॅनव्हासवर योग्य जागी माऊस "
 "नेण्यास तुम्हाला मदत होईल<p> हे अनचेक केल्यास पट्ट्या लपवल्या जातील.</p>"
 
-#: ui/kis_zoom_manager.cc:131
+#: ui/kis_zoom_manager.cc:132
 msgid "Reset zoom"
 msgstr "झूम पुन्हस्थापित करा"
+
+#: ui/kis_zoom_manager.cc:229
+#, kde-format
+msgctxt "floating message about zoom"
+msgid "Zoom: %1 \\%"
+msgstr ""
 
 #: ui/kisexiv2/kis_iptc_io.h:36
 msgid "Iptc"
