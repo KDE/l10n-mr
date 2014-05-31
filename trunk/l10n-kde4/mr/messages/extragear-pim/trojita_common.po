@@ -2706,13 +2706,13 @@ msgid "Username"
 msgstr "वापरकर्ता नाव"
 
 #: ../src/Harmattan/qml/trojita/ImapSettings.qml:71
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:186
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:203
 msgctxt "ImapSettings|"
 msgid "Server address"
 msgstr ""
 
 #: ../src/Harmattan/qml/trojita/ImapSettings.qml:90
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:243
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:260
 #, fuzzy
 #| msgctxt "ImapPage|"
 #| msgid "&Port"
@@ -2813,7 +2813,6 @@ msgid "Invalid Mailbox"
 msgstr "मेलबॉक्स (&M)"
 
 #: ../src/Harmattan/qml/trojita/OneMessagePage.qml:55
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:71
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "From"
@@ -2822,7 +2821,6 @@ msgid "From"
 msgstr "पासून"
 
 #: ../src/Harmattan/qml/trojita/OneMessagePage.qml:60
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:76
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "To"
@@ -2831,7 +2829,6 @@ msgid "To"
 msgstr "पर्यंत"
 
 #: ../src/Harmattan/qml/trojita/OneMessagePage.qml:65
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:81
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Cc"
@@ -2840,7 +2837,6 @@ msgid "Cc"
 msgstr "Cc"
 
 #: ../src/Harmattan/qml/trojita/OneMessagePage.qml:70
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:86
 #, fuzzy
 #| msgctxt "Gui::ComposeWidget|"
 #| msgid "Bcc"
@@ -2849,7 +2845,6 @@ msgid "Bcc"
 msgstr "Bcc"
 
 #: ../src/Harmattan/qml/trojita/OneMessagePage.qml:78
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:94
 #, fuzzy
 #| msgctxt "Gui::TagListWidget|"
 #| msgid "<b>Tags:</b>"
@@ -2858,7 +2853,6 @@ msgid "<b>Date:</b> "
 msgstr "<b>टॅग्स :</b>"
 
 #: ../src/Harmattan/qml/trojita/OneMessagePage.qml:85
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:101
 #, fuzzy
 #| msgctxt "ComposeWidget|"
 #| msgid "Subject"
@@ -4183,30 +4177,59 @@ msgid ""
 "%2: %3"
 msgstr ""
 
-#: ../src/Ubuntu/main.cpp:45
+#: ../src/Ubuntu/main.cpp:46
 msgctxt "main|"
 msgid "Trojita is a fast Qt IMAP e-mail client"
 msgstr ""
 
-#: ../src/Ubuntu/main.cpp:47
+#: ../src/Ubuntu/main.cpp:48
 msgctxt "main|"
 msgid "If running on Desktop, start in a phone sized window."
 msgstr ""
 
-#: ../src/Ubuntu/main.cpp:50
+#: ../src/Ubuntu/main.cpp:51
 msgctxt "main|"
 msgid "If running on Desktop, start in a tablet sized window."
 msgstr ""
 
-#: ../src/Ubuntu/main.cpp:53
+#: ../src/Ubuntu/main.cpp:54
 msgctxt "main|"
 msgid "DO NOT USE: autopilot sets this automatically"
 msgstr ""
 
-#: ../src/Ubuntu/main.cpp:125
+#: ../src/Ubuntu/main.cpp:128
 msgctxt "QObject|"
 msgid "Trojitá"
 msgstr ""
+
+#: ../src/Ubuntu/qml/trojita/HeaderComponent.qml:115
+#, fuzzy
+#| msgctxt "Gui::ComposeWidget|"
+#| msgid "To"
+msgctxt "HeaderComponent|"
+msgid "To:"
+msgstr "पर्यंत"
+
+#: ../src/Ubuntu/qml/trojita/HeaderComponent.qml:131
+#, fuzzy
+#| msgctxt "Gui::ComposeWidget|"
+#| msgid "Cc"
+msgctxt "HeaderComponent|"
+msgid "Cc:"
+msgstr "Cc"
+
+#: ../src/Ubuntu/qml/trojita/HeaderComponent.qml:148
+msgctxt "HeaderComponent|"
+msgid "Bcc:"
+msgstr ""
+
+#: ../src/Ubuntu/qml/trojita/HeaderComponent.qml:165
+#, fuzzy
+#| msgctxt "ComposeWidget|"
+#| msgid "Subject"
+msgctxt "HeaderComponent|"
+msgid "Subject:"
+msgstr "विषय"
 
 #: ../src/Ubuntu/qml/trojita/ImapSettings.qml:31
 #, fuzzy
@@ -4232,12 +4255,26 @@ msgctxt "ImapSettings|"
 msgid "Password"
 msgstr "गुप्तशब्द"
 
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:186
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:193
+msgctxt "ImapSettings|"
+msgid ""
+"This password will be saved in encrypted storage. If you do not enter "
+"password here, Trojitá will prompt for one when needed."
+msgstr ""
+
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:196
+msgctxt "ImapSettings|"
+msgid ""
+"This password will be saved in clear text. If you do not enter password "
+"here, Trojitá will prompt for one when needed."
+msgstr ""
+
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:203
 msgctxt "ImapSettings|"
 msgid "Server address required"
 msgstr ""
 
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:204
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:221
 #, fuzzy
 #| msgctxt "Gui::ProtocolLoggerWidget|"
 #| msgid "Connection %1"
@@ -4245,7 +4282,7 @@ msgctxt "ImapSettings|"
 msgid "Secure Connection"
 msgstr "जुळवणी %1"
 
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:237
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:254
 #, fuzzy
 #| msgctxt "QStandardPaths|"
 #| msgid "Configuration"
@@ -4253,12 +4290,12 @@ msgctxt "ImapSettings|"
 msgid "No Encryption"
 msgstr "संयोजना"
 
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:238
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:255
 msgctxt "ImapSettings|"
 msgid "Use encryption (STARTTLS)"
 msgstr ""
 
-#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:239
+#: ../src/Ubuntu/qml/trojita/ImapSettings.qml:256
 #, fuzzy
 #| msgctxt "QStandardPaths|"
 #| msgid "Configuration"
@@ -4266,7 +4303,7 @@ msgctxt "ImapSettings|"
 msgid "Force encryption (TLS)"
 msgstr "संयोजना"
 
-#: ../src/Ubuntu/qml/trojita/InfoDialog.qml:30
+#: ../src/Ubuntu/qml/trojita/InfoDialog.qml:33
 #, fuzzy
 #| msgctxt "Gui::MainWindow|"
 #| msgid "Close"
@@ -4341,22 +4378,22 @@ msgctxt "main|"
 msgid "Server Message"
 msgstr "IMAP संदेश %1"
 
-#: ../src/Ubuntu/qml/trojita/main.qml:75
+#: ../src/Ubuntu/qml/trojita/main.qml:84
 msgctxt "main|"
 msgid "<font color='#333333'>Authentication Error</font>"
 msgstr ""
 
-#: ../src/Ubuntu/qml/trojita/main.qml:77
+#: ../src/Ubuntu/qml/trojita/main.qml:86
 msgctxt "main|"
 msgid "Try re-entering account password or click cancel to go to Settings"
 msgstr ""
 
-#: ../src/Ubuntu/qml/trojita/main.qml:141
+#: ../src/Ubuntu/qml/trojita/main.qml:153
 msgctxt "main|"
 msgid "<font color='#333333'>Authentication Required</font>"
 msgstr ""
 
-#: ../src/Ubuntu/qml/trojita/main.qml:149
+#: ../src/Ubuntu/qml/trojita/main.qml:161
 #, qt-format
 msgctxt "main|"
 msgid "Please provide IMAP password for user <b>%1</b> on <b>%2</b>:"
@@ -4404,15 +4441,6 @@ msgctxt "MessageListToolbar|"
 msgid "Descending"
 msgstr "उतरत्या क्रमाने (&D)"
 
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:108
-#: ../src/Ubuntu/qml/trojita/OneMessagePage.qml:121
-#, fuzzy
-#| msgctxt "Gui::TagListWidget|"
-#| msgid "<b>Tags:</b>"
-msgctxt "OneMessagePage|"
-msgid "<b>Message URL:</b> "
-msgstr "<b>टॅग्स :</b>"
-
 #: ../src/Ubuntu/qml/trojita/PasswordInputSheet.qml:74
 #, fuzzy
 #| msgctxt "Gui::XtConnectPage|"
@@ -4421,7 +4449,20 @@ msgctxt "PasswordInputSheet|"
 msgid "Enter password"
 msgstr "गुप्तशब्द"
 
-#: ../src/Ubuntu/qml/trojita/SettingsTabs.qml:87
+#: ../src/Ubuntu/qml/trojita/SettingsTabs.qml:52
+#, fuzzy
+#| msgctxt "Gui::XtConnectPage|"
+#| msgid "Password"
+msgctxt "SettingsTabs|"
+msgid "Failed saving password"
+msgstr "गुप्तशब्द"
+
+#: ../src/Ubuntu/qml/trojita/SettingsTabs.qml:54
+msgctxt "SettingsTabs|"
+msgid "Continue"
+msgstr ""
+
+#: ../src/Ubuntu/qml/trojita/SettingsTabs.qml:119
 #, fuzzy
 #| msgctxt "Gui::SettingsDialog|"
 #| msgid "Settings"
@@ -4429,7 +4470,7 @@ msgctxt "SettingsTabs|"
 msgid "IMAP Settings"
 msgstr "संयोजना"
 
-#: ../src/Ubuntu/qml/trojita/SettingsTabs.qml:97
+#: ../src/Ubuntu/qml/trojita/SettingsTabs.qml:129
 #, fuzzy
 #| msgctxt "Gui::SettingsDialog|"
 #| msgid "Settings"
@@ -4708,6 +4749,13 @@ msgstr ""
 msgctxt "XtConnect::XtConnect|"
 msgid "Database Password: "
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Gui::TagListWidget|"
+#~| msgid "<b>Tags:</b>"
+#~ msgctxt "OneMessagePage|"
+#~ msgid "<b>Message URL:</b> "
+#~ msgstr "<b>टॅग्स :</b>"
 
 #~ msgctxt "Imap::Mailbox::CertificateUtils|"
 #~ msgid ", "
