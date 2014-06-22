@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-21 02:12+0000\n"
+"POT-Creation-Date: 2014-06-22 08:15+0000\n"
 "PO-Revision-Date: 2013-03-28 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -14,22 +14,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: applet/declarative/metadata.desktop.cmake:2
+#: applet/metadata.desktop:2
 msgctxt "Name"
-msgid "Network Management"
+msgid "Networks"
 msgstr ""
 
-#: applet/declarative/metadata.desktop.cmake:32
+#: applet/metadata.desktop:18
 msgctxt "Comment"
 msgid "Network status and control"
 msgstr ""
 
-#: editor/kde-nm-connection-editor.desktop:3
+#: editor/kde5-nm-connection-editor.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "kde-nm-connection-editor"
 msgctxt "Name"
-msgid "kde-nm-connection-editor"
+msgid "kde5-nm-connection-editor"
 msgstr "केडीई-एनएम-जुळवणी-संपादक"
 
-#: editor/kde-nm-connection-editor.desktop:31
+#: editor/kde5-nm-connection-editor.desktop:18
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "kde-nm-connection-editor"
@@ -37,7 +40,7 @@ msgctxt "GenericName"
 msgid "Connection editor"
 msgstr "केडीई-एनएम-जुळवणी-संपादक"
 
-#: editor/kde-nm-connection-editor.desktop:59
+#: editor/kde5-nm-connection-editor.desktop:34
 msgctxt "Comment"
 msgid "Edit your network connections"
 msgstr "तुमच्या संजाळ जुळवण्या संपादित करा"
@@ -50,22 +53,28 @@ msgctxt "Name"
 msgid "Plasma Networkmanagement module"
 msgstr "संजाळव्यवस्थापकाकरिता प्लाज्मा एप्लेट"
 
-#: kded/networkmanagement.desktop:30
+#: kded/networkmanagement.desktop:18
 msgctxt "Comment"
 msgid "Provides secrets to the NetworkManager daemon"
 msgstr ""
 
 #: kded/networkmanagement.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma applet for NetworkManager"
 msgctxt "Name"
-msgid "networkmanagement"
-msgstr ""
+msgid "Network management"
+msgstr "संजाळव्यवस्थापकाकरिता प्लाज्मा एप्लेट"
+
+#: kded/networkmanagement.notifyrc:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma applet for NetworkManager"
+msgctxt "Comment"
+msgid "Network management"
+msgstr "संजाळव्यवस्थापकाकरिता प्लाज्मा एप्लेट"
 
 #: kded/networkmanagement.notifyrc:31
-msgctxt "Comment"
-msgid "Notifies about network errors"
-msgstr ""
-
-#: kded/networkmanagement.notifyrc:61
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "kde-nm-connection-editor"
@@ -73,7 +82,7 @@ msgctxt "Name"
 msgid "Connection activated"
 msgstr "केडीई-एनएम-जुळवणी-संपादक"
 
-#: kded/networkmanagement.notifyrc:78
+#: kded/networkmanagement.notifyrc:49
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "kde-nm-connection-editor"
@@ -81,27 +90,74 @@ msgctxt "Name"
 msgid "Connection deactivated"
 msgstr "केडीई-एनएम-जुळवणी-संपादक"
 
-#: kded/networkmanagement.notifyrc:95
+#: kded/networkmanagement.notifyrc:67
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "kde-nm-connection-editor"
+msgctxt "Name"
+msgid "Connection added"
+msgstr "केडीई-एनएम-जुळवणी-संपादक"
+
+#: kded/networkmanagement.notifyrc:85
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "kde-nm-connection-editor"
+msgctxt "Name"
+msgid "Connection removed"
+msgstr "केडीई-एनएम-जुळवणी-संपादक"
+
+#: kded/networkmanagement.notifyrc:103
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "kde-nm-connection-editor"
+msgctxt "Name"
+msgid "Connection updated"
+msgstr "केडीई-एनएम-जुळवणी-संपादक"
+
+#: kded/networkmanagement.notifyrc:121
 msgctxt "Name"
 msgid "Device failed"
 msgstr ""
 
-#: kded/networkmanagement.notifyrc:112
+#: kded/networkmanagement.notifyrc:139
 msgctxt "Name"
 msgid "Failed to activate connection"
 msgstr ""
 
-#: kded/networkmanagement.notifyrc:129
+#: kded/networkmanagement.notifyrc:157
 msgctxt "Name"
 msgid "Failed to add connection"
 msgstr ""
 
-#: kded/networkmanagement.notifyrc:146
+#: kded/networkmanagement.notifyrc:175
+msgctxt "Name"
+msgid "Failed to deactivate connection"
+msgstr ""
+
+#: kded/networkmanagement.notifyrc:193
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Edit your network connections"
+msgctxt "Name"
+msgid "Failed to remove connection"
+msgstr "तुमच्या संजाळ जुळवण्या संपादित करा"
+
+#: kded/networkmanagement.notifyrc:211
 msgctxt "Name"
 msgid "Failed to request scan"
 msgstr ""
 
-#: kded/networkmanagement.notifyrc:163
+#: kded/networkmanagement.notifyrc:229
+msgctxt "Name"
+msgid "Failed to get secrets"
+msgstr ""
+
+#: kded/networkmanagement.notifyrc:247
+msgctxt "Name"
+msgid "Failed to update connection"
+msgstr ""
+
+#: kded/networkmanagement.notifyrc:265
 msgctxt "Name"
 msgid "Missing VPN plugin"
 msgstr ""
@@ -111,19 +167,9 @@ msgctxt "Name"
 msgid "Network Management VPN UI Plugin"
 msgstr ""
 
-#: libs/editor/plasma-networkmanagement-vpnuiplugin.desktop:32
+#: libs/editor/plasma-networkmanagement-vpnuiplugin.desktop:20
 msgctxt "Comment"
 msgid "Defines KDE Network Management UI Plugins"
-msgstr ""
-
-#: settings/notifications/networkmanagement_notifications.desktop:2
-msgctxt "Name"
-msgid "Notifications"
-msgstr ""
-
-#: settings/notifications/networkmanagement_notifications.desktop:31
-msgctxt "Comment"
-msgid "Configure the Network Management notifications"
 msgstr ""
 
 #: vpn/l2tp/plasmanetworkmanagement_l2tpui.desktop:16
@@ -131,7 +177,7 @@ msgctxt "Name"
 msgid "L2TP"
 msgstr ""
 
-#: vpn/l2tp/plasmanetworkmanagement_l2tpui.desktop:44
+#: vpn/l2tp/plasmanetworkmanagement_l2tpui.desktop:32
 msgctxt "Comment"
 msgid "L2TP plugin"
 msgstr ""
@@ -141,7 +187,7 @@ msgctxt "Name"
 msgid "OpenConnect"
 msgstr ""
 
-#: vpn/openconnect/plasmanetworkmanagement_openconnectui.desktop:45
+#: vpn/openconnect/plasmanetworkmanagement_openconnectui.desktop:32
 msgctxt "Comment"
 msgid "OpenConnect Plugin"
 msgstr ""
@@ -151,7 +197,7 @@ msgctxt "Name"
 msgid "OpenSwan"
 msgstr ""
 
-#: vpn/openswan/plasmanetworkmanagement_openswanui.desktop:44
+#: vpn/openswan/plasmanetworkmanagement_openswanui.desktop:32
 msgctxt "Comment"
 msgid "OpenSwan Plugin"
 msgstr ""
@@ -161,7 +207,7 @@ msgctxt "Name"
 msgid "OpenVPN"
 msgstr ""
 
-#: vpn/openvpn/plasmanetworkmanagement_openvpnui.desktop:45
+#: vpn/openvpn/plasmanetworkmanagement_openvpnui.desktop:32
 msgctxt "Comment"
 msgid "OpenVPN plugin"
 msgstr ""
@@ -171,7 +217,7 @@ msgctxt "Name"
 msgid "PPTP"
 msgstr ""
 
-#: vpn/pptp/plasmanetworkmanagement_pptpui.desktop:45
+#: vpn/pptp/plasmanetworkmanagement_pptpui.desktop:32
 msgctxt "Comment"
 msgid "PPTP Plugin"
 msgstr ""
@@ -181,7 +227,7 @@ msgctxt "Name"
 msgid "StrongSwan"
 msgstr ""
 
-#: vpn/strongswan/plasmanetworkmanagement_strongswanui.desktop:44
+#: vpn/strongswan/plasmanetworkmanagement_strongswanui.desktop:32
 msgctxt "Comment"
 msgid "StrongSwan Plugin"
 msgstr ""
@@ -191,7 +237,7 @@ msgctxt "Name"
 msgid "VPNC"
 msgstr ""
 
-#: vpn/vpnc/plasmanetworkmanagement_vpncui.desktop:45
+#: vpn/vpnc/plasmanetworkmanagement_vpncui.desktop:32
 msgctxt "Comment"
 msgid "VPNC Plugin"
 msgstr ""
