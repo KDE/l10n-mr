@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-19 01:34+0000\n"
+"POT-Creation-Date: 2014-07-22 01:37+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -2883,7 +2883,6 @@ msgstr "प्रकार"
 
 #. i18n: ectx: property (text), widget (QRadioButton, shadeSelectorTypeMyPaint)
 #: plugins/extensions/dockers/advancedcolorselector/wdg_color_selector_settings.ui:234
-#: plugins/paintops/mypaint/mypaint_paintop_factory.h:55
 msgid "MyPaint"
 msgstr "मायपेंट"
 
@@ -5715,11 +5714,9 @@ msgstr "आकार :"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (label), widget (KIntNumInput, irisRadiusSlider)
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel)
-#. i18n: ectx: property (text), widget (QLabel, lbl_diameter)
 #: plugins/filters/blur/wdg_lens_blur.ui:42
 #: plugins/filters/unsharp/wdgunsharp.ui:23
 #: plugins/paintops/chalk/wdgchalkoptions.ui:40
-#: plugins/paintops/mypaint/wdgmypaintoptions.ui:29
 msgid "Radius:"
 msgstr "त्रिज्या :"
 
@@ -8254,7 +8251,6 @@ msgstr "कुंचल्याची संयोजना"
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel)
 #: plugins/paintops/hairy/wdghairyeoptions.ui:140
 #: plugins/paintops/hairy/wdghairyshapeoptions.ui:38
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:159
 msgid "radius"
 msgstr "त्रिज्या"
 
@@ -9322,568 +9318,6 @@ msgstr "कालावधी :"
 #: plugins/paintops/libpaintop/sensors/SensorTimeConfiguration.ui:79
 msgid "s"
 msgstr "s"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:83
-msgid ""
-"The pressure reported by the tablet, between 0.0 and 1.0. If you use the "
-"mouse, it will be 0.5 when a button is pressed and 0.0 otherwise."
-msgstr ""
-"टॅबलेटने नदाब जर ०.० व १.०० दरम्यान असेल व जर तुम्ही माऊसचा वापर केला तर बटन दाबले तर "
-"दाब ०,५ राहील अन्यथा ०.० राहील"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:84
-msgid ""
-"How fast you currently move. This can change very quickly. Try 'print input "
-"values' from the 'help' menu to get a feeling for the range; negative values "
-"are rare but possible for very low speed."
-msgstr ""
-"वर्तमान तुम्ही ज्या वेगाने जाता त्या प्रमाणात हे त्वरित बदलेल प्रिंट इनपुट संख्या मदत "
-"विभागातून वापरण्याचा प्रयत्न करा त्यामुळे तुम्हाला मर्यादेची जाणीव होईल फार संथ वेगासाठी "
-"क्वचितच उणे किंमती येणे शक्य आहे."
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:85
-msgid ""
-"Same as speed1, but changes slower. Also look at the 'speed2 filter' setting."
-msgstr "वेग १ प्रमाणेच, पण बदल सावकाश होतील. वेग २ गाळणीच्या जुळणीकडेही पहा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:86
-msgid ""
-"Fast random noise, changing at each evaluation. Evenly distributed between 0 "
-"and 1."
-msgstr ""
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:87
-msgid ""
-"This input slowly goes from zero to one while you draw a stroke. It can also "
-"be configured to jump back to zero periodically while you move. Look at the "
-"'stroke duration' and 'stroke hold time' settings."
-msgstr ""
-"तुम्ही फटकारा मारताना हा इनपुट संथपणे ० पासून १ पर्यंत जातो. तुम्ही जात असताना तो परत "
-"मागे ० वर येण्याची व्यवस्थाही करता येतेफटकाऱ्याच्या कालावधीकडे पहा व फटकारा थांबून "
-"ठेवण्याच्या कालावधीकडे पहा."
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:88
-msgid ""
-"The angle of the stroke, in degrees. The value will stay between 0.0 and "
-"180.0, effectively ignoring turns of 180 degrees."
-msgstr ""
-"फटकाऱ्या कोन अंशात आहे. त्याची किंमत ०.०  ते १८०.०\"पर्यंत राहील १८० अंशाचे वळण "
-"दुर्लक्षित केले जाईल."
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:89
-msgid ""
-"Declination of stylus tilt. 0 when stylus is parallel to tablet and 90.0 "
-"when it's perpendicular to tablet."
-msgstr ""
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:90
-msgid ""
-"Right ascension of stylus tilt. 0 when stylus working end points to you, +90 "
-"when rotated 90 degrees clockwise, -90 when rotated 90 degrees "
-"counterclockwise."
-msgstr ""
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:91
-msgid ""
-"This is a user defined input. Look at the 'custom input' setting for details."
-msgstr "वापर कर्त्याने ठरविल्ला इनपुट आहे कस्टम इनपुट व संयोजना फ़र डीटेल्स पहा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:156
-msgid ""
-"0 means brush is transparent, 1 fully visible\n"
-"(also known as alpha or opacity)"
-msgstr ""
-"0 म्हणजे कुंचला पारदर्शी आहे, 1  म्हणजे पूर्णपणे दृश्यमान आहे\n"
-"(अल्फा किंवा अपारदर्शी म्हणून सुद्धा ओळखले जाते)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:156
-msgid "opaque"
-msgstr "अपारदर्शक"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:157
-msgid ""
-"This gets multiplied with opaque. It is used for making opaque depend on "
-"pressure (or other inputs)."
-msgstr ""
-"अपारदर्शकते बरोबर याचे गुणोत्तर वाढत जाते याचा वापर दाब आधारित अपारदर्शकते साठी होतो"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:157
-msgid "opaque multiply"
-msgstr "अपारदर्शक गुणाकार"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:158
-msgid ""
-"Correct the nonlinearity introduced by blending multiple dabs on top of each "
-"other. This correction should get you a linear (\"natural\") pressure "
-"response when pressure is mapped to opaque_multiply, as it is usually done. "
-"0.9 is good for standard strokes, set it smaller if your brush scatters a "
-"lot, or higher if you use dabs_per_second.\n"
-"0.0 the opaque value above is for the individual dabs\n"
-"1.0 the opaque value above is for the final brush stroke, assuming each "
-"pixel gets (dabs_per_radius*2) brushdabs on average during a stroke"
-msgstr ""
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:158
-msgid "opaque linearize"
-msgstr "अपारदर्शक रेषीय"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:159
-msgid ""
-"basic brush radius (logarithmic)\n"
-" 0.7 means 2 pixels\n"
-" 3.0 means 20 pixels"
-msgstr ""
-"कुंचल्याची मूळ त्रिज्या (लॉगरिदमिक)\n"
-"0.7 means 2 pixels\n"
-" 3.0 means 20 pixels"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:160
-msgid "hard brush-circle borders (setting to zero will draw nothing)"
-msgstr "कठीण कुंचला-वर्तुळाकार कडा (शून्यावर सेट केल्यास काही काढता येणार नाही)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:160
-msgid "hardness"
-msgstr "कठीणता"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:161
-msgid "dabs per basic radius"
-msgstr "मूळ त्रिज्येनुसार दाबून फटकारे"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:161
-msgid ""
-"how many dabs to draw while the pointer moves a distance of one brush radius "
-"(more precise: the base value of the radius)"
-msgstr ""
-"एक कुंचला त्रिज्येइतका काटा सरकल्यास किती दाबून फटकारे काढता येतील (जास्त काटेकोरः "
-"त्रिज्येची मूळ किंमत)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:162
-msgid "dabs per actual radius"
-msgstr "प्रत्यक्ष त्रिज्येनुसार दाबून फटकारे"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:162
-msgid ""
-"same as above, but the radius actually drawn is used, which can change "
-"dynamically"
-msgstr "वरीलप्रमाणेच, पणप्रत्यक्ष काढलेली त्रिज्या वापरली जाते, ती गतिमानतेप्रमाणे बदलते"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:163
-msgid "dabs per second"
-msgstr "दर सेकंदाला दाबून फटकारे"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:163
-msgid "dabs to draw each second, no matter how far the pointer moves"
-msgstr "प्रत्येक सेकंदाला काढायचे दाबून फटकारे, काटा कुठेही फिरला तरी"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:164
-msgid ""
-"Alter the radius randomly each dab. You can also do this with the by_random "
-"input on the radius setting. If you do it here, there are two differences:\n"
-"1) the opaque value will be corrected such that a big-radius dabs is more "
-"transparent\n"
-"2) it will not change the actual radius seen by dabs_per_actual_radius"
-msgstr ""
-"प्रत्येक दाबून फटकाऱ्यानुसार त्रिज्या सहजतेने बदला. तुम्हाला हे by_random input on the "
-"radius settingनेही करता येईल. येथे जर तुम्ही हे केसे तर  दोन फरक आहेतः\n"
-"१) स्पष्टतेची किंमत सुधारली जाईल त्यामुळे मोठ्या त्रिज्येचे दाबून फटकारे जास्त पारदर्शी "
-"होतील.२) यामुळे प्रत्यक्ष त्रिज्येनुसार दाबून फटकाऱ्यानुसार प्रत्यक्षात त्रिज्या बदलणार नाही"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:164
-msgid "radius by random"
-msgstr "विनाक्रम निवडलेली त्रिज्या"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:165
-msgid ""
-"how slowly the input speed1 follows the real speed.\n"
-"0.0 changes immediately as your speed changes (not recommended, but try it.)"
-msgstr ""
-"खऱ्या वेगाबरोबर वेग१ किती सावकाशपणे जुळवून घेतो.\n"
-"0.0 तुमच्या वेगातील बदलाबरोबर त्वरित बदलतो (मात्र याची शिफारस करण्यात येत नाही, "
-"तुम्ही प्यत्न करू शकता)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:165
-msgid "speed1 filter"
-msgstr "वेग १ गाळणी"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:166
-msgid "same as 'speed1 slowness' but note that the range is different"
-msgstr "वेग१ च्याप्रमाणेच संथ पण पल्ला वेगळा असण्याकडे लक्ष द्या"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:166
-msgid "speed2 filter"
-msgstr "वेग२ गाळणी"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:167
-msgid ""
-"This changes the reaction of the speed1 input to extreme physical speed. You "
-"will see the difference best if speed1 is mapped to the radius.\n"
-"-8.0 very fast speed does not increase speed1 much more\n"
-"+8.0 very fast speed increases speed1 a lot\n"
-"For very slow speed the opposite happens."
-msgstr ""
-"यामुळे वेग१ ची प्रतिक्रिया बदलून प्रत्यक्षात अतिवेगवान होतो. जर वेग१ त्रिज्येशी जुळवला तर "
-"तुम्हाला हा फरक स्पष्टपणे पाहता येईल-8.0 अति जलद वेग वेग१ ला जास्त वाढवू शकत नाही\n"
-"+8.0 मात्रवेग१ खूपच वाढवतो\n"
-"अति संथ वेगासाठी मात्र उलट घडेल"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:167
-msgid "speed1 gamma"
-msgstr "वेग१ गॅमा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:168
-msgid "same as 'speed1 gamma' for speed2"
-msgstr "वेग२ साठी वेग१ गॅमा प्रमाणेच"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:168
-msgid "speed2 gamma"
-msgstr "वेग२ गॅमा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:169
-msgid ""
-"add a random offset to the position where each dab is drawn\n"
-" 0.0 disabled\n"
-" 1.0 standard deviation is one basic radius away\n"
-"<0.0 negative values produce no jitter"
-msgstr ""
-"प्रत्येक दाबून फटकाऱ्याच्या जागेवर विनाक्रम ऑफसेट मिळवा\n"
-"0.0 disabled\n"
-" 1.0 प्रमाणित विचलन हे मूळ त्रिज्येइतके दूर आहे.\n"
-"<0.0 ऋण किंमती जिटर पैदा करीत नाहीत."
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:169
-msgid "jitter"
-msgstr "जिटर"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:170
-msgid ""
-"change position depending on pointer speed\n"
-"= 0 disable\n"
-"> 0 draw where the pointer moves to\n"
-"< 0 draw where the pointer comes from"
-msgstr ""
-"स्थितीतील बदल काट्याच्या वेगावर अवलंबून आहे.\n"
-"= 0 disable\n"
-"> 0 जेथे काटा जाईल तेथे काढा\n"
-"< 0 काटा जेथून येतो तेथे काढा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:170
-msgid "offset by speed"
-msgstr "वेगाद्वारा ऑफसेट"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:171
-msgid "how slow the offset goes back to zero when the cursor stops moving"
-msgstr "कर्सरची हालचाल थांबते तेव्हा ऑफसेट किती सावकाश ० वर परत येतो"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:171
-msgid "offset by speed filter"
-msgstr "वेग गाळणीद्वारा जिटर"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:172
-msgid ""
-"Slowdown pointer tracking speed. 0 disables it, higher values remove more "
-"jitter in cursor movements. Useful for drawing smooth, comic-like outlines."
-msgstr ""
-"काट्याचा मागोवा घेण्याचा वेग मंदावतो. ० निष्क्रिय करतो, उच्च किंमती कर्सर हालचासीतून "
-"जास्त जिटर काढून टाकतात. गुळगुळीत कॉमिक पध्दतीच्या कडा काढण्यासाठी उपयुक्त"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:172
-msgid "slow position tracking"
-msgstr "ठिकाणाचा सावकाश मागोवा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:173
-msgid ""
-"Similar as above but at brushdab level (ignoring how much time has past, if "
-"brushdabs do not depend on time)"
-msgstr ""
-"वरीलप्रमाणेच पण ब्रश डॅब पातळीवर (जर ब्रश डॅब वेळेवर अवलंबून नसेल तर  किती कालावधी गेला "
-"याकडे दुर्लक्ष केले जाते,)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:173
-msgid "slow tracking per dab"
-msgstr "प्रत्येक दाबून फटकाऱ्यानुसार संध मागोवा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:174
-msgid ""
-"add randomness to the mouse pointer; this usually generates many small lines "
-"in random directions; maybe try this together with 'slow tracking'"
-msgstr ""
-"माऊस पॉइंटरमध्ये विनाक्रमता मिळवा, यामुळे अनेक लहान रेषा तयार होतात व त्या वेगवेगळ्या "
-"दिशांना असतात, संथ मागावा पध्दतीत याचा प्रयोग होऊ शकतो"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:174
-msgid "tracking noise"
-msgstr "ट्रॅकिंग नॉइज"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:176
-msgid "color hue"
-msgstr "रंगछटा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:177
-msgid "color saturation"
-msgstr "रंगाचा गडदपणा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:178
-msgid "color value"
-msgstr "रंगाची किंमत"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:178
-msgid "color value (brightness, intensity)"
-msgstr "रंगाची किंमत (शुभ्रता , घनता)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:179
-msgid ""
-"Change color hue.\n"
-"-0.1 small clockwise color hue shift\n"
-" 0.0 disable\n"
-" 0.5 counterclockwise hue shift by 180 degrees"
-msgstr ""
-"रंगछटा बदला \n"
-"-0.1 small clockwise color hue shift\n"
-" 0.0 disable\n"
-" 0.5 counterclockwise hue shift by 180 degrees"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:179
-msgid "change color hue"
-msgstr "रंगछटा बदला"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:180
-msgid ""
-"Change the color lightness (luminance) using the HSL color model.\n"
-"-1.0 blacker\n"
-" 0.0 disable\n"
-" 1.0 whiter"
-msgstr ""
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:180
-msgid "change color lightness (HSL)"
-msgstr "रंगाचा हलकेपणा बदला (HSL)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:181
-msgid ""
-"Change the color saturation using the HSL color model.\n"
-"-1.0 more grayish\n"
-" 0.0 disable\n"
-" 1.0 more saturated"
-msgstr ""
-"HSL color model वापरून रंगाची गडदपणा बदला. \n"
-"-1.0 more grayish\n"
-" 0.0 disable\n"
-" 1.0 more saturated"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:181
-msgid "change color satur. (HSL)"
-msgstr "रंगाची घनता बदला. (HSL)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:182
-msgid ""
-"Change the color value (brightness, intensity) using the HSV color model. "
-"HSV changes are applied before HSL.\n"
-"-1.0 darker\n"
-" 0.0 disable\n"
-" 1.0 brigher"
-msgstr ""
-"HSV color model वापरून रंगाची किंमत बदला (शुभ्रता , घनता) HSL.\n"
-" पूर्वी HSV बदल केले आहेत.  -1.0 darker\n"
-" 0.0 disable\n"
-" 1.0 brigher"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:182
-msgid "change color value (HSV)"
-msgstr "रंगाची किंमत बदला   (HSV)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:183
-msgid ""
-"Change the color saturation using the HSV color model. HSV changes are "
-"applied before HSL.\n"
-"-1.0 more grayish\n"
-" 0.0 disable\n"
-" 1.0 more saturated"
-msgstr ""
-"HSV color model वापरून रंगाची किंमत बदला HSL.\n"
-" पूर्वी HSV बदल केले आहेत. -1.0 more grayish\n"
-" 0.0 disable\n"
-" 1.0 more saturated"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:183
-msgid "change color satur. (HSV)"
-msgstr "रंगाचा गडदपणा बदला. (HSV) "
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:184
-msgid ""
-"Paint with the smudge color instead of the brush color. The smudge color is "
-"slowly changed to the color you are painting on.\n"
-" 0.0 do not use the smudge color\n"
-" 0.5 mix the smudge color with the brush color\n"
-" 1.0 use only the smudge color"
-msgstr ""
-"कुंचल्याच्या रंगाऐवजी स्मज रंगाने रंगवा. स्मजचा रंग हळूहळू तुम्ही रंगवत असलेल्या रंगात बदलेल\n"
-" 0.0 do not use the smudge color\n"
-" 0.5 mix the smudge color with the brush color\n"
-" 1.0 use only the smudge color"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:184
-msgid "smudge"
-msgstr "स्मज "
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:185
-msgid ""
-"This controls how fast the smudge color becomes the color you are painting "
-"on.\n"
-"0.0 immediately change the smudge color\n"
-"1.0 never change the smudge color"
-msgstr ""
-" या निसाधनणामुळे तुम्ही रंगवत असलेल्या रंगात स्मज रंग किती वेगाने बदलेल ते ठरविले जाते. \n"
-"0.0 immediately change the smudge color\n"
-"1.0 never change the smudge color"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:185
-msgid "smudge length"
-msgstr "स्मज लांबी"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:186
-msgid ""
-"This modifies the radius of the circle where color is picked up for "
-"smudging.\n"
-" 0.0 use the brush radius \n"
-"-0.7 half the brush radius\n"
-"+0.7 twice the brush radius\n"
-"+1.6 five times the brush radius (slow)"
-msgstr ""
-"स्मजिंगसाठी जेथून रंग घेतलातेथील वर्तुळाची त्रिज्या सुधारली जाते 0.0 use the brush "
-"radius \n"
-"-0.7 half the brush radius\n"
-"+0.7 twice the brush radius\n"
-"+1.6 five times the brush radius (slow)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:186
-msgid "smudge radius"
-msgstr "स्मज त्रिज्या"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:187
-msgid "eraser"
-msgstr "खोडरबर"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:187
-msgid ""
-"how much this tool behaves like an eraser\n"
-" 0.0 normal painting\n"
-" 1.0 standard eraser\n"
-" 0.5 pixels go towards 50% transparency"
-msgstr ""
-"हे साधन किती खोडरबरासारखे कमा करते \n"
-" 0.0 normal painting\n"
-" 1.0 standard eraser\n"
-" 0.5 pixels go towards 50% transparency"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:189
-msgid ""
-"How much pressure is needed to start a stroke. This affects the stroke input "
-"only. Mypaint does not need a minimal pressure to start drawing."
-msgstr ""
-"फटकारा सुरू करण्यासाठी किती दाब पाहिजे ते ठरते. यामुळे स्ट्रोक इनपुट वरच परिणाम होतो."
-"माय पेंट मध्येचित्र काढण्यासाठी किमान दाबाची गरज नसते"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:189
-msgid "stroke threshold"
-msgstr "फटकाऱ्याची मर्यादा"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:190
-msgid ""
-"How far you have to move until the stroke input reaches 1.0. This value is "
-"logarithmic (negative values will not invert the process)."
-msgstr ""
-"फटकाऱ्याचा इनपुट 1.0 पर्यंत पोचण्यासाठी तुम्हाला किती अंतर जावे लागतेही किंमत लॉगरिदमिक "
-"आहे. ( ऋण किंमती प्रक्रिया उलट करणार नाहीत.)."
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:190
-msgid "stroke duration"
-msgstr "फटकाऱ्याचा कालावधी"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:191
-msgid ""
-"This defines how long the stroke input stays at 1.0. After that it will "
-"reset to 0.0 and start growing again, even if the stroke is not yet "
-"finished.\n"
-"2.0 means twice as long as it takes to go from 0.0 to 1.0\n"
-"9.9 and bigger stands for infinite"
-msgstr ""
-"1.0 जवळ फटकाऱ्याचा इनपुट किती वेळ थांबतो, त्यानंतर तो ०.० वर रिसेट होऊन पुन्हा "
-"वाढायला सुरुवात होते. जरी फटकारा पूर्ण झाला नसला तरी.\n"
-"2.0 means twice as long as it takes to go from 0.0 to 1.0\n"
-"9.9 and bigger stands for infinite"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:191
-msgid "stroke hold time"
-msgstr "फटकारा थांबवून ठेवण्याची वेळ"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:192
-msgid ""
-"Set the custom input to this value. If it is slowed down, move it towards "
-"this value (see below). The idea is that you make this input depend on a "
-"mixture of pressure/speed/whatever, and then make other this depend on this "
-"'custom input' instead of repeating this combination everywhere you need "
-"it.\n"
-"If you make it change 'by random' you can generate a slow (smooth) random "
-"input."
-msgstr ""
-"ठराविक इनपुट या किमतीवर ठेवा . जर वेग संथ झाला तर तर तो पुढील किंमतीवर न्या (खाली "
-"पहा) या मागची मुख्य कल्पना म्हणजे इनपुट हा दाब/वेग/व इतर जे असेल ते , यावर अवलंबून ठेवणे "
-"ही आहे. हे पुन्हा पुन्हा वापरण्याऐवजी 'custom input'प्रत्येक ठिकाणी वापरा \" जर तुम्ही "
-"बाय विनाक्रम मध्ये बदलले तर तुम्ही संथ (स्मूथ) विनाक्रम इनुपट निर्माण करू शकता."
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:192
-msgid "custom input"
-msgstr "ठराविक इनपुट"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:193
-msgid ""
-"How slow the custom input actually follows the desired value (the one "
-"above). This happens at brushdab level (ignoring how much time has past, if "
-"brushdabs do not depend on time).\n"
-"0.0 no slowdown (changes apply instantly)"
-msgstr ""
-"ठराविक इनपुट अपेक्षित किंमती पर्यंत किती संथपणे जाते (वरील किंमतीवर)  ब्रशडॅब पातळी वर हे "
-"घडते (किती कालावधी गेला याकडे दुर्लक्ष केले जाते जर \"ब्रशडॅब\" वेळेवर अवलंबून नसेल तर) .\n"
-"0.0 संथपणा नाही (बदल त्वरित लागू केले जातील)"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:193
-msgid "custom input filter"
-msgstr "ठराविक इनपुट गाळणी"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:195
-msgid ""
-"aspect ratio of the dabs; must be >= 1.0, where 1.0 means a perfectly round "
-"dab. TODO: linearize? start at 0.0 maybe, or log?"
-msgstr ""
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:195
-msgid "elliptical dab: ratio"
-msgstr "लंबवर्तुळीय  दाबून फटकाराः गुणोत्तर"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:196
-msgid "elliptical dab: angle"
-msgstr "लंबवर्तुळीय दाबून फटकारा : कोन"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:196
-msgid ""
-"this defines the angle by which eliptical dabs are tilted\n"
-" 0.0 horizontal dabs\n"
-" 45.0 45 degrees, turned clockwise\n"
-" 180.0 horizontal again"
-msgstr ""
-"लंबवर्तुळीय  दाबून फटकारा किती अंशातून वळतो ते यामुळे ठरविले जाते. 0.0 horizontal dabs\n"
-" 45.0 45 degrees, turned clockwise\n"
-" 180.0 horizontal again"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:197
-msgid ""
-"a low value will make the direction input adapt more quickly, a high value "
-"will make it smoother"
-msgstr "कमी किंमत दिशेचा इनपुट जलद जुळवून घेईल, जास्त किंमत तिला सुलभ बनवेल"
-
-#: plugins/paintops/mypaint/mypaint_brush_resource.cpp:197
-msgid "direction filter"
-msgstr "दिशा गाळणी"
 
 #: plugins/paintops/particle/particle_paintop_plugin.cpp:42
 #, fuzzy
@@ -14856,6 +14290,456 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बंद करा"
+
+#~ msgid ""
+#~ "The pressure reported by the tablet, between 0.0 and 1.0. If you use the "
+#~ "mouse, it will be 0.5 when a button is pressed and 0.0 otherwise."
+#~ msgstr ""
+#~ "टॅबलेटने नदाब जर ०.० व १.०० दरम्यान असेल व जर तुम्ही माऊसचा वापर केला तर बटन दाबले "
+#~ "तर दाब ०,५ राहील अन्यथा ०.० राहील"
+
+#~ msgid ""
+#~ "How fast you currently move. This can change very quickly. Try 'print "
+#~ "input values' from the 'help' menu to get a feeling for the range; "
+#~ "negative values are rare but possible for very low speed."
+#~ msgstr ""
+#~ "वर्तमान तुम्ही ज्या वेगाने जाता त्या प्रमाणात हे त्वरित बदलेल प्रिंट इनपुट संख्या मदत "
+#~ "विभागातून वापरण्याचा प्रयत्न करा त्यामुळे तुम्हाला मर्यादेची जाणीव होईल फार संथ "
+#~ "वेगासाठी क्वचितच उणे किंमती येणे शक्य आहे."
+
+#~ msgid ""
+#~ "Same as speed1, but changes slower. Also look at the 'speed2 filter' "
+#~ "setting."
+#~ msgstr "वेग १ प्रमाणेच, पण बदल सावकाश होतील. वेग २ गाळणीच्या जुळणीकडेही पहा"
+
+#~ msgid ""
+#~ "This input slowly goes from zero to one while you draw a stroke. It can "
+#~ "also be configured to jump back to zero periodically while you move. Look "
+#~ "at the 'stroke duration' and 'stroke hold time' settings."
+#~ msgstr ""
+#~ "तुम्ही फटकारा मारताना हा इनपुट संथपणे ० पासून १ पर्यंत जातो. तुम्ही जात असताना तो "
+#~ "परत मागे ० वर येण्याची व्यवस्थाही करता येतेफटकाऱ्याच्या कालावधीकडे पहा व फटकारा "
+#~ "थांबून ठेवण्याच्या कालावधीकडे पहा."
+
+#~ msgid ""
+#~ "The angle of the stroke, in degrees. The value will stay between 0.0 and "
+#~ "180.0, effectively ignoring turns of 180 degrees."
+#~ msgstr ""
+#~ "फटकाऱ्या कोन अंशात आहे. त्याची किंमत ०.०  ते १८०.०\"पर्यंत राहील १८० अंशाचे वळण "
+#~ "दुर्लक्षित केले जाईल."
+
+#~ msgid ""
+#~ "This is a user defined input. Look at the 'custom input' setting for "
+#~ "details."
+#~ msgstr "वापर कर्त्याने ठरविल्ला इनपुट आहे कस्टम इनपुट व संयोजना फ़र डीटेल्स पहा"
+
+#~ msgid ""
+#~ "0 means brush is transparent, 1 fully visible\n"
+#~ "(also known as alpha or opacity)"
+#~ msgstr ""
+#~ "0 म्हणजे कुंचला पारदर्शी आहे, 1  म्हणजे पूर्णपणे दृश्यमान आहे\n"
+#~ "(अल्फा किंवा अपारदर्शी म्हणून सुद्धा ओळखले जाते)"
+
+#~ msgid "opaque"
+#~ msgstr "अपारदर्शक"
+
+#~ msgid ""
+#~ "This gets multiplied with opaque. It is used for making opaque depend on "
+#~ "pressure (or other inputs)."
+#~ msgstr ""
+#~ "अपारदर्शकते बरोबर याचे गुणोत्तर वाढत जाते याचा वापर दाब आधारित अपारदर्शकते साठी "
+#~ "होतो"
+
+#~ msgid "opaque multiply"
+#~ msgstr "अपारदर्शक गुणाकार"
+
+#~ msgid "opaque linearize"
+#~ msgstr "अपारदर्शक रेषीय"
+
+#~ msgid ""
+#~ "basic brush radius (logarithmic)\n"
+#~ " 0.7 means 2 pixels\n"
+#~ " 3.0 means 20 pixels"
+#~ msgstr ""
+#~ "कुंचल्याची मूळ त्रिज्या (लॉगरिदमिक)\n"
+#~ "0.7 means 2 pixels\n"
+#~ " 3.0 means 20 pixels"
+
+#~ msgid "hard brush-circle borders (setting to zero will draw nothing)"
+#~ msgstr "कठीण कुंचला-वर्तुळाकार कडा (शून्यावर सेट केल्यास काही काढता येणार नाही)"
+
+#~ msgid "hardness"
+#~ msgstr "कठीणता"
+
+#~ msgid "dabs per basic radius"
+#~ msgstr "मूळ त्रिज्येनुसार दाबून फटकारे"
+
+#~ msgid ""
+#~ "how many dabs to draw while the pointer moves a distance of one brush "
+#~ "radius (more precise: the base value of the radius)"
+#~ msgstr ""
+#~ "एक कुंचला त्रिज्येइतका काटा सरकल्यास किती दाबून फटकारे काढता येतील (जास्त काटेकोरः "
+#~ "त्रिज्येची मूळ किंमत)"
+
+#~ msgid "dabs per actual radius"
+#~ msgstr "प्रत्यक्ष त्रिज्येनुसार दाबून फटकारे"
+
+#~ msgid ""
+#~ "same as above, but the radius actually drawn is used, which can change "
+#~ "dynamically"
+#~ msgstr "वरीलप्रमाणेच, पणप्रत्यक्ष काढलेली त्रिज्या वापरली जाते, ती गतिमानतेप्रमाणे बदलते"
+
+#~ msgid "dabs per second"
+#~ msgstr "दर सेकंदाला दाबून फटकारे"
+
+#~ msgid "dabs to draw each second, no matter how far the pointer moves"
+#~ msgstr "प्रत्येक सेकंदाला काढायचे दाबून फटकारे, काटा कुठेही फिरला तरी"
+
+#~ msgid ""
+#~ "Alter the radius randomly each dab. You can also do this with the "
+#~ "by_random input on the radius setting. If you do it here, there are two "
+#~ "differences:\n"
+#~ "1) the opaque value will be corrected such that a big-radius dabs is more "
+#~ "transparent\n"
+#~ "2) it will not change the actual radius seen by dabs_per_actual_radius"
+#~ msgstr ""
+#~ "प्रत्येक दाबून फटकाऱ्यानुसार त्रिज्या सहजतेने बदला. तुम्हाला हे by_random input on the "
+#~ "radius settingनेही करता येईल. येथे जर तुम्ही हे केसे तर  दोन फरक आहेतः\n"
+#~ "१) स्पष्टतेची किंमत सुधारली जाईल त्यामुळे मोठ्या त्रिज्येचे दाबून फटकारे जास्त पारदर्शी "
+#~ "होतील.२) यामुळे प्रत्यक्ष त्रिज्येनुसार दाबून फटकाऱ्यानुसार प्रत्यक्षात त्रिज्या बदलणार "
+#~ "नाही"
+
+#~ msgid "radius by random"
+#~ msgstr "विनाक्रम निवडलेली त्रिज्या"
+
+#~ msgid ""
+#~ "how slowly the input speed1 follows the real speed.\n"
+#~ "0.0 changes immediately as your speed changes (not recommended, but try "
+#~ "it.)"
+#~ msgstr ""
+#~ "खऱ्या वेगाबरोबर वेग१ किती सावकाशपणे जुळवून घेतो.\n"
+#~ "0.0 तुमच्या वेगातील बदलाबरोबर त्वरित बदलतो (मात्र याची शिफारस करण्यात येत नाही, "
+#~ "तुम्ही प्यत्न करू शकता)"
+
+#~ msgid "speed1 filter"
+#~ msgstr "वेग १ गाळणी"
+
+#~ msgid "same as 'speed1 slowness' but note that the range is different"
+#~ msgstr "वेग१ च्याप्रमाणेच संथ पण पल्ला वेगळा असण्याकडे लक्ष द्या"
+
+#~ msgid "speed2 filter"
+#~ msgstr "वेग२ गाळणी"
+
+#~ msgid ""
+#~ "This changes the reaction of the speed1 input to extreme physical speed. "
+#~ "You will see the difference best if speed1 is mapped to the radius.\n"
+#~ "-8.0 very fast speed does not increase speed1 much more\n"
+#~ "+8.0 very fast speed increases speed1 a lot\n"
+#~ "For very slow speed the opposite happens."
+#~ msgstr ""
+#~ "यामुळे वेग१ ची प्रतिक्रिया बदलून प्रत्यक्षात अतिवेगवान होतो. जर वेग१ त्रिज्येशी जुळवला "
+#~ "तर तुम्हाला हा फरक स्पष्टपणे पाहता येईल-8.0 अति जलद वेग वेग१ ला जास्त वाढवू शकत "
+#~ "नाही\n"
+#~ "+8.0 मात्रवेग१ खूपच वाढवतो\n"
+#~ "अति संथ वेगासाठी मात्र उलट घडेल"
+
+#~ msgid "speed1 gamma"
+#~ msgstr "वेग१ गॅमा"
+
+#~ msgid "same as 'speed1 gamma' for speed2"
+#~ msgstr "वेग२ साठी वेग१ गॅमा प्रमाणेच"
+
+#~ msgid "speed2 gamma"
+#~ msgstr "वेग२ गॅमा"
+
+#~ msgid ""
+#~ "add a random offset to the position where each dab is drawn\n"
+#~ " 0.0 disabled\n"
+#~ " 1.0 standard deviation is one basic radius away\n"
+#~ "<0.0 negative values produce no jitter"
+#~ msgstr ""
+#~ "प्रत्येक दाबून फटकाऱ्याच्या जागेवर विनाक्रम ऑफसेट मिळवा\n"
+#~ "0.0 disabled\n"
+#~ " 1.0 प्रमाणित विचलन हे मूळ त्रिज्येइतके दूर आहे.\n"
+#~ "<0.0 ऋण किंमती जिटर पैदा करीत नाहीत."
+
+#~ msgid "jitter"
+#~ msgstr "जिटर"
+
+#~ msgid ""
+#~ "change position depending on pointer speed\n"
+#~ "= 0 disable\n"
+#~ "> 0 draw where the pointer moves to\n"
+#~ "< 0 draw where the pointer comes from"
+#~ msgstr ""
+#~ "स्थितीतील बदल काट्याच्या वेगावर अवलंबून आहे.\n"
+#~ "= 0 disable\n"
+#~ "> 0 जेथे काटा जाईल तेथे काढा\n"
+#~ "< 0 काटा जेथून येतो तेथे काढा"
+
+#~ msgid "offset by speed"
+#~ msgstr "वेगाद्वारा ऑफसेट"
+
+#~ msgid "how slow the offset goes back to zero when the cursor stops moving"
+#~ msgstr "कर्सरची हालचाल थांबते तेव्हा ऑफसेट किती सावकाश ० वर परत येतो"
+
+#~ msgid "offset by speed filter"
+#~ msgstr "वेग गाळणीद्वारा जिटर"
+
+#~ msgid ""
+#~ "Slowdown pointer tracking speed. 0 disables it, higher values remove more "
+#~ "jitter in cursor movements. Useful for drawing smooth, comic-like "
+#~ "outlines."
+#~ msgstr ""
+#~ "काट्याचा मागोवा घेण्याचा वेग मंदावतो. ० निष्क्रिय करतो, उच्च किंमती कर्सर हालचासीतून "
+#~ "जास्त जिटर काढून टाकतात. गुळगुळीत कॉमिक पध्दतीच्या कडा काढण्यासाठी उपयुक्त"
+
+#~ msgid "slow position tracking"
+#~ msgstr "ठिकाणाचा सावकाश मागोवा"
+
+#~ msgid ""
+#~ "Similar as above but at brushdab level (ignoring how much time has past, "
+#~ "if brushdabs do not depend on time)"
+#~ msgstr ""
+#~ "वरीलप्रमाणेच पण ब्रश डॅब पातळीवर (जर ब्रश डॅब वेळेवर अवलंबून नसेल तर  किती कालावधी "
+#~ "गेला याकडे दुर्लक्ष केले जाते,)"
+
+#~ msgid "slow tracking per dab"
+#~ msgstr "प्रत्येक दाबून फटकाऱ्यानुसार संध मागोवा"
+
+#~ msgid ""
+#~ "add randomness to the mouse pointer; this usually generates many small "
+#~ "lines in random directions; maybe try this together with 'slow tracking'"
+#~ msgstr ""
+#~ "माऊस पॉइंटरमध्ये विनाक्रमता मिळवा, यामुळे अनेक लहान रेषा तयार होतात व त्या वेगवेगळ्या "
+#~ "दिशांना असतात, संथ मागावा पध्दतीत याचा प्रयोग होऊ शकतो"
+
+#~ msgid "tracking noise"
+#~ msgstr "ट्रॅकिंग नॉइज"
+
+#~ msgid "color hue"
+#~ msgstr "रंगछटा"
+
+#~ msgid "color saturation"
+#~ msgstr "रंगाचा गडदपणा"
+
+#~ msgid "color value"
+#~ msgstr "रंगाची किंमत"
+
+#~ msgid "color value (brightness, intensity)"
+#~ msgstr "रंगाची किंमत (शुभ्रता , घनता)"
+
+#~ msgid ""
+#~ "Change color hue.\n"
+#~ "-0.1 small clockwise color hue shift\n"
+#~ " 0.0 disable\n"
+#~ " 0.5 counterclockwise hue shift by 180 degrees"
+#~ msgstr ""
+#~ "रंगछटा बदला \n"
+#~ "-0.1 small clockwise color hue shift\n"
+#~ " 0.0 disable\n"
+#~ " 0.5 counterclockwise hue shift by 180 degrees"
+
+#~ msgid "change color hue"
+#~ msgstr "रंगछटा बदला"
+
+#~ msgid "change color lightness (HSL)"
+#~ msgstr "रंगाचा हलकेपणा बदला (HSL)"
+
+#~ msgid ""
+#~ "Change the color saturation using the HSL color model.\n"
+#~ "-1.0 more grayish\n"
+#~ " 0.0 disable\n"
+#~ " 1.0 more saturated"
+#~ msgstr ""
+#~ "HSL color model वापरून रंगाची गडदपणा बदला. \n"
+#~ "-1.0 more grayish\n"
+#~ " 0.0 disable\n"
+#~ " 1.0 more saturated"
+
+#~ msgid "change color satur. (HSL)"
+#~ msgstr "रंगाची घनता बदला. (HSL)"
+
+#~ msgid ""
+#~ "Change the color value (brightness, intensity) using the HSV color model. "
+#~ "HSV changes are applied before HSL.\n"
+#~ "-1.0 darker\n"
+#~ " 0.0 disable\n"
+#~ " 1.0 brigher"
+#~ msgstr ""
+#~ "HSV color model वापरून रंगाची किंमत बदला (शुभ्रता , घनता) HSL.\n"
+#~ " पूर्वी HSV बदल केले आहेत.  -1.0 darker\n"
+#~ " 0.0 disable\n"
+#~ " 1.0 brigher"
+
+#~ msgid "change color value (HSV)"
+#~ msgstr "रंगाची किंमत बदला   (HSV)"
+
+#~ msgid ""
+#~ "Change the color saturation using the HSV color model. HSV changes are "
+#~ "applied before HSL.\n"
+#~ "-1.0 more grayish\n"
+#~ " 0.0 disable\n"
+#~ " 1.0 more saturated"
+#~ msgstr ""
+#~ "HSV color model वापरून रंगाची किंमत बदला HSL.\n"
+#~ " पूर्वी HSV बदल केले आहेत. -1.0 more grayish\n"
+#~ " 0.0 disable\n"
+#~ " 1.0 more saturated"
+
+#~ msgid "change color satur. (HSV)"
+#~ msgstr "रंगाचा गडदपणा बदला. (HSV) "
+
+#~ msgid ""
+#~ "Paint with the smudge color instead of the brush color. The smudge color "
+#~ "is slowly changed to the color you are painting on.\n"
+#~ " 0.0 do not use the smudge color\n"
+#~ " 0.5 mix the smudge color with the brush color\n"
+#~ " 1.0 use only the smudge color"
+#~ msgstr ""
+#~ "कुंचल्याच्या रंगाऐवजी स्मज रंगाने रंगवा. स्मजचा रंग हळूहळू तुम्ही रंगवत असलेल्या रंगात बदलेल\n"
+#~ " 0.0 do not use the smudge color\n"
+#~ " 0.5 mix the smudge color with the brush color\n"
+#~ " 1.0 use only the smudge color"
+
+#~ msgid "smudge"
+#~ msgstr "स्मज "
+
+#~ msgid ""
+#~ "This controls how fast the smudge color becomes the color you are "
+#~ "painting on.\n"
+#~ "0.0 immediately change the smudge color\n"
+#~ "1.0 never change the smudge color"
+#~ msgstr ""
+#~ " या निसाधनणामुळे तुम्ही रंगवत असलेल्या रंगात स्मज रंग किती वेगाने बदलेल ते ठरविले जाते. \n"
+#~ "0.0 immediately change the smudge color\n"
+#~ "1.0 never change the smudge color"
+
+#~ msgid "smudge length"
+#~ msgstr "स्मज लांबी"
+
+#~ msgid ""
+#~ "This modifies the radius of the circle where color is picked up for "
+#~ "smudging.\n"
+#~ " 0.0 use the brush radius \n"
+#~ "-0.7 half the brush radius\n"
+#~ "+0.7 twice the brush radius\n"
+#~ "+1.6 five times the brush radius (slow)"
+#~ msgstr ""
+#~ "स्मजिंगसाठी जेथून रंग घेतलातेथील वर्तुळाची त्रिज्या सुधारली जाते 0.0 use the brush "
+#~ "radius \n"
+#~ "-0.7 half the brush radius\n"
+#~ "+0.7 twice the brush radius\n"
+#~ "+1.6 five times the brush radius (slow)"
+
+#~ msgid "smudge radius"
+#~ msgstr "स्मज त्रिज्या"
+
+#~ msgid "eraser"
+#~ msgstr "खोडरबर"
+
+#~ msgid ""
+#~ "how much this tool behaves like an eraser\n"
+#~ " 0.0 normal painting\n"
+#~ " 1.0 standard eraser\n"
+#~ " 0.5 pixels go towards 50% transparency"
+#~ msgstr ""
+#~ "हे साधन किती खोडरबरासारखे कमा करते \n"
+#~ " 0.0 normal painting\n"
+#~ " 1.0 standard eraser\n"
+#~ " 0.5 pixels go towards 50% transparency"
+
+#~ msgid ""
+#~ "How much pressure is needed to start a stroke. This affects the stroke "
+#~ "input only. Mypaint does not need a minimal pressure to start drawing."
+#~ msgstr ""
+#~ "फटकारा सुरू करण्यासाठी किती दाब पाहिजे ते ठरते. यामुळे स्ट्रोक इनपुट वरच परिणाम होतो."
+#~ "माय पेंट मध्येचित्र काढण्यासाठी किमान दाबाची गरज नसते"
+
+#~ msgid "stroke threshold"
+#~ msgstr "फटकाऱ्याची मर्यादा"
+
+#~ msgid ""
+#~ "How far you have to move until the stroke input reaches 1.0. This value "
+#~ "is logarithmic (negative values will not invert the process)."
+#~ msgstr ""
+#~ "फटकाऱ्याचा इनपुट 1.0 पर्यंत पोचण्यासाठी तुम्हाला किती अंतर जावे लागतेही किंमत "
+#~ "लॉगरिदमिक आहे. ( ऋण किंमती प्रक्रिया उलट करणार नाहीत.)."
+
+#~ msgid "stroke duration"
+#~ msgstr "फटकाऱ्याचा कालावधी"
+
+#~ msgid ""
+#~ "This defines how long the stroke input stays at 1.0. After that it will "
+#~ "reset to 0.0 and start growing again, even if the stroke is not yet "
+#~ "finished.\n"
+#~ "2.0 means twice as long as it takes to go from 0.0 to 1.0\n"
+#~ "9.9 and bigger stands for infinite"
+#~ msgstr ""
+#~ "1.0 जवळ फटकाऱ्याचा इनपुट किती वेळ थांबतो, त्यानंतर तो ०.० वर रिसेट होऊन पुन्हा "
+#~ "वाढायला सुरुवात होते. जरी फटकारा पूर्ण झाला नसला तरी.\n"
+#~ "2.0 means twice as long as it takes to go from 0.0 to 1.0\n"
+#~ "9.9 and bigger stands for infinite"
+
+#~ msgid "stroke hold time"
+#~ msgstr "फटकारा थांबवून ठेवण्याची वेळ"
+
+#~ msgid ""
+#~ "Set the custom input to this value. If it is slowed down, move it towards "
+#~ "this value (see below). The idea is that you make this input depend on a "
+#~ "mixture of pressure/speed/whatever, and then make other this depend on "
+#~ "this 'custom input' instead of repeating this combination everywhere you "
+#~ "need it.\n"
+#~ "If you make it change 'by random' you can generate a slow (smooth) random "
+#~ "input."
+#~ msgstr ""
+#~ "ठराविक इनपुट या किमतीवर ठेवा . जर वेग संथ झाला तर तर तो पुढील किंमतीवर न्या "
+#~ "(खाली पहा) या मागची मुख्य कल्पना म्हणजे इनपुट हा दाब/वेग/व इतर जे असेल ते , यावर "
+#~ "अवलंबून ठेवणे ही आहे. हे पुन्हा पुन्हा वापरण्याऐवजी 'custom input'प्रत्येक ठिकाणी वापरा "
+#~ "\" जर तुम्ही बाय विनाक्रम मध्ये बदलले तर तुम्ही संथ (स्मूथ) विनाक्रम इनुपट निर्माण करू "
+#~ "शकता."
+
+#~ msgid "custom input"
+#~ msgstr "ठराविक इनपुट"
+
+#~ msgid ""
+#~ "How slow the custom input actually follows the desired value (the one "
+#~ "above). This happens at brushdab level (ignoring how much time has past, "
+#~ "if brushdabs do not depend on time).\n"
+#~ "0.0 no slowdown (changes apply instantly)"
+#~ msgstr ""
+#~ "ठराविक इनपुट अपेक्षित किंमती पर्यंत किती संथपणे जाते (वरील किंमतीवर)  ब्रशडॅब पातळी "
+#~ "वर हे घडते (किती कालावधी गेला याकडे दुर्लक्ष केले जाते जर \"ब्रशडॅब\" वेळेवर अवलंबून नसेल "
+#~ "तर) .\n"
+#~ "0.0 संथपणा नाही (बदल त्वरित लागू केले जातील)"
+
+#~ msgid "custom input filter"
+#~ msgstr "ठराविक इनपुट गाळणी"
+
+#~ msgid "elliptical dab: ratio"
+#~ msgstr "लंबवर्तुळीय  दाबून फटकाराः गुणोत्तर"
+
+#~ msgid "elliptical dab: angle"
+#~ msgstr "लंबवर्तुळीय दाबून फटकारा : कोन"
+
+#~ msgid ""
+#~ "this defines the angle by which eliptical dabs are tilted\n"
+#~ " 0.0 horizontal dabs\n"
+#~ " 45.0 45 degrees, turned clockwise\n"
+#~ " 180.0 horizontal again"
+#~ msgstr ""
+#~ "लंबवर्तुळीय  दाबून फटकारा किती अंशातून वळतो ते यामुळे ठरविले जाते. 0.0 horizontal "
+#~ "dabs\n"
+#~ " 45.0 45 degrees, turned clockwise\n"
+#~ " 180.0 horizontal again"
+
+#~ msgid ""
+#~ "a low value will make the direction input adapt more quickly, a high "
+#~ "value will make it smoother"
+#~ msgstr "कमी किंमत दिशेचा इनपुट जलद जुळवून घेईल, जास्त किंमत तिला सुलभ बनवेल"
+
+#~ msgid "direction filter"
+#~ msgstr "दिशा गाळणी"
 
 #, fuzzy
 #~| msgid "Import Image"
