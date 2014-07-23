@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-16 02:21+0000\n"
+"POT-Creation-Date: 2014-07-23 01:58+0000\n"
 "PO-Revision-Date: 2013-03-28 17:55+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -41,7 +41,7 @@ msgid "Settings"
 msgstr "संयोजना"
 
 #: src/accountwizard.cpp:187 src/accountwizard.cpp:349
-#: src/actioncollection.cpp:200
+#: src/actioncollection.cpp:202
 msgid "Account creation wizard"
 msgstr ""
 
@@ -286,49 +286,55 @@ msgstr ""
 msgid "Fullscreen"
 msgstr ""
 
-#: src/actioncollection.cpp:190 src/actioncollection.cpp:207
-msgid "Configure SFLphone"
-msgstr ""
-
 #: src/actioncollection.cpp:192
+#, fuzzy
+#| msgid "Configure Shortcut"
+msgid "Configure SFLPhone-KDE"
+msgstr "शॉर्टकट संयोजीत करा"
+
+#: src/actioncollection.cpp:194
 msgid "Display dialpad"
 msgstr ""
 
-#: src/actioncollection.cpp:193
+#: src/actioncollection.cpp:195
 msgid "Display text message box"
 msgstr ""
 
-#: src/actioncollection.cpp:194
+#: src/actioncollection.cpp:196
 msgid "Display volume controls"
 msgstr ""
 
-#: src/actioncollection.cpp:195
+#: src/actioncollection.cpp:197
 msgid "Paste"
 msgstr "चिटकवा"
 
-#: src/actioncollection.cpp:196
+#: src/actioncollection.cpp:198
 msgid "Display Contact"
 msgstr ""
 
-#: src/actioncollection.cpp:197
+#: src/actioncollection.cpp:199
 msgid "Display history"
 msgstr ""
 
-#: src/actioncollection.cpp:198
+#: src/actioncollection.cpp:200
 msgid "Display bookmark"
 msgstr ""
 
-#: src/actioncollection.cpp:199
+#: src/actioncollection.cpp:201
 msgid "Configure Toolbars"
 msgstr "साधनपट्टी संयोजीत करा"
 
-#: src/actioncollection.cpp:201
+#: src/actioncollection.cpp:203
 #, fuzzy
 #| msgid "Add Contact"
 msgid "Add new contact"
 msgstr "संपर्क जोडा"
 
-#: src/actioncollection.cpp:235
+#: src/actioncollection.cpp:209
+msgid "Configure SFLphone"
+msgstr ""
+
+#: src/actioncollection.cpp:237
 msgid "Configure Shortcut"
 msgstr "शॉर्टकट संयोजीत करा"
 
@@ -524,6 +530,12 @@ msgstr ""
 #: src/conf/dlgaccounts.cpp:120
 msgid "A .key file"
 msgstr ""
+
+#: src/conf/dlgaccounts.cpp:639
+#, fuzzy
+#| msgid "New account%1"
+msgid "New account"
+msgstr "नवीन खाते%1"
 
 #: src/conf/dlgaccounts.cpp:639
 #, kde-format
@@ -1168,7 +1180,7 @@ msgid "Visible Contact Details"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_displayOrganisation)
-#: src/conf/dlgaddressbookbase.ui:115
+#: src/conf/dlgaddressbookbase.ui:115 src/conf/dlgdisplay.cpp:40
 msgid "Display organisation"
 msgstr ""
 
@@ -1251,6 +1263,43 @@ msgstr ""
 #| msgid "Mute"
 msgid "Mute DTMF"
 msgstr "मौन"
+
+#: src/conf/dlgdisplay.cpp:36
+#, fuzzy
+#| msgctxt "User interterface settings"
+#| msgid "Display"
+msgid "Display Icon"
+msgstr "दर्शवा"
+
+#: src/conf/dlgdisplay.cpp:37
+#, fuzzy
+#| msgid "Security"
+msgid "Display Security"
+msgstr "सुरक्षा"
+
+#: src/conf/dlgdisplay.cpp:38
+#, fuzzy
+#| msgid "Display all"
+msgid "Display Call Number"
+msgstr "सर्व दर्शवा"
+
+#: src/conf/dlgdisplay.cpp:39
+#, fuzzy
+#| msgid "Display all"
+msgid "Display Peer Name"
+msgstr "सर्व दर्शवा"
+
+#: src/conf/dlgdisplay.cpp:41
+#, fuzzy
+#| msgid "Display all"
+msgid "Display department"
+msgstr "सर्व दर्शवा"
+
+#: src/conf/dlgdisplay.cpp:42
+#, fuzzy
+#| msgid "Display all"
+msgid "Display e-mail"
+msgstr "सर्व दर्शवा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: src/conf/dlgdisplaybase.ui:26
@@ -1848,28 +1897,103 @@ msgstr ""
 msgid "Voicemail"
 msgstr ""
 
-#: src/main.cpp:60
+#: src/main.cpp:58
 msgid "SFLPhone-KDE"
 msgstr ""
 
-#: src/main.cpp:64
+#: src/main.cpp:60
+msgid "An enterprise grade KDE SIP and IAX phone"
+msgstr ""
+
+#: src/main.cpp:62
 msgid "(C) 2009-2014 Savoir-faire Linux"
 msgstr ""
 
-#: src/main.cpp:69
+#: src/main.cpp:67
 msgid "Emmanuel Lepage Vallée"
 msgstr ""
 
-#: src/main.cpp:70
+#: src/main.cpp:68
 msgid "Jérémy Quentin"
 msgstr ""
 
-#: src/sflphone.cpp:188 src/sflphone.cpp:557 src/sflphone.cpp:618
+#: src/sflphone.cpp:110
+msgid "Home"
+msgstr ""
+
+#: src/sflphone.cpp:111
+msgid "Work"
+msgstr ""
+
+#: src/sflphone.cpp:112
+msgid "Msg"
+msgstr ""
+
+#: src/sflphone.cpp:113
+msgid "Pref"
+msgstr ""
+
+#: src/sflphone.cpp:114
+msgid "Voice"
+msgstr ""
+
+#: src/sflphone.cpp:115
+msgid "Fax"
+msgstr ""
+
+#: src/sflphone.cpp:116
+msgid "Cell"
+msgstr ""
+
+#: src/sflphone.cpp:117
+#, fuzzy
+#| msgctxt "Video conversation"
+#| msgid "Video"
+msgid "Video"
+msgstr "व्हिडीओ"
+
+#: src/sflphone.cpp:118
+msgid "Bbs"
+msgstr ""
+
+#: src/sflphone.cpp:119
+msgid "Modem"
+msgstr ""
+
+#: src/sflphone.cpp:120
+msgid "Car"
+msgstr ""
+
+#: src/sflphone.cpp:121
+msgid "Isdn"
+msgstr ""
+
+#: src/sflphone.cpp:122
+msgid "Pcs"
+msgstr ""
+
+#: src/sflphone.cpp:123
+msgid "Pager"
+msgstr ""
+
+#: src/sflphone.cpp:124
+msgid "Preferred"
+msgstr ""
+
+#: src/sflphone.cpp:188
+#, fuzzy
+#| msgid "Call"
+msgctxt "Call tab"
 msgid "Call"
 msgstr "कॉल"
 
 #: src/sflphone.cpp:238
 msgid "SFLphone"
+msgstr ""
+
+#: src/sflphone.cpp:289
+msgctxt "The presence state is \"Online\""
+msgid "Online"
 msgstr ""
 
 #: src/sflphone.cpp:308
@@ -1895,17 +2019,20 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/sflphone.cpp:560 src/widgets/bookmarkdock.cpp:96
-#: src/widgets/contactdock.cpp:264 src/widgets/historydock.cpp:346
-#: src/widgets/historydock.cpp:348
+#: src/sflphone.cpp:557 src/sflphone.cpp:618
+msgid "Call"
+msgstr "कॉल"
+
+#: src/sflphone.cpp:560 src/widgets/contactdock.cpp:264
+#: src/widgets/historydock.cpp:346 src/widgets/historydock.cpp:348
 msgid "Bookmark"
 msgstr "ओळखचिन्ह"
 
-#: src/sflphone.cpp:563 src/widgets/contactdock.cpp:147
+#: src/sflphone.cpp:563
 msgid "Contact"
 msgstr "संपर्क"
 
-#: src/sflphone.cpp:566 src/widgets/historydock.cpp:198
+#: src/sflphone.cpp:566
 msgid "History"
 msgstr "इतिहास"
 
@@ -1927,6 +2054,10 @@ msgstr[1] ""
 #: src/sflphoneaccessibility.cpp:78
 #, kde-format
 msgid "Call from %1, number %2"
+msgstr ""
+
+#: src/sflphoneaccessibility.cpp:82
+msgid "You currently have no call"
 msgstr ""
 
 #: src/sflphoneaccessibility.cpp:104
@@ -2002,6 +2133,13 @@ msgstr "गाळणी"
 msgid "Show most called contacts"
 msgstr ""
 
+#: src/widgets/bookmarkdock.cpp:96
+#, fuzzy
+#| msgid "Bookmark"
+msgctxt "Bookmark dock"
+msgid "Bookmark"
+msgstr "ओळखचिन्ह"
+
 #: src/widgets/bookmarkdock.cpp:151 src/widgets/contactdock.cpp:237
 #: src/widgets/historydock.cpp:324
 msgid "Call Again"
@@ -2055,6 +2193,13 @@ msgstr "समूह"
 msgctxt "Sort by Department"
 msgid "Department"
 msgstr ""
+
+#: src/widgets/contactdock.cpp:147
+#, fuzzy
+#| msgid "Contact"
+msgctxt "Contact tab"
+msgid "Contact"
+msgstr "संपर्क"
 
 #: src/widgets/contactdock.cpp:269
 msgid "Delete"
@@ -2117,6 +2262,13 @@ msgstr "लांबी"
 msgctxt "sort by spent time"
 msgid "Spent time"
 msgstr ""
+
+#: src/widgets/historydock.cpp:198
+#, fuzzy
+#| msgid "History"
+msgctxt "History tab"
+msgid "History"
+msgstr "इतिहास"
 
 #: src/widgets/historydock.cpp:328
 msgid "Add Number to Contact"
@@ -2323,6 +2475,10 @@ msgstr "साधन :"
 #: src/widgets/videodock.cpp:158
 msgid "Device:"
 msgstr "साधन :"
+
+#: src/widgets/videodock.cpp:257
+msgid "Full screen video"
+msgstr ""
 
 #~ msgid "Account"
 #~ msgstr "खाते"
