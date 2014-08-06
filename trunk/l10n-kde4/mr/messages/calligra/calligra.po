@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-05 01:30+0000\n"
+"POT-Creation-Date: 2014-08-06 01:36+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -3090,9 +3090,9 @@ msgid ""
 msgstr ""
 
 #: main/KoApplication.cpp:263
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Creation error"
-msgid ": Critical Error"
+msgid "%1: Critical Error"
 msgstr "निर्माण करताना त्रुटी"
 
 #: main/KoApplication.cpp:263
@@ -3497,8 +3497,10 @@ msgstr "पुनर्प्रस्थापित करा (&R)"
 
 #. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
 #: main/koDocumentInfoAboutWidget.ui:297
-msgid "                Language:"
-msgstr "                भाषा :"
+#, fuzzy
+#| msgid "Last page:"
+msgid "Language:"
+msgstr "शेवटचे पान :"
 
 #: main/KoDocumentInfoDlg.cpp:93 main/KoMainWindow.cpp:344
 msgid "Document Information"
@@ -3902,7 +3904,8 @@ msgstr "डावा किनारा :"
 msgid "Right side"
 msgstr "उजवा किनारा :"
 
-#: main/KoOpenPane.cpp:138 main/KoOpenPane.cpp:202
+#. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
+#: main/KoOpenPane.cpp:138 main/KoOpenPane.cpp:202 main/KoOpenPaneBase.ui:60
 #, fuzzy
 #| msgid "Open Document"
 msgid "Open Existing Document"
@@ -3914,11 +3917,6 @@ msgstr "अलिकडील दस्तऐवज"
 
 #: main/KoOpenPane.cpp:314
 msgid "Custom Document"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
-#: main/KoOpenPaneBase.ui:60
-msgid "PushButton"
 msgstr ""
 
 #: main/KoPrintingDialog.cpp:57
@@ -4077,7 +4075,9 @@ msgid "Tool Options"
 msgstr "साधन पर्याय"
 
 #: main/KoToolDocker_p.cpp:227
-msgid "Toggles organising the options in tabs or not"
+#, fuzzy
+#| msgid "Toggles organising the options in tabs or not"
+msgid "Toggles organizing the options in tabs or not"
 msgstr "टॅब मध्ये पर्यायांचे आयोजन चालू/बंद करतो"
 
 #: main/KoVersionDialog.cpp:48
@@ -6157,6 +6157,9 @@ msgstr "मजकूर रूंदी प्रमाणे समर्पक
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1"
+
+#~ msgid "                Language:"
+#~ msgstr "                भाषा :"
 
 #~ msgid "Formatting"
 #~ msgstr "फॉर्मेटिंग"
