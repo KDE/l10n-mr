@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-04-27 01:58+0000\n"
+"POT-Creation-Date: 2014-08-08 01:52+0000\n"
 "PO-Revision-Date: 2013-04-15 11:00+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -58,7 +58,7 @@ msgstr "इतिहास :"
 msgid "Remember folders and URLs"
 msgstr "संचयीका आणि URL लक्षात ठेवा"
 
-#: app/browsemainpage.cpp:117 app/mainwindow.cpp:364 app/viewmainpage.cpp:431
+#: app/browsemainpage.cpp:117 app/mainwindow.cpp:364 app/viewmainpage.cpp:433
 #: lib/documentview/documentviewcontroller.cpp:92
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
@@ -143,15 +143,15 @@ msgstr[1] "%1 दस्तऐवज"
 msgid "Add Filter"
 msgstr "गाळणी जोडा"
 
-#: app/configdialog.cpp:72
+#: app/configdialog.cpp:73
 msgid "General"
 msgstr "सामान्य"
 
-#: app/configdialog.cpp:100
+#: app/configdialog.cpp:107
 msgid "Image View"
 msgstr "प्रतिमेचे दृश्य"
 
-#: app/configdialog.cpp:105
+#: app/configdialog.cpp:112
 msgid "Advanced"
 msgstr "प्रगत"
 
@@ -531,7 +531,7 @@ msgstr "ग्वेनव्ह्यू ह्या प्रकारच्�
 msgid "Image Operations"
 msgstr "प्रतिमा प्रक्रिया"
 
-#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. i18n: ectx: property (text), widget (QLabel, label_1)
 #: app/imageviewconfigpage.ui:17
 msgid "Transparent background:"
 msgstr "पारदर्शक पार्श्वभूमी"
@@ -546,7 +546,7 @@ msgstr "फलक तपासा (&C)"
 msgid "&Solid color:"
 msgstr "गडद रंग (&S)"
 
-#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: app/imageviewconfigpage.ui:119
 msgid "Mouse wheel behavior:"
 msgstr "माऊसच्या चक्राचे चलन "
@@ -563,54 +563,77 @@ msgctxt "@option:radio action on mouse wheel"
 msgid "Browse"
 msgstr "ब्राऊज"
 
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/imageviewconfigpage.ui:199
+msgid "Zoom mode:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, autofitZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:214
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Go to first image"
+msgid "Autofit each image"
+msgstr "पहिल्या प्रतिमेकडे जा"
+
+#. i18n: ectx: property (text), widget (QRadioButton, keepSameZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:241
+msgid "Keep same zoom and position"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, individualZoomModeRadioButton)
+#: app/imageviewconfigpage.ui:265
+msgid "Per image zoom and position"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
-#: app/imageviewconfigpage.ui:201 lib/print/printoptionspage.ui:98
+#: app/imageviewconfigpage.ui:305 lib/print/printoptionspage.ui:98
 msgid "Enlarge smaller images"
 msgstr "लहान प्रतिमा मोठ्या करा"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: app/imageviewconfigpage.ui:239
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: app/imageviewconfigpage.ui:343
 msgid "Animations:"
 msgstr "चलतचित्रांचे तंत्र"
 
 #. i18n: ectx: property (text), widget (QRadioButton, glAnimationRadioButton)
-#: app/imageviewconfigpage.ui:254
+#: app/imageviewconfigpage.ui:358
 msgid "OpenGL"
 msgstr "OpenGL"
 
 #. i18n: ectx: property (text), widget (QRadioButton, softwareAnimationRadioButton)
-#: app/imageviewconfigpage.ui:281
+#: app/imageviewconfigpage.ui:385
 msgid "Software"
 msgstr "सॉफ़्टवेअर"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
-#: app/imageviewconfigpage.ui:305
+#: app/imageviewconfigpage.ui:409
 msgid "None"
 msgstr "काही नाही"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: app/imageviewconfigpage.ui:327
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: app/imageviewconfigpage.ui:447
 msgid "<b>Thumbnail Bar</b>"
 msgstr "<b>लघुप्रतिमा पट्टी</b>"
 
-#. i18n: ectx: property (text), widget (QLabel, label_9)
-#: app/imageviewconfigpage.ui:334
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: app/imageviewconfigpage.ui:470
 msgid "Orientation:"
 msgstr "कल :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
-#: app/imageviewconfigpage.ui:349
+#: app/imageviewconfigpage.ui:485
 msgid "Horizontal"
 msgstr "आडवा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
-#: app/imageviewconfigpage.ui:373
+#: app/imageviewconfigpage.ui:509
 msgid "Vertical"
 msgstr "उभा"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: app/imageviewconfigpage.ui:395
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: app/imageviewconfigpage.ui:531
 msgid "Row count:"
 msgstr "ओळी संख्या :"
 
@@ -1106,20 +1129,20 @@ msgstr ""
 "टॅग्स वापरून शोधण्याची सोय उपलब्ध नाही. नेपोमुक(Nepomuk) योग्य तऱ्हेने प्रतीस्थापित केलेला "
 "आहे याची खात्री करा"
 
-#: app/viewmainpage.cpp:307 app/viewmainpage.cpp:443
+#: app/viewmainpage.cpp:309 app/viewmainpage.cpp:445
 msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
-#: app/viewmainpage.cpp:434
+#: app/viewmainpage.cpp:436
 msgid "Thumbnail Bar"
 msgstr "लघुप्रतिमा पट्टी"
 
-#: app/viewmainpage.cpp:725
+#: app/viewmainpage.cpp:720
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "बदल काढून टाका आणि पुन्हा दाखल करा"
 
-#: app/viewmainpage.cpp:727
+#: app/viewmainpage.cpp:722
 msgctxt "@info"
 msgid ""
 "This image has been modified. Reloading it will discard all your changes."
@@ -1463,21 +1486,21 @@ msgstr ""
 "लिहिण्यासाठी फाईल उघडता आली नाही, तुमच्याकडे <filename>%1</filename> या फाईलमध्ये  "
 "लिहिण्यासाठी आवश्यक हक्क असल्याची खात्री करून घ्या"
 
-#: lib/documentview/documentview.cpp:178
+#: lib/documentview/documentview.cpp:182
 msgctxt "@info:tooltip"
 msgid "Trash"
 msgstr "कचरापेटी"
 
-#: lib/documentview/documentview.cpp:179
+#: lib/documentview/documentview.cpp:183
 msgctxt "@action:button"
 msgid "Deselect"
 msgstr "निवड रद्द करा"
 
-#: lib/documentview/documentview.cpp:369
+#: lib/documentview/documentview.cpp:373
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "ह्या प्रकारचा दस्तऐवज कश्या प्रकारे दर्शवावयाचा ह्याची माहित ग्वेनव्ह्युजवळ नाही"
 
-#: lib/documentview/documentview.cpp:467
+#: lib/documentview/documentview.cpp:471
 #, kde-format
 msgid "Loading <filename>%1</filename> failed"
 msgstr "<filename>%1</filename> दाखल करता आली नाही"
@@ -1509,7 +1532,7 @@ msgid "%1"
 msgstr "%1"
 
 #. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
-#: lib/gwenviewconfig.kcfg:31
+#: lib/gwenviewconfig.kcfg:32
 msgid ""
 "The percentage of memory used by Gwenview before it\n"
 "            warns the user and suggest saving changes."
@@ -1518,7 +1541,7 @@ msgstr ""
 "बदल साठविण्यास सुचवितो"
 
 #. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
-#: lib/gwenviewconfig.kcfg:38
+#: lib/gwenviewconfig.kcfg:39
 #, fuzzy
 #| msgid ""
 #| "A list of filename extensions Gwenview should not try to\n"
@@ -1537,40 +1560,44 @@ msgstr ""
 "            TIFF किंवा JPEG. आम्ही नवीन सुद्धा वगळतो कारण हा वाढीव कार्यक्रम आहे\n"
 "            के-सेव्ह-फाईल च्या सहाय्याने तात्पुरत्या फाईल्स साठवण्यासाठी वापरला."
 
-#. i18n: ectx: whatsthis, entry (LockZoom), group (ImageView)
-#: lib/gwenviewconfig.kcfg:139
+#. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
+#: lib/gwenviewconfig.kcfg:150
 msgid ""
-"Defines what happens when going to image B after having zoomed an area of "
-"image A.\n"
-"                When true: zoom and position is kept. When false: image B is "
-"zoomed out to fit the screen."
+"Defines what happens when going to image B after\n"
+"            having zoomed in on an area of image A.  If set to Autofit,\n"
+"            image B is zoomed out to fit the screen.  If set to KeepSame,\n"
+"            all images share the same zoom and position: image B is set\n"
+"            to the same zoom parameters as image A (and if these are\n"
+"            changed, image A will then be displayed with the updated zoom\n"
+"            and position).  If set to Individual, all images remember\n"
+"            their own zoom and position: image B is initially set to the\n"
+"            same zoom parameters as image A, but will then remember its\n"
+"            own zoom and position (if these are changed, image A will NOT\n"
+"            be displayed with the updated zoom and position)."
 msgstr ""
-"प्रतिमा अ च्या क्षेत्रात झूम केल्यानंतर प्रतिमा बी कडे जाताना कायकाय होते ते निश्चीत "
-"करतोखरे असेल तेंव्हा झूम आणि स्थिती तशीच राहते. खोटे असेल तर प्रतिमा बी पडद्यावर ण "
-"मावळ्याने बाहेर झूम करतो."
 
 #. i18n: ectx: label, entry (random), group (slide show)
-#: lib/gwenviewconfig.kcfg:220
+#: lib/gwenviewconfig.kcfg:231
 msgid "Display slide show images in random order"
 msgstr "स्लाइडप्रदर्शनाच्या प्रतिमा कोणत्याही क्रमाने दर्शवा."
 
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
-#: lib/gwenviewconfig.kcfg:224
+#: lib/gwenviewconfig.kcfg:235
 msgid "Show slideshow in fullscreen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीत स्लाइड प्रदर्शन दर्शवा."
 
 #. i18n: ectx: label, entry (loop), group (slide show)
-#: lib/gwenviewconfig.kcfg:228
+#: lib/gwenviewconfig.kcfg:239
 msgid "Loop on images"
 msgstr "प्रतिमा चक्राकार पद्धतीत ठेवा"
 
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
-#: lib/gwenviewconfig.kcfg:232
+#: lib/gwenviewconfig.kcfg:243
 msgid "Stop at last image of folder"
 msgstr "संचयीकेमधील शेवटच्या प्रतिमेपाशी थांबा"
 
 #. i18n: ectx: label, entry (interval), group (slide show)
-#: lib/gwenviewconfig.kcfg:236
+#: lib/gwenviewconfig.kcfg:247
 msgid "Interval between images (in seconds)"
 msgstr "दोन प्रतिमादरम्यानचा अंतराल (सेकंदामध्ये)"
 
@@ -1808,6 +1835,16 @@ msgstr "फाईल (&F)"
 #: part/gvpart.rc:8
 msgid "&View"
 msgstr "दृश्य (&V)"
+
+#~ msgid ""
+#~ "Defines what happens when going to image B after having zoomed an area of "
+#~ "image A.\n"
+#~ "                When true: zoom and position is kept. When false: image B "
+#~ "is zoomed out to fit the screen."
+#~ msgstr ""
+#~ "प्रतिमा अ च्या क्षेत्रात झूम केल्यानंतर प्रतिमा बी कडे जाताना कायकाय होते ते निश्चीत "
+#~ "करतोखरे असेल तेंव्हा झूम आणि स्थिती तशीच राहते. खोटे असेल तर प्रतिमा बी पडद्यावर ण "
+#~ "मावळ्याने बाहेर झूम करतो."
 
 #~ msgid "Last document reached, continuing on first document."
 #~ msgstr "शेवटच्या दस्तऐवजावर पोहचले, पहिल्या दस्तऐवजापासून सुरु करत आहे."
