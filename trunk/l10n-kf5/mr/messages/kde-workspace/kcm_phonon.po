@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_phonon\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-06 07:56+0000\n"
+"POT-Creation-Date: 2014-08-08 08:30+0000\n"
 "PO-Revision-Date: 2013-03-28 15:41+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -49,10 +49,72 @@ msgstr "स्वतंत्र साधने"
 msgid "KDE Audio Hardware Setup"
 msgstr "केडीई आवाज हार्डवेअर व्यवस्था"
 
+#. i18n: ectx: property (title), widget (QGroupBox, hardwareGroupBox)
+#: audiosetup.ui:18
+msgid "Hardware"
+msgstr "हार्डवेअर"
+
+#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#: audiosetup.ui:44
+msgid "Profile"
+msgstr "रूपरेषा"
+
+#. i18n: ectx: property (text), widget (QLabel, cardLabel)
+#: audiosetup.ui:54
+msgid "Sound Card"
+msgstr "आवाजाचे कार्ड"
+
+#. i18n: ectx: property (title), widget (QGroupBox, deviceGroupBox)
+#: audiosetup.ui:67
+msgid "Device Configuration"
+msgstr "साधन संयोजना"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: audiosetup.ui:83
+msgid "Connector"
+msgstr "जोडणारा"
+
+#. i18n: ectx: property (text), widget (QLabel, deviceLabel)
+#: audiosetup.ui:103
+msgid "Sound Device"
+msgstr "आवाजाचे साधन"
+
+#. i18n: ectx: property (title), widget (QGroupBox, outputGroupBox)
+#: audiosetup.ui:144
+msgid "Speaker Placement and Testing"
+msgstr "स्पीकरची जागा व चाचणी"
+
+#. i18n: ectx: property (title), widget (QGroupBox, inputGroupBox)
+#: audiosetup.ui:181
+msgid "Input Levels"
+msgstr "इनपुट पातळी"
+
 #: backendselection.cpp:74
 msgctxt "@info User changed Phonon backend"
 msgid "To apply the backend change you will have to log out and back in again."
 msgstr "बॅकएन्ड बदल लागु होण्याकरिता तुम्हाला बाहेर पडुन परत प्रवेश करावा लागेल."
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, m_select)
+#. i18n: ectx: property (whatsThis), widget (QListWidget, m_select)
+#: backendselection.ui:38 backendselection.ui:41
+msgid ""
+"A list of Phonon Backends found on your system.  The order here determines "
+"the order Phonon will use them in."
+msgstr ""
+"प्रणालीवरील आढळलेले फोनॉन बॅकएन्डची यादी. येथिल क्रमवारी फोनॉन द्वारे वापरलेली जाणारी "
+"क्रमवारी निश्चित केली जाते."
+
+#. i18n: ectx: property (text), widget (QToolButton, m_up)
+#. i18n: ectx: property (text), widget (QToolButton, preferButton)
+#: backendselection.ui:57 devicepreference.ui:190
+msgid "Prefer"
+msgstr "प्राधान्यता"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_down)
+#. i18n: ectx: property (text), widget (QToolButton, deferButton)
+#: backendselection.ui:70 devicepreference.ui:206
+msgid "Defer"
+msgstr "विलंब करा"
 
 #: devicepreference.cpp:92
 msgid "Audio Playback"
@@ -137,6 +199,64 @@ msgstr "व्हिडीओ रेकॉर्डिंग करण्या�
 msgid "Testing %1"
 msgstr "%1 ची चाचणी घेत आहे"
 
+#. i18n: ectx: property (toolTip), widget (QTreeView, categoryTree)
+#. i18n: ectx: property (whatsThis), widget (QTreeView, categoryTree)
+#: devicepreference.ui:29 devicepreference.ui:32
+msgid ""
+"Various categories of media use cases.  For each category, you may choose "
+"what device you prefer to be used by the Phonon applications."
+msgstr ""
+"फोनॉन अनुप्रयोग प्रत्येक विभागाकरिता कोणते साधन वापरेल त्याची निवड तुम्ही करू शकता."
+
+#. i18n: ectx: property (text), widget (QCheckBox, showAdvancedDevicesCheckBox)
+#: devicepreference.ui:47
+msgid "Show advanced devices"
+msgstr "प्रगत साधन दर्शवा"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, applyPreferencesButton)
+#. i18n: ectx: property (whatsThis), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:77 devicepreference.ui:80
+msgid "Use the currently shown device list for more categories."
+msgstr "अधिक विभागांकरिता वर्तमान दर्शविलेली साधन यादी वापरा."
+
+#. i18n: ectx: property (text), widget (QPushButton, applyPreferencesButton)
+#: devicepreference.ui:83
+msgid "Apply Device List To..."
+msgstr "या करिता साधन यादी लागू करा..."
+
+#. i18n: ectx: property (toolTip), widget (QTreeView, deviceList)
+#: devicepreference.ui:113
+msgid ""
+"Devices found on your system, suitable for the selected category.  Choose "
+"the device that you wish to be used by the applications."
+msgstr ""
+"निवडलेल्या विभागाकरिता योग्य साधने तुमच्या प्रणालीवर आढळली. अनुप्रयोगांनी वापरण्याकरिता "
+"तुमची इच्छा असलेल्या साधनाची निवड करा."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeView, deviceList)
+#: devicepreference.ui:116
+msgid ""
+"The order determines the preference of the devices. If for some reason the "
+"first device cannot be used Phonon will try to use the second, and so on."
+msgstr ""
+"हा क्रम साधनांची प्राधान्यता ठरवितो. जर काही कारणांमुळे पहिले साधन वापरता आले नाही तर "
+"फोनॉन पुढच्या साधनाचा प्रयत्न करेल."
+
+#. i18n: ectx: property (text), widget (QToolButton, testPlaybackButton)
+#: devicepreference.ui:171
+msgid "Test"
+msgstr "चाचणी"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, preferButton)
+#: devicepreference.ui:187
+msgid "prefer the selected device"
+msgstr "निवडलेले साधन प्राधान्यकृत करा"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, deferButton)
+#: devicepreference.ui:203
+msgid "no preference for the selected device"
+msgstr "निवडलेले साधन करिता प्राधान्यता निवडली नाही"
+
 #: main.cpp:43
 msgid "Phonon Configuration Module"
 msgstr "फोनॉन संयोजना विभाग"
@@ -216,82 +336,6 @@ msgstr "सबवूफर"
 #: testspeakerwidget.cpp:174
 msgid "Unknown Channel"
 msgstr "अपरिचीत चैनल"
-
-#~ msgid "Hardware"
-#~ msgstr "हार्डवेअर"
-
-#~ msgid "Profile"
-#~ msgstr "रूपरेषा"
-
-#~ msgid "Sound Card"
-#~ msgstr "आवाजाचे कार्ड"
-
-#~ msgid "Device Configuration"
-#~ msgstr "साधन संयोजना"
-
-#~ msgid "Connector"
-#~ msgstr "जोडणारा"
-
-#~ msgid "Sound Device"
-#~ msgstr "आवाजाचे साधन"
-
-#~ msgid "Speaker Placement and Testing"
-#~ msgstr "स्पीकरची जागा व चाचणी"
-
-#~ msgid "Input Levels"
-#~ msgstr "इनपुट पातळी"
-
-#~ msgid ""
-#~ "A list of Phonon Backends found on your system.  The order here "
-#~ "determines the order Phonon will use them in."
-#~ msgstr ""
-#~ "प्रणालीवरील आढळलेले फोनॉन बॅकएन्डची यादी. येथिल क्रमवारी फोनॉन द्वारे वापरलेली "
-#~ "जाणारी क्रमवारी निश्चित केली जाते."
-
-#~ msgid "Prefer"
-#~ msgstr "प्राधान्यता"
-
-#~ msgid "Defer"
-#~ msgstr "विलंब करा"
-
-#~ msgid ""
-#~ "Various categories of media use cases.  For each category, you may choose "
-#~ "what device you prefer to be used by the Phonon applications."
-#~ msgstr ""
-#~ "फोनॉन अनुप्रयोग प्रत्येक विभागाकरिता कोणते साधन वापरेल त्याची निवड तुम्ही करू शकता."
-
-#~ msgid "Show advanced devices"
-#~ msgstr "प्रगत साधन दर्शवा"
-
-#~ msgid "Use the currently shown device list for more categories."
-#~ msgstr "अधिक विभागांकरिता वर्तमान दर्शविलेली साधन यादी वापरा."
-
-#~ msgid "Apply Device List To..."
-#~ msgstr "या करिता साधन यादी लागू करा..."
-
-#~ msgid ""
-#~ "Devices found on your system, suitable for the selected category.  Choose "
-#~ "the device that you wish to be used by the applications."
-#~ msgstr ""
-#~ "निवडलेल्या विभागाकरिता योग्य साधने तुमच्या प्रणालीवर आढळली. अनुप्रयोगांनी "
-#~ "वापरण्याकरिता तुमची इच्छा असलेल्या साधनाची निवड करा."
-
-#~ msgid ""
-#~ "The order determines the preference of the devices. If for some reason "
-#~ "the first device cannot be used Phonon will try to use the second, and so "
-#~ "on."
-#~ msgstr ""
-#~ "हा क्रम साधनांची प्राधान्यता ठरवितो. जर काही कारणांमुळे पहिले साधन वापरता आले नाही "
-#~ "तर फोनॉन पुढच्या साधनाचा प्रयत्न करेल."
-
-#~ msgid "Test"
-#~ msgstr "चाचणी"
-
-#~ msgid "prefer the selected device"
-#~ msgstr "निवडलेले साधन प्राधान्यकृत करा"
-
-#~ msgid "no preference for the selected device"
-#~ msgstr "निवडलेले साधन करिता प्राधान्यता निवडली नाही"
 
 #~ msgid "Audio Output"
 #~ msgstr "ऑडिओ आऊपुट"
