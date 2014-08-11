@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-26 01:31+0000\n"
+"POT-Creation-Date: 2014-08-11 01:39+0000\n"
 "PO-Revision-Date: 2013-04-10 17:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -118,13 +118,13 @@ msgstr "Shift"
 
 #. i18n: Select an action which will be assigned to a tablet button.
 #. i18n: ectx: property (placeholderText), widget (Wacom::ButtonActionDisplayWidget, actionNameLineEdit)
-#: src/kcmodule/buttonactionselectionwidget.ui:164
+#: src/kcmodule/buttonactionselectionwidget.ui:159
 msgid "Please select an action."
 msgstr "कृपया क्रिया निवडा."
 
 #. i18n: Click to assign an action (shortcut) to a tablet button.
 #. i18n: ectx: property (placeholderText), widget (Wacom::ButtonActionDisplayWidget, actionNameDisplayWidget)
-#: src/kcmodule/buttonactionselectorwidget.ui:56
+#: src/kcmodule/buttonactionselectorwidget.ui:51
 msgid "Click to assign an action."
 msgstr ""
 
@@ -135,7 +135,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroupBox)
 #: src/kcmodule/buttonpagewidget.ui:29
-#: src/kcmodule/kcmwacomtabletwidget.cpp:330
+#: src/kcmodule/kcmwacomtabletwidget.cpp:425
 msgid "Express Buttons"
 msgstr ""
 
@@ -257,131 +257,172 @@ msgstr ""
 msgid "No Tablet Found"
 msgstr "एकही टॅब्लेट सापडला नाही"
 
-#: src/kcmodule/generalpagewidget.cpp:81 src/kded/tabletdaemon.cpp:143
+#: src/kcmodule/generalpagewidget.cpp:86 src/kded/tabletdaemon.cpp:143
 msgctxt "@action"
 msgid "Enable/Disable the Touch Tool"
 msgstr "टच साधन कार्यान्वित/अकार्यान्वित करा"
 
-#: src/kcmodule/generalpagewidget.cpp:86 src/kded/tabletdaemon.cpp:148
+#: src/kcmodule/generalpagewidget.cpp:91 src/kded/tabletdaemon.cpp:148
 msgctxt "@action"
 msgid "Toggle the Stylus Tool Relative/Absolute"
 msgstr ""
 
-#: src/kcmodule/generalpagewidget.cpp:91 src/kded/tabletdaemon.cpp:153
+#: src/kcmodule/generalpagewidget.cpp:96 src/kded/tabletdaemon.cpp:153
 msgctxt "@action"
 msgid "Toggle between all screens"
 msgstr "सर्व स्क्रीन दरम्यान ये/जा करा"
 
-#: src/kcmodule/generalpagewidget.cpp:96
+#: src/kcmodule/generalpagewidget.cpp:101
 msgctxt ""
 "@action Maps the area of the tablet to all available screen space (space "
 "depends on connected monitors)"
 msgid "Map to fullscreen"
 msgstr "पूर्णस्क्रीनवर मेप करा"
 
-#: src/kcmodule/generalpagewidget.cpp:101 src/kded/tabletdaemon.cpp:163
+#: src/kcmodule/generalpagewidget.cpp:106 src/kded/tabletdaemon.cpp:163
 msgctxt "@action"
 msgid "Map to screen 1"
 msgstr ""
 
-#: src/kcmodule/generalpagewidget.cpp:106 src/kded/tabletdaemon.cpp:168
+#: src/kcmodule/generalpagewidget.cpp:111 src/kded/tabletdaemon.cpp:168
 msgctxt "@action"
 msgid "Map to screen 2"
 msgstr ""
 
-#: src/kcmodule/generalpagewidget.cpp:111
+#: src/kcmodule/generalpagewidget.cpp:116 src/kded/tabletdaemon.cpp:173
+#, fuzzy
+#| msgid "Select Profile:"
+msgctxt "@action Switch to the next profile in the rotation"
+msgid "Next profile"
+msgstr "रूपरेषा निवडा :"
+
+#: src/kcmodule/generalpagewidget.cpp:121 src/kded/tabletdaemon.cpp:178
+msgctxt "@action Switch to the previous profile in the rotation"
+msgid "Previous Profile"
+msgstr ""
+
+#: src/kcmodule/generalpagewidget.cpp:126
 msgid "Wacom Tablet Settings"
 msgstr "वेकॉम टॅब्लेट संयोजना"
+
+#: src/kcmodule/generalpagewidget.cpp:228
+#, fuzzy
+#| msgid "Profile name:"
+msgid "Profile List"
+msgstr "प्रोफाईल नाव:"
+
+#: src/kcmodule/generalpagewidget.cpp:229
+#, fuzzy
+#| msgid "Select Profile:"
+msgid "Select the Profile you want to add:"
+msgstr "रूपरेषा निवडा :"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, GeneralPageWidget)
 #: src/kcmodule/generalpagewidget.ui:14
 msgid "General Hardware Overview"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/kcmodule/generalpagewidget.ui:23
-msgid "Tablet Details"
-msgstr "टॅब्लेट तपशील"
+#. i18n: ectx: property (title), widget (QGroupBox, profileRotationBox)
+#: src/kcmodule/generalpagewidget.ui:29
+#, fuzzy
+#| msgctxt "Rotation of the tablet pad"
+#| msgid "Rotation:"
+msgid "ProfileRotation"
+msgstr "फिरवणे :"
 
-#. i18n: ectx: property (text), widget (QLabel, CompanyLabel)
-#: src/kcmodule/generalpagewidget.ui:93
-msgid "Company:"
-msgstr "कंपनी :"
+#. i18n: ectx: property (text), widget (QPushButton, pbUp)
+#: src/kcmodule/generalpagewidget.ui:65
+#, fuzzy
+#| msgctxt "Action when the Wheel is used upwards"
+#| msgid "Up:"
+msgid "Up"
+msgstr "वर :"
 
-#. i18n: ectx: property (text), widget (QLabel, tabletLabel)
-#: src/kcmodule/generalpagewidget.ui:113
-msgid "Tablet:"
-msgstr "टॅब्लेट :"
+#. i18n: ectx: property (text), widget (QPushButton, pbAddToRotationList)
+#: src/kcmodule/generalpagewidget.ui:78
+msgid "Add"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, devicesLabel)
-#: src/kcmodule/generalpagewidget.ui:133
-msgid "Input Devices:"
-msgstr "इनपुट साधने :"
+#. i18n: ectx: property (text), widget (QPushButton, pbDown)
+#: src/kcmodule/generalpagewidget.ui:91
+#, fuzzy
+msgid "Down"
+msgstr "खाली"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbRemoveFromRotationList)
+#: src/kcmodule/generalpagewidget.ui:104
+msgid "Remove"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, shortcutGroupBox)
-#: src/kcmodule/generalpagewidget.ui:154
+#: src/kcmodule/generalpagewidget.ui:128
 msgid "Shortcuts"
 msgstr "शॉर्टकट"
 
-#: src/kcmodule/kcmwacomtablet.cpp:73
+#: src/kcmodule/kcmwacomtablet.cpp:74
 msgid "Graphic Tablet Configuration"
 msgstr ""
 
-#: src/kcmodule/kcmwacomtablet.cpp:74
+#: src/kcmodule/kcmwacomtablet.cpp:75
 msgid "A configurator for graphic tablets"
 msgstr ""
 
-#: src/kcmodule/kcmwacomtablet.cpp:75
+#: src/kcmodule/kcmwacomtablet.cpp:76
 msgid "In this module you can configure your Wacom tablet profiles"
 msgstr ""
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:132
+#: src/kcmodule/kcmwacomtabletwidget.cpp:157
 msgid "KDE tablet service not found"
 msgstr ""
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:133
+#: src/kcmodule/kcmwacomtabletwidget.cpp:158
 msgid ""
 "Please start the KDE wacom tablet service to use this configuration dialog.\n"
 "The service is required for tablet detection and profile support."
 msgstr ""
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:138
+#: src/kcmodule/kcmwacomtabletwidget.cpp:163
 msgid "No tablet device detected"
 msgstr ""
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:139
+#: src/kcmodule/kcmwacomtabletwidget.cpp:164
 msgid ""
 "Please connect a tablet device to continue.\n"
 "If your device is already connected it is currently unsupported."
 msgstr ""
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:152
+#: src/kcmodule/kcmwacomtabletwidget.cpp:216
 msgid "Add new profile"
 msgstr ""
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:153
+#: src/kcmodule/kcmwacomtabletwidget.cpp:217
 msgid "Profile name:"
 msgstr "प्रोफाईल नाव:"
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:324
+#: src/kcmodule/kcmwacomtabletwidget.cpp:409
+msgctxt "Name of the default profile that will be created if none exist."
+msgid "Default"
+msgstr ""
+
+#: src/kcmodule/kcmwacomtabletwidget.cpp:418
 msgctxt "Basic overview page for the tablet hardware"
 msgid "General"
 msgstr "सामान्य"
 
-#: src/kcmodule/kcmwacomtabletwidget.cpp:325
+#: src/kcmodule/kcmwacomtabletwidget.cpp:419
 msgid "Stylus"
 msgstr "स्टाइलस"
 
 #. i18n: ectx: property (title), widget (QGroupBox, tabletGroupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, generalGroupBox)
-#: src/kcmodule/kcmwacomtabletwidget.cpp:333
+#: src/kcmodule/kcmwacomtabletwidget.cpp:428
 #: src/kcmodule/tabletareaselectionview.ui:150
 #: src/kcmodule/tabletpagewidget.ui:17
 msgid "Tablet"
 msgstr "टॅब्लेट"
 
 #. i18n: ectx: property (title), widget (QGroupBox, touchGroupBox)
-#: src/kcmodule/kcmwacomtabletwidget.cpp:339
+#: src/kcmodule/kcmwacomtabletwidget.cpp:434
 #: src/kcmodule/touchpagewidget.ui:17
 msgid "Touch"
 msgstr "टच"
@@ -391,28 +432,35 @@ msgstr "टच"
 msgid "Graphic Tablet Settings"
 msgstr "ग्राफिक टॅब्लेट संयोजना"
 
-#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#. i18n: ectx: property (text), widget (QLabel, tabletListLabel)
 #: src/kcmodule/kcmwacomtabletwidget.ui:28
+#, fuzzy
+#| msgid "Select Profile:"
+msgid "Select Tablet:"
+msgstr "रूपरेषा निवडा :"
+
+#. i18n: ectx: property (text), widget (QLabel, profileLabel)
+#: src/kcmodule/kcmwacomtabletwidget.ui:52
 msgid "Select Profile:"
 msgstr "रूपरेषा निवडा :"
 
 #. i18n: ectx: property (toolTip), widget (KAnimatedButton, addProfileButton)
-#: src/kcmodule/kcmwacomtabletwidget.ui:48
+#: src/kcmodule/kcmwacomtabletwidget.ui:72
 msgid "Creates a new default profile"
 msgstr ""
 
 #. i18n: ectx: property (icons), widget (KAnimatedButton, addProfileButton)
-#: src/kcmodule/kcmwacomtabletwidget.ui:57
+#: src/kcmodule/kcmwacomtabletwidget.ui:81
 msgid "document-new"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KAnimatedButton, delProfileButton)
-#: src/kcmodule/kcmwacomtabletwidget.ui:64
+#: src/kcmodule/kcmwacomtabletwidget.ui:88
 msgid "Deletes the current profile"
 msgstr ""
 
 #. i18n: ectx: property (icons), widget (KAnimatedButton, delProfileButton)
-#: src/kcmodule/kcmwacomtabletwidget.ui:67
+#: src/kcmodule/kcmwacomtabletwidget.ui:91
 msgid "edit-delete-page"
 msgstr ""
 
@@ -541,6 +589,43 @@ msgstr ""
 msgid "Tip Feel"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBoxRawSample)
+#. i18n: ectx: property (toolTip), widget (QSlider, horizontalSliderRawSample)
+#: src/kcmodule/styluspagewidget.ui:393 src/kcmodule/styluspagewidget.ui:402
+msgid "Number of raw data used to filter the points (default is 4)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxRawSample)
+#: src/kcmodule/styluspagewidget.ui:396
+msgid "Raw Sample Rate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMinRawSample)
+#: src/kcmodule/styluspagewidget.ui:432
+msgid "1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMaxRawSample)
+#. i18n: ectx: property (text), widget (QLabel, labelMaxSuppress)
+#: src/kcmodule/styluspagewidget.ui:452 src/kcmodule/styluspagewidget.ui:526
+msgid "20"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, groupBoxSupress)
+#: src/kcmodule/styluspagewidget.ui:470
+msgid "Number of points trimmed (default is 2)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBoxSupress)
+#: src/kcmodule/styluspagewidget.ui:473
+msgid "Suppress Rate"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelMinSuppress)
+#: src/kcmodule/styluspagewidget.ui:506
+msgid "0"
+msgstr ""
+
 #: src/kcmodule/tabletareaselectiondialog.cpp:107
 msgctxt ""
 "Dialog title from a dialog which lets the user select an area of the tablet "
@@ -615,24 +700,24 @@ msgstr ""
 msgid "This mapping can only be applied in absolute tracking mode."
 msgstr ""
 
-#: src/kcmodule/tabletpagewidget.cpp:446
+#: src/kcmodule/tabletpagewidget.cpp:453
 msgctxt ""
 "Either no orientation or the current screen orientation is applied to the "
 "tablet."
 msgid "Default Orientation"
 msgstr "मूलभूत कल"
 
-#: src/kcmodule/tabletpagewidget.cpp:447
+#: src/kcmodule/tabletpagewidget.cpp:454
 msgctxt "The tablet will be rotated clockwise."
 msgid "Rotate Tablet Clockwise"
 msgstr "टॅब्लेट घड्याळाच्या काट्याच्या दिशेने फिरवा"
 
-#: src/kcmodule/tabletpagewidget.cpp:448
+#: src/kcmodule/tabletpagewidget.cpp:455
 msgctxt "The tablet will be rotated counterclockwise."
 msgid "Rotate Tablet Counterclockwise"
 msgstr "टॅब्लेट घड्याळाच्या विरूध्द दिशानुरूप फिरवा"
 
-#: src/kcmodule/tabletpagewidget.cpp:449
+#: src/kcmodule/tabletpagewidget.cpp:456
 msgctxt "The tablet will be rotated up side down."
 msgid "Rotate Tablet Upside-Down"
 msgstr ""
@@ -676,40 +761,40 @@ msgid "Map Tablet Area to Screen"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, trackingWarningLabel)
-#: src/kcmodule/tabletpagewidget.ui:142 src/kcmodule/touchpagewidget.ui:158
+#: src/kcmodule/tabletpagewidget.ui:137 src/kcmodule/touchpagewidget.ui:153
 msgid ""
 "Your currently selected mapping can not be applied in relative tracking mode."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QGroupBox, rotationGroupBox)
-#: src/kcmodule/tabletpagewidget.ui:183
+#: src/kcmodule/tabletpagewidget.ui:178
 msgid "Changes the orientation of the tablet."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, rotationGroupBox)
-#: src/kcmodule/tabletpagewidget.ui:186
+#: src/kcmodule/tabletpagewidget.ui:181
 msgid "Orientation"
 msgstr "कल"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, rotateWithScreenCheckBox)
-#: src/kcmodule/tabletpagewidget.ui:195
+#: src/kcmodule/tabletpagewidget.ui:190
 msgid "If enabled, the tablet rotates together with the screen."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, rotateWithScreenCheckBox)
-#: src/kcmodule/tabletpagewidget.ui:198
+#: src/kcmodule/tabletpagewidget.ui:193
 msgid "Auto-Rotate with Screen"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, rotateWithScreenInvertCheckBox)
-#: src/kcmodule/tabletpagewidget.ui:208
+#: src/kcmodule/tabletpagewidget.ui:203
 msgid ""
 "If enabled the automatic tablet rotation for clockwise and counterclockwise "
 "rotations will be inverted."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, rotateWithScreenInvertCheckBox)
-#: src/kcmodule/tabletpagewidget.ui:211
+#: src/kcmodule/tabletpagewidget.ui:206
 msgid "Invert Auto-Rotation"
 msgstr ""
 
@@ -739,73 +824,73 @@ msgid "Map Touch Area to Screen"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, gesturesCheckBox)
-#: src/kcmodule/touchpagewidget.ui:194
+#: src/kcmodule/touchpagewidget.ui:189
 msgid "If enabled the touch events can recognize gestures."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, gesturesCheckBox)
-#: src/kcmodule/touchpagewidget.ui:197
+#: src/kcmodule/touchpagewidget.ui:192
 msgid "Enable Gestures"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gesturesGroupBox)
-#: src/kcmodule/touchpagewidget.ui:215
+#: src/kcmodule/touchpagewidget.ui:210
 msgid "Gestures"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, scrollDistanceLabel)
-#: src/kcmodule/touchpagewidget.ui:227
+#: src/kcmodule/touchpagewidget.ui:222
 msgid "Minimum motion before sending a scroll gesture."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, scrollDistanceLabel)
-#: src/kcmodule/touchpagewidget.ui:230
+#: src/kcmodule/touchpagewidget.ui:225
 msgid "Scroll Distance"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, scrollDistanceSpinBox)
-#: src/kcmodule/touchpagewidget.ui:246
+#: src/kcmodule/touchpagewidget.ui:241
 msgid "The minimum motion in tablet units before sending a scroll event."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, zoomDistanceLabel)
-#: src/kcmodule/touchpagewidget.ui:265
+#: src/kcmodule/touchpagewidget.ui:260
 msgid "Minimum distance for a zoom gesture is recognized."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, zoomDistanceLabel)
-#: src/kcmodule/touchpagewidget.ui:268
+#: src/kcmodule/touchpagewidget.ui:263
 msgid "Zoom Distance"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, zoomDistanceSpinBox)
-#: src/kcmodule/touchpagewidget.ui:284
+#: src/kcmodule/touchpagewidget.ui:279
 msgid ""
 "The minimum distance in tablet units for a zoom gesture to be recognized."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, tapTimeLabel)
-#: src/kcmodule/touchpagewidget.ui:303
+#: src/kcmodule/touchpagewidget.ui:298
 msgid "Minimum time between taps for a right click."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, tapTimeLabel)
-#: src/kcmodule/touchpagewidget.ui:306
+#: src/kcmodule/touchpagewidget.ui:301
 msgid "Tap Time"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, tapTimeSpinBox)
-#: src/kcmodule/touchpagewidget.ui:316
+#: src/kcmodule/touchpagewidget.ui:311
 msgid "The minimum time in milliseconds between taps to trigger a right click."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, scrollInversionLabel)
-#: src/kcmodule/touchpagewidget.ui:329
+#: src/kcmodule/touchpagewidget.ui:324
 msgid "Invert Scroll Direction"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, scrollInversionCheckBox)
-#: src/kcmodule/touchpagewidget.ui:336
+#: src/kcmodule/touchpagewidget.ui:331
 msgid "If selected, the scroll direction for the scroll gesture is inverted."
 msgstr ""
 
@@ -816,40 +901,57 @@ msgctxt ""
 msgid "Map to all fullscreen"
 msgstr ""
 
-#: src/kded/tabletdaemon.cpp:182
+#: src/kded/tabletdaemon.cpp:192
 msgid "Graphic Tablet Configuration daemon"
 msgstr ""
 
-#: src/kded/tabletdaemon.cpp:183
+#: src/kded/tabletdaemon.cpp:193
 msgid "A Wacom tablet control daemon"
 msgstr ""
 
-#: src/kded/tablethandler.cpp:137
+#: src/kded/tablethandler.cpp:142
 msgid "Tablet Connected"
 msgstr ""
 
-#: src/kded/tablethandler.cpp:138
+#: src/kded/tablethandler.cpp:143
 #, kde-format
 msgid "New tablet '%1' connected."
 msgstr ""
 
-#: src/kded/tablethandler.cpp:156
+#: src/kded/tablethandler.cpp:164
 msgid "Tablet removed"
 msgstr ""
 
-#: src/kded/tablethandler.cpp:157
+#: src/kded/tablethandler.cpp:165
 #, kde-format
 msgid "Tablet %1 removed"
 msgstr ""
 
-#: src/kded/tablethandler.cpp:323
+#: src/kded/tablethandler.cpp:407
+msgctxt "Name of the default profile that will be created if none exists."
+msgid "Default"
+msgstr ""
+
+#: src/kded/tablethandler.cpp:419
 msgid "Graphic Tablet error"
 msgstr ""
 
-#: src/kded/tablethandler.cpp:324
+#: src/kded/tablethandler.cpp:420
 #, kde-format
-msgid "Profile <b>%1</b> does not exist"
+msgid "Profile <b>%1</b> does not exist. Apply <b>%2</b> instead"
 msgstr ""
+
+#~ msgid "Tablet Details"
+#~ msgstr "टॅब्लेट तपशील"
+
+#~ msgid "Company:"
+#~ msgstr "कंपनी :"
+
+#~ msgid "Tablet:"
+#~ msgstr "टॅब्लेट :"
+
+#~ msgid "Input Devices:"
+#~ msgstr "इनपुट साधने :"
 
 #~ msgctxt "Groupbox Settings for the applet to change some values on the fly"
 #~ msgid "Settings"
@@ -912,12 +1014,6 @@ msgstr ""
 #~ msgid "General"
 #~ msgstr "सामान्य"
 
-#, fuzzy
-#~| msgctxt "Rotation of the tablet pad"
-#~| msgid "Rotation:"
-#~ msgid "Rotation"
-#~ msgstr "फिरवणे :"
-
 #~ msgctxt "no pad rotation"
 #~ msgid "none"
 #~ msgstr "काही नाही"
@@ -966,15 +1062,6 @@ msgstr ""
 #~ msgctxt "Indicates the use of one of the standard buttons (1-32)"
 #~ msgid "Button..."
 #~ msgstr "बटन"
-
-#~ msgctxt "Action when the Wheel is used upwards"
-#~ msgid "Up:"
-#~ msgstr "वर :"
-
-#, fuzzy
-#~ msgctxt "Action when the Wheel is used downwards"
-#~ msgid "Down:"
-#~ msgstr "खाली"
 
 #~ msgctxt "doubleclick with the tip disabled"
 #~ msgid "Small"

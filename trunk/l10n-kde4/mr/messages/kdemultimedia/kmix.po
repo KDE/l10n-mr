@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-10 01:53+0000\n"
+"POT-Creation-Date: 2014-08-11 01:53+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -122,7 +122,7 @@ msgid "Error"
 msgstr "त्रुटी"
 
 #: apps/kmix.cpp:1348 gui/dialogaddview.cpp:132
-#: gui/dialogchoosebackends.cpp:88 gui/dialogselectmaster.cpp:113
+#: gui/dialogchoosebackends.cpp:88 gui/dialogselectmaster.cpp:110
 msgid "No sound card is installed or currently plugged in."
 msgstr "एकही साऊंडकार्ड प्रतिष्ठापीत नाही किंवा जोडलेले नाही."
 
@@ -251,7 +251,7 @@ msgid ""
 "Inhibits the unhiding of the KMix main window, if KMix is already running."
 msgstr "जर के-मिक्स अगोदरच चालू असेल तर के-मिक्सची मुख्य चौकट लपविणे थांबवतो."
 
-#: backends/mixer_alsa9.cpp:960
+#: backends/mixer_alsa9.cpp:981
 msgid ""
 "You do not have permission to access the alsa mixer device.\n"
 "Please verify if all alsa devices are properly created."
@@ -259,7 +259,7 @@ msgstr ""
 "तुम्हाला अल्सा मिक्सर साधन वापरायची परवानगी नाही.\n"
 "अल्सा साधने नीट निर्माण केलेली आहेत का ते कृपया तपासा."
 
-#: backends/mixer_alsa9.cpp:964
+#: backends/mixer_alsa9.cpp:985
 msgid ""
 "Alsa mixer cannot be found.\n"
 "Please check that the soundcard is installed and the\n"
@@ -269,7 +269,7 @@ msgstr ""
 "कृपया साऊंडकार्ड प्रतिष्ठापीत आहे व\n"
 "साऊंडकार्ड ड्राइव्हर दाखल केलेला आहे हे तपासा.\n"
 
-#: backends/mixer_backend.cpp:306
+#: backends/mixer_backend.cpp:304
 msgid ""
 "kmix:You do not have permission to access the mixer device.\n"
 "Please check your operating systems manual to allow the access."
@@ -277,15 +277,15 @@ msgstr ""
 "के-मिक्स : तुम्हाला मिक्सर साधन वापरायची परवानगी नाही.\n"
 "वापरण्याच्या परवानगी करिता कृपया तुमच्या प्रणालीची मदत पुस्तिका तपासा."
 
-#: backends/mixer_backend.cpp:310
+#: backends/mixer_backend.cpp:308
 msgid "kmix: Could not write to mixer."
 msgstr "के-मिक्स : मिक्सर वर लिहू शकत नाही."
 
-#: backends/mixer_backend.cpp:313
+#: backends/mixer_backend.cpp:311
 msgid "kmix: Could not read from mixer."
 msgstr "के-मिक्स : मिक्सर वर वाचू शकत नाही."
 
-#: backends/mixer_backend.cpp:316
+#: backends/mixer_backend.cpp:314
 msgid ""
 "kmix: Mixer cannot be found.\n"
 "Please check that the soundcard is installed and that\n"
@@ -295,7 +295,7 @@ msgstr ""
 "कृपया साऊंडकार्ड प्रतिष्ठापीत आहे व\n"
 "साऊंडकार्ड ड्राइव्हर दाखल केलेला आहे हे तपासा.\n"
 
-#: backends/mixer_backend.cpp:321
+#: backends/mixer_backend.cpp:319
 msgid "kmix: Unknown error. Please report how you produced this error."
 msgstr ""
 "के-मिक्स : अपरिचीत त्रुटी. कृपया हि त्रुटी कशी निर्माण झाली त्याचा अहवाल दाखल करा."
@@ -667,7 +667,7 @@ msgstr "दृश्य जोडा"
 msgid "Select mixer:"
 msgstr "मिक्सर निवडा :"
 
-#: gui/dialogaddview.cpp:118 gui/dialogselectmaster.cpp:99
+#: gui/dialogaddview.cpp:118 gui/dialogselectmaster.cpp:95
 msgid "Current mixer"
 msgstr "वर्तमान मिक्सर"
 
@@ -683,15 +683,15 @@ msgstr "आवाजाच्या मेन्यूत दर्शवाय�
 msgid "Select Mixers"
 msgstr "मिक्सर्स निवडा"
 
-#: gui/dialogselectmaster.cpp:42 gui/dialogselectmaster.cpp:155
+#: gui/dialogselectmaster.cpp:39 gui/dialogselectmaster.cpp:149
 msgid "Select Master Channel"
 msgstr "मुख्य माध्यम निवडा"
 
-#: gui/dialogselectmaster.cpp:80
+#: gui/dialogselectmaster.cpp:76
 msgid "Current mixer:"
 msgstr "वर्तमान मिक्सर :"
 
-#: gui/dialogselectmaster.cpp:106
+#: gui/dialogselectmaster.cpp:103
 msgid "Select the channel representing the master volume:"
 msgstr "मुख्य आवाजाचे प्रतिनिधित्व करणारा माध्यम निवडा :"
 
@@ -744,57 +744,49 @@ msgstr " (मौन केले)"
 msgid "Configure"
 msgstr "संयोजीत करा"
 
-#: gui/kmixprefdlg.cpp:81
+#: gui/kmixprefdlg.cpp:82
 msgid "General"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:82
+#: gui/kmixprefdlg.cpp:83
 #, fuzzy
 #| msgid "Startup"
 msgid "Start"
 msgstr "सुरुवात"
 
-#: gui/kmixprefdlg.cpp:83
+#: gui/kmixprefdlg.cpp:84
 msgid "Sound Menu"
 msgstr ""
 
-#: gui/kmixprefdlg.cpp:122
+#: gui/kmixprefdlg.cpp:123
 msgid "Startup"
 msgstr "सुरुवात"
 
-#: gui/kmixprefdlg.cpp:125
+#: gui/kmixprefdlg.cpp:126
 msgid "Restore volumes on login"
 msgstr "प्रवेश करताना आवाज पुन्हस्थापित करा"
 
-#: gui/kmixprefdlg.cpp:126
+#: gui/kmixprefdlg.cpp:127
 msgid "Restore all volume levels and switches."
 msgstr "सर्व आवाज पातळ्या व स्विचेस पुन्हस्थापित करा."
 
-#: gui/kmixprefdlg.cpp:129
+#: gui/kmixprefdlg.cpp:130
 msgid "Dynamic controls from Pulseaudio and MPRIS2 will not be restored."
 msgstr "पल्स ऑडिओ व MPRIS2 मधील डायनेमिक नियंत्रणे पुन्हस्थापित होणार नाहीत."
 
-#: gui/kmixprefdlg.cpp:133
+#: gui/kmixprefdlg.cpp:134
 msgid "Autostart"
 msgstr "स्वयंप्रारंभ"
 
-#: gui/kmixprefdlg.cpp:135
+#: gui/kmixprefdlg.cpp:136
 msgid "Enables the KMix autostart service (kmix_autostart.desktop)"
 msgstr "के-मिक्स स्वयंचलित प्रारंभ सेवा कार्यान्वित करतो (kmix_autostart.desktop)"
 
-#: gui/kmixprefdlg.cpp:139
-msgid ""
-"Autostart can not be enabled, as the autostart file kmix_autostart.desktop "
-"is not installed."
-msgstr ""
-"स्वयंचलित प्रारंभ कार्यान्वित करू शकत नाही कारण kmix_autostart.desktop हि स्वयंचलित "
-"प्रारंभ फाईल प्रतिष्ठापीत नाही."
-
-#: gui/kmixprefdlg.cpp:151
+#: gui/kmixprefdlg.cpp:149
 msgid "&Horizontal"
 msgstr "आडवे (&H)"
 
-#: gui/kmixprefdlg.cpp:152
+#: gui/kmixprefdlg.cpp:150
 msgid "&Vertical"
 msgstr "उभे (&V)"
 
@@ -847,21 +839,29 @@ msgstr "स्लाइडर वर वर्णन लेबल कार्�
 msgid "Show On Screen Display (&OSD)"
 msgstr "स्क्रीनवर दृश्य दर्शवा (&OSD)"
 
-#: gui/kmixprefdlg.cpp:231
+#: gui/kmixprefdlg.cpp:233
 msgid "Slider orientation: "
 msgstr "स्लाइडर कल : "
 
-#: gui/kmixprefdlg.cpp:236
+#: gui/kmixprefdlg.cpp:234
 msgid "Slider orientation (System tray volume control):"
 msgstr "स्लाइडर कल (प्रणाली ट्रे आवाज नियंत्रण):"
 
-#: gui/kmixprefdlg.cpp:247
+#: gui/kmixprefdlg.cpp:245
 msgid "&Dock in system tray"
 msgstr "प्रणाली ट्रे मध्ये टाका (&D)"
 
-#: gui/kmixprefdlg.cpp:249
+#: gui/kmixprefdlg.cpp:247
 msgid "Docks the mixer into the KDE system tray"
 msgstr "केडीई प्रणाली ट्रे मध्ये मिक्सर डॉक करतो"
+
+#: gui/kmixprefdlg.cpp:404
+msgid ""
+"Autostart can not be enabled, as the autostart file kmix_autostart.desktop "
+"is not installed."
+msgstr ""
+"स्वयंचलित प्रारंभ कार्यान्वित करू शकत नाही कारण kmix_autostart.desktop हि स्वयंचलित "
+"प्रारंभ फाईल प्रतिष्ठापीत नाही."
 
 #: gui/mdwenum.cpp:60 gui/mdwslider.cpp:109
 msgid "&Hide"
