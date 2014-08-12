@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-11 01:49+0000\n"
+"POT-Creation-Date: 2014-08-12 01:53+0000\n"
 "PO-Revision-Date: 2013-03-06 13:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -959,6 +959,7 @@ msgstr ""
 #: src/lib/marble/BookmarkManagerDialog.cpp:471
 #: src/lib/marble/MapThemeDownloadDialog.cpp:248
 #: src/lib/marble/MapThemeDownloadDialog.cpp:283
+#: src/lib/marble/TourCaptureDialog.cpp:102
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -1415,6 +1416,9 @@ msgstr "प्रतिष्ठापन करत आहे"
 
 #: src/lib/marble/MapThemeDownloadDialog.cpp:247
 #: src/lib/marble/MapThemeDownloadDialog.cpp:286
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:922
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1009
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1120
 msgid "Remove"
 msgstr ""
 
@@ -2211,6 +2215,8 @@ msgid ""
 msgstr ""
 
 #: src/lib/marble/MarbleWebView.cpp:23
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:918
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1116
 msgid "Copy"
 msgstr "प्रत करा"
 
@@ -2282,33 +2288,33 @@ msgid "Address Details"
 msgstr ""
 
 #: src/lib/marble/MovieCaptureDialog.cpp:57
-#: src/lib/marble/TourCaptureDialog.cpp:63
+#: src/lib/marble/TourCaptureDialog.cpp:72
 msgid "Save video file"
 msgstr ""
 
 #: src/lib/marble/MovieCaptureDialog.cpp:58
-#: src/lib/marble/TourCaptureDialog.cpp:64
+#: src/lib/marble/TourCaptureDialog.cpp:73
 msgid "Supported video (*.mp4 *.webm *.ogg)"
 msgstr ""
 
 #: src/lib/marble/MovieCaptureDialog.cpp:74
-#: src/lib/marble/TourCaptureDialog.cpp:80
+#: src/lib/marble/TourCaptureDialog.cpp:89
 msgid "Filename is not valid"
 msgstr ""
 
 #: src/lib/marble/MovieCaptureDialog.cpp:75
-#: src/lib/marble/TourCaptureDialog.cpp:81
+#: src/lib/marble/TourCaptureDialog.cpp:90
 msgid ""
 "This file format is not supported. Please, use .ogg, .mp4 or .webm instead"
 msgstr ""
 
 #: src/lib/marble/MovieCaptureDialog.cpp:89
-#: src/lib/marble/TourCaptureDialog.cpp:95
+#: src/lib/marble/TourCaptureDialog.cpp:106
 msgid "Missing filename"
 msgstr ""
 
 #: src/lib/marble/MovieCaptureDialog.cpp:90
-#: src/lib/marble/TourCaptureDialog.cpp:96
+#: src/lib/marble/TourCaptureDialog.cpp:107
 msgid ""
 "Destination video file is not set. I don't know where to save recorded "
 "video. Please, specify one."
@@ -2834,6 +2840,21 @@ msgstr "शोध परिणाम"
 msgid "Search for '%1'"
 msgstr "शोधा"
 
+#: src/lib/marble/TourCaptureDialog.cpp:101
+#: src/lib/marble/TourCaptureDialog.cpp:120
+#: src/lib/marble/TourCaptureDialog.cpp:155
+#: src/plugins/render/eclipses/EclipsesModel.cpp:169
+msgid "Start"
+msgstr ""
+
+#: src/lib/marble/TourCaptureDialog.cpp:138
+msgid "Video writing failed."
+msgstr ""
+
+#: src/lib/marble/TourCaptureDialog.cpp:156
+msgid "Video export completed."
+msgstr ""
+
 #: src/lib/marble/TourWidget.cpp:178
 msgid "Play the tour"
 msgstr ""
@@ -3026,170 +3047,174 @@ msgstr ""
 msgid "Reports the current position based on nearby WLAN access points"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:80
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:83
 #, fuzzy
 msgid "Annotations"
 msgstr "%1 टीपा"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:128
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:133
 msgid "Annotation"
 msgstr "टीप"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:133
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:138
 #, fuzzy
 msgid "&Annotation"
 msgstr "टीप :"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:143
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:148
 msgid "Draws annotations on maps with placemarks or polygons."
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:379
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:382
 #, fuzzy
 msgid "Clear all annotations"
 msgstr "%1 टीपा"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:380
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:383
 msgid "Are you sure you want to clear all annotations?"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:399
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:848
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:402
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:833
 msgid "Save Annotation File"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:400
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:403
 msgid "All Supported Files (*.kml);;KML file (*.kml)"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:416
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:420
 #: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:89
 #: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:211
 msgid "Open Annotation File"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:417
-msgid "All Supported Files (*.kml);;Kml Annotation file (*.kml)"
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:422
+msgid ""
+"All Supported Files (*.kml *.osm);;Kml Annotation file (*.kml);;Open Street "
+"Map file (*.osm)"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:701
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:706
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:711
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1143
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1218
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:694
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:699
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:704
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1175
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1240
 msgid "Operation not permitted"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:702
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:695
 msgid ""
 "Cannot merge a node from polygon's outer boundary with a node from one of "
 "its inner boundaries."
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:707
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:700
 msgid "Cannot merge two nodes from two different inner boundaries."
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:712
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:705
 msgid ""
 "Cannot merge the selected nodes. Most probably this would make the polygon's "
 "outer boundary not contain all its inner boundary nodes."
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:737
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:723
 #, fuzzy
 msgid "Remove current item"
 msgstr "'पसंत' मधून काढून टाका"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:738
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:724
 msgid "Are you sure you want to remove the current item?"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:787
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:772
 #, fuzzy
 msgid "Select item"
 msgstr "'पसंत' मधून काढून टाका"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:795
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:780
 msgid "Add Polygon"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:802
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:787
 msgid "Add Polygon Hole"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:809
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:794
 #, fuzzy
 msgid "Merge Nodes"
 msgstr "काढून टाका"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:816
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:801
 #, fuzzy
 msgid "Add Nodes"
 msgstr "काढून टाका"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:823
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:808
 msgid "Add Placemark"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:829
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:814
 msgid "Add Ground Overlay"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:835
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:820
 msgid "Remove Item"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:842
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:827
 msgid "Load Annotation File"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:854
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:839
 msgid "Clear all Annotations"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:912
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:984
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1102
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:899
+msgid "Paste Graphic Item"
+msgstr ""
+
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:914
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1112
+#, fuzzy
+#| msgid "Custom"
+msgid "Cut"
+msgstr "ऐच्छिक"
+
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:928
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1003
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1126
 msgid "Properties"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:985
-#, fuzzy
-msgid "Remove Ground Overlay"
-msgstr "'पसंत' मधून काढून टाका"
-
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1088
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1102
 msgid "Deselect All Nodes"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1092
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1106
 #, fuzzy
 msgid "Delete All Selected Nodes"
 msgstr "'पसंत' मधून काढून टाका"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1096
-msgid "Remove Polygon"
-msgstr ""
-
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1144
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1219
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1176
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1241
 msgid ""
 "Cannot delete one of the selected nodes. Most probably this would make the "
 "polygon's outer boundary not contain all its inner boundary nodes."
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1175
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1192
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1195
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1212
 msgid "Select Node"
 msgstr ""
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1176
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1196
 #, fuzzy
 msgid "Delete Node"
 msgstr "काढून टाका"
 
-#: src/plugins/render/annotate/AnnotatePlugin.cpp:1190
+#: src/plugins/render/annotate/AnnotatePlugin.cpp:1210
 msgid "Deselect Node"
 msgstr ""
 
@@ -3370,10 +3395,6 @@ msgstr ""
 
 #: src/plugins/render/eclipses/EclipsesItem.cpp:93
 msgid "Sun, Annular/Total"
-msgstr ""
-
-#: src/plugins/render/eclipses/EclipsesModel.cpp:169
-msgid "Start"
 msgstr ""
 
 #: src/plugins/render/eclipses/EclipsesModel.cpp:170
@@ -5571,6 +5592,10 @@ msgstr ""
 #: src/plugins/templates/floatitem/FITemplateFloatItem.cpp:68
 msgid "This is a template class for float items."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Remove Ground Overlay"
+#~ msgstr "'पसंत' मधून काढून टाका"
 
 #~ msgid "&Go To..."
 #~ msgstr "येथे जा (&G)..."
