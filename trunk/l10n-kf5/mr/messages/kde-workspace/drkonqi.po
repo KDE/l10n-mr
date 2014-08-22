@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:30+0000\n"
+"POT-Creation-Date: 2014-08-22 08:18+0000\n"
 "PO-Revision-Date: 2013-03-28 15:44+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -455,8 +455,10 @@ msgid "If you wish, you can go back and change your answers. "
 msgstr "तुमची इच्छा असेल्यास तुम्ही मागे जाऊन तुमची उत्तरे बदलू शकता."
 
 #: bugzillaintegration/reportassistantpages_base.cpp:407
-#, kde-format
-msgctxt "@info/plain report to url/mail address"
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to url/mail address"
 msgid "Report to %1"
 msgstr "%1 कडे अहवाल पाठवा"
 
@@ -543,7 +545,10 @@ msgid "Performing login at %1 as %2..."
 msgstr "%1 येथे %2 म्हणून प्रवेश मिळवत आहे..."
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:352
-msgctxt "@info:status/rich"
+#, fuzzy
+#| msgctxt "@info:status/rich"
+#| msgid "<b>Error: Invalid username or password</b>"
+msgctxt "@info:status"
 msgid "<b>Error: Invalid username or password</b>"
 msgstr "<b>त्रुटी : अवैध वापरकर्त्याचे नाव किंवा गुप्तशब्द</b>"
 
@@ -758,10 +763,12 @@ msgid "Sending crash report... (please wait)"
 msgstr "क्रॅश अहवाल पाठवत आहे... (कृपया वाट पहा)"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:758
-#, kde-format
-msgctxt "@info/plain report to KDE bugtracker address"
+#, fuzzy, kde-format
+#| msgctxt "@info/plain report to url/mail address"
+#| msgid "Report to %1"
+msgctxt "@info report to KDE bugtracker address"
 msgid "Report to %1"
-msgstr "%1कडे अहवाल पाठवा"
+msgstr "%1 कडे अहवाल पाठवा"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:777
 msgctxt "@title:window"
@@ -912,37 +919,58 @@ msgid "Showing results from %1 to %2"
 msgstr "%1 पासुन %2 पर्यंतचे निकाल दाखवित आहे."
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:320
-msgctxt "@info/plain bug status"
+#, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Open]"
+msgctxt "@info bug status"
 msgid "[Open]"
 msgstr "[उघडा]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:323
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Fixed]"
+msgctxt "@info bug resolution"
 msgid "[Fixed]"
 msgstr "[सोडविला]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:325
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Non-reproducible]"
+msgctxt "@info bug resolution"
 msgid "[Non-reproducible]"
 msgstr "[परत तयार न करता येण्याजोगा]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:327
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Duplicate report]"
+msgctxt "@info bug resolution"
 msgid "[Duplicate report]"
 msgstr "[प्रतिरूप अहवाल]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:329
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[Invalid]"
+msgctxt "@info bug resolution"
 msgid "[Invalid]"
 msgstr "[अवैध]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:332
-msgctxt "@info/plain bug resolution"
+#, fuzzy
+#| msgctxt "@info/plain bug resolution"
+#| msgid "[External problem]"
+msgctxt "@info bug resolution"
 msgid "[External problem]"
 msgstr "[बाहेरील समस्या]"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:335
-msgctxt "@info/plain bug status"
+#, fuzzy
+#| msgctxt "@info/plain bug status"
+#| msgid "[Incomplete]"
+msgctxt "@info bug status"
 msgid "[Incomplete]"
 msgstr "[अपूर्ण]"
 
@@ -1029,7 +1057,12 @@ msgid ""
 msgstr "हा क्रॅश कोणत्या अहवालाशी संबंधित आहे ते सूचविण्यासाठी हे बटन वापरा"
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:640
-msgctxt "@info/plain"
+#, fuzzy
+#| msgctxt "@info/plain"
+#| msgid ""
+#| "Backtrace of the crash I experienced:\n"
+#| "\n"
+msgctxt "@info"
 msgid ""
 "Backtrace of the crash I experienced:\n"
 "\n"
@@ -1184,6 +1217,11 @@ msgstr "रद्द करा (अहवालावर परत जा)"
 msgctxt "@action:button continue with the selected option and close the dialog"
 msgid "Continue"
 msgstr "पुढे जा"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:906
+#, kde-format
+msgid "You are going to mark your crash as related to bug %1"
+msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:919
 #, kde-format
@@ -1499,8 +1537,8 @@ msgstr "केडीई मंच हा स्रोतांपासून �
 #: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:94
 msgctxt "@info"
 msgid ""
-"<note>The crash and system information will be automatically added to the "
-"bug report.</note>"
+"<i>Note</i>: The crash and system information will be automatically added to "
+"the bug report."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_userLabel)
@@ -1522,10 +1560,11 @@ msgid "Save login information using the KDE Wallet system"
 msgstr "केडीई पाकीट प्रणाली वापरून प्रवेशाची माहिती साठवा"
 
 #. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
-#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:18
+#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:19
 msgctxt "@label"
 msgid ""
-"This is a preview of the report's contents which will be sent. <nl />\n"
+"This is a preview of the report's contents which will be sent. \n"
+"\n"
 "If you want to modify it go to the previous pages."
 msgstr ""
 
@@ -1560,10 +1599,10 @@ msgstr ""
 #: bugzillaintegration/ui/assistantpage_introduction.ui:77
 msgctxt "@info note before starting the bug reporting process"
 msgid ""
-"<p><note>Since communication between you and the developers is required for "
-"effective debugging, to continue reporting this bug <strong>it is required "
-"for you to agree that developers may contact you.</strong></note></p><p>Feel "
-"free to close this dialog if you do not accept this.</p>"
+"<p><i>Note</i>: Since communication between you and the developers is "
+"required for effective debugging, to continue reporting this bug <strong>it "
+"is required for you to agree that developers may contact you.</strong></"
+"p><p>Feel free to close this dialog if you do not accept this.</p>"
 msgstr ""
 
 #: debugpackageinstaller.cpp:65
@@ -1791,6 +1830,10 @@ msgstr "अपयशी थ्रेड ची थ्रेड id"
 #: ui/backtracewidget.ui:100
 msgid "Show backtrace content (advanced)"
 msgstr "बॅकट्रेस मजकूर दर्शवा (प्रगत)"
+
+#~ msgctxt "@info/plain report to KDE bugtracker address"
+#~ msgid "Report to %1"
+#~ msgstr "%1कडे अहवाल पाठवा"
 
 #~ msgctxt "@info/rich"
 #~ msgid "You can help us improve this software by filing a bug report."
