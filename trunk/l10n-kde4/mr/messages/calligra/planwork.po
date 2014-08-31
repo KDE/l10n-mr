@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-30 01:36+0000\n"
+"POT-Creation-Date: 2014-08-31 01:41+0000\n"
 "PO-Revision-Date: 2013-03-05 16:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "चेतन खोना"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "chetan@kompkin.com"
 
 #: aboutdata.h:31
 msgid "PlanWork - Work Package handler for the Plan Project Planning Tool"
@@ -56,6 +64,45 @@ msgstr ""
 msgctxt "(qtundo-format)"
 msgid "Modify package settings"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: packagesettings.ui:24
+msgid ""
+"Package data:\n"
+"These settings indicates to the receiver of the package which information is "
+"relevant."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_usedEffort)
+#: packagesettings.ui:34
+msgid "The effort you have used on this task."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_usedEffort)
+#: packagesettings.ui:37
+msgid "Used effort"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_progress)
+#: packagesettings.ui:44
+msgid ""
+"Progress includes started / start time, finished / finish time and completion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_progress)
+#: packagesettings.ui:47
+msgid "Progress"
+msgstr "प्रगती"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_documents)
+#: packagesettings.ui:54
+msgid "The documents attached to this task"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_documents)
+#: packagesettings.ui:57
+msgid "Documents"
+msgstr "दस्तऐवज"
 
 #: part.cpp:179 part.cpp:210
 #, kde-format
@@ -164,103 +211,18 @@ msgstr ""
 msgid "Edit failed. Cannot find a work package."
 msgstr ""
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "चेतन खोना"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "chetan@kompkin.com"
-
-#. i18n: file: packagesettings.ui:24
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5
-msgid ""
-"Package data:\n"
-"These settings indicates to the receiver of the package which information is "
-"relevant."
-msgstr ""
-
-#. i18n: file: packagesettings.ui:34
-#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_usedEffort)
-#: rc.cpp:9
-msgid "The effort you have used on this task."
-msgstr ""
-
-#. i18n: file: packagesettings.ui:37
-#. i18n: ectx: property (text), widget (QCheckBox, ui_usedEffort)
-#: rc.cpp:12
-msgid "Used effort"
-msgstr ""
-
-#. i18n: file: packagesettings.ui:44
-#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_progress)
-#: rc.cpp:15
-msgid ""
-"Progress includes started / start time, finished / finish time and completion"
-msgstr ""
-
-#. i18n: file: packagesettings.ui:47
-#. i18n: ectx: property (text), widget (QCheckBox, ui_progress)
-#: rc.cpp:18
-msgid "Progress"
-msgstr "प्रगती"
-
-#. i18n: file: packagesettings.ui:54
-#. i18n: ectx: property (toolTip), widget (QCheckBox, ui_documents)
-#: rc.cpp:21
-msgid "The documents attached to this task"
-msgstr ""
-
-#. i18n: file: packagesettings.ui:57
-#. i18n: ectx: property (text), widget (QCheckBox, ui_documents)
-#: rc.cpp:24
-msgid "Documents"
-msgstr "दस्तऐवज"
-
-#. i18n: file: taskcompletionpanel.ui:33
-#. i18n: ectx: property (text), widget (QCheckBox, started)
-#: rc.cpp:27
-msgid "Started:"
-msgstr ""
-
-#. i18n: file: taskcompletionpanel.ui:50
-#. i18n: ectx: property (text), widget (QCheckBox, finished)
-#: rc.cpp:30
-msgid "Finished:"
-msgstr "संपले :"
-
-#. i18n: file: taskcompletionpanel.ui:211
-#. i18n: ectx: property (text), widget (QPushButton, addEntryBtn)
-#: rc.cpp:33
-msgid "Add Entry"
-msgstr "नोंद जोडा"
-
-#. i18n: file: taskcompletionpanel.ui:218
-#. i18n: ectx: property (text), widget (QPushButton, removeEntryBtn)
-#: rc.cpp:36
-msgid "Remove Entry"
-msgstr "नोंद काढून टाका"
-
-#. i18n: file: planwork.rc:4
 #. i18n: ectx: Menu (edit)
-#. i18n: file: planwork_mainwindow.rc:4
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:39 rc.cpp:48
+#: planwork.rc:4 planwork_mainwindow.rc:4
 msgid "&Edit"
 msgstr "संपादन (&E)"
 
-#. i18n: file: planwork.rc:8
 #. i18n: ectx: ToolBar (view_selection)
-#: rc.cpp:42
+#: planwork.rc:8
 msgid "View"
 msgstr "दृश्य"
 
-#. i18n: file: planwork_readonly.rc:3
 #. i18n: ectx: Menu (view)
-#: rc.cpp:45
+#: planwork_readonly.rc:3
 msgid "&View"
 msgstr "दृश्य (&V)"
 
@@ -272,6 +234,26 @@ msgstr ""
 msgctxt "(qtundo-format)"
 msgid "Modify task completion"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, started)
+#: taskcompletionpanel.ui:33
+msgid "Started:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, finished)
+#: taskcompletionpanel.ui:50
+msgid "Finished:"
+msgstr "संपले :"
+
+#. i18n: ectx: property (text), widget (QPushButton, addEntryBtn)
+#: taskcompletionpanel.ui:211
+msgid "Add Entry"
+msgstr "नोंद जोडा"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEntryBtn)
+#: taskcompletionpanel.ui:218
+msgid "Remove Entry"
+msgstr "नोंद काढून टाका"
 
 #: taskworkpackagemodel.cpp:408
 #, no-c-format
