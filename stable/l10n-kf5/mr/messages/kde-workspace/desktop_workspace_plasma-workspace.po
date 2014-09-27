@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-09-20 09:20+0000\n"
+"POT-Creation-Date: 2014-09-27 09:17+0000\n"
 "PO-Revision-Date: 2013-04-12 16:13+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -36,7 +36,7 @@ msgctxt "Comment"
 msgid "A clock with hands"
 msgstr "हात असलेले घड्याळ"
 
-#: applets/batterymonitor/metadata.desktop:2
+#: applets/batterymonitor/package/metadata.desktop:2
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Display Brightness"
@@ -44,12 +44,12 @@ msgctxt "Name"
 msgid "Battery & Brightness"
 msgstr "डिस्प्ले प्रखरता"
 
-#: applets/batterymonitor/metadata.desktop:40
+#: applets/batterymonitor/package/metadata.desktop:40
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr "बॅटरीची पॉवर स्थिती पहा"
 
-#: applets/batterymonitor/metadata.desktop:114
+#: applets/batterymonitor/package/metadata.desktop:114
 msgctxt "Keywords"
 msgid "Power Management;Battery;System;Energy;"
 msgstr "वीज व्यवस्थापन; बॅटरी; प्रणाली; ऊर्जा;"
@@ -59,6 +59,20 @@ msgstr "वीज व्यवस्थापन; बॅटरी; प्रण�
 msgctxt "Name"
 msgid "Calendar"
 msgstr "दिनदर्शिका"
+
+#: applets/clipboard/metadata.desktop:2
+#: klipper/plasma-dataengine-clipboard.desktop:2
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Tool"
+msgctxt "Name"
+msgid "Clipboard"
+msgstr "क्लिपबोर्ड साधन"
+
+#: applets/clipboard/metadata.desktop:30
+msgctxt "Comment"
+msgid "Provides access to the clipboard history."
+msgstr ""
 
 #: applets/devicenotifier/package/metadata.desktop:2
 msgctxt "Name"
@@ -79,6 +93,11 @@ msgstr "फाईल व्यवस्थापकात उघडा"
 msgctxt "Name"
 msgid "Digital Clock"
 msgstr "डिजिटल घड्याळ"
+
+#: applets/digital-clock/package/metadata.desktop:89
+msgctxt "Comment"
+msgid "Time displayed in a digital format"
+msgstr ""
 
 #: applets/icon/package/metadata.desktop:2
 msgctxt "Name"
@@ -327,12 +346,12 @@ msgctxt "Comment"
 msgid "Show a list of windows to switch to"
 msgstr "वेगळ्या चौकट वर जाण्यासाठी यादी दर्शवा"
 
-#: dataengines/activities/plasma-engine-activities.desktop:2
+#: dataengines/activities/plasma-dataengine-activities.desktop:2
 msgctxt "Name"
 msgid "Activities Engine"
 msgstr "कार्यपध्दती इंजिन"
 
-#: dataengines/activities/plasma-engine-activities.desktop:60
+#: dataengines/activities/plasma-dataengine-activities.desktop:60
 msgctxt "Comment"
 msgid "Information on Plasma Activities"
 msgstr "प्लाज्मा कार्यपध्दती बद्दल माहिती"
@@ -669,20 +688,20 @@ msgctxt "Comment"
 msgid "Allows images to be shared using the wstaw.org service"
 msgstr "wstaw.org सेवा वापरुन प्रतिमा शेअर करतो"
 
-#: dataengines/share/data/plasma-packagestructure-share.desktop:2
-msgctxt "Name"
-msgid "ShareProvider"
-msgstr "सेवा पुरवठाकर्ता"
-
-#: dataengines/share/data/plasma-packagestructure-share.desktop:57
-msgctxt "Comment"
-msgid "Share Package Structure"
-msgstr "शेर पॅकेज संरचना"
-
 #: dataengines/share/data/plasma_shareprovider.desktop:4
 msgctxt "Comment"
 msgid "Plugin for Plasma Sharebin"
 msgstr "प्लाज्मा शेअरबिन करिता प्लगइन"
+
+#: dataengines/share/packagestructure/plasma-packagestructure-share.desktop:2
+msgctxt "Name"
+msgid "ShareProvider"
+msgstr "सेवा पुरवठाकर्ता"
+
+#: dataengines/share/packagestructure/plasma-packagestructure-share.desktop:57
+msgctxt "Comment"
+msgid "Share Package Structure"
+msgstr "शेर पॅकेज संरचना"
 
 #: dataengines/share/plasma-dataengine-share.desktop:2
 msgctxt "Name"
@@ -704,12 +723,12 @@ msgctxt "Comment"
 msgid "Device data via Solid"
 msgstr "सॉलिड कडून साधन माहिती"
 
-#: dataengines/statusnotifieritem/plasma-engine-statusnotifieritem.desktop:2
+#: dataengines/statusnotifieritem/plasma-dataengine-statusnotifieritem.desktop:2
 msgctxt "Name"
 msgid "Status Notifier Information"
 msgstr "स्थिती निदर्शक माहिती"
 
-#: dataengines/statusnotifieritem/plasma-engine-statusnotifieritem.desktop:60
+#: dataengines/statusnotifieritem/plasma-dataengine-statusnotifieritem.desktop:60
 msgctxt "Comment"
 msgid ""
 "Engine for applications' status information, based on the Status Notifier "
@@ -843,7 +862,7 @@ msgid "Low Disk Space"
 msgstr "डिस्कवर कमी जागा शिल्लक आहे"
 
 #: freespacenotifier/freespacenotifier.notifyrc:134
-#: ksmserver/plasma_workspace.notifyrc:423
+#: ksmserver/plasma_workspace.notifyrc:436
 msgctxt "Name"
 msgid "Warning"
 msgstr "इशारा"
@@ -862,6 +881,26 @@ msgstr "डिस्कवर कमी जागा शिल्लक आह�
 msgctxt "Comment"
 msgid "You are running low on disk space"
 msgstr "तुमच्या डिस्कवर कमी जागा शिल्लक आहे"
+
+#: kcms/splash/kcm_splashscreen.desktop:15
+#: kcms/splash/package/metadata.desktop:2
+msgctxt "Name"
+msgid "Splash Screen"
+msgstr "स्प्लॅश स्क्रीन"
+
+#: kcms/splash/kcm_splashscreen.desktop:101
+#: kcms/splash/package/metadata.desktop:88
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Splash Screen"
+msgctxt "Comment"
+msgid "Splash Screen Theme"
+msgstr "स्प्लॅश स्क्रीन"
+
+#: kcms/splash/kcm_splashscreen.desktop:128
+msgctxt "X-KDE-Keywords"
+msgid "splash screen,splash theme,startup"
+msgstr "स्प्लॅश स्क्रीन, स्प्लॅश शैली, सुरुवात"
 
 #: kglobalaccel/kglobalaccel.desktop:10
 msgctxt "Name"
@@ -991,6 +1030,14 @@ msgctxt "Comment"
 msgid "A cut & paste history utility"
 msgstr "कापा व चिकटवा इतिहास उपकार्यक्रम"
 
+#: klipper/plasma-dataengine-clipboard.desktop:30
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Clipboard Tool"
+msgctxt "Comment"
+msgid "Clipboard Tool."
+msgstr "क्लिपबोर्ड साधन"
+
 #: krunner/krunner.desktop:3
 msgctxt "Name"
 msgid "KRunner"
@@ -1004,12 +1051,12 @@ msgctxt "Comment"
 msgid "Plasma Workspace"
 msgstr "मूलभूत प्लाज्मा डेस्कटॉप शैली"
 
-#: ksmserver/plasma_workspace.notifyrc:34
+#: ksmserver/plasma_workspace.notifyrc:35
 msgctxt "Name"
 msgid "Trash: Emptied"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:65
+#: ksmserver/plasma_workspace.notifyrc:67
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "The screen has been locked"
@@ -1017,47 +1064,47 @@ msgctxt "Comment"
 msgid "The trash has been emptied"
 msgstr "स्क्रीन कुलूपबंद केलेली आहे"
 
-#: ksmserver/plasma_workspace.notifyrc:100
+#: ksmserver/plasma_workspace.notifyrc:103
 msgctxt "Name"
 msgid "Textcompletion: Rotation"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:129
+#: ksmserver/plasma_workspace.notifyrc:133
 msgctxt "Comment"
 msgid "The end of the list of matches has been reached"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:164
+#: ksmserver/plasma_workspace.notifyrc:169
 msgctxt "Name"
 msgid "Textcompletion: No Match"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:193
+#: ksmserver/plasma_workspace.notifyrc:199
 msgctxt "Comment"
 msgid "No matching completion was found"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:227
+#: ksmserver/plasma_workspace.notifyrc:234
 msgctxt "Name"
 msgid "Textcompletion: Partial Match"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:256
+#: ksmserver/plasma_workspace.notifyrc:264
 msgctxt "Comment"
 msgid "There is more than one possible match"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:291
+#: ksmserver/plasma_workspace.notifyrc:300
 msgctxt "Name"
 msgid "Fatal Error"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:321
+#: ksmserver/plasma_workspace.notifyrc:331
 msgctxt "Comment"
 msgid "There was a serious error causing the program to exit"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:357
+#: ksmserver/plasma_workspace.notifyrc:368
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Notifications"
@@ -1065,37 +1112,37 @@ msgctxt "Name"
 msgid "Notification"
 msgstr "सूचना"
 
-#: ksmserver/plasma_workspace.notifyrc:388
+#: ksmserver/plasma_workspace.notifyrc:400
 msgctxt "Comment"
 msgid "Something special happened in the program"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:509
+#: ksmserver/plasma_workspace.notifyrc:522
 msgctxt "Comment"
 msgid "There was an error in the program which may cause problems"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:544
+#: ksmserver/plasma_workspace.notifyrc:558
 msgctxt "Name"
 msgid "Catastrophe"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:575
+#: ksmserver/plasma_workspace.notifyrc:590
 msgctxt "Comment"
 msgid "A very serious error occurred, at least causing the program to exit"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:610
+#: ksmserver/plasma_workspace.notifyrc:626
 msgctxt "Name"
 msgid "Login"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:641
+#: ksmserver/plasma_workspace.notifyrc:658
 msgctxt "Comment"
 msgid "A new session is starting"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:675
+#: ksmserver/plasma_workspace.notifyrc:693
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Lock/Logout"
@@ -1103,42 +1150,42 @@ msgctxt "Name"
 msgid "Logout"
 msgstr "कुलूपबंद/बाहेर पडा"
 
-#: ksmserver/plasma_workspace.notifyrc:706
+#: ksmserver/plasma_workspace.notifyrc:725
 msgctxt "Comment"
 msgid "Session is exiting"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:740
+#: ksmserver/plasma_workspace.notifyrc:760
 msgctxt "Name"
 msgid "Logout Canceled"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:771
+#: ksmserver/plasma_workspace.notifyrc:792
 msgctxt "Comment"
 msgid "Plasma logout was canceled"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:802
+#: ksmserver/plasma_workspace.notifyrc:825
 msgctxt "Name"
 msgid "Print Error"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:833
+#: ksmserver/plasma_workspace.notifyrc:857
 msgctxt "Comment"
 msgid "A print error has occurred"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:868
+#: ksmserver/plasma_workspace.notifyrc:893
 msgctxt "Name"
 msgid "Information Message"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:899
+#: ksmserver/plasma_workspace.notifyrc:925
 msgctxt "Comment"
 msgid "An information message is being shown"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:934
+#: ksmserver/plasma_workspace.notifyrc:961
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Warning"
@@ -1146,37 +1193,37 @@ msgctxt "Name"
 msgid "Warning Message"
 msgstr "इशारा"
 
-#: ksmserver/plasma_workspace.notifyrc:965
+#: ksmserver/plasma_workspace.notifyrc:993
 msgctxt "Comment"
 msgid "A warning message is being shown"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:1000
+#: ksmserver/plasma_workspace.notifyrc:1029
 msgctxt "Name"
 msgid "Critical Message"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:1030
+#: ksmserver/plasma_workspace.notifyrc:1060
 msgctxt "Comment"
 msgid "A critical message is being shown"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:1064
+#: ksmserver/plasma_workspace.notifyrc:1095
 msgctxt "Name"
 msgid "Question"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:1095
+#: ksmserver/plasma_workspace.notifyrc:1127
 msgctxt "Comment"
 msgid "A question is being asked"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:1130
+#: ksmserver/plasma_workspace.notifyrc:1164
 msgctxt "Name"
 msgid "Beep"
 msgstr ""
 
-#: ksmserver/plasma_workspace.notifyrc:1159
+#: ksmserver/plasma_workspace.notifyrc:1195
 msgctxt "Comment"
 msgid "Sound bell"
 msgstr ""
@@ -1194,6 +1241,7 @@ msgid ""
 msgstr ""
 "स्क्रीन कुलूप जे पासवर्ड संवाद व तत्कालीन वापरकर्त्याला प्रवेश परवानगी विचारणारी चौकट"
 
+#: ksmserver/screenlocker/kcm/package/metadata.desktop:2
 #: ksmserver/screenlocker/kcm/screenlocker.desktop:12
 #, fuzzy
 #| msgctxt "Name"
@@ -1202,7 +1250,15 @@ msgctxt "Name"
 msgid "Screen Locking"
 msgstr "स्क्रीन कुलूपबंद केली"
 
-#: ksmserver/screenlocker/kcm/screenlocker.desktop:41
+#: ksmserver/screenlocker/kcm/package/metadata.desktop:32
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Screen locked"
+msgctxt "Comment"
+msgid "Screen Locking Themes"
+msgstr "स्क्रीन कुलूपबंद केली"
+
+#: ksmserver/screenlocker/kcm/screenlocker.desktop:42
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Screen locked"
@@ -1306,11 +1362,12 @@ msgid "KDE's Progress Info UI server"
 msgstr "केडीई च्या प्रगती माहिती UI सर्व्हर"
 
 #: lookandfeel/contents/loginmanager/metadata.desktop:2
+#: lookandfeel/metadata.desktop:64
 msgctxt "Name"
 msgid "Breeze"
 msgstr ""
 
-#: lookandfeel/contents/loginmanager/metadata.desktop:31
+#: lookandfeel/contents/loginmanager/metadata.desktop:32
 msgctxt "Description"
 msgid "Breeze Theme"
 msgstr ""
@@ -1320,23 +1377,15 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Desktop Sessions"
 msgctxt "Comment"
-msgid "Desktop Design Language"
+msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "डेस्कटॉप सत्र"
 
-#: lookandfeel/metadata.desktop:27
+#: lookandfeel/metadata.desktop:29
 msgctxt "Keywords"
 msgid ""
 "Desktop, Workspace, Appearance, Look and Feel, Logout, Lock, Suspend, "
 "Shutdown, Hibernate,"
 msgstr ""
-
-#: lookandfeel/metadata.desktop:62
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Look & Feel"
-msgctxt "Name"
-msgid "Look and Feel"
-msgstr "रूप व आकार"
 
 #: menu/desktop/hidden.directory:4
 #, fuzzy
@@ -1635,9 +1684,22 @@ msgctxt "Name"
 msgid "Plasma"
 msgstr ""
 
-#: plasma.desktop.cmake:36
+#: plasma.desktop.cmake:37
 msgctxt "Comment"
 msgid "Plasma by KDE"
+msgstr ""
+
+#: plasma-windowed/plasma-windowed.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Default Plasma Desktop theme"
+msgctxt "Name"
+msgid "Plasma Windowed"
+msgstr "मूलभूत प्लाज्मा डेस्कटॉप शैली"
+
+#: plasma-windowed/plasma-windowed.desktop:28
+msgctxt "Comment"
+msgid "Run Plasmoids as simple applications"
 msgstr ""
 
 #: runners/activities/plasma-runner-activityrunner.desktop:2
@@ -1658,7 +1720,7 @@ msgctxt "Name"
 msgid "Desktop Search"
 msgstr "डेस्कटॉप सत्र"
 
-#: runners/baloo/plasma-runner-baloosearch.desktop:32
+#: runners/baloo/plasma-runner-baloosearch.desktop:33
 msgctxt "Comment"
 msgid "Runner which searches through files, emails and contacts"
 msgstr ""
@@ -1798,6 +1860,34 @@ msgctxt "Comment"
 msgid "List windows and desktops and switch them"
 msgstr "वेगळ्या चौकट व डेस्कटॉप वर जाण्यासाठी यादी दर्शवा व बदला"
 
+#: shell/packageplugins/layouttemplate/plasma-packagestructure-layouttemplate.desktop:2
+msgctxt "Name"
+msgid "Layout Template"
+msgstr ""
+
+#: shell/packageplugins/lookandfeel/plasma-packagestructure-lookandfeel.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Look & Feel"
+msgctxt "Name"
+msgid "Look and Feel"
+msgstr "रूप व आकार"
+
+#: shell/packageplugins/qmlWallpaper/plasma-packagestructure-wallpaper.desktop:2
+msgctxt "Name"
+msgid "Wallpaper"
+msgstr ""
+
+#: shell/packageplugins/shell/plasma-packagestructure-plasma-shell.desktop:2
+msgctxt "Name"
+msgid "Plasma Shell"
+msgstr ""
+
+#: shell/packageplugins/wallpaperimages/plasma-packagestructure-wallpaperimages.desktop:2
+msgctxt "Name"
+msgid "Wallpaper Images"
+msgstr ""
+
 #: shell/plasmashell.desktop:4
 #, fuzzy
 #| msgctxt "Comment"
@@ -1824,7 +1914,7 @@ msgctxt "Name"
 msgid "Hardware Detection"
 msgstr "हार्डवेअर माहिती"
 
-#: soliduiserver/soliduiserver.desktop:40
+#: soliduiserver/soliduiserver.desktop:41
 msgctxt "Comment"
 msgid "Provides a user interface for hardware events"
 msgstr ""
@@ -1839,12 +1929,12 @@ msgctxt "Comment"
 msgid "Manages services that provide status notifier user interfaces"
 msgstr "स्थितीबाबत सूचना दैणाऱ्या सेवांचे व्यवस्थापन करतो"
 
-#: systemmonitor/kded_ksysguard.desktop:11
+#: systemmonitor/ksysguard.desktop:11
 msgctxt "Name"
 msgid "KSysguard"
 msgstr ""
 
-#: systemmonitor/kded_ksysguard.desktop:42
+#: systemmonitor/ksysguard.desktop:43
 msgctxt "Comment"
 msgid "Launches KSysguard on Ctrl + Escape"
 msgstr ""
@@ -2074,21 +2164,6 @@ msgstr "प्रतिमा"
 msgctxt "Name"
 msgid "Slideshow"
 msgstr "स्लाइडशो"
-
-#~ msgctxt "Name"
-#~ msgid "Splash Screen"
-#~ msgstr "स्प्लॅश स्क्रीन"
-
-#, fuzzy
-#~| msgctxt "Name"
-#~| msgid "Splash Screen"
-#~ msgctxt "Comment"
-#~ msgid "Splash Screen Theme"
-#~ msgstr "स्प्लॅश स्क्रीन"
-
-#~ msgctxt "X-KDE-Keywords"
-#~ msgid "splash screen,splash theme,startup"
-#~ msgstr "स्प्लॅश स्क्रीन, स्प्लॅश शैली, सुरुवात"
 
 #, fuzzy
 #~| msgctxt "Name"
