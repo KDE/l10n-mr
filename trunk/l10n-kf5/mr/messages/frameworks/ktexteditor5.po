@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-06 08:00+0000\n"
+"POT-Creation-Date: 2014-10-09 07:55+0000\n"
 "PO-Revision-Date: 2013-04-06 13:03+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -787,7 +787,7 @@ msgid "Delete the current file type."
 msgstr "वर्तमान फाईल प्रकार काढून टाका."
 
 #. i18n: ectx: property (text), widget (QPushButton, btnDelete)
-#: dialogs/filetypeconfigwidget.ui:44 schema/kateschemaconfig.cpp:931
+#: dialogs/filetypeconfigwidget.ui:44 schema/kateschemaconfig.cpp:937
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
 
@@ -2213,7 +2213,7 @@ msgstr ""
 msgid "L&ayout"
 msgstr "रचना (&A)"
 
-#: printing/printconfigwidgets.cpp:507 schema/kateschemaconfig.cpp:918
+#: printing/printconfigwidgets.cpp:507 schema/kateschemaconfig.cpp:924
 msgid "&Schema:"
 msgstr "स्किमा (&S):"
 
@@ -2294,7 +2294,7 @@ msgid "Replace current schema?"
 msgstr "अस्तित्वातील स्कीमा बदलायची का?"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioReplaceExisting)
-#: schema/howtoimportschema.ui:34 schema/kateschemaconfig.cpp:1076
+#: schema/howtoimportschema.ui:34 schema/kateschemaconfig.cpp:1082
 #, no-c-format, kde-format
 msgid "Replace existing schema %1"
 msgstr "अस्तित्वातील स्कीमा बदला %1"
@@ -2382,20 +2382,32 @@ msgid "<p>This color will be used to draw the line numbers (if enabled).</p>"
 msgstr ""
 
 #: schema/kateschemaconfig.cpp:135
+#, fuzzy
+#| msgid "Current Line"
+msgid "Current Line Number"
+msgstr "वर्तमान ओळ"
+
+#: schema/kateschemaconfig.cpp:137
+msgid ""
+"<p>This color will be used to draw the number of the current line (if "
+"enabled).</p>"
+msgstr ""
+
+#: schema/kateschemaconfig.cpp:141
 msgid "Separator"
 msgstr "विभाजक"
 
-#: schema/kateschemaconfig.cpp:137
+#: schema/kateschemaconfig.cpp:143
 msgid ""
 "<p>This color will be used to draw the line between line numbers and the "
 "icon borders, if both are enabled.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:141
+#: schema/kateschemaconfig.cpp:147
 msgid "Word Wrap Marker"
 msgstr "शब्द गुंडाळणे निशाण"
 
-#: schema/kateschemaconfig.cpp:143
+#: schema/kateschemaconfig.cpp:149
 msgid ""
 "<p>Sets the color of Word Wrap-related markers:</p><dl><dt>Static Word Wrap</"
 "dt><dd>A vertical line which shows the column where text is going to be "
@@ -2403,129 +2415,129 @@ msgid ""
 "visually-wrapped lines</dd></dl>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:147
+#: schema/kateschemaconfig.cpp:153
 msgid "Code Folding"
 msgstr "कोड फोल्डिंग"
 
-#: schema/kateschemaconfig.cpp:149
+#: schema/kateschemaconfig.cpp:155
 msgid "<p>Sets the color of the code folding bar.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:153
+#: schema/kateschemaconfig.cpp:159
 msgid "Modified Lines"
 msgstr "सुधारित ओळी"
 
-#: schema/kateschemaconfig.cpp:155
+#: schema/kateschemaconfig.cpp:161
 msgid ""
 "<p>Sets the color of the line modification marker for modified lines.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:159
+#: schema/kateschemaconfig.cpp:165
 msgid "Saved Lines"
 msgstr "साठवलेल्या ओळी"
 
-#: schema/kateschemaconfig.cpp:161
+#: schema/kateschemaconfig.cpp:167
 msgid "<p>Sets the color of the line modification marker for saved lines.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:168
+#: schema/kateschemaconfig.cpp:174
 msgid "Text Decorations"
 msgstr "मजकूर सजावट"
 
-#: schema/kateschemaconfig.cpp:170
+#: schema/kateschemaconfig.cpp:176
 msgid "Spelling Mistake Line"
 msgstr "वर्णलेखन चूक ओळ"
 
-#: schema/kateschemaconfig.cpp:172
+#: schema/kateschemaconfig.cpp:178
 msgid ""
 "<p>Sets the color of the line that is used to indicate spelling mistakes.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:176
+#: schema/kateschemaconfig.cpp:182
 msgid "Tab and Space Markers"
 msgstr "टॅब व जागा निशाण"
 
-#: schema/kateschemaconfig.cpp:178
+#: schema/kateschemaconfig.cpp:184
 msgid "<p>Sets the color of the tabulator marks.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:182
+#: schema/kateschemaconfig.cpp:188
 msgid "Indentation Line"
 msgstr "समास ओळ"
 
-#: schema/kateschemaconfig.cpp:184
+#: schema/kateschemaconfig.cpp:190
 msgid "<p>Sets the color of the vertical indentation lines.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:188
+#: schema/kateschemaconfig.cpp:194
 msgid "Bracket Highlight"
 msgstr "समासचिन्ह ठळक"
 
-#: schema/kateschemaconfig.cpp:190
+#: schema/kateschemaconfig.cpp:196
 msgid ""
 "<p>Sets the bracket matching color. This means, if you place the cursor e.g. "
 "at a <b>(</b>, the matching <b>)</b> will be highlighted with this color.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:197
+#: schema/kateschemaconfig.cpp:203
 msgid "Marker Colors"
 msgstr "निशाण रंग"
 
-#: schema/kateschemaconfig.cpp:200 view/kateviewhelpers.cpp:1188
+#: schema/kateschemaconfig.cpp:206 view/kateviewhelpers.cpp:1188
 msgid "Bookmark"
 msgstr "ओळखचिन्हे"
 
-#: schema/kateschemaconfig.cpp:201
+#: schema/kateschemaconfig.cpp:207
 msgid "Active Breakpoint"
 msgstr "सक्रिय ब्रेकपाईंट"
 
-#: schema/kateschemaconfig.cpp:202
+#: schema/kateschemaconfig.cpp:208
 msgid "Reached Breakpoint"
 msgstr "पोहोचलेला ब्रेकपाईंट"
 
-#: schema/kateschemaconfig.cpp:203
+#: schema/kateschemaconfig.cpp:209
 msgid "Disabled Breakpoint"
 msgstr "अकार्यान्वित ब्रेकपाईंट"
 
-#: schema/kateschemaconfig.cpp:204
+#: schema/kateschemaconfig.cpp:210
 msgid "Execution"
 msgstr "कार्य"
 
-#: schema/kateschemaconfig.cpp:205
+#: schema/kateschemaconfig.cpp:211
 msgid "Warning"
 msgstr "इशारा"
 
-#: schema/kateschemaconfig.cpp:206
+#: schema/kateschemaconfig.cpp:212
 msgid "Error"
 msgstr "त्रुटी"
 
-#: schema/kateschemaconfig.cpp:209
+#: schema/kateschemaconfig.cpp:215
 msgid ""
 "<p>Sets the background color of mark type.</p><p><b>Note</b>: The marker "
 "color is displayed lightly because of transparency.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:220
+#: schema/kateschemaconfig.cpp:226
 msgid "Text Templates & Snippets"
 msgstr "मजकूर नमूने व स्निपेट्स"
 
-#: schema/kateschemaconfig.cpp:224
+#: schema/kateschemaconfig.cpp:230
 msgid "Background"
 msgstr "पार्श्वभूमी"
 
-#: schema/kateschemaconfig.cpp:229
+#: schema/kateschemaconfig.cpp:235
 msgid "Editable Placeholder"
 msgstr "संपादना योग्य प्लेसहोल्डर"
 
-#: schema/kateschemaconfig.cpp:234
+#: schema/kateschemaconfig.cpp:240
 msgid "Focused Editable Placeholder"
 msgstr "केंद्रीत संपादना योग्य प्लेसहोल्डर"
 
-#: schema/kateschemaconfig.cpp:239
+#: schema/kateschemaconfig.cpp:245
 msgid "Not Editable Placeholder"
 msgstr "संपादना अयोग्य प्लेसहोल्डर"
 
-#: schema/kateschemaconfig.cpp:467
+#: schema/kateschemaconfig.cpp:473
 msgid ""
 "<p>This list displays the default styles for the current schema and offers "
 "the means to edit them. The style name reflects the current style settings.</"
@@ -2534,50 +2546,50 @@ msgid ""
 "Background colors from the popup menu when appropriate.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:502
+#: schema/kateschemaconfig.cpp:508
 #, fuzzy
 #| msgid "Normal Text"
 msgctxt "@item:intable"
 msgid "Normal Text & Source Code"
 msgstr "सामान्य पाठ्य"
 
-#: schema/kateschemaconfig.cpp:511
+#: schema/kateschemaconfig.cpp:517
 msgctxt "@item:intable"
 msgid "Numbers, Types & Constants"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:520
+#: schema/kateschemaconfig.cpp:526
 #, fuzzy
 #| msgid "Set of characters"
 msgctxt "@item:intable"
 msgid "Strings & Characters"
 msgstr "अक्षरांचे संच"
 
-#: schema/kateschemaconfig.cpp:529
+#: schema/kateschemaconfig.cpp:535
 #, fuzzy
 #| msgid "Close Document"
 msgctxt "@item:intable"
 msgid "Comments & Documentation"
 msgstr "दस्तऐवज बंद करा"
 
-#: schema/kateschemaconfig.cpp:538
+#: schema/kateschemaconfig.cpp:544
 msgctxt "@item:intable"
 msgid "Miscellaneous"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:611
+#: schema/kateschemaconfig.cpp:617
 msgid "H&ighlight:"
 msgstr "ठळक करा (&I):"
 
-#: schema/kateschemaconfig.cpp:621 schema/kateschemaconfig.cpp:935
+#: schema/kateschemaconfig.cpp:627 schema/kateschemaconfig.cpp:941
 msgid "Export..."
 msgstr "निर्यात..."
 
-#: schema/kateschemaconfig.cpp:625 schema/kateschemaconfig.cpp:939
+#: schema/kateschemaconfig.cpp:631 schema/kateschemaconfig.cpp:945
 msgid "Import..."
 msgstr "आयात..."
 
-#: schema/kateschemaconfig.cpp:658
+#: schema/kateschemaconfig.cpp:664
 msgid ""
 "<p>This list displays the contexts of the current syntax highlight mode and "
 "offers the means to edit them. The context name reflects the current style "
@@ -2588,124 +2600,124 @@ msgid ""
 "context menu when appropriate.</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:679
+#: schema/kateschemaconfig.cpp:685
 msgid "Loading all highlightings for schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:800
+#: schema/kateschemaconfig.cpp:806
 msgid "Importing colors for single highlighting"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:802 schema/kateschemaconfig.cpp:873
-#: schema/kateschemaconfig.cpp:992 schema/kateschemaconfig.cpp:1123
+#: schema/kateschemaconfig.cpp:808 schema/kateschemaconfig.cpp:879
+#: schema/kateschemaconfig.cpp:998 schema/kateschemaconfig.cpp:1129
 msgid "Kate color schema"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:816
+#: schema/kateschemaconfig.cpp:822
 msgid "File is not a single highlighting color file"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:817 schema/kateschemaconfig.cpp:1134
+#: schema/kateschemaconfig.cpp:823 schema/kateschemaconfig.cpp:1140
 msgid "Fileformat error"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:827
+#: schema/kateschemaconfig.cpp:833
 #, kde-format
 msgid "The selected file contains colors for a non existing highlighting:%1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:828
+#: schema/kateschemaconfig.cpp:834
 msgid "Import failure"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:851
+#: schema/kateschemaconfig.cpp:857
 #, kde-format
 msgid "Colors have been imported for highlighting: %1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:852
+#: schema/kateschemaconfig.cpp:858
 msgid "Import has finished"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:871
+#: schema/kateschemaconfig.cpp:877
 #, kde-format
 msgid "Exporting colors for single highlighting: %1"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:927
+#: schema/kateschemaconfig.cpp:933
 msgid "&New..."
 msgstr "नवीन (&N)..."
 
-#: schema/kateschemaconfig.cpp:950
+#: schema/kateschemaconfig.cpp:956
 msgid "Colors"
 msgstr "रंग"
 
-#: schema/kateschemaconfig.cpp:954
+#: schema/kateschemaconfig.cpp:960
 msgid "Font"
 msgstr "फॉन्ट"
 
-#: schema/kateschemaconfig.cpp:958
+#: schema/kateschemaconfig.cpp:964
 msgid "Default Text Styles"
 msgstr "मूलभूत मजकूर शैली"
 
-#: schema/kateschemaconfig.cpp:962
+#: schema/kateschemaconfig.cpp:968
 msgid "Highlighting Text Styles"
 msgstr "स्पष्ट करणारी मजकूर शैली"
 
-#: schema/kateschemaconfig.cpp:968
+#: schema/kateschemaconfig.cpp:974
 #, kde-format
 msgid "&Default schema for %1:"
 msgstr "%1 करिता मूलभूत स्किमा (&D):"
 
-#: schema/kateschemaconfig.cpp:990
+#: schema/kateschemaconfig.cpp:996
 #, kde-format
 msgid "Exporting color schema: %1"
 msgstr "रंग स्किमा निर्यात करत आहे : %1"
 
-#: schema/kateschemaconfig.cpp:1022
+#: schema/kateschemaconfig.cpp:1028
 msgid "Exporting schema"
 msgstr "स्किमा निर्यात करत आहे"
 
-#: schema/kateschemaconfig.cpp:1121
+#: schema/kateschemaconfig.cpp:1127
 msgid "Importing Color Schema"
 msgstr "रंग स्किमा आयात करत आहे"
 
-#: schema/kateschemaconfig.cpp:1133
+#: schema/kateschemaconfig.cpp:1139
 msgid "The file does not contain a full color schema."
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1140
+#: schema/kateschemaconfig.cpp:1146
 msgid "Name unspecified"
 msgstr "नाव अनुल्लेखित"
 
-#: schema/kateschemaconfig.cpp:1190
+#: schema/kateschemaconfig.cpp:1196
 msgid "Importing schema"
 msgstr "स्किमा आयात करत आहे"
 
-#: schema/kateschemaconfig.cpp:1336
+#: schema/kateschemaconfig.cpp:1342
 msgid "Name for New Schema"
 msgstr "नवीन स्किमाचे नाव"
 
-#: schema/kateschemaconfig.cpp:1336
+#: schema/kateschemaconfig.cpp:1342
 msgid "Name:"
 msgstr "नाव :"
 
-#: schema/kateschemaconfig.cpp:1336 schema/kateschemaconfig.cpp:1344
+#: schema/kateschemaconfig.cpp:1342 schema/kateschemaconfig.cpp:1350
 msgid "New Schema"
 msgstr "नवीन स्किमा"
 
-#: schema/kateschemaconfig.cpp:1344
+#: schema/kateschemaconfig.cpp:1350
 #, kde-format
 msgid ""
 "<p>The schema %1 already exists.</p><p>Please choose a different schema name."
 "</p>"
 msgstr ""
 
-#: schema/kateschemaconfig.cpp:1379
+#: schema/kateschemaconfig.cpp:1385
 msgid "Fonts & Colors"
 msgstr "फॉन्ट व रंग"
 
-#: schema/kateschemaconfig.cpp:1384
+#: schema/kateschemaconfig.cpp:1390
 msgid "Font & Color Schemas"
 msgstr "फॉन्ट व रंग स्किमा"
 
@@ -7567,7 +7579,7 @@ msgstr "वर्तमान नोड अनफोल्ड करा"
 msgid "(R/O) %1"
 msgstr ""
 
-#: view/kateview.cpp:3368
+#: view/kateview.cpp:3372
 msgid "Export File as HTML"
 msgstr ""
 
@@ -7625,16 +7637,16 @@ msgstr ""
 msgid "No such command: \"%1\""
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2016 view/kateviewhelpers.cpp:2017
+#: view/kateviewhelpers.cpp:2023 view/kateviewhelpers.cpp:2024
 #, kde-format
 msgid "Mark Type %1"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2039
+#: view/kateviewhelpers.cpp:2046
 msgid "Set Default Mark Type"
 msgstr ""
 
-#: view/kateviewhelpers.cpp:2098
+#: view/kateviewhelpers.cpp:2105
 msgid "Disable Annotation Bar"
 msgstr ""
 
