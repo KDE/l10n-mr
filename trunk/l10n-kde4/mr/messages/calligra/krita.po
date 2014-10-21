@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-10-20 01:40+0000\n"
+"POT-Creation-Date: 2014-10-21 01:37+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1557,14 +1557,14 @@ msgctxt "./data/patterns/HR_Wall_Paper.pat"
 msgid "HR Wall Paper"
 msgstr "HR वॉल पेपर"
 
-#: image/brushengine/kis_paintop_factory.cpp:66
+#: image/brushengine/kis_paintop_factory.cpp:65
 #, fuzzy
 #| msgid "Brush Settings"
 msgctxt "Category of brush engines"
 msgid "Brush engines"
 msgstr "कुंचल्याची संयोजना"
 
-#: image/brushengine/kis_paintop_registry.cc:132
+#: image/brushengine/kis_paintop_registry.cc:131
 msgid "default"
 msgstr "सुरुवातीचे"
 
@@ -3201,7 +3201,7 @@ msgstr "दर्शवा"
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:214
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:103
-#: ui/forms/wdgdisplaysettings.ui:65 ui/kis_paintop_box.cc:153
+#: ui/forms/wdgdisplaysettings.ui:65 ui/kis_paintop_box.cc:172
 msgid "Size:"
 msgstr "आकार :"
 
@@ -3838,7 +3838,7 @@ msgstr "स्तर किंवा मुखवटा काढून टा�
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:65
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:38
 #: ui/forms/wdganimationselector.ui:220 ui/forms/wdgautogradient.ui:81
-#: ui/forms/wdgpaintactioneditor.ui:89 ui/kis_paintop_box.cc:151
+#: ui/forms/wdgpaintactioneditor.ui:89 ui/kis_paintop_box.cc:170
 msgid "Opacity:"
 msgstr "अपारदर्शकता :"
 
@@ -3912,9 +3912,17 @@ msgstr "फ्लिपबूकला जोडण्याकरिता फ�
 msgid "Load flipbook"
 msgstr "फ्लिपबूक दाखल करा"
 
-#: plugins/extensions/dockers/historydocker/HistoryDock.cpp:25
+#: plugins/extensions/dockers/historydocker/HistoryDock.cpp:27
 msgid "Undo History"
 msgstr "इतिहास पूर्ववत करा"
+
+#: plugins/extensions/dockers/historydocker/KisUndoView.cpp:307
+msgid "Disable Cumulative Undo"
+msgstr ""
+
+#: plugins/extensions/dockers/historydocker/KisUndoView.cpp:307
+msgid "Enable Cumulative Undo"
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, imgBrowserTab)
 #: plugins/extensions/dockers/imagedocker/forms/wdgimagedocker.ui:42
@@ -4188,7 +4196,7 @@ msgstr "नाव अंतर्भूत करा"
 #: plugins/extensions/resourcemanager/wdgdlgbundlemanager.ui:131
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:22
 #: ui/forms/wdgautogradient.ui:25 ui/forms/wdgfilternodecreation.ui:17
-#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:93
+#: ui/forms/wdgflipbookselector.ui:28 ui/forms/wdgpaintopsettings.ui:166
 msgid "Name:"
 msgstr "नाव :"
 
@@ -5519,7 +5527,7 @@ msgstr "कुंचले"
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:197
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:104
-#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:254
+#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:279
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
@@ -5698,11 +5706,11 @@ msgstr "नवीन संयोजना %1"
 msgid "Could not load bundle %1."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:299
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:300
 msgid "Could not create the new bundle."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:299
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:300
 #, fuzzy
 #| msgid "Mirror"
 msgid "Error"
@@ -7553,7 +7561,19 @@ msgstr ""
 msgid "Vector Layer"
 msgstr "व्हेक्टर स्तर"
 
-#: plugins/formats/ora/ora_export.cc:98
+#: plugins/formats/ora/ora_export.cc:106
+#, fuzzy
+#| msgid "Cannot export images in this colorspace or channel depth to PNG"
+msgid "Cannot export images in this colorspace or channel depth to OpenRaster"
+msgstr "कलरस्पेस किंवा माध्यम खोलीतील  प्रतिमा PNG मध्ये निर्यात करता येत नाहीत"
+
+#: plugins/formats/ora/ora_export.cc:106
+#, fuzzy
+#| msgid "Krita PNG Export"
+msgid "Krita OpenRaster Export"
+msgstr "क्रिता PNG निर्यात"
+
+#: plugins/formats/ora/ora_export.cc:114
 #, fuzzy
 #| msgid ""
 #| "This image contains vector, clone or generated layers..\n"
@@ -7563,7 +7583,7 @@ msgid ""
 "These layers will be saved as raster layers."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: plugins/formats/ora/ora_export.cc:99
+#: plugins/formats/ora/ora_export.cc:115
 msgid "Warning"
 msgstr "इशारा"
 
@@ -9190,7 +9210,7 @@ msgstr "गाळणीची जुळणी"
 
 #. i18n: ectx: property (text), widget (QLabel, flowLabel)
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:58
-#: ui/kis_paintop_box.cc:152
+#: ui/kis_paintop_box.cc:171
 msgid "Flow:"
 msgstr "प्रवाह :"
 
@@ -9545,7 +9565,7 @@ msgstr "कमी मूल्य "
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option.cpp:30
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:243
-#: ui/kis_paintop_box.cc:250
+#: ui/kis_paintop_box.cc:275
 msgid "Mirror"
 msgstr "प्रतिबिंब"
 
@@ -10250,7 +10270,7 @@ msgctxt "(qtundo-format)"
 msgid "Draw Line"
 msgstr "तुटक रेषा"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:81
+#: plugins/tools/defaulttools/kis_tool_line.cc:88
 #, fuzzy
 #| msgid "Use OpenColorIO"
 msgid "Use sensors"
@@ -10258,18 +10278,18 @@ msgstr "OpenColorIO वापरा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxPreview)
 #. i18n: ectx: property (title), widget (QGroupBox, m_groupBox)
-#: plugins/tools/defaulttools/kis_tool_line.cc:85
+#: plugins/tools/defaulttools/kis_tool_line.cc:91
 #: ui/forms/kis_previewwidgetbase.ui:36 ui/forms/wdgfilterdialog.ui:64
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
-#: plugins/tools/defaulttools/kis_tool_line.cc:250
+#: plugins/tools/defaulttools/kis_tool_line.cc:277
 msgid ""
 "Alt+Drag will move the origin of the currently displayed line around, Shift"
 "+Drag will force you to draw straight lines"
 msgstr "Alt+Drag मुळे तुम्हाला सरळ रेषा काढणे भाग पडेल"
 
-#: plugins/tools/defaulttools/kis_tool_line.h:96
+#: plugins/tools/defaulttools/kis_tool_line.h:103
 #, fuzzy
 #| msgid "&Painter's Tools"
 msgid "Line Tool"
@@ -10287,7 +10307,7 @@ msgstr "कोन : "
 msgid "Measure the distance between two points"
 msgstr "दोन बिंदूंतील अंतर मोजा"
 
-#: plugins/tools/defaulttools/kis_tool_move.h:115
+#: plugins/tools/defaulttools/kis_tool_move.h:121
 msgid "Move a layer"
 msgstr "स्तर हलवा"
 
@@ -12551,24 +12571,36 @@ msgid "Preset Collection"
 msgstr "प्रीसेट संग्रह"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, txtPreset)
-#: ui/forms/wdgpaintopsettings.ui:103
-msgid "Current brush preset"
-msgstr "वर्तमान कुंचला प्रीसेट"
+#: ui/forms/wdgpaintopsettings.ui:176
+msgid ""
+"Current Brush Preset. Pink in Color whenever the preset has modified "
+"settings. Stays the same if original settings are loaded."
+msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, bnSave)
-#: ui/forms/wdgpaintopsettings.ui:110
+#: ui/forms/wdgpaintopsettings.ui:183
 msgid "Save the current brush settings under this name"
 msgstr "या नावाने वर्तमान कुंचल्याची संयोजना साठवा"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnSave)
-#: ui/forms/wdgpaintopsettings.ui:113
+#: ui/forms/wdgpaintopsettings.ui:186
 msgid "&Save to Presets"
 msgstr "प्रीसेट मध्ये साठवा (&S)"
 
+#. i18n: ectx: property (text), widget (QPushButton, reload)
+#: ui/forms/wdgpaintopsettings.ui:193
+msgid "Reload"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, bnDefaultPreset)
-#: ui/forms/wdgpaintopsettings.ui:130
+#: ui/forms/wdgpaintopsettings.ui:234
 msgid "Default preset"
 msgstr "मूलभूत प्रीसेट"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dirtyPresetCheckBox)
+#: ui/forms/wdgpaintopsettings.ui:247
+msgid "Temporarily Save Tweaks To Presets"
+msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
 #. i18n: ectx: property (whatsThis), widget (KIntNumInput, m_maxTiles)
@@ -14007,71 +14039,75 @@ msgstr "पेंटिंग सहायक दर्शवा"
 msgid "Show Assistant Previews"
 msgstr "पेंटिंग सहायक दर्शवा"
 
-#: ui/kis_paintop_box.cc:96
+#: ui/kis_paintop_box.cc:105
 msgid "Painter's Toolchest"
 msgstr "पेंटरची साधनपेटी"
 
-#: ui/kis_paintop_box.cc:102
+#: ui/kis_paintop_box.cc:111
 msgid "Edit brush settings"
 msgstr "कुंचल्याची संयोजना संपादित करा"
 
-#: ui/kis_paintop_box.cc:107
+#: ui/kis_paintop_box.cc:116
 msgid "Choose brush preset"
 msgstr "कुंचल्याचा प्रीसेट निवडा"
 
-#: ui/kis_paintop_box.cc:114
+#: ui/kis_paintop_box.cc:123
 msgid "Set eraser mode"
 msgstr "खोडण्याची पद्धत निश्चित करा"
 
-#: ui/kis_paintop_box.cc:124
+#: ui/kis_paintop_box.cc:134
+msgid "Reload Original Preset"
+msgstr ""
+
+#: ui/kis_paintop_box.cc:143
 #, fuzzy
 #| msgid "Ignore Alpha"
 msgid "Preserve Alpha"
 msgstr "अल्फाकडे दुर्लक्ष करा"
 
-#: ui/kis_paintop_box.cc:133
+#: ui/kis_paintop_box.cc:152
 msgid "Set horizontal mirror mode"
 msgstr "आडवे प्रतिबिंब पद्धत निश्चित करा"
 
-#: ui/kis_paintop_box.cc:142
+#: ui/kis_paintop_box.cc:161
 msgid "Set vertical mirror mode"
 msgstr "उभे प्रतिबिंब पद्धत निश्चित करा"
 
-#: ui/kis_paintop_box.cc:176
+#: ui/kis_paintop_box.cc:196
 msgid "Mode: "
 msgstr "पद्धतः "
 
-#: ui/kis_paintop_box.cc:187
+#: ui/kis_paintop_box.cc:207
 msgid "Choose workspace"
 msgstr "कार्यक्षेत्र निवडा"
 
-#: ui/kis_paintop_box.cc:211
+#: ui/kis_paintop_box.cc:236
 msgid "Brush composite"
 msgstr "एकत्रित कुंचला"
 
-#: ui/kis_paintop_box.cc:215
+#: ui/kis_paintop_box.cc:240
 msgid "Brush option slider 1"
 msgstr "कुंचला पर्याय पट्टी १"
 
-#: ui/kis_paintop_box.cc:220
+#: ui/kis_paintop_box.cc:245
 msgid "Brush option slider 2"
 msgstr "कुंचला पर्याय पट्टी २"
 
-#: ui/kis_paintop_box.cc:225
+#: ui/kis_paintop_box.cc:250
 #, fuzzy
 #| msgid "Brush option slider 1"
 msgid "Brush option slider 3"
 msgstr "कुंचला पर्याय पट्टी १"
 
-#: ui/kis_paintop_box.cc:230
+#: ui/kis_paintop_box.cc:255
 msgid "Next Favourite Preset"
 msgstr "पुढील पसंत प्रीसेट"
 
-#: ui/kis_paintop_box.cc:235
+#: ui/kis_paintop_box.cc:260
 msgid "Previous Favourite Preset"
 msgstr "मागील पसंत प्रीसेट"
 
-#: ui/kis_paintop_box.cc:240
+#: ui/kis_paintop_box.cc:265
 msgid "Switch to Previous Preset"
 msgstr "मागील प्रीसेट वर जा"
 
@@ -14632,6 +14668,20 @@ msgctxt "(qtundo-format)"
 msgid "Filter \"%1\""
 msgstr "गाळणी :"
 
+#: ui/widgets/kis_categorized_list_view.cpp:113
+#, fuzzy
+#| msgid "Locked"
+msgid "Lock"
+msgstr "कुलूपबंद"
+
+#: ui/widgets/kis_categorized_list_view.cpp:113
+msgid "Unlock (Drop Locked)"
+msgstr ""
+
+#: ui/widgets/kis_categorized_list_view.cpp:116
+msgid "Unlock (keep locked)"
+msgstr ""
+
 #: ui/widgets/kis_channelflags_widget.cpp:38
 msgid ""
 "Check the active channels in this layer. Only these channels will be "
@@ -14835,37 +14885,37 @@ msgstr "मेटाडेटा विलिनीकरण धोरण नि
 msgid "x%1"
 msgstr "x%1"
 
-#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:55
+#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:56
 msgid "Thumbnails"
 msgstr "लघुप्रतिमा"
 
-#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:60
+#: ui/widgets/kis_paintop_presets_chooser_popup.cpp:61
 msgid "Details"
 msgstr "तपशील"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:205
+#: ui/widgets/kis_paintop_presets_popup.cpp:220
 msgid "Overwrite Preset"
 msgstr "प्रीसेट खोडून पुन्हा लिहा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:209
+#: ui/widgets/kis_paintop_presets_popup.cpp:225
 msgid "Save to Presets"
 msgstr "प्रीसेटस् वर साठवा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:228
+#: ui/widgets/kis_paintop_presets_popup.cpp:246
 msgid "Attach to Toolbar"
 msgstr "साधनपट्टीला जोडा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:228
+#: ui/widgets/kis_paintop_presets_popup.cpp:246
 msgid "Detach from Toolbar"
 msgstr "साधनपट्टीपासून तोडा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:230
+#: ui/widgets/kis_paintop_presets_popup.cpp:248
 #, fuzzy
 #| msgid "Show Perspective Grid"
 msgid "Show Preset Strip"
 msgstr "आकलन जाळी दर्शवा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:234
+#: ui/widgets/kis_paintop_presets_popup.cpp:252
 #, fuzzy
 #| msgid "Sc_Scratch"
 msgid "Show Scratchpad"
@@ -14914,6 +14964,9 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बंद करा"
+
+#~ msgid "Current brush preset"
+#~ msgstr "वर्तमान कुंचला प्रीसेट"
 
 #~ msgid "Use the same curve"
 #~ msgstr "तेच वलय वापरा"
