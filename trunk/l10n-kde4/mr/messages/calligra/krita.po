@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-09 01:39+0000\n"
+"POT-Creation-Date: 2014-11-12 01:44+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -108,10 +108,12 @@ msgstr "गाळणी (&R)"
 msgid "&Tools"
 msgstr "साधने (&T)"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: Menu (settings)
 #: animator/kritaanimation.rc:154 gemini/kritagemini.rc:159 krita.rc:164
 #: plugins/extensions/dockers/animator/kis_timeline.cpp:203
 #: plugins/extensions/dockers/animator/kis_timeline.cpp:218
+#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
 #: sketch/kritasketch.rc:159
 msgid "Settings"
 msgstr "संयोजना"
@@ -2137,7 +2139,7 @@ msgstr "मार्ग"
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:60
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:36
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:232
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:60
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
 msgid "Ellipse"
 msgstr "लंबवर्तुळ"
 
@@ -2149,7 +2151,7 @@ msgstr "लंबवर्तुळ"
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:65
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:41
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:237
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:65
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:80
 msgid "Rectangle"
 msgstr "चौकोन"
 
@@ -2989,7 +2991,7 @@ msgstr ""
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:70
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:69
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:215
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:46
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:55
 #: plugins/tools/defaulttools/kis_tool_gradient.cc:223
 msgid "Shape:"
 msgstr "आकार :"
@@ -4351,9 +4353,7 @@ msgid "Color:"
 msgstr "रंगः"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, opacitySpinBox)
-#. i18n: ectx: property (suffix), widget (KDoubleNumInput, coverageSpin)
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:80
-#: plugins/paintops/spray/wdgsprayoptions.ui:293
 #, no-c-format
 msgid "%"
 msgstr "%"
@@ -4531,7 +4531,7 @@ msgstr "प्रमाणाची निवड"
 #: plugins/extensions/imagesplit/imagesplit.rc:4
 #: plugins/extensions/separate_channels/imageseparate.rc:4
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:80
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:80
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:95
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:232
 msgid "Image"
 msgstr "प्रतिमा"
@@ -4564,7 +4564,7 @@ msgstr "प्रतिमेचा आकार"
 #: plugins/extensions/imagesize/wdg_layersize.ui:154
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:295
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:168
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:171
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:138
 #: ui/forms/wdg_resolution.ui:27 ui/forms/wdganimationselector.ui:121
 #: ui/forms/wdgimageproperties.ui:58
 msgid "Height:"
@@ -4582,7 +4582,7 @@ msgstr "उंची :"
 #: plugins/extensions/imagesize/wdg_layersize.ui:58
 #: plugins/formats/pdf/pdfimportwidgetbase.ui:275
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:101
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:101
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:103
 #: ui/forms/wdg_resolution.ui:20 ui/forms/wdganimationselector.ui:114
 #: ui/forms/wdgimageproperties.ui:41
 msgid "Width:"
@@ -6047,8 +6047,6 @@ msgstr "समतल विभाजन कोन X:"
 #. i18n: ectx: property (suffix), widget (QSpinBox, azimuthSpinBox3)
 #. i18n: ectx: property (suffix), widget (QSpinBox, inclinationSpinBox3)
 #. i18n: ectx: property (suffix), widget (QSpinBox, fixedRotationSPBox)
-#. i18n: ectx: property (suffix), widget (KDoubleNumInput, rotationSPBox)
-#. i18n: ectx: property (suffix), widget (KDoubleNumInput, fixedAngleBox)
 #: plugins/extensions/shearimage/wdg_shearimage.ui:36
 #: plugins/extensions/shearimage/wdg_shearimage.ui:65
 #: plugins/filters/blur/wdg_lens_blur.ui:67
@@ -6063,8 +6061,6 @@ msgstr "समतल विभाजन कोन X:"
 #: plugins/filters/phongbumpmap/wdgphongbumpmap.ui:1080
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:273
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:58
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:87
-#: plugins/paintops/spray/wdgsprayoptions.ui:159
 msgid "°"
 msgstr "०"
 
@@ -6179,7 +6175,7 @@ msgstr "अष्टकोन (8)"
 #: plugins/paintops/hatching/wdghatchingoptions.ui:49
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:159
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:177
-#: plugins/paintops/spray/wdgsprayoptions.ui:131
+#: plugins/paintops/spray/wdgsprayoptions.ui:92
 msgid "Angle:"
 msgstr "कोन :"
 
@@ -8238,7 +8234,7 @@ msgstr "मृदू करणे"
 #: plugins/paintops/defaultpaintops/defaultpaintops_plugin.cc:46
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:75
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:51
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:75
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:90
 msgid "Pixel"
 msgstr "पिक्सेल"
 
@@ -8464,7 +8460,7 @@ msgstr "रंगाची जोड"
 #: plugins/paintops/dynadraw/wdgdynaoptions.ui:263
 #: plugins/paintops/libpaintop/forms/wdgautobrush.ui:169
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:46
-#: plugins/paintops/spray/wdgsprayoptions.ui:37
+#: plugins/paintops/spray/wdgsprayoptions.ui:40
 msgid "Diameter:"
 msgstr "व्यास :"
 
@@ -8527,13 +8523,13 @@ msgstr "कठीण"
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:70
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:56
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:70
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:85
 msgid "Anti-aliased pixel"
 msgstr "एंटि-एलायस पिक्सेल"
 
 #. i18n: ectx: property (text), widget (QCheckBox, proportionalBox)
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:213
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:218
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:163
 msgid "Proportional"
 msgstr "प्रमाणबद्ध"
 
@@ -8549,7 +8545,6 @@ msgstr "विनाक्रम आकार"
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:235
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:46
 #: plugins/paintops/libpaintop/kis_pressure_rotation_option.cpp:29
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:42
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:647
 msgid "Rotation"
 msgstr "फिरविणे"
@@ -8558,7 +8553,6 @@ msgstr "फिरविणे"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:241
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:59
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:48
 msgid "Constant"
 msgstr "स्थिर"
 
@@ -8566,19 +8560,17 @@ msgstr "स्थिर"
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox2)
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:289
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:64
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:58
 msgid "Random"
 msgstr "विनाक्रम"
 
 #. i18n: ectx: property (text), widget (QCheckBox, followCursor)
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:340
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:68
 msgid "Follow cursor"
 msgstr "कर्सरचा मागोवा घ्या"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/paintops/experiment/wdgexperimentshapeoptions.ui:393
-#: plugins/paintops/spray/wdgsprayshapeoptions.ui:230
+#: plugins/paintops/spray/wdgsprayshapeoptions.ui:175
 msgid "Texture:"
 msgstr "टेक्शर :"
 
@@ -8629,7 +8621,7 @@ msgstr "दबावाने विभाजन"
 #: plugins/paintops/hairy/wdgbristleoptions.ui:40
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:78
 #: plugins/paintops/libpaintop/kis_texture_option.cpp:75
-#: plugins/paintops/spray/wdgsprayoptions.ui:181
+#: plugins/paintops/spray/wdgsprayoptions.ui:118
 msgid "Scale:"
 msgstr "प्रमाण :"
 
@@ -9033,7 +9025,7 @@ msgstr "काटे :"
 #: plugins/paintops/libpaintop/forms/wdgcustombrush.ui:180
 #: plugins/paintops/libpaintop/forms/wdgtextbrush.ui:72
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:122
-#: plugins/paintops/spray/wdgsprayoptions.ui:219
+#: plugins/paintops/spray/wdgsprayoptions.ui:138
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1735
 msgid "Spacing:"
 msgstr "अंतर :"
@@ -9075,13 +9067,13 @@ msgstr "काटेकोरपणा :"
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:142
-#: plugins/paintops/spray/wdgsprayoptions.ui:84
+#: plugins/paintops/spray/wdgsprayoptions.ui:66
 msgid "Aspect ratio:"
 msgstr "आस्पेक्टचे प्रमाण :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, jitterMoveBox)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:287
-#: plugins/paintops/spray/wdgsprayoptions.ui:352
+#: plugins/paintops/spray/wdgsprayoptions.ui:229
 msgid "Jitter Movement"
 msgstr "जिटर हालचाल"
 
@@ -9517,9 +9509,7 @@ msgstr "फझी"
 msgid "Time"
 msgstr "वेळ"
 
-#. i18n: ectx: property (text), widget (QCheckBox, drawingAngle)
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:45
-#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:132
 msgid "Drawing angle"
 msgstr "चितारण्याचा कोन"
 
@@ -9566,18 +9556,16 @@ msgid "Darken"
 msgstr "गडद"
 
 #. i18n: ectx: property (text), widget (QLabel, lblTransparent)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:39
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:29
-#: ui/forms/wdganimationselector.ui:246 ui/forms/wdgnewimage.ui:494
+#: ui/forms/wdganimationselector.ui:246
 msgid "Transparent"
 msgstr "पारदर्शक"
 
 #. i18n: ectx: property (text), widget (QLabel, lblOpaque)
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option.cpp:40
 #: plugins/paintops/libpaintop/kis_pressure_opacity_option.cpp:30
-#: ui/forms/wdganimationselector.ui:266 ui/forms/wdgnewimage.ui:529
+#: ui/forms/wdganimationselector.ui:266
 msgid "Opaque"
 msgstr "अपारदर्शक"
 
@@ -9890,38 +9878,38 @@ msgid "Particle"
 msgstr "कण"
 
 #. i18n: ectx: property (text), widget (QLabel, particlesLbl)
-#: plugins/paintops/particle/wdgparticleoptions.ui:50
+#: plugins/paintops/particle/wdgparticleoptions.ui:43
 msgid "Particles:"
 msgstr "कण :"
 
 #. i18n: ectx: property (text), widget (QLabel, opacity)
-#: plugins/paintops/particle/wdgparticleoptions.ui:103
+#: plugins/paintops/particle/wdgparticleoptions.ui:75
 msgid "Opacity weight:"
 msgstr "अपारदर्शकता भार :"
 
-#. i18n: ectx: property (text), widget (QLabel, radiusLabel_3)
-#: plugins/paintops/particle/wdgparticleoptions.ui:150
-msgid "dx scale:"
-msgstr "dx प्रमाण :"
-
-#. i18n: ectx: property (text), widget (QLabel, radiusLabel_4)
-#: plugins/paintops/particle/wdgparticleoptions.ui:179
-msgid "dy scale:"
-msgstr "dy प्रमाण :"
-
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel_5)
-#: plugins/paintops/particle/wdgparticleoptions.ui:208
+#: plugins/paintops/particle/wdgparticleoptions.ui:104
 msgid "Iterations:"
 msgstr "प्रयत्न सातत्य :"
 
 #. i18n: ectx: property (text), widget (QLabel, radiusLabel_2)
-#: plugins/paintops/particle/wdgparticleoptions.ui:228
+#: plugins/paintops/particle/wdgparticleoptions.ui:114
 msgid "Gravity:"
 msgstr "गुरुत्वाकर्षण :"
 
+#. i18n: ectx: property (text), widget (QLabel, radiusLabel_3)
+#: plugins/paintops/particle/wdgparticleoptions.ui:127
+msgid "dx scale:"
+msgstr "dx प्रमाण :"
+
+#. i18n: ectx: property (text), widget (QLabel, radiusLabel_4)
+#: plugins/paintops/particle/wdgparticleoptions.ui:137
+msgid "dy scale:"
+msgstr "dy प्रमाण :"
+
 #. i18n: ectx: property (text), widget (QRadioButton, densityRadioButton)
 #: plugins/paintops/sketch/kis_density_option.cpp:23
-#: plugins/paintops/spray/wdgsprayoptions.ui:268
+#: plugins/paintops/spray/wdgsprayoptions.ui:181
 msgid "Density"
 msgstr "घनता"
 
@@ -9973,7 +9961,7 @@ msgstr "आकाराची गतिमानता"
 msgid "Spray shape"
 msgstr "फवाऱ्याचा आकार"
 
-#: plugins/paintops/spray/kis_sprayop_option.cpp:37
+#: plugins/paintops/spray/kis_sprayop_option.cpp:33
 #, fuzzy
 #| msgid "Spray shape"
 msgid "Spray area"
@@ -9985,18 +9973,46 @@ msgstr "फवाऱ्याचा आकार"
 msgid "Spray"
 msgstr "फवाऱ्याचा आकार"
 
+#. i18n: ectx: property (text), widget (QCheckBox, fixedRotation)
+#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:48
+#, fuzzy
+#| msgid "Rotation:"
+msgid "Fixed rotation:"
+msgstr "फिरवणे :"
+
+#. i18n: ectx: property (text), widget (QCheckBox, randomRotation)
+#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:58
+#, fuzzy
+#| msgid "Rotation:"
+msgid "Randomize rotation:"
+msgstr "फिरवणे :"
+
+#. i18n: ectx: property (text), widget (QCheckBox, followCursor)
+#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:68
+#, fuzzy
+#| msgid "Follow cursor"
+msgid "Follow cursor weight:"
+msgstr "कर्सरचा मागोवा घ्या"
+
+#. i18n: ectx: property (text), widget (QCheckBox, drawingAngle)
+#: plugins/paintops/spray/wdgshapedynamicsoptions.ui:84
+#, fuzzy
+#| msgid "line height"
+msgid "Angle weight:"
+msgstr "रेषेची उंची"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: plugins/paintops/spray/wdgsprayoptions.ui:256
+#: plugins/paintops/spray/wdgsprayoptions.ui:166
 msgid "Particles"
 msgstr "कण"
 
 #. i18n: ectx: property (text), widget (QRadioButton, countRadioButton)
-#: plugins/paintops/spray/wdgsprayoptions.ui:306
+#: plugins/paintops/spray/wdgsprayoptions.ui:201
 msgid "Count"
 msgstr "संख्या"
 
 #. i18n: ectx: property (text), widget (QCheckBox, gaussianBox)
-#: plugins/paintops/spray/wdgsprayoptions.ui:387
+#: plugins/paintops/spray/wdgsprayoptions.ui:249
 msgid "Gaussian distribution"
 msgstr "गॉसियन वितरण"
 
@@ -11006,22 +11022,22 @@ msgctxt "@info:tooltip"
 msgid "Undo: erase actions of other tools"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:574
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:579
 msgid "Switch between editing and deforming cage"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:623
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:628
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1476
 msgid "Lock Points"
 msgstr "कुलूप बिंदू"
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:625
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:630
 msgid "Unlock Points"
 msgstr "कुलूप काढून टाकण्याचा बिंदू"
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:712
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:717
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1492
 msgid "Create 3 points on the canvas to begin"
 msgstr ""
@@ -12755,51 +12771,41 @@ msgstr "पूर्वनियोजित (&P):"
 msgid "Contents"
 msgstr "मजकूर"
 
-#. i18n: ectx: property (text), widget (QLabel, lblColor)
+#. i18n: ectx: property (text), widget (QLabel, lblOpacity)
 #: ui/forms/wdgnewimage.ui:406
+#, fuzzy
+#| msgid "Background color:"
+msgid "Image Background &Opacity:"
+msgstr "पार्श्वभूमीचा रंग :"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDescription)
+#: ui/forms/wdgnewimage.ui:446
+msgid "&Description:"
+msgstr "वर्णन (&D):"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/forms/wdgnewimage.ui:459
+#, fuzzy
+#| msgid "Layers"
+msgid "Layers:"
+msgstr "स्तर"
+
+#. i18n: ectx: property (text), widget (QLabel, lblColor)
+#: ui/forms/wdgnewimage.ui:466
 #, fuzzy
 #| msgid "Background Color"
 msgid "&Image Background Color:"
 msgstr "पार्श्वभूमीचा रंग"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, cmbColor)
-#: ui/forms/wdgnewimage.ui:419
+#: ui/forms/wdgnewimage.ui:510
 #, fuzzy
 #| msgid "background color change"
 msgid "Reset the image background color in the Image Properties dialog"
 msgstr "पार्श्वभूमीच्या रंगातील बदल"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: ui/forms/wdgnewimage.ui:440
-#, fuzzy
-#| msgid "Number of tiles"
-msgid "Number of layers:"
-msgstr "फरशांची संख्या"
-
-#. i18n: ectx: property (text), widget (QLabel, lblOpacity)
-#: ui/forms/wdgnewimage.ui:460
-#, fuzzy
-#| msgid "Background color:"
-msgid "Image Background &Opacity:"
-msgstr "पार्श्वभूमीचा रंग :"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, sliderOpacity)
-#: ui/forms/wdgnewimage.ui:504
-msgid "Opacity of the background color"
-msgstr "पार्श्वभूमीच्या रंगाची अपारदर्शकता"
-
-#. i18n: ectx: property (whatsThis), widget (QSlider, sliderOpacity)
-#: ui/forms/wdgnewimage.ui:507
-msgid "Opacity of the background color."
-msgstr "पार्श्वभूमीच्या रंगाची अपारदर्शकता."
-
-#. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#: ui/forms/wdgnewimage.ui:539
-msgid "&Description:"
-msgstr "वर्णन (&D):"
-
 #. i18n: ectx: property (text), widget (QPushButton, createButton)
-#: ui/forms/wdgnewimage.ui:596
+#: ui/forms/wdgnewimage.ui:575
 msgid "&Create"
 msgstr "निर्माण करा (&C)"
 
@@ -15243,6 +15249,17 @@ msgstr ""
 #| msgid "Close"
 msgid "&Close"
 msgstr "बंद करा"
+
+#, fuzzy
+#~| msgid "Number of tiles"
+#~ msgid "Number of layers:"
+#~ msgstr "फरशांची संख्या"
+
+#~ msgid "Opacity of the background color"
+#~ msgstr "पार्श्वभूमीच्या रंगाची अपारदर्शकता"
+
+#~ msgid "Opacity of the background color."
+#~ msgstr "पार्श्वभूमीच्या रंगाची अपारदर्शकता."
 
 #~ msgid "Use Curve"
 #~ msgstr "वलय वापरा"
