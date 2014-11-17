@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-21 01:47+0000\n"
+"POT-Creation-Date: 2014-11-17 01:52+0000\n"
 "PO-Revision-Date: 2013-04-06 10:27+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -347,7 +347,7 @@ msgstr[0] "पॅकेज : %2"
 msgstr[1] "पॅकेजेस : %2"
 
 #: apperd/TransactionWatcher.cpp:240 ApperKCM/TransactionModel.cpp:45
-#: AppSetup/SetupWizard.cpp:204
+#: AppSetup/SetupWizard.cpp:149
 msgid "Details"
 msgstr "तपशील"
 
@@ -382,7 +382,7 @@ msgstr[1] ""
 msgid "Review"
 msgstr "समीक्षा"
 
-#: apperd/Updater.cpp:290 AppSetup/SetupWizard.cpp:339
+#: apperd/Updater.cpp:290 AppSetup/SetupWizard.cpp:270
 #: libapper/ApplicationsDelegate.cpp:40
 msgid "Install"
 msgstr "प्रतिष्ठापीत करा"
@@ -484,7 +484,7 @@ msgid "Software Origins"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, backTB)
-#: ApperKCM/ApperKCM.ui:267 AppSetup/SetupWizard.cpp:153
+#: ApperKCM/ApperKCM.ui:267 AppSetup/SetupWizard.cpp:87
 msgid "Back"
 msgstr "मागे"
 
@@ -647,7 +647,7 @@ msgstr ""
 msgid "Display"
 msgstr "दर्शवा"
 
-#: ApperKCM/PackageDetails.cpp:87 AppSetup/SetupWizard.cpp:261
+#: ApperKCM/PackageDetails.cpp:87 AppSetup/SetupWizard.cpp:196
 msgid "Description"
 msgstr "वर्णन"
 
@@ -978,157 +978,113 @@ msgstr ""
 msgid "Check for new updates"
 msgstr "नवीन अद्ययावत तपासा"
 
-#. i18n: ectx: property (text), widget (QRadioButton, acceptedRB)
-#: AppSetup/LicensePage.ui:98
-msgid "I agree to the above terms and conditions"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QRadioButton, rejectedRB)
-#: AppSetup/LicensePage.ui:111
-msgid "I don't agree"
-msgstr ""
-
-#: AppSetup/main.cpp:34 AppSetup/main.cpp:35
+#: AppSetup/main.cpp:33 AppSetup/main.cpp:34
 msgid "KDE Application Installer"
 msgstr ""
 
-#: AppSetup/main.cpp:36
-msgid "(C) 2012, Matthias Klumpp"
+#: AppSetup/main.cpp:35
+msgid "(C) 2014, Matthias Klumpp"
 msgstr ""
 
-#: AppSetup/main.cpp:38
+#: AppSetup/main.cpp:37
 msgctxt "@info:credit"
 msgid "Daniel Nicoletti"
 msgstr ""
 
-#: AppSetup/main.cpp:38 AppSetup/main.cpp:40
+#: AppSetup/main.cpp:37 AppSetup/main.cpp:39
 msgid "Developer"
 msgstr "विकासकर्ता"
 
-#: AppSetup/main.cpp:40
+#: AppSetup/main.cpp:39
 msgctxt "@info:credit"
 msgid "Matthias Klumpp"
 msgstr ""
 
-#: AppSetup/main.cpp:47
+#: AppSetup/main.cpp:46
 msgid "Show verbose information"
 msgstr ""
 
-#: AppSetup/main.cpp:48
+#: AppSetup/main.cpp:47
 msgid "IPK package filename"
 msgstr ""
 
-#: AppSetup/main.cpp:72
-msgid "Sorry, we didn't get an existing IPK package as parameter."
+#: AppSetup/main.cpp:67
+msgid "We did not receive a path to an IPK package as parameter."
 msgstr ""
 
-#: AppSetup/main.cpp:73
+#: AppSetup/main.cpp:68
 msgid "Package not found!"
 msgstr "पॅकेजसापडले नाही!"
 
-#: AppSetup/SetupWizard.cpp:88
-msgid "Installation finished!"
-msgstr ""
+#: AppSetup/SetupWizard.cpp:85 libapper/Requirements.cpp:59
+#: PkSession/SessionTask.cpp:71
+msgid "Continue"
+msgstr "चालू ठेवा"
 
-#: AppSetup/SetupWizard.cpp:89
-#, kde-format
-msgid "%1 has been installed successfully!"
-msgstr ""
-
-#: AppSetup/SetupWizard.cpp:103 libapper/PkTransaction.cpp:118
+#: AppSetup/SetupWizard.cpp:109 libapper/PkTransaction.cpp:118
 #: libapper/PkTransaction.cpp:131 libapper/PkTransaction.cpp:145
 #: libapper/PkTransaction.cpp:163
 msgid "Error"
 msgstr "त्रुटी"
 
-#: AppSetup/SetupWizard.cpp:104 AppSetup/SetupWizard.cpp:118
+#: AppSetup/SetupWizard.cpp:110
 msgid "An error occurred"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:151 libapper/Requirements.cpp:59
-#: PkSession/SessionTask.cpp:71
-msgid "Continue"
-msgstr "चालू ठेवा"
-
-#: AppSetup/SetupWizard.cpp:192
+#: AppSetup/SetupWizard.cpp:137
 msgid "Welcome!"
 msgstr "स्वागत!"
 
-#: AppSetup/SetupWizard.cpp:193
+#: AppSetup/SetupWizard.cpp:138
 #, kde-format
 msgid "Welcome to the installation of %1!"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:194
+#: AppSetup/SetupWizard.cpp:139
 msgid ""
 "Please be careful while installing 3rd-party applications.<br>They may "
 "eventually <b>damage</b> your system or have <b>malicious behaviour</b>, "
 "like spying out your passwords.<br>Please do only install this software if "
-"you <b>trust the publisher and the author</b> of it."
+"you <b>trust its publisher</b>."
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:205
+#: AppSetup/SetupWizard.cpp:150
 msgid "Details about this installation"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:242
-msgid "Install for all users"
-msgstr ""
-
-#: AppSetup/SetupWizard.cpp:260
+#: AppSetup/SetupWizard.cpp:195
 msgid "Application description"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:272
-msgid "Software license"
-msgstr ""
-
-#: AppSetup/SetupWizard.cpp:273
-msgid "Please read the following terms and conditions carefully!"
-msgstr ""
-
-#: AppSetup/SetupWizard.cpp:282
+#: AppSetup/SetupWizard.cpp:203
 msgid "Running installation"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:283
+#: AppSetup/SetupWizard.cpp:204
 #, kde-format
 msgid "Installing %1..."
 msgstr "प्रतिष्ठापन करत आहे %1..."
 
-#: AppSetup/SetupWizard.cpp:318
-msgid ""
-"Installing this package will make the following native packages obsolete. "
-"You might consider removing them manually."
+#: AppSetup/SetupWizard.cpp:244
+msgid "Installation finished!"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:319
-msgid "Similar native packages found"
+#: AppSetup/SetupWizard.cpp:245
+#, kde-format
+msgid "%1 has been installed successfully!"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:419
-msgid ""
-"You want to install this application as root!\n"
-"This can damage your system or install malicious software for all users.\n"
-"Please only proceed, if you really know what you're doing!\n"
-"Continue?"
-msgstr ""
-
-#: AppSetup/SetupWizard.cpp:422
-msgid "Really install as superuser?"
-msgstr ""
-
-#: AppSetup/SetupWizard.cpp:440
+#: AppSetup/SetupWizard.cpp:352
 #, kde-format
 msgid "This package has the following security level: <b>%1</b>"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:442
+#: AppSetup/SetupWizard.cpp:354
 #, kde-format
 msgid "It was signed with a key belonging to these user-ids: %1"
 msgstr ""
 
-#: AppSetup/SetupWizard.cpp:446
+#: AppSetup/SetupWizard.cpp:359
 msgid "Security hints"
 msgstr ""
 
