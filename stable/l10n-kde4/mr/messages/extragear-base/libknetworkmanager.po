@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-06-23 05:47+0000\n"
+"POT-Creation-Date: 2014-11-30 05:17+0000\n"
 "PO-Revision-Date: 2013-03-28 15:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -2206,7 +2206,7 @@ msgstr "*99#"
 #: vpnplugins/openswan/openswan.ui:57 vpnplugins/openswan/openswan.ui:94
 #: vpnplugins/openvpn/openvpnprop.ui:181 vpnplugins/openvpn/openvpnprop.ui:391
 #: vpnplugins/openvpn/openvpnprop.ui:523 vpnplugins/openvpn/openvpnprop.ui:556
-#: vpnplugins/openvpn/openvpnprop.ui:1120 vpnplugins/pptp/pptpprop.ui:129
+#: vpnplugins/openvpn/openvpnprop.ui:1158 vpnplugins/pptp/pptpprop.ui:129
 #: vpnplugins/strongswan/strongswanprop.ui:164
 #: vpnplugins/strongswan/strongswanprop.ui:222
 #: vpnplugins/strongswan/strongswanprop.ui:275 vpnplugins/vpnc/vpncprop.ui:87
@@ -2236,7 +2236,7 @@ msgstr "साठवा"
 #: vpnplugins/openswan/openswan.ui:62 vpnplugins/openswan/openswan.ui:99
 #: vpnplugins/openvpn/openvpnprop.ui:176 vpnplugins/openvpn/openvpnprop.ui:386
 #: vpnplugins/openvpn/openvpnprop.ui:518 vpnplugins/openvpn/openvpnprop.ui:551
-#: vpnplugins/openvpn/openvpnprop.ui:1115 vpnplugins/pptp/pptpprop.ui:124
+#: vpnplugins/openvpn/openvpnprop.ui:1153 vpnplugins/pptp/pptpprop.ui:124
 #: vpnplugins/strongswan/strongswanprop.ui:159
 #: vpnplugins/strongswan/strongswanprop.ui:217
 #: vpnplugins/strongswan/strongswanprop.ui:270 vpnplugins/vpnc/vpncprop.ui:82
@@ -2267,8 +2267,8 @@ msgstr "नेहमी विचारा"
 #: vpnplugins/openswan/openswan.ui:67 vpnplugins/openswan/openswan.ui:104
 #: vpnplugins/openvpn/openvpnprop.ui:186 vpnplugins/openvpn/openvpnprop.ui:396
 #: vpnplugins/openvpn/openvpnprop.ui:528 vpnplugins/openvpn/openvpnprop.ui:561
-#: vpnplugins/openvpn/openvpnprop.ui:1014
-#: vpnplugins/openvpn/openvpnprop.ui:1125 vpnplugins/pptp/pptpprop.ui:134
+#: vpnplugins/openvpn/openvpnprop.ui:1052
+#: vpnplugins/openvpn/openvpnprop.ui:1163 vpnplugins/pptp/pptpprop.ui:134
 #: vpnplugins/strongswan/strongswanprop.ui:169
 #: vpnplugins/strongswan/strongswanprop.ui:227
 #: vpnplugins/strongswan/strongswanprop.ui:280 vpnplugins/vpnc/vpncprop.ui:92
@@ -3152,7 +3152,7 @@ msgstr "शेअर केलेली कळ"
 #. i18n: ectx: property (text), widget (QLabel, textLabel4_3)
 #. i18n: ectx: property (text), widget (QLabel, keyLabel)
 #: libs/ui/security/wep.ui:118 libs/ui/security/wepwidget.cpp:107
-#: vpnplugins/openvpn/openvpnprop.ui:140 vpnplugins/openvpn/openvpnprop.ui:914
+#: vpnplugins/openvpn/openvpnprop.ui:140 vpnplugins/openvpn/openvpnprop.ui:952
 msgid "&Key:"
 msgstr "कळ (&K):"
 
@@ -4355,7 +4355,7 @@ msgstr "कळ गुप्तशब्द :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #: vpnplugins/openvpn/openvpnauth.cpp:106
-#: vpnplugins/openvpn/openvpnprop.ui:1085
+#: vpnplugins/openvpn/openvpnprop.ui:1123
 msgid "Proxy Password:"
 msgstr "प्रॉक्सी गुप्तशब्द :"
 
@@ -4436,7 +4436,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, cboDirection)
 #. i18n: ectx: property (text), item, widget (QComboBox, cboEncryptionMethod)
 #: vpnplugins/openvpn/openvpnprop.ui:286 vpnplugins/openvpn/openvpnprop.ui:814
-#: vpnplugins/openvpn/openvpnprop.ui:948 vpnplugins/vpnc/vpncprop.ui:242
+#: vpnplugins/openvpn/openvpnprop.ui:986 vpnplugins/vpnc/vpncprop.ui:242
 msgid "None"
 msgstr "काही नाही"
 
@@ -4593,68 +4593,92 @@ msgid ""
 "Example: /CN=myvpn.company.com"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, useExtraTlsAuth)
+#. i18n: ectx: property (text), widget (QCheckBox, chkRemoteCertTls)
 #: vpnplugins/openvpn/openvpnprop.ui:900
+msgid "Verify peer (server) certificate usage signature"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelRemoteCertTls)
+#: vpnplugins/openvpn/openvpnprop.ui:912
+msgid "Remote peer certificate TLS type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbRemoteCertTls)
+#: vpnplugins/openvpn/openvpnprop.ui:923
+#, fuzzy
+#| msgid "Service"
+msgid "Server"
+msgstr "सेवा"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbRemoteCertTls)
+#: vpnplugins/openvpn/openvpnprop.ui:928
+#, fuzzy
+#| msgid "Client (1)"
+msgid "Client"
+msgstr "ग्राहक (1)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, useExtraTlsAuth)
+#: vpnplugins/openvpn/openvpnprop.ui:938
 msgid "Use additional TLS authentication"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: vpnplugins/openvpn/openvpnprop.ui:934
+#: vpnplugins/openvpn/openvpnprop.ui:972
 msgid "Key Direction:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cboDirection)
-#: vpnplugins/openvpn/openvpnprop.ui:953
+#: vpnplugins/openvpn/openvpnprop.ui:991
 msgid "Server (0)"
 msgstr "सर्व्हर (0)"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cboDirection)
-#: vpnplugins/openvpn/openvpnprop.ui:958
+#: vpnplugins/openvpn/openvpnprop.ui:996
 msgid "Client (1)"
 msgstr "ग्राहक (1)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: vpnplugins/openvpn/openvpnprop.ui:985
+#: vpnplugins/openvpn/openvpnprop.ui:1023
 msgid "Proxies"
 msgstr "प्रॉक्सी"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: vpnplugins/openvpn/openvpnprop.ui:994
+#: vpnplugins/openvpn/openvpnprop.ui:1032
 msgid "Proxy Type:"
 msgstr "प्रॉक्सी प्रकार :"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbProxyType)
-#: vpnplugins/openvpn/openvpnprop.ui:1019
+#: vpnplugins/openvpn/openvpnprop.ui:1057
 msgid "HTTP"
 msgstr "HTTP"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbProxyType)
-#: vpnplugins/openvpn/openvpnprop.ui:1024
+#: vpnplugins/openvpn/openvpnprop.ui:1062
 msgid "SOCKS"
 msgstr "SOCKS"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: vpnplugins/openvpn/openvpnprop.ui:1032
+#: vpnplugins/openvpn/openvpnprop.ui:1070
 msgid "Server Address:"
 msgstr "सर्व्हर पत्ता :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: vpnplugins/openvpn/openvpnprop.ui:1045
+#: vpnplugins/openvpn/openvpnprop.ui:1083
 msgid "Port:"
 msgstr "पोर्ट :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProxyRetry)
-#: vpnplugins/openvpn/openvpnprop.ui:1068
+#: vpnplugins/openvpn/openvpnprop.ui:1106
 msgid "Retry indefinitely when errors occur"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: vpnplugins/openvpn/openvpnprop.ui:1075
+#: vpnplugins/openvpn/openvpnprop.ui:1113
 msgid "Proxy Username:"
 msgstr "प्रॉक्सी वापरकर्ता नाव :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkProxyShowPassword)
-#: vpnplugins/openvpn/openvpnprop.ui:1095
+#: vpnplugins/openvpn/openvpnprop.ui:1133
 msgid "Show Password"
 msgstr "गुप्तशब्द दर्शवा"
 
