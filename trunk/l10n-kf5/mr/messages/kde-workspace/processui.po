@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: processui\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-24 07:55+0000\n"
+"POT-Creation-Date: 2014-11-30 07:54+0000\n"
 "PO-Revision-Date: 2013-02-20 18:03+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -593,6 +593,20 @@ msgstr "<br/>Setuid समूह : %1"
 msgid "<br/>File System Group: %1"
 msgstr "<br/>फाईल प्रणाली समूह : %1"
 
+#: ProcessModel.cpp:1142
+#, fuzzy, kde-format
+#| msgctxt "Short description of a process. PID, name, user"
+#| msgid "<numid>%1</numid>: %2, owned by user %3"
+msgctxt "Short description of a process. PID, name, user"
+msgid "%1: %2, owned by user %3"
+msgstr "<numid>%1</numid>: %2, मालक वापरकर्ता %3"
+
+#: ProcessModel.cpp:1149
+#, fuzzy, kde-format
+#| msgid "%1 (uid: %2)"
+msgid "%1 (gid: %2)"
+msgstr "%1 (uid: %2)"
+
 #: ProcessModel.cpp:1170
 #, kde-format
 msgid "%1 (uid: %2)"
@@ -638,6 +652,14 @@ msgstr "(IA) %1"
 msgid "%1/s"
 msgstr "%1/सेकंद"
 
+#: ProcessModel.cpp:1345
+#, fuzzy, kde-format
+#| msgctxt "tooltip. name,pid "
+#| msgid "This process is being debugged by %1 (<numid>%2</numid>)"
+msgctxt "tooltip. name,pid "
+msgid "This process is being debugged by %1 (%2)"
+msgstr "हि प्रक्रीया याद्वारे डिबन होत आहे : %1 (<numid>%2</numid>)"
+
 #: ProcessModel.cpp:1366
 msgid ""
 "<b>Init</b> is the parent of all other processes and cannot be killed.<br/>"
@@ -650,6 +672,37 @@ msgid ""
 msgstr ""
 "<b>के-थ्रेड</b> कर्नल थ्रेड चे व्यवस्थापन करतो. बालक प्रक्रिया कर्नल मध्ये चालतात, जी हार्ड "
 "डिस्क वर प्रवेश इत्यादि नियंत्रीत करते<br/>"
+
+#: ProcessModel.cpp:1370
+#, fuzzy, kde-format
+#| msgctxt "name column tooltip. first item is the name"
+#| msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
+msgctxt "name column tooltip. first item is the name"
+msgid "<b>%1</b><br />Process ID: %2"
+msgstr "<b>%1</b><br />प्रक्रीया ID: <numid>%2</numid>"
+
+#: ProcessModel.cpp:1375
+#, fuzzy, kde-format
+#| msgctxt "name column tooltip. first item is the name"
+#| msgid ""
+#| "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br /"
+#| ">Parent's ID: <numid>%4</numid>"
+msgctxt "name column tooltip. first item is the name"
+msgid "<b>%1</b><br />Process ID: %2<br />Parent: %3<br />Parent's ID: %4"
+msgstr ""
+"<b>%1</b><br />प्रक्रीया ID: <numid>%2</numid><br />पालक : %3<br />पालक ID: "
+"<numid>%4</numid>"
+
+#: ProcessModel.cpp:1377
+#, fuzzy, kde-format
+#| msgctxt "name column tooltip. first item is the name"
+#| msgid ""
+#| "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent's ID: <numid>%3</"
+#| "numid>"
+msgctxt "name column tooltip. first item is the name"
+msgid "<b>%1</b><br />Process ID: %2<br />Parent's ID: %3"
+msgstr ""
+"<b>%1</b><br />प्रक्रीया ID: <numid>%2</numid><br />पालक ID: <numid>%3</numid>"
 
 #: ProcessModel.cpp:1381 ProcessModel.cpp:1445
 #, kde-format
@@ -1537,36 +1590,8 @@ msgstr "कमी प्राधान्यता"
 msgid "High Priority"
 msgstr "जास्त प्राधान्यता"
 
-#~ msgctxt "Short description of a process. PID, name, user"
-#~ msgid "<numid>%1</numid>: %2, owned by user %3"
-#~ msgstr "<numid>%1</numid>: %2, मालक वापरकर्ता %3"
-
 #~ msgid "%1 (gid: <numid>%2</numid>)"
 #~ msgstr "%1 (gid: <numid>%2</numid>)"
-
-#~ msgctxt "tooltip. name,pid "
-#~ msgid "This process is being debugged by %1 (<numid>%2</numid>)"
-#~ msgstr "हि प्रक्रीया याद्वारे डिबन होत आहे : %1 (<numid>%2</numid>)"
-
-#~ msgctxt "name column tooltip. first item is the name"
-#~ msgid "<b>%1</b><br />Process ID: <numid>%2</numid>"
-#~ msgstr "<b>%1</b><br />प्रक्रीया ID: <numid>%2</numid>"
-
-#~ msgctxt "name column tooltip. first item is the name"
-#~ msgid ""
-#~ "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent: %3<br /"
-#~ ">Parent's ID: <numid>%4</numid>"
-#~ msgstr ""
-#~ "<b>%1</b><br />प्रक्रीया ID: <numid>%2</numid><br />पालक : %3<br />पालक ID: "
-#~ "<numid>%4</numid>"
-
-#~ msgctxt "name column tooltip. first item is the name"
-#~ msgid ""
-#~ "<b>%1</b><br />Process ID: <numid>%2</numid><br />Parent's ID: <numid>%3</"
-#~ "numid>"
-#~ msgstr ""
-#~ "<b>%1</b><br />प्रक्रीया ID: <numid>%2</numid><br />पालक ID: <numid>%3</"
-#~ "numid>"
 
 #, fuzzy
 #~| msgid "Renice Process"

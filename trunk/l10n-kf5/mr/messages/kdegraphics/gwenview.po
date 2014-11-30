@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-29 08:06+0000\n"
+"POT-Creation-Date: 2014-11-30 07:50+0000\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -205,6 +205,11 @@ msgstr "रद्द करा"
 msgctxt "@title:window"
 msgid "Rename"
 msgstr "नाव बदला"
+
+#: app/fileoperations.cpp:206
+#, kde-format
+msgid "Rename <filename>%1</filename> to:"
+msgstr "<filename>%1</filename> चे नाव बदला :"
 
 #: app/fileopscontextmanageritem.cpp:158
 msgid "File Operations"
@@ -422,6 +427,22 @@ msgstr "दुसरे स्वरूप निवडून साठवा"
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "ग्वेनव्ह्यू %1 स्वरुपात प्रतिमा साठवू शकत नाही."
+
+#: app/gvcore.cpp:262
+#, kde-format
+msgctxt "@info"
+msgid ""
+"A file named <filename>%1</filename> already exists.\n"
+"Are you sure you want to overwrite it?"
+msgstr ""
+"<filename>%1</filename> या नावाची फाईल आधीपासून अस्तित्वात आहे.\n"
+"ती खोडून परत लिहावयाची याची तुम्हाला खात्री आहे का?"
+
+#: app/gvcore.cpp:277 app/gvcore.cpp:300
+#, kde-format
+msgctxt "@info"
+msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
+msgstr "<b><filename>%1</filename> साठवणे अयशस्वी झाले :</b></br>%2"
 
 #: app/gvcore.cpp:320
 msgid "You are now viewing the new document."
@@ -954,6 +975,14 @@ msgid_plural "%1 documents could not be saved:"
 msgstr[0] "एक फाईल साठवता आली नाही :"
 msgstr[1] "%1 फाईल्स साठवता आल्या नाहीत :"
 
+#: app/saveallhelper.cpp:108
+#, kde-format
+msgctxt ""
+"@info %1 is the name of the document which failed to save, %2 is the reason "
+"for the failure"
+msgid "<filename>%1</filename>: %2"
+msgstr "<filename>%1</filename>: %2"
+
 #: app/savebar.cpp:87
 msgid ""
 "You have modified many images. To avoid memory problems, you should save "
@@ -1416,6 +1445,26 @@ msgstr "प्रतिमा दाखल करता आली नाही."
 msgid "Could not load document %1"
 msgstr "दस्तऐवज दाखल करता आला नाही : %1"
 
+#: lib/document/savejob.cpp:107
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not open file for writing, check that you have the necessary rights in "
+"<filename>%1</filename>."
+msgstr ""
+"लिहिण्यासाठी फाईल उघडता आली नाही, तुमच्याकडे <filename>%1</filename> या फाईलमध्ये  "
+"लिहिण्यासाठी आवश्यक हक्क असल्याची खात्री करून घ्या"
+
+#: lib/document/savejob.cpp:132
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not overwrite file, check that you have the necessary rights to write "
+"in <filename>%1</filename>."
+msgstr ""
+"लिहिण्यासाठी फाईल उघडता आली नाही, तुमच्याकडे <filename>%1</filename> या फाईलमध्ये  "
+"लिहिण्यासाठी आवश्यक हक्क असल्याची खात्री करून घ्या"
+
 #: lib/documentview/documentview.cpp:178
 msgctxt "@info:tooltip"
 msgid "Trash"
@@ -1429,6 +1478,11 @@ msgstr "निवड रद्द करा"
 #: lib/documentview/documentview.cpp:369
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "ह्या प्रकारचा दस्तऐवज कश्या प्रकारे दर्शवावयाचा ह्याची माहित ग्वेनव्ह्युजवळ नाही"
+
+#: lib/documentview/documentview.cpp:467
+#, kde-format
+msgid "Loading <filename>%1</filename> failed"
+msgstr "<filename>%1</filename> दाखल करता आली नाही"
 
 #: lib/documentview/documentviewcontroller.cpp:97
 msgid "Zoom to Fit"
@@ -1791,46 +1845,6 @@ msgstr "दृश्य (&V)"
 
 #~ msgid "Size"
 #~ msgstr "आकार"
-
-#~ msgid "Rename <filename>%1</filename> to:"
-#~ msgstr "<filename>%1</filename> चे नाव बदला :"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "A file named <filename>%1</filename> already exists.\n"
-#~ "Are you sure you want to overwrite it?"
-#~ msgstr ""
-#~ "<filename>%1</filename> या नावाची फाईल आधीपासून अस्तित्वात आहे.\n"
-#~ "ती खोडून परत लिहावयाची याची तुम्हाला खात्री आहे का?"
-
-#~ msgctxt "@info"
-#~ msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
-#~ msgstr "<b><filename>%1</filename> साठवणे अयशस्वी झाले :</b></br>%2"
-
-#~ msgctxt ""
-#~ "@info %1 is the name of the document which failed to save, %2 is the "
-#~ "reason for the failure"
-#~ msgid "<filename>%1</filename>: %2"
-#~ msgstr "<filename>%1</filename>: %2"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Could not open file for writing, check that you have the necessary rights "
-#~ "in <filename>%1</filename>."
-#~ msgstr ""
-#~ "लिहिण्यासाठी फाईल उघडता आली नाही, तुमच्याकडे <filename>%1</filename> या "
-#~ "फाईलमध्ये  लिहिण्यासाठी आवश्यक हक्क असल्याची खात्री करून घ्या"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "Could not overwrite file, check that you have the necessary rights to "
-#~ "write in <filename>%1</filename>."
-#~ msgstr ""
-#~ "लिहिण्यासाठी फाईल उघडता आली नाही, तुमच्याकडे <filename>%1</filename> या "
-#~ "फाईलमध्ये  लिहिण्यासाठी आवश्यक हक्क असल्याची खात्री करून घ्या"
-
-#~ msgid "Loading <filename>%1</filename> failed"
-#~ msgstr "<filename>%1</filename> दाखल करता आली नाही"
 
 #~ msgid ""
 #~ "Defines what happens when going to image B after having zoomed an area of "

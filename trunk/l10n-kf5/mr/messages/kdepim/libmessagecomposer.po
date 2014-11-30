@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-20 07:58+0000\n"
+"POT-Creation-Date: 2014-11-30 07:50+0000\n"
 "PO-Revision-Date: 2013-03-20 15:50+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1077,6 +1077,14 @@ msgctxt "@title:window"
 msgid "Insert File"
 msgstr "फाईल अंतर्भूत करा"
 
+#: composer/kmeditor.cpp:510
+msgctxt "@info"
+msgid ""
+"The external editor is still running.<nl/>Do you want to stop the editor or "
+"keep it running?<nl/><warning>Stopping the editor will cause all your "
+"unsaved changes to be lost.</warning>"
+msgstr ""
+
 #: composer/kmeditor.cpp:514
 msgctxt "@title:window"
 msgid "External Editor Running"
@@ -1447,6 +1455,14 @@ msgctxt "@label:textbox"
 msgid "Please enter name:"
 msgstr ""
 
+#: recipient/distributionlistdialog.cpp:284
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>Distribution list with the given name <resource>%1</resource> already "
+"exists. Please select a different name.</para>"
+msgstr ""
+
 #: recipient/distributionlistdialog.cpp:294
 msgctxt "@title:window"
 msgid "Select Address Book"
@@ -1475,6 +1491,11 @@ msgstr "CC"
 msgctxt "@label:listbox Blind carbon copy recipient of an email message."
 msgid "BCC"
 msgstr "BCC"
+
+#: recipient/recipient.cpp:106
+msgctxt "@label:listbox"
+msgid "<placeholder>Undefined Recipient Type</placeholder>"
+msgstr ""
 
 #: recipient/recipientline.cpp:84
 msgctxt "@label:listbox"
@@ -1525,6 +1546,24 @@ msgid "1 recipient"
 msgid_plural "%1 recipients"
 msgstr[0] ""
 msgstr[1] ""
+
+#: recipient/recipientseditorsidewidget.cpp:145
+#, kde-format
+msgctxt "@info:tooltip %1 list of emails"
+msgid "<interface>To:</interface><nl/>%1"
+msgstr "<interface>पर्यंत :</interface><nl/>%1"
+
+#: recipient/recipientseditorsidewidget.cpp:147
+#, kde-format
+msgctxt "@info:tooltip %1 list of emails"
+msgid "<interface>CC:</interface><nl/>%1"
+msgstr "<interface>CC:</interface><nl/>%1"
+
+#: recipient/recipientseditorsidewidget.cpp:150
+#, kde-format
+msgctxt "@info:tooltip %1 list of emails"
+msgid "<interface>BCC:</interface><nl/>%1"
+msgstr "<interface>BCC:</interface><nl/>%1"
 
 #: recipient/recipientspicker.cpp:51
 msgid "Select Recipient"
@@ -1745,18 +1784,6 @@ msgstr ""
 #~ msgctxt "@action:button"
 #~ msgid "&Insert"
 #~ msgstr "अंतर्भूत करा (&I)"
-
-#~ msgctxt "@info:tooltip %1 list of emails"
-#~ msgid "<interface>To:</interface><nl/>%1"
-#~ msgstr "<interface>पर्यंत :</interface><nl/>%1"
-
-#~ msgctxt "@info:tooltip %1 list of emails"
-#~ msgid "<interface>CC:</interface><nl/>%1"
-#~ msgstr "<interface>CC:</interface><nl/>%1"
-
-#~ msgctxt "@info:tooltip %1 list of emails"
-#~ msgid "<interface>BCC:</interface><nl/>%1"
-#~ msgstr "<interface>BCC:</interface><nl/>%1"
 
 #~ msgid "&Modify"
 #~ msgstr "बदला (&M)"

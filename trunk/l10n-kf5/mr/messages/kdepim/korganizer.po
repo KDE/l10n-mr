@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-27 07:46+0000\n"
+"POT-Creation-Date: 2014-11-30 07:50+0000\n"
 "PO-Revision-Date: 2013-04-15 10:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1617,6 +1617,18 @@ msgctxt "@info"
 msgid "This page was created "
 msgstr "हे पान तयार/निर्माण केले"
 
+#: htmlexportjob.cpp:802
+#, kde-format
+msgctxt "@info/plain page creator email link with name"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr "<link url='mailto:%1'>%2</link> वर "
+
+#: htmlexportjob.cpp:806
+#, kde-format
+msgctxt "@info/plain page creator email link"
+msgid "by <link url='mailto:%1'>%2</link> "
+msgstr "<link url='mailto:%1'>%2</link> वर "
+
 #: htmlexportjob.cpp:812
 #, fuzzy, kde-format
 #| msgctxt "@info/plain page creator name only"
@@ -1624,6 +1636,12 @@ msgstr "हे पान तयार/निर्माण केले"
 msgctxt "@info page creator name only"
 msgid "by %1 "
 msgstr "%1 वर"
+
+#: htmlexportjob.cpp:818
+#, kde-format
+msgctxt "@info/plain page credit with name and link"
+msgid "with <link url='%1'>%2</link>"
+msgstr "<link url='%1'>%2</link> सह"
 
 #: htmlexportjob.cpp:822
 #, fuzzy, kde-format
@@ -2703,6 +2721,20 @@ msgid ""
 msgstr ""
 "तुमच्या प्रणाली धारिणीत के-ऑर्गनायझर स्मरणपत्र संरक्षक(daemon) दाखविण्यासाठी ही मांडणी/"
 "रचना निवडा/निश्चीत करा(शिफारस केलेले/सुचविलेले)."
+
+#: koprefsdialog.cpp:182
+#, fuzzy
+#| msgctxt "@info"
+#| msgid ""
+#| "</note>The daemon will continue running even if it is not shown in the "
+#| "system tray .</note>"
+msgctxt "@info"
+msgid ""
+"<note>The daemon will continue running even if it is not shown in the system "
+"tray.</note>"
+msgstr ""
+"</note> जरी प्रणाली धारिणीत दिसला नाही तरी संरक्षक(daemon) त्याचे काम करतच राहील."
+"</note>"
 
 #: koprefsdialog.cpp:191
 msgctxt "@title:tab calendar account settings"
@@ -5180,6 +5212,13 @@ msgstr ""
 msgid "Include To-dos &without a due date"
 msgstr "नियत तारीख नसलेले करावयाचे कार्यक्रम समाविष्ट करा (&W)"
 
+#: tests/korgplugins.cpp:38
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Other Plugins"
+msgid "KOrgPlugins"
+msgstr "अन्य प्लगइन्स"
+
 #. i18n: ectx: @info:tipoftheday
 #: tips:2
 msgid ""
@@ -5506,18 +5545,6 @@ msgstr "निवडलेल्या दिनदर्शिका"
 
 #~ msgid "This field contains the email address of the recipient"
 #~ msgstr " ह्या क्षेत्रामध्ये प्राप्तकर्त्याचा ईमेल पत्ता आहे "
-
-#~ msgctxt "@info/plain page creator email link with name"
-#~ msgid "by <link url='mailto:%1'>%2</link> "
-#~ msgstr "<link url='mailto:%1'>%2</link> वर "
-
-#~ msgctxt "@info/plain page creator email link"
-#~ msgid "by <link url='mailto:%1'>%2</link> "
-#~ msgstr "<link url='mailto:%1'>%2</link> वर "
-
-#~ msgctxt "@info/plain page credit with name and link"
-#~ msgid "with <link url='%1'>%2</link>"
-#~ msgstr "<link url='%1'>%2</link> सह"
 
 #~ msgid "Also &Future Items"
 #~ msgstr "तसेच भविष्यातील घटना (&F)"
@@ -6965,14 +6992,6 @@ msgstr "निवडलेल्या दिनदर्शिका"
 
 #~ msgid "Edit %1"
 #~ msgstr "संपादित करा %1"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "</note>The daemon will continue running even if it is not shown in the "
-#~ "system tray .</note>"
-#~ msgstr ""
-#~ "</note> जरी प्रणाली धारिणीत दिसला नाही तरी संरक्षक(daemon) त्याचे काम करतच "
-#~ "राहील.</note>"
 
 #~ msgctxt "@label"
 #~ msgid "Additional email addresses:"

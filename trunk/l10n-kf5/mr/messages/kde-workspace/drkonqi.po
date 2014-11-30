@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-13 07:53+0000\n"
+"POT-Creation-Date: 2014-11-30 07:55+0000\n"
 "PO-Revision-Date: 2013-03-28 15:44+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -41,10 +41,46 @@ msgctxt "@title"
 msgid "Information about bug reporting"
 msgstr "बग अहवालाबद्दल माहिती"
 
+#: aboutbugreportingdialog.cpp:54
+msgctxt "@info/rich"
+msgid "You can help us improve this software by filing a bug report."
+msgstr "बग अहवाल सादर करून तुम्ही हे सॉफ्टवेअर सुधारण्यास मदत करू शकता."
+
+#: aboutbugreportingdialog.cpp:55
+msgctxt "@info/rich"
+msgid ""
+"<note>It is safe to close this dialog. If you do not want to, you do not "
+"have to file a bug report.</note>"
+msgstr ""
+"<note>हा संवाद बंद करणे सुरक्षित आहे. जर तुमची ईच्छा नसेल तर हा अहवाल सादर करण्याची "
+"गरज नाही.</note>"
+
+#: aboutbugreportingdialog.cpp:57
+msgctxt "@info/rich"
+msgid ""
+"In order to generate a useful bug report we need some information about both "
+"the crash and your system. (You may also need to install some debug "
+"packages.)"
+msgstr ""
+"उपयोगी बग अहवाल तयार करण्याकरिता आम्हाला क्रॅश व तुमची प्रणाली याबाबत काही माहिती "
+"पाहिजे. (तुम्हाला कदाचित काही डिबग पॅकेजेस प्रतिष्ठापीत करावे लागतील.)"
+
 #: aboutbugreportingdialog.cpp:62
 msgctxt "@title"
 msgid "Bug Reporting Assistant Guide"
 msgstr "बग अहवाल तयार करणारा सहायक मार्गदर्शक"
+
+#: aboutbugreportingdialog.cpp:64
+msgctxt "@info/rich"
+msgid ""
+"This assistant will guide you through the crash reporting process for the "
+"KDE bug tracking system. All the information you enter on the bug report "
+"<strong>must be written in English</strong>, if possible, as KDE is formed "
+"internationally."
+msgstr ""
+"हा सहायक तुम्हाला केडीई बग अहवाल डेटाबेस साइटसाठी क्रॅश अहवाल करण्याकरिता मार्गदर्शन "
+"करेल. बग अहवालामध्ये तुम्ही देणारी सर्व माहिती <strong>इंग्रजीतूनच</strong> असणे आवश्यक "
+"आहे. कारण केडीई हे आंतर्राष्ट्रीय आहे."
 
 #: aboutbugreportingdialog.cpp:71 aboutbugreportingdialog.cpp:174
 #: bugzillaintegration/reportassistantdialog.cpp:84
@@ -52,36 +88,282 @@ msgctxt "@title"
 msgid "What do you know about the crash?"
 msgstr "तुम्हाला क्रॅश बद्दल काय माहिती आहे?"
 
+#: aboutbugreportingdialog.cpp:74
+msgctxt "@info/rich"
+msgid ""
+"In this page you need to describe how much do you know about the desktop and "
+"the application state before it crashed."
+msgstr "या पानावर क्रॅश होण्यापूर्वीची प्रणालीची व अनुप्रयोगाची स्थिती वर्णन करा."
+
+#: aboutbugreportingdialog.cpp:76
+msgctxt "@info/rich"
+msgid ""
+"If you can, describe in as much detail as possible the crash circumstances, "
+"and what you were doing when the application crashed (this information is "
+"going to be requested later.) You can mention: "
+msgstr ""
+"तुम्हाला क्रॅश परिस्थिति व अनुप्रयोग जेव्हा क्रॅश झाला तेव्हा तुम्ही काय करत होता त्याविषयी "
+"जितकी जास्त माहिती देता येइल ती द्या :"
+
+#: aboutbugreportingdialog.cpp:79
+msgctxt "@info/rich crash situation example"
+msgid "actions you were taking inside or outside the application"
+msgstr "अनुप्रयोगाच्या आत किंवा बाहेर तुम्ही करत असलेल्या क्रिया"
+
+#: aboutbugreportingdialog.cpp:81
+msgctxt "@info/rich crash situation example"
+msgid ""
+"documents or images that you were using and their type/format (later if you "
+"go to look at the report in the bug tracking system, you can attach a file "
+"to the report)"
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:84
+msgctxt "@info/rich crash situation example"
+msgid "widgets that you were running"
+msgstr "तुम्ही चालू केलेल्या विजेट्स"
+
+#: aboutbugreportingdialog.cpp:85
+msgctxt "@info/rich crash situation example"
+msgid "the URL of a web site you were browsing"
+msgstr "तुम्ही ब्राऊज करत असलेल्या वेब साइटची URL"
+
+#: aboutbugreportingdialog.cpp:86
+msgctxt "@info/rich crash situation example"
+msgid "configuration details of the application"
+msgstr "अनुप्रयोगाच्या संयोजनेचा तपशील"
+
+#: aboutbugreportingdialog.cpp:87
+msgctxt "@info/rich crash situation example"
+msgid "or other strange things you notice before or after the crash. "
+msgstr "क्रॅशच्या आधी किंवा नंतर तुमच्या निदर्शनास आलेल्या विचित्र गोष्टी."
+
+#: aboutbugreportingdialog.cpp:89
+msgctxt "@info/rich"
+msgid ""
+"Screenshots can be very helpful sometimes. You can attach them to the bug "
+"report after it is posted to the bug tracking system."
+msgstr ""
+"काहीवेळा स्क्रीनशॉट खूप मदतीस येतात. बग मागोवा प्रणालीस बग अहवाल सादर केल्यानंतर तुम्ही "
+"हे त्यासोबत जोडू शकता."
+
 #: aboutbugreportingdialog.cpp:94
 msgctxt "@title"
 msgid "Crash Information (backtrace)"
 msgstr "क्रॅश माहिती (बॅकट्रेस)"
+
+#: aboutbugreportingdialog.cpp:96
+msgctxt "@info/rich"
+msgid ""
+"This page will generate a \"backtrace\" of the crash. This is information "
+"that tells the developers where the application crashed."
+msgstr ""
+"हे पान क्रॅश चा बॅकट्रेस तयार करेल. अनुप्रयोग कोठे क्रॅश झाला ते ही माहिती विकासकर्त्यास "
+"सांगते."
+
+#: aboutbugreportingdialog.cpp:99
+msgctxt "@info/rich"
+msgid ""
+"If the crash information is not detailed enough, you may need to install "
+"some debug packages and reload it (if the <interface>Install Debug Symbols</"
+"interface> button is available you can use it to automatically install the "
+"missing information.)"
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:103
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"You can find more information about backtraces, what they mean, and how they "
+"are useful at <link>%1</link>"
+msgstr ""
+"तुम्हाला बॅकट्रेस, त्यांचा अर्थ, व ते कसे उपयोगी आहेत याची माहिती येथे मिळेल : <link>%1</"
+"link>"
+
+#: aboutbugreportingdialog.cpp:105
+msgctxt "@info/rich"
+msgid ""
+"Once you get a useful backtrace (or if you do not want to install the "
+"missing debugging packages) you can continue."
+msgstr ""
+"तुम्हाला एकदा उपयोगी बॅकट्रेस मिळाला की (किंवा डिबगिंग पॅकेजेस प्रतिष्ठापना करायची नसेल "
+"तर) तुम्ही पुढे जाऊ शकता."
 
 #: aboutbugreportingdialog.cpp:110
 msgctxt "@title"
 msgid "Conclusions"
 msgstr "निष्कर्ष"
 
+#: aboutbugreportingdialog.cpp:112
+msgctxt "@info/rich"
+msgid ""
+"Using the quality of the crash information gathered, and your answers on the "
+"previous page, the assistant will tell you if the crash is worth reporting "
+"or not."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:115
+msgctxt "@info/rich"
+msgid ""
+"If the crash is worth reporting but the application is not supported in the "
+"KDE bug tracking system, you will need to directly contact the maintainer of "
+"the application."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:118
+msgctxt "@info/rich"
+msgid ""
+"If the crash is listed as being not worth reporting, and you think the "
+"assistant has made a mistake, you can still manually report the bug by "
+"logging into the bug tracking system. You can also go back and change "
+"information and download debug packages."
+msgstr ""
+
 #: aboutbugreportingdialog.cpp:126
 msgctxt "@title"
 msgid "Login into the bug tracking system"
 msgstr "बग मागोवा प्रणालीत प्रवेश करा"
+
+#: aboutbugreportingdialog.cpp:128
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"We may need to contact you in the future to ask for further information. As "
+"we need to keep track of the bug reports, you need to have an account on the "
+"KDE bug tracking system. If you do not have one, you can create one here: "
+"<link>%1</link>"
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:134
+msgctxt "@info/rich"
+msgid ""
+"Then, enter your username and password and press the Login button. You can "
+"use this login to directly access the KDE bug tracking system later."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:137
+msgctxt "@info/rich"
+msgid ""
+"The KWallet dialog may appear when pressing Login to save your password in "
+"the KWallet password system. Also, it will prompt you for the KWallet "
+"password upon loading to autocomplete the login fields if you use this "
+"assistant again."
+msgstr ""
 
 #: aboutbugreportingdialog.cpp:144
 msgctxt "@title"
 msgid "List of possible duplicate reports"
 msgstr "प्रतिरूप असण्याची शक्यता असलेल्या अहवालांची यादी"
 
+#: aboutbugreportingdialog.cpp:147
+msgctxt "@info/rich"
+msgid ""
+"This page will search the bug report system for similar crashes which are "
+"possible duplicates of your bug. If there are similar bug reports found, you "
+"can double click on them to see details. Then, read the current bug report "
+"information so you can check to see if they are similar. "
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:152
+msgctxt "@info/rich"
+msgid ""
+"If you are very sure your bug is the same as another that is previously "
+"reported, you can set your information to be attached to the existing report."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:155
+msgctxt "@info/rich"
+msgid ""
+"If you are unsure whether your report is the same, follow the main options "
+"to tentatively mark your crash as a duplicate of that report. This is "
+"usually the safest thing to do. We cannot uncombine bug reports, but we can "
+"easily merge them."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:159
+msgctxt "@info/rich"
+msgid ""
+"If not enough possible duplicates are found, or you did not find a similar "
+"report, then you can force it to search for more bug reports (only if the "
+"date range limit is not reached.)"
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:162
+msgctxt "@info/rich"
+msgid ""
+"If you do not find any related reports, your crash information is not useful "
+"enough, and you really cannot give additional information about the crash "
+"context, then it is better to not file the bug report, thereby closing the "
+"assistant."
+msgstr ""
+
 #: aboutbugreportingdialog.cpp:169
 msgctxt "@title"
 msgid "Details of the bug report and your system"
 msgstr "बग अहवाल व तुमच्या प्रणालीचा तपशील"
+
+#: aboutbugreportingdialog.cpp:171
+msgctxt "@info/rich"
+msgid ""
+"In this case you need to write a title and description of the crash. Explain "
+"as best you can. "
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:175
+msgctxt "@info/rich"
+msgid ""
+"You can also specify your distribution method (GNU/Linux distribution or "
+"packaging system) or if you compiled the KDE Platform from sources."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:178
+#, fuzzy
+#| msgctxt "@info/rich"
+#| msgid ""
+#| "<note>You should <strong>write those information in English</strong>.</"
+#| "note>"
+msgctxt "@info/rich"
+msgid ""
+"<note>You should <strong>write those information in English</strong>.</note>"
+msgstr "<note>कृपया <strong>इंग्रजीतूनच</strong> लिहा.</note>"
 
 #: aboutbugreportingdialog.cpp:182
 #: bugzillaintegration/reportassistantdialog.cpp:154
 msgctxt "@title"
 msgid "Sending the Crash Report"
 msgstr "क्रॅश अहवाल पाठवत आहे"
+
+#: aboutbugreportingdialog.cpp:184
+msgctxt "@info/rich"
+msgid ""
+"The last page will send the bug report to the bug tracking system and will "
+"notify you when it is done. It will then show the web address of the bug "
+"report in the KDE bug tracking system, so that you can look at the report "
+"later."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:188
+msgctxt "@info/rich"
+msgid ""
+"If the process fails, you can click <interface>Retry</interface> to try "
+"sending the bug report again. If the report cannot be sent because the bug "
+"tracking system has a problem, you can save it to a file to manually report "
+"later."
+msgstr ""
+
+#: aboutbugreportingdialog.cpp:194
+msgctxt "@info/rich"
+msgid "Thank you for being part of KDE!"
+msgstr "केडीई मध्ये सहभागी होण्याबद्दल धन्यवाद"
+
+#: aboutbugreportingdialog.cpp:195
+msgctxt "@info/rich"
+msgid ""
+"If you are interested in helping us to keep the KDE bug tracker system clean "
+"and useful, which allows the developers to be more focused on fixing the "
+"real issues,  you are welcome to <link url='http://techbase.kde.org/"
+"Contribute/Bugsquad'>join the BugSquad team</link>."
+msgstr ""
 
 #: applicationdetailsexamples.cpp:34
 msgctxt "@info examples about information the user can provide"
@@ -203,6 +485,14 @@ msgctxt "@info:status"
 msgid "The crash information could not be fetched."
 msgstr "क्रॅश माहिती घेता आली नाही."
 
+#: backtracewidget.cpp:189
+msgctxt "@info/rich"
+msgid ""
+"Another debugging process is attached to the crashed application. Therefore, "
+"the DrKonqi debugger cannot fetch the backtrace. Please close the other "
+"debugger and click <interface>Reload</interface>."
+msgstr ""
+
 #: backtracewidget.cpp:226
 msgctxt "@info"
 msgid "The generated crash information is useful"
@@ -230,6 +520,28 @@ msgid ""
 "itself."
 msgstr "क्रॅश माहितीचे मानांकन अयोग्य आहे. हा डॉ.काँकी मध्येच बग आहे."
 
+#: backtracewidget.cpp:250
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"You can click the <interface>Install Debug Symbols</interface> button in "
+"order to automatically install the missing debugging information packages. "
+"If this method does not work: please read <link url='%1'>How to create "
+"useful crash reports</link> to learn how to get a useful backtrace; install "
+"the needed packages (<link url='%2'>list of files</link>) and click the "
+"<interface>Reload</interface> button."
+msgstr ""
+
+#: backtracewidget.cpp:267
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Please read <link url='%1'>How to create useful crash reports</link> to "
+"learn how to get a useful backtrace; install the needed packages (<link "
+"url='%2'>list of files</link>) and click the <interface>Reload</interface> "
+"button."
+msgstr ""
+
 #: backtracewidget.cpp:283
 msgctxt "@info:status"
 msgid "The debugger has quit unexpectedly."
@@ -240,6 +552,13 @@ msgctxt "@info:status"
 msgid "The crash information could not be generated."
 msgstr "क्रॅश माहिती तयार करता आली नाही."
 
+#: backtracewidget.cpp:289
+msgctxt "@info/rich"
+msgid ""
+"You could try to regenerate the backtrace by clicking the <interface>Reload</"
+"interface> button."
+msgstr ""
+
 #: backtracewidget.cpp:297
 msgctxt "@info:status"
 msgid ""
@@ -247,6 +566,14 @@ msgid ""
 "strong>"
 msgstr ""
 "<strong>डिबगर अनुप्रयोग अनुपस्थित आहे किंवा तो प्रक्षेपण करता आला नाही.</strong>"
+
+#: backtracewidget.cpp:303
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"<strong>You need to first install the debugger application (%1) then click "
+"the <interface>Reload</interface> button.</strong>"
+msgstr ""
 
 #: backtracewidget.cpp:358
 msgctxt "@title:window"
@@ -343,6 +670,14 @@ msgctxt "@action:button"
 msgid "Save information and close"
 msgstr "माहिती साठवून बंद करा"
 
+#: bugzillaintegration/reportassistantdialog.cpp:352
+msgctxt "@info"
+msgid ""
+"Do you really want to close the bug reporting assistant? <note>The crash "
+"information is still valid, so you can save the report before closing if you "
+"want.</note>"
+msgstr ""
+
 #: bugzillaintegration/reportassistantdialog.cpp:355
 #: bugzillaintegration/reportassistantdialog.cpp:370
 msgctxt "@title:window"
@@ -425,6 +760,14 @@ msgid ""
 "information to be helpful."
 msgstr "स्वयंचलितरित्या तयार झालेला अहवालामध्ये पुरेशी उपयोगी माहिती नाही."
 
+#: bugzillaintegration/reportassistantpages_base.cpp:304
+msgctxt "@info"
+msgid ""
+"<note>You can improve it by installing debugging packages and reloading the "
+"crash on the Crash Information page. You can get help with the Bug Reporting "
+"Guide by clicking on the <interface>Help</interface> button.</note>"
+msgstr ""
+
 #: bugzillaintegration/reportassistantpages_base.cpp:318
 msgctxt "@info"
 msgid "The information you can provide could be considered helpful."
@@ -437,10 +780,36 @@ msgid ""
 "case."
 msgstr "या परिस्थितित तुम्ही दिलेली माहिती मदतीस येउ शकणार नाही."
 
+#: bugzillaintegration/reportassistantpages_base.cpp:326
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Your problem has already been reported as bug <numid>%1</numid>."
+msgctxt "@info"
+msgid "Your problem has already been reported as bug %1."
+msgstr "तुमची समस्या अगोदरच बग <numid>%1</numid> म्हणून सादर झाली आहे."
+
 #: bugzillaintegration/reportassistantpages_base.cpp:338
 msgctxt "@info"
 msgid "This report is considered helpful."
 msgstr "हा अहवाल उपयोगी आहे."
+
+#: bugzillaintegration/reportassistantpages_base.cpp:343
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This application's bugs are reported to the KDE bug tracking system: click "
+"<interface>Next</interface> to start the reporting process. You can manually "
+"report at <link>%1</link>"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_base.cpp:354
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This application is not supported in the KDE bug tracking system. Click "
+"<interface>Finish</interface> to report this bug to the application "
+"maintainer. Also, you can manually report at <link>%1</link>."
+msgstr ""
 
 #: bugzillaintegration/reportassistantpages_base.cpp:369
 msgctxt "@info"
@@ -453,6 +822,26 @@ msgstr ""
 msgctxt "@info"
 msgid "If you wish, you can go back and change your answers. "
 msgstr "तुमची इच्छा असेल्यास तुम्ही मागे जाऊन तुमची उत्तरे बदलू शकता."
+
+#: bugzillaintegration/reportassistantpages_base.cpp:381
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"तुम्ही हा बग <link>%1</link> येथे स्वहस्ते सादर करू शकता. हा सहायक बंद करण्याकरिता "
+"<interface>पूर्ण</interface> वर क्लिक करा."
+
+#: bugzillaintegration/reportassistantpages_base.cpp:387
+#, kde-format
+msgctxt "@info"
+msgid ""
+"You can manually report this bug to its maintainer at <link>%1</link>. Click "
+"<interface>Finish</interface> to close the assistant."
+msgstr ""
+"तुम्ही हा बग या अनुप्रयोगाच्या नियंत्रकास <link>%1</link> येथे स्वहस्ते सादर करू शकता. हा "
+"सहायक बंद करण्याकरिता <interface>पूर्ण</interface> वर क्लिक करा."
 
 #: bugzillaintegration/reportassistantpages_base.cpp:406
 #, fuzzy, kde-format
@@ -498,6 +887,23 @@ msgid ""
 msgstr ""
 "दिलेले वापरकर्ता नाव व गुप्तशब्द वापरुन केडीई बग मागोवा प्रणालीत प्रवेश करण्याकरिता हे "
 "बटन वापरा."
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:97
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"<note>You need a user account on the <link url='%1'>KDE bug tracking system</"
+"link> in order to file a bug report, because we may need to contact you "
+"later for requesting further information. If you do not have one, you can "
+"freely <link url='%2'>create one here</link>. Please do not use disposable "
+"email accounts.</note>"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:129
+#, kde-format
+msgctxt "@info:status"
+msgid "Error when trying to login: <message>%1.</message>"
+msgstr "प्रवेश करताना त्रुटी आढळली : <message>%1.</message>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:158
 #, kde-format
@@ -709,6 +1115,16 @@ msgctxt "@title:window"
 msgid "We need more information"
 msgstr "आम्हाला अजुन माहितीची गरच आहे"
 
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:623
+msgctxt "@info:tooltip examples of good bug report titles"
+msgid ""
+"<strong>Examples of good titles:</strong><nl />\"Plasma crashed after adding "
+"the Notes widget and writing on it\"<nl />\"Konqueror crashed when accessing "
+"the Facebook application 'X'\"<nl />\"Kopete suddenly closed after resuming "
+"the computer and talking to a MSN buddy\"<nl />\"Kate closed while editing a "
+"log file and pressing the Delete key a couple of times\""
+msgstr ""
+
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:634
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "Describe in as much detail as possible the crash circumstances:"
@@ -762,6 +1178,20 @@ msgctxt "@info:status"
 msgid "Sending crash report... (please wait)"
 msgstr "क्रॅश अहवाल पाठवत आहे... (कृपया वाट पहा)"
 
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:736
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Crash report sent.<nl/>URL: <link>%1</link><nl/>Thank you for being part of "
+"KDE. You can now close this window."
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:746
+#, kde-format
+msgctxt "@info:status"
+msgid "Error sending the crash report:  <message>%1.</message>"
+msgstr "क्रॅश अहवाल पाठवताना त्रुटी : <message>%1.</message>"
+
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:772
 #, fuzzy, kde-format
 #| msgctxt "@info/plain report to url/mail address"
@@ -793,6 +1223,12 @@ msgstr ""
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "फाईलनाव निवडा"
+
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:869 drkonqi.cpp:195
+#, kde-format
+msgctxt "@info"
+msgid "Cannot open file <filename>%1</filename> for writing."
+msgstr "लेखन करिता फाईल <filename>%1</filename> उघडू शकत नाही."
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:65
 msgctxt "@item:intable custom/manaul bug report number"
@@ -1024,6 +1460,16 @@ msgctxt "@info:status"
 msgid "Error fetching the bug report list"
 msgstr "बग अहवाल यादी घेताना त्रुटी आढळली"
 
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:439
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
+"wait some time and try again."
+msgstr ""
+"बग अहवाल यादी घेताना त्रुटी आढळली <nl/><message>%1.</message><nl/> कृपया थोड्या "
+"वेळाने परत प्रयत्न करा."
+
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:468
 msgctxt "@title:window"
 msgid "Enter a custom bug report number"
@@ -1033,6 +1479,14 @@ msgstr "ऐच्छिक बग अहवाल क्रमांक दा�
 msgctxt "@label"
 msgid "Enter the number of the bug report you want to check"
 msgstr "तुम्हाला तपासायचा असलेला बग अहवाल क्रमांक दाखल करा"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:542
+#, kde-format
+msgctxt "@label"
+msgid ""
+"The report is going to be <strong>attached</strong> to bug %1. <a href=\"#"
+"\">Cancel</a>"
+msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:569
 msgctxt "@title:window"
@@ -1055,6 +1509,20 @@ msgid ""
 "Use this button to suggest that the crash you experienced is related to this "
 "bug report"
 msgstr "हा क्रॅश कोणत्या अहवालाशी संबंधित आहे ते सूचविण्यासाठी हे बटन वापरा"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:632
+#, kde-format
+msgctxt "@info"
+msgid "<link url='%1'>Report's webpage</link>"
+msgstr "<link url='%1'>अहवालाचे वेबपान</link>"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:635
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Loading information about bug <numid>%1</numid> from %2...."
+msgctxt "@info:status"
+msgid "Loading information about bug %1 from %2...."
+msgstr "<numid>%1</numid> या बगची माहिती %2 येथून दाखल करत आहे..."
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:641
 #, fuzzy
@@ -1079,6 +1547,14 @@ msgstr "हो, मुख्य अहवाल वाचा"
 msgctxt "@action:button let the user choose to read the original report"
 msgid "No, let me read the report I selected"
 msgstr "नाही, मी निवडलेला अहवाल मला वाचायचा आहे"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:676
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The report you selected (bug %1) is already marked as duplicate of bug %2. "
+"Do you want to read that report instead? (recommended)"
+msgstr ""
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:680
 msgctxt "@title:window"
@@ -1163,6 +1639,35 @@ msgctxt "@info bug status"
 msgid "Temporarily closed, because of a lack of information"
 msgstr "कमी माहिती असल्यामुळे तात्पूरता बंद केला आहे"
 
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:761
+msgid ""
+"<p><note>The bug report's title is often written by its reporter and may not "
+"reflect the bug's nature, root cause or other visible symptoms you could use "
+"to compare to your crash. Please read the complete report and all the "
+"comments below.</note></p>"
+msgstr ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:767
+#, kde-format
+msgid ""
+"<p><note>This bug report has %1 duplicate report. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgid_plural ""
+"<p><note>This bug report has %1 duplicate reports. That means this is "
+"probably a <strong>common crash</strong>. <i>Please consider only adding a "
+"comment or a note if you can provide new valuable information which was not "
+"already mentioned.</i></note></p>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:784
+msgid ""
+"<p><note>This bug report is not about a crash or about any other critical "
+"bug.</note></p>"
+msgstr ""
+
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:791
 #, kde-format
 msgctxt "@info bug report title (quoted)"
@@ -1192,6 +1697,24 @@ msgstr "<h3>बगचे वर्णन </h3><p>%1</p>"
 msgctxt "@label:textbox bug report comments (already formatted)"
 msgid "<h2>Additional Comments</h2>%1"
 msgstr "<h2>अधिक टीपा</h2> %1"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:813
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Showing bug <numid>%1</numid>"
+msgctxt "@info:status"
+msgid "Showing bug %1"
+msgstr "<numid>%1</numid> हा बग दाखवित आहे"
+
+#: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:852
+#, kde-format
+msgctxt "@info/rich"
+msgid ""
+"Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
+"some time and try again."
+msgstr ""
+"बग अहवाल घेताना त्रुटी आढळली <nl/><message>%1.</message><nl/> कृपया थोड्या वेळाने "
+"परत प्रयत्न करा."
 
 #: bugzillaintegration/reportassistantpages_bugzilla_duplicates.cpp:856
 msgctxt "@info"
@@ -1229,6 +1752,13 @@ msgctxt "@info"
 msgid ""
 "The report is closed because %1. <i>If the crash is the same, adding further "
 "information will be useless and will consume developers' time.</i>"
+msgstr ""
+
+#: bugzillaintegration/reportinterface.cpp:175
+msgctxt "@info/plain"
+msgid ""
+"<placeholder>In detail, tell us what you were doing  when the application "
+"crashed.</placeholder>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_rememberLabel)
@@ -1635,6 +2165,12 @@ msgid ""
 "packages."
 msgstr "डिबग प्रतिकांच्या पॅकेजेसची प्रतिष्ठापना करताना त्रुटी आढळली."
 
+#: drkonqi.cpp:161
+#, kde-format
+msgctxt "@info"
+msgid "Report saved to <filename>%1</filename>."
+msgstr "<filename>%1</filename> मध्ये अहवाल साठवला."
+
 #: drkonqi.cpp:164
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
@@ -1650,10 +2186,73 @@ msgctxt "@title:tab"
 msgid "&Developer Information"
 msgstr "विकासकर्ता माहिती (&D)"
 
+#: drkonqidialog.cpp:105
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>We are sorry, <application>%1</application> closed unexpectedly.</para>"
+msgstr "<para>क्षमा करा, <application>%1</application> अचानक बंद झाला.</para>"
+
+#: drkonqidialog.cpp:111
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>As the Crash Handler itself has failed, the automatic reporting "
+"process is disabled to reduce the risks of failing again.<nl /><nl />Please, "
+"<link url='%1'>manually report</link> this error to the KDE bug tracking "
+"system. Do not forget to include the backtrace from the <interface>Developer "
+"Information</interface> tab.</para>"
+msgstr ""
+
+#: drkonqidialog.cpp:120
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>The reporting assistant is disabled because the crash handler dialog "
+"was started in safe mode.<nl />You can manually report this bug to %1 "
+"(including the backtrace from the <interface>Developer Information</"
+"interface> tab.)</para>"
+msgstr ""
+
+#: drkonqidialog.cpp:127
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You can help us improve KDE Software by reporting this error.<nl /"
+"><link url='%1'>Learn more about bug reporting.</link></para><para><note>It "
+"is safe to close this dialog if you do not want to report this bug.</note></"
+"para>"
+msgstr ""
+
+#: drkonqidialog.cpp:135
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>You cannot report this error, because <application>%1</application> "
+"does not provide a bug reporting address.</para>"
+msgstr ""
+"<para>या त्रुटीचा अहवाल तुम्ही पाठवू शकत नाही. कारण <application>%1</application> "
+"हा अनुप्रयोग बग अहवाल पाठविण्याचा पत्ता पुरवित नाही.</para>"
+
 #: drkonqidialog.cpp:147
 msgctxt "@label"
 msgid "Details:"
 msgstr "तपशील :"
+
+#: drkonqidialog.cpp:150
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info Note the time information is divided into date and time parts"
+#| msgid ""
+#| "<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
+#| "Signal: %3 (%4) Time: %5 %6</para>"
+msgctxt "@info Note the time information is divided into date and time parts"
+msgid ""
+"<para>Executable: <application>%1</application> PID: %2 Signal: %3 (%4) "
+"Time: %5 %6</para>"
+msgstr ""
+"<para>एक्झिक्युटेबल : <application>%1</application> PID: <numid>%2</numid> "
+"सिग्नल : %3 (%4) वेळ : %5 %6</para>"
 
 #: drkonqidialog.cpp:178
 msgctxt "@action:button"
@@ -1835,199 +2434,9 @@ msgstr "बॅकट्रेस मजकूर दर्शवा (प्र�
 #~ msgid "Report to %1"
 #~ msgstr "%1कडे अहवाल पाठवा"
 
-#~ msgctxt "@info/rich"
-#~ msgid "You can help us improve this software by filing a bug report."
-#~ msgstr "बग अहवाल सादर करून तुम्ही हे सॉफ्टवेअर सुधारण्यास मदत करू शकता."
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "<note>It is safe to close this dialog. If you do not want to, you do not "
-#~ "have to file a bug report.</note>"
-#~ msgstr ""
-#~ "<note>हा संवाद बंद करणे सुरक्षित आहे. जर तुमची ईच्छा नसेल तर हा अहवाल सादर करण्याची "
-#~ "गरज नाही.</note>"
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "In order to generate a useful bug report we need some information about "
-#~ "both the crash and your system. (You may also need to install some debug "
-#~ "packages.)"
-#~ msgstr ""
-#~ "उपयोगी बग अहवाल तयार करण्याकरिता आम्हाला क्रॅश व तुमची प्रणाली याबाबत काही "
-#~ "माहिती पाहिजे. (तुम्हाला कदाचित काही डिबग पॅकेजेस प्रतिष्ठापीत करावे लागतील.)"
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "This assistant will guide you through the crash reporting process for the "
-#~ "KDE bug tracking system. All the information you enter on the bug report "
-#~ "<strong>must be written in English</strong>, if possible, as KDE is "
-#~ "formed internationally."
-#~ msgstr ""
-#~ "हा सहायक तुम्हाला केडीई बग अहवाल डेटाबेस साइटसाठी क्रॅश अहवाल करण्याकरिता "
-#~ "मार्गदर्शन करेल. बग अहवालामध्ये तुम्ही देणारी सर्व माहिती <strong>इंग्रजीतूनच</"
-#~ "strong> असणे आवश्यक आहे. कारण केडीई हे आंतर्राष्ट्रीय आहे."
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "In this page you need to describe how much do you know about the desktop "
-#~ "and the application state before it crashed."
-#~ msgstr "या पानावर क्रॅश होण्यापूर्वीची प्रणालीची व अनुप्रयोगाची स्थिती वर्णन करा."
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "If you can, describe in as much detail as possible the crash "
-#~ "circumstances, and what you were doing when the application crashed (this "
-#~ "information is going to be requested later.) You can mention: "
-#~ msgstr ""
-#~ "तुम्हाला क्रॅश परिस्थिति व अनुप्रयोग जेव्हा क्रॅश झाला तेव्हा तुम्ही काय करत होता "
-#~ "त्याविषयी जितकी जास्त माहिती देता येइल ती द्या :"
-
-#~ msgctxt "@info/rich crash situation example"
-#~ msgid "actions you were taking inside or outside the application"
-#~ msgstr "अनुप्रयोगाच्या आत किंवा बाहेर तुम्ही करत असलेल्या क्रिया"
-
-#~ msgctxt "@info/rich crash situation example"
-#~ msgid "widgets that you were running"
-#~ msgstr "तुम्ही चालू केलेल्या विजेट्स"
-
-#~ msgctxt "@info/rich crash situation example"
-#~ msgid "the URL of a web site you were browsing"
-#~ msgstr "तुम्ही ब्राऊज करत असलेल्या वेब साइटची URL"
-
-#~ msgctxt "@info/rich crash situation example"
-#~ msgid "configuration details of the application"
-#~ msgstr "अनुप्रयोगाच्या संयोजनेचा तपशील"
-
-#~ msgctxt "@info/rich crash situation example"
-#~ msgid "or other strange things you notice before or after the crash. "
-#~ msgstr "क्रॅशच्या आधी किंवा नंतर तुमच्या निदर्शनास आलेल्या विचित्र गोष्टी."
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "Screenshots can be very helpful sometimes. You can attach them to the bug "
-#~ "report after it is posted to the bug tracking system."
-#~ msgstr ""
-#~ "काहीवेळा स्क्रीनशॉट खूप मदतीस येतात. बग मागोवा प्रणालीस बग अहवाल सादर केल्यानंतर "
-#~ "तुम्ही हे त्यासोबत जोडू शकता."
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "This page will generate a \"backtrace\" of the crash. This is information "
-#~ "that tells the developers where the application crashed."
-#~ msgstr ""
-#~ "हे पान क्रॅश चा बॅकट्रेस तयार करेल. अनुप्रयोग कोठे क्रॅश झाला ते ही माहिती विकासकर्त्यास "
-#~ "सांगते."
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "You can find more information about backtraces, what they mean, and how "
-#~ "they are useful at <link>%1</link>"
-#~ msgstr ""
-#~ "तुम्हाला बॅकट्रेस, त्यांचा अर्थ, व ते कसे उपयोगी आहेत याची माहिती येथे मिळेल : <link>"
-#~ "%1</link>"
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "Once you get a useful backtrace (or if you do not want to install the "
-#~ "missing debugging packages) you can continue."
-#~ msgstr ""
-#~ "तुम्हाला एकदा उपयोगी बॅकट्रेस मिळाला की (किंवा डिबगिंग पॅकेजेस प्रतिष्ठापना करायची "
-#~ "नसेल तर) तुम्ही पुढे जाऊ शकता."
-
-#~ msgctxt "@info/rich"
-#~ msgid "Thank you for being part of KDE!"
-#~ msgstr "केडीई मध्ये सहभागी होण्याबद्दल धन्यवाद"
-
-#~ msgctxt "@info"
-#~ msgid "Report saved to <filename>%1</filename>."
-#~ msgstr "<filename>%1</filename> मध्ये अहवाल साठवला."
-
-#~ msgctxt "@info"
-#~ msgid "Cannot open file <filename>%1</filename> for writing."
-#~ msgstr "लेखन करिता फाईल <filename>%1</filename> उघडू शकत नाही."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>We are sorry, <application>%1</application> closed unexpectedly.</"
-#~ "para>"
-#~ msgstr "<para>क्षमा करा, <application>%1</application> अचानक बंद झाला.</para>"
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<para>You cannot report this error, because <application>%1</application> "
-#~ "does not provide a bug reporting address.</para>"
-#~ msgstr ""
-#~ "<para>या त्रुटीचा अहवाल तुम्ही पाठवू शकत नाही. कारण <application>%1</"
-#~ "application> हा अनुप्रयोग बग अहवाल पाठविण्याचा पत्ता पुरवित नाही.</para>"
-
-#~ msgctxt ""
-#~ "@info Note the time information is divided into date and time parts"
-#~ msgid ""
-#~ "<para>Executable: <application>%1</application> PID: <numid>%2</numid> "
-#~ "Signal: %3 (%4) Time: %5 %6</para>"
-#~ msgstr ""
-#~ "<para>एक्झिक्युटेबल : <application>%1</application> PID: <numid>%2</numid> "
-#~ "सिग्नल : %3 (%4) वेळ : %5 %6</para>"
-
 #~ msgctxt "@action:inmenu 1 is the debugger name"
 #~ msgid "Debug in <application>%1</application>"
 #~ msgstr "<application>%1</application> मध्ये डिबग करा"
-
-#~ msgctxt "@info"
-#~ msgid "Your problem has already been reported as bug <numid>%1</numid>."
-#~ msgstr "तुमची समस्या अगोदरच बग <numid>%1</numid> म्हणून सादर झाली आहे."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "You can manually report this bug at <link>%1</link>. Click "
-#~ "<interface>Finish</interface> to close the assistant."
-#~ msgstr ""
-#~ "तुम्ही हा बग <link>%1</link> येथे स्वहस्ते सादर करू शकता. हा सहायक बंद करण्याकरिता "
-#~ "<interface>पूर्ण</interface> वर क्लिक करा."
-
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "You can manually report this bug to its maintainer at <link>%1</link>. "
-#~ "Click <interface>Finish</interface> to close the assistant."
-#~ msgstr ""
-#~ "तुम्ही हा बग या अनुप्रयोगाच्या नियंत्रकास <link>%1</link> येथे स्वहस्ते सादर करू शकता. "
-#~ "हा सहायक बंद करण्याकरिता <interface>पूर्ण</interface> वर क्लिक करा."
-
-#~ msgctxt "@info:status"
-#~ msgid "Error when trying to login: <message>%1.</message>"
-#~ msgstr "प्रवेश करताना त्रुटी आढळली : <message>%1.</message>"
-
-#~ msgctxt "@info:status"
-#~ msgid "Error sending the crash report:  <message>%1.</message>"
-#~ msgstr "क्रॅश अहवाल पाठवताना त्रुटी : <message>%1.</message>"
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "Error fetching the bug report list<nl/><message>%1.</message><nl/>Please "
-#~ "wait some time and try again."
-#~ msgstr ""
-#~ "बग अहवाल यादी घेताना त्रुटी आढळली <nl/><message>%1.</message><nl/> कृपया "
-#~ "थोड्या वेळाने परत प्रयत्न करा."
-
-#~ msgctxt "@info"
-#~ msgid "<link url='%1'>Report's webpage</link>"
-#~ msgstr "<link url='%1'>अहवालाचे वेबपान</link>"
-
-#~ msgctxt "@info:status"
-#~ msgid "Loading information about bug <numid>%1</numid> from %2...."
-#~ msgstr "<numid>%1</numid> या बगची माहिती %2 येथून दाखल करत आहे..."
-
-#~ msgctxt "@info:status"
-#~ msgid "Showing bug <numid>%1</numid>"
-#~ msgstr "<numid>%1</numid> हा बग दाखवित आहे"
-
-#~ msgctxt "@info/rich"
-#~ msgid ""
-#~ "Error fetching the bug report<nl/><message>%1.</message><nl/>Please wait "
-#~ "some time and try again."
-#~ msgstr ""
-#~ "बग अहवाल घेताना त्रुटी आढळली <nl/><message>%1.</message><nl/> कृपया थोड्या "
-#~ "वेळाने परत प्रयत्न करा."
 
 #~ msgctxt "@info/plain"
 #~ msgid "Report to %1"
