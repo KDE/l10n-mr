@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-10 07:42+0000\n"
+"POT-Creation-Date: 2014-12-11 07:45+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -236,8 +236,8 @@ msgstr ""
 #: tools/modcalcgalcoord.cpp:193 tools/modcalcgeodcoord.cpp:232
 #: tools/modcalcjd.cpp:121 tools/modcalcplanets.cpp:208
 #: tools/modcalcsidtime.cpp:200 tools/modcalcvizequinox.cpp:84
-#: tools/modcalcvlsr.cpp:274 tools/observinglist.cpp:745
-#: tools/observinglist.cpp:868 tools/scriptbuilder.cpp:1022
+#: tools/modcalcvlsr.cpp:274 tools/observinglist.cpp:715
+#: tools/observinglist.cpp:838 tools/scriptbuilder.cpp:1022
 #: tools/scriptbuilder.cpp:1090 tools/scriptbuilder.cpp:1162
 msgid "Could Not Open File"
 msgstr "फाईल उघडू शकत नाही"
@@ -616,7 +616,7 @@ msgstr "सामान्य"
 #: kstarsinit.cpp:627 printing/detailstable.cpp:87
 #: printing/pwizobjectselection.cpp:114 skycomponents/starcomponent.cpp:452
 #: skycomponents/starcomponent.cpp:461 skyobjects/starobject.cpp:499
-#: tools/observinglist.cpp:484 tools/wutdialog.cpp:279
+#: tools/observinglist.cpp:461 tools/wutdialog.cpp:279
 msgid "star"
 msgstr "तारा"
 
@@ -793,7 +793,7 @@ msgid "Log"
 msgstr "लॉग"
 
 #: dialogs/detaildialog.cpp:678 skyobjects/skyobject.cpp:418
-#: tools/observinglist.cpp:494 tools/observinglist.cpp:709
+#: tools/observinglist.cpp:471 tools/observinglist.cpp:679
 #, kde-format
 msgid "Record here observation logs and/or data on %1."
 msgstr ""
@@ -815,11 +815,11 @@ msgid "Delete Confirmation"
 msgstr "संयोजना"
 
 #: dialogs/detaildialog.cpp:1088 dialogs/detaildialog.cpp:1118
-#: tools/observinglist.cpp:580 tools/observinglist.cpp:610
+#: tools/observinglist.cpp:550 tools/observinglist.cpp:580
 msgid "KStars did not find any active telescopes."
 msgstr ""
 
-#: dialogs/detaildialog.cpp:1104 tools/observinglist.cpp:596
+#: dialogs/detaildialog.cpp:1104 tools/observinglist.cpp:566
 #, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr ""
@@ -3255,8 +3255,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
 #. i18n: ectx: property (text), widget (QTreeWidget, OptionsList)
 #. i18n: ectx: property (text), widget (QLabel, typeLabel)
-#: ekos/capture.ui:344 ekos/capture.ui:770 tools/observinglist.cpp:113
-#: tools/observinglist.cpp:119 tools/optionstreeview.ui:33
+#: ekos/capture.ui:344 ekos/capture.ui:770 tools/observinglist.cpp:115
+#: tools/observinglist.cpp:121 tools/optionstreeview.ui:33
 #: tools/whatsinteresting/wiequipsettings.ui:315
 msgid "Type"
 msgstr "प्रकार"
@@ -5438,8 +5438,8 @@ msgstr "बदला..."
 
 #. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: indi/drivermanager.ui:327 oal/observeradd.ui:14 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:114
+#: indi/drivermanager.ui:327 oal/observeradd.ui:14 tools/observinglist.cpp:110
+#: tools/observinglist.cpp:116
 msgid "Name"
 msgstr "नाव"
 
@@ -5519,7 +5519,7 @@ msgid "&Cancel"
 msgstr "रद्द करा (&C)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/indiproperty.cpp:257 indi/opsindi.ui:230 tools/observinglist.cpp:120
+#: indi/indiproperty.cpp:257 indi/opsindi.ui:230 tools/observinglist.cpp:122
 msgid "Time"
 msgstr "वेळ"
 
@@ -6119,7 +6119,7 @@ msgstr ""
 msgid "Select this object"
 msgstr ""
 
-#: kspopupmenu.cpp:308 obslistpopupmenu.cpp:60
+#: kspopupmenu.cpp:308 obslistpopupmenu.cpp:58
 msgctxt "Show Detailed Information Dialog"
 msgid "Details"
 msgstr "तपशील"
@@ -33491,7 +33491,7 @@ msgstr ""
 msgid "Try Another"
 msgstr "इतर"
 
-#: kstarsactions.cpp:772 tools/observinglist.cpp:868
+#: kstarsactions.cpp:772 tools/observinglist.cpp:838
 msgid "Do Not Try"
 msgstr ""
 
@@ -33512,7 +33512,7 @@ msgid "Download Error"
 msgstr ""
 
 #: kstarsactions.cpp:833 kstarsdata.cpp:754 oal/execute.cpp:298
-#: tools/observinglist.cpp:744
+#: tools/observinglist.cpp:714
 #, fuzzy, kde-format
 msgid "Could not open file %1"
 msgstr "फाईल %1 उघडू शकत नाही"
@@ -33971,12 +33971,12 @@ msgstr ""
 msgid "Calculator"
 msgstr "गणकयंत्र"
 
-#: kstarsinit.cpp:375 tools/observinglist.cpp:93
+#: kstarsinit.cpp:375 tools/observinglist.cpp:95
 msgid "Observation Planner"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, AltVsTime)
-#: kstarsinit.cpp:379 obslistpopupmenu.cpp:62 tools/altvstime.cpp:56
+#: kstarsinit.cpp:379 obslistpopupmenu.cpp:63 tools/altvstime.cpp:56
 #: tools/altvstime.ui:14
 msgid "Altitude vs. Time"
 msgstr ""
@@ -37344,46 +37344,46 @@ msgstr "आडनाव :"
 msgid "Contact"
 msgstr ""
 
-#: obslistpopupmenu.cpp:47
+#: obslistpopupmenu.cpp:42
 msgid "Add to session plan"
 msgstr ""
 
-#: obslistpopupmenu.cpp:49
+#: obslistpopupmenu.cpp:43
 msgid "Add objects visible tonight to session plan"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, CenterButton)
-#: obslistpopupmenu.cpp:53 tools/flagmanager.ui:208
+#: obslistpopupmenu.cpp:49 tools/flagmanager.ui:208
 #, fuzzy
 msgid "Center"
 msgstr "मध्य"
 
-#: obslistpopupmenu.cpp:56
+#: obslistpopupmenu.cpp:52
 msgctxt "Show the selected object in the telescope"
 msgid "Scope"
 msgstr "क्षेत्र"
 
-#: obslistpopupmenu.cpp:64
+#: obslistpopupmenu.cpp:59
 msgid "Eyepiece view (Beta)"
 msgstr ""
 
-#: obslistpopupmenu.cpp:70
+#: obslistpopupmenu.cpp:71
 msgid "Show SDSS image"
 msgstr ""
 
-#: obslistpopupmenu.cpp:71
+#: obslistpopupmenu.cpp:72
 msgid "Show DSS image"
 msgstr ""
 
-#: obslistpopupmenu.cpp:73
+#: obslistpopupmenu.cpp:74
 msgid "Show images from web "
 msgstr ""
 
-#: obslistpopupmenu.cpp:79
+#: obslistpopupmenu.cpp:80
 msgid "Remove from WishList"
 msgstr ""
 
-#: obslistpopupmenu.cpp:81
+#: obslistpopupmenu.cpp:82
 msgid "Remove from Session Plan"
 msgstr ""
 
@@ -40730,7 +40730,7 @@ msgid ""
 "\t\n"
 msgstr ""
 
-#: tools/altvstime.cpp:69 tools/observinglist.cpp:141
+#: tools/altvstime.cpp:69 tools/observinglist.cpp:143
 #, fuzzy
 msgid "Local Time"
 msgstr "स्थानिक"
@@ -41563,14 +41563,14 @@ msgstr "फिरवणे"
 msgid "Flag manager"
 msgstr ""
 
-#: tools/flagmanager.cpp:63 tools/observinglist.cpp:110
-#: tools/observinglist.cpp:116 widgets/infoboxwidget.cpp:134
+#: tools/flagmanager.cpp:63 tools/observinglist.cpp:112
+#: tools/observinglist.cpp:118 widgets/infoboxwidget.cpp:134
 msgctxt "Right Ascension"
 msgid "RA"
 msgstr ""
 
-#: tools/flagmanager.cpp:64 tools/observinglist.cpp:111
-#: tools/observinglist.cpp:117 widgets/infoboxwidget.cpp:135
+#: tools/flagmanager.cpp:64 tools/observinglist.cpp:113
+#: tools/observinglist.cpp:119 widgets/infoboxwidget.cpp:135
 msgctxt "Declination"
 msgid "Dec"
 msgstr "डिसें"
@@ -42510,137 +42510,137 @@ msgstr "आढावा"
 msgid "Moon Phase Calendar"
 msgstr ""
 
-#: tools/observinglist.cpp:109 tools/observinglist.cpp:115
+#: tools/observinglist.cpp:111 tools/observinglist.cpp:117
 #, fuzzy
 #| msgid "Star Name"
 msgid "Alternate Name"
 msgstr "तारा नाव"
 
-#: tools/observinglist.cpp:112 tools/observinglist.cpp:118
+#: tools/observinglist.cpp:114 tools/observinglist.cpp:120
 msgctxt "Magnitude"
 msgid "Mag"
 msgstr "Mag"
 
-#: tools/observinglist.cpp:121 widgets/infoboxwidget.cpp:138
+#: tools/observinglist.cpp:123 widgets/infoboxwidget.cpp:138
 msgctxt "Altitude"
 msgid "Alt"
 msgstr "Alt"
 
-#: tools/observinglist.cpp:122 widgets/infoboxwidget.cpp:137
+#: tools/observinglist.cpp:124 widgets/infoboxwidget.cpp:137
 msgctxt "Azimuth"
 msgid "Az"
 msgstr ""
 
-#: tools/observinglist.cpp:240
+#: tools/observinglist.cpp:242
 msgid "Unnamed stars are not supported in the observing lists"
 msgstr ""
 
-#: tools/observinglist.cpp:248
+#: tools/observinglist.cpp:250
 #, kde-format
 msgid "%1 is already in your wishlist."
 msgstr ""
 
-#: tools/observinglist.cpp:254
+#: tools/observinglist.cpp:256
 #, kde-format
 msgid "%1 is already in the session plan."
 msgstr ""
 
-#: tools/observinglist.cpp:283
+#: tools/observinglist.cpp:285
 #, kde-format
 msgid "Added %1 to observing list."
 msgstr ""
 
-#: tools/observinglist.cpp:326
+#: tools/observinglist.cpp:328
 #, kde-format
 msgid "Added %1 to session list."
 msgstr ""
 
-#: tools/observinglist.cpp:492
+#: tools/observinglist.cpp:469
 #, kde-format
 msgid "observing notes for %1:"
 msgstr ""
 
-#: tools/observinglist.cpp:506
+#: tools/observinglist.cpp:483
 msgid "observing notes (disabled for unnamed star)"
 msgstr ""
 
-#: tools/observinglist.cpp:524
+#: tools/observinglist.cpp:501
 #, kde-format
 msgid "Object %1 not found in list."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, NotesLabel)
-#: tools/observinglist.cpp:530 tools/observinglist.cpp:985
+#: tools/observinglist.cpp:507 tools/observinglist.cpp:955
 #: tools/observinglist.ui:622
 msgid "Select an object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:543
+#: tools/observinglist.cpp:520
 msgid "Select a single object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:712
+#: tools/observinglist.cpp:682
 msgid "Observing notes for object:"
 msgstr ""
 
-#: tools/observinglist.cpp:719
+#: tools/observinglist.cpp:689
 msgid "Open Observing List"
 msgstr ""
 
-#: tools/observinglist.cpp:774
+#: tools/observinglist.cpp:744
 msgid "The specified file is invalid"
 msgstr ""
 
-#: tools/observinglist.cpp:783
+#: tools/observinglist.cpp:753
 msgid "Do you want to save the current session?"
 msgstr ""
 
-#: tools/observinglist.cpp:785
+#: tools/observinglist.cpp:755
 msgid "Save Current session?"
 msgstr ""
 
-#: tools/observinglist.cpp:792
+#: tools/observinglist.cpp:762
 msgid "Save Observing List"
 msgstr ""
 
-#: tools/observinglist.cpp:867
+#: tools/observinglist.cpp:837
 #, fuzzy, kde-format
 #| msgid "Could not open file %1."
 msgid "Could not open file %1.  Try a different filename?"
 msgstr "फाईल %1 उघडू शकत नाही"
 
-#: tools/observinglist.cpp:868
+#: tools/observinglist.cpp:838
 msgid "Try Different"
 msgstr ""
 
-#: tools/observinglist.cpp:934
+#: tools/observinglist.cpp:904
 #, fuzzy
 msgctxt "First letter in 'Find'"
 msgid "F"
 msgstr "F"
 
-#: tools/observinglist.cpp:971
+#: tools/observinglist.cpp:941
 #, fuzzy
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "UTC"
 msgid "WUT"
 msgstr "UTC"
 
-#: tools/observinglist.cpp:972
+#: tools/observinglist.cpp:942
 #, fuzzy
 #| msgid "Object"
 msgid "Find &Object"
 msgstr "घटक"
 
-#: tools/observinglist.cpp:1172
+#: tools/observinglist.cpp:1136
 msgid "This will delete all saved images. Are you sure you want to do this?"
 msgstr ""
 
-#: tools/observinglist.cpp:1172
+#: tools/observinglist.cpp:1136
 msgid "Delete All Images"
 msgstr ""
 
-#: tools/observinglist.cpp:1270
+#: tools/observinglist.cpp:1218
 #, fuzzy
 #| msgid "Choose"
 msgid "Image Chooser"
@@ -42794,7 +42794,7 @@ msgstr ""
 msgid "Set Time"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, GoogleImage)
+#. i18n: ectx: property (text), widget (QPushButton, SearchImage)
 #: tools/observinglist.ui:587
 msgid "Find Image"
 msgstr ""
