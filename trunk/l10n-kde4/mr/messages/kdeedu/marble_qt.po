@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-08 01:54+0000\n"
+"POT-Creation-Date: 2014-12-15 01:57+0000\n"
 "PO-Revision-Date: 2013-03-06 13:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -756,6 +756,7 @@ msgid "All Supported Files"
 msgstr "सर्व समर्थीत फाईल्स"
 
 #: src/apps/marble-qt/QtMainWindow.cpp:1027
+#: src/lib/marble/PlacemarkEditHeader.cpp:127
 #: src/plugins/render/fileview/FileViewFloatItem.cpp:231
 msgid "Open File"
 msgstr "फाईल उघडा"
@@ -2324,6 +2325,16 @@ msgstr ""
 msgid "Address Details"
 msgstr ""
 
+#: src/lib/marble/MovieCapture.cpp:34
+msgid "Missing encoding tools"
+msgstr ""
+
+#: src/lib/marble/MovieCapture.cpp:35
+#, qt-format
+msgid ""
+"Marble requires additional software in order to create movies. Please get %1 "
+msgstr ""
+
 #: src/lib/marble/MovieCaptureDialog.cpp:57
 #: src/lib/marble/TourCaptureDialog.cpp:69
 msgid "Save video file"
@@ -2360,6 +2371,12 @@ msgstr ""
 #: src/lib/marble/NewstuffModel.cpp:718 src/lib/marble/NewstuffModel.cpp:727
 msgid "Installation aborted by user."
 msgstr ""
+
+#: src/lib/marble/PlacemarkEditHeader.cpp:129
+#, fuzzy
+#| msgid "All Supported Files"
+msgid "All Supported Files (*.png)"
+msgstr "सर्व समर्थीत फाईल्स"
 
 #: src/lib/marble/PlacemarkPositionProviderPlugin.cpp:36
 msgid "Placemark position provider Plugin"
@@ -3203,8 +3220,6 @@ msgid ""
 msgstr ""
 
 #: src/plugins/render/annotate/AnnotatePlugin.cpp:367
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:89
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:211
 msgid "Open Annotation File"
 msgstr ""
 
@@ -3334,37 +3349,31 @@ msgstr "काढून टाका"
 msgid "Deselect Node"
 msgstr ""
 
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:91
-#, fuzzy
-#| msgid "All Supported Files"
-msgid "All Supported Files (*.jpg *.png)"
-msgstr "सर्व समर्थीत फाईल्स"
-
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:123
+#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:110
 #: src/plugins/render/annotate/EditPolygonDialog.cpp:184
 #: src/plugins/render/annotate/EditPolylineDialog.cpp:174
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:225
+#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:207
 msgid "No name specified"
 msgstr ""
 
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:124
+#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:111
 msgid "Please specify a name for this ground overlay."
 msgstr ""
 
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:127
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:229
+#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:114
+#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:211
 msgid "No image specified"
 msgstr ""
 
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:128
+#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:115
 msgid "Please specify an image file."
 msgstr ""
 
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:133
+#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:120
 msgid "Invalid image path"
 msgstr ""
 
-#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:134
+#: src/plugins/render/annotate/EditGroundOverlayDialog.cpp:121
 msgid "Please specify a valid path for the image file."
 msgstr ""
 
@@ -3388,25 +3397,19 @@ msgstr ""
 msgid "Untitled Placemark"
 msgstr ""
 
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:213
-#, fuzzy
-#| msgid "All Supported Files"
-msgid "All Supported Files (*.png)"
-msgstr "सर्व समर्थीत फाईल्स"
-
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:226
+#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:208
 msgid "Please specify a name for this placemark."
 msgstr ""
 
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:230
+#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:212
 msgid "Please specify an icon for this placemark."
 msgstr ""
 
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:235
+#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:217
 msgid "Invalid icon path"
 msgstr ""
 
-#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:236
+#: src/plugins/render/annotate/EditTextAnnotationDialog.cpp:218
 msgid "Please specify a valid path for the icon file."
 msgstr ""
 
@@ -3772,49 +3775,49 @@ msgstr ""
 msgid "&Ratio Scale"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:76
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:79
 msgid "Measure Tool"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:81
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:84
 msgid "&Measure Tool"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:96
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:99
 msgid "Measure distances between two or more points."
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:237
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:245
 #: src/plugins/render/opencachingcom/OpenCachingComItem.cpp:357
 #, qt-format
 msgid "%1 km"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:240
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:248
 #: src/plugins/render/opencachingcom/OpenCachingComItem.cpp:360
 #, fuzzy, qt-format
 msgid "%1 m"
 msgstr "M"
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:306
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:354
 #, qt-format
 msgid "Total Distance: %1 km"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:309
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:357
 #, qt-format
 msgid "Total Distance: %1 m"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:354
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:402
 msgid "Add &Measure Point"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:355
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:403
 msgid "Remove &Last Measure Point"
 msgstr ""
 
-#: src/plugins/render/measure/MeasureToolPlugin.cpp:357
+#: src/plugins/render/measure/MeasureToolPlugin.cpp:405
 msgid "&Remove Measure Points"
 msgstr ""
 
@@ -5726,6 +5729,11 @@ msgstr ""
 #: src/plugins/templates/floatitem/FITemplateFloatItem.cpp:68
 msgid "This is a template class for float items."
 msgstr ""
+
+#, fuzzy
+#~| msgid "All Supported Files"
+#~ msgid "All Supported Files (*.jpg *.png)"
+#~ msgstr "सर्व समर्थीत फाईल्स"
 
 #, fuzzy
 #~ msgid "Disabled"
