@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-19 07:53+0000\n"
+"POT-Creation-Date: 2015-01-20 10:13+0000\n"
 "PO-Revision-Date: 2013-03-06 17:46+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -556,7 +556,7 @@ msgctxt "@item Undo action item"
 msgid "Remove text with markup"
 msgstr ""
 
-#: src/catalog/cmd.cpp:435 src/xlifftextedit.cpp:656
+#: src/catalog/cmd.cpp:435 src/xlifftextedit.cpp:660
 msgctxt "@item Undo action item"
 msgid "Insert text with markup"
 msgstr ""
@@ -571,112 +571,137 @@ msgid ""
 "template"
 msgstr ""
 
+#: src/catalog/gettextheader.cpp:687
+msgctxt "@window:title"
+msgid "Author name missing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, ln)
+#: src/catalog/gettextheader.cpp:687 src/nokde-stubs/welcomewidget.ui:30
+#, fuzzy
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Your name:"
+msgstr "चेतन खोना"
+
+#: src/catalog/gettextheader.cpp:700
+msgctxt "@window:title"
+msgid "Author email missing"
+msgstr ""
+
+#: src/catalog/gettextheader.cpp:700
+#, fuzzy
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Your email:"
+msgstr "chetan@kompkin.com"
+
 #: src/catalog/ts/tsstorage.cpp:336
 msgid "Previous source value, saved by lupdate tool"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:71
+#: src/cataloglistview/cataloglistview.cpp:72
 msgctxt "@title:window aka Message Tree"
 msgid "Translation Units"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:88
+#: src/cataloglistview/cataloglistview.cpp:89
 #: src/glossary/glossarywindow.cpp:238 src/project/projecttab.cpp:120
 msgid "Quick search..."
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:89
+#: src/cataloglistview/cataloglistview.cpp:90
 #: src/glossary/glossarywindow.cpp:240 src/project/projecttab.cpp:121
 msgctxt "@info:tooltip"
 msgid "Activated by Ctrl+L."
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:89
+#: src/cataloglistview/cataloglistview.cpp:90
 #: src/glossary/glossarywindow.cpp:240 src/project/projecttab.cpp:121
 msgctxt "@info:tooltip"
 msgid "Accepts regular expressions"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:98
+#: src/cataloglistview/cataloglistview.cpp:99
 #, fuzzy
 msgid "options"
 msgstr "पर्याय"
 
-#: src/cataloglistview/cataloglistview.cpp:190
+#: src/cataloglistview/cataloglistview.cpp:192
 msgid "Reset individual filter"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:196 src/tm/tmtab.cpp:388
+#: src/cataloglistview/cataloglistview.cpp:198 src/tm/tmtab.cpp:388
 #, fuzzy
 msgid "Case insensitive"
 msgstr "अक्षराकार असंवेदनशील"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
-#: src/cataloglistview/cataloglistview.cpp:197 src/kaider_findextension.ui:40
+#: src/cataloglistview/cataloglistview.cpp:199 src/kaider_findextension.ui:40
 msgid "Ignore accelerator marks"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:198
+#: src/cataloglistview/cataloglistview.cpp:200
 #, fuzzy
 msgid "Ready"
 msgstr "तयार"
 
-#: src/cataloglistview/cataloglistview.cpp:199
+#: src/cataloglistview/cataloglistview.cpp:201
 msgid "Non-ready"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:200
+#: src/cataloglistview/cataloglistview.cpp:202
 msgid "Non-empty"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:201
+#: src/cataloglistview/cataloglistview.cpp:203
 msgid "Empty"
 msgstr "रिकामी"
 
-#: src/cataloglistview/cataloglistview.cpp:202
+#: src/cataloglistview/cataloglistview.cpp:204
 msgid "Changed since file open"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:203
+#: src/cataloglistview/cataloglistview.cpp:205
 msgid "Unchanged since file open"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:204
+#: src/cataloglistview/cataloglistview.cpp:206
 msgid "Same in sync file"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:205
+#: src/cataloglistview/cataloglistview.cpp:207
 msgid "Different in sync file"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:206
+#: src/cataloglistview/cataloglistview.cpp:208
 msgid "Not in sync file"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:207
+#: src/cataloglistview/cataloglistview.cpp:209
 msgid "Plural"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:208
+#: src/cataloglistview/cataloglistview.cpp:210
 msgid "Non-plural"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:213
+#: src/cataloglistview/cataloglistview.cpp:215
 msgctxt "@title:inmenu"
 msgid "Basic"
 msgstr "मूळ"
 
-#: src/cataloglistview/cataloglistview.cpp:214
+#: src/cataloglistview/cataloglistview.cpp:216
 msgctxt "@title:inmenu"
 msgid "States"
 msgstr "स्थिती"
 
-#: src/cataloglistview/cataloglistview.cpp:216
+#: src/cataloglistview/cataloglistview.cpp:218
 msgctxt "@title:inmenu"
 msgid "Searchable column"
 msgstr ""
 
-#: src/cataloglistview/cataloglistview.cpp:235
+#: src/cataloglistview/cataloglistview.cpp:237
 msgctxt "@item:inmenu all columns"
 msgid "All"
 msgstr "सर्व"
@@ -782,7 +807,7 @@ msgctxt "percentages in statusbar"
 msgid " (%1%)"
 msgstr ""
 
-#: src/editortab.cpp:209 src/lokalizemainwindow.cpp:469
+#: src/editortab.cpp:209 src/lokalizemainwindow.cpp:470
 msgctxt "@title actions category"
 msgid "File"
 msgstr "फाईल"
@@ -810,7 +835,7 @@ msgstr ""
 msgid "Translation Memory"
 msgstr ""
 
-#: src/editortab.cpp:215 src/lokalizemainwindow.cpp:471
+#: src/editortab.cpp:215 src/lokalizemainwindow.cpp:472
 #, fuzzy
 msgctxt "@title actions category"
 msgid "Glossary"
@@ -1593,104 +1618,104 @@ msgstr ""
 msgid "Include notes"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:128
+#: src/lokalizemainwindow.cpp:129
 msgctxt "@info"
 msgid "No Qt Sql modules were found. Translation memory will not work."
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:392 src/project/project.cpp:252
+#: src/lokalizemainwindow.cpp:393 src/project/project.cpp:265
 msgid "TM facility requires SQLite Qt module."
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:392 src/project/project.cpp:252
+#: src/lokalizemainwindow.cpp:393 src/project/project.cpp:265
 msgid "No SQLite module available"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:472 src/tm/tmtab.cpp:511
+#: src/lokalizemainwindow.cpp:473 src/tm/tmtab.cpp:511
 msgctxt "@title actions category"
 msgid "Translation Memory"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:473 src/project/projecttab.cpp:186
+#: src/lokalizemainwindow.cpp:474 src/project/projecttab.cpp:186
 #, fuzzy
 msgctxt "@title actions category"
 msgid "Project"
 msgstr "परियोजना : %1"
 
-#: src/lokalizemainwindow.cpp:500
+#: src/lokalizemainwindow.cpp:501
 #, fuzzy
 msgid "Next tab"
 msgstr "पुढील टॅब"
 
-#: src/lokalizemainwindow.cpp:503
+#: src/lokalizemainwindow.cpp:504
 #, fuzzy
 msgid "Previous tab"
 msgstr "मागील टॅब"
 
-#: src/lokalizemainwindow.cpp:509
+#: src/lokalizemainwindow.cpp:510
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "Glossary"
 msgstr "शब्दकोष (&G)"
 
-#: src/lokalizemainwindow.cpp:513 src/nokde-stubs/lokalizesubwindowbase.cpp:63
+#: src/lokalizemainwindow.cpp:514 src/nokde-stubs/lokalizesubwindowbase.cpp:63
 msgctxt "@action:inmenu"
 msgid "Translation memory"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:517 src/tm/tmtab.cpp:514
+#: src/lokalizemainwindow.cpp:518 src/tm/tmtab.cpp:514
 msgctxt "@action:inmenu"
 msgid "Manage translation memories"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:521
+#: src/lokalizemainwindow.cpp:522
 msgctxt "@action:inmenu"
 msgid "Project overview"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:525
+#: src/lokalizemainwindow.cpp:526
 #, fuzzy
 #| msgid "&Configure %1..."
 msgctxt "@action:inmenu"
 msgid "Configure project..."
 msgstr "%1 संयोजीत करा (&C)..."
 
-#: src/lokalizemainwindow.cpp:528
+#: src/lokalizemainwindow.cpp:529
 msgctxt "@action:inmenu"
 msgid "Create software translation project..."
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:531
+#: src/lokalizemainwindow.cpp:532
 msgctxt "@action:inmenu"
 msgid "Create OpenDocument translation project..."
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:534
+#: src/lokalizemainwindow.cpp:535
 msgctxt "@action:inmenu"
 msgid "Open project..."
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:537
+#: src/lokalizemainwindow.cpp:538
 msgctxt "@action:inmenu"
 msgid "Open recent project"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:545 src/nokde-stubs/lokalizesubwindowbase.cpp:55
+#: src/lokalizemainwindow.cpp:546 src/nokde-stubs/lokalizesubwindowbase.cpp:55
 msgctxt "@action:inmenu"
 msgid "Search and replace in files"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:548 src/nokde-stubs/lokalizesubwindowbase.cpp:58
+#: src/lokalizemainwindow.cpp:549 src/nokde-stubs/lokalizesubwindowbase.cpp:58
 msgctxt "@action:inmenu"
 msgid "Find next in files"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:552
+#: src/lokalizemainwindow.cpp:553
 msgctxt "@action:inmenu"
 msgid "Widget text capture"
 msgstr ""
 
-#: src/lokalizemainwindow.cpp:731
+#: src/lokalizemainwindow.cpp:732
 msgctxt "@info"
 msgid ""
 "Error opening the following files:\n"
@@ -1908,14 +1933,6 @@ msgid ""
 "p><p><br/></p><p><br/></p></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, ln)
-#: src/nokde-stubs/welcomewidget.ui:30
-#, fuzzy
-#| msgctxt "NAME OF TRANSLATORS"
-#| msgid "Your names"
-msgid "Your name:"
-msgstr "चेतन खोना"
-
 #. i18n: ectx: property (text), widget (QLabel, lr)
 #: src/nokde-stubs/welcomewidget.ui:40
 msgid "Your role (XLIFF only):"
@@ -2092,69 +2109,78 @@ msgstr "N"
 msgid "Font for Messages"
 msgstr ""
 
-#: src/prefs/prefs.cpp:110
+#: src/prefs/prefs.cpp:111
 msgctxt "@title:tab"
 msgid "Identity"
 msgstr "ओळख"
 
-#: src/prefs/prefs.cpp:116
+#: src/prefs/prefs.cpp:117
 msgctxt "@title:tab"
 msgid "Editing"
 msgstr ""
 
-#: src/prefs/prefs.cpp:122
+#: src/prefs/prefs.cpp:123
 #, fuzzy
 msgctxt "@title:tab"
 msgid "Appearance"
 msgstr "दर्शनीयता"
 
-#: src/prefs/prefs.cpp:128
+#: src/prefs/prefs.cpp:129
 msgctxt "@title:tab"
 msgid "Translation Memory"
 msgstr ""
 
-#: src/prefs/prefs.cpp:137
+#: src/prefs/prefs.cpp:138
 msgctxt "@title:tab"
 msgid "Spellcheck"
 msgstr "स्पेलिंग तपासणी"
 
-#: src/prefs/prefs.cpp:183
+#: src/prefs/prefs.cpp:184
 msgid ""
 "You have accessed a feature that requires a project to be loaded. Do you "
 "want to create a new project or open an existing project?"
 msgstr ""
 
-#: src/prefs/prefs.cpp:184
+#: src/prefs/prefs.cpp:185
 msgctxt "@action"
 msgid "New"
 msgstr "नवीन"
 
-#: src/prefs/prefs.cpp:184
+#: src/prefs/prefs.cpp:185
 msgctxt "@action"
 msgid "Open"
 msgstr "उघडा"
 
-#: src/prefs/prefs.cpp:200 src/prefs/prefs.cpp:217
+#: src/prefs/prefs.cpp:201 src/prefs/prefs.cpp:218
 msgid "Lokalize translation project (*.lokalize)"
 msgstr ""
 
-#: src/prefs/prefs.cpp:254
+#: src/prefs/prefs.cpp:218
+msgctxt "@window:title"
+msgid "Select folder with Gettext .po files to translate"
+msgstr ""
+
+#: src/prefs/prefs.cpp:246
+msgid "Create software or OpenDocument translation project first"
+msgstr ""
+
+#: src/prefs/prefs.cpp:265
 #, fuzzy
 msgctxt "@title:tab"
 msgid "General"
 msgstr "सामान्य"
 
-#: src/prefs/prefs.cpp:296
+#: src/prefs/prefs.cpp:307
 msgctxt "@title:tab"
 msgid "Advanced"
 msgstr "प्रगत"
 
-#: src/prefs/prefs.cpp:315
+#: src/prefs/prefs.cpp:326
 msgctxt "@title:tab"
 msgid "Scripts"
 msgstr ""
 
-#: src/prefs/prefs.cpp:321
+#: src/prefs/prefs.cpp:332
 msgctxt "@title:tab"
 msgid "Personal"
 msgstr "खाजगी"
@@ -2597,15 +2623,15 @@ msgctxt "@label:textbox"
 msgid "Mailing list:"
 msgstr ""
 
-#: src/project/project.cpp:318
+#: src/project/project.cpp:331
 msgid "Install translate-toolkit package and retry"
 msgstr ""
 
-#: src/project/project.cpp:323
+#: src/project/project.cpp:336
 msgid "OpenDocument files (*.odt *.ods)"
 msgstr ""
 
-#: src/project/project.cpp:330
+#: src/project/project.cpp:343
 #, fuzzy, kde-format
 #| msgid "Translation"
 msgctxt "project folder name. %2 is targetLangCode"
@@ -3183,21 +3209,21 @@ msgstr ""
 msgid "Web Queries"
 msgstr ""
 
-#: src/xlifftextedit.cpp:1033
+#: src/xlifftextedit.cpp:1042
 msgctxt "@action:inmenu"
 msgid "Lookup selected text in translation memory"
 msgstr ""
 
-#: src/xlifftextedit.cpp:1058 src/xlifftextedit.cpp:1118
+#: src/xlifftextedit.cpp:1067 src/xlifftextedit.cpp:1127
 msgctxt "@item Undo action item"
 msgid "Replace text"
 msgstr ""
 
-#: src/xlifftextedit.cpp:1157
+#: src/xlifftextedit.cpp:1166
 msgid "no spellcheck available"
 msgstr ""
 
-#: src/xlifftextedit.cpp:1289
+#: src/xlifftextedit.cpp:1298
 msgctxt "@item Undo action item"
 msgid "Copy source to target"
 msgstr ""
