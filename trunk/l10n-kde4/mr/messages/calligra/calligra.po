@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-10 01:43+0000\n"
+"POT-Creation-Date: 2015-01-20 01:46+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -225,7 +225,7 @@ msgid "Table \"%1\" already exists."
 msgstr ""
 
 #: db/connection.cpp:1804 db/connection.cpp:1831 db/connection.cpp:1938
-#: db/parser/parser_p.cpp:287
+#: db/parser/parser_p.cpp:292
 #, kde-format
 msgid "Table \"%1\" does not exist."
 msgstr ""
@@ -248,7 +248,7 @@ msgstr ""
 msgid "Could not alter table \"%1\" using the same table as destination."
 msgstr ""
 
-#: db/connection.cpp:1975 db/expression.cpp:794
+#: db/connection.cpp:1975 db/expression.cpp:858
 #, kde-format
 msgid "Unknown table \"%1\"."
 msgstr ""
@@ -298,45 +298,45 @@ msgstr ""
 msgid "Error on rollback transaction."
 msgstr ""
 
-#: db/connection.cpp:2461 db/connection.cpp:2982
+#: db/connection.cpp:2461 db/connection.cpp:3066
 #, kde-format
 msgid "Invalid object name \"%1\"."
 msgstr ""
 
-#: db/connection.cpp:2583
+#: db/connection.cpp:2607
 #, kde-format
 msgid "Column <resource>%1</resource> does not exist in the query."
 msgstr ""
 
-#: db/connection.cpp:2844 db/connection.cpp:2847 db/connection.cpp:2850
+#: db/connection.cpp:2928 db/connection.cpp:2931 db/connection.cpp:2934
 msgctxt "Extended schema for a table: loading error"
 msgid "Error while loading extended table schema."
 msgstr ""
 
-#: db/connection.cpp:2851
+#: db/connection.cpp:2935
 #, kde-format
 msgid "Invalid XML data: %1"
 msgstr ""
 
-#: db/connection.cpp:2881
+#: db/connection.cpp:2965
 #, kde-format
 msgid ""
 "Error in XML data: \"%1\" in line %2, column %3.\n"
 "XML data: %4"
 msgstr ""
 
-#: db/connection.cpp:3021
+#: db/connection.cpp:3105
 msgid "Table has no fields defined."
 msgstr ""
 
-#: db/connection.cpp:3170
+#: db/connection.cpp:3254
 #, kde-format
 msgid ""
 "Could not find definition for query \"%1\". Removing this query is "
 "recommended."
 msgstr ""
 
-#: db/connection.cpp:3180
+#: db/connection.cpp:3264
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -345,70 +345,70 @@ msgid ""
 "<para>You can open this query in Text View and correct it.</para>"
 msgstr ""
 
-#: db/connection.cpp:3389
+#: db/connection.cpp:3473
 msgid "Could not update record because there is no master table defined."
 msgstr ""
 
-#: db/connection.cpp:3396
+#: db/connection.cpp:3480
 msgid ""
 "Could not update record because master table has no primary key defined."
 msgstr ""
 
-#: db/connection.cpp:3425
+#: db/connection.cpp:3509
 msgid ""
 "Could not update record because it does not contain entire primary key of "
 "master table."
 msgstr ""
 
-#: db/connection.cpp:3436 db/connection.cpp:3676
+#: db/connection.cpp:3520 db/connection.cpp:3760
 #, kde-format
 msgid "Primary key's field \"%1\" cannot be empty."
 msgstr ""
 
-#: db/connection.cpp:3463
+#: db/connection.cpp:3547
 msgid "Record updating on the server failed."
 msgstr ""
 
-#: db/connection.cpp:3486
+#: db/connection.cpp:3570
 msgid "Could not insert record because there is no master table specified."
 msgstr ""
 
-#: db/connection.cpp:3523
+#: db/connection.cpp:3607
 msgid ""
 "Could not insert record because master table has no primary key specified."
 msgstr ""
 
-#: db/connection.cpp:3532
+#: db/connection.cpp:3616
 msgid ""
 "Could not insert record because it does not contain entire master table's "
 "primary key."
 msgstr ""
 
-#: db/connection.cpp:3579
+#: db/connection.cpp:3663
 msgid "Record inserting on the server failed."
 msgstr ""
 
-#: db/connection.cpp:3643
+#: db/connection.cpp:3727
 msgid "Could not delete record because there is no master table specified."
 msgstr ""
 
-#: db/connection.cpp:3652
+#: db/connection.cpp:3736
 msgid ""
 "Could not delete record because there is no primary key for master table "
 "specified."
 msgstr ""
 
-#: db/connection.cpp:3667
+#: db/connection.cpp:3751
 msgid ""
 "Could not delete record because it does not contain entire master table's "
 "primary key."
 msgstr ""
 
-#: db/connection.cpp:3693 db/connection.cpp:3716
+#: db/connection.cpp:3777 db/connection.cpp:3800
 msgid "Record deletion on the server failed."
 msgstr ""
 
-#: db/connection.cpp:3803
+#: db/connection.cpp:3887
 #, fuzzy
 #| msgid "Unknown error"
 msgid "Unknown error."
@@ -544,11 +544,31 @@ msgstr ""
 msgid "Could not find service <resource>%1</resource>."
 msgstr ""
 
-#: db/expression.cpp:731
+#: db/expression.cpp:260
+msgid "Three arguments required"
+msgstr ""
+
+#: db/expression.cpp:261
+#, kde-format
+msgctxt "@info BETWEEN..AND error"
+msgid "%1 operator requires exactly three arguments."
+msgstr ""
+
+#: db/expression.cpp:275
+msgid "Incompatible types of arguments"
+msgstr ""
+
+#: db/expression.cpp:276
+#, kde-format
+msgctxt "@info BETWEEN..AND type error"
+msgid "%1 operator requires compatible types of arguments."
+msgstr ""
+
+#: db/expression.cpp:795
 msgid "Ambiguous field name"
 msgstr ""
 
-#: db/expression.cpp:733
+#: db/expression.cpp:797
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -557,51 +577,51 @@ msgid ""
 "placeholder>.%4</resource> notation to specify table name."
 msgstr ""
 
-#: db/expression.cpp:743 db/expression.cpp:819
+#: db/expression.cpp:807 db/expression.cpp:883
 msgid "Field not found"
 msgstr ""
 
-#: db/expression.cpp:744
+#: db/expression.cpp:808
 #, kde-format
 msgid "Table containing \"%1\" field not found."
 msgstr ""
 
-#: db/expression.cpp:770
+#: db/expression.cpp:834
 msgid "Could not access the table directly using its name"
 msgstr ""
 
-#: db/expression.cpp:771
+#: db/expression.cpp:835
 #, kde-format
 msgid ""
 "Table name <resource>%1</resource> is covered by aliases. Instead of "
 "<resource>%2</resource>, you can write <resource>%3</resource>."
 msgstr ""
 
-#: db/expression.cpp:793
+#: db/expression.cpp:857
 msgid "Table not found"
 msgstr ""
 
-#: db/expression.cpp:807
+#: db/expression.cpp:871
 #, kde-format
 msgid "Ambiguous \"%1.*\" expression"
 msgstr ""
 
-#: db/expression.cpp:808
+#: db/expression.cpp:872
 #, kde-format
 msgid "More than one \"%1\" table or alias defined."
 msgstr ""
 
-#: db/expression.cpp:820
+#: db/expression.cpp:884
 #, kde-format
 msgid "Table \"%1\" has no \"%2\" field."
 msgstr ""
 
-#: db/expression.cpp:827
+#: db/expression.cpp:891
 #, kde-format
 msgid "Ambiguous \"%1.%2\" expression"
 msgstr ""
 
-#: db/expression.cpp:828
+#: db/expression.cpp:892
 #, kde-format
 msgid "More than one \"%1\" table or alias defined containing \"%2\" field."
 msgstr ""
@@ -692,53 +712,59 @@ msgstr ""
 msgid "Unspecified error encountered"
 msgstr ""
 
-#: db/parser/parser_p.cpp:135
+#: db/parser/parser_p.cpp:132
 msgid "identifier was expected"
 msgstr ""
 
-#: db/parser/parser_p.cpp:143 db/parser/parser_p.cpp:147
+#: db/parser/parser_p.cpp:142 db/parser/parser_p.cpp:146
 msgid "Syntax Error"
 msgstr "रचना त्रुटी"
 
-#: db/parser/parser_p.cpp:144
+#: db/parser/parser_p.cpp:143
 #, kde-format
 msgid "\"%1\" is a reserved keyword."
 msgstr ""
 
-#: db/parser/parser_p.cpp:148
-#, fuzzy, kde-format
+#: db/parser/parser_p.cpp:147
+#, fuzzy
 #| msgid "Syntax Error"
-msgid "Syntax Error near \"%1\"."
+msgid "Syntax error."
 msgstr "रचना त्रुटी"
 
-#: db/parser/parser_p.cpp:177
+#: db/parser/parser_p.cpp:151 db/parser/parser_p.cpp:182
 msgid "Error"
 msgstr "त्रुटी"
 
-#: db/parser/parser_p.cpp:177
+#: db/parser/parser_p.cpp:152
+#, fuzzy, kde-format
+#| msgid "Syntax Error"
+msgid "Error near \"%1\"."
+msgstr "रचना त्रुटी"
+
+#: db/parser/parser_p.cpp:182
 msgid "No query statement specified."
 msgstr ""
 
-#: db/parser/parser_p.cpp:224
+#: db/parser/parser_p.cpp:229
 msgid "\"*\" could not be used if no tables are specified."
 msgstr ""
 
-#: db/parser/parser_p.cpp:343
+#: db/parser/parser_p.cpp:348
 #, kde-format
 msgid "Invalid alias definition for column \"%1\"."
 msgstr ""
 
-#: db/parser/parser_p.cpp:370
+#: db/parser/parser_p.cpp:375
 #, kde-format
 msgid "Invalid \"%1\" column definition."
 msgstr ""
 
-#: db/parser/parser_p.cpp:437
+#: db/parser/parser_p.cpp:442
 #, kde-format
 msgid "Could not define sorting - no column at position %1."
 msgstr ""
 
-#: db/parser/parser_p.cpp:445
+#: db/parser/parser_p.cpp:450
 #, kde-format
 msgid "Could not define sorting - column name or alias \"%1\" does not exist."
 msgstr ""
@@ -778,73 +804,73 @@ msgstr ""
 msgid "Enter password for %1: "
 msgstr ""
 
-#: db/tableviewdata.cpp:626 db/tableviewdata.cpp:637
+#: db/tableviewdata.cpp:697 db/tableviewdata.cpp:708
 #, kde-format
 msgid "\"%1\" column requires a value to be entered."
 msgstr ""
 
-#: db/tableviewdata.cpp:628
+#: db/tableviewdata.cpp:699
 msgid "The column's constraint is declared as NOT NULL."
 msgstr ""
 
-#: db/tableviewdata.cpp:639
+#: db/tableviewdata.cpp:710
 msgid "The column's constraint is declared as NOT EMPTY."
 msgstr ""
 
-#: db/tableviewdata.cpp:650
+#: db/tableviewdata.cpp:721
 msgid "Record inserting failed."
 msgstr ""
 
-#: db/tableviewdata.cpp:668
+#: db/tableviewdata.cpp:739
 msgid "Record changing failed."
 msgstr ""
 
-#: db/tableviewdata.cpp:736
+#: db/tableviewdata.cpp:807
 #, fuzzy
 #| msgid "Error deleting layers"
 msgid "Record deleting failed."
 msgstr "स्तर काढताना त्रुटी"
 
-#: db/utils.cpp:142
+#: db/utils.cpp:141
 msgid "Message from server:"
 msgstr ""
 
-#: db/utils.cpp:144
+#: db/utils.cpp:143
 msgid "SQL statement:"
 msgstr ""
 
-#: db/utils.cpp:161 db/utils.cpp:168
+#: db/utils.cpp:160 db/utils.cpp:167
 msgid "Server result:"
 msgstr ""
 
-#: db/utils.cpp:405 db/utils.cpp:468 db/utils.cpp:473
+#: db/utils.cpp:404 db/utils.cpp:467 db/utils.cpp:472
 msgid "Test Connection"
 msgstr ""
 
-#: db/utils.cpp:406
+#: db/utils.cpp:405
 #, kde-format
 msgid "Testing connection to <resource>%1</resource> database server..."
 msgstr ""
 
-#: db/utils.cpp:467
+#: db/utils.cpp:466
 #, kde-format
 msgid ""
 "<qt>Test connection to <b>%1</b> database server failed. The server is not "
 "responding.</qt>"
 msgstr ""
 
-#: db/utils.cpp:471
+#: db/utils.cpp:470
 #, kde-format
 msgid ""
 "<qt>Test connection to <b>%1</b> database server established successfully.</"
 "qt>"
 msgstr ""
 
-#: db/utils.cpp:1511
+#: db/utils.cpp:1510
 msgid "Number"
 msgstr "संख्या"
 
-#: db/utils.cpp:1514 koreport/items/image/KoReportImagePlugin.cpp:35
+#: db/utils.cpp:1513 koreport/items/image/KoReportImagePlugin.cpp:35
 #: textlayout/ListItemsHelper.cpp:257
 msgid "Image"
 msgstr "प्रतिमा"
@@ -1133,7 +1159,7 @@ msgctxt "(qtundo-format)"
 msgid "Paste Shapes"
 msgstr "आकार चिकटवा"
 
-#: flake/KoToolManager.cpp:358
+#: flake/KoToolManager.cpp:386
 #, kde-format
 msgid "Active tool: %1"
 msgstr "सक्रिय साधन : %1"
@@ -1863,22 +1889,22 @@ msgstr "दस्तऐवज आयात करा..."
 msgid "Configure..."
 msgstr "संयोजीत करा..."
 
-#: kopageapp/KoPAView.cpp:498
+#: kopageapp/KoPAView.cpp:502
 msgid "Import Slideshow"
 msgstr "स्लाइड शो आयात करा"
 
-#: kopageapp/KoPAView.cpp:501 main/KoMainWindow.cpp:1308
+#: kopageapp/KoPAView.cpp:505 main/KoMainWindow.cpp:1308
 msgid "Import Document"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:526 kopageapp/KoPAView.cpp:530
+#: kopageapp/KoPAView.cpp:530 kopageapp/KoPAView.cpp:534
 #, kde-format
 msgid ""
 "Could not import\n"
 "%1"
 msgstr ""
 
-#: kopageapp/KoPAView.cpp:643
+#: kopageapp/KoPAView.cpp:647
 msgctxt "(qtundo-format)"
 msgid "Change page layout"
 msgstr ""
@@ -1966,26 +1992,26 @@ msgid "Object Name"
 msgstr ""
 
 #: koreport/common/KoReportItemLine.cpp:76
-#: koreport/items/check/KoReportItemCheck.cpp:86
-#: koreport/items/field/KoReportItemField.cpp:113
+#: koreport/items/check/KoReportItemCheck.cpp:87
+#: koreport/items/field/KoReportItemField.cpp:115
 #: koreport/items/label/KoReportItemLabel.cpp:115
-#: koreport/items/text/KoReportItemText.cpp:131
+#: koreport/items/text/KoReportItemText.cpp:134
 msgid "Line Weight"
 msgstr ""
 
 #: koreport/common/KoReportItemLine.cpp:77
-#: koreport/items/check/KoReportItemCheck.cpp:87
-#: koreport/items/field/KoReportItemField.cpp:114
+#: koreport/items/check/KoReportItemCheck.cpp:88
+#: koreport/items/field/KoReportItemField.cpp:116
 #: koreport/items/label/KoReportItemLabel.cpp:116
-#: koreport/items/text/KoReportItemText.cpp:132
+#: koreport/items/text/KoReportItemText.cpp:135
 msgid "Line Color"
 msgstr ""
 
 #: koreport/common/KoReportItemLine.cpp:78
-#: koreport/items/check/KoReportItemCheck.cpp:88
-#: koreport/items/field/KoReportItemField.cpp:115
+#: koreport/items/check/KoReportItemCheck.cpp:89
+#: koreport/items/field/KoReportItemField.cpp:117
 #: koreport/items/label/KoReportItemLabel.cpp:117
-#: koreport/items/text/KoReportItemText.cpp:133
+#: koreport/items/text/KoReportItemText.cpp:136
 msgid "Line Style"
 msgstr ""
 
@@ -1998,9 +2024,9 @@ msgid "Height"
 msgstr "उंची"
 
 #: koreport/common/krsectiondata.cpp:109
-#: koreport/items/field/KoReportItemField.cpp:105
+#: koreport/items/field/KoReportItemField.cpp:107
 #: koreport/items/label/KoReportItemLabel.cpp:107
-#: koreport/items/text/KoReportItemText.cpp:128
+#: koreport/items/text/KoReportItemText.cpp:131
 msgid "Background Color"
 msgstr "पार्श्वभूमीचा रंग"
 
@@ -2014,104 +2040,120 @@ msgstr "आकार"
 msgid "Check Box"
 msgstr "तपासा"
 
-#: koreport/items/check/KoReportItemCheck.cpp:78
+#: koreport/items/check/KoReportItemCheck.cpp:79
 msgid "Cross"
 msgstr ""
 
-#: koreport/items/check/KoReportItemCheck.cpp:78
+#: koreport/items/check/KoReportItemCheck.cpp:79
 msgid "Dot"
 msgstr "Dot"
 
-#: koreport/items/check/KoReportItemCheck.cpp:78
+#: koreport/items/check/KoReportItemCheck.cpp:79
 msgid "Tick"
 msgstr ""
 
-#: koreport/items/check/KoReportItemCheck.cpp:79
+#: koreport/items/check/KoReportItemCheck.cpp:80
 msgid "Style"
 msgstr "शैली"
 
-#: koreport/items/check/KoReportItemCheck.cpp:81
-#: koreport/items/field/KoReportItemField.cpp:88
+#: koreport/items/check/KoReportItemCheck.cpp:82
+#: koreport/items/field/KoReportItemField.cpp:89
 #: koreport/items/image/KoReportItemImage.cpp:119
-#: koreport/items/text/KoReportItemText.cpp:114
+#: koreport/items/text/KoReportItemText.cpp:115
 msgid "Data Source"
 msgstr "डेटा स्रोत"
 
-#: koreport/items/check/KoReportItemCheck.cpp:84
-#: koreport/items/field/KoReportItemField.cpp:106
+#: koreport/items/check/KoReportItemCheck.cpp:85
+#: koreport/items/field/KoReportItemField.cpp:108
 #: koreport/items/label/KoReportItemLabel.cpp:108
-#: koreport/items/text/KoReportItemText.cpp:129
+#: koreport/items/text/KoReportItemText.cpp:132
 msgid "Foreground Color"
 msgstr "पृष्ठभूमी रंग"
+
+#: koreport/items/check/KoReportItemCheck.cpp:90
+#: koreport/items/field/KoReportItemField.cpp:92
+#: koreport/items/image/KoReportItemImage.cpp:126
+#: koreport/items/text/KoReportItemText.cpp:117
+#: pigment/compositeops/KoCompositeOps.h:212
+#: pigment/KoCompositeOpRegistry.cpp:122
+msgid "Value"
+msgstr "मूल्य"
+
+#: koreport/items/check/KoReportItemCheck.cpp:90
+#: koreport/items/field/KoReportItemField.cpp:92
+#: koreport/items/image/KoReportItemImage.cpp:126
+#: koreport/items/text/KoReportItemText.cpp:117
+msgid "Value used if not bound to a field"
+msgstr ""
 
 #: koreport/items/field/KoReportFieldPlugin.cpp:35
 msgid "Field"
 msgstr "फील्ड"
 
-#: koreport/items/field/KoReportItemField.cpp:93
-#: koreport/items/field/KoReportItemField.cpp:99
+#: koreport/items/field/KoReportItemField.cpp:95
+#: koreport/items/field/KoReportItemField.cpp:101
 #: koreport/items/label/KoReportItemLabel.cpp:96
 #: koreport/items/label/KoReportItemLabel.cpp:102
-#: koreport/items/text/KoReportItemText.cpp:117
-#: koreport/items/text/KoReportItemText.cpp:123
+#: koreport/items/text/KoReportItemText.cpp:120
+#: koreport/items/text/KoReportItemText.cpp:126
 msgid "Center"
 msgstr "मध्य"
 
-#: koreport/items/field/KoReportItemField.cpp:93
+#: koreport/items/field/KoReportItemField.cpp:95
 #: koreport/items/label/KoReportItemLabel.cpp:96
-#: koreport/items/text/KoReportItemText.cpp:117
+#: koreport/items/text/KoReportItemText.cpp:120
 msgid "Left"
 msgstr "डावे"
 
-#: koreport/items/field/KoReportItemField.cpp:93
+#: koreport/items/field/KoReportItemField.cpp:95
 #: koreport/items/label/KoReportItemLabel.cpp:96
-#: koreport/items/text/KoReportItemText.cpp:117
+#: koreport/items/text/KoReportItemText.cpp:120
 msgid "Right"
 msgstr "उजवे"
 
-#: koreport/items/field/KoReportItemField.cpp:94
+#: koreport/items/field/KoReportItemField.cpp:96
 #: koreport/items/label/KoReportItemLabel.cpp:97
-#: koreport/items/text/KoReportItemText.cpp:118
+#: koreport/items/text/KoReportItemText.cpp:121
 msgid "Horizontal Alignment"
 msgstr "आडवे जुळवणे"
 
-#: koreport/items/field/KoReportItemField.cpp:99
+#: koreport/items/field/KoReportItemField.cpp:101
 #: koreport/items/label/KoReportItemLabel.cpp:102
-#: koreport/items/text/KoReportItemText.cpp:123
+#: koreport/items/text/KoReportItemText.cpp:126
 msgid "Bottom"
 msgstr "खाली"
 
-#: koreport/items/field/KoReportItemField.cpp:99
+#: koreport/items/field/KoReportItemField.cpp:101
 #: koreport/items/label/KoReportItemLabel.cpp:102
-#: koreport/items/text/KoReportItemText.cpp:123
+#: koreport/items/text/KoReportItemText.cpp:126
 msgid "Top"
 msgstr "वर"
 
-#: koreport/items/field/KoReportItemField.cpp:100
+#: koreport/items/field/KoReportItemField.cpp:102
 #: koreport/items/label/KoReportItemLabel.cpp:103
-#: koreport/items/text/KoReportItemText.cpp:124
+#: koreport/items/text/KoReportItemText.cpp:127
 msgid "Vertical Alignment"
 msgstr "उभे जुळवणे"
 
-#: koreport/items/field/KoReportItemField.cpp:102
+#: koreport/items/field/KoReportItemField.cpp:104
 #: koreport/items/label/KoReportItemLabel.cpp:105
-#: koreport/items/text/KoReportItemText.cpp:126
+#: koreport/items/text/KoReportItemText.cpp:129
 msgid "Font"
 msgstr "फॉन्ट"
 
-#: koreport/items/field/KoReportItemField.cpp:108
+#: koreport/items/field/KoReportItemField.cpp:110
 #: koreport/items/label/KoReportItemLabel.cpp:110
-#: koreport/items/text/KoReportItemText.cpp:134
+#: koreport/items/text/KoReportItemText.cpp:137
 #, fuzzy
 #| msgid "Background Color"
 msgid "Background Opacity"
 msgstr "पार्श्वभूमीचा रंग"
 
-#: koreport/items/field/KoReportItemField.cpp:117
+#: koreport/items/field/KoReportItemField.cpp:119
 msgid "Word Wrap"
 msgstr ""
 
-#: koreport/items/field/KoReportItemField.cpp:118
+#: koreport/items/field/KoReportItemField.cpp:120
 msgid "Can Grow"
 msgstr ""
 
@@ -2126,13 +2168,6 @@ msgstr ""
 #: koreport/items/image/KoReportItemImage.cpp:124
 msgid "Resize Mode"
 msgstr ""
-
-#: koreport/items/image/KoReportItemImage.cpp:126
-#, fuzzy
-#| msgid "Automatic"
-msgctxt "Static Image"
-msgid "Static"
-msgstr "स्वयंचलित"
 
 #: koreport/items/label/KoReportItemLabel.cpp:92
 msgid "Caption"
@@ -2415,7 +2450,7 @@ msgid "Key Press"
 msgstr ""
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:332
-#: kotext/commands/DeleteCommand.cpp:432 kotext/KoTextEditor_undo.cpp:87
+#: kotext/commands/DeleteCommand.cpp:437 kotext/KoTextEditor_undo.cpp:87
 #: kotext/KoTextEditor_undo.cpp:166 kotext/KoTextEditor_undo.cpp:201
 #: kotext/KoTextEditor_undo.cpp:218 kotext/KoTextEditor_undo.cpp:260
 msgctxt "(qtundo-format)"
@@ -2829,7 +2864,7 @@ msgstr ""
 msgid "Delete the author profile"
 msgstr ""
 
-#: main/config/KoConfigAuthorPage.cpp:80 main/KoView.cpp:405
+#: main/config/KoConfigAuthorPage.cpp:80 main/KoView.cpp:407
 msgid "Default Author Profile"
 msgstr ""
 
@@ -2982,77 +3017,77 @@ msgstr "ऑफसेट चिकटवा :"
 msgid "Paste at Cursor:"
 msgstr "कर्सरच्या जागी चिकटवा"
 
-#: main/KoApplication.cpp:168
+#: main/KoApplication.cpp:170
 msgid "Only print and exit"
 msgstr ""
 
-#: main/KoApplication.cpp:169
+#: main/KoApplication.cpp:171
 msgid "Open a new document with a template"
 msgstr ""
 
-#: main/KoApplication.cpp:170
+#: main/KoApplication.cpp:172
 msgid "Override display DPI"
 msgstr ""
 
-#: main/KoApplication.cpp:171
+#: main/KoApplication.cpp:173
 msgid "Only export to PDF and exit"
 msgstr "फक्त पीडीएफ करिता निर्यात करा व बाहेर पडा"
 
-#: main/KoApplication.cpp:172
+#: main/KoApplication.cpp:174
 msgid "Filename for export-pdf"
 msgstr "पीडीएफ-निर्यात करिता फाईल नाव"
 
-#: main/KoApplication.cpp:173
+#: main/KoApplication.cpp:175
 msgid "just load the file and then exit"
 msgstr ""
 
-#: main/KoApplication.cpp:174
+#: main/KoApplication.cpp:176
 msgid "load the file, show the window and progressbar and then exit"
 msgstr ""
 
-#: main/KoApplication.cpp:175
+#: main/KoApplication.cpp:177
 msgid "Filename to write profiling information into."
 msgstr ""
 
-#: main/KoApplication.cpp:176
+#: main/KoApplication.cpp:178
 msgid "Load a file and save it as an ODF file. Meant for debugging."
 msgstr ""
 
-#: main/KoApplication.cpp:177
+#: main/KoApplication.cpp:179
 msgid "Calligra"
 msgstr "कॅलिग्रा"
 
-#: main/KoApplication.cpp:216
+#: main/KoApplication.cpp:218
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
 "This is not recommended.\n"
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: main/KoApplication.cpp:263
+#: main/KoApplication.cpp:265
 #, fuzzy, kde-format
 #| msgid "Creation error"
 msgid "%1: Critical Error"
 msgstr "निर्माण करताना त्रुटी"
 
-#: main/KoApplication.cpp:263
+#: main/KoApplication.cpp:265
 msgid ""
 "Essential application components could not be found.\n"
 "This might be an installation issue.\n"
 "Try restarting or reinstalling."
 msgstr ""
 
-#: main/KoApplication.cpp:508
+#: main/KoApplication.cpp:510
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: main/KoApplication.cpp:511
+#: main/KoApplication.cpp:513
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: main/KoApplication.cpp:531
+#: main/KoApplication.cpp:533
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
@@ -3810,11 +3845,11 @@ msgstr "नविन आवृत्ती जोडू शकत नाही"
 msgid "Date: %1"
 msgstr "दिनांक : %1"
 
-#: main/KoView.cpp:340
+#: main/KoView.cpp:342
 msgid "Active Author Profile"
 msgstr "सक्रिय लेखक रूपरेषा :"
 
-#: main/KoView.cpp:352 main/KoView.cpp:406
+#: main/KoView.cpp:354 main/KoView.cpp:408
 msgctxt "choice for author profile"
 msgid "Anonymous"
 msgstr "निनावी"
@@ -4116,7 +4151,7 @@ msgstr ""
 
 #: pigment/colorspaces/KoLabColorSpace.cpp:42
 #: pigment/compositeops/KoCompositeOps.h:203
-#: pigment/KoCompositeOpRegistry.cpp:113 widgets/KoUniColorChooser.cpp:199
+#: pigment/KoCompositeOpRegistry.cpp:113
 msgid "Lightness"
 msgstr ""
 
@@ -4141,17 +4176,14 @@ msgid "RGB (8-bit integer/channel, unmanaged)"
 msgstr ""
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:43
-#: widgets/KoUniColorChooser.cpp:157
 msgid "Blue"
 msgstr "निळा"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:44
-#: widgets/KoUniColorChooser.cpp:149
 msgid "Green"
 msgstr "हिरवा"
 
 #: pigment/colorspaces/KoRgbU8ColorSpace.cpp:45
-#: widgets/KoUniColorChooser.cpp:141
 msgid "Red"
 msgstr "तांबडा"
 
@@ -4370,12 +4402,12 @@ msgid "Color"
 msgstr "रंग"
 
 #: pigment/compositeops/KoCompositeOps.h:181
-#: pigment/KoCompositeOpRegistry.cpp:93 widgets/KoUniColorChooser.cpp:114
+#: pigment/KoCompositeOpRegistry.cpp:93
 msgid "Hue"
 msgstr "ह्यू"
 
 #: pigment/compositeops/KoCompositeOps.h:182
-#: pigment/KoCompositeOpRegistry.cpp:94 widgets/KoUniColorChooser.cpp:123
+#: pigment/KoCompositeOpRegistry.cpp:94
 msgid "Saturation"
 msgstr "गडदपणा"
 
@@ -4503,11 +4535,6 @@ msgstr ""
 #: pigment/KoCompositeOpRegistry.cpp:123
 msgid "Decrease Saturation HSV"
 msgstr ""
-
-#: pigment/compositeops/KoCompositeOps.h:212
-#: pigment/KoCompositeOpRegistry.cpp:122
-msgid "Value"
-msgstr "मूल्य"
 
 #: pigment/compositeops/KoCompositeOps.h:213
 #: pigment/KoCompositeOpRegistry.cpp:126
@@ -4902,11 +4929,11 @@ msgstr ""
 msgid "This integer number may be too large."
 msgstr ""
 
-#: sqlscanner.l:291
+#: sqlscanner.l:301
 msgid "Invalid identifier"
 msgstr ""
 
-#: sqlscanner.l:292
+#: sqlscanner.l:302
 msgid "Identifiers should start with a letter or '_' character"
 msgstr ""
 
@@ -5023,7 +5050,7 @@ msgstr ""
 msgid "ArabicAlphabet"
 msgstr ""
 
-#: widgets/KoColorPopupAction.cpp:93 widgets/KoUniColorChooser.cpp:416
+#: widgets/KoColorPopupAction.cpp:89
 msgid "Opacity"
 msgstr "अपारदर्शकता"
 
@@ -5199,28 +5226,28 @@ msgstr "ओळी आयात करा :"
 msgid "to"
 msgstr "पर्यंत"
 
-#: widgets/KoDockWidgetTitleBar.cpp:54
+#: widgets/KoDockWidgetTitleBar.cpp:53
 #, fuzzy
 #| msgid "Show Dockers"
 msgctxt "@info:tooltip"
 msgid "Float Docker"
 msgstr "डॉकर्स दर्शवा"
 
-#: widgets/KoDockWidgetTitleBar.cpp:63
+#: widgets/KoDockWidgetTitleBar.cpp:61
 #, fuzzy
 #| msgid "Save Document"
 msgctxt "@info:tooltip"
 msgid "Close Docker"
 msgstr "दस्तऐवज साठवा"
 
-#: widgets/KoDockWidgetTitleBar.cpp:74
+#: widgets/KoDockWidgetTitleBar.cpp:71
 #, fuzzy
 #| msgid "Save Document"
 msgctxt "@info:tooltip"
 msgid "Collapse Docker"
 msgstr "दस्तऐवज साठवा"
 
-#: widgets/KoDockWidgetTitleBar.cpp:83
+#: widgets/KoDockWidgetTitleBar.cpp:81
 #, fuzzy
 #| msgid "Show Dockers"
 msgctxt "@info:tooltip"
@@ -5448,7 +5475,7 @@ msgstr "पटल"
 msgid "Add/Remove Colors"
 msgstr "रंग जोडा/काढून टाका"
 
-#: widgets/KoFileDialog.cpp:439
+#: widgets/KoFileDialog.cpp:476
 msgid "All supported formats"
 msgstr ""
 
@@ -5844,7 +5871,7 @@ msgstr ""
 msgid "Tag was not undeleted."
 msgstr ""
 
-#: widgets/KoResourceTaggingManager.cpp:322
+#: widgets/KoResourceTaggingManager.cpp:331
 msgid "All Presets"
 msgstr ""
 
@@ -5912,6 +5939,10 @@ msgstr ""
 
 #: widgets/KoStrokeConfigWidget.cpp:251
 msgid "Change the color of the line/border"
+msgstr ""
+
+#: widgets/KoTagChooserWidget.cpp:55
+msgid "Tag:"
 msgstr ""
 
 #: widgets/KoTagFilterWidget.cpp:52
@@ -5990,38 +6021,6 @@ msgstr "साधन पर्याय"
 msgid "Toggles organizing the options in tabs or not"
 msgstr "टॅब मध्ये पर्यायांचे आयोजन चालू/बंद करतो"
 
-#: widgets/KoUniColorChooser.cpp:132
-msgid "Value (brightness)"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:166
-msgid "Cyan"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:174
-msgid "Magenta"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:182
-msgid "Yellow"
-msgstr "पिवळा"
-
-#: widgets/KoUniColorChooser.cpp:190
-msgid "Black"
-msgstr "काळा"
-
-#: widgets/KoUniColorChooser.cpp:207
-msgid "Green to magenta*"
-msgstr ""
-
-#: widgets/KoUniColorChooser.cpp:215
-msgid "Blue to yellow"
-msgstr "निळा ते पिवळा"
-
-#: widgets/KoUniColorChooser.cpp:219
-msgid "Opacity:"
-msgstr "अपारदर्शकता :"
-
 #: widgets/KoViewItemContextBar.cpp:200
 msgid "deselect item"
 msgstr ""
@@ -6070,6 +6069,24 @@ msgstr ""
 msgctxt "@info:tooltip of custom triple button"
 msgid "%1"
 msgstr "%1"
+
+#, fuzzy
+#~| msgid "Automatic"
+#~ msgctxt "Static Image"
+#~ msgid "Static"
+#~ msgstr "स्वयंचलित"
+
+#~ msgid "Yellow"
+#~ msgstr "पिवळा"
+
+#~ msgid "Black"
+#~ msgstr "काळा"
+
+#~ msgid "Blue to yellow"
+#~ msgstr "निळा ते पिवळा"
+
+#~ msgid "Opacity:"
+#~ msgstr "अपारदर्शकता :"
 
 #~ msgid "&Themes"
 #~ msgstr "शैली (&T)"
