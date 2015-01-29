@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-28 07:40+0000\n"
+"POT-Creation-Date: 2015-01-29 08:01+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -169,7 +169,7 @@ msgstr ""
 msgid "Visible Satellites"
 msgstr ""
 
-#: colorscheme.cpp:80 kstarsactions.cpp:568
+#: colorscheme.cpp:80 dialogs/finddialog.cpp:48 kstarsactions.cpp:568
 msgid "Satellites"
 msgstr ""
 
@@ -676,7 +676,7 @@ msgstr "तारा"
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Pluto)
 #: dialogs/detaildialog.cpp:199 options/opssolarsystem.ui:90
 #: printing/detailstable.cpp:160 printing/pwizobjectselection.cpp:142
-#: skycomponents/skymapcomposite.cpp:463 skymapdrawabstract.cpp:160
+#: skycomponents/skymapcomposite.cpp:465 skymapdrawabstract.cpp:160
 #: skyobjects/kspluto.cpp:37 tools/conjunctions.cpp:95
 #: tools/modcalcplanets.cpp:270 tools/modcalcplanets.ui:149
 #: tools/modcalcplanets.ui:492 tools/obslistwizard.cpp:594
@@ -1359,46 +1359,46 @@ msgid "Constellations"
 msgstr "जुळवणी"
 
 #. i18n: ectx: property (text), widget (QPushButton, FindButton)
-#: dialogs/finddialog.cpp:59 tools/observinglist.ui:301
+#: dialogs/finddialog.cpp:60 tools/observinglist.ui:301
 msgid "Find Object"
 msgstr ""
 
-#: dialogs/finddialog.cpp:72
+#: dialogs/finddialog.cpp:73
 msgid "Details..."
 msgstr "तपशील..."
 
-#: dialogs/finddialog.cpp:122
+#: dialogs/finddialog.cpp:123
 msgid "Andromeda Galaxy"
 msgstr ""
 
-#: dialogs/finddialog.cpp:128
+#: dialogs/finddialog.cpp:129
 msgid "Aldebaran"
 msgstr ""
 
-#: dialogs/finddialog.cpp:135
+#: dialogs/finddialog.cpp:136
 msgid "Aaltje"
 msgstr ""
 
-#: dialogs/finddialog.cpp:141
+#: dialogs/finddialog.cpp:142
 msgid "Aarseth-Brewington (1989 W1)"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, SunBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
-#: dialogs/finddialog.cpp:187 skyglpainter.cpp:245 skyobjects/kssun.cpp:29
+#: dialogs/finddialog.cpp:188 skyglpainter.cpp:245 skyobjects/kssun.cpp:29
 #: tools/conjunctions.cpp:96 tools/conjunctions.cpp:286
 #: tools/modcalcdaylength.ui:109 tools/modcalcplanets.cpp:271
 #: tools/modcalcplanets.ui:159 tools/modcalcplanets.ui:502
 msgid "Sun"
 msgstr "रवि"
 
-#: dialogs/finddialog.cpp:317
+#: dialogs/finddialog.cpp:320
 #, kde-format
 msgid "No object named %1 found."
 msgstr ""
 
-#: dialogs/finddialog.cpp:318
+#: dialogs/finddialog.cpp:321
 msgid "Bad object name"
 msgstr ""
 
@@ -4435,7 +4435,7 @@ msgstr "पूर्ण"
 msgid "Calibration rejected. Start drift is too short."
 msgstr ""
 
-#: ekos/guide/rcalibration.cpp:494 skycomponents/satellitescomponent.cpp:110
+#: ekos/guide/rcalibration.cpp:494 skycomponents/satellitescomponent.cpp:125
 #: tools/conjunctions.cpp:339
 msgid "Abort"
 msgstr ""
@@ -4996,6 +4996,46 @@ msgstr "मुख्य साधनपट्टी"
 msgid "Process ToolBar"
 msgstr ""
 
+#: fitsviewer/fitsdata.cpp:114
+msgid "Please hold while loading FITS file..."
+msgstr ""
+
+#: fitsviewer/fitsdata.cpp:115
+#, fuzzy
+msgid "Loading FITS"
+msgstr "दाखल करत आहे..."
+
+#: fitsviewer/fitsdata.cpp:145
+#, fuzzy, kde-format
+#| msgid "Could not open file %1."
+msgid "Could not open file %1 (fits_get_img_param). Error %2"
+msgstr "फाईल %1 उघडू शकत नाही"
+
+#: fitsviewer/fitsdata.cpp:145 fitsviewer/fitsdata.cpp:163
+#: fitsviewer/fitsdata.cpp:170 fitsviewer/fitsdata.cpp:177
+#: fitsviewer/fitsdata.cpp:188
+msgid "FITS Open"
+msgstr ""
+
+#: fitsviewer/fitsdata.cpp:163
+#, kde-format
+msgid "FITS file open error (fits_get_img_param): %1"
+msgstr ""
+
+#: fitsviewer/fitsdata.cpp:170
+msgid "1D FITS images are not supported in KStars."
+msgstr ""
+
+#: fitsviewer/fitsdata.cpp:177
+#, kde-format
+msgid "Image has invalid dimensions %1x%2"
+msgstr ""
+
+#: fitsviewer/fitsdata.cpp:188
+#, kde-format
+msgid "FITS file open error (fits_get_img_type): %1"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
 #: fitsviewer/fitsheaderdialog.ui:13 fitsviewer/fitstab.cpp:189
 #: fitsviewer/fitsviewer.cpp:156
@@ -5101,46 +5141,6 @@ msgstr "मिनिटे"
 #: fitsviewer/fitshistogramui.ui:286
 msgid "&Apply"
 msgstr "लागू करा (&A)"
-
-#: fitsviewer/fitsimage.cpp:114
-msgid "Please hold while loading FITS file..."
-msgstr ""
-
-#: fitsviewer/fitsimage.cpp:115
-#, fuzzy
-msgid "Loading FITS"
-msgstr "दाखल करत आहे..."
-
-#: fitsviewer/fitsimage.cpp:145
-#, fuzzy, kde-format
-#| msgid "Could not open file %1."
-msgid "Could not open file %1 (fits_get_img_param). Error %2"
-msgstr "फाईल %1 उघडू शकत नाही"
-
-#: fitsviewer/fitsimage.cpp:145 fitsviewer/fitsimage.cpp:163
-#: fitsviewer/fitsimage.cpp:170 fitsviewer/fitsimage.cpp:177
-#: fitsviewer/fitsimage.cpp:188
-msgid "FITS Open"
-msgstr ""
-
-#: fitsviewer/fitsimage.cpp:163
-#, kde-format
-msgid "FITS file open error (fits_get_img_param): %1"
-msgstr ""
-
-#: fitsviewer/fitsimage.cpp:170
-msgid "1D FITS images are not supported in KStars."
-msgstr ""
-
-#: fitsviewer/fitsimage.cpp:177
-#, kde-format
-msgid "Image has invalid dimensions %1x%2"
-msgstr ""
-
-#: fitsviewer/fitsimage.cpp:188
-#, kde-format
-msgid "FITS file open error (fits_get_img_type): %1"
-msgstr ""
 
 #: fitsviewer/fitstab.cpp:58 fitsviewer/fitsviewer.cpp:520
 #, fuzzy
@@ -38856,7 +38856,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Saturn)
-#: options/opssolarsystem.ui:38 skycomponents/skymapcomposite.cpp:460
+#: options/opssolarsystem.ui:38 skycomponents/skymapcomposite.cpp:462
 #: skyglpainter.cpp:249 skymapdrawabstract.cpp:157 skyobjects/ksplanet.cpp:138
 #: skyobjects/ksplanet.cpp:168 skyobjects/ksplanet.cpp:351
 #: skyobjects/ksplanet.cpp:380 skyobjects/ksplanetbase.cpp:154
@@ -38899,7 +38899,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mars)
-#: options/opssolarsystem.ui:64 skycomponents/skymapcomposite.cpp:458
+#: options/opssolarsystem.ui:64 skycomponents/skymapcomposite.cpp:460
 #: skyglpainter.cpp:247 skymapdrawabstract.cpp:155 skyobjects/ksplanet.cpp:132
 #: skyobjects/ksplanet.cpp:164 skyobjects/ksplanet.cpp:347
 #: skyobjects/ksplanet.cpp:376 skyobjects/ksplanetbase.cpp:153
@@ -38984,7 +38984,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Venus)
-#: options/opssolarsystem.ui:129 skycomponents/skymapcomposite.cpp:456
+#: options/opssolarsystem.ui:129 skycomponents/skymapcomposite.cpp:458
 #: skymapdrawabstract.cpp:153 skyobjects/ksplanet.cpp:129
 #: skyobjects/ksplanet.cpp:162 skyobjects/ksplanet.cpp:345
 #: skyobjects/ksplanet.cpp:372 skyobjects/ksplanetbase.cpp:153
@@ -39024,7 +39024,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Jupiter)
-#: options/opssolarsystem.ui:155 skycomponents/skymapcomposite.cpp:459
+#: options/opssolarsystem.ui:155 skycomponents/skymapcomposite.cpp:461
 #: skyglpainter.cpp:249 skymapdrawabstract.cpp:156 skyobjects/ksplanet.cpp:135
 #: skyobjects/ksplanet.cpp:166 skyobjects/ksplanet.cpp:349
 #: skyobjects/ksplanet.cpp:378 skyobjects/ksplanetbase.cpp:154
@@ -39065,7 +39065,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mercury)
-#: options/opssolarsystem.ui:181 skycomponents/skymapcomposite.cpp:455
+#: options/opssolarsystem.ui:181 skycomponents/skymapcomposite.cpp:457
 #: skyglpainter.cpp:249 skymapdrawabstract.cpp:152 skyobjects/ksplanet.cpp:126
 #: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:342
 #: skyobjects/ksplanet.cpp:370 skyobjects/ksplanetbase.cpp:153
@@ -39090,7 +39090,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Neptune)
-#: options/opssolarsystem.ui:194 skycomponents/skymapcomposite.cpp:462
+#: options/opssolarsystem.ui:194 skycomponents/skymapcomposite.cpp:464
 #: skymapdrawabstract.cpp:159 skyobjects/ksplanet.cpp:144
 #: skyobjects/ksplanet.cpp:172 skyobjects/ksplanet.cpp:361
 #: skyobjects/ksplanet.cpp:384 skyobjects/ksplanetbase.cpp:155
@@ -39115,7 +39115,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Uranus)
-#: options/opssolarsystem.ui:223 skycomponents/skymapcomposite.cpp:461
+#: options/opssolarsystem.ui:223 skycomponents/skymapcomposite.cpp:463
 #: skymapdrawabstract.cpp:158 skyobjects/ksplanet.cpp:141
 #: skyobjects/ksplanet.cpp:170 skyobjects/ksplanet.cpp:359
 #: skyobjects/ksplanet.cpp:382 skyobjects/ksplanetbase.cpp:154
@@ -40031,17 +40031,17 @@ msgstr ""
 msgid "Loading satellites"
 msgstr ""
 
-#: skycomponents/satellitescomponent.cpp:110
+#: skycomponents/satellitescomponent.cpp:125
 #, fuzzy
 msgid "Update TLEs..."
 msgstr "अद्ययावत : %1"
 
-#: skycomponents/satellitescomponent.cpp:121
+#: skycomponents/satellitescomponent.cpp:136
 #, kde-format
 msgid "Update %1 satellites"
 msgstr ""
 
-#: skycomponents/skymapcomposite.cpp:487
+#: skycomponents/skymapcomposite.cpp:489
 #, kde-format
 msgid "Could not find custom catalog component named %1."
 msgstr ""
@@ -44352,6 +44352,12 @@ msgstr ""
 msgid "Plot Planetary Almanac"
 msgstr ""
 
+#: tools/starhopperdialog.cpp:60
+msgid ""
+"Star-hopper algorithm failed. If you're trying a large star hop, try using a "
+"smaller FOV or changing the source point"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QDialog, StarHopperDialog)
 #: tools/starhopperdialog.ui:14
 msgid "Star-Hopper Results"
@@ -45185,6 +45191,11 @@ msgid ""
 "of time.  For example, if the timescale is currently \"1 min\", the right up "
 "button will make it \"1 hour\", and the right down button will make it \"1 "
 "sec\""
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, UnitSpinBoxWidget)
+#: widgets/unitspinboxwidget.ui:14
+msgid "UnitSpinBoxWidget"
 msgstr ""
 
 #: xplanet/opsxplanet.cpp:29
