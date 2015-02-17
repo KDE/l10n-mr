@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-16 09:01+0000\n"
+"POT-Creation-Date: 2015-02-17 12:40+0000\n"
 "PO-Revision-Date: 2013-04-15 10:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -507,7 +507,7 @@ msgstr "पत्ते नोंदवही"
 msgid "Print Contacts"
 msgstr "संपर्क छापा"
 
-#: mainwidget.cpp:1040
+#: mainwidget.cpp:1041
 #, fuzzy
 #| msgid "You have not selected any contacts to export."
 msgid "You have not selected any contacts."
@@ -522,54 +522,27 @@ msgstr ""
 "तुम्ही जेंव्हा आज्ञावली/अनुप्रयोग आधारित सोप्या उपायांची रचना/मांडणी कराल तेंव्हा तुम्हाला "
 "एक संगणकीय संवाद खिडकी उपलब्ध करून दिली जाईल. "
 
-#: merge/manualmerge/mergecontactsdialog.cpp:45
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:40
+#: merge/manualmerge/mergecontactsdialog.cpp:47
+#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:41
 #, fuzzy
 #| msgid "Select Contacts"
 msgid "Select Contacts to merge"
 msgstr "संपर्क निवडा"
 
-#: merge/manualmerge/mergecontactsdialog.cpp:54
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:74
-#: merge/widgets/noenoughcontactselectedwidget.cpp:27
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "You must assign at least one column."
-msgid "You must select at least two elements."
-msgstr "तुम्ही कमीतकमी एक तरी स्तंभ/रकाना निश्चीत केला पाहिजे."
-
-#: merge/manualmerge/mergecontactsdialog.cpp:58
-#, kde-format
-msgid "You selected %1 and some item has not the same name"
-msgstr ""
-
-#: merge/manualmerge/mergecontactsdialog.cpp:101
-#, fuzzy
-#| msgctxt "@label"
-#| msgid "Importing contacts"
-msgid "Error while merging contacts."
-msgstr "संपर्क आयात करत आहे"
-
-#: merge/manualmerge/mergecontactsdialog.cpp:101
+#: merge/manualmerge/mergecontactwidget.cpp:57
 #, fuzzy
 #| msgid "Select Contacts"
-msgid "Merge contact"
+msgid "Select contacts that you want really to merge:"
 msgstr "संपर्क निवडा"
 
-#: merge/manualmerge/mergecontactwidget.cpp:43
-#, fuzzy
-#| msgid "Select Contacts"
-msgid "Select contacts that you really want to merge:"
-msgstr "संपर्क निवडा"
-
-#: merge/manualmerge/mergecontactwidget.cpp:55
+#: merge/manualmerge/mergecontactwidget.cpp:80
 #, fuzzy
 #| msgctxt "@info:whatsthis"
 #| msgid "Print the complete address book or a selected number of contacts."
 msgid "Select the addressbook in which to store merged contacts:"
 msgstr " पत्त्यांची संपूर्ण नोंदवही किंवा निवडक संपर्कांचे क्रमांक छापा."
 
-#: merge/manualmerge/mergecontactwidget.cpp:72
+#: merge/manualmerge/mergecontactwidget.cpp:97
 msgid "merge"
 msgstr ""
 
@@ -583,7 +556,7 @@ msgstr ""
 msgid "Merged Contact"
 msgstr "संपर्क निवडा"
 
-#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:62
+#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:51
 #: merge/searchduplicate/resultduplicatetreewidget.cpp:52
 #, fuzzy, kde-format
 #| msgid "Select Contacts"
@@ -596,19 +569,6 @@ msgstr "संपर्क निवडा"
 msgid "Contacts"
 msgstr "संपर्क छापा"
 
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:56
-#, fuzzy
-#| msgctxt "@info:tooltip"
-#| msgid "Only the contacts currently selected"
-msgid "No contacts selected."
-msgstr "फक्त सध्या निवडलेले संपर्क"
-
-#: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:64
-#, fuzzy
-#| msgid "Select Contacts"
-msgid "No contact duplicated found."
-msgstr "संपर्क निवडा"
-
 #: merge/searchduplicate/searchduplicateresultwidget.cpp:67
 #, fuzzy
 #| msgid "Select Address Book"
@@ -619,6 +579,26 @@ msgstr "पत्ते नोंदवही निवडा"
 #: merge/widgets/mergecontactselectinformationscrollarea.cpp:52
 msgid "Merge"
 msgstr ""
+
+#: merge/widgets/mergecontacterrorlabel.cpp:29
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "You must assign at least one column."
+msgid "You must select at least two elements."
+msgstr "तुम्ही कमीतकमी एक तरी स्तंभ/रकाना निश्चीत केला पाहिजे."
+
+#: merge/widgets/mergecontacterrorlabel.cpp:32
+#, fuzzy
+#| msgid "Select Contacts"
+msgid "No contact duplicated found."
+msgstr "संपर्क निवडा"
+
+#: merge/widgets/mergecontacterrorlabel.cpp:35
+#, fuzzy
+#| msgctxt "@info:tooltip"
+#| msgid "Only the contacts currently selected"
+msgid "No contacts selected."
+msgstr "फक्त सध्या निवडलेले संपर्क"
 
 #: merge/widgets/mergecontactloseinformationwarning.cpp:31
 msgid ""
@@ -1743,6 +1723,17 @@ msgstr "तुम्हाला कोणता संपर्क पाठव
 #: xxport/xxportmanager.cpp:197
 msgid "You have not selected any contacts to export."
 msgstr "निर्यात करण्यासाठी/पाठविण्यासाठी तुम्ही कोणतेही संपर्क निवडलेले नाहीत."
+
+#, fuzzy
+#~| msgctxt "@label"
+#~| msgid "Importing contacts"
+#~ msgid "Error while merging contacts."
+#~ msgstr "संपर्क आयात करत आहे"
+
+#, fuzzy
+#~| msgid "Select Contacts"
+#~ msgid "Merge contact"
+#~ msgstr "संपर्क निवडा"
 
 #~ msgctxt "@title:window"
 #~ msgid "Select vCard Fields"
