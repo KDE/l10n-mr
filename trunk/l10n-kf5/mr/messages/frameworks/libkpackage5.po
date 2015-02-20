@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-23 09:38+0000\n"
+"POT-Creation-Date: 2015-02-20 09:14+0000\n"
 "PO-Revision-Date: 2013-03-09 14:27+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -97,7 +97,7 @@ msgstr "उपकार्यक्रम"
 msgid "Windows and Tasks"
 msgstr ""
 
-#: kpackage/packageloader.cpp:337
+#: kpackage/packageloader.cpp:341
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
@@ -197,106 +197,125 @@ msgstr "एक्जीक्यूटेबल स्क्रिप्ट्�
 msgid "Translations"
 msgstr "भाषांतर"
 
-#: kpackagetool/kpackagetool.cpp:97
+#: kpackage/private/packages.cpp:94
+#, fuzzy
+#| msgid "Main Script File"
+msgid "Main UI File"
+msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#: kpackagetool/kpackagetool.cpp:96
 #, kde-format
 msgid "Failed to generate a Package hash for %1"
 msgstr "%1 करिता पॅकेज hash तयार करण्यास अपयश"
 
-#: kpackagetool/kpackagetool.cpp:100
+#: kpackagetool/kpackagetool.cpp:99
 #, kde-format
 msgid "SHA1 hash for Package at %1: '%2'"
 msgstr "%1 येथील पॅकेजचे SHA1 hash : '%2'"
 
-#: kpackagetool/kpackagetool.cpp:138
+#: kpackagetool/kpackagetool.cpp:137
 msgctxt "package type"
 msgid "wallpaper"
 msgstr "वॉलपेपर"
 
-#: kpackagetool/kpackagetool.cpp:186
+#: kpackagetool/kpackagetool.cpp:185
 #, kde-format
 msgid "Listing service types: %1"
 msgstr "सेवा प्रकारांची यादी करत आहे : %1"
 
-#: kpackagetool/kpackagetool.cpp:263
+#: kpackagetool/kpackagetool.cpp:262
 #, kde-format
 msgid "Error: Plugin %1 is not installed."
 msgstr "त्रुटी : %1 हे प्लगइन प्रतिष्ठापीत झालेले नाही."
 
-#: kpackagetool/kpackagetool.cpp:273
+#: kpackagetool/kpackagetool.cpp:272
 msgctxt ""
 "No option was given, this is the error message telling the user he needs at "
 "least one, do not translate install, remove, upgrade nor list"
 msgid "One of install, remove, upgrade or list is required."
 msgstr "प्रतिष्ठापन, काढून टाका, अद्ययावत करा किंवा यादी यापैकी एकाची गरज आहे."
 
-#: kpackagetool/kpackagetool.cpp:320
+#: kpackagetool/kpackagetool.cpp:319
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1"
 msgstr "त्रुटी :  प्लगइन मेटाडेटा सापडत नाही: %1"
 
-#: kpackagetool/kpackagetool.cpp:324
+#: kpackagetool/kpackagetool.cpp:323
 #, kde-format
 msgid "Showing info for package: %1"
 msgstr "पॅकेजची माहिती दर्शवित आहे : %1"
 
-#: kpackagetool/kpackagetool.cpp:325
+#: kpackagetool/kpackagetool.cpp:324
 #, kde-format
 msgid "      Name : %1"
 msgstr "      नाव : %1"
 
-#: kpackagetool/kpackagetool.cpp:326
+#: kpackagetool/kpackagetool.cpp:325
 #, kde-format
 msgid "   Comment : %1"
 msgstr "   टीप : %1"
 
-#: kpackagetool/kpackagetool.cpp:327
+#: kpackagetool/kpackagetool.cpp:326
 #, kde-format
 msgid "    Plugin : %1"
 msgstr "    प्लगइन : %1"
 
-#: kpackagetool/kpackagetool.cpp:328
+#: kpackagetool/kpackagetool.cpp:327
 #, kde-format
 msgid "    Author : %1"
 msgstr "    लेखक : %1"
 
-#: kpackagetool/kpackagetool.cpp:329
+#: kpackagetool/kpackagetool.cpp:328
 #, kde-format
 msgid "      Path : %1"
 msgstr "      मार्ग : %1"
 
-#: kpackagetool/kpackagetool.cpp:338
+#: kpackagetool/kpackagetool.cpp:337
+#, fuzzy
+#| msgctxt ""
+#| "The user entered conflicting options packageroot and global, this is the "
+#| "error message telling the user he can use only one"
+#| msgid ""
+#| "The packageroot and global options conflict each other, please select "
+#| "only one."
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
 "error message telling the user he can use only one"
 msgid ""
-"The packageroot and global options conflict each other, please select only "
-"one."
+"The packageroot and global options conflict with each other, please select "
+"only one."
 msgstr "पॅकेजरूट व जागतिक पर्याय यांचा मतभेद आहे. कृपया फक्त एक निवडा."
 
-#: kpackagetool/kpackagetool.cpp:363
+#: kpackagetool/kpackagetool.cpp:362
 msgid "Addon Name"
 msgstr "अधिक नाव"
 
-#: kpackagetool/kpackagetool.cpp:364
+#: kpackagetool/kpackagetool.cpp:363
 msgid "Service Type"
 msgstr "सेवा प्रकार"
 
-#: kpackagetool/kpackagetool.cpp:365
+#: kpackagetool/kpackagetool.cpp:364
 msgid "Path"
 msgstr "मार्ग"
 
-#: kpackagetool/kpackagetool.cpp:408
+#: kpackagetool/kpackagetool.cpp:407
 msgid "Package types that are installable with this tool:"
 msgstr "या साधनाने प्रतिष्ठापीत करता येण्याजोगे पॅकेज प्रकार :"
 
-#: kpackagetool/kpackagetool.cpp:409
+#: kpackagetool/kpackagetool.cpp:408
 msgid "Built in:"
 msgstr "अंतर्भूत :"
+
+#: kpackagetool/kpackagetool.cpp:411
+#, fuzzy
+#| msgid "Package"
+msgid "KPackage/Generic"
+msgstr "पॅकेज"
 
 #: kpackagetool/kpackagetool.cpp:412
 #, fuzzy
 #| msgid "Package"
-msgid "KPackage/Generic"
+msgid "KPackage/GenericQML"
 msgstr "पॅकेज"
 
 #: kpackagetool/kpackagetool.cpp:464
