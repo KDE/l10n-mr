@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-21 02:00+0000\n"
+"POT-Creation-Date: 2015-02-23 01:52+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -67,7 +67,7 @@ msgstr "पालक"
 #: plugins/formats/jp2/jp2_converter.cc:343
 #: plugins/formats/jp2/jp2_converter.cc:354
 #: plugins/formats/jpeg/kis_jpeg_converter.cc:96
-#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:68
+#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:238
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:243
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:284
@@ -277,19 +277,19 @@ msgstr "क्रिटा %1"
 msgid "Krita Gemini: Painting at Home and on the Go for Artists"
 msgstr ""
 
-#: gemini/main.cpp:72
+#: gemini/main.cpp:72 sketch/main.cpp:73
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2012 The Krita team.\n"
-msgid "(c) 1999-%1 The Krita team and KO GmbH.\n"
+msgid "(c) 1999-%1 The Krita team.\n"
 msgstr "(c) 1999-2012 क्रिटा टीम.\n"
 
-#: gemini/main.cpp:80 sketch/main.cpp:68
+#: gemini/main.cpp:80 sketch/main.cpp:81
 #, fuzzy
 #| msgid "Image Split "
 msgid "Images to open"
 msgstr "प्रतिमा दुभंग "
 
-#: gemini/main.cpp:81 sketch/main.cpp:69
+#: gemini/main.cpp:81 sketch/main.cpp:82
 msgid "Use the virtual keyboard"
 msgstr ""
 
@@ -6751,7 +6751,7 @@ msgstr "बर्न"
 msgid "&Emboss with Variable Depth..."
 msgstr "बदलत्या खोलीप्रमाणे ठसवा (&E)..."
 
-#: plugins/filters/embossfilter/kis_emboss_filter.cpp:158
+#: plugins/filters/embossfilter/kis_emboss_filter.cpp:159
 msgid "Depth"
 msgstr "खोली"
 
@@ -7228,7 +7228,7 @@ msgstr "गोल कोपरे"
 msgid "&Small Tiles..."
 msgstr "लहान फरशा (&S)..."
 
-#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:99
+#: plugins/filters/smalltilesfilter/kis_small_tiles_filter.cpp:100
 msgid "Number of tiles"
 msgstr "फरशांची संख्या"
 
@@ -7240,19 +7240,19 @@ msgstr "लहान फरशा"
 msgid "&Sobel..."
 msgstr "सोबेल (&S)..."
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:198
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:199
 msgid "Sobel horizontally"
 msgstr "सोबेल आडवे"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:199
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:200
 msgid "Sobel vertically"
 msgstr "सोबेल उभे"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:200
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:201
 msgid "Keep sign of result"
 msgstr "परिणामाची खूण राखून ठेवा"
 
-#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:201
+#: plugins/filters/sobelfilter/kis_sobel_filter.cpp:202
 msgid "Make image opaque"
 msgstr "प्रतिमा गडद बनवा"
 
@@ -7518,7 +7518,7 @@ msgstr "IPTC"
 
 #: plugins/formats/jp2/jp2_converter.cc:343
 #: plugins/formats/jp2/jp2_converter.cc:354
-#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:68
+#: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
 #, kde-format
 msgid "Cannot export images in %1.\n"
 msgstr "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
@@ -11418,25 +11418,19 @@ msgstr "डेकोरेशन्स दर्शवा"
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
 
-#: sketch/main.cpp:56 sketch/MainWindow.cpp:85
+#: sketch/main.cpp:69 sketch/MainWindow.cpp:85
 #, fuzzy
 #| msgid "A_Nice Sketch"
 msgid "Krita Sketch"
 msgstr "A_ छान चित्र"
 
-#: sketch/main.cpp:58
+#: sketch/main.cpp:71
 #, fuzzy
 #| msgid "Digital Painting for Artists"
 msgid "Krita Sketch: Painting on the Go for Artists"
 msgstr "कलाकारांकरिता डिजिटल पेंटिंग"
 
-#: sketch/main.cpp:60
-#, fuzzy
-#| msgid "(c) 1999-2012 The Krita team.\n"
-msgid "(c) 1999-2014 The Krita team and KO GmbH.\n"
-msgstr "(c) 1999-2012 क्रिटा टीम.\n"
-
-#: sketch/main.cpp:70
+#: sketch/main.cpp:83
 msgid "Open sketch in a window, otherwise defaults to full-screen"
 msgstr ""
 
@@ -18777,7 +18771,7 @@ msgid ""
 "\"Cancel\" to return to the settings dialog."
 msgstr ""
 
-#: ui/widgets/kis_filter_selector_widget.cc:179
+#: ui/widgets/kis_filter_selector_widget.cc:184
 msgid "No configuration option."
 msgstr "संयोजना पर्याय नाही."
 
@@ -18884,6 +18878,16 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#, fuzzy
+#~| msgid "(c) 1999-2012 The Krita team.\n"
+#~ msgid "(c) 1999-%1 The Krita team and KO GmbH.\n"
+#~ msgstr "(c) 1999-2012 क्रिटा टीम.\n"
+
+#, fuzzy
+#~| msgid "(c) 1999-2012 The Krita team.\n"
+#~ msgid "(c) 1999-2014 The Krita team and KO GmbH.\n"
+#~ msgstr "(c) 1999-2012 क्रिटा टीम.\n"
 
 #, fuzzy
 #~| msgid "Smoothing"
