@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-23 06:13+0000\n"
+"POT-Creation-Date: 2015-02-24 08:44+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -277,19 +277,19 @@ msgstr "क्रिटा %1"
 msgid "Krita Gemini: Painting at Home and on the Go for Artists"
 msgstr ""
 
-#: gemini/main.cpp:72 sketch/main.cpp:73
+#: gemini/main.cpp:72 sketch/main.cpp:74
 #, fuzzy, kde-format
 #| msgid "(c) 1999-2012 The Krita team.\n"
 msgid "(c) 1999-%1 The Krita team.\n"
 msgstr "(c) 1999-2012 क्रिटा टीम.\n"
 
-#: gemini/main.cpp:80 sketch/main.cpp:81
+#: gemini/main.cpp:80 sketch/main.cpp:82
 #, fuzzy
 #| msgid "Image Split "
 msgid "Images to open"
 msgstr "प्रतिमा दुभंग "
 
-#: gemini/main.cpp:81 sketch/main.cpp:82
+#: gemini/main.cpp:81 sketch/main.cpp:83
 msgid "Use the virtual keyboard"
 msgstr ""
 
@@ -3849,6 +3849,10 @@ msgstr "डिजिटल रंग मिश्रण"
 msgid "Undo History"
 msgstr "इतिहास पूर्ववत करा"
 
+#: plugins/extensions/dockers/historydocker/KisUndoModel.cpp:70
+msgid "<empty>"
+msgstr ""
+
 #: plugins/extensions/dockers/historydocker/KisUndoView.cpp:307
 msgid "Disable Cumulative Undo"
 msgstr ""
@@ -4288,6 +4292,126 @@ msgstr "%"
 #: plugins/extensions/dropshadow/wdg_dropshadow.ui:93
 msgid "Grow image to make drop shadow fit if needed"
 msgstr "आवश्यक असल्यास ड्रॉप शॅडो समर्पक होईपर्यंत प्रतिमा वाढवा"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:62
+msgid "In place (default)"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:63
+#, fuzzy
+#| msgid "To layers"
+msgid "New layer(s)"
+msgstr "स्तरांकडे"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:64
+#, fuzzy
+#| msgid "New Filter Layer"
+msgid "New active layer(s)"
+msgstr "नवीन गाळणी स्तर"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:65
+#, fuzzy
+#| msgid "New Image"
+msgid "New image"
+msgstr "नवी प्रतिमा"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
+#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
+#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPredictor)
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:68
+#: plugins/extensions/metadataeditor/editors/exif.ui:666
+#: plugins/formats/tiff/kis_wdg_options_tiff.ui:66
+#: plugins/formats/tiff/kis_wdg_options_tiff.ui:138
+#: plugins/tools/tool_crop/wdg_tool_crop.ui:286
+msgid "None"
+msgstr "काही नाही"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:69
+#, fuzzy
+#| msgid "default"
+msgid "Active (default)"
+msgstr "सुरुवातीचे"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:70
+msgid "All"
+msgstr "सर्व"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:71
+#, fuzzy
+#| msgid "Active"
+msgid "Active & below"
+msgstr "सक्रिय"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:72
+#, fuzzy
+#| msgid "Active"
+msgid "Active & above"
+msgstr "सक्रिय"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:73
+#, fuzzy
+#| msgid "Small Tiles"
+msgid "All visibles"
+msgstr "लहान फरशा"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:74
+#, fuzzy
+#| msgid "Small Tiles"
+msgid "All invisibles"
+msgstr "लहान फरशा"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:75
+msgid "All visibles (decr.)"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:76
+msgid "All invisibles (decr.)"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:77
+msgid "All (decr.)"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:80
+#, fuzzy
+#| msgid "Output"
+msgid "1st output"
+msgstr "आउटपुट"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:81
+#, fuzzy
+#| msgid "Output"
+msgid "2nd output"
+msgstr "आउटपुट"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:82
+#, fuzzy
+#| msgid "Output"
+msgid "3rd output"
+msgstr "आउटपुट"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:83
+#, fuzzy
+#| msgid "Output"
+msgid "4th output"
+msgstr "आउटपुट"
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:84
+msgid "1st -> 2nd"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:85
+msgid "1st -> 3rd"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:86
+msgid "1st -> 4th"
+msgstr ""
+
+#: plugins/extensions/gmic/kis_gmic_input_output_widget.cpp:87
+msgid "All outputs"
+msgstr ""
 
 #: plugins/extensions/gmic/kis_gmic_plugin.cpp:90
 msgid "G'MIC"
@@ -5186,17 +5310,6 @@ msgstr "पोस्ट प्रोसेसिंग"
 #: plugins/extensions/metadataeditor/editors/exif.ui:646
 msgid "Gain control:"
 msgstr "गेन कंट्रोल :"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxCompressionType)
-#. i18n: ectx: property (text), item, widget (KComboBox, kComboBoxPredictor)
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbDecor)
-#: plugins/extensions/metadataeditor/editors/exif.ui:666
-#: plugins/formats/tiff/kis_wdg_options_tiff.ui:66
-#: plugins/formats/tiff/kis_wdg_options_tiff.ui:138
-#: plugins/tools/tool_crop/wdg_tool_crop.ui:286
-msgid "None"
-msgstr "काही नाही"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editGainControl)
 #: plugins/extensions/metadataeditor/editors/exif.ui:671
@@ -10981,7 +11094,7 @@ msgstr "बहुलरेषा"
 
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:339
 msgid ""
-"Sorry, Krita was build without the support of GNU Scientific Library, so you "
+"Sorry, Krita was built without the support of GNU Scientific Library, so you "
 "cannot scale the selection with handles. Please compile Krita with GNU "
 "Scientific Library support, or use options widget for editing scale values "
 "manually."
@@ -11417,19 +11530,19 @@ msgstr "डेकोरेशन्स दर्शवा"
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
 
-#: sketch/main.cpp:69 sketch/MainWindow.cpp:85
+#: sketch/main.cpp:70 sketch/MainWindow.cpp:85
 #, fuzzy
 #| msgid "A_Nice Sketch"
 msgid "Krita Sketch"
 msgstr "A_ छान चित्र"
 
-#: sketch/main.cpp:71
+#: sketch/main.cpp:72
 #, fuzzy
 #| msgid "Digital Painting for Artists"
 msgid "Krita Sketch: Painting on the Go for Artists"
 msgstr "कलाकारांकरिता डिजिटल पेंटिंग"
 
-#: sketch/main.cpp:83
+#: sketch/main.cpp:84
 msgid "Open sketch in a window, otherwise defaults to full-screen"
 msgstr ""
 
@@ -12747,6 +12860,11 @@ msgstr "कर्सरचा आकार :"
 #: ui/forms/wdggeneralsettings.ui:47
 msgid "Autosave every:"
 msgstr "स्वयंचलित साठवा. प्रत्येक :"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_autosaveSpinBox)
+#: ui/forms/wdggeneralsettings.ui:57
+msgid " min"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: ui/forms/wdggeneralsettings.ui:82
@@ -17365,6 +17483,12 @@ msgstr "निवड नाही"
 msgid "No profile"
 msgstr "रूपरेषा नाही"
 
+#: ui/kis_zoom_manager.cc:230
+#, kde-format
+msgctxt "floating message about zoom"
+msgid "Zoom: %1 \\%"
+msgstr ""
+
 #: ui/KisApplication.cpp:204
 #, fuzzy
 #| msgid "Vertical border:"
@@ -19038,11 +19162,6 @@ msgstr "कार्यक्षेत्र %1"
 #~ msgstr "कार्याचे रेकॉर्डिंग थांबवा"
 
 #, fuzzy
-#~| msgid "Active"
-#~ msgid "Active: "
-#~ msgstr "सक्रिय"
-
-#, fuzzy
 #~| msgctxt "NAME OF TRANSLATORS"
 #~| msgid "Your names"
 #~ msgid "Frames"
@@ -19256,9 +19375,6 @@ msgstr "कार्यक्षेत्र %1"
 
 #~ msgid "Left"
 #~ msgstr "डावा"
-
-#~ msgid "All"
-#~ msgstr "सर्व"
 
 #~ msgid "Red"
 #~ msgstr "लाल"
