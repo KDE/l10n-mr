@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-24 07:48+0000\n"
+"POT-Creation-Date: 2015-02-28 09:33+0000\n"
 "PO-Revision-Date: 2013-03-13 16:44+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -109,62 +109,108 @@ msgstr "वातावरण:"
 msgid "Choose a pre-configured environment for your tool"
 msgstr ""
 
-#: custombuildjob.cpp:51
-msgid "Building:"
+#: custombuildjob.cpp:82
+#, kde-format
+msgctxt "Building: <command> <project item name>"
+msgid "Building: %1 %2"
 msgstr ""
 
-#: custombuildjob.cpp:55
-msgid "Cleaning:"
+#: custombuildjob.cpp:85
+#, kde-format
+msgctxt "Cleaning: <command> <project item name>"
+msgid "Cleaning: %1 %2"
 msgstr ""
 
-#: custombuildjob.cpp:59
-msgid "Installing:"
+#: custombuildjob.cpp:88
+#, fuzzy, kde-format
+#| msgid "Installing:"
+msgctxt "Installing: <command> <project item name>"
+msgid "Installing: %1 %2"
 msgstr "प्रतिष्ठापन करत आहे :"
 
-#: custombuildjob.cpp:63
-msgid "Configuring:"
-msgstr ""
-
-#: custombuildjob.cpp:67
-msgid "Pruning:"
-msgstr ""
-
 #: custombuildjob.cpp:91
+#, kde-format
+msgctxt "Configuring: <command> <project item name>"
+msgid "Configuring: %1 %2"
+msgstr ""
+
+#: custombuildjob.cpp:94
+#, kde-format
+msgctxt "Pruning: <command> <project item name>"
+msgid "Pruning: %1 %2"
+msgstr ""
+
+#: custombuildjob.cpp:109
 msgid "Undefined Build type"
 msgstr ""
 
-#: custombuildjob.cpp:95
-msgid "No command given"
+#: custombuildjob.cpp:113
+#, kde-format
+msgid "No command given for custom %1 tool in project \"%2\"."
 msgstr ""
 
-#: custombuildjob.cpp:99
-msgid "This command is disabled"
+#: custombuildjob.cpp:118
+#, kde-format
+msgid "The custom %1 tool in project \"%2\" is disabled"
 msgstr ""
 
-#: custombuildjob.cpp:110
+#: custombuildjob.cpp:130
 msgid ""
 "The given arguments would need a real shell, this is not supported currently."
 msgstr ""
 
-#: custombuildjob.cpp:155
+#: custombuildjob.cpp:175
 msgid "Failed to start command."
 msgstr ""
 
-#: custombuildjob.cpp:158
+#: custombuildjob.cpp:178
 msgid "Command crashed."
 msgstr ""
 
-#: custombuildjob.cpp:161
+#: custombuildjob.cpp:181
 msgid "Unknown error executing command."
 msgstr ""
 
-#: custombuildjob.cpp:178
+#: custombuildjob.cpp:198
 msgid "*** Failed ***"
 msgstr "*** अपयशी झाले ***"
 
-#: custombuildjob.cpp:180
+#: custombuildjob.cpp:200
 msgid "*** Finished ***"
 msgstr "*** संपले ***"
+
+#: custombuildsystemconfig.cpp:27
+msgctxt "Custom build tool"
+msgid "build"
+msgstr ""
+
+#: custombuildsystemconfig.cpp:28
+#, fuzzy
+#| msgid "Configure"
+msgctxt "Custom build tool"
+msgid "configure"
+msgstr "संयोजीत करा"
+
+#: custombuildsystemconfig.cpp:29
+#, fuzzy
+#| msgid "Install"
+msgctxt "Custom build tool"
+msgid "install"
+msgstr "प्रतिष्ठापीत करा"
+
+#: custombuildsystemconfig.cpp:30
+msgctxt "Custom build tool"
+msgid "clean"
+msgstr ""
+
+#: custombuildsystemconfig.cpp:31
+msgctxt "Custom build tool"
+msgid "prune"
+msgstr ""
+
+#: custombuildsystemconfig.cpp:32
+msgid "unknown"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: custombuildsystemconfigwidget.ui:19
