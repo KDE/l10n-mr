@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-05 09:31+0000\n"
+"POT-Creation-Date: 2015-03-06 08:44+0000\n"
 "PO-Revision-Date: 2013-04-15 10:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1259,15 +1259,15 @@ msgstr ""
 "जाण्यासाठी वरील बटण दाबा.</p><p>प्रत्येक ओळ एक आठवडा दाखवते. डाव्या रकान्यातील आकडा "
 "आठवड्याचा त्या वर्षातील क्रमांक दाखवितो. पूर्ण आठवडा निवडण्यसाठी बटण दाबा.</p></qt>"
 
-#: exportwebdialog.cpp:54
+#: dialog/exportwebdialog.cpp:54
 msgid "Export Calendar as Web Page"
 msgstr "दिनदर्शिका वेब पान म्हणून निर्यात करा"
 
-#: exportwebdialog.cpp:57
+#: dialog/exportwebdialog.cpp:57
 msgid "Export"
 msgstr "निर्यात"
 
-#: exportwebdialog.cpp:117
+#: dialog/exportwebdialog.cpp:117
 msgid ""
 "You are about to set all preferences to default values. All custom "
 "modifications will be lost."
@@ -1275,71 +1275,119 @@ msgstr ""
 "तुम्ही आता तुमचे सर्व प्राधान्यक्रम पूर्वनिर्धारित मूल्यांमध्ये स्थापित करणार आहात. सार्व "
 "इच्छिक बदल/फेरफार नाहीसे होतील."
 
-#: exportwebdialog.cpp:119
+#: dialog/exportwebdialog.cpp:119
 msgid "Setting Default Preferences"
 msgstr "पूर्वनिर्धारित प्राधान्यक्रम स्थापित होत आहेत"
 
-#: exportwebdialog.cpp:120
+#: dialog/exportwebdialog.cpp:120
 msgid "Reset to Defaults"
 msgstr "मूलभूत पुन्हस्थापित करा"
 
-#: exportwebdialog.cpp:128
+#: dialog/exportwebdialog.cpp:128
 msgctxt "general settings for html export"
 msgid "General"
 msgstr "सामान्य"
 
 #. i18n: ectx: property (title), widget (QGroupBox, dateRangeGroup)
-#: exportwebdialog.cpp:132 ui/searchdialog_base.ui:174
+#: dialog/exportwebdialog.cpp:132 ui/searchdialog_base.ui:174
 msgid "Date Range"
 msgstr "दिनांक सीमा"
 
-#: exportwebdialog.cpp:144
+#: dialog/exportwebdialog.cpp:144
 msgid "View Type"
 msgstr "दृश्य प्रकार"
 
-#: exportwebdialog.cpp:163
+#: dialog/exportwebdialog.cpp:163
 msgid "Destination"
 msgstr "लक्ष्य"
 
-#: exportwebdialog.cpp:186
+#: dialog/exportwebdialog.cpp:186
 msgid "To-dos"
 msgstr "करावयाचे कार्यक्रम"
 
-#: exportwebdialog.cpp:219
+#: dialog/exportwebdialog.cpp:219
 msgid "Events"
 msgstr "घटना"
 
-#: filtereditdialog.cpp:47
+#: dialog/filtereditdialog.cpp:47
 msgctxt "@title::window"
 msgid "Edit Calendar Filters"
 msgstr "दिनदर्शिकेच्या गाळण्या संपादित करा"
 
-#: filtereditdialog.cpp:104
+#: dialog/filtereditdialog.cpp:104
 msgctxt "@info:whatsthis"
 msgid "Press this button to define a new filter."
 msgstr "नवीन गाळणी निश्चीत करण्यासाठी हे बटण दाबा."
 
-#: filtereditdialog.cpp:107
+#: dialog/filtereditdialog.cpp:107
 msgctxt "@info:whatsthis"
 msgid "Press this button to remove the currently active filter."
 msgstr "सध्या चालू असलेली गाळणी काढून टाकण्यासाठी हे बटण दाबा."
 
-#: filtereditdialog.cpp:239
+#: dialog/filtereditdialog.cpp:239
 #, kde-format
 msgctxt "@label default filter name"
 msgid "New Filter %1"
 msgstr "नवीन गाळणी %1"
 
-#: filtereditdialog.cpp:258
+#: dialog/filtereditdialog.cpp:258
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to permanently remove the filter \"%1\"?"
 msgstr "तुम्हाला खरोखरच \"%1\" गाळणी कायाची काढून टाकायची आहे का?"
 
-#: filtereditdialog.cpp:259
+#: dialog/filtereditdialog.cpp:259
 msgctxt "@title:window"
 msgid "Delete Filter?"
 msgstr "गाळणी काढून टाकायची का?"
+
+#: dialog/koeventviewerdialog.cpp:47
+msgid "Event Viewer"
+msgstr "घटना प्रदर्शक"
+
+#: dialog/koeventviewerdialog.cpp:58
+msgid "Edit..."
+msgstr "संपादन...."
+
+#: dialog/koeventviewerdialog.cpp:59
+msgid "Show in Context"
+msgstr "संदर्भासह दाखवा"
+
+#: dialog/searchdialog.cpp:52
+msgid "Search Calendar"
+msgstr "दिनदर्शिका शोधा"
+
+#: dialog/searchdialog.cpp:82
+msgctxt "search in calendar"
+msgid "&Search"
+msgstr "शोध (&S)"
+
+#: dialog/searchdialog.cpp:83
+msgid "Start searching"
+msgstr "शोध सुरु करा"
+
+#: dialog/searchdialog.cpp:121
+msgid ""
+"Invalid search expression, cannot perform the search. Please enter a search "
+"expression using the wildcard characters '*' and '?' where needed."
+msgstr ""
+"शोधाची अभीव्यक्ती/पदावली अवैध आहे, शोध होऊ शकत नाही. '*' आणि '?' असे वाइल्डकार्डवर्ण "
+"वापरून शोध अभीव्यक्ती/पदावलीची नोंद करा."
+
+#: dialog/searchdialog.cpp:133
+msgid "No items were found that match your search pattern."
+msgstr "तुमच्या शोध पद्धतीशी जुळणाऱ्या बाबी सापडल्या नाहीत."
+
+#: dialog/searchdialog.cpp:134
+msgid "Search Results"
+msgstr "शोध परिणाम"
+
+#: dialog/searchdialog.cpp:137
+#, kde-format
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1 घटक"
+msgstr[1] "%1 घटक"
 
 #: htmlexportjob.cpp:159
 msgid "Unable to write the output file."
@@ -2114,36 +2162,6 @@ msgstr "प्रवर्गाचे नाव"
 msgid "Description:"
 msgstr "वर्णन :"
 
-#: kdatenavigator.cpp:200
-#, kde-format
-msgctxt "start/end week number of line in date picker"
-msgid "%1/%2"
-msgstr "%1/%2"
-
-#: kdatenavigator.cpp:206
-#, kde-format
-msgid "Scroll to week number %1"
-msgstr "%1 क्रमांकाच्या सप्ताहाकडे समायोजन/स्क्रोल करा"
-
-#: kdatenavigator.cpp:208
-#, kde-format
-msgid ""
-"Click here to scroll the display to week number %1 of the currently "
-"displayed year."
-msgstr ""
-"सध्या प्रदर्शित केलेल्या वर्षात %1या क्रमांकाचा सप्ताह दाखविण्यासाठी येथे क्लिक करून "
-"समायोजन/स्क्रोल करा."
-
-#: kdatenavigator.cpp:257
-#, kde-format
-msgid "%1"
-msgstr "%1"
-
-#: kdatenavigator.cpp:259
-#, kde-format
-msgid "A column header of the %1 dates in the month."
-msgstr "महिन्यातील %1 तारखांच्या रकान्याचे शिर्षक"
-
 #: kitemiconcheckcombo.cpp:40
 #, fuzzy
 #| msgctxt "@title:group"
@@ -2260,18 +2278,6 @@ msgstr "पुनारावृत्तीपासून अलग करा.
 #: koeventpopupmenu.cpp:93
 msgid "Send as iCalendar..."
 msgstr "iCalendar  म्हणून पाठवा..."
-
-#: koeventviewerdialog.cpp:47
-msgid "Event Viewer"
-msgstr "घटना प्रदर्शक"
-
-#: koeventviewerdialog.cpp:58
-msgid "Edit..."
-msgstr "संपादन...."
-
-#: koeventviewerdialog.cpp:59
-msgid "Show in Context"
-msgstr "संदर्भासह दाखवा"
 
 #: kohelper.cpp:73
 #, kde-format
@@ -4533,42 +4539,6 @@ msgctxt "Qt date format used by the localized Wikipedia"
 msgid "MMMM_yyyy"
 msgstr " MMMM_yyyy "
 
-#: searchdialog.cpp:52
-msgid "Search Calendar"
-msgstr "दिनदर्शिका शोधा"
-
-#: searchdialog.cpp:82
-msgctxt "search in calendar"
-msgid "&Search"
-msgstr "शोध (&S)"
-
-#: searchdialog.cpp:83
-msgid "Start searching"
-msgstr "शोध सुरु करा"
-
-#: searchdialog.cpp:121
-msgid ""
-"Invalid search expression, cannot perform the search. Please enter a search "
-"expression using the wildcard characters '*' and '?' where needed."
-msgstr ""
-"शोधाची अभीव्यक्ती/पदावली अवैध आहे, शोध होऊ शकत नाही. '*' आणि '?' असे वाइल्डकार्डवर्ण "
-"वापरून शोध अभीव्यक्ती/पदावलीची नोंद करा."
-
-#: searchdialog.cpp:133
-msgid "No items were found that match your search pattern."
-msgstr "तुमच्या शोध पद्धतीशी जुळणाऱ्या बाबी सापडल्या नाहीत."
-
-#: searchdialog.cpp:134
-msgid "Search Results"
-msgstr "शोध परिणाम"
-
-#: searchdialog.cpp:137
-#, kde-format
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1 घटक"
-msgstr[1] "%1 घटक"
-
 #. i18n: ectx: @info:tipoftheday
 #: tips:2
 msgid ""
@@ -5413,6 +5383,36 @@ msgstr "शिर्षक"
 #: views/multiagendaview/multiagendaviewconfigwidget.ui:102
 msgid "Selected Calendars"
 msgstr "निवडलेल्या दिनदर्शिका"
+
+#: widgets/kdatenavigator.cpp:200
+#, kde-format
+msgctxt "start/end week number of line in date picker"
+msgid "%1/%2"
+msgstr "%1/%2"
+
+#: widgets/kdatenavigator.cpp:206
+#, kde-format
+msgid "Scroll to week number %1"
+msgstr "%1 क्रमांकाच्या सप्ताहाकडे समायोजन/स्क्रोल करा"
+
+#: widgets/kdatenavigator.cpp:208
+#, kde-format
+msgid ""
+"Click here to scroll the display to week number %1 of the currently "
+"displayed year."
+msgstr ""
+"सध्या प्रदर्शित केलेल्या वर्षात %1या क्रमांकाचा सप्ताह दाखविण्यासाठी येथे क्लिक करून "
+"समायोजन/स्क्रोल करा."
+
+#: widgets/kdatenavigator.cpp:257
+#, kde-format
+msgid "%1"
+msgstr "%1"
+
+#: widgets/kdatenavigator.cpp:259
+#, kde-format
+msgid "A column header of the %1 dates in the month."
+msgstr "महिन्यातील %1 तारखांच्या रकान्याचे शिर्षक"
 
 #, fuzzy
 #~| msgctxt "@title:group"
