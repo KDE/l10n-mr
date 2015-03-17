@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-26 09:27+0000\n"
+"POT-Creation-Date: 2015-03-17 11:48+0000\n"
 "PO-Revision-Date: 2013-02-24 11:33+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "sandeep.shedmake@gmail.com, \n"
 "chetan@kompkin.com"
 
-#: composite.cpp:503
+#: composite.cpp:539
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -405,7 +405,7 @@ msgstr "कंपोझिटींग अकार्यक्षम करा"
 msgid "Invert Screen Colors"
 msgstr "स्क्रीन रंग उलटे करा"
 
-#: main.cpp:85
+#: main.cpp:90
 msgid ""
 "KWin is unstable.\n"
 "It seems to have crashed several times in a row.\n"
@@ -415,53 +415,59 @@ msgstr ""
 "असे वाटते कि ते लागोपाठ बरेच वेळा क्रॅश झाले आहे.\n"
 "चालविण्याकरिता तुम्ही वेगळा चौकट व्यवस्थापक निवडा :"
 
-#: main.cpp:267 main.cpp:294
+#: main.cpp:272 main.cpp:299
 msgid "KDE window manager"
 msgstr "केडीई चौकट व्यवस्थापक"
 
-#: main.cpp:272
+#: main.cpp:277
 msgid "KWin"
 msgstr "के-विन"
 
-#: main.cpp:276
+#: main.cpp:281
 #, fuzzy
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2013, The KDE Developers"
 msgstr "(C) 1999-2008, केडीई विकासकर्ते"
 
-#: main.cpp:278
+#: main.cpp:283
 msgid "Matthias Ettrich"
 msgstr "मात्थिआस एट्टरिच"
 
-#: main.cpp:279
+#: main.cpp:284
 msgid "Cristian Tibirna"
 msgstr "क्रिस्तिआन टिबिर्ना"
 
-#: main.cpp:280
+#: main.cpp:285
 msgid "Daniel M. Duley"
 msgstr "डेनियल एम. ड्युली"
 
-#: main.cpp:281
+#: main.cpp:286
 msgid "Luboš Luňák"
 msgstr "ल्युबोस ल्युनाक"
 
-#: main.cpp:282
+#: main.cpp:287
 msgid "Martin Gräßlin"
 msgstr "मार्टिन ग्राब्लिन"
 
-#: main.cpp:282
+#: main.cpp:287
 msgid "Maintainer"
 msgstr "नियंत्रक"
 
-#: main.cpp:291
+#: main.cpp:296
 msgid "Disable configuration options"
 msgstr "संयोजना पर्याय अकार्यान्वित करा"
 
-#: main.cpp:292
+#: main.cpp:297
 msgid "Indicate that KWin has recently crashed n times"
 msgstr "के-विन नुकतेच किती वेळा क्रॅश झाले आहे ते दर्शवा"
 
-#: main_wayland.cpp:88
+#: main_wayland.cpp:92
+msgid ""
+"kwin_wayland: could not connect to Wayland Server, ensure WAYLAND_DISPLAY is "
+"set.\n"
+msgstr ""
+
+#: main_wayland.cpp:172
 #, fuzzy
 #| msgid ""
 #| "kwin: unable to claim manager selection, another wm running? (try using --"
@@ -471,28 +477,22 @@ msgstr ""
 "के-विन : चौकट व्यवस्थापक होऊ शकत नाही. वेगळा चौकट व्यवस्थापक चालू आहे का? (--replace "
 "वापरायचा प्रयत्न करा)\n"
 
-#: main_wayland.cpp:96
+#: main_wayland.cpp:337
+msgid "Start a rootless Xwayland server."
+msgstr ""
+
+#: main_wayland.cpp:339
 msgid ""
-"kwin_wayland: could not connect to Wayland Server, ensure WAYLAND_DISPLAY is "
-"set.\n"
+"Name of the Wayland socket to listen on. If not set \"wayland-0\" is used."
 msgstr ""
 
-#: main_wayland.cpp:235
-msgid "Start a nested X Server."
-msgstr ""
-
-#: main_wayland.cpp:238
-msgid ""
-"The X11 Display to connect to. If not set next free number will be picked."
-msgstr ""
-
-#: main_wayland.cpp:247
+#: main_wayland.cpp:348
 msgid ""
 "Enable libinput support for input events processing. Note: never use in a "
 "nested session."
 msgstr ""
 
-#: main_x11.cpp:149
+#: main_x11.cpp:151
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
@@ -500,7 +500,7 @@ msgstr ""
 "के-विन : चौकट व्यवस्थापक होऊ शकत नाही. वेगळा चौकट व्यवस्थापक चालू आहे का? (--replace "
 "वापरायचा प्रयत्न करा)\n"
 
-#: main_x11.cpp:166
+#: main_x11.cpp:168
 #, fuzzy
 #| msgid ""
 #| "kwin: unable to claim manager selection, another wm running? (try using --"
@@ -510,15 +510,15 @@ msgstr ""
 "के-विन : चौकट व्यवस्थापक होऊ शकत नाही. वेगळा चौकट व्यवस्थापक चालू आहे का? (--replace "
 "वापरायचा प्रयत्न करा)\n"
 
-#: main_x11.cpp:267
+#: main_x11.cpp:270
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr "अगोदरच चालू असलेला ICCCM2.0 प्रमाणे चालणारा चौकट व्यवस्थापक बदला"
 
-#: scene_opengl.cpp:610
+#: scene_opengl.cpp:609
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
-#: scene_opengl.cpp:774
+#: scene_opengl.cpp:773
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects not possible</h1>Your system cannot perform "
@@ -528,7 +528,7 @@ msgid ""
 "%2 "
 msgstr ""
 
-#: scene_opengl.cpp:781
+#: scene_opengl.cpp:780
 msgid ""
 "The demanded resolution exceeds the GL_MAX_VIEWPORT_DIMS limitation of your "
 "GPU and is therefore not compatible with the OpenGL compositor.<br>XRender "
@@ -536,7 +536,7 @@ msgid ""
 "by the hardware limitations that restrict the OpenGL viewport size."
 msgstr ""
 
-#: scene_opengl.cpp:806
+#: scene_opengl.cpp:805
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects might be unusable</h1>OpenGL Desktop Effects at "
@@ -545,7 +545,7 @@ msgid ""
 "compositing, switch to the XRender backend or lower the resolution to %1x%1."
 msgstr ""
 
-#: scene_opengl.cpp:812
+#: scene_opengl.cpp:811
 msgid ""
 "The demanded resolution exceeds the GL_MAX_TEXTURE_SIZE limitation of your "
 "GPU, thus windows of that size cannot be assigned to textures and will be "
@@ -647,7 +647,7 @@ msgstr "डेस्कटॉप यादी द्वारे जा"
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "डेस्कटॉप यादी द्वारे जा (उलट)"
 
-#: tabbox/tabboxhandler.cpp:286
+#: tabbox/tabboxhandler.cpp:285
 msgid ""
 "The Window Switcher installation is broken, resources are missing.\n"
 "Contact your distribution about this."
@@ -862,7 +862,7 @@ msgstr "खालच्या डेस्कटॉप वर जा"
 msgid "Switch to Desktop %1"
 msgstr "%1 डेस्कटॉप वर जा"
 
-#: workspace.cpp:1307
+#: workspace.cpp:1306
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"
