@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-10 08:55+0000\n"
+"POT-Creation-Date: 2015-03-17 08:38+0000\n"
 "PO-Revision-Date: 2013-03-06 17:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -197,7 +197,7 @@ msgid ""
 "item of the same name already exists.  Any other items have been pasted."
 msgstr ""
 
-#: clipboard/umlclipboard.cpp:792 uml.cpp:1573
+#: clipboard/umlclipboard.cpp:792 uml.cpp:1567
 msgid "Paste Error"
 msgstr ""
 
@@ -1194,8 +1194,9 @@ msgid "Status"
 msgstr "स्थिती"
 
 #. i18n: ectx: property (text), widget (QTableWidget, ui_tableWidgetStatus)
+#. i18n: ectx: property (text), widget (QRadioButton, ui_categoryClass)
 #: codegenwizard/codegenstatuspage.ui:40 codeimpwizard/codeimpstatuspage.ui:54
-#: widgets/widgetbase.cpp:1028
+#: dialogs/finddialog.ui:89 widgets/widgetbase.cpp:1028
 msgid "Class"
 msgstr "वर्ग"
 
@@ -1778,15 +1779,13 @@ msgstr ""
 msgid "Find"
 msgstr ""
 
-#: dialogs/finddialog.cpp:21
+#: dialogs/finddialog.cpp:22
 msgid "Search"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/finddialog.ui:21
-#, fuzzy
-#| msgid "Filter"
-msgid "Filter:"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: dialogs/finddialog.ui:25 dialogs/pages/diagramprintpage.cpp:49
+msgid "Filter"
 msgstr "गाळणी"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ui_treeView)
@@ -1805,8 +1804,42 @@ msgstr ""
 msgid "&All diagrams"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: dialogs/finddialog.ui:74 listpopupmenu.cpp:801 widgets/widgetbase.cpp:1019
+#: worktoolbar.cpp:369
+#, fuzzy
+msgid "Category"
+msgstr "विभाग"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_categoryAll)
+#: dialogs/finddialog.ui:82
+msgid "All"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_categoryPackage)
+#: dialogs/finddialog.ui:96 listpopupmenu.cpp:929 listpopupmenu.cpp:1138
+#: widgets/widgetbase.cpp:1064 worktoolbar.cpp:339
+msgid "Package"
+msgstr "पॅकेज"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_categoryInterface)
+#: dialogs/finddialog.ui:103 listpopupmenu.cpp:926 widgets/widgetbase.cpp:1046
+#: worktoolbar.cpp:343
+msgid "Interface"
+msgstr "दुवा"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_categoryOperation)
+#: dialogs/finddialog.ui:110 listpopupmenu.cpp:1456 listpopupmenu.cpp:1460
+msgid "Operation"
+msgstr "क्रिया"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_categoryAttribute)
+#: dialogs/finddialog.ui:117 listpopupmenu.cpp:1455
+msgid "Attribute"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: dialogs/finddialog.ui:69
+#: dialogs/finddialog.ui:131
 msgid "Search Term:"
 msgstr ""
 
@@ -1977,13 +2010,13 @@ msgid "New Activity"
 msgstr "नवीन कृती"
 
 #: dialogs/pages/activitypage.cpp:176 toolbarstateother.cpp:251
-#: umlscene.cpp:3079 widgets/activitywidget.cpp:373
+#: umlscene.cpp:3090 widgets/activitywidget.cpp:373
 #: widgets/statewidget.cpp:497
 msgid "Enter the name of the new activity:"
 msgstr ""
 
 #: dialogs/pages/activitypage.cpp:176 toolbarstateother.cpp:251
-#: umlscene.cpp:3080 widgets/statewidget.cpp:498
+#: umlscene.cpp:3091 widgets/statewidget.cpp:498
 #, fuzzy
 msgid "new activity"
 msgstr "नवीन कृती"
@@ -2200,7 +2233,7 @@ msgstr ""
 #: dialogs/pages/classifierlistpage.cpp:206
 #: dialogs/umlforeignkeyconstraintdialog.cpp:311
 #: dialogs/umloperationdialog.cpp:147
-#: dialogs/umluniqueconstraintdialog.cpp:115 umldoc.cpp:1517 umlscene.cpp:3256
+#: dialogs/umluniqueconstraintdialog.cpp:115 umldoc.cpp:1517 umlscene.cpp:3267
 #, fuzzy
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
@@ -2321,10 +2354,6 @@ msgstr ""
 #: dialogs/pages/diagramprintpage.cpp:44
 msgid "&Diagrams"
 msgstr ""
-
-#: dialogs/pages/diagramprintpage.cpp:49
-msgid "Filter"
-msgstr "गाळणी"
 
 #: dialogs/pages/diagramprintpage.cpp:63
 msgid "&Select diagrams"
@@ -2529,83 +2558,83 @@ msgstr ""
 msgid "Add only"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:86
+#: dialogs/pages/umlwidgetstylepage.cpp:95
 msgctxt "title of color group"
 msgid "Color"
 msgstr "रंग"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:91
+#: dialogs/pages/umlwidgetstylepage.cpp:100
 msgctxt "text color"
 msgid "&Text:"
 msgstr "मजकूर (&T)"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:98
+#: dialogs/pages/umlwidgetstylepage.cpp:107
 #, fuzzy
 msgctxt "default text color button"
 msgid "Defaul&t"
 msgstr "मूलभूत"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:101
+#: dialogs/pages/umlwidgetstylepage.cpp:110
 #, fuzzy
 msgctxt "line color"
 msgid "&Line:"
 msgstr "ओळ"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:108
+#: dialogs/pages/umlwidgetstylepage.cpp:117
 #, fuzzy
 msgctxt "default line color button"
 msgid "&Default"
 msgstr "मूलभूत"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:111
+#: dialogs/pages/umlwidgetstylepage.cpp:120
 #, fuzzy
 msgid "&Fill:"
 msgstr "भरण"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:118
+#: dialogs/pages/umlwidgetstylepage.cpp:127
 #, fuzzy
 msgctxt "default fill color button"
 msgid "D&efault"
 msgstr "मूलभूत"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:121
+#: dialogs/pages/umlwidgetstylepage.cpp:130
 msgid "&Use fill"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:131
+#: dialogs/pages/umlwidgetstylepage.cpp:140
 msgctxt "background color"
 msgid "&Background:"
 msgstr "पार्श्वभूमी (&B):"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:138
+#: dialogs/pages/umlwidgetstylepage.cpp:147
 #, fuzzy
 msgctxt "default background color button"
 msgid "De&fault"
 msgstr "मूलभूत"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:141
+#: dialogs/pages/umlwidgetstylepage.cpp:150
 msgctxt "grid dot color"
 msgid "&Grid dot:"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:148
+#: dialogs/pages/umlwidgetstylepage.cpp:157
 #, fuzzy
 msgctxt "default grid dot color button"
 msgid "Def&ault"
 msgstr "मूलभूत"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:156
+#: dialogs/pages/umlwidgetstylepage.cpp:165
 #, fuzzy
 msgctxt "title of width group"
 msgid "Width"
 msgstr "रुंदी"
 
-#: dialogs/pages/umlwidgetstylepage.cpp:161
+#: dialogs/pages/umlwidgetstylepage.cpp:170
 msgctxt "line width"
 msgid "Line &width:"
 msgstr ""
 
-#: dialogs/pages/umlwidgetstylepage.cpp:167
+#: dialogs/pages/umlwidgetstylepage.cpp:176
 #, fuzzy
 msgctxt "default line width button"
 msgid "Defa&ult"
@@ -3584,11 +3613,6 @@ msgstr "संचयीका"
 msgid "Entity"
 msgstr ""
 
-#: listpopupmenu.cpp:801 widgets/widgetbase.cpp:1019 worktoolbar.cpp:369
-#, fuzzy
-msgid "Category"
-msgstr "विभाग"
-
 #: listpopupmenu.cpp:804 widgets/widgetbase.cpp:1007 worktoolbar.cpp:322
 msgid "Actor"
 msgstr ""
@@ -3611,10 +3635,6 @@ msgctxt "new class menu item"
 msgid "Class"
 msgstr "वर्ग"
 
-#: listpopupmenu.cpp:926 widgets/widgetbase.cpp:1046 worktoolbar.cpp:343
-msgid "Interface"
-msgstr "दुवा"
-
 #: listpopupmenu.cpp:927 widgets/widgetbase.cpp:1031 worktoolbar.cpp:344
 msgid "Datatype"
 msgstr ""
@@ -3622,11 +3642,6 @@ msgstr ""
 #: listpopupmenu.cpp:928 widgets/widgetbase.cpp:1037 worktoolbar.cpp:345
 msgid "Enum"
 msgstr ""
-
-#: listpopupmenu.cpp:929 listpopupmenu.cpp:1138 widgets/widgetbase.cpp:1064
-#: worktoolbar.cpp:339
-msgid "Package"
-msgstr "पॅकेज"
 
 #: listpopupmenu.cpp:963
 msgid "Add Point"
@@ -3914,14 +3929,6 @@ msgstr "विभाग :"
 msgid "Object..."
 msgstr "घटक"
 
-#: listpopupmenu.cpp:1455
-msgid "Attribute"
-msgstr ""
-
-#: listpopupmenu.cpp:1456 listpopupmenu.cpp:1460
-msgid "Operation"
-msgstr "क्रिया"
-
 #: listpopupmenu.cpp:1457 listpopupmenu.cpp:1461
 msgid "Template"
 msgstr "नमूना"
@@ -4197,7 +4204,7 @@ msgstr ""
 msgid "Association Error"
 msgstr ""
 
-#: toolbarstateother.cpp:250 umlscene.cpp:3078 widgets/activitywidget.cpp:372
+#: toolbarstateother.cpp:250 umlscene.cpp:3089 widgets/activitywidget.cpp:372
 msgid "Enter Activity Name"
 msgstr ""
 
@@ -4237,15 +4244,15 @@ msgstr ""
 msgid "new Combined Fragment"
 msgstr ""
 
-#: toolbarstateother.cpp:279 umlscene.cpp:3043 widgets/statewidget.cpp:483
+#: toolbarstateother.cpp:279 umlscene.cpp:3054 widgets/statewidget.cpp:483
 msgid "Enter State Name"
 msgstr ""
 
-#: toolbarstateother.cpp:280 umlscene.cpp:3044 widgets/statewidget.cpp:484
+#: toolbarstateother.cpp:280 umlscene.cpp:3055 widgets/statewidget.cpp:484
 msgid "Enter the name of the new state:"
 msgstr ""
 
-#: toolbarstateother.cpp:280 umlscene.cpp:3045
+#: toolbarstateother.cpp:280 umlscene.cpp:3056
 msgid "new state"
 msgstr ""
 
@@ -5421,72 +5428,72 @@ msgstr ""
 msgid "No search term entered"
 msgstr ""
 
-#: uml.cpp:1364
+#: uml.cpp:1358
 #, kde-format
 msgid "'%1': %2 found"
 msgstr ""
 
-#: uml.cpp:1414
+#: uml.cpp:1408
 msgid "Print Preview..."
 msgstr "छपाई पूर्वावलोकन..."
 
-#: uml.cpp:1441
+#: uml.cpp:1435
 msgid "Printing..."
 msgstr "छपाई..."
 
-#: uml.cpp:1448
+#: uml.cpp:1442
 #, kde-format
 msgid "Print %1"
 msgstr "छापा %1"
 
-#: uml.cpp:1468
+#: uml.cpp:1462
 msgid "Exiting..."
 msgstr ""
 
-#: uml.cpp:1531
+#: uml.cpp:1525
 msgid "Cutting selection..."
 msgstr ""
 
-#: uml.cpp:1554
+#: uml.cpp:1548
 msgid "Copying selection to clipboard..."
 msgstr ""
 
-#: uml.cpp:1566
+#: uml.cpp:1560
 msgid "Inserting clipboard contents..."
 msgstr ""
 
-#: uml.cpp:1571
+#: uml.cpp:1565
 msgid ""
 "Umbrello could not paste the clipboard contents.  The objects in the "
 "clipboard may be of the wrong type to be pasted here."
 msgstr ""
 
-#: uml.cpp:1597 umlviewimageexporter.cpp:80 umlviewimageexporterall.cpp:84
+#: uml.cpp:1591 umlviewimageexporter.cpp:80 umlviewimageexporterall.cpp:84
 msgctxt "reset status bar"
 msgid "Ready."
 msgstr "तयार."
 
-#: uml.cpp:2205
+#: uml.cpp:2199
 msgid "Cannot view code until you generate some first."
 msgstr ""
 
-#: uml.cpp:2205 uml.cpp:2208
+#: uml.cpp:2199 uml.cpp:2202
 msgid "Cannot View Code"
 msgstr ""
 
-#: uml.cpp:2208
+#: uml.cpp:2202
 msgid "Cannot view code from simple code writer."
 msgstr ""
 
-#: uml.cpp:2657
+#: uml.cpp:2651
 msgid "Select file(s) to import:"
 msgstr ""
 
-#: uml.cpp:2686
+#: uml.cpp:2680
 msgid "Select directory to import:"
 msgstr ""
 
-#: uml.cpp:3208
+#: uml.cpp:3202
 msgid "XHTML Generation failed ."
 msgstr ""
 
@@ -5848,68 +5855,68 @@ msgstr "चेतन खोना"
 msgid "Use case &name:"
 msgstr ""
 
-#: umlscene.cpp:525
+#: umlscene.cpp:528
 #, kde-format
 msgid "Diagram: %2 Page %1"
 msgstr ""
 
-#: umlscene.cpp:1330
+#: umlscene.cpp:1341
 msgid "Use fill color"
 msgstr ""
 
-#: umlscene.cpp:1332
+#: umlscene.cpp:1343
 msgid "No fill color"
 msgstr ""
 
-#: umlscene.cpp:1347
+#: umlscene.cpp:1358
 #, fuzzy
 #| msgid "Change Text"
 msgid "Change font"
 msgstr "मजकूर बदला"
 
-#: umlscene.cpp:1361
+#: umlscene.cpp:1372
 msgid "Change line color"
 msgstr ""
 
-#: umlscene.cpp:1379
+#: umlscene.cpp:1390
 #, fuzzy
 #| msgid "Change Text"
 msgid "Change line width"
 msgstr "मजकूर बदला"
 
-#: umlscene.cpp:1399
+#: umlscene.cpp:1410
 msgid "Change fill color"
 msgstr ""
 
-#: umlscene.cpp:1414
+#: umlscene.cpp:1425
 msgid "Change visual property"
 msgstr ""
 
-#: umlscene.cpp:1434
+#: umlscene.cpp:1445
 #, fuzzy
 msgid "Delete widgets"
 msgstr "काढून टाका"
 
-#: umlscene.cpp:1485
+#: umlscene.cpp:1496
 #, fuzzy
 msgid "Resize widgets"
 msgstr "आकार बदला"
 
-#: umlscene.cpp:3116
+#: umlscene.cpp:3127
 msgid "Enter Diagram Name"
 msgstr ""
 
-#: umlscene.cpp:3117
+#: umlscene.cpp:3128
 msgid "Enter the new name of the diagram:"
 msgstr ""
 
-#: umlscene.cpp:3254
+#: umlscene.cpp:3265
 msgid ""
 "You are about to delete the entire diagram.\n"
 "Are you sure?"
 msgstr ""
 
-#: umlscene.cpp:3255
+#: umlscene.cpp:3266
 msgid "Delete Diagram?"
 msgstr ""
 
@@ -6369,6 +6376,11 @@ msgstr ""
 #: worktoolbar.cpp:368
 msgid "Pre/Post condition"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Filter"
+#~ msgid "Filter:"
+#~ msgstr "गाळणी"
 
 #, fuzzy
 #~| msgid "Change Text"
