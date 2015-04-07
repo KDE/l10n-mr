@@ -20,6 +20,33 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "X-Qt-Contexts: true\n"
 
+#. Generic sans serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:32
+#, fuzzy
+#| msgctxt "@item Font name"
+#| msgid "Sans Serif"
+msgctxt "FontHelpers|@item Font name"
+msgid "Sans Serif"
+msgstr "सॅन्स् सेरीफ"
+
+#. Generic serif font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:35
+#, fuzzy
+#| msgctxt "@item Font name"
+#| msgid "Serif"
+msgctxt "FontHelpers|@item Font name"
+msgid "Serif"
+msgstr "सेरीफ"
+
+#. Generic monospace font presented in font choosers. When selected, the system will choose a real font, mandated by distro settings.
+#: fonthelpers.cpp:38
+#, fuzzy
+#| msgctxt "@item Font name"
+#| msgid "Monospace"
+msgctxt "FontHelpers|@item Font name"
+msgid "Monospace"
+msgstr "मोनोस्पेस"
+
 #: fonthelpers.cpp:81
 #, qt-format
 msgctxt "FontHelpers|@item Font name"
@@ -1631,6 +1658,79 @@ msgctxt "KLed|Accessible name of a Led whose state is off"
 msgid "LED off"
 msgstr ""
 
+#. Called after the button texts in standard message dialogs have been filtered by the messages above. Not visible to user.
+#: kmessagebox.cpp:77
+#, fuzzy
+#| msgctxt "@action:button post-filter"
+#| msgid "."
+msgctxt "KMessageBox|@action:button post-filter"
+msgid "."
+msgstr "."
+
+#: kmessagebox.cpp:180 kmessagebox.cpp:816 kmessagebox.cpp:865
+#, fuzzy
+#| msgid "&Details"
+msgctxt "KMessageBox|"
+msgid "&Details"
+msgstr "तपशील (&D)"
+
+#: kmessagebox.cpp:317
+#, fuzzy
+#| msgid "Details"
+msgctxt "KMessageBox|"
+msgid "Details"
+msgstr "तपशील"
+
+#: kmessagebox.cpp:480 kmessagebox.cpp:534
+#, fuzzy
+#| msgid "Question"
+msgctxt "KMessageBox|"
+msgid "Question"
+msgstr "प्रश्न"
+
+#: kmessagebox.cpp:492 kmessagebox.cpp:548 kmessagebox.cpp:619
+#: kmessagebox.cpp:682 kmessagebox.cpp:751
+#, fuzzy
+#| msgid "Do not ask again"
+msgctxt "KMessageBox|"
+msgid "Do not ask again"
+msgstr "पुन्हा विचारू नका"
+
+#: kmessagebox.cpp:607 kmessagebox.cpp:670 kmessagebox.cpp:738
+#, fuzzy
+#| msgid "Warning"
+msgctxt "KMessageBox|"
+msgid "Warning"
+msgstr "इशारा"
+
+#: kmessagebox.cpp:790 kmessagebox.cpp:811
+#, fuzzy
+#| msgid "Error"
+msgctxt "KMessageBox|"
+msgid "Error"
+msgstr "त्रुटी"
+
+#: kmessagebox.cpp:839 kmessagebox.cpp:860 kmessagebox.cpp:1123
+#, fuzzy
+#| msgid "Sorry"
+msgctxt "KMessageBox|"
+msgid "Sorry"
+msgstr "माफ करा"
+
+#: kmessagebox.cpp:899
+#, fuzzy
+#| msgid "Information"
+msgctxt "KMessageBox|"
+msgid "Information"
+msgstr "माहिती"
+
+#: kmessagebox.cpp:910
+#, fuzzy
+#| msgid "Do not show this message again"
+msgctxt "KMessageBox|"
+msgid "Do not show this message again"
+msgstr "हा संदेश पुन्हा दर्शवू नका"
+
 #: kmessagewidget.cpp:90
 msgctxt "KMessageWidget|"
 msgid "&Close"
@@ -1640,6 +1740,40 @@ msgstr "बंद करा (&C)"
 msgctxt "KMessageWidget|"
 msgid "Close message"
 msgstr "संदेश बंद करा"
+
+#: kmimetypechooser.cpp:89
+#, fuzzy
+#| msgid "Mime types"
+msgctxt "KMimeTypeChooser|"
+msgid "Mime Type"
+msgstr "Mime प्रकार"
+
+#: kmimetypechooser.cpp:92
+#, fuzzy
+#| msgid "Comment"
+msgctxt "KMimeTypeChooser|"
+msgid "Comment"
+msgstr "टीप"
+
+#: kmimetypechooser.cpp:95
+#, fuzzy
+#| msgctxt "KCharSelectData|KCharselect unicode block name"
+#| msgid "Braille Patterns"
+msgctxt "KMimeTypeChooser|"
+msgid "Patterns"
+msgstr "ब्रेल नमूने"
+
+#: kmimetypechooser.cpp:108
+#, fuzzy
+#| msgid "&Edit..."
+msgctxt "KMimeTypeChooser|"
+msgid "&Edit..."
+msgstr "संपादित करा (&E)..."
+
+#: kmimetypechooser.cpp:118
+msgctxt "KMimeTypeChooser|"
+msgid "Click this button to display the familiar KDE mime type editor."
+msgstr ""
 
 #: knewpassworddialog.cpp:73
 msgctxt "KNewPasswordDialog|"
@@ -2805,9 +2939,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 
 #~ msgid "Translation files for KLocale"
 #~ msgstr "के-लोकल करिता भाषांतरण फाईल"
-
-#~ msgid "Mime types"
-#~ msgstr "Mime प्रकार"
 
 #~ msgid "Loadable modules"
 #~ msgstr "दाखल करण्यायोग्य विभाग"
@@ -5207,9 +5338,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 #~ msgid " – "
 #~ msgstr " – "
 
-#~ msgid "&Details"
-#~ msgstr "तपशील (&D)"
-
 #~ msgid "Get help..."
 #~ msgstr "मदत मिळवा..."
 
@@ -5315,34 +5443,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 #~ msgctxt "@action:button filter-cancel"
 #~ msgid "%1"
 #~ msgstr "%1"
-
-#~ msgctxt "@action:button post-filter"
-#~ msgid "."
-#~ msgstr "."
-
-#~ msgid "Details"
-#~ msgstr "तपशील"
-
-#~ msgid "Question"
-#~ msgstr "प्रश्न"
-
-#~ msgid "Do not ask again"
-#~ msgstr "पुन्हा विचारू नका"
-
-#~ msgid "Warning"
-#~ msgstr "इशारा"
-
-#~ msgid "Error"
-#~ msgstr "त्रुटी"
-
-#~ msgid "Sorry"
-#~ msgstr "माफ करा"
-
-#~ msgid "Information"
-#~ msgstr "माहिती"
-
-#~ msgid "Do not show this message again"
-#~ msgstr "हा संदेश पुन्हा दर्शवू नका"
 
 #~ msgid "Default:"
 #~ msgstr "मूलभूत:"
@@ -5597,9 +5697,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 #~ msgid "Regular e&xpression"
 #~ msgstr "नियमित अभिव्यक्ति (&x)"
 
-#~ msgid "&Edit..."
-#~ msgstr "संपादित करा (&E)..."
-
 #~ msgid "Replace With"
 #~ msgstr "या सह बदला"
 
@@ -5798,18 +5895,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 #~ msgstr ""
 #~ "\n"
 #~ "कृपया योग्य करा."
-
-#~ msgctxt "@item Font name"
-#~ msgid "Sans Serif"
-#~ msgstr "सॅन्स् सेरीफ"
-
-#~ msgctxt "@item Font name"
-#~ msgid "Serif"
-#~ msgstr "सेरीफ"
-
-#~ msgctxt "@item Font name"
-#~ msgid "Monospace"
-#~ msgstr "मोनोस्पेस"
 
 #~ msgctxt "@item Font name"
 #~ msgid "%1"
@@ -6833,9 +6918,6 @@ msgstr "चौकट पूर्ण स्क्रीन वर दर्श�
 #~ msgctxt "Time zone"
 #~ msgid "Region"
 #~ msgstr "विभाग"
-
-#~ msgid "Comment"
-#~ msgstr "टीप"
 
 #~ msgctxt "@title:menu"
 #~ msgid "Show Text"
