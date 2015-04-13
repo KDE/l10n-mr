@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-03-27 08:33+0000\n"
+"POT-Creation-Date: 2015-04-13 08:23+0000\n"
 "PO-Revision-Date: 2013-03-08 10:11+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -25,26 +25,26 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: agentbase/agentbase.cpp:343 agentbase/preprocessorbase_p.cpp:42
+#: agentbase/agentbase.cpp:383 agentbase/preprocessorbase_p.cpp:42
 #, kde-format
 msgid "Unable to register object at dbus: %1"
 msgstr ""
 
-#: agentbase/agentbase.cpp:430
+#: agentbase/agentbase.cpp:470
 #, kde-format
 msgctxt "Name and type of Akonadi resource"
 msgid "%1 of type %2"
 msgstr ""
 
-#: agentbase/agentbase.cpp:850 agentbase/agentbase.cpp:851
+#: agentbase/agentbase.cpp:934 agentbase/agentbase.cpp:935
 msgid "Akonadi Agent"
 msgstr ""
 
-#: agentbase/agentbase.cpp:854
+#: agentbase/agentbase.cpp:938
 msgid "Agent identifier"
 msgstr ""
 
-#: agentbase/agentbase_p.h:63 agentbase/resourcescheduler.cpp:244
+#: agentbase/agentbase_p.h:63 agentbase/resourcescheduler.cpp:270
 #, fuzzy
 msgctxt "@info:status Application ready for work"
 msgid "Ready"
@@ -70,74 +70,74 @@ msgctxt "@info:status"
 msgid "Not configured"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:564
+#: agentbase/resourcebase.cpp:573
 msgctxt "@title application name"
 msgid "Akonadi Resource"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:565
+#: agentbase/resourcebase.cpp:574
 msgctxt "@title application description"
 msgid "Akonadi Resource"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:569
+#: agentbase/resourcebase.cpp:578
 msgctxt "@label commandline option"
 msgid "Resource identifier"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:598
+#: agentbase/resourcebase.cpp:607
 msgctxt "@info"
 msgid "Invalid item retrieved"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:623
+#: agentbase/resourcebase.cpp:632
 #, kde-format
 msgctxt "@info"
 msgid "Error while creating item: %1"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:648
+#: agentbase/resourcebase.cpp:657
 #, kde-format
 msgctxt "@info"
 msgid "Error while updating collection: %1"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:735
+#: agentbase/resourcebase.cpp:743
 #, kde-format
 msgctxt "@info"
 msgid "Updating local collection failed: %1."
 msgstr ""
 
-#: agentbase/resourcebase.cpp:740
+#: agentbase/resourcebase.cpp:748
 #, kde-format
 msgctxt "@info"
 msgid "Updating local items failed: %1."
 msgstr ""
 
-#: agentbase/resourcebase.cpp:764
+#: agentbase/resourcebase.cpp:772
 msgctxt "@info"
 msgid "Cannot fetch item in offline mode."
 msgstr ""
 
-#: agentbase/resourcebase.cpp:910
+#: agentbase/resourcebase.cpp:918
 #, kde-format
 msgctxt "@info:status"
 msgid "Syncing folder '%1'"
 msgstr ""
 
-#: agentbase/resourcebase.cpp:929
+#: agentbase/resourcebase.cpp:937
 msgid "Failed to retrieve collection for sync."
 msgstr ""
 
-#: agentbase/resourcebase.cpp:964
+#: agentbase/resourcebase.cpp:978
 msgid "Failed to retrieve collection for attribute sync."
 msgstr ""
 
-#: agentbase/resourcebase.cpp:999
+#: agentbase/resourcebase.cpp:1025
 msgid "The requested item no longer exists"
 msgstr ""
 
-#: agentbase/resourcescheduler.cpp:405 agentbase/resourcescheduler.cpp:410
+#: agentbase/resourcescheduler.cpp:438 agentbase/resourcescheduler.cpp:443
 msgctxt "@info"
 msgid "Job canceled."
 msgstr ""
@@ -146,17 +146,7 @@ msgstr ""
 msgid "No such collection."
 msgstr ""
 
-#: core/collectionsync.cpp:202
-msgid "Inconsistent local collection tree detected."
-msgstr ""
-
-#: core/collectionsync.cpp:367
-msgid ""
-"Remote collection without root-terminated ancestor chain provided, resource "
-"is broken."
-msgstr ""
-
-#: core/collectionsync.cpp:744
+#: core/collectionsync.cpp:508 core/collectionsync.cpp:646
 msgid "Found unresolved orphan collections"
 msgstr ""
 
@@ -216,7 +206,7 @@ msgstr ""
 msgid "Invalid collection"
 msgstr ""
 
-#: core/jobs/collectionfetchjob.cpp:210
+#: core/jobs/collectionfetchjob.cpp:231
 msgid "Invalid collection given."
 msgstr ""
 
@@ -254,6 +244,10 @@ msgstr ""
 msgid "No objects specified for moving"
 msgstr ""
 
+#: core/jobs/relationcreatejob.cpp:52 core/jobs/relationdeletejob.cpp:52
+msgid "Failed to create relation."
+msgstr ""
+
 #: core/jobs/resourcesynchronizationjob.cpp:147
 msgid "Resource synchronization timed out."
 msgstr ""
@@ -267,21 +261,21 @@ msgstr ""
 msgid "No resource ID given."
 msgstr ""
 
-#: core/jobs/specialcollectionshelperjobs.cpp:336
+#: core/jobs/specialcollectionshelperjobs.cpp:337
 #, kde-format
 msgid "Invalid resource identifier '%1'"
 msgstr ""
 
-#: core/jobs/specialcollectionshelperjobs.cpp:353
-#: core/jobs/specialcollectionshelperjobs.cpp:361
+#: core/jobs/specialcollectionshelperjobs.cpp:354
+#: core/jobs/specialcollectionshelperjobs.cpp:362
 msgid "Failed to configure default resource via D-Bus."
 msgstr ""
 
-#: core/jobs/specialcollectionshelperjobs.cpp:422
+#: core/jobs/specialcollectionshelperjobs.cpp:423
 msgid "Failed to fetch the resource collection."
 msgstr ""
 
-#: core/jobs/specialcollectionshelperjobs.cpp:616
+#: core/jobs/specialcollectionshelperjobs.cpp:617
 msgid "Timeout trying to get lock."
 msgstr ""
 
@@ -329,44 +323,44 @@ msgctxt "@title:column, total size (in bytes) of the collection"
 msgid "Size"
 msgstr "आकार"
 
-#: core/models/entitytreemodel.cpp:229
+#: core/models/entitytreemodel.cpp:228
 #, fuzzy
 msgid "Loading..."
 msgstr "दाखल करत आहे..."
 
-#: core/models/entitytreemodel.cpp:556
+#: core/models/entitytreemodel.cpp:555
 #, kde-format
 msgid ""
 "The target collection '%1' contains already\n"
 "a collection with name '%2'."
 msgstr ""
 
-#: core/models/entitytreemodel.cpp:736
+#: core/models/entitytreemodel.cpp:735
 msgctxt "@title:column Name of a thing"
 msgid "Name"
 msgstr "नाव"
 
-#: core/models/entitytreemodel_p.cpp:1383
+#: core/models/entitytreemodel_p.cpp:1393
 msgid "Could not copy item:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1385
+#: core/models/entitytreemodel_p.cpp:1395
 msgid "Could not copy collection:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1387
+#: core/models/entitytreemodel_p.cpp:1397
 msgid "Could not move item:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1389
+#: core/models/entitytreemodel_p.cpp:1399
 msgid "Could not move collection:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1391
+#: core/models/entitytreemodel_p.cpp:1401
 msgid "Could not link entity:"
 msgstr ""
 
-#: core/models/favoritecollectionsmodel.cpp:374
+#: core/models/favoritecollectionsmodel.cpp:379
 msgid "Favorite Folders"
 msgstr ""
 
@@ -1074,38 +1068,38 @@ msgstr "शोधा"
 msgid "Use folder by default"
 msgstr ""
 
-#: widgets/collectiondialog_desktop.cpp:225
+#: widgets/collectiondialog_desktop.cpp:226
 #: widgets/collectiondialog_mobile.cpp:112
 msgid "&New Subfolder..."
 msgstr ""
 
-#: widgets/collectiondialog_desktop.cpp:226
+#: widgets/collectiondialog_desktop.cpp:227
 msgid "Create a new subfolder under the currently selected folder"
 msgstr ""
 
-#: widgets/collectiondialog_desktop.cpp:261
+#: widgets/collectiondialog_desktop.cpp:262
 #: widgets/collectiondialog_mobile.cpp:188
-#: widgets/standardactionmanager.cpp:248
+#: widgets/standardactionmanager.cpp:244
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "नवीन संचयीका"
 
-#: widgets/collectiondialog_desktop.cpp:262
+#: widgets/collectiondialog_desktop.cpp:263
 #: widgets/collectiondialog_mobile.cpp:189
 msgctxt "@label:textbox, name of a thing"
 msgid "Name"
 msgstr "नाव"
 
-#: widgets/collectiondialog_desktop.cpp:281
+#: widgets/collectiondialog_desktop.cpp:282
 #: widgets/collectiondialog_mobile.cpp:205
-#: widgets/standardactionmanager.cpp:252
+#: widgets/standardactionmanager.cpp:248
 #, kde-format
 msgid "Could not create folder: %1"
 msgstr ""
 
-#: widgets/collectiondialog_desktop.cpp:282
+#: widgets/collectiondialog_desktop.cpp:283
 #: widgets/collectiondialog_mobile.cpp:206
-#: widgets/standardactionmanager.cpp:254
+#: widgets/standardactionmanager.cpp:250
 msgid "Folder creation failed"
 msgstr ""
 
@@ -1329,7 +1323,7 @@ msgstr "नवीन संचयीका (&N)..."
 msgid "New"
 msgstr "नवीन"
 
-#: widgets/standardactionmanager.cpp:88 widgets/standardactionmanager.cpp:220
+#: widgets/standardactionmanager.cpp:88 widgets/standardactionmanager.cpp:216
 #, kde-format
 msgid "&Delete Folder"
 msgid_plural "&Delete %1 Folders"
@@ -1340,7 +1334,7 @@ msgstr[1] "%1 संचयीका काढून टाका (&D)"
 msgid "Delete"
 msgstr "काढून टाका"
 
-#: widgets/standardactionmanager.cpp:89 widgets/standardactionmanager.cpp:222
+#: widgets/standardactionmanager.cpp:89 widgets/standardactionmanager.cpp:218
 #, kde-format
 msgid "&Synchronize Folder"
 msgid_plural "&Synchronize %1 Folders"
@@ -1348,6 +1342,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: widgets/standardactionmanager.cpp:89 widgets/standardactionmanager.cpp:107
+#: widgets/standardactionmanager.cpp:123
 msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
@@ -1427,7 +1422,7 @@ msgstr "येथे हलवा"
 msgid "Move Folder To..."
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:102 widgets/standardactionmanager.cpp:214
+#: widgets/standardactionmanager.cpp:102 widgets/standardactionmanager.cpp:210
 #, kde-format
 msgid "&Cut Item"
 msgid_plural "&Cut %1 Items"
@@ -1438,7 +1433,7 @@ msgstr[1] "%1 घटक कापा  (&C)"
 msgid "Cut"
 msgstr "कापा"
 
-#: widgets/standardactionmanager.cpp:103 widgets/standardactionmanager.cpp:216
+#: widgets/standardactionmanager.cpp:103 widgets/standardactionmanager.cpp:212
 #, kde-format
 msgid "&Cut Folder"
 msgid_plural "&Cut %1 Folders"
@@ -1449,7 +1444,7 @@ msgstr[1] ""
 msgid "Create Resource"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:105 widgets/standardactionmanager.cpp:243
+#: widgets/standardactionmanager.cpp:105 widgets/standardactionmanager.cpp:239
 #, kde-format
 msgid "Delete Resource"
 msgid_plural "Delete %1 Resources"
@@ -1460,7 +1455,7 @@ msgstr[1] "%1 संसाधने काढून टाका"
 msgid "&Resource Properties"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:107 widgets/standardactionmanager.cpp:245
+#: widgets/standardactionmanager.cpp:107 widgets/standardactionmanager.cpp:241
 #, kde-format
 msgid "Synchronize Resource"
 msgid_plural "Synchronize %1 Resources"
@@ -1529,96 +1524,102 @@ msgstr ""
 msgid "Synchronize Favorite Folders"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:210
+#: widgets/standardactionmanager.cpp:123
+#, fuzzy
+#| msgid "Synchronize"
+msgid "Synchronize Folder Tree"
+msgstr "सिंक्रोनाईझ"
+
+#: widgets/standardactionmanager.cpp:206
 #, kde-format
 msgid "&Copy Folder"
 msgid_plural "&Copy %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:212
+#: widgets/standardactionmanager.cpp:208
 #, kde-format
 msgid "&Copy Item"
 msgid_plural "&Copy %1 Items"
 msgstr[0] ""
 msgstr[1] "घटकांची प्रत करा"
 
-#: widgets/standardactionmanager.cpp:218
+#: widgets/standardactionmanager.cpp:214
 #, kde-format
 msgid "&Delete Item"
 msgid_plural "&Delete %1 Items"
 msgstr[0] ""
 msgstr[1] "घटक नष्ट करा"
 
-#: widgets/standardactionmanager.cpp:224
+#: widgets/standardactionmanager.cpp:220
 #, kde-format
 msgid "&Delete Resource"
 msgid_plural "&Delete %1 Resources"
 msgstr[0] "संसाधन काढून टाका (&D)"
 msgstr[1] "%1 संसाधने काढून टाका (&D)"
 
-#: widgets/standardactionmanager.cpp:226
+#: widgets/standardactionmanager.cpp:222
 #, kde-format
 msgid "&Synchronize Resource"
 msgid_plural "&Synchronize %1 Resources"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:229
+#: widgets/standardactionmanager.cpp:225
 #, kde-format
 msgid "Copy Folder"
 msgid_plural "Copy %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:231
+#: widgets/standardactionmanager.cpp:227
 #, kde-format
 msgid "Copy Item"
 msgid_plural "Copy %1 Items"
 msgstr[0] ""
 msgstr[1] "घटकांची प्रत करा"
 
-#: widgets/standardactionmanager.cpp:233
+#: widgets/standardactionmanager.cpp:229
 #, kde-format
 msgid "Cut Item"
 msgid_plural "Cut %1 Items"
 msgstr[0] ""
 msgstr[1] "घटक कापा"
 
-#: widgets/standardactionmanager.cpp:235
+#: widgets/standardactionmanager.cpp:231
 #, kde-format
 msgid "Cut Folder"
 msgid_plural "Cut %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:237
+#: widgets/standardactionmanager.cpp:233
 #, kde-format
 msgid "Delete Item"
 msgid_plural "Delete %1 Items"
 msgstr[0] ""
 msgstr[1] "घटक नष्ट करा"
 
-#: widgets/standardactionmanager.cpp:239
+#: widgets/standardactionmanager.cpp:235
 #, kde-format
 msgid "Delete Folder"
 msgid_plural "Delete %1 Folders"
 msgstr[0] "संचयीका काढून टाका"
 msgstr[1] "%1 संचयीका काढून टाका"
 
-#: widgets/standardactionmanager.cpp:241
+#: widgets/standardactionmanager.cpp:237
 #, kde-format
 msgid "Synchronize Folder"
 msgid_plural "Synchronize %1 Folders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:250
+#: widgets/standardactionmanager.cpp:246
 msgctxt "@label:textbox name of a thing"
 msgid "Name"
 msgstr "नाव"
 
-#: widgets/standardactionmanager.cpp:257
+#: widgets/standardactionmanager.cpp:253
 #, kde-format
 msgid "Do you really want to delete this folder and all its sub-folders?"
 msgid_plural ""
@@ -1626,84 +1627,84 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:260
+#: widgets/standardactionmanager.cpp:256
 msgctxt "@title:window"
 msgid "Delete folder?"
 msgid_plural "Delete folders?"
 msgstr[0] "संचयीका काढून टाकायची का?"
 msgstr[1] "संचयीका काढून टाकायच्या का?"
 
-#: widgets/standardactionmanager.cpp:262
+#: widgets/standardactionmanager.cpp:258
 #, kde-format
 msgid "Could not delete folder: %1"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:264
+#: widgets/standardactionmanager.cpp:260
 msgid "Folder deletion failed"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:267
+#: widgets/standardactionmanager.cpp:263
 #, kde-format
 msgctxt "@title:window"
 msgid "Properties of Folder %1"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:270
+#: widgets/standardactionmanager.cpp:266
 #, kde-format
 msgid "Do you really want to delete the selected item?"
 msgid_plural "Do you really want to delete %1 items?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:273
+#: widgets/standardactionmanager.cpp:269
 msgctxt "@title:window"
 msgid "Delete item?"
 msgid_plural "Delete items?"
 msgstr[0] ""
 msgstr[1] "घटक नष्ट करा"
 
-#: widgets/standardactionmanager.cpp:275
+#: widgets/standardactionmanager.cpp:271
 #, kde-format
 msgid "Could not delete item: %1"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:277
+#: widgets/standardactionmanager.cpp:273
 msgid "Item deletion failed"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:280
+#: widgets/standardactionmanager.cpp:276
 msgctxt "@title:window"
 msgid "Rename Favorite"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:282
+#: widgets/standardactionmanager.cpp:278
 #, fuzzy
 msgctxt "@label:textbox name of the folder"
 msgid "Name:"
 msgstr "नाव :"
 
-#: widgets/standardactionmanager.cpp:285
+#: widgets/standardactionmanager.cpp:281
 msgctxt "@title:window"
 msgid "New Resource"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:287
+#: widgets/standardactionmanager.cpp:283
 #, kde-format
 msgid "Could not create resource: %1"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:289
+#: widgets/standardactionmanager.cpp:285
 msgid "Resource creation failed"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:292
+#: widgets/standardactionmanager.cpp:288
 #, kde-format
 msgid "Do you really want to delete this resource?"
 msgid_plural "Do you really want to delete %1 resources?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/standardactionmanager.cpp:295
+#: widgets/standardactionmanager.cpp:291
 #, fuzzy
 msgctxt "@title:window"
 msgid "Delete Resource?"
@@ -1711,49 +1712,49 @@ msgid_plural "Delete Resources?"
 msgstr[0] "संसाधन काढून टाका"
 msgstr[1] "संसाधने काढून टाका"
 
-#: widgets/standardactionmanager.cpp:298
+#: widgets/standardactionmanager.cpp:294
 #, kde-format
 msgid "Could not paste data: %1"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:300
+#: widgets/standardactionmanager.cpp:296
 msgid "Paste failed"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:627
+#: widgets/standardactionmanager.cpp:623
 msgid "We can not add \"/\" in folder name."
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:628 widgets/standardactionmanager.cpp:635
+#: widgets/standardactionmanager.cpp:624 widgets/standardactionmanager.cpp:631
 msgid "Create new folder error"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:634
+#: widgets/standardactionmanager.cpp:630
 msgid "We can not add \".\" at begin or end of folder name."
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:854
+#: widgets/standardactionmanager.cpp:850
 #, kde-format
 msgid ""
 "Before syncing folder \"%1\" it is necessary to have the resource online. Do "
 "you want to make it online?"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:855
+#: widgets/standardactionmanager.cpp:851
 #, kde-format
 msgid "Account \"%1\" is offline"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:856
+#: widgets/standardactionmanager.cpp:852
 msgctxt "@action:button"
 msgid "Go Online"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:1417
+#: widgets/standardactionmanager.cpp:1425
 msgid "Move to This Folder"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:1417
+#: widgets/standardactionmanager.cpp:1425
 msgid "Copy to This Folder"
 msgstr ""
 
