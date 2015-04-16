@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-11-12 07:56+0000\n"
+"POT-Creation-Date: 2015-04-16 08:32+0000\n"
 "PO-Revision-Date: 2013-03-29 16:14+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -345,6 +345,118 @@ msgstr "प्रशंसक बना"
 #: ui/itemsviewdelegate.cpp:148
 msgid "Install"
 msgstr "प्रतिष्ठापन"
+
+#: kmoretools/kmoretools.cpp:590
+#, fuzzy
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgctxt "@action:inmenu"
+msgid "More"
+msgstr "अजून..."
+
+#: kmoretools/kmoretools.cpp:605
+#, fuzzy
+#| msgid "Installed"
+msgctxt "@action:inmenu"
+msgid "Not installed:"
+msgstr "प्रतिष्ठापन झालेले"
+
+#: kmoretools/kmoretools.cpp:641
+#, fuzzy
+#| msgid "Confi&gure..."
+msgctxt "@action:inmenu"
+msgid "Configure..."
+msgstr "संयोजीत करा (&G)..."
+
+#: kmoretools/kmoretools_p.h:370
+#, fuzzy
+#| msgid "Visit contributor's homepage"
+msgctxt "@action:inmenu"
+msgid "Visit homepage"
+msgstr "सहायकाच्या मुख्यपानास भेट द्या"
+
+#: kmoretools/kmoretools_p.h:377
+#, fuzzy
+#| msgid "There is no matching item available.\n"
+msgctxt "@action:inmenu"
+msgid "No further information available."
+msgstr "जुळवणीनुरूप घटक उपलब्ध नाही.\n"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:191
+#, fuzzy
+#| msgid "Configure"
+msgid "Configure menu"
+msgstr "संयोजीत करा"
+
+#: kmoretools/kmoretoolsconfigdialog_p.cpp:193
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "Configure menu - %1"
+msgstr "%1 संयोजीत करा (&C)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMainSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:25
+#, fuzzy
+#| msgid "Maintainer"
+msgid "Main section"
+msgstr "व्यवस्थापक"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveDown)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:58
+#, fuzzy
+#| msgid "Move &Down"
+msgid "Move down"
+msgstr "खाली हलवा (&D)"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveUp)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:79
+#, fuzzy
+#| msgid "Move &Up"
+msgid "Move up"
+msgstr "वर हलवा (&U)"
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMain)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:100
+msgid "Move to Main section"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, buttonMoveToMore)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:121
+#, fuzzy
+#| msgid "More Actions"
+msgid "Move to More section"
+msgstr "अधिक कृती"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonReset)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:142
+msgid "Reset"
+msgstr "पुन्हस्थापित"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMoreSection)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:161
+#, fuzzy
+#| msgid "More Actions"
+msgid "More section"
+msgstr "अधिक कृती"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:213
+msgid ""
+"For this menu there are some more tools suggested which are currently not "
+"installed:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNotInstalledTools)
+#: kmoretools/ui/kmoretoolsconfigwidget.ui:223
+#, fuzzy
+#| msgctxt ""
+#| "@option:check An item in a list of resources that allows to query for "
+#| "more resources to put in the list"
+#| msgid "More..."
+msgid "More tools..."
+msgstr "अजून..."
 
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
@@ -3365,9 +3477,6 @@ msgstr "अपलोड सुरु करा"
 #~ msgid "Configure S&hortcuts..."
 #~ msgstr "शॉर्टकट संयोजीत करा (&H)..."
 
-#~ msgid "&Configure %1..."
-#~ msgstr "%1 संयोजीत करा (&C)..."
-
 #~ msgid "Configure Tool&bars..."
 #~ msgstr "साधनपट्टी संयोजीत करा (&B)..."
 
@@ -3550,9 +3659,6 @@ msgstr "अपलोड सुरु करा"
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid "Email contributor"
 #~ msgstr "इमेल सहायक"
-
-#~ msgid "Visit contributor's homepage"
-#~ msgstr "सहायकाच्या मुख्यपानास भेट द्या"
 
 #~ msgctxt "Action to send an email to a contributor"
 #~ msgid ""
@@ -3756,9 +3862,6 @@ msgstr "अपलोड सुरु करा"
 
 #~ msgid "Close Message"
 #~ msgstr "संदेश बंद करा"
-
-#~ msgid "Configure"
-#~ msgstr "संयोजीत करा"
 
 #~ msgid "Job"
 #~ msgstr "कार्य"
@@ -3980,9 +4083,6 @@ msgstr "अपलोड सुरु करा"
 #~ msgid "Reset Toolbars"
 #~ msgstr "साधनपट्टी पुन्हस्थापित करा"
 
-#~ msgid "Reset"
-#~ msgstr "पुन्हस्थापित"
-
 #~ msgid "&Toolbar:"
 #~ msgstr "साधनपट्टी (&T):"
 
@@ -4124,9 +4224,6 @@ msgstr "अपलोड सुरु करा"
 
 #~ msgid "Delete"
 #~ msgstr "काढून टाका"
-
-#~ msgid "More Actions"
-#~ msgstr "अधिक कृती"
 
 #~ msgid "Save as Scheme Defaults"
 #~ msgstr "सुत्रयोजना मूलभूत प्रमाणे साठवा"
@@ -5301,9 +5398,6 @@ msgstr "अपलोड सुरु करा"
 #~ "पूर्णपणा अस्पष्ट आहे, एका पेक्षा जास्त\n"
 #~ "जोडणी उपलब्ध आहे.\n"
 
-#~ msgid "There is no matching item available.\n"
-#~ msgstr "जुळवणीनुरूप घटक उपलब्ध नाही.\n"
-
 #~ msgid "Backspace"
 #~ msgstr "बॅक-स्पेस"
 
@@ -5484,9 +5578,6 @@ msgstr "अपलोड सुरु करा"
 #~ msgctxt "Verb"
 #~ msgid "&Insert"
 #~ msgstr "अंतर्भूत करा (&I)"
-
-#~ msgid "Confi&gure..."
-#~ msgstr "संयोजीत करा (&G)..."
 
 #~ msgid "Add"
 #~ msgstr "जोडा"
@@ -6501,12 +6592,6 @@ msgstr "अपलोड सुरु करा"
 
 #~ msgid "&Remove"
 #~ msgstr "काढून टाका (&R)"
-
-#~ msgid "Move &Up"
-#~ msgstr "वर हलवा (&U)"
-
-#~ msgid "Move &Down"
-#~ msgstr "खाली हलवा (&D)"
 
 #~ msgid "&Help"
 #~ msgstr "मदत (&H)"
@@ -9007,9 +9092,6 @@ msgstr "अपलोड सुरु करा"
 #~ msgid "Sebastian Trüg"
 #~ msgstr "सेबास्टिअन ट्र्युग"
 
-#~ msgid "Maintainer"
-#~ msgstr "व्यवस्थापक"
-
 #~ msgid "Tobias Koenig"
 #~ msgstr "टोबियास एन्टोन"
 
@@ -9208,12 +9290,6 @@ msgstr "अपलोड सुरु करा"
 
 #~ msgid "After"
 #~ msgstr "नंतर"
-
-#~ msgctxt ""
-#~ "@option:check An item in a list of resources that allows to query for "
-#~ "more resources to put in the list"
-#~ msgid "More..."
-#~ msgstr "अजून..."
 
 #~ msgctxt "@option:check A filter on file type"
 #~ msgid "Documents"
