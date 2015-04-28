@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-27 08:50+0000\n"
+"POT-Creation-Date: 2015-04-28 12:04+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -553,11 +553,11 @@ msgstr ""
 msgid "Rewrite Header"
 msgstr ""
 
-#: filter/filteractions/filteractionrewriteheader.cpp:115
+#: filter/filteractions/filteractionrewriteheader.cpp:131
 msgid "Replace:"
 msgstr "बदला :"
 
-#: filter/filteractions/filteractionrewriteheader.cpp:124
+#: filter/filteractions/filteractionrewriteheader.cpp:140
 msgid "With:"
 msgstr ""
 
@@ -683,48 +683,11 @@ msgstr ""
 msgid "You can get specific header when you use %{headername}."
 msgstr ""
 
-#: filter/filtercontroller.cpp:78
-msgid "Add Filter"
-msgstr "गाळणी जोडा"
-
-#: filter/filtercontroller.cpp:97
-msgid "Edit Filter"
-msgstr ""
-
-#: filter/filtercontroller.cpp:115
-#, kde-format
-msgid "Do you really want to remove filter <b>%1</b>?"
-msgstr ""
-
-#: filter/filtercontroller.cpp:117 filter/kmfilterlistbox.cpp:515
-msgid "Remove Filter"
-msgstr "गाळणी काढून टाका"
-
-#: filter/filtercontroller.cpp:160
-msgid "Add"
-msgstr "जोडा"
-
-#: filter/filtercontroller.cpp:161
-msgid "Edit"
-msgstr "संपादन"
-
-#: filter/filtercontroller.cpp:162
-msgid "Remove"
-msgstr "काढून टाका"
-
-#: filter/filtercontroller.cpp:163
-msgid "Move Up"
-msgstr "वर हलवा"
-
-#: filter/filtercontroller.cpp:164
-msgid "Move Down"
-msgstr "खाली हलवा"
-
 #: filter/filterconverter/filterconverttosieveresultdialog.cpp:40
 msgid "Convert to sieve script"
 msgstr ""
 
-#: filter/filterconverter/filterconverttosieveresultdialog.cpp:49
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:48
 #, fuzzy
 #| msgid "Rename..."
 msgid "Save..."
@@ -752,7 +715,7 @@ msgstr "गाळणी काढून टाका"
 msgid "Procmail filter %1"
 msgstr "गाळणी काढून टाका"
 
-#: filter/filterimporterexporter.cpp:145 filter/kmfilterlistbox.cpp:428
+#: filter/filterimporterexporter.cpp:145 filter/kmfilterlistbox.cpp:426
 msgid ""
 "The following filters have not been saved because they were invalid (e.g. "
 "containing no actions or no search rules)."
@@ -813,7 +776,7 @@ msgstr ""
 msgid "Select Filters"
 msgstr ""
 
-#: filter/filterselectiondialog.cpp:52 filter/kmfilterlistbox.cpp:135
+#: filter/filterselectiondialog.cpp:52 filter/kmfilterlistbox.cpp:137
 #: folder/foldertreewidget.cpp:110
 #, fuzzy
 #| msgctxt ""
@@ -831,19 +794,17 @@ msgstr "सर्व निवडा"
 msgid "Unselect All"
 msgstr "सर्व निवड काढून टाका"
 
-#: filter/invalidfilters/invalidfilterdialog.cpp:31
+#: filter/invalidfilters/invalidfilterdialog.cpp:33
 #, fuzzy
 #| msgid "Remove Filter"
 msgid "Invalid Filters"
 msgstr "गाळणी काढून टाका"
 
-#: filter/invalidfilters/invalidfilterdialog.cpp:36
-#: filter/kmfilterlistbox.cpp:418
+#: filter/invalidfilters/invalidfilterdialog.cpp:45
 msgid "Discard"
 msgstr "सोडून द्या"
 
-#: filter/invalidfilters/invalidfilterwidget.cpp:30
-#: filter/kmfilterlistbox.cpp:414
+#: filter/invalidfilters/invalidfilterwidget.cpp:31
 msgid ""
 "The following filters are invalid (e.g. containing no actions or no search "
 "rules). Discard or edit invalid filters?"
@@ -1066,14 +1027,14 @@ msgstr ""
 msgid "Convert KMail filters to sieve scripts"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:37
+#: filter/kmfilterlistbox.cpp:39
 msgid ""
 "<qt><p>This is the list of defined filters. They are processed top-to-bottom."
 "</p><p>Click on any filter to edit it using the controls in the right-hand "
 "half of the dialog.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:44
+#: filter/kmfilterlistbox.cpp:46
 msgid ""
 "<qt><p>Click this button to create a new filter.</p><p>The filter will be "
 "inserted just before the currently-selected one, but you can always change "
@@ -1081,14 +1042,14 @@ msgid ""
 "undo this by clicking on the <em>Delete</em> button.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:52
+#: filter/kmfilterlistbox.cpp:54
 msgid ""
 "<qt><p>Click this button to copy a filter.</p><p>If you have clicked this "
 "button accidentally, you can undo this by clicking on the <em>Delete</em> "
 "button.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:57
+#: filter/kmfilterlistbox.cpp:59
 msgid ""
 "<qt><p>Click this button to <em>delete</em> the currently-selected filter "
 "from the list above.</p><p>There is no way to get the filter back once it is "
@@ -1096,7 +1057,7 @@ msgid ""
 "discard the changes made.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:65
+#: filter/kmfilterlistbox.cpp:67
 msgid ""
 "<qt><p>Click this button to move the currently-selected filter <em>up</em> "
 "one in the list above.</p><p>This is useful since the order of the filters "
@@ -1106,7 +1067,7 @@ msgid ""
 "p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:74
+#: filter/kmfilterlistbox.cpp:76
 msgid ""
 "<qt><p>Click this button to move the currently-selected filter <em>down</em> "
 "one in the list above.</p><p>This is useful since the order of the filters "
@@ -1116,7 +1077,7 @@ msgid ""
 "qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:83
+#: filter/kmfilterlistbox.cpp:85
 msgid ""
 "<qt><p>Click this button to move the currently-selected filter to top of "
 "list.</p><p>This is useful since the order of the filters in the list "
@@ -1124,7 +1085,7 @@ msgid ""
 "gets tried first.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:90
+#: filter/kmfilterlistbox.cpp:92
 msgid ""
 "<qt><p>Click this button to move the currently-selected filter to bottom of "
 "list.</p><p>This is useful since the order of the filters in the list "
@@ -1132,7 +1093,7 @@ msgid ""
 "gets tried first.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:97
+#: filter/kmfilterlistbox.cpp:99
 msgid ""
 "<qt><p>Click this button to rename the currently-selected filter.</"
 "p><p>Filters are named automatically, as long as they start with \"&lt;\".</"
@@ -1141,7 +1102,7 @@ msgid ""
 "the appearing dialog.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:105
+#: filter/kmfilterlistbox.cpp:107
 msgid ""
 "<qt><p>Check this button to force the confirmation dialog to be displayed.</"
 "p><p>This is useful if you have defined a ruleset that tags messages to be "
@@ -1151,65 +1112,69 @@ msgid ""
 "differently.</p></qt>"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:171
+#: filter/kmfilterlistbox.cpp:173
 msgctxt "Move selected filter up."
 msgid "Up"
 msgstr "वर"
 
-#: filter/kmfilterlistbox.cpp:172
+#: filter/kmfilterlistbox.cpp:174
 msgctxt "Move selected filter down."
 msgid "Down"
 msgstr "खाली"
 
-#: filter/kmfilterlistbox.cpp:173
+#: filter/kmfilterlistbox.cpp:175
 msgctxt "Move selected filter to the top."
 msgid "Top"
 msgstr "वर"
 
-#: filter/kmfilterlistbox.cpp:174
+#: filter/kmfilterlistbox.cpp:176
 msgctxt "Move selected filter to the bottom."
 msgid "Bottom"
 msgstr "खाली"
 
-#: filter/kmfilterlistbox.cpp:202
+#: filter/kmfilterlistbox.cpp:204
 msgid "Rename..."
 msgstr "नाव बदला..."
 
-#: filter/kmfilterlistbox.cpp:204
+#: filter/kmfilterlistbox.cpp:206
 msgctxt "@action:button in filter list manipulator"
 msgid "New"
 msgstr "नवीन"
 
-#: filter/kmfilterlistbox.cpp:205
+#: filter/kmfilterlistbox.cpp:207
 msgid "Copy"
 msgstr "प्रत करा"
 
-#: filter/kmfilterlistbox.cpp:206
+#: filter/kmfilterlistbox.cpp:208
 msgid "Delete"
 msgstr "काढून टाका"
 
-#: filter/kmfilterlistbox.cpp:341
+#: filter/kmfilterlistbox.cpp:343
 msgid "unnamed"
 msgstr "निनावी"
 
-#: filter/kmfilterlistbox.cpp:514
+#: filter/kmfilterlistbox.cpp:512
 #, kde-format
 msgid "Do you want to remove the filter \"%1\"?"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:521
+#: filter/kmfilterlistbox.cpp:513
+msgid "Remove Filter"
+msgstr "गाळणी काढून टाका"
+
+#: filter/kmfilterlistbox.cpp:519
 msgid "Do you want to remove selected filters?"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:522
+#: filter/kmfilterlistbox.cpp:520
 msgid "Remove Filters"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:736
+#: filter/kmfilterlistbox.cpp:734
 msgid "Rename Filter"
 msgstr ""
 
-#: filter/kmfilterlistbox.cpp:737
+#: filter/kmfilterlistbox.cpp:735
 #, kde-format
 msgid ""
 "Rename filter \"%1\" to:\n"
@@ -2277,31 +2242,31 @@ msgstr ""
 msgid "Redirect Message"
 msgstr ""
 
-#: widgets/redirectdialog.cpp:157
+#: widgets/redirectdialog.cpp:156
 msgid "Select the recipient addresses to redirect:"
 msgstr ""
 
-#: widgets/redirectdialog.cpp:177
+#: widgets/redirectdialog.cpp:176
 msgid "Identity:"
 msgstr "ओळख :"
 
-#: widgets/redirectdialog.cpp:185
+#: widgets/redirectdialog.cpp:184
 msgid "Transport:"
 msgstr "वाहतूक :"
 
-#: widgets/redirectdialog.cpp:191
+#: widgets/redirectdialog.cpp:190
 msgid "&Send Now"
 msgstr ""
 
-#: widgets/redirectdialog.cpp:192
+#: widgets/redirectdialog.cpp:191
 msgid "Send &Later"
 msgstr ""
 
-#: widgets/redirectdialog.cpp:241
+#: widgets/redirectdialog.cpp:240
 msgid "You cannot redirect the message without an address."
 msgstr ""
 
-#: widgets/redirectdialog.cpp:242
+#: widgets/redirectdialog.cpp:241
 msgid "Empty Redirection Address"
 msgstr ""
 
@@ -2318,6 +2283,24 @@ msgstr ""
 #: widgets/regexplineedit.cpp:79
 msgid "Edit..."
 msgstr "संपादन...."
+
+#~ msgid "Add Filter"
+#~ msgstr "गाळणी जोडा"
+
+#~ msgid "Add"
+#~ msgstr "जोडा"
+
+#~ msgid "Edit"
+#~ msgstr "संपादन"
+
+#~ msgid "Remove"
+#~ msgstr "काढून टाका"
+
+#~ msgid "Move Up"
+#~ msgstr "वर हलवा"
+
+#~ msgid "Move Down"
+#~ msgstr "खाली हलवा"
 
 #~ msgctxt "Unit suffix where units are days."
 #~ msgid " days"
