@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-29 08:20+0000\n"
+"POT-Creation-Date: 2015-04-30 08:44+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -451,6 +451,7 @@ msgid "Copy Into Folder"
 msgstr ""
 
 #: filter/filteractions/filteractioncopy.cpp:80
+#: filter/filteractions/filteractionmove.cpp:78
 msgid "Folder destination was not defined."
 msgstr ""
 
@@ -553,11 +554,19 @@ msgstr ""
 msgid "Rewrite Header"
 msgstr ""
 
-#: filter/filteractions/filteractionrewriteheader.cpp:131
+#: filter/filteractions/filteractionrewriteheader.cpp:62
+msgid "Header not defined"
+msgstr ""
+
+#: filter/filteractions/filteractionrewriteheader.cpp:68
+msgid "Search string is empty."
+msgstr ""
+
+#: filter/filteractions/filteractionrewriteheader.cpp:130
 msgid "Replace:"
 msgstr "बदला :"
 
-#: filter/filteractions/filteractionrewriteheader.cpp:140
+#: filter/filteractions/filteractionrewriteheader.cpp:139
 msgid "With:"
 msgstr ""
 
@@ -616,8 +625,16 @@ msgstr ""
 msgid "Mark As"
 msgstr ""
 
+#: filter/filteractions/filteractionsetstatus.cpp:44
+msgid "Status not specified."
+msgstr ""
+
 #: filter/filteractions/filteractionsettransport.cpp:51
 msgid "Set Transport To"
+msgstr ""
+
+#: filter/filteractions/filteractionsettransport.cpp:155
+msgid "Mail transport not defined."
 msgstr ""
 
 #: filter/filteractions/filteractionstatus.cpp:45
@@ -670,9 +687,17 @@ msgctxt "msg status"
 msgid "Action Item"
 msgstr ""
 
+#: filter/filteractions/filteractionstatus.cpp:114
+msgid "Status is missing."
+msgstr ""
+
 #: filter/filteractions/filteractionunsetstatus.cpp:30
 msgctxt "action: to unset the status"
 msgid "Unset Status"
+msgstr ""
+
+#: filter/filteractions/filteractionunsetstatus.cpp:48
+msgid "Status not defined."
 msgstr ""
 
 #: filter/filteractions/filteractionwidget.cpp:81
@@ -1604,20 +1629,20 @@ msgid ""
 "%1"
 msgstr ""
 
-#: search/searchpattern.cpp:256
+#: search/searchpattern.cpp:259
 msgctxt "name used for a virgin filter"
 msgid "unknown"
 msgstr "अपरिचीत"
 
-#: search/searchpattern.cpp:264
+#: search/searchpattern.cpp:267
 msgid "(match any of the following)"
 msgstr "(खालील पैकी कोणतेही जुळवा)"
 
-#: search/searchpattern.cpp:267
+#: search/searchpattern.cpp:270
 msgid "(match all of the following)"
 msgstr "(खालील पैकी सर्व जुळवा)"
 
-#: search/searchpattern.cpp:270
+#: search/searchpattern.cpp:273
 msgid "(match all messages)"
 msgstr ""
 
@@ -1833,6 +1858,14 @@ msgstr ""
 msgid "<message> not implemented/supported"
 msgstr ""
 
+#: search/searchrule/searchruledate.cpp:40
+msgid "Date is not valid."
+msgstr ""
+
+#: search/searchrule/searchrulenumerical.cpp:157
+msgid "Content is not a number."
+msgstr ""
+
 #: search/searchrule/searchrulestatus.h:37
 msgctxt "message status"
 msgid "Important"
@@ -1901,6 +1934,10 @@ msgstr "Ham"
 #: search/searchrule/searchrulestatus.h:50
 msgctxt "message status"
 msgid "Has Attachment"
+msgstr ""
+
+#: search/searchrule/searchrulestring.cpp:246
+msgid "String is empty."
 msgstr ""
 
 #: search/widgethandler/daterulewidgethandler.cpp:36
