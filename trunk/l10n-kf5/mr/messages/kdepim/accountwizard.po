@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-06 08:42+0000\n"
+"POT-Creation-Date: 2015-05-08 08:51+0000\n"
 "PO-Revision-Date: 2013-03-15 11:14+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -25,19 +25,28 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: configfile.cpp:46
+#: configfile.cpp:48
 #, kde-format
 msgid "Writing config file for %1..."
 msgstr ""
 
-#: configfile.cpp:58
+#: configfile.cpp:65
 #, kde-format
 msgid "Config file for %1 is writing."
 msgstr ""
 
-#: configfile.cpp:63
+#: configfile.cpp:70
 #, kde-format
 msgid "Config file for %1 was not changed."
+msgstr ""
+
+#: configfile.cpp:101
+msgid "No given name for the configuration"
+msgstr ""
+
+#: configfile.cpp:112
+#, kde-format
+msgid "Unknown configurationname '%1'"
 msgstr ""
 
 #: dialog.cpp:55
@@ -77,15 +86,15 @@ msgstr "निनावी"
 msgid "Identity removed."
 msgstr "ओळख काढून टाकली."
 
-#: ispdb/ispdb.cpp:69
+#: ispdb/ispdb.cpp:378
 msgid "Lookup configuration: Email provider"
 msgstr ""
 
-#: ispdb/ispdb.cpp:74
+#: ispdb/ispdb.cpp:382
 msgid "Lookup configuration: Trying common server name"
 msgstr ""
 
-#: ispdb/ispdb.cpp:79
+#: ispdb/ispdb.cpp:386
 msgid "Lookup configuration: Mozilla database"
 msgstr ""
 
@@ -115,17 +124,34 @@ msgstr ""
 msgid "Tries to fetch the settings for that email address"
 msgstr ""
 
-#: ldap.cpp:37
+#: ldap.cpp:55
 msgid "Setting up LDAP server..."
 msgstr "LDAP सर्व्हर संयोजीत करत आहे..."
 
-#: ldap.cpp:89
+#: ldap.cpp:58
+#, kde-format
+msgid "Needed parameters are missing for ldap config server='%1'"
+msgstr ""
+
+#: ldap.cpp:142
 msgid "LDAP set up."
 msgstr "LDAP सर्व्हर  संयोजीत झाला."
 
-#: ldap.cpp:94
+#: ldap.cpp:155
+msgid "Unknown security setting for LDAP server"
+msgstr ""
+
+#: ldap.cpp:162
 msgid "LDAP not configuring."
 msgstr "LDAP संयोजीत झाला नाही."
+
+#: ldap.cpp:198
+msgid "Removed LDAP entry."
+msgstr ""
+
+#: ldap.cpp:205
+msgid "No config found to edit"
+msgstr ""
 
 #: loadpage.cpp:49
 #, kde-format
@@ -197,91 +223,111 @@ msgstr "Pop3, %1"
 msgid "Fetching provider list..."
 msgstr ""
 
-#: resource.cpp:83
+#: resource.cpp:84
 #, kde-format
 msgid "Resource type '%1' is not available."
 msgstr ""
 
-#: resource.cpp:93
+#: resource.cpp:97
 #, kde-format
 msgid "Resource '%1' is already set up."
 msgstr ""
 
-#: resource.cpp:99
+#: resource.cpp:103
 #, kde-format
 msgid "Creating resource instance for '%1'..."
 msgstr ""
 
-#: resource.cpp:108
+#: resource.cpp:112
 #, kde-format
 msgid "Failed to create resource instance: %1"
 msgstr ""
 
-#: resource.cpp:115
+#: resource.cpp:119
 msgid "Configuring resource instance..."
 msgstr ""
 
-#: resource.cpp:118
+#: resource.cpp:122
 msgid "Unable to configure resource instance."
 msgstr ""
 
-#: resource.cpp:133
+#: resource.cpp:137
 #, kde-format
 msgid "Could not convert value of setting '%1' to required type %2."
 msgstr ""
 
-#: resource.cpp:139
+#: resource.cpp:143
 #, kde-format
 msgid "Could not set setting '%1': %2"
 msgstr ""
 
-#: resource.cpp:146
+#: resource.cpp:153
 msgid "Resource setup completed."
 msgstr ""
 
-#: resource.cpp:153
+#: resource.cpp:167
 #, kde-format
 msgid "Removed resource instance for '%1'."
 msgstr ""
 
-#: servertest.cpp:56
+#: servertest.cpp:61
 msgid ""
 "There seems to be a problem in reaching this server or choosing a safe way "
 "to sent the credentials to server. We advise you to check the settings of "
 "the account and adjust it manually if needed."
 msgstr ""
 
-#: servertest.cpp:59
+#: servertest.cpp:64
 msgid "Autodetecting settings failed"
 msgstr ""
 
+#: setupautoconfigkolabfreebusy.cpp:87 setupautoconfigkolabldap.cpp:86
+#: setupispdb.cpp:150
+msgid "Searching for autoconfiguration..."
+msgstr ""
+
+#: setupautoconfigkolabfreebusy.cpp:112 setupautoconfigkolabldap.cpp:111
+#: setupispdb.cpp:175
+msgid "Autoconfiguration found."
+msgstr ""
+
+#: setupautoconfigkolabfreebusy.cpp:114 setupautoconfigkolabldap.cpp:113
+#: setupispdb.cpp:177
+msgid "Autoconfiguration failed."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, progressLabel)
-#: setupmanager.cpp:90 ui/setuppage.ui:37
+#: setupmanager.cpp:96 ui/setuppage.ui:37
 msgid "Setting up account..."
 msgstr "खाते संयोजीत करत आहे..."
 
-#: setupmanager.cpp:136
+#: setupmanager.cpp:143
 msgid "Setup complete."
 msgstr "संयोजना पूर्ण झाली."
 
-#: setupmanager.cpp:150
+#: setupmanager.cpp:158
 msgid "Failed to set up account, rolling back..."
 msgstr ""
 
-#: setupmanager.cpp:162
+#: setupmanager.cpp:170
 msgid "Failed to set up account."
 msgstr "खाते संयोजीत करण्यास अपयश."
 
-#: transport.cpp:89
+#: transport.cpp:90
 msgid "Setting up mail transport account..."
 msgstr ""
 
-#: transport.cpp:110
+#: transport.cpp:114
 msgid "Mail transport account set up."
 msgstr ""
 
-#: transport.cpp:116
+#: transport.cpp:120
 msgid "Mail transport account deleted."
+msgstr ""
+
+#: transport.cpp:127
+#, kde-format
+msgid "Could not load config dialog for uid=%1"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
