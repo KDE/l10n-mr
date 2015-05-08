@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-07 05:41+0000\n"
+"POT-Creation-Date: 2015-05-08 05:45+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -8116,7 +8116,7 @@ msgstr "ड्युओटोन कलरपद्धत ब्लॉक"
 msgid "Background"
 msgstr "पार्श्वभूमी"
 
-#: plugins/formats/psd/psd_loader.cpp:231 ui/kis_mask_manager.cc:195
+#: plugins/formats/psd/psd_loader.cpp:230 ui/kis_mask_manager.cc:195
 msgid "Transparency Mask"
 msgstr "पारदर्शी मुखवटा"
 
@@ -12041,18 +12041,24 @@ msgstr "OpenColorIO संयोजना मार्ग :"
 msgid "Layer style configuration (*.asl)"
 msgstr "OpenColorIO संयोजना मार्ग :"
 
+#: ui/dialogs/kis_dlg_layer_style.cpp:721 ui/widgets/kis_cmb_contour.cpp:25
+#, fuzzy
+#| msgid "Not Filled"
+msgid "Not Implemented Yet"
+msgstr "भरले नाही"
+
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
-#: ui/dialogs/kis_dlg_layer_style.cpp:807 ui/layerstyles/wdglayerstyles.ui:39
+#: ui/dialogs/kis_dlg_layer_style.cpp:811 ui/layerstyles/wdglayerstyles.ui:39
 #, fuzzy
 #| msgid "Drop Shadow"
 msgid "Inner Shadow"
 msgstr "ड्रॉप शॅडो"
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:808
+#: ui/dialogs/kis_dlg_layer_style.cpp:812
 msgid "Choke"
 msgstr ""
 
-#: ui/dialogs/kis_dlg_layer_style.cpp:1040
+#: ui/dialogs/kis_dlg_layer_style.cpp:1044
 msgctxt "layer styles parameter"
 msgid "Spread"
 msgstr ""
@@ -18843,7 +18849,7 @@ msgstr "तीव्रता :"
 msgid "Sh&adow Mode:"
 msgstr "शॅडोज"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. i18n: ectx: property (title), widget (QGroupBox, grpBlendingOptions)
 #. i18n: ectx: property (text), item, widget (QListWidget, lstStyleSelector)
 #: ui/layerstyles/wdgblendingoptions.ui:20 ui/layerstyles/wdglayerstyles.ui:26
 #, fuzzy
@@ -18851,7 +18857,7 @@ msgstr "शॅडोज"
 msgid "Blending Options"
 msgstr "हॅचिंग पर्याय"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: ectx: property (title), widget (QGroupBox, grpGeneralBlending)
 #: ui/layerstyles/wdgblendingoptions.ui:26
 #, fuzzy
 #| msgid "General settings"
@@ -18878,7 +18884,7 @@ msgstr "ब्लेंड पद्धत :"
 msgid "&Opacity"
 msgstr "अपारदर्शकता (&O):"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: ectx: property (title), widget (QGroupBox, grpAdvancedBlending)
 #: ui/layerstyles/wdgblendingoptions.ui:90
 #, fuzzy
 #| msgid "Advanced quality"
@@ -19027,7 +19033,7 @@ msgstr "मुखवट्याचा परिणाम निर्माण 
 msgid "Vector Mask &Hides Effect"
 msgstr "मुखवट्याचा परिणाम निर्माण करा"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, grpBlendIf)
 #: ui/layerstyles/wdgblendingoptions.ui:290
 #, fuzzy
 #| msgid "Blend mode:"
@@ -19837,12 +19843,6 @@ msgstr "ब्लेंडिंग पद्धत"
 #| msgid "Selection Mode"
 msgid "Select Luminosity Blending Mode"
 msgstr "निवड पद्धत"
-
-#: ui/widgets/kis_cmb_contour.cpp:25
-#, fuzzy
-#| msgid "Not Filled"
-msgid "Not Implemented Yet"
-msgstr "भरले नाही"
 
 #: ui/widgets/kis_color_space_selector.cc:65
 msgid "Download Color Profile"
