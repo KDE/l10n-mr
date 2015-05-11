@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-10 08:37+0000\n"
+"POT-Creation-Date: 2015-05-11 09:13+0000\n"
 "PO-Revision-Date: 2013-03-11 16:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -206,6 +206,24 @@ msgstr ""
 msgid "Start import KOrganizer settings..."
 msgstr ""
 
+#: console/main.cpp:30 console/main.cpp:31
+#: gui/pimsettingcommandlineoption.cpp:50
+#: gui/pimsettingcommandlineoption.cpp:51
+msgid "PIM Setting Exporter"
+msgstr "PIM संयोजना निर्यात करणारा"
+
+#: console/main.cpp:32
+msgid "Copyright © 2012-2014 pimsettingexporter authors"
+msgstr ""
+
+#: console/main.cpp:33 gui/pimsettingcommandlineoption.cpp:53
+msgid "Laurent Montel"
+msgstr "लोरेन्ट मोन्टेल"
+
+#: console/main.cpp:33 gui/pimsettingcommandlineoption.cpp:53
+msgid "Maintainer"
+msgstr "पालक"
+
 #: dialog/backupfilestructureinfodialog.cpp:38
 msgid "Archive File Structure"
 msgstr ""
@@ -267,33 +285,140 @@ msgstr ""
 msgid "Show information"
 msgstr ""
 
-#: importexportprogressindicatorgui.cpp:74
+#: gui/importexportprogressindicatorgui.cpp:74
 #, kde-format
 msgid "\"%1\" already exists. Do you want to overwrite it or merge it?"
 msgstr ""
 
-#: importexportprogressindicatorgui.cpp:74
-#: importexportprogressindicatorgui.cpp:79
-#: importexportprogressindicatorgui.cpp:84
+#: gui/importexportprogressindicatorgui.cpp:74
+#: gui/importexportprogressindicatorgui.cpp:79
+#: gui/importexportprogressindicatorgui.cpp:84
 msgid "Restore"
 msgstr "पुन्हस्थापन"
 
-#: importexportprogressindicatorgui.cpp:74
+#: gui/importexportprogressindicatorgui.cpp:74
 msgid "Overwrite"
 msgstr "खोडून लिहा"
 
-#: importexportprogressindicatorgui.cpp:74
+#: gui/importexportprogressindicatorgui.cpp:74
 msgid "Merge"
 msgstr ""
 
-#: importexportprogressindicatorgui.cpp:79
+#: gui/importexportprogressindicatorgui.cpp:79
 #, kde-format
 msgid "\"%1\" already exists. Do you want to overwrite it?"
 msgstr ""
 
-#: importexportprogressindicatorgui.cpp:84
+#: gui/importexportprogressindicatorgui.cpp:84
 #, kde-format
 msgid "Directory \"%1\" already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: gui/pimsettingcommandlineoption.cpp:52
+msgid "Copyright © 2012-2015 pimsettingexporter authors"
+msgstr ""
+
+#: gui/pimsettingcommandlineoption.cpp:56
+msgid "Template file uses to define what data, settings to import or export"
+msgstr ""
+
+#: gui/pimsettingcommandlineoption.cpp:57
+msgid "Import the given file"
+msgstr ""
+
+#: gui/pimsettingcommandlineoption.cpp:58
+msgid "Export the given file"
+msgstr ""
+
+#: gui/pimsettingcommandlineoption.cpp:59
+msgid "File or url. The user will be asked whether to import or export."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:75
+msgid "Zip program not found. Install it before to launch this application."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:75
+msgid "Zip program not found."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:108
+msgid ""
+"For restoring data, you must use \"pimsettingexporter\". Be careful it can "
+"overwrite existing settings, data."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:108
+#, fuzzy
+#| msgid "Backup"
+msgid "Backup infos."
+msgstr "बॅकअप"
+
+#: gui/pimsettingexporterwindow.cpp:133
+msgid "Back Up Data..."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:137
+msgid "Restore Data..."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:141
+msgid "Save log..."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:144
+msgid "Show Archive Structure Information..."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:147
+msgid "Show Archive Information..."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:175
+msgid "Select Archive"
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:188
+msgid "Log is empty."
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:188
+msgid "Save log"
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:198
+msgid ""
+"Before to backup data, close all kdepim applications. Do you want to "
+"continue?"
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:198 gui/pimsettingexporterwindow.cpp:257
+msgid "Backup"
+msgstr "बॅकअप"
+
+#: gui/pimsettingexporterwindow.cpp:202
+msgid "Create backup"
+msgstr ""
+
+#: gui/pimsettingexporterwindow.cpp:248
+msgid "Restore backup"
+msgstr "बॅकअप पुन्ह स्थापन"
+
+#: gui/pimsettingexporterwindow.cpp:257
+msgid ""
+"Before to restore data, close all kdepim applications. Do you want to "
+"continue?"
+msgstr ""
+
+#: gui/pimsettingsbackuprestoreui.cpp:38
+msgid ""
+"The archive was created by a newer version of this program. It might contain "
+"additional data which will be skipped during import. Do you want to import "
+"it?"
+msgstr ""
+
+#: gui/pimsettingsbackuprestoreui.cpp:38
+msgid "Not correct version"
 msgstr ""
 
 #: mail/exportmailjob.cpp:56
@@ -450,141 +575,22 @@ msgstr ""
 msgid "Start import KNotes settings..."
 msgstr ""
 
-#: pimsettingcommandlineoption.cpp:50 pimsettingcommandlineoption.cpp:51
-msgid "PIM Setting Exporter"
-msgstr "PIM संयोजना निर्यात करणारा"
-
-#: pimsettingcommandlineoption.cpp:52
-msgid "Copyright © 2012-2015 pimsettingexporter authors"
-msgstr ""
-
-#: pimsettingcommandlineoption.cpp:53
-msgid "Laurent Montel"
-msgstr "लोरेन्ट मोन्टेल"
-
-#: pimsettingcommandlineoption.cpp:53
-msgid "Maintainer"
-msgstr "पालक"
-
-#: pimsettingcommandlineoption.cpp:56
-msgid "Template file uses to define what data, settings to import or export"
-msgstr ""
-
-#: pimsettingcommandlineoption.cpp:57
-msgid "Import the given file"
-msgstr ""
-
-#: pimsettingcommandlineoption.cpp:58
-msgid "Export the given file"
-msgstr ""
-
-#: pimsettingcommandlineoption.cpp:59
-msgid "File or url. The user will be asked whether to import or export."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:98
-msgid "Zip program not found. Install it before to launch this application."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:98
-msgid "Zip program not found."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:133
-msgid "Back Up Data..."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:137
-msgid "Restore Data..."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:141
-msgid "Save log..."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:144
-msgid "Show Archive Structure Information..."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:147
-msgid "Show Archive Information..."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:175
-msgid "Select Archive"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:188
-msgid "Log is empty."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:188
-msgid "Save log"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:198
-msgid ""
-"Before to backup data, close all kdepim applications. Do you want to "
-"continue?"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:198 pimsettingexporterwindow.cpp:349
-msgid "Backup"
-msgstr "बॅकअप"
-
-#: pimsettingexporterwindow.cpp:202
-msgid "Create backup"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:244 pimsettingsbackuprestore.cpp:96
+#: pimsettingsbackuprestore.cpp:96
 #, kde-format
 msgid "Start to backup data in '%1'"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:307 pimsettingsbackuprestore.cpp:159
+#: pimsettingsbackuprestore.cpp:160
 #, kde-format
 msgid "Backup in '%1' done."
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:314
-msgid ""
-"For restoring data, you must use \"pimsettingexporter\". Be careful it can "
-"overwrite existing settings, data."
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:314
-#, fuzzy
-#| msgid "Backup"
-msgid "Backup infos."
-msgstr "बॅकअप"
-
-#: pimsettingexporterwindow.cpp:340
-msgid "Restore backup"
-msgstr "बॅकअप पुन्ह स्थापन"
-
-#: pimsettingexporterwindow.cpp:349
-msgid ""
-"Before to restore data, close all kdepim applications. Do you want to "
-"continue?"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:438 pimsettingsbackuprestoreui.cpp:38
-msgid ""
-"The archive was created by a newer version of this program. It might contain "
-"additional data which will be skipped during import. Do you want to import "
-"it?"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:438 pimsettingsbackuprestoreui.cpp:38
-msgid "Not correct version"
-msgstr ""
-
-#: pimsettingexporterwindow.cpp:448 pimsettingsbackuprestore.cpp:258
+#: pimsettingsbackuprestore.cpp:258
 #, kde-format
 msgid "Start to restore data from '%1'"
 msgstr ""
 
-#: pimsettingexporterwindow.cpp:455 pimsettingsbackuprestore.cpp:266
+#: pimsettingsbackuprestore.cpp:266
 #, kde-format
 msgid "Restoring data from '%1' done."
 msgstr ""
