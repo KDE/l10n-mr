@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-21 05:50+0000\n"
+"POT-Creation-Date: 2015-06-22 05:52+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -81,12 +81,12 @@ msgstr "पालक"
 #: ui/KisDocument.cpp:1215 ui/KisDocument.cpp:1259 ui/KisDocument.cpp:1399
 #: ui/KisDocument.cpp:2030 ui/KisDocument.cpp:2033
 #: ui/KisImportExportManager.cpp:230 ui/KisImportExportManager.cpp:241
-#: ui/KisImportExportManager.cpp:531 ui/KisMainWindow.cpp:662
-#: ui/KisMainWindow.cpp:714 ui/KisMainWindow.cpp:728 ui/KisMainWindow.cpp:1405
-#: ui/KisMainWindow.cpp:1588 ui/KisMainWindow.cpp:1600
+#: ui/KisImportExportManager.cpp:531 ui/KisMainWindow.cpp:671
+#: ui/KisMainWindow.cpp:723 ui/KisMainWindow.cpp:737 ui/KisMainWindow.cpp:1414
+#: ui/KisMainWindow.cpp:1597 ui/KisMainWindow.cpp:1609
 #: ui/KisTemplateCreateDia.cpp:322 ui/KisView.cpp:840
 #: ui/opengl/kis_opengl.cpp:91 ui/opengl/kis_opengl_canvas2.cpp:513
-#: ui/thememanager.cpp:271 ui/widgets/kis_custom_image_widget.cc:245
+#: ui/thememanager.cpp:271 ui/widgets/kis_custom_image_widget.cc:246
 #, fuzzy
 #| msgid "Krita"
 msgctxt "@title:window"
@@ -683,10 +683,10 @@ msgstr "L_झाडे"
 
 #: i18ndata:52
 #, fuzzy
-#| msgid "Brush Tip"
+#| msgid "Soft brush"
 msgctxt "./data/brushes/LJF_smoke_c.gih"
-msgid "GIMP Brush Pipe"
-msgstr "कुंचल्याचे टोक"
+msgid "Smoke Pipebrush"
+msgstr "हलका कुंचला"
 
 #: i18ndata:53
 #, fuzzy
@@ -2041,8 +2041,8 @@ msgstr "पोस्ट प्रोसेसिंग"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2482 ui/KisMainWindow.cpp:846 ui/KisPart.cpp:586
-#: ui/KisPart.cpp:602 ui/kra/kis_kra_saver.cpp:69
+#: ui/KisDocument.cpp:2482 ui/KisMainWindow.cpp:855 ui/KisPart.cpp:580
+#: ui/KisPart.cpp:596 ui/kra/kis_kra_saver.cpp:70
 msgid "Unnamed"
 msgstr "निनावी"
 
@@ -4233,7 +4233,7 @@ msgstr "पूर्वावलोकन"
 
 #: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:97
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
-#: ui/KisMainWindow.cpp:627 ui/widgets/kis_workspace_chooser.cpp:93
+#: ui/KisMainWindow.cpp:636 ui/widgets/kis_workspace_chooser.cpp:93
 msgid "Save"
 msgstr "साठवा"
 
@@ -10577,7 +10577,7 @@ msgid "Grow selection: "
 msgstr "निवड वाढवा द्वारा"
 
 #: plugins/tools/defaulttools/kis_tool_fill.cc:189
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:184
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:186
 msgid "Feathering radius: "
 msgstr "फेदरिंग त्रिज्या"
 
@@ -10787,12 +10787,12 @@ msgstr "कुंचल्याची संख्या"
 msgid "Multibrush Tool"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_path.cc:81
+#: plugins/tools/defaulttools/kis_tool_path.cc:95
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_path.h:81
+#: plugins/tools/defaulttools/kis_tool_path.h:85
 #, fuzzy
 #| msgid "Draw a polyline. Shift-mouseclick ends the polyline."
 msgid "Bezier Curve Tool. Shift-mouseclick ends the curve."
@@ -10916,135 +10916,137 @@ msgstr "दृश्य आशयासह असलेला पहिला �
 msgid "Move the whole group"
 msgstr "संपूर्ण समूह हलवा"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:54
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:55
 msgid "Contiguous Area Selection"
 msgstr "सलग भाग निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:111
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:114
 #, fuzzy
 #| msgid "Select a contiguous area of colors"
 msgctxt "(qtundo-format)"
 msgid "Select Contiguous Area"
 msgstr "रंगांचा सलग भाग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:156
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:146
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:158
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:148
 msgid "Fuzziness: "
 msgstr "फझीनेस : "
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:170
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:172
 msgid "Grow/shrink selection: "
 msgstr "वाढवा/घटवा निवड : "
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:197
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:199
 msgid "Limit to current layer"
 msgstr "वर्तमान स्तरापुरतेच मर्यादित"
 
-#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:75
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.h:82
 #, fuzzy
 #| msgid "Contiguous Area Selection"
 msgid "Contiguous Selection Tool"
 msgstr "सलग भाग निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:39
-msgid "Elliptical Selection"
-msgstr "लंबवर्तुळीय निवड"
-
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:71
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:58
 #, fuzzy
 #| msgid "Select All"
 msgctxt "(qtundo-format)"
 msgid "Select Ellipse"
 msgstr "सर्व निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:54
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:87
+msgid "Elliptical Selection"
+msgstr "लंबवर्तुळीय निवड"
+
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.h:74
 #, fuzzy
 #| msgid "Elliptical Selection"
 msgid "Elliptical Selection Tool"
 msgstr "लंबवर्तुळीय निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:58
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:61
 msgid "Outline Selection"
 msgstr "निवडीची रूपरेषा"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.cc:105
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:116
 #, fuzzy
 #| msgid "Select an area by its outline"
 msgctxt "(qtundo-format)"
 msgid "Select by Outline"
 msgstr "रूपरेषेनुसार भाग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_outline.h:66
+#: plugins/tools/selectiontools/kis_tool_select_outline.h:71
 #, fuzzy
 #| msgid "Outline Selection"
 msgid "Outline Selection Tool"
 msgstr "निवडीची रूपरेषा"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:95
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:37
+#, fuzzy
+#| msgid "Select Opaque"
+msgid "Select path"
+msgstr "अपारदर्शक निवडा"
+
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:120
 #, fuzzy
 #| msgid "Select by brush"
 msgctxt "(qtundo-format)"
 msgid "Select by Bezier Curve"
 msgstr "कुंचल्याने निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.h:51
-msgid "Path Selection"
-msgstr "मार्ग निवड"
-
-#: plugins/tools/selectiontools/kis_tool_select_path.h:82
+#: plugins/tools/selectiontools/kis_tool_select_path.h:89
 #, fuzzy
 #| msgid "Brush Selection"
 msgid "Bezier Curve Selection Tool"
 msgstr "कुंचल्याची निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:42
-msgid "Polygonal Selection"
-msgstr "बहुभुजाकृती निवड"
-
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:89
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:57
 #, fuzzy
 #| msgid "&Selection"
 msgctxt "(qtundo-format)"
 msgid "Select Polygon"
 msgstr "निवड (&S)"
 
-#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:62
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:95
+msgid "Polygonal Selection"
+msgstr "बहुभुजाकृती निवड"
+
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.h:67
 #, fuzzy
 #| msgid "Polygonal Selection"
 msgid "Polygonal Selection Tool"
 msgstr "बहुभुजाकृती निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:42
-msgid "Rectangular Selection"
-msgstr "चौकोनी निवड"
-
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:88
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:53
 #, fuzzy
 #| msgid "Select a rectangular area"
 msgctxt "(qtundo-format)"
 msgid "Select Rectangle"
 msgstr "चौकोनी भाग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:63
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:83
+msgid "Rectangular Selection"
+msgstr "चौकोनी निवड"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.h:67
 #, fuzzy
 #| msgid "Rectangular Selection"
 msgid "Rectangular Selection Tool"
 msgstr "चौकोनी निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:79
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:78
 #, fuzzy
 #| msgid "Similar Selection"
 msgid "Similar Color Selection"
 msgstr "समान निवड"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.cc:126
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:127
 #, fuzzy
 #| msgid "Select similar colors"
 msgctxt "(qtundo-format)"
 msgid "Select Similar Color"
 msgstr "समान रंग निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_similar.h:54
+#: plugins/tools/selectiontools/kis_tool_select_similar.h:65
 #, fuzzy
 #| msgid "Similar Selection"
 msgid "Similar Color Selection Tool"
@@ -14115,23 +14117,23 @@ msgstr "प्राथमिक पद्धत चालू/बंद कर�
 msgid "Secondary Mode"
 msgstr "द्वितिय पद्धत चालू/बंद करा"
 
-#: ui/input/kis_alternate_invocation_action.cpp:46
+#: ui/input/kis_alternate_invocation_action.cpp:47
 #, fuzzy
 #| msgid "Fill Palette from Current Layer"
 msgid "Pick Foreground Color from Current Layer"
 msgstr "वर्तमान स्तरातून  पटल भरा"
 
-#: ui/input/kis_alternate_invocation_action.cpp:47
+#: ui/input/kis_alternate_invocation_action.cpp:48
 #, fuzzy
 #| msgid "Fill Palette from Current Layer"
 msgid "Pick Background Color from Current Layer"
 msgstr "वर्तमान स्तरातून  पटल भरा"
 
-#: ui/input/kis_alternate_invocation_action.cpp:49
+#: ui/input/kis_alternate_invocation_action.cpp:50
 msgid "Pick Foreground Color from Merged Image"
 msgstr ""
 
-#: ui/input/kis_alternate_invocation_action.cpp:50
+#: ui/input/kis_alternate_invocation_action.cpp:51
 msgid "Pick Background Color from Merged Image"
 msgstr ""
 
@@ -18163,7 +18165,7 @@ msgid ""
 "Error message: %4"
 msgstr ""
 
-#: ui/KisDocument.cpp:1539 ui/KisMainWindow.cpp:662
+#: ui/KisDocument.cpp:1539 ui/KisMainWindow.cpp:671
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
@@ -18341,85 +18343,85 @@ msgstr "मूळ स्तर दर्शवा"
 msgid "Hide %1 Toolbar"
 msgstr "स्क्रोलबार्स"
 
-#: ui/KisMainWindow.cpp:617
+#: ui/KisMainWindow.cpp:626
 msgid "(write protected)"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:625
+#: ui/KisMainWindow.cpp:634
 #, fuzzy, kde-format
 #| msgid "Save macro"
 msgid "Save as %1"
 msgstr "मॅक्रो साठवा"
 
-#: ui/KisMainWindow.cpp:827
+#: ui/KisMainWindow.cpp:836
 #, fuzzy
 #| msgid "untitled-1"
 msgid "untitled"
 msgstr "शिर्षकहीन-1"
 
-#: ui/KisMainWindow.cpp:1136
+#: ui/KisMainWindow.cpp:1145
 #, fuzzy
 #| msgid "Small Tiles"
 msgid "All files (*.*)"
 msgstr "लहान फरशा"
 
-#: ui/KisMainWindow.cpp:1139
+#: ui/KisMainWindow.cpp:1148
 #, fuzzy
 #| msgid "Import Image"
 msgid "Import Images"
 msgstr "प्रतिमा आयात करा"
 
-#: ui/KisMainWindow.cpp:1139
+#: ui/KisMainWindow.cpp:1148
 #, fuzzy
 #| msgid "Images"
 msgid "Open Images"
 msgstr "प्रतिमा"
 
-#: ui/KisMainWindow.cpp:1363
+#: ui/KisMainWindow.cpp:1372
 #, fuzzy
 #| msgid "Export Layer"
 msgid "Export as PDF"
 msgstr "निर्यात स्तर"
 
-#: ui/KisMainWindow.cpp:1405
+#: ui/KisMainWindow.cpp:1414
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1558
+#: ui/KisMainWindow.cpp:1567
 #, fuzzy
 #| msgid "Open in New Documents"
 msgid "Document"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/KisMainWindow.cpp:1566
+#: ui/KisMainWindow.cpp:1575
 #, fuzzy, kde-format
 #| msgid "Open in New Documents"
 msgid "Document - %1"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/KisMainWindow.cpp:1589
+#: ui/KisMainWindow.cpp:1598
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1600
+#: ui/KisMainWindow.cpp:1609
 #, fuzzy
 #| msgid "Could not add layer to image."
 msgid "Error: Could not reload this document"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: ui/KisMainWindow.cpp:1858
+#: ui/KisMainWindow.cpp:1867
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1862
+#: ui/KisMainWindow.cpp:1871
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1948
+#: ui/KisMainWindow.cpp:1957
 msgid ""
 "The Calligra LittleCMS color management plugin is not installed. Krita will "
 "quit now."
@@ -18427,115 +18429,115 @@ msgstr ""
 "The Calligra LittleCMS color management plugin स्थापित केलेली नाही. क्रिटा आता "
 "बंद होईल."
 
-#: ui/KisMainWindow.cpp:1956
+#: ui/KisMainWindow.cpp:1965
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1965
+#: ui/KisMainWindow.cpp:1974
 #, fuzzy
 #| msgid "Installation error"
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "प्रतिष्ठापना त्रुटी"
 
-#: ui/KisMainWindow.cpp:2024
+#: ui/KisMainWindow.cpp:2033
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2060
+#: ui/KisMainWindow.cpp:2069
 #, fuzzy
 #| msgid "Export Layer"
 msgctxt "@action:inmenu"
 msgid "Export as PDF..."
 msgstr "निर्यात स्तर"
 
-#: ui/KisMainWindow.cpp:2068
+#: ui/KisMainWindow.cpp:2077
 #, fuzzy
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close All"
 msgstr "बंद करा"
 
-#: ui/KisMainWindow.cpp:2079
+#: ui/KisMainWindow.cpp:2088
 #, fuzzy
 #| msgid "Open in New Document"
 msgctxt "@action:inmenu"
 msgid "Open ex&isting Document as Untitled Document..."
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/KisMainWindow.cpp:2083
+#: ui/KisMainWindow.cpp:2092
 #, fuzzy
 #| msgid "Exposure"
 msgctxt "@action:inmenu"
 msgid "E&xport..."
 msgstr "एक्सपोजर"
 
-#: ui/KisMainWindow.cpp:2090
+#: ui/KisMainWindow.cpp:2099
 #, fuzzy
 #| msgid "Tool information"
 msgctxt "@action:inmenu"
 msgid "Document Information"
 msgstr "साधनांची माहिती"
 
-#: ui/KisMainWindow.cpp:2098
+#: ui/KisMainWindow.cpp:2107
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2104
+#: ui/KisMainWindow.cpp:2113
 #, fuzzy
 #| msgid "Show Rulers"
 msgctxt "@action:inmenu"
 msgid "Show Dockers"
 msgstr "मोजपट्ट्या दर्शवा"
 
-#: ui/KisMainWindow.cpp:2110
+#: ui/KisMainWindow.cpp:2119
 #, fuzzy
 #| msgid "Show Rulers"
 msgctxt "@action:inmenu"
 msgid "Show Docker Titlebars"
 msgstr "मोजपट्ट्या दर्शवा"
 
-#: ui/KisMainWindow.cpp:2120
+#: ui/KisMainWindow.cpp:2129
 msgctxt "@action:inmenu"
 msgid "Cascade"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2125
+#: ui/KisMainWindow.cpp:2134
 msgctxt "@action:inmenu"
 msgid "Tile"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2130
+#: ui/KisMainWindow.cpp:2139
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:inmenu"
 msgid "Next"
 msgstr "पुढील"
 
-#: ui/KisMainWindow.cpp:2135
+#: ui/KisMainWindow.cpp:2144
 #, fuzzy
 #| msgid "Previous Favourite Preset"
 msgctxt "@action:inmenu"
 msgid "Previous"
 msgstr "मागील पसंत प्रीसेट"
 
-#: ui/KisMainWindow.cpp:2140
+#: ui/KisMainWindow.cpp:2149
 #, fuzzy
 #| msgid "Maintainer"
 msgctxt "@action:inmenu"
 msgid "&New Window"
 msgstr "पालक"
 
-#: ui/KisMainWindow.cpp:2144
+#: ui/KisMainWindow.cpp:2153
 #, fuzzy
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr "बंद करा"
 
-#: ui/KisMainWindow.cpp:2152
+#: ui/KisMainWindow.cpp:2161
 msgid "Expanding Spacer"
 msgstr ""
 
@@ -18551,13 +18553,13 @@ msgstr "नवीन दस्तऐवजात उघडा"
 msgid "Custom Document"
 msgstr "ऐच्छिक ग्रेडियंट"
 
-#: ui/KisPart.cpp:443
+#: ui/KisPart.cpp:437
 #, fuzzy
 #| msgid "Printing"
 msgid "Print"
 msgstr "छपाई"
 
-#: ui/KisPart.cpp:604
+#: ui/KisPart.cpp:598
 #, fuzzy
 #| msgid "&First layer from clipboard"
 msgid "Create from Clipboard"
@@ -20287,7 +20289,7 @@ msgstr "रंग रूपरेषा डाउनलोड करा"
 msgid "Share Color Profile"
 msgstr "रंग रूपरेषा शेअर करा"
 
-#: ui/widgets/kis_custom_image_widget.cc:246
+#: ui/widgets/kis_custom_image_widget.cc:247
 msgid ""
 "Linear gamma RGB color spaces are not supposed to be used in 8-bit integer "
 "modes. It is suggested to use 16-bit integer or any floating point "
@@ -20406,6 +20408,15 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#, fuzzy
+#~| msgid "Brush Tip"
+#~ msgctxt "./data/brushes/LJF_smoke_c.gih"
+#~ msgid "GIMP Brush Pipe"
+#~ msgstr "कुंचल्याचे टोक"
+
+#~ msgid "Path Selection"
+#~ msgstr "मार्ग निवड"
 
 #~ msgid "&Brightness/Contrast curve..."
 #~ msgstr "प्रखरता/विरोधाभास वलय (&B)..."
@@ -21906,9 +21917,6 @@ msgstr "कार्यक्षेत्र %1"
 #~ msgctxt "Category of brush engines"
 #~ msgid "Experimental"
 #~ msgstr "प्रायोगिक"
-
-#~ msgid "Soft brush"
-#~ msgstr "हलका कुंचला"
 
 #~ msgid "Gaussian brush"
 #~ msgstr "गॉसियन कुंचला"
