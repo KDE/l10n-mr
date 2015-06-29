@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-28 05:42+0000\n"
+"POT-Creation-Date: 2015-06-29 05:57+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -4640,12 +4640,20 @@ msgid "&Channel:"
 msgstr "माध्यम (&C):"
 
 #. i18n: ectx: property (text), widget (QPushButton, zoomIn)
+#. i18n: ectx: property (text), widget (QPushButton, pb_more_contrast)
+#. i18n: ectx: property (text), widget (QPushButton, pb_more_brightness)
 #: plugins/extensions/histogram/wdghistogram.ui:141
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:241
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:261
 msgid "+"
 msgstr "+"
 
 #. i18n: ectx: property (text), widget (QPushButton, zoomOut)
+#. i18n: ectx: property (text), widget (QPushButton, pb_less_contrast)
+#. i18n: ectx: property (text), widget (QPushButton, pb_less_brightness)
 #: plugins/extensions/histogram/wdghistogram.ui:154
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:221
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:271
 msgid "-"
 msgstr "-"
 
@@ -6578,13 +6586,21 @@ msgstr "मर्यादा :"
 msgid "Color Picker:"
 msgstr "रंग निवडणारा"
 
-#: plugins/filters/colorsfilters/colorsfilters.cpp:87
+#: plugins/filters/colorsfilters/colorsfilters.cpp:89
 msgid "&Auto Contrast"
 msgstr "स्वयंचलित विरोधाभास (&A)"
 
 #: plugins/filters/colorsfilters/colorsfilters.h:49
 msgid "Auto Contrast"
 msgstr "स्वयंचलित विरोधाभास"
+
+#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.cpp:163
+msgid "&Brightness/Contrast curve..."
+msgstr "प्रखरता/विरोधाभास वलय (&B)..."
+
+#: plugins/filters/colorsfilters/kis_brightness_contrast_filter.h:92
+msgid "Brightness / Contrast"
+msgstr "प्रखरता / विरोधाभास"
 
 #: plugins/filters/colorsfilters/kis_color_balance_filter.cpp:27
 #, fuzzy
@@ -6634,6 +6650,23 @@ msgstr "रंग सुस्थित करणारी वलये (&C)..."
 #: plugins/filters/colorsfilters/kis_perchannel_filter.h:93
 msgid "Color Adjustment"
 msgstr "रंग सुस्थित करा"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPerChannel)
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgBrightnessContrast)
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:20
+#: plugins/filters/colorsfilters/wdg_perchannel.ui:14
+msgid "BrightnessCon"
+msgstr "ब्राईटनेसकॉन"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelBrightness)
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:231
+msgid "Brightness"
+msgstr "प्रखरता"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelContrast)
+#: plugins/filters/colorsfilters/wdg_brightness_contrast.ui:251
+msgid "Contrast"
+msgstr "विरोधाभास"
 
 #. i18n: ectx: property (text), widget (QPushButton, pushResetShadows)
 #: plugins/filters/colorsfilters/wdg_color_balance.ui:62
@@ -6791,11 +6824,6 @@ msgstr "वर्णछटा/गडदपणा/मूल्य"
 #: plugins/filters/colorsfilters/wdg_hsv_adjustment.ui:164
 msgid "Hue/Saturation/Lightness"
 msgstr "वर्णछटा/गडदपणा/हलकेपणा"
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, WdgPerChannel)
-#: plugins/filters/colorsfilters/wdg_perchannel.ui:14
-msgid "BrightnessCon"
-msgstr "ब्राईटनेसकॉन"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: plugins/filters/colorsfilters/wdg_perchannel.ui:201
@@ -20462,18 +20490,6 @@ msgstr "कार्यक्षेत्र %1"
 
 #~ msgid "Path Selection"
 #~ msgstr "मार्ग निवड"
-
-#~ msgid "&Brightness/Contrast curve..."
-#~ msgstr "प्रखरता/विरोधाभास वलय (&B)..."
-
-#~ msgid "Brightness / Contrast"
-#~ msgstr "प्रखरता / विरोधाभास"
-
-#~ msgid "Brightness"
-#~ msgstr "प्रखरता"
-
-#~ msgid "Contrast"
-#~ msgstr "विरोधाभास"
 
 #~ msgctxt "horizontal resolution"
 #~ msgid "Horizontal:"
