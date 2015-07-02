@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-19 09:10+0000\n"
+"POT-Creation-Date: 2015-07-02 09:12+0000\n"
 "PO-Revision-Date: 2013-03-15 13:24+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -38,8 +38,8 @@ msgid "Configure Email Blacklist..."
 msgstr ""
 
 #: addressline/addresslineedit/addresseelineedit_p.cpp:140
-#: addressline/addresslineedit/addresseelineedit_p.cpp:849
-#: addressline/addresslineedit/addresseelineedit_p.cpp:850
+#: addressline/addresslineedit/addresseelineedit_p.cpp:844
+#: addressline/addresslineedit/addresseelineedit_p.cpp:845
 msgctxt "@title:group"
 msgid "Contacts found in your data"
 msgstr ""
@@ -54,49 +54,56 @@ msgstr "LDAP सर्व्हर संयोजना"
 msgid "Blacklist Email Completion"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:46
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:47
 #, fuzzy
 #| msgid "Search for:"
 msgid "Search email:"
 msgstr "याकरिता शोधा :"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:51
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:52
 msgid "Research is done from 3 characters"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:59
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:60
 #, fuzzy
 #| msgctxt "@action:button Start searching"
 #| msgid "&Search"
 msgid "Search"
 msgstr "शोध (&S)"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:71
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:76
+#, fuzzy
+#| msgctxt "@action:button Start searching"
+#| msgid "&Search"
+msgid "Search in result..."
+msgstr "शोध (&S)"
+
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:83
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select"
 msgstr "सर्व निवडा"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:76
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:88
 #, fuzzy
 #| msgid "Unselect All"
 msgid "&Unselect"
 msgstr "सर्व निवड काढून टाका"
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:81
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:93
 msgid "<qt><a href=\"more_result\">More result...</a></qt>"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:96
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:108
 msgid "Exclude domain names:"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:105
+#: addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp:117
 #, kde-format
 msgid "Separate domain with '%1'"
 msgstr ""
 
-#: addressline/blacklistbaloocompletion/blacklistbalooemaillist.cpp:128
+#: addressline/blacklistbaloocompletion/blacklistbalooemaillist.cpp:129
 msgid "No result found"
 msgstr ""
 
@@ -361,13 +368,11 @@ msgctxt "@item LDAP search key"
 msgid "Email"
 msgstr "इमेल"
 
-#: ldap/ldapsearchdialog.cpp:106 ldap/ldapsearchdialog.cpp:148
-#: ldap/ldapsearchdialog.cpp:319
+#: ldap/ldapsearchdialog.cpp:106 ldap/ldapsearchdialog.cpp:319
 msgid "Home Number"
 msgstr ""
 
-#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:150
-#: ldap/ldapsearchdialog.cpp:322
+#: ldap/ldapsearchdialog.cpp:107 ldap/ldapsearchdialog.cpp:322
 msgid "Work Number"
 msgstr ""
 
@@ -427,16 +432,6 @@ msgstr "वर्णन"
 #: ldap/ldapsearchdialog.cpp:121 ldap/ldapsearchdialog.cpp:362
 msgid "User ID"
 msgstr "वापरकर्ता ID :"
-
-#: ldap/ldapsearchdialog.cpp:141
-msgctxt "Search attribute: Name of contact"
-msgid "Name"
-msgstr "नाव"
-
-#: ldap/ldapsearchdialog.cpp:146
-msgctxt "Search attribute: Email of the contact"
-msgid "Email"
-msgstr "इमेल"
 
 #: ldap/ldapsearchdialog.cpp:316
 msgctxt "@title:column Column containing email addresses"
@@ -714,6 +709,14 @@ msgstr ""
 msgctxt "@info"
 msgid "Select the address book where the contact will be saved:"
 msgstr ""
+
+#~ msgctxt "Search attribute: Name of contact"
+#~ msgid "Name"
+#~ msgstr "नाव"
+
+#~ msgctxt "Search attribute: Email of the contact"
+#~ msgid "Email"
+#~ msgstr "इमेल"
 
 #~ msgctxt "collection size"
 #~ msgid "Size"
