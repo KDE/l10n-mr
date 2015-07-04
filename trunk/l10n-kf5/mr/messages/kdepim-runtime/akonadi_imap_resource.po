@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-29 08:21+0000\n"
+"POT-Creation-Date: 2015-07-04 09:12+0000\n"
 "PO-Revision-Date: 2013-03-13 11:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -191,18 +191,23 @@ msgstr ""
 msgid "Define alternate URL"
 msgstr ""
 
-#. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
+#. i18n: ectx: label, entry (AlternateAuthentication), group (siever)
 #: imapresource.kcfg:102
+msgid "Defines the authentication type to use for alternate server"
+msgstr ""
+
+#. i18n: ectx: label, entry (SieveVacationFilename), group (siever)
+#: imapresource.kcfg:106
 msgid "Define default sieve vacation filename"
 msgstr ""
 
 #. i18n: ectx: label, entry (SieveCustomUsername), group (siever)
-#: imapresource.kcfg:106
+#: imapresource.kcfg:110
 msgid "Define username used from custom server sieve url"
 msgstr ""
 
 #. i18n: ectx: label, entry (SieveCustomAuthentification), group (siever)
-#: imapresource.kcfg:110
+#: imapresource.kcfg:114
 msgid "Defines the type of identification used by custom sieve server"
 msgstr ""
 
@@ -401,7 +406,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ServerInfo)
 #. i18n: ectx: property (text), widget (QPushButton, showServerInfo)
-#: serverinfo.ui:14 setupserverview_desktop.ui:589
+#: serverinfo.ui:14 setupserverview_desktop.ui:642
 #: setupserverview_mobile.ui:434
 msgid "Server Info"
 msgstr ""
@@ -527,40 +532,40 @@ msgid_plural " minutes"
 msgstr[0] " मिनिट"
 msgstr[1] " मिनिटे"
 
-#: setupserver.cpp:382
+#: setupserver.cpp:388
 msgid ""
 "Could not access KWallet. If you want to store the password permanently then "
 "you have to activate it. If you do not want to use KWallet, check the box "
 "below, but note that you will be prompted for your password when needed."
 msgstr ""
 
-#: setupserver.cpp:387
+#: setupserver.cpp:393
 msgid "Do not use KWallet"
 msgstr ""
 
-#: setupserver.cpp:495
+#: setupserver.cpp:501
 msgid "Unable to connect to the server, please verify the server address."
 msgstr ""
 
-#: setupserver.cpp:507
+#: setupserver.cpp:513
 msgid "<qt><b>TLS is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:510
+#: setupserver.cpp:516
 msgid "<qt><b>SSL is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:513
+#: setupserver.cpp:519
 msgid ""
 "<qt><b>No security is supported. It is not recommended to connect to this "
 "server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:516
+#: setupserver.cpp:522
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:616
+#: setupserver.cpp:622
 msgid "Serverside Subscription"
 msgstr ""
 
@@ -590,7 +595,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: setupserverview_desktop.ui:50
-msgid "IMAP Server:"
+msgid "I&MAP Server:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_2)
@@ -599,10 +604,10 @@ msgid "The username."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: ectx: property (text), widget (QLabel, label_12)
-#: setupserverview_desktop.ui:70 setupserverview_desktop.ui:272
-#: setupserverview_mobile.ui:166
-msgid "Username:"
+#: setupserverview_desktop.ui:70
+#, fuzzy
+#| msgid "Username:"
+msgid "&Username:"
 msgstr "वापरकर्ता नाव :"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, label_3)
@@ -612,48 +617,48 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: setupserverview_desktop.ui:90 setupserverview_desktop.ui:265
+#: setupserverview_desktop.ui:90 setupserverview_desktop.ui:293
 #: setupserverview_mobile.ui:182
 msgid "Password:"
 msgstr "गुप्तशब्द :"
 
 #. i18n: ectx: property (title), widget (QGroupBox, checkOptions)
-#: setupserverview_desktop.ui:114
+#: setupserverview_desktop.ui:113
 msgid "Mail Checking Options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disconnectedModeEnabled)
-#: setupserverview_desktop.ui:120 setupserverview_mobile.ui:305
+#: setupserverview_desktop.ui:119 setupserverview_mobile.ui:305
 msgid "&Download all messages for offline use"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableMailCheckBox)
-#: setupserverview_desktop.ui:127
+#: setupserverview_desktop.ui:126
 msgid "Enable &interval mail checking"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: setupserverview_desktop.ui:136
+#: setupserverview_desktop.ui:135
 msgid "Check mail interval:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: setupserverview_desktop.ui:172
+#: setupserverview_desktop.ui:171
 msgid "Filtering"
 msgstr "गाळणी"
 
 #. i18n: ectx: property (text), widget (QCheckBox, managesieveCheck)
-#: setupserverview_desktop.ui:178 setupserverview_mobile.ui:386
+#: setupserverview_desktop.ui:177 setupserverview_mobile.ui:386
 msgid "Server supports Sieve"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, sameConfigCheck)
-#: setupserverview_desktop.ui:185 setupserverview_mobile.ui:393
+#: setupserverview_desktop.ui:184 setupserverview_mobile.ui:393
 msgid "Reuse host and login configuration"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: setupserverview_desktop.ui:192
+#: setupserverview_desktop.ui:191
 msgid ""
 "The server port changed when ManageSieve turned into a full RFC Standard. "
 "Old server implementations still use port 2000, while newer standard conform "
@@ -661,97 +666,165 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: setupserverview_desktop.ui:204 setupserverview_mobile.ui:415
+#: setupserverview_desktop.ui:203 setupserverview_mobile.ui:415
 msgid "Managesieve port:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: setupserverview_desktop.ui:222 setupserverview_mobile.ui:402
-msgid "Alternate URL:"
+#: setupserverview_desktop.ui:221
+msgid "Alternate Server:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, authentification)
-#: setupserverview_desktop.ui:239
+#: setupserverview_desktop.ui:237
 #, fuzzy
 #| msgid "Authentication:"
 msgid "Authentication"
 msgstr "अधिप्रमाणन :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noAuthentification)
-#: setupserverview_desktop.ui:255
+#: setupserverview_desktop.ui:250
 #, fuzzy
 #| msgid "Authentication:"
 msgid "No authentication"
 msgstr "अधिप्रमाणन :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customUserPassword)
-#: setupserverview_desktop.ui:279
-msgid "Username and Password"
+#: setupserverview_desktop.ui:260
+msgid "&Username and Password"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, imapUserPassword)
-#: setupserverview_desktop.ui:296
-msgid "IMAP Username and Password"
+#: setupserverview_desktop.ui:280
+msgid "I&MAP Username and Password"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: setupserverview_desktop.ui:300 setupserverview_mobile.ui:166
+msgid "Username:"
+msgstr "वापरकर्ता नाव :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_15)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: setupserverview_desktop.ui:309 setupserverview_desktop.ui:560
+msgid "Authentication:"
+msgstr "अधिप्रमाणन :"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:317 setupserverview_desktop.ui:568
+#: setupserverview_mobile.ui:231
+msgid "Clear text"
+msgstr "पाठ्य खोडा"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:322 setupserverview_desktop.ui:573
+#: setupserverview_mobile.ui:236
+msgid "LOGIN"
+msgstr "प्रवेश"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:327 setupserverview_desktop.ui:578
+#: setupserverview_mobile.ui:241
+msgid "PLAIN"
+msgstr "साधे"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:332 setupserverview_desktop.ui:583
+#: setupserverview_mobile.ui:246
+msgid "CRAM-MD5"
+msgstr "CRAM-MD5"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:337 setupserverview_desktop.ui:588
+#: setupserverview_mobile.ui:251
+msgid "DIGEST-MD5"
+msgstr "DIGEST-MD5"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:342 setupserverview_desktop.ui:593
+#: setupserverview_mobile.ui:256
+msgid "NTLM"
+msgstr "NTLM"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:347 setupserverview_desktop.ui:598
+#: setupserverview_mobile.ui:261
+msgid "GSSAPI"
+msgstr "GSSAPI"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
+#: setupserverview_desktop.ui:352 setupserverview_desktop.ui:603
+#: setupserverview_mobile.ui:266
+msgid "Anonymous"
+msgstr "निनावी"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: setupserverview_desktop.ui:326
+#: setupserverview_desktop.ui:379
 msgid "Advanced"
 msgstr "प्रगत"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: setupserverview_desktop.ui:332
+#: setupserverview_desktop.ui:385
 msgid "IMAP Settings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, subscriptionEnabled)
-#: setupserverview_desktop.ui:340
+#: setupserverview_desktop.ui:393
 msgid "Enable server-side subscriptions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, subscriptionButton)
-#: setupserverview_desktop.ui:350 setupserverview_mobile.ui:322
+#: setupserverview_desktop.ui:403 setupserverview_mobile.ui:322
 msgid "Serverside Subscription..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
-#: setupserverview_desktop.ui:359
+#: setupserverview_desktop.ui:412
 msgid "Automaticall&y compact folders (expunges deleted messages)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: setupserverview_desktop.ui:368 setupserverview_mobile.ui:338
+#: setupserverview_desktop.ui:421 setupserverview_mobile.ui:338
 msgid "Trash folder:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, identityBox)
-#: setupserverview_desktop.ui:380
+#: setupserverview_desktop.ui:433
 msgid "Identity Settings"
 msgstr "ओळख व्यवस्था"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, useDefaultIdentityCheck)
-#: setupserverview_desktop.ui:386 setupserverview_mobile.ui:350
+#: setupserverview_desktop.ui:439 setupserverview_mobile.ui:350
 msgid "Use the default identity for this account"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, useDefaultIdentityCheck)
-#: setupserverview_desktop.ui:389 setupserverview_mobile.ui:353
+#: setupserverview_desktop.ui:442 setupserverview_mobile.ui:353
 msgid "Use &default identity"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, identityLabel)
-#: setupserverview_desktop.ui:398 setupserverview_mobile.ui:371
+#: setupserverview_desktop.ui:451 setupserverview_mobile.ui:371
 msgid "Select the KMail identity used for this account"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
-#: setupserverview_desktop.ui:401 setupserverview_mobile.ui:374
+#: setupserverview_desktop.ui:454 setupserverview_mobile.ui:374
 msgid "Identity:"
 msgstr "ओळख :"
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, safeImap)
-#: setupserverview_desktop.ui:422
+#: setupserverview_desktop.ui:475
 msgid ""
 "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
 "REC-html40/strict.dtd\">\n"
@@ -777,88 +850,43 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, safeImap)
-#: setupserverview_desktop.ui:425
+#: setupserverview_desktop.ui:478
 msgid "Connection Settings"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, testButton)
-#: setupserverview_desktop.ui:431 setupserverview_mobile.ui:100
+#: setupserverview_desktop.ui:484 setupserverview_mobile.ui:100
 msgid "Auto Detect"
 msgstr "स्वयं शोधा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: setupserverview_desktop.ui:443
+#: setupserverview_desktop.ui:496
 msgid "Encryption:"
 msgstr "कुटलिपी :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, noRadio)
-#: setupserverview_desktop.ui:452 setupserverview_mobile.ui:125
+#: setupserverview_desktop.ui:505 setupserverview_mobile.ui:125
 msgid "None"
 msgstr "काही नाही"
 
 #. i18n: ectx: property (text), widget (QRadioButton, sslRadio)
-#: setupserverview_desktop.ui:465
+#: setupserverview_desktop.ui:518
 msgid "SSL/TLS"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, tlsRadio)
-#: setupserverview_desktop.ui:475
+#: setupserverview_desktop.ui:528
 msgid "STARTTLS"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: setupserverview_desktop.ui:487 setupserverview_mobile.ui:199
+#: setupserverview_desktop.ui:540 setupserverview_mobile.ui:199
 msgid "Port:"
 msgstr "पोर्ट :"
 
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#: setupserverview_desktop.ui:507
-msgid "Authentication:"
-msgstr "अधिप्रमाणन :"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:515 setupserverview_mobile.ui:231
-msgid "Clear text"
-msgstr "पाठ्य खोडा"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:520 setupserverview_mobile.ui:236
-msgid "LOGIN"
-msgstr "प्रवेश"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:525 setupserverview_mobile.ui:241
-msgid "PLAIN"
-msgstr "साधे"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:530 setupserverview_mobile.ui:246
-msgid "CRAM-MD5"
-msgstr "CRAM-MD5"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:535 setupserverview_mobile.ui:251
-msgid "DIGEST-MD5"
-msgstr "DIGEST-MD5"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:540 setupserverview_mobile.ui:256
-msgid "NTLM"
-msgstr "NTLM"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:545 setupserverview_mobile.ui:261
-msgid "GSSAPI"
-msgstr "GSSAPI"
-
-#. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserverview_desktop.ui:550 setupserverview_mobile.ui:266
-msgid "Anonymous"
-msgstr "निनावी"
-
 #. i18n: ectx: property (text), widget (QLabel, testInfo)
-#: setupserverview_desktop.ui:569 setupserverview_mobile.ui:83
+#: setupserverview_desktop.ui:622 setupserverview_mobile.ui:83
 msgid "Empty"
 msgstr "रिकामी"
 
@@ -928,6 +956,11 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, autoExpungeCheck)
 #: setupserverview_mobile.ui:329
 msgid "Automaticall&y expunge deleted messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: setupserverview_mobile.ui:402
+msgid "Alternate URL:"
 msgstr ""
 
 #: subscriptiondialog.cpp:93
