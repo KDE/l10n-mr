@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-06-28 08:27+0000\n"
+"POT-Creation-Date: 2015-08-01 08:51+0000\n"
 "PO-Revision-Date: 2013-03-23 13:07+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,23 +17,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: cmakebuilder.cpp:206
+#: cmakebuilder.cpp:126
+msgid "Couldn't find the make builder. Check your installation"
+msgstr ""
+
+#: cmakebuilder.cpp:150 cmakebuilder.cpp:176 cmakebuilder.cpp:203
+#, kde-format
+msgid "Couldn't find a builder for %1"
+msgstr ""
+
+#: cmakebuilder.cpp:216
 msgid "No Build Directory configured, cannot install"
 msgstr ""
 
-#: cmakebuilder.cpp:206
-#, fuzzy
-#| msgid "Aborting build"
-msgid "Aborting"
-msgstr "बिल्ड बंद करत आहे"
-
-#: cmakebuilder.cpp:218
-msgid "No Build Directory configured, cannot configure"
+#: cmakebuilder.cpp:220
+msgid "Couldn't configure the build directory."
 msgstr ""
 
-#: cmakebuilder.cpp:218
-msgid "Aborting configure"
-msgstr "संयोजना बंद करत आहे"
+#: cmakebuilder.cpp:228
+msgid "No Build Directory configured, cannot configure"
+msgstr ""
 
 #: cmakebuilderpreferences.cpp:87 cmakejob.cpp:50 prunejob.cpp:37
 msgid "CMake"
@@ -76,6 +79,14 @@ msgstr ""
 #, kde-format
 msgid "** Prune failed: %1 **"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Aborting build"
+#~ msgid "Aborting"
+#~ msgstr "बिल्ड बंद करत आहे"
+
+#~ msgid "Aborting configure"
+#~ msgstr "संयोजना बंद करत आहे"
 
 #~ msgid "Aborting clean"
 #~ msgstr "क्लीन बंद करत आहे"
