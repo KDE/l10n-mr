@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-15 08:34+0000\n"
+"POT-Creation-Date: 2015-08-17 08:20+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -339,33 +339,37 @@ msgstr[1] " सेकंद"
 msgid "Select Initial Directory"
 msgstr "प्रारंभिक संचयीका निवडा"
 
-#: EditProfileDialog.cpp:592
+#: EditProfileDialog.cpp:594
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:780
+#: EditProfileDialog.cpp:782
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "हे रंग सुत्रयोजना पारदर्शक पार्श्वभूमीचा वापर करते जे डेस्कटॉपवर समर्थीत नाही"
 
-#: EditProfileDialog.cpp:785
+#: EditProfileDialog.cpp:787
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:889 EditProfileDialog.cpp:899
+#: EditProfileDialog.cpp:891 EditProfileDialog.cpp:901
 msgid "New Key Binding List"
 msgstr "नवीन कि बांधणी यादी"
 
-#: EditProfileDialog.cpp:891
+#: EditProfileDialog.cpp:893
 msgid "Edit Key Binding List"
 msgstr "किं बांधणी यादी संपादित करा"
 
-#: EditProfileDialog.cpp:1221
+#: EditProfileDialog.cpp:1223
 msgid "Select Fixed Width Font"
+msgstr ""
+
+#: EditProfileDialog.cpp:1271
+msgid "AaZz09..."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, generalTab)
@@ -1010,10 +1014,12 @@ msgctxt "@info:status"
 msgid ""
 "When using this option, the scrollback data will be written unencrypted to "
 "temporary files. Those temporary files will be deleted automatically when "
-"Konsole is closed in a normal manner."
+"Konsole is closed in a normal manner.\n"
+"Use Settings->Configure Konsole->File Location to select the location of the "
+"temporary files."
 msgstr ""
 
-#: HistorySizeWidget.cpp:60
+#: HistorySizeWidget.cpp:62
 msgctxt "Unit of scrollback"
 msgid " line"
 msgid_plural " lines"
@@ -1520,42 +1526,42 @@ msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "इतर अनेकांचे आभार.\n"
 
-#: MainWindow.cpp:293
+#: MainWindow.cpp:294
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "नवीन टॅब (&N)"
 
-#: MainWindow.cpp:303
+#: MainWindow.cpp:304
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "टॅब प्रतिकृत करा (&C)"
 
-#: MainWindow.cpp:310
+#: MainWindow.cpp:311
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "नवीन चौकट (&W)"
 
-#: MainWindow.cpp:317
+#: MainWindow.cpp:318
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "चौकट बंद करा"
 
-#: MainWindow.cpp:322
+#: MainWindow.cpp:323
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "ओळखचिन्ह (&B)"
 
-#: MainWindow.cpp:340
+#: MainWindow.cpp:341
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "रूपरेषा व्यवस्थापीत करा..."
 
-#: MainWindow.cpp:346
+#: MainWindow.cpp:347
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr "सक्रिय मेन्यू"
 
-#: MainWindow.cpp:570
+#: MainWindow.cpp:571
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "There are %1 tab open in this window. Do you still want to quit?"
@@ -1568,30 +1574,37 @@ msgid_plural ""
 msgstr[0] "या चौकटीत %1 उघडा टॅब आहे, तुम्हाला नक्की बाहेर पडायचे आहे का?"
 msgstr[1] "या चौकटीत %1 उघडे टॅब आहेत, तुम्हाला नक्की बाहेर पडायचे आहे का?"
 
-#: MainWindow.cpp:576
+#: MainWindow.cpp:577
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "बंद करण्याची खात्री करा"
 
-#: MainWindow.cpp:577
+#: MainWindow.cpp:578
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "चौकट बंद करा (&W)"
 
-#: MainWindow.cpp:578
+#: MainWindow.cpp:579
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "वर्तमान टॅब बंद करा (&T)"
 
-#: MainWindow.cpp:675
+#: MainWindow.cpp:676
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "सामान्य"
 
-#: MainWindow.cpp:680
+#: MainWindow.cpp:681
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr "टॅबपट्टी"
+
+#: MainWindow.cpp:686
+#, fuzzy
+#| msgid "&Paste Location"
+msgctxt "@title Preferences page name"
+msgid "File Location"
+msgstr "स्थान चिटकवा (&P)"
 
 #: ManageProfilesDialog.cpp:53
 msgctxt "@title:window"
@@ -2109,6 +2122,44 @@ msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "शिर्षक"
 
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:23
+msgid ""
+"<b>Scrollback File Location</b><p>Use this groupbox to determine where "
+"Konsole will store the scrollback files.</p>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ButtonGroup1)
+#: settings/FileLocationSettings.ui:26
+#, fuzzy
+#| msgid "Scrollback Options"
+msgid "Scrollback File Location"
+msgstr "स्क्रोलबॅक पर्याय"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings/FileLocationSettings.ui:32
+msgid ""
+"These settings only apply when Profile->Scrolling->Unlimited scrollback is "
+"selected."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseSystemLocation)
+#: settings/FileLocationSettings.ui:42
+#, fuzzy
+#| msgid "&Paste Location"
+msgid "Use system &location"
+msgstr "स्थान चिटकवा (&P)"
+
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_scrollbackUseUsersHomeLocation)
+#: settings/FileLocationSettings.ui:85
+msgid "Use user's ho&me location"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: settings/FileLocationSettings.ui:133
+msgid "For any changes to take effect, quit Konsole and restart."
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_1)
 #: settings/GeneralSettings.ui:28
 msgid "Konsole Window"
@@ -2224,6 +2275,16 @@ msgstr ""
 #. i18n: ectx: label, entry (NewTabBehavior), group (TabBar)
 #: settings/konsole.kcfg:74
 msgid "Control where to put the new tab"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseSystemLocation), group (FileLocation)
+#: settings/konsole.kcfg:94
+msgid "For scrollback files, use system-wide folder location"
+msgstr ""
+
+#. i18n: ectx: label, entry (scrollbackUseUsersHomeLocation), group (FileLocation)
+#: settings/konsole.kcfg:98
+msgid "For scrollback files, use user's home folder location"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_1)
@@ -2358,18 +2419,18 @@ msgstr "आकार: XXX x XXX"
 msgid "Size: %1 x %2"
 msgstr "आकार: %1 x %2"
 
-#: TerminalDisplay.cpp:2796
+#: TerminalDisplay.cpp:2801
 #, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: TerminalDisplay.cpp:2799
+#: TerminalDisplay.cpp:2804
 msgid "Confirm Paste"
 msgstr "चिटकविण्याची खात्री करा"
 
-#: TerminalDisplay.cpp:2988
+#: TerminalDisplay.cpp:2993
 #, fuzzy
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2382,11 +2443,11 @@ msgstr ""
 "<qt>Ctrl+S दाबून आऊटपुट <a href=\"http://en.wikipedia.org/wiki/Flow_control"
 "\">सस्पेंड</a> केले गेले आहे.  पुन्हप्रारंभ करण्याकरिता <b>Ctrl+Q</b> दाबा.</qt>"
 
-#: TerminalDisplay.cpp:3256
+#: TerminalDisplay.cpp:3261
 msgid "&Paste Location"
 msgstr "स्थान चिटकवा (&P)"
 
-#: TerminalDisplay.cpp:3273
+#: TerminalDisplay.cpp:3278
 msgid "Change &Directory To"
 msgstr "संचयीका येथे बदला (&D)"
 
@@ -2616,9 +2677,6 @@ msgstr "थांबा (&S)"
 #~| msgid "&Paste"
 #~ msgid "&Paste as text"
 #~ msgstr "चिकटवा (&P)"
-
-#~ msgid "Scrollback Options"
-#~ msgstr "स्क्रोलबॅक पर्याय"
 
 #~ msgid "&Change Profile"
 #~ msgstr "प्रोफाइल बदलवा (&C)"
