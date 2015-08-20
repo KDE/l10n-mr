@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-19 05:26+0000\n"
+"POT-Creation-Date: 2015-08-20 06:16+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -64,10 +64,10 @@ msgstr "पालक"
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:193
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:197
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:295
-#: plugins/formats/jp2/jp2_converter.cc:346
-#: plugins/formats/jp2/jp2_converter.cc:357
-#: plugins/formats/jpeg/kis_jpeg_converter.cc:481
-#: plugins/formats/jpeg/kis_jpeg_converter.cc:486
+#: plugins/formats/jp2/jp2_converter.cc:332
+#: plugins/formats/jp2/jp2_converter.cc:343
+#: plugins/formats/jpeg/kis_jpeg_converter.cc:468
+#: plugins/formats/jpeg/kis_jpeg_converter.cc:473
 #: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:238
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:243
@@ -85,7 +85,7 @@ msgstr "पालक"
 #: ui/KisImportExportManager.cpp:531 ui/KisMainWindow.cpp:696
 #: ui/KisMainWindow.cpp:748 ui/KisMainWindow.cpp:762 ui/KisMainWindow.cpp:1439
 #: ui/KisMainWindow.cpp:1625 ui/KisMainWindow.cpp:1637
-#: ui/KisTemplateCreateDia.cpp:322 ui/KisView.cpp:845
+#: ui/KisTemplateCreateDia.cpp:322 ui/KisView.cpp:844
 #: ui/opengl/kis_opengl.cpp:91 ui/opengl/kis_opengl_canvas2.cpp:513
 #: ui/thememanager.cpp:271 ui/widgets/kis_custom_image_widget.cc:246
 #, fuzzy
@@ -314,13 +314,13 @@ msgid "Krita: No QML Found"
 msgstr ""
 
 #: gemini/MainWindow.cpp:290 gemini/MainWindow.cpp:652
-#: sketch/MainWindow.cpp:152 ui/KisView.cpp:842
+#: sketch/MainWindow.cpp:152 ui/KisView.cpp:841
 #, fuzzy
 #| msgid "untitled-1"
 msgid "Untitled"
 msgstr "शिर्षकहीन-1"
 
-#: gemini/MainWindow.cpp:656 ui/KisView.cpp:846
+#: gemini/MainWindow.cpp:656 ui/KisView.cpp:845
 #, kde-format
 msgid ""
 "<p>The document <b>'%1'</b> has been modified.</p><p>Do you want to save it?"
@@ -2463,8 +2463,10 @@ msgid "Save Assistant"
 msgstr "सहायक :"
 
 #: plugins/assistants/RulerAssistant/kis_ruler_assistant_tool.h:101
-msgid "Ruler assistant editor tool"
-msgstr "मोजपट्टी सहायक संपादन साधन"
+#, fuzzy
+#| msgid "Assistant:"
+msgid "Assistant Tool"
+msgstr "सहायक :"
 
 #: plugins/assistants/RulerAssistant/ParallelRulerAssistant.cc:35
 #, fuzzy
@@ -3900,7 +3902,7 @@ msgstr "..."
 #: plugins/filters/randompickfilter/wdgrandompickoptions.ui:65
 #: plugins/paintops/libpaintop/forms/wdgflowopacityoption.ui:59
 #: ui/forms/wdgautogradient.ui:81 ui/forms/wdgpaintactioneditor.ui:89
-#: ui/kis_paintop_box.cc:207 ui/kis_paintop_box.cc:212
+#: ui/kis_paintop_box.cc:208 ui/kis_paintop_box.cc:213
 msgid "Opacity:"
 msgstr "अपारदर्शकता :"
 
@@ -5825,7 +5827,7 @@ msgstr "पटलस्"
 #. i18n: ectx: property (text), widget (QCheckBox, cbRemoveWorkspaces)
 #: plugins/extensions/resourcemanager/dlg_bundle_manager.cpp:255
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:105
-#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:345
+#: ui/forms/wdgdlgblacklistcleanup.ui:26 ui/kis_paintop_box.cc:349
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
@@ -7559,7 +7561,7 @@ msgstr "उचला :"
 msgid "Vertical Wave"
 msgstr "उभा तरंग"
 
-#: plugins/formats/exr/exr_converter.cc:315
+#: plugins/formats/exr/exr_converter.cc:314
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -7571,22 +7573,22 @@ msgid ""
 "<numid>%1</numid> to <numid>%2</numid></note>"
 msgstr ""
 
-#: plugins/formats/exr/exr_converter.cc:327
+#: plugins/formats/exr/exr_converter.cc:326
 msgctxt "@title:window"
 msgid "EXR image will be modified"
 msgstr ""
 
-#: plugins/formats/exr/exr_converter.cc:592
+#: plugins/formats/exr/exr_converter.cc:591
 msgid "HDR Layer"
 msgstr "HDR स्तर"
 
-#: plugins/formats/exr/exr_converter.cc:1178
+#: plugins/formats/exr/exr_converter.cc:1166
 #, kde-format
 msgctxt "@item:unsupported-node-message"
 msgid "%1 (type: \"%2\")"
 msgstr ""
 
-#: plugins/formats/exr/exr_converter.cc:1183
+#: plugins/formats/exr/exr_converter.cc:1171
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -7595,7 +7597,7 @@ msgid ""
 "saved to the final EXR file</warning></para>"
 msgstr ""
 
-#: plugins/formats/exr/exr_converter.cc:1188
+#: plugins/formats/exr/exr_converter.cc:1176
 msgctxt "@title:window"
 msgid "Layers will be lost"
 msgstr ""
@@ -7721,8 +7723,8 @@ msgstr ""
 #: plugins/formats/heightmap/kis_wdg_options_heightmap.ui:30
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:105
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1776
-#: ui/forms/wdgdisplaysettings.ui:72 ui/kis_paintop_box.cc:209
-#: ui/kis_paintop_box.cc:214
+#: ui/forms/wdgdisplaysettings.ui:72 ui/kis_paintop_box.cc:210
+#: ui/kis_paintop_box.cc:215
 msgid "Size:"
 msgstr "आकार :"
 
@@ -7757,8 +7759,8 @@ msgstr ""
 msgid "PC"
 msgstr "IPTC"
 
-#: plugins/formats/jp2/jp2_converter.cc:346
-#: plugins/formats/jp2/jp2_converter.cc:357
+#: plugins/formats/jp2/jp2_converter.cc:332
+#: plugins/formats/jp2/jp2_converter.cc:343
 #: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
 #, kde-format
 msgid "Cannot export images in %1.\n"
@@ -7790,14 +7792,14 @@ msgstr ""
 msgid "Number of resolutions:"
 msgstr "घनतांची संख्या :"
 
-#: plugins/formats/jpeg/kis_jpeg_converter.cc:481
+#: plugins/formats/jpeg/kis_jpeg_converter.cc:468
 #, kde-format
 msgid ""
 "Warning: JPEG only supports 8 bits per channel. Your image uses: %1. Krita "
 "will save your image as 8 bits per channel."
 msgstr ""
 
-#: plugins/formats/jpeg/kis_jpeg_converter.cc:486
+#: plugins/formats/jpeg/kis_jpeg_converter.cc:473
 #, kde-format
 msgid ""
 "Cannot export images in %1.\n"
@@ -7960,16 +7962,16 @@ msgid ""
 "These layers will be saved as raster layers."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: plugins/formats/pdf/kis_pdf_import.cpp:107
-#: plugins/formats/pdf/kis_pdf_import.cpp:108
+#: plugins/formats/pdf/kis_pdf_import.cpp:98
+#: plugins/formats/pdf/kis_pdf_import.cpp:99
 msgid "A password is required to read that pdf"
 msgstr "ही pdf वाचण्यासाठी पासवर्डची आवश्यकता आहे."
 
-#: plugins/formats/pdf/kis_pdf_import.cpp:117
+#: plugins/formats/pdf/kis_pdf_import.cpp:108
 msgid "PDF Import Options"
 msgstr "PDF आयात पर्याय"
 
-#: plugins/formats/pdf/kis_pdf_import.cpp:151
+#: plugins/formats/pdf/kis_pdf_import.cpp:142
 #, kde-format
 msgid "Page %1"
 msgstr "पान %1"
@@ -8231,20 +8233,20 @@ msgid ""
 "colorspace as the image."
 msgstr ""
 
-#: plugins/formats/psd/psd_loader.cpp:163
+#: plugins/formats/psd/psd_loader.cpp:161
 msgid "Duotone Colormode Block"
 msgstr "ड्युओटोन कलरपद्धत ब्लॉक"
 
-#: plugins/formats/psd/psd_loader.cpp:176
+#: plugins/formats/psd/psd_loader.cpp:174
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 msgid "Background"
 msgstr "पार्श्वभूमी"
 
-#: plugins/formats/psd/psd_loader.cpp:259 ui/kis_mask_manager.cc:195
+#: plugins/formats/psd/psd_loader.cpp:257 ui/kis_mask_manager.cc:195
 msgid "Transparency Mask"
 msgstr "पारदर्शी मुखवटा"
 
-#: plugins/formats/psd/psd_loader.cpp:305 ui/kra/kis_kra_loader.cpp:348
+#: plugins/formats/psd/psd_loader.cpp:303 ui/kra/kis_kra_loader.cpp:348
 #, kde-format
 msgctxt ""
 "Auto-generated layer style collection name for embedded styles (collection)"
@@ -8609,7 +8611,7 @@ msgstr "अंतर"
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:60
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:62
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:276
-#: ui/kis_paintop_box.cc:341
+#: ui/kis_paintop_box.cc:345
 msgid "Mirror"
 msgstr "प्रतिबिंब"
 
@@ -10849,8 +10851,10 @@ msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "पटल फाईल %1. मध्ये लिहिता येत नाही. बहुधा ती फक्त वाचण्यापुरतीच असेल"
 
 #: plugins/tools/defaulttools/kis_tool_colorpicker.h:123
-msgid "Select a color from the image or current layer"
-msgstr "प्रतिमेतून किंवा वर्तमान स्तरातून रंग निवडा"
+#, fuzzy
+#| msgid "Color Selector"
+msgid "Color Selector Tool"
+msgstr "रंगाची निवड"
 
 #: plugins/tools/defaulttools/kis_tool_ellipse.cc:71
 #, fuzzy
@@ -10931,8 +10935,10 @@ msgstr ""
 "हे चेक केल्यावर वर्तमान स्तराच्या रंकगांडे पाहू नका, पण सर्व \"सिलेक्टेड एरिया \"भरून काढा"
 
 #: plugins/tools/defaulttools/kis_tool_fill.h:99
-msgid "Fill a contiguous area of color with a color, or fill a selection."
-msgstr "रंगाने सलग रंगाचा भाग  रंगवा , किंवा निवडलेला भाग भरून काढा"
+#, fuzzy
+#| msgid "Ellipse"
+msgid "Fill Tool"
+msgstr "लंबवर्तुळ"
 
 #: plugins/tools/defaulttools/kis_tool_gradient.cc:166
 #, fuzzy
@@ -11014,8 +11020,10 @@ msgid "Reverse"
 msgstr "मागे"
 
 #: plugins/tools/defaulttools/kis_tool_gradient.h:114
-msgid "Draw a gradient."
-msgstr "ग्रेडियंट काढा."
+#, fuzzy
+#| msgid "Gradient"
+msgid "Gradient Tool"
+msgstr "ग्रेडियंट"
 
 #: plugins/tools/defaulttools/kis_tool_line.cc:64
 #, fuzzy
@@ -11051,12 +11059,16 @@ msgid "Angle: "
 msgstr "कोन : "
 
 #: plugins/tools/defaulttools/kis_tool_measure.h:111
-msgid "Measure the distance between two points"
-msgstr "दोन बिंदूंतील अंतर मोजा"
+#, fuzzy
+#| msgid "Rectangle"
+msgid "Measure Tool"
+msgstr "चौकोन"
 
 #: plugins/tools/defaulttools/kis_tool_move.h:124
-msgid "Move a layer"
-msgstr "स्तर हलवा"
+#, fuzzy
+#| msgid "&Painter's Tools"
+msgid "Move Tool"
+msgstr "पेंटरची साधने (&P)"
 
 #: plugins/tools/defaulttools/kis_tool_multihand.cpp:59
 msgctxt "(qtundo-format)"
@@ -11113,7 +11125,7 @@ msgstr ""
 #: plugins/tools/defaulttools/kis_tool_path.h:87
 #, fuzzy
 #| msgid "Draw a polyline. Shift-mouseclick ends the polyline."
-msgid "Bezier Curve Tool. Shift-mouseclick ends the curve."
+msgid "Bezier Curve Tool: Shift-mouseclick ends the curve."
 msgstr "पॉलीलाईन काढा. Shift-mouseclick ने पॉलीलाईन थांबेल ."
 
 #: plugins/tools/defaulttools/kis_tool_pencil.cc:67
@@ -11371,8 +11383,10 @@ msgid "Similar Color Selection Tool"
 msgstr "समान निवड"
 
 #: plugins/tools/tool_crop/kis_tool_crop.h:212
-msgid "Crop the image to an area"
-msgstr "या भागाइतकी प्रतिमा कापा"
+#, fuzzy
+#| msgid "Crop Node"
+msgid "Crop Tool"
+msgstr "नोड कापा"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgToolCrop)
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:14
@@ -11504,12 +11518,16 @@ msgid "The grid is not visible. Press Return to show the grid."
 msgstr ""
 
 #: plugins/tools/tool_grid/kis_tool_grid.h:71
-msgid "Edit the grid"
-msgstr "जाळीचे संपादन करा"
+#, fuzzy
+#| msgid "&Painter's Tools"
+msgid "Grid Tool"
+msgstr "पेंटरची साधने (&P)"
 
 #: plugins/tools/tool_perspectivegrid/kis_tool_perspectivegrid.h:95
-msgid "Edit the perspective grid"
-msgstr "आकलन जाळीचे संपादन करा"
+#, fuzzy
+#| msgid "Perspective grid"
+msgid "Perspective Grid Tool"
+msgstr "आकलन जाळी"
 
 #: plugins/tools/tool_polygon/kis_tool_polygon.cc:69
 #, fuzzy
@@ -11521,7 +11539,7 @@ msgstr "बहुभुजाकृती"
 #: plugins/tools/tool_polygon/kis_tool_polygon.h:53
 #, fuzzy
 #| msgid "Draw a polygon. Shift-mouseclick ends the polygon."
-msgid "Polygon Tool. Shift-mouseclick ends the polygon."
+msgid "Polygon Tool: Shift-mouseclick ends the polygon."
 msgstr "बहुभुजाकृती काढा. Shift-mouseclick ने आकृती थांबेल"
 
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:73
@@ -11534,11 +11552,13 @@ msgstr "पॉलीलाईन"
 #: plugins/tools/tool_polyline/kis_tool_polyline.h:54
 #, fuzzy
 #| msgid "Draw a polyline. Shift-mouseclick ends the polyline."
-msgid "Polyline Tool. Shift-mouseclick ends the polyline."
+msgid "Polyline Tool: Shift-mouseclick ends the polyline."
 msgstr "पॉलीलाईन काढा. Shift-mouseclick ने पॉलीलाईन थांबेल ."
 
 #: plugins/tools/tool_text/kis_tool_text.h:69
-msgid "Text tool"
+#, fuzzy
+#| msgid "Text tool"
+msgid "Text Tool"
 msgstr "मजकुराचे साधन"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgTextOptions)
@@ -11989,7 +12009,7 @@ msgstr "मागे"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFlow)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1754
-#: ui/kis_paintop_box.cc:208 ui/kis_paintop_box.cc:213
+#: ui/kis_paintop_box.cc:209 ui/kis_paintop_box.cc:214
 msgid "Flow:"
 msgstr "प्रवाह :"
 
@@ -12716,7 +12736,7 @@ msgstr "नवीन दस्तऐवजात उघडा"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: ui/forms/KisOpenPaneBase.ui:67 ui/input/kis_tool_invocation_action.cpp:53
-#: ui/kis_clipboard.cc:262 ui/KisView.cpp:526
+#: ui/kis_clipboard.cc:262 ui/KisView.cpp:525
 msgid "Cancel"
 msgstr "रद्द करा"
 
@@ -17932,53 +17952,53 @@ msgstr "आडवे प्रतिबिंब पद्धत निश्च
 msgid "Set vertical mirror mode"
 msgstr "उभे प्रतिबिंब पद्धत निश्चित करा"
 
-#: ui/kis_paintop_box.cc:252
+#: ui/kis_paintop_box.cc:253
 msgid "Choose workspace"
 msgstr "कार्यक्षेत्र निवडा"
 
-#: ui/kis_paintop_box.cc:284
+#: ui/kis_paintop_box.cc:285
 msgid "Brush composite"
 msgstr "एकत्रित कुंचला"
 
-#: ui/kis_paintop_box.cc:288
+#: ui/kis_paintop_box.cc:289
 msgid "Brush option slider 1"
 msgstr "कुंचला पर्याय पट्टी १"
 
-#: ui/kis_paintop_box.cc:293
+#: ui/kis_paintop_box.cc:295
 msgid "Brush option slider 2"
 msgstr "कुंचला पर्याय पट्टी २"
 
-#: ui/kis_paintop_box.cc:298
+#: ui/kis_paintop_box.cc:301
 #, fuzzy
 #| msgid "Brush option slider 1"
 msgid "Brush option slider 3"
 msgstr "कुंचला पर्याय पट्टी १"
 
-#: ui/kis_paintop_box.cc:303
+#: ui/kis_paintop_box.cc:307
 msgid "Next Favourite Preset"
 msgstr "पुढील पसंत प्रीसेट"
 
-#: ui/kis_paintop_box.cc:308
+#: ui/kis_paintop_box.cc:312
 msgid "Previous Favourite Preset"
 msgstr "मागील पसंत प्रीसेट"
 
-#: ui/kis_paintop_box.cc:313
+#: ui/kis_paintop_box.cc:317
 msgid "Switch to Previous Preset"
 msgstr "मागील प्रीसेट वर जा"
 
-#: ui/kis_paintop_box.cc:319
+#: ui/kis_paintop_box.cc:323
 #, fuzzy
 #| msgid "Show Decorations"
 msgid "Show Tool Options"
 msgstr "डेकोरेशन्स दर्शवा"
 
-#: ui/kis_paintop_box.cc:325
+#: ui/kis_paintop_box.cc:329
 #, fuzzy
 #| msgid "Color History"
 msgid "Show Brush Editor"
 msgstr "रंगाचा इतिहास"
 
-#: ui/kis_paintop_box.cc:330
+#: ui/kis_paintop_box.cc:334
 #, fuzzy
 #| msgid "Brush Presets"
 msgid "Show Brush Presets"
@@ -18306,7 +18326,7 @@ msgstr ""
 msgid "Do you want to clear the settings file?"
 msgstr ""
 
-#: ui/KisApplication.cpp:309 ui/KisView.cpp:283
+#: ui/KisApplication.cpp:309 ui/KisView.cpp:282
 #, fuzzy
 #| msgid "Warning"
 msgctxt "@title:window"
@@ -19067,7 +19087,7 @@ msgstr ""
 msgid "Undo %1"
 msgstr ""
 
-#: ui/KisView.cpp:284
+#: ui/KisView.cpp:283
 msgid ""
 "You have an Intel(R) HD Graphics video adapter.\n"
 "If you experience problems like a black or blank screen,please update your "
@@ -19076,21 +19096,21 @@ msgid ""
 "You can also disable OpenGL rendering in Krita's Settings.\n"
 msgstr ""
 
-#: ui/KisView.cpp:520
+#: ui/KisView.cpp:519
 msgid "Insert as New Layer"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/KisView.cpp:521
+#: ui/KisView.cpp:520
 #, fuzzy
 #| msgid "Insert as New Layers"
 msgid "Insert Many Layers"
 msgstr "नवीन स्तर म्हणून अंतर्भूत करा"
 
-#: ui/KisView.cpp:523
+#: ui/KisView.cpp:522
 msgid "Open in New Document"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/KisView.cpp:524
+#: ui/KisView.cpp:523
 #, fuzzy
 #| msgid "Open in New Documents"
 msgid "Open Many Documents"
@@ -20741,31 +20761,31 @@ msgstr "लघुप्रतिमा"
 msgid "Details"
 msgstr "तपशील"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:215
+#: ui/widgets/kis_paintop_presets_popup.cpp:216
 msgid "Overwrite Preset"
 msgstr "प्रीसेट खोडून पुन्हा लिहा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:215
+#: ui/widgets/kis_paintop_presets_popup.cpp:216
 msgid "Save to Presets"
 msgstr "प्रीसेटस् वर साठवा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:241
+#: ui/widgets/kis_paintop_presets_popup.cpp:242
 #: ui/widgets/kis_tool_options_popup.cpp:154
 msgid "Attach to Toolbar"
 msgstr "साधनपट्टीला जोडा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:241
+#: ui/widgets/kis_paintop_presets_popup.cpp:242
 #: ui/widgets/kis_tool_options_popup.cpp:154
 msgid "Detach from Toolbar"
 msgstr "साधनपट्टीपासून तोडा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:243
+#: ui/widgets/kis_paintop_presets_popup.cpp:244
 #, fuzzy
 #| msgid "Show Perspective Grid"
 msgid "Show Preset Strip"
 msgstr "आकलन जाळी दर्शवा"
 
-#: ui/widgets/kis_paintop_presets_popup.cpp:247
+#: ui/widgets/kis_paintop_presets_popup.cpp:248
 #, fuzzy
 #| msgid "Sc_Scratch"
 msgid "Show Scratchpad"
@@ -20795,6 +20815,33 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#~ msgid "Ruler assistant editor tool"
+#~ msgstr "मोजपट्टी सहायक संपादन साधन"
+
+#~ msgid "Select a color from the image or current layer"
+#~ msgstr "प्रतिमेतून किंवा वर्तमान स्तरातून रंग निवडा"
+
+#~ msgid "Fill a contiguous area of color with a color, or fill a selection."
+#~ msgstr "रंगाने सलग रंगाचा भाग  रंगवा , किंवा निवडलेला भाग भरून काढा"
+
+#~ msgid "Draw a gradient."
+#~ msgstr "ग्रेडियंट काढा."
+
+#~ msgid "Measure the distance between two points"
+#~ msgstr "दोन बिंदूंतील अंतर मोजा"
+
+#~ msgid "Move a layer"
+#~ msgstr "स्तर हलवा"
+
+#~ msgid "Crop the image to an area"
+#~ msgstr "या भागाइतकी प्रतिमा कापा"
+
+#~ msgid "Edit the grid"
+#~ msgstr "जाळीचे संपादन करा"
+
+#~ msgid "Edit the perspective grid"
+#~ msgstr "आकलन जाळीचे संपादन करा"
 
 #~ msgid "Cannot export images in this colorspace or channel depth to PNG"
 #~ msgstr "कलरस्पेस किंवा माध्यम खोलीतील  प्रतिमा PNG मध्ये निर्यात करता येत नाहीत"
@@ -22205,9 +22252,6 @@ msgstr "कार्यक्षेत्र %1"
 #~ msgid "Resize Image"
 #~ msgstr "प्रतिमेचा आकार बदला"
 
-#~ msgid "Crop Node"
-#~ msgstr "नोड कापा"
-
 #~ msgid "Ascension"
 #~ msgstr "चढ"
 
@@ -22258,9 +22302,6 @@ msgstr "कार्यक्षेत्र %1"
 
 #~ msgid "Transform Stroke"
 #~ msgstr "रूपांतरित फटकारा"
-
-#~ msgid "Perspective grid"
-#~ msgstr "आकलन जाळी"
 
 #~ msgid "Toggle Pan Mode"
 #~ msgstr "पॅन पद्धत चालू/बंद करा"
