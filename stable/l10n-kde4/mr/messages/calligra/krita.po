@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-20 06:16+0000\n"
+"POT-Creation-Date: 2015-08-21 05:25+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -69,13 +69,13 @@ msgstr "पालक"
 #: plugins/formats/jpeg/kis_jpeg_converter.cc:468
 #: plugins/formats/jpeg/kis_jpeg_converter.cc:473
 #: plugins/formats/tiff/kis_tiff_writer_visitor.cpp:73
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:238
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:243
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:284
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:253
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:258
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:300
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:233 ui/input/kis_input_manager.cpp:545
 #: ui/kis_filter_manager.cc:218 ui/kis_filter_manager.cc:227
-#: ui/kis_layer_manager.cc:675 ui/kis_layer_manager.cc:957
+#: ui/kis_layer_manager.cc:674 ui/kis_layer_manager.cc:956
 #: ui/KisApplication.cpp:215 ui/KisApplication.cpp:218
 #: ui/KisApplication.cpp:243 ui/KisApplication.cpp:269
 #: ui/KisApplication.cpp:291 ui/KisDocument.cpp:753 ui/KisDocument.cpp:755
@@ -3159,7 +3159,7 @@ msgstr ""
 msgid "Create a list of colors from the image"
 msgstr "प्रतिमेतील रंग"
 
-#: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line.cpp:170
+#: plugins/extensions/dockers/advancedcolorselector/kis_shade_selector_line.cpp:172
 #, kde-format
 msgid "delta h=%1 s=%2 v=%3 shift h=%4 s=%5 v=%6"
 msgstr "delta h=%1 s=%2 v=%3 shift h=%4 s=%5 v=%6"
@@ -3794,7 +3794,7 @@ msgid ""
 msgstr ""
 
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:530
-#: ui/kis_layer_manager.cc:300
+#: ui/kis_layer_manager.cc:299
 msgid "&Merge with Layer Below"
 msgstr "खालच्या स्तरात मिसळा (&M)"
 
@@ -10808,24 +10808,31 @@ msgid "Smooth Pressure"
 msgstr "दाब"
 
 #: plugins/tools/defaulttools/kis_tool_brush.cc:404
+msgctxt "@info:tooltip"
+msgid ""
+"Scalable distance takes zoom level into account and makes the distance be "
+"visually constant whatever zoom level is chosen"
+msgstr ""
+
+#: plugins/tools/defaulttools/kis_tool_brush.cc:409
 #, fuzzy
 #| msgid "Subject distance:"
 msgid "Scalable Distance"
 msgstr "पदार्थाचे अंतर :"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:411
+#: plugins/tools/defaulttools/kis_tool_brush.cc:416
 msgid "Assistant:"
 msgstr "सहायक :"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:416
+#: plugins/tools/defaulttools/kis_tool_brush.cc:421
 msgid "You need to add Ruler Assistants before this tool will work."
 msgstr "हे साधन कार्यान्वित होण्यापूर्वी तुम्हाला मोजपट्टी सहायक भरावे लागतील."
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:420
+#: plugins/tools/defaulttools/kis_tool_brush.cc:425
 msgid "Assistant Magnetism"
 msgstr "सहायक चुंबकत्व"
 
-#: plugins/tools/defaulttools/kis_tool_brush.cc:427
+#: plugins/tools/defaulttools/kis_tool_brush.cc:432
 #, fuzzy
 #| msgid "Assistant:"
 msgid "Toggle Assistant"
@@ -10837,15 +10844,15 @@ msgstr "सहायक :"
 msgid "Freehand Brush Tool"
 msgstr "मुक्तहस्त फटकारा"
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:238
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:253
 msgid "Cannot pick a color as no layer is active."
 msgstr "कोणताही स्तर सक्रिय नसल्याने रंग घेता येत नाही."
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:243
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:258
 msgid "Cannot pick a color as the active layer is not visible."
 msgstr "सक्रिय स्तर  दिसत नसल्यानेकोणताही रंग घेता येत नाही."
 
-#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:284
+#: plugins/tools/defaulttools/kis_tool_colorpicker.cc:300
 #, kde-format
 msgid "Cannot write to palette file %1. Maybe it is read-only."
 msgstr "पटल फाईल %1. मध्ये लिहिता येत नाही. बहुधा ती फक्त वाचण्यापुरतीच असेल"
@@ -10869,65 +10876,65 @@ msgstr "लंबवर्तुळ काढा"
 msgid "Ellipse Tool"
 msgstr "लंबवर्तुळ"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:137
+#: plugins/tools/defaulttools/kis_tool_fill.cc:138
 #, fuzzy
 #| msgid "Flood Fill"
 msgctxt "(qtundo-format)"
 msgid "Flood Fill"
 msgstr "फ्लड फिल"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:167
+#: plugins/tools/defaulttools/kis_tool_fill.cc:168
 #, fuzzy
 #| msgid "Fax mode:"
 msgid "Fast mode: "
 msgstr "फॅक्स पद्धत :"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:170
+#: plugins/tools/defaulttools/kis_tool_fill.cc:171
 msgid ""
 "Fills area faster, but does not take composition mode into account. "
 "Selections and other extended features will also be disabled."
 msgstr ""
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:175
+#: plugins/tools/defaulttools/kis_tool_fill.cc:176
 msgid "Threshold: "
 msgstr "मर्यादा : "
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:182
+#: plugins/tools/defaulttools/kis_tool_fill.cc:183
 #, fuzzy
 #| msgid "Grow selection by"
 msgid "Grow selection: "
 msgstr "निवड वाढवा द्वारा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:189
+#: plugins/tools/defaulttools/kis_tool_fill.cc:190
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:186
 msgid "Feathering radius: "
 msgstr "फेदरिंग त्रिज्या"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:196
+#: plugins/tools/defaulttools/kis_tool_fill.cc:197
 #, fuzzy
 #| msgid "Use pattern"
 msgid "Use pattern:"
 msgstr "पॅटर्न वापरा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:198
+#: plugins/tools/defaulttools/kis_tool_fill.cc:199
 msgid ""
 "When checked do not use the foreground color, but the gradient selected to "
 "fill with"
 msgstr "हे चेक केल्यावर पृष्ठभूमीचा रंग वापरत नाही, पण ग्रेडियंट याने भरण्यासाठी निवडली गेली"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:200
+#: plugins/tools/defaulttools/kis_tool_fill.cc:201
 #, fuzzy
 #| msgid "Limit to current layer"
 msgid "Limit to current layer:"
 msgstr "वर्तमान स्तरापुरतेच मर्यादित"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:204
+#: plugins/tools/defaulttools/kis_tool_fill.cc:205
 #, fuzzy
 #| msgid "Fill entire selection"
 msgid "Fill entire selection:"
 msgstr "संपूर्ण निवड भरून काढा"
 
-#: plugins/tools/defaulttools/kis_tool_fill.cc:206
+#: plugins/tools/defaulttools/kis_tool_fill.cc:207
 msgid ""
 "When checked do not look at the current layer colors, but just fill all of "
 "the selected area"
@@ -17525,86 +17532,86 @@ msgstr "पार्श्वभूमीचा रंग"
 msgid "Import Image"
 msgstr "प्रतिमा आयात करा"
 
-#: ui/kis_layer_manager.cc:294
+#: ui/kis_layer_manager.cc:293
 msgid "&Flatten image"
 msgstr "प्रतिमा सपाट करा (&F)"
 
-#: ui/kis_layer_manager.cc:306
+#: ui/kis_layer_manager.cc:305
 msgid "&Flatten Layer"
 msgstr "स्तर सपाट करा (&F)"
 
-#: ui/kis_layer_manager.cc:311
+#: ui/kis_layer_manager.cc:310
 #, fuzzy
 #| msgid "Delete current layer"
 msgid "Rename current layer"
 msgstr "वर्तमान स्तर रद्द करा"
 
-#: ui/kis_layer_manager.cc:317
+#: ui/kis_layer_manager.cc:316
 msgid "Rasterize Layer"
 msgstr "स्तर रास्टराईझ करा"
 
-#: ui/kis_layer_manager.cc:323
+#: ui/kis_layer_manager.cc:322
 msgid "Save Group Layers..."
 msgstr "स्तरांचा समूह साठवा..."
 
-#: ui/kis_layer_manager.cc:328
+#: ui/kis_layer_manager.cc:327
 #, fuzzy
 #| msgid "Limit to Current Layer"
 msgid "Trim to Current Layer"
 msgstr "वर्तमान स्तरापर्यंतच मर्यादित ठेवा"
 
-#: ui/kis_layer_manager.cc:333
+#: ui/kis_layer_manager.cc:332
 #, fuzzy
 #| msgid "Shear Image"
 msgid "Trim to Image Size"
 msgstr "शीयर प्रतिमा"
 
-#: ui/kis_layer_manager.cc:338
+#: ui/kis_layer_manager.cc:337
 #, fuzzy
 #| msgid "Layer Size"
 msgid "Layer Style..."
 msgstr "स्तराचा आकार"
 
-#: ui/kis_layer_manager.cc:379
+#: ui/kis_layer_manager.cc:378
 #, fuzzy
 #| msgid "Layer is locked."
 msgctxt "floating message in layer manager"
 msgid "Layer is empty "
 msgstr "स्तर कुलूपबंद आहे."
 
-#: ui/kis_layer_manager.cc:406
+#: ui/kis_layer_manager.cc:405
 msgid "Filter Layer Properties"
 msgstr "गाळणी स्तराचे गुणधर्म"
 
-#: ui/kis_layer_manager.cc:451
+#: ui/kis_layer_manager.cc:450
 #, fuzzy
 #| msgid "Filter Layer Properties"
 msgid "Fill Layer Properties"
 msgstr "गाळणी स्तराचे गुणधर्म"
 
-#: ui/kis_layer_manager.cc:532
+#: ui/kis_layer_manager.cc:531
 #, fuzzy
 #| msgid "Convert Current Layer From"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "पासून वर्तमान स्तर बदला"
 
-#: ui/kis_layer_manager.cc:613
+#: ui/kis_layer_manager.cc:612
 msgid "New Filter Layer"
 msgstr "नवीन गाळणी स्तर"
 
-#: ui/kis_layer_manager.cc:676
+#: ui/kis_layer_manager.cc:675
 msgid "Could not add layer to image."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: ui/kis_layer_manager.cc:762
+#: ui/kis_layer_manager.cc:761
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
-#: ui/kis_layer_manager.cc:763
+#: ui/kis_layer_manager.cc:762
 #, fuzzy
 #| msgid "The image contains hidden layers that will be lost."
 msgid ""
@@ -17612,22 +17619,22 @@ msgid ""
 "the image?"
 msgstr "प्रतिमेत लपलेले स्तर असून ते नष्ट होतील."
 
-#: ui/kis_layer_manager.cc:861
+#: ui/kis_layer_manager.cc:860
 #, fuzzy
 #| msgid "Rasterize Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "स्तर रास्टराईझ करा"
 
-#: ui/kis_layer_manager.cc:897
+#: ui/kis_layer_manager.cc:896
 msgid "Convert Invisible Groups"
 msgstr "न दिसणारे समूह रूपांतरित करा"
 
-#: ui/kis_layer_manager.cc:900
+#: ui/kis_layer_manager.cc:899
 msgid "Export Only Toplevel Groups"
 msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
-#: ui/kis_layer_manager.cc:957
+#: ui/kis_layer_manager.cc:956
 msgid "No file name specified"
 msgstr ""
 
