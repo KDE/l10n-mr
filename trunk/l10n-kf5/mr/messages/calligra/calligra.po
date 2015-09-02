@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-01 09:56+0000\n"
+"POT-Creation-Date: 2015-09-02 07:54+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1195,7 +1195,7 @@ msgid "Change Styles"
 msgstr "शैली बदला"
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:77
-#: kotext/commands/DeleteCommand.cpp:54
+#: kotext/commands/DeleteCommand.cpp:69
 msgctxt "(qtundo-format)"
 msgid "Delete"
 msgstr "काढून टाका"
@@ -1209,7 +1209,7 @@ msgid "Delete"
 msgstr "काढून टाका"
 
 #: kotext/commands/ChangeTrackedDeleteCommand.cpp:332
-#: kotext/commands/DeleteCommand.cpp:416 kotext/KoTextEditor_undo.cpp:87
+#: kotext/commands/DeleteCommand.cpp:518 kotext/KoTextEditor_undo.cpp:87
 #: kotext/KoTextEditor_undo.cpp:166 kotext/KoTextEditor_undo.cpp:201
 #: kotext/KoTextEditor_undo.cpp:218 kotext/KoTextEditor_undo.cpp:260
 msgctxt "(qtundo-format)"
@@ -1279,7 +1279,7 @@ msgctxt "(qtundo-format)"
 msgid "Direct Paragraph Formatting"
 msgstr ""
 
-#: kotext/commands/RenameSectionCommand.cpp:32
+#: kotext/commands/RenameSectionCommand.cpp:35
 #, fuzzy
 #| msgid "Rename Page"
 msgctxt "(qtundo-format)"
@@ -1294,6 +1294,16 @@ msgstr ""
 #: kotext/commands/ResizeTableCommand.cpp:47
 msgctxt "(qtundo-format)"
 msgid "Adjust Row Height"
+msgstr ""
+
+#: kotext/commands/SplitSectionsCommand.cpp:39
+msgctxt "(qtundo-format)"
+msgid "Split sections startings"
+msgstr ""
+
+#: kotext/commands/SplitSectionsCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Split sections endings"
 msgstr ""
 
 #: kotext/commands/TextPasteCommand.cpp:66
@@ -1353,7 +1363,7 @@ msgstr[1] ""
 msgid "Replace %1 with %2?"
 msgstr "%1 हे %2 या सह बदलायचे का?"
 
-#: kotext/KoSectionManager.cpp:129
+#: kotext/KoSectionModel.cpp:87
 #, fuzzy, kde-format
 #| msgid "Group Sections"
 msgctxt "new numbered section name"
@@ -1375,89 +1385,89 @@ msgctxt "Underline Style"
 msgid "Double"
 msgstr "दुप्पट"
 
-#: kotext/KoTextEditor.cpp:192 kotext/KoTextEditor.cpp:1536
-#: kotext/KoTextEditor.cpp:1538
+#: kotext/KoTextEditor.cpp:193 kotext/KoTextEditor.cpp:1559
+#: kotext/KoTextEditor.cpp:1561
 msgctxt "(qtundo-format)"
 msgid "New Paragraph"
 msgstr "नवीन परिच्छेद"
 
-#: kotext/KoTextEditor.cpp:482
+#: kotext/KoTextEditor.cpp:483
 msgctxt "(qtundo-format)"
 msgid "Add Bookmark"
 msgstr "ओळखचिन्ह जोडा"
 
-#: kotext/KoTextEditor.cpp:501
+#: kotext/KoTextEditor.cpp:502
 #, fuzzy
 #| msgid "Addition"
 msgctxt "(qtundo-format)"
 msgid "Add Annotation"
 msgstr "बेरीज"
 
-#: kotext/KoTextEditor.cpp:525
+#: kotext/KoTextEditor.cpp:526
 msgctxt "(qtundo-format)"
 msgid "Insert Index"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:551
+#: kotext/KoTextEditor.cpp:552
 msgctxt "(qtundo-format)"
 msgid "Insert Variable"
 msgstr "परिवर्तनीय अंतर्भूत करा"
 
-#: kotext/KoTextEditor.cpp:618
+#: kotext/KoTextEditor.cpp:619
 msgctxt "(qtundo-format)"
 msgid "Insert Break"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:939 kotext/KoTextEditor.cpp:941
-#: kotext/KoTextEditor.cpp:956
+#: kotext/KoTextEditor.cpp:940 kotext/KoTextEditor.cpp:942
+#: kotext/KoTextEditor.cpp:957
 msgctxt "(qtundo-format)"
 msgid "Insert Table"
 msgstr "कोष्टक अंतर्भूत करा"
 
-#: kotext/KoTextEditor.cpp:1096
+#: kotext/KoTextEditor.cpp:1097
 msgctxt "(qtundo-format)"
 msgid "Merge Cells"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1113
+#: kotext/KoTextEditor.cpp:1114
 msgctxt "(qtundo-format)"
 msgid "Split Cells"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1142
+#: kotext/KoTextEditor.cpp:1143
 msgctxt "(qtundo-format)"
 msgid "Adjust Table Width"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1159
+#: kotext/KoTextEditor.cpp:1160
 msgctxt "(qtundo-format)"
 msgid "Change Border Formatting"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1206 kotext/KoTextEditor.cpp:1208
-#: kotext/KoTextEditor.cpp:1226
+#: kotext/KoTextEditor.cpp:1207 kotext/KoTextEditor.cpp:1209
+#: kotext/KoTextEditor.cpp:1227
 msgctxt "(qtundo-format)"
 msgid "Insert Table Of Contents"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1265
+#: kotext/KoTextEditor.cpp:1266
 msgctxt "(qtundo-format)"
 msgid "Modify Table Of Contents"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1282 kotext/KoTextEditor.cpp:1284
-#: kotext/KoTextEditor.cpp:1303
+#: kotext/KoTextEditor.cpp:1283 kotext/KoTextEditor.cpp:1285
+#: kotext/KoTextEditor.cpp:1304
 msgctxt "(qtundo-format)"
 msgid "Insert Bibliography"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1340 kotext/KoTextEditor.cpp:1342
+#: kotext/KoTextEditor.cpp:1341 kotext/KoTextEditor.cpp:1343
 msgctxt "(qtundo-format)"
 msgid "Add Citation"
 msgstr ""
 
-#: kotext/KoTextEditor.cpp:1369 kotext/KoTextEditor.cpp:1371
-#: kotext/KoTextEditor.cpp:1409
+#: kotext/KoTextEditor.cpp:1370 kotext/KoTextEditor.cpp:1372
+#: kotext/KoTextEditor.cpp:1410
 msgctxt "(qtundo-format)"
 msgid "Typing"
 msgstr "टायपिंग"
