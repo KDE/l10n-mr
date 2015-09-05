@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-04 07:44+0000\n"
+"POT-Creation-Date: 2015-09-05 08:41+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -73,7 +73,7 @@ msgstr "पालक"
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:259
 #: plugins/tools/defaulttools/kis_tool_colorpicker.cc:301
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
-#: ui/dialogs/kis_dlg_preferences.cc:227 ui/input/kis_input_manager.cpp:546
+#: ui/dialogs/kis_dlg_preferences.cc:227 ui/input/kis_tablet_debugger.cpp:95
 #: ui/kis_filter_manager.cc:217 ui/kis_filter_manager.cc:226
 #: ui/kis_layer_manager.cc:675 ui/kis_layer_manager.cc:957
 #: ui/KisApplication.cpp:220 ui/KisApplication.cpp:223
@@ -82,12 +82,12 @@ msgstr "पालक"
 #: ui/KisDocument.cpp:1224 ui/KisDocument.cpp:1270 ui/KisDocument.cpp:1409
 #: ui/KisDocument.cpp:2041 ui/KisDocument.cpp:2044
 #: ui/KisImportExportManager.cpp:230 ui/KisImportExportManager.cpp:241
-#: ui/KisImportExportManager.cpp:536 ui/KisMainWindow.cpp:709
-#: ui/KisMainWindow.cpp:761 ui/KisMainWindow.cpp:775 ui/KisMainWindow.cpp:1453
-#: ui/KisMainWindow.cpp:1641 ui/KisMainWindow.cpp:1653
+#: ui/KisImportExportManager.cpp:536 ui/KisMainWindow.cpp:708
+#: ui/KisMainWindow.cpp:760 ui/KisMainWindow.cpp:774 ui/KisMainWindow.cpp:1452
+#: ui/KisMainWindow.cpp:1583 ui/KisMainWindow.cpp:1595
 #: ui/KisTemplateCreateDia.cpp:320 ui/KisView.cpp:826
 #: ui/opengl/kis_opengl_canvas2.cpp:578
-#: ui/opengl/kis_opengl_image_textures.cpp:531 ui/thememanager.cpp:271
+#: ui/opengl/kis_opengl_image_textures.cpp:531
 #: ui/widgets/kis_custom_image_widget.cc:246
 #, fuzzy
 #| msgid "Krita"
@@ -2064,7 +2064,7 @@ msgstr "पोस्ट प्रोसेसिंग"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2493 ui/KisMainWindow.cpp:893 ui/KisPart.cpp:584
+#: ui/KisDocument.cpp:2493 ui/KisMainWindow.cpp:892 ui/KisPart.cpp:584
 #: ui/KisPart.cpp:600 ui/kra/kis_kra_saver.cpp:71
 msgid "Unnamed"
 msgstr "निनावी"
@@ -2360,37 +2360,37 @@ msgctxt "@title:window"
 msgid "Krita: Internal Error"
 msgstr "इंटरलेसिंग"
 
-#: main.cc:84
+#: main.cc:93
 #, fuzzy
 #| msgid "Open and edit..."
 msgid "Only print and exit"
 msgstr "उघडा व संपादन करा..."
 
-#: main.cc:85
+#: main.cc:94
 msgid "Open a new document with a template"
 msgstr ""
 
-#: main.cc:86
+#: main.cc:95
 msgid "Override display DPI"
 msgstr ""
 
-#: main.cc:87
+#: main.cc:96
 msgid "Only export to PDF and exit"
 msgstr ""
 
-#: main.cc:88
+#: main.cc:97
 msgid "Export to the given filename and exit"
 msgstr ""
 
-#: main.cc:89
+#: main.cc:98
 msgid "Filename for export/export-pdf"
 msgstr ""
 
-#: main.cc:90
+#: main.cc:99
 msgid "Filename to write profiling information into."
 msgstr ""
 
-#: main.cc:91
+#: main.cc:100
 msgid "File(s) or URL(s) to open"
 msgstr "फाईल(ली) किंवा यूआरएल(एस) उघण्यासाठी"
 
@@ -4264,7 +4264,7 @@ msgstr "पूर्वावलोकन"
 
 #: plugins/extensions/dockers/palettedocker/colorsetchooser.cpp:97
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:61
-#: ui/KisMainWindow.cpp:674 ui/widgets/kis_workspace_chooser.cpp:93
+#: ui/KisMainWindow.cpp:673 ui/widgets/kis_workspace_chooser.cpp:93
 msgid "Save"
 msgstr "साठवा"
 
@@ -4598,14 +4598,14 @@ msgstr "पूर्वावलोकन"
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomIn)
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomInButton)
 #: plugins/extensions/gmic/wdg_gmic_input_output.ui:45
-#: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:118
+#: ui/forms/kis_previewwidgetbase.ui:135 ui/input/kis_zoom_action.cpp:107
 msgid "Zoom In"
 msgstr "मोठे करा"
 
 #. i18n: ectx: property (toolTip), widget (KPushButton, btnZoomOut)
 #. i18n: ectx: property (toolTip), widget (QPushButton, zoomOutButton)
 #: plugins/extensions/gmic/wdg_gmic_input_output.ui:61
-#: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:119
+#: ui/forms/kis_previewwidgetbase.ui:122 ui/input/kis_zoom_action.cpp:108
 msgid "Zoom Out"
 msgstr "लहान करा"
 
@@ -8915,7 +8915,9 @@ msgstr "सर्व  दृश्यमान रंगांचे नमु�
 #| "</p></body></html>"
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Clone Brush:</span></"
-"p><p>Select the source point with ctrl-click.</p></body></html>"
+"p><p>Select the source point from the current layer with Ctrl-click. Use Ctrl"
+"+Alt-click to select a source from the previously picked layer.</p></body></"
+"html>"
 msgstr ""
 "<html><head/><body><p>पार्श्वभूमीचा रंग पारदर्शी पिक्सेलना बदलेल.</p></body></html>"
 
@@ -11358,7 +11360,7 @@ msgstr "निवडीची रूपरेषा"
 msgid "Select path"
 msgstr "अपारदर्शक निवडा"
 
-#: plugins/tools/selectiontools/kis_tool_select_path.cc:133
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:134
 #, fuzzy
 #| msgid "Select by brush"
 msgctxt "(qtundo-format)"
@@ -12160,29 +12162,29 @@ msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "व्हेक्टर निवड"
 
-#: ui/canvas/kis_canvas_controller.cpp:170
+#: ui/canvas/kis_canvas_controller.cpp:168
 #, fuzzy, kde-format
 #| msgid "Horizontal spacing:"
 msgctxt "floating message about mirroring"
 msgid "Horizontal mirroring: %1 "
 msgstr "आडवे अंतर :"
 
-#: ui/canvas/kis_canvas_controller.cpp:170
+#: ui/canvas/kis_canvas_controller.cpp:168
 msgid "OFF"
 msgstr ""
 
-#: ui/canvas/kis_canvas_controller.cpp:170
+#: ui/canvas/kis_canvas_controller.cpp:168
 msgid "ON"
 msgstr ""
 
-#: ui/canvas/kis_canvas_controller.cpp:194
+#: ui/canvas/kis_canvas_controller.cpp:192
 #, fuzzy, kde-format
 #| msgid "Rotation:"
 msgctxt "floating message about rotation"
 msgid "Rotation: %1° "
 msgstr "फिरवणे :"
 
-#: ui/canvas/kis_canvas_controller.cpp:233
+#: ui/canvas/kis_canvas_controller.cpp:231
 msgid ""
 "You are activating wrap-around mode, but have not enabled OpenGL.\n"
 "To visualize wrap-around mode, enable OpenGL."
@@ -12589,8 +12591,8 @@ msgid "%1 is not a valid image file!"
 msgstr "समूह संपादनास अयोग्य."
 
 #: ui/dialogs/kis_dlg_preferences.cc:269
-#: ui/widgets/kis_advanced_color_space_selector.cc:86
-#: ui/widgets/kis_color_space_selector.cc:67
+#: ui/widgets/kis_advanced_color_space_selector.cc:88
+#: ui/widgets/kis_color_space_selector.cc:68
 msgid "Open Color Profile"
 msgstr "खुली रंग रूपरेषा"
 
@@ -12602,8 +12604,8 @@ msgid "Screen %1:"
 msgstr "स्क्रीनचा आकार (&S)"
 
 #: ui/dialogs/kis_dlg_preferences.cc:325
-#: ui/widgets/kis_advanced_color_space_selector.cc:672
-#: ui/widgets/kis_color_space_selector.cc:208
+#: ui/widgets/kis_advanced_color_space_selector.cc:674
+#: ui/widgets/kis_color_space_selector.cc:209
 #, fuzzy
 #| msgid "Open Color Profile"
 msgid "Install Color Profiles"
@@ -14633,7 +14635,7 @@ msgstr ""
 msgid "Edit Mouse Wheel Input"
 msgstr ""
 
-#: ui/input/kis_abstract_input_action.cpp:44
+#: ui/input/kis_abstract_input_action.cpp:45
 #: ui/input/kis_tool_invocation_action.cpp:51
 msgid "Activate"
 msgstr "सक्रिय करा"
@@ -14776,14 +14778,6 @@ msgstr "गॅमाः"
 
 #: ui/input/kis_gamma_exposure_action.cpp:90
 msgid "Reset Exposure and Gamma"
-msgstr ""
-
-#: ui/input/kis_input_manager.cpp:547
-msgid "Tablet Event Logging Enabled"
-msgstr ""
-
-#: ui/input/kis_input_manager.cpp:548
-msgid "Tablet Event Logging Disabled"
 msgstr ""
 
 #: ui/input/kis_pan_action.cpp:50
@@ -15001,6 +14995,14 @@ msgstr "पॉप अप पटल दर्शवा"
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
+#: ui/input/kis_tablet_debugger.cpp:96
+msgid "Tablet Event Logging Enabled"
+msgstr ""
+
+#: ui/input/kis_tablet_debugger.cpp:97
+msgid "Tablet Event Logging Disabled"
+msgstr ""
+
 #: ui/input/kis_tool_invocation_action.cpp:47
 msgid "Tool Invocation"
 msgstr "साधन इन्व्होकेशन"
@@ -15026,35 +15028,35 @@ msgstr ""
 msgid "Activate Line Tool"
 msgstr "पुढचा स्तर सक्रिय करा"
 
-#: ui/input/kis_zoom_action.cpp:112
+#: ui/input/kis_zoom_action.cpp:101
 msgid "Zoom Canvas"
 msgstr "कॅनव्हास मोठा करा"
 
-#: ui/input/kis_zoom_action.cpp:113
+#: ui/input/kis_zoom_action.cpp:102
 msgid "The <i>Zoom Canvas</i> action zooms the canvas."
 msgstr ""
 
-#: ui/input/kis_zoom_action.cpp:116
+#: ui/input/kis_zoom_action.cpp:105
 #, fuzzy
 #| msgid "Toggle Zoom Mode"
 msgid "Zoom Mode"
 msgstr "झूम पद्धत चालू/बंद करा"
 
-#: ui/input/kis_zoom_action.cpp:117
+#: ui/input/kis_zoom_action.cpp:106
 #, fuzzy
 #| msgid "Toggle Discrete Zoom Mode"
 msgid "Discrete Zoom Mode"
 msgstr "डिस्क्रीट झूम पद्धत चालू/बंद करा"
 
-#: ui/input/kis_zoom_action.cpp:120
+#: ui/input/kis_zoom_action.cpp:109
 msgid "Reset Zoom to 100%"
 msgstr "झूम 100% वर पुन्हा निश्चित करा"
 
-#: ui/input/kis_zoom_action.cpp:121
+#: ui/input/kis_zoom_action.cpp:110
 msgid "Fit to Page"
 msgstr "पानाप्रमाणे समर्पक बसवा"
 
-#: ui/input/kis_zoom_action.cpp:122
+#: ui/input/kis_zoom_action.cpp:111
 msgid "Fit to Width"
 msgstr "रुंदीप्रमाणे समर्पक बसवा"
 
@@ -17675,7 +17677,7 @@ msgstr "पेंटरची साधने (&P)"
 msgid "Custom Pattern"
 msgstr "ऐच्छिक पॅटर्न"
 
-#: ui/kis_custom_pattern.cc:166
+#: ui/kis_custom_pattern.cc:164
 msgid ""
 "The current image is too big to create a pattern. The pattern will be scaled "
 "down."
@@ -18761,7 +18763,7 @@ msgid ""
 "Error message: %4"
 msgstr ""
 
-#: ui/KisDocument.cpp:1549 ui/KisMainWindow.cpp:709
+#: ui/KisDocument.cpp:1549 ui/KisMainWindow.cpp:708
 #, kde-format
 msgid "The file %1 does not exist."
 msgstr ""
@@ -18906,118 +18908,106 @@ msgstr "प्रतिमेत स्तर जोडता आला ना�
 msgid "Choose Filter"
 msgstr "गाळणी बदला"
 
-#: ui/KisMainWindow.cpp:183
+#: ui/KisMainWindow.cpp:182
 #, fuzzy
 #| msgid "Locked"
 msgctxt "@action:inmenu"
 msgid "&Dockers"
 msgstr "कुलूपबंद"
 
-#: ui/KisMainWindow.cpp:184
+#: ui/KisMainWindow.cpp:183
 #, fuzzy
 #| msgid "Maintainer"
 msgctxt "@action:inmenu"
 msgid "&Window"
 msgstr "पालक"
 
-#: ui/KisMainWindow.cpp:185
+#: ui/KisMainWindow.cpp:184
 #, fuzzy
 #| msgid "Image Size"
 msgctxt "@action:inmenu"
 msgid "New &View"
 msgstr "प्रतिमेचा आकार"
 
-#: ui/KisMainWindow.cpp:439
+#: ui/KisMainWindow.cpp:438
 #, fuzzy, kde-format
 #| msgid "Show root layer"
 msgid "Show %1 Toolbar"
 msgstr "मूळ स्तर दर्शवा"
 
-#: ui/KisMainWindow.cpp:441
+#: ui/KisMainWindow.cpp:440
 #, fuzzy, kde-format
 #| msgid "Scrollbars"
 msgid "Hide %1 Toolbar"
 msgstr "स्क्रोलबार्स"
 
-#: ui/KisMainWindow.cpp:664
+#: ui/KisMainWindow.cpp:663
 msgid "(write protected)"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:672
+#: ui/KisMainWindow.cpp:671
 #, fuzzy, kde-format
 #| msgid "Save macro"
 msgid "Save as %1"
 msgstr "मॅक्रो साठवा"
 
-#: ui/KisMainWindow.cpp:874
+#: ui/KisMainWindow.cpp:873
 #, fuzzy
 #| msgid "untitled-1"
 msgid "untitled"
 msgstr "शिर्षकहीन-1"
 
-#: ui/KisMainWindow.cpp:1184
+#: ui/KisMainWindow.cpp:1183
 #, fuzzy
 #| msgid "Small Tiles"
 msgid "All files (*.*)"
 msgstr "लहान फरशा"
 
-#: ui/KisMainWindow.cpp:1187
+#: ui/KisMainWindow.cpp:1186
 #, fuzzy
 #| msgid "Import Image"
 msgid "Import Images"
 msgstr "प्रतिमा आयात करा"
 
-#: ui/KisMainWindow.cpp:1187
+#: ui/KisMainWindow.cpp:1186
 #, fuzzy
 #| msgid "Images"
 msgid "Open Images"
 msgstr "प्रतिमा"
 
-#: ui/KisMainWindow.cpp:1411
+#: ui/KisMainWindow.cpp:1410
 #, fuzzy
 #| msgid "Export Layer"
 msgid "Export as PDF"
 msgstr "निर्यात स्तर"
 
-#: ui/KisMainWindow.cpp:1453
+#: ui/KisMainWindow.cpp:1452
 msgid "Cannot export to the specified file"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1611
-#, fuzzy
-#| msgid "Open in New Documents"
-msgid "Document"
-msgstr "नवीन दस्तऐवजात उघडा"
-
-#: ui/KisMainWindow.cpp:1619
-#, fuzzy, kde-format
-#| msgid "Open in New Documents"
-msgid "Document - %1"
-msgstr "नवीन दस्तऐवजात उघडा"
-
-#: ui/KisMainWindow.cpp:1642
+#: ui/KisMainWindow.cpp:1584
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1653
+#: ui/KisMainWindow.cpp:1595
 #, fuzzy
 #| msgid "Could not add layer to image."
 msgid "Error: Could not reload this document"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: ui/KisMainWindow.cpp:1908
+#: ui/KisMainWindow.cpp:1850
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1911
+#: ui/KisMainWindow.cpp:1853
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:1996
+#: ui/KisMainWindow.cpp:1938
 msgid ""
 "The Calligra LittleCMS color management plugin is not installed. Krita will "
 "quit now."
@@ -19025,115 +19015,115 @@ msgstr ""
 "The Calligra LittleCMS color management plugin स्थापित केलेली नाही. क्रिटा आता "
 "बंद होईल."
 
-#: ui/KisMainWindow.cpp:2004
+#: ui/KisMainWindow.cpp:1946
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2013
+#: ui/KisMainWindow.cpp:1955
 #, fuzzy
 #| msgid "Installation error"
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "प्रतिष्ठापना त्रुटी"
 
-#: ui/KisMainWindow.cpp:2078
+#: ui/KisMainWindow.cpp:2020
 #, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2114
+#: ui/KisMainWindow.cpp:2056
 #, fuzzy
 #| msgid "Export Layer"
 msgctxt "@action:inmenu"
 msgid "Export as PDF..."
 msgstr "निर्यात स्तर"
 
-#: ui/KisMainWindow.cpp:2122
+#: ui/KisMainWindow.cpp:2064
 #, fuzzy
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close All"
 msgstr "बंद करा"
 
-#: ui/KisMainWindow.cpp:2133
+#: ui/KisMainWindow.cpp:2075
 #, fuzzy
 #| msgid "Open in New Document"
 msgctxt "@action:inmenu"
 msgid "Open ex&isting Document as Untitled Document..."
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: ui/KisMainWindow.cpp:2137
+#: ui/KisMainWindow.cpp:2079
 #, fuzzy
 #| msgid "Exposure"
 msgctxt "@action:inmenu"
 msgid "E&xport..."
 msgstr "एक्सपोजर"
 
-#: ui/KisMainWindow.cpp:2144
+#: ui/KisMainWindow.cpp:2086
 #, fuzzy
 #| msgid "Tool information"
 msgctxt "@action:inmenu"
 msgid "Document Information"
 msgstr "साधनांची माहिती"
 
-#: ui/KisMainWindow.cpp:2152
+#: ui/KisMainWindow.cpp:2094
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2158
+#: ui/KisMainWindow.cpp:2100
 #, fuzzy
 #| msgid "Show Rulers"
 msgctxt "@action:inmenu"
 msgid "Show Dockers"
 msgstr "मोजपट्ट्या दर्शवा"
 
-#: ui/KisMainWindow.cpp:2164
+#: ui/KisMainWindow.cpp:2106
 #, fuzzy
 #| msgid "Show Rulers"
 msgctxt "@action:inmenu"
 msgid "Show Docker Titlebars"
 msgstr "मोजपट्ट्या दर्शवा"
 
-#: ui/KisMainWindow.cpp:2174
+#: ui/KisMainWindow.cpp:2116
 msgctxt "@action:inmenu"
 msgid "Cascade"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2179
+#: ui/KisMainWindow.cpp:2121
 msgctxt "@action:inmenu"
 msgid "Tile"
 msgstr ""
 
-#: ui/KisMainWindow.cpp:2184
+#: ui/KisMainWindow.cpp:2126
 #, fuzzy
 #| msgid "Next"
 msgctxt "@action:inmenu"
 msgid "Next"
 msgstr "पुढील"
 
-#: ui/KisMainWindow.cpp:2189
+#: ui/KisMainWindow.cpp:2131
 #, fuzzy
 #| msgid "Previous Favourite Preset"
 msgctxt "@action:inmenu"
 msgid "Previous"
 msgstr "मागील पसंत प्रीसेट"
 
-#: ui/KisMainWindow.cpp:2194
+#: ui/KisMainWindow.cpp:2136
 #, fuzzy
 #| msgid "Maintainer"
 msgctxt "@action:inmenu"
 msgid "&New Window"
 msgstr "पालक"
 
-#: ui/KisMainWindow.cpp:2198
+#: ui/KisMainWindow.cpp:2140
 #, fuzzy
 #| msgid "Close"
 msgctxt "@action:inmenu"
 msgid "Close"
 msgstr "बंद करा"
 
-#: ui/KisMainWindow.cpp:2206
+#: ui/KisMainWindow.cpp:2148
 msgid "Expanding Spacer"
 msgstr ""
 
@@ -20614,24 +20604,12 @@ msgctxt "recorded filter action"
 msgid "Apply Filter"
 msgstr "गाळणी पुन्हा लागू करा"
 
-#: ui/thememanager.cpp:76
+#: ui/thememanager.cpp:75
 #, fuzzy
 #| msgid "Default"
 msgctxt "default theme name"
 msgid "Default"
 msgstr "मूलभूत"
-
-#: ui/thememanager.cpp:257
-#, fuzzy
-#| msgid "Configuration:"
-msgid "Configuration..."
-msgstr "रचना"
-
-#: ui/thememanager.cpp:271
-msgid ""
-"Cannot start Colors Settings panel from KDE Control Center. Please check "
-"your system..."
-msgstr ""
 
 #: ui/tool/kis_selection_tool_helper.cpp:136
 msgid ""
@@ -20729,18 +20707,18 @@ msgstr ""
 msgid "&Close"
 msgstr "बंद करा"
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:71
-#: ui/widgets/kis_color_space_selector.cc:70
+#: ui/widgets/kis_advanced_color_space_selector.cc:73
+#: ui/widgets/kis_color_space_selector.cc:71
 msgid "Download Color Profile"
 msgstr "रंग रूपरेषा डाउनलोड करा"
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:76
-#: ui/widgets/kis_color_space_selector.cc:75
+#: ui/widgets/kis_advanced_color_space_selector.cc:78
+#: ui/widgets/kis_color_space_selector.cc:76
 msgid "Share Color Profile"
 msgstr "रंग रूपरेषा शेअर करा"
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:134
-#: ui/widgets/kis_color_space_selector.cc:101
+#: ui/widgets/kis_advanced_color_space_selector.cc:136
+#: ui/widgets/kis_color_space_selector.cc:102
 #, fuzzy
 #| msgid "Default"
 msgctxt ""
@@ -20749,67 +20727,67 @@ msgctxt ""
 msgid "(Default)"
 msgstr "मूलभूत"
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:177
+#: ui/widgets/kis_advanced_color_space_selector.cc:179
 msgctxt "Not Applicable, used where there's no colorants or gamma curve found"
 msgid "N/A"
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:178
+#: ui/widgets/kis_advanced_color_space_selector.cc:180
 msgctxt "@info:tooltip"
 msgid "This profile has no colorants."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:179
+#: ui/widgets/kis_advanced_color_space_selector.cc:181
 #, fuzzy
 #| msgid "No profile"
 msgctxt "Shows up instead of the name when there's no profile"
 msgid "No Profile Found"
 msgstr "रूपरेषा नाही"
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:180
+#: ui/widgets/kis_advanced_color_space_selector.cc:182
 msgid "Colorant in d50-adapted xyY."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:224
+#: ui/widgets/kis_advanced_color_space_selector.cc:226
 msgctxt ""
 "Estimated Gamma indicates how the TRC (Tone Response Curve or Tone "
 "Reproduction Curve) is bent. A Gamma of 1.0 means linear."
 msgid "<b>Estimated Gamma</b>: "
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:225
+#: ui/widgets/kis_advanced_color_space_selector.cc:227
 msgctxt ""
 "This is for special Gamma types that LCMS cannot differentiate between"
 msgid "<b>Estimated Gamma</b>: sRGB, L* or rec709 TRC"
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:226
+#: ui/widgets/kis_advanced_color_space_selector.cc:228
 msgctxt "@info:tooltip"
 msgid ""
 "The Tone Response Curve of this color space is either sRGB, L* or rec709 TRC."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:260
+#: ui/widgets/kis_advanced_color_space_selector.cc:262
 msgctxt "@info:tooltip"
 msgid "Estimated Gamma cannot be retrieved for CMYK."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:266
+#: ui/widgets/kis_advanced_color_space_selector.cc:268
 msgctxt "@info:tooltip"
 msgid "XYZ is assumed to be linear Gamma."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:272
+#: ui/widgets/kis_advanced_color_space_selector.cc:274
 msgctxt "@info:tooltip"
 msgid "This is assumed to be the L * TRC."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:278
+#: ui/widgets/kis_advanced_color_space_selector.cc:280
 msgctxt "@info:tooltip"
 msgid "Estimated Gamma cannot be retrieved for YCrCb."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:287
+#: ui/widgets/kis_advanced_color_space_selector.cc:289
 msgctxt "If the selected model is RGB"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/RGB_color_space\">RGB (Red, "
@@ -20821,7 +20799,7 @@ msgid ""
 "editing."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:293
+#: ui/widgets/kis_advanced_color_space_selector.cc:295
 msgctxt "If the selected model is CMYK"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/CMYK_color_model\">CMYK (Cyan, "
@@ -20834,7 +20812,7 @@ msgid ""
 "colorants or the TRC for this space."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:302
+#: ui/widgets/kis_advanced_color_space_selector.cc:304
 msgctxt "If the selected model is XYZ"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/CIE_1931_color_space\">CIE XYZ</"
@@ -20845,7 +20823,7 @@ msgid ""
 "encode in. The Tone Response Curve is assumed to be linear."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:309
+#: ui/widgets/kis_advanced_color_space_selector.cc:311
 msgctxt "If the selected model is Grayscale"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/Grayscale\">Grayscale</a></b> "
@@ -20855,7 +20833,7 @@ msgid ""
 "you can mix Grayscale and RGB layers in the same image."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:316
+#: ui/widgets/kis_advanced_color_space_selector.cc:318
 msgctxt "If the selected model is LAB"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/Lab_color_space\">L*a*b</a></b>. "
@@ -20871,7 +20849,7 @@ msgid ""
 "Curve is assumed to be the L* TRC."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:327
+#: ui/widgets/kis_advanced_color_space_selector.cc:329
 msgctxt "If the selected model is YCbCr"
 msgid ""
 "<b><a href=\"https://en.wikipedia.org/wiki/YCbCr\">YCbCr (Luma, Blue Chroma, "
@@ -20885,7 +20863,7 @@ msgid ""
 "of open source ICC profiles for YCrCb."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:340
+#: ui/widgets/kis_advanced_color_space_selector.cc:342
 msgctxt "When the selected Bitdepth is 8"
 msgid ""
 "<b>8 bit integer</b>: The default amount of colors per channel. Each channel "
@@ -20894,7 +20872,7 @@ msgid ""
 "simple images."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:346
+#: ui/widgets/kis_advanced_color_space_selector.cc:348
 msgctxt "When the selected Bitdepth is 16"
 msgid ""
 "<b>16 bit integer</b>: Also known as 'deep color'. 16 bit is ideal for "
@@ -20907,7 +20885,7 @@ msgid ""
 "from 16 bit/channel to 8 bit/channel."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:355
+#: ui/widgets/kis_advanced_color_space_selector.cc:357
 msgctxt "When the selected Bitdepth is 16 bit float"
 msgid ""
 "<b>16 bit floating point</b>: Also known as 'Half Floating Point', and the "
@@ -20921,7 +20899,7 @@ msgid ""
 "bit if your computer slows down."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:364
+#: ui/widgets/kis_advanced_color_space_selector.cc:366
 msgctxt "When the selected Bitdepth is 32bit float"
 msgid ""
 "<b>32 bit float point</b>: Also known as 'Full Floating Point'. 32 bit float "
@@ -20934,7 +20912,7 @@ msgid ""
 "otherwise use 8 bit if your computer slows down."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:373
+#: ui/widgets/kis_advanced_color_space_selector.cc:375
 msgctxt ""
 "When the selected Bitdepth is 64bit float, but this isn't actually available "
 "in Krita at the moment."
@@ -20949,7 +20927,7 @@ msgid ""
 "otherwise use 8 bit if your computer slows down."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:384
+#: ui/widgets/kis_advanced_color_space_selector.cc:386
 msgctxt "These are Elle Stone's notes on her profiles that we ship."
 msgid ""
 "<p><b>Extra notes on profiles by Elle Stone:</b><p><i>Krita comes with a "
@@ -20959,7 +20937,7 @@ msgid ""
 "documentation</a> as well.</i>"
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:392
+#: ui/widgets/kis_advanced_color_space_selector.cc:394
 msgctxt "From Elle's notes."
 msgid ""
 "<p>Quoting Wikipedia, 'Academy Color Encoding System (ACES) is a color image "
@@ -20969,7 +20947,7 @@ msgid ""
 "source'."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:400
+#: ui/widgets/kis_advanced_color_space_selector.cc:402
 msgctxt "From Elle's notes."
 msgid ""
 "<p>The ACEScg color space is smaller than the ACES color space, but large "
@@ -20978,7 +20956,7 @@ msgid ""
 "just barely outside the area of real colors humans can see"
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:407
+#: ui/widgets/kis_advanced_color_space_selector.cc:409
 msgctxt "From Elle's notes."
 msgid ""
 "To avoid possible copyright infringement issues, I used 'ClayRGB' (following "
@@ -20994,7 +20972,7 @@ msgid ""
 "high-end wide gamut monitors."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:421
+#: ui/widgets/kis_advanced_color_space_selector.cc:423
 msgctxt "From Elle's notes."
 msgid ""
 "This profile's color gamut is roughly the same size and shape as the ACES "
@@ -21010,7 +20988,7 @@ msgid ""
 "sure your color space really does hold all possible real colors."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:436
+#: ui/widgets/kis_advanced_color_space_selector.cc:438
 msgctxt "From Elle's notes."
 msgid ""
 "This profile is included mostly for its historical significance. It's the "
@@ -21023,7 +21001,7 @@ msgid ""
 "be calculated from the spectral wavelengths, so I did."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:449
+#: ui/widgets/kis_advanced_color_space_selector.cc:451
 msgctxt "From Elle's notes."
 msgid ""
 "The IdentityRGB working space is included in the profile pack because it's a "
@@ -21033,7 +21011,7 @@ msgid ""
 "edit images in the IdentityRGB working space."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:457
+#: ui/widgets/kis_advanced_color_space_selector.cc:459
 msgctxt "From Elle's notes."
 msgid ""
 "To avoid possible copyright infringement issues, I used "
@@ -21050,7 +21028,7 @@ msgid ""
 "recommend BetaRGB, Rec2020, or the ACEScg profiles ProPhotoRGB."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:473
+#: ui/widgets/kis_advanced_color_space_selector.cc:475
 msgctxt "From Elle's notes."
 msgid ""
 "Rec.2020 is the up-and-coming replacement for the thoroughly outdated sRGB "
@@ -21062,7 +21040,7 @@ msgid ""
 "working space than the exceedingly small sRGB color space."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:482
+#: ui/widgets/kis_advanced_color_space_selector.cc:484
 msgctxt "From Elle's notes."
 msgid ""
 "Hewlett-Packard and Microsoft designed sRGB to match the color gamut of "
@@ -21082,7 +21060,7 @@ msgid ""
 "matrix profiles don't have perceptual intent tables.</p>"
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:498
+#: ui/widgets/kis_advanced_color_space_selector.cc:500
 msgctxt "From Elle's notes."
 msgid ""
 "To avoid possible copyright infringement issues, I used 'WideRGB' as the "
@@ -21093,7 +21071,7 @@ msgid ""
 "introduction, Adobe switched their emphasis to the ProPhotoRGB color space."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:506
+#: ui/widgets/kis_advanced_color_space_selector.cc:508
 msgctxt "From Elle's notes."
 msgid ""
 "<p>These profiles are for use with RGB images that have been converted to "
@@ -21105,7 +21083,7 @@ msgid ""
 "internet, convert the image to the V2 Gray profile with the sRGB TRC."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:514
+#: ui/widgets/kis_advanced_color_space_selector.cc:516
 msgctxt "From Elle's notes."
 msgid ""
 "<p>The profiles that end in '-g10.icc' are linear gamma (gamma=1.0, 'linear "
@@ -21115,7 +21093,7 @@ msgid ""
 "color spaces."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:521
+#: ui/widgets/kis_advanced_color_space_selector.cc:523
 msgctxt "From Elle's notes."
 msgid ""
 "<p>The profiles that end in '-labl.icc' have perceptually uniform TRCs. A "
@@ -21123,7 +21101,7 @@ msgid ""
 "Make sure you use the V4 versions for editing high bit depth images."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:527
+#: ui/widgets/kis_advanced_color_space_selector.cc:529
 msgctxt "From Elle's notes."
 msgid ""
 "<p>The profiles that end in '-srgbtrc.icc', '-g22.icc', and '-bt709.icc' "
@@ -21131,7 +21109,7 @@ msgid ""
 "gamma=1.8 TRC is not quite as close to being perceptually uniform."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:532
+#: ui/widgets/kis_advanced_color_space_selector.cc:534
 msgctxt "From Elle's notes."
 msgid ""
 "<p>When editing 8-bit images, you should use a profile with a small color "
@@ -21143,7 +21121,7 @@ msgid ""
 "8-bit editing."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:540
+#: ui/widgets/kis_advanced_color_space_selector.cc:542
 msgctxt "From Elle's notes."
 msgid ""
 "<p>Use V4 profiles for editing images using high bit depth image editors "
@@ -21151,7 +21129,7 @@ msgid ""
 "showFoto, and GIMP 2.9."
 msgstr ""
 
-#: ui/widgets/kis_advanced_color_space_selector.cc:545
+#: ui/widgets/kis_advanced_color_space_selector.cc:547
 msgctxt "From Elle's notes."
 msgid ""
 "<p>Use V2 profiles for exporting finished images to be uploaded to the web "
@@ -21445,6 +21423,21 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#, fuzzy
+#~| msgid "Open in New Documents"
+#~ msgid "Document"
+#~ msgstr "नवीन दस्तऐवजात उघडा"
+
+#, fuzzy
+#~| msgid "Open in New Documents"
+#~ msgid "Document - %1"
+#~ msgstr "नवीन दस्तऐवजात उघडा"
+
+#, fuzzy
+#~| msgid "Configuration:"
+#~ msgid "Configuration..."
+#~ msgstr "रचना"
 
 #, fuzzy
 #~| msgid "Advanced quality"
