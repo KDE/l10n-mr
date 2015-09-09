@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-08 10:44+0000\n"
+"POT-Creation-Date: 2015-09-09 08:20+0000\n"
 "PO-Revision-Date: 2013-04-12 15:14+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -474,6 +474,17 @@ msgstr ""
 msgid "Configure..."
 msgstr "ऐच्छिक हेडर्स (&H)"
 
+#: header/allheaderstyleplugin/allheaderstyleinterface.cpp:36
+#: viewer/viewer_p.cpp:1627
+msgctxt "View->headers->"
+msgid "&All Headers"
+msgstr "सर्व हेडर्स (&A)"
+
+#: header/allheaderstyleplugin/allheaderstyleinterface.cpp:39
+#: viewer/viewer_p.cpp:1630
+msgid "Show all message headers"
+msgstr "सर्व संदेश हेडर्स दर्शवा "
+
 #: header/briefheaderstyle.cpp:99 header/customheaderstyle.cpp:92
 #: header/enterpriseheaderstyle.cpp:118 header/fancyheaderstyle.cpp:128
 #: header/plainheaderstyle.cpp:92
@@ -491,6 +502,17 @@ msgstr "CC: "
 #: header/plainheaderstyle.cpp:110
 msgid "BCC: "
 msgstr "BCC: "
+
+#: header/briefheaderstyleplugin/briefheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1606
+msgctxt "View->headers->"
+msgid "&Brief Headers"
+msgstr "संक्षिप्त हेडर्स (&B)"
+
+#: header/briefheaderstyleplugin/briefheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1609
+msgid "Show brief list of message headers"
+msgstr "संदेश हेडर्स ची संक्षिप्त यादी दर्शवा "
 
 #: header/customheadersettingwidget.cpp:40
 msgid "Only show the headers listed below"
@@ -543,9 +565,31 @@ msgstr "यास उत्तर द्या : "
 msgid "%1: "
 msgstr "%1: "
 
+#: header/customheaderstyleplugin/customheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1634
+msgctxt "View->headers->"
+msgid "&Custom Headers"
+msgstr "ऐच्छिक हेडर्स (&H)"
+
+#: header/customheaderstyleplugin/customheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1637
+msgid "Show custom headers"
+msgstr "ऐच्छिक हेडर्स दर्शवा"
+
 #: header/enterpriseheaderstyle.cpp:133
 msgid "To: "
 msgstr "पर्यंत : "
+
+#: header/enterpriseheaderstyleplugin/enterpriseheaderstyleinterface.cpp:36
+#: viewer/viewer_p.cpp:1592
+msgctxt "View->headers->"
+msgid "&Enterprise Headers"
+msgstr "एंटरप्राइस हेडर्स (&E)"
+
+#: header/enterpriseheaderstyleplugin/enterpriseheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1595
+msgid "Show the list of headers in Enterprise style"
+msgstr "हेडर्स ची यादी एंटरप्राइस स्वरूपात दर्शवा"
 
 #: header/fancyheaderstyle.cpp:123
 #, kde-format
@@ -583,6 +627,17 @@ msgstr "पर्यंत : "
 #: header/fancyheaderstyle.cpp:226 header/grantleeheaderformatter.cpp:154
 msgid "Spam Status:"
 msgstr "स्पाम स्थिती :"
+
+#: header/fancyheaderstyleplugin/fancyheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1599
+msgctxt "View->headers->"
+msgid "&Fancy Headers"
+msgstr "नक्षीदार हेडर्स (&F)"
+
+#: header/fancyheaderstyleplugin/fancyheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1602
+msgid "Show the list of headers in a fancy format"
+msgstr "हेडर्स ची यादी नक्षीदार स्वरूपात दर्शवा"
 
 #: header/grantleeheaderformatter.cpp:83
 #, kde-format
@@ -706,6 +761,37 @@ msgstr ""
 "\n"
 "पूर्ण अहवाल :\n"
 "%2"
+
+#: header/headerstylemenu.cpp:58 viewer/viewer_p.cpp:1587
+msgctxt "View->"
+msgid "&Headers"
+msgstr "हेडर्स (&H)"
+
+#: header/headerstylemenu.cpp:60 viewer/viewer_p.cpp:1589
+msgid "Choose display style of message headers"
+msgstr "संदेश हेडर्स ची दृश्य शैली निवडा"
+
+#: header/longheaderstyleplugin/longheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1620
+msgctxt "View->headers->"
+msgid "&Long Headers"
+msgstr "लांब हेडर्स (&L)"
+
+#: header/longheaderstyleplugin/longheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1623
+msgid "Show long list of message headers"
+msgstr "संदेश हेडर्स ची लांब यादी दर्शवा "
+
+#: header/standardsheaderstyleplugin/standardsheaderstyleinterface.cpp:37
+#: viewer/viewer_p.cpp:1613
+msgctxt "View->headers->"
+msgid "&Standard Headers"
+msgstr "प्रमाणित हेडर्स (&S)"
+
+#: header/standardsheaderstyleplugin/standardsheaderstyleinterface.cpp:40
+#: viewer/viewer_p.cpp:1616
+msgid "Show standard list of message headers"
+msgstr "संदेश हेडर्स ची प्रमाणित यादी दर्शवा "
 
 #: job/attachmenteditjob.cpp:46
 msgid ""
@@ -1908,11 +1994,11 @@ msgstr ""
 msgid "End of encapsulated message"
 msgstr ""
 
-#: viewer/pluginloaderbase.cpp:89
+#: viewer/pluginloaderbase.cpp:90
 msgid "Unnamed plugin"
 msgstr "निनावी प्लगइन"
 
-#: viewer/pluginloaderbase.cpp:95
+#: viewer/pluginloaderbase.cpp:96
 msgid "No description available"
 msgstr "वर्णन उपलब्ध नाही"
 
@@ -2127,78 +2213,6 @@ msgstr ""
 #, kde-format
 msgid "View Attachment: %1"
 msgstr ""
-
-#: viewer/viewer_p.cpp:1587
-msgctxt "View->"
-msgid "&Headers"
-msgstr "हेडर्स (&H)"
-
-#: viewer/viewer_p.cpp:1589
-msgid "Choose display style of message headers"
-msgstr "संदेश हेडर्स ची दृश्य शैली निवडा"
-
-#: viewer/viewer_p.cpp:1592
-msgctxt "View->headers->"
-msgid "&Enterprise Headers"
-msgstr "एंटरप्राइस हेडर्स (&E)"
-
-#: viewer/viewer_p.cpp:1595
-msgid "Show the list of headers in Enterprise style"
-msgstr "हेडर्स ची यादी एंटरप्राइस स्वरूपात दर्शवा"
-
-#: viewer/viewer_p.cpp:1599
-msgctxt "View->headers->"
-msgid "&Fancy Headers"
-msgstr "नक्षीदार हेडर्स (&F)"
-
-#: viewer/viewer_p.cpp:1602
-msgid "Show the list of headers in a fancy format"
-msgstr "हेडर्स ची यादी नक्षीदार स्वरूपात दर्शवा"
-
-#: viewer/viewer_p.cpp:1606
-msgctxt "View->headers->"
-msgid "&Brief Headers"
-msgstr "संक्षिप्त हेडर्स (&B)"
-
-#: viewer/viewer_p.cpp:1609
-msgid "Show brief list of message headers"
-msgstr "संदेश हेडर्स ची संक्षिप्त यादी दर्शवा "
-
-#: viewer/viewer_p.cpp:1613
-msgctxt "View->headers->"
-msgid "&Standard Headers"
-msgstr "प्रमाणित हेडर्स (&S)"
-
-#: viewer/viewer_p.cpp:1616
-msgid "Show standard list of message headers"
-msgstr "संदेश हेडर्स ची प्रमाणित यादी दर्शवा "
-
-#: viewer/viewer_p.cpp:1620
-msgctxt "View->headers->"
-msgid "&Long Headers"
-msgstr "लांब हेडर्स (&L)"
-
-#: viewer/viewer_p.cpp:1623
-msgid "Show long list of message headers"
-msgstr "संदेश हेडर्स ची लांब यादी दर्शवा "
-
-#: viewer/viewer_p.cpp:1627
-msgctxt "View->headers->"
-msgid "&All Headers"
-msgstr "सर्व हेडर्स (&A)"
-
-#: viewer/viewer_p.cpp:1630
-msgid "Show all message headers"
-msgstr "सर्व संदेश हेडर्स दर्शवा "
-
-#: viewer/viewer_p.cpp:1634
-msgctxt "View->headers->"
-msgid "&Custom Headers"
-msgstr "ऐच्छिक हेडर्स (&H)"
-
-#: viewer/viewer_p.cpp:1637
-msgid "Show custom headers"
-msgstr "ऐच्छिक हेडर्स दर्शवा"
 
 #: viewer/viewer_p.cpp:1645
 msgctxt "View->"
