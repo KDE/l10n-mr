@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-09-20 08:39+0000\n"
+"POT-Creation-Date: 2015-09-21 07:56+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -4255,7 +4255,7 @@ msgstr "जुळवा (&A)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, focusModuleCheck)
 #: ekos/ekosmanager.cpp:2262 ekos/scheduler.ui:177
-#: fitsviewer/fitsviewer.cpp:295
+#: fitsviewer/fitsviewer.cpp:298
 msgid "Focus"
 msgstr "केंद्र"
 
@@ -4268,7 +4268,7 @@ msgstr "मोजणी"
 
 #. i18n: ectx: property (text), widget (QCheckBox, guideModuleCheck)
 #: ekos/ekosmanager.cpp:2318 ekos/scheduler.ui:203
-#: fitsviewer/fitsviewer.cpp:299
+#: fitsviewer/fitsviewer.cpp:302
 msgid "Guide"
 msgstr ""
 
@@ -6791,7 +6791,7 @@ msgstr "कार्यरत आहे"
 msgid "Invalid"
 msgstr "अवैध URL"
 
-#: ekos/schedulerjob.cpp:198 fitsviewer/fitshistogram.cpp:568
+#: ekos/schedulerjob.cpp:198 fitsviewer/fitshistogram.cpp:624
 #: skycomponents/constellationboundarylines.cpp:269
 #, fuzzy
 msgid "Unknown"
@@ -6877,95 +6877,86 @@ msgstr "मुख्य साधनपट्टी"
 msgid "Process ToolBar"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:121
-msgid "Please hold while loading FITS file..."
-msgstr ""
-
-#: fitsviewer/fitsdata.cpp:122
-#, fuzzy
-msgid "Loading FITS"
-msgstr "दाखल करत आहे..."
-
-#: fitsviewer/fitsdata.cpp:152
+#: fitsviewer/fitsdata.cpp:141
 #, fuzzy, kde-format
 #| msgid "Could not open file %1."
 msgid "Could not open file %1 (fits_get_img_param). Error %2"
 msgstr "फाईल %1 उघडू शकत नाही"
 
-#: fitsviewer/fitsdata.cpp:152 fitsviewer/fitsdata.cpp:170
-#: fitsviewer/fitsdata.cpp:177 fitsviewer/fitsdata.cpp:201
-#: fitsviewer/fitsdata.cpp:212 fitsviewer/fitsdata.cpp:263
+#: fitsviewer/fitsdata.cpp:141 fitsviewer/fitsdata.cpp:150
+#: fitsviewer/fitsdata.cpp:156 fitsviewer/fitsdata.cpp:180
+#: fitsviewer/fitsdata.cpp:190 fitsviewer/fitsdata.cpp:219
 msgid "FITS Open"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:170
+#: fitsviewer/fitsdata.cpp:150
 #, kde-format
 msgid "FITS file open error (fits_get_img_param): %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:177
+#: fitsviewer/fitsdata.cpp:156
 msgid "1D FITS images are not supported in KStars."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:201
+#: fitsviewer/fitsdata.cpp:180
 #, kde-format
 msgid "Bit depth %1 is not supported."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:212
+#: fitsviewer/fitsdata.cpp:190
 #, kde-format
 msgid "Image has invalid dimensions %1x%2"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:263
+#: fitsviewer/fitsdata.cpp:219
 #, fuzzy, kde-format
 msgid "Error reading image: %1"
 msgstr "प्रतिमा साठवू शकत नाही"
 
-#: fitsviewer/fitsdata.cpp:349
+#: fitsviewer/fitsdata.cpp:251
 msgid ""
 "Are you sure you want to overwrite original image data with debayered data? "
 "This action is irreversible!"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:349 fitsviewer/fitstab.cpp:262
+#: fitsviewer/fitsdata.cpp:251 fitsviewer/fitstab.cpp:262
 #, fuzzy
 #| msgid "Save"
 msgid "Save FITS"
 msgstr "साठवा"
 
-#: fitsviewer/fitsdata.cpp:1986
+#: fitsviewer/fitsdata.cpp:1918
 msgid "Only 8 and 16 bits bayered images supported."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:1986 fitsviewer/fitsdata.cpp:2053
+#: fitsviewer/fitsdata.cpp:1918 fitsviewer/fitsdata.cpp:1985
 msgid "Debayer error"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:2011
+#: fitsviewer/fitsdata.cpp:1943
 msgid "Unable to allocate memory for bayer buffer."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:2011 kstarsactions.cpp:771
+#: fitsviewer/fitsdata.cpp:1943 kstarsactions.cpp:771
 #, fuzzy
 #| msgid "Open Script"
 msgid "Open FITS"
 msgstr "स्क्रिप्ट उघडा"
 
-#: fitsviewer/fitsdata.cpp:2046
+#: fitsviewer/fitsdata.cpp:1978
 msgid "Unable to allocate memory for temporary bayer buffer."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:2046 fitsviewer/fitsdata.cpp:2071
+#: fitsviewer/fitsdata.cpp:1978 fitsviewer/fitsdata.cpp:2003
 msgid "Debayer Error"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:2053
+#: fitsviewer/fitsdata.cpp:1985
 #, kde-format
 msgid "Debayer failed (%1)"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:2071
+#: fitsviewer/fitsdata.cpp:2003
 msgid "Unable to allocate memory for debayerd buffer."
 msgstr ""
 
@@ -7066,8 +7057,8 @@ msgid "Status:"
 msgstr "स्थिती"
 
 #. i18n: ectx: property (text), widget (QLineEdit, statusEdit)
-#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:331
-#: fitsviewer/fitsviewer.cpp:747
+#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:334
+#: fitsviewer/fitsviewer.cpp:750
 msgid "Ready."
 msgstr ""
 
@@ -7099,31 +7090,31 @@ msgstr "टीप"
 msgid "&Close"
 msgstr "बंद करा (&C)"
 
-#: fitsviewer/fitshistogram.cpp:181
+#: fitsviewer/fitshistogram.cpp:236
 #, fuzzy
 #| msgid "Intensity:"
 msgid "Intensity"
 msgstr "तीव्रता :"
 
-#: fitsviewer/fitshistogram.cpp:182
+#: fitsviewer/fitshistogram.cpp:237
 msgid "Frequency"
 msgstr ""
 
-#: fitsviewer/fitshistogram.cpp:550
+#: fitsviewer/fitshistogram.cpp:606
 msgid "Auto Scale"
 msgstr ""
 
-#: fitsviewer/fitshistogram.cpp:553
+#: fitsviewer/fitshistogram.cpp:609
 #, fuzzy
 #| msgid "Linear"
 msgid "Linear Scale"
 msgstr "रेषीय"
 
-#: fitsviewer/fitshistogram.cpp:556
+#: fitsviewer/fitshistogram.cpp:612
 msgid "Logarithmic Scale"
 msgstr ""
 
-#: fitsviewer/fitshistogram.cpp:559
+#: fitsviewer/fitshistogram.cpp:615
 #, fuzzy
 #| msgid "Square root"
 msgid "Square Root Scale"
@@ -7191,7 +7182,7 @@ msgstr ""
 msgid "&Apply"
 msgstr "लागू करा (&A)"
 
-#: fitsviewer/fitstab.cpp:59 fitsviewer/fitsviewer.cpp:580
+#: fitsviewer/fitstab.cpp:59 fitsviewer/fitsviewer.cpp:583
 #, fuzzy
 #| msgid "Save changes"
 msgid "Save Changes to FITS?"
@@ -7233,18 +7224,27 @@ msgctxt "Half Flux Radius"
 msgid "HFR: %1"
 msgstr "P"
 
-#: fitsviewer/fitsview.cpp:372
+#: fitsviewer/fitsview.cpp:304
+msgid "Please hold while loading FITS file..."
+msgstr ""
+
+#: fitsviewer/fitsview.cpp:305
+#, fuzzy
+msgid "Loading FITS"
+msgstr "दाखल करत आहे..."
+
+#: fitsviewer/fitsview.cpp:416
 #, fuzzy
 #| msgid "Image"
 msgid "Image is saturated!"
 msgstr "प्रतिमा"
 
-#: fitsviewer/fitsview.cpp:704
+#: fitsviewer/fitsview.cpp:750
 #, fuzzy
 msgid "Finding stars..."
 msgstr "दाखल करत आहे..."
 
-#: fitsviewer/fitsview.cpp:708
+#: fitsviewer/fitsview.cpp:754
 #, kde-format
 msgid "1 star detected."
 msgid_plural "%1 stars detected."
@@ -7298,7 +7298,7 @@ msgstr ""
 msgid "Statistics"
 msgstr "आकडेवारी"
 
-#: fitsviewer/fitsviewer.cpp:197 fitsviewer/fitsviewer.cpp:718
+#: fitsviewer/fitsviewer.cpp:197 fitsviewer/fitsviewer.cpp:721
 msgid "Mark Stars"
 msgstr ""
 
@@ -7306,31 +7306,31 @@ msgstr ""
 msgid "KStars FITS Viewer"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:291
+#: fitsviewer/fitsviewer.cpp:294
 msgid "Calibrate"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:390
+#: fitsviewer/fitsviewer.cpp:393
 #, kde-format
 msgid "%1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] ""
 msgstr[1] ""
 
-#: fitsviewer/fitsviewer.cpp:450
+#: fitsviewer/fitsviewer.cpp:453
 msgid "Open FITS Image"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:581
+#: fitsviewer/fitsviewer.cpp:584
 #, kde-format
 msgid "%1 has unsaved changes.  Would you like to save before closing it?"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:723
+#: fitsviewer/fitsviewer.cpp:726
 msgid "Unmark Stars"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:741
+#: fitsviewer/fitsviewer.cpp:744
 #, fuzzy, kde-format
 msgid "Processing %1..."
 msgstr "कार्यरत आहे"
