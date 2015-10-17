@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-24 01:56+0000\n"
+"POT-Creation-Date: 2015-10-17 02:27+0000\n"
 "PO-Revision-Date: 2013-03-11 16:20+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,130 +17,138 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "चेतन खोना"
-
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "chetan@kompkin.com"
-
-#: kmlexport.cpp:79
+#: kmlexport.cpp:87
 msgid "Generating KML file..."
 msgstr ""
 
-#: kmlexport.cpp:100
-#, kde-format
-msgid "Could not create '%1'"
-msgstr ""
-
-#: kmlexport.cpp:188
+#: kmlexport.cpp:177
 #, kde-format
 msgid "Could not read image '%1'"
 msgstr ""
 
-#: kmlexport.cpp:197
+#: kmlexport.cpp:186
 #, kde-format
 msgid "Format of image '%1' is unknown"
 msgstr ""
 
-#: kmlexport.cpp:209
+#: kmlexport.cpp:198
 #, kde-format
 msgid "Error loading image '%1'"
 msgstr ""
 
-#: kmlexport.cpp:248
+#: kmlexport.cpp:237
 #, kde-format
 msgid "Could not save image '%1' to '%2'"
 msgstr ""
 
-#: kmlexport.cpp:351
+#: kmlexport.cpp:340
 #, kde-format
 msgid "Creation of placemark '%1'"
 msgstr ""
 
-#: kmlexport.cpp:359
+#: kmlexport.cpp:348
 #, kde-format
 msgid "Could not save icon for image '%1' to '%2'"
 msgstr ""
 
-#: kmlexport.cpp:391
+#: kmlexport.cpp:380
 msgid "No GPX file chosen."
 msgstr ""
 
-#: kmlexport.cpp:400
+#: kmlexport.cpp:389
 #, kde-format
 msgid "Cannot parse %1 GPX file."
 msgstr ""
 
-#: kmlexport.cpp:406
+#: kmlexport.cpp:395
 #, kde-format
 msgid "The %1 GPX file do not have a date-time track to use."
 msgstr ""
 
-#: kmlexport.cpp:413
+#: kmlexport.cpp:402
 msgid "Tracks"
 msgstr "ट्रॅक्स"
 
-#: kmlexport.cpp:508
+#: kmlexport.cpp:496
 #, kde-format
 msgid "No position data for '%1'"
 msgstr ""
 
-#: kmlexport.cpp:520
+#: kmlexport.cpp:508
+msgid "Missing position"
+msgstr ""
+
+#: kmlexport.cpp:509
 #, kde-format
 msgid "No position data for 1 picture"
 msgid_plural "No position data for %1 pictures"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmlexport.cpp:536
+#: kmlexport.cpp:525
 msgid "Move to final directory"
 msgstr ""
 
-#: kmlexportconfig.cpp:66 kmlexportconfig.cpp:279
+#: kmlgpsdataparser.cpp:63
+msgid "Track"
+msgstr "ट्रॅक"
+
+#: kmlgpsdataparser.cpp:89
+msgid "Points"
+msgstr "गुण"
+
+#: kmlgpsdataparser.cpp:100
+msgid "Point"
+msgstr "बिंदू"
+
+#: kmlwindow.cpp:67 kmlwindow.cpp:279
 msgid "KML Export"
 msgstr ""
 
-#: kmlexportconfig.cpp:76
+#: kmlwindow.cpp:70
+msgctxt "@action:button"
+msgid "&Export"
+msgstr ""
+
+#: kmlwindow.cpp:79
 msgid "Target Preferences"
 msgstr ""
 
-#: kmlexportconfig.cpp:80
+#: kmlwindow.cpp:83
 msgid "Target Type"
 msgstr ""
 
-#: kmlexportconfig.cpp:83
+#: kmlwindow.cpp:86
 msgid "&Local or web target used by GoogleEarth"
 msgstr ""
 
-#: kmlexportconfig.cpp:86
+#: kmlwindow.cpp:89
 msgid "Web target used by GoogleMaps"
 msgstr ""
 
-#: kmlexportconfig.cpp:87
+#: kmlwindow.cpp:90
 msgid ""
 "When using GoogleMaps, all images must have complete URLs, icons are "
 "squared, and when drawing a track, only line track is exported."
 msgstr ""
 
-#: kmlexportconfig.cpp:99
+#: kmlwindow.cpp:101
 msgid "Picture Altitude:"
 msgstr ""
 
-#: kmlexportconfig.cpp:101 kmlexportconfig.cpp:224
+#: kmlwindow.cpp:103 kmlwindow.cpp:225
 msgid "clamp to ground"
 msgstr ""
 
-#: kmlexportconfig.cpp:102 kmlexportconfig.cpp:225
+#: kmlwindow.cpp:104 kmlwindow.cpp:226
 msgid "relative to ground"
 msgstr ""
 
-#: kmlexportconfig.cpp:103 kmlexportconfig.cpp:226
+#: kmlwindow.cpp:105 kmlwindow.cpp:227
 msgid "absolute"
 msgstr "पूर्णतया"
 
-#: kmlexportconfig.cpp:104
+#: kmlwindow.cpp:106
 msgid ""
 "<p>Specifies how pictures are displayed<dl><dt>clamp to ground (default)</"
 "dt><dd>Indicates to ignore an altitude specification</dd><dt>relative to "
@@ -150,190 +158,194 @@ msgid ""
 "elevation of the terrain beneath the element.</dd></dl>"
 msgstr ""
 
-#: kmlexportconfig.cpp:114
+#: kmlwindow.cpp:116
 msgid "Destination Directory:"
 msgstr ""
 
-#: kmlexportconfig.cpp:118
+#: kmlwindow.cpp:120
 msgid "Select a directory in which to save the kml file and pictures"
 msgstr ""
 
-#: kmlexportconfig.cpp:121
-msgid "Destination URL:"
+#: kmlwindow.cpp:122
+#, fuzzy
+#| msgid "Destination URL:"
+msgid "Destination Path:"
 msgstr "लक्ष्य URL :"
 
-#: kmlexportconfig.cpp:123
+#: kmlwindow.cpp:124
 msgid "Filename:"
 msgstr "फाईल नाव :"
 
-#: kmlexportconfig.cpp:142
+#: kmlwindow.cpp:142
 msgid "Sizes"
 msgstr "आकार"
 
-#: kmlexportconfig.cpp:144
+#: kmlwindow.cpp:144
 msgid "Icon Size:"
 msgstr "चिन्ह आकार :"
 
-#: kmlexportconfig.cpp:148
+#: kmlwindow.cpp:148
 msgid "Image Size:"
 msgstr "प्रतिमेचा आकार :"
 
-#: kmlexportconfig.cpp:163
+#: kmlwindow.cpp:162
 msgid "GPX Tracks"
 msgstr ""
 
-#: kmlexportconfig.cpp:167
+#: kmlwindow.cpp:166
 msgid "Draw GPX Track"
 msgstr ""
 
-#: kmlexportconfig.cpp:170
+#: kmlwindow.cpp:169
 msgid "GPX file:"
 msgstr ""
 
-#: kmlexportconfig.cpp:173
+#: kmlwindow.cpp:172
 #, kde-format
 msgid "%1|GPS Exchange Format"
 msgstr ""
 
-#: kmlexportconfig.cpp:174
+#: kmlwindow.cpp:173
 msgid "Select GPX File to Load"
 msgstr ""
 
-#: kmlexportconfig.cpp:176
+#: kmlwindow.cpp:176
 msgid "Time Zone:"
 msgstr "वेळ क्षेत्र :"
 
-#: kmlexportconfig.cpp:178
+#: kmlwindow.cpp:178
 msgid "GMT-12:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:179
+#: kmlwindow.cpp:179
 msgid "GMT-11:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:180
+#: kmlwindow.cpp:180
 msgid "GMT-10:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:181
+#: kmlwindow.cpp:181
 msgid "GMT-09:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:182
+#: kmlwindow.cpp:182
 msgid "GMT-08:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:183
+#: kmlwindow.cpp:183
 msgid "GMT-07:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:184
+#: kmlwindow.cpp:184
 msgid "GMT-06:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:185
+#: kmlwindow.cpp:185
 msgid "GMT-05:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:186
+#: kmlwindow.cpp:186
 msgid "GMT-04:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:187
+#: kmlwindow.cpp:187
 msgid "GMT-03:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:188
+#: kmlwindow.cpp:188
 msgid "GMT-02:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:189
+#: kmlwindow.cpp:189
 msgid "GMT-01:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:190
+#: kmlwindow.cpp:190
 msgid "GMT"
 msgstr ""
 
-#: kmlexportconfig.cpp:191
+#: kmlwindow.cpp:191
 msgid "GMT+01:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:192
+#: kmlwindow.cpp:192
 msgid "GMT+02:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:193
+#: kmlwindow.cpp:193
 msgid "GMT+03:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:194
+#: kmlwindow.cpp:194
 msgid "GMT+04:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:195
+#: kmlwindow.cpp:195
 msgid "GMT+05:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:196
+#: kmlwindow.cpp:196
 msgid "GMT+06:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:197
+#: kmlwindow.cpp:197
 msgid "GMT+07:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:198
+#: kmlwindow.cpp:198
 msgid "GMT+08:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:199
+#: kmlwindow.cpp:199
 msgid "GMT+09:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:200
+#: kmlwindow.cpp:200
 msgid "GMT+10:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:201
+#: kmlwindow.cpp:201
 msgid "GMT+11:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:202
+#: kmlwindow.cpp:202
 msgid "GMT+12:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:203
+#: kmlwindow.cpp:203
 msgid "GMT+13:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:204
+#: kmlwindow.cpp:204
 msgid "GMT+14:00"
 msgstr ""
 
-#: kmlexportconfig.cpp:205
+#: kmlwindow.cpp:205
 msgid ""
 "Sets the time zone of the camera during picture shooting, so that the time "
 "stamps of the GPS can be converted to match the local time"
 msgstr ""
 
-#: kmlexportconfig.cpp:209
+#: kmlwindow.cpp:209
 msgid "Track Width:"
 msgstr ""
 
-#: kmlexportconfig.cpp:213
+#: kmlwindow.cpp:213
 msgid "Track Color:"
 msgstr ""
 
-#: kmlexportconfig.cpp:219
-msgid "Opacity:"
+#: kmlwindow.cpp:217
+#, fuzzy
+#| msgid "Opacity:"
+msgid "Opacity (%):"
 msgstr "अपारदर्शकता :"
 
-#: kmlexportconfig.cpp:222
+#: kmlwindow.cpp:223
 msgid "Track Altitude:"
 msgstr ""
 
-#: kmlexportconfig.cpp:227
+#: kmlwindow.cpp:228
 msgid ""
 "<p>Specifies how the points are displayed<dl><dt>clamp to ground (default)</"
 "dt><dd>Indicates to ignore an altitude specification</dd><dt>relative to "
@@ -343,46 +355,42 @@ msgid ""
 "elevation of the terrain beneath the element.</dd></dl>"
 msgstr ""
 
-#: kmlexportconfig.cpp:282
+#: kmlwindow.cpp:282
 msgid "A Kipi plugin for KML exporting"
 msgstr ""
 
-#: kmlexportconfig.cpp:283
+#: kmlwindow.cpp:283
 msgid "(c) 2006-2007, Stéphane Pontier"
 msgstr ""
 
-#: kmlexportconfig.cpp:285
+#: kmlwindow.cpp:285
 msgid "Stéphane Pontier"
 msgstr ""
 
-#: kmlexportconfig.cpp:286 kmlexportconfig.cpp:290
+#: kmlwindow.cpp:286 kmlwindow.cpp:290
 msgid "Developer and maintainer"
 msgstr "डेव्हलपर व पालक"
 
-#: kmlexportconfig.cpp:289
+#: kmlwindow.cpp:289
 msgid "Gilles Caulier"
 msgstr "गिल्लेस कौलिएर"
 
-#: kmlexportconfig.cpp:293
+#: kmlwindow.cpp:293
 msgid "Michael G. Hansen"
 msgstr ""
 
-#: kmlexportconfig.cpp:294
+#: kmlwindow.cpp:294
 msgid "Maintainer"
 msgstr "पालक"
 
-#: kmlgpsdataparser.cpp:64
-msgid "Track"
-msgstr "ट्रॅक"
-
-#: kmlgpsdataparser.cpp:90
-msgid "Points"
-msgstr "गुण"
-
-#: kmlgpsdataparser.cpp:101
-msgid "Point"
-msgstr "बिंदू"
-
-#: plugin_kmlexport.cpp:101
+#: plugin_kmlexport.cpp:97
 msgid "Export to KML..."
 msgstr ""
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "चेतन खोना"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "chetan@kompkin.com"
