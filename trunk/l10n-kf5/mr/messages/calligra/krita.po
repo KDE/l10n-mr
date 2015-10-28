@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-10-23 07:44+0000\n"
+"POT-Creation-Date: 2015-10-28 07:47+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1685,7 +1685,7 @@ msgctxt "Category of brush engines"
 msgid "Brush engines"
 msgstr "कुंचल्याची संयोजना"
 
-#: image/brushengine/kis_paintop_registry.cc:132
+#: image/brushengine/kis_paintop_registry.cc:138
 msgid "default"
 msgstr "सुरुवातीचे"
 
@@ -2101,13 +2101,13 @@ msgstr "निवड वाढवा"
 msgid "Content"
 msgstr "मजकूर"
 
-#: image/kis_layer.cc:211
+#: image/kis_layer.cc:212
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#: image/kis_layer.cc:211
+#: image/kis_layer.cc:212
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:235
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
@@ -2126,17 +2126,17 @@ msgstr "%1%"
 msgid "Opacity"
 msgstr "अपारदर्शकता"
 
-#: image/kis_layer.cc:214
+#: image/kis_layer.cc:215
 msgid "Composite Mode"
 msgstr "एकत्रित पध्दत"
 
-#: image/kis_layer.cc:218 image/kis_layer.cc:235
+#: image/kis_layer.cc:219 image/kis_layer.cc:236
 #, fuzzy
 #| msgid "Layer Size"
 msgid "Layer Style"
 msgstr "स्तराचा आकार"
 
-#: image/kis_layer.cc:221 image/kis_layer.cc:231
+#: image/kis_layer.cc:222 image/kis_layer.cc:232
 msgid "Inherit Alpha"
 msgstr "अल्फाचा उत्तराधिकार"
 
@@ -2157,8 +2157,8 @@ msgstr "पोस्ट प्रोसेसिंग"
 
 #. i18n: ectx: property (text), widget (QLineEdit, palettename)
 #: image/kis_psd_layer_style.cpp:99 ui/forms/wdgcustompalette.ui:18
-#: ui/KisDocument.cpp:2336 ui/KisMainWindow.cpp:906 ui/KisPart.cpp:636
-#: ui/KisPart.cpp:652 ui/kra/kis_kra_saver.cpp:76
+#: ui/KisDocument.cpp:2336 ui/KisMainWindow.cpp:906 ui/KisPart.cpp:663
+#: ui/KisPart.cpp:684 ui/kra/kis_kra_saver.cpp:76
 msgid "Unnamed"
 msgstr "निनावी"
 
@@ -13648,51 +13648,6 @@ msgstr "फक्त कॅनव्हासची संयोजना"
 msgid "Canvas Input"
 msgstr "कॅनव्हास  01"
 
-#: ui/dialogs/KisShortcutEditWidget.cpp:62
-#, fuzzy
-#| msgid "Default"
-msgid "Default:"
-msgstr "मूलभूत"
-
-#: ui/dialogs/KisShortcutEditWidget.cpp:63
-#: ui/dialogs/KisShortcutEditWidget.cpp:66
-#, fuzzy
-#| msgid "None"
-msgctxt "No shortcut defined"
-msgid "None"
-msgstr "काही नाही"
-
-#: ui/dialogs/KisShortcutEditWidget.cpp:70 ui/KisTemplateCreateDia.cpp:150
-#, fuzzy
-#| msgid "&Custom:"
-msgid "Custom:"
-msgstr "ऐच्छिक (&C):"
-
-#: ui/dialogs/KisShortcutsDialog.cpp:87
-msgid ""
-"The current shortcut scheme is modified. Save before switching to the new "
-"one?"
-msgstr ""
-
-#: ui/dialogs/KisShortcutsDialog.cpp:133 ui/dialogs/KisShortcutsDialog.cpp:171
-#, fuzzy
-#| msgid "Details"
-msgid "&Details"
-msgstr "तपशील"
-
-#: ui/dialogs/KisShortcutsDialog.cpp:155
-#, fuzzy
-#| msgid "Exposure"
-msgid "Configure Shortcuts"
-msgstr "एक्सपोजर"
-
-#: ui/dialogs/KisShortcutsEditorItem.cpp:63
-#, fuzzy, kde-format
-#| msgid "%1"
-msgctxt "@item:intable Action name in shortcuts configuration"
-msgid "%1"
-msgstr "%1"
-
 #: ui/flake/kis_shape_controller.cpp:177
 #, kde-format
 msgid "Vector Layer %1"
@@ -13773,67 +13728,6 @@ msgstr "नवीन दस्तऐवजात उघडा"
 #: ui/kis_animation_exporter.cpp:43 ui/kis_clipboard.cc:261 ui/KisView.cpp:469
 msgid "Cancel"
 msgstr "रद्द करा"
-
-#. i18n: ectx: property (whatsThis), widget (KTreeWidgetSearchLineWidget, searchFilter)
-#: ui/forms/KisShortcutsDialog.ui:16
-msgid ""
-"Search interactively for shortcut names (e.g. Copy) or combination of keys "
-"(e.g. Ctrl+C) by typing them here."
-msgstr ""
-
-#. i18n: ectx: property (whatsThis), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:23
-msgid ""
-"Here you can see a list of key bindings, i.e. associations between actions "
-"(e.g. 'Copy') shown in the left column and keys or combination of keys (e.g. "
-"Ctrl+V) shown in the right column."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:33
-#, fuzzy
-#| msgid "Action:"
-msgid "Action"
-msgstr "कृती :"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:38
-#, fuzzy
-#| msgid "Replace (Shortcut R)"
-msgid "Shortcut"
-msgstr "बदला (शॉर्टकट R)"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:43
-#, fuzzy
-#| msgctxt "The gradient will repeat alternatingly"
-#| msgid "Alternating"
-msgid "Alternate"
-msgstr "एक आड एक"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:48
-msgid "Global"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:53
-msgid "Global Alternate"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:58
-#, fuzzy
-#| msgid "Mouse pressure"
-msgid "Mouse Button Gesture"
-msgstr "माऊसचा दबाव"
-
-#. i18n: ectx: property (text), widget (QTreeWidget, list)
-#: ui/forms/KisShortcutsDialog.ui:63
-#, fuzzy
-#| msgid "Mouse pressure"
-msgid "Mouse Shape Gesture"
-msgstr "माऊसचा दबाव"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgResolution)
 #: ui/forms/wdg_resolution.ui:14
@@ -17655,7 +17549,7 @@ msgstr "यलोज"
 msgid "Custom Document"
 msgstr "ऐच्छिक ग्रेडियंट"
 
-#: ui/KisPart.cpp:654
+#: ui/KisPart.cpp:686
 #, fuzzy
 #| msgid "&First layer from clipboard"
 msgid "Create from Clipboard"
@@ -17696,6 +17590,12 @@ msgstr "स्तर काढून टाका"
 #| msgid "Structure"
 msgid "Picture"
 msgstr "संरचना"
+
+#: ui/KisTemplateCreateDia.cpp:150
+#, fuzzy
+#| msgid "&Custom:"
+msgid "Custom:"
+msgstr "ऐच्छिक (&C):"
 
 #: ui/KisTemplateCreateDia.cpp:154
 #, fuzzy
@@ -19185,6 +19085,12 @@ msgstr "समूह संपादनास अयोग्य."
 msgid "Local selection is locked."
 msgstr "स्थानिक निवड कुलूपबंद आहे."
 
+#: ui/tool/kis_tool_freehand.cc:198
+msgid ""
+"The brush tool cannot paint on this layer.  Please select a paint layer or "
+"mask."
+msgstr ""
+
 #: ui/tool/kis_tool_paint.cc:111
 msgid "Increase Brush Size"
 msgstr "कुंचल्याचा आकार वाढवा"
@@ -19971,6 +19877,59 @@ msgstr "कार्यक्षेत्र"
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default:"
+#~ msgstr "मूलभूत"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "No shortcut defined"
+#~ msgid "None"
+#~ msgstr "काही नाही"
+
+#, fuzzy
+#~| msgid "Details"
+#~ msgid "&Details"
+#~ msgstr "तपशील"
+
+#, fuzzy
+#~| msgid "Exposure"
+#~ msgid "Configure Shortcuts"
+#~ msgstr "एक्सपोजर"
+
+#, fuzzy
+#~| msgid "%1"
+#~ msgctxt "@item:intable Action name in shortcuts configuration"
+#~ msgid "%1"
+#~ msgstr "%1"
+
+#, fuzzy
+#~| msgid "Action:"
+#~ msgid "Action"
+#~ msgstr "कृती :"
+
+#, fuzzy
+#~| msgid "Replace (Shortcut R)"
+#~ msgid "Shortcut"
+#~ msgstr "बदला (शॉर्टकट R)"
+
+#, fuzzy
+#~| msgctxt "The gradient will repeat alternatingly"
+#~| msgid "Alternating"
+#~ msgid "Alternate"
+#~ msgstr "एक आड एक"
+
+#, fuzzy
+#~| msgid "Mouse pressure"
+#~ msgid "Mouse Button Gesture"
+#~ msgstr "माऊसचा दबाव"
+
+#, fuzzy
+#~| msgid "Mouse pressure"
+#~ msgid "Mouse Shape Gesture"
+#~ msgstr "माऊसचा दबाव"
 
 #, fuzzy
 #~| msgid "Image Split "
