@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-05 09:36+0000\n"
+"POT-Creation-Date: 2015-11-10 10:06+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -44003,12 +44003,17 @@ msgstr ""
 msgid "If checked, flags will be drawn on the sky map"
 msgstr ""
 
-#: options/opssatellites.cpp:98
+#: options/opssatellites.cpp:99
 #, fuzzy
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Site Name"
 msgid "Satellite name"
 msgstr "स्थळ नाव"
+
+#: options/opssatellites.cpp:167
+#, kde-format
+msgid "%1 position calculation error: %2."
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: options/opssatellites.ui:19
@@ -45451,6 +45456,34 @@ msgstr ""
 #: skyobjects/ksplanetbase.h:71 skyobjects/skyobject.cpp:41
 msgid "unnamed"
 msgstr "निनावी"
+
+#: skyobjects/satellite.cpp:1172
+msgid "Success"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1176
+msgid "Eccentricity >= 1.0 or < -0.001"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1179
+msgid "Mean motion less than 0.0"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1183
+msgid "Semi-latus rectum < 0.0"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1187
+#, fuzzy
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "Site Name"
+msgid "Satellite has decayed"
+msgstr "स्थळ नाव"
+
+#: skyobjects/satellite.cpp:1190
+#, fuzzy
+msgid "Unknown error"
+msgstr "अपरिचीत"
 
 #: skyobjects/skyline.cpp:40
 #, kde-format
