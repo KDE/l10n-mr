@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-08 08:19+0000\n"
+"POT-Creation-Date: 2015-11-11 07:46+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -204,7 +204,7 @@ msgstr "शिर्षकहीन-1"
 #: plugins/tools/tool_transform2/kis_free_transform_strategy_gsl_helpers.cpp:338
 #: ui/dialogs/kis_dlg_preferences.cc:224 ui/input/kis_tablet_debugger.cpp:100
 #: ui/kis_filter_manager.cc:217 ui/kis_filter_manager.cc:226
-#: ui/kis_layer_manager.cc:674 ui/kis_layer_manager.cc:950
+#: ui/kis_layer_manager.cc:677 ui/kis_layer_manager.cc:953
 #: ui/KisApplication.cpp:238 ui/KisApplication.cpp:241
 #: ui/KisApplication.cpp:266 ui/KisApplication.cpp:292
 #: ui/KisApplication.cpp:313 ui/KisDocument.cpp:617 ui/KisDocument.cpp:619
@@ -1638,7 +1638,7 @@ msgid "Convert Image Type"
 msgstr "प्रतिमेचा प्रकार बदला"
 
 #: image/commands/kis_layer_props_command.cpp:42
-#: image/commands/kis_node_property_list_command.cpp:27
+#: image/commands/kis_node_property_list_command.cpp:31
 msgctxt "(qtundo-format)"
 msgid "Property Changes"
 msgstr "गुणधर्म बदल"
@@ -1657,18 +1657,39 @@ msgctxt "(qtundo-format)"
 msgid "Opacity Change"
 msgstr "अपारदर्शकता : "
 
-#: image/commands/kis_node_property_list_command.cpp:57
-#: image/commands/kis_node_property_list_command.cpp:63
-#: image/kis_group_layer.cc:286 image/kis_group_layer.cc:293
+#: image/commands/kis_node_property_list_command.cpp:61
+#: image/commands/kis_node_property_list_command.cpp:67
+#: image/kis_group_layer.cc:304 image/kis_layer_properties_icons.cpp:35
 msgid "Pass Through"
 msgstr ""
+
+#: image/commands/kis_node_property_list_command.cpp:87
+#: image/kis_layer_properties_icons.cpp:30
+msgid "Visible"
+msgstr "दर्शनीय"
+
+#: image/commands/kis_node_property_list_command.cpp:88
+#: image/kis_layer_properties_icons.cpp:29
+#: plugins/extensions/dockers/channeldocker/channelmodel.cpp:68
+msgid "Locked"
+msgstr "कुलूपबंद"
+
+#: image/commands/kis_node_property_list_command.cpp:89
+#: image/kis_layer_properties_icons.cpp:36
+msgid "Active"
+msgstr "सक्रिय"
+
+#: image/commands/kis_node_property_list_command.cpp:96
+#: image/kis_layer_properties_icons.cpp:33 image/kis_paint_layer.cc:192
+msgid "Alpha Locked"
+msgstr "अल्फा कुलूपबंद"
 
 #: image/commands/kis_reselect_global_selection_command.cpp:30
 msgctxt "(qtundo-format)"
 msgid "Reselect"
 msgstr "पुन्हा निवडा"
 
-#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:444
+#: image/commands_new/kis_image_resize_command.cpp:28 image/kis_image.cc:447
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "प्रतिमेचा आकार बदला"
@@ -1775,16 +1796,6 @@ msgstr "मृदू"
 msgid "Gaussian"
 msgstr "गॉसियन अंधुकपणा"
 
-#: image/kis_base_node.cpp:138 ui/kis_node_model.cpp:491
-msgid "Visible"
-msgstr "दर्शनीय"
-
-#: image/kis_base_node.cpp:139
-#: plugins/extensions/dockers/channeldocker/channelmodel.cpp:68
-#: ui/kis_node_model.cpp:492
-msgid "Locked"
-msgstr "कुलूपबंद"
-
 #: image/kis_clone_layer.cpp:307
 msgid "Copy From"
 msgstr "पासून प्रत करा"
@@ -1856,44 +1867,44 @@ msgstr ""
 msgid "Mitchell"
 msgstr "मिशेल"
 
-#: image/kis_image.cc:350
+#: image/kis_image.cc:353
 msgid "background"
 msgstr "पार्श्वभूमी"
 
-#: image/kis_image.cc:353
+#: image/kis_image.cc:356
 #, kde-format
 msgid "Layer %1"
 msgstr "स्तर %1"
 
-#: image/kis_image.cc:443
+#: image/kis_image.cc:446
 #, fuzzy
 #| msgid "Crop Image"
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "प्रतिमा कापा"
 
-#: image/kis_image.cc:485
+#: image/kis_image.cc:488
 #, fuzzy
 #| msgid "&Group Layer"
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "समूह स्तर (&G)"
 
-#: image/kis_image.cc:486
+#: image/kis_image.cc:489
 #, fuzzy
 #| msgid "Unsharp Mask"
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: image/kis_image.cc:518
+#: image/kis_image.cc:521
 #, fuzzy
 #| msgid "Shear Image"
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "शीयर प्रतिमा"
 
-#: image/kis_image.cc:519
+#: image/kis_image.cc:522
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Set Image Resolution"
@@ -1901,97 +1912,97 @@ msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
 
-#: image/kis_image.cc:566
+#: image/kis_image.cc:569
 #, fuzzy
 #| msgid "Scale Layer"
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "स्तर चढवा"
 
-#: image/kis_image.cc:654
+#: image/kis_image.cc:657
 #, fuzzy
 #| msgid "Rotate Image"
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "प्रतिमा फिरवा"
 
-#: image/kis_image.cc:659
+#: image/kis_image.cc:662
 #, fuzzy
 #| msgid "Rotate Layer"
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "स्तर फिरवा"
 
-#: image/kis_image.cc:726
+#: image/kis_image.cc:729
 #, fuzzy
 #| msgid "Shear layer"
 msgctxt "(qtundo-format)"
 msgid "Shear layer"
 msgstr "शीयर स्तर"
 
-#: image/kis_image.cc:732
+#: image/kis_image.cc:735
 #, fuzzy
 #| msgid "Shear Image"
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "शीयर प्रतिमा"
 
-#: image/kis_image.cc:744
+#: image/kis_image.cc:747
 #, fuzzy
 #| msgid "Convert Image Color Space"
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#: image/kis_image.cc:777
+#: image/kis_image.cc:780
 #, fuzzy
 #| msgid "Convert Projection Color Space"
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: image/kis_image.cc:956
+#: image/kis_image.cc:959
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
-#: image/kis_image.cc:1102
+#: image/kis_image.cc:1105
 #, fuzzy
 #| msgid "Selection "
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "निवड "
 
-#: image/kis_image.cc:1157
+#: image/kis_image.cc:1160
 #, fuzzy
 #| msgid "Copy Merged"
 msgid "Merged"
 msgstr "प्रत मिसळा"
 
-#: image/kis_image.cc:1168
+#: image/kis_image.cc:1171
 #, fuzzy
 #| msgid "Remove Selected Color"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "निवडलेला रंग काढा"
 
-#: image/kis_image.cc:1239
+#: image/kis_image.cc:1242
 #, fuzzy
 #| msgid "Merge with Layer Below"
 msgctxt "(qtundo-format)"
 msgid "Merge with Layer Below"
 msgstr "खालच्या स्तरात मिसळा"
 
-#: image/kis_image.cc:1309
+#: image/kis_image.cc:1312
 #, fuzzy
 #| msgid "Flatten Layer"
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "स्तर सपाट करा"
 
-#: image/kis_image.cc:1913
+#: image/kis_image.cc:1918
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
@@ -2004,13 +2015,13 @@ msgstr "निवड वाढवा"
 msgid "Content"
 msgstr "मजकूर"
 
-#: image/kis_layer.cc:212
+#: image/kis_layer.cc:216
 #, kde-format
 msgid "%1%"
 msgstr "%1%"
 
 #. i18n: ectx: property (text), widget (QCheckBox, opacityCBox)
-#: image/kis_layer.cc:212
+#: image/kis_layer.cc:216
 #: plugins/extensions/dockers/defaultdockers/kis_layer_box.cpp:235
 #: plugins/paintops/chalk/kis_chalk_paintop_settings_widget.cpp:36
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:50
@@ -2029,28 +2040,26 @@ msgstr "%1%"
 msgid "Opacity"
 msgstr "अपारदर्शकता"
 
-#: image/kis_layer.cc:215
+#: image/kis_layer.cc:219
 msgid "Composite Mode"
 msgstr "एकत्रित पध्दत"
 
-#: image/kis_layer.cc:219 image/kis_layer.cc:236
+#: image/kis_layer.cc:236 image/kis_layer_properties_icons.cpp:32
+msgid "Inherit Alpha"
+msgstr "अल्फाचा उत्तराधिकार"
+
+#: image/kis_layer.cc:240 image/kis_layer_properties_icons.cpp:31
 #, fuzzy
 #| msgid "Layer Size"
 msgid "Layer Style"
 msgstr "स्तराचा आकार"
 
-#: image/kis_layer.cc:222 image/kis_layer.cc:232
-msgid "Inherit Alpha"
-msgstr "अल्फाचा उत्तराधिकार"
-
-#: image/kis_paint_layer.cc:168 image/kis_paint_layer.cc:180
-#: ui/kis_node_model.cpp:500
-msgid "Alpha Locked"
-msgstr "अल्फा कुलूपबंद"
-
-#: image/kis_paint_layer.cc:171 image/kis_paint_layer.cc:183
-msgid "Onion skin"
-msgstr ""
+#: image/kis_layer_properties_icons.cpp:34 image/kis_paint_layer.cc:195
+#: plugins/extensions/dockers/animation/animation_docker.cpp:126
+#, fuzzy
+#| msgid "&Constrain proportions"
+msgid "Onion Skins"
+msgstr "गुणोत्तर निसाधनण (&C)"
 
 #: image/kis_processing_visitor.cpp:34
 #, fuzzy
@@ -2128,10 +2137,6 @@ msgctxt "(qtundo-format)"
 msgid "Invert Selection"
 msgstr "उलटी निवड"
 
-#: image/kis_selection_mask.cpp:118 ui/kis_node_model.cpp:493
-msgid "Active"
-msgstr "सक्रिय"
-
 #: image/kis_sync_lod_cache_stroke_strategy.cpp:34
 #, fuzzy
 #| msgid "Update"
@@ -2142,6 +2147,18 @@ msgstr "अद्ययावत करा"
 #: image/kis_update_scheduler.cpp:115
 msgid "Updating..."
 msgstr ""
+
+#: image/krita_utils.cpp:360
+#, fuzzy
+#| msgid "Cutoff:"
+msgid "off"
+msgstr "कट ऑफ :"
+
+#: image/krita_utils.cpp:360
+#, fuzzy
+#| msgid "None"
+msgid "on"
+msgstr "काही नाही"
 
 #: image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
 #: image/layerstyles/kis_ls_stroke_filter.cpp:49
@@ -3604,70 +3621,141 @@ msgstr ""
 msgid "Luma"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:41
+#: plugins/extensions/dockers/animation/animation_docker.cpp:43
 #, fuzzy
 #| msgid "Animated"
 msgid "Animation"
 msgstr "चलित"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:51
+#: plugins/extensions/dockers/animation/animation_docker.cpp:54
 #, fuzzy
-#| msgid "Move into previous group"
-msgid "Move to previous frame"
-msgstr "मागील समूहात हलवा"
+#| msgid "Previous Favourite Preset"
+msgid "Previous Frame"
+msgstr "मागील पसंत प्रीसेट"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:55
+#: plugins/extensions/dockers/animation/animation_docker.cpp:58
 #, fuzzy
-#| msgid "Move into next group"
-msgid "Move to next frame"
-msgstr "पुढील समूहात हलवा"
+#| msgctxt "(qtundo-format)"
+#| msgid "Remove Layer"
+msgid "Next Frame"
+msgstr "स्तर काढून टाका"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:59
+#: plugins/extensions/dockers/animation/animation_docker.cpp:62
 #, fuzzy
-#| msgid "Play macro"
-msgid "Play / pause animation"
-msgstr "मॅक्रो वापरा"
+#| msgid "Previous Favourite Preset"
+msgid "Previous Key Frame"
+msgstr "मागील पसंत प्रीसेट"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:63
-#, fuzzy
-#| msgid "Insert name"
-msgid "Add blank frame"
-msgstr "नाव अंतर्भूत करा"
-
-#: plugins/extensions/dockers/animation/animation_docker.cpp:67
-#, fuzzy
-#| msgid "Duplicate Segment"
-msgid "Add duplicate frame"
-msgstr "प्रतिकृती सेगमेंट"
-
-#: plugins/extensions/dockers/animation/animation_docker.cpp:71
+#: plugins/extensions/dockers/animation/animation_docker.cpp:66
 #, fuzzy
 #| msgid "Insert Name"
-msgid "Delete keyframe"
+msgid "Next Key Frame"
 msgstr "नाव घाला"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:153
-#: plugins/extensions/dockers/animation/animation_docker.cpp:173
-#: plugins/extensions/dockers/animation/animation_docker.cpp:191
+#: plugins/extensions/dockers/animation/animation_docker.cpp:70
+#, fuzzy
+#| msgid "&First page"
+msgid "First Frame"
+msgstr "पहिले पान (&F)"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:74
+#, fuzzy
+#| msgid "Last used"
+msgid "Last Frame"
+msgstr "शेवटी वापरलेले"
+
+#: plugins/extensions/dockers/animation/animation_docker.cpp:78
+#, fuzzy
+#| msgid "Play macro"
+msgid "Play / Pause"
+msgstr "मॅक्रो वापरा"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:32
+#, fuzzy
+#| msgid "Name:"
+msgid "New Frame"
+msgstr "नाव :"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:33
+#, fuzzy
+#| msgid "Copy From"
+msgid "Copy Frame"
+msgstr "पासून प्रत करा"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:34
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Remove Layer"
+msgid "Remove Frame"
+msgstr "स्तर काढून टाका"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:35
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Remove Layer"
+msgid "Remove Frames"
+msgstr "स्तर काढून टाका"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:36
+#, fuzzy
+#| msgid "Auto mode"
+msgid "Auto Frame Mode"
+msgstr "स्वयंचलित पद्धत"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:37
+#, fuzzy
+#| msgid "Line width:"
+msgid "Show in Timeline"
+msgstr "रेषेची जाडी :"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:54
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:146
+#, fuzzy
+#| msgid "Insert Name"
+msgctxt "(qtundo-format)"
+msgid "Copy Keyframe"
+msgid_plural "Copy Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:62
 #, fuzzy
 #| msgid "Insert Name"
 msgctxt "(qtundo-format)"
 msgid "Add Keyframe"
 msgstr "नाव घाला"
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:40
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:74
+#, fuzzy
+#| msgid "Insert Name"
+msgctxt "(qtundo-format)"
+msgid "Remove Keyframe"
+msgid_plural "Remove Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
+
+#: plugins/extensions/dockers/animation/kis_animation_utils.cpp:143
+#, fuzzy
+#| msgid "Insert Name"
+msgctxt "(qtundo-format)"
+msgid "Move Keyframe"
+msgid_plural "Move Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
+
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:42
 msgid "Tint: "
 msgstr ""
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:46
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:48
 msgid "Tint color for past frames"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:47
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:49
 msgid "Tint color for future frames"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:55
+#: plugins/extensions/dockers/animation/kis_onion_skin_dialog.cpp:57
 #, fuzzy
 #| msgid "Number of resolutions:"
 msgid "Number of onion skins"
@@ -3680,24 +3768,45 @@ msgstr "घनतांची संख्या :"
 msgid "Onion skin options"
 msgstr "गुणोत्तर निसाधनण (&C)"
 
-#: plugins/extensions/dockers/animation/timeline_docker.cpp:33
+#: plugins/extensions/dockers/animation/timeline_docker.cpp:58
 #, fuzzy
 #| msgid "Line width:"
 msgid "Timeline"
 msgstr "रेषेची जाडी :"
 
-#: plugins/extensions/dockers/animation/timeline_docker.cpp:42
-#, fuzzy
-#| msgid "Assistant:"
-msgid "Toggle onion skin"
-msgstr "सहायक :"
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:368
+#, fuzzy, kde-format
+#| msgid "Insert Name"
+msgid "Insert %1 left"
+msgstr "नाव घाला"
 
-#: plugins/extensions/dockers/animation/timeline_view.cpp:126
-#, fuzzy
-#| msgid "Export Layer"
-msgctxt "(qtundo-format)"
-msgid "Move keyframes"
-msgstr "निर्यात स्तर"
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:369
+#, fuzzy, kde-format
+#| msgid "Reset Light"
+msgid "Insert %1 right"
+msgstr "प्रकाश पुन्हस्थापित करा"
+
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:370
+#, fuzzy, kde-format
+#| msgid "Number of columns"
+msgid "Clear %1 columns"
+msgstr "रकान्यांची संख्या"
+
+#: plugins/extensions/dockers/animation/timeline_ruler_header.cpp:371
+#, fuzzy, kde-format
+#| msgid "Number of columns"
+msgid "Remove %1 columns"
+msgstr "रकान्यांची संख्या"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/extensions/dockers/animation/wdg_animation.ui:59
+msgid "Start:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/extensions/dockers/animation/wdg_animation.ui:76
+msgid "End:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (KColorButton, bnColor)
 #. i18n: ectx: property (text), widget (KColorButton, bnHighlightColor)
@@ -3716,13 +3825,18 @@ msgstr "निर्यात स्तर"
 #. i18n: ectx: property (text), widget (QToolButton, m_bnFileName)
 #. i18n: ectx: property (text), widget (QToolButton, bnSwapFile)
 #. i18n: ectx: property (text), widget (QToolButton, bnBackgroundColor)
+#. i18n: ectx: property (text), widget (QToolButton, btnFirstFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnPreviousKeyFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnPreviousFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnPlay)
 #. i18n: ectx: property (text), widget (QToolButton, btnNextFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnNextKeyFrame)
+#. i18n: ectx: property (text), widget (QToolButton, btnLastFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddKeyframe)
 #. i18n: ectx: property (text), widget (QToolButton, btnAddDuplicateFrame)
 #. i18n: ectx: property (text), widget (QToolButton, btnDeleteKeyframe)
 #. i18n: ectx: property (text), widget (QToolButton, btnOnionSkinOptions)
+#. i18n: ectx: property (text), widget (QToolButton, btnLazyFrame)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectConfigurationFile)
 #. i18n: ectx: property (text), widget (QToolButton, m_bnSelectLut)
 #. i18n: ectx: property (text), widget (QToolButton, bnViewMode)
@@ -3740,13 +3854,18 @@ msgstr "निर्यात स्तर"
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectSaveLocation)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetPreview)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:22
-#: plugins/extensions/dockers/animation/wdg_animation.ui:29
-#: plugins/extensions/dockers/animation/wdg_animation.ui:36
-#: plugins/extensions/dockers/animation/wdg_animation.ui:47
-#: plugins/extensions/dockers/animation/wdg_animation.ui:54
-#: plugins/extensions/dockers/animation/wdg_animation.ui:61
-#: plugins/extensions/dockers/animation/wdg_animation.ui:68
+#: plugins/extensions/dockers/animation/wdg_animation.ui:146
+#: plugins/extensions/dockers/animation/wdg_animation.ui:178
+#: plugins/extensions/dockers/animation/wdg_animation.ui:210
+#: plugins/extensions/dockers/animation/wdg_animation.ui:242
+#: plugins/extensions/dockers/animation/wdg_animation.ui:274
+#: plugins/extensions/dockers/animation/wdg_animation.ui:306
+#: plugins/extensions/dockers/animation/wdg_animation.ui:338
+#: plugins/extensions/dockers/animation/wdg_animation.ui:385
+#: plugins/extensions/dockers/animation/wdg_animation.ui:395
+#: plugins/extensions/dockers/animation/wdg_animation.ui:405
+#: plugins/extensions/dockers/animation/wdg_animation.ui:422
+#: plugins/extensions/dockers/animation/wdg_animation.ui:432
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:66
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:151
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:170
@@ -3782,39 +3901,20 @@ msgstr "निर्यात स्तर"
 msgid "..."
 msgstr "..."
 
+#. i18n: ectx: property (text), widget (QLabel, lblPlaySpeed)
+#: plugins/extensions/dockers/animation/wdg_animation.ui:464
+#, fuzzy
+#| msgid "Speed"
+msgid "Play Speed:"
+msgstr "वेग"
+
 #. i18n: ectx: property (text), widget (QLabel, lblFramerate)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:79
+#: plugins/extensions/dockers/animation/wdg_animation.ui:487
 #, fuzzy
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
-msgid "Framerate"
+msgid "Frame Rate:"
 msgstr "चेतन खोना"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:93
-#, fuzzy
-#| msgid "Copy From"
-msgid "From"
-msgstr "पासून प्रत करा"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:100
-#, fuzzy
-#| msgid "Two"
-msgid "To"
-msgstr "दोन"
-
-#. i18n: ectx: property (text), widget (QLabel, lblVersion)
-#. i18n: ectx: property (text), widget (QLabel, lblSwapFileLocation)
-#. i18n: ectx: property (text), widget (QLabel, lblDescription)
-#. i18n: ectx: property (text), widget (QLabel, lblInfo)
-#. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:122
-#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:342
-#: ui/forms/wdgimageproperties.ui:193 ui/forms/wdgperformancesettings.ui:200
-#: ui/wdgsplash.ui:343
-msgid "TextLabel"
-msgstr "पाठ्य-लेबल"
 
 #: plugins/extensions/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:51
 #, fuzzy
@@ -6297,6 +6397,16 @@ msgstr ""
 #| msgid "Save macro"
 msgid "Save to:"
 msgstr "मॅक्रो साठवा"
+
+#. i18n: ectx: property (text), widget (QLabel, lblVersion)
+#. i18n: ectx: property (text), widget (QLabel, lblSwapFileLocation)
+#. i18n: ectx: property (text), widget (QLabel, lblDescription)
+#. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
+#: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:342
+#: ui/forms/wdgimageproperties.ui:193 ui/forms/wdgperformancesettings.ui:200
+#: ui/wdgsplash.ui:343
+msgid "TextLabel"
+msgstr "पाठ्य-लेबल"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:370
@@ -15994,7 +16104,7 @@ msgstr ""
 msgid "The %1 filter will convert your %2 data to 16-bit RGBA and vice versa. "
 msgstr ""
 
-#: ui/kis_filter_manager.cc:309
+#: ui/kis_filter_manager.cc:310
 #, kde-format
 msgid "Apply Filter Again: %1"
 msgstr "गाळणी पुन्हा लागू करा : %1"
@@ -16105,22 +16215,22 @@ msgctxt "(qtundo-format)"
 msgid "Convert to a Paint Layer"
 msgstr "पासून वर्तमान स्तर बदला"
 
-#: ui/kis_layer_manager.cc:612
+#: ui/kis_layer_manager.cc:615
 msgid "New Filter Layer"
 msgstr "नवीन गाळणी स्तर"
 
-#: ui/kis_layer_manager.cc:675
+#: ui/kis_layer_manager.cc:678
 msgid "Could not add layer to image."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: ui/kis_layer_manager.cc:761
+#: ui/kis_layer_manager.cc:764
 #, fuzzy
 #| msgid "Flatten Image"
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
-#: ui/kis_layer_manager.cc:762
+#: ui/kis_layer_manager.cc:765
 #, fuzzy
 #| msgid "The image contains hidden layers that will be lost."
 msgid ""
@@ -16128,22 +16238,22 @@ msgid ""
 "the image?"
 msgstr "प्रतिमेत लपलेले स्तर असून ते नष्ट होतील."
 
-#: ui/kis_layer_manager.cc:860
+#: ui/kis_layer_manager.cc:863
 #, fuzzy
 #| msgid "Rasterize Layer"
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "स्तर रास्टराईझ करा"
 
-#: ui/kis_layer_manager.cc:896
+#: ui/kis_layer_manager.cc:899
 msgid "Convert Invisible Groups"
 msgstr "न दिसणारे समूह रूपांतरित करा"
 
-#: ui/kis_layer_manager.cc:899
+#: ui/kis_layer_manager.cc:902
 msgid "Export Only Toplevel Groups"
 msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
-#: ui/kis_layer_manager.cc:950
+#: ui/kis_layer_manager.cc:953
 msgid "No file name specified"
 msgstr ""
 
@@ -16338,14 +16448,14 @@ msgstr "अल्फाचा उत्तराधिकार"
 msgid "Save Merged..."
 msgstr "साठवा..."
 
-#: ui/kis_node_manager.cpp:528
+#: ui/kis_node_manager.cpp:538
 #, fuzzy
 #| msgid "Invert Selection"
 msgctxt "(qtundo-format)"
 msgid "Convert to a Selection Mask"
 msgstr "उलटी निवड"
 
-#: ui/kis_node_manager.cpp:783
+#: ui/kis_node_manager.cpp:793
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Remove Layer"
@@ -16353,65 +16463,65 @@ msgctxt "(qtundo-format)"
 msgid "Remove Last Layer"
 msgstr "स्तर काढून टाका"
 
-#: ui/kis_node_manager.cpp:797
+#: ui/kis_node_manager.cpp:807
 msgctxt "(qtundo-format)"
 msgid "Remove Multiple Layers and Masks"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:825
+#: ui/kis_node_manager.cpp:835
 #, fuzzy
 #| msgid "Mirror Layer X"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer X"
 msgstr "X स्तर प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:827
+#: ui/kis_node_manager.cpp:837
 #, fuzzy
 #| msgid "Mirror Mask X"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask X"
 msgstr "X मुखवटा प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:838
+#: ui/kis_node_manager.cpp:848
 #, fuzzy
 #| msgid "Mirror Layer Y"
 msgctxt "(qtundo-format)"
 msgid "Mirror Layer Y"
 msgstr "Y स्तर प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:840
+#: ui/kis_node_manager.cpp:850
 #, fuzzy
 #| msgid "Mirror Mask Y"
 msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Y मुखवटा प्रतिबिंबित करा"
 
-#: ui/kis_node_manager.cpp:959
+#: ui/kis_node_manager.cpp:969
 #, fuzzy, kde-format
 #| msgid "Exposure"
 msgid "Export \"%1\""
 msgstr "एक्सपोजर"
 
-#: ui/kis_node_manager.cpp:1033
+#: ui/kis_node_manager.cpp:1043
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1063
+#: ui/kis_node_manager.cpp:1073
 #, fuzzy, kde-format
 #| msgid "Group not editable."
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "समूह संपादनास अयोग्य."
 
-#: ui/kis_node_manager.cpp:1064
+#: ui/kis_node_manager.cpp:1074
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: ui/kis_node_manager.cpp:1095
+#: ui/kis_node_manager.cpp:1105
 #, fuzzy
 #| msgid "&Paint Layer"
 msgctxt "(qtundo-format)"
@@ -16808,13 +16918,6 @@ msgstr "निवड नाही"
 #: ui/kis_statusbar.cc:317
 msgid "No profile"
 msgstr "रूपरेषा नाही"
-
-#: ui/kis_timeline_model.cpp:264
-#, fuzzy
-#| msgid "Insert Name"
-msgctxt "(qtundo-format)"
-msgid "Move Keyframe"
-msgstr "नाव घाला"
 
 #: ui/kis_zoom_manager.cc:245
 #, kde-format
@@ -17882,7 +17985,7 @@ msgstr ""
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:770
+#: ui/kra/kis_kra_loader.cpp:773
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -17890,7 +17993,7 @@ msgid ""
 "><nl/>Expected path:<nl/>%2<nl/><nl/>Do you want to locate it manually?"
 msgstr ""
 
-#: ui/kra/kis_kra_loader.cpp:775
+#: ui/kra/kis_kra_loader.cpp:778
 msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
@@ -19797,6 +19900,52 @@ msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
 
 #, fuzzy
+#~| msgid "Move into previous group"
+#~ msgid "Move to previous frame"
+#~ msgstr "मागील समूहात हलवा"
+
+#, fuzzy
+#~| msgid "Move into next group"
+#~ msgid "Move to next frame"
+#~ msgstr "पुढील समूहात हलवा"
+
+#, fuzzy
+#~| msgid "Insert name"
+#~ msgid "Add blank frame"
+#~ msgstr "नाव अंतर्भूत करा"
+
+#, fuzzy
+#~| msgid "Duplicate Segment"
+#~ msgid "Add duplicate frame"
+#~ msgstr "प्रतिकृती सेगमेंट"
+
+#, fuzzy
+#~| msgid "Insert Name"
+#~ msgid "Delete keyframe"
+#~ msgstr "नाव घाला"
+
+#, fuzzy
+#~| msgid "Assistant:"
+#~ msgid "Toggle onion skin"
+#~ msgstr "सहायक :"
+
+#, fuzzy
+#~| msgid "Export Layer"
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Move keyframes"
+#~ msgstr "निर्यात स्तर"
+
+#, fuzzy
+#~| msgid "Copy From"
+#~ msgid "From"
+#~ msgstr "पासून प्रत करा"
+
+#, fuzzy
+#~| msgid "Two"
+#~ msgid "To"
+#~ msgstr "दोन"
+
+#, fuzzy
 #~| msgid "Krita PNG Export"
 #~ msgid "Krita Crash Reporter"
 #~ msgstr "क्रिता PNG निर्यात"
@@ -20547,9 +20696,6 @@ msgstr "कार्यक्षेत्र %1"
 #~ msgid "Direction:"
 #~ msgstr "दिशा :"
 
-#~ msgid "Number of columns"
-#~ msgstr "रकान्यांची संख्या"
-
 #~ msgid "Number of rows"
 #~ msgstr "ओळींची संख्या"
 
@@ -20800,17 +20946,6 @@ msgstr "कार्यक्षेत्र %1"
 #~| msgid "Move an action down"
 #~ msgid "Move animation layer down"
 #~ msgstr "कार्य खाली हलवा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Remove Layer"
-#~ msgid "Remove Frame"
-#~ msgstr "स्तर काढून टाका"
-
-#, fuzzy
-#~| msgid "Previous Favourite Preset"
-#~ msgid "Previous Frame"
-#~ msgstr "मागील पसंत प्रीसेट"
 
 #, fuzzy
 #~| msgid "Stop recording actions"
