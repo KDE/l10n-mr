@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-11 11:45+0000\n"
+"POT-Creation-Date: 2015-11-13 11:51+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -153,7 +153,7 @@ msgstr ""
 msgid "Active status"
 msgstr ""
 
-#: debugger/breakpoint/breakpointmodel.cpp:201 shell/sessioncontroller.cpp:829
+#: debugger/breakpoint/breakpointmodel.cpp:201 shell/sessioncontroller.cpp:593
 msgid "State"
 msgstr "स्थिती"
 
@@ -2332,7 +2332,7 @@ msgstr ""
 msgid "Use this command to show or hide the view's statusbar"
 msgstr ""
 
-#: shell/partdocument.cpp:104 shell/textdocument.cpp:410
+#: shell/partdocument.cpp:104
 #, kde-format
 msgid "The document \"%1\" has unsaved changes. Would you like to save them?"
 msgstr ""
@@ -2941,118 +2941,80 @@ msgctxt "@title"
 msgid "Delete Session"
 msgstr ""
 
-#: shell/sessioncontroller.cpp:167
+#: shell/sessioncontroller.cpp:151
 msgid ""
 "The current session and all contained settings will be deleted. The projects "
 "will stay unaffected. Do you really want to continue?"
 msgstr ""
 
-#: shell/sessioncontroller.cpp:179
+#: shell/sessioncontroller.cpp:163
 msgid "Rename Session"
 msgstr "सत्राचे नाव बदला"
 
-#: shell/sessioncontroller.cpp:185
+#: shell/sessioncontroller.cpp:169
 msgid "New Session Name"
 msgstr ""
 
-#: shell/sessioncontroller.cpp:372
-msgid "Recover"
-msgstr ""
-
-#: shell/sessioncontroller.cpp:376
-#, kde-format
-msgctxt "%1: date of the last snapshot"
-msgid ""
-"The session crashed the last time it was used. The following modified files "
-"can be recovered from a backup from %1."
-msgstr ""
-
-#: shell/sessioncontroller.cpp:378
-msgid "Crash Recovery"
-msgstr ""
-
-#: shell/sessioncontroller.cpp:398
-#, kde-format
-msgid "Could not recover %1, the recovery file is empty"
-msgstr ""
-
-#: shell/sessioncontroller.cpp:398
-msgid "Recovery"
-msgstr ""
-
-#: shell/sessioncontroller.cpp:500
-#, kde-format
-msgid ""
-"Failed to write recovery copies to %1. Please make sure that your home "
-"directory is writable and not full. This application requires available "
-"space in the home directory to run stable. You may experience application "
-"crashes until you free up some space."
-msgstr ""
-
-#: shell/sessioncontroller.cpp:501
-msgid "Recovery Error"
-msgstr ""
-
-#: shell/sessioncontroller.cpp:538
+#: shell/sessioncontroller.cpp:304
 #, fuzzy
 msgctxt "@action:inmenu"
 msgid "Start New Session"
 msgstr "नवीन सत्र सुरु केले (&S)"
 
-#: shell/sessioncontroller.cpp:539
+#: shell/sessioncontroller.cpp:305
 msgctxt "@info:tooltip"
 msgid "Start a new KDevelop instance with an empty session"
 msgstr ""
 
-#: shell/sessioncontroller.cpp:543
+#: shell/sessioncontroller.cpp:309
 msgid "Rename Current Session..."
 msgstr ""
 
-#: shell/sessioncontroller.cpp:547
+#: shell/sessioncontroller.cpp:313
 msgid "Delete Current Session..."
 msgstr ""
 
-#: shell/sessioncontroller.cpp:551
+#: shell/sessioncontroller.cpp:317
 #, fuzzy
 msgid "Quit"
 msgstr "बाहेर पडा"
 
-#: shell/sessioncontroller.cpp:557
+#: shell/sessioncontroller.cpp:323
 msgid "Configure Sessions..."
 msgstr ""
 
-#: shell/sessioncontroller.cpp:558
+#: shell/sessioncontroller.cpp:324
 msgid "Create/Delete/Activate Sessions"
 msgstr ""
 
-#: shell/sessioncontroller.cpp:559
+#: shell/sessioncontroller.cpp:325
 msgid "Shows a dialog to Create/Delete Sessions and set a new active session."
 msgstr ""
 
-#: shell/sessioncontroller.cpp:752
+#: shell/sessioncontroller.cpp:516
 #, kde-format
 msgid "Copy of %1"
 msgstr "%1 याची प्रत"
 
-#: shell/sessioncontroller.cpp:804
+#: shell/sessioncontroller.cpp:568
 #, fuzzy
 msgid "Search"
 msgstr "शोधा"
 
-#: shell/sessioncontroller.cpp:827
+#: shell/sessioncontroller.cpp:591
 msgid "Identity"
 msgstr "ओळख"
 
-#: shell/sessioncontroller.cpp:828
+#: shell/sessioncontroller.cpp:592
 #, fuzzy
 msgid "Contents"
 msgstr "मजकूर"
 
-#: shell/sessioncontroller.cpp:835
+#: shell/sessioncontroller.cpp:599
 msgid "Filter:"
 msgstr "गाळणी :"
 
-#: shell/sessioncontroller.cpp:866
+#: shell/sessioncontroller.cpp:630
 msgid "Create New Session"
 msgstr ""
 
@@ -3856,12 +3818,7 @@ msgstr ""
 msgid "Reformat all files in the selected folder?"
 msgstr ""
 
-#: shell/textdocument.cpp:411
-msgctxt "@title:window"
-msgid "Close Document"
-msgstr "दस्तऐवज बंद करा"
-
-#: shell/textdocument.cpp:423
+#: shell/textdocument.cpp:414
 #, kde-format
 msgid ""
 "The file \"%1\" is modified on disk.\n"
@@ -3869,12 +3826,12 @@ msgid ""
 "Are you sure you want to overwrite it? (External changes will be lost.)"
 msgstr ""
 
-#: shell/textdocument.cpp:426
+#: shell/textdocument.cpp:417
 msgctxt "@title:window"
 msgid "Document Externally Modified"
 msgstr ""
 
-#: shell/textdocument.cpp:676
+#: shell/textdocument.cpp:665
 #, kde-format
 msgid " Line: %1 Col: %2 "
 msgstr " ओळ : %1 स्तंभ : %2 "
@@ -4583,6 +4540,10 @@ msgstr ""
 #: vcs/widgets/vcseventwidget.ui:20
 msgid "Logview"
 msgstr ""
+
+#~ msgctxt "@title:window"
+#~ msgid "Close Document"
+#~ msgstr "दस्तऐवज बंद करा"
 
 #, fuzzy
 #~| msgid "&Format"
