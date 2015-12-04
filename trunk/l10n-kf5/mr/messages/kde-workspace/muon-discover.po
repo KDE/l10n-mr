@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-03 07:50+0000\n"
+"POT-Creation-Date: 2015-12-04 07:27+0000\n"
 "PO-Revision-Date: 2013-04-01 10:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,41 +17,41 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: discover/main.cpp:37 discover/qml/Main.qml:100
+#: discover/main.cpp:48 discover/qml/DiscoverWindow.qml:49
 msgid "Discover"
 msgstr "शोधा"
 
-#: discover/main.cpp:37
+#: discover/main.cpp:48
 #, fuzzy
 #| msgid "An application discoverer"
 msgid "An application explorer"
 msgstr "अनुप्रयोग शोधक"
 
-#: discover/main.cpp:38
+#: discover/main.cpp:49
 msgid "© 2010-2014 Plasma Development Team"
 msgstr ""
 
-#: discover/main.cpp:39
+#: discover/main.cpp:50
 msgid "Aleix Pol Gonzalez"
 msgstr "एलैक्स पोल गोन्झालेझ"
 
-#: discover/main.cpp:40
+#: discover/main.cpp:51
 msgid "Jonathan Thomas"
 msgstr "जोनाथन थोमस"
 
-#: discover/main.cpp:48
+#: discover/main.cpp:59
 msgid "Directly open the specified application by its package name."
 msgstr "निर्देशीत अनुप्रयोग त्याच्या पॅकेज नावाने उघडा."
 
-#: discover/main.cpp:49
+#: discover/main.cpp:60
 msgid "Open with a program that can deal with the given mimetype."
 msgstr "दिलेल्या माइम प्रकाराशी चालू शकेल अशा कार्यक्रमात उघडा."
 
-#: discover/main.cpp:50
+#: discover/main.cpp:61
 msgid "Display a list of entries with a category."
 msgstr "नोंदींची यादी विभागासहित दर्शवा."
 
-#: discover/main.cpp:51
+#: discover/main.cpp:62
 #, fuzzy
 #| msgid ""
 #| "Open Muon Discover in a said mode. Modes correspond to the toolbar "
@@ -59,30 +59,34 @@ msgstr "नोंदींची यादी विभागासहित द
 msgid "Open Discover in a said mode. Modes correspond to the toolbar buttons."
 msgstr "म्युओन डिस्कव्हर सांगितलेल्या पद्धतीने उघडा. पध्दती साधनपट्टी बटनांशी संलग्न असतात."
 
-#: discover/main.cpp:52
+#: discover/main.cpp:63
 #, fuzzy
 #| msgid "List all the available modes and output them on stdout."
 msgid "List all the available modes."
 msgstr "उपलब्ध पद्धतीची यादी करा व त्याचे आउटपुट stdout वर द्या."
 
-#: discover/main.cpp:53
+#: discover/main.cpp:64
+msgid "Compact Mode (auto/compact/full)."
+msgstr ""
+
+#: discover/main.cpp:65
 msgid "Supports appstream: url scheme (experimental)"
 msgstr ""
 
-#: discover/main.cpp:73
+#: discover/main.cpp:85
 msgid "Available modes:\n"
 msgstr "उपलब्ध पद्धती :\n"
 
-#: discover/MuonDiscoverMainWindow.cpp:97
+#: discover/MuonDiscoverMainWindow.cpp:98
 msgid ""
 "Found some errors while setting up the GUI, the application can't proceed."
 msgstr "GUI संयोजीत करताना काही त्रुटी आढळल्यामुळे अनुप्रयोग पुढे जाऊ शकत नाही."
 
-#: discover/MuonDiscoverMainWindow.cpp:98
+#: discover/MuonDiscoverMainWindow.cpp:99
 msgid "Initialization error"
 msgstr "प्रारंभ करताना त्रुटी"
 
-#: discover/MuonDiscoverMainWindow.cpp:221
+#: discover/MuonDiscoverMainWindow.cpp:224
 msgid "Configure Sources"
 msgstr ""
 
@@ -167,8 +171,8 @@ msgid "Origin"
 msgstr "मूळ"
 
 #: discover/qml/ApplicationsListPage.qml:102
-#: discover/qml/ApplicationsListPage.qml:219 discover/qml/InstalledPage.qml:16
-#: discover/qml/Main.qml:107
+#: discover/qml/ApplicationsListPage.qml:219
+#: discover/qml/DiscoverWindow.qml:56 discover/qml/InstalledPage.qml:16
 msgid "Installed"
 msgstr "प्रतिष्ठापीत केलेले"
 
@@ -203,8 +207,7 @@ msgstr ""
 msgid "%1 items"
 msgstr ""
 
-#: discover/qml/BrowsingPage.qml:35 discover/qml/MuonToolbar.qml:103
-#: discover/qml/MuonToolbar.qml:145
+#: discover/qml/BrowsingPage.qml:35 discover/qml/MuonToolbar.qml:79
 msgid "Search..."
 msgstr "शोधा..."
 
@@ -228,6 +231,36 @@ msgstr ""
 msgid ""
 "Discover\n"
 "all the possibilities!"
+msgstr ""
+
+#: discover/qml/DiscoverWindow.qml:37
+msgid "Loading..."
+msgstr "दाखल करत आहे..."
+
+#: discover/qml/DiscoverWindow.qml:56
+#, fuzzy
+#| msgid "Install"
+msgid "Installing..."
+msgstr "प्रतिष्ठापीत करा"
+
+#: discover/qml/DiscoverWindow.qml:63
+#, fuzzy
+#| msgid "Update"
+msgid "No Updates"
+msgstr "अद्ययावत करा"
+
+#: discover/qml/DiscoverWindow.qml:63
+#, fuzzy, kde-format
+#| msgid "Update"
+msgid "Update (%1)"
+msgstr "अद्ययावत करा"
+
+#: discover/qml/DiscoverWindow.qml:85
+msgid "Advanced..."
+msgstr ""
+
+#: discover/qml/DiscoverWindow_PlasmaPhone.qml:29
+msgid "Hola"
 msgstr ""
 
 #: discover/qml/FeaturedBanner.qml:107
@@ -258,48 +291,17 @@ msgstr ""
 msgid "Sort by "
 msgstr ""
 
-#: discover/qml/Main.qml:64
-msgid "Loading..."
-msgstr "दाखल करत आहे..."
-
-#: discover/qml/Main.qml:107
-#, fuzzy
-#| msgid "Install"
-msgid "Installing..."
-msgstr "प्रतिष्ठापीत करा"
-
-#: discover/qml/Main.qml:114
-#, fuzzy
-#| msgid "Update"
-msgid "No Updates"
-msgstr "अद्ययावत करा"
-
-#: discover/qml/Main.qml:114
-#, fuzzy, kde-format
-#| msgid "Update"
-msgid "Update (%1)"
-msgstr "अद्ययावत करा"
-
-#: discover/qml/Main.qml:182
+#: discover/qml/Main.qml:95
 msgid "Got it"
 msgstr ""
 
-#: discover/qml/Main.qml:183
+#: discover/qml/Main.qml:96
 msgid "Could not close the application, there are tasks that need to be done."
 msgstr ""
 
-#: discover/qml/MuonToolbar.qml:61
+#: discover/qml/MuonToolbar.qml:58
 msgid "Back"
 msgstr "मागे"
-
-#: discover/qml/MuonToolbar.qml:75 discover/qml/PresentUpdatesPage.qml:125
-#, kde-format
-msgid "%1 (%2)"
-msgstr ""
-
-#: discover/qml/MuonToolbar.qml:118
-msgid "Advanced..."
-msgstr ""
 
 #: discover/qml/navigation.js:29
 #, kde-format
@@ -318,6 +320,11 @@ msgstr ""
 
 #: discover/qml/PresentUpdatesPage.qml:44
 msgid "updates not selected"
+msgstr ""
+
+#: discover/qml/PresentUpdatesPage.qml:125
+#, kde-format
+msgid "%1 (%2)"
 msgstr ""
 
 #: discover/qml/ReviewDelegate.qml:35
