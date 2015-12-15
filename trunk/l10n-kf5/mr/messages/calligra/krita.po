@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-12-13 07:03+0000\n"
+"POT-Creation-Date: 2015-12-15 08:15+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -3480,14 +3480,7 @@ msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: image/kis_image.cc:957
-#, fuzzy
-#| msgid "Flatten Image"
-msgctxt "(qtundo-format)"
-msgid "Flatten Image"
-msgstr "प्रतिमा सपाट करा"
-
-#: image/kis_image.cc:1527
+#: image/kis_image.cc:1475
 #, fuzzy
 #| msgid "Grow Selection"
 msgctxt "(qtundo-format)"
@@ -3540,46 +3533,53 @@ msgid "Layer Style"
 msgstr "स्तराचा आकार"
 
 #: image/kis_layer_properties_icons.cpp:34 image/kis_paint_layer.cc:195
-#: plugins/extensions/dockers/animation/animation_docker.cpp:125
+#: plugins/extensions/dockers/animation/animation_docker.cpp:126
 #: plugins/extensions/dockers/animation/onion_skins_docker.cpp:37
 #, fuzzy
 #| msgid "&Constrain proportions"
 msgid "Onion Skins"
 msgstr "गुणोत्तर निसाधनण (&C)"
 
-#: image/kis_layer_utils.cpp:208
+#: image/kis_layer_utils.cpp:210
 #, fuzzy
 #| msgid "Copy Merged"
 msgid "Merged"
 msgstr "प्रत मिसळा"
 
-#: image/kis_layer_utils.cpp:525
+#: image/kis_layer_utils.cpp:547
 #, fuzzy
 #| msgid "Clear Points"
 msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr "बिंदू काढून टाका"
 
-#: image/kis_layer_utils.cpp:631
-#, fuzzy
-#| msgid "Flatten Layer"
-msgctxt "(qtundo-format)"
-msgid "Flatten Layer"
-msgstr "स्तर सपाट करा"
-
-#: image/kis_layer_utils.cpp:632
+#: image/kis_layer_utils.cpp:689
 #, fuzzy
 #| msgid "Remove Selected Color"
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "निवडलेला रंग काढा"
 
-#: image/kis_layer_utils.cpp:747
+#: image/kis_layer_utils.cpp:770
 #, fuzzy
 #| msgid "Selection "
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "निवड "
+
+#: image/kis_layer_utils.cpp:793
+#, fuzzy
+#| msgid "Flatten Layer"
+msgctxt "(qtundo-format)"
+msgid "Flatten Layer"
+msgstr "स्तर सपाट करा"
+
+#: image/kis_layer_utils.cpp:801
+#, fuzzy
+#| msgid "Flatten Image"
+msgctxt "(qtundo-format)"
+msgid "Flatten Image"
+msgstr "प्रतिमा सपाट करा"
 
 #: image/kis_processing_visitor.cpp:34
 #, fuzzy
@@ -10247,50 +10247,50 @@ msgstr ""
 msgid "Luma"
 msgstr ""
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:42
+#: plugins/extensions/dockers/animation/animation_docker.cpp:43
 #, fuzzy
 #| msgid "Animated"
 msgid "Animation"
 msgstr "चलित"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:53
+#: plugins/extensions/dockers/animation/animation_docker.cpp:54
 #, fuzzy
 #| msgid "Previous Favourite Preset"
 msgid "Previous Frame"
 msgstr "मागील पसंत प्रीसेट"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:57
+#: plugins/extensions/dockers/animation/animation_docker.cpp:58
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Remove Layer"
 msgid "Next Frame"
 msgstr "स्तर काढून टाका"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:61
+#: plugins/extensions/dockers/animation/animation_docker.cpp:62
 #, fuzzy
 #| msgid "Previous Favourite Preset"
 msgid "Previous Key Frame"
 msgstr "मागील पसंत प्रीसेट"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:65
+#: plugins/extensions/dockers/animation/animation_docker.cpp:66
 #, fuzzy
 #| msgid "Insert Name"
 msgid "Next Key Frame"
 msgstr "नाव घाला"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:69
+#: plugins/extensions/dockers/animation/animation_docker.cpp:70
 #, fuzzy
 #| msgid "&First page"
 msgid "First Frame"
 msgstr "पहिले पान (&F)"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:73
+#: plugins/extensions/dockers/animation/animation_docker.cpp:74
 #, fuzzy
 #| msgid "Last used"
 msgid "Last Frame"
 msgstr "शेवटी वापरलेले"
 
-#: plugins/extensions/dockers/animation/animation_docker.cpp:77
+#: plugins/extensions/dockers/animation/animation_docker.cpp:78
 #, fuzzy
 #| msgid "Play macro"
 msgid "Play / Pause"
@@ -10445,12 +10445,12 @@ msgid "Remove %1 columns"
 msgstr "रकान्यांची संख्या"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:59
+#: plugins/extensions/dockers/animation/wdg_animation.ui:62
 msgid "Start:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:76
+#: plugins/extensions/dockers/animation/wdg_animation.ui:82
 msgid "End:"
 msgstr ""
 
@@ -10500,18 +10500,18 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, bnSelectSaveLocation)
 #. i18n: ectx: property (text), widget (QToolButton, bnGetPreview)
 #. i18n: ectx: property (text), widget (QToolButton, bnFont)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:146
-#: plugins/extensions/dockers/animation/wdg_animation.ui:178
-#: plugins/extensions/dockers/animation/wdg_animation.ui:210
-#: plugins/extensions/dockers/animation/wdg_animation.ui:242
-#: plugins/extensions/dockers/animation/wdg_animation.ui:274
-#: plugins/extensions/dockers/animation/wdg_animation.ui:306
-#: plugins/extensions/dockers/animation/wdg_animation.ui:338
-#: plugins/extensions/dockers/animation/wdg_animation.ui:385
-#: plugins/extensions/dockers/animation/wdg_animation.ui:395
-#: plugins/extensions/dockers/animation/wdg_animation.ui:405
-#: plugins/extensions/dockers/animation/wdg_animation.ui:422
-#: plugins/extensions/dockers/animation/wdg_animation.ui:432
+#: plugins/extensions/dockers/animation/wdg_animation.ui:152
+#: plugins/extensions/dockers/animation/wdg_animation.ui:184
+#: plugins/extensions/dockers/animation/wdg_animation.ui:216
+#: plugins/extensions/dockers/animation/wdg_animation.ui:248
+#: plugins/extensions/dockers/animation/wdg_animation.ui:280
+#: plugins/extensions/dockers/animation/wdg_animation.ui:312
+#: plugins/extensions/dockers/animation/wdg_animation.ui:344
+#: plugins/extensions/dockers/animation/wdg_animation.ui:391
+#: plugins/extensions/dockers/animation/wdg_animation.ui:401
+#: plugins/extensions/dockers/animation/wdg_animation.ui:411
+#: plugins/extensions/dockers/animation/wdg_animation.ui:428
+#: plugins/extensions/dockers/animation/wdg_animation.ui:438
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:66
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:151
 #: plugins/extensions/dockers/defaultdockers/wdglayerbox.ui:170
@@ -10548,14 +10548,14 @@ msgid "..."
 msgstr "..."
 
 #. i18n: ectx: property (text), widget (QLabel, lblPlaySpeed)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:464
+#: plugins/extensions/dockers/animation/wdg_animation.ui:470
 #, fuzzy
 #| msgid "Speed"
 msgid "Play Speed:"
 msgstr "वेग"
 
 #. i18n: ectx: property (text), widget (QLabel, lblFramerate)
-#: plugins/extensions/dockers/animation/wdg_animation.ui:487
+#: plugins/extensions/dockers/animation/wdg_animation.ui:493
 #, fuzzy
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
