@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-29 06:49+0000\n"
+"POT-Creation-Date: 2015-12-20 06:37+0000\n"
 "PO-Revision-Date: 2013-04-10 17:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1734,7 +1734,8 @@ msgid "&New"
 msgstr "नवीन (&N)"
 
 #. i18n: ectx: property (text), widget (QPushButton, bDelete)
-#: dialogs/StyleManager.ui:75 TextTool.cpp:2651
+#: dialogs/StyleManager.ui:75
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:277 TextTool.cpp:2651
 msgid "Delete"
 msgstr "काढून टाका"
 
@@ -1917,6 +1918,439 @@ msgstr "अकार्यान्वित"
 msgid "Table Of Contents"
 msgstr "मचकूराची यादी"
 
+#: kotext/commands/ChangeListCommand.cpp:41
+#: kotext/commands/ChangeListCommand.cpp:88
+#: kotext/commands/ChangeListCommand.cpp:101
+#, fuzzy
+#| msgid "Save Changes"
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "बदल साठवा"
+
+#: kotext/commands/ChangeStylesMacroCommand.cpp:37
+#, fuzzy
+#| msgid "Used Styles"
+msgctxt "(qtundo-format)"
+msgid "Change Styles"
+msgstr "वापरलेल्या शैली"
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:77
+#: kotext/commands/DeleteCommand.cpp:68
+#, fuzzy
+#| msgid "Delete"
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "काढून टाका"
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:193 TextTool.cpp:2645
+msgid "Key Press"
+msgstr ""
+
+#: kotext/commands/ChangeTrackedDeleteCommand.cpp:332
+#: kotext/commands/DeleteCommand.cpp:517 kotext/KoTextEditor_undo.cpp:87
+#: kotext/KoTextEditor_undo.cpp:166 kotext/KoTextEditor_undo.cpp:201
+#: kotext/KoTextEditor_undo.cpp:218 kotext/KoTextEditor_undo.cpp:260
+#, fuzzy
+#| msgid "Text"
+msgctxt "(qtundo-format)"
+msgid "Text"
+msgstr "मजकूर"
+
+#: kotext/commands/DeleteTableColumnCommand.cpp:38
+#, fuzzy
+#| msgid "Delete Row"
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr "ओळ काढून टाका"
+
+#: kotext/commands/DeleteTableRowCommand.cpp:38
+#, fuzzy
+#| msgid "Delete Row"
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr "ओळ काढून टाका"
+
+#: kotext/commands/InsertNoteCommand.cpp:36
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Footnote"
+msgstr "अंतर्भूत करा"
+
+#: kotext/commands/InsertNoteCommand.cpp:38
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Endnote"
+msgstr "अंतर्भूत करा"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:40
+#, fuzzy
+#| msgid "Insert Link"
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr "लिंक अंतर्भूत करा"
+
+#: kotext/commands/InsertTableColumnCommand.cpp:42
+#, fuzzy
+#| msgid "Insert Link"
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr "लिंक अंतर्भूत करा"
+
+#: kotext/commands/InsertTableRowCommand.cpp:40
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr "अंतर्भूत करा"
+
+#: kotext/commands/InsertTableRowCommand.cpp:42
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
+msgstr "अंतर्भूत करा"
+
+#: kotext/commands/ListItemNumberingCommand.cpp:35
+msgctxt "(qtundo-format)"
+msgid "Change List Numbering"
+msgstr ""
+
+#: kotext/commands/NewSectionCommand.cpp:37
+#, fuzzy
+#| msgid "Insert Link"
+msgctxt "(qtundo-format)"
+msgid "New Section"
+msgstr "लिंक अंतर्भूत करा"
+
+#: kotext/commands/ParagraphFormattingCommand.cpp:56
+#: kotext/KoTextEditor_format.cpp:510 kotext/KoTextEditor_format.cpp:531
+#, fuzzy
+#| msgid "Formatting"
+msgctxt "(qtundo-format)"
+msgid "Formatting"
+msgstr "फॉर्मेटिंग"
+
+#: kotext/commands/ParagraphFormattingCommand.cpp:93
+msgctxt "(qtundo-format)"
+msgid "Direct Paragraph Formatting"
+msgstr ""
+
+#: kotext/commands/RenameSectionCommand.cpp:35
+#, fuzzy
+#| msgid "Insert Link"
+msgctxt "(qtundo-format)"
+msgid "Rename Section"
+msgstr "लिंक अंतर्भूत करा"
+
+#: kotext/commands/ResizeTableCommand.cpp:45 TextTool.cpp:1402
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr ""
+
+#: kotext/commands/ResizeTableCommand.cpp:47 TextTool.cpp:1447
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr ""
+
+#: kotext/commands/SplitSectionsCommand.cpp:39
+#, fuzzy
+#| msgid "Configure"
+msgctxt "(qtundo-format)"
+msgid "Split sections startings"
+msgstr "संयोजीत करा"
+
+#: kotext/commands/SplitSectionsCommand.cpp:41
+#, fuzzy
+#| msgid "Configure"
+msgctxt "(qtundo-format)"
+msgid "Split sections endings"
+msgstr "संयोजीत करा"
+
+#: kotext/commands/TextPasteCommand.cpp:66
+msgctxt "(qtundo-format)"
+msgid "Paste As Text"
+msgstr ""
+
+#: kotext/commands/TextPasteCommand.cpp:68
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr ""
+
+#: kotext/InsertTextLocator.cpp:27
+msgid "Index Reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:35
+#: kotext/InsertTextReferenceAction.cpp:63
+msgid "Text Reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:44
+msgid "Please create an index to reference first."
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:53
+msgid "Select the index you want to reference"
+msgstr ""
+
+#: kotext/InsertTextReferenceAction.cpp:63 kotext/InsertVariableAction.cpp:58
+#, kde-format
+msgid "%1 Options"
+msgstr ""
+
+#: kotext/KoSectionModel.cpp:87
+#, fuzzy, kde-format
+#| msgid "Insert Link"
+msgctxt "new numbered section name"
+msgid "New section %1"
+msgstr "लिंक अंतर्भूत करा"
+
+#: kotext/KoText.cpp:32
+#, fuzzy
+#| msgid "None"
+msgctxt "Underline Style"
+msgid "None"
+msgstr "काही नाही"
+
+#: kotext/KoText.cpp:33
+#, fuzzy
+#| msgctxt "Line spacing value"
+#| msgid "Single"
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "एक"
+
+#: kotext/KoText.cpp:34
+#, fuzzy
+#| msgctxt "Line spacing value"
+#| msgid "Double"
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "दुप्पट"
+
+#: kotext/KoTextEditor.cpp:193 kotext/KoTextEditor.cpp:1559
+#: kotext/KoTextEditor.cpp:1561
+#, fuzzy
+#| msgid "Paragraph"
+msgctxt "(qtundo-format)"
+msgid "New Paragraph"
+msgstr "परिच्छेद"
+
+#: kotext/KoTextEditor.cpp:483
+#, fuzzy
+#| msgid "Bookmarks"
+msgctxt "(qtundo-format)"
+msgid "Add Bookmark"
+msgstr "ओळखचिन्हे"
+
+#: kotext/KoTextEditor.cpp:502
+#, fuzzy
+#| msgid "Annotation:"
+msgctxt "(qtundo-format)"
+msgid "Add Annotation"
+msgstr "टीप :"
+
+#: kotext/KoTextEditor.cpp:526
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Index"
+msgstr "अंतर्भूत करा"
+
+#: kotext/KoTextEditor.cpp:552
+#, fuzzy
+#| msgid "Insert Table"
+msgctxt "(qtundo-format)"
+msgid "Insert Variable"
+msgstr "कोष्टक अंतर्भूत करा"
+
+#: kotext/KoTextEditor.cpp:619
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Break"
+msgstr "अंतर्भूत करा"
+
+#: kotext/KoTextEditor.cpp:940 kotext/KoTextEditor.cpp:942
+#: kotext/KoTextEditor.cpp:957
+#, fuzzy
+#| msgid "Insert Table"
+msgctxt "(qtundo-format)"
+msgid "Insert Table"
+msgstr "कोष्टक अंतर्भूत करा"
+
+#: kotext/KoTextEditor.cpp:1097
+msgctxt "(qtundo-format)"
+msgid "Merge Cells"
+msgstr ""
+
+#: kotext/KoTextEditor.cpp:1114
+#, fuzzy
+#| msgid "Configure"
+msgctxt "(qtundo-format)"
+msgid "Split Cells"
+msgstr "संयोजीत करा"
+
+#: kotext/KoTextEditor.cpp:1143
+msgctxt "(qtundo-format)"
+msgid "Adjust Table Width"
+msgstr ""
+
+#: kotext/KoTextEditor.cpp:1160 TextTool.cpp:911
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr ""
+
+#: kotext/KoTextEditor.cpp:1207 kotext/KoTextEditor.cpp:1209
+#: kotext/KoTextEditor.cpp:1227
+#, fuzzy
+#| msgid "Table Of Contents"
+msgctxt "(qtundo-format)"
+msgid "Insert Table Of Contents"
+msgstr "मचकूराची यादी"
+
+#: kotext/KoTextEditor.cpp:1266
+#, fuzzy
+#| msgid "Table Of Contents"
+msgctxt "(qtundo-format)"
+msgid "Modify Table Of Contents"
+msgstr "मचकूराची यादी"
+
+#: kotext/KoTextEditor.cpp:1283 kotext/KoTextEditor.cpp:1285
+#: kotext/KoTextEditor.cpp:1304
+#, fuzzy
+#| msgid "Bibliography"
+msgctxt "(qtundo-format)"
+msgid "Insert Bibliography"
+msgstr "ग्रंथ सूची"
+
+#: kotext/KoTextEditor.cpp:1341 kotext/KoTextEditor.cpp:1343
+#, fuzzy
+#| msgctxt "Line spacing type"
+#| msgid "Additional"
+msgctxt "(qtundo-format)"
+msgid "Add Citation"
+msgstr "अधिक"
+
+#: kotext/KoTextEditor.cpp:1370 kotext/KoTextEditor.cpp:1372
+#: kotext/KoTextEditor.cpp:1410
+msgctxt "(qtundo-format)"
+msgid "Typing"
+msgstr ""
+
+#: kotext/KoTextEditor_format.cpp:67
+#, fuzzy
+#| msgid "Bold"
+msgctxt "(qtundo-format)"
+msgid "Bold"
+msgstr "ठळक"
+
+#: kotext/KoTextEditor_format.cpp:80
+#, fuzzy
+#| msgid "Italic"
+msgctxt "(qtundo-format)"
+msgid "Italic"
+msgstr "तिरपे"
+
+#: kotext/KoTextEditor_format.cpp:93
+#, fuzzy
+#| msgctxt "Text formatting"
+#| msgid "Underline"
+msgctxt "(qtundo-format)"
+msgid "Underline"
+msgstr "अधोरेखित"
+
+#: kotext/KoTextEditor_format.cpp:112
+msgctxt "(qtundo-format)"
+msgid "Strike Out"
+msgstr ""
+
+#: kotext/KoTextEditor_format.cpp:145 kotext/KoTextEditor_format.cpp:146
+msgctxt "(qtundo-format)"
+msgid "Change Alignment"
+msgstr ""
+
+#: kotext/KoTextEditor_format.cpp:163
+msgctxt "(qtundo-format)"
+msgid "Set Vertical Alignment"
+msgstr ""
+
+#: kotext/KoTextEditor_format.cpp:197 kotext/KoTextEditor_format.cpp:198
+#, fuzzy
+#| msgid "Decrease Indent"
+msgctxt "(qtundo-format)"
+msgid "Decrease Indent"
+msgstr "समास कमी करा"
+
+#: kotext/KoTextEditor_format.cpp:233 kotext/KoTextEditor_format.cpp:234
+#, fuzzy
+#| msgid "Increase Indent"
+msgctxt "(qtundo-format)"
+msgid "Increase Indent"
+msgstr "समास वाढवा"
+
+#: kotext/KoTextEditor_format.cpp:269 kotext/KoTextEditor_format.cpp:271
+#, fuzzy
+#| msgid "Decrease Font Size"
+msgctxt "(qtundo-format)"
+msgid "Decrease font size"
+msgstr "फॉन्ट आकार कमी करा"
+
+#: kotext/KoTextEditor_format.cpp:282 kotext/KoTextEditor_format.cpp:284
+#, fuzzy
+#| msgid "Increase Font Size"
+msgctxt "(qtundo-format)"
+msgid "Increase font size"
+msgstr "फॉन्ट आकार वाढवा"
+
+#: kotext/KoTextEditor_format.cpp:295
+#, fuzzy
+#| msgid "Select Font"
+msgctxt "(qtundo-format)"
+msgid "Set Font"
+msgstr "फॉन्ट निवडा"
+
+#: kotext/KoTextEditor_format.cpp:308
+#, fuzzy
+#| msgid "Font Size"
+msgctxt "(qtundo-format)"
+msgid "Set Font Size"
+msgstr "फॉन्ट आकार"
+
+#: kotext/KoTextEditor_format.cpp:321
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "(qtundo-format)"
+msgid "Set Background Color"
+msgstr "पार्श्वभूमीचा रंग"
+
+#: kotext/KoTextEditor_format.cpp:334
+#, fuzzy
+#| msgid "Text Color"
+msgctxt "(qtundo-format)"
+msgid "Set Text Color"
+msgstr "मजकूर रंग"
+
+#: kotext/KoTextEditor_format.cpp:362 kotext/KoTextEditor_format.cpp:401
+#, fuzzy
+#| msgid "Special Characters"
+msgctxt "(qtundo-format)"
+msgid "Set Character Style"
+msgstr "विशिष्ठ अक्षरे"
+
+#: kotext/KoTextEditor_format.cpp:468
+#, fuzzy
+#| msgid "Paragraph"
+msgctxt "(qtundo-format)"
+msgid "Set Paragraph Style"
+msgstr "परिच्छेद"
+
+#: kotext/styles/KoStyleManager.cpp:106 kotext/styles/KoStyleManager.cpp:111
+msgid "Default"
+msgstr ""
+
 #: ReferencesTool.cpp:143
 msgid "Insert Labeled Footnote"
 msgstr ""
@@ -1992,6 +2426,127 @@ msgstr "टिपण्णी"
 msgid "Review"
 msgstr "समीक्षा"
 
+#: textlayout/ListItemsHelper.cpp:223
+#, fuzzy
+#| msgid "None"
+msgctxt "Text list-style"
+msgid "None"
+msgstr "काही नाही"
+
+#: textlayout/ListItemsHelper.cpp:224
+msgid "Small Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:225
+msgid "Circle Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:226
+msgid "Square Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:227
+msgid "Rhombus Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:228
+msgid "Check Mark Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:229
+msgid "Rightwards Arrow Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:230
+msgid "Arabic"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:231
+msgid "Lower Alphabetical"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:232
+msgid "Upper Alphabetical"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:233
+#, fuzzy
+#| msgid "Lowercase"
+msgid "Lower Roman"
+msgstr "लोअरकेस"
+
+#: textlayout/ListItemsHelper.cpp:234
+msgid "Upper Roman"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:241
+msgid "Large Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:242
+msgid "Ballot X Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:243
+msgid "Rightwards Arrow Head Bullet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:244
+msgid "Bengali"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:245
+msgid "Gujarati"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:246
+msgid "Gurumukhi"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:247
+msgid "Kannada"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:248
+msgid "Malayalam"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:249
+msgid "Oriya"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:250
+msgid "Tamil"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:251
+msgid "Telugu"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:252
+msgid "Tibetan"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:253
+msgid "Thai"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:254
+msgid "Abjad"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:255
+msgid "AbjadMinor"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:256
+msgid "ArabicAlphabet"
+msgstr ""
+
+#: textlayout/ListItemsHelper.cpp:257
+msgid "Image"
+msgstr ""
+
 #: TextShapeFactory.cpp:44 TextShapeFactory.cpp:54
 msgid "Text"
 msgstr "मजकूर"
@@ -2048,25 +2603,10 @@ msgstr ""
 msgid "Press shift to not resize this"
 msgstr ""
 
-#: TextTool.cpp:911
-msgctxt "(qtundo-format)"
-msgid "Change Border Formatting"
-msgstr ""
-
 #: TextTool.cpp:1139
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "कापा"
-
-#: TextTool.cpp:1402
-msgctxt "(qtundo-format)"
-msgid "Adjust Column Width"
-msgstr ""
-
-#: TextTool.cpp:1447
-msgctxt "(qtundo-format)"
-msgid "Adjust Row Height"
-msgstr ""
 
 #: TextTool.cpp:2239
 msgid "Table"
@@ -2075,10 +2615,6 @@ msgstr "कोष्टक"
 #: TextTool.cpp:2645 TextTool.cpp:2651
 msgid "Autocorrection"
 msgstr "स्वयंचलित सुधारणा"
-
-#: TextTool.cpp:2645
-msgid "Key Press"
-msgstr ""
 
 #: TextToolFactory.cpp:31
 msgid "Text editing"
@@ -2095,23 +2631,8 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "Insert Link"
-#~ msgid "Insert new section"
-#~ msgstr "लिंक अंतर्भूत करा"
-
-#, fuzzy
-#~| msgid "Insert Link"
 #~ msgid "Insert paragraph between sections"
 #~ msgstr "लिंक अंतर्भूत करा"
-
-#~ msgid "Bold"
-#~ msgstr "ठळक"
-
-#~ msgid "Italic"
-#~ msgstr "तिरपे"
-
-#~ msgctxt "Text formatting"
-#~ msgid "Underline"
-#~ msgstr "अधोरेखित"
 
 #~ msgid "Align Left"
 #~ msgstr "डावीकडे स्थीत करा"
@@ -2125,23 +2646,11 @@ msgstr ""
 #~ msgid "Align Block"
 #~ msgstr "ब्लॉक स्थीत करा"
 
-#~ msgid "Increase Indent"
-#~ msgstr "समास वाढवा"
-
-#~ msgid "Decrease Indent"
-#~ msgstr "समास कमी करा"
-
 #~ msgid "Bullet list"
 #~ msgstr "बुलेट यादी"
 
 #~ msgid "Numbered list"
 #~ msgstr "क्रमांकीत यादी"
-
-#~ msgid "Increase Font Size"
-#~ msgstr "फॉन्ट आकार वाढवा"
-
-#~ msgid "Decrease Font Size"
-#~ msgstr "फॉन्ट आकार कमी करा"
 
 #~ msgid "Font..."
 #~ msgstr "फॉन्ट..."
@@ -2152,9 +2661,6 @@ msgstr ""
 #~ msgid "Text Color..."
 #~ msgstr "पाठ्य रंग..."
 
-#~ msgid "Text Color"
-#~ msgstr "मजकूर रंग"
-
 #~ msgid "Background Color..."
 #~ msgstr "पार्श्वभूमीचा रंग..."
 
@@ -2164,19 +2670,11 @@ msgstr ""
 #~ msgid "Row"
 #~ msgstr "ओळ"
 
-#~ msgid "Delete Row"
-#~ msgstr "ओळ काढून टाका"
-
 #~ msgid "Paragraph..."
 #~ msgstr "परिच्छेद..."
 
 #~ msgid "Style Manager..."
 #~ msgstr "शैली व्यवस्थापक..."
-
-#, fuzzy
-#~| msgid "Insert Link"
-#~ msgid "Insert Comment"
-#~ msgstr "लिंक अंतर्भूत करा"
 
 #~ msgid "Open Link?"
 #~ msgstr "लिंक उघडायची का?"
