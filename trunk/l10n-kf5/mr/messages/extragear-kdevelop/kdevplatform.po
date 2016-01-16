@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-12 08:39+0000\n"
+"POT-Creation-Date: 2016-01-16 07:46+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -134,7 +134,7 @@ msgid "&Enable Breakpoint"
 msgstr ""
 
 #: debugger/breakpoint/breakpointmodel.cpp:194
-#: debugger/variable/variablecollection.cpp:408
+#: debugger/variable/variablecollection.cpp:418
 #: debugger/variable/variabletooltip.cpp:101
 msgid "Type"
 msgstr "प्रकार"
@@ -225,23 +225,29 @@ msgstr "सर्व कार्यान्वीत करा"
 msgid "&Remove All"
 msgstr "सर्व काढून टाका"
 
-#: debugger/framestack/framestackmodel.cpp:147
+#: debugger/framestack/framestackmodel.cpp:179
+#, fuzzy, kde-format
+msgctxt "#thread-id at function-name or address"
+msgid "#%1 at %2 (crashed)"
+msgstr "येथे"
+
+#: debugger/framestack/framestackmodel.cpp:181
 #, fuzzy, kde-format
 msgctxt "#thread-id at function-name or address"
 msgid "#%1 at %2"
 msgstr "येथे"
 
-#: debugger/framestack/framestackmodel.cpp:225
+#: debugger/framestack/framestackmodel.cpp:276
 msgid "Depth"
 msgstr "खोली"
 
-#: debugger/framestack/framestackmodel.cpp:227
+#: debugger/framestack/framestackmodel.cpp:278
 #: language/duchain/navigation/abstractnavigationcontext.cpp:398
 msgid "Function"
 msgstr "कार्य"
 
 #. i18n: ectx: property (title), widget (QGroupBox, sourceBox)
-#: debugger/framestack/framestackmodel.cpp:229 shell/projectsourcepage.ui:66
+#: debugger/framestack/framestackmodel.cpp:280 shell/projectsourcepage.ui:66
 msgid "Source"
 msgstr "स्रोत"
 
@@ -297,24 +303,24 @@ msgstr ""
 msgid "Delete"
 msgstr "काढून टाका"
 
-#: debugger/variable/variablecollection.cpp:214
+#: debugger/variable/variablecollection.cpp:221
 #: language/duchain/problem.cpp:197 shell/filteredproblemstore.cpp:167
 #: shell/problem.cpp:132
 msgid "Error"
 msgstr "त्रुटी"
 
-#: debugger/variable/variablecollection.cpp:235
+#: debugger/variable/variablecollection.cpp:245
 msgid "Auto"
 msgstr "स्वयंचलित"
 
 #. i18n: ectx: property (text), widget (QLabel, configName)
-#: debugger/variable/variablecollection.cpp:408
+#: debugger/variable/variablecollection.cpp:418
 #: debugger/variable/variabletooltip.cpp:101
 #: shell/launchconfigurationdialog.ui:112
 msgid "Name"
 msgstr "नाव"
 
-#: debugger/variable/variablecollection.cpp:408
+#: debugger/variable/variablecollection.cpp:418
 #: debugger/variable/variabletooltip.cpp:101
 #: shell/settings/environmentgroupmodel.cpp:97
 msgid "Value"
@@ -356,74 +362,74 @@ msgstr ""
 msgid "<b>Expression entry</b>Type in expression to watch."
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:201
+#: debugger/variable/variablewidget.cpp:202
 msgid "&Format"
 msgstr "स्वरूप (&F)"
 
-#: debugger/variable/variablewidget.cpp:206
+#: debugger/variable/variablewidget.cpp:207
 msgid "&Natural"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:211
+#: debugger/variable/variablewidget.cpp:212
 msgid "&Binary"
 msgstr "बायनरी (&B)"
 
-#: debugger/variable/variablewidget.cpp:216
+#: debugger/variable/variablewidget.cpp:217
 #, fuzzy
 msgid "&Octal"
 msgstr "ऑक्टल"
 
-#: debugger/variable/variablewidget.cpp:221
+#: debugger/variable/variablewidget.cpp:222
 msgid "&Decimal"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:226
+#: debugger/variable/variablewidget.cpp:227
 #, fuzzy
 msgid "&Hexadecimal"
 msgstr "हेक्साडेसिमल"
 
-#: debugger/variable/variablewidget.cpp:242
+#: debugger/variable/variablewidget.cpp:243
 msgid "Remove Watch Variable"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:249
+#: debugger/variable/variablewidget.cpp:250
 msgid "&Copy Value"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:254
+#: debugger/variable/variablewidget.cpp:255
 msgid "&Stop on Change"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:334
+#: debugger/variable/variablewidget.cpp:335
 msgid "Recent Expressions"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:335
+#: debugger/variable/variablewidget.cpp:336
 #: shell/workingsets/workingsettooltipwidget.cpp:139
 msgid "Remove All"
 msgstr "सर्व काढून टाका"
 
-#: debugger/variable/variablewidget.cpp:336
+#: debugger/variable/variablewidget.cpp:337
 msgid "Re-evaluate All"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:382
+#: debugger/variable/variablewidget.cpp:383
 msgid "Remember Value"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:387
+#: debugger/variable/variablewidget.cpp:388
 msgid "Watch Variable"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:392
+#: debugger/variable/variablewidget.cpp:393
 msgid "Reevaluate Expression"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:394
+#: debugger/variable/variablewidget.cpp:395
 msgid "Remove Expression"
 msgstr ""
 
-#: debugger/variable/variablewidget.cpp:400
+#: debugger/variable/variablewidget.cpp:401
 msgid "Data write breakpoint"
 msgstr ""
 
@@ -526,32 +532,32 @@ msgstr ""
 msgid "Background Parser"
 msgstr ""
 
-#: language/backgroundparser/parsejob.cpp:283
+#: language/backgroundparser/parsejob.cpp:280
 #, kde-format
 msgctxt "%1: filename"
 msgid "Skipped file that is too large: '%1'"
 msgstr ""
 
-#: language/backgroundparser/parsejob.cpp:285
+#: language/backgroundparser/parsejob.cpp:282
 #, kde-format
 msgctxt "%1: file size, %2: limit file size"
 msgid "The file is %1 and exceeds the limit of %2."
 msgstr ""
 
-#: language/backgroundparser/parsejob.cpp:298
+#: language/backgroundparser/parsejob.cpp:295
 #, kde-format
 msgid "Could not open file '%1'"
 msgstr "फाईल '%1' उघडू शकत नाही"
 
-#: language/backgroundparser/parsejob.cpp:301
+#: language/backgroundparser/parsejob.cpp:298
 msgid "File could not be read from disk."
 msgstr ""
 
-#: language/backgroundparser/parsejob.cpp:304
+#: language/backgroundparser/parsejob.cpp:301
 msgid "File could not be opened."
 msgstr ""
 
-#: language/backgroundparser/parsejob.cpp:307
+#: language/backgroundparser/parsejob.cpp:304
 msgid "File could not be read from disk due to permissions."
 msgstr ""
 
@@ -4335,12 +4341,12 @@ msgctxt "Unknown VCS file status, probably a backend error"
 msgid "?"
 msgstr ""
 
-#: vcs/models/vcsfilechangesmodel.cpp:120
+#: vcs/models/vcsfilechangesmodel.cpp:122
 #, fuzzy
 msgid "Filename"
 msgstr "फाईलनाव"
 
-#: vcs/models/vcsfilechangesmodel.cpp:121
+#: vcs/models/vcsfilechangesmodel.cpp:123
 msgid "Status"
 msgstr "स्थिती"
 
