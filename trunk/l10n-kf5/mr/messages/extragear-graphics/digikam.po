@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-01 07:11+0000\n"
+"POT-Creation-Date: 2016-02-02 08:30+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -2385,7 +2385,6 @@ msgstr "कॅप्शन"
 
 #: app/views/tableview/tableview_column_digikam.cpp:267
 #: app/views/tableview/tableview_column_digikam.cpp:297
-#: libs/dimg/loaders/jpegsettings.cpp:110
 #: libs/widgets/metadata/colorlabelwidget.cpp:453
 #: libs/widgets/metadata/picklabelwidget.cpp:291
 #, fuzzy
@@ -9501,35 +9500,34 @@ msgstr ""
 msgid "Chroma subsampling:"
 msgstr ""
 
+#: libs/dimg/loaders/jpegsettings.cpp:110
+msgid "4:4:4 (best quality)"
+msgstr ""
+
 #: libs/dimg/loaders/jpegsettings.cpp:111
-#, fuzzy
-#| msgctxt "saturation mode"
-#| msgid "Low"
-msgid "Low"
-msgstr "कमी"
+msgid "4:2:2 (good quality)"
+msgstr ""
 
 #: libs/dimg/loaders/jpegsettings.cpp:112
-msgid "Medium"
-msgstr "मध्यम"
+msgid "4:2:0 (low quality)"
+msgstr ""
 
 #: libs/dimg/loaders/jpegsettings.cpp:113
-#, fuzzy
-msgid "High"
-msgstr "जास्त"
+msgid "4:1:1 (low quality)"
+msgstr ""
 
 #: libs/dimg/loaders/jpegsettings.cpp:114
 msgid ""
-"<p>JPEG Chroma subsampling level \n"
-"(color is saved with less resolution than luminance):</p><p><b>None</"
-"b>=best: uses 4:4:4 ratio. Does not employ chroma subsampling at all. This "
-"preserves edges and contrasting colors, whilst adding no additional "
-"compression.</p><p><b>Low</b>: uses 4:2:2 ratio. Low compression: reduces "
-"the horizontal color resolution by half with little to no visual difference."
-"</p><p><b>Medium</b>: uses 4:2:0 ratio. Medium compression: reduces the "
-"horizontal and vertical color resolution by half.</p><p><b>High</b>: use "
-"4:1:1 ratio. High compression: reduces the horizontal color resolution by "
-"one quarter. Created images with soft edges but tends to alter colors.</"
-"p><p><b>Note: JPEG always uses lossy compression.</b></p>"
+"<p>Chroma subsampling reduces file size by taking advantage of the eye's "
+"lesser sensitivity to color resolution. How perceptible the difference is "
+"depends on the image - large photos will generally show no difference, while "
+"sharp, down-scaled pixel graphics may lose fine color detail.</"
+"p><p><b>4:4:4</b> - No chroma subsampling, highest quality but lowest "
+"compression.</p><p><b>4:2:2</b> - Chroma halved horizontally, average "
+"compression, average quality.</p><p><b>4:2:0</b> - Chroma quartered in 2x2 "
+"blocks, high compression but low quality.</p><p><b>4:1:1</b> - Chroma "
+"quartered in 4x1 blocks, high compression but low quality.</p><p><b>Note: "
+"JPEG always uses lossy compression.</b></p>"
 msgstr ""
 
 #: libs/dimg/loaders/pgfsettings.cpp:77
@@ -27711,6 +27709,19 @@ msgstr ""
 msgctxt "%1 is the screen number (0, 1, ...)"
 msgid "Screen %1"
 msgstr "हिरवा"
+
+#, fuzzy
+#~| msgctxt "saturation mode"
+#~| msgid "Low"
+#~ msgid "Low"
+#~ msgstr "कमी"
+
+#~ msgid "Medium"
+#~ msgstr "मध्यम"
+
+#, fuzzy
+#~ msgid "High"
+#~ msgstr "जास्त"
 
 #, fuzzy
 #~ msgid "Lut3D Color Correction"
