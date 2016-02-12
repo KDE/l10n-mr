@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-21 07:51+0000\n"
+"POT-Creation-Date: 2016-02-12 07:40+0000\n"
 "PO-Revision-Date: 2013-04-12 16:41+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -716,7 +716,7 @@ msgstr "मूलभूत स्थंभ दर्शवा"
 msgid "Display Tooltips"
 msgstr "टूलटिप दर्शवा"
 
-#: core/view.cpp:2405 core/view.cpp:2409 core/widgets/quicksearchline.cpp:328
+#: core/view.cpp:2405 core/view.cpp:2409 core/widgets/quicksearchline.cpp:288
 msgid "From"
 msgstr "पासून"
 
@@ -905,107 +905,42 @@ msgstr ""
 msgid "Folder Always Uses This Sort Order"
 msgstr "संचयीका नेहेमी हा क्रम वापरते"
 
-#: core/widgets/quicksearchline.cpp:64
-msgid "Quick Filter:"
-msgstr ""
-
-#: core/widgets/quicksearchline.cpp:70
+#: core/widgets/quicksearchline.cpp:60
 msgctxt "Search for messages."
 msgid "Search"
 msgstr "शोधा"
 
-#: core/widgets/quicksearchline.cpp:79
-#, fuzzy
-#| msgid "Configure..."
-msgid "More..."
-msgstr "संयोजीत करा..."
-
-#: core/widgets/quicksearchline.cpp:106
+#: core/widgets/quicksearchline.cpp:89
 msgid "Filter message by:"
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:109
+#: core/widgets/quicksearchline.cpp:92
 #, fuzzy
 #| msgid "Message"
 msgid "Full Message"
 msgstr "संदेश"
 
-#: core/widgets/quicksearchline.cpp:117
+#: core/widgets/quicksearchline.cpp:100
 msgid "Body"
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:124
+#: core/widgets/quicksearchline.cpp:107
 #, fuzzy
 #| msgctxt "@title:column Subject of messages"
 #| msgid "Subject"
 msgid "Subject"
 msgstr "विषय"
 
-#: core/widgets/quicksearchline.cpp:139
+#: core/widgets/quicksearchline.cpp:122
 msgid "Bcc"
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:326
+#: core/widgets/quicksearchline.cpp:286
 #, fuzzy
 #| msgctxt "Receiver of the email"
 #| msgid "To"
 msgid "To"
 msgstr "पर्यंत"
-
-#: core/widgets/quicksearchline.cpp:338
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "न वाचलेले"
-
-#: core/widgets/quicksearchline.cpp:341
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "उत्तर दिले"
-
-#: core/widgets/quicksearchline.cpp:345
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "पुढे पाठविले"
-
-#: core/widgets/quicksearchline.cpp:349
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "महत्वपूर्ण"
-
-#: core/widgets/quicksearchline.cpp:353
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "क्रिया घटक"
-
-#: core/widgets/quicksearchline.cpp:357
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "लक्ष ठेवले"
-
-#: core/widgets/quicksearchline.cpp:361
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "दुर्लक्ष केले"
-
-#: core/widgets/quicksearchline.cpp:365
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr ""
-
-#: core/widgets/quicksearchline.cpp:369
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr ""
-
-#: core/widgets/quicksearchline.cpp:373
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "स्पैम"
-
-#: core/widgets/quicksearchline.cpp:377
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "हैम"
 
 #: core/widgets/quicksearchwarning.cpp:31
 msgid "The words less than 3 letters are ignored."
@@ -1015,22 +950,77 @@ msgstr ""
 msgid "Do not show again"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:42
+#: core/widgets/searchlinestatus.cpp:51
 msgctxt "@info:tooltip"
 msgid "Prevent the quick search field from being cleared when changing folders"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:45
+#: core/widgets/searchlinestatus.cpp:54
 msgctxt "@info:tooltip"
 msgid "Clear the quick search field when changing folders"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:66
+#: core/widgets/searchlinestatus.cpp:75
 msgctxt "@info:whatsthis"
 msgid ""
 "Toggle this button if you want to keep your quick search locked when moving "
 "to other folders or when narrowing the search by message status."
 msgstr ""
+
+#: core/widgets/searchlinestatus.cpp:138
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "न वाचलेले"
+
+#: core/widgets/searchlinestatus.cpp:142
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "उत्तर दिले"
+
+#: core/widgets/searchlinestatus.cpp:146
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "पुढे पाठविले"
+
+#: core/widgets/searchlinestatus.cpp:150
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "महत्वपूर्ण"
+
+#: core/widgets/searchlinestatus.cpp:154
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "क्रिया घटक"
+
+#: core/widgets/searchlinestatus.cpp:158
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "लक्ष ठेवले"
+
+#: core/widgets/searchlinestatus.cpp:162
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "दुर्लक्ष केले"
+
+#: core/widgets/searchlinestatus.cpp:166
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr ""
+
+#: core/widgets/searchlinestatus.cpp:170
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr ""
+
+#: core/widgets/searchlinestatus.cpp:174
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "स्पैम"
+
+#: core/widgets/searchlinestatus.cpp:178
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "हैम"
 
 #: messagelistutil.cpp:119
 msgid "Sorting"
@@ -1513,6 +1503,11 @@ msgstr "येथे प्रत करा (&C)"
 #: widget.cpp:437
 msgid "C&ancel"
 msgstr "रद्द करा (&A)"
+
+#, fuzzy
+#~| msgid "Configure..."
+#~ msgid "More..."
+#~ msgstr "संयोजीत करा..."
 
 #~ msgctxt "@action:inmenu Font setting"
 #~ msgid "Default"
