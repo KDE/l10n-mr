@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-24 07:19+0000\n"
+"POT-Creation-Date: 2016-02-25 07:56+0000\n"
 "PO-Revision-Date: 2013-03-05 14:53+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -33,7 +33,7 @@ msgid "&Archive"
 msgstr "संग्रह उघडा"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: app/arkui.rc:22
+#: app/arkui.rc:24
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
@@ -233,36 +233,31 @@ msgid ""
 "archive, a subfolder with the name of the archive will be created."
 msgstr ""
 
-#: app/mainwindow.cpp:147
+#: app/mainwindow.cpp:146
 msgid "Unable to find Ark's KPart component, please check your installation."
 msgstr ""
 
-#: app/mainwindow.cpp:174
+#: app/mainwindow.cpp:173
 msgctxt "action, to open an archive"
 msgid "Open"
 msgstr "उघडा"
 
-#: app/mainwindow.cpp:175
-msgid ""
-"Click to open an archive, click and hold to open a recently-opened archive"
-msgstr ""
-
-#: app/mainwindow.cpp:176
+#: app/mainwindow.cpp:174
 msgid "Open an archive"
 msgstr "संग्रह उघडा"
 
-#: app/mainwindow.cpp:226
+#: app/mainwindow.cpp:224
 #, fuzzy
 #| msgid "Open an archive"
 msgctxt "to open an archive"
 msgid "Open Archive"
 msgstr "संग्रह उघडा"
 
-#: app/mainwindow.cpp:235
+#: app/mainwindow.cpp:233
 msgid "All supported archives ("
 msgstr ""
 
-#: app/mainwindow.cpp:316
+#: app/mainwindow.cpp:314
 #, fuzzy
 #| msgid "Open an archive"
 msgid "Create a new Archive"
@@ -762,12 +757,12 @@ msgid "??"
 msgstr "??"
 
 #. i18n: ectx: Menu (ark_file)
-#: part/ark_part.rc:12
+#: part/ark_part.rc:13
 msgid "&File"
 msgstr "फाईल (&F)"
 
 #. i18n: ectx: Menu (settings)
-#: part/ark_part.rc:20
+#: part/ark_part.rc:21
 msgid "&Settings"
 msgstr "संयोजना (&S)"
 
@@ -891,21 +886,21 @@ msgstr ""
 msgid "Comment"
 msgstr "टीप"
 
-#: part/part.cpp:183
+#: part/part.cpp:185
 msgid "ArkPart"
 msgstr "आर्क-पार्ट"
 
-#: part/part.cpp:227
+#: part/part.cpp:229
 msgctxt "@info"
 msgid "Ark can only extract to local destinations."
 msgstr ""
 
-#: part/part.cpp:283
+#: part/part.cpp:285
 msgctxt "@action:inmenu"
 msgid "Show information panel"
 msgstr "माहिती पटल दर्शवा"
 
-#: part/part.cpp:292
+#: part/part.cpp:294
 #, fuzzy
 #| msgctxt "action, to open an archive"
 #| msgid "Open"
@@ -913,79 +908,109 @@ msgctxt "open a file with external program"
 msgid "&Open"
 msgstr "उघडा"
 
-#: part/part.cpp:294
+#: part/part.cpp:296
+msgctxt "@info:tooltip"
 msgid "Click to open the selected file with the associated application"
 msgstr ""
 
-#: part/part.cpp:299
+#: part/part.cpp:301
 #, fuzzy
 #| msgid "Open File"
 msgctxt "open a file with external program"
 msgid "Open &With..."
 msgstr "फाईल उघडा"
 
-#: part/part.cpp:301
+#: part/part.cpp:303
+msgctxt "@info:tooltip"
 msgid "Click to open the selected file with an external program"
 msgstr ""
 
-#: part/part.cpp:306
+#: part/part.cpp:308
 msgctxt "to preview a file inside an archive"
 msgid "Pre&view"
 msgstr "पूर्वावलोकन (&V)"
 
-#: part/part.cpp:308
+#: part/part.cpp:310
+msgctxt "@info:tooltip"
 msgid "Click to preview the selected file"
 msgstr ""
 
-#: part/part.cpp:314
+#: part/part.cpp:316 part/part.cpp:323
+#, fuzzy
+#| msgid "E&xtract"
+msgctxt "@action:inmenu"
 msgid "E&xtract"
 msgstr "बाहेर काढा (&X)"
 
-#: part/part.cpp:316
+#: part/part.cpp:318
+msgid ""
+"Click to open an extraction dialog, where you can choose how to extract all "
+"the files in the archive"
+msgstr ""
+
+#: part/part.cpp:325
+msgid ""
+"Click to open an extraction dialog, where you can choose how to extract the "
+"selected files"
+msgstr ""
+
+#: part/part.cpp:330
+#, fuzzy
+#| msgid "E&xtract"
+msgctxt "@action:intoolbar"
+msgid "E&xtract"
+msgstr "बाहेर काढा (&X)"
+
+#: part/part.cpp:332
 msgid ""
 "Click to open an extraction dialog, where you can choose to extract either "
 "all files or just the selected ones"
 msgstr ""
 
-#: part/part.cpp:323
+#: part/part.cpp:339
 msgid "Add &File..."
 msgstr "फाईल जोडा (&F)..."
 
-#: part/part.cpp:324
+#: part/part.cpp:340
+msgctxt "@info:tooltip"
 msgid "Click to add files to the archive"
 msgstr ""
 
-#: part/part.cpp:330
+#: part/part.cpp:346
 msgid "Add Fo&lder..."
 msgstr "संचयीका जोडा (&L)..."
 
-#: part/part.cpp:331
+#: part/part.cpp:347
+#, fuzzy
+#| msgid "Source archive"
+msgctxt "@info:tooltip"
 msgid "Click to add a folder to the archive"
-msgstr ""
+msgstr "स्रोत संग्रह"
 
-#: part/part.cpp:337
+#: part/part.cpp:353
 msgid "De&lete"
 msgstr "काढून टाका (&L)"
 
-#: part/part.cpp:339
+#: part/part.cpp:355
+msgctxt "@info:tooltip"
 msgid "Click to delete the selected files"
 msgstr ""
 
-#: part/part.cpp:394
+#: part/part.cpp:429
 msgid "Extract To..."
 msgstr "येथे बाहेर काढा..."
 
-#: part/part.cpp:401
+#: part/part.cpp:443
 msgid "Quick Extract To..."
 msgstr "येथे जलद बाहेर काढा..."
 
-#: part/part.cpp:470
+#: part/part.cpp:512
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> is a directory."
 msgstr ""
 
-#: part/part.cpp:477
+#: part/part.cpp:519
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -993,27 +1018,27 @@ msgid ""
 "it instead?"
 msgstr ""
 
-#: part/part.cpp:477
+#: part/part.cpp:519
 msgctxt "@title:window"
 msgid "File Exists"
 msgstr "फाईल अस्तित्वात आहे"
 
-#: part/part.cpp:477
+#: part/part.cpp:519
 msgid "Open File"
 msgstr "फाईल उघडा"
 
-#: part/part.cpp:485
+#: part/part.cpp:527
 #, kde-format
 msgctxt "@info"
 msgid "The archive <filename>%1</filename> was not found."
 msgstr ""
 
-#: part/part.cpp:485 part/part.cpp:504 part/part.cpp:511 part/part.cpp:581
+#: part/part.cpp:527 part/part.cpp:546 part/part.cpp:553 part/part.cpp:623
 msgctxt "@title:window"
 msgid "Error Opening Archive"
 msgstr ""
 
-#: part/part.cpp:490
+#: part/part.cpp:532
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1021,7 +1046,7 @@ msgid ""
 "possible to read from it."
 msgstr ""
 
-#: part/part.cpp:501
+#: part/part.cpp:543
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1029,7 +1054,7 @@ msgid ""
 "<nl/><nl/>Ark does not seem to support this file type."
 msgstr ""
 
-#: part/part.cpp:508
+#: part/part.cpp:550
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1038,20 +1063,20 @@ msgid ""
 "are installed."
 msgstr ""
 
-#: part/part.cpp:562
+#: part/part.cpp:604
 #, fuzzy
 #| msgid "Extraction Dialog"
 msgid "Extraction settings"
 msgstr "बाहेर काढण्याचा संवाद"
 
-#: part/part.cpp:563
+#: part/part.cpp:605
 #, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Preview as Text"
 msgid "Preview settings"
 msgstr "पाठ्याप्रमाणे पूर्वावलोकन करा"
 
-#: part/part.cpp:578
+#: part/part.cpp:620
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1059,58 +1084,58 @@ msgid ""
 "<nl/><nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:622
+#: part/part.cpp:664
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr ""
 
-#: part/part.cpp:628
+#: part/part.cpp:670
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr ""
 
-#: part/part.cpp:673
+#: part/part.cpp:715
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:785
+#: part/part.cpp:827
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr ""
 
-#: part/part.cpp:787
+#: part/part.cpp:829
 msgid "File modified"
 msgstr ""
 
-#: part/part.cpp:1046
+#: part/part.cpp:1097
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr ""
 
-#: part/part.cpp:1053
+#: part/part.cpp:1104
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "संचयीका जोडा"
 
-#: part/part.cpp:1078
+#: part/part.cpp:1129
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:1079
+#: part/part.cpp:1130
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "फाईल्स काढून टाका"
 
-#: part/part.cpp:1111
+#: part/part.cpp:1162
 #, fuzzy
 #| msgid "Source archive"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "स्रोत संग्रह"
 
-#: part/part.cpp:1118
+#: part/part.cpp:1169
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1118,7 +1143,7 @@ msgid ""
 "want to overwrite it?"
 msgstr ""
 
-#: part/part.cpp:1132
+#: part/part.cpp:1183
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1126,7 +1151,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr ""
 
-#: part/part.cpp:1146
+#: part/part.cpp:1197
 #, kde-format
 msgctxt "@info"
 msgid ""
