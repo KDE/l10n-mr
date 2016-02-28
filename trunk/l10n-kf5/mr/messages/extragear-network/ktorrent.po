@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-22 08:24+0000\n"
+"POT-Creation-Date: 2016-02-28 07:15+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -212,7 +212,7 @@ msgstr ""
 msgid "Show a file list"
 msgstr ""
 
-#: ktorrent/dialogs/fileselectdlg.cpp:106 plugins/infowidget/fileview.cpp:74
+#: ktorrent/dialogs/fileselectdlg.cpp:106 plugins/infowidget/fileview.cpp:75
 msgid "Filter"
 msgstr "गाळणी"
 
@@ -565,7 +565,7 @@ msgid "Do not download the missing files."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, m_dnd)
-#: ktorrent/dialogs/missingfilesdlg.ui:47 plugins/infowidget/fileview.cpp:125
+#: ktorrent/dialogs/missingfilesdlg.ui:47
 msgid "Do Not Download"
 msgstr ""
 
@@ -3259,8 +3259,8 @@ msgstr ""
 msgid "Remove Torrent"
 msgstr ""
 
-#: ktorrent/view/view.cpp:602 plugins/infowidget/fileview.cpp:354
-#: plugins/infowidget/fileview.cpp:380
+#: ktorrent/view/view.cpp:602 plugins/infowidget/fileview.cpp:357
+#: plugins/infowidget/fileview.cpp:383
 msgid "Select a directory to move the data to."
 msgstr ""
 
@@ -4237,66 +4237,80 @@ msgstr "डावाः"
 msgid "Size:"
 msgstr "आकार :"
 
-#: plugins/infowidget/fileview.cpp:117
+#: plugins/infowidget/fileview.cpp:116
 msgctxt "Open file"
 msgid "Open"
 msgstr "उघडा"
 
-#: plugins/infowidget/fileview.cpp:118
+#: plugins/infowidget/fileview.cpp:117
 msgctxt "Open file with"
 msgid "Open With"
 msgstr "यामध्ये उघडा"
 
-#: plugins/infowidget/fileview.cpp:119
+#: plugins/infowidget/fileview.cpp:118
 msgid "Check File"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:121
+#: plugins/infowidget/fileview.cpp:120
 msgid "Download first"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:122
+#: plugins/infowidget/fileview.cpp:121
 msgid "Download normally"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:123
+#: plugins/infowidget/fileview.cpp:122
 msgid "Download last"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:126
+#: plugins/infowidget/fileview.cpp:124
+#, fuzzy
+#| msgid "Downloads"
+msgid "Do not download"
+msgstr "डाउनलोड"
+
+#: plugins/infowidget/fileview.cpp:125
 msgid "Delete File(s)"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:128
+#: plugins/infowidget/fileview.cpp:127
 msgid "Move File"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:130
+#: plugins/infowidget/fileview.cpp:129
 msgid "Collapse Folder Tree"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:131
+#: plugins/infowidget/fileview.cpp:130
 msgid "Expand Folder Tree"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:134
+#: plugins/infowidget/fileview.cpp:133
 msgid "File Tree"
 msgstr "फाईल वृक्ष"
 
-#: plugins/infowidget/fileview.cpp:136
+#: plugins/infowidget/fileview.cpp:135
 msgid "File List"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:146
+#: plugins/infowidget/fileview.cpp:145
 msgid "Show Filter"
 msgstr ""
 
-#: plugins/infowidget/fileview.cpp:335
+#: plugins/infowidget/fileview.cpp:338
 msgid "You will lose all data in this file, are you sure you want to do this?"
 msgid_plural ""
 "You will lose all data in these files, are you sure you want to do this?"
 msgstr[0] ""
 msgstr[1] ""
+
+#: plugins/infowidget/fileview.cpp:477
+msgid ""
+"Not enough data downloaded for opening the file.\n"
+"\n"
+"Enable sequential download mode for it to obtain necessary data with a "
+"higher priority?"
+msgstr ""
 
 #: plugins/infowidget/infowidgetplugin.cpp:71
 #: plugins/infowidget/iwprefpage.cpp:27
