@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-29 08:56+0000\n"
+"POT-Creation-Date: 2016-03-01 08:37+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -404,8 +404,8 @@ msgstr ""
 #: src/ui/clipdurationdialog_ui.ui:14 src/ui/clipdurationdialog_ui.ui:40
 #: src/ui/clipproperties_ui.ui:58 src/ui/colorclip_ui.ui:37
 #: src/ui/qtextclip_ui.ui:223 src/ui/titlewidget_ui.ui:747
-#: src/utils/freesound.cpp:157 src/utils/freesound.cpp:196
-#: src/utils/freesound.cpp:197 src/utils/freesound.cpp:198
+#: src/utils/freesound.cpp:171 src/utils/freesound.cpp:212
+#: src/utils/freesound.cpp:213
 msgid "Duration"
 msgstr "कालावधी"
 
@@ -3861,7 +3861,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, MarkerDialog_UI)
 #: src/bin/bin.cpp:2739 src/definitions.cpp:148 src/definitions.cpp:165
-#: src/doc/docclipbase.cpp:370 src/mainwindow.cpp:1932
+#: src/doc/docclipbase.cpp:370 src/mainwindow.cpp:1931
 #: src/mltcontroller/clippropertiescontroller.cpp:839
 #: src/ui/markerdialog_ui.ui:14
 msgid "Marker"
@@ -3955,11 +3955,11 @@ msgid "Edit clip"
 msgstr ""
 
 #: src/bin/generators/generators.cpp:157 src/mainwindow.cpp:1176
-#: src/mainwindow.cpp:3333
+#: src/mainwindow.cpp:3338
 msgid "Save clip"
 msgstr ""
 
-#: src/bin/generators/generators.cpp:157 src/mainwindow.cpp:3333
+#: src/bin/generators/generators.cpp:157 src/mainwindow.cpp:3338
 #: src/renderer.cpp:600 src/timeline/customtrackview.cpp:7995
 msgid "MLT playlist (*.mlt)"
 msgstr ""
@@ -4049,7 +4049,7 @@ msgstr "वर्णन"
 #: src/bin/projectitemmodel.cpp:178 src/dialogs/profilesdialog.cpp:630
 #: src/doc/documentchecker.cpp:229 src/dvdwizard/dvdwizardvob.cpp:319
 #: src/dvdwizard/dvdwizardvob.cpp:771 src/mltcontroller/clipcontroller.cpp:287
-#: src/utils/resourcewidget.cpp:483
+#: src/utils/resourcewidget.cpp:637
 #, fuzzy
 msgid "Unknown"
 msgstr "अपरिचीत"
@@ -4091,12 +4091,12 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/dialogs/clipcreationdialog.cpp:531 src/dvdwizard/dvdwizardvob.cpp:247
-#: src/effectstack/collapsibleeffect.cpp:206 src/mainwindow.cpp:2923
+#: src/effectstack/collapsibleeffect.cpp:206 src/mainwindow.cpp:2922
 msgid "All Supported Files"
 msgstr "सर्व समर्थीत फाईल्स"
 
 #: src/dialogs/clipcreationdialog.cpp:531 src/dvdwizard/dvdwizardvob.cpp:247
-#: src/effectstack/collapsibleeffect.cpp:206 src/mainwindow.cpp:2923
+#: src/effectstack/collapsibleeffect.cpp:206 src/mainwindow.cpp:2922
 msgid "All Files"
 msgstr "सर्व फाईल्स"
 
@@ -4161,7 +4161,7 @@ msgstr ""
 
 #. i18n: ectx: Menu (timeline)
 #: src/dialogs/kdenlivesettingsdialog.cpp:84 src/kdenliveui.rc:96
-#: src/mainwindow.cpp:2876
+#: src/mainwindow.cpp:2875
 msgid "Timeline"
 msgstr ""
 
@@ -4356,7 +4356,7 @@ msgstr ""
 #: src/dialogs/renderwidget.cpp:2297 src/dialogs/renderwidget.cpp:2320
 #: src/doc/kdenlivedoc.cpp:664 src/doc/kdenlivedoc.cpp:670
 #: src/dvdwizard/dvdwizard.cpp:937 src/dvdwizard/dvdwizard.cpp:943
-#: src/mainwindow.cpp:3145 src/mainwindow.cpp:3150
+#: src/mainwindow.cpp:3150 src/mainwindow.cpp:3155
 #: src/project/dialogs/archivewidget.cpp:797
 #: src/project/dialogs/archivewidget.cpp:803 src/titler/titlewidget.cpp:1779
 #, kde-format
@@ -5181,7 +5181,8 @@ msgstr[1] ""
 msgid "Switch"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1595
+#. i18n: ectx: property (text), widget (QPushButton, CancelButton)
+#: src/doc/kdenlivedoc.cpp:1595 src/ui/logindialog_ui.ui:29
 #, fuzzy
 #| msgid "Balance"
 msgid "Cancel"
@@ -6066,13 +6067,13 @@ msgid "Project"
 msgstr "परियोजना : %1"
 
 #. i18n: ectx: Menu (extract_audio)
-#: src/kdenliveui.rc:29 src/mainwindow.cpp:2843
+#: src/kdenliveui.rc:29 src/mainwindow.cpp:2842
 #, fuzzy
 msgid "Extract Audio"
 msgstr "मॉनिटर %1"
 
 #. i18n: ectx: Menu (clip_actions)
-#: src/kdenliveui.rc:32 src/mainwindow.cpp:2790
+#: src/kdenliveui.rc:32 src/mainwindow.cpp:2789
 msgid "Clip Jobs"
 msgstr ""
 
@@ -6321,125 +6322,125 @@ msgstr ""
 msgid "Cannot write to Library path: %1, using default"
 msgstr ""
 
-#: src/main.cpp:51
+#: src/main.cpp:55
 msgid "Kdenlive"
 msgstr ""
 
-#: src/main.cpp:52
+#: src/main.cpp:56
 msgid "An open source video editor."
 msgstr ""
 
-#: src/main.cpp:54
+#: src/main.cpp:58
 msgid "Copyright © 2007–2016 Kdenlive authors"
 msgstr ""
 
-#: src/main.cpp:55
+#: src/main.cpp:59
 msgid "Please report bugs to http://bugs.kde.org"
 msgstr ""
 
-#: src/main.cpp:57
+#: src/main.cpp:61
 msgid "Jean-Baptiste Mardelle"
 msgstr ""
 
-#: src/main.cpp:57
+#: src/main.cpp:61
 msgid "MLT and KDE SC 4 / KF5 port, main developer and maintainer"
 msgstr ""
 
-#: src/main.cpp:58
+#: src/main.cpp:62
 msgid "Vincent Pinon"
 msgstr ""
 
-#: src/main.cpp:58
+#: src/main.cpp:62
 msgid ""
 "Interim maintainer, KF5 port, bugs fixing, minor functions, profiles "
 "updates, etc."
 msgstr ""
 
-#: src/main.cpp:59
+#: src/main.cpp:63
 msgid "Laurent Montel"
 msgstr ""
 
-#: src/main.cpp:59
+#: src/main.cpp:63
 msgid "Bugs fixing, clean up code, optimization etc."
 msgstr ""
 
-#: src/main.cpp:60
+#: src/main.cpp:64
 msgid "Marco Gittler"
 msgstr ""
 
-#: src/main.cpp:60
+#: src/main.cpp:64
 msgid "MLT transitions and effects, timeline, audio thumbs"
 msgstr ""
 
-#: src/main.cpp:61
+#: src/main.cpp:65
 msgid "Dan Dennedy"
 msgstr ""
 
-#: src/main.cpp:61 src/main.cpp:63 src/main.cpp:66 src/main.cpp:67
+#: src/main.cpp:65 src/main.cpp:67 src/main.cpp:70 src/main.cpp:71
 msgid "Bug fixing, etc."
 msgstr ""
 
-#: src/main.cpp:62
+#: src/main.cpp:66
 msgid "Simon A. Eugster"
 msgstr ""
 
-#: src/main.cpp:62
+#: src/main.cpp:66
 msgid "Color scopes, bug fixing, etc."
 msgstr ""
 
-#: src/main.cpp:63
+#: src/main.cpp:67
 msgid "Till Theato"
 msgstr ""
 
-#: src/main.cpp:64
+#: src/main.cpp:68
 msgid "Alberto Villa"
 msgstr ""
 
-#: src/main.cpp:64
+#: src/main.cpp:68
 msgid "Bug fixing, logo, etc."
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:69
 msgid "Jean-Michel Poure"
 msgstr ""
 
-#: src/main.cpp:65
+#: src/main.cpp:69
 msgid "Rendering profiles customization"
 msgstr ""
 
-#: src/main.cpp:66
+#: src/main.cpp:70
 msgid "Ray Lehtiniemi"
 msgstr ""
 
-#: src/main.cpp:67
+#: src/main.cpp:71
 msgid "Steve Guilford"
 msgstr ""
 
-#: src/main.cpp:68
+#: src/main.cpp:72
 msgid "Jason Wood"
 msgstr ""
 
-#: src/main.cpp:68
+#: src/main.cpp:72
 msgid "Original KDE 3 version author (not active anymore)"
 msgstr ""
 
-#: src/main.cpp:69
+#: src/main.cpp:73
 msgid "NAME OF TRANSLATORS"
 msgstr ""
 
-#: src/main.cpp:69
+#: src/main.cpp:73
 msgid "EMAIL OF TRANSLATORS"
 msgstr ""
 
-#: src/main.cpp:89
+#: src/main.cpp:93
 msgid "Set the path for MLT environment"
 msgstr ""
 
-#: src/main.cpp:90
+#: src/main.cpp:94
 msgid "Comma separated list of clips to add"
 msgstr ""
 
-#: src/main.cpp:91
+#: src/main.cpp:95
 msgid "Document to open"
 msgstr "उघडण्याचा दस्तऐवज"
 
@@ -6827,7 +6828,7 @@ msgstr ""
 msgid "Cut Clip"
 msgstr ""
 
-#: src/mainwindow.cpp:1190 src/mainwindow.cpp:1934
+#: src/mainwindow.cpp:1190 src/mainwindow.cpp:1933
 #: src/mltcontroller/clippropertiescontroller.cpp:841
 msgid "Add Marker"
 msgstr ""
@@ -6840,7 +6841,7 @@ msgstr ""
 msgid "Delete All Markers"
 msgstr ""
 
-#: src/mainwindow.cpp:1194 src/mainwindow.cpp:2025
+#: src/mainwindow.cpp:1194 src/mainwindow.cpp:2024
 #: src/mltcontroller/clippropertiescontroller.cpp:814
 msgid "Edit Marker"
 msgstr ""
@@ -7003,102 +7004,102 @@ msgstr ""
 msgid "Clean up project"
 msgstr ""
 
-#: src/mainwindow.cpp:1747
+#: src/mainwindow.cpp:1746
 #, fuzzy
 msgctxt "general keyboard shortcuts"
 msgid "General"
 msgstr "सामान्य"
 
-#: src/mainwindow.cpp:1928 src/mainwindow.cpp:2049
+#: src/mainwindow.cpp:1927 src/mainwindow.cpp:2048
 msgid "Cannot find clip to add marker"
 msgstr ""
 
-#: src/mainwindow.cpp:1960 src/mainwindow.cpp:1990 src/mainwindow.cpp:2013
+#: src/mainwindow.cpp:1959 src/mainwindow.cpp:1989 src/mainwindow.cpp:2012
 msgid "Cannot find clip to remove marker"
 msgstr ""
 
-#: src/mainwindow.cpp:1970 src/mainwindow.cpp:2020
+#: src/mainwindow.cpp:1969 src/mainwindow.cpp:2019
 msgid "No marker found at cursor time"
 msgstr ""
 
-#: src/mainwindow.cpp:2298
+#: src/mainwindow.cpp:2297
 #, kde-format
 msgid "Cannot find effect %1 / %2"
 msgstr ""
 
-#: src/mainwindow.cpp:2356
+#: src/mainwindow.cpp:2355
 #, kde-format
 msgid "Zoom Level: %1/13"
 msgstr ""
 
-#: src/mainwindow.cpp:2473
+#: src/mainwindow.cpp:2472
 msgid "Ctrl + click to use spacer on current track only"
 msgstr ""
 
-#: src/mainwindow.cpp:2476
+#: src/mainwindow.cpp:2475
 msgid "Click on a clip to cut it, Shift + move to preview cut frame"
 msgstr ""
 
-#: src/mainwindow.cpp:2479
+#: src/mainwindow.cpp:2478
 msgid ""
 "Shift + click to create a selection rectangle, Ctrl + click to add an item "
 "to selection"
 msgstr ""
 
-#: src/mainwindow.cpp:2798
+#: src/mainwindow.cpp:2797
 msgid "Stabilize"
 msgstr ""
 
-#: src/mainwindow.cpp:2810
+#: src/mainwindow.cpp:2809
 msgid "Automatic scene split"
 msgstr ""
 
-#: src/mainwindow.cpp:2820 src/project/jobs/filterjob.cpp:83
+#: src/mainwindow.cpp:2819 src/project/jobs/filterjob.cpp:83
 #, fuzzy
 #| msgid "Reverse"
 msgid "Reverse clip"
 msgstr "मागे"
 
-#: src/mainwindow.cpp:2827
+#: src/mainwindow.cpp:2826
 msgid "Analyse keyframes"
 msgstr ""
 
-#: src/mainwindow.cpp:2842
+#: src/mainwindow.cpp:2841
 msgid "Transcoders"
 msgstr ""
 
-#: src/mainwindow.cpp:2875
+#: src/mainwindow.cpp:2874
 msgid "Interface"
 msgstr "दुवा"
 
-#: src/mainwindow.cpp:2912
+#: src/mainwindow.cpp:2911
 msgid "No clip to transcode"
 msgstr ""
 
-#: src/mainwindow.cpp:2925
+#: src/mainwindow.cpp:2924
 msgid "Files to transcode"
 msgstr ""
 
-#: src/mainwindow.cpp:2957
+#: src/mainwindow.cpp:2962
 msgid "Create Render Script"
 msgstr ""
 
-#: src/mainwindow.cpp:2967
+#: src/mainwindow.cpp:2972
 msgid "Script file already exists. Do you want to overwrite it?"
 msgstr ""
 
-#: src/mainwindow.cpp:3013
+#: src/mainwindow.cpp:3018
 #, fuzzy
 msgctxt "the first in a list of chapters"
 msgid "Start"
 msgstr "सुरु करा"
 
-#: src/mainwindow.cpp:3301
+#: src/mainwindow.cpp:3306
 #, fuzzy
 msgid "Archiving project"
 msgstr "संग्रह करत आहे"
 
-#: src/mainwindow.cpp:3330
+#: src/mainwindow.cpp:3335
 msgid "Select a clip to save"
 msgstr ""
 
@@ -7319,23 +7320,23 @@ msgstr ""
 msgid "Cannot import playlists with different profile."
 msgstr ""
 
-#: src/mltcontroller/producerqueue.cpp:872
+#: src/mltcontroller/producerqueue.cpp:874
 msgid "Import selected clips"
 msgstr ""
 
-#: src/mltcontroller/producerqueue.cpp:874
+#: src/mltcontroller/producerqueue.cpp:876
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
 " %1"
 msgstr ""
 
-#: src/mltcontroller/producerqueue.cpp:883
+#: src/mltcontroller/producerqueue.cpp:885
 #, kde-format
 msgid "Video stream %1"
 msgstr ""
 
-#: src/mltcontroller/producerqueue.cpp:898
+#: src/mltcontroller/producerqueue.cpp:900
 #, kde-format
 msgid "Audio stream %1"
 msgstr ""
@@ -7561,9 +7562,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button_preview)
 #: src/monitor/recmanager.cpp:48 src/ui/dvdwizardstatus_ui.ui:147
-#: src/ui/freesound_ui.ui:144 src/utils/archiveorg.cpp:181
-#: src/utils/resourcewidget.cpp:158 src/utils/resourcewidget.cpp:263
-#: src/utils/resourcewidget.cpp:277 src/utils/resourcewidget.cpp:575
+#: src/ui/freesound_ui.ui:144 src/utils/resourcewidget.cpp:184
+#: src/utils/resourcewidget.cpp:332 src/utils/resourcewidget.cpp:346
+#: src/utils/resourcewidget.cpp:735
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
@@ -7626,8 +7627,8 @@ msgstr ""
 msgid "Connect"
 msgstr "जोडा"
 
-#: src/monitor/recmonitor.cpp:82 src/utils/resourcewidget.cpp:249
-#: src/utils/resourcewidget.cpp:262 src/utils/resourcewidget.cpp:271
+#: src/monitor/recmonitor.cpp:82 src/utils/resourcewidget.cpp:309
+#: src/utils/resourcewidget.cpp:331 src/utils/resourcewidget.cpp:340
 msgid "Stop"
 msgstr "थांबा"
 
@@ -8064,7 +8065,7 @@ msgid "Title"
 msgstr "शिर्षक"
 
 #: src/project/dialogs/projectsettings.cpp:131
-#: src/utils/resourcewidget.cpp:189
+#: src/utils/resourcewidget.cpp:217
 msgid "Author"
 msgstr "लेखक"
 
@@ -8424,14 +8425,25 @@ msgid "Archived project (*.tar.gz)"
 msgstr "संग्रह करत आहे"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, scanning_list)
-#: src/project/transitionsettings.cpp:147 src/ui/renderwidget_ui.ui:505
+#: src/project/transitionsettings.cpp:152 src/ui/renderwidget_ui.ui:505
 msgid "Auto"
 msgstr "स्वयंचलित"
 
-#: src/project/transitionsettings.cpp:158
+#: src/project/transitionsettings.cpp:163
 #: src/scopes/colorscopes/vectorscope.cpp:54
 msgid "Black"
 msgstr "काळा"
+
+#: src/qt-oauth-lib/logindialog.cpp:48
+msgid "Freesound Login"
+msgstr ""
+
+#: src/qt-oauth-lib/logindialog.cpp:49
+msgid ""
+"Enter your freesound account details to download the highest quality version "
+"of this file. Or use the High Quality preview file instead (no freesound "
+"account required)."
+msgstr ""
 
 #: src/renderer.cpp:400
 msgid ""
@@ -10320,7 +10332,7 @@ msgid "Size:"
 msgstr "आकार :"
 
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize)
-#: src/ui/clipproperties_ui.ui:65 src/utils/freesound.cpp:212
+#: src/ui/clipproperties_ui.ui:65 src/utils/freesound.cpp:227
 #, fuzzy
 msgid "File size"
 msgstr "फाईलचा आकार"
@@ -10650,7 +10662,7 @@ msgid "dvgrab additional parameters"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: src/ui/configcapture_ui.ui:187 src/utils/freesound.cpp:207
+#: src/ui/configcapture_ui.ui:187 src/utils/freesound.cpp:222
 #, fuzzy
 msgid "Channels"
 msgstr "माध्यमे"
@@ -11420,7 +11432,7 @@ msgid ">>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button_import)
-#: src/ui/freesound_ui.ui:137 src/utils/archiveorg.cpp:181
+#: src/ui/freesound_ui.ui:137 src/utils/archiveorg.cpp:259
 #, fuzzy
 msgid "Import"
 msgstr "आयात"
@@ -11557,6 +11569,31 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/ui/keywordval_ui.ui:23 src/ui/urlval_ui.ui:26
 msgid "Param"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LoginDialog)
+#: src/ui/logindialog_ui.ui:14
+#, fuzzy
+#| msgid "Dialog"
+msgid "Login Dialog"
+msgstr "संवाद"
+
+#. i18n: ectx: property (url), widget (QWebView, webView)
+#: src/ui/logindialog_ui.ui:21
+msgid "about:blank"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, GetHQpreview)
+#: src/ui/logindialog_ui.ui:36
+msgid "Get HQ Preview File Instead"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, FreeSoundLoginLabel)
+#: src/ui/logindialog_ui.ui:43
+msgid ""
+"<html><head/><body><p>Enter your freesound account details to download the "
+"highest quality version of this file. Or use the High Quality preview file "
+"instead (no freesound account required).</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ManageCaptures_UI)
@@ -12369,66 +12406,121 @@ msgstr ""
 msgid "Show All"
 msgstr ""
 
-#: src/utils/archiveorg.cpp:78 src/utils/freesound.cpp:86
-#: src/utils/freesound.cpp:184 src/utils/resourcewidget.cpp:362
+#: src/utils/archiveorg.cpp:96 src/utils/freesound.cpp:99
+#: src/utils/freesound.cpp:199 src/utils/resourcewidget.cpp:501
 #, fuzzy
 msgid "Error Loading Data"
 msgstr "फाईल उघडतेवेळी त्रुटी"
 
-#: src/utils/archiveorg.cpp:91 src/utils/freesound.cpp:95
+#: src/utils/archiveorg.cpp:109 src/utils/freesound.cpp:109
 #, kde-format
 msgid "Found %1 result"
 msgid_plural "Found %1 results"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/utils/freesound.cpp:203
+#: src/utils/archiveorg.cpp:202
+#, fuzzy
+msgid "Error Loading Extra Data"
+msgstr "फाईल उघडतेवेळी त्रुटी"
+
+#: src/utils/freesound.cpp:211
+#, fuzzy
+#| msgid "Duration: "
+msgid "Duration (s)"
+msgstr "कालावधी : "
+
+#: src/utils/freesound.cpp:218
 msgid "Samplerate"
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:67
+#: src/utils/resourcewidget.cpp:72
 msgid "Freesound Audio Library"
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:68
+#: src/utils/resourcewidget.cpp:73
 msgid "Archive.org Video Library"
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:69
+#: src/utils/resourcewidget.cpp:74
 msgid "Open Clip Art Graphic Library"
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:70
+#: src/utils/resourcewidget.cpp:75
 msgid "Search Online Resources"
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:92
+#: src/utils/resourcewidget.cpp:99
 msgid "Auto Play"
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:182
+#: src/utils/resourcewidget.cpp:210
 msgctxt "the url link pointing to a web page"
 msgid "link"
 msgstr "लिंक"
 
-#: src/utils/resourcewidget.cpp:327
+#: src/utils/resourcewidget.cpp:460 src/utils/resourcewidget.cpp:817
 #, fuzzy
 msgid "File Exists"
 msgstr "फाईल विस्तारण"
 
-#: src/utils/resourcewidget.cpp:328
-msgid "Do you want to overwrite the existing file?"
+#: src/utils/resourcewidget.cpp:461
+msgid ""
+"HQ preview files are all mp3 files. We have added .mp3 as a file extension "
+"to the destination file name you chose. However, there is an existing file "
+"of this name present. \n"
+" Do you want to overwrite the existing file?. "
 msgstr ""
 
-#: src/utils/resourcewidget.cpp:371
+#: src/utils/resourcewidget.cpp:511 src/utils/resourcewidget.cpp:864
+msgid "Resource saved to "
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:511 src/utils/resourcewidget.cpp:864
 #, fuzzy
 msgid "Data Imported"
 msgstr "आयात"
 
-#: src/utils/resourcewidget.cpp:437
+#: src/utils/resourcewidget.cpp:587
 msgid ""
 "You need to be online\n"
 " for searching"
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:746
+msgid ""
+"Access Denied from Freesound.  Have you authorised the Kdenlive application "
+"on your freesound account?"
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:771
+msgid "Starting File Download"
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:782
+msgid "Error Getting Access Token from Freesound."
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:783 src/utils/resourcewidget.cpp:898
+msgid "Try importing again to obtain a new freesound connection"
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:818
+msgid "Do you want to overwrite the existing file?."
+msgstr ""
+
+#: src/utils/resourcewidget.cpp:867
+#, fuzzy
+msgid "Saved file to"
+msgstr "निवड साधन (&S)"
+
+#: src/utils/resourcewidget.cpp:876
+#, fuzzy
+msgid "Error Saving File"
+msgstr "फाईल उघडतेवेळी त्रुटी"
+
+#: src/utils/resourcewidget.cpp:897
+msgid "Error Downloading File. Error code: "
 msgstr ""
 
 #: src/utils/thememanager.cpp:70
