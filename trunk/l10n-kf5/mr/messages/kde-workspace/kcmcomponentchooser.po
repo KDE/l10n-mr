@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-25 08:04+0000\n"
+"POT-Creation-Date: 2016-03-09 07:28+0000\n"
 "PO-Revision-Date: 2013-02-25 14:04+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -55,21 +55,21 @@ msgstr "खालील ब्राऊजर अंतर्गत:"
 msgid "..."
 msgstr "..."
 
-#: componentchooser.cpp:138
+#: componentchooser.cpp:134
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: componentchooser.cpp:154
+#: componentchooser.cpp:150
 msgid ""
 "<qt>You changed the default component of your choice, do want to save that "
 "change now ?</qt>"
 msgstr "<qt> तुम्ही पसंतीचे मूलभूत घटक बदलविले आहे, बदल आता साठवायला आवडेल का?</qt>"
 
-#: componentchooser.cpp:158
+#: componentchooser.cpp:154
 msgid "No description available"
 msgstr "वर्णन उपलब्ध नाही"
 
-#: componentchooser.cpp:169 componentchooser.cpp:174
+#: componentchooser.cpp:165 componentchooser.cpp:170
 #, kde-format
 msgid ""
 "Choose from the list below which component should be used by default for the "
@@ -131,78 +131,6 @@ msgstr "सूचविलेला इमेल ग्राहक निवड
 #: componentchooserterminal.cpp:103
 msgid "Select preferred terminal application:"
 msgstr "सूचविलेले टर्मिनल अनुप्रयोग निवडा:"
-
-#: componentchooserwm.cpp:91
-#, fuzzy
-#| msgid ""
-#| "The new window manager will be used when KDE is started the next time."
-msgid ""
-"The new window manager will be used when Plasma is started the next time."
-msgstr "केडीई पुढच्यावेळी सुरु केल्यावर नवीन चौकट व्यवस्थापकाचा वापर केला जाईल."
-
-#: componentchooserwm.cpp:92 componentchooserwm.cpp:145
-msgid "Window Manager Change"
-msgstr "चौकट व्यवस्थापक बदल"
-
-#: componentchooserwm.cpp:105
-msgid ""
-"A new window manager is running.\n"
-"It is still recommended to restart this KDE session to make sure all running "
-"applications adjust for this change."
-msgstr ""
-"नवीन चौकट व्यवस्थापक सुरु आहे.\n"
-"तरीही असे सुचवण्यात येते कि केडीई सत्र पुन्हा चालू करण्यापूर्वी सर्व चालू अप्लिकेशन्स या "
-"बदलाशी जुळवून घेतील."
-
-#: componentchooserwm.cpp:108
-msgid "Window Manager Replaced"
-msgstr "चौकट व्यवस्थापक बदलविले"
-
-#: componentchooserwm.cpp:144
-msgid ""
-"Your running window manager will be now replaced with the configured one."
-msgstr "कार्यरत चौकट व्यवस्थापक आता संयोजीत व्यवस्थापाशी बदलविले जाईल."
-
-#: componentchooserwm.cpp:153
-msgid "Config Window Manager Change"
-msgstr "संयोजना चौकट व्यवस्थापक बदल"
-
-#: componentchooserwm.cpp:155
-msgid "&Accept Change"
-msgstr "बदल स्वीकारा (&A)"
-
-#: componentchooserwm.cpp:156
-msgid "&Revert to Previous"
-msgstr "पूर्वीचे स्वीकारा (&R)"
-
-#: componentchooserwm.cpp:158
-msgid ""
-"The configured window manager is being launched.\n"
-"Please check it has started properly and confirm the change.\n"
-"The launch will be automatically reverted in 20 seconds."
-msgstr ""
-"कॉनफिगर चौकट व्यवस्थापक सुरु करण्यात आला आहे.\n"
-"कृपया तपासा नीट सुरु झाला आहे कि नाही व बदला ची पुष्टी करा.\n"
-"२० सेकंदात आपोआप प्रारंभ होऊन प्रतिसाद देईल."
-
-#: componentchooserwm.cpp:173
-msgid ""
-"The running window manager has been reverted to the default KDE window "
-"manager KWin."
-msgstr "चालू चौकट व्यवस्थापक मूलभूत केडीई चौकट व्यवस्थापक के-विन मध्ये परिवर्तित झाला आहे. "
-
-#: componentchooserwm.cpp:180
-msgid ""
-"The new window manager has failed to start.\n"
-"The running window manager has been reverted to the default KDE window "
-"manager KWin."
-msgstr ""
-"नवीन चौकट चालू होऊ शकत नाही.\n"
-"चालू चौकट मूलभूत केडीई चौकट व्यवस्थापक के-विन मध्ये परिवर्तित झाली आहे."
-
-#: componentchooserwm.cpp:302
-msgid "Running the configuration tool failed"
-msgstr "संयोजना साधनला चालविणे अपयशी ठरले"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
@@ -331,29 +259,82 @@ msgstr ""
 msgid "Click here to browse for terminal program."
 msgstr "टर्मिनल कार्यक्रमा करिता येथे संचारण करा."
 
-#. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
-#: wmconfig_ui.ui:12
-msgid "&Use the default KDE window manager (KWin)"
-msgstr "मूलभूत केडीई चौकट व्यवस्थापकाचा वापर करा (के-विन) (&U)"
+#, fuzzy
+#~| msgid ""
+#~| "The new window manager will be used when KDE is started the next time."
+#~ msgid ""
+#~ "The new window manager will be used when Plasma is started the next time."
+#~ msgstr "केडीई पुढच्यावेळी सुरु केल्यावर नवीन चौकट व्यवस्थापकाचा वापर केला जाईल."
 
-#. i18n: ectx: property (text), widget (QRadioButton, differentRB)
-#: wmconfig_ui.ui:19
-msgid "Use a different &window manager:"
-msgstr "वेगळ्या चौकट व्यवस्थापकाचा वापर करा (&W):"
+#~ msgid "Window Manager Change"
+#~ msgstr "चौकट व्यवस्थापक बदल"
 
-#. i18n: ectx: property (text), widget (QPushButton, configureButton)
-#: wmconfig_ui.ui:60
-msgid "Configure"
-msgstr "संयोजीत करा"
+#~ msgid ""
+#~ "A new window manager is running.\n"
+#~ "It is still recommended to restart this KDE session to make sure all "
+#~ "running applications adjust for this change."
+#~ msgstr ""
+#~ "नवीन चौकट व्यवस्थापक सुरु आहे.\n"
+#~ "तरीही असे सुचवण्यात येते कि केडीई सत्र पुन्हा चालू करण्यापूर्वी सर्व चालू अप्लिकेशन्स या "
+#~ "बदलाशी जुळवून घेतील."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: wmconfig_ui.ui:87
-msgid ""
-"Note: Most window managers have their own configuration and do not follow "
-"KDE settings."
-msgstr ""
-"सूचना : बहुतेक सर्व चौकट व्यवस्थापकांकडे त्यांचे स्वतःचे कॉन्फीगरेशन असते व ते केडीई सेटिंगचा "
-"वापर करत नाही."
+#~ msgid "Window Manager Replaced"
+#~ msgstr "चौकट व्यवस्थापक बदलविले"
+
+#~ msgid ""
+#~ "Your running window manager will be now replaced with the configured one."
+#~ msgstr "कार्यरत चौकट व्यवस्थापक आता संयोजीत व्यवस्थापाशी बदलविले जाईल."
+
+#~ msgid "Config Window Manager Change"
+#~ msgstr "संयोजना चौकट व्यवस्थापक बदल"
+
+#~ msgid "&Accept Change"
+#~ msgstr "बदल स्वीकारा (&A)"
+
+#~ msgid "&Revert to Previous"
+#~ msgstr "पूर्वीचे स्वीकारा (&R)"
+
+#~ msgid ""
+#~ "The configured window manager is being launched.\n"
+#~ "Please check it has started properly and confirm the change.\n"
+#~ "The launch will be automatically reverted in 20 seconds."
+#~ msgstr ""
+#~ "कॉनफिगर चौकट व्यवस्थापक सुरु करण्यात आला आहे.\n"
+#~ "कृपया तपासा नीट सुरु झाला आहे कि नाही व बदला ची पुष्टी करा.\n"
+#~ "२० सेकंदात आपोआप प्रारंभ होऊन प्रतिसाद देईल."
+
+#~ msgid ""
+#~ "The running window manager has been reverted to the default KDE window "
+#~ "manager KWin."
+#~ msgstr ""
+#~ "चालू चौकट व्यवस्थापक मूलभूत केडीई चौकट व्यवस्थापक के-विन मध्ये परिवर्तित झाला आहे. "
+
+#~ msgid ""
+#~ "The new window manager has failed to start.\n"
+#~ "The running window manager has been reverted to the default KDE window "
+#~ "manager KWin."
+#~ msgstr ""
+#~ "नवीन चौकट चालू होऊ शकत नाही.\n"
+#~ "चालू चौकट मूलभूत केडीई चौकट व्यवस्थापक के-विन मध्ये परिवर्तित झाली आहे."
+
+#~ msgid "Running the configuration tool failed"
+#~ msgstr "संयोजना साधनला चालविणे अपयशी ठरले"
+
+#~ msgid "&Use the default KDE window manager (KWin)"
+#~ msgstr "मूलभूत केडीई चौकट व्यवस्थापकाचा वापर करा (के-विन) (&U)"
+
+#~ msgid "Use a different &window manager:"
+#~ msgstr "वेगळ्या चौकट व्यवस्थापकाचा वापर करा (&W):"
+
+#~ msgid "Configure"
+#~ msgstr "संयोजीत करा"
+
+#~ msgid ""
+#~ "Note: Most window managers have their own configuration and do not follow "
+#~ "KDE settings."
+#~ msgstr ""
+#~ "सूचना : बहुतेक सर्व चौकट व्यवस्थापकांकडे त्यांचे स्वतःचे कॉन्फीगरेशन असते व ते केडीई सेटिंगचा "
+#~ "वापर करत नाही."
 
 #~ msgid "kcmcomponentchooser"
 #~ msgstr "kcmcomponentchooser"
