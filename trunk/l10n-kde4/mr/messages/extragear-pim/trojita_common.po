@@ -1957,7 +1957,7 @@ msgid ""
 "been disallowed from being set in this way: %1."
 msgstr ""
 
-#: ../src/Gui/TagWidget.cpp:57
+#: ../src/Gui/TagWidget.cpp:58
 msgctxt "Gui::TagWidget|This is a verb!"
 msgid "Tag"
 msgstr ""
@@ -2429,13 +2429,21 @@ msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:852
+#: ../src/Gui/Window.cpp:814
+#, qt-format
+msgctxt "Gui::MainWindow|"
+msgid "Attempting to reconnect in %n seconds.."
+msgid_plural "Attempting to reconnect in %n seconds.."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/Gui/Window.cpp:857
 msgctxt "Gui::MainWindow|"
 msgid "&Quit"
 msgstr ""
 
 #. This is a tooltip for the tray icon. It will be prefixed by something like "Trojita" or "Trojita [work]"
-#: ../src/Gui/Window.cpp:938
+#: ../src/Gui/Window.cpp:943
 #, fuzzy, qt-format
 #| msgctxt "Composer::MessageComposer|"
 #| msgid "IMAP message %1"
@@ -2446,17 +2454,17 @@ msgstr[0] "IMAP संदेश %1"
 msgstr[1] "IMAP संदेश %1"
 
 #. A tooltip suffix when offline. The prefix is something like "Trojita" or "Trojita [work]"
-#: ../src/Gui/Window.cpp:942
+#: ../src/Gui/Window.cpp:947
 msgctxt "Gui::MainWindow|"
 msgid " - offline"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:951 ../src/Gui/Window.cpp:2272
+#: ../src/Gui/Window.cpp:956 ../src/Gui/Window.cpp:2272
 msgctxt "Gui::MainWindow|"
 msgid "Trojitá"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:952
+#: ../src/Gui/Window.cpp:957
 msgctxt "Gui::MainWindow|"
 msgid ""
 "The application will continue in systray. This can be disabled within the "
@@ -2464,27 +2472,27 @@ msgid ""
 msgstr ""
 
 #. "ALERT" is a special warning which we're required to show to the user
-#: ../src/Gui/Window.cpp:1152
+#: ../src/Gui/Window.cpp:1157
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Alert"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1157
+#: ../src/Gui/Window.cpp:1162
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Protocol Error"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1165
+#: ../src/Gui/Window.cpp:1170
 msgctxt "Gui::MainWindow|"
 msgid "Network Error"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1186
+#: ../src/Gui/Window.cpp:1191
 msgctxt "Gui::MainWindow|"
 msgid "IMAP Cache Error"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1187
+#: ../src/Gui/Window.cpp:1192
 #, qt-format
 msgctxt "Gui::MainWindow|"
 msgid ""
@@ -2494,7 +2502,7 @@ msgid ""
 "%1"
 msgstr ""
 
-#: ../src/Gui/Window.cpp:1198
+#: ../src/Gui/Window.cpp:1203
 msgctxt "Gui::MainWindow|"
 msgid "Offline"
 msgstr ""
@@ -3704,31 +3712,31 @@ msgctxt "Imap::Mailbox::ImapTask|"
 msgid "Aborted"
 msgstr ""
 
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:178
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:429
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:493
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:519
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:176
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:427
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:491
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:517
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Asked to die"
 msgstr ""
 
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:266
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:267
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:264
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:265
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Parser is gone"
 msgstr ""
 
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:711
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:712
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "Logging off..."
 msgstr ""
 
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:918
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:919
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "The UIDVALIDITY has changed while mailbox is open. Please reconnect."
 msgstr ""
 
-#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:946
+#: ../src/Imap/Tasks/KeepMailboxOpenTask.cpp:947
 msgctxt "Imap::Mailbox::KeepMailboxOpenTask|"
 msgid "UNSELECTed"
 msgstr ""
@@ -4311,10 +4319,12 @@ msgid "Unsupported or unknown authentication scheme"
 msgstr ""
 
 #: ../src/Streams/IODeviceSocket.cpp:178
-#, qt-format
+#, fuzzy, qt-format
+#| msgctxt "Imap::SslTlsSocket|"
+#| msgid "Connected"
 msgctxt "Streams::ProcessSocket|"
-msgid "The QProcess is having troubles: %1"
-msgstr ""
+msgid "Disconnected: %1"
+msgstr "जुळलेले"
 
 #: ../src/Streams/IODeviceSocket.cpp:192
 msgctxt "Streams::ProcessSocket|"
@@ -4330,14 +4340,14 @@ msgstr ""
 #: ../src/Streams/IODeviceSocket.cpp:202
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
-msgid "The QProcess has exited with return code %1."
+msgid "The process has exited with return code %1."
 msgstr ""
 
 #: ../src/Streams/IODeviceSocket.cpp:205
 #, qt-format
 msgctxt "Streams::ProcessSocket|"
 msgid ""
-"The QProcess has exited with return code %1:\n"
+"The process has exited with return code %1:\n"
 "\n"
 "%2"
 msgstr ""
