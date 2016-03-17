@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-16 01:45+0000\n"
+"POT-Creation-Date: 2016-03-17 01:46+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: actionshandlers/prepmethodactionshandler.cpp:65
 #: actionshandlers/recipeactionshandler.cpp:250
 #: actionshandlers/recipeactionshandler.cpp:261
-#: actionshandlers/unitactionshandler.cpp:133 krecipesview.cpp:705
+#: actionshandlers/unitactionshandler.cpp:133 krecipesview.cpp:708
 msgid "Recipes"
 msgstr ""
 
@@ -196,7 +196,7 @@ msgstr ""
 #: actionshandlers/krerecipeactionshandler.cpp:163
 #: actionshandlers/krerecipeactionshandler.cpp:168
 #: actionshandlers/recipeactionshandler.cpp:229
-#: actionshandlers/recipeactionshandler.cpp:235 krecipesview.cpp:526
+#: actionshandlers/recipeactionshandler.cpp:235 krecipesview.cpp:529
 msgid "Edit Recipe"
 msgstr ""
 
@@ -210,8 +210,8 @@ msgid "No recipes selected."
 msgstr ""
 
 #: actionshandlers/krerecipeactionshandler.cpp:183
-#: actionshandlers/recipeactionshandler.cpp:252 krecipesview.cpp:703
-#: krecipesview.cpp:705
+#: actionshandlers/recipeactionshandler.cpp:252 krecipesview.cpp:706
+#: krecipesview.cpp:708
 msgid "Export Recipe"
 msgstr ""
 
@@ -300,7 +300,7 @@ msgstr ""
 #: actionshandlers/kreunitactionshandler.cpp:146
 #: actionshandlers/unitactionshandler.cpp:139 dialogs/setupdisplay.cpp:126
 #: exporters/htmlexporter.cpp:386 exporters/xsltexporter.cpp:53
-#: krecipesview.cpp:384 krecipesview.cpp:488
+#: krecipesview.cpp:387 krecipesview.cpp:491
 msgid "Properties"
 msgstr "गुणधर्म"
 
@@ -1859,7 +1859,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: dialogs/recipeinput/recipegeneralinfoeditor.ui:147
 #: dialogs/setupdisplay.cpp:123 exporters/htmlexporter.cpp:232
-#: exporters/xsltexporter.cpp:48 krecipesview.cpp:388 krecipesview.cpp:520
+#: exporters/xsltexporter.cpp:48 krecipesview.cpp:391 krecipesview.cpp:523
 #: mockups/advancedsearchdialog.ui:93 mockups/advancedsearchdialog2.ui:256
 #, fuzzy
 msgid "Authors"
@@ -1876,7 +1876,7 @@ msgstr "विभाग"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: dialogs/recipeinput/recipegeneralinfoeditor.ui:184
 #: dialogs/setupdisplay.cpp:124 exporters/htmlexporter.cpp:246
-#: exporters/xsltexporter.cpp:45 krecipesview.cpp:387 krecipesview.cpp:512
+#: exporters/xsltexporter.cpp:45 krecipesview.cpp:390 krecipesview.cpp:515
 #: mockups/advancedsearchdialog.ui:83 mockups/advancedsearchdialog2.ui:246
 msgid "Categories"
 msgstr "विभाग"
@@ -2246,7 +2246,19 @@ msgctxt "@action:button"
 msgid "&New Category..."
 msgstr ""
 
-#: dialogs/recipeviewdialog.cpp:118
+#: dialogs/recipeviewdialog.cpp:74 dialogs/selectrecipedialog.cpp:87
+msgctxt "@action:button"
+msgid "Edit Recipe"
+msgstr ""
+
+#: dialogs/recipeviewdialog.cpp:75
+#, fuzzy
+#| msgid "Categories"
+msgctxt "@info:tooltip"
+msgid "Edit Recipe"
+msgstr "विभाग"
+
+#: dialogs/recipeviewdialog.cpp:127
 msgctxt "@title:window"
 msgid "Loading recipes, please wait..."
 msgstr ""
@@ -2304,11 +2316,6 @@ msgstr ""
 #: dialogs/selectrecipedialog.cpp:83
 msgctxt "@action:button"
 msgid "Show Recipe(s)"
-msgstr ""
-
-#: dialogs/selectrecipedialog.cpp:87
-msgctxt "@action:button"
-msgid "Edit Recipe"
 msgstr ""
 
 #: dialogs/selectrecipedialog.cpp:96
@@ -2403,7 +2410,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, treeWidget)
 #: dialogs/setupdisplay.cpp:125 exporters/htmlexporter.cpp:339
-#: exporters/xsltexporter.cpp:51 krecipesview.cpp:383 krecipesview.cpp:480
+#: exporters/xsltexporter.cpp:51 krecipesview.cpp:386 krecipesview.cpp:483
 #: mockups/advancedsearchdialog.ui:73 mockups/advancedsearchdialog2.ui:236
 msgid "Ingredients"
 msgstr ""
@@ -2496,7 +2503,7 @@ msgid "Shopping List"
 msgstr ""
 
 #: dialogs/shoppinglistviewdialog.cpp:68 dialogs/shoppinglistviewdialog.cpp:70
-#: krecipesview.cpp:382 krecipesview.cpp:455
+#: krecipesview.cpp:385 krecipesview.cpp:458
 msgid "Shopping List"
 msgstr ""
 
@@ -3020,7 +3027,7 @@ msgstr "संपादन (&E)"
 msgid "&Tools"
 msgstr "साधने (&T)"
 
-#: krecipesview.cpp:94 krecipesview.cpp:381 krecipesview.cpp:448
+#: krecipesview.cpp:94 krecipesview.cpp:384 krecipesview.cpp:451
 msgid "Find/Edit Recipes"
 msgstr ""
 
@@ -3029,7 +3036,7 @@ msgstr ""
 msgid "Data..."
 msgstr "डेटा"
 
-#: krecipesview.cpp:340
+#: krecipesview.cpp:343
 msgid ""
 "\n"
 "You are using SQLite; this error is often caused by using an SQLite 2 "
@@ -3038,101 +3045,101 @@ msgid ""
 "What do you want to do?"
 msgstr ""
 
-#: krecipesview.cpp:345
+#: krecipesview.cpp:348
 msgid "Run the setup assistant"
 msgstr ""
 
-#: krecipesview.cpp:346
+#: krecipesview.cpp:349
 msgid "Run the SQLite converter"
 msgstr ""
 
-#: krecipesview.cpp:362
+#: krecipesview.cpp:365
 msgid ""
 "\n"
 "Would you like to run the setup wizard again? Otherwise, the application "
 "will be closed."
 msgstr ""
 
-#: krecipesview.cpp:385 krecipesview.cpp:496 pref.cpp:411
+#: krecipesview.cpp:388 krecipesview.cpp:499 pref.cpp:411
 msgid "Units"
 msgstr "एकके :"
 
-#: krecipesview.cpp:386 krecipesview.cpp:504
+#: krecipesview.cpp:389 krecipesview.cpp:507
 msgid "Preparation Methods"
 msgstr ""
 
-#: krecipesview.cpp:389 krecipesview.cpp:463
+#: krecipesview.cpp:392 krecipesview.cpp:466
 msgid "Diet Helper"
 msgstr ""
 
-#: krecipesview.cpp:390 krecipesview.cpp:471
+#: krecipesview.cpp:393 krecipesview.cpp:474
 msgid "Ingredient Matcher"
 msgstr ""
 
-#: krecipesview.cpp:531
+#: krecipesview.cpp:534
 msgid "View Recipe"
 msgstr ""
 
-#: krecipesview.cpp:777
+#: krecipesview.cpp:780
 msgid ""
 "A recipe contains unsaved changes.\n"
 "Do you want to save changes made to this recipe before editing another "
 "recipe?"
 msgstr ""
 
-#: krecipesview.cpp:779 krecipesview.cpp:866
+#: krecipesview.cpp:782 krecipesview.cpp:869
 msgid "Unsaved changes"
 msgstr ""
 
-#: krecipesview.cpp:797
+#: krecipesview.cpp:800
 #, kde-format
 msgid "Are you sure you want to permanently remove the recipe, %1?"
 msgstr ""
 
-#: krecipesview.cpp:798 krecipesview.cpp:846
+#: krecipesview.cpp:801 krecipesview.cpp:849
 msgid "Confirm remove"
 msgstr "काढून टाकण्याची खात्री करा"
 
-#: krecipesview.cpp:824 widgets/recipelistview.cpp:149
+#: krecipesview.cpp:827 widgets/recipelistview.cpp:149
 msgctxt "Recipe created"
 msgid "Created:"
 msgstr "तयार केले :"
 
-#: krecipesview.cpp:825 widgets/recipelistview.cpp:150
+#: krecipesview.cpp:828 widgets/recipelistview.cpp:150
 #, fuzzy
 msgctxt "Recipe modified"
 msgid "Modified:"
 msgstr "सुधारले"
 
-#: krecipesview.cpp:826 widgets/recipelistview.cpp:151
+#: krecipesview.cpp:829 widgets/recipelistview.cpp:151
 msgctxt "Recipe last accessed"
 msgid "Last Accessed:"
 msgstr ""
 
-#: krecipesview.cpp:845
+#: krecipesview.cpp:848
 msgid "Are you sure you want to permanently remove the selected recipes?"
 msgstr ""
 
-#: krecipesview.cpp:864
+#: krecipesview.cpp:867
 msgid ""
 "A recipe contains unsaved changes.\n"
 "Do you want to save changes made to this recipe before creating a new recipe?"
 msgstr ""
 
-#: krecipesview.cpp:1010
+#: krecipesview.cpp:1013
 msgid "Unable to setup database"
 msgstr ""
 
-#: krecipesview.cpp:1193
+#: krecipesview.cpp:1196
 msgid "Unable to open database"
 msgstr ""
 
-#: krecipesview.cpp:1223
+#: krecipesview.cpp:1226
 #, kde-format
 msgid "The configured database type (%1) is unsupported."
 msgstr ""
 
-#: krecipesview.cpp:1223
+#: krecipesview.cpp:1226
 msgid ""
 "Unsupported database type. Database must be either MySQL, SQLite, or "
 "PostgreSQL."
