@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-18 07:21+0000\n"
+"POT-Creation-Date: 2016-03-19 07:49+0000\n"
 "PO-Revision-Date: 2013-03-05 14:53+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -415,27 +415,23 @@ msgstr ""
 msgid "Ask for password before showing the list of files in the archive"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:60
+#: kerfuffle/extractiondialog.cpp:62
 msgctxt "@title:window"
 msgid "Extract"
 msgstr "बाहेर काढा"
 
-#: kerfuffle/extractiondialog.cpp:74
+#: kerfuffle/extractiondialog.cpp:76
 #, fuzzy
 #| msgctxt "@title:window"
 #| msgid "Extract"
 msgid "Extract"
 msgstr "बाहेर काढा"
 
-#: kerfuffle/extractiondialog.cpp:115
-msgid "Extract multiple archives"
-msgstr "अनेक संग्रहातून बाहेर काढा"
-
-#: kerfuffle/extractiondialog.cpp:124
+#: kerfuffle/extractiondialog.cpp:121
 msgid "The subfolder name may not contain the character '/'."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:131
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -443,7 +439,7 @@ msgid ""
 "extract here?"
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:132
 msgid "Folder exists"
 msgstr "संचयीका अस्तित्वात आहे"
 
@@ -451,29 +447,33 @@ msgstr "संचयीका अस्तित्वात आहे"
 msgid "Extract here"
 msgstr "येथे बाहेर काढा"
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:134
 msgid "Retry"
 msgstr "पुन्हा प्रयत्न करा"
 
-#: kerfuffle/extractiondialog.cpp:133
+#: kerfuffle/extractiondialog.cpp:135
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: kerfuffle/extractiondialog.cpp:143 kerfuffle/extractiondialog.cpp:149
+#: kerfuffle/extractiondialog.cpp:145 kerfuffle/extractiondialog.cpp:151
 #, kde-format
 msgctxt "@info"
 msgid "The folder <filename>%1</filename> could not be created."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:144
+#: kerfuffle/extractiondialog.cpp:146
 #, kde-format
 msgctxt "@info"
 msgid "<filename>%1</filename> already exists, but is not a folder."
 msgstr ""
 
-#: kerfuffle/extractiondialog.cpp:150
+#: kerfuffle/extractiondialog.cpp:152
 msgid "Please check your permissions to create it."
 msgstr ""
+
+#: kerfuffle/extractiondialog.cpp:191
+msgid "Extract multiple archives"
+msgstr "अनेक संग्रहातून बाहेर काढा"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ExtractionDialog)
 #: kerfuffle/extractiondialog.ui:21
@@ -1123,81 +1123,31 @@ msgstr "येथे बाहेर काढा..."
 msgid "Quick Extract To..."
 msgstr "येथे जलद बाहेर काढा..."
 
-#: part/part.cpp:524
-#, kde-format
-msgctxt "@info"
-msgid "<filename>%1</filename> is a directory."
-msgstr ""
-
-#: part/part.cpp:531
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The archive <filename>%1</filename> already exists. Would you like to open "
-"it instead?"
-msgstr ""
-
-#: part/part.cpp:531
-msgctxt "@title:window"
-msgid "File Exists"
-msgstr "फाईल अस्तित्वात आहे"
-
-#: part/part.cpp:531
-msgid "Open File"
-msgstr "फाईल उघडा"
-
-#: part/part.cpp:537
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The archive <filename>%1</filename> will be created as soon as you add a "
-"file."
-msgstr ""
-
-#: part/part.cpp:540
-#, kde-format
-msgctxt "@info"
-msgid "The archive <filename>%1</filename> was not found."
-msgstr ""
-
-#: part/part.cpp:540 part/part.cpp:559 part/part.cpp:566 part/part.cpp:633
-msgctxt "@title:window"
-msgid "Error Opening Archive"
-msgstr ""
-
-#: part/part.cpp:545
-#, kde-format
-msgctxt "@info"
-msgid ""
-"The archive <filename>%1</filename> could not be loaded, as it was not "
-"possible to read from it."
-msgstr ""
-
-#: part/part.cpp:556
+#: part/part.cpp:525
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Ark was not able to open <filename>%1</filename>. No suitable plugin found."
-"<nl/><nl/>Ark does not seem to support this file type."
+"<nl/>Ark does not seem to support this file type."
 msgstr ""
 
-#: part/part.cpp:563
+#: part/part.cpp:532
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Ark was not able to open <filename>%1</filename>. Failed to load a suitable "
-"plugin.<nl/><nl/>Make sure any executables needed to handle the archive type "
-"are installed."
+"plugin.<nl/>Make sure any executables needed to handle the archive type are "
+"installed."
 msgstr ""
 
-#: part/part.cpp:614
+#: part/part.cpp:582
 #, fuzzy
 #| msgid "Extraction Dialog"
 msgctxt "@title:tab"
 msgid "Extraction Settings"
 msgstr "बाहेर काढण्याचा संवाद"
 
-#: part/part.cpp:615
+#: part/part.cpp:583
 #, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Preview as Text"
@@ -1205,67 +1155,112 @@ msgctxt "@title:tab"
 msgid "Preview Settings"
 msgstr "पाठ्याप्रमाणे पूर्वावलोकन करा"
 
-#: part/part.cpp:630
+#: part/part.cpp:596
+#, kde-format
+msgctxt "@info"
+msgid "<filename>%1</filename> is a directory."
+msgstr ""
+
+#: part/part.cpp:603
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The archive <filename>%1</filename> already exists. Would you like to open "
+"it instead?"
+msgstr ""
+
+#: part/part.cpp:603
+msgctxt "@title:window"
+msgid "File Exists"
+msgstr "फाईल अस्तित्वात आहे"
+
+#: part/part.cpp:603
+msgid "Open File"
+msgstr "फाईल उघडा"
+
+#: part/part.cpp:609
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The archive <filename>%1</filename> will be created as soon as you add a "
+"file."
+msgstr ""
+
+#: part/part.cpp:612
+#, kde-format
+msgctxt "@info"
+msgid "The archive <filename>%1</filename> was not found."
+msgstr ""
+
+#: part/part.cpp:617
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The archive <filename>%1</filename> could not be loaded, as it was not "
+"possible to read from it."
+msgstr ""
+
+#: part/part.cpp:634
 #, kde-format
 msgctxt "@info"
 msgid ""
 "Loading the archive <filename>%1</filename> failed with the following error:"
-"<nl/><nl/><message>%2</message>"
+"<nl/><message>%2</message>"
 msgstr ""
 
-#: part/part.cpp:674
+#: part/part.cpp:677
 msgctxt "@info"
 msgid "The archive is empty or Ark could not open its content."
 msgstr ""
 
-#: part/part.cpp:679
+#: part/part.cpp:682
 msgctxt "@info"
 msgid "Ark does not currently support ISO files with UDF filesystem."
 msgstr ""
 
-#: part/part.cpp:726
+#: part/part.cpp:729
 msgid "Ark cannot open symlinks."
 msgstr ""
 
-#: part/part.cpp:838
+#: part/part.cpp:841
 #, kde-format
 msgid ""
 "The file <filename>%1</filename> was modified. Do you want to update the "
 "archive?"
 msgstr ""
 
-#: part/part.cpp:840
+#: part/part.cpp:843
 msgctxt "@title:window"
 msgid "File Modified"
 msgstr ""
 
-#: part/part.cpp:1110
+#: part/part.cpp:1113
 msgctxt "@title:window"
 msgid "Add Files"
 msgstr ""
 
-#: part/part.cpp:1117
+#: part/part.cpp:1120
 msgctxt "@title:window"
 msgid "Add Folder"
 msgstr "संचयीका जोडा"
 
-#: part/part.cpp:1142
+#: part/part.cpp:1145
 msgid "Deleting these files is not undoable. Are you sure you want to do this?"
 msgstr ""
 
-#: part/part.cpp:1143
+#: part/part.cpp:1146
 msgctxt "@title:window"
 msgid "Delete files"
 msgstr "फाईल्स काढून टाका"
 
-#: part/part.cpp:1182
+#: part/part.cpp:1185
 #, fuzzy
 #| msgid "Source archive"
 msgctxt "@title:window"
 msgid "Save Archive As"
 msgstr "स्रोत संग्रह"
 
-#: part/part.cpp:1189
+#: part/part.cpp:1192
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1273,7 +1268,7 @@ msgid ""
 "want to overwrite it?"
 msgstr ""
 
-#: part/part.cpp:1203
+#: part/part.cpp:1206
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1281,7 +1276,7 @@ msgid ""
 "location. The archive does not exist anymore."
 msgstr ""
 
-#: part/part.cpp:1217
+#: part/part.cpp:1220
 #, kde-format
 msgctxt "@info"
 msgid ""
