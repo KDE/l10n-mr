@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-30 01:46+0000\n"
+"POT-Creation-Date: 2016-03-31 01:51+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -390,17 +390,17 @@ msgstr ""
 msgid "Failed to fix database structure."
 msgstr ""
 
-#: backends/qsqlrecipedb.cpp:1978
+#: backends/qsqlrecipedb.cpp:1980
 #, kde-format
 msgid "In ingredient '%1': weight [%2/%3%4]"
 msgstr ""
 
-#: backends/qsqlrecipedb.cpp:2028
+#: backends/qsqlrecipedb.cpp:2030
 #, kde-format
 msgid "In ingredient '%1': property \"%2\" [%3/%4]"
 msgstr ""
 
-#: backends/qsqlrecipedb.cpp:2213
+#: backends/qsqlrecipedb.cpp:2215
 msgctxt "@info"
 msgid ""
 "<p>The database was created with a previous version of Krecipes. Would you "
@@ -411,11 +411,11 @@ msgid ""
 "operation may result in corrupting the database.</p></warning>"
 msgstr ""
 
-#: backends/qsqlrecipedb.cpp:2223
+#: backends/qsqlrecipedb.cpp:2225
 msgid "Porting database structure..."
 msgstr ""
 
-#: backends/qsqlrecipedb.cpp:2310
+#: backends/qsqlrecipedb.cpp:2312
 msgctxt "@info:progress"
 msgid "Loading category list"
 msgstr ""
@@ -2000,7 +2000,7 @@ msgctxt "@title:column"
 msgid "Id"
 msgstr "Id"
 
-#: dialogs/recipeinput/ingredientseditor.cpp:549
+#: dialogs/recipeinput/ingredientseditor.cpp:571
 msgctxt "@title"
 msgid "Nutritive information status"
 msgstr ""
@@ -2141,6 +2141,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_updateButton)
 #: dialogs/recipeinput/nutrientinfodetailsdialog.ui:63
+#: dialogs/recipeinput/nutrientinfostatuswidget.ui:68
 #, fuzzy
 #| msgctxt "@action:inmenu Updates the loaded information"
 #| msgid "Update"
@@ -2155,24 +2156,29 @@ msgstr "अद्ययावत करा"
 msgid "Close"
 msgstr "बंद करा"
 
-#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:31
+#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:34
 #: dialogs/recipeinput/recipeinputdialog.cpp:1172
 msgctxt "@info Property information for a recipe is complete"
 msgid "Complete"
 msgstr "पूर्ण"
 
-#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:37
+#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:41
 #: dialogs/recipeinput/recipeinputdialog.cpp:1179
 msgctxt "@info Property information for a recipe is complete, but..."
 msgid "Complete, but approximations made"
 msgstr ""
 
-#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:43
+#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:48
 #: dialogs/recipeinput/recipeinputdialog.cpp:1187
 #, fuzzy
 msgctxt "@info Property information for a recipe is incomplete"
 msgid "Incomplete"
 msgstr "[अपूर्ण]"
+
+#: dialogs/recipeinput/nutrientinfostatuswidget.cpp:55
+msgctxt "@info Property information for a recipe is unknown"
+msgid "Unknown"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/recipeinput/nutrientinfostatuswidget.ui:32
@@ -2180,7 +2186,7 @@ msgid "Nutritive information status:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KPushButton, m_detailsButton)
-#: dialogs/recipeinput/nutrientinfostatuswidget.ui:68
+#: dialogs/recipeinput/nutrientinfostatuswidget.ui:83
 #, fuzzy
 #| msgctxt "@action:button"
 #| msgid "Details..."
