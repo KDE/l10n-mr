@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcm_desktopthemedetails\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-08 11:24+0000\n"
+"POT-Creation-Date: 2016-04-18 08:27+0000\n"
 "PO-Revision-Date: 2013-03-09 15:03+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -31,53 +31,67 @@ msgstr ""
 "sandeep.shedmake@gmail.com, \n"
 "chetan@kompkin.com"
 
-#. i18n: ectx: property (text), widget (QPushButton, m_fileInstallButton)
-#: DesktopTheme.ui:35
-msgid "Insta&ll from File"
+#: kcm.cpp:54
+#, fuzzy
+#| msgid "Remove Desktop Theme"
+msgid "Configure Desktop Theme"
+msgstr "डेस्कटॉप शैली काढून टाका"
+
+#: kcm.cpp:56
+msgid "David Rosca"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, m_newThemeButton)
-#: DesktopTheme.ui:49
-msgid "Get New Themes..."
+#: kcm.cpp:121
+msgid "Theme installed successfully."
+msgstr ""
+
+#: kcm.cpp:124 kcm.cpp:131
+msgid "Theme installation failed."
+msgstr ""
+
+#: kcm.cpp:257 kcm.cpp:265
+msgid "Theme removal failed."
+msgstr ""
+
+#: package/contents/ui/main.qml:33
+msgid "This module lets you configure the desktop theme."
+msgstr ""
+
+#: package/contents/ui/main.qml:151
+#, fuzzy
+#| msgid "Get New Themes..."
+msgid "Get new Theme"
 msgstr "नवीन शैली प्राप्त करा..."
 
-#: kcmdesktoptheme.cpp:52
-msgid ""
-"<h1>Desktop Theme</h1>This module allows you to modify the visual appearance "
-"of the desktop."
+#: package/contents/ui/main.qml:157
+msgid "Install from File"
 msgstr ""
-"<h1>डेस्कटॉप शैली</h1> हा विभाग डेस्कटॉपचा दर्शनीय अवतार बदलण्यासाठी मदत करतो."
 
-#: kcmdesktoptheme.cpp:61
-msgid "KDE Desktop Theme Module"
-msgstr "केडीई डेस्कटॉप शैली विभाग"
+#: package/contents/ui/main.qml:163
+msgid "Remove Theme"
+msgstr "शैली काढून टाका"
 
-#: kcmdesktoptheme.cpp:63
-msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
-msgstr "(c) 2002 केरोल श्वेड, डेनियल मॉल्केनटिन"
-
-#: kcmdesktoptheme.cpp:161
+#: package/contents/ui/main.qml:206
 #, fuzzy
 #| msgid "Theme"
 msgid "Open Theme"
 msgstr "शैली"
 
-#: kcmdesktoptheme.cpp:163
+#: package/contents/ui/main.qml:208
 msgid "Theme Files (*.zip *.tar.gz *.tar.bz2)"
 msgstr ""
 
-#: kcmdesktoptheme.cpp:209
-msgid "Theme installed successfully."
-msgstr ""
+#~ msgid ""
+#~ "<h1>Desktop Theme</h1>This module allows you to modify the visual "
+#~ "appearance of the desktop."
+#~ msgstr ""
+#~ "<h1>डेस्कटॉप शैली</h1> हा विभाग डेस्कटॉपचा दर्शनीय अवतार बदलण्यासाठी मदत करतो."
 
-#: kcmdesktoptheme.cpp:213
-#, kde-format
-msgid "Theme installation failed. (%1)"
-msgstr ""
+#~ msgid "KDE Desktop Theme Module"
+#~ msgstr "केडीई डेस्कटॉप शैली विभाग"
 
-#: kcmdesktoptheme.cpp:225
-msgid "Theme installation failed."
-msgstr ""
+#~ msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
+#~ msgstr "(c) 2002 केरोल श्वेड, डेनियल मॉल्केनटिन"
 
 #~ msgid "Theme"
 #~ msgstr "शैली"
@@ -150,9 +164,6 @@ msgstr ""
 #~ msgid ""
 #~ "Theme items have been changed.  Do you still wish remove the \"%1\" theme?"
 #~ msgstr "शैली घटक बदलले गेले आहे. तुम्हाला तरी \"%1\" शैली काढून टाकायचे आहे का?"
-
-#~ msgid "Remove Desktop Theme"
-#~ msgstr "डेस्कटॉप शैली काढून टाका"
 
 #~ msgid "Removal of the default desktop theme is not allowed."
 #~ msgstr "मूलभूत केडीई शैली काढून टाकण्यास परवानगी नाही."
@@ -232,9 +243,6 @@ msgstr ""
 #~ msgstr ""
 #~ "हे बटन क्लिक केल्यावर निवडलेली शैली काढून टाकली जाईल. तुमच्याकडुन त्यासाठी समर्थन "
 #~ "घेण्यात येईल."
-
-#~ msgid "Remove Theme"
-#~ msgstr "शैली काढून टाका"
 
 #~ msgid "Save your theme in a zip archive"
 #~ msgstr "तुमची शैली झिप संग्रह मध्ये साठवा"
