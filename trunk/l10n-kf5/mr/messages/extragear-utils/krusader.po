@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-25 08:06+0000\n"
+"POT-Creation-Date: 2016-04-26 08:54+0000\n"
 "PO-Revision-Date: 2013-03-15 14:26+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -312,7 +312,7 @@ msgstr ""
 #: krusader/ActionMan/actionproperty.ui:231
 #: krusader/ActionMan/actionproperty.ui:323
 msgid ""
-"The <i>Workdir</i> defines in which directory the <i>Command</i> will be "
+"The <i>Workdir</i> defines in which folder the <i>Command</i> will be "
 "executed."
 msgstr ""
 
@@ -692,6 +692,8 @@ msgid "New Folder"
 msgstr "नवीन संचयीका"
 
 #: krusader/BookMan/kraddbookmarkdlg.cpp:106
+#: krusader/Filter/generalfilter.cpp:151 krusader/Filter/generalfilter.cpp:491
+#: krusader/VFS/krquery.cpp:246
 msgid "Folders"
 msgstr "संचयीका"
 
@@ -814,13 +816,13 @@ msgstr ""
 
 #: krusader/Dialogs/checksumdlg.cpp:255 krusader/Dialogs/checksumdlg.cpp:382
 msgid ""
-"<qt><b>Note</b>: you have selected directories, and probably have no "
-"recursive checksum tool installed. Krusader currently supports <i>md5deep, "
-"sha1deep, sha256deep, tigerdeep and cfv</i></qt>"
+"<qt><b>Note</b>: you have selected folders, and probably have no recursive "
+"checksum tool installed. Krusader currently supports <i>md5deep, sha1deep, "
+"sha256deep, tigerdeep and cfv</i></qt>"
 msgstr ""
 
 #: krusader/Dialogs/checksumdlg.cpp:274
-msgid "About to calculate checksum for the following files and directories:"
+msgid "About to calculate checksum for the following files and folders:"
 msgstr ""
 
 #: krusader/Dialogs/checksumdlg.cpp:276
@@ -970,7 +972,7 @@ msgid "Errors occurred while saving multiple checksums. Stopping"
 msgstr ""
 
 #: krusader/Dialogs/krdialogs.cpp:157
-msgid "Keep virtual directory structure"
+msgid "Keep virtual folder structure"
 msgstr ""
 
 #: krusader/Dialogs/krdialogs.cpp:163
@@ -1145,7 +1147,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: krusader/Dialogs/packgui.cpp:110
-msgid "Please select a directory"
+msgid "Please select a folder"
 msgstr ""
 
 #: krusader/Dialogs/packguibase.cpp:77 krusader/Dialogs/packguibase.cpp:131
@@ -1157,8 +1159,10 @@ msgid "To archive"
 msgstr ""
 
 #: krusader/Dialogs/packguibase.cpp:106
-msgid "In directory"
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "In folder"
+msgstr "नवीन संचयीका"
 
 #: krusader/Dialogs/packguibase.cpp:156
 msgid "Multiple volume archive"
@@ -1280,8 +1284,8 @@ msgstr ""
 #: krusader/DiskUsage/diskusage.cpp:403
 #, kde-format
 msgid ""
-"Stepping into the parent directory requires loading the content of the "
-"\"%1\" URL. Do you wish to continue?"
+"Stepping into the parent folder requires loading the content of the \"%1\" "
+"URL. Do you wish to continue?"
 msgstr ""
 
 #: krusader/DiskUsage/diskusage.cpp:406
@@ -1303,8 +1307,8 @@ msgid "Do you really want to delete this item?"
 msgstr ""
 
 #: krusader/DiskUsage/diskusage.cpp:590
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:181
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:199
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:183
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:201
 #: krusader/Panel/panelfunc.cpp:913 krusader/Panel/panelfunc.cpp:916
 #: krusader/Panel/panelfunc.cpp:919
 #, fuzzy
@@ -1313,7 +1317,7 @@ msgstr "काढून टाका (&D)"
 
 #: krusader/DiskUsage/diskusage.cpp:714
 #, kde-format
-msgid "Current directory:%1,  Total size:%2,  Own size:%3"
+msgid "Current folder:%1,  Total size:%2,  Own size:%3"
 msgstr ""
 
 #: krusader/DiskUsage/diskusage.cpp:740
@@ -1325,8 +1329,10 @@ msgid "Exclude"
 msgstr ""
 
 #: krusader/DiskUsage/diskusage.cpp:754
-msgid "Up one directory"
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "Up one folder"
+msgstr "नवीन संचयीका"
 
 #: krusader/DiskUsage/diskusage.cpp:758
 msgid "New search"
@@ -1357,12 +1363,12 @@ msgstr ""
 msgid "Filelight"
 msgstr "फाईल-लाइट"
 
-#: krusader/DiskUsage/diskusage.cpp:798 krusader/KViewer/lister.cpp:1174
+#: krusader/DiskUsage/diskusage.cpp:798 krusader/KViewer/lister.cpp:1182
 #, fuzzy
 msgid "Next"
 msgstr "पुढील"
 
-#: krusader/DiskUsage/diskusage.cpp:802 krusader/KViewer/lister.cpp:1178
+#: krusader/DiskUsage/diskusage.cpp:802 krusader/KViewer/lister.cpp:1186
 #, fuzzy
 msgid "Previous"
 msgstr "मागील"
@@ -1403,8 +1409,10 @@ msgid "Start new disk usage search"
 msgstr ""
 
 #: krusader/DiskUsage/diskusagegui.cpp:83
-msgid "Parent directory"
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "Parent folder"
+msgstr "नवीन संचयीका"
 
 #: krusader/DiskUsage/diskusagegui.cpp:93
 msgid "Line view"
@@ -1420,7 +1428,7 @@ msgid "Filelight view"
 msgstr ""
 
 #: krusader/DiskUsage/diskusagegui.cpp:240
-msgid "Viewing the usage of directory:"
+msgid "Viewing the usage of folder:"
 msgstr ""
 
 #: krusader/DiskUsage/dufilelight.cpp:98 krusader/Panel/viewactions.cpp:43
@@ -1538,32 +1546,32 @@ msgstr[1] "%1 फाईल्स"
 msgid "Files: %1"
 msgstr "फाईल्स"
 
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:169
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:171
 msgid "Open File Manager Here"
 msgstr ""
 
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:171
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:173
 #, fuzzy
 #| msgid "Terminal"
 msgid "Open Terminal Here"
 msgstr "टर्मिनल"
 
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:175
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:177
 msgid "&Center Map Here"
 msgstr ""
 
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:178
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:180
 msgid "&Open"
 msgstr "उघडा (&O)"
 
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:197
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:199
 #, kde-format
 msgid ""
-"<qt>The directory at <i>'%1'</i> will be <b>recursively</b> and "
-"<b>permanently</b> deleted.</qt>"
+"<qt>The folder at <i>'%1'</i> will be <b>recursively</b> and <b>permanently</"
+"b> deleted.</qt>"
 msgstr ""
 
-#: krusader/DiskUsage/radialMap/widgetEvents.cpp:198
+#: krusader/DiskUsage/radialMap/widgetEvents.cpp:200
 #, kde-format
 msgid "<qt><i>'%1'</i> will be <b>permanently</b> deleted.</qt>"
 msgstr ""
@@ -1856,17 +1864,17 @@ msgid ""
 "of wildcards. Multiple patterns are separated by space (means logical OR) "
 "and patterns are excluded from the search using the pipe symbol.</p><p>If "
 "the pattern is ended with a slash (<code>*pattern*/</code>), that means that "
-"pattern relates to recursive search of directories.<ul><li><code>pattern</"
-"code> - means to search those files/directories that name is <code>pattern</"
-"code>, recursive search goes through all subdirectories independently of the "
-"value of <code>pattern</code></li><li><code>pattern/</code> - means to "
-"search all files/directories, but recursive search goes through/excludes the "
-"directories that name is <code>pattern</code></li></ul><p></p><p>It's "
-"allowed to use quotation marks for names that contain space. Filter <code>"
-"\"Program&nbsp;Files\"</code> searches out those files/directories that name "
-"is <code>Program&nbsp;Files</code>.</p><p>Examples:<ul><code><li>*.o</"
-"li><li>*.h *.c??</li><li>*.cpp *.h | *.moc.cpp</li><li>* | CVS/ .svn/</li></"
-"code></ul><b>Note</b>: the search term '<code>text</code>' is equivalent to "
+"pattern relates to recursive search of folders.<ul><li><code>pattern</code> "
+"- means to search those files/folders that name is <code>pattern</code>, "
+"recursive search goes through all subfolders independently of the value of "
+"<code>pattern</code></li><li><code>pattern/</code> - means to search all "
+"files/folders, but recursive search goes through/excludes the folders that "
+"name is <code>pattern</code></li></ul><p></p><p>It's allowed to use "
+"quotation marks for names that contain space. Filter <code>\"Program&nbsp;"
+"Files\"</code> searches out those files/folders that name is "
+"<code>Program&nbsp;Files</code>.</p><p>Examples:<ul><code><li>*.o</li><li>*."
+"h *.c??</li><li>*.cpp *.h | *.moc.cpp</li><li>* | CVS/ .svn/</li></code></"
+"ul><b>Note</b>: the search term '<code>text</code>' is equivalent to "
 "'<code>*text*</code>'.</p>"
 msgstr ""
 
@@ -1882,11 +1890,6 @@ msgstr "सर्व फाईल्स"
 #: krusader/Konfigurator/konfigurator.cpp:145 krusader/VFS/krquery.cpp:245
 msgid "Archives"
 msgstr "संग्रह"
-
-#: krusader/Filter/generalfilter.cpp:151 krusader/Filter/generalfilter.cpp:491
-#: krusader/VFS/krquery.cpp:246
-msgid "Directories"
-msgstr ""
 
 #: krusader/Filter/generalfilter.cpp:152 krusader/VFS/krquery.cpp:247
 msgid "Image Files"
@@ -1939,7 +1942,7 @@ msgstr "पाठ्य समाविष्ठीत (&O):"
 msgid "&Text:"
 msgstr "मजकूर (&T)"
 
-#: krusader/Filter/generalfilter.cpp:271 krusader/KViewer/lister.cpp:1192
+#: krusader/Filter/generalfilter.cpp:271 krusader/KViewer/lister.cpp:1200
 msgid "RegExp"
 msgstr ""
 
@@ -1967,8 +1970,9 @@ msgid "Remote co&ntent search"
 msgstr ""
 
 #: krusader/Filter/generalfilter.cpp:341
-msgid "Search in s&ubdirectories"
-msgstr ""
+#, fuzzy
+msgid "Search in s&ub folders"
+msgstr "याकरिता शोधा :"
 
 #: krusader/Filter/generalfilter.cpp:346
 msgid "Search in arch&ives"
@@ -1987,11 +1991,11 @@ msgid "Please specify a location to search in."
 msgstr ""
 
 #: krusader/GUI/dirhistorybutton.cpp:36 krusader/GUI/dirhistorybutton.cpp:37
-msgid "Open the directory history list"
+msgid "Open the folder history list"
 msgstr ""
 
 #: krusader/GUI/kcmdline.cpp:65
-msgid "Name of directory where command will be processed."
+msgid "Name of folder where command will be processed."
 msgstr ""
 
 #: krusader/GUI/kcmdline.cpp:193
@@ -2167,7 +2171,7 @@ msgstr ""
 #: krusader/GUI/syncbrowsebutton.cpp:37 krusader/GUI/syncbrowsebutton.cpp:40
 msgid ""
 "This button toggles the sync-browse mode.\n"
-"When active, each directory change is performed in the\n"
+"When active, each folder change is performed in the\n"
 "active and inactive panel - if possible."
 msgstr ""
 
@@ -2203,7 +2207,7 @@ msgstr ""
 
 #: krusader/Konfigurator/kgadvanced.cpp:58
 msgid ""
-"When stepping into a directory which is defined as a mount point in the "
+"When stepping into a folder which is defined as a mount point in the "
 "<b>fstab</b>, try mounting it with the defined parameters."
 msgstr ""
 
@@ -2222,7 +2226,7 @@ msgid ""
 msgstr ""
 
 #: krusader/Konfigurator/kgadvanced.cpp:87
-msgid "Deleting non-empty directories"
+msgid "Deleting non-empty folders"
 msgstr ""
 
 #: krusader/Konfigurator/kgadvanced.cpp:88
@@ -2298,8 +2302,10 @@ msgid "Archives handling"
 msgstr "संग्रह"
 
 #: krusader/Konfigurator/kgarchives.cpp:85
-msgid "Browse Archives As Directories"
-msgstr ""
+#, fuzzy
+#| msgid "Archives"
+msgid "Browse Archives As Folders"
+msgstr "संग्रह"
 
 #: krusader/Konfigurator/kgarchives.cpp:85
 msgid "Krusader will browse archives as folders."
@@ -2401,8 +2407,10 @@ msgstr "पृष्ठभूमी :"
 
 #: krusader/Konfigurator/kgcolors.cpp:112
 #: krusader/Konfigurator/kgcolors.cpp:148
-msgid "Directory foreground:"
-msgstr ""
+#, fuzzy
+#| msgid "Foreground:"
+msgid "Folder foreground:"
+msgstr "पृष्ठभूमी :"
 
 #: krusader/Konfigurator/kgcolors.cpp:112
 #: krusader/Konfigurator/kgcolors.cpp:113
@@ -2656,7 +2664,9 @@ msgid "Application"
 msgstr "अनुप्रयोग"
 
 #: krusader/Konfigurator/kgcolors.cpp:467
-msgid "Directory"
+#, fuzzy
+#| msgid "Folders"
+msgid "Folder"
 msgstr "संचयीका"
 
 #: krusader/Konfigurator/kgcolors.cpp:530
@@ -2760,7 +2770,7 @@ msgstr ""
 msgid "Use the system's default viewer"
 msgstr ""
 
-#: krusader/Konfigurator/kggeneral.cpp:111 krusader/KViewer/lister.cpp:2155
+#: krusader/Konfigurator/kggeneral.cpp:111 krusader/KViewer/lister.cpp:2170
 msgid "Text mode"
 msgstr ""
 
@@ -2768,8 +2778,8 @@ msgstr ""
 msgid "View the file in text-only mode"
 msgstr ""
 
-#: krusader/Konfigurator/kggeneral.cpp:112 krusader/KViewer/lister.cpp:1123
-#: krusader/KViewer/lister.cpp:2158
+#: krusader/Konfigurator/kggeneral.cpp:112 krusader/KViewer/lister.cpp:1131
+#: krusader/KViewer/lister.cpp:2173
 msgid "Hex mode"
 msgstr ""
 
@@ -2841,11 +2851,13 @@ msgid "MIME type magic allows better distinction of file types, but is slower."
 msgstr ""
 
 #: krusader/Konfigurator/kggeneral.cpp:244
-msgid "Temp Directory:"
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "Temp Folder:"
+msgstr "नवीन संचयीका"
 
 #: krusader/Konfigurator/kggeneral.cpp:253
-msgid "Note: you must have full permissions for the temporary directory."
+msgid "Note: you must have full permissions for the temporary folder."
 msgstr ""
 
 #: krusader/Konfigurator/kggeneral.cpp:263
@@ -2884,7 +2896,7 @@ msgstr ""
 #: krusader/Konfigurator/kggeneral.cpp:290
 msgid ""
 "When checked, whenever the panel is changed (for example, by pressing Tab), "
-"Krusader changes the current directory in the terminal emulator."
+"Krusader changes the current folder in the terminal emulator."
 msgstr ""
 
 #: krusader/Konfigurator/kggeneral.cpp:291
@@ -2927,13 +2939,14 @@ msgid "Operation"
 msgstr "क्रिया"
 
 #: krusader/Konfigurator/kgpanel.cpp:106
-msgid "Autoselect directories"
-msgstr ""
+#, fuzzy
+msgid "Autoselect folders"
+msgstr "फाईल निवडा..."
 
 #: krusader/Konfigurator/kgpanel.cpp:106
 msgid ""
 "When matching the select criteria, not only files will be selected, but also "
-"directories."
+"folders."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:107
@@ -3139,7 +3152,7 @@ msgid "Use icons in the filenames"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:298
-msgid "Show the icons for filenames and directories."
+msgid "Show the icons for filenames and folders."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:299
@@ -3147,7 +3160,7 @@ msgid "Show previews by default"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:299
-msgid "Show previews of files and directories."
+msgid "Show previews of files and folders."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:333
@@ -3186,8 +3199,7 @@ msgid "Load the user defined folder icons"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:350
-msgid ""
-"Load the user defined directory icons (can cause decrease in performance)."
+msgid "Load the user defined folder icons (can cause decrease in performance)."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:364
@@ -3220,7 +3232,9 @@ msgid "Case sensitive sorting"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:385
-msgid "Show directories first"
+#, fuzzy
+#| msgid "Show directories first"
+msgid "Show folders first"
 msgstr "प्रथम संचयीका दर्शवा"
 
 #: krusader/Konfigurator/kgpanel.cpp:386
@@ -3228,7 +3242,7 @@ msgid "Always sort dirs by name"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:387
-msgid "Directories are sorted by name, regardless of the sort column."
+msgid "Folders are sorted by name, regardless of the sort column."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:388
@@ -3307,7 +3321,7 @@ msgid "Open button"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:481
-msgid "Opens the directory browser."
+msgid "Opens the folder browser."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:482
@@ -3315,7 +3329,7 @@ msgid "Equal button (=)"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:482
-msgid "Changes the panel directory to the other panel directory."
+msgid "Changes the panel folder to the other panel folder."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:483
@@ -3323,7 +3337,7 @@ msgid "Up button (..)"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:483
-msgid "Changes the panel directory to the parent directory."
+msgid "Changes the panel folder to the parent folder."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:484
@@ -3331,7 +3345,7 @@ msgid "Home button (~)"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:484
-msgid "Changes the panel directory to the home directory."
+msgid "Changes the panel folder to the home folder."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:485
@@ -3339,7 +3353,7 @@ msgid "Root button (/)"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:485
-msgid "Changes the panel directory to the root directory."
+msgid "Changes the panel folder to the root folder."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:486
@@ -3347,8 +3361,7 @@ msgid "Toggle-button for sync-browsing"
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:486
-msgid ""
-"Each directory change in the panel is also performed in the other panel."
+msgid "Each folder change in the panel is also performed in the other panel."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:508
@@ -3419,7 +3432,7 @@ msgstr ""
 #: krusader/Konfigurator/kgpanel.cpp:544
 msgid ""
 "A single click on a file will select and focus, a double click opens the "
-"file or steps into the directory."
+"file or steps into the folder."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:545
@@ -3513,9 +3526,9 @@ msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:581
 msgid ""
-"If checked, pressing the spacebar while the current item is a directory, "
-"will (except from selecting the directory)\n"
-"calculate space occupied of the directory (recursively)."
+"If checked, pressing the spacebar while the current item is a folder, will "
+"(except from selecting the folder)\n"
+"calculate space occupied of the folder (recursively)."
 msgstr ""
 
 #: krusader/Konfigurator/kgpanel.cpp:583
@@ -4084,8 +4097,10 @@ msgid "&Locate..."
 msgstr ""
 
 #: krusader/kractions.cpp:274
-msgid "Synchronize &Directories..."
-msgstr ""
+#, fuzzy
+#| msgid "Synchronize"
+msgid "Synchronize Fol&ders..."
+msgstr "सिंक्रोनाईझ"
 
 #: krusader/kractions.cpp:276
 msgid "D&isk Usage..."
@@ -4267,7 +4282,7 @@ msgid "Do not know which file to split."
 msgstr ""
 
 #: krusader/krslots.cpp:541
-msgid "You cannot split a directory."
+msgid "You cannot split a folder."
 msgstr ""
 
 #: krusader/krslots.cpp:572
@@ -4275,7 +4290,7 @@ msgid "Do not know which files to combine."
 msgstr ""
 
 #: krusader/krslots.cpp:583
-msgid "You cannot combine a directory."
+msgid "You cannot combine a folder."
 msgstr ""
 
 #: krusader/krslots.cpp:600 krusader/krslots.cpp:652
@@ -4289,7 +4304,7 @@ msgstr ""
 
 #: krusader/krslots.cpp:659
 #, kde-format
-msgid "Combining %1.* to directory:"
+msgid "Combining %1.* to folder:"
 msgstr ""
 
 #: krusader/krslots.cpp:752
@@ -4331,13 +4346,13 @@ msgstr "<qt><b>%1</b> : मधून तुम्हाला नक्की �
 
 #: krusader/krusader.cpp:592
 msgid ""
-"Could not create a temporary directory. Handling of Archives will not be "
+"Could not create a temporary folder. Handling of Archives will not be "
 "possible until this is fixed."
 msgstr ""
 
 #. i18n: ectx: Menu (lister)
-#: krusader/krusaderlisterui.rc:5 krusader/KViewer/lister.cpp:1781
-#: krusader/KViewer/lister.cpp:1816
+#: krusader/krusaderlisterui.rc:5 krusader/KViewer/lister.cpp:1796
+#: krusader/KViewer/lister.cpp:1831
 msgid "Lister"
 msgstr ""
 
@@ -4496,120 +4511,120 @@ msgctxt "filestate: filename"
 msgid "Viewing: %1"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1090 krusader/KViewer/lister.cpp:1805
+#: krusader/KViewer/lister.cpp:1098 krusader/KViewer/lister.cpp:1820
 msgid "Save selection..."
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1094
+#: krusader/KViewer/lister.cpp:1102
 msgid "Save as..."
 msgstr "असे साठवा..."
 
-#: krusader/KViewer/lister.cpp:1098
+#: krusader/KViewer/lister.cpp:1106
 msgid "Print..."
 msgstr "मुद्रण..."
 
-#: krusader/KViewer/lister.cpp:1103 krusader/Search/krsearchdialog.cpp:172
+#: krusader/KViewer/lister.cpp:1111 krusader/Search/krsearchdialog.cpp:172
 #, fuzzy
 msgid "Search"
 msgstr "शोधा"
 
-#: krusader/KViewer/lister.cpp:1108
+#: krusader/KViewer/lister.cpp:1116
 msgid "Search next"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1113
+#: krusader/KViewer/lister.cpp:1121
 msgid "Search previous"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1118 krusader/KViewer/lister.cpp:1743
-#: krusader/KViewer/lister.cpp:1755 krusader/KViewer/lister.cpp:1763
-#: krusader/KViewer/lister.cpp:1770
+#: krusader/KViewer/lister.cpp:1126 krusader/KViewer/lister.cpp:1758
+#: krusader/KViewer/lister.cpp:1770 krusader/KViewer/lister.cpp:1778
+#: krusader/KViewer/lister.cpp:1785
 msgid "Jump to position"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1128
+#: krusader/KViewer/lister.cpp:1136
 msgid "Select charset"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1148 krusader/KViewer/lister.cpp:1387
+#: krusader/KViewer/lister.cpp:1156 krusader/KViewer/lister.cpp:1402
 msgid "Lister:"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1159
+#: krusader/KViewer/lister.cpp:1167
 msgid "Stop search"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1175
+#: krusader/KViewer/lister.cpp:1183
 msgid "Jump to next match"
 msgstr "पुढील जुळणीवर थेट जा"
 
-#: krusader/KViewer/lister.cpp:1179
+#: krusader/KViewer/lister.cpp:1187
 msgid "Jump to previous match"
 msgstr "आधीच्या जुळणीवर थेट जा"
 
-#: krusader/KViewer/lister.cpp:1182
+#: krusader/KViewer/lister.cpp:1190
 msgid "Options"
 msgstr "पर्याय"
 
-#: krusader/KViewer/lister.cpp:1183
+#: krusader/KViewer/lister.cpp:1191
 msgid "Modify search behavior"
 msgstr "शोध पध्दती सुधारा"
 
-#: krusader/KViewer/lister.cpp:1185
+#: krusader/KViewer/lister.cpp:1193
 #, fuzzy
 msgid "From cursor"
 msgstr "कर्सर पासून (&u)"
 
-#: krusader/KViewer/lister.cpp:1188
+#: krusader/KViewer/lister.cpp:1196
 #, fuzzy
 msgid "Case sensitive"
 msgstr "अक्षर आकार संवेदनशील"
 
-#: krusader/KViewer/lister.cpp:1190
+#: krusader/KViewer/lister.cpp:1198
 msgid "Match whole words only"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1194
+#: krusader/KViewer/lister.cpp:1202
 msgid "Hexadecimal"
 msgstr "हेक्साडेसिमल"
 
-#: krusader/KViewer/lister.cpp:1282
+#: krusader/KViewer/lister.cpp:1290
 #, kde-format
 msgid "Error reading file %1."
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1369
+#: krusader/KViewer/lister.cpp:1377
 #, kde-format
 msgid "Column: %1, Position: %2 (%3, %4%)"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1380 krusader/KViewer/lister.cpp:1715
+#: krusader/KViewer/lister.cpp:1388 krusader/KViewer/lister.cpp:1730
 #, fuzzy
 msgid "Search:"
 msgstr "शोधा :"
 
-#: krusader/KViewer/lister.cpp:1731
+#: krusader/KViewer/lister.cpp:1746
 msgid "Search position:"
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1743
+#: krusader/KViewer/lister.cpp:1758
 #, fuzzy
 msgid "Text position:"
 msgstr "पाठ्यचे स्थान"
 
-#: krusader/KViewer/lister.cpp:1755 krusader/KViewer/lister.cpp:1763
+#: krusader/KViewer/lister.cpp:1770 krusader/KViewer/lister.cpp:1778
 msgid "Invalid number."
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1770
+#: krusader/KViewer/lister.cpp:1785
 msgid "Number out of range."
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1805
+#: krusader/KViewer/lister.cpp:1820
 msgid "Nothing is selected."
 msgstr ""
 
-#: krusader/KViewer/lister.cpp:1879
+#: krusader/KViewer/lister.cpp:1894
 msgid "Reverse printing is not supported. Continue with normal printing?"
 msgstr ""
 
@@ -5411,11 +5426,11 @@ msgstr[0] "बाइट"
 msgstr[1] "%1 बाइट्स"
 
 #: krusader/Panel/krcalcspacedialog.cpp:189
-#, kde-format
-msgid "in %1 directory"
-msgid_plural "in %1 directories"
-msgstr[0] ""
-msgstr[1] ""
+#, fuzzy, kde-format
+msgid "in %1 folder"
+msgid_plural "in %1 folders"
+msgstr[0] "%1 फाईल"
+msgstr[1] "%1 फाईल"
 
 #: krusader/Panel/krcalcspacedialog.cpp:191
 #, kde-format
@@ -5554,7 +5569,8 @@ msgstr ""
 
 #: krusader/Panel/krvfsmodel.cpp:141
 #: krusader/Synchronizer/synchronizergui.cpp:2603
-msgctxt "'DIR' instead of file size in detailed view (for directories)"
+msgctxt ""
+"Show the string 'DIR' instead of file size in detailed view (for folders)"
 msgid "DIR"
 msgstr ""
 
@@ -5610,7 +5626,7 @@ msgstr "समूह"
 msgctxt ""
 "%1=number of selected items,%2=total number of items,                     "
 "%3=filesize of selected items,%4=filesize in Bytes,                     "
-"%5=filesize of all items in directory,%6=filesize in Bytes"
+"%5=filesize of all items in folder,%6=filesize in Bytes"
 msgid "%1 out of %2, %3 (%4) out of %5 (%6)"
 msgstr ""
 
@@ -5618,7 +5634,7 @@ msgstr ""
 #, kde-format
 msgctxt ""
 "%1=number of selected items,%2=total number of items,                     "
-"%3=filesize of selected items,%4=filesize of all items in directory"
+"%3=filesize of selected items,%4=filesize of all items in folder"
 msgid "%1 out of %2, %3 out of %4"
 msgstr ""
 
@@ -5633,7 +5649,7 @@ msgstr ""
 
 #: krusader/Panel/krview.cpp:1222 krusader/Panel/krview.cpp:1223
 #: krusader/Panel/krview.cpp:1232
-msgid "Apply filter to directories"
+msgid "Apply filter to folders"
 msgstr ""
 
 #: krusader/Panel/krview.cpp:1248
@@ -5643,7 +5659,7 @@ msgstr "फाईल निवडा..."
 
 #: krusader/Panel/krview.cpp:1248 krusader/Panel/krview.cpp:1249
 #: krusader/Panel/krview.cpp:1255
-msgid "Apply selection to directories"
+msgid "Apply selection to folders"
 msgstr ""
 
 #: krusader/Panel/krviewfactory.cpp:65
@@ -5656,7 +5672,7 @@ msgid "&Brief View"
 msgstr ""
 
 #: krusader/Panel/krviewitem.cpp:65
-msgid "Climb up the directory tree"
+msgid "Climb up the folder tree"
 msgstr ""
 
 #: krusader/Panel/krviewitem.cpp:82
@@ -5675,7 +5691,7 @@ msgstr "%1 (लिंक)"
 #: krusader/Panel/listpanel.cpp:163
 msgid ""
 "The statusbar displays information about the filesystem which holds your "
-"current directory: total size, free space, type of filesystem, etc."
+"current folder: total size, free space, type of filesystem, etc."
 msgstr ""
 
 #: krusader/Panel/listpanel.cpp:187
@@ -5690,8 +5706,8 @@ msgstr ""
 
 #: krusader/Panel/listpanel.cpp:198
 msgid ""
-"Name of directory where you are. You can also enter name of desired location "
-"to move there. Use of Net protocols like ftp or fish is possible."
+"Name of folder where you are. You can also enter name of desired location to "
+"move there. Use of Net protocols like ftp or fish is possible."
 msgstr ""
 
 #: krusader/Panel/listpanel.cpp:234
@@ -5710,7 +5726,7 @@ msgstr ""
 
 #: krusader/Panel/listpanel.cpp:591
 #: krusader/Synchronizer/synchronizergui.cpp:2007
-msgid "Warning: The left and the right side are showing the same directory!"
+msgid "Warning: The left and the right side are showing the same folder."
 msgstr ""
 
 #: krusader/Panel/listpanel.cpp:735
@@ -5817,8 +5833,10 @@ msgid "Move by queue..."
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:88
-msgid "New Directory..."
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "New Folder..."
+msgstr "नवीन संचयीका"
 
 #: krusader/Panel/listpanelactions.cpp:90
 msgid "Start Terminal Here"
@@ -5842,8 +5860,9 @@ msgid "&Properties..."
 msgstr "गुणधर्म"
 
 #: krusader/Panel/listpanelactions.cpp:97
-msgid "&Compare Directories"
-msgstr ""
+#, fuzzy
+msgid "&Compare Folders"
+msgstr "फाईलची तुलना करा"
 
 #: krusader/Panel/listpanelactions.cpp:98
 msgid "Calculate &Occupied Space"
@@ -5874,7 +5893,7 @@ msgid "Root"
 msgstr "रूट"
 
 #: krusader/Panel/listpanelactions.cpp:108
-msgid "Go to Other Panel's Directory"
+msgid "Go to Other Panel's Folder"
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:109
@@ -5906,7 +5925,7 @@ msgid "Set Jump Back Point"
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:116
-msgid "S&ynchron Directory Changes"
+msgid "S&ynchron Folder Changes"
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:117
@@ -5956,7 +5975,7 @@ msgid "ROOT (/)"
 msgstr "रूट"
 
 #: krusader/Panel/listpanelactions.cpp:132
-msgid "Rename file, directory, etc."
+msgid "Rename file, folder, etc."
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:133
@@ -5965,8 +5984,8 @@ msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:134
 msgid ""
-"<p>Edit file.</p><p>The editor can be defined in Konfigurator, default is "
-"<b>internal editor</b>.</p>"
+"<qt><p>Edit file.</p><p>The editor can be defined in Konfigurator, default "
+"is <b>internal editor</b>.</p></qt>"
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:137
@@ -5978,17 +5997,17 @@ msgid "Move file from one panel to the other."
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:139
-msgid "Create directory in current panel."
+msgid "Create folder in current panel."
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:140
-msgid "Delete file, directory, etc."
+msgid "Delete file, folder, etc."
 msgstr ""
 
 #: krusader/Panel/listpanelactions.cpp:141
 msgid ""
-"<p>Open terminal in current directory.</p><p>The terminal can be defined in "
-"Konfigurator, default is <b>konsole</b>.</p>"
+"<qt><p>Open terminal in current folder.</p><p>The terminal can be defined in "
+"Konfigurator, default is <b>konsole</b>.</p></qt>"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:428
@@ -6031,7 +6050,7 @@ msgid "Create a new link to: %1"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:483 krusader/Panel/panelfunc.cpp:740
-msgid "A directory or a file with this name already exists."
+msgid "A folder or a file with this name already exists."
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:495
@@ -6053,7 +6072,7 @@ msgid "Enter a URL to view:"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:545
-msgid "You cannot edit a directory"
+msgid "You cannot edit a folder"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:550
@@ -6081,12 +6100,16 @@ msgid "You cannot move files to this file system"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:721
-msgid "New directory"
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "New folder"
+msgstr "नवीन संचयीका"
 
 #: krusader/Panel/panelfunc.cpp:721
-msgid "Directory's name:"
-msgstr ""
+#, fuzzy
+#| msgid "Folders"
+msgid "Folder's name:"
+msgstr "संचयीका"
 
 #: krusader/Panel/panelfunc.cpp:813
 #, fuzzy, kde-format
@@ -6105,7 +6128,7 @@ msgid "You cannot copy files to this file system"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:891
-msgid "You do not have write permission to this directory"
+msgid "You do not have write permission to this folder"
 msgstr ""
 
 #: krusader/Panel/panelfunc.cpp:909
@@ -6147,7 +6170,7 @@ msgstr[1] ""
 #: krusader/Panel/panelfunc.cpp:942
 #, kde-format
 msgid ""
-"<qt><p>Directory <b>%1</b> is not empty.</p><p>Skip this one or delete all?</"
+"<qt><p>Folder <b>%1</b> is not empty.</p><p>Skip this one or delete all?</"
 "p></qt>"
 msgstr ""
 
@@ -6218,7 +6241,7 @@ msgid "View Panel: view the current file"
 msgstr ""
 
 #: krusader/Panel/panelpopup.cpp:322
-msgid "Disk Usage Panel: view the usage of a directory"
+msgid "Disk Usage Panel: view the usage of a folder"
 msgstr ""
 
 #: krusader/Panel/panelpopup.cpp:365 krusader/Panel/panelpopup.cpp:542
@@ -6358,7 +6381,7 @@ msgid "Select group"
 msgstr "निवडलेले :"
 
 #: krusader/Panel/viewactions.cpp:73
-msgid "Select all files in the current directory"
+msgid "Select all files in the current folder"
 msgstr ""
 
 #: krusader/Panel/viewactions.cpp:74
@@ -6603,7 +6626,7 @@ msgid "Splitting the file %1..."
 msgstr ""
 
 #: krusader/Splitter/splitter.cpp:94
-msgid "Cannot split a directory."
+msgid "Cannot split a folder."
 msgstr ""
 
 #: krusader/Splitter/splitter.cpp:141
@@ -6654,7 +6677,7 @@ msgstr ""
 
 #: krusader/Splitter/splittergui.cpp:94
 #, kde-format
-msgid "Split the file %1 to directory:"
+msgid "Split the file %1 to folder:"
 msgstr ""
 
 #: krusader/Splitter/splittergui.cpp:111
@@ -6691,7 +6714,7 @@ msgid "Krusader::Splitter"
 msgstr ""
 
 #: krusader/Splitter/splittergui.cpp:268
-msgid "The directory path URL is malformed."
+msgid "The folder path URL is malformed."
 msgstr ""
 
 #: krusader/Synchronizer/feedtolistboxdialog.cpp:59
@@ -6816,7 +6839,7 @@ msgstr ""
 
 #: krusader/Synchronizer/synchronizer.cpp:210
 #, kde-format
-msgid "Number of compared directories: %1"
+msgid "Number of compared folders: %1"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizer.cpp:1168
@@ -6839,17 +6862,18 @@ msgid "Feeding the URLs to KGet"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizerdirlist.cpp:137
+#: krusader/VFS/normal_vfs.cpp:101
 #, kde-format
-msgid "Cannot open the %1 directory."
+msgid "Cannot open the folder %1."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1120
 #: krusader/Synchronizer/synchronizergui.cpp:2350
-msgid "Krusader::Synchronize Directories"
+msgid "Krusader::Synchronize Folders"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1139
-msgid "Directory Comparison"
+msgid "Folder Comparison"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1150
@@ -6857,19 +6881,19 @@ msgid "File &Filter:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1172
-msgid "The left base directory used during the synchronization process."
+msgid "The left base folder used during the synchronization process."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1205
-msgid "The right base directory used during the synchronization process."
+msgid "The right base folder used during the synchronization process."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1219
-msgid "Recurse subdirectories"
+msgid "Recurse subfolders"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1222
-msgid "Compare not only the base directories but their subdirectories as well."
+msgid "Compare not only the base folders but their subfolders as well."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1223
@@ -6905,9 +6929,9 @@ msgstr ""
 #: krusader/Synchronizer/synchronizergui.cpp:1239
 msgid ""
 "<p><b>Asymmetric mode</b></p><p>The left side is the destination, the right "
-"is the source directory. Files existing only in the left directory will be "
+"is the source folder. Files existing only in the left folder will be "
 "deleted, the other differing ones will be copied from right to left.</"
-"p><p><b>Note</b>: useful when updating a directory from a file server.</p>"
+"p><p><b>Note</b>: useful when updating a folder from a file server.</p>"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1240
@@ -7058,35 +7082,37 @@ msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
 #: krusader/Synchronizer/synchronizergui.cpp:1645
-msgid "Selected files from targ&et directory:"
+msgid "Selected files from targ&et folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1646
-msgid "Selected files from sou&rce directory:"
+msgid "Selected files from sou&rce folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1648
-msgid "Selected files from &left directory:"
+msgid "Selected files from &left folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1649
-msgid "Selected files from &right directory:"
+msgid "Selected files from &right folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1651
-msgid "Targ&et directory:"
+msgid "Targ&et folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1652
-msgid "Sou&rce directory:"
+msgid "Sou&rce folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1654
-msgid "&Left directory:"
-msgstr ""
+#, fuzzy
+#| msgid "New Folder"
+msgid "&Left folder:"
+msgstr "नवीन संचयीका"
 
 #: krusader/Synchronizer/synchronizergui.cpp:1655
-msgid "&Right directory:"
+msgid "&Right folder:"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1688
@@ -7094,8 +7120,10 @@ msgid "URL must be the descendant of either the left or the right base URL."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1746
-msgid "Synchronize Directories"
-msgstr ""
+#, fuzzy
+#| msgid "Synchronize"
+msgid "Synchronize Folders"
+msgstr "सिंक्रोनाईझ"
 
 #: krusader/Synchronizer/synchronizergui.cpp:1748
 msgid "E&xclude"
@@ -7168,11 +7196,11 @@ msgid "Deselect items"
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:1996
-msgid "The target directory must not be empty."
+msgid "The target folder must not be empty."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:2001
-msgid "The source directory must not be empty."
+msgid "The source folder must not be empty."
 msgstr ""
 
 #: krusader/Synchronizer/synchronizergui.cpp:2241
@@ -7394,8 +7422,10 @@ msgid "Expander: %Each% may not be in the second argument of %Clipboard%"
 msgstr ""
 
 #: krusader/UserAction/expander.cpp:608
-msgid "Copy a File/Directory..."
-msgstr ""
+#, fuzzy
+#| msgid "Folder..."
+msgid "Copy a File/Folder..."
+msgstr "संचयीका..."
 
 #: krusader/UserAction/expander.cpp:612
 msgid "Where to copy:"
@@ -7414,7 +7444,7 @@ msgid "Expander: invalid URLs in %_Copy(\"src\", \"dest\")%"
 msgstr ""
 
 #: krusader/UserAction/expander.cpp:646
-msgid "Move/Rename a File/Directory..."
+msgid "Move/Rename a File/Folder..."
 msgstr ""
 
 #: krusader/UserAction/expander.cpp:649
@@ -7751,7 +7781,7 @@ msgid "Backup current"
 msgstr ""
 
 #: krusader/useraction_examples.xml:83
-msgid "Backup current file in current directory"
+msgid "Backup current file in current folder"
 msgstr ""
 
 #: krusader/useraction_examples.xml:85
@@ -7760,7 +7790,7 @@ msgstr ""
 
 #: krusader/useraction_examples.xml:86
 msgid ""
-"Backups current file in current directory and asks the user for a new "
+"Backs current file up in current folder and asks the user for a new "
 "filename. By default \".old\" is appended to the original filename."
 msgstr ""
 
@@ -7811,9 +7841,11 @@ msgid "Status"
 msgstr "स्थिती"
 
 #: krusader/VFS/kiojobwrapper.cpp:245
+#, fuzzy
+#| msgid "Folders"
 msgctxt "Job type"
-msgid "Directory Size"
-msgstr ""
+msgid "Folder Size"
+msgstr "संचयीका"
 
 #: krusader/VFS/kiojobwrapper.cpp:248
 msgctxt "Job type"
@@ -7911,22 +7943,17 @@ msgstr ""
 
 #: krusader/VFS/normal_vfs.cpp:90
 #, kde-format
-msgid "The directory %1 does not exist."
-msgstr ""
-
-#: krusader/VFS/normal_vfs.cpp:101
-#, kde-format
-msgid "Cannot open the directory %1."
+msgid "The folder %1 does not exist."
 msgstr ""
 
 #: krusader/VFS/normal_vfs.cpp:109
 #, kde-format
-msgctxt "%1=directory path"
+msgctxt "%1=folder path"
 msgid "Access to %1 denied"
 msgstr ""
 
 #: krusader/VFS/normal_vfs.cpp:212
-msgid "Cannot create a directory. Check your permissions."
+msgid "Cannot create a folder. Check your permissions."
 msgstr ""
 
 #: krusader/VFS/packjob.cpp:75 krusader/VFS/packjob.cpp:203
@@ -7959,12 +7986,12 @@ msgstr ""
 
 #: krusader/VFS/virt_vfs.cpp:95
 msgid ""
-"You cannot copy files directly to the 'virt:/' directory.\n"
-"You can create a sub directory and copy your files into it."
+"You cannot copy files directly to the 'virt:/' folder.\n"
+"You can create a sub folder and copy your files into it."
 msgstr ""
 
 #: krusader/VFS/virt_vfs.cpp:182
-msgid "Creating new directories is allowed only in the 'virt:/' directory."
+msgid "Creating new folders is allowed only in the 'virt:/' folder."
 msgstr ""
 
 #: krusader/VFS/virtualcopyjob.cpp:391
@@ -7981,6 +8008,9 @@ msgctxt "@title job"
 msgid "Moving"
 msgstr "हलवित आहे"
 
+#~ msgid "Directory"
+#~ msgstr "संचयीका"
+
 #, fuzzy
 #~ msgid "Source:"
 #~ msgstr "स्रोत :"
@@ -7994,12 +8024,6 @@ msgstr "हलवित आहे"
 #~ msgid_plural "%1 directories"
 #~ msgstr[0] "संचयीका"
 #~ msgstr[1] ""
-
-#, fuzzy
-#~ msgid "%1 file"
-#~ msgid_plural "%1 files"
-#~ msgstr[0] "%1 फाईल"
-#~ msgstr[1] "%1 फाईल"
 
 #, fuzzy
 #~ msgid "%1 of %2 complete"
