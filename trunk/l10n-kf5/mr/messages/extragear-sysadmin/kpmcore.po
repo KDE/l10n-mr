@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-05 07:43+0000\n"
+"POT-Creation-Date: 2016-05-07 07:37+0000\n"
 "PO-Revision-Date: 2013-04-01 17:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -123,22 +123,22 @@ msgctxt "@info/plain"
 msgid "Add operation: %1"
 msgstr ""
 
-#: core/partition.cpp:159
+#: core/partition.cpp:160
 msgctxt "@item partition name"
 msgid "unallocated"
 msgstr ""
 
-#: core/partition.cpp:162
+#: core/partition.cpp:163
 msgctxt "@item partition name"
 msgid "New Partition"
 msgstr "नवीन विभाजन"
 
-#: core/partition.cpp:165
+#: core/partition.cpp:166
 msgctxt "@item partition name"
 msgid "Restored Partition"
 msgstr "पुन्हस्थापित विभाजन"
 
-#: core/partition.cpp:168
+#: core/partition.cpp:169
 #, kde-format
 msgctxt "@item partition name"
 msgid "Copy of %1"
@@ -160,27 +160,32 @@ msgid ""
 "modulo: %3)."
 msgstr ""
 
-#: core/partitionrole.cpp:28
+#: core/partitionrole.cpp:29
 msgctxt "@item partition role"
 msgid "unallocated"
 msgstr ""
 
-#: core/partitionrole.cpp:31
+#: core/partitionrole.cpp:32
 msgctxt "@item partition role"
 msgid "logical"
 msgstr ""
 
-#: core/partitionrole.cpp:34
+#: core/partitionrole.cpp:35
 msgctxt "@item partition role"
 msgid "extended"
 msgstr "विस्तारीत"
 
-#: core/partitionrole.cpp:37
+#: core/partitionrole.cpp:38
 msgctxt "@item partition role"
 msgid "primary"
 msgstr "प्राथमिक"
 
-#: core/partitionrole.cpp:39
+#: core/partitionrole.cpp:41
+msgctxt "@item partition role"
+msgid "LUKS"
+msgstr ""
+
+#: core/partitionrole.cpp:43
 msgctxt "@item partition role"
 msgid "none"
 msgstr "काही नाही"
@@ -1065,7 +1070,7 @@ msgid ""
 "Could not create temp dir."
 msgstr ""
 
-#: fs/btrfs.cpp:153
+#: fs/btrfs.cpp:154
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1073,7 +1078,7 @@ msgid ""
 "btrfs file system resize failed."
 msgstr ""
 
-#: fs/btrfs.cpp:158
+#: fs/btrfs.cpp:159
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1081,7 +1086,7 @@ msgid ""
 "Unmount failed."
 msgstr ""
 
-#: fs/btrfs.cpp:160
+#: fs/btrfs.cpp:161
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1095,7 +1100,7 @@ msgctxt "@info/plain"
 msgid "Setting label for partition <filename>%1</filename> to %2"
 msgstr ""
 
-#: fs/filesystem.cpp:297
+#: fs/filesystem.cpp:308
 #, fuzzy
 #| msgctxt "@item/plain partition table name"
 #| msgid "unknown"
@@ -1103,7 +1108,7 @@ msgctxt "@item filesystem name"
 msgid "unknown"
 msgstr "अपरिचीत"
 
-#: fs/filesystem.cpp:298
+#: fs/filesystem.cpp:309
 #, fuzzy
 #| msgctxt "@item partition role"
 #| msgid "extended"
@@ -1111,7 +1116,7 @@ msgctxt "@item filesystem name"
 msgid "extended"
 msgstr "विस्तारीत"
 
-#: fs/filesystem.cpp:300
+#: fs/filesystem.cpp:311
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ext2"
@@ -1119,7 +1124,7 @@ msgctxt "@item filesystem name"
 msgid "ext2"
 msgstr "ext2"
 
-#: fs/filesystem.cpp:301
+#: fs/filesystem.cpp:312
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ext3"
@@ -1127,7 +1132,7 @@ msgctxt "@item filesystem name"
 msgid "ext3"
 msgstr "ext3"
 
-#: fs/filesystem.cpp:302
+#: fs/filesystem.cpp:313
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ext4"
@@ -1135,7 +1140,7 @@ msgctxt "@item filesystem name"
 msgid "ext4"
 msgstr "ext4"
 
-#: fs/filesystem.cpp:303
+#: fs/filesystem.cpp:314
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "linuxswap"
@@ -1143,7 +1148,7 @@ msgctxt "@item filesystem name"
 msgid "linuxswap"
 msgstr "linuxswap"
 
-#: fs/filesystem.cpp:304
+#: fs/filesystem.cpp:315
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "fat16"
@@ -1151,7 +1156,7 @@ msgctxt "@item filesystem name"
 msgid "fat16"
 msgstr "fat16"
 
-#: fs/filesystem.cpp:305
+#: fs/filesystem.cpp:316
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "fat32"
@@ -1159,7 +1164,7 @@ msgctxt "@item filesystem name"
 msgid "fat32"
 msgstr "fat32"
 
-#: fs/filesystem.cpp:306
+#: fs/filesystem.cpp:317
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ntfs"
@@ -1167,7 +1172,7 @@ msgctxt "@item filesystem name"
 msgid "ntfs"
 msgstr "ntfs"
 
-#: fs/filesystem.cpp:307
+#: fs/filesystem.cpp:318
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "reiser"
@@ -1175,7 +1180,7 @@ msgctxt "@item filesystem name"
 msgid "reiser"
 msgstr "reiser"
 
-#: fs/filesystem.cpp:308
+#: fs/filesystem.cpp:319
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "reiser4"
@@ -1183,7 +1188,7 @@ msgctxt "@item filesystem name"
 msgid "reiser4"
 msgstr "reiser4"
 
-#: fs/filesystem.cpp:309
+#: fs/filesystem.cpp:320
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "xfs"
@@ -1191,14 +1196,14 @@ msgctxt "@item filesystem name"
 msgid "xfs"
 msgstr "xfs"
 
-#: fs/filesystem.cpp:310
+#: fs/filesystem.cpp:321
 #, fuzzy
 #| msgid "jfs"
 msgctxt "@item filesystem name"
 msgid "jfs"
 msgstr "jfs"
 
-#: fs/filesystem.cpp:311
+#: fs/filesystem.cpp:322
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "hfs"
@@ -1206,7 +1211,7 @@ msgctxt "@item filesystem name"
 msgid "hfs"
 msgstr "hfs"
 
-#: fs/filesystem.cpp:312
+#: fs/filesystem.cpp:323
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "hfsplus"
@@ -1214,7 +1219,7 @@ msgctxt "@item filesystem name"
 msgid "hfsplus"
 msgstr "hfsplus"
 
-#: fs/filesystem.cpp:313
+#: fs/filesystem.cpp:324
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ufs"
@@ -1222,7 +1227,7 @@ msgctxt "@item filesystem name"
 msgid "ufs"
 msgstr "ufs"
 
-#: fs/filesystem.cpp:314
+#: fs/filesystem.cpp:325
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "unformatted"
@@ -1230,7 +1235,7 @@ msgctxt "@item filesystem name"
 msgid "unformatted"
 msgstr "अनफोर्मेटेड"
 
-#: fs/filesystem.cpp:315
+#: fs/filesystem.cpp:326
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "btrfs"
@@ -1238,7 +1243,7 @@ msgctxt "@item filesystem name"
 msgid "btrfs"
 msgstr "btrfs"
 
-#: fs/filesystem.cpp:316
+#: fs/filesystem.cpp:327
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "hpfs"
@@ -1246,7 +1251,7 @@ msgctxt "@item filesystem name"
 msgid "hpfs"
 msgstr "hpfs"
 
-#: fs/filesystem.cpp:317
+#: fs/filesystem.cpp:328
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "luks"
@@ -1254,7 +1259,7 @@ msgctxt "@item filesystem name"
 msgid "luks"
 msgstr "luks"
 
-#: fs/filesystem.cpp:318
+#: fs/filesystem.cpp:329
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "ocfs2"
@@ -1262,7 +1267,7 @@ msgctxt "@item filesystem name"
 msgid "ocfs2"
 msgstr "ocfs2"
 
-#: fs/filesystem.cpp:319
+#: fs/filesystem.cpp:330
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "zfs"
@@ -1270,7 +1275,7 @@ msgctxt "@item filesystem name"
 msgid "zfs"
 msgstr "zfs"
 
-#: fs/filesystem.cpp:320
+#: fs/filesystem.cpp:331
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "exfat"
@@ -1278,7 +1283,7 @@ msgctxt "@item filesystem name"
 msgid "exfat"
 msgstr "exfat"
 
-#: fs/filesystem.cpp:321
+#: fs/filesystem.cpp:332
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "nilfs2"
@@ -1286,7 +1291,7 @@ msgctxt "@item filesystem name"
 msgid "nilfs2"
 msgstr "nilfs2"
 
-#: fs/filesystem.cpp:322
+#: fs/filesystem.cpp:333
 #, fuzzy
 #| msgctxt "@item/plain filesystem name"
 #| msgid "lvm2 pv"
@@ -1294,17 +1299,17 @@ msgctxt "@item filesystem name"
 msgid "lvm2 pv"
 msgstr "lvm2 pv"
 
-#: fs/filesystem.cpp:323
+#: fs/filesystem.cpp:334
 msgctxt "@item filesystem name"
 msgid "f2fs"
 msgstr ""
 
-#: fs/filesystem.cpp:367
+#: fs/filesystem.cpp:378 fs/luks.cpp:158
 msgctxt "@title:menu"
 msgid "Mount"
 msgstr "माऊंट करा"
 
-#: fs/filesystem.cpp:373
+#: fs/filesystem.cpp:384 fs/luks.cpp:163
 msgctxt "@title:menu"
 msgid "Unmount"
 msgstr "अनमाऊंट करा"
@@ -1341,25 +1346,55 @@ msgid ""
 "Initial mount failed."
 msgstr ""
 
-#: fs/linuxswap.cpp:126
+#: fs/linuxswap.cpp:127
 msgctxt "@title:menu"
 msgid "Activate swap"
 msgstr ""
 
-#: fs/linuxswap.cpp:131
+#: fs/linuxswap.cpp:132
 msgctxt "@title:menu"
 msgid "Deactivate swap"
 msgstr ""
 
-#: fs/luks.cpp:91
+#: fs/luks.cpp:168
 msgctxt "@title:menu"
 msgid "Decrypt"
 msgstr ""
 
-#: fs/luks.cpp:96
+#: fs/luks.cpp:173
 msgctxt "@title:menu"
 msgid "Deactivate"
 msgstr ""
+
+#: fs/luks.cpp:254
+#, kde-format
+msgid "Enter passphrase for %1:"
+msgstr ""
+
+#: fs/luks.cpp:490
+#, fuzzy, kde-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info/plain"
+msgid "Resizing LUKS crypt on partition <filename>%1</filename>."
+msgstr "नवीन विभाजन"
+
+#: fs/luks.cpp:497
+#, fuzzy, kde-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info/plain"
+msgid ""
+"Resizing encrypted file system on partition <filename>%1</filename> failed."
+msgstr "नवीन विभाजन"
+
+#: fs/luks.cpp:502
+#, fuzzy, kde-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info/plain"
+msgid "Resizing encrypted file system on partition <filename>%1</filename>."
+msgstr "नवीन विभाजन"
 
 #: fs/nilfs2.cpp:142
 #, kde-format
@@ -1393,7 +1428,7 @@ msgid ""
 "Initial mount failed."
 msgstr ""
 
-#: fs/ntfs.cpp:186
+#: fs/ntfs.cpp:180
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1401,7 +1436,7 @@ msgid ""
 "filename>."
 msgstr ""
 
-#: fs/ntfs.cpp:198
+#: fs/ntfs.cpp:192
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1409,7 +1444,7 @@ msgid ""
 "update the NTFS boot sector."
 msgstr ""
 
-#: fs/ntfs.cpp:203
+#: fs/ntfs.cpp:197
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1417,7 +1452,7 @@ msgid ""
 "trying to update the NTFS boot sector."
 msgstr ""
 
-#: fs/ntfs.cpp:208
+#: fs/ntfs.cpp:202
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1425,7 +1460,7 @@ msgid ""
 "trying to update the NTFS boot sector."
 msgstr ""
 
-#: fs/ntfs.cpp:212
+#: fs/ntfs.cpp:206
 #, kde-format
 msgctxt "@info/plain"
 msgid ""
@@ -1462,29 +1497,6 @@ msgctxt "@info/plain"
 msgid ""
 "Resizing XFS file system on partition <filename>%1</filename> failed: "
 "Initial mount failed."
-msgstr ""
-
-#: gui/decryptluksdialog.cpp:37
-#, fuzzy, kde-format
-#| msgctxt "@item partition name"
-#| msgid "New Partition"
-msgctxt "@title:window"
-msgid "Decrypt LUKS partition on <filename>%1</filename>"
-msgstr "नवीन विभाजन"
-
-#: gui/decryptluksdialog.cpp:41
-msgctxt "@action:button"
-msgid "&Decrypt"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_Name)
-#: gui/decryptluksdialogwidgetbase.ui:22
-msgid "&Name:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_Pass)
-#: gui/decryptluksdialogwidgetbase.ui:35
-msgid "&Passphrase:"
 msgstr ""
 
 #: jobs/backupfilesystemjob.cpp:63
@@ -2105,13 +2117,13 @@ msgctxt "@info/plain"
 msgid "Create a new partition table (type: %1) on <filename>%2</filename>"
 msgstr ""
 
-#: ops/deleteoperation.cpp:92
+#: ops/deleteoperation.cpp:93
 #, kde-format
 msgctxt "@info/plain"
 msgid "Shred partition <filename>%1</filename> (%2, %3)"
 msgstr ""
 
-#: ops/deleteoperation.cpp:94
+#: ops/deleteoperation.cpp:95
 #, kde-format
 msgctxt "@info/plain"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
@@ -2346,19 +2358,19 @@ msgctxt "@info/plain"
 msgid "Set flags for partition <filename>%1</filename> to \"%2\""
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:88
+#: plugins/libparted/libpartedbackend.cpp:89
 #, kde-format
 msgctxt "@info/plain"
 msgid "LibParted Exception: %1"
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:397
+#: plugins/libparted/libpartedbackend.cpp:427
 #, kde-format
 msgctxt "@info/plain"
 msgid "Could not access device <filename>%1</filename>"
 msgstr ""
 
-#: plugins/libparted/libpartedbackend.cpp:401
+#: plugins/libparted/libpartedbackend.cpp:431
 #, kde-format
 msgctxt "@info/plain"
 msgid "Device found: %1"
@@ -2490,19 +2502,19 @@ msgid ""
 "<filename>%2</filename>."
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:316
-#: plugins/libparted/libpartedpartitiontable.cpp:323
+#: plugins/libparted/libpartedpartitiontable.cpp:317
+#: plugins/libparted/libpartedpartitiontable.cpp:324
 #, kde-format
 msgctxt "@info/plain"
 msgid "Could not update the system type for partition <filename>%1</filename>."
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:317
+#: plugins/libparted/libpartedpartitiontable.cpp:318
 msgctxt "@info/plain"
 msgid "No file system defined."
 msgstr ""
 
-#: plugins/libparted/libpartedpartitiontable.cpp:324
+#: plugins/libparted/libpartedpartitiontable.cpp:325
 #, kde-format
 msgctxt "@info/plain"
 msgid "No partition found at sector %1."
@@ -2580,7 +2592,7 @@ msgctxt "@info/plain"
 msgid "(Command timeout while running \"%1\")"
 msgstr ""
 
-#: util/helpers.cpp:46
+#: util/helpers.cpp:47
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "स्थंभ"
