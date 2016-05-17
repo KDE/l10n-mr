@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-15 07:17+0000\n"
+"POT-Creation-Date: 2016-05-17 08:29+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1267,7 +1267,7 @@ msgstr "पालक"
 #: krita/crashreporter/mainwindow.cpp:74
 #: krita/crashreporter/mainwindow.cpp:129
 #: libs/ui/dialogs/kis_dlg_preferences.cc:244
-#: libs/ui/input/kis_tablet_debugger.cpp:100 libs/ui/kis_filter_manager.cc:214
+#: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:214
 #: libs/ui/kis_filter_manager.cc:223 libs/ui/kis_layer_manager.cc:724
 #: libs/ui/KisApplication.cpp:644 libs/ui/KisApplication.cpp:647
 #: libs/ui/KisApplication.cpp:672 libs/ui/KisApplication.cpp:698
@@ -8063,12 +8063,12 @@ msgstr "अचुकता :"
 msgid "Pencil"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:352
+#: libs/brush/kis_auto_brush.cpp:372
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Density recommended value 100.0"
 msgstr ""
 
-#: libs/brush/kis_auto_brush.cpp:356
+#: libs/brush/kis_auto_brush.cpp:376
 msgctxt "PaintOp instant preview limitation"
 msgid "Brush Randomness recommended value 0.0"
 msgstr ""
@@ -8859,7 +8859,7 @@ msgctxt "property of a filter layer, noun"
 msgid "Filter"
 msgstr "गाळणी"
 
-#: libs/image/kis_base_mask_generator.h:33
+#: libs/image/kis_base_mask_generator.h:35
 #: libs/ui/kis_bookmarked_configurations_model.cc:66
 #: plugins/dockers/shapedockers/shapecollection/ShapeCollectionDocker.cpp:307
 #: plugins/flake/textshape/kotext/styles/KoStyleManager.cpp:106
@@ -8869,7 +8869,7 @@ msgstr "मूलभूत"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, editSharpness)
 #. i18n: ectx: property (text), item, widget (QComboBox, editContrast)
-#: libs/image/kis_base_mask_generator.h:34
+#: libs/image/kis_base_mask_generator.h:36
 #: plugins/extensions/metadataeditor/editors/exif.ui:860
 #: plugins/extensions/metadataeditor/editors/exif.ui:892
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:63
@@ -8877,7 +8877,7 @@ msgstr "मूलभूत"
 msgid "Soft"
 msgstr "मृदू"
 
-#: libs/image/kis_base_mask_generator.h:35
+#: libs/image/kis_base_mask_generator.h:37
 #, fuzzy
 msgid "Gaussian"
 msgstr "गॉसियन अंधुकपणा"
@@ -9090,41 +9090,47 @@ msgstr "गुणोत्तर निसाधनण (&C)"
 msgid "Color Label"
 msgstr "रंगाचा दर"
 
-#: libs/image/kis_layer_utils.cpp:256
+#: libs/image/kis_layer_utils.cpp:258
 #, fuzzy
 msgid "Merged"
 msgstr "प्रत मिसळा"
 
-#: libs/image/kis_layer_utils.cpp:671
+#: libs/image/kis_layer_utils.cpp:673
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Down"
 msgstr "बिंदू काढून टाका"
 
-#: libs/image/kis_layer_utils.cpp:854
+#: libs/image/kis_layer_utils.cpp:856
 #, fuzzy
 msgid "Copy of"
 msgstr "पासून प्रत करा"
 
-#: libs/image/kis_layer_utils.cpp:976
+#: libs/image/kis_layer_utils.cpp:918
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change projection color"
+msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
+
+#: libs/image/kis_layer_utils.cpp:994
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selected Nodes"
 msgstr "निवडलेला रंग काढा"
 
-#: libs/image/kis_layer_utils.cpp:1055
+#: libs/image/kis_layer_utils.cpp:1073
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Merge Selection Masks"
 msgstr "निवड "
 
-#: libs/image/kis_layer_utils.cpp:1078
+#: libs/image/kis_layer_utils.cpp:1096
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Layer"
 msgstr "स्तर सपाट करा"
 
-#: libs/image/kis_layer_utils.cpp:1086
+#: libs/image/kis_layer_utils.cpp:1104
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flatten Image"
@@ -10827,21 +10833,15 @@ msgctxt "@title:window"
 msgid "Filter: %1"
 msgstr "गाळणी :"
 
-#: libs/ui/dialogs/kis_dlg_image_properties.cc:55
+#: libs/ui/dialogs/kis_dlg_image_properties.cc:54
 msgid "Image Properties"
 msgstr "प्रतिमेचे गुणधर्म"
 
-#: libs/ui/dialogs/kis_dlg_image_properties.cc:73
+#: libs/ui/dialogs/kis_dlg_image_properties.cc:72
 #: libs/ui/dialogs/kis_dlg_preferences.cc:718
 #, fuzzy
 msgid "Change the background color of the image"
 msgstr "पार्श्वभूमीच्या रंगातील बदल"
-
-#: libs/ui/dialogs/kis_dlg_image_properties.cc:123
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Change projection color"
-msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
 #: libs/ui/dialogs/kis_dlg_import_image_sequence.cpp:58
 #: plugins/flake/textshape/dialogs/BibliographyConfigureDialog.cpp:109
@@ -11146,7 +11146,7 @@ msgstr "स्क्रीनचा आकार (&S)"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:370
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:774
-#: libs/ui/widgets/kis_color_space_selector.cc:181
+#: libs/ui/widgets/kis_color_space_selector.cc:185
 #, fuzzy
 msgid "Install Color Profiles"
 msgstr "खुली रंग रूपरेषा"
@@ -13701,11 +13701,11 @@ msgstr "पॉप अप पटल दर्शवा"
 msgid "The <i>Show Popup Palette</i> displays the popup palette."
 msgstr ""
 
-#: libs/ui/input/kis_tablet_debugger.cpp:101
+#: libs/ui/input/kis_tablet_debugger.cpp:104
 msgid "Tablet Event Logging Enabled"
 msgstr ""
 
-#: libs/ui/input/kis_tablet_debugger.cpp:102
+#: libs/ui/input/kis_tablet_debugger.cpp:105
 msgid "Tablet Event Logging Disabled"
 msgstr ""
 
@@ -13970,7 +13970,7 @@ msgstr ""
 msgid "Apply Filter Again: %1"
 msgstr "गाळणी पुन्हा लागू करा : %1"
 
-#: libs/ui/kis_image_manager.cc:117
+#: libs/ui/kis_image_manager.cc:118
 msgid "Import Image"
 msgstr "प्रतिमा आयात करा"
 
