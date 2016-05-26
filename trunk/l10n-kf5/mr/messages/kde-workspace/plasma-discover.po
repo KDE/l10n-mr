@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-12 07:17+0000\n"
+"POT-Creation-Date: 2016-05-25 07:36+0000\n"
 "PO-Revision-Date: 2013-04-01 10:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,42 +17,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: discover/main.cpp:56 discover/qml/DiscoverWindow.qml:59
-#: discover/qml/DiscoverWindow_PlasmaPhone.qml:29
-msgid "Discover"
-msgstr "शोधा"
-
-#: discover/main.cpp:56
-#, fuzzy
-#| msgid "An application discoverer"
-msgid "An application explorer"
-msgstr "अनुप्रयोग शोधक"
-
-#: discover/main.cpp:57
-msgid "© 2010-2016 Plasma Development Team"
-msgstr ""
-
-#: discover/main.cpp:58
-msgid "Aleix Pol Gonzalez"
-msgstr "एलैक्स पोल गोन्झालेझ"
-
-#: discover/main.cpp:59
-msgid "Jonathan Thomas"
-msgstr "जोनाथन थोमस"
-
-#: discover/main.cpp:67
+#: discover/main.cpp:49
 msgid "Directly open the specified application by its package name."
 msgstr "निर्देशीत अनुप्रयोग त्याच्या पॅकेज नावाने उघडा."
 
-#: discover/main.cpp:68
+#: discover/main.cpp:50
 msgid "Open with a program that can deal with the given mimetype."
 msgstr "दिलेल्या माइम प्रकाराशी चालू शकेल अशा कार्यक्रमात उघडा."
 
-#: discover/main.cpp:69
+#: discover/main.cpp:51
 msgid "Display a list of entries with a category."
 msgstr "नोंदींची यादी विभागासहित दर्शवा."
 
-#: discover/main.cpp:70
+#: discover/main.cpp:52
 #, fuzzy
 #| msgid ""
 #| "Open Muon Discover in a said mode. Modes correspond to the toolbar "
@@ -60,21 +37,44 @@ msgstr "नोंदींची यादी विभागासहित द
 msgid "Open Discover in a said mode. Modes correspond to the toolbar buttons."
 msgstr "म्युओन डिस्कव्हर सांगितलेल्या पद्धतीने उघडा. पध्दती साधनपट्टी बटनांशी संलग्न असतात."
 
-#: discover/main.cpp:71
+#: discover/main.cpp:53
 #, fuzzy
 #| msgid "List all the available modes and output them on stdout."
 msgid "List all the available modes."
 msgstr "उपलब्ध पद्धतीची यादी करा व त्याचे आउटपुट stdout वर द्या."
 
-#: discover/main.cpp:72
+#: discover/main.cpp:54
 msgid "Compact Mode (auto/compact/full)."
 msgstr ""
 
-#: discover/main.cpp:74
+#: discover/main.cpp:56
 msgid "Supports appstream: url scheme"
 msgstr ""
 
-#: discover/main.cpp:91
+#: discover/main.cpp:98 discover/qml/DiscoverWindow.qml:59
+#: discover/qml/DiscoverWindow_PlasmaPhone.qml:29
+msgid "Discover"
+msgstr "शोधा"
+
+#: discover/main.cpp:98
+#, fuzzy
+#| msgid "An application discoverer"
+msgid "An application explorer"
+msgstr "अनुप्रयोग शोधक"
+
+#: discover/main.cpp:99
+msgid "© 2010-2016 Plasma Development Team"
+msgstr ""
+
+#: discover/main.cpp:100
+msgid "Aleix Pol Gonzalez"
+msgstr "एलैक्स पोल गोन्झालेझ"
+
+#: discover/main.cpp:101
+msgid "Jonathan Thomas"
+msgstr "जोनाथन थोमस"
+
+#: discover/main.cpp:130
 msgid "Available modes:\n"
 msgstr "उपलब्ध पद्धती :\n"
 
@@ -257,11 +257,11 @@ msgctxt "Update section name"
 msgid "Update (%1)"
 msgstr "अद्ययावत करा"
 
-#: discover/qml/DiscoverWindow.qml:92
+#: discover/qml/DiscoverWindow.qml:101
 msgid "Configure Sources..."
 msgstr ""
 
-#: discover/qml/DiscoverWindow.qml:101
+#: discover/qml/DiscoverWindow.qml:110
 msgid "Advanced..."
 msgstr ""
 
@@ -290,15 +290,20 @@ msgstr[1] ""
 msgid "Sort by "
 msgstr ""
 
-#: discover/qml/Main.qml:91 discover/qml/Main.qml:103
+#: discover/qml/JustMessageAction.qml:10
 msgid "Got it"
 msgstr ""
 
-#: discover/qml/Main.qml:92
+#: discover/qml/Main.qml:93
 msgid "Could not close the application, there are tasks that need to be done."
 msgstr ""
 
-#: discover/qml/Main.qml:104
+#: discover/qml/Main.qml:102
+#, kde-format
+msgid "Resources requested but unable to find: %1"
+msgstr ""
+
+#: discover/qml/Main.qml:110
 msgid "Running as <em>root</em> is discouraged and unnecessary."
 msgstr ""
 
