@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-27 07:16+0000\n"
+"POT-Creation-Date: 2016-05-29 07:12+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -320,55 +320,55 @@ msgstr "प्रोफाईल \"%1\" संपादित करा"
 msgid "Profile name is empty."
 msgstr "प्रोफाईल नाव रिकामे आहे"
 
-#: EditProfileDialog.cpp:333
+#: EditProfileDialog.cpp:307
 msgid "Edit Environment"
 msgstr "एनवायर्नमेन्ट संपादित करा"
 
-#: EditProfileDialog.cpp:334
+#: EditProfileDialog.cpp:308
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:355
+#: EditProfileDialog.cpp:329
 msgctxt "Unit of time"
 msgid " second"
 msgid_plural " seconds"
 msgstr[0] " सेकंद"
 msgstr[1] " सेकंद"
 
-#: EditProfileDialog.cpp:421
+#: EditProfileDialog.cpp:395
 msgid "Select Initial Directory"
 msgstr "प्रारंभिक संचयीका निवडा"
 
-#: EditProfileDialog.cpp:589
+#: EditProfileDialog.cpp:563
 #, kde-format
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:777
+#: EditProfileDialog.cpp:751
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
 "supported on your desktop"
 msgstr "हे रंग सुत्रयोजना पारदर्शक पार्श्वभूमीचा वापर करते जे डेस्कटॉपवर समर्थीत नाही"
 
-#: EditProfileDialog.cpp:782
+#: EditProfileDialog.cpp:756
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:886 EditProfileDialog.cpp:896
+#: EditProfileDialog.cpp:860 EditProfileDialog.cpp:870
 msgid "New Key Binding List"
 msgstr "नवीन कि बांधणी यादी"
 
-#: EditProfileDialog.cpp:888
+#: EditProfileDialog.cpp:862
 msgid "Edit Key Binding List"
 msgstr "किं बांधणी यादी संपादित करा"
 
-#: EditProfileDialog.cpp:1226
+#: EditProfileDialog.cpp:1200
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1274
+#: EditProfileDialog.cpp:1248
 msgid "AaZz09..."
 msgstr ""
 
@@ -1024,6 +1024,14 @@ msgstr ""
 #: HistorySizeWidget.cpp:46
 msgctxt "@info:status"
 msgid ""
+"When using this option, the scrollback data will be saved to RAM.  If you "
+"choose a huge value, your system may run out of free RAM and cause serious "
+"issues with your system."
+msgstr ""
+
+#: HistorySizeWidget.cpp:55
+msgctxt "@info:status"
+msgid ""
 "When using this option, the scrollback data will be written unencrypted to "
 "temporary files. Those temporary files will be deleted automatically when "
 "Konsole is closed in a normal manner.\n"
@@ -1031,7 +1039,7 @@ msgid ""
 "temporary files."
 msgstr ""
 
-#: HistorySizeWidget.cpp:62
+#: HistorySizeWidget.cpp:71
 msgctxt "Unit of scrollback"
 msgid " line"
 msgid_plural " lines"
@@ -1064,12 +1072,12 @@ msgid "Number of lines of output to remember"
 msgstr "लक्षात ठेवण्याची आऊटपुटची ओळ संख्या"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
-#: HistorySizeWidget.ui:94
+#: HistorySizeWidget.ui:104
 msgid "Remember all output produced by the terminal"
 msgstr "टर्मिनल द्वारे निर्मीत सर्व आऊटपुट लक्षात ठेवा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
-#: HistorySizeWidget.ui:97
+#: HistorySizeWidget.ui:107
 msgid "Unlimited scrollback"
 msgstr "अमर्यादीत स्क्रोलबॅक"
 
@@ -1752,62 +1760,70 @@ msgstr "Solaris कन्सोल"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 टर्मिनल"
 
-#: Session.cpp:377
+#: Session.cpp:378
 msgid "Could not find binary: "
 msgstr "बायनरी शोधू शकत नाही: "
 
-#: Session.cpp:386
+#: Session.cpp:387
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "इशारा : "
 
-#: Session.cpp:443
+#: Session.cpp:444
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
 msgstr "'%1' आढळले नाही, त्याऐवजी '%2' सुरु करत आहे.  कृपया प्रोफाईल संयोजना तपासा."
 
-#: Session.cpp:446
+#: Session.cpp:447
 msgid "Could not find an interactive shell to start."
 msgstr "प्रारंभ करण्याकरिता परस्पर संवाद शेल शोधू शकत."
 
-#: Session.cpp:484
+#: Session.cpp:485
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "कार्यक्रम '%1' बाब '%2' सह प्रारंभ करू शकत नाही."
 
-#: Session.cpp:591
+#: Session.cpp:592
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "सत्र '%1' अंतर्गत शांतपणा"
 
-#: Session.cpp:642
+#: Session.cpp:643
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "सत्र '%1' अंतर्गत bell"
 
-#: Session.cpp:645
+#: Session.cpp:646
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "सत्र '%1' अंतर्गत क्रिया"
 
-#: Session.cpp:838
+#: Session.cpp:833
+msgid ""
+"The D-Bus methods sendText/runCommand were just used.  There are security "
+"concerns about allowing these methods to be public.  If desired, these "
+"methods can be changed to internal use only by re-compiling Konsole. <p>This "
+"warning will only show once for this Konsole instance.</p>"
+msgstr ""
+
+#: Session.cpp:860
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "संपले"
 
-#: Session.cpp:852 Session.cpp:864
+#: Session.cpp:874 Session.cpp:886
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "कार्यक्रम '%1' क्रॅश झाले."
 
-#: Session.cpp:854
+#: Session.cpp:876
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "कार्यक्रम '%1' स्थिती %2 सह बाहेर पडले."
 
-#: Session.cpp:1206
+#: Session.cpp:1228
 msgid "ZModem Progress"
 msgstr "ZModem प्रगती"
 
@@ -1815,183 +1831,183 @@ msgstr "ZModem प्रगती"
 msgid "Konsole"
 msgstr "कंसोल"
 
-#: SessionController.cpp:344
+#: SessionController.cpp:342
 msgid "Konsole does not know how to open the bookmark: "
 msgstr ""
 
-#: SessionController.cpp:402
+#: SessionController.cpp:400
 #, kde-format
 msgid "Search for '%1' with"
 msgstr "'%1' चा याने शोध घ्या"
 
-#: SessionController.cpp:416
+#: SessionController.cpp:414
 msgid "Configure Web Shortcuts..."
 msgstr "वेब शॉर्टकट संयोजीत करा..."
 
-#: SessionController.cpp:558
+#: SessionController.cpp:556
 msgid "&Close Session"
 msgstr "सत्र बंद करा (&C)"
 
-#: SessionController.cpp:560
+#: SessionController.cpp:558
 msgid "&Close Tab"
 msgstr "टॅब बंद करा (&C)"
 
-#: SessionController.cpp:567
+#: SessionController.cpp:565
 msgid "Open File Manager"
 msgstr "फाईल व्यवस्थापक उघडा"
 
-#: SessionController.cpp:583
+#: SessionController.cpp:581
 msgid "Paste Selection"
 msgstr "निवड चिटकवा"
 
-#: SessionController.cpp:586
+#: SessionController.cpp:584
 msgid "Web Search"
 msgstr "वेब शोध"
 
-#: SessionController.cpp:593
+#: SessionController.cpp:591
 msgid "&Select All"
 msgstr "सर्व निवडा (&S)"
 
-#: SessionController.cpp:597
+#: SessionController.cpp:595
 #, fuzzy
 #| msgid "Select Text"
 msgid "Select &Line"
 msgstr "पाठ्य निवडा"
 
-#: SessionController.cpp:600
+#: SessionController.cpp:598
 msgid "Save Output &As..."
 msgstr "आऊटपुट असा साठवा (&A)..."
 
-#: SessionController.cpp:603
+#: SessionController.cpp:601
 msgid "&Print Screen..."
 msgstr "स्क्रीन छापा (&P)..."
 
-#: SessionController.cpp:607
+#: SessionController.cpp:605
 msgid "Adjust Scrollback..."
 msgstr "स्क्रोलबॅक सुस्थित करा..."
 
-#: SessionController.cpp:611
+#: SessionController.cpp:609
 msgid "Clear Scrollback"
 msgstr "स्क्रोलबॅक नष्ट करा"
 
-#: SessionController.cpp:615
+#: SessionController.cpp:613
 msgid "Clear Scrollback and Reset"
 msgstr "स्क्रोलबॅक नष्ट करा व पुन्हस्थापित करा"
 
-#: SessionController.cpp:621
+#: SessionController.cpp:619
 msgid "Edit Current Profile..."
 msgstr "वर्तमान प्रोफाईल संपादित करा..."
 
-#: SessionController.cpp:624
+#: SessionController.cpp:622
 msgid "Switch Profile"
 msgstr "रूपरेषा बदला"
 
-#: SessionController.cpp:641
+#: SessionController.cpp:639
 msgid "Set &Encoding"
 msgstr "एन्कोडिंग निश्चित करा (&E)"
 
-#: SessionController.cpp:656
+#: SessionController.cpp:654
 msgid "&Rename Tab..."
 msgstr "टॅबचे नाव बदला (&R)..."
 
-#: SessionController.cpp:662
+#: SessionController.cpp:660
 msgid "&All Tabs in Current Window"
 msgstr "वर्तमान चौकटीतील सर्व टॅब (&A)"
 
-#: SessionController.cpp:669
+#: SessionController.cpp:667
 msgid "&Select Tabs..."
 msgstr "टॅब निवडा (&S)..."
 
-#: SessionController.cpp:675
+#: SessionController.cpp:673
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr "काही नाही (&N)"
 
-#: SessionController.cpp:683
+#: SessionController.cpp:681
 msgid "Copy Input To"
 msgstr "इनपुट यावर प्रतिकृत करा"
 
-#: SessionController.cpp:690
+#: SessionController.cpp:688
 msgid "&ZModem Upload..."
 msgstr ""
 
-#: SessionController.cpp:695
+#: SessionController.cpp:693
 msgid "Monitor for &Activity"
 msgstr "क्रिया करिता नियंत्रण करा (&A)"
 
-#: SessionController.cpp:700
+#: SessionController.cpp:698
 msgid "Monitor for &Silence"
 msgstr ""
 
-#: SessionController.cpp:707
+#: SessionController.cpp:705
 msgid "Enlarge Font"
 msgstr "फॉन्ट मोठा करा"
 
-#: SessionController.cpp:715
+#: SessionController.cpp:713
 msgid "Shrink Font"
 msgstr "फॉन्ट लहान करा"
 
-#: SessionController.cpp:722
+#: SessionController.cpp:720
 msgid "Send Signal"
 msgstr "संकेत पाठवा"
 
-#: SessionController.cpp:726
+#: SessionController.cpp:724
 msgid "&Suspend Task"
 msgstr "कार्य थांबवा (&S)"
 
-#: SessionController.cpp:731
+#: SessionController.cpp:729
 msgid "&Continue Task"
 msgstr "कार्य चालू ठेवा (&C)"
 
-#: SessionController.cpp:736
+#: SessionController.cpp:734
 msgid "&Hangup"
 msgstr ""
 
-#: SessionController.cpp:741
+#: SessionController.cpp:739
 msgid "&Interrupt Task"
 msgstr "कार्यात अडथळा आणा (&I)"
 
-#: SessionController.cpp:746
+#: SessionController.cpp:744
 msgid "&Terminate Task"
 msgstr "कार्य बंद करा (&T)"
 
-#: SessionController.cpp:751
+#: SessionController.cpp:749
 msgid "&Kill Task"
 msgstr "कार्य संपवा (&K)"
 
-#: SessionController.cpp:756
+#: SessionController.cpp:754
 msgid "User Signal &1"
 msgstr "वापरकर्ता संकेत &1"
 
-#: SessionController.cpp:761
+#: SessionController.cpp:759
 msgid "User Signal &2"
 msgstr "वापरकर्ता संकेत &2"
 
-#: SessionController.cpp:865
+#: SessionController.cpp:863
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "वर्तमानक्षणी या सत्र अंतर्गत कार्यक्रम कार्यरत आहे. तुम्हाला नक्की बंद करायचे आहे?"
 
-#: SessionController.cpp:868
+#: SessionController.cpp:866
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "कार्यक्रम '%1' वर्तमानक्षणी या सत्र अंतर्गत कार्यरत आहे.  तुम्हाला नक्की बंद करायचे?"
 
-#: SessionController.cpp:871 SessionController.cpp:896
+#: SessionController.cpp:869 SessionController.cpp:894
 msgid "Confirm Close"
 msgstr "बंद निश्चित करा"
 
-#: SessionController.cpp:890
+#: SessionController.cpp:888
 msgid ""
 "A program in this session would not die.  Are you sure you want to kill it "
 "by force?"
 msgstr ""
 "वर्तमानक्षणी या सत्रा अंतर्गत कार्यक्रम कार्यरत आहे. तुम्हाला बळपूर्वक बंद करायचे आहे का?"
 
-#: SessionController.cpp:893
+#: SessionController.cpp:891
 #, kde-format
 msgid ""
 "The program '%1' is in this session would not die.  Are you sure you want to "
@@ -1999,47 +2015,47 @@ msgid ""
 msgstr ""
 "कार्यक्रम '%1' वर्तमानक्षणी या सत्रा अंतर्गत कार्यरत आहे.  तुम्हाला बळपूर्वक बंद करायचे का?"
 
-#: SessionController.cpp:1387
+#: SessionController.cpp:1385
 msgid "Print Shell"
 msgstr "छपाई शेल"
 
-#: SessionController.cpp:1589
+#: SessionController.cpp:1587
 msgid "Save ZModem Download to..."
 msgstr ""
 
-#: SessionController.cpp:1599
+#: SessionController.cpp:1597
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
 "or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1611
+#: SessionController.cpp:1609
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr ""
 
-#: SessionController.cpp:1620
+#: SessionController.cpp:1618
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
 msgstr ""
 
-#: SessionController.cpp:1626
+#: SessionController.cpp:1624
 msgid "Select Files for ZModem Upload"
 msgstr ""
 
-#: SessionController.cpp:1692
+#: SessionController.cpp:1690
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 पासून आऊटपुट साठवा"
 
-#: SessionController.cpp:1703
+#: SessionController.cpp:1701
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 अवैध URL आहे, आऊटपुट साठवले जाऊ शकत नाही."
 
-#: SessionController.cpp:1777
+#: SessionController.cpp:1775
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
