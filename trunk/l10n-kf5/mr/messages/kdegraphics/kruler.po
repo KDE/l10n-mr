@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-07 07:54+0000\n"
+"POT-Creation-Date: 2016-05-30 08:51+0000\n"
 "PO-Revision-Date: 2013-03-28 15:17+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -30,6 +30,23 @@ msgstr ""
 #: cfg_advanced.ui:26
 msgid "Native moving"
 msgstr "स्थानिक हलविणे"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:33
+#, fuzzy
+#| msgid ""
+#| "If this option is enabled, the window is being moved using the operations "
+#| "from the window manager."
+msgid ""
+"If this option is enabled, the window is being kept above other windows."
+msgstr ""
+"जर हा पर्याय कार्यान्वित केला तर चौकट हलविण्याकरिता चौकट व्यवस्थापकाची क्रिया वापरली "
+"जाईल."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysOnTop)
+#: cfg_advanced.ui:36
+msgid "Always on top"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: cfg_appearance.ui:20
@@ -56,12 +73,12 @@ msgstr "फिरविण्याचे बटन दर्शवा"
 msgid "Show close button"
 msgstr "बंद करण्याचे बटन दर्शवा"
 
-#: klineal.cpp:102
+#: klineal.cpp:101
 msgctxt "@title:window"
 msgid "KRuler"
 msgstr "के-रुलर"
 
-#: klineal.cpp:106
+#: klineal.cpp:105
 msgid ""
 "This is a tool to measure pixel distances and colors on the screen. It is "
 "useful for working on layouts of dialogs, web pages etc."
@@ -143,7 +160,7 @@ msgctxt "Make Kruler Height Tall"
 msgid "&Tall"
 msgstr "उंच (&T)"
 
-#: klineal.cpp:183 klineal.cpp:436
+#: klineal.cpp:183 klineal.cpp:439
 msgid "&Full Screen Width"
 msgstr "पूर्ण स्क्रीन रुंदी (&F)"
 
@@ -155,7 +172,7 @@ msgstr "लांबी..."
 msgid "&Scale"
 msgstr "प्रमाण (&S)"
 
-#: klineal.cpp:191 klineal.cpp:536
+#: klineal.cpp:191 klineal.cpp:539
 msgid "Right to Left"
 msgstr "उजवीकडुन डावीकडे"
 
@@ -179,54 +196,54 @@ msgstr "अपारदर्शकता (&P)"
 msgid "Copy Color"
 msgstr "रंग प्रत करा"
 
-#: klineal.cpp:436
+#: klineal.cpp:439
 msgid "&Full Screen Height"
 msgstr "पूर्ण स्क्रीन उंची (&F)"
 
-#: klineal.cpp:536
+#: klineal.cpp:539
 msgid "Left to Right"
 msgstr "डावीकडुन उजवीकडे"
 
-#: klineal.cpp:538
+#: klineal.cpp:541
 msgid "Bottom to Top"
 msgstr "खालून वर"
 
-#: klineal.cpp:538
+#: klineal.cpp:541
 msgid "Top to Bottom"
 msgstr "वरुन खाली"
 
-#: klineal.cpp:584
+#: klineal.cpp:587
 msgctxt "@title:window"
 msgid "Scale Offset"
 msgstr "प्रमाण ऑफसेट"
 
-#: klineal.cpp:585
+#: klineal.cpp:588
 msgid "Offset:"
 msgstr "ऑफसेट :"
 
-#: klineal.cpp:601
+#: klineal.cpp:604
 msgctxt "@title:window"
 msgid "Ruler Length"
 msgstr "मोजपट्टी लांबी"
 
-#: klineal.cpp:602
+#: klineal.cpp:605
 msgid "Length:"
 msgstr "लांबी :"
 
-#: klineal.cpp:631
+#: klineal.cpp:634
 msgid "Appearance"
 msgstr "दर्शनीयता"
 
-#: klineal.cpp:639
+#: klineal.cpp:642
 msgid "Advanced"
 msgstr "प्रगत"
 
-#: klineal.cpp:1001
+#: klineal.cpp:1010
 #, kde-format
 msgid "Offset: %1"
 msgstr "ऑफसेट %1"
 
-#: klineal.cpp:1008
+#: klineal.cpp:1017
 #, kde-format
 msgid "Length: %1 px"
 msgstr "लांबी : %1 px"
@@ -290,6 +307,11 @@ msgstr "बंद करण्याचे बटन दृष्यमान �
 #: kruler.kcfg:52
 msgid "Is native moving (possibly wobbling windows) active"
 msgstr "स्थानिक हलविणे (कदाचित थरथरणाऱ्या चौकटी) सक्रिय आहे का"
+
+#. i18n: ectx: label, entry (AlwaysOnTop), group (StoredSettings)
+#: kruler.kcfg:56
+msgid "Is always on top"
+msgstr ""
 
 #: krulersystemtray.cpp:28 main.cpp:34
 msgid "KDE Screen Ruler"
