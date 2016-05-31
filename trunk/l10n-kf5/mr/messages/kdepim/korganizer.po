@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-04-04 08:34+0000\n"
+"POT-Creation-Date: 2016-05-31 08:46+0000\n"
 "PO-Revision-Date: 2013-04-15 10:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2304,25 +2304,6 @@ msgid ""
 "You will be presented with a dialog where you can create a new journal entry."
 msgstr ""
 
-#: kontactplugin/korganizer/journalplugin.cpp:66
-#, fuzzy
-#| msgid "Journal"
-msgctxt "@action:inmenu"
-msgid "Sync Journal"
-msgstr "जर्नल"
-
-#: kontactplugin/korganizer/journalplugin.cpp:68
-msgctxt "@info:status"
-msgid "Synchronize groupware journal"
-msgstr ""
-
-#: kontactplugin/korganizer/journalplugin.cpp:74
-#, fuzzy
-#| msgid "Check this option to show note lines."
-msgctxt "@info:whatsthis"
-msgid "Choose this option to synchronize your groupware journal entries."
-msgstr "नोंदरेषा दाखविण्यासाठी हा पर्याय निवडा."
-
 #: kontactplugin/korganizer/kcmapptsummary.cpp:84
 #: kontactplugin/korganizer/kcmtodosummary.cpp:77
 #: kontactplugin/specialdates/kcmsdsummary.cpp:83
@@ -2369,49 +2350,30 @@ msgid ""
 "You will be presented with a dialog where you can create a new event item."
 msgstr ""
 
-#: kontactplugin/korganizer/korganizerplugin.cpp:79
-#, fuzzy
-#| msgid "Search Calendar"
-msgctxt "@action:inmenu"
-msgid "Sync Calendar"
-msgstr "दिनदर्शिका शोधा"
-
-#: kontactplugin/korganizer/korganizerplugin.cpp:81
-msgctxt "@info:status"
-msgid "Synchronize groupware calendar"
-msgstr ""
-
-#: kontactplugin/korganizer/korganizerplugin.cpp:87
-#, fuzzy
-#| msgid "Check this option to exclude private events"
-msgctxt "@info:whatsthis"
-msgid "Choose this option to synchronize your groupware events."
-msgstr "खाजगी कार्यक्रम वगळण्यासाठी हा पर्याय निवडा"
-
-#: kontactplugin/korganizer/korganizerplugin.cpp:206
-#: kontactplugin/korganizer/todoplugin.cpp:215
+#: kontactplugin/korganizer/korganizerplugin.cpp:178
+#: kontactplugin/korganizer/todoplugin.cpp:188
 #, fuzzy
 #| msgid "&Settings"
 msgctxt "@item"
 msgid "Meeting"
 msgstr "संयोजना (&S)"
 
-#: kontactplugin/korganizer/korganizerplugin.cpp:222
-#: kontactplugin/korganizer/todoplugin.cpp:230
+#: kontactplugin/korganizer/korganizerplugin.cpp:194
+#: kontactplugin/korganizer/todoplugin.cpp:203
 #, fuzzy, kde-format
 #| msgid "Notes:"
 msgctxt "@item"
 msgid "Note: %1"
 msgstr "टिप :"
 
-#: kontactplugin/korganizer/korganizerplugin.cpp:246
-#: kontactplugin/korganizer/todoplugin.cpp:253
+#: kontactplugin/korganizer/korganizerplugin.cpp:218
+#: kontactplugin/korganizer/todoplugin.cpp:226
 msgctxt "@info"
 msgid "Dropping multiple mails is not supported."
 msgstr ""
 
-#: kontactplugin/korganizer/korganizerplugin.cpp:249
-#: kontactplugin/korganizer/todoplugin.cpp:256
+#: kontactplugin/korganizer/korganizerplugin.cpp:221
+#: kontactplugin/korganizer/todoplugin.cpp:229
 #, kde-format
 msgctxt "@item"
 msgid ""
@@ -2420,8 +2382,8 @@ msgid ""
 "Subject: %3"
 msgstr ""
 
-#: kontactplugin/korganizer/korganizerplugin.cpp:258
-#: kontactplugin/korganizer/todoplugin.cpp:266
+#: kontactplugin/korganizer/korganizerplugin.cpp:230
+#: kontactplugin/korganizer/todoplugin.cpp:239
 #, kde-format
 msgctxt "@item"
 msgid "Mail: %1"
@@ -2519,27 +2481,6 @@ msgctxt "@info:whatsthis"
 msgid ""
 "You will be presented with a dialog where you can create a new to-do item."
 msgstr ""
-
-#: kontactplugin/korganizer/todoplugin.cpp:77
-#, fuzzy
-#| msgid "To-do List"
-msgctxt "@action:inmenu"
-msgid "Sync To-do List"
-msgstr "कार्य यादी"
-
-#: kontactplugin/korganizer/todoplugin.cpp:78
-#, fuzzy
-#| msgid "Title for the to-do list"
-msgctxt "@info:status"
-msgid "Synchronize groupware to-do list"
-msgstr "करावयाच्या कामांच्या यादीचे शिर्षक "
-
-#: kontactplugin/korganizer/todoplugin.cpp:83
-#, fuzzy
-#| msgid "Check this option to show note lines."
-msgctxt "@info:whatsthis"
-msgid "Choose this option to synchronize your groupware to-do list."
-msgstr "नोंदरेषा दाखविण्यासाठी हा पर्याय निवडा."
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, TodoSummaryConfig_Base)
 #: kontactplugin/korganizer/todosummaryconfig_base.ui:16
@@ -5950,6 +5891,48 @@ msgstr "%1"
 msgctxt "4 digit year"
 msgid "%1"
 msgstr "%1"
+
+#, fuzzy
+#~| msgid "Journal"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Sync Journal"
+#~ msgstr "जर्नल"
+
+#, fuzzy
+#~| msgid "Check this option to show note lines."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose this option to synchronize your groupware journal entries."
+#~ msgstr "नोंदरेषा दाखविण्यासाठी हा पर्याय निवडा."
+
+#, fuzzy
+#~| msgid "Search Calendar"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Sync Calendar"
+#~ msgstr "दिनदर्शिका शोधा"
+
+#, fuzzy
+#~| msgid "Check this option to exclude private events"
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose this option to synchronize your groupware events."
+#~ msgstr "खाजगी कार्यक्रम वगळण्यासाठी हा पर्याय निवडा"
+
+#, fuzzy
+#~| msgid "To-do List"
+#~ msgctxt "@action:inmenu"
+#~ msgid "Sync To-do List"
+#~ msgstr "कार्य यादी"
+
+#, fuzzy
+#~| msgid "Title for the to-do list"
+#~ msgctxt "@info:status"
+#~ msgid "Synchronize groupware to-do list"
+#~ msgstr "करावयाच्या कामांच्या यादीचे शिर्षक "
+
+#, fuzzy
+#~| msgid "Check this option to show note lines."
+#~ msgctxt "@info:whatsthis"
+#~ msgid "Choose this option to synchronize your groupware to-do list."
+#~ msgstr "नोंदरेषा दाखविण्यासाठी हा पर्याय निवडा."
 
 #~ msgid "Configure Day Numbers"
 #~ msgstr "दिवसांच्या संख्येची मांडणी करा"
