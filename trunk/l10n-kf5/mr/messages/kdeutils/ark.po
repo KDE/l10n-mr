@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-01 07:29+0000\n"
+"POT-Creation-Date: 2016-06-02 07:50+0000\n"
 "PO-Revision-Date: 2013-03-05 14:53+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -329,7 +329,7 @@ msgstr ""
 msgid "Preview file size limit in megabytes."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:247
+#: kerfuffle/cliinterface.cpp:246
 #, kde-format
 msgctxt "@info"
 msgid "Failed to locate program <filename>%2</filename> on disk."
@@ -337,48 +337,48 @@ msgid_plural "Failed to locate programs <filename>%2</filename> on disk."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kerfuffle/cliinterface.cpp:347
+#: kerfuffle/cliinterface.cpp:346
 #, fuzzy
 #| msgid "Incorrect password."
 msgid "Extraction failed. Make sure that enough space is available."
 msgstr "अयोग्य गुप्तशब्द."
 
-#: kerfuffle/cliinterface.cpp:350
+#: kerfuffle/cliinterface.cpp:349
 msgid ""
 "Extraction failed. Make sure you provided the correct password and that "
 "enough space is available."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:361 kerfuffle/cliinterface.cpp:376
+#: kerfuffle/cliinterface.cpp:360 kerfuffle/cliinterface.cpp:375
 msgctxt "@info"
 msgid "Could not move the extracted file to the destination directory."
 msgid_plural "Could not move the extracted files to the destination directory."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kerfuffle/cliinterface.cpp:1020
+#: kerfuffle/cliinterface.cpp:994
 #, fuzzy
 #| msgid "Incorrect password."
 msgctxt "@info"
 msgid "Extraction failed because the disk is full."
 msgstr "अयोग्य गुप्तशब्द."
 
-#: kerfuffle/cliinterface.cpp:1028
+#: kerfuffle/cliinterface.cpp:1002
 #, fuzzy
 #| msgid "Incorrect password."
 msgctxt "@info"
 msgid "Extraction failed: Incorrect password"
 msgstr "अयोग्य गुप्तशब्द."
 
-#: kerfuffle/cliinterface.cpp:1035 kerfuffle/cliinterface.cpp:1077
+#: kerfuffle/cliinterface.cpp:1009 kerfuffle/cliinterface.cpp:1051
 msgid "Extraction failed because of an unexpected error."
 msgstr ""
 
-#: kerfuffle/cliinterface.cpp:1070
+#: kerfuffle/cliinterface.cpp:1044
 msgid "Incorrect password."
 msgstr "अयोग्य गुप्तशब्द."
 
-#: kerfuffle/cliinterface.cpp:1101
+#: kerfuffle/cliinterface.cpp:1075
 msgid "Ark does not currently support testing password-protected archives."
 msgstr ""
 
@@ -991,7 +991,7 @@ msgstr "बोधचिन्हाकृत लिंक"
 msgid "Unknown size"
 msgstr "अपरिचीत आकार"
 
-#: part/infopanel.cpp:145
+#: part/infopanel.cpp:144
 #, kde-format
 msgid "One file selected"
 msgid_plural "%1 files selected"
@@ -999,27 +999,31 @@ msgstr[0] "एक फाईल निवडली"
 msgstr[1] "%1 फाइल्स निवडल्या"
 
 #: part/infopanel.cpp:182
-#, kde-format
-msgid "<b>Type:</b> %1<br/>"
+#, fuzzy, kde-format
+#| msgid "<b>Type:</b> %1<br/>"
+msgid "<b>Type:</b> %1"
 msgstr "<b>प्रकार :</b> %1<br/>"
 
-#: part/infopanel.cpp:185
-#, kde-format
-msgid "<b>Owner:</b> %1<br/>"
+#: part/infopanel.cpp:186
+#, fuzzy, kde-format
+#| msgid "<b>Owner:</b> %1<br/>"
+msgid "<b>Owner:</b> %1"
 msgstr "<b>मालक :</b> %1<br/>"
 
-#: part/infopanel.cpp:189
-#, kde-format
-msgid "<b>Group:</b> %1<br/>"
+#: part/infopanel.cpp:193
+#, fuzzy, kde-format
+#| msgid "<b>Group:</b> %1<br/>"
+msgid "<b>Group:</b> %1"
 msgstr "<b>समूह :</b> %1<br/>"
 
-#: part/infopanel.cpp:193
-#, kde-format
-msgid "<b>Target:</b> %1<br/>"
+#: part/infopanel.cpp:200
+#, fuzzy, kde-format
+#| msgid "<b>Target:</b> %1<br/>"
+msgid "<b>Target:</b> %1"
 msgstr "<b>लक्ष्य :</b> %1<br/>"
 
-#: part/infopanel.cpp:197
-msgid "<b>Password protected:</b> Yes<br/>"
+#: part/infopanel.cpp:207
+msgid "<b>Password protected:</b> Yes"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
@@ -1031,11 +1035,6 @@ msgstr "माहिती पटल"
 #: part/infopanel.ui:64
 msgid "Unknown file type"
 msgstr "अपरिचीत फाईल प्रकार"
-
-#. i18n: ectx: property (text), widget (QLabel, metadataLabel)
-#: part/infopanel.ui:84
-msgid "Metadata Label"
-msgstr "मेटाडेटा लेबल"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
 #: part/jobtracker.ui:13
@@ -1436,7 +1435,7 @@ msgctxt "@info"
 msgid "Could not read until the end of the archive"
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:185
+#: plugins/libarchive/libarchiveplugin.cpp:179
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1444,13 +1443,13 @@ msgid ""
 "have sufficient permissions."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:257
+#: plugins/libarchive/libarchiveplugin.cpp:251
 msgid ""
 "This archive contains archive entries with absolute paths, which are not "
 "supported by Ark."
 msgstr ""
 
-#: plugins/libarchive/libarchiveplugin.cpp:396
+#: plugins/libarchive/libarchiveplugin.cpp:379
 #, kde-format
 msgctxt "@info"
 msgid "Extraction failed at:<nl/><filename>%1</filename>"
@@ -1548,6 +1547,9 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
+
+#~ msgid "Metadata Label"
+#~ msgstr "मेटाडेटा लेबल"
 
 #~ msgid "ActionsLabel"
 #~ msgstr "क्रिया लेबल"
