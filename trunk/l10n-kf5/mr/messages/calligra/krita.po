@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-14 08:14+0000\n"
+"POT-Creation-Date: 2016-06-16 07:44+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -12164,12 +12164,15 @@ msgstr "स्तराचे नाव (&L):"
 
 #. i18n: ectx: property (text), widget (QLabel, lblProfiles)
 #. i18n: ectx: property (text), widget (QLabel, lblProfileTitle)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/ui/forms/wdgdlgpngimport.ui:17 libs/ui/forms/wdglayerproperties.ui:131
+#: plugins/impex/video/video_export_options_dialog.ui:68
 msgid "Profile:"
 msgstr "रूपरेषा :"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FilterDialog)
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgImportImageSequence)
+#. i18n: ectx: property (windowTitle), widget (QDialog, VideoExportOptionsDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsStyleConfigure)
 #. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsConfigure)
 #. i18n: ectx: property (windowTitle), widget (QDialog, AcceptRejectChangeDialog)
@@ -12178,6 +12181,7 @@ msgstr "रूपरेषा :"
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:26
 #: plugins/flake/textshape/dialogs/TableOfContentsConfigure.ui:14
 #: plugins/flake/textshape/dialogs/TableOfContentsStyleConfigure.ui:14
+#: plugins/impex/video/video_export_options_dialog.ui:14
 msgid "Dialog"
 msgstr "संवाद"
 
@@ -13842,15 +13846,16 @@ msgstr "Y ऑफसेट :"
 msgid "Do not ask again (hold Shift to ask again)"
 msgstr ""
 
-#: libs/ui/kis_animation_exporter.cpp:63
+#: libs/ui/kis_animation_exporter.cpp:68
 #, fuzzy
 msgid "Export sequence"
 msgstr "नोड निर्यात करा"
 
-#: libs/ui/kis_animation_exporter.cpp:157 libs/ui/KisMainWindow.cpp:1717
+#: libs/ui/kis_animation_exporter.cpp:141
 #, fuzzy
-msgid "Export frames"
-msgstr "प्रतिमा आयात करा"
+#| msgid "Export Layer"
+msgid "Export frames..."
+msgstr "निर्यात स्तर"
 
 #: libs/ui/kis_animation_importer.cpp:69 libs/ui/KisMainWindow.cpp:1693
 #, fuzzy
@@ -14972,6 +14977,11 @@ msgid ""
 "Could not finish import animation:\n"
 "%1"
 msgstr "नवीन संयोजना %1"
+
+#: libs/ui/KisMainWindow.cpp:1717
+#, fuzzy
+msgid "Export frames"
+msgstr "प्रतिमा आयात करा"
 
 #: libs/ui/KisMainWindow.cpp:1727
 #, fuzzy, kde-format
@@ -18724,9 +18734,11 @@ msgid ""
 "default? The changes will be applied immediately."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
 #. i18n: ectx: property (text), widget (QPushButton, bnReset)
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:679
 #: plugins/dockers/artisticcolorselector/forms/wdgArtisticColorSelector.ui:32
+#: plugins/impex/video/video_export_options_dialog.ui:131
 msgid "Reset"
 msgstr "पुन्हस्थापित करा"
 
@@ -28451,6 +28463,234 @@ msgctxt "make a very small file, but take a long time saving"
 msgid "Small"
 msgstr "लहान"
 
+#: plugins/impex/video/kis_video_export.cpp:111
+msgid "Couldn not find 'ffmpeg' binary. Saving to video formats is impossible."
+msgstr ""
+
+#: plugins/impex/video/kis_video_export.cpp:115
+#, fuzzy
+msgid "Video Export Error"
+msgstr "उभी किनार :"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:31
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "ultrafast"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:32
+#, fuzzy
+#| msgid "Superscript"
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "superfast"
+msgstr "सुपरस्क्रिप्ट"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:33
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "veryfast"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:34
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Paste"
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "faster"
+msgstr "चिटकवा"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:35
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "fast"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:36
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "medium"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:37
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "slow"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:38
+#, fuzzy
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "slower"
+msgstr "खाली घ्या"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:39
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "veryslow"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:40
+#, fuzzy
+#| msgid "Displace"
+msgctxt ""
+"h264 preset name, check simplescreenrecorder for standard translations"
+msgid "placebo"
+msgstr "घालवा"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:42
+#, fuzzy
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "baseline"
+msgstr "रेषेची जाडी :"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:43
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "main"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:44
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:45
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high10"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:46
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high422"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:47
+msgctxt ""
+"h264 profile name, check simplescreenrecorder for standard translations"
+msgid "high444"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:49
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "film"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:50
+#, fuzzy
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "animation"
+msgstr "चलित"
+
+#: plugins/impex/video/video_export_options_dialog.cpp:51
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "grain"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:52
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "stillimage"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:53
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "psnr"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:54
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "ssim"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:55
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "fastdecode"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:56
+msgctxt ""
+"h264 tune option name, check simplescreenrecorder for standard translations"
+msgid "zerolatency"
+msgstr ""
+
+#: plugins/impex/video/video_export_options_dialog.cpp:116
+msgctxt "kilo-bits-per-second, video bitrate suffix"
+msgid "kbps"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbCodec)
+#: plugins/impex/video/video_export_options_dialog.ui:21
+msgid "H.264, MPEG-4 Part 10"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbCodec)
+#: plugins/impex/video/video_export_options_dialog.ui:26
+msgid "Theora"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/impex/video/video_export_options_dialog.ui:41
+#, fuzzy
+msgid "Constant Rate Factor:"
+msgstr "गुणोत्तर निसाधनण (&C)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/impex/video/video_export_options_dialog.ui:58
+#, fuzzy
+#| msgid "Presets:"
+msgid "Preset:"
+msgstr "प्रिसेटस् :"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTune)
+#: plugins/impex/video/video_export_options_dialog.ui:78
+msgid "Tune:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/impex/video/video_export_options_dialog.ui:92
+#, fuzzy
+#| msgid "Date:"
+msgid "Bitrate:"
+msgstr "दिनांक :"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkCustomLine)
+#: plugins/impex/video/video_export_options_dialog.ui:115
+#, fuzzy
+msgid "Custom Options:"
+msgstr "डिफॉर्म पर्याय"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, txtCustomLine)
+#: plugins/impex/video/video_export_options_dialog.ui:124
+msgid ""
+"Add any ffmpeg filtering options here. It will be put between source and "
+"destination streams of the ffmpeg"
+msgstr ""
+
+#: plugins/impex/video/video_saver.cpp:285
+#, fuzzy
+msgid "Fetching palette..."
+msgstr "पॅलेट संपादित करा..."
+
+#: plugins/impex/video/video_saver.cpp:304
+#: plugins/impex/video/video_saver.cpp:320
+#, fuzzy
+#| msgid "Export Layer"
+msgid "Encoding frames..."
+msgstr "निर्यात स्तर"
+
 #: plugins/paintops/chalk/chalk_paintop_plugin.cpp:41
 #, fuzzy
 msgid "Chalk"
@@ -32665,11 +32905,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~ msgstr "पूर्वलक्षित कुंचले"
 
 #, fuzzy
-#~| msgid "Export Layer"
-#~ msgid "Exporting frames..."
-#~ msgstr "निर्यात स्तर"
-
-#, fuzzy
 #~| msgctxt "(qtundo-format)"
 #~| msgid "Change Filter"
 #~ msgid "Choose Filter"
@@ -33647,9 +33882,6 @@ msgstr "पुनरावर्ती कार्य करा"
 
 #~ msgid "Duplicate the currently selected layer or mask"
 #~ msgstr "प्रतिकृती किंवा वर्तमान निवडलेला स्तर किंवा मुखवटा"
-
-#~ msgid "Presets:"
-#~ msgstr "प्रिसेटस् :"
 
 #, fuzzy
 #~| msgctxt "NAME OF TRANSLATORS"
