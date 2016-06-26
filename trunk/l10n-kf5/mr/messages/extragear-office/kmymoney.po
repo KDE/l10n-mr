@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-25 07:40+0000\n"
+"POT-Creation-Date: 2016-06-26 07:17+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -575,7 +575,7 @@ msgstr ""
 #: kmymoney/converter/mymoneyqifreader.cpp:1052
 #: kmymoney/converter/mymoneyqifreader.cpp:1280
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1432
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1710
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1779
 msgid "Invalid date format"
 msgstr ""
 
@@ -1259,6 +1259,10 @@ msgstr ""
 #: kmymoney/dialogs/ksortoptiondlg.ui:61
 #: kmymoney/dialogs/ktagreassigndlgdecl.ui:118
 #: kmymoney/dialogs/mymoneyqifprofileeditordecl.ui:749
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:108
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:158
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:167
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:193
 msgid "OK"
 msgstr "ठीक आहे"
 
@@ -1295,9 +1299,9 @@ msgstr "ठीक आहे"
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1124
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1365
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1391
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1597
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1635
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1232
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1600
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1638
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1296
 #: kmymoney/plugins/ofximport/dialogs/kofxdirectconnectdlgdecl.ui:57
 #: kmymoney/views/newspliteditor.ui:50
 #: kmymoney/views/newtransactioneditor.ui:50
@@ -1326,7 +1330,7 @@ msgstr ""
 #: kmymoney/dialogs/settings/ksettingsonlinequotesdecl.ui:105
 #: kmymoney/models/ledgermodel.cpp:471 kmymoney/models/ledgermodel.cpp:1085
 #: kmymoney/plugins/csvexport/csvwriter.cpp:101
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:375
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:252
 #: kmymoney/plugins/csvimport/redefinedlg.cpp:122
 #: kmymoney/reports/kreportchartview.cpp:228
 #: kmymoney/reports/listtable.cpp:227 kmymoney/reports/listtable.cpp:228
@@ -1514,7 +1518,7 @@ msgstr "कार्यपध्दती"
 #: kmymoney/plugins/csvexport/csvwriter.cpp:101
 #: kmymoney/plugins/csvexport/csvwriter.cpp:106
 #: kmymoney/plugins/csvimport/bankingwizardpage.ui:385
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:329
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:224
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:226
 #: kmymoney/reports/listtable.cpp:212 kmymoney/views/khomeview.cpp:404
 #: kmymoney/views/khomeview.cpp:459 kmymoney/views/khomeview.cpp:492
@@ -1537,7 +1541,7 @@ msgstr "दिनांक"
 #: kmymoney/plugins/csvexport/csvwriter.cpp:101
 #: kmymoney/plugins/csvexport/csvwriter.cpp:106
 #: kmymoney/plugins/csvimport/bankingwizardpage.ui:632
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:495
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:114
 #: kmymoney/plugins/kbanking/dialogs/kbaccountsettings.ui:78
 #: kmymoney/plugins/reconciliationreport/reconciliationreport.cpp:229
 #: kmymoney/reports/listtable.cpp:219 kmymoney/views/newspliteditor.ui:208
@@ -1548,11 +1552,13 @@ msgstr "दिनांक"
 msgid "Memo"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: kmymoney/dialogs/investtransactioneditor.cpp:349
 #: kmymoney/dialogs/transactioneditor.cpp:944
 #: kmymoney/plugins/csvexport/csvwriter.cpp:101
 #: kmymoney/plugins/csvexport/csvwriter.cpp:106
+#: kmymoney/plugins/csvimport/symboltabledlg.ui:91
 #: kmymoney/plugins/kbanking/widgets/kbjoblist.cpp:184
 #: kmymoney/views/newtransactioneditor.ui:243
 #: kmymoney/views/newtransactionform.ui:152
@@ -2102,8 +2108,8 @@ msgstr "Id"
 #: kmymoney/dialogs/kcurrencyeditdlgdecl.ui:51
 #: kmymoney/dialogs/kequitypriceupdatedlg.cpp:69
 #: kmymoney/dialogs/settings/ksettingsonlinequotesdecl.ui:71
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:543
-#: kmymoney/plugins/csvimport/symboltabledlg.ui:87
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:385
+#: kmymoney/plugins/csvimport/symboltabledlg.ui:86
 #: kmymoney/views/kinvestmentviewdecl.ui:166
 msgid "Symbol"
 msgstr ""
@@ -2354,7 +2360,7 @@ msgstr ""
 #: kmymoney/dialogs/mymoneyqifprofileeditordecl.ui:571
 #: kmymoney/models/ledgermodel.cpp:468 kmymoney/models/ledgermodel.cpp:1082
 #: kmymoney/plugins/csvexport/csvwriter.cpp:101
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:239
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:149
 #: kmymoney/plugins/csvimport/redefinedlg.cpp:118
 #: kmymoney/widgets/register.cpp:508
 msgid "Quantity"
@@ -3709,7 +3715,7 @@ msgstr ""
 #: kmymoney/dialogs/kmymoneypricedlgdecl.ui:109
 #: kmymoney/dialogs/mymoneyqifprofileeditordecl.ui:712
 #: kmymoney/dialogs/settings/ksettingsonlinequotesdecl.ui:180
-#: kmymoney/plugins/csvimport/csvwizard.cpp:663
+#: kmymoney/plugins/csvimport/csvwizard.cpp:664
 #: kmymoney/views/splitdialog.ui:625
 #: kmymoney/widgets/kmymoneyreportcontroldecl.ui:115
 #, fuzzy
@@ -4854,7 +4860,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, comboBoxInv_priceFraction)
 #. i18n: ectx: property (text), widget (KTextEdit, m_details)
 #: kmymoney/dialogs/mymoneyqifprofileeditordecl.ui:487
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:305
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:200
 #: kmymoney/widgets/kschedulebriefwidget.ui:221
 #: kmymoney/wizards/endingbalancedlg/checkingstatementinfowizardpagedecl.ui:160
 #: kmymoney/wizards/newloanwizard/additionalfeeswizardpagedecl.ui:81
@@ -8969,13 +8975,9 @@ msgstr "नाही"
 msgid "CC"
 msgstr "C"
 
-#. i18n: ectx: property (text), widget (QLabel, labelInv_detailCol)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #. i18n: ectx: attribute (title), widget (QWidget, detail)
-#: kmymoney/models/ledgermodel.cpp:456
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:217
-#: kmymoney/plugins/csvimport/redefinedlg.cpp:134
-#: kmymoney/views/kforecastviewdecl.ui:361
+#: kmymoney/models/ledgermodel.cpp:456 kmymoney/views/kforecastviewdecl.ui:361
 #: kmymoney/widgets/kmymoneyreportconfigtab2decl.ui:33
 #, fuzzy
 msgid "Detail"
@@ -9955,14 +9957,14 @@ msgstr "मात्रा :"
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_amountCol)
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxBnk_amountCol)
 #: kmymoney/plugins/csvimport/bankingwizardpage.ui:168
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:255
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:165
 msgid "Select column containing amount field."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_dateCol)
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxBnk_dateCol)
 #: kmymoney/plugins/csvimport/bankingwizardpage.ui:190
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:533
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:303
 msgid "Select column containing date field."
 msgstr ""
 
@@ -10049,7 +10051,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxBnk_oppositeSigns)
 #: kmymoney/plugins/csvimport/bankingwizardpage.ui:642
-msgid "Select if you amount colum has signs improperly set."
+msgid "Select if your amount column has signs improperly set."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBoxBnk_oppositeSigns)
@@ -10135,7 +10137,7 @@ msgid "Encoding"
 msgstr "अनिर्णायक"
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1118
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1226
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1290
 #, kde-format
 msgid ""
 "<center>Row number %1 does not have the expected number of columns.</"
@@ -10151,37 +10153,37 @@ msgstr ""
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1899
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1954
 #: kmymoney/plugins/csvimport/csvdialog.cpp:2014
-#: kmymoney/plugins/csvimport/csvwizard.cpp:554
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1594
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1632
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1047
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1229
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1254
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1527
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1571
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1815
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1840
-#: kmymoney/plugins/csvimport/investprocessing.cpp:2263
+#: kmymoney/plugins/csvimport/csvwizard.cpp:555
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1597
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1635
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1111
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1293
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1318
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1596
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1640
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1884
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1909
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2343
 #: kmymoney/plugins/csvimport/redefinedlg.cpp:262
 msgid "CSV import"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1122
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1595
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1633
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1230
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1598
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1636
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1294
 msgid "Accept All"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1123
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1596
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1634
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1231
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1599
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1637
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1295
 msgid "Accept This"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1151
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1250
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1314
 #, kde-format
 msgid ""
 "<center>An invalid date has been detected during import.</"
@@ -10195,7 +10197,7 @@ msgid "Enter debit flag column number"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1200
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1570
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1639
 #, kde-format
 msgid ""
 "An invalid column was entered.\n"
@@ -10256,7 +10258,7 @@ msgid "Accept %1"
 msgstr "स्वीकार करा"
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1428
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1707
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1776
 #, kde-format
 msgid ""
 "The date entry \"%1\" read from the file cannot be interpreted through the "
@@ -10269,7 +10271,7 @@ msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1502
 #: kmymoney/plugins/csvimport/csvdialog.cpp:2013
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1839
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1908
 msgid ""
 "<center>The start line is greater than the end line.\n"
 "</center><center>Please correct your settings.</center>"
@@ -10288,12 +10290,12 @@ msgid ""
 msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1530
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1862
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1931
 msgid "Save QIF"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/csvdialog.cpp:1530
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1862
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1931
 msgid "QIF Files"
 msgstr ""
 
@@ -10385,7 +10387,7 @@ msgctxt "CSV Importer dialog title"
 msgid "CSV Importer"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:372
+#: kmymoney/plugins/csvimport/csvwizard.cpp:373
 #, kde-format
 msgid ""
 "<center>The '<b>%1</b>' field already has this column selected.</"
@@ -10393,23 +10395,23 @@ msgid ""
 "'Yes'.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:400
-#: kmymoney/plugins/csvimport/investprocessing.cpp:499
-#: kmymoney/plugins/csvimport/investprocessing.cpp:637
+#: kmymoney/plugins/csvimport/csvwizard.cpp:401
+#: kmymoney/plugins/csvimport/investprocessing.cpp:526
+#: kmymoney/plugins/csvimport/investprocessing.cpp:685
 #, kde-format
 msgid ""
 "The '<b>%1</b>' field already has this column selected. <center>Please "
 "reselect both entries as necessary.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:553
+#: kmymoney/plugins/csvimport/csvwizard.cpp:554
 #, kde-format
 msgid ""
 "<center>Field name not recognised.</center> <center>'<b>%1</b>'</center> "
 "Please re-enter your column selections."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:659
+#: kmymoney/plugins/csvimport/csvwizard.cpp:660
 #, kde-format
 msgid ""
 "<center>You have cleared the profile name '%1'.</center>\n"
@@ -10417,16 +10419,16 @@ msgid ""
 "<center>Otherwise, click 'Keep'.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:662
+#: kmymoney/plugins/csvimport/csvwizard.cpp:663
 msgid "Delete or Edit Profile Name"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:664
+#: kmymoney/plugins/csvimport/csvwizard.cpp:665
 #, fuzzy
 msgid "Keep"
 msgstr "ठेवा"
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:751
+#: kmymoney/plugins/csvimport/csvwizard.cpp:752
 #, kde-format
 msgid ""
 "<center>The name you have entered does not exist,</center><center>but you "
@@ -10435,13 +10437,13 @@ msgid ""
 "center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:755
-#: kmymoney/plugins/csvimport/csvwizard.cpp:962
-#: kmymoney/plugins/csvimport/csvwizard.cpp:976
+#: kmymoney/plugins/csvimport/csvwizard.cpp:756
+#: kmymoney/plugins/csvimport/csvwizard.cpp:963
+#: kmymoney/plugins/csvimport/csvwizard.cpp:977
 msgid "Adding profile name."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:830
+#: kmymoney/plugins/csvimport/csvwizard.cpp:831
 #, kde-format
 msgid ""
 "<center>You have edited the name of a profile</center><center>from '%1' to "
@@ -10449,53 +10451,53 @@ msgid ""
 "center><center>Otherwise, click 'No'</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:834
+#: kmymoney/plugins/csvimport/csvwizard.cpp:835
 msgid "Edit a profile name or create new one."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:885
-#: kmymoney/plugins/csvimport/csvwizard.cpp:916
+#: kmymoney/plugins/csvimport/csvwizard.cpp:886
+#: kmymoney/plugins/csvimport/csvwizard.cpp:917
 msgid ""
 "<center>If you continue, you will lose any recent profile edits.</"
 "center><center>Continue or Cancel?</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:886
+#: kmymoney/plugins/csvimport/csvwizard.cpp:887
 msgid "Radio button Banking clicked"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:917
+#: kmymoney/plugins/csvimport/csvwizard.cpp:918
 msgid "Radio button Investment clicked"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:953
+#: kmymoney/plugins/csvimport/csvwizard.cpp:954
 msgid ""
 "<center>The name you have entered does not exist,</center><center>but you "
 "have not elected to add a new profile.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:955
+#: kmymoney/plugins/csvimport/csvwizard.cpp:956
 #, kde-format
 msgid ""
 "<center>If you wish to add '%1'as a new profile,</center><center> click "
 "'Yes'.  Otherwise, click 'No'</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1009
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1010
 #, fuzzy
 msgid "Select File"
 msgstr "फाईल निवडा :"
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1012
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1013
 msgid "A profile must be selected before selecting a file."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1222
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1223
 msgid "Incorrect number or type of fields.  Check the field delimiter."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1591
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1629
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1594
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1632
 #, kde-format
 msgid ""
 "<center>An invalid value has been detected in column %1 on row %2.</"
@@ -10503,21 +10505,21 @@ msgid ""
 "may accept all similar items, or just this one, or cancel.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1787
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1830
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1814
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1857
 msgid "Import CSV"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1789
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1832
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1816
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1859
 msgid "Make QIF File"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1815
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1842
 msgid "Import  CSV"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1816
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1843
 msgid "Exit"
 msgstr ""
 
@@ -10603,68 +10605,32 @@ msgid "Skip setup"
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, InvestmentPage)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:31
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:32
 msgid "Investment Wizard Page"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:72
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:73
 msgid ""
 "Please select the appropriate columns to use, corresponding to your data.\n"
 "If there is just a single security in the file, enter its name below.\n"
-"Otherwise, select the column for the symbol, and for the description or "
-"detail."
+"Otherwise, select the column for the symbol, and for the description or name."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelInv_security)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:106
-msgid "or Security Name"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelInv_FilterText)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:122
-#, fuzzy
-msgid "Filter text"
-msgstr "मजकूर गाळणी (&X)..."
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_typeCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:138
-msgid "Select column containing investment type field."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_memoCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:156
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonInv_hideSecurity)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:98
 msgid ""
-"Select column containing memo field.\n"
-"More than one column may be entered successively.\n"
-"May also be selected to contain a copy of the type or detail column."
+"Remove security name from selection list.\n"
+"It does not affect the underlying security itself."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_detailCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:173
-msgid ""
-"If a descriptive column contains an activity type, select it here.\n"
-"See also Filter text field."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_feeCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:201
-msgid ""
-"If necessary, select column containing fee.\n"
-"Caution. This might already have been\n"
-"incorporated into the price."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_symbolCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:273
-msgid ""
-"If more than one stock is present in the file,\n"
-"and if the stock symbols are shown in one of the columns,\n"
-"select it here."
+#. i18n: ectx: property (text), widget (QPushButton, buttonInv_hideSecurity)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:104
+msgid "Hide security"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_priceFraction)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:288
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:183
 msgid ""
 "If necessary, select a fraction/multiplier for compatibility\n"
 "between imported and stored prices. For instance, if the\n"
@@ -10672,107 +10638,55 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboBoxInv_priceFraction)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:295
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:190
 msgid "0.01"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboBoxInv_priceFraction)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:300
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:195
 msgid "0.10"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboBoxInv_priceFraction)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:310
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:205
 msgid "10"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, comboBoxInv_priceFraction)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:315
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:210
 msgid "100"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, labelInv_date)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:323
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:218
 msgctxt "verb, Select column containing date field"
 msgid "Select column containing date field"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, lineEdit_filter)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:347
-msgid ""
-"If the Detail column has an activity type prefixed by a standard text,\n"
-"enter the text here. For instance, if a field contains, say, 'type: "
-"dividend',\n"
-"enter 'type: '."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_securityName)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:406
-msgid ""
-"Alternatively, if the file contains just a single security, enter its name "
-"here.\n"
-"The names are retained and may be selected from the list here."
-msgstr ""
-
 #. i18n: ectx: property (text), widget (QLabel, labelInv_amount)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:434
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:271
 #, fuzzy
 msgctxt "column for monetary value"
 msgid "Amount"
 msgstr "मात्रा :"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_quantityCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:450
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:287
 msgid "Select column containing quantity field."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxInv_feeType)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:469
-msgid "Check box if any fee is a percentage figure rather than a value."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBoxInv_feeType)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:478
-msgctxt "select if fee is a percentage (not value)"
-msgid "Fee is  Percentage "
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, labelInv_feeCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:517
-msgctxt "column containing fee field"
-msgid "Fee Column"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_priceCol)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:559
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:319
 msgid "Select column containing price field."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelInv_type)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:572
-msgctxt "column containing investment type/action field"
-msgid "Type/Action"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QPushButton, buttonInv_hideSecurity)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:595
-msgid ""
-"Remove security name from selection list.\n"
-"It does not affect the underlying security itself."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonInv_hideSecurity)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:601
-msgid "Hide security"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, button_clear)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:614
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:335
 msgid "Clear selected column entries."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, button_clear)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:617
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:338
 #, fuzzy
 #| msgid "Clear &All"
 msgctxt "verb, to clear selected columns"
@@ -10780,11 +10694,138 @@ msgid "Clear"
 msgstr "सर्व साफ करा (&A)"
 
 #. i18n: ectx: property (text), widget (QLabel, labelInv_priceFraction)
-#: kmymoney/plugins/csvimport/investmentwizardpage.ui:639
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:360
 msgctxt ""
 "noun, conversion fraction/multiplier to use to make compatible the csv "
 "pricing with KMM pricing."
 msgid "Price Fraction"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_symbolCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:378
+msgid ""
+"If more than one stock is present in the file,\n"
+"and if the stock symbols are shown in one of the columns,\n"
+"select it here."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_nameCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:402
+msgid ""
+"If a descriptive column also contains an activity type, select it here.\n"
+"See also Filter text field."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, backendsList)
+#. i18n: ectx: property (text), widget (QTreeWidget, accountsList)
+#. i18n: ectx: property (text), widget (QLabel, labelInv_nameCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:415
+#: kmymoney/plugins/csvimport/redefinedlg.cpp:134
+#: kmymoney/plugins/weboob/dialogs/mapaccount.ui:28
+#: kmymoney/plugins/weboob/dialogs/mapaccount.ui:68
+#, fuzzy
+#| msgctxt "@title header of the currency name column"
+#| msgid "Name"
+msgid "Name"
+msgstr "नाव"
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#. i18n: ectx: property (text), widget (QLabel, labelInv_security)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:440
+#: kmymoney/plugins/csvimport/symboltabledlg.ui:96
+msgid "Security Name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_FilterText)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:463
+#, fuzzy
+msgid "Filter text"
+msgstr "मजकूर गाळणी (&X)..."
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_feeIsPercentage)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:473
+msgid "Fee is Percentage"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_feeCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:495
+msgctxt "column containing fee field"
+msgid "Fee Column"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_feeCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:513
+msgid ""
+"If necessary, select column containing fee.\n"
+"Caution. This might already have been\n"
+"incorporated into the price."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBoxInv_feeIsPercentage)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:532
+msgid "Check box if any fee is a percentage figure rather than a value."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_typeCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:554
+msgid "Select column containing investment type field."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_feeRate)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:570
+#, fuzzy
+#| msgid "December"
+msgid "Fee rate"
+msgstr "डिसेंबर"
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_type)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:583
+msgctxt "column containing investment type/action field"
+msgid "Type/Action"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_memoCol)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:601
+msgid ""
+"Select column containing memo field.\n"
+"More than one column may be entered successively.\n"
+"May also be selected to contain a copy of the type or name column."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, lineEdit_filter)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:629
+msgid ""
+"If the Name column has an activity type prefixed by a standard text,\n"
+"enter the text here. For instance, if a field contains, say, 'type: "
+"dividend',\n"
+"enter 'type: '."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_feeMinValue)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:655
+msgid "Minimal Fee"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonInv_clearFee)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:671
+#, fuzzy
+#| msgid "Clear &All"
+msgid "Clear Fee"
+msgstr "सर्व साफ करा (&A)"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonInv_calculateFee)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:684
+#, fuzzy
+#| msgid "Calculate"
+msgid "Calculate Fee"
+msgstr "गणना करा"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, comboBoxInv_securityName)
+#: kmymoney/plugins/csvimport/investmentwizardpage.ui:719
+msgid ""
+"Alternatively, if the file contains just a single security, enter its name "
+"here.\n"
+"The names are retained and may be selected from the list here."
 msgstr ""
 
 #: kmymoney/plugins/csvimport/investprocessing.cpp:165
@@ -10904,7 +10945,7 @@ msgctxt "%1"
 msgid "adr mgmt fee"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:614
+#: kmymoney/plugins/csvimport/investprocessing.cpp:662
 #, kde-format
 msgid ""
 "<center>The '<b>%1</b>' field already has this column selected.</"
@@ -10912,20 +10953,20 @@ msgid ""
 "</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1047
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1111
 msgid ""
 "<center>An amount, price, and/or quantity column is missing.</center>Please "
 "check your selections."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1476
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1545
 msgid ""
 "The quantity, price and amount parameters in the\n"
 "current transaction do not match with the action type.\n"
 "Please select another action type\n"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1524
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1593
 msgid ""
 "<center>The columns selected are invalid.\n"
 "</center>There must an amount or quantity fields, symbol or security name, "
@@ -10933,70 +10974,70 @@ msgid ""
 "end line settings, or reset 'Skip setup'.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1542
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1611
 msgid ""
 "<center>buyList of transaction types was not found.</center><center>Check "
 "existence of correct resource file - 'csvimporterrc'.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1566
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1635
 msgid ""
 "<center>For a brokerage item, enter the column</center><center>containing "
-"the Payee or Detail:</center>"
+"the Payee or Name:</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1582
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1651
 msgid ""
-"<center>No Detail field specified</center><center>and no security name "
+"<center>No Name field specified</center><center>and no security name "
 "supplied.</center><center>(Please check the parameters given)</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1656
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1725
 msgid ""
 "<center>The transaction below has an unrecognised type or action.</"
 "center><center>Please select an appropriate entry, if available.</"
 "center><center>Otherwise, click Cancel to abort.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1802
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1871
 msgid ""
 "<center>Please select the decimal symbol used in your file.\n"
 "</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1802
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1871
 msgid "Investment import"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1815
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1884
 msgid ""
 "<center>Please enter a name or symbol for the security.\n"
 "</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1849
+#: kmymoney/plugins/csvimport/investprocessing.cpp:1918
 msgid ""
 "The Security Name, and Date and Type columns are needed.<center>Also, the "
 "Price, Quantity and Amount columns.</center><center>Please try again.</"
 "center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1947
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2016
 msgid "Brokerage Item"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:1957
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2026
 msgid "Parameters"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:2263
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2343
 #, kde-format
 msgid ""
 "<center>Field name not recognised.</center><center>'<b>%1</b>'</"
 "center>Please re-enter your column selections."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:2349
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2434
 #, kde-format
 msgid ""
 "<center>Do you want to add a new security</center>\n"
@@ -11006,11 +11047,11 @@ msgid ""
 "<center>Otherwise, click 'Cancel'.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:2354
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2439
 msgid "Add Security Name"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:2378
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2542
 #, kde-format
 msgid ""
 "<center>You have selected to remove from the selection list</center>\n"
@@ -11019,7 +11060,7 @@ msgid ""
 "<center>Click 'Cancel'' to leave 'as is'.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investprocessing.cpp:2382
+#: kmymoney/plugins/csvimport/investprocessing.cpp:2546
 msgid "Hide Security Name"
 msgstr ""
 
@@ -11255,11 +11296,26 @@ msgstr ""
 msgid "Symbols and Security Names present"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/symboltabledlg.cpp:92
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:94
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:168
+msgctxt "Security exists"
+msgid "Exists"
+msgstr ""
+
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:98
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:195
 #, fuzzy
-msgctxt "Confirm"
-msgid "Yes"
-msgstr "हो"
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgctxt "Security has no name"
+msgid "No name"
+msgstr "चेतन खोना"
+
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:103
+#: kmymoney/plugins/csvimport/symboltabledlg.cpp:160
+msgctxt "Security has no symbol"
+msgid "No symbol"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, SymbolTableDlgDecl)
 #: kmymoney/plugins/csvimport/symboltabledlg.ui:20
@@ -11272,24 +11328,14 @@ msgid "Edit Securities and Symbols"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_info)
-#: kmymoney/plugins/csvimport/symboltabledlg.ui:46
+#: kmymoney/plugins/csvimport/symboltabledlg.ui:45
 msgid ""
 "The following symbols and securities are present in the import file.\n"
-"Existing securities will be flagged in the 'Exists' column.\n"
-"If necessary, edit security names to match your existing File,\n"
-"and add missing symbols, which are necessary for import.\n"
+"Existing securities will be flagged in the 'Status' column.\n"
+"If necessary, add security names, and missing symbols, which are necessary "
+"for import.\n"
 "For new securities, edit the name in one of its rows, and that name will "
 "apply to its other rows, if any."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: kmymoney/plugins/csvimport/symboltabledlg.ui:92
-msgid "Exists"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: kmymoney/plugins/csvimport/symboltabledlg.ui:97
-msgid "Security Name"
 msgstr ""
 
 #: kmymoney/plugins/icalendarexport/icalendarexport.cpp:58
@@ -12811,16 +12857,6 @@ msgstr "सर्वांची निवड करा"
 #: kmymoney/plugins/weboob/dialogs/mapaccount.ui:21
 msgid "Please select a backend from the list below..."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QTreeWidget, backendsList)
-#. i18n: ectx: property (text), widget (QTreeWidget, accountsList)
-#: kmymoney/plugins/weboob/dialogs/mapaccount.ui:28
-#: kmymoney/plugins/weboob/dialogs/mapaccount.ui:68
-#, fuzzy
-#| msgctxt "@title header of the currency name column"
-#| msgid "Name"
-msgid "Name"
-msgstr "नाव"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, backendsList)
 #: kmymoney/plugins/weboob/dialogs/mapaccount.ui:33
@@ -19732,6 +19768,11 @@ msgid ""
 "p>\n"
 "<p>Provided by Jose Jorge</p>\n"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "Confirm"
+#~ msgid "Yes"
+#~ msgstr "हो"
 
 #, fuzzy
 #~ msgid "Icons"
