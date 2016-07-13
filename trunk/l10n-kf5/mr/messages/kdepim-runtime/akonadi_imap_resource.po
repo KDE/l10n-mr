@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-05-24 09:16+0000\n"
+"POT-Creation-Date: 2016-07-13 08:12+0000\n"
 "PO-Revision-Date: 2013-03-13 11:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -410,16 +410,14 @@ msgstr ""
 msgid "No message retrieved, server reply was empty."
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ServerInfo)
-#. i18n: ectx: property (text), widget (QPushButton, showServerInfo)
-#: serverinfo.ui:14 setupserverview_desktop.ui:654
-msgid "Server Info"
-msgstr ""
-
 #: serverinfodialog.cpp:36
 msgctxt ""
 "@title:window Dialog title for dialog showing information about a server"
 msgid "Server Info"
+msgstr ""
+
+#: serverinfodialog.cpp:79
+msgid "Resource not synchronized yet."
 msgstr ""
 
 #: sessionpool.cpp:257 sessionpool.cpp:406
@@ -523,7 +521,7 @@ msgstr "परत प्रयत्न करा"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserver.cpp:83 setupserverview_desktop.ui:329
+#: setupserver.cpp:82 setupserverview_desktop.ui:329
 #: setupserverview_desktop.ui:580
 msgctxt "Authentication method"
 msgid "Clear text"
@@ -531,56 +529,56 @@ msgstr "पाठ्य खोडा"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationAlternateCombo)
 #. i18n: ectx: property (text), item, widget (QComboBox, authenticationCombo)
-#: setupserver.cpp:85 setupserverview_desktop.ui:364
+#: setupserver.cpp:84 setupserverview_desktop.ui:364
 #: setupserverview_desktop.ui:615
 msgctxt "Authentication method"
 msgid "Anonymous"
 msgstr "निनावी"
 
-#: setupserver.cpp:140
+#: setupserver.cpp:139
 msgid "Archive Folder"
 msgstr ""
 
-#: setupserver.cpp:152
+#: setupserver.cpp:151
 msgid " minute"
 msgid_plural " minutes"
 msgstr[0] " मिनिट"
 msgstr[1] " मिनिटे"
 
-#: setupserver.cpp:386
+#: setupserver.cpp:385
 msgid ""
 "Could not access KWallet. If you want to store the password permanently then "
 "you have to activate it. If you do not want to use KWallet, check the box "
 "below, but note that you will be prompted for your password when needed."
 msgstr ""
 
-#: setupserver.cpp:391
+#: setupserver.cpp:390
 msgid "Do not use KWallet"
 msgstr ""
 
-#: setupserver.cpp:499
+#: setupserver.cpp:498
 msgid "Unable to connect to the server, please verify the server address."
 msgstr ""
 
-#: setupserver.cpp:511
+#: setupserver.cpp:510
 msgid "<qt><b>TLS is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:514
+#: setupserver.cpp:513
 msgid "<qt><b>SSL is supported and recommended.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:517
+#: setupserver.cpp:516
 msgid ""
 "<qt><b>No security is supported. It is not recommended to connect to this "
 "server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:520
+#: setupserver.cpp:519
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
 msgstr ""
 
-#: setupserver.cpp:620
+#: setupserver.cpp:619
 msgid "Serverside Subscription"
 msgstr ""
 
@@ -897,6 +895,11 @@ msgstr "पोर्ट :"
 #: setupserverview_desktop.ui:634
 msgid "Empty"
 msgstr "रिकामी"
+
+#. i18n: ectx: property (text), widget (QPushButton, showServerInfo)
+#: setupserverview_desktop.ui:654
+msgid "Server Info"
+msgstr ""
 
 #: subscriptiondialog.cpp:71
 msgctxt "@action:button"
