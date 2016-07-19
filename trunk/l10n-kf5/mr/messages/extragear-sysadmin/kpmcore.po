@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-18 07:42+0000\n"
+"POT-Creation-Date: 2016-07-19 08:33+0000\n"
 "PO-Revision-Date: 2013-04-01 17:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1088,8 +1088,8 @@ msgstr "नवीन विभाजन"
 #| msgid "New Partition"
 msgctxt "@info:progress"
 msgid ""
-"Warning: Resizing Btrfs file system on partition <filename>%1</filename>: "
-"Unmount failed."
+"<warning>Resizing Btrfs file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
 msgstr "नवीन विभाजन"
 
 #: fs/btrfs.cpp:162
@@ -1350,8 +1350,8 @@ msgstr "नवीन विभाजन"
 #| msgid "New Partition"
 msgctxt "@info:progress"
 msgid ""
-"Warning: Resizing JFS file system on partition <filename>%1</filename>: "
-"Unmount failed."
+"<warning>Resizing JFS file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
 msgstr "नवीन विभाजन"
 
 #: fs/jfs.cpp:180
@@ -1432,8 +1432,8 @@ msgstr "नवीन विभाजन"
 #| msgid "New Partition"
 msgctxt "@info:progress"
 msgid ""
-"Warning: Resizing NILFS2 file system on partition <filename>%1</filename>: "
-"Unmount failed."
+"<warning>Resizing NILFS2 file system on partition <filename>%1</filename>: "
+"Unmount failed.</warning>"
 msgstr "नवीन विभाजन"
 
 #: fs/nilfs2.cpp:167
@@ -1517,8 +1517,8 @@ msgstr "नवीन विभाजन"
 #| msgid "New Partition"
 msgctxt "@info:progress"
 msgid ""
-"Warning: Resizing XFS file system on partition <filename>%1</filename>: "
-"Unmount failed."
+"<warning>Resizing XFS file system on partition <filename>%1</filename> "
+"failed: Unmount failed.</warning>"
 msgstr "नवीन विभाजन"
 
 #: fs/xfs.cpp:190
@@ -2187,14 +2187,14 @@ msgctxt "@info:status"
 msgid "Check and repair partition <filename>%1</filename> (%2, %3)"
 msgstr "नवीन विभाजन"
 
-#: ops/copyoperation.cpp:157
+#: ops/copyoperation.cpp:157 ops/restoreoperation.cpp:140
 #, fuzzy, kde-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
 msgctxt "@info:status"
 msgid ""
-"Warning: Maximizing file system on target partition <filename>%1</filename> "
-"to the size of the partition failed."
+"<warning>Maximizing file system on target partition <filename>%1</filename> "
+"to the size of the partition failed.</warning>"
 msgstr "नवीन विभाजन"
 
 #: ops/copyoperation.cpp:161
@@ -2506,16 +2506,6 @@ msgstr "नवीन विभाजन"
 msgctxt "@info:status"
 msgid ""
 "Could not restore old partition size for partition <filename>%1</filename>."
-msgstr "नवीन विभाजन"
-
-#: ops/restoreoperation.cpp:140
-#, fuzzy, kde-format
-#| msgctxt "@item partition name"
-#| msgid "New Partition"
-msgctxt "@info:status"
-msgid ""
-"<warning>Maximizing file system on target partition <filename>%1</filename> "
-"to the size of the partition failed.</warning>"
 msgstr "नवीन विभाजन"
 
 #: ops/restoreoperation.cpp:142
@@ -2904,6 +2894,15 @@ msgstr "केडीई आवृत्ती :"
 #: util/htmlreport.cpp:82
 msgid "Machine:"
 msgstr "मशीन :"
+
+#, fuzzy
+#~| msgctxt "@item partition name"
+#~| msgid "New Partition"
+#~ msgctxt "@info:status"
+#~ msgid ""
+#~ "Warning: Maximizing file system on target partition <filename>%1</"
+#~ "filename> to the size of the partition failed."
+#~ msgstr "नवीन विभाजन"
 
 #~ msgctxt "@info/plain unit"
 #~ msgid "Byte"
