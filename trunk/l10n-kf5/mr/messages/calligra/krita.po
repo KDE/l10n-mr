@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-02 08:18+0000\n"
+"POT-Creation-Date: 2016-08-04 07:33+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -11158,8 +11158,6 @@ msgstr ""
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:198
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:258
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:262
-#: plugins/impex/jp2/jp2_converter.cc:321
-#: plugins/impex/jp2/jp2_converter.cc:332
 #: plugins/impex/jpeg/kis_jpeg_converter.cc:482
 #: plugins/impex/jpeg/kis_jpeg_converter.cc:487
 #: plugins/impex/tiff/kis_tiff_writer_visitor.cpp:73
@@ -27271,38 +27269,6 @@ msgstr ""
 msgid "PC"
 msgstr "IPTC"
 
-#: plugins/impex/jp2/jp2_converter.cc:321
-#: plugins/impex/jp2/jp2_converter.cc:332
-#: plugins/impex/tiff/kis_tiff_writer_visitor.cpp:73
-#, kde-format
-msgid "Cannot export images in %1.\n"
-msgstr "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
-
-#: plugins/impex/jp2/jp2_export.cc:76
-msgid "JPEG 2000 Export Options"
-msgstr "JPEG 2000 चे निर्यात पर्याय"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/impex/jp2/kis_wdg_options_jp2.ui:19
-#, fuzzy
-msgid "Compression"
-msgstr "संक्षिप्त करा :"
-
-#. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
-#. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, qualityLevel)
-#: plugins/impex/jp2/kis_wdg_options_jp2.ui:26
-#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:58
-msgid ""
-"<html><head/><body><p>These settings determine how much information is lost "
-"during compression. Low: small files, bad quality. High: big files, good "
-"quality.</p></body></html>"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/impex/jp2/kis_wdg_options_jp2.ui:74
-msgid "Number of resolutions:"
-msgstr "घनतांची संख्या :"
-
 #: plugins/impex/jpeg/kis_jpeg_converter.cc:482
 #, kde-format
 msgid ""
@@ -27338,6 +27304,14 @@ msgstr "प्रगतिशील"
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:34
 #: plugins/impex/png/kis_wdg_options_png.ui:50
 msgid "Force convert to sRGB"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, qualityLevel)
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:58
+msgid ""
+"<html><head/><body><p>These settings determine how much information is lost "
+"during compression. Low: small files, bad quality. High: big files, good "
+"quality.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -28442,6 +28416,11 @@ msgstr "प्रतिमा दाखल केली नाही"
 #: plugins/impex/tiff/kis_dlg_options_tiff.cpp:40
 msgid "TIFF Export Options"
 msgstr "TIFF निर्यात पर्याय"
+
+#: plugins/impex/tiff/kis_tiff_writer_visitor.cpp:73
+#, kde-format
+msgid "Cannot export images in %1.\n"
+msgstr "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisWdgOptionsTIFF)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
@@ -32872,6 +32851,16 @@ msgstr "डेकोरेशन्स दर्शवा"
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:2109
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
+
+#~ msgid "JPEG 2000 Export Options"
+#~ msgstr "JPEG 2000 चे निर्यात पर्याय"
+
+#, fuzzy
+#~ msgid "Compression"
+#~ msgstr "संक्षिप्त करा :"
+
+#~ msgid "Number of resolutions:"
+#~ msgstr "घनतांची संख्या :"
 
 #~ msgid "Enabled"
 #~ msgstr "कार्यान्वित"
