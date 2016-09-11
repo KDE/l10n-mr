@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-26 06:56+0000\n"
+"POT-Creation-Date: 2016-09-11 07:24+0000\n"
 "PO-Revision-Date: 2013-04-15 10:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -78,7 +78,7 @@ msgstr "केडीई  पत्ता पुस्तिका अनुप�
 msgid "Copyright © 2007–2016 KAddressBook authors"
 msgstr "सर्वाधिकार © २००७-२०१३ के-एड्रेस-बूक लेखक"
 
-#: src/aboutdata.cpp:35
+#: src/aboutdata.cpp:35 src/configuration/kaddressbook_config_plugins.cpp:42
 msgid "Laurent Montel"
 msgstr "लोरेन्ट मोन्टेल"
 
@@ -133,6 +133,16 @@ msgstr ""
 #, kde-format
 msgid "<qt>Category filter: %1"
 msgstr ""
+
+#: src/configuration/kaddressbook_config_plugins.cpp:38
+msgid "Configure Plugins"
+msgstr ""
+
+#: src/configuration/kaddressbook_config_plugins.cpp:40
+#, fuzzy
+#| msgid "Laurent Montel"
+msgid "(c), 2016 Laurent Montel"
+msgstr "लोरेन्ट मोन्टेल"
 
 #: src/contactfields.cpp:30
 msgctxt "@item Undefined import field type"
@@ -373,7 +383,7 @@ msgstr "संयोजना (&S)"
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
-#: src/mainwidget.cpp:379
+#: src/mainwidget.cpp:380
 #, fuzzy, kde-format
 #| msgctxt "@label Search contacts in list"
 #| msgid "Search"
@@ -381,167 +391,167 @@ msgctxt "@label Search contacts in list"
 msgid "Search...<%1>"
 msgstr "शोधा"
 
-#: src/mainwidget.cpp:591
+#: src/mainwidget.cpp:592
 msgid "&Themes"
 msgstr ""
 
-#: src/mainwidget.cpp:602
+#: src/mainwidget.cpp:603
 msgctxt "@info:whatsthis"
 msgid "Print the complete address book or a selected number of contacts."
 msgstr " पत्त्यांची संपूर्ण नोंदवही किंवा निवडक संपर्कांचे क्रमांक छापा."
 
-#: src/mainwidget.cpp:607
+#: src/mainwidget.cpp:608
 msgid "Quick search"
 msgstr "त्वरित शोध"
 
-#: src/mainwidget.cpp:612
+#: src/mainwidget.cpp:613
 msgid "Category filter"
 msgstr ""
 
-#: src/mainwidget.cpp:617
+#: src/mainwidget.cpp:618
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: src/mainwidget.cpp:619
+#: src/mainwidget.cpp:620
 msgid "Select all contacts in the current address book view."
 msgstr "सध्याच्या पत्ते नोंदवहीच्या दृष्यपटलावरील सर्व संपर्क निवडा."
 
-#: src/mainwidget.cpp:625
+#: src/mainwidget.cpp:626
 msgid "Show QR Codes"
 msgstr "जलद प्रतिक्रिया संकेतावली (QR Codes) दाखवा "
 
-#: src/mainwidget.cpp:626
+#: src/mainwidget.cpp:627
 msgid "Show QR Codes in the contact."
 msgstr "संपर्कांत जलद प्रतिक्रिया संकेतावली दाखवा"
 
-#: src/mainwidget.cpp:632
+#: src/mainwidget.cpp:633
 msgctxt "@action:inmenu"
 msgid "Simple (one column)"
 msgstr "साधे (एक स्तंभ)"
 
-#: src/mainwidget.cpp:636
+#: src/mainwidget.cpp:637
 msgid "Show a simple mode of the address book view."
 msgstr "पत्त्यांची नोंदवही पाहण्याची सोपी/साधी रीत/पद्धत दाखवा "
 
-#: src/mainwidget.cpp:639
+#: src/mainwidget.cpp:640
 msgctxt "@action:inmenu"
 msgid "Two Columns"
 msgstr "दोन स्तंभ"
 
-#: src/mainwidget.cpp:645
+#: src/mainwidget.cpp:646
 msgctxt "@action:inmenu"
 msgid "Three Columns"
 msgstr "तीन स्तंभ"
 
-#: src/mainwidget.cpp:655
+#: src/mainwidget.cpp:656
 msgid "Import vCard..."
 msgstr "vCard आयात करा"
 
-#: src/mainwidget.cpp:656
+#: src/mainwidget.cpp:657
 msgid "Import contacts from a vCard file."
 msgstr "vCard फाईलमधून संपर्क आयात करा "
 
-#: src/mainwidget.cpp:660
+#: src/mainwidget.cpp:661
 msgid "Import CSV file..."
 msgstr "CSV फाईल आयात करा"
 
-#: src/mainwidget.cpp:661
+#: src/mainwidget.cpp:662
 msgid "Import contacts from a file in comma separated value format."
 msgstr "स्वल्पविराम विभाजीत मूल्य स्वरूपातील फाईल पासून संपर्क आयात करा."
 
-#: src/mainwidget.cpp:665
+#: src/mainwidget.cpp:666
 msgid "Import LDIF file..."
 msgstr "LDIF फाईल आयात करा..."
 
-#: src/mainwidget.cpp:666
+#: src/mainwidget.cpp:667
 msgid "Import contacts from an LDIF file."
 msgstr "संपर्क LDIF फाईलमधून आयात करा"
 
-#: src/mainwidget.cpp:670
+#: src/mainwidget.cpp:671
 #, fuzzy
 #| msgid "Import from LDAP server..."
 msgid "Import From LDAP server..."
 msgstr "LDAP सर्व्हरकडून आयात करा"
 
-#: src/mainwidget.cpp:671
+#: src/mainwidget.cpp:672
 msgid "Import contacts from an LDAP server."
 msgstr "LDAP सर्व्हरकडून संपर्क आयात करा"
 
-#: src/mainwidget.cpp:675
+#: src/mainwidget.cpp:676
 msgid "Import GMX file..."
 msgstr "GMX फाईल आयात करा"
 
-#: src/mainwidget.cpp:676
+#: src/mainwidget.cpp:677
 msgid "Import contacts from a GMX address book file."
 msgstr "GMX पत्त्यांच्या नोंदवहीच्या फाईलकडून संपर्क आयात करा"
 
-#: src/mainwidget.cpp:681
+#: src/mainwidget.cpp:682
 #, fuzzy
 #| msgid "Export vCard 3.0..."
 msgid "Export vCard 4.0..."
 msgstr "vCard 3.0 निर्यात करा"
 
-#: src/mainwidget.cpp:682
+#: src/mainwidget.cpp:683
 #, fuzzy
 #| msgid "Export contacts to a vCard 3.0 file."
 msgid "Export contacts to a vCard 4.0 file."
 msgstr "vCard 3.0 फाईलकडे संपर्क निर्यात करा"
 
-#: src/mainwidget.cpp:686
+#: src/mainwidget.cpp:687
 msgid "Export vCard 3.0..."
 msgstr "vCard 3.0 निर्यात करा"
 
-#: src/mainwidget.cpp:687
+#: src/mainwidget.cpp:688
 msgid "Export contacts to a vCard 3.0 file."
 msgstr "vCard 3.0 फाईलकडे संपर्क निर्यात करा"
 
-#: src/mainwidget.cpp:691
+#: src/mainwidget.cpp:692
 msgid "Export vCard 2.1..."
 msgstr "vCard 2.1 निर्यात करा"
 
-#: src/mainwidget.cpp:692
+#: src/mainwidget.cpp:693
 msgid "Export contacts to a vCard 2.1 file."
 msgstr "vCard  2.1 फाईलकडे संपर्क निर्यात करा."
 
-#: src/mainwidget.cpp:696
+#: src/mainwidget.cpp:697
 msgid "Export CSV file..."
 msgstr "CSV फाईल निर्यात करा"
 
-#: src/mainwidget.cpp:697
+#: src/mainwidget.cpp:698
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 "स्वल्पविरामानी वेगवेगळ्या केलेल्या नोंदवहीतील/प्रणालीतील व्यक्तिगत माहितीच्या रचनेमध्ये संपर्क "
 "निर्यात करा"
 
-#: src/mainwidget.cpp:701
+#: src/mainwidget.cpp:702
 msgid "Export LDIF file..."
 msgstr "LDIF फाईल निर्यात करा"
 
-#: src/mainwidget.cpp:702
+#: src/mainwidget.cpp:703
 msgid "Export contacts to an LDIF file."
 msgstr "संपर्क LDIF फाईलकडे निर्यात करा"
 
-#: src/mainwidget.cpp:706
+#: src/mainwidget.cpp:707
 msgid "Export GMX file..."
 msgstr "GMX फील निर्यात करा"
 
-#: src/mainwidget.cpp:707
+#: src/mainwidget.cpp:708
 msgid "Export contacts to a GMX address book file."
 msgstr "संपर्क GMX पत्ते नोंदवहीकडे निर्यात करा"
 
-#: src/mainwidget.cpp:715
+#: src/mainwidget.cpp:716
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: src/mainwidget.cpp:728
+#: src/mainwidget.cpp:729
 msgid "Serverside Subscription..."
 msgstr ""
 
-#: src/mainwidget.cpp:736 src/mainwidget.cpp:760
+#: src/mainwidget.cpp:737 src/mainwidget.cpp:761
 msgid "Address Book"
 msgstr "पत्ते नोंदवही"
 
-#: src/mainwidget.cpp:766 src/printing/printingwizard.cpp:58
+#: src/mainwidget.cpp:767 src/printing/printingwizard.cpp:58
 msgid "Print Contacts"
 msgstr "संपर्क छापा"
 

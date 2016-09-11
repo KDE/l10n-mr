@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmperformance\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-03 07:04+0000\n"
+"POT-Creation-Date: 2016-09-11 07:05+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -47,40 +47,6 @@ msgstr ""
 
 #: konqueror.cpp:34
 msgid ""
-"Disables the minimization of memory usage and allows you to make each "
-"browsing activity independent from the others"
-msgstr ""
-"स्मृती वापर कमी करण्याचा पर्याय अकार्यान्वित करतो व प्रत्येक संचारण क्रिया इतर "
-"क्रियांपासून स्वतंत्र करण्याकरिता वापरकर्त्यास परवानगी देतो"
-
-#: konqueror.cpp:37
-msgid ""
-"<p>With this option activated, only one instance of Konqueror used for file "
-"browsing will exist in the memory of your computer at any moment, no matter "
-"how many file browsing windows you open, thus reducing resource requirements."
-"</p><p>Be aware that this also means that, if something goes wrong, all your "
-"file browsing windows will be closed simultaneously</p>"
-msgstr ""
-"<p>हा पर्याय सक्रिय असल्यास, फाईल संचारण करिता कॉन्कररची फक्त एकेच घटना संगणकातील "
-"स्मृती अंतर्गत कुठल्याहीक्षणी उपलब्ध होईल, फाईल संचारण ब्राऊजींग करिता कितकही चौकट उघडे "
-"असल्यावरही काहिच फरक पडणार नाही, व यानुरूप स्रोत आवश्यकता कमी करतो. </p><p>याचा "
-"अर्थ असा देखिल होतो की, कोणतीही चुक आढळल्यास, फाईल संचारण चौकट त्याक्षणी बंद होईल</p>"
-
-#: konqueror.cpp:45
-msgid ""
-"<p>With this option activated, only one instance of Konqueror will exist in "
-"the memory of your computer at any moment, no matter how many browsing "
-"windows you open, thus reducing resource requirements.</p><p>Be aware that "
-"this also means that, if something goes wrong, all your browsing windows "
-"will be closed simultaneously.</p>"
-msgstr ""
-"<p>हा पर्याय सक्रिय असल्यास, कॉन्कररची फक्त एकेच घटना संगणकातील स्मृती अंतर्गत "
-"कुठल्याहीक्षणी उपलब्ध होईल, व फाईल संचारण करिता कितकही चौकट उघडे असल्यावरही काहिच "
-"फरक पडणार नाही, व यानुरप स्रोत आवश्यकता कमी करतो. </p><p>याचा अर्थ असा देखिल होतो "
-"की, कोणतीही चुक झाल्यास, फाईल ब्राऊजींग चौकट त्याक्षणी बंद होतील</p>"
-
-#: konqueror.cpp:57
-msgid ""
 "<p>If non-zero, this option allows keeping Konqueror instances in memory "
 "after all their windows have been closed, up to the number specified in this "
 "option.</p><p>When a new Konqueror instance is needed, one of these "
@@ -88,7 +54,7 @@ msgid ""
 "expense of the memory required by the preloaded instances.</p>"
 msgstr ""
 
-#: konqueror.cpp:66
+#: konqueror.cpp:43
 msgid ""
 "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
 "KDE startup sequence.</p><p>This will make the first Konqueror window open "
@@ -97,7 +63,7 @@ msgid ""
 "longer).</p>"
 msgstr ""
 
-#: konqueror.cpp:72
+#: konqueror.cpp:49
 msgid ""
 "<p>If enabled, KDE will always try to have one preloaded Konqueror instance "
 "ready; preloading a new instance in the background whenever there is not one "
@@ -106,43 +72,25 @@ msgid ""
 "performance.</p>"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, reuse_group)
-#: konqueror_ui.ui:16
-msgid "Minimize Memory Usage"
-msgstr "किमान स्मृती वापर"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_never_reuse)
-#: konqueror_ui.ui:22
-msgid "&Never"
-msgstr "कधीही नाही (&N)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_file_browsing_reuse)
-#: konqueror_ui.ui:29
-msgid "For &file browsing only (recommended)"
-msgstr "फक्त फाईल संचरान करिता &f (सूचविलेले)"
-
-#. i18n: ectx: property (text), widget (QRadioButton, rb_always_reuse)
-#: konqueror_ui.ui:36
-msgid "Alwa&ys (use with care)"
-msgstr "नेहमी (काळजीपूर्वक वापर करा) (&y)"
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: konqueror_ui.ui:46
+#: konqueror_ui.ui:17
 msgid "Preloading"
 msgstr "पूर्वदाखलन करत आहे"
 
 #. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
-#: konqueror_ui.ui:57
-msgid "Maximum number of instances kept &preloaded:"
+#: konqueror_ui.ui:37
+#, fuzzy
+#| msgid "Maximum number of instances kept &preloaded:"
+msgid "&Maximum number of instances kept preloaded:"
 msgstr "पूर्वदाखलन केलेल्या घटनांची कमाल संख्या (&P):"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
-#: konqueror_ui.ui:91
+#: konqueror_ui.ui:71
 msgid "Preload an instance after KDE startup"
 msgstr "केडीई startup नंतर घटनाचे पूर्वदाखन करा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
-#: konqueror_ui.ui:98
+#: konqueror_ui.ui:78
 msgid "Always try to have at least one preloaded instance"
 msgstr "किमान एक पूर्वदाखलन घटना समाविष्ट करण्याचा प्रयत्न करा"
 
@@ -181,3 +129,47 @@ msgid ""
 msgstr ""
 "या पर्याय काहिक ठराविक घटना अंतर्गत अनेक अडचणी करिता कारणीभूत ठरू शकते. विस्तृत तपशील "
 "माहिती करिता हे काय आहे (Shift+F1) पहा."
+
+#~ msgid ""
+#~ "Disables the minimization of memory usage and allows you to make each "
+#~ "browsing activity independent from the others"
+#~ msgstr ""
+#~ "स्मृती वापर कमी करण्याचा पर्याय अकार्यान्वित करतो व प्रत्येक संचारण क्रिया इतर "
+#~ "क्रियांपासून स्वतंत्र करण्याकरिता वापरकर्त्यास परवानगी देतो"
+
+#~ msgid ""
+#~ "<p>With this option activated, only one instance of Konqueror used for "
+#~ "file browsing will exist in the memory of your computer at any moment, no "
+#~ "matter how many file browsing windows you open, thus reducing resource "
+#~ "requirements.</p><p>Be aware that this also means that, if something goes "
+#~ "wrong, all your file browsing windows will be closed simultaneously</p>"
+#~ msgstr ""
+#~ "<p>हा पर्याय सक्रिय असल्यास, फाईल संचारण करिता कॉन्कररची फक्त एकेच घटना संगणकातील "
+#~ "स्मृती अंतर्गत कुठल्याहीक्षणी उपलब्ध होईल, फाईल संचारण ब्राऊजींग करिता कितकही चौकट "
+#~ "उघडे असल्यावरही काहिच फरक पडणार नाही, व यानुरूप स्रोत आवश्यकता कमी करतो. </"
+#~ "p><p>याचा अर्थ असा देखिल होतो की, कोणतीही चुक आढळल्यास, फाईल संचारण चौकट "
+#~ "त्याक्षणी बंद होईल</p>"
+
+#~ msgid ""
+#~ "<p>With this option activated, only one instance of Konqueror will exist "
+#~ "in the memory of your computer at any moment, no matter how many browsing "
+#~ "windows you open, thus reducing resource requirements.</p><p>Be aware "
+#~ "that this also means that, if something goes wrong, all your browsing "
+#~ "windows will be closed simultaneously.</p>"
+#~ msgstr ""
+#~ "<p>हा पर्याय सक्रिय असल्यास, कॉन्कररची फक्त एकेच घटना संगणकातील स्मृती अंतर्गत "
+#~ "कुठल्याहीक्षणी उपलब्ध होईल, व फाईल संचारण करिता कितकही चौकट उघडे असल्यावरही "
+#~ "काहिच फरक पडणार नाही, व यानुरप स्रोत आवश्यकता कमी करतो. </p><p>याचा अर्थ असा "
+#~ "देखिल होतो की, कोणतीही चुक झाल्यास, फाईल ब्राऊजींग चौकट त्याक्षणी बंद होतील</p>"
+
+#~ msgid "Minimize Memory Usage"
+#~ msgstr "किमान स्मृती वापर"
+
+#~ msgid "&Never"
+#~ msgstr "कधीही नाही (&N)"
+
+#~ msgid "For &file browsing only (recommended)"
+#~ msgstr "फक्त फाईल संचरान करिता &f (सूचविलेले)"
+
+#~ msgid "Alwa&ys (use with care)"
+#~ msgstr "नेहमी (काळजीपूर्वक वापर करा) (&y)"
