@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-12 06:56+0000\n"
+"POT-Creation-Date: 2016-09-13 07:50+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -5934,7 +5934,7 @@ msgctxt "Convert image bit depth"
 msgid "Convert Depth"
 msgstr ""
 
-#: libs/dimg/filters/dimgfiltermanager.cpp:424
+#: libs/dimg/filters/dimgfiltermanager.cpp:423
 msgid "Unknown filter"
 msgstr ""
 
@@ -7025,7 +7025,7 @@ msgstr ""
 msgid "Raw Conversion"
 msgstr ""
 
-#: libs/dimg/filters/redeye/redeyecorrectionfilter.h:60
+#: libs/dimg/filters/redeye/redeyecorrectionfilter.h:62
 msgid "RedEye Correction Filter"
 msgstr ""
 
@@ -7037,7 +7037,7 @@ msgid "Red Level:"
 msgstr "पातळी :"
 
 #: libs/dimg/filters/redeye/redeyecorrectionsettings.cpp:82
-msgid "Set here the red level you want to correct."
+msgid "Set here the reducing level of red to the average of blue and green."
 msgstr ""
 
 #: libs/dimg/filters/sharp/refocusfilter.h:58
@@ -13511,6 +13511,7 @@ msgid "Photograph"
 msgstr ""
 
 #: libs/widgets/metadata/metadatawidget.cpp:139
+#: utilities/advancedrename/parser/options/dateoption.cpp:61
 #: utilities/queuemanager/tools/transform/rotate.cpp:103
 msgid "Custom"
 msgstr "ऐच्छिक"
@@ -14696,6 +14697,26 @@ msgctxt "date format settings"
 msgid "format settings"
 msgstr ""
 
+#: utilities/advancedrename/parser/options/dateoption.cpp:57
+#: utilities/metadataedit/exif/exifdevice.cpp:302
+msgid "Standard"
+msgstr "प्रमाणित"
+
+#: utilities/advancedrename/parser/options/dateoption.cpp:58
+#, fuzzy
+msgid "ISO"
+msgstr "ISO"
+
+#: utilities/advancedrename/parser/options/dateoption.cpp:59
+#: utilities/queuemanager/tools/decorate/watermark.cpp:162
+#, fuzzy
+msgid "Text"
+msgstr "मजकूर"
+
+#: utilities/advancedrename/parser/options/dateoption.cpp:60
+msgid "Unix Time Stamp"
+msgstr ""
+
 #: utilities/advancedrename/parser/options/dateoption.cpp:121
 msgctxt "Get date information from the image"
 msgid "Image"
@@ -14709,6 +14730,11 @@ msgstr ""
 #: utilities/advancedrename/parser/options/dateoption.cpp:148
 msgid "Enter custom format"
 msgstr ""
+
+#: utilities/advancedrename/parser/options/dateoption.cpp:240
+#, fuzzy
+msgid "example: "
+msgstr "उदाहरण"
 
 #: utilities/advancedrename/parser/options/dateoption.cpp:247
 #, fuzzy
@@ -14724,9 +14750,6 @@ msgid "Date and time (standard format)"
 msgstr ""
 
 #: utilities/advancedrename/parser/options/dateoption.cpp:252
-msgid "Date and time (||key|| = Standard|ISO|UnixTimeStamp|Text)"
-msgstr ""
-
 #: utilities/advancedrename/parser/options/dateoption.cpp:253
 #: utilities/geolocation/editor/items/gpsimageitem.cpp:503
 msgid "Date and time"
@@ -23036,10 +23059,6 @@ msgstr ""
 msgid "Scene capture type:"
 msgstr ""
 
-#: utilities/metadataedit/exif/exifdevice.cpp:302
-msgid "Standard"
-msgstr "प्रमाणित"
-
 #: utilities/metadataedit/exif/exifdevice.cpp:305
 #: utilities/metadataedit/xmp/xmpproperties.cpp:87
 msgid "Night scene"
@@ -26201,11 +26220,6 @@ msgstr ""
 #: utilities/queuemanager/tools/decorate/watermark.cpp:151
 msgid "Watermark type:"
 msgstr ""
-
-#: utilities/queuemanager/tools/decorate/watermark.cpp:162
-#, fuzzy
-msgid "Text"
-msgstr "मजकूर"
 
 #: utilities/queuemanager/tools/decorate/watermark.cpp:169
 #, fuzzy
