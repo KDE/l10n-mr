@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-04 07:48+0000\n"
+"POT-Creation-Date: 2016-10-09 07:06+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1293,7 +1293,7 @@ msgstr "ठीक आहे"
 #: kmymoney/plugins/csvexport/csvexportdlg.ui:383
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:528
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:716
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1039
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1042
 #: kmymoney/plugins/ofximport/dialogs/kofxdirectconnectdlgdecl.ui:57
 #: kmymoney/views/newspliteditor.ui:47
 #: kmymoney/views/newtransactioneditor.ui:47
@@ -1347,7 +1347,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWizardPage, InterestWizardPageDecl)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
 #: kmymoney/dialogs/investactivities.cpp:221
 #: kmymoney/dialogs/investactivities.cpp:222
 #: kmymoney/dialogs/investactivities.cpp:307
@@ -1362,7 +1362,7 @@ msgstr ""
 #: kmymoney/dialogs/investtransactioneditor.cpp:337
 #: kmymoney/dialogs/investtransactioneditor.cpp:551
 #: kmymoney/plugins/csvexport/csvwriter.cpp:101
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:131
+#: kmymoney/plugins/csvimport/transactiondlg.ui:127
 #: kmymoney/reports/listtable.cpp:239 kmymoney/widgets/transaction.cpp:1607
 #: kmymoney/widgets/transaction.cpp:1620
 #: kmymoney/wizards/endingbalancedlg/interestchargecheckingswizardpagedecl.ui:98
@@ -9960,15 +9960,15 @@ msgstr ""
 #: kmymoney/plugins/csvimport/csvwizard.cpp:242
 #: kmymoney/plugins/csvimport/csvwizard.cpp:1399
 #: kmymoney/plugins/csvimport/csvwizard.cpp:1479
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:510
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:577
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1036
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1065
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:507
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:611
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1039
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1068
 msgid "CSV import"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:355
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:525
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:522
 #, kde-format
 msgid ""
 "The '<b>%1</b>' field already has this column selected. <center>Please "
@@ -9976,7 +9976,7 @@ msgid ""
 msgstr ""
 
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:522
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1033
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1036
 #, kde-format
 msgid ""
 "<center>Row number %1 does not have the expected number of columns.</"
@@ -9986,17 +9986,17 @@ msgid ""
 msgstr ""
 
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:526
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1037
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1040
 msgid "Accept All"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:527
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1038
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1041
 msgid "Accept This"
 msgstr ""
 
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:554
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1061
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1064
 #, kde-format
 msgid ""
 "<center>An invalid date has been detected during import.</"
@@ -10012,7 +10012,7 @@ msgid ""
 msgstr ""
 
 #: kmymoney/plugins/csvimport/bankingwizardpage.cpp:646
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1195
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1193
 msgid ""
 "<center>You possibly need to check the start and end line settings, or reset "
 "'Skip setup'.</center>"
@@ -10259,11 +10259,11 @@ msgid ""
 "center><center>Please check your selections.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1537
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1540
 msgid "Save QIF"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/csvwizard.cpp:1537
+#: kmymoney/plugins/csvimport/csvwizard.cpp:1540
 msgid "QIF Files (*.qif)"
 msgstr ""
 
@@ -10484,7 +10484,7 @@ msgctxt "Type of operation as in financial statement"
 msgid "remove"
 msgstr "काढून टाका"
 
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:218
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:215
 #, kde-format
 msgid ""
 "<center>The '<b>%1</b>' field already has this column selected.</"
@@ -10492,14 +10492,14 @@ msgid ""
 "</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:510
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:507
 #, kde-format
 msgid ""
 "<center>Field name not recognised.</center><center>'<b>%1</b>'</"
 "center>Please re-enter your column selections."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:576
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:609
 msgid ""
 "The values in the columns you have selected\n"
 "do not match any expected investment type.\n"
@@ -10507,22 +10507,21 @@ msgid ""
 "and also your selections."
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:618
-msgid ""
-"<center>The transaction below has an unrecognised type or action.</center>"
-msgstr ""
-
 #: kmymoney/plugins/csvimport/investmentwizardpage.cpp:622
-msgid "<center>The transaction below has an invalid type or action.</center>"
-msgstr ""
+#, fuzzy
+#| msgctxt "@item Show only unused payees"
+#| msgid "Unused"
+msgctxt "Unused column"
+msgid "Unused"
+msgstr "न वापरलेले"
 
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:623
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:626
 msgid ""
-"<center>Please select an appropriate entry, if available.</"
-"center><center>Otherwise, click Cancel to abort.</center>"
+"<center>No valid action type found for this transaction.</"
+"center><center>Please check the parameters supplied.</center>"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1192
+#: kmymoney/plugins/csvimport/investmentwizardpage.cpp:1190
 msgid ""
 "<center>The columns selected are invalid.</center>There must an amount or "
 "quantity fields, symbol or security name, plus date and type field."
@@ -10775,96 +10774,6 @@ msgstr ""
 msgid "Account in bank statement"
 msgstr ""
 
-#: kmymoney/plugins/csvimport/redefinedlg.cpp:57
-msgid "Results table"
-msgstr ""
-
-#: kmymoney/plugins/csvimport/redefinedlg.cpp:81
-#, fuzzy
-msgid "Column "
-msgstr "स्तंभ"
-
-#: kmymoney/plugins/csvimport/redefinedlg.cpp:140
-msgid ""
-"<center>No valid activity type found for this transaction.</"
-"center><center>Please check the parameters supplied.</center>"
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QWidget, RedefineDlgDecl)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:14
-msgid "Redefine Transaction Type"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_title)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:26
-msgid "Invalid Transaction Type"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_info)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:37
-msgid ""
-"The transaction below has an unrecognised type/action.\n"
-"Please select an appropriate entry."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_actionCol)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:50
-msgctxt "the number of the column containing error"
-msgid "Type/action column"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:84
-msgid "Select Transaction Type"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:97
-msgid "Select new investment type"
-msgstr ""
-
-#. i18n: don't translate part after '-'
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:101
-msgctxt "description of investment activity"
-msgid "Buy Shares"
-msgstr ""
-
-#. i18n: don't translate part after '-'
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:106
-msgctxt "description of investment activity"
-msgid "Sell Shares"
-msgstr ""
-
-#. i18n: don't translate part after '-'
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:111
-msgctxt "description of investment activity"
-msgid "Dividend"
-msgstr ""
-
-#. i18n: don't translate part after '-'
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:116
-msgctxt "description of investment activity"
-msgid "Reinvest Dividend"
-msgstr ""
-
-#. i18n: don't translate part after '-'
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:121
-msgctxt "description of investment activity"
-msgid "Add Shares"
-msgstr ""
-
-#. i18n: don't translate part after '-'
-#. i18n: ectx: property (text), item, widget (QComboBox, kcombobox_Actions)
-#: kmymoney/plugins/csvimport/redefinedlgdecl.ui:126
-msgctxt "description of investment activity"
-msgid "Remove Shares"
-msgstr ""
-
 #. i18n: ectx: property (windowTitle), widget (QWidget, RowsPage)
 #: kmymoney/plugins/csvimport/rowswizardpage.ui:20
 msgid "Rows Wizard Page"
@@ -10991,6 +10900,78 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, comboBox_textDelimiter)
 #: kmymoney/plugins/csvimport/separatorwizardpage.ui:182
 msgid "apostrophe (')"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TransactionDlg)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:14
+#, fuzzy
+msgid "Transaction Type"
+msgstr "क्रिया"
+
+#. i18n: ectx: property (text), widget (QLabel, label_title)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:26
+msgid "Invalid Transaction Type"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_info)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:38
+msgid ""
+"<center>The transaction below has an either unrecognised or invalid type.</"
+"center>\n"
+"<center>Please select an appropriate entry, if available.</center>\n"
+"<center>Otherwise, click Cancel to abort.</center>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:80
+msgid "Select Transaction Type"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:93
+msgid "Select new investment type"
+msgstr ""
+
+#. i18n: don't translate part after '-'
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:97
+msgctxt "description of investment activity"
+msgid "Buy Shares"
+msgstr ""
+
+#. i18n: don't translate part after '-'
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:102
+msgctxt "description of investment activity"
+msgid "Sell Shares"
+msgstr ""
+
+#. i18n: don't translate part after '-'
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:107
+msgctxt "description of investment activity"
+msgid "Dividend"
+msgstr ""
+
+#. i18n: don't translate part after '-'
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:112
+msgctxt "description of investment activity"
+msgid "Reinvest Dividend"
+msgstr ""
+
+#. i18n: don't translate part after '-'
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:117
+msgctxt "description of investment activity"
+msgid "Add Shares"
+msgstr ""
+
+#. i18n: don't translate part after '-'
+#. i18n: ectx: property (text), item, widget (QComboBox, cbActionTypes)
+#: kmymoney/plugins/csvimport/transactiondlg.ui:122
+msgctxt "description of investment activity"
+msgid "Remove Shares"
 msgstr ""
 
 #: kmymoney/plugins/icalendarexport/icalendarexport.cpp:58
@@ -19329,6 +19310,10 @@ msgid ""
 "p>\n"
 "<p>Provided by Jose Jorge</p>\n"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Column "
+#~ msgstr "स्तंभ"
 
 #, fuzzy
 #~ msgid "Filter text"
