@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmperformance\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-11 07:05+0000\n"
+"POT-Creation-Date: 2016-10-15 07:15+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -45,27 +45,18 @@ msgstr ""
 "संयोजीत केले जाऊ शकतात. या पर्याय अंतर्गत आधीपासूनच कार्यरत घटना व त्यांस पूर्वदाखलन सज्ज "
 "करण्याकरिता पर्याय समाविष्ट केले गेले आहे."
 
-#: konqueror.cpp:34
-msgid ""
-"<p>If non-zero, this option allows keeping Konqueror instances in memory "
-"after all their windows have been closed, up to the number specified in this "
-"option.</p><p>When a new Konqueror instance is needed, one of these "
-"preloaded instances will be reused instead, improving responsiveness at the "
-"expense of the memory required by the preloaded instances.</p>"
-msgstr ""
-
-#: konqueror.cpp:43
+#: konqueror.cpp:35
 msgid ""
 "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary "
-"KDE startup sequence.</p><p>This will make the first Konqueror window open "
-"faster, but at the expense of longer KDE startup times (but you will be able "
-"to work while it is loading, so you may not even notice that it is taking "
-"longer).</p>"
+"Plasma startup sequence.</p><p>This will make the first Konqueror window "
+"open faster, but at the expense of longer Plasma startup times (but you will "
+"be able to work while it is loading, so you may not even notice that it is "
+"taking longer).</p>"
 msgstr ""
 
-#: konqueror.cpp:49
+#: konqueror.cpp:41
 msgid ""
-"<p>If enabled, KDE will always try to have one preloaded Konqueror instance "
+"<p>If enabled, Konqueror will always try to have one preloaded instance "
 "ready; preloading a new instance in the background whenever there is not one "
 "available, so that windows will always open quickly.</p><p><b>Warning:</b> "
 "In some cases, it is actually possible that this will reduce perceived "
@@ -77,21 +68,16 @@ msgstr ""
 msgid "Preloading"
 msgstr "पूर्वदाखलन करत आहे"
 
-#. i18n: ectx: property (text), widget (QLabel, lb_preload_count)
-#: konqueror_ui.ui:37
-#, fuzzy
-#| msgid "Maximum number of instances kept &preloaded:"
-msgid "&Maximum number of instances kept preloaded:"
-msgstr "पूर्वदाखलन केलेल्या घटनांची कमाल संख्या (&P):"
-
 #. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
-#: konqueror_ui.ui:71
+#: konqueror_ui.ui:23
 msgid "Preload an instance after KDE startup"
 msgstr "केडीई startup नंतर घटनाचे पूर्वदाखन करा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
-#: konqueror_ui.ui:78
-msgid "Always try to have at least one preloaded instance"
+#: konqueror_ui.ui:30
+#, fuzzy
+#| msgid "Always try to have at least one preloaded instance"
+msgid "Always try to have one preloaded instance"
 msgstr "किमान एक पूर्वदाखलन घटना समाविष्ट करण्याचा प्रयत्न करा"
 
 #: system.cpp:34
@@ -129,6 +115,11 @@ msgid ""
 msgstr ""
 "या पर्याय काहिक ठराविक घटना अंतर्गत अनेक अडचणी करिता कारणीभूत ठरू शकते. विस्तृत तपशील "
 "माहिती करिता हे काय आहे (Shift+F1) पहा."
+
+#, fuzzy
+#~| msgid "Maximum number of instances kept &preloaded:"
+#~ msgid "&Maximum number of instances kept preloaded:"
+#~ msgstr "पूर्वदाखलन केलेल्या घटनांची कमाल संख्या (&P):"
 
 #~ msgid ""
 #~ "Disables the minimization of memory usage and allows you to make each "
