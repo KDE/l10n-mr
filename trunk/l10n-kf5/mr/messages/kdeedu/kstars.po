@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-31 06:57+0000\n"
+"POT-Creation-Date: 2016-11-02 06:50+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -359,7 +359,7 @@ msgstr ""
 #: auxiliary/imageviewer.cpp:157 ekos/capture/capture.cpp:2475
 #: ekos/scheduler/scheduler.cpp:3447
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:94
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:259
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:379
 msgid "Save"
 msgstr "साठवा"
 
@@ -5359,7 +5359,7 @@ msgid "CCD"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, alignStepCheck)
-#: ekos/ekosmanager.cpp:1441 ekos/scheduler/scheduler.ui:184
+#: ekos/ekosmanager.cpp:1436 ekos/scheduler/scheduler.ui:184
 #: fitsviewer/fitsviewer.cpp:380
 #, fuzzy
 msgid "Align"
@@ -5368,14 +5368,14 @@ msgstr "जुळवा (&A)"
 #. i18n: ectx: property (title), widget (QGroupBox, focusGroup)
 #. i18n: ectx: property (text), widget (QCheckBox, focusStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FocusLogging)
-#: ekos/ekosmanager.cpp:1475 ekos/ekosmanager.ui:926
+#: ekos/ekosmanager.cpp:1463 ekos/ekosmanager.ui:926
 #: ekos/scheduler/scheduler.ui:168 fitsviewer/fitsviewer.cpp:372
 #: options/opsadvanced.ui:361
 msgid "Focus"
 msgstr "केंद्र"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_MountLogging)
-#: ekos/ekosmanager.cpp:1520 options/opsadvanced.ui:423
+#: ekos/ekosmanager.cpp:1508 options/opsadvanced.ui:423
 #, fuzzy
 #| msgid "Count"
 msgid "Mount"
@@ -5385,33 +5385,33 @@ msgstr "मोजणी"
 #. i18n: ectx: property (text), widget (QPushButton, guideB)
 #. i18n: ectx: property (text), widget (QCheckBox, guideStepCheck)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_GuideLogging)
-#: ekos/ekosmanager.cpp:1560 ekos/ekosmanager.ui:1598 ekos/guide/guide.ui:115
+#: ekos/ekosmanager.cpp:1547 ekos/ekosmanager.ui:1598 ekos/guide/guide.ui:115
 #: ekos/scheduler/scheduler.ui:200 fitsviewer/fitsviewer.cpp:376
 #: options/opsadvanced.ui:374
 msgid "Guide"
 msgstr ""
 
-#: ekos/ekosmanager.cpp:1648
+#: ekos/ekosmanager.cpp:1624
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:1795
+#: ekos/ekosmanager.cpp:1771
 msgid "Are you sure you want to delete the profile?"
 msgstr ""
 
-#: ekos/ekosmanager.cpp:1795
+#: ekos/ekosmanager.cpp:1771
 #, fuzzy
 #| msgid "Complete"
 msgid "Confirm Delete"
 msgstr "पूर्ण"
 
-#: ekos/ekosmanager.cpp:1834
+#: ekos/ekosmanager.cpp:1810
 #, kde-format
 msgid "Site location updated to %1."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:1836
+#: ekos/ekosmanager.cpp:1812
 #, kde-format
 msgid "Failed to update site location to %1. City not found."
 msgstr ""
@@ -6253,15 +6253,15 @@ msgstr ""
 msgid "The CCD does not support Rapid Guiding. Aborting..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1127
+#: ekos/guide/guide.cpp:1156
 msgid "External guider connected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1136
+#: ekos/guide/guide.cpp:1165
 msgid "External guider disconnected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1144 ekos/guide/internalguide/rcalibration.cpp:433
+#: ekos/guide/guide.cpp:1173 ekos/guide/internalguide/rcalibration.cpp:433
 #: ekos/guide/internalguide/rcalibration.cpp:459
 #: ekos/guide/internalguide/rcalibration.cpp:666
 #: ekos/guide/internalguide/rcalibration.cpp:801
@@ -6270,81 +6270,81 @@ msgstr ""
 msgid "Calibration completed."
 msgstr "पूर्ण"
 
-#: ekos/guide/guide.cpp:1160
+#: ekos/guide/guide.cpp:1189
 #, fuzzy
 #| msgid "Complete"
 msgid "Calibration started."
 msgstr "पूर्ण"
 
-#: ekos/guide/guide.cpp:1166
+#: ekos/guide/guide.cpp:1195
 msgid "Guiding resumed."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1169 ekos/guide/internalguide/guider.cpp:243
+#: ekos/guide/guide.cpp:1198 ekos/guide/internalguide/guider.cpp:243
 #: ekos/guide/internalguide/guider.cpp:259
 #: ekos/guide/internalguide/guider.cpp:330
 msgid "Autoguiding started."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1181
+#: ekos/guide/guide.cpp:1210
 #, fuzzy
 #| msgid "Count"
 msgid "Autoguiding aborted."
 msgstr "मोजणी"
 
-#: ekos/guide/guide.cpp:1186
+#: ekos/guide/guide.cpp:1215
 msgid "Guiding suspended."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1190
+#: ekos/guide/guide.cpp:1219
 #, fuzzy
 #| msgctxt "Advanced URLs: description or category"
 #| msgid "Other"
 msgid "Dithering in progress."
 msgstr "इतर"
 
-#: ekos/guide/guide.cpp:1194
+#: ekos/guide/guide.cpp:1223
 #, fuzzy
 #| msgctxt "Advanced URLs: description or category"
 #| msgid "Other"
 msgid "Dithering failed!"
 msgstr "इतर"
 
-#: ekos/guide/guide.cpp:1205
+#: ekos/guide/guide.cpp:1234
 #, fuzzy
 #| msgid "Complete"
 msgid "Dithering completed successfully. Resuming guiding..."
 msgstr "पूर्ण"
 
-#: ekos/guide/guide.cpp:1251
+#: ekos/guide/guide.cpp:1280
 msgid "Exposure failed. Restarting exposure..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1328
+#: ekos/guide/guide.cpp:1357
 msgid "Cannot change guider type while active."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1577 ekos/guide/internalguide/guider.cpp:157
+#: ekos/guide/guide.cpp:1606 ekos/guide/internalguide/guider.cpp:157
 #, fuzzy, kde-format
 msgid "P: %1"
 msgstr "P"
 
-#: ekos/guide/guide.cpp:1652
+#: ekos/guide/guide.cpp:1681
 msgid "You must stop auto guiding before changing this setting."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1660
+#: ekos/guide/guide.cpp:1689
 msgid ""
 "Rapid Guiding is enabled. Guide star will be determined automatically by the "
 "CCD driver. No frames are sent to Ekos unless explicitly enabled by the user "
 "in the CCD driver settings."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1663
+#: ekos/guide/guide.cpp:1692
 msgid "Rapid Guiding is disabled."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1835
+#: ekos/guide/guide.cpp:1864
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -6354,23 +6354,23 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:1930
+#: ekos/guide/guide.cpp:1959
 #, fuzzy
 #| msgid "Configuration"
 msgid "Calibration failed to start!"
 msgstr "संयोजना"
 
-#: ekos/guide/guide.cpp:2065
+#: ekos/guide/guide.cpp:2094
 msgid "Auto star selected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2069
+#: ekos/guide/guide.cpp:2098
 #, fuzzy
 #| msgid "Could not open file %1."
 msgid "Failed to select an auto star."
 msgstr "फाईल %1 उघडू शकत नाही"
 
-#: ekos/guide/guide.cpp:2077
+#: ekos/guide/guide.cpp:2106
 msgid "Select a guide star to calibrate."
 msgstr ""
 
@@ -9348,7 +9348,7 @@ msgid "Invalid"
 msgstr "अवैध URL"
 
 #: ekos/scheduler/schedulerjob.cpp:203 fitsviewer/fitshistogram.cpp:620
-#: skycomponents/constellationboundarylines.cpp:278
+#: indi/indigroup.cpp:38 skycomponents/constellationboundarylines.cpp:278
 #, fuzzy
 msgid "Unknown"
 msgstr "अपरिचीत"
@@ -10106,7 +10106,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: indi/drivermanager.ui:297
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:94
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:259
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:379
 #: tools/flagmanager.ui:133
 msgid "Add"
 msgstr "जोडा"
@@ -10611,7 +10611,7 @@ msgstr ""
 
 #: indi/telescopewizardprocess.cpp:233 indi/telescopewizardprocess.cpp:240
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:111
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:323
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:443
 #: kstarslite/qml/dialogs/helpers/LocationLoading.qml:52
 #: kstarslite/qml/modules/tutorial/TutorialExitPopup.qml:41 oal/oal.h:55
 msgid "Cancel"
@@ -42339,7 +42339,7 @@ msgstr ""
 msgid " Welcome to KStars "
 msgstr ""
 
-#: kstarsinit.cpp:696 kstarsliteinit.cpp:59 skymap.cpp:332 skymaplite.cpp:298
+#: kstarsinit.cpp:696 kstarsliteinit.cpp:59 skymap.cpp:332 skymaplite.cpp:292
 #: widgets/infoboxwidget.cpp:127
 #, fuzzy
 msgid "nothing"
@@ -42532,105 +42532,156 @@ msgstr "पर्याय दर्शवा"
 msgid "Add location"
 msgstr "स्थान :"
 
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:27
+msgid "Please, wait while we are fetching coordinates"
+msgstr ""
+
 #: kstarslite/qml/dialogs/helpers/LocationEdit.qml:65
+#, fuzzy
+#| msgid "Default"
+msgid "Default city"
+msgstr "मूलभूत"
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:66
+#, fuzzy
+msgid "Default province"
+msgstr "सुरुवातीचे वर्धन (&D)"
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:67
+#, fuzzy
+#| msgid "Default"
+msgid "Default country"
+msgstr "मूलभूत"
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:69
+msgid ""
+"Couldn't fetch location name (check your internet connection). Added with "
+"default name"
+msgstr ""
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:73
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:103
+#, fuzzy
+msgid "Failed to set location"
+msgstr "दिनांक व वेळ"
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:78
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:107
+#, fuzzy
+msgid "Successfully set your location"
+msgstr "स्थान :"
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:80
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:109
+#, fuzzy
+msgid "Couldn't set your location"
+msgstr "%1 : फाईल उघडू शकत नाही"
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:83
+msgid ""
+"Couldn't fetch location name (check your internet connection). Set default "
+"name"
+msgstr ""
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:153
 msgid ""
 "No location service (GPS, cellular service, etc.) is available.\n"
 "Please, switch on location service and retry"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:67
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:155
 msgid "Unknown error occurred. Please contact application developer."
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:76
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:165
 msgid "Timeout occurred. Try again."
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:90
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:179
 msgid "Found your longitude and altitude"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:132
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:189
+msgid "Please, wait while we are retrieving location name"
+msgstr ""
+
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:251
 #, fuzzy
 #| msgid "City:"
 msgid "City: "
 msgstr "शहर :"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:145
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:264
 #, fuzzy
 msgid "Province: "
 msgstr "छापा"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:158
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:277
 #, fuzzy
 #| msgid "Country:"
 msgid "Country: "
 msgstr "देश :"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:179
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:298
 #, fuzzy
 #| msgid "Latitude:"
 msgid "Latitude: "
 msgstr "अक्षांश :"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:192
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:311
 #, fuzzy
 #| msgid "Longitude:"
 msgid "Longitude: "
 msgstr "रेषांश :"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:208
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:327
 #, fuzzy
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Offset"
 msgid "UT offset: "
 msgstr "ऑफसेट"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:219
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:338
 msgid "DST Rule: "
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:262
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:382
 msgid "Please, fill in city"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:265
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:385
 msgid "Please, fill in country"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:268
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:388
 msgid "Please, fill in latitude"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:271
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:391
 msgid "Please, fill in longitude"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:276
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:396
 msgid "Either longitude or latitude values are not valid"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:282
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:402
 msgid "This location already exists. Change either city, province or country"
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:298
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:418
 #, fuzzy
 msgid "Failed to add location"
 msgstr "दिनांक व वेळ"
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:301
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:421
 msgid "Added new location - "
 msgstr ""
 
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:307
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:427
 #, fuzzy
 msgid "Failed to edit city"
 msgstr "प्रतिमा साठवू शकत नाही"
-
-#: kstarslite/qml/dialogs/helpers/LocationLoading.qml:47
-msgid "Please, wait while we are fetching coordinates"
-msgstr ""
 
 #: kstarslite/qml/dialogs/LocationDialog.qml:22
 #, fuzzy
@@ -42735,7 +42786,7 @@ msgstr ""
 msgid "Couldn't connect to the server"
 msgstr ""
 
-#: kstarslite/qml/indi/INDIControlPanel.qml:120
+#: kstarslite/qml/indi/INDIControlPanel.qml:121
 #, fuzzy
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Select"
@@ -48550,11 +48601,11 @@ msgstr "रवि"
 msgid "%1: %2<sup>m</sup>"
 msgstr "M"
 
-#: skymap.cpp:363 skymaplite.cpp:325
+#: skymap.cpp:363 skymaplite.cpp:319
 msgid "Requested Position Below Horizon"
 msgstr ""
 
-#: skymap.cpp:364 skymaplite.cpp:326
+#: skymap.cpp:364 skymaplite.cpp:320
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
@@ -54715,10 +54766,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "Default Weather driver"
-#~ msgstr "सुरुवातीचे वर्धन (&D)"
-
-#, fuzzy
-#~ msgid "Default Dome driver"
 #~ msgstr "सुरुवातीचे वर्धन (&D)"
 
 #, fuzzy
