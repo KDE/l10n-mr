@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-25 03:11+0100\n"
+"POT-Creation-Date: 2016-11-27 02:50+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -8232,7 +8232,7 @@ msgstr "यजमान :"
 #. i18n: ectx: property (text), widget (QLabel, remotePortLabel_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: ekos/guide/opsguide.ui:101 ekos/profileeditor.ui:112
-#: ekos/profileeditor.ui:148 indi/indihostconf.ui:55
+#: ekos/profileeditor.ui:148 indi/indihostconf.ui:40
 #, fuzzy, kde-format
 msgid "Port:"
 msgstr "पोर्ट :"
@@ -8820,7 +8820,7 @@ msgstr "या फाईल मध्ये साठवा (&S)..."
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: ekos/profileeditor.ui:25 indi/indihostconf.ui:41 tools/altvstime.ui:54
+#: ekos/profileeditor.ui:25 indi/indihostconf.ui:20 tools/altvstime.ui:54
 #: tools/argfindobject.ui:21
 #, fuzzy, kde-format
 msgid "Name:"
@@ -8862,7 +8862,7 @@ msgstr "दूरस्थ (&R):"
 
 #. i18n: ectx: property (text), widget (QLabel, remoteHostLabel)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: ekos/profileeditor.ui:92 indi/indihostconf.ui:48
+#: ekos/profileeditor.ui:92 indi/indihostconf.ui:30
 #, kde-format
 msgid "Host:"
 msgstr "यजमान :"
@@ -10850,36 +10850,29 @@ msgid "Ready."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
-#: fitsviewer/fitsheaderdialog.ui:13 fitsviewer/fitstab.cpp:202
+#: fitsviewer/fitsheaderdialog.ui:14 fitsviewer/fitstab.cpp:202
 #: fitsviewer/fitsviewer.cpp:164
 #, kde-format
 msgid "FITS Header"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: fitsviewer/fitsheaderdialog.ui:47
+#: fitsviewer/fitsheaderdialog.ui:48
 #, kde-format
 msgid "Keyword"
 msgstr "कळीचा शब्द"
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: fitsviewer/fitsheaderdialog.ui:52
+#: fitsviewer/fitsheaderdialog.ui:53
 #, kde-format
 msgid "Value"
 msgstr "मूल्य"
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: fitsviewer/fitsheaderdialog.ui:57
+#: fitsviewer/fitsheaderdialog.ui:58
 #, fuzzy, kde-format
 msgid "Comment"
 msgstr "टीप"
-
-#. i18n: ectx: property (text), widget (QPushButton, closeB)
-#. i18n: ectx: property (text), widget (QPushButton, cancelB)
-#: fitsviewer/fitsheaderdialog.ui:98 fitsviewer/fitshistogramui.ui:268
-#, kde-format
-msgid "&Close"
-msgstr "बंद करा (&C)"
 
 #: fitsviewer/fitshistogram.cpp:278
 #, fuzzy, kde-format
@@ -10968,8 +10961,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, linearR)
 #: fitsviewer/fitshistogramui.ui:187
-#, kde-format
-msgid "Linear"
+#, fuzzy, kde-format
+#| msgid "Linear"
+msgid "L&inear"
 msgstr "रेषीय"
 
 #. i18n: ectx: property (text), widget (QRadioButton, logR)
@@ -10977,12 +10971,6 @@ msgstr "रेषीय"
 #, kde-format
 msgid "&Logarithmic"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, applyB)
-#: fitsviewer/fitshistogramui.ui:255
-#, kde-format
-msgid "&Apply"
-msgstr "लागू करा (&A)"
 
 #: fitsviewer/fitstab.cpp:59 fitsviewer/fitsviewer.cpp:705
 #, fuzzy, kde-format
@@ -11569,19 +11557,6 @@ msgstr ""
 msgid "Not enough memory to convert file %1 to base64"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, buttonOk)
-#: indi/indihostconf.ui:125
-#, fuzzy, kde-format
-msgid "&OK"
-msgstr "ठीक आहे (&O)"
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonCancel)
-#. i18n: ectx: property (text), widget (QPushButton, cancelB)
-#: indi/indihostconf.ui:138 indi/telescopewizard.ui:64
-#, kde-format
-msgid "&Cancel"
-msgstr "रद्द करा (&C)"
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
 #: indi/indiproperty.cpp:256 indi/opsindi.ui:196 tools/observinglist.cpp:142
 #, kde-format
@@ -11910,6 +11885,12 @@ msgstr "फाईल %1 उघडू शकत नाही"
 #, kde-format
 msgid "Telescope Wizard"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelB)
+#: indi/telescopewizard.ui:64
+#, kde-format
+msgid "&Cancel"
+msgstr "रद्द करा (&C)"
 
 #. i18n: ectx: property (text), widget (QPushButton, backB)
 #: indi/telescopewizard.ui:90
@@ -62009,6 +61990,16 @@ msgstr "पार्श्वभूमी रंग :"
 #, kde-format
 msgid "Set the color for the background."
 msgstr ""
+
+#~ msgid "&Close"
+#~ msgstr "बंद करा (&C)"
+
+#~ msgid "&Apply"
+#~ msgstr "लागू करा (&A)"
+
+#, fuzzy
+#~ msgid "&OK"
+#~ msgstr "ठीक आहे (&O)"
 
 #, fuzzy
 #~ msgid "%1<sup>m</sup> %2 z: %3"
