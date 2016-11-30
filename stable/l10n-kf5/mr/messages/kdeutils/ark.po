@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-28 04:45+0100\n"
+"POT-Creation-Date: 2016-11-30 05:05+0100\n"
 "PO-Revision-Date: 2013-03-05 14:53+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -642,8 +642,9 @@ msgstr "संग्रह उघडा"
 msgid "Type archive name..."
 msgstr "संग्रह उघडा"
 
+#. i18n: ectx: property (text), widget (QLabel, m_typeLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kerfuffle/createdialog.ui:61
+#: kerfuffle/createdialog.ui:61 part/infopanel.ui:93
 #, kde-format
 msgid "Type:"
 msgstr ""
@@ -947,7 +948,9 @@ msgctxt "@title:window"
 msgid "Properties for %1"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (KSqueezedTextLabel, m_passwordValueLabel)
 #: kerfuffle/propertiesdialog.cpp:69 kerfuffle/propertiesdialog.cpp:71
+#: part/infopanel.ui:195
 #, kde-format
 msgid "yes"
 msgstr ""
@@ -1020,8 +1023,9 @@ msgstr "संग्रह उघडा"
 msgid "Opened read-only:"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kerfuffle/propertiesdialog.ui:105
+#: kerfuffle/propertiesdialog.ui:105 part/infopanel.ui:179
 #, kde-format
 msgid "Password-protected:"
 msgstr ""
@@ -1320,35 +1324,6 @@ msgid_plural "%1 files selected"
 msgstr[0] "एक फाईल निवडली"
 msgstr[1] "%1 फाइल्स निवडल्या"
 
-#: part/infopanel.cpp:178
-#, fuzzy, kde-format
-#| msgid "<b>Type:</b> %1<br/>"
-msgid "<b>Type:</b> %1"
-msgstr "<b>प्रकार :</b> %1<br/>"
-
-#: part/infopanel.cpp:182
-#, fuzzy, kde-format
-#| msgid "<b>Owner:</b> %1<br/>"
-msgid "<b>Owner:</b> %1"
-msgstr "<b>मालक :</b> %1<br/>"
-
-#: part/infopanel.cpp:189
-#, fuzzy, kde-format
-#| msgid "<b>Group:</b> %1<br/>"
-msgid "<b>Group:</b> %1"
-msgstr "<b>समूह :</b> %1<br/>"
-
-#: part/infopanel.cpp:196
-#, fuzzy, kde-format
-#| msgid "<b>Target:</b> %1<br/>"
-msgid "<b>Target:</b> %1"
-msgstr "<b>लक्ष्य :</b> %1<br/>"
-
-#: part/infopanel.cpp:203
-#, kde-format
-msgid "<b>Password protected:</b> Yes"
-msgstr ""
-
 #. i18n: ectx: property (windowTitle), widget (QWidget, InformationPanel)
 #: part/infopanel.ui:20
 #, kde-format
@@ -1360,6 +1335,28 @@ msgstr "माहिती पटल"
 #, kde-format
 msgid "Unknown file type"
 msgstr "अपरिचीत फाईल प्रकार"
+
+#. i18n: ectx: property (text), widget (QLabel, m_ownerLabel)
+#: part/infopanel.ui:113
+#, fuzzy, kde-format
+#| msgctxt "File's owner username"
+#| msgid "Owner"
+msgid "Owner:"
+msgstr "मालक"
+
+#. i18n: ectx: property (text), widget (QLabel, m_groupLabel)
+#: part/infopanel.ui:133
+#, fuzzy, kde-format
+#| msgctxt "File's group"
+#| msgid "Group"
+msgid "Group:"
+msgstr "समूह"
+
+#. i18n: ectx: property (text), widget (QLabel, m_targetLabel)
+#: part/infopanel.ui:153
+#, kde-format
+msgid "Target:"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, JobTrackerWidget)
 #: part/jobtracker.ui:13
@@ -2016,6 +2013,26 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
+
+#, fuzzy
+#~| msgid "<b>Type:</b> %1<br/>"
+#~ msgid "<b>Type:</b> %1"
+#~ msgstr "<b>प्रकार :</b> %1<br/>"
+
+#, fuzzy
+#~| msgid "<b>Owner:</b> %1<br/>"
+#~ msgid "<b>Owner:</b> %1"
+#~ msgstr "<b>मालक :</b> %1<br/>"
+
+#, fuzzy
+#~| msgid "<b>Group:</b> %1<br/>"
+#~ msgid "<b>Group:</b> %1"
+#~ msgstr "<b>समूह :</b> %1<br/>"
+
+#, fuzzy
+#~| msgid "<b>Target:</b> %1<br/>"
+#~ msgid "<b>Target:</b> %1"
+#~ msgstr "<b>लक्ष्य :</b> %1<br/>"
 
 #~ msgid "Cancel"
 #~ msgstr "रद्द करा"
