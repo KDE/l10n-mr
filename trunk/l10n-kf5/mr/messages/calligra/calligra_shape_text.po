@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2013-04-10 17:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -34,17 +34,67 @@ msgstr ""
 msgid "Annotation Shape"
 msgstr "टीप :"
 
-#: commands/AutoResizeCommand.cpp:36
-#, kde-format
-msgctxt "Enable Shrink To Fit"
-msgid "Enable"
-msgstr "कार्यान्वित करा"
+#: commands/AcceptChangeCommand.cpp:45
+msgctxt "(qtundo-format)"
+msgid "Accept change"
+msgstr "बदल स्वीकारा"
 
 #: commands/AutoResizeCommand.cpp:36
 #, kde-format
 msgctxt "Disable Shrink To Fit"
 msgid "Disable"
 msgstr "अकार्यान्वित करा"
+
+#: commands/AutoResizeCommand.cpp:36
+#, kde-format
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr "कार्यान्वित करा"
+
+#: commands/AutoResizeCommand.cpp:39
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
+msgid "%1 Grow To Fit Width"
+msgstr ""
+
+#: commands/AutoResizeCommand.cpp:42
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
+msgid "%1 Grow To Fit Height"
+msgstr ""
+
+#: commands/AutoResizeCommand.cpp:45
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
+msgid "%1 Shrink To Fit"
+msgstr ""
+
+#: commands/ChangeListLevelCommand.cpp:42
+msgctxt "(qtundo-format)"
+msgid "Change List Level"
+msgstr ""
+
+#: commands/RejectChangeCommand.cpp:47
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Accept change"
+msgctxt "(qtundo-format)"
+msgid "Reject change"
+msgstr "बदल स्वीकारा"
+
+#: commands/ShowChangesCommand.cpp:53
+#, fuzzy
+#| msgid "Save Changes"
+msgctxt "(qtundo-format)"
+msgid "Show Changes"
+msgstr "बदल साठवा"
+
+#: commands/ShowChangesCommand.cpp:55
+#, fuzzy
+#| msgid "Save Changes"
+msgctxt "(qtundo-format)"
+msgid "Hide Changes"
+msgstr "बदल साठवा"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AcceptRejectChangeDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsConfigure)
@@ -512,17 +562,17 @@ msgstr "स्थान :"
 msgid "Select"
 msgstr "निवडा"
 
-#: dialogs/CitationInsertionDialog.cpp:52 dialogs/StyleManager.cpp:440
-#, kde-format
-msgid "Warning"
-msgstr "इशारा"
-
 #: dialogs/CitationInsertionDialog.cpp:52
 #, kde-format
 msgid ""
 "The document already contains the bibliography entry with different data.\n"
 "Do you want to adjust existing entries?"
 msgstr ""
+
+#: dialogs/CitationInsertionDialog.cpp:52 dialogs/StyleManager.cpp:440
+#, kde-format
+msgid "Warning"
+msgstr "इशारा"
 
 #: dialogs/CitationInsertionDialog.cpp:67
 #: dialogs/CitationInsertionDialog.cpp:85
@@ -950,6 +1000,13 @@ msgstr ""
 #, kde-format
 msgid "Select Font"
 msgstr "फॉन्ट निवडा"
+
+#: dialogs/FontDia.cpp:81
+#, fuzzy
+#| msgid "Font"
+msgctxt "(qtundo-format)"
+msgid "Font"
+msgstr "फॉन्ट"
 
 #. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
 #. i18n: ectx: property (windowTitle), widget (QDialog, InsertBibliographyDialog)
@@ -2897,20 +2954,44 @@ msgstr ""
 msgid "Press shift to not resize this"
 msgstr ""
 
+#: TextTool.cpp:950
+#, fuzzy
+#| msgid "Change font format"
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr "फॉन्ट स्वरूप बदला"
+
+#: TextTool.cpp:1169
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "कापा"
+
+#: TextTool.cpp:1429
+#, fuzzy
+#| msgid "Insert Link"
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr "लिंक अंतर्भूत करा"
+
+#: TextTool.cpp:1472
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr ""
+
 #: TextTool.cpp:2245
 #, kde-format
 msgid "Table"
 msgstr "कोष्टक"
 
-#: TextTool.cpp:2604
-#, kde-format
-msgid "Key Press"
-msgstr ""
-
 #: TextTool.cpp:2604 TextTool.cpp:2609
 #, kde-format
 msgid "Autocorrection"
 msgstr "स्वयंचलित सुधारणा"
+
+#: TextTool.cpp:2604
+#, kde-format
+msgid "Key Press"
+msgstr ""
 
 #: TextTool.cpp:2894
 #, kde-format
@@ -3948,10 +4029,6 @@ msgstr ""
 #~ msgid "Annotation Shape"
 #~ msgstr "टीप :"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Accept change"
-#~ msgstr "बदल स्वीकारा"
-
 #, fuzzy
 #~| msgctxt "Disable Shrink To Fit"
 #~| msgid "Disable"
@@ -3983,12 +4060,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Bibliography"
 #~ msgstr "ग्रंथ सूची"
-
-#, fuzzy
-#~| msgid "Font"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Font"
-#~ msgstr "फॉन्ट"
 
 #, fuzzy
 #~| msgid "Normal"
@@ -4712,12 +4783,6 @@ msgstr ""
 #~ msgstr "उजवीकडे स्थीत करा"
 
 #, fuzzy
-#~| msgid "Insert Link"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Right"
-#~ msgstr "लिंक अंतर्भूत करा"
-
-#, fuzzy
 #~| msgid "Column"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Column"
@@ -4788,10 +4853,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Formatting"
 #~ msgstr "फॉर्मेटिंग"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cut"
-#~ msgstr "कापा"
 
 #, fuzzy
 #~| msgid "Character"

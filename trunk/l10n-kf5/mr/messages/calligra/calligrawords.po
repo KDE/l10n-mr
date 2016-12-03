@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2013-04-12 16:20+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -89,6 +89,26 @@ msgstr "परिवर्तनीय यामध्ये बदला"
 #, kde-format
 msgid "&Tools"
 msgstr "साधने (&T)"
+
+#: part/commands/KWChangePageStyleCommand.cpp:24
+msgctxt "(qtundo-format)"
+msgid "Set Page Style"
+msgstr "पान शैली निश्चित करा"
+
+#: part/commands/KWNewPageStyleCommand.cpp:25
+msgctxt "(qtundo-format)"
+msgid "Insert Page Style"
+msgstr "पान शैली अंतर्भूत करा"
+
+#: part/commands/KWPageStylePropertiesCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Page Properties"
+msgstr "पानाचे गुणधर्म"
+
+#: part/commands/KWShapeCreateCommand.cpp:55
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgstr "आकार तयार करा"
 
 #: part/dialogs/KWAnchoringProperties.cpp:434
 #, kde-format
@@ -361,6 +381,11 @@ msgstr "मजकूर बाजुने चालवणे"
 msgid "Connect Text Frames"
 msgstr "मजकूर फ्रेम्स जोडा"
 
+#: part/dialogs/KWFrameDialog.cpp:79
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr "आकार गुणधर्म बदला"
+
 #. i18n: ectx: property (title), widget (QGroupBox, grpAnchor)
 #: part/dialogs/KWInsertImage.ui:17
 #, kde-format
@@ -514,15 +539,20 @@ msgstr "प्रतिकृत करा"
 msgid "Delete"
 msgstr "काढून टाका"
 
-#: part/dialogs/KWPageSettingsDialog.cpp:224
-#, kde-format
-msgid "Clone Page Style"
-msgstr "पान शैली प्रतिकृत करा"
+#: part/dialogs/KWPageSettingsDialog.cpp:150
+msgctxt "(qtundo-format)"
+msgid "Change Page Style"
+msgstr "पान शैली बदला"
 
 #: part/dialogs/KWPageSettingsDialog.cpp:224
 #, kde-format
 msgid "Add a new page style with the name:"
 msgstr "या नावाने नवीन पान शैली जोडा :"
+
+#: part/dialogs/KWPageSettingsDialog.cpp:224
+#, kde-format
+msgid "Clone Page Style"
+msgstr "पान शैली प्रतिकृत करा"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: part/dialogs/KWRunAroundProperties.ui:17
@@ -638,15 +668,15 @@ msgid "Navigation"
 msgstr ""
 
 #: part/dockers/KWNavigationWidget.cpp:108
-#, kde-format
-msgid "Section"
-msgstr ""
-
-#: part/dockers/KWNavigationWidget.cpp:108
 #, fuzzy, kde-format
 #| msgid "&Page"
 msgid "Page #"
 msgstr "पान (&P)"
+
+#: part/dockers/KWNavigationWidget.cpp:108
+#, kde-format
+msgid "Section"
+msgstr ""
 
 #: part/dockers/KWRdfDocker.cpp:52
 #, kde-format
@@ -1050,31 +1080,31 @@ msgstr "वर्ड प्रोसेसर"
 msgid "Copyright 1998-%1, The Words Team"
 msgstr "© 1998-2012, वर्डस समूह"
 
-#: part/KWAboutData.h:45
-#, kde-format
-msgid "Pierre Ducroquet"
-msgstr "पीयरे ड्युक्रोक्वेट"
-
 #: part/KWAboutData.h:45 part/KWAboutData.h:46
 #, kde-format
 msgid "Co maintainer"
 msgstr "सह पालक"
+
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Pierre Ducroquet"
+msgstr "पीयरे ड्युक्रोक्वेट"
 
 #: part/KWAboutData.h:46
 #, kde-format
 msgid "C. Boemann"
 msgstr "सी. बोएमान्न"
 
-#: part/KWAboutData.h:47
-#, kde-format
-msgid "Sebastian Sauer"
-msgstr "सेबेस्तियन सॉअर"
-
 #: part/KWAboutData.h:47 part/KWAboutData.h:48 part/KWAboutData.h:49
 #: part/KWAboutData.h:51
 #, kde-format
 msgid "Everything"
 msgstr "सर्वकाही"
+
+#: part/KWAboutData.h:47
+#, kde-format
+msgid "Sebastian Sauer"
+msgstr "सेबेस्तियन सॉअर"
 
 #: part/KWAboutData.h:48
 #, kde-format
@@ -1088,23 +1118,18 @@ msgstr "पीयरे स्टिर्नवेइस"
 
 #: part/KWAboutData.h:50
 #, kde-format
-msgid "Inge Wallin"
-msgstr "इन्गे वाल्लिन"
+msgid "Formatting stuff"
+msgstr "फॉर्मेटिंग स्टफ"
 
 #: part/KWAboutData.h:50
 #, kde-format
-msgid "Formatting stuff"
-msgstr "फॉर्मेटिंग स्टफ"
+msgid "Inge Wallin"
+msgstr "इन्गे वाल्लिन"
 
 #: part/KWAboutData.h:51
 #, kde-format
 msgid "Thorsten Zachmann"
 msgstr "थार्स्टन जाकमैन"
-
-#: part/KWAboutData.h:52
-#, kde-format
-msgid "Matus Uzak"
-msgstr "मातुस उझाक"
 
 #: part/KWAboutData.h:52 part/KWAboutData.h:58 part/KWAboutData.h:59
 #: part/KWAboutData.h:60 part/KWAboutData.h:72 part/KWAboutData.h:73
@@ -1115,15 +1140,20 @@ msgstr "मातुस उझाक"
 msgid "Filter"
 msgstr "गाळणी"
 
-#: part/KWAboutData.h:53
+#: part/KWAboutData.h:52
 #, kde-format
-msgid "Pavol Korinek"
-msgstr "पाव्होल कोरिनेक"
+msgid "Matus Uzak"
+msgstr "मातुस उझाक"
 
 #: part/KWAboutData.h:53
 #, kde-format
 msgid "Layout and Painting"
 msgstr "रचना व छपाई"
+
+#: part/KWAboutData.h:53
+#, kde-format
+msgid "Pavol Korinek"
+msgstr "पाव्होल कोरिनेक"
 
 #: part/KWAboutData.h:54
 #, kde-format
@@ -1147,13 +1177,13 @@ msgstr "पाया व अंतिम नोंदी"
 
 #: part/KWAboutData.h:56
 #, kde-format
-msgid "Smit Patel"
-msgstr "स्मित पटेल"
+msgid "Bibliography"
+msgstr "ग्रंथ सूची"
 
 #: part/KWAboutData.h:56
 #, kde-format
-msgid "Bibliography"
-msgstr "ग्रंथ सूची"
+msgid "Smit Patel"
+msgstr "स्मित पटेल"
 
 #: part/KWAboutData.h:57
 #, kde-format
@@ -1237,13 +1267,13 @@ msgstr "नैश हूगवाटर"
 
 #: part/KWAboutData.h:71
 #, kde-format
-msgid "Ulrich Kuettler"
-msgstr "अलरिच कुएटलर"
+msgid "KFormula"
+msgstr "के-फॉर्म्यूला"
 
 #: part/KWAboutData.h:71
 #, kde-format
-msgid "KFormula"
-msgstr "के-फॉर्म्यूला"
+msgid "Ulrich Kuettler"
+msgstr "अलरिच कुएटलर"
 
 #: part/KWAboutData.h:72
 #, kde-format
@@ -2297,22 +2327,6 @@ msgstr "इतर मजकूर"
 #~ msgid "&Tools"
 #~ msgstr "साधने (&T)"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Page Style"
-#~ msgstr "पान शैली निश्चित करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Page Style"
-#~ msgstr "पान शैली अंतर्भूत करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Page Properties"
-#~ msgstr "पानाचे गुणधर्म"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create shape"
-#~ msgstr "आकार तयार करा"
-
 #, fuzzy
 #~| msgid "Baseline"
 #~ msgctxt "(qtundo-format)"
@@ -2458,10 +2472,6 @@ msgstr "इतर मजकूर"
 #~ msgid "Connect Text Frames"
 #~ msgstr "मजकूर फ्रेम्स जोडा"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Shape Properties"
-#~ msgstr "आकार गुणधर्म बदला"
-
 #, fuzzy
 #~| msgid "Columns"
 #~ msgctxt "(qtundo-format)"
@@ -2485,10 +2495,6 @@ msgstr "इतर मजकूर"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Delete"
 #~ msgstr "काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Page Style"
-#~ msgstr "पान शैली बदला"
 
 #, fuzzy
 #~| msgid "Add a new page style with the name:"

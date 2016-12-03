@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -429,16 +429,16 @@ msgid ""
 "Opening it in Plan may lose information."
 msgstr ""
 
-#: KPlatoXmlLoader.cpp:70
-#, kde-format
-msgid "File-Format Error"
-msgstr ""
-
 #: KPlatoXmlLoader.cpp:70 KPlatoXmlLoader.cpp:82 KPlatoXmlLoader.cpp:124
 #: kptmaindocument.cpp:209 kptmaindocument.cpp:496
 #, kde-format
 msgid "Continue"
 msgstr "चालू ठेवा"
+
+#: KPlatoXmlLoader.cpp:70
+#, kde-format
+msgid "File-Format Error"
+msgstr ""
 
 #: KPlatoXmlLoader.cpp:79
 #, kde-format
@@ -952,6 +952,13 @@ msgstr ""
 msgid "Internal error, failed to insert file."
 msgstr ""
 
+#: kptmaindocument.cpp:988
+#, fuzzy
+#| msgid "Insert File"
+msgctxt "(qtundo-format)"
+msgid "Insert project"
+msgstr "फाईल अंतर्भूत करा"
+
 #: kptschedulesdocker.cpp:38
 #, kde-format
 msgid "Schedule Selector"
@@ -1296,6 +1303,12 @@ msgstr ""
 msgid "Reports"
 msgstr ""
 
+#: kptview.cpp:1682
+#, kde-format
+msgctxt "(qtundo-format) @info:status 1=schedule name"
+msgid "Calculate %1"
+msgstr "गणना करा %1"
+
 #: kptview.cpp:1701
 #, kde-format
 msgid "Cannot baseline. The project is already baselined."
@@ -1304,6 +1317,48 @@ msgstr ""
 #: kptview.cpp:1706
 #, kde-format
 msgid "This schedule is baselined. Do you want to remove the baseline?"
+msgstr ""
+
+#: kptview.cpp:1710
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Reset baseline %1"
+msgstr ""
+
+#: kptview.cpp:1712
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Baseline %1"
+msgstr ""
+
+#: kptview.cpp:1723
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Add schedule %1"
+msgstr ""
+
+#: kptview.cpp:1732
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format)"
+msgid "Delete schedule %1"
+msgstr "संसाधन काढून टाका"
+
+#: kptview.cpp:1741
+#, kde-format
+msgctxt "(qtundo-format)"
+msgid "Move schedule %1"
+msgstr ""
+
+#: kptview.cpp:1810
+msgctxt "(qtundo-format)"
+msgid "Add milestone"
+msgstr ""
+
+#: kptview.cpp:1836
+msgctxt "(qtundo-format)"
+msgid "Add sub-milestone"
 msgstr ""
 
 #: kptview.cpp:1877
@@ -1328,10 +1383,73 @@ msgid ""
 "schedule."
 msgstr ""
 
+#: kptview.cpp:2210 kptview.cpp:2214 kptview.cpp:2230 kptview.cpp:2254
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format)"
+msgid "Delete task"
+msgid_plural "Delete tasks"
+msgstr[0] "संसाधन काढून टाका"
+msgstr[1] "संसाधन काढून टाका"
+
 #: kptview.cpp:2249
 #, kde-format
 msgid "This task has been scheduled. This will invalidate the schedule."
 msgstr ""
+
+#: kptview.cpp:2273
+msgctxt "(qtundo-format)"
+msgid "Indent task"
+msgstr ""
+
+#: kptview.cpp:2287
+msgctxt "(qtundo-format)"
+msgid "Unindent task"
+msgstr ""
+
+#: kptview.cpp:2309
+msgctxt "(qtundo-format)"
+msgid "Move task up"
+msgstr ""
+
+#: kptview.cpp:2330
+msgctxt "(qtundo-format)"
+msgid "Move task down"
+msgstr ""
+
+#: kptview.cpp:2368
+msgctxt "(qtundo-format)"
+msgid "Add task dependency"
+msgstr ""
+
+#: kptview.cpp:2431
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format)"
+msgid "Delete task dependency"
+msgstr "संसाधन काढून टाका"
+
+#: kptview.cpp:2470 kptview.cpp:2531
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format)"
+msgid "Delete resource"
+msgid_plural "Delete resources"
+msgstr[0] "संसाधन काढून टाका"
+msgstr[1] "संसाधन काढून टाका"
+
+#: kptview.cpp:2475 kptview.cpp:2533
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format)"
+msgid "Delete resourcegroup"
+msgid_plural "Delete resourcegroups"
+msgstr[0] "संसाधन काढून टाका"
+msgstr[1] "संसाधन काढून टाका"
 
 #: kptview.cpp:2484 kptview.cpp:2492
 #, kde-format
@@ -1340,10 +1458,43 @@ msgid ""
 "schedule."
 msgstr ""
 
+#: kptview.cpp:2529
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format)"
+msgid "Delete resourcegroups and resources"
+msgstr "संसाधन काढून टाका"
+
 #: kptview.cpp:2701
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open file:<br/><filename>%1</filename>"
+msgstr ""
+
+#: kptview.cpp:2810
+msgctxt "(qtundo-format)"
+msgid "Modify name"
+msgstr ""
+
+#: kptview.cpp:2812
+msgctxt "(qtundo-format)"
+msgid "Modify task name"
+msgstr ""
+
+#: kptview.cpp:2813
+msgctxt "(qtundo-format)"
+msgid "Modify milestone name"
+msgstr ""
+
+#: kptview.cpp:2814
+msgctxt "(qtundo-format)"
+msgid "Modify summarytask name"
+msgstr ""
+
+#: kptview.cpp:2815
+msgctxt "(qtundo-format)"
+msgid "Modify project name"
 msgstr ""
 
 #: kptview.cpp:2901
@@ -2013,12 +2164,6 @@ msgstr ""
 #~ msgstr "फाईल अंतर्भूत करा"
 
 #, fuzzy
-#~| msgid "Insert File"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Project File..."
-#~ msgstr "फाईल अंतर्भूत करा"
-
-#, fuzzy
 #~| msgctxt "@action:inmenu configure view"
 #~| msgid "Configure..."
 #~ msgctxt "(qtundo-format)"
@@ -2036,13 +2181,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Progress..."
 #~ msgstr "प्रगती..."
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Delete resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Task"
-#~ msgstr "संसाधन काढून टाका"
 
 #, fuzzy
 #~| msgid "Description..."
@@ -2098,10 +2236,6 @@ msgstr ""
 #~ msgid "Execution"
 #~ msgstr "वर्णन"
 
-#~ msgctxt "(qtundo-format) @info:status 1=schedule name"
-#~ msgid "Calculate %1"
-#~ msgstr "गणना करा %1"
-
 #, fuzzy
 #~| msgctxt "@label:chooser"
 #~| msgid "Default:"
@@ -2114,22 +2248,6 @@ msgstr ""
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Task Colors"
 #~ msgstr "कार्ये"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Delete resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete resource"
-#~ msgid_plural "Delete resources"
-#~ msgstr[0] "संसाधन काढून टाका"
-#~ msgstr[1] "संसाधन काढून टाका"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Delete resource"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete resourcegroups and resources"
-#~ msgstr "संसाधन काढून टाका"
 
 #, fuzzy
 #~| msgctxt "1=project name, 2=task name"

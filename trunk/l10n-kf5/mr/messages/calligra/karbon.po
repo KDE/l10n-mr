@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:48+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
+
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:917
+msgctxt "(qtundo-format)"
+msgid "Boolean Operation"
+msgstr "बुलीयन ऑपरेशन"
 
 #. i18n: ectx: Menu (object_order)
 #: data/karbon.rc:16 data/karbon.rc:77
@@ -130,6 +135,16 @@ msgstr "गुणधर्म"
 msgid "Flatness:"
 msgstr "समतलता :"
 
+#: plugins/flattenpath/KarbonPathFlattenCommand.cpp:163
+msgctxt "(qtundo-format)"
+msgid "Flatten path"
+msgstr "मार्ग समतल करा"
+
+#: plugins/refinepath/KarbonPathRefineCommand.cpp:41
+msgctxt "(qtundo-format)"
+msgid "Refine path"
+msgstr "मार्ग सुस्थितीत आणा"
+
 #: plugins/refinepath/RefinePathPlugin.cpp:64
 #, kde-format
 msgid "&Refine Path..."
@@ -144,6 +159,12 @@ msgstr "मार्ग सुस्थितीत आणा"
 #, kde-format
 msgid "Subdivisions:"
 msgstr "उपविभाग :"
+
+#: plugins/roundcorners/RoundCornersCommand.cpp:41
+#: plugins/roundcorners/RoundCornersPlugin.cpp:95
+msgctxt "(qtundo-format)"
+msgid "Round Corners"
+msgstr "गोलाकार कोपरे"
 
 #: plugins/roundcorners/RoundCornersPlugin.cpp:66
 #, kde-format
@@ -160,6 +181,11 @@ msgstr "गोलाकार कोपरे"
 #, kde-format
 msgid "Radius:"
 msgstr "त्रिज्या :"
+
+#: plugins/whirlpinch/KarbonWhirlPinchCommand.cpp:108
+msgctxt "(qtundo-format)"
+msgid "Whirl & pinch"
+msgstr "फिरविणे व आकुंचन"
 
 #: plugins/whirlpinch/WhirlPinchPlugin.cpp:68
 #, kde-format
@@ -192,6 +218,18 @@ msgstr "कोन :"
 #, kde-format
 msgid "Pinch:"
 msgstr "आकुंचित करा :"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:37
+#: ui/commands/KarbonLayerReorderCommand.cpp:46
+msgctxt "(qtundo-format)"
+msgid "Raise Layer"
+msgstr "स्तर वर आणा"
+
+#: ui/commands/KarbonLayerReorderCommand.cpp:39
+#: ui/commands/KarbonLayerReorderCommand.cpp:48
+msgctxt "(qtundo-format)"
+msgid "Lower Layer"
+msgstr "स्तर खाली आणा"
 
 #: ui/dialogs/KarbonConfigureDialog.cpp:45
 #, kde-format
@@ -299,6 +337,16 @@ msgstr "नवीन स्तराचे नाव लिहा :"
 msgid "New layer"
 msgstr "नवीन स्तर"
 
+#: ui/dockers/KarbonLayerDocker.cpp:293
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "स्तर निर्माण करा"
+
+#: ui/dockers/KarbonLayerDocker.cpp:317
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "स्तर काढून टाका"
+
 #: ui/dockers/KarbonLayerDocker.cpp:319
 #, kde-format
 msgid "Could not delete all layers. At least one layer is required."
@@ -357,13 +405,18 @@ msgstr "खंडीत"
 
 #: ui/dockers/KarbonLayerModel.cpp:263
 #, kde-format
-msgid "yes"
-msgstr "हो"
+msgid "no"
+msgstr "नाही"
 
 #: ui/dockers/KarbonLayerModel.cpp:263
 #, kde-format
-msgid "no"
-msgstr "नाही"
+msgid "yes"
+msgstr "हो"
+
+#: ui/dockers/KarbonLayerModel.cpp:464
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr "पुनर्रचित आकार"
 
 #: ui/KarbonAboutData.h:35
 #, kde-format
@@ -487,6 +540,11 @@ msgstr "अवैध ओअसीस दस्तऐवज. काढल्य�
 msgid "Master Page"
 msgstr "मुख्य पान"
 
+#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:560
+msgctxt "(qtundo-format)"
+msgid "Insert graphics"
+msgstr "आरेखने समाविष्ट करा"
+
 #: ui/KarbonView.cpp:491
 #, kde-format
 msgid "Choose Graphic to Add"
@@ -506,6 +564,26 @@ msgstr "आरेखन आयात करा"
 #, kde-format
 msgid "Could not create image shape."
 msgstr "प्रतिमेचा आकार साकार करू शकत नाही"
+
+#: ui/KarbonView.cpp:791
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally"
+msgstr "आडवेरित्या प्रतिबिंबित करा"
+
+#: ui/KarbonView.cpp:793
+msgctxt "(qtundo-format)"
+msgid "Mirror Vertically"
+msgstr "उभेरित्या प्रतिबिंबित करा"
+
+#: ui/KarbonView.cpp:795
+msgctxt "(qtundo-format)"
+msgid "Mirror Horizontally and Vertically"
+msgstr "आडवेरित्या व उभेरित्या प्रतिबिंबित करा"
+
+#: ui/KarbonView.cpp:850
+msgctxt "(qtundo-format)"
+msgid "Separate paths"
+msgstr "वेगळे मार्ग"
 
 #: ui/KarbonView.cpp:1028
 #, kde-format
@@ -851,10 +929,6 @@ msgstr "भरण :"
 #~ msgid "View"
 #~ msgstr "दृश्य"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Boolean Operation"
-#~ msgstr "बुलीयन ऑपरेशन"
-
 #, fuzzy
 #~| msgid "&Flatten Path..."
 #~ msgctxt "(qtundo-format)"
@@ -879,14 +953,6 @@ msgstr "भरण :"
 #~ msgid "Flatness:"
 #~ msgstr "समतलता :"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flatten path"
-#~ msgstr "मार्ग समतल करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Refine path"
-#~ msgstr "मार्ग सुस्थितीत आणा"
-
 #, fuzzy
 #~| msgid "&Refine Path..."
 #~ msgctxt "(qtundo-format)"
@@ -905,10 +971,6 @@ msgstr "भरण :"
 #~ msgid "Subdivisions:"
 #~ msgstr "उपविभाग :"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Round Corners"
-#~ msgstr "गोलाकार कोपरे"
-
 #, fuzzy
 #~| msgid "&Round Corners..."
 #~ msgctxt "(qtundo-format)"
@@ -920,10 +982,6 @@ msgstr "भरण :"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Radius:"
 #~ msgstr "त्रिज्या :"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Whirl & pinch"
-#~ msgstr "फिरविणे व आकुंचन"
 
 #, fuzzy
 #~| msgid "&Whirl/Pinch..."
@@ -964,14 +1022,6 @@ msgstr "भरण :"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Pinch:"
 #~ msgstr "आकुंचित करा :"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Raise Layer"
-#~ msgstr "स्तर वर आणा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Lower Layer"
-#~ msgstr "स्तर खाली आणा"
 
 #, fuzzy
 #~| msgid "Configure"
@@ -1094,14 +1144,6 @@ msgstr "भरण :"
 #~ msgid "New layer"
 #~ msgstr "नवीन स्तर"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create Layer"
-#~ msgstr "स्तर निर्माण करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Layer"
-#~ msgstr "स्तर काढून टाका"
-
 #, fuzzy
 #~| msgid "Could not delete all layers. At least one layer is required."
 #~ msgctxt "(qtundo-format)"
@@ -1179,10 +1221,6 @@ msgstr "भरण :"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "yes"
 #~ msgstr "हो"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reparent shapes"
-#~ msgstr "पुनर्रचित आकार"
 
 #, fuzzy
 #~| msgid "Karbon"
@@ -1318,10 +1356,6 @@ msgstr "भरण :"
 #~ msgid "Master Page"
 #~ msgstr "मुख्य पान"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert graphics"
-#~ msgstr "आरेखने समाविष्ट करा"
-
 #, fuzzy
 #~| msgid "Choose Graphic to Add"
 #~ msgctxt "(qtundo-format)"
@@ -1345,22 +1379,6 @@ msgstr "भरण :"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Could not create image shape."
 #~ msgstr "प्रतिमेचा आकार साकार करू शकत नाही"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Horizontally"
-#~ msgstr "आडवेरित्या प्रतिबिंबित करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Vertically"
-#~ msgstr "उभेरित्या प्रतिबिंबित करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Horizontally and Vertically"
-#~ msgstr "आडवेरित्या व उभेरित्या प्रतिबिंबित करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Separate paths"
-#~ msgstr "वेगळे मार्ग"
 
 #, fuzzy
 #~| msgid "Outline &Mode"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-02 03:12+0100\n"
+"POT-Creation-Date: 2016-12-03 13:49+0100\n"
 "PO-Revision-Date: 2013-03-28 17:12+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -253,6 +253,13 @@ msgstr ""
 msgid "Processing is not possible, because some cells are protected."
 msgstr ""
 
+#: commands/ApplyFilterCommand.cpp:39
+#, fuzzy
+#| msgid "Filter"
+msgctxt "(qtundo-format)"
+msgid "Apply Filter"
+msgstr "गाळणी"
+
 #: commands/AutoFillCommand.cpp:130 dialogs/ListDialog.cpp:140
 #: dialogs/SortDialog.cpp:375
 #, kde-format
@@ -463,15 +470,396 @@ msgstr "शनि"
 msgid "Sun"
 msgstr "रवि"
 
+#: commands/AutoFillCommand.cpp:702
+#, fuzzy
+#| msgid "Filter"
+msgctxt "(qtundo-format)"
+msgid "Autofill"
+msgstr "गाळणी"
+
+#: commands/AutoFilterCommand.cpp:37
+#, fuzzy
+#| msgid "Filter"
+msgctxt "(qtundo-format)"
+msgid "Auto-Filter"
+msgstr "गाळणी"
+
+#: commands/AutoFormatCommand.cpp:35
+#, fuzzy
+#| msgid "Automatic"
+msgctxt "(qtundo-format)"
+msgid "Auto-Format"
+msgstr "स्वयंचलित"
+
+#: commands/BorderColorCommand.cpp:38
+#, fuzzy
+#| msgid "Border"
+msgctxt "(qtundo-format)"
+msgid "Change Border Color"
+msgstr "किनार"
+
+#: commands/CommentCommand.cpp:62 ui/CellToolBase.cpp:2474
+#, fuzzy
+#| msgid "Remove All"
+msgctxt "(qtundo-format)"
+msgid "Remove Comment"
+msgstr "सर्व काढून टाका"
+
+#: commands/CommentCommand.cpp:64 dialogs/CommentDialog.cpp:80
+msgctxt "(qtundo-format)"
+msgid "Add Comment"
+msgstr "टिपण्णी जोडा"
+
+#: commands/ConditionCommand.cpp:61
+msgctxt "(qtundo-format)"
+msgid "Remove Conditional Formatting"
+msgstr ""
+
+#: commands/ConditionCommand.cpp:63
+msgctxt "(qtundo-format)"
+msgid "Add Conditional Formatting"
+msgstr ""
+
+#: commands/DataManipulators.cpp:159
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Case"
+msgctxt "(qtundo-format)"
+msgid "Change Value"
+msgstr "केस बदला"
+
+#: commands/DataManipulators.cpp:229
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Rename Sheet"
+msgctxt "(qtundo-format)"
+msgid "Insert Series"
+msgstr "शीटचे नाव बदला"
+
+#: commands/DataManipulators.cpp:307
+#, fuzzy
+#| msgid "Clear Selection"
+msgctxt "(qtundo-format)"
+msgid "Fill Selection"
+msgstr "निवड काढून टाका"
+
+#: commands/DataManipulators.cpp:348
+msgctxt "(qtundo-format)"
+msgid "Change Case"
+msgstr "केस बदला"
+
+#: commands/DataManipulators.cpp:397 commands/DataManipulators.cpp:409
+#, fuzzy
+#| msgid "Merge"
+msgctxt "(qtundo-format)"
+msgid "Insert Cells"
+msgstr "एकत्रीकरण करा"
+
+#: commands/DataManipulators.cpp:411
+#, fuzzy
+#| msgid "Remove All"
+msgctxt "(qtundo-format)"
+msgid "Remove Cells"
+msgstr "सर्व काढून टाका"
+
+#: commands/DeleteCommand.cpp:37
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "काढून टाका"
+
+#: commands/IndentationCommand.cpp:37 commands/IndentationCommand.cpp:63
+#, fuzzy
+#| msgid "Increase Indent"
+msgctxt "(qtundo-format)"
+msgid "Increase Indentation"
+msgstr "समास वाढवा"
+
+#: commands/IndentationCommand.cpp:65
+#, fuzzy
+#| msgid "Decrease Indent"
+msgctxt "(qtundo-format)"
+msgid "Decrease Indentation"
+msgstr "समास कमी करा"
+
+#: commands/LinkCommand.cpp:39
+#, fuzzy
+#| msgid "Remove"
+msgctxt "(qtundo-format)"
+msgid "Remove Link"
+msgstr "काढून टाका"
+
+#: commands/LinkCommand.cpp:39
+#, fuzzy
+#| msgid "Open Link?"
+msgctxt "(qtundo-format)"
+msgid "Set Link"
+msgstr "लिंक उघडायची का?"
+
+#: commands/MergeCommand.cpp:130
+#, fuzzy
+#| msgid "Horizontal"
+msgctxt "(qtundo-format)"
+msgid "Merge Cells Horizontally"
+msgstr "आडवे"
+
+#: commands/MergeCommand.cpp:132
+#, fuzzy
+#| msgid "Merge"
+msgctxt "(qtundo-format)"
+msgid "Merge Cells Vertically"
+msgstr "एकत्रीकरण करा"
+
+#: commands/MergeCommand.cpp:134
+#, fuzzy
+#| msgid "Merge"
+msgctxt "(qtundo-format)"
+msgid "Merge Cells"
+msgstr "एकत्रीकरण करा"
+
+#: commands/MergeCommand.cpp:137
+msgctxt "(qtundo-format)"
+msgid "Dissociate Cells"
+msgstr ""
+
 #: commands/MergeCommand.cpp:143
 #, kde-format
 msgid "Merging of columns or rows is not supported."
 msgstr ""
 
+#: commands/NamedAreaCommand.cpp:36 commands/NamedAreaCommand.cpp:52
+msgctxt "(qtundo-format)"
+msgid "Add Named Area"
+msgstr ""
+
+#: commands/NamedAreaCommand.cpp:54
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Rename Sheet"
+msgctxt "(qtundo-format)"
+msgid "Remove Named Area"
+msgstr "शीटचे नाव बदला"
+
+#: commands/PrecisionCommand.cpp:35 commands/PrecisionCommand.cpp:61
+#, fuzzy
+#| msgid "Precision"
+msgctxt "(qtundo-format)"
+msgid "Increase Precision"
+msgstr "काटेकोर"
+
+#: commands/PrecisionCommand.cpp:63
+#, fuzzy
+#| msgid "Precision"
+msgctxt "(qtundo-format)"
+msgid "Decrease Precision"
+msgstr "काटेकोर"
+
+#: commands/RowColumnManipulators.cpp:48
+#, fuzzy
+#| msgid "Show Columns..."
+msgctxt "(qtundo-format)"
+msgid "Resize Column"
+msgstr "स्थंभ दर्शवा..."
+
+#: commands/RowColumnManipulators.cpp:83
+#, fuzzy
+#| msgid "Rows"
+msgctxt "(qtundo-format)"
+msgid "Resize Row"
+msgstr "ओळी"
+
+#: commands/RowColumnManipulators.cpp:225
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Show Rows/Columns"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:227
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Show Columns"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:229
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Show Rows"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:231
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Hide Rows/Columns"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:233
+#, fuzzy
+#| msgid "Columns"
+msgctxt "(qtundo-format)"
+msgid "Hide Columns"
+msgstr "स्थंभ"
+
+#: commands/RowColumnManipulators.cpp:235
+#, fuzzy
+#| msgid "Rows"
+msgctxt "(qtundo-format)"
+msgid "Hide Rows"
+msgstr "ओळी"
+
+#: commands/RowColumnManipulators.cpp:565
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Adjust Columns/Rows"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:567
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Adjust Columns"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:569
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Adjust Rows"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:582
+#: commands/RowColumnManipulators.cpp:601
+#, fuzzy
+#| msgid "Show Columns"
+msgctxt "(qtundo-format)"
+msgid "Insert Columns"
+msgstr "स्थंभ दर्शवा"
+
+#: commands/RowColumnManipulators.cpp:603
+#, fuzzy
+#| msgid "Remove All"
+msgctxt "(qtundo-format)"
+msgid "Remove Columns"
+msgstr "सर्व काढून टाका"
+
+#: commands/RowColumnManipulators.cpp:705
+#: commands/RowColumnManipulators.cpp:724
+#, fuzzy
+#| msgid "Insert"
+msgctxt "(qtundo-format)"
+msgid "Insert Rows"
+msgstr "अंतर्भूत करा"
+
+#: commands/RowColumnManipulators.cpp:726
+#, fuzzy
+#| msgid "Remove"
+msgctxt "(qtundo-format)"
+msgid "Remove Rows"
+msgstr "काढून टाका"
+
+#: commands/SheetCommands.cpp:38
+msgctxt "(qtundo-format)"
+msgid "Rename Sheet"
+msgstr "शीटचे नाव बदला"
+
+#: commands/SheetCommands.cpp:59
+#, fuzzy, kde-format
+#| msgid "Sheet%1"
+msgctxt "(qtundo-format)"
+msgid "Hide Sheet %1"
+msgstr "शीट%1"
+
+#: commands/SheetCommands.cpp:60
+#, fuzzy
+#| msgid "Sheet"
+msgctxt "(qtundo-format)"
+msgid "Hide Sheet"
+msgstr "शीट"
+
+#: commands/SheetCommands.cpp:87
+#, fuzzy, kde-format
+#| msgid "Sheet%1"
+msgctxt "(qtundo-format)"
+msgid "Show Sheet %1"
+msgstr "शीट%1"
+
+#: commands/SheetCommands.cpp:88 dialogs/ShowDialog.cpp:85
+#, fuzzy
+#| msgid "Sheet%1"
+msgctxt "(qtundo-format)"
+msgid "Show Sheet"
+msgstr "शीट%1"
+
+#: commands/SheetCommands.cpp:112
+#, fuzzy
+#| msgid "Sheets"
+msgctxt "(qtundo-format)"
+msgid "Add Sheet"
+msgstr "शीट्स"
+
+#: commands/SheetCommands.cpp:139
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Rename Sheet"
+msgctxt "(qtundo-format)"
+msgid "Duplicate Sheet"
+msgstr "शीटचे नाव बदला"
+
+#: commands/SheetCommands.cpp:177
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Rename Sheet"
+msgctxt "(qtundo-format)"
+msgid "Remove Sheet"
+msgstr "शीटचे नाव बदला"
+
+#: commands/SheetCommands.cpp:207
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Style"
+msgctxt "(qtundo-format)"
+msgid "Change Sheet Properties"
+msgstr "शैली बदला"
+
+#: commands/SortManipulator.cpp:41
+#, fuzzy
+#| msgid "Sort"
+msgctxt "(qtundo-format)"
+msgid "Sort Data"
+msgstr "क्रमबद्ध करा"
+
 #: commands/SpellCheckCommand.cpp:102
 #, kde-format
 msgid "Do you want to check the spelling in the next sheet?"
 msgstr ""
+
+#: commands/SpellCheckCommand.cpp:131
+msgctxt "(qtundo-format)"
+msgid "Correct Misspelled Words"
+msgstr "चुकीचे वर्णलेखन केलेले शब्द बरोबर करा"
+
+#: commands/StyleCommand.cpp:184
+msgctxt "(qtundo-format)"
+msgid "Reset Style"
+msgstr "शैली पुन्हस्थापित करा"
+
+#: commands/StyleCommand.cpp:186
+msgctxt "(qtundo-format)"
+msgid "Change Style"
+msgstr "शैली बदला"
+
+#: commands/ValidityCommand.cpp:62
+msgctxt "(qtundo-format)"
+msgid "Remove Validity Check"
+msgstr "वैधता तपासणी काढून टाका"
+
+#: commands/ValidityCommand.cpp:64
+msgctxt "(qtundo-format)"
+msgid "Add Validity Check"
+msgstr "वैधता तपासणी जोडा"
 
 #: Currency.cpp:48 Currency.cpp:94
 #, kde-format
@@ -620,15 +1008,15 @@ msgstr "स्लोवेनिया"
 msgid "Spain"
 msgstr "स्पेन"
 
-#: Currency.cpp:77 Currency.cpp:334
-#, kde-format
-msgid "United Kingdom"
-msgstr "यूनाइटेड किंगडम"
-
 #: Currency.cpp:77
 #, kde-format
 msgid "Pound"
 msgstr "पाउंड"
+
+#: Currency.cpp:77 Currency.cpp:334
+#, kde-format
+msgid "United Kingdom"
+msgstr "यूनाइटेड किंगडम"
 
 #: Currency.cpp:79 Currency.cpp:207
 #, kde-format
@@ -640,30 +1028,30 @@ msgstr "जपान"
 msgid "Yen"
 msgstr "येन"
 
-#: Currency.cpp:81 Currency.cpp:82
+#: Currency.cpp:81
 #, kde-format
-msgid "Afghanistan"
-msgstr "अफगाणिस्तान"
+msgid "AFA"
+msgstr "एएफ़ए"
 
 #: Currency.cpp:81
 #, kde-format
 msgid "Afghani (old)"
 msgstr "अफगाणि"
 
-#: Currency.cpp:81
+#: Currency.cpp:81 Currency.cpp:82
 #, kde-format
-msgid "AFA"
-msgstr "एएफ़ए"
-
-#: Currency.cpp:82
-#, kde-format
-msgid "Afghani"
-msgstr "अफ़गानी"
+msgid "Afghanistan"
+msgstr "अफगाणिस्तान"
 
 #: Currency.cpp:82
 #, kde-format
 msgid "AFN"
 msgstr "AFN"
+
+#: Currency.cpp:82
+#, kde-format
+msgid "Afghani"
+msgstr "अफ़गानी"
 
 #: Currency.cpp:83
 #, kde-format
@@ -729,13 +1117,18 @@ msgstr "EUR"
 
 #: Currency.cpp:87
 #, kde-format
-msgid "Andorran Peseta"
-msgstr "अंडोरान पेसेटा"
+msgid "ADP"
+msgstr "ADP"
 
 #: Currency.cpp:87
 #, kde-format
-msgid "ADP"
-msgstr "ADP"
+msgid "Andorran Peseta"
+msgstr "अंडोरान पेसेटा"
+
+#: Currency.cpp:88
+#, kde-format
+msgid "AOA"
+msgstr "AOA"
 
 #: Currency.cpp:88
 #, kde-format
@@ -746,11 +1139,6 @@ msgstr "अंगोला"
 #, kde-format
 msgid "Kwanza"
 msgstr "क्वांझा"
-
-#: Currency.cpp:88
-#, kde-format
-msgid "AOA"
-msgstr "AOA"
 
 #: Currency.cpp:89
 #, kde-format
@@ -776,6 +1164,11 @@ msgstr "एंटिगुआ व बर्बुडा"
 
 #: Currency.cpp:91
 #, kde-format
+msgid "ARS"
+msgstr "ARS"
+
+#: Currency.cpp:91
+#, kde-format
 msgid "Argentina"
 msgstr "अर्जेन्टिना"
 
@@ -784,10 +1177,10 @@ msgstr "अर्जेन्टिना"
 msgid "Argentine Peso"
 msgstr "अर्जेन्टिनाइन पेसो"
 
-#: Currency.cpp:91
+#: Currency.cpp:92
 #, kde-format
-msgid "ARS"
-msgstr "ARS"
+msgid "AMD"
+msgstr "एएमडी"
 
 #: Currency.cpp:92
 #, kde-format
@@ -799,10 +1192,10 @@ msgstr "आर्मेनिया"
 msgid "Armenian Dram"
 msgstr "आर्मेनिया द्राम"
 
-#: Currency.cpp:92
+#: Currency.cpp:93
 #, kde-format
-msgid "AMD"
-msgstr "एएमडी"
+msgid "AWG"
+msgstr "AWG"
 
 #: Currency.cpp:93
 #, kde-format
@@ -814,10 +1207,11 @@ msgstr "अरूबा"
 msgid "Aruban Florin"
 msgstr "आरुबान फ्लोरिन"
 
-#: Currency.cpp:93
+#: Currency.cpp:94 Currency.cpp:132 Currency.cpp:133 Currency.cpp:190
+#: Currency.cpp:211 Currency.cpp:255 Currency.cpp:266 Currency.cpp:330
 #, kde-format
-msgid "AWG"
-msgstr "AWG"
+msgid "AUD"
+msgstr "AUD"
 
 #: Currency.cpp:94 Currency.cpp:132 Currency.cpp:133 Currency.cpp:190
 #: Currency.cpp:211 Currency.cpp:255 Currency.cpp:266 Currency.cpp:330
@@ -825,21 +1219,20 @@ msgstr "AWG"
 msgid "Australian Dollar"
 msgstr "ऑस्ट्रेलियन डॉलर"
 
-#: Currency.cpp:94 Currency.cpp:132 Currency.cpp:133 Currency.cpp:190
-#: Currency.cpp:211 Currency.cpp:255 Currency.cpp:266 Currency.cpp:330
+#: Currency.cpp:96
 #, kde-format
-msgid "AUD"
-msgstr "AUD"
+msgid "S"
+msgstr "S"
 
 #: Currency.cpp:96
 #, kde-format
 msgid "Schilling"
 msgstr "शिलिंग"
 
-#: Currency.cpp:96
+#: Currency.cpp:97
 #, kde-format
-msgid "S"
-msgstr "S"
+msgid "AZM"
+msgstr "AZM"
 
 #: Currency.cpp:97
 #, kde-format
@@ -851,10 +1244,10 @@ msgstr "अजरबैजान"
 msgid "Azerbaijanian Manat"
 msgstr "अजरबेजानियाई मनत"
 
-#: Currency.cpp:97
+#: Currency.cpp:98
 #, kde-format
-msgid "AZM"
-msgstr "AZM"
+msgid "BSD"
+msgstr "BSD"
 
 #: Currency.cpp:98
 #, kde-format
@@ -866,10 +1259,10 @@ msgstr "बहामा"
 msgid "Bahamian Dollar"
 msgstr "बहामीयन डॉलर"
 
-#: Currency.cpp:98
+#: Currency.cpp:99
 #, kde-format
-msgid "BSD"
-msgstr "BSD"
+msgid "BHD"
+msgstr "BHD"
 
 #: Currency.cpp:99
 #, kde-format
@@ -881,10 +1274,10 @@ msgstr "बहरीन"
 msgid "Bahraini Dinar"
 msgstr "बहरीनी दिनार"
 
-#: Currency.cpp:99
+#: Currency.cpp:100
 #, kde-format
-msgid "BHD"
-msgstr "BHD"
+msgid "BDT"
+msgstr "BDT"
 
 #: Currency.cpp:100
 #, kde-format
@@ -896,10 +1289,10 @@ msgstr "बांग्लादेश"
 msgid "Taka"
 msgstr "टका"
 
-#: Currency.cpp:100
+#: Currency.cpp:101
 #, kde-format
-msgid "BDT"
-msgstr "BDT"
+msgid "BBD"
+msgstr "BBD"
 
 #: Currency.cpp:101
 #, kde-format
@@ -910,11 +1303,6 @@ msgstr "बार्बुडोस"
 #, kde-format
 msgid "Barbados Dollar"
 msgstr "बार्बुडोस डॉलर"
-
-#: Currency.cpp:101
-#, kde-format
-msgid "BBD"
-msgstr "BBD"
 
 #: Currency.cpp:102
 #, kde-format
@@ -931,15 +1319,20 @@ msgstr "बेलारुसीयन रुबल"
 msgid "p."
 msgstr "p."
 
+#: Currency.cpp:104
+#, kde-format
+msgid "BF"
+msgstr "BF"
+
 #: Currency.cpp:104 Currency.cpp:166 Currency.cpp:228
 #, kde-format
 msgid "Franc"
 msgstr "फ्रॉक"
 
-#: Currency.cpp:104
+#: Currency.cpp:105
 #, kde-format
-msgid "BF"
-msgstr "BF"
+msgid "BZ$"
+msgstr "BZ$$"
 
 #: Currency.cpp:105
 #, kde-format
@@ -950,11 +1343,6 @@ msgstr "बेलाइज"
 #, kde-format
 msgid "Belize Dollar"
 msgstr "बेलाइज डॉलर"
-
-#: Currency.cpp:105
-#, kde-format
-msgid "BZ$"
-msgstr "BZ$$"
 
 #: Currency.cpp:106
 #, kde-format
@@ -975,6 +1363,11 @@ msgstr "XOF"
 
 #: Currency.cpp:107
 #, kde-format
+msgid "BMD"
+msgstr "BMD"
+
+#: Currency.cpp:107
+#, kde-format
 msgid "Bermuda"
 msgstr "बरमुडा"
 
@@ -983,11 +1376,6 @@ msgstr "बरमुडा"
 msgid "Bermudian Dollar"
 msgstr "बरमूडा डालर"
 
-#: Currency.cpp:107
-#, kde-format
-msgid "BMD"
-msgstr "BMD"
-
 #: Currency.cpp:108 Currency.cpp:109
 #, kde-format
 msgid "Bhutan"
@@ -995,23 +1383,23 @@ msgstr "भुतान"
 
 #: Currency.cpp:108 Currency.cpp:196
 #, kde-format
-msgid "Indian Rupee"
-msgstr "भारतीय रुपया"
-
-#: Currency.cpp:108 Currency.cpp:196
-#, kde-format
 msgid "INR"
 msgstr "रु."
 
-#: Currency.cpp:109
+#: Currency.cpp:108 Currency.cpp:196
 #, kde-format
-msgid "Ngultrum"
-msgstr "गुल्त्रम"
+msgid "Indian Rupee"
+msgstr "भारतीय रुपया"
 
 #: Currency.cpp:109
 #, kde-format
 msgid "BTN"
 msgstr "BTN"
+
+#: Currency.cpp:109
+#, kde-format
+msgid "Ngultrum"
+msgstr "गुल्त्रम"
 
 #: Currency.cpp:110 Currency.cpp:111
 #, kde-format
@@ -1030,13 +1418,18 @@ msgstr "Bs"
 
 #: Currency.cpp:111
 #, kde-format
-msgid "Mvdol"
-msgstr "Mvdol"
+msgid "BOV"
+msgstr "BOV"
 
 #: Currency.cpp:111
 #, kde-format
-msgid "BOV"
-msgstr "BOV"
+msgid "Mvdol"
+msgstr "Mvdol"
+
+#: Currency.cpp:112
+#, kde-format
+msgid "BAM"
+msgstr "BAM"
 
 #: Currency.cpp:112
 #, kde-format
@@ -1048,10 +1441,10 @@ msgstr "बोस्निया व हर्जेगोविना"
 msgid "Convertible Marks"
 msgstr "परिवर्तन चिह्न"
 
-#: Currency.cpp:112
+#: Currency.cpp:113
 #, kde-format
-msgid "BAM"
-msgstr "BAM"
+msgid "BWP"
+msgstr "BWP"
 
 #: Currency.cpp:113
 #, kde-format
@@ -1063,25 +1456,20 @@ msgstr "बोत्सवाना"
 msgid "Pula"
 msgstr "पुला"
 
-#: Currency.cpp:113
-#, kde-format
-msgid "BWP"
-msgstr "BWP"
-
 #: Currency.cpp:114
 #, kde-format
 msgid "Bouvet Island"
 msgstr "बौवेट द्वीप"
 
-#: Currency.cpp:114 Currency.cpp:268 Currency.cpp:313
-#, kde-format
-msgid "Norwegian Krone"
-msgstr "नोर्वेजियन क्रोन"
-
 #: Currency.cpp:114 Currency.cpp:313
 #, kde-format
 msgid "NOK"
 msgstr "NOK"
+
+#: Currency.cpp:114 Currency.cpp:268 Currency.cpp:313
+#, kde-format
+msgid "Norwegian Krone"
+msgstr "नोर्वेजियन क्रोन"
 
 #: Currency.cpp:115
 #, kde-format
@@ -1105,6 +1493,11 @@ msgstr "ब्रिटिश हिंदी महासागर क्षे
 
 #: Currency.cpp:117
 #, kde-format
+msgid "BND"
+msgstr "BND"
+
+#: Currency.cpp:117
+#, kde-format
 msgid "Brunei Darussalam"
 msgstr "ब्रुनेई डारूसलेम"
 
@@ -1113,10 +1506,10 @@ msgstr "ब्रुनेई डारूसलेम"
 msgid "Brunei Dollar"
 msgstr "ब्रुनेई डॉलर"
 
-#: Currency.cpp:117
+#: Currency.cpp:118
 #, kde-format
-msgid "BND"
-msgstr "BND"
+msgid "BGL"
+msgstr "BGL"
 
 #: Currency.cpp:118 Currency.cpp:119
 #, kde-format
@@ -1128,25 +1521,25 @@ msgstr "बल्जेरिया"
 msgid "Lev"
 msgstr "लेव"
 
-#: Currency.cpp:118
+#: Currency.cpp:119
 #, kde-format
-msgid "BGL"
-msgstr "BGL"
+msgid "BGN"
+msgstr "BGN"
 
 #: Currency.cpp:119
 #, kde-format
 msgid "Bulgarian Lev"
 msgstr "बल्गेरियन लेव "
 
-#: Currency.cpp:119
-#, kde-format
-msgid "BGN"
-msgstr "BGN"
-
 #: Currency.cpp:120
 #, kde-format
 msgid "Burkina Faso"
 msgstr "बुर्सिना फाठ"
+
+#: Currency.cpp:121
+#, kde-format
+msgid "BIF"
+msgstr "BIF"
 
 #: Currency.cpp:121
 #, kde-format
@@ -1158,11 +1551,6 @@ msgstr "बुरूंडी"
 msgid "Burundi Franc"
 msgstr "बुरुंडी फ्रॉक"
 
-#: Currency.cpp:121
-#, kde-format
-msgid "BIF"
-msgstr "BIF"
-
 #: Currency.cpp:122
 #, kde-format
 msgid "Cambodia"
@@ -1170,13 +1558,19 @@ msgstr "कंबोडिया"
 
 #: Currency.cpp:122
 #, kde-format
-msgid "Riel"
-msgstr "Riel"
+msgid "KHR"
+msgstr "KHR"
 
 #: Currency.cpp:122
 #, kde-format
-msgid "KHR"
-msgstr "KHR"
+msgid "Riel"
+msgstr "Riel"
+
+#: Currency.cpp:123 Currency.cpp:127 Currency.cpp:128 Currency.cpp:136
+#: Currency.cpp:156 Currency.cpp:170
+#, kde-format
+msgid "CFA Franc BEAC"
+msgstr "CFA फ्रांक BEAC"
 
 #: Currency.cpp:123
 #, kde-format
@@ -1186,24 +1580,23 @@ msgstr "कैमरून"
 #: Currency.cpp:123 Currency.cpp:127 Currency.cpp:128 Currency.cpp:136
 #: Currency.cpp:156 Currency.cpp:170
 #, kde-format
-msgid "CFA Franc BEAC"
-msgstr "CFA फ्रांक BEAC"
-
-#: Currency.cpp:123 Currency.cpp:127 Currency.cpp:128 Currency.cpp:136
-#: Currency.cpp:156 Currency.cpp:170
-#, kde-format
 msgid "XAF"
 msgstr "XAF"
+
+#: Currency.cpp:124
+#, kde-format
+msgid "CAD"
+msgstr "CAD"
 
 #: Currency.cpp:124
 #, kde-format
 msgid "Canadian Dollar"
 msgstr "केनेडियन डॉलर"
 
-#: Currency.cpp:124
+#: Currency.cpp:125
 #, kde-format
-msgid "CAD"
-msgstr "CAD"
+msgid "CVE"
+msgstr "CVE"
 
 #: Currency.cpp:125
 #, kde-format
@@ -1214,11 +1607,6 @@ msgstr "केप वर्डे"
 #, kde-format
 msgid "Cape Verde Escudo"
 msgstr "केप वर्डे एस्क्युदो"
-
-#: Currency.cpp:125
-#, kde-format
-msgid "CVE"
-msgstr "CVE"
 
 #: Currency.cpp:126
 #, kde-format
@@ -1245,6 +1633,11 @@ msgstr "केंद्रीय आफ्रिकी गणराज्य"
 msgid "Chad"
 msgstr "चाड"
 
+#: Currency.cpp:129
+#, kde-format
+msgid "Ch$"
+msgstr "Ch$"
+
 #: Currency.cpp:129 Currency.cpp:130
 #, kde-format
 msgid "Chile"
@@ -1255,20 +1648,20 @@ msgstr "चिली"
 msgid "Chilean Peso"
 msgstr "चिलीयन पेसो"
 
-#: Currency.cpp:129
+#: Currency.cpp:130
 #, kde-format
-msgid "Ch$"
-msgstr "Ch$"
+msgid "CLF"
+msgstr "CLF"
 
 #: Currency.cpp:130
 #, kde-format
 msgid "Unidades de fomento"
 msgstr "यूनिदादेस दे फोमेंतो"
 
-#: Currency.cpp:130
+#: Currency.cpp:131
 #, kde-format
-msgid "CLF"
-msgstr "CLF"
+msgid "CNY"
+msgstr "CNY"
 
 #: Currency.cpp:131
 #, kde-format
@@ -1279,11 +1672,6 @@ msgstr "चीन"
 #, kde-format
 msgid "Yuan Renminbi"
 msgstr "युआन रेनमिंबी"
-
-#: Currency.cpp:131
-#, kde-format
-msgid "CNY"
-msgstr "CNY"
 
 #: Currency.cpp:132
 #, kde-format
@@ -1297,6 +1685,11 @@ msgstr "कोकोस (कीलिंग) द्वीप"
 
 #: Currency.cpp:134
 #, kde-format
+msgid "C$"
+msgstr "C$"
+
+#: Currency.cpp:134
+#, kde-format
 msgid "Colombia"
 msgstr "कोलंबिया"
 
@@ -1305,20 +1698,15 @@ msgstr "कोलंबिया"
 msgid "Colombian Peso"
 msgstr "कोलंबियन पेसो"
 
-#: Currency.cpp:134
+#: Currency.cpp:135
 #, kde-format
-msgid "C$"
-msgstr "C$"
+msgid "Comoro Franc"
+msgstr "कोमोरो फ्रॉक"
 
 #: Currency.cpp:135
 #, kde-format
 msgid "Comoros"
 msgstr "कोमोरोस"
-
-#: Currency.cpp:135
-#, kde-format
-msgid "Comoro Franc"
-msgstr "कोमोरो फ्रॉक"
 
 #: Currency.cpp:135
 #, kde-format
@@ -1332,6 +1720,11 @@ msgstr "कॉन्गो"
 
 #: Currency.cpp:137
 #, kde-format
+msgid "CDF"
+msgstr "सीडीएफ़"
+
+#: Currency.cpp:137
+#, kde-format
 msgid "Congo, The Democratic Republic Of"
 msgstr "डेमोक्रेटिक रिपब्लिक ऑफ कॉगो"
 
@@ -1339,11 +1732,6 @@ msgstr "डेमोक्रेटिक रिपब्लिक ऑफ कॉ
 #, kde-format
 msgid "Franc Congolais"
 msgstr "फ्रॉक कोंगोलाइस"
-
-#: Currency.cpp:137
-#, kde-format
-msgid "CDF"
-msgstr "सीडीएफ़"
 
 #: Currency.cpp:138
 #, kde-format
@@ -1353,14 +1741,19 @@ msgstr "कुक द्वीप"
 #: Currency.cpp:138 Currency.cpp:261 Currency.cpp:265 Currency.cpp:278
 #: Currency.cpp:323
 #, kde-format
-msgid "New Zealand Dollar"
-msgstr "न्यूझीलँड डॉलर"
+msgid "NZD"
+msgstr "NZD"
 
 #: Currency.cpp:138 Currency.cpp:261 Currency.cpp:265 Currency.cpp:278
 #: Currency.cpp:323
 #, kde-format
-msgid "NZD"
-msgstr "NZD"
+msgid "New Zealand Dollar"
+msgstr "न्यूझीलँड डॉलर"
+
+#: Currency.cpp:139 Currency.cpp:154
+#, kde-format
+msgid "C"
+msgstr "C"
 
 #: Currency.cpp:139
 #, kde-format
@@ -1371,11 +1764,6 @@ msgstr "कोस्टा रिका"
 #, kde-format
 msgid "Costa Rican Colon"
 msgstr "कोस्टा रिकन कोलोन"
-
-#: Currency.cpp:139 Currency.cpp:154
-#, kde-format
-msgid "C"
-msgstr "C"
 
 #: Currency.cpp:140
 #, kde-format
@@ -1399,6 +1787,11 @@ msgstr "kn"
 
 #: Currency.cpp:142
 #, kde-format
+msgid "CUP"
+msgstr "CUP"
+
+#: Currency.cpp:142
+#, kde-format
 msgid "Cuba"
 msgstr "क्यूबा"
 
@@ -1407,25 +1800,15 @@ msgstr "क्यूबा"
 msgid "Cuban Peso"
 msgstr "क्युबन पेसो"
 
-#: Currency.cpp:142
-#, kde-format
-msgid "CUP"
-msgstr "CUP"
-
-#: Currency.cpp:144
-#, kde-format
-msgid "Cyprus Pound"
-msgstr "साइप्रस पाउण्ड"
-
 #: Currency.cpp:144
 #, kde-format
 msgid "CYP"
 msgstr "CYP"
 
-#: Currency.cpp:145
+#: Currency.cpp:144
 #, kde-format
-msgid "Czech Republic"
-msgstr "चेक गणराज्य"
+msgid "Cyprus Pound"
+msgstr "साइप्रस पाउण्ड"
 
 #: Currency.cpp:145
 #, kde-format
@@ -1434,24 +1817,34 @@ msgstr "झेक कोरुना"
 
 #: Currency.cpp:145
 #, kde-format
+msgid "Czech Republic"
+msgstr "चेक गणराज्य"
+
+#: Currency.cpp:145
+#, kde-format
 msgid "Kc"
 msgstr "Kc"
-
-#: Currency.cpp:146
-#, kde-format
-msgid "Denmark"
-msgstr "डेनमार्क"
 
 #: Currency.cpp:146 Currency.cpp:161 Currency.cpp:179
 #, kde-format
 msgid "Danish Krone"
 msgstr "डेनिश क्रोन"
 
+#: Currency.cpp:146
+#, kde-format
+msgid "Denmark"
+msgstr "डेनमार्क"
+
 #: Currency.cpp:146 Currency.cpp:158 Currency.cpp:161 Currency.cpp:268
 #: Currency.cpp:315
 #, kde-format
 msgid "kr"
 msgstr "kr"
+
+#: Currency.cpp:147
+#, kde-format
+msgid "DJF"
+msgstr "DJF"
 
 #: Currency.cpp:147
 #, kde-format
@@ -1462,11 +1855,6 @@ msgstr "डिज्बूयटी"
 #, kde-format
 msgid "Djibouti Franc"
 msgstr "डिज्बूयटी फ्रांक"
-
-#: Currency.cpp:147
-#, kde-format
-msgid "DJF"
-msgstr "DJF"
 
 #: Currency.cpp:148
 #, kde-format
@@ -1480,8 +1868,8 @@ msgstr "RD$"
 
 #: Currency.cpp:149
 #, kde-format
-msgid "Dominican Republic"
-msgstr "डोमिनिकन गणराज्य"
+msgid "DOP"
+msgstr "DOP"
 
 #: Currency.cpp:149
 #, kde-format
@@ -1490,8 +1878,8 @@ msgstr "डोमीनीकन पेसो"
 
 #: Currency.cpp:149
 #, kde-format
-msgid "DOP"
-msgstr "DOP"
+msgid "Dominican Republic"
+msgstr "डोमिनिकन गणराज्य"
 
 #: Currency.cpp:150 Currency.cpp:151
 #, kde-format
@@ -1500,18 +1888,23 @@ msgstr "पूर्व तिमोर"
 
 #: Currency.cpp:150
 #, kde-format
-msgid "Timor Escudo"
-msgstr "तिमोर एस्क्युडो"
+msgid "TPE"
+msgstr "TPE"
 
 #: Currency.cpp:150
 #, kde-format
-msgid "TPE"
-msgstr "TPE"
+msgid "Timor Escudo"
+msgstr "तिमोर एस्क्युडो"
 
 #: Currency.cpp:152
 #, kde-format
 msgid "Ecuador"
 msgstr "इक्वेडॉर"
+
+#: Currency.cpp:153
+#, kde-format
+msgid "EGP"
+msgstr "EGP"
 
 #: Currency.cpp:153
 #, kde-format
@@ -1522,11 +1915,6 @@ msgstr "इजिप्त"
 #, kde-format
 msgid "Egyptian Pound"
 msgstr "इजिप्शियन पाउंड"
-
-#: Currency.cpp:153
-#, kde-format
-msgid "EGP"
-msgstr "EGP"
 
 #: Currency.cpp:154 Currency.cpp:155
 #, kde-format
@@ -1545,6 +1933,11 @@ msgstr "विषुवतरेखीय गिनिया"
 
 #: Currency.cpp:157
 #, kde-format
+msgid "ERN"
+msgstr "ERN"
+
+#: Currency.cpp:157
+#, kde-format
 msgid "Eritrea"
 msgstr "एरिट्रिआ"
 
@@ -1552,11 +1945,6 @@ msgstr "एरिट्रिआ"
 #, kde-format
 msgid "Nakfa"
 msgstr "नाक्फ़ा"
-
-#: Currency.cpp:157
-#, kde-format
-msgid "ERN"
-msgstr "ERN"
 
 #: Currency.cpp:158
 #, kde-format
@@ -1570,6 +1958,11 @@ msgstr "क्रून"
 
 #: Currency.cpp:159
 #, kde-format
+msgid "ETB"
+msgstr "ETB"
+
+#: Currency.cpp:159
+#, kde-format
 msgid "Ethiopia"
 msgstr "ईथोपीआ"
 
@@ -1578,10 +1971,10 @@ msgstr "ईथोपीआ"
 msgid "Ethiopian Birr"
 msgstr "ईथोपीयन बिर"
 
-#: Currency.cpp:159
+#: Currency.cpp:160
 #, kde-format
-msgid "ETB"
-msgstr "ETB"
+msgid "FKP"
+msgstr "FKP"
 
 #: Currency.cpp:160
 #, kde-format
@@ -1593,15 +1986,15 @@ msgstr "फाकलँड द्वीप (मालविनास)"
 msgid "Falkland Islands Pound"
 msgstr "फाकलँड द्वीप पाउंड"
 
-#: Currency.cpp:160
-#, kde-format
-msgid "FKP"
-msgstr "FKP"
-
 #: Currency.cpp:161
 #, kde-format
 msgid "Faeroe Islands"
 msgstr "फेरो द्वीप"
+
+#: Currency.cpp:162
+#, kde-format
+msgid "FJD"
+msgstr "FJD"
 
 #: Currency.cpp:162
 #, kde-format
@@ -1612,11 +2005,6 @@ msgstr "फिजी"
 #, kde-format
 msgid "Fiji Dollar"
 msgstr "फिजी डॉलर"
-
-#: Currency.cpp:162
-#, kde-format
-msgid "FJD"
-msgstr "FJD"
 
 #: Currency.cpp:164
 #, kde-format
@@ -1638,15 +2026,15 @@ msgstr "F"
 msgid "French Guiana"
 msgstr "फ्रेंच गिआना"
 
-#: Currency.cpp:168
-#, kde-format
-msgid "French Polynesia"
-msgstr "फ्रेंच पोलिनेशिया"
-
 #: Currency.cpp:168 Currency.cpp:260 Currency.cpp:344
 #, kde-format
 msgid "CFP Franc"
 msgstr "CFP फ्रांक"
+
+#: Currency.cpp:168
+#, kde-format
+msgid "French Polynesia"
+msgstr "फ्रेंच पोलिनेशिया"
 
 #: Currency.cpp:168 Currency.cpp:260 Currency.cpp:344
 #, kde-format
@@ -1665,11 +2053,6 @@ msgstr "गेबन"
 
 #: Currency.cpp:171
 #, kde-format
-msgid "Gambia"
-msgstr "गाम्बिया"
-
-#: Currency.cpp:171
-#, kde-format
 msgid "Dalasi"
 msgstr "दलासी"
 
@@ -1677,6 +2060,16 @@ msgstr "दलासी"
 #, kde-format
 msgid "GMD"
 msgstr "GMD"
+
+#: Currency.cpp:171
+#, kde-format
+msgid "Gambia"
+msgstr "गाम्बिया"
+
+#: Currency.cpp:172
+#, kde-format
+msgid "GEL"
+msgstr "GEL"
 
 #: Currency.cpp:172
 #, kde-format
@@ -1688,25 +2081,15 @@ msgstr "जार्जिया"
 msgid "Lari"
 msgstr "लारी"
 
-#: Currency.cpp:172
-#, kde-format
-msgid "GEL"
-msgstr "GEL"
-
-#: Currency.cpp:174
-#, kde-format
-msgid "German Mark"
-msgstr "जर्मन मार्क"
-
 #: Currency.cpp:174
 #, kde-format
 msgid "DM"
 msgstr "DM"
 
-#: Currency.cpp:175
+#: Currency.cpp:174
 #, kde-format
-msgid "Ghana"
-msgstr "घाना"
+msgid "German Mark"
+msgstr "जर्मन मार्क"
 
 #: Currency.cpp:175
 #, kde-format
@@ -1718,6 +2101,16 @@ msgstr "सेडी"
 msgid "GHC"
 msgstr "GHC"
 
+#: Currency.cpp:175
+#, kde-format
+msgid "Ghana"
+msgstr "घाना"
+
+#: Currency.cpp:176
+#, kde-format
+msgid "GIP"
+msgstr "GIP"
+
 #: Currency.cpp:176
 #, kde-format
 msgid "Gibraltar"
@@ -1727,11 +2120,6 @@ msgstr "जिब्राल्टर"
 #, kde-format
 msgid "Gibraltar Pound"
 msgstr "जिब्राल्टर पाउंड"
-
-#: Currency.cpp:176
-#, kde-format
-msgid "GIP"
-msgstr "GIP"
 
 #: Currency.cpp:178
 #, kde-format
@@ -1745,13 +2133,13 @@ msgstr "GRD"
 
 #: Currency.cpp:179
 #, kde-format
-msgid "Greenland"
-msgstr "ग्रीनलेन्ड"
+msgid "DKK"
+msgstr "DKK"
 
 #: Currency.cpp:179
 #, kde-format
-msgid "DKK"
-msgstr "DKK"
+msgid "Greenland"
+msgstr "ग्रीनलेन्ड"
 
 #: Currency.cpp:180
 #, kde-format
@@ -1775,13 +2163,18 @@ msgstr "गुआटेमाला"
 
 #: Currency.cpp:183
 #, kde-format
-msgid "Quetzal"
-msgstr "क्वेत्जाल"
+msgid "Q"
+msgstr "Q"
 
 #: Currency.cpp:183
 #, kde-format
-msgid "Q"
-msgstr "Q"
+msgid "Quetzal"
+msgstr "क्वेत्जाल"
+
+#: Currency.cpp:184
+#, kde-format
+msgid "GNF"
+msgstr "GNF"
 
 #: Currency.cpp:184
 #, kde-format
@@ -1793,10 +2186,10 @@ msgstr "गिनिया"
 msgid "Guinea Franc"
 msgstr "गुयाना फ्रॉक"
 
-#: Currency.cpp:184
+#: Currency.cpp:185
 #, kde-format
-msgid "GNF"
-msgstr "GNF"
+msgid "GWP"
+msgstr "GWP"
 
 #: Currency.cpp:185 Currency.cpp:186
 #, kde-format
@@ -1808,10 +2201,10 @@ msgstr "गिनिया-बिसाऊ"
 msgid "Guinea-Bissau Peso"
 msgstr "गिनिया-बिसाऊ पेसो"
 
-#: Currency.cpp:185
+#: Currency.cpp:187
 #, kde-format
-msgid "GWP"
-msgstr "GWP"
+msgid "GYD"
+msgstr "GYD"
 
 #: Currency.cpp:187
 #, kde-format
@@ -1823,16 +2216,6 @@ msgstr "गुयाना"
 msgid "Guyana Dollar"
 msgstr "गुयाना डॉलर"
 
-#: Currency.cpp:187
-#, kde-format
-msgid "GYD"
-msgstr "GYD"
-
-#: Currency.cpp:188 Currency.cpp:189
-#, kde-format
-msgid "Haiti"
-msgstr "हैती"
-
 #: Currency.cpp:188
 #, kde-format
 msgid "Gourde"
@@ -1842,6 +2225,11 @@ msgstr "गोर्दे"
 #, kde-format
 msgid "HTG"
 msgstr "HTG"
+
+#: Currency.cpp:188 Currency.cpp:189
+#, kde-format
+msgid "Haiti"
+msgstr "हैती"
 
 #: Currency.cpp:190
 #, kde-format
@@ -1860,13 +2248,18 @@ msgstr "होंडुरास"
 
 #: Currency.cpp:192
 #, kde-format
-msgid "Lempira"
-msgstr "लेम्पिरा"
+msgid "L"
+msgstr "L"
 
 #: Currency.cpp:192
 #, kde-format
-msgid "L"
-msgstr "L"
+msgid "Lempira"
+msgstr "लेम्पिरा"
+
+#: Currency.cpp:193
+#, kde-format
+msgid "HKD"
+msgstr "HKD"
 
 #: Currency.cpp:193
 #, kde-format
@@ -1878,16 +2271,6 @@ msgstr "हाँगकाँग"
 msgid "Hong Kong Dollar"
 msgstr "हांगकांग डॉलर"
 
-#: Currency.cpp:193
-#, kde-format
-msgid "HKD"
-msgstr "HKD"
-
-#: Currency.cpp:194
-#, kde-format
-msgid "Hungary"
-msgstr "हंगेरी"
-
 #: Currency.cpp:194
 #, kde-format
 msgid "Forint"
@@ -1897,6 +2280,11 @@ msgstr "फोरिंट"
 #, kde-format
 msgid "Ft"
 msgstr "Ft"
+
+#: Currency.cpp:194
+#, kde-format
+msgid "Hungary"
+msgstr "हंगेरी"
 
 #: Currency.cpp:195
 #, kde-format
@@ -1925,13 +2313,18 @@ msgstr "इंडोनेशिया"
 
 #: Currency.cpp:197
 #, kde-format
-msgid "Rupiah"
-msgstr "रुपया"
+msgid "Rp"
+msgstr "Rp"
 
 #: Currency.cpp:197
 #, kde-format
-msgid "Rp"
-msgstr "Rp"
+msgid "Rupiah"
+msgstr "रुपया"
+
+#: Currency.cpp:198
+#, kde-format
+msgid "IRR"
+msgstr "IRR"
 
 #: Currency.cpp:198
 #, kde-format
@@ -1943,10 +2336,10 @@ msgstr "ईरान, इस्लामी गणतंत्र"
 msgid "Iranian Rial"
 msgstr "इराणीयन रिआल"
 
-#: Currency.cpp:198
+#: Currency.cpp:199
 #, kde-format
-msgid "IRR"
-msgstr "IRR"
+msgid "IQD"
+msgstr "IQD"
 
 #: Currency.cpp:199
 #, kde-format
@@ -1958,30 +2351,30 @@ msgstr "इराक"
 msgid "Iraqi Dinar"
 msgstr "इराकी दिनार"
 
-#: Currency.cpp:199
+#: Currency.cpp:201
 #, kde-format
-msgid "IQD"
-msgstr "IQD"
+msgid "IR----"
+msgstr "IR--------"
 
 #: Currency.cpp:201
 #, kde-format
 msgid "Punt"
 msgstr "पंट"
 
-#: Currency.cpp:201
+#: Currency.cpp:202
 #, kde-format
-msgid "IR----"
-msgstr "IR--------"
+msgid "IEX"
+msgstr "IEX"
 
 #: Currency.cpp:202
 #, kde-format
 msgid "Pence"
 msgstr "पेंस"
 
-#: Currency.cpp:202
+#: Currency.cpp:203
 #, kde-format
-msgid "IEX"
-msgstr "IEX"
+msgid "ILS"
+msgstr "ILS"
 
 #: Currency.cpp:203
 #, kde-format
@@ -1993,20 +2386,20 @@ msgstr "इझ्राईल"
 msgid "New Israeli Sheqel"
 msgstr "इस्राएली न्यु शेक्वेल"
 
-#: Currency.cpp:203
+#: Currency.cpp:205
 #, kde-format
-msgid "ILS"
-msgstr "ILS"
+msgid "L."
+msgstr "L."
 
 #: Currency.cpp:205
 #, kde-format
 msgid "Lira"
 msgstr "लिरा"
 
-#: Currency.cpp:205
+#: Currency.cpp:206
 #, kde-format
-msgid "L."
-msgstr "L."
+msgid "J$"
+msgstr "J$"
 
 #: Currency.cpp:206
 #, kde-format
@@ -2018,15 +2411,15 @@ msgstr "जमैका"
 msgid "Jamaican Dollar"
 msgstr "जमैकन डॉलर"
 
-#: Currency.cpp:206
-#, kde-format
-msgid "J$"
-msgstr "J$"
-
 #: Currency.cpp:207
 #, kde-format
 msgid "JPY"
 msgstr "JPY"
+
+#: Currency.cpp:208
+#, kde-format
+msgid "JOD"
+msgstr "JOD"
 
 #: Currency.cpp:208
 #, kde-format
@@ -2038,10 +2431,10 @@ msgstr "जॉर्डन"
 msgid "Jordanian Dinar"
 msgstr "जोर्डनियन दिनार"
 
-#: Currency.cpp:208
+#: Currency.cpp:209
 #, kde-format
-msgid "JOD"
-msgstr "JOD"
+msgid "KZT"
+msgstr "KZT"
 
 #: Currency.cpp:209
 #, kde-format
@@ -2053,10 +2446,10 @@ msgstr "कझाखस्तान"
 msgid "Tenge"
 msgstr "टेंग"
 
-#: Currency.cpp:209
+#: Currency.cpp:210
 #, kde-format
-msgid "KZT"
-msgstr "KZT"
+msgid "KES"
+msgstr "KES"
 
 #: Currency.cpp:210
 #, kde-format
@@ -2068,15 +2461,15 @@ msgstr "केन्या"
 msgid "Kenyan Shilling"
 msgstr "केनयन शिलिंग"
 
-#: Currency.cpp:210
-#, kde-format
-msgid "KES"
-msgstr "KES"
-
 #: Currency.cpp:211
 #, kde-format
 msgid "Kiribati"
 msgstr "किरीबाटी"
+
+#: Currency.cpp:212
+#, kde-format
+msgid "KPW"
+msgstr "KPW"
 
 #: Currency.cpp:212
 #, kde-format
@@ -2088,10 +2481,10 @@ msgstr "डेमोक्रेटिक पीपल्स रिपब्ल�
 msgid "North Korean Won"
 msgstr "उत्तर कोरियन वोन"
 
-#: Currency.cpp:212
+#: Currency.cpp:213
 #, kde-format
-msgid "KPW"
-msgstr "KPW"
+msgid "KRW"
+msgstr "KRW"
 
 #: Currency.cpp:213
 #, kde-format
@@ -2103,10 +2496,10 @@ msgstr "कोरिया गणराज्य"
 msgid "Won"
 msgstr "वोन"
 
-#: Currency.cpp:213
+#: Currency.cpp:214
 #, kde-format
-msgid "KRW"
-msgstr "KRW"
+msgid "KWD"
+msgstr "KWD"
 
 #: Currency.cpp:214
 #, kde-format
@@ -2118,10 +2511,10 @@ msgstr "कुवैत"
 msgid "Kuwaiti Dinar"
 msgstr "कुवैती दिनार"
 
-#: Currency.cpp:214
+#: Currency.cpp:215
 #, kde-format
-msgid "KWD"
-msgstr "KWD"
+msgid "KGS"
+msgstr "KGS"
 
 #: Currency.cpp:215
 #, kde-format
@@ -2133,16 +2526,6 @@ msgstr "कीर्गीझस्तान"
 msgid "Som"
 msgstr "सोम"
 
-#: Currency.cpp:215
-#, kde-format
-msgid "KGS"
-msgstr "KGS"
-
-#: Currency.cpp:216
-#, kde-format
-msgid "Lao People's Democratic Republic"
-msgstr "लाओ पीपल्स डेमोक्रेटिक रिपब्लिक"
-
 #: Currency.cpp:216
 #, kde-format
 msgid "Kip"
@@ -2152,6 +2535,11 @@ msgstr "किप"
 #, kde-format
 msgid "LAK"
 msgstr "LAK"
+
+#: Currency.cpp:216
+#, kde-format
+msgid "Lao People's Democratic Republic"
+msgstr "लाओ पीपल्स डेमोक्रेटिक रिपब्लिक"
 
 #: Currency.cpp:218
 #, kde-format
@@ -2165,8 +2553,8 @@ msgstr "Ls"
 
 #: Currency.cpp:219
 #, kde-format
-msgid "Lebanon"
-msgstr "लेबनॉन"
+msgid "LBP"
+msgstr "LBP"
 
 #: Currency.cpp:219
 #, kde-format
@@ -2175,8 +2563,8 @@ msgstr "लेबनीझ पाउंड"
 
 #: Currency.cpp:219
 #, kde-format
-msgid "LBP"
-msgstr "LBP"
+msgid "Lebanon"
+msgstr "लेबनॉन"
 
 #: Currency.cpp:220 Currency.cpp:221
 #, kde-format
@@ -2195,13 +2583,18 @@ msgstr "ZAR"
 
 #: Currency.cpp:221
 #, kde-format
-msgid "Loti"
-msgstr "लोटी"
+msgid "LSL"
+msgstr "LSL"
 
 #: Currency.cpp:221
 #, kde-format
-msgid "LSL"
-msgstr "LSL"
+msgid "Loti"
+msgstr "लोटी"
+
+#: Currency.cpp:222
+#, kde-format
+msgid "LRD"
+msgstr "LRD"
 
 #: Currency.cpp:222
 #, kde-format
@@ -2213,10 +2606,10 @@ msgstr "लाइबेरिया"
 msgid "Liberian Dollar"
 msgstr "लाइबेरियन डॉलर"
 
-#: Currency.cpp:222
+#: Currency.cpp:223
 #, kde-format
-msgid "LRD"
-msgstr "LRD"
+msgid "LYD"
+msgstr "LYD"
 
 #: Currency.cpp:223
 #, kde-format
@@ -2229,10 +2622,10 @@ msgstr "लिबियन अरब जामाहिरिया"
 msgid "Libyan Dinar"
 msgstr "लिबियाई दीनार"
 
-#: Currency.cpp:223
+#: Currency.cpp:224
 #, kde-format
-msgid "LYD"
-msgstr "LYD"
+msgid "CHF"
+msgstr "CHF"
 
 #: Currency.cpp:224
 #, kde-format
@@ -2243,11 +2636,6 @@ msgstr "लिचेनस्टाइन"
 #, kde-format
 msgid "Swiss Franc"
 msgstr "स्विस फ्रांक"
-
-#: Currency.cpp:224
-#, kde-format
-msgid "CHF"
-msgstr "CHF"
 
 #: Currency.cpp:226
 #, kde-format
@@ -2261,6 +2649,11 @@ msgstr "Lt"
 
 #: Currency.cpp:229
 #, kde-format
+msgid "MOP"
+msgstr "MOP"
+
+#: Currency.cpp:229
+#, kde-format
 msgid "Macao"
 msgstr "मकाओ"
 
@@ -2268,16 +2661,6 @@ msgstr "मकाओ"
 #, kde-format
 msgid "Pataca"
 msgstr "पटाका"
-
-#: Currency.cpp:229
-#, kde-format
-msgid "MOP"
-msgstr "MOP"
-
-#: Currency.cpp:230
-#, kde-format
-msgid "Macedonia, The Former Yugoslav Republic Of"
-msgstr "मकदूनिया, द फार्मर यूगोस्लाव रिपब्लिक ऑफ"
 
 #: Currency.cpp:230
 #, kde-format
@@ -2289,6 +2672,16 @@ msgstr "डेनार"
 msgid "MKD"
 msgstr "MKD"
 
+#: Currency.cpp:230
+#, kde-format
+msgid "Macedonia, The Former Yugoslav Republic Of"
+msgstr "मकदूनिया, द फार्मर यूगोस्लाव रिपब्लिक ऑफ"
+
+#: Currency.cpp:231
+#, kde-format
+msgid "MGF"
+msgstr "MGF"
+
 #: Currency.cpp:231
 #, kde-format
 msgid "Madagascar"
@@ -2298,16 +2691,6 @@ msgstr "माडागास्कार"
 #, kde-format
 msgid "Malagasy Franc"
 msgstr "मालागासी फ्रांक"
-
-#: Currency.cpp:231
-#, kde-format
-msgid "MGF"
-msgstr "MGF"
-
-#: Currency.cpp:232
-#, kde-format
-msgid "Malawi"
-msgstr "मालावी"
 
 #: Currency.cpp:232 Currency.cpp:348
 #, kde-format
@@ -2319,6 +2702,16 @@ msgstr "क्वाचा"
 msgid "MWK"
 msgstr "MWK"
 
+#: Currency.cpp:232
+#, kde-format
+msgid "Malawi"
+msgstr "मालावी"
+
+#: Currency.cpp:233
+#, kde-format
+msgid "MYR"
+msgstr "MYR"
+
 #: Currency.cpp:233
 #, kde-format
 msgid "Malaysia"
@@ -2329,10 +2722,10 @@ msgstr "मलेशिया"
 msgid "Malaysian Ringgit"
 msgstr "मलेशियन रिंग्गिट"
 
-#: Currency.cpp:233
+#: Currency.cpp:234
 #, kde-format
-msgid "MYR"
-msgstr "MYR"
+msgid "MVR"
+msgstr "MVR"
 
 #: Currency.cpp:234
 #, kde-format
@@ -2343,11 +2736,6 @@ msgstr "मालदिव"
 #, kde-format
 msgid "Rufiyaa"
 msgstr "रुफ़िया"
-
-#: Currency.cpp:234
-#, kde-format
-msgid "MVR"
-msgstr "MVR"
 
 #: Currency.cpp:235
 #, kde-format
@@ -2361,13 +2749,13 @@ msgstr "युरो"
 
 #: Currency.cpp:237
 #, kde-format
-msgid "Maltese Lira"
-msgstr "माल्टीज लिरा"
+msgid "MTL"
+msgstr "MTL"
 
 #: Currency.cpp:237
 #, kde-format
-msgid "MTL"
-msgstr "MTL"
+msgid "Maltese Lira"
+msgstr "माल्टीज लिरा"
 
 #: Currency.cpp:238
 #, kde-format
@@ -2381,6 +2769,11 @@ msgstr "मार्टीनीक"
 
 #: Currency.cpp:240
 #, kde-format
+msgid "MRO"
+msgstr "MRO"
+
+#: Currency.cpp:240
+#, kde-format
 msgid "Mauritania"
 msgstr "मौरीटानीआ"
 
@@ -2389,10 +2782,10 @@ msgstr "मौरीटानीआ"
 msgid "Ouguiya"
 msgstr "ओगुइया"
 
-#: Currency.cpp:240
+#: Currency.cpp:241
 #, kde-format
-msgid "MRO"
-msgstr "MRO"
+msgid "MUR"
+msgstr "MUR"
 
 #: Currency.cpp:241
 #, kde-format
@@ -2404,45 +2797,45 @@ msgstr "मोरेशियस"
 msgid "Mauritius Rupee"
 msgstr "मोरेशियस रुपी"
 
-#: Currency.cpp:241
-#, kde-format
-msgid "MUR"
-msgstr "MUR"
-
 #: Currency.cpp:242
 #, kde-format
 msgid "Mayotte"
 msgstr "मेयोट्टे"
-
-#: Currency.cpp:243 Currency.cpp:244
-#, kde-format
-msgid "Mexico"
-msgstr "मेक्झिको"
-
-#: Currency.cpp:243
-#, kde-format
-msgid "Mexican Peso"
-msgstr "मेक्सिकन पेसो"
 
 #: Currency.cpp:243
 #, kde-format
 msgid "MXN"
 msgstr "MXN"
 
-#: Currency.cpp:244
+#: Currency.cpp:243
 #, kde-format
-msgid "Mexican Unidad de Inversion (UDI)"
-msgstr "मेक्सिकन यूनिदाद द इनवर्सन (यूडीआई)"
+msgid "Mexican Peso"
+msgstr "मेक्सिकन पेसो"
+
+#: Currency.cpp:243 Currency.cpp:244
+#, kde-format
+msgid "Mexico"
+msgstr "मेक्झिको"
 
 #: Currency.cpp:244
 #, kde-format
 msgid "MXV"
 msgstr "MXV"
 
+#: Currency.cpp:244
+#, kde-format
+msgid "Mexican Unidad de Inversion (UDI)"
+msgstr "मेक्सिकन यूनिदाद द इनवर्सन (यूडीआई)"
+
 #: Currency.cpp:245
 #, kde-format
 msgid "Micronesia, Federated States Of"
 msgstr "मायक्रोनेसिया, फीडरेटेड स्टेट्स ऑफ"
+
+#: Currency.cpp:246
+#, kde-format
+msgid "MDL"
+msgstr "MDL"
 
 #: Currency.cpp:246
 #, kde-format
@@ -2454,10 +2847,10 @@ msgstr "रिपब्लिक ऑफ मोलदोवा"
 msgid "Moldovan Leu"
 msgstr "माल्डोवन लिउ"
 
-#: Currency.cpp:246
+#: Currency.cpp:248
 #, kde-format
-msgid "MDL"
-msgstr "MDL"
+msgid "MNT"
+msgstr "MNT"
 
 #: Currency.cpp:248
 #, kde-format
@@ -2469,35 +2862,30 @@ msgstr "मोंगोलिया"
 msgid "Tugrik"
 msgstr "टुगरिक"
 
-#: Currency.cpp:248
-#, kde-format
-msgid "MNT"
-msgstr "MNT"
-
 #: Currency.cpp:249
 #, kde-format
 msgid "Montserrat"
 msgstr "मॉन्टसेराट"
-
-#: Currency.cpp:250
-#, kde-format
-msgid "Morocco"
-msgstr "मोरोक्को"
-
-#: Currency.cpp:250 Currency.cpp:345
-#, kde-format
-msgid "Moroccan Dirham"
-msgstr "मोरोक्कन दिरहाम"
 
 #: Currency.cpp:250 Currency.cpp:345
 #, kde-format
 msgid "MAD"
 msgstr "MAD"
 
+#: Currency.cpp:250 Currency.cpp:345
+#, kde-format
+msgid "Moroccan Dirham"
+msgstr "मोरोक्कन दिरहाम"
+
+#: Currency.cpp:250
+#, kde-format
+msgid "Morocco"
+msgstr "मोरोक्को"
+
 #: Currency.cpp:251
 #, kde-format
-msgid "Mozambique"
-msgstr "मोझाम्बीक"
+msgid "MZM"
+msgstr "MZM"
 
 #: Currency.cpp:251
 #, kde-format
@@ -2506,13 +2894,8 @@ msgstr "मेटिकल"
 
 #: Currency.cpp:251
 #, kde-format
-msgid "MZM"
-msgstr "MZM"
-
-#: Currency.cpp:252
-#, kde-format
-msgid "Myanmar"
-msgstr "म्यानमार"
+msgid "Mozambique"
+msgstr "मोझाम्बीक"
 
 #: Currency.cpp:252
 #, kde-format
@@ -2524,6 +2907,11 @@ msgstr "क्यात"
 msgid "MMK"
 msgstr "MMK"
 
+#: Currency.cpp:252
+#, kde-format
+msgid "Myanmar"
+msgstr "म्यानमार"
+
 #: Currency.cpp:253 Currency.cpp:254
 #, kde-format
 msgid "Namibia"
@@ -2531,18 +2919,23 @@ msgstr "नामिबिया"
 
 #: Currency.cpp:254
 #, kde-format
-msgid "Namibia Dollar"
-msgstr "नामीबिया डालर"
+msgid "NAD"
+msgstr "NAD"
 
 #: Currency.cpp:254
 #, kde-format
-msgid "NAD"
-msgstr "NAD"
+msgid "Namibia Dollar"
+msgstr "नामीबिया डालर"
 
 #: Currency.cpp:255
 #, kde-format
 msgid "Nauru"
 msgstr "नौरु"
+
+#: Currency.cpp:256
+#, kde-format
+msgid "NPR"
+msgstr "NPR"
 
 #: Currency.cpp:256
 #, kde-format
@@ -2553,11 +2946,6 @@ msgstr "नेपाळ"
 #, kde-format
 msgid "Nepalese Rupee"
 msgstr "नेपाळी रुपी"
-
-#: Currency.cpp:256
-#, kde-format
-msgid "NPR"
-msgstr "NPR"
 
 #: Currency.cpp:258
 #, kde-format
@@ -2571,8 +2959,8 @@ msgstr "fl"
 
 #: Currency.cpp:259
 #, kde-format
-msgid "Netherlands Antilles"
-msgstr "नेधरलेन्डझ एन्टीलेस"
+msgid "ANG"
+msgstr "ANG"
 
 #: Currency.cpp:259
 #, kde-format
@@ -2581,18 +2969,13 @@ msgstr "नेधरलेन्डस एन्टीलीअन गिल्�
 
 #: Currency.cpp:259
 #, kde-format
-msgid "ANG"
-msgstr "ANG"
+msgid "Netherlands Antilles"
+msgstr "नेधरलेन्डझ एन्टीलेस"
 
 #: Currency.cpp:260
 #, kde-format
 msgid "New Caledonia"
 msgstr "न्यु केलेडोनीया"
-
-#: Currency.cpp:262
-#, kde-format
-msgid "Nicaragua"
-msgstr "निकारागुआ"
 
 #: Currency.cpp:262
 #, kde-format
@@ -2604,6 +2987,11 @@ msgstr "कॉर्डोबा ओरो"
 msgid "NIO"
 msgstr "NIO"
 
+#: Currency.cpp:262
+#, kde-format
+msgid "Nicaragua"
+msgstr "निकारागुआ"
+
 #: Currency.cpp:263
 #, kde-format
 msgid "Niger"
@@ -2611,8 +2999,8 @@ msgstr "नाईजर"
 
 #: Currency.cpp:264
 #, kde-format
-msgid "Nigeria"
-msgstr "नाईजेरीया"
+msgid "NGN"
+msgstr "NGN"
 
 #: Currency.cpp:264
 #, kde-format
@@ -2621,8 +3009,8 @@ msgstr "नाइरा"
 
 #: Currency.cpp:264
 #, kde-format
-msgid "NGN"
-msgstr "NGN"
+msgid "Nigeria"
+msgstr "नाईजेरीया"
 
 #: Currency.cpp:265
 #, kde-format
@@ -2646,6 +3034,11 @@ msgstr "नॉर्वे"
 
 #: Currency.cpp:269
 #, kde-format
+msgid "OMR"
+msgstr "OMR"
+
+#: Currency.cpp:269
+#, kde-format
 msgid "Oman"
 msgstr "ओमान"
 
@@ -2654,10 +3047,10 @@ msgstr "ओमान"
 msgid "Rial Omani"
 msgstr "रियाल ओमानी"
 
-#: Currency.cpp:269
+#: Currency.cpp:270
 #, kde-format
-msgid "OMR"
-msgstr "OMR"
+msgid "PKR"
+msgstr "PKR"
 
 #: Currency.cpp:270
 #, kde-format
@@ -2669,20 +3062,10 @@ msgstr "पाकिस्तान"
 msgid "Pakistan Rupee"
 msgstr "पाकिस्तान रुपी"
 
-#: Currency.cpp:270
-#, kde-format
-msgid "PKR"
-msgstr "PKR"
-
 #: Currency.cpp:271
 #, kde-format
 msgid "Palau"
 msgstr "पलाउ"
-
-#: Currency.cpp:272 Currency.cpp:273
-#, kde-format
-msgid "Panama"
-msgstr "पनामा"
 
 #: Currency.cpp:272
 #, kde-format
@@ -2694,10 +3077,10 @@ msgstr "बाल्बोआ"
 msgid "PAB"
 msgstr "PAB"
 
-#: Currency.cpp:274
+#: Currency.cpp:272 Currency.cpp:273
 #, kde-format
-msgid "Papua New Guinea"
-msgstr "पापुआ न्यु गिनिया"
+msgid "Panama"
+msgstr "पनामा"
 
 #: Currency.cpp:274
 #, kde-format
@@ -2709,10 +3092,15 @@ msgstr "किना"
 msgid "PGK"
 msgstr "PGK"
 
+#: Currency.cpp:274
+#, kde-format
+msgid "Papua New Guinea"
+msgstr "पापुआ न्यु गिनिया"
+
 #: Currency.cpp:275
 #, kde-format
-msgid "Paraguay"
-msgstr "पराग्वे"
+msgid "G"
+msgstr "G"
 
 #: Currency.cpp:275
 #, kde-format
@@ -2721,13 +3109,8 @@ msgstr "गौरानी"
 
 #: Currency.cpp:275
 #, kde-format
-msgid "G"
-msgstr "G"
-
-#: Currency.cpp:276
-#, kde-format
-msgid "Peru"
-msgstr "पेरू"
+msgid "Paraguay"
+msgstr "पराग्वे"
 
 #: Currency.cpp:276
 #, kde-format
@@ -2739,10 +3122,15 @@ msgstr "नुएवो सोल"
 msgid "PEN"
 msgstr "PEN"
 
+#: Currency.cpp:276
+#, kde-format
+msgid "Peru"
+msgstr "पेरू"
+
 #: Currency.cpp:277
 #, kde-format
-msgid "Philippines"
-msgstr "फिलिपाइन्स"
+msgid "PHP"
+msgstr "पीएचपी"
 
 #: Currency.cpp:277
 #, kde-format
@@ -2751,8 +3139,8 @@ msgstr "फिलिपाइनी पेसो"
 
 #: Currency.cpp:277
 #, kde-format
-msgid "PHP"
-msgstr "पीएचपी"
+msgid "Philippines"
+msgstr "फिलिपाइन्स"
 
 #: Currency.cpp:278
 #, kde-format
@@ -2776,18 +3164,23 @@ msgstr "zt"
 
 #: Currency.cpp:281
 #, kde-format
-msgid "Escudo"
-msgstr "एस्क्युडो"
+msgid "Esc."
+msgstr "Esc."
 
 #: Currency.cpp:281
 #, kde-format
-msgid "Esc."
-msgstr "Esc."
+msgid "Escudo"
+msgstr "एस्क्युडो"
 
 #: Currency.cpp:282
 #, kde-format
 msgid "Puerto Rico"
 msgstr "प्यूरिटो रिको"
+
+#: Currency.cpp:283
+#, kde-format
+msgid "QAR"
+msgstr "QAR"
 
 #: Currency.cpp:283
 #, kde-format
@@ -2799,15 +3192,10 @@ msgstr "कातार"
 msgid "Qatari Rial"
 msgstr "कतारी रियाल"
 
-#: Currency.cpp:283
-#, kde-format
-msgid "QAR"
-msgstr "QAR"
-
 #: Currency.cpp:284
 #, kde-format
-msgid "Romania"
-msgstr "रोमानिया"
+msgid "LEI"
+msgstr "LEI"
 
 #: Currency.cpp:284
 #, kde-format
@@ -2816,8 +3204,13 @@ msgstr "लियु"
 
 #: Currency.cpp:284
 #, kde-format
-msgid "LEI"
-msgstr "LEI"
+msgid "Romania"
+msgstr "रोमानिया"
+
+#: Currency.cpp:285
+#, kde-format
+msgid "RUR"
+msgstr "RUR"
 
 #: Currency.cpp:285 Currency.cpp:286
 #, kde-format
@@ -2829,15 +3222,15 @@ msgstr "रशियन फेडरेशन"
 msgid "Russian Ruble"
 msgstr "रशियन रुबल"
 
-#: Currency.cpp:285
-#, kde-format
-msgid "RUR"
-msgstr "RUR"
-
 #: Currency.cpp:286
 #, kde-format
 msgid "RUB"
 msgstr "RUB"
+
+#: Currency.cpp:287
+#, kde-format
+msgid "RWF"
+msgstr "RWF"
 
 #: Currency.cpp:287
 #, kde-format
@@ -2849,10 +3242,10 @@ msgstr "रवांडा"
 msgid "Rwanda Franc"
 msgstr "रवांडा फ्रॉक"
 
-#: Currency.cpp:287
+#: Currency.cpp:288
 #, kde-format
-msgid "RWF"
-msgstr "RWF"
+msgid "SHP"
+msgstr "SHP"
 
 #: Currency.cpp:288
 #, kde-format
@@ -2863,11 +3256,6 @@ msgstr "संत हेलेना"
 #, kde-format
 msgid "Saint Helena Pound"
 msgstr "सेंट हेलेना पाउंड"
-
-#: Currency.cpp:288
-#, kde-format
-msgid "SHP"
-msgstr "SHP"
 
 #: Currency.cpp:289
 #, kde-format
@@ -2906,11 +3294,6 @@ msgstr "WST"
 
 #: Currency.cpp:295
 #, kde-format
-msgid "Sao Tome And Principe"
-msgstr "साओ टोम व प्रिंसिपी"
-
-#: Currency.cpp:295
-#, kde-format
 msgid "Dobra"
 msgstr "दोब्रा"
 
@@ -2918,6 +3301,16 @@ msgstr "दोब्रा"
 #, kde-format
 msgid "STD"
 msgstr "STD"
+
+#: Currency.cpp:295
+#, kde-format
+msgid "Sao Tome And Principe"
+msgstr "साओ टोम व प्रिंसिपी"
+
+#: Currency.cpp:296
+#, kde-format
+msgid "SAR"
+msgstr "SAR"
 
 #: Currency.cpp:296
 #, kde-format
@@ -2929,15 +3322,15 @@ msgstr "सौदी अरब"
 msgid "Saudi Riyal"
 msgstr "सौदी रियाल"
 
-#: Currency.cpp:296
-#, kde-format
-msgid "SAR"
-msgstr "SAR"
-
 #: Currency.cpp:297
 #, kde-format
 msgid "Senegal"
 msgstr "सेनेगल"
+
+#: Currency.cpp:298
+#, kde-format
+msgid "SCR"
+msgstr "SCR"
 
 #: Currency.cpp:298
 #, kde-format
@@ -2949,16 +3342,6 @@ msgstr "सेशेल्स"
 msgid "Seychelles Rupee"
 msgstr "शेसेल्स रुपया"
 
-#: Currency.cpp:298
-#, kde-format
-msgid "SCR"
-msgstr "SCR"
-
-#: Currency.cpp:299
-#, kde-format
-msgid "Sierra Leone"
-msgstr "सीयारा लिओन"
-
 #: Currency.cpp:299
 #, kde-format
 msgid "Leone"
@@ -2968,6 +3351,16 @@ msgstr "लिओन"
 #, kde-format
 msgid "SLL"
 msgstr "SLL"
+
+#: Currency.cpp:299
+#, kde-format
+msgid "Sierra Leone"
+msgstr "सीयारा लिओन"
+
+#: Currency.cpp:300
+#, kde-format
+msgid "SGD"
+msgstr "SGD"
 
 #: Currency.cpp:300
 #, kde-format
@@ -2979,30 +3372,30 @@ msgstr "सिंगापुर"
 msgid "Singapore Dollar"
 msgstr "सिंगापुर डॉलर"
 
-#: Currency.cpp:300
+#: Currency.cpp:302
 #, kde-format
-msgid "SGD"
-msgstr "SGD"
+msgid "Sk"
+msgstr "Sk"
 
 #: Currency.cpp:302
 #, kde-format
 msgid "Slovak Koruna"
 msgstr "स्लोवाक कोरुना"
 
-#: Currency.cpp:302
+#: Currency.cpp:304
 #, kde-format
-msgid "Sk"
-msgstr "Sk"
+msgid "SIT"
+msgstr "SIT"
 
 #: Currency.cpp:304
 #, kde-format
 msgid "Tolar"
 msgstr "टोलार"
 
-#: Currency.cpp:304
+#: Currency.cpp:305
 #, kde-format
-msgid "SIT"
-msgstr "SIT"
+msgid "SBD"
+msgstr "SBD"
 
 #: Currency.cpp:305
 #, kde-format
@@ -3014,15 +3407,10 @@ msgstr "सोलोमन द्वीप"
 msgid "Solomon Islands Dollar"
 msgstr "सोलोमन द्वीप डॉलर"
 
-#: Currency.cpp:305
-#, kde-format
-msgid "SBD"
-msgstr "SBD"
-
 #: Currency.cpp:306
 #, kde-format
-msgid "Somalia"
-msgstr "सोमालिया"
+msgid "SOS"
+msgstr "SOS"
 
 #: Currency.cpp:306
 #, kde-format
@@ -3031,18 +3419,18 @@ msgstr "सोमाली शिलिंग"
 
 #: Currency.cpp:306
 #, kde-format
-msgid "SOS"
-msgstr "SOS"
-
-#: Currency.cpp:307
-#, kde-format
-msgid "South Africa"
-msgstr "दक्षिण आफ्रीका"
+msgid "Somalia"
+msgstr "सोमालिया"
 
 #: Currency.cpp:307
 #, kde-format
 msgid "R"
 msgstr "R"
+
+#: Currency.cpp:307
+#, kde-format
+msgid "South Africa"
+msgstr "दक्षिण आफ्रीका"
 
 #: Currency.cpp:309
 #, kde-format
@@ -3056,6 +3444,11 @@ msgstr "Pts"
 
 #: Currency.cpp:310
 #, kde-format
+msgid "LKR"
+msgstr "LKR"
+
+#: Currency.cpp:310
+#, kde-format
 msgid "Sri Lanka"
 msgstr "श्री लंका"
 
@@ -3064,10 +3457,10 @@ msgstr "श्री लंका"
 msgid "Sri Lanka Rupee"
 msgstr "श्री लंका रुपया"
 
-#: Currency.cpp:310
+#: Currency.cpp:311
 #, kde-format
-msgid "LKR"
-msgstr "LKR"
+msgid "SDD"
+msgstr "SDD"
 
 #: Currency.cpp:311
 #, kde-format
@@ -3079,10 +3472,10 @@ msgstr "सुदान"
 msgid "Sudanese Dinar"
 msgstr "सुदानीज दिनार"
 
-#: Currency.cpp:311
+#: Currency.cpp:312
 #, kde-format
-msgid "SDD"
-msgstr "SDD"
+msgid "SRG"
+msgstr "SRG"
 
 #: Currency.cpp:312
 #, kde-format
@@ -3094,20 +3487,10 @@ msgstr "सुरीनाम"
 msgid "Suriname Guilder"
 msgstr "सूरीनाम गिल्डर"
 
-#: Currency.cpp:312
-#, kde-format
-msgid "SRG"
-msgstr "SRG"
-
 #: Currency.cpp:313
 #, kde-format
 msgid "Svalbard And Jan Mayen"
 msgstr "सवलबार्द तथा जान मेयेन"
-
-#: Currency.cpp:314
-#, kde-format
-msgid "Swaziland"
-msgstr "स्वाझीलेन्ड"
 
 #: Currency.cpp:314
 #, kde-format
@@ -3118,6 +3501,11 @@ msgstr "लिलानगेनी"
 #, kde-format
 msgid "SZL"
 msgstr "SZL"
+
+#: Currency.cpp:314
+#, kde-format
+msgid "Swaziland"
+msgstr "स्वाझीलेन्ड"
 
 #: Currency.cpp:315
 #, kde-format
@@ -3131,13 +3519,18 @@ msgstr "स्विडिश क्रोना"
 
 #: Currency.cpp:316
 #, kde-format
-msgid "Switzerland"
-msgstr "स्वित्झरलँड"
+msgid "SFr."
+msgstr "SFr."
 
 #: Currency.cpp:316
 #, kde-format
-msgid "SFr."
-msgstr "SFr."
+msgid "Switzerland"
+msgstr "स्वित्झरलँड"
+
+#: Currency.cpp:317
+#, kde-format
+msgid "SYP"
+msgstr "SYP"
 
 #: Currency.cpp:317
 #, kde-format
@@ -3149,16 +3542,6 @@ msgstr "सीरियन अरब गणराज्य"
 msgid "Syrian Pound"
 msgstr "सिरियन पाउंड"
 
-#: Currency.cpp:317
-#, kde-format
-msgid "SYP"
-msgstr "SYP"
-
-#: Currency.cpp:318
-#, kde-format
-msgid "Taiwan, Province Of China"
-msgstr "ताईवान, चीन चा प्रांत"
-
 #: Currency.cpp:318
 #, kde-format
 msgid "New Taiwan Dollar"
@@ -3169,10 +3552,10 @@ msgstr "न्यु तैवान डॉलर"
 msgid "TWD"
 msgstr "TWD"
 
-#: Currency.cpp:319
+#: Currency.cpp:318
 #, kde-format
-msgid "Tajikistan"
-msgstr "ताजीकिस्तान"
+msgid "Taiwan, Province Of China"
+msgstr "ताईवान, चीन चा प्रांत"
 
 #: Currency.cpp:319
 #, kde-format
@@ -3184,6 +3567,16 @@ msgstr "सोमोनी"
 msgid "TJS"
 msgstr "TJS"
 
+#: Currency.cpp:319
+#, kde-format
+msgid "Tajikistan"
+msgstr "ताजीकिस्तान"
+
+#: Currency.cpp:320
+#, kde-format
+msgid "TZS"
+msgstr "TZS"
+
 #: Currency.cpp:320
 #, kde-format
 msgid "Tanzania, United Republic Of"
@@ -3194,16 +3587,6 @@ msgstr "तंजानिया यूनाइटेड रिपब्लि�
 msgid "Tanzanian Shilling"
 msgstr "टांझानियन शिलिंग"
 
-#: Currency.cpp:320
-#, kde-format
-msgid "TZS"
-msgstr "TZS"
-
-#: Currency.cpp:321
-#, kde-format
-msgid "Thailand"
-msgstr "थाइलँड"
-
 #: Currency.cpp:321
 #, kde-format
 msgid "Baht"
@@ -3213,6 +3596,11 @@ msgstr "बाथ"
 #, kde-format
 msgid "THB"
 msgstr "THB"
+
+#: Currency.cpp:321
+#, kde-format
+msgid "Thailand"
+msgstr "थाइलँड"
 
 #: Currency.cpp:322
 #, kde-format
@@ -3226,11 +3614,6 @@ msgstr "टोकेलाउ"
 
 #: Currency.cpp:324
 #, kde-format
-msgid "Tonga"
-msgstr "टोन्गा"
-
-#: Currency.cpp:324
-#, kde-format
 msgid "Pa'anga"
 msgstr "पांगा"
 
@@ -3238,6 +3621,16 @@ msgstr "पांगा"
 #, kde-format
 msgid "TOP"
 msgstr "TOP"
+
+#: Currency.cpp:324
+#, kde-format
+msgid "Tonga"
+msgstr "टोन्गा"
+
+#: Currency.cpp:325
+#, kde-format
+msgid "TT$"
+msgstr "TT$"
 
 #: Currency.cpp:325
 #, kde-format
@@ -3249,10 +3642,10 @@ msgstr "त्रिनिदाद व टोबेगो"
 msgid "Trinidad and Tobago Dollar"
 msgstr "त्रिनिदाद व टोबेगो डॉलर"
 
-#: Currency.cpp:325
+#: Currency.cpp:326
 #, kde-format
-msgid "TT$"
-msgstr "TT$"
+msgid "TND"
+msgstr "TND"
 
 #: Currency.cpp:326
 #, kde-format
@@ -3264,10 +3657,10 @@ msgstr "ट्युनीसीया"
 msgid "Tunisian Dinar"
 msgstr "ट्युनीसीयन दिनार"
 
-#: Currency.cpp:326
+#: Currency.cpp:327
 #, kde-format
-msgid "TND"
-msgstr "TND"
+msgid "TL"
+msgstr "TL"
 
 #: Currency.cpp:327
 #, kde-format
@@ -3279,16 +3672,6 @@ msgstr "तुर्की"
 msgid "Turkish Lira"
 msgstr "तुर्किश लिरा"
 
-#: Currency.cpp:327
-#, kde-format
-msgid "TL"
-msgstr "TL"
-
-#: Currency.cpp:328
-#, kde-format
-msgid "Turkmenistan"
-msgstr "तुर्कमेनीस्तान"
-
 #: Currency.cpp:328
 #, kde-format
 msgid "Manat"
@@ -3298,6 +3681,11 @@ msgstr "मनात"
 #, kde-format
 msgid "TMM"
 msgstr "TMM"
+
+#: Currency.cpp:328
+#, kde-format
+msgid "Turkmenistan"
+msgstr "तुर्कमेनीस्तान"
 
 #: Currency.cpp:329
 #, kde-format
@@ -3311,6 +3699,11 @@ msgstr "तुवालु"
 
 #: Currency.cpp:331
 #, kde-format
+msgid "UGX"
+msgstr "UGX"
+
+#: Currency.cpp:331
+#, kde-format
 msgid "Uganda"
 msgstr "युगान्डा"
 
@@ -3318,16 +3711,6 @@ msgstr "युगान्डा"
 #, kde-format
 msgid "Uganda Shilling"
 msgstr "युगांडा शिलिंग"
-
-#: Currency.cpp:331
-#, kde-format
-msgid "UGX"
-msgstr "UGX"
-
-#: Currency.cpp:332
-#, kde-format
-msgid "Ukraine"
-msgstr "युक्रेन"
 
 #: Currency.cpp:332
 #, kde-format
@@ -3339,10 +3722,15 @@ msgstr "हरयवनिया"
 msgid "UAH"
 msgstr "UAH"
 
+#: Currency.cpp:332
+#, kde-format
+msgid "Ukraine"
+msgstr "युक्रेन"
+
 #: Currency.cpp:333
 #, kde-format
-msgid "United Arab Emirates"
-msgstr "संयुक्त अरब अमीरात"
+msgid "AED"
+msgstr "AED"
 
 #: Currency.cpp:333
 #, kde-format
@@ -3351,18 +3739,18 @@ msgstr "अरबी दीनार"
 
 #: Currency.cpp:333
 #, kde-format
-msgid "AED"
-msgstr "AED"
-
-#: Currency.cpp:334
-#, kde-format
-msgid "Pound Sterling"
-msgstr "पाउण्ड स्टर्लिंग"
+msgid "United Arab Emirates"
+msgstr "संयुक्त अरब अमीरात"
 
 #: Currency.cpp:334
 #, kde-format
 msgid "GBP"
 msgstr "GBP"
+
+#: Currency.cpp:334
+#, kde-format
+msgid "Pound Sterling"
+msgstr "पाउण्ड स्टर्लिंग"
 
 #: Currency.cpp:336
 #, kde-format
@@ -3386,8 +3774,8 @@ msgstr "USS"
 
 #: Currency.cpp:338
 #, kde-format
-msgid "Uruguay"
-msgstr "उरुग्वे"
+msgid "NU$"
+msgstr "NU$"
 
 #: Currency.cpp:338
 #, kde-format
@@ -3396,8 +3784,13 @@ msgstr "पेसो उरूग्वे"
 
 #: Currency.cpp:338
 #, kde-format
-msgid "NU$"
-msgstr "NU$"
+msgid "Uruguay"
+msgstr "उरुग्वे"
+
+#: Currency.cpp:339
+#, kde-format
+msgid "UZS"
+msgstr "UZS"
 
 #: Currency.cpp:339
 #, kde-format
@@ -3409,10 +3802,10 @@ msgstr "उझबेकिस्तान"
 msgid "Uzbekistan Sum"
 msgstr "उज्बेकिस्तान सम"
 
-#: Currency.cpp:339
+#: Currency.cpp:340
 #, kde-format
-msgid "UZS"
-msgstr "UZS"
+msgid "VUV"
+msgstr "VUV"
 
 #: Currency.cpp:340
 #, kde-format
@@ -3424,25 +3817,15 @@ msgstr "वानुआटु"
 msgid "Vatu"
 msgstr "वातु"
 
-#: Currency.cpp:340
-#, kde-format
-msgid "VUV"
-msgstr "VUV"
-
-#: Currency.cpp:341
-#, kde-format
-msgid "Venezuela"
-msgstr "वेनेझुएला"
-
 #: Currency.cpp:341
 #, kde-format
 msgid "Bolivar"
 msgstr "बोलिवर"
 
-#: Currency.cpp:342
+#: Currency.cpp:341
 #, kde-format
-msgid "Viet Nam"
-msgstr "वियेट नाम"
+msgid "Venezuela"
+msgstr "वेनेझुएला"
 
 #: Currency.cpp:342
 #, kde-format
@@ -3453,6 +3836,11 @@ msgstr "डांग"
 #, kde-format
 msgid "VND"
 msgstr "VND"
+
+#: Currency.cpp:342
+#, kde-format
+msgid "Viet Nam"
+msgstr "वियेट नाम"
 
 #: Currency.cpp:343
 #, kde-format
@@ -3471,6 +3859,11 @@ msgstr "वेस्टर्न सहारा"
 
 #: Currency.cpp:346
 #, kde-format
+msgid "YER"
+msgstr "YER"
+
+#: Currency.cpp:346
+#, kde-format
 msgid "Yemen"
 msgstr "यमन"
 
@@ -3479,10 +3872,10 @@ msgstr "यमन"
 msgid "Yemeni Rial"
 msgstr "यमनी रिआल"
 
-#: Currency.cpp:346
+#: Currency.cpp:347
 #, kde-format
-msgid "YER"
-msgstr "YER"
+msgid "YUM"
+msgstr "YUM"
 
 #: Currency.cpp:347
 #, kde-format
@@ -3494,20 +3887,20 @@ msgstr "यूगोस्लाविया"
 msgid "Yugoslavian Dinar"
 msgstr "युगोस्लावियाई दीनार"
 
-#: Currency.cpp:347
+#: Currency.cpp:348
 #, kde-format
-msgid "YUM"
-msgstr "YUM"
+msgid "ZMK"
+msgstr "ZMK"
 
 #: Currency.cpp:348
 #, kde-format
 msgid "Zambia"
 msgstr "झाम्बिया"
 
-#: Currency.cpp:348
+#: Currency.cpp:349
 #, kde-format
-msgid "ZMK"
-msgstr "ZMK"
+msgid "ZWD"
+msgstr "ZWD"
 
 #: Currency.cpp:349
 #, kde-format
@@ -3518,11 +3911,6 @@ msgstr "झिम्बाब्वे"
 #, kde-format
 msgid "Zimbabwe Dollar"
 msgstr "जिम्बाब्वे डालर"
-
-#: Currency.cpp:349
-#, kde-format
-msgid "ZWD"
-msgstr "ZWD"
 
 #: database/FilterPopup.cpp:69 dialogs/FormulaDialog.cpp:102
 #: dialogs/FormulaDialog.cpp:208 dialogs/FormulaDialog.cpp:740
@@ -3564,6 +3952,13 @@ msgstr ""
 msgid "Replace Named Area"
 msgstr ""
 
+#: dialogs/AddNamedAreaDialog.cpp:97 dialogs/NamedAreaDialog.cpp:312
+#, fuzzy
+#| msgid "Replacement"
+msgctxt "(qtundo-format)"
+msgid "Replace Named Area"
+msgstr "बदलण्याचे"
+
 #: dialogs/AngleDialog.cpp:48
 #, kde-format
 msgid "Change Angle"
@@ -3573,6 +3968,14 @@ msgstr ""
 #, kde-format
 msgid "Angle:"
 msgstr "कोन :"
+
+#: dialogs/AngleDialog.cpp:82
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Style"
+msgctxt "(qtundo-format)"
+msgid "Change Angle"
+msgstr "शैली बदला"
 
 #: dialogs/AutoFormatDialog.cpp:80
 #, kde-format
@@ -3834,6 +4237,11 @@ msgid ""
 "have different size"
 msgstr ""
 
+#: dialogs/ConsolidateDialog.cpp:208
+msgctxt "(qtundo-format)"
+msgid "Consolidate"
+msgstr ""
+
 #: dialogs/ConsolidateDialog.cpp:220 dialogs/ConsolidateDialog.cpp:274
 #: dialogs/ConsolidateDialog.cpp:329 dialogs/ConsolidateDialog.cpp:400
 #, kde-format
@@ -3914,6 +4322,27 @@ msgstr ""
 #, kde-format
 msgid "Cannot open input file."
 msgstr ""
+
+#: dialogs/CSVDialog.cpp:177
+#, fuzzy
+#| msgid "From &Clipboard..."
+msgctxt "(qtundo-format)"
+msgid "Inserting From Clipboard"
+msgstr "क्लिपबोर्ड पासून (&C)..."
+
+#: dialogs/CSVDialog.cpp:179
+#, fuzzy
+#| msgid "Text File"
+msgctxt "(qtundo-format)"
+msgid "Inserting Text File"
+msgstr "पाठ्य फाईल"
+
+#: dialogs/CSVDialog.cpp:181
+#, fuzzy
+#| msgid "Show Columns..."
+msgctxt "(qtundo-format)"
+msgid "Text to Columns"
+msgstr "स्थंभ दर्शवा..."
 
 #: dialogs/DatabaseDialog.cpp:73
 #, kde-format
@@ -4132,6 +4561,13 @@ msgstr ""
 #, kde-format
 msgid "You did not get any results with this query."
 msgstr ""
+
+#: dialogs/DatabaseDialog.cpp:555
+#, fuzzy
+#| msgid "Database"
+msgctxt "(qtundo-format)"
+msgid "Insert Data From Database"
+msgstr "डेटाबेस"
 
 #: dialogs/DatabaseDialog.cpp:612
 #, kde-format
@@ -4381,15 +4817,15 @@ msgid "String comparison:"
 msgstr ""
 
 #: dialogs/DocumentSettingsDialog.cpp:137
-#, kde-format
-msgid "Wildcards"
-msgstr ""
-
-#: dialogs/DocumentSettingsDialog.cpp:137
 #, fuzzy, kde-format
 #| msgid "Regular expression"
 msgid "Regular Expressions"
 msgstr "नियमित अभिव्यक्ति"
+
+#: dialogs/DocumentSettingsDialog.cpp:137
+#, kde-format
+msgid "Wildcards"
+msgstr ""
 
 #: dialogs/DocumentSettingsDialog.cpp:143
 #, kde-format
@@ -4886,6 +5322,14 @@ msgstr "पार्श्वभूमी (&G)"
 #, kde-format
 msgid "&Cell Protection"
 msgstr ""
+
+#: dialogs/LayoutDialog.cpp:833
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Font"
+msgctxt "(qtundo-format)"
+msgid "Change Format"
+msgstr "फॉन्ट बदला"
 
 #: dialogs/LayoutDialog.cpp:892
 #, kde-format
@@ -18030,33 +18474,33 @@ msgstr ""
 
 #: part/AboutData.h:53
 #, kde-format
-msgid "Torben Weis"
-msgstr "टॉरबेन वेइस"
-
-#: part/AboutData.h:53
-#, kde-format
 msgid "Original Author"
 msgstr "मूळ लेखक"
 
-#: part/AboutData.h:54
+#: part/AboutData.h:53
 #, kde-format
-msgid "Marijn Kruisselbrink"
-msgstr "मार्जिन क्रुस्सेलब्रिन्क"
+msgid "Torben Weis"
+msgstr "टॉरबेन वेइस"
 
 #: part/AboutData.h:54
 #, kde-format
 msgid "Maintainer"
 msgstr "पालक"
 
-#: part/AboutData.h:55
+#: part/AboutData.h:54
 #, kde-format
-msgid "Sebastian Sauer"
-msgstr "सेबेस्तियन सॉअर"
+msgid "Marijn Kruisselbrink"
+msgstr "मार्जिन क्रुस्सेलब्रिन्क"
 
 #: part/AboutData.h:55
 #, kde-format
 msgid "ODS and Excel, functions, scripting"
 msgstr ""
+
+#: part/AboutData.h:55
+#, kde-format
+msgid "Sebastian Sauer"
+msgstr "सेबेस्तियन सॉअर"
 
 #: part/AboutData.h:56
 #, kde-format
@@ -18172,12 +18616,12 @@ msgstr ""
 
 #: part/AboutData.h:95
 #, kde-format
-msgid "Sascha Pfau"
+msgid "Developer (functions)"
 msgstr ""
 
 #: part/AboutData.h:95
 #, kde-format
-msgid "Developer (functions)"
+msgid "Sascha Pfau"
 msgstr ""
 
 #: part/AboutData.h:96
@@ -18222,6 +18666,20 @@ msgstr ""
 #, kde-format
 msgid "Cell formatting"
 msgstr ""
+
+#: part/commands/DefinePrintRangeCommand.cpp:38
+#, fuzzy
+#| msgid "&Print Range"
+msgctxt "(qtundo-format)"
+msgid "Define Print Range"
+msgstr "छपाई सीमा (&P)"
+
+#: part/commands/PageLayoutCommand.cpp:35 part/dialogs/PageLayoutDialog.cpp:226
+#, fuzzy
+#| msgid "Page Layout..."
+msgctxt "(qtundo-format)"
+msgid "Set Page Layout"
+msgstr "पानाची रचना..."
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, FileOptionsWidget)
 #: part/dialogs/FileOptionsWidget.ui:13
@@ -19354,6 +19812,13 @@ msgstr ""
 msgid "Unprotect Sheet"
 msgstr ""
 
+#: part/View.cpp:1729
+#, fuzzy
+#| msgid "&Print Range"
+msgctxt "(qtundo-format)"
+msgid "Reset Print Range"
+msgstr "छपाई सीमा (&P)"
+
 #: part/View.cpp:1738
 #, kde-format
 msgid "You cannot delete the only sheet."
@@ -19371,24 +19836,24 @@ msgstr ""
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
 
-#: part/View.cpp:1766
-#, kde-format
-msgid "Rename Sheet"
-msgstr "शीटचे नाव बदला"
-
 #: part/View.cpp:1766 ui/CellToolBase.cpp:1675
 #, kde-format
 msgid "Enter name:"
 msgstr "नाव दाखल करा :"
 
-#: part/View.cpp:1771
+#: part/View.cpp:1766
 #, kde-format
-msgid "Sheet name cannot be empty."
-msgstr ""
+msgid "Rename Sheet"
+msgstr "शीटचे नाव बदला"
 
 #: part/View.cpp:1771 part/View.cpp:1777
 #, kde-format
 msgid "Change Sheet Name"
+msgstr ""
+
+#: part/View.cpp:1771
+#, kde-format
+msgid "Sheet name cannot be empty."
 msgstr ""
 
 #: part/View.cpp:1777
@@ -20562,6 +21027,97 @@ msgstr ""
 msgid "The style name cannot be empty."
 msgstr ""
 
+#: ui/CellToolBase.cpp:1709 ui/CellToolBase.cpp:1723 ui/CellToolBase.cpp:1737
+#: ui/CellToolBase.cpp:1752 ui/CellToolBase.cpp:1766 ui/CellToolBase.cpp:1784
+#: ui/CellToolBase.cpp:1805 ui/CellToolBase.cpp:1818
+msgctxt "(qtundo-format)"
+msgid "Change Font"
+msgstr "फॉन्ट बदला"
+
+#: ui/CellToolBase.cpp:1828
+#, fuzzy
+#| msgid "Text Color"
+msgctxt "(qtundo-format)"
+msgid "Change Text Color"
+msgstr "मजकूर रंग"
+
+#: ui/CellToolBase.cpp:1838 ui/CellToolBase.cpp:1848 ui/CellToolBase.cpp:1858
+#, fuzzy
+#| msgid "Horizontal"
+msgctxt "(qtundo-format)"
+msgid "Change Horizontal Alignment"
+msgstr "आडवे"
+
+#: ui/CellToolBase.cpp:1868 ui/CellToolBase.cpp:1878 ui/CellToolBase.cpp:1888
+msgctxt "(qtundo-format)"
+msgid "Change Vertical Alignment"
+msgstr ""
+
+#: ui/CellToolBase.cpp:1899 ui/CellToolBase.cpp:1913 ui/CellToolBase.cpp:1927
+#: ui/CellToolBase.cpp:1938 ui/CellToolBase.cpp:1949 ui/CellToolBase.cpp:1964
+#: ui/CellToolBase.cpp:1980 ui/CellToolBase_p.cpp:781
+#, fuzzy
+#| msgid "Page border:"
+msgctxt "(qtundo-format)"
+msgid "Change Border"
+msgstr "पान किनार :"
+
+#: ui/CellToolBase.cpp:2002
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Clear Text"
+msgctxt "(qtundo-format)"
+msgid "Wrap Text"
+msgstr "मजकूर पुसून टाका"
+
+#: ui/CellToolBase.cpp:2014
+#, fuzzy
+#| msgid "Vertical"
+msgctxt "(qtundo-format)"
+msgid "Vertical Text"
+msgstr "उभे"
+
+#: ui/CellToolBase.cpp:2052
+#, fuzzy
+#| msgid "Percent"
+msgctxt "(qtundo-format)"
+msgid "Format Percent"
+msgstr "टक्के"
+
+#: ui/CellToolBase.cpp:2062
+#, fuzzy
+#| msgid "Format"
+msgctxt "(qtundo-format)"
+msgid "Format Money"
+msgstr "स्वरूप"
+
+#: ui/CellToolBase.cpp:2093
+msgctxt "(qtundo-format)"
+msgid "Switch to uppercase"
+msgstr ""
+
+#: ui/CellToolBase.cpp:2103
+msgctxt "(qtundo-format)"
+msgid "Switch to lowercase"
+msgstr ""
+
+#: ui/CellToolBase.cpp:2113
+msgctxt "(qtundo-format)"
+msgid "First letter uppercase"
+msgstr ""
+
+#: ui/CellToolBase.cpp:2123
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "(qtundo-format)"
+msgid "Change Background Color"
+msgstr "पार्श्वभूमीचा रंग"
+
+#: ui/CellToolBase.cpp:2450
+msgctxt "(qtundo-format)"
+msgid "Clear Text"
+msgstr "मजकूर पुसून टाका"
+
 #: ui/CellToolBase.cpp:2512
 #, kde-format
 msgid "Edit Link"
@@ -20579,6 +21135,55 @@ msgid ""
 "No database drivers available. To use this feature you need to install the "
 "necessary Qt database drivers."
 msgstr ""
+
+#: ui/CellToolBase.cpp:2983
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "कापा"
+
+#: ui/CellToolBase.cpp:3349
+msgctxt "(qtundo-format)"
+msgid "Replace"
+msgstr "बदला"
+
+#: ui/CellToolBase_p.cpp:749
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Time Format"
+msgctxt "(qtundo-format)"
+msgid "Number Format"
+msgstr "वेळ स्वरूप"
+
+#: ui/CellToolBase_p.cpp:755
+#, fuzzy
+#| msgid "Time format: %1"
+msgctxt "(qtundo-format)"
+msgid "Currency Format"
+msgstr "वेळ स्वरूप : %1"
+
+#: ui/CellToolBase_p.cpp:761
+#, fuzzy
+#| msgid "Percent"
+msgctxt "(qtundo-format)"
+msgid "Percentage Format"
+msgstr "टक्के"
+
+#: ui/CellToolBase_p.cpp:766
+msgctxt "(qtundo-format)"
+msgid "Time Format"
+msgstr "वेळ स्वरूप"
+
+#: ui/CellToolBase_p.cpp:771
+msgctxt "(qtundo-format)"
+msgid "Date Format"
+msgstr "दिनांक स्वरूप"
+
+#: ui/CellToolBase_p.cpp:776
+#, fuzzy
+#| msgid "Scientific"
+msgctxt "(qtundo-format)"
+msgid "Scientific Format"
+msgstr "शास्त्रीय"
 
 #: ui/CellToolBase_p.cpp:1266
 #, kde-format
@@ -20765,13 +21370,13 @@ msgstr "खोटे"
 
 #: ValueFormatter.cpp:525 ValueFormatter.cpp:531
 #, kde-format
-msgid "PM"
-msgstr "PM"
+msgid "AM"
+msgstr "AM"
 
 #: ValueFormatter.cpp:525 ValueFormatter.cpp:531
 #, kde-format
-msgid "AM"
-msgstr "AM"
+msgid "PM"
+msgstr "PM"
 
 #: ValueFormatter.cpp:535
 #, kde-format
@@ -21038,12 +21643,6 @@ msgstr "am"
 #~ msgstr "फॉन्ट निवडा..."
 
 #, fuzzy
-#~| msgid "Vertical"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Vertical text"
-#~ msgstr "उभे"
-
-#, fuzzy
 #~| msgid "Printing"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Printing"
@@ -21254,18 +21853,6 @@ msgstr "am"
 #~ msgstr "हेडर्स"
 
 #, fuzzy
-#~| msgid "Page border:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Page order"
-#~ msgstr "पान किनार :"
-
-#, fuzzy
-#~| msgid "Horizontal"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Center horizontally"
-#~ msgstr "आडवे"
-
-#, fuzzy
 #~| msgid "Columns"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Columns from"
@@ -21332,12 +21919,6 @@ msgstr "am"
 #~ msgstr "जाळे दर्शवा (&G)"
 
 #, fuzzy
-#~| msgid "Sheets"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "All Sheets"
-#~ msgstr "शीट्स"
-
-#, fuzzy
 #~| msgid "Sheet"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Active Sheet"
@@ -21366,13 +21947,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Select sheets"
 #~ msgstr "शीट्स"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Rename Sheet"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove sheets"
-#~ msgstr "शीटचे नाव बदला"
 
 #, fuzzy
 #~| msgid "Clear Selection"
@@ -21511,13 +22085,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Borders"
 #~ msgstr "किनारे"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Time Format"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Number format"
-#~ msgstr "वेळ स्वरूप"
 
 #, fuzzy
 #~| msgid "Merge"
@@ -21758,120 +22325,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Sun"
 #~ msgstr "रवि"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Comment"
-#~ msgstr "टिपण्णी जोडा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Case"
-#~ msgstr "केस बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete"
-#~ msgstr "काढून टाका"
-
-#, fuzzy
-#~| msgid "Remove"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Link"
-#~ msgstr "काढून टाका"
-
-#, fuzzy
-#~| msgid "Open Link?"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Link"
-#~ msgstr "लिंक उघडायची का?"
-
-#, fuzzy
-#~| msgid "Merge"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Cells"
-#~ msgstr "एकत्रीकरण करा"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Rows/Columns"
-#~ msgstr "स्थंभ दर्शवा"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Columns"
-#~ msgstr "स्थंभ दर्शवा"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Rows"
-#~ msgstr "स्थंभ दर्शवा"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Rows/Columns"
-#~ msgstr "स्थंभ दर्शवा"
-
-#, fuzzy
-#~| msgid "Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Columns"
-#~ msgstr "स्थंभ"
-
-#, fuzzy
-#~| msgid "Rows"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Rows"
-#~ msgstr "ओळी"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Columns"
-#~ msgstr "स्थंभ दर्शवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename Sheet"
-#~ msgstr "शीटचे नाव बदला"
-
-#, fuzzy
-#~| msgid "Sheet%1"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Sheet %1"
-#~ msgstr "शीट%1"
-
-#, fuzzy
-#~| msgid "Sheet"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Sheet"
-#~ msgstr "शीट"
-
-#, fuzzy
-#~| msgid "Sheet%1"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Sheet %1"
-#~ msgstr "शीट%1"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Correct Misspelled Words"
-#~ msgstr "चुकीचे वर्णलेखन केलेले शब्द बरोबर करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reset Style"
-#~ msgstr "शैली पुन्हस्थापित करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Style"
-#~ msgstr "शैली बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Validity Check"
-#~ msgstr "वैधता तपासणी काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Validity Check"
-#~ msgstr "वैधता तपासणी जोडा"
 
 #, fuzzy
 #~| msgid "Australia"
@@ -25794,12 +26247,6 @@ msgstr "am"
 #~ msgstr "वेळ स्वरूप : %1"
 
 #, fuzzy
-#~| msgid "Time format: %1"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Currency format: %1"
-#~ msgstr "वेळ स्वरूप : %1"
-
-#, fuzzy
 #~| msgid "More Options"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "More Options"
@@ -25896,34 +26343,10 @@ msgstr "am"
 #~ msgstr "अंतर्भूत करा"
 
 #, fuzzy
-#~| msgid "Insert"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert rows"
-#~ msgstr "अंतर्भूत करा"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert columns"
-#~ msgstr "स्थंभ दर्शवा"
-
-#, fuzzy
 #~| msgid "Remove"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Remove"
 #~ msgstr "काढून टाका"
-
-#, fuzzy
-#~| msgid "Remove"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove rows"
-#~ msgstr "काढून टाका"
-
-#, fuzzy
-#~| msgid "Remove All"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove columns"
-#~ msgstr "सर्व काढून टाका"
 
 #, fuzzy
 #~| msgid "Style"
@@ -27116,12 +27539,6 @@ msgstr "am"
 #~ msgstr "उंची : %1 %2"
 
 #, fuzzy
-#~| msgid "Rows"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Row"
-#~ msgstr "ओळी"
-
-#, fuzzy
 #~| msgid "Width: %1 %2"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Width: %1 %2"
@@ -27132,13 +27549,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Hide Column"
 #~ msgstr "स्थंभ"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Rename Sheet"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Sheet"
-#~ msgstr "शीटचे नाव बदला"
 
 #, fuzzy
 #~| msgid "Rename Sheet..."
@@ -27170,13 +27580,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Page Outline"
 #~ msgstr "रूपरेषा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Rename Sheet"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Recalculate Sheet"
-#~ msgstr "शीटचे नाव बदला"
 
 #, fuzzy
 #~| msgid "Clear Selection"
@@ -27345,13 +27748,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Enter name:"
 #~ msgstr "नाव दाखल करा :"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change Style"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Sheet Name"
-#~ msgstr "शैली बदला"
 
 #, fuzzy
 #~| msgid "Sum: "
@@ -27588,21 +27984,9 @@ msgstr "am"
 #~ msgstr "रूपरेषा"
 
 #, fuzzy
-#~| msgid "Border"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Border Color"
-#~ msgstr "किनार"
-
-#, fuzzy
 #~| msgid "Increase Indent"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Increase Indent"
-#~ msgstr "समास वाढवा"
-
-#, fuzzy
-#~| msgid "Increase Indent"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase the indentation"
 #~ msgstr "समास वाढवा"
 
 #, fuzzy
@@ -27612,29 +27996,10 @@ msgstr "am"
 #~ msgstr "समास कमी करा"
 
 #, fuzzy
-#~| msgid "Decrease Indent"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease the indentation"
-#~ msgstr "समास कमी करा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change Style"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Angle..."
-#~ msgstr "शैली बदला"
-
-#, fuzzy
 #~| msgid "Angle"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Angle"
 #~ msgstr "कोन"
-
-#, fuzzy
-#~| msgid "Percent"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Percent Format"
-#~ msgstr "टक्के"
 
 #, fuzzy
 #~| msgctxt "(qtundo-format)"
@@ -27678,12 +28043,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Background Color"
 #~ msgstr "पार्श्वभूमीचा रंग"
-
-#, fuzzy
-#~| msgid "Show Columns..."
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize Column..."
-#~ msgstr "स्थंभ दर्शवा..."
 
 #, fuzzy
 #~| msgid "Show Columns..."
@@ -27732,18 +28091,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Adjust Row && Column"
 #~ msgstr "स्थंभ दर्शवा"
-
-#, fuzzy
-#~| msgid "Merge"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Cells..."
-#~ msgstr "एकत्रीकरण करा"
-
-#, fuzzy
-#~| msgid "Remove All"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Cells..."
-#~ msgstr "सर्व काढून टाका"
 
 #, fuzzy
 #~| msgid "Clear All"
@@ -27813,12 +28160,6 @@ msgstr "am"
 #~ msgstr "क्रमबद्ध करा (&S)..."
 
 #, fuzzy
-#~| msgid "Filter"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "&Auto-Filter"
-#~ msgstr "गाळणी"
-
-#, fuzzy
 #~| msgid "&Left"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "&Left"
@@ -27867,12 +28208,6 @@ msgstr "am"
 #~ msgstr "नियमित अभिव्यक्ति"
 
 #, fuzzy
-#~| msgid "Database"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "From &Database..."
-#~ msgstr "डेटाबेस"
-
-#, fuzzy
 #~| msgid "Text File"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "From &Text File..."
@@ -27897,22 +28232,10 @@ msgstr "am"
 #~ msgstr "क्लिपबोर्ड"
 
 #, fuzzy
-#~| msgid "Show Columns..."
-#~ msgctxt "(qtundo-format)"
-#~ msgid "&Text to Columns..."
-#~ msgstr "स्थंभ दर्शवा..."
-
-#, fuzzy
 #~| msgid "Custom..."
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Custom Lists..."
 #~ msgstr "ऐच्छिक..."
-
-#, fuzzy
-#~| msgid "Clear Selection"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Formula Selection"
-#~ msgstr "निवड काढून टाका"
 
 #, fuzzy
 #~| msgid "Others..."
@@ -27933,12 +28256,6 @@ msgstr "am"
 #~ msgstr "जा"
 
 #, fuzzy
-#~| msgid "Automatic"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Auto-Format..."
-#~ msgstr "स्वयंचलित"
-
-#, fuzzy
 #~| msgid "Document Settings..."
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Document Settings..."
@@ -27956,35 +28273,11 @@ msgstr "am"
 #~ msgid "Column Break"
 #~ msgstr "स्तंभ %1"
 
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Font"
-#~ msgstr "फॉन्ट बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clear Text"
-#~ msgstr "मजकूर पुसून टाका"
-
 #, fuzzy
 #~| msgid "Open Link?"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Edit Link"
 #~ msgstr "लिंक उघडायची का?"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cut"
-#~ msgstr "कापा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Replace"
-#~ msgstr "बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Time Format"
-#~ msgstr "वेळ स्वरूप"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Date Format"
-#~ msgstr "दिनांक स्वरूप"
 
 #, fuzzy
 #~| msgid "&Delete..."
@@ -28003,12 +28296,6 @@ msgstr "am"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Delete Columns"
 #~ msgstr "स्थंभ"
-
-#, fuzzy
-#~| msgid "Show Columns"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Row"
-#~ msgstr "स्थंभ दर्शवा"
 
 #, fuzzy
 #~| msgid "Delete"
