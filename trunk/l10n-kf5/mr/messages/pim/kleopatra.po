@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-02 03:49+0100\n"
+"POT-Creation-Date: 2017-01-10 08:11+0100\n"
 "PO-Revision-Date: 2013-03-05 17:34+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -3143,31 +3143,32 @@ msgid "Verifying checksums (%2) in %1"
 msgstr ""
 
 #: src/dialogs/adduseriddialog.cpp:71
+#: src/dialogs/certificatedetailswidget.cpp:104
 #: src/newcertificatewizard/newcertificatewizard.cpp:1187
 #, kde-format
 msgid "Name"
 msgstr "नाव"
 
-#: src/dialogs/adduseriddialog.cpp:74
+#: src/dialogs/adduseriddialog.cpp:73
 #: src/newcertificatewizard/newcertificatewizard.cpp:1190
 #, fuzzy, kde-format
 msgid "Comment"
 msgstr "टीप"
 
-#: src/dialogs/adduseriddialog.cpp:77
+#: src/dialogs/adduseriddialog.cpp:75
 #: src/newcertificatewizard/newcertificatewizard.cpp:1193
 #, fuzzy, kde-format
 msgid "EMail"
 msgstr "इमेल"
 
-#: src/dialogs/adduseriddialog.cpp:93
+#: src/dialogs/adduseriddialog.cpp:91
 #: src/newcertificatewizard/newcertificatewizard.cpp:1209
 #, kde-format
 msgctxt "Format string for the labels in the \"Your Personal Data\" page"
 msgid "%1 (%2)"
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:125
+#: src/dialogs/adduseriddialog.cpp:123
 #: src/newcertificatewizard/newcertificatewizard.cpp:1314
 #, kde-format
 msgctxt "interpunctation for labels"
@@ -3176,7 +3177,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, nameRequiredLB)
 #. i18n: ectx: property (text), widget (QLabel, emailRequiredLB)
-#: src/dialogs/adduseriddialog.cpp:127
+#: src/dialogs/adduseriddialog.cpp:125
 #: src/newcertificatewizard/enterdetailspage.ui:26
 #: src/newcertificatewizard/enterdetailspage.ui:43
 #: src/newcertificatewizard/newcertificatewizard.cpp:1316
@@ -3185,21 +3186,21 @@ msgid "(required)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, commentRequiredLB)
-#: src/dialogs/adduseriddialog.cpp:127
+#: src/dialogs/adduseriddialog.cpp:125
 #: src/newcertificatewizard/enterdetailspage.ui:60
 #: src/newcertificatewizard/newcertificatewizard.cpp:1316
 #, fuzzy, kde-format
 msgid "(optional)"
 msgstr "वैकल्पिक"
 
-#: src/dialogs/adduseriddialog.cpp:303
+#: src/dialogs/adduseriddialog.cpp:301
 #: src/newcertificatewizard/newcertificatewizard.cpp:1490
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<interface>%1</interface> is required, but empty."
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:305
+#: src/dialogs/adduseriddialog.cpp:303
 #: src/newcertificatewizard/newcertificatewizard.cpp:1492
 #, kde-kuit-format
 msgctxt "@info"
@@ -3208,14 +3209,14 @@ msgid ""
 "<icode>%2</icode>"
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:311
+#: src/dialogs/adduseriddialog.cpp:309
 #: src/newcertificatewizard/newcertificatewizard.cpp:1498
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<interface>%1</interface> is incomplete."
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:313
+#: src/dialogs/adduseriddialog.cpp:311
 #: src/newcertificatewizard/newcertificatewizard.cpp:1500
 #, kde-kuit-format
 msgctxt "@info"
@@ -3224,14 +3225,14 @@ msgid ""
 "icode>"
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:318
+#: src/dialogs/adduseriddialog.cpp:316
 #: src/newcertificatewizard/newcertificatewizard.cpp:1505
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<interface>%1</interface> is invalid."
 msgstr ""
 
-#: src/dialogs/adduseriddialog.cpp:320
+#: src/dialogs/adduseriddialog.cpp:318
 #: src/newcertificatewizard/newcertificatewizard.cpp:1507
 #, kde-kuit-format
 msgctxt "@info"
@@ -3251,182 +3252,236 @@ msgstr ""
 msgid "This is how the new User-ID will be stored in the certificate:"
 msgstr ""
 
-#: src/dialogs/certificatedetailsdialog.cpp:288
-#, kde-kuit-format
-msgctxt "@info"
-msgid ""
-"<para>An error occurred while loading the certifications: <message>%1</"
-"message></para>"
-msgstr ""
+#: src/dialogs/certificatedetailswidget.cpp:98
+#, fuzzy, kde-format
+#| msgid "Never"
+msgctxt "Expires"
+msgid "never"
+msgstr "कधीही नाही"
 
-#: src/dialogs/certificatedetailsdialog.cpp:291
+#: src/dialogs/certificatedetailswidget.cpp:104
 #, kde-format
-msgctxt "@title"
-msgid "Certifications Loading Failed"
+msgid "Email"
 msgstr ""
 
-#: src/dialogs/certificatedetailsdialog.cpp:319
+#: src/dialogs/certificatedetailswidget.cpp:106
+#, fuzzy, kde-format
+#| msgctxt "as in \"verbosity level\""
+#| msgid "Level"
+msgid "Trust Level"
+msgstr "पातळी"
+
+#: src/dialogs/certificatedetailswidget.cpp:152
 #, kde-format
-msgid "Please wait while generating the dump..."
+msgid "Revoke this User ID"
 msgstr ""
 
-#: src/dialogs/certificatedetailsdialog.cpp:425
+#: src/dialogs/certificatedetailswidget.cpp:235
 #, kde-format
-msgid "Issuer Certificate Not Found (%1)"
+msgid "Certify ..."
 msgstr ""
 
-#: src/dialogs/certificatedetailsdialog.cpp:480
+#: src/dialogs/certificatedetailswidget.cpp:288
+#, fuzzy, kde-format
+#| msgid "Never"
+msgid "never"
+msgstr "कधीही नाही"
+
+#. i18n: ectx: property (text), widget (QCheckBox, signingCB)
+#: src/dialogs/certificatedetailswidget.cpp:290
+#: src/newcertificatewizard/advancedsettingsdialog.ui:206
 #, kde-format
-msgctxt "@title"
-msgid "Subkeys"
+msgid "Signing"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, CertificateDetailsDialog)
-#: src/dialogs/certificatedetailsdialog.ui:14
+#: src/dialogs/certificatedetailswidget.cpp:291
+#: src/dialogs/certificatedetailswidget.cpp:295
+#, kde-format
+msgid "First message"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:292
+#: src/dialogs/certificatedetailswidget.cpp:296
+#, kde-format
+msgid "Last message"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:293
+#: src/dialogs/certificatedetailswidget.cpp:297
+#, fuzzy, kde-format
+msgid "Message count"
+msgstr "संदेश"
+
+#. i18n: ectx: property (text), widget (QCheckBox, encryptionCB)
+#: src/dialogs/certificatedetailswidget.cpp:294
+#: src/newcertificatewizard/advancedsettingsdialog.ui:216
+#, kde-format
+msgid "Encryption"
+msgstr "कुटलिपी"
+
+#: src/dialogs/certificatedetailswidget.cpp:337
+#, kde-format
+msgctxt "<name> of <company>"
+msgid "%1 of %2"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:372
+#, kde-format
+msgid "Common Name"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:373
+#, fuzzy, kde-format
+#| msgid "Animations"
+msgid "Organization"
+msgstr "ऍनीमेशन"
+
+#: src/dialogs/certificatedetailswidget.cpp:374
+#, kde-format
+msgid "Street"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:375
+#, kde-format
+msgid "City"
+msgstr ""
+
+#: src/dialogs/certificatedetailswidget.cpp:376
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "State"
+msgstr "स्थिती"
+
+#: src/dialogs/certificatedetailswidget.cpp:377
+#, kde-format
+msgid "Country"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CertificateDetailsWidget)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/dialogs/certificatedetailswidget.cpp:437
+#: src/dialogs/certificatedetailswidget.ui:14
+#: src/dialogs/certificatedetailswidget.ui:46
 #: src/view/keylistcontroller.cpp:431
 #, kde-format
 msgid "Certificate Details"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, overviewTab)
-#: src/dialogs/certificatedetailsdialog.ui:33
+#. i18n: ectx: property (text), widget (QPushButton, addUserIDBtn)
+#: src/dialogs/certificatedetailswidget.ui:32
 #, fuzzy, kde-format
-msgid "Overview"
-msgstr "आढावा"
+msgid "&Add email address"
+msgstr "इमेल पत्ता :"
 
-#. i18n: ectx: property (title), widget (QGroupBox, overviewActionsGB)
-#: src/dialogs/certificatedetailsdialog.ui:39
+#. i18n: ectx: property (text), widget (QPushButton, trustChainDetailsBtn)
+#: src/dialogs/certificatedetailswidget.ui:39
+#, kde-format
+msgid "Trust chain &details..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, expiresLbl)
+#: src/dialogs/certificatedetailswidget.ui:61
 #, fuzzy, kde-format
-msgid "Actions"
-msgstr "क्रिया"
+msgid "Expires:"
+msgstr "मुदतबाह्य"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePassphrasePB)
-#: src/dialogs/certificatedetailsdialog.ui:45
-#: src/view/keylistcontroller.cpp:460
-#, kde-format
-msgid "Change Passphrase..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, changeTrustLevelPB)
-#: src/dialogs/certificatedetailsdialog.ui:55
-#, kde-format
-msgid "Trust Certifications Made by This Certificate..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, changeExpiryDatePB)
-#: src/dialogs/certificatedetailsdialog.ui:65
-#: src/view/keylistcontroller.cpp:444
-#, kde-format
-msgid "Change Expiry Date..."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, revokeCertificatePB)
-#: src/dialogs/certificatedetailsdialog.ui:75
-#, kde-format
-msgid "Revoke This Certificate..."
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: src/dialogs/certificatedetailsdialog.ui:123
-#, kde-format
-msgid "Photo"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, photoLB)
-#: src/dialogs/certificatedetailsdialog.ui:133
-#, kde-format
-msgid ""
-"<p>At the moment, Kleopatra does not support photos in certificates. It has "
-"no support for adding, nor for displaying them. This is for the following "
-"reasons:</p>\n"
-"<ul>\n"
-"<li>Photos give a false sense of security.</li>\n"
-"<li>Photos increase the size of certificates.</li>\n"
-"</ul>"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, certificationsTab)
-#: src/dialogs/certificatedetailsdialog.ui:150
-#, kde-format
-msgid "User-IDs && Certifications"
-msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, userIDsActionsGB)
-#: src/dialogs/certificatedetailsdialog.ui:170
-#, kde-format
-msgid "User-IDs"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, addUserIDPB)
-#: src/dialogs/certificatedetailsdialog.ui:176
+#. i18n: ectx: property (text), widget (QLabel, smimeIssuer)
+#. i18n: ectx: property (text), widget (QLabel, type)
+#. i18n: ectx: property (text), widget (QLabel, fingerprint)
+#. i18n: ectx: property (text), widget (QLabel, smimeOwner)
+#. i18n: ectx: property (text), widget (QLabel, stored)
+#: src/dialogs/certificatedetailswidget.ui:68
+#: src/dialogs/certificatedetailswidget.ui:129
+#: src/dialogs/certificatedetailswidget.ui:190
+#: src/dialogs/certificatedetailswidget.ui:271 src/dialogs/subkeyswidget.ui:83
 #, fuzzy, kde-format
-msgid "Add..."
-msgstr "जोडा..."
+#| msgctxt "unknown trust level"
+#| msgid "unknown"
+msgid "unknown"
+msgstr "अपरिचीत"
 
-#. i18n: ectx: property (text), widget (QPushButton, revokeUserIDPB)
-#. i18n: ectx: property (text), widget (QPushButton, revokeCertificationPB)
-#: src/dialogs/certificatedetailsdialog.ui:186
-#: src/dialogs/certificatedetailsdialog.ui:215
+#. i18n: ectx: property (text), widget (QPushButton, moreDetailsBtn)
+#: src/dialogs/certificatedetailswidget.ui:81
+#, fuzzy, kde-format
+#| msgid "Details..."
+msgid "&More details..."
+msgstr "तपशील..."
+
+#. i18n: ectx: property (text), widget (QLabel, expires)
+#. i18n: ectx: property (text), widget (QLabel, validFrom)
+#: src/dialogs/certificatedetailswidget.ui:90
+#: src/dialogs/certificatedetailswidget.ui:146
 #, kde-format
-msgid "Revoke..."
+msgid "00/00/00"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, certifyUserIDPB)
-#: src/dialogs/certificatedetailsdialog.ui:196
+#. i18n: ectx: property (text), widget (QToolButton, changeExpirationBtn)
+#: src/dialogs/certificatedetailswidget.ui:100
+#, fuzzy, kde-format
+msgid "Change"
+msgstr "न बदललेले"
+
+#. i18n: ectx: property (text), widget (QLabel, validFromLbl)
+#: src/dialogs/certificatedetailswidget.ui:122
 #, kde-format
-msgid "Certify..."
+msgid "Valid from:"
 msgstr ""
 
-#. i18n: ectx: property (title), widget (QGroupBox, certificationsActionGB)
-#: src/dialogs/certificatedetailsdialog.ui:209
+#. i18n: ectx: property (text), widget (QLabel, fingerprintLbl)
+#: src/dialogs/certificatedetailswidget.ui:139
 #, kde-format
-msgid "Certifications"
+msgid "Fingerprint:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, expandAllCertificationsPB)
-#: src/dialogs/certificatedetailsdialog.ui:241 src/view/tabwidget.cpp:812
+#. i18n: ectx: property (text), widget (QLabel, smimeIssuerLbl)
+#: src/dialogs/certificatedetailswidget.ui:156
 #, kde-format
-msgid "Expand All"
+msgid "Issuer:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, collapseAllCertificationsPB)
-#: src/dialogs/certificatedetailsdialog.ui:251 src/view/tabwidget.cpp:816
+#. i18n: ectx: property (text), widget (QLabel, publishingLbl)
+#: src/dialogs/certificatedetailswidget.ui:163
 #, kde-format
-msgid "Collapse All"
+msgid "Publishing:"
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, detailsTab)
-#. i18n: ectx: attribute (title), widget (QWidget, technicalTab)
-#: src/dialogs/certificatedetailsdialog.ui:266
-#: src/newcertificatewizard/advancedsettingsdialog.ui:21
+#. i18n: ectx: property (text), widget (QLabel, typeLbl)
+#: src/dialogs/certificatedetailswidget.ui:170
 #, kde-format
-msgid "Technical Details"
-msgstr ""
+msgid "Type:"
+msgstr "प्रकार :"
 
-#. i18n: ectx: attribute (title), widget (QWidget, chainTab)
-#: src/dialogs/certificatedetailsdialog.ui:299
-#, kde-format
-msgid "Chain"
-msgstr ""
+#. i18n: ectx: property (text), widget (QPushButton, publishing)
+#: src/dialogs/certificatedetailswidget.ui:200
+#, fuzzy, kde-format
+msgid "Publish Certificate"
+msgstr "प्रमाणपत्र"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, chainTW)
-#: src/dialogs/certificatedetailsdialog.ui:312
+#. i18n: ectx: property (text), widget (QPushButton, changePassphraseBtn)
+#: src/dialogs/certificatedetailswidget.ui:234
 #, kde-format
-msgid "1"
-msgstr ""
-
-#. i18n: ectx: attribute (title), widget (QWidget, dumpTab)
-#: src/dialogs/certificatedetailsdialog.ui:321
-#, kde-format
-msgid "Dump"
+msgid "Change &passphrase"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/dialogs/certificatedetailsdialog.ui:327
+#: src/dialogs/certificatedetailswidget.ui:241
 #, kde-format
 msgid ""
-"This is a dump of all information the backend has about this certificate:"
+"You can use this certificate to secure communication with the following "
+"email addresses:"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, smimeOwnerLbl)
+#: src/dialogs/certificatedetailswidget.ui:251
+#, kde-format
+msgid "Owner:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, smimeRelatedAddresses)
+#: src/dialogs/certificatedetailswidget.ui:264
+#, fuzzy, kde-format
+msgid "Related addresses:"
+msgstr "इमेल पत्ता :"
 
 #: src/dialogs/certificateselectiondialog.cpp:112
 #, kde-format
@@ -3672,6 +3727,11 @@ msgstr[1] ""
 msgid "Secret Key Deletion"
 msgstr ""
 
+#: src/dialogs/expirydialog.cpp:148
+#, kde-format
+msgid "Change Expiry"
+msgstr ""
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, Kleo::Dialogs::ExpiryDialog)
 #: src/dialogs/expirydialog.ui:14
 #, kde-format
@@ -3679,51 +3739,51 @@ msgid "Change Certificate Date of Expiry"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/dialogs/expirydialog.ui:20
+#: src/dialogs/expirydialog.ui:32
 #, kde-format
 msgid "Please select when to expire this certificate:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, neverRB)
-#: src/dialogs/expirydialog.ui:27
+#: src/dialogs/expirydialog.ui:39
 #, kde-format
-msgid "Never"
-msgstr "कधीही नाही"
+msgid "Ne&ver"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, inRB)
-#: src/dialogs/expirydialog.ui:39
+#: src/dialogs/expirydialog.ui:51
 #, kde-format
 msgid "In"
 msgstr "च्या आत"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inCB)
-#: src/dialogs/expirydialog.ui:63
+#: src/dialogs/expirydialog.ui:75
 #, kde-format
 msgid "Days"
 msgstr "दिवस"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inCB)
-#: src/dialogs/expirydialog.ui:68
+#: src/dialogs/expirydialog.ui:80
 #, kde-format
 msgid "Weeks"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inCB)
-#: src/dialogs/expirydialog.ui:73
+#: src/dialogs/expirydialog.ui:85
 #, kde-format
 msgid "Months"
 msgstr "महीने"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, inCB)
-#: src/dialogs/expirydialog.ui:78
+#: src/dialogs/expirydialog.ui:90
 #, kde-format
 msgid "Years"
 msgstr "वर्षे"
 
 #. i18n: ectx: property (text), widget (QRadioButton, onRB)
-#: src/dialogs/expirydialog.ui:101
+#: src/dialogs/expirydialog.ui:113
 #, kde-format
-msgid "On this day:"
+msgid "On this da&y:"
 msgstr ""
 
 #: src/dialogs/exportcertificatesdialog.cpp:79
@@ -4172,6 +4232,95 @@ msgstr ""
 #: src/dialogs/setinitialpindialog.ui:81
 #, kde-format
 msgid "Set Initial PIN (SigG)"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:75
+#, kde-format
+msgctxt "stored..."
+msgid "on SmartCard with serial no. %1"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:77
+#, kde-format
+msgctxt "stored..."
+msgid "on this computer"
+msgstr ""
+
+#: src/dialogs/subkeyswidget.cpp:92
+#, kde-format
+msgid "Subkeys details"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, TrustChainWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, SubKeysWidget)
+#: src/dialogs/subkeyswidget.ui:14 src/dialogs/trustchainwidget.ui:14
+#, kde-format
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: src/dialogs/subkeyswidget.ui:32
+#, kde-format
+msgid "Subkeys:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:43
+#, fuzzy, kde-format
+msgid "ID"
+msgstr "Id"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:48
+#, kde-format
+msgid "Type"
+msgstr "प्रकार"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:53
+#, kde-format
+msgid "Valid From"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:58
+#, fuzzy, kde-format
+#| msgid "Validity"
+msgid "Valid Until"
+msgstr "वैधता"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:63
+#, kde-format
+msgid "Status"
+msgstr "स्थिती"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:68
+#, kde-format
+msgid "Strength"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, subkeysTree)
+#: src/dialogs/subkeyswidget.ui:73
+#, kde-format
+msgid "Usage"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, storedLbl)
+#: src/dialogs/subkeyswidget.ui:90
+#, kde-format
+msgid "Stored:"
+msgstr ""
+
+#: src/dialogs/trustchainwidget.cpp:75
+#, kde-format
+msgid "Issuer Certificate Not Found (%1)"
+msgstr ""
+
+#: src/dialogs/trustchainwidget.cpp:98
+#, kde-format
+msgid "Trust Chain"
 msgstr ""
 
 #. i18n: ectx: label, entry (QuickSignEMail), group (EMailOperations)
@@ -4700,6 +4849,12 @@ msgstr ""
 msgid "Advanced Settings"
 msgstr "प्रगत संयोजना"
 
+#. i18n: ectx: attribute (title), widget (QWidget, technicalTab)
+#: src/newcertificatewizard/advancedsettingsdialog.ui:21
+#, kde-format
+msgid "Technical Details"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/newcertificatewizard/advancedsettingsdialog.ui:27
 #, kde-format
@@ -4759,18 +4914,6 @@ msgstr ""
 #, kde-format
 msgid "Certification"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, signingCB)
-#: src/newcertificatewizard/advancedsettingsdialog.ui:206
-#, kde-format
-msgid "Signing"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, encryptionCB)
-#: src/newcertificatewizard/advancedsettingsdialog.ui:216
-#, kde-format
-msgid "Encryption"
-msgstr "कुटलिपी"
 
 #. i18n: ectx: property (text), widget (QCheckBox, authenticationCB)
 #: src/newcertificatewizard/advancedsettingsdialog.ui:226
@@ -6512,6 +6655,11 @@ msgstr "काढून टाका"
 msgid "Certify Certificate..."
 msgstr ""
 
+#: src/view/keylistcontroller.cpp:444
+#, kde-format
+msgid "Change Expiry Date..."
+msgstr ""
+
 #: src/view/keylistcontroller.cpp:448
 #, kde-format
 msgid "Change Owner Trust..."
@@ -6525,6 +6673,11 @@ msgstr ""
 #: src/view/keylistcontroller.cpp:456
 #, kde-format
 msgid "Distrust Root Certificate"
+msgstr ""
+
+#: src/view/keylistcontroller.cpp:460
+#, kde-format
+msgid "Change Passphrase..."
 msgstr ""
 
 #: src/view/keylistcontroller.cpp:464
@@ -6649,6 +6802,28 @@ msgstr "टॅब उजवीकडे हलवा"
 msgid "Hierarchical Certificate List"
 msgstr ""
 
+#: src/view/tabwidget.cpp:812
+#, kde-format
+msgid "Expand All"
+msgstr ""
+
+#: src/view/tabwidget.cpp:816
+#, kde-format
+msgid "Collapse All"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Overview"
+#~ msgstr "आढावा"
+
+#, fuzzy
+#~ msgid "Actions"
+#~ msgstr "क्रिया"
+
+#, fuzzy
+#~ msgid "Add..."
+#~ msgstr "जोडा..."
+
 #, fuzzy
 #~ msgctxt "@action"
 #~ msgid "More..."
@@ -6665,16 +6840,6 @@ msgstr ""
 #~ msgstr "इ-मेल :"
 
 #, fuzzy
-#~ msgid "ID"
-#~ msgstr "Id"
-
-#~ msgid "Type"
-#~ msgstr "प्रकार"
-
-#~ msgid "Status"
-#~ msgstr "स्थिती"
-
-#, fuzzy
 #~ msgid "%1-bit %2"
 #~ msgstr "16-बीट"
 
@@ -6684,9 +6849,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "User-ID"
 #~ msgstr "वापरकर्ता ID (&U):"
-
-#~ msgid "Validity"
-#~ msgstr "वैधता"
 
 #, fuzzy
 #~ msgid "Yes"
@@ -6705,17 +6867,9 @@ msgstr ""
 #~ msgid "Unknown"
 #~ msgstr "अपरिचीत"
 
-#~ msgctxt "unknown trust level"
-#~ msgid "unknown"
-#~ msgstr "अपरिचीत"
-
 #~ msgctxt "undefined trust"
 #~ msgid "undefined"
 #~ msgstr "व्याख्यारहित"
-
-#, fuzzy
-#~ msgid "expired"
-#~ msgstr "मुदतबाह्य"
 
 #, fuzzy
 #~ msgid "disabled"
@@ -6746,9 +6900,6 @@ msgstr ""
 #~ msgid "&Search:"
 #~ msgstr "शोधा (&S):"
 
-#~ msgid "Animations"
-#~ msgstr "ऍनीमेशन"
-
 #~ msgid "Applications"
 #~ msgstr "अनुप्रयोग"
 
@@ -6765,10 +6916,6 @@ msgstr ""
 
 #~ msgid "Open"
 #~ msgstr "उघडा"
-
-#~ msgctxt "as in \"verbosity level\""
-#~ msgid "Level"
-#~ msgstr "पातळी"
 
 #~ msgid "String"
 #~ msgstr "स्ट्रिंग"
@@ -6789,9 +6936,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Description:"
 #~ msgstr "वर्णन :"
-
-#~ msgid "Type:"
-#~ msgstr "प्रकार :"
 
 #, fuzzy
 #~ msgid "Quit"
