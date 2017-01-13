@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-11 03:48+0100\n"
+"POT-Creation-Date: 2017-01-13 03:53+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -121,7 +121,7 @@ msgstr ""
 #: data/effects/automask.xml:7 data/effects/dynamictext.xml:7
 #: src/effectslist/initeffects.cpp:787 src/effectslist/initeffects.cpp:814
 #: src/effectslist/initeffects.cpp:832
-#: src/effectstack/widgets/keyframeimport.cpp:106
+#: src/effectstack/widgets/keyframeimport.cpp:112
 #: src/project/transitionsettings.cpp:124
 #, kde-format
 msgid "Geometry"
@@ -444,7 +444,7 @@ msgstr "उभे जुळवणे"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel)
 #: data/effects/dynamictext.xml:42
-#: src/effectstack/graphicsscenerectmove.cpp:755 src/ui/dvdwizardmenu_ui.ui:83
+#: src/effectstack/graphicsscenerectmove.cpp:756 src/ui/dvdwizardmenu_ui.ui:83
 #: src/ui/qtextclip_ui.ui:20 src/ui/templateclip_ui.ui:34
 #, fuzzy, kde-format
 msgid "Text"
@@ -468,7 +468,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_duration)
 #: data/effects/fade_from_black.xml:7 data/effects/fade_to_black.xml:7
 #: data/effects/fadein.xml:10 data/effects/fadeout.xml:7
-#: src/bin/generators/generators.cpp:61
+#: src/bin/generators/generators.cpp:62
 #: src/mltcontroller/clippropertiescontroller.cpp:246
 #: src/ui/clipdurationdialog_ui.ui:14 src/ui/clipdurationdialog_ui.ui:40
 #: src/ui/clipproperties_ui.ui:58 src/ui/colorclip_ui.ui:37
@@ -480,7 +480,6 @@ msgid "Duration"
 msgstr "कालावधी"
 
 #: data/effects/fade_from_black.xml:10
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:51
 #: src/effectstack/widgets/keyframeimport.cpp:76
 #, kde-format
 msgid "In"
@@ -511,8 +510,7 @@ msgid "Fade video to black"
 msgstr ""
 
 #: data/effects/fade_to_black.xml:10
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:53
-#: src/effectstack/widgets/keyframeimport.cpp:79
+#: src/effectstack/widgets/keyframeimport.cpp:82
 #, kde-format
 msgid "Out"
 msgstr ""
@@ -714,8 +712,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, position_label)
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize_2)
-#: data/effects/frei0r_alphagrad.xml:9 src/effectstack/keyframeedit.cpp:56
-#: src/effectstack/widgets/keyframeimport.cpp:109
+#: data/effects/frei0r_alphagrad.xml:9
+#: src/effectstack/widgets/keyframeedit.cpp:56
+#: src/effectstack/widgets/keyframeimport.cpp:115
 #: src/ui/clipdurationdialog_ui.ui:20 src/ui/keyframedialog_ui.ui:20
 #: src/ui/markerdialog_ui.ui:20
 #, kde-format
@@ -835,7 +834,7 @@ msgstr ""
 msgid "Color curves adjustment"
 msgstr ""
 
-#: data/effects/frei0r_bezier_curves.xml:8
+#: data/effects/frei0r_bezier_curves.xml:8 data/effects/frei0r_curves.xml:65
 #, kde-format
 msgid "RGB,Red,Green,Blue,Alpha,Luma,Hue,Saturation"
 msgstr ""
@@ -1125,8 +1124,8 @@ msgstr ""
 msgid "Curves"
 msgstr ""
 
-#: data/effects/frei0r_curves.xml:8 data/effects/frei0r_curves.xml:65
-#: data/effects/frei0r_levels.xml:9 data/effects/frei0r_levels.xml:41
+#: data/effects/frei0r_curves.xml:8 data/effects/frei0r_levels.xml:9
+#: data/effects/frei0r_levels.xml:41
 #, kde-format
 msgid "Red,Green,Blue,Luma"
 msgstr ""
@@ -2062,7 +2061,7 @@ msgid "If normal dimming does not look natural enough, try this one."
 msgstr ""
 
 #: data/effects/frei0r_lightgraffiti.xml:71
-#: data/effects/frei0r_lightgraffiti.xml:144 src/effectstack/geometryval.cpp:95
+#: data/effects/frei0r_lightgraffiti.xml:144
 #: src/timeline/tracksconfigdialog.cpp:81
 #, fuzzy, kde-format
 msgid "Reset"
@@ -2121,7 +2120,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_20)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: data/effects/frei0r_medians.xml:13 data/effects/frei0r_sharpness.xml:12
-#: src/effectstack/widgets/animationwidget.cpp:783
+#: src/effectstack/widgets/animationwidget.cpp:784
 #: src/effectstack/widgets/geometrywidget.cpp:207
 #: src/project/dialogs/temporarydata.cpp:442 src/ui/configcapture_ui.ui:550
 #: src/ui/managecaptures_ui.ui:40 src/ui/profiledialog_ui.ui:191
@@ -2195,22 +2194,15 @@ msgstr ""
 msgid "Measurement"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: data/effects/frei0r_pr0be.xml:13 data/effects/frei0r_pr0file.xml:8
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:55
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:59
-#: src/effectstack/widgets/keyframeimport.cpp:114 src/ui/geometryval_ui.ui:144
+#: src/effectstack/widgets/keyframeimport.cpp:120
 #, kde-format
 msgid "X"
 msgstr "X"
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbY)
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: data/effects/frei0r_pr0be.xml:17 data/effects/frei0r_pr0file.xml:12
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:57
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:61
-#: src/effectstack/widgets/keyframeimport.cpp:117 src/ui/geometryval_ui.ui:164
-#: src/ui/histogram_ui.ui:23
+#: src/effectstack/widgets/keyframeimport.cpp:123 src/ui/histogram_ui.ui:23
 #, kde-format
 msgid "Y"
 msgstr "Y"
@@ -3398,10 +3390,9 @@ msgstr "प्रतिबिंब तयार करा"
 msgid "Opacity (GPU)"
 msgstr "अपारदर्शकता"
 
-#. i18n: ectx: property (text), widget (QLabel, label_opacity)
 #: data/effects/movit_opacity.xml:6
-#: src/effectstack/widgets/animationwidget.cpp:788
-#: src/effectstack/widgets/geometrywidget.cpp:211 src/ui/geometryval_ui.ui:113
+#: src/effectstack/widgets/animationwidget.cpp:789
+#: src/effectstack/widgets/geometrywidget.cpp:211
 #, kde-format
 msgid "Opacity"
 msgstr "अपारदर्शकता"
@@ -3792,10 +3783,9 @@ msgstr ""
 msgid "Center Frequency"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: data/effects/sox_band.xml:10 data/effects/sox_flanger.xml:16
-#: src/effectstack/widgets/keyframeimport.cpp:120
-#: src/timeline/keyframeview.cpp:299 src/ui/geometryval_ui.ui:181
+#: src/effectstack/widgets/keyframeimport.cpp:126
+#: src/timeline/keyframeview.cpp:299
 #, fuzzy, kde-format
 msgid "Width"
 msgstr "रुंदी"
@@ -4394,7 +4384,7 @@ msgid "Show description"
 msgstr "वर्णन"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/bin/bin.cpp:452 src/effectstack/widgets/animationwidget.cpp:190
+#: src/bin/bin.cpp:452 src/effectstack/widgets/animationwidget.cpp:191
 #: src/effectstack/widgets/geometrywidget.cpp:148 src/monitor/monitor.cpp:323
 #: src/ui/clipstabilize_ui.ui:30
 #, kde-format
@@ -4745,13 +4735,13 @@ msgid_plural "Delete clips"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/bin/generators/generators.cpp:165 src/renderer.cpp:598
+#: src/bin/generators/generators.cpp:166 src/renderer.cpp:598
 #: src/timeline/customtrackview.cpp:8483
 #, kde-format
 msgid "MLT playlist (*.mlt)"
 msgstr ""
 
-#: src/bin/generators/generators.cpp:179 src/dialogs/renderwidget.cpp:1037
+#: src/bin/generators/generators.cpp:180 src/dialogs/renderwidget.cpp:1037
 #, kde-format
 msgid "Output file already exists. Do you want to overwrite it?"
 msgstr ""
@@ -4850,7 +4840,7 @@ msgstr "वर्णन"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: src/bin/projectsubclip.cpp:41 src/doc/documentvalidator.cpp:1701
+#: src/bin/projectsubclip.cpp:41 src/doc/documentvalidator.cpp:1718
 #, fuzzy, kde-format
 #| msgid "Zoom Out"
 msgid "Zone %1"
@@ -5120,7 +5110,7 @@ msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:494
 #: src/dialogs/kdenlivesettingsdialog.cpp:495
-#: src/effectstack/widgets/animationwidget.cpp:1054 src/mainwindow.cpp:191
+#: src/effectstack/widgets/animationwidget.cpp:1055 src/mainwindow.cpp:191
 #, kde-format
 msgid "Default"
 msgstr "मूलभूत"
@@ -5903,7 +5893,7 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:1929
+#: src/doc/documentvalidator.cpp:1946
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -5912,12 +5902,12 @@ msgid ""
 "This might result in data loss."
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2022
+#: src/doc/documentvalidator.cpp:2039
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2024
+#: src/doc/documentvalidator.cpp:2041
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr ""
@@ -6352,7 +6342,7 @@ msgstr ""
 
 #: src/dvdwizard/dvdwizardvob.cpp:718 src/effectstack/collapsibleeffect.cpp:382
 #: src/effectstack/collapsiblegroup.cpp:186 src/monitor/monitor.cpp:1040
-#: src/project/clipstabilize.cpp:225 src/project/cliptranscode.cpp:150
+#: src/project/clipstabilize.cpp:226 src/project/cliptranscode.cpp:150
 #: src/project/jobs/filterjob.cpp:98 src/project/projectmanager.cpp:356
 #, kde-format
 msgid ""
@@ -6756,210 +6746,139 @@ msgstr "परिणाम :"
 msgid "Effects for track %1"
 msgstr ""
 
-#: src/effectstack/geometryval.cpp:77
-#: src/effectstack/widgets/geometrywidget.cpp:73
-#: src/simplekeyframes/simplekeyframewidget.cpp:52
+#: src/effectstack/parametercontainer.cpp:235
+#, fuzzy, kde-format
+#| msgid "Dissolve"
+msgid "None (Dissolve)"
+msgstr "विरघळवा"
+
+#: src/effectstack/parametercontainer.cpp:586
 #, kde-format
-msgid "Go to next keyframe"
+msgid "<select a keyword>"
 msgstr ""
 
-#: src/effectstack/geometryval.cpp:79
-#: src/effectstack/widgets/geometrywidget.cpp:70
-#: src/simplekeyframes/simplekeyframewidget.cpp:47
+#: src/effectstack/parametercontainer.cpp:640
 #, kde-format
-msgid "Go to previous keyframe"
+msgid "sync keyframes with clip start"
 msgstr ""
 
-#: src/effectstack/geometryval.cpp:81 src/effectstack/keyframeedit.cpp:48
-#: src/effectstack/widgets/animationwidget.cpp:96
+#: src/effectstack/widgets/animationwidget.cpp:94
+#, kde-format
+msgid "Previous keyframe"
+msgstr ""
+
+#: src/effectstack/widgets/animationwidget.cpp:97
 #: src/effectstack/widgets/geometrywidget.cpp:76
 #: src/effectstack/widgets/geometrywidget.cpp:465
+#: src/effectstack/widgets/keyframeedit.cpp:48
 #: src/simplekeyframes/simplekeyframewidget.cpp:42
 #: src/simplekeyframes/simplekeyframewidget.cpp:133
 #, kde-format
 msgid "Add keyframe"
 msgstr ""
 
-#: src/effectstack/geometryval.cpp:83 src/effectstack/keyframeedit.cpp:50
-#: src/effectstack/widgets/geometrywidget.cpp:471
-#: src/simplekeyframes/simplekeyframewidget.cpp:130
-#, kde-format
-msgid "Delete keyframe"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:85 src/monitor/monitor.cpp:234
-#, fuzzy, kde-format
-msgid "Misc..."
-msgstr "किरकोळ"
-
-#: src/effectstack/geometryval.cpp:89
-#, kde-format
-msgid "Show/Hide options"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:97
-#, kde-format
-msgid "Sync timeline cursor"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:116 src/titler/titlewidget.cpp:363
-#, kde-format
-msgid "Align item horizontally"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:118 src/titler/titlewidget.cpp:365
-#, kde-format
-msgid "Align item vertically"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:120 src/titler/titlewidget.cpp:367
-#, kde-format
-msgid "Align item to top"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:122 src/titler/titlewidget.cpp:369
-#, kde-format
-msgid "Align item to bottom"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:124 src/titler/titlewidget.cpp:371
-#, kde-format
-msgid "Align item to right"
-msgstr ""
-
-#: src/effectstack/geometryval.cpp:126 src/titler/titlewidget.cpp:373
-#, kde-format
-msgid "Align item to left"
-msgstr ""
-
-#: src/effectstack/parametercontainer.cpp:67
-#, kde-format
-msgid "Click to copy data to clipboard"
-msgstr ""
-
-#: src/effectstack/parametercontainer.cpp:280
-#, fuzzy, kde-format
-#| msgid "Dissolve"
-msgid "None (Dissolve)"
-msgstr "विरघळवा"
-
-#: src/effectstack/parametercontainer.cpp:672
-#, kde-format
-msgid "<select a keyword>"
-msgstr ""
-
-#: src/effectstack/parametercontainer.cpp:726
-#, kde-format
-msgid "sync keyframes with clip start"
-msgstr ""
-
-#: src/effectstack/widgets/animationwidget.cpp:93
-#, kde-format
-msgid "Previous keyframe"
-msgstr ""
-
-#: src/effectstack/widgets/animationwidget.cpp:96
+#: src/effectstack/widgets/animationwidget.cpp:97
 #, fuzzy, kde-format
 #| msgid "Create Folder"
 msgid "Remove keyframe"
 msgstr "संचयीका बनवा"
 
-#: src/effectstack/widgets/animationwidget.cpp:103
+#: src/effectstack/widgets/animationwidget.cpp:104
 #, kde-format
 msgid "Next keyframe"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:107
+#: src/effectstack/widgets/animationwidget.cpp:108
 #, fuzzy, kde-format
 msgid "Presets"
 msgstr "पुन्हस्थापित करा"
 
-#: src/effectstack/widgets/animationwidget.cpp:112
+#: src/effectstack/widgets/animationwidget.cpp:113
 #, kde-format
 msgid "Keyframe interpolation"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:113
-#: src/effectstack/widgets/animationwidget.cpp:129
+#: src/effectstack/widgets/animationwidget.cpp:114
+#: src/effectstack/widgets/animationwidget.cpp:130
 #: src/timeline/customtrackview.cpp:1619
 #, fuzzy, kde-format
 #| msgid "Disconnect"
 msgid "Discrete"
 msgstr "जुळवणी तोडा"
 
-#: src/effectstack/widgets/animationwidget.cpp:117
-#: src/effectstack/widgets/animationwidget.cpp:133
+#: src/effectstack/widgets/animationwidget.cpp:118
+#: src/effectstack/widgets/animationwidget.cpp:134
 #: src/timeline/customtrackview.cpp:1623
 #, kde-format
 msgid "Linear"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:121
-#: src/effectstack/widgets/animationwidget.cpp:137
+#: src/effectstack/widgets/animationwidget.cpp:122
+#: src/effectstack/widgets/animationwidget.cpp:138
 #: src/timeline/customtrackview.cpp:1627
 #, kde-format
 msgid "Smooth"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:128
+#: src/effectstack/widgets/animationwidget.cpp:129
 #, fuzzy, kde-format
 msgid "Default interpolation"
 msgstr "मूलभूत रूपरेषा"
 
-#: src/effectstack/widgets/animationwidget.cpp:155
+#: src/effectstack/widgets/animationwidget.cpp:156
 #: src/timeline/customtrackview.cpp:1632
 #, kde-format
 msgid "Attach keyframe to end"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:160
+#: src/effectstack/widgets/animationwidget.cpp:161
 #, kde-format
 msgid "Copy keyframes to clipboard"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:162
+#: src/effectstack/widgets/animationwidget.cpp:163
 #, kde-format
 msgid "Import keyframes from clipboard"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:165
+#: src/effectstack/widgets/animationwidget.cpp:166
 #, fuzzy, kde-format
 #| msgid "Create Folder"
 msgid "Remove all keyframes after cursor"
 msgstr "संचयीका बनवा"
 
-#: src/effectstack/widgets/animationwidget.cpp:169
+#: src/effectstack/widgets/animationwidget.cpp:170
 #, fuzzy, kde-format
 msgid "Save preset"
 msgstr "असे साठवा"
 
-#: src/effectstack/widgets/animationwidget.cpp:173
+#: src/effectstack/widgets/animationwidget.cpp:174
 #, fuzzy, kde-format
 msgid "Delete preset"
 msgstr "रूपरेषा नष्ट करा (&D)"
 
-#: src/effectstack/widgets/animationwidget.cpp:765
+#: src/effectstack/widgets/animationwidget.cpp:766
 #: src/effectstack/widgets/geometrywidget.cpp:88
 #, kde-format
 msgctxt "x axis position"
 msgid "X"
 msgstr "X"
 
-#: src/effectstack/widgets/animationwidget.cpp:769
+#: src/effectstack/widgets/animationwidget.cpp:770
 #: src/effectstack/widgets/geometrywidget.cpp:91
 #, kde-format
 msgctxt "y axis position"
 msgid "Y"
 msgstr "Y"
 
-#: src/effectstack/widgets/animationwidget.cpp:773
+#: src/effectstack/widgets/animationwidget.cpp:774
 #: src/effectstack/widgets/geometrywidget.cpp:94
 #, fuzzy, kde-format
 msgctxt "Frame width"
 msgid "W"
 msgstr "W"
 
-#: src/effectstack/widgets/animationwidget.cpp:777
+#: src/effectstack/widgets/animationwidget.cpp:778
 #: src/effectstack/widgets/geometrywidget.cpp:97
 #, kde-format
 msgctxt "Frame height"
@@ -6973,100 +6892,88 @@ msgstr "H"
 #. i18n: ectx: property (suffix), widget (QSpinBox, spin_yell)
 #. i18n: ectx: property (suffix), widget (QSpinBox, spin_black)
 #. i18n: ectx: property (suffix), widget (QSpinBox, zoom_spin)
-#. i18n: ectx: property (suffix), widget (QSpinBox, spinResize)
-#: src/effectstack/widgets/animationwidget.cpp:783
-#: src/effectstack/widgets/animationwidget.cpp:788
+#: src/effectstack/widgets/animationwidget.cpp:784
+#: src/effectstack/widgets/animationwidget.cpp:789
 #: src/effectstack/widgets/geometrywidget.cpp:207
 #: src/effectstack/widgets/geometrywidget.cpp:211
 #: src/titler/titlewidget.cpp:138 src/ui/clipspeed_ui.ui:85
-#: src/ui/configsdl_ui.ui:89 src/ui/geometryval_ui.ui:226
-#: src/ui/selectivecolor_ui.ui:75 src/ui/selectivecolor_ui.ui:108
-#: src/ui/selectivecolor_ui.ui:141 src/ui/selectivecolor_ui.ui:174
-#: src/ui/titlewidget_ui.ui:251
+#: src/ui/configsdl_ui.ui:89 src/ui/selectivecolor_ui.ui:75
+#: src/ui/selectivecolor_ui.ui:108 src/ui/selectivecolor_ui.ui:141
+#: src/ui/selectivecolor_ui.ui:174 src/ui/titlewidget_ui.ui:251
 #, no-c-format, kde-format
 msgid "%"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:794
+#: src/effectstack/widgets/animationwidget.cpp:795
 #: src/effectstack/widgets/geometrywidget.cpp:103
 #, kde-format
 msgid "Adjust to original size"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:796
+#: src/effectstack/widgets/animationwidget.cpp:797
 #: src/effectstack/widgets/geometrywidget.cpp:105
 #, kde-format
 msgid "Adjust and center in frame"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:798
+#: src/effectstack/widgets/animationwidget.cpp:799
 #: src/effectstack/widgets/geometrywidget.cpp:107
 #, fuzzy, kde-format
 msgid "Fit to width"
 msgstr "पानाच्या रुंदीप्रमाणे समर्पक बसवा"
 
-#: src/effectstack/widgets/animationwidget.cpp:800
+#: src/effectstack/widgets/animationwidget.cpp:801
 #: src/effectstack/widgets/geometrywidget.cpp:109
 #, fuzzy, kde-format
 msgid "Fit to height"
 msgstr "पानाच्या उंचीप्रमाणे समर्पक बसवा"
 
-#: src/effectstack/widgets/animationwidget.cpp:803
+#: src/effectstack/widgets/animationwidget.cpp:804
 #: src/effectstack/widgets/geometrywidget.cpp:133
 #: src/titler/titlewidget.cpp:264
 #, fuzzy, kde-format
 msgid "Align left"
 msgstr "डावीकडे स्थीत करा"
 
-#: src/effectstack/widgets/animationwidget.cpp:805
+#: src/effectstack/widgets/animationwidget.cpp:806
 #: src/effectstack/widgets/geometrywidget.cpp:135
 #, kde-format
 msgid "Center horizontally"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:807
+#: src/effectstack/widgets/animationwidget.cpp:808
 #: src/effectstack/widgets/geometrywidget.cpp:137
 #: src/titler/titlewidget.cpp:263
 #, fuzzy, kde-format
 msgid "Align right"
 msgstr "उजवीकडे स्थीत करा"
 
-#: src/effectstack/widgets/animationwidget.cpp:809
+#: src/effectstack/widgets/animationwidget.cpp:810
 #: src/effectstack/widgets/geometrywidget.cpp:139
 #, kde-format
 msgid "Align top"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:811
+#: src/effectstack/widgets/animationwidget.cpp:812
 #: src/effectstack/widgets/geometrywidget.cpp:141
 #, kde-format
 msgid "Center vertically"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:813
+#: src/effectstack/widgets/animationwidget.cpp:814
 #: src/effectstack/widgets/geometrywidget.cpp:143
 #, kde-format
 msgid "Align bottom"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:1114
+#: src/effectstack/widgets/animationwidget.cpp:1115
 #, kde-format
 msgid "Enter preset name"
 msgstr ""
 
-#: src/effectstack/widgets/animationwidget.cpp:1115
+#: src/effectstack/widgets/animationwidget.cpp:1116
 #, kde-format
 msgid "Save as global preset (available to all effects)"
-msgstr ""
-
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:66
-#, kde-format
-msgid "Handle 1:"
-msgstr ""
-
-#: src/effectstack/widgets/bezier/beziersplinewidget.cpp:69
-#, kde-format
-msgid "Handle 2:"
 msgstr ""
 
 #: src/effectstack/widgets/colorpickerwidget.cpp:68
@@ -7077,15 +6984,21 @@ msgid ""
 "average color."
 msgstr ""
 
-#: src/effectstack/widgets/colorpickerwidget.cpp:100
-#: src/effectstack/widgets/colorpickerwidget.cpp:127
+#: src/effectstack/widgets/draggablelabel.cpp:34
 #, kde-format
-msgid "Requesting color information..."
+msgid "Click to copy data to clipboard"
 msgstr ""
 
-#: src/effectstack/widgets/colorpickerwidget.cpp:137
+#: src/effectstack/widgets/geometrywidget.cpp:70
+#: src/simplekeyframes/simplekeyframewidget.cpp:47
 #, kde-format
-msgid "Calculated average color for rectangle."
+msgid "Go to previous keyframe"
+msgstr ""
+
+#: src/effectstack/widgets/geometrywidget.cpp:73
+#: src/simplekeyframes/simplekeyframewidget.cpp:52
+#, kde-format
+msgid "Go to next keyframe"
 msgstr ""
 
 #: src/effectstack/widgets/geometrywidget.cpp:112
@@ -7113,83 +7026,89 @@ msgstr ""
 msgid "Synchronize with timeline cursor"
 msgstr ""
 
+#: src/effectstack/widgets/geometrywidget.cpp:471
+#: src/effectstack/widgets/keyframeedit.cpp:50
+#: src/simplekeyframes/simplekeyframewidget.cpp:130
+#, kde-format
+msgid "Delete keyframe"
+msgstr ""
+
 #: src/effectstack/widgets/keyframeimport.cpp:47
 #, fuzzy, kde-format
 msgid "Data to import: "
 msgstr "आयात"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/effectstack/widgets/keyframeimport.cpp:123
-#: src/timeline/keyframeview.cpp:307 src/ui/geometryval_ui.ui:198
+#: src/effectstack/widgets/keyframeimport.cpp:129
+#: src/timeline/keyframeview.cpp:307
 #, kde-format
 msgid "Height"
 msgstr "उंची"
 
-#: src/effectstack/widgets/keyframeimport.cpp:129
+#: src/effectstack/widgets/keyframeimport.cpp:135
 #: src/titler/titlewidget.cpp:265
 #, fuzzy, kde-format
 msgid "Align center"
 msgstr "केंद्राकडे स्थीत करा"
 
-#: src/effectstack/widgets/keyframeimport.cpp:129
+#: src/effectstack/widgets/keyframeimport.cpp:135
 #, fuzzy, kde-format
 msgid "Align top left"
 msgstr "डावीकडे स्थीत करा"
 
-#: src/effectstack/widgets/keyframeimport.cpp:129
+#: src/effectstack/widgets/keyframeimport.cpp:135
 #, fuzzy, kde-format
 msgid "Align bottom right"
 msgstr "उजवीकडे स्थीत करा"
 
-#: src/effectstack/widgets/keyframeimport.cpp:130
+#: src/effectstack/widgets/keyframeimport.cpp:136
 #, kde-format
 msgid "Map "
 msgstr ""
 
-#: src/effectstack/widgets/keyframeimport.cpp:131
+#: src/effectstack/widgets/keyframeimport.cpp:137
 #, kde-format
 msgid " to "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/effectstack/widgets/keyframeimport.cpp:160
+#: src/effectstack/widgets/keyframeimport.cpp:166
 #: src/ui/configcapture_ui.ui:511 src/ui/titlewidget_ui.ui:781
 #, kde-format
 msgid "Offset"
 msgstr "ऑफसेट"
 
-#: src/effectstack/widgets/keyframeimport.cpp:164
-#: src/effectstack/widgets/keyframeimport.cpp:259
-#: src/effectstack/widgets/keyframeimport.cpp:262
+#: src/effectstack/widgets/keyframeimport.cpp:170
 #: src/effectstack/widgets/keyframeimport.cpp:265
 #: src/effectstack/widgets/keyframeimport.cpp:268
-#: src/effectstack/widgets/keyframeimport.cpp:279
-#: src/effectstack/widgets/keyframeimport.cpp:282
+#: src/effectstack/widgets/keyframeimport.cpp:271
+#: src/effectstack/widgets/keyframeimport.cpp:274
 #: src/effectstack/widgets/keyframeimport.cpp:285
 #: src/effectstack/widgets/keyframeimport.cpp:288
+#: src/effectstack/widgets/keyframeimport.cpp:291
+#: src/effectstack/widgets/keyframeimport.cpp:294
 #, kde-format
 msgid "Source range %1 to %2"
 msgstr ""
 
-#: src/effectstack/widgets/keyframeimport.cpp:172
+#: src/effectstack/widgets/keyframeimport.cpp:178
 #, fuzzy, kde-format
 #| msgid "Destination"
 msgid "Destination range"
 msgstr "लक्ष्य"
 
-#: src/effectstack/widgets/keyframeimport.cpp:180
+#: src/effectstack/widgets/keyframeimport.cpp:186
 #, kde-format
 msgid "Actual range only"
 msgstr ""
 
-#: src/effectstack/widgets/keyframeimport.cpp:187
+#: src/effectstack/widgets/keyframeimport.cpp:193
 #, kde-format
 msgid "Limit keyframe number"
 msgstr ""
 
-#: src/effectstack/widgets/keyframeimport.cpp:271
-#: src/effectstack/widgets/keyframeimport.cpp:291
+#: src/effectstack/widgets/keyframeimport.cpp:277
+#: src/effectstack/widgets/keyframeimport.cpp:297
 #, kde-format
 msgid "Source range: (%1-%2), (%3-%4)"
 msgstr ""
@@ -7522,7 +7441,7 @@ msgstr ""
 
 #: src/main.cpp:89
 #, kde-format
-msgid "Copyright © 2007–2016 Kdenlive authors"
+msgid "Copyright © 2007–2017 Kdenlive authors"
 msgstr ""
 
 #: src/main.cpp:90
@@ -7548,8 +7467,8 @@ msgstr ""
 #: src/main.cpp:93
 #, kde-format
 msgid ""
-"Interim maintainer, KF5 port, bugs fixing, minor functions, profiles "
-"updates, etc."
+"Interim maintainer, Windows cross-build, KF5 port, bugs fixing, minor "
+"functions, profiles updates, etc."
 msgstr ""
 
 #: src/main.cpp:94
@@ -7659,7 +7578,10 @@ msgstr ""
 
 #: src/main.cpp:107
 #, kde-format
-msgid "Using MLT version %1"
+msgid ""
+"Using:\n"
+"<a href=\"https://mltframework.org\">MLT</a> version %1\n"
+"<a href=\"https://ffmpeg.org\">FFmpeg</a> libraries"
 msgstr ""
 
 #: src/main.cpp:128
@@ -9037,6 +8959,11 @@ msgstr "सुरु करा"
 msgid "Pause"
 msgstr "स्तब्ध करा"
 
+#: src/monitor/monitor.cpp:234
+#, fuzzy, kde-format
+msgid "Misc..."
+msgstr "किरकोळ"
+
 #: src/monitor/monitor.cpp:238 src/timeline/customtrackview.cpp:259
 #, kde-format
 msgid "Go to marker..."
@@ -9586,17 +9513,17 @@ msgstr[1] ""
 msgid "Destination folder"
 msgstr ""
 
-#: src/project/clipstabilize.cpp:158
+#: src/project/clipstabilize.cpp:159
 #, kde-format
 msgid "Stabilised"
 msgstr ""
 
-#: src/project/clipstabilize.cpp:173
+#: src/project/clipstabilize.cpp:174
 #, kde-format
 msgid "Stabilize clip"
 msgstr ""
 
-#: src/project/clipstabilize.cpp:238
+#: src/project/clipstabilize.cpp:239
 #, kde-format
 msgid "The stabilize job will overwrite the following files:"
 msgstr ""
@@ -10004,7 +9931,7 @@ msgstr ""
 
 #: src/project/dialogs/projectsettings.cpp:572
 #: src/project/dialogs/projectsettings.cpp:587
-#: src/project/dialogs/slideshowclip.cpp:296
+#: src/project/dialogs/slideshowclip.cpp:301
 #, kde-format
 msgid "1 image found"
 msgid_plural "%1 images found"
@@ -10067,7 +9994,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_info)
 #. i18n: ectx: property (text), widget (QLabel, slide_info)
-#: src/project/dialogs/slideshowclip.cpp:294 src/ui/clipproperties_ui.ui:319
+#: src/project/dialogs/slideshowclip.cpp:299 src/ui/clipproperties_ui.ui:319
 #: src/ui/slideshowclip_ui.ui:265
 #, kde-format
 msgid "No image found"
@@ -11884,32 +11811,32 @@ msgid ""
 "one."
 msgstr ""
 
-#: src/timeline/managers/trimmanager.cpp:83
+#: src/timeline/managers/trimmanager.cpp:84
 #, kde-format
 msgid "Could not find necessary clips to perform rolling trim"
 msgstr ""
 
-#: src/timeline/managers/trimmanager.cpp:197
+#: src/timeline/managers/trimmanager.cpp:198
 #, kde-format
 msgid "Rolling Edit"
 msgstr ""
 
-#: src/timeline/managers/trimmanager.cpp:225
+#: src/timeline/managers/trimmanager.cpp:226
 #, fuzzy, kde-format
 msgid " Ripple "
 msgstr "फाईल विस्तारण"
 
-#: src/timeline/managers/trimmanager.cpp:228
+#: src/timeline/managers/trimmanager.cpp:229
 #, kde-format
 msgid " Rolling "
 msgstr ""
 
-#: src/timeline/managers/trimmanager.cpp:231
+#: src/timeline/managers/trimmanager.cpp:232
 #, fuzzy, kde-format
 msgid " Slide "
 msgstr "स्लाइड"
 
-#: src/timeline/managers/trimmanager.cpp:234
+#: src/timeline/managers/trimmanager.cpp:235
 #, kde-format
 msgid " Slip "
 msgstr ""
@@ -12312,6 +12239,36 @@ msgstr ""
 msgid "Unselect all"
 msgstr "सर्व निवड काढून टाका"
 
+#: src/titler/titlewidget.cpp:363
+#, kde-format
+msgid "Align item horizontally"
+msgstr ""
+
+#: src/titler/titlewidget.cpp:365
+#, kde-format
+msgid "Align item vertically"
+msgstr ""
+
+#: src/titler/titlewidget.cpp:367
+#, kde-format
+msgid "Align item to top"
+msgstr ""
+
+#: src/titler/titlewidget.cpp:369
+#, kde-format
+msgid "Align item to bottom"
+msgstr ""
+
+#: src/titler/titlewidget.cpp:371
+#, kde-format
+msgid "Align item to right"
+msgstr ""
+
+#: src/titler/titlewidget.cpp:373
+#, kde-format
+msgid "Align item to left"
+msgstr ""
+
 #: src/titler/titlewidget.cpp:381 src/titler/titlewidget.cpp:384
 #, fuzzy, kde-format
 msgid "Selection Tool"
@@ -12683,7 +12640,9 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonLinkHandles)
 #: src/ui/bezierspline_ui.ui:89
 #, kde-format
-msgid "Link the handles' position.<br />Results in a natural spline."
+msgid ""
+"Link the handles' position for current point.<br />Results in a natural "
+"spline."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonUp)
@@ -12710,6 +12669,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, zoom_button)
 #. i18n: ectx: property (text), widget (QToolButton, unzoom_button)
 #. i18n: ectx: property (text), widget (QToolButton, buttonLinkHandles)
+#. i18n: ectx: property (text), widget (QToolButton, buttonDeletePoint)
 #. i18n: ectx: property (text), widget (QToolButton, buttonShowPixmap)
 #. i18n: ectx: property (text), widget (QToolButton, buttonZoomIn)
 #. i18n: ectx: property (text), widget (QToolButton, buttonZoomOut)
@@ -12778,80 +12738,92 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, button_edit)
 #. i18n: ectx: property (text), widget (QToolButton, button_delete)
 #. i18n: ectx: property (text), widget (QToolButton, button_download)
-#. i18n: ectx: property (text), widget (QToolButton, buttonleft)
-#. i18n: ectx: property (text), widget (QToolButton, buttonhcenter)
-#. i18n: ectx: property (text), widget (QToolButton, buttonright)
-#. i18n: ectx: property (text), widget (QToolButton, buttontop)
-#. i18n: ectx: property (text), widget (QToolButton, buttonvcenter)
-#. i18n: ectx: property (text), widget (QToolButton, buttonbottom)
 #. i18n: ectx: property (text), widget (QToolButton, add_metadata)
 #. i18n: ectx: property (text), widget (QToolButton, delete_metadata)
-#: src/ui/bezierspline_ui.ui:92 src/ui/bezierspline_ui.ui:130
-#: src/ui/bezierspline_ui.ui:146 src/ui/bezierspline_ui.ui:156
-#: src/ui/bezierspline_ui.ui:169 src/ui/bezierspline_ui.ui:195
-#: src/ui/bezierspline_ui.ui:208 src/ui/clipproperties_ui.ui:490
-#: src/ui/clipproperties_ui.ui:500 src/ui/clipproperties_ui.ui:587
-#: src/ui/clipproperties_ui.ui:597 src/ui/clipproperties_ui.ui:607
-#: src/ui/clipspeed_ui.ui:101 src/ui/collapsiblewidget_ui.ui:83
-#: src/ui/collapsiblewidget_ui.ui:115 src/ui/collapsiblewidget_ui.ui:134
-#: src/ui/collapsiblewidget_ui.ui:153 src/ui/collapsiblewidget_ui.ui:169
-#: src/ui/collapsiblewidget_ui.ui:185 src/ui/configcapture_ui.ui:198
-#: src/ui/configcapture_ui.ui:383 src/ui/configcapture_ui.ui:420
-#: src/ui/configcapture_ui.ui:603 src/ui/configcapture_ui.ui:729
-#: src/ui/configcapture_ui.ui:736 src/ui/configjogshuttle_ui.ui:78
-#: src/ui/configproject_ui.ui:55 src/ui/configproject_ui.ui:65
-#: src/ui/configproject_ui.ui:211 src/ui/configproject_ui.ui:221
-#: src/ui/configsdl_ui.ui:154 src/ui/cutjobdialog_ui.ui:30
-#: src/ui/dvdwizardmenu_ui.ui:280 src/ui/dvdwizardmenu_ui.ui:287
-#: src/ui/dvdwizardvob_ui.ui:29 src/ui/dvdwizardvob_ui.ui:49
-#: src/ui/dvdwizardvob_ui.ui:100 src/ui/effectlist_ui.ui:83
-#: src/ui/effectlist_ui.ui:102 src/ui/effectlist_ui.ui:118
-#: src/ui/effectlist_ui.ui:134 src/ui/effectlist_ui.ui:150
-#: src/ui/freesound_ui.ui:39 src/ui/geometryval_ui.ui:249
-#: src/ui/geometryval_ui.ui:256 src/ui/geometryval_ui.ui:263
-#: src/ui/geometryval_ui.ui:270 src/ui/geometryval_ui.ui:277
-#: src/ui/geometryval_ui.ui:284 src/ui/geometrywidget_ui.ui:70
-#: src/ui/geometrywidget_ui.ui:83 src/ui/geometrywidget_ui.ui:93
-#: src/ui/gradientedit_ui.ui:126 src/ui/gradientedit_ui.ui:143
-#: src/ui/keyframeeditor_ui.ui:91 src/ui/keyframeeditor_ui.ui:101
-#: src/ui/keyframewidget_ui.ui:46 src/ui/keyframewidget_ui.ui:59
-#: src/ui/keyframewidget_ui.ui:72 src/ui/keyframewidget_ui.ui:85
-#: src/ui/keyframewidget_ui.ui:124 src/ui/manageencodingprofile_ui.ui:44
-#: src/ui/manageencodingprofile_ui.ui:51 src/ui/manageencodingprofile_ui.ui:58
-#: src/ui/manageencodingprofile_ui.ui:68 src/ui/monitoreditwidget_ui.ui:53
-#: src/ui/monitoreditwidget_ui.ui:66 src/ui/monitoreditwidget_ui.ui:76
-#: src/ui/projectsettings_ui.ui:152 src/ui/projectsettings_ui.ui:172
-#: src/ui/projectsettings_ui.ui:259 src/ui/projectsettings_ui.ui:269
-#: src/ui/projectsettings_ui.ui:365 src/ui/projectsettings_ui.ui:372
-#: src/ui/qtextclip_ui.ui:65 src/ui/recmonitor_ui.ui:72
-#: src/ui/renderwidget_ui.ui:612 src/ui/renderwidget_ui.ui:854
-#: src/ui/selectivecolor_ui.ui:29 src/ui/selectivecolor_ui.ui:36
-#: src/ui/stopmotion_ui.ui:76 src/ui/stopmotion_ui.ui:92
-#: src/ui/stopmotion_ui.ui:108 src/ui/stopmotion_ui.ui:118
-#: src/ui/stopmotion_ui.ui:128 src/ui/stopmotion_ui.ui:141
-#: src/ui/titlewidget_ui.ui:499 src/ui/titlewidget_ui.ui:515
-#: src/ui/titlewidget_ui.ui:539 src/ui/titlewidget_ui.ui:549
-#: src/ui/titlewidget_ui.ui:556 src/ui/titlewidget_ui.ui:569
-#: src/ui/titlewidget_ui.ui:635 src/ui/titlewidget_ui.ui:869
-#: src/ui/titlewidget_ui.ui:1258 src/ui/titlewidget_ui.ui:1265
-#: src/ui/titlewidget_ui.ui:1272 src/ui/titlewidget_ui.ui:1279
-#: src/ui/titlewidget_ui.ui:1286 src/ui/titlewidget_ui.ui:1293
-#: src/ui/tracksconfigdialog_ui.ui:51 src/ui/tracksconfigdialog_ui.ui:58
-#: src/ui/tracksconfigdialog_ui.ui:65 src/ui/tracksconfigdialog_ui.ui:72
-#: src/ui/tracksconfigdialog_ui.ui:79 src/ui/unicodewidget_ui.ui:197
-#: src/ui/unicodewidget_ui.ui:222
+#: src/ui/bezierspline_ui.ui:92 src/ui/bezierspline_ui.ui:108
+#: src/ui/bezierspline_ui.ui:143 src/ui/bezierspline_ui.ui:162
+#: src/ui/bezierspline_ui.ui:175 src/ui/bezierspline_ui.ui:188
+#: src/ui/bezierspline_ui.ui:214 src/ui/bezierspline_ui.ui:227
+#: src/ui/clipproperties_ui.ui:490 src/ui/clipproperties_ui.ui:500
+#: src/ui/clipproperties_ui.ui:587 src/ui/clipproperties_ui.ui:597
+#: src/ui/clipproperties_ui.ui:607 src/ui/clipspeed_ui.ui:101
+#: src/ui/collapsiblewidget_ui.ui:83 src/ui/collapsiblewidget_ui.ui:115
+#: src/ui/collapsiblewidget_ui.ui:134 src/ui/collapsiblewidget_ui.ui:153
+#: src/ui/collapsiblewidget_ui.ui:169 src/ui/collapsiblewidget_ui.ui:185
+#: src/ui/configcapture_ui.ui:198 src/ui/configcapture_ui.ui:383
+#: src/ui/configcapture_ui.ui:420 src/ui/configcapture_ui.ui:603
+#: src/ui/configcapture_ui.ui:729 src/ui/configcapture_ui.ui:736
+#: src/ui/configjogshuttle_ui.ui:78 src/ui/configproject_ui.ui:55
+#: src/ui/configproject_ui.ui:65 src/ui/configproject_ui.ui:211
+#: src/ui/configproject_ui.ui:221 src/ui/configsdl_ui.ui:154
+#: src/ui/cutjobdialog_ui.ui:30 src/ui/dvdwizardmenu_ui.ui:280
+#: src/ui/dvdwizardmenu_ui.ui:287 src/ui/dvdwizardvob_ui.ui:29
+#: src/ui/dvdwizardvob_ui.ui:49 src/ui/dvdwizardvob_ui.ui:100
+#: src/ui/effectlist_ui.ui:83 src/ui/effectlist_ui.ui:102
+#: src/ui/effectlist_ui.ui:118 src/ui/effectlist_ui.ui:134
+#: src/ui/effectlist_ui.ui:150 src/ui/freesound_ui.ui:39
+#: src/ui/geometrywidget_ui.ui:70 src/ui/geometrywidget_ui.ui:83
+#: src/ui/geometrywidget_ui.ui:93 src/ui/gradientedit_ui.ui:126
+#: src/ui/gradientedit_ui.ui:143 src/ui/keyframeeditor_ui.ui:91
+#: src/ui/keyframeeditor_ui.ui:101 src/ui/keyframewidget_ui.ui:46
+#: src/ui/keyframewidget_ui.ui:59 src/ui/keyframewidget_ui.ui:72
+#: src/ui/keyframewidget_ui.ui:85 src/ui/keyframewidget_ui.ui:124
+#: src/ui/manageencodingprofile_ui.ui:44 src/ui/manageencodingprofile_ui.ui:51
+#: src/ui/manageencodingprofile_ui.ui:58 src/ui/manageencodingprofile_ui.ui:68
+#: src/ui/monitoreditwidget_ui.ui:53 src/ui/monitoreditwidget_ui.ui:66
+#: src/ui/monitoreditwidget_ui.ui:76 src/ui/projectsettings_ui.ui:152
+#: src/ui/projectsettings_ui.ui:172 src/ui/projectsettings_ui.ui:259
+#: src/ui/projectsettings_ui.ui:269 src/ui/projectsettings_ui.ui:365
+#: src/ui/projectsettings_ui.ui:372 src/ui/qtextclip_ui.ui:65
+#: src/ui/recmonitor_ui.ui:72 src/ui/renderwidget_ui.ui:612
+#: src/ui/renderwidget_ui.ui:854 src/ui/selectivecolor_ui.ui:29
+#: src/ui/selectivecolor_ui.ui:36 src/ui/stopmotion_ui.ui:76
+#: src/ui/stopmotion_ui.ui:92 src/ui/stopmotion_ui.ui:108
+#: src/ui/stopmotion_ui.ui:118 src/ui/stopmotion_ui.ui:128
+#: src/ui/stopmotion_ui.ui:141 src/ui/titlewidget_ui.ui:499
+#: src/ui/titlewidget_ui.ui:515 src/ui/titlewidget_ui.ui:539
+#: src/ui/titlewidget_ui.ui:549 src/ui/titlewidget_ui.ui:556
+#: src/ui/titlewidget_ui.ui:569 src/ui/titlewidget_ui.ui:635
+#: src/ui/titlewidget_ui.ui:869 src/ui/titlewidget_ui.ui:1258
+#: src/ui/titlewidget_ui.ui:1265 src/ui/titlewidget_ui.ui:1272
+#: src/ui/titlewidget_ui.ui:1279 src/ui/titlewidget_ui.ui:1286
+#: src/ui/titlewidget_ui.ui:1293 src/ui/tracksconfigdialog_ui.ui:51
+#: src/ui/tracksconfigdialog_ui.ui:58 src/ui/tracksconfigdialog_ui.ui:65
+#: src/ui/tracksconfigdialog_ui.ui:72 src/ui/tracksconfigdialog_ui.ui:79
+#: src/ui/unicodewidget_ui.ui:197 src/ui/unicodewidget_ui.ui:222
 #, kde-format
 msgid "..."
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonDeletePoint)
+#: src/ui/bezierspline_ui.ui:105
+#, fuzzy, kde-format
+#| msgid "Close the current tab"
+msgid "Delete current point"
+msgstr "वर्तमान टॅब बंद करा"
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonShowPixmap)
-#: src/ui/bezierspline_ui.ui:127
+#: src/ui/bezierspline_ui.ui:140
 #, kde-format
 msgid "Show background indicating changes caused by modifying the curve."
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonZoomIn)
+#: src/ui/bezierspline_ui.ui:159
+#, fuzzy, kde-format
+#| msgid "Zoom In"
+msgid "Zoom in"
+msgstr "मोठे करा"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, buttonZoomOut)
+#: src/ui/bezierspline_ui.ui:172
+#, fuzzy, kde-format
+#| msgid "Zoom Out"
+msgid "Zoom out"
+msgstr "लहान करा"
+
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonGridChange)
-#: src/ui/bezierspline_ui.ui:166
+#: src/ui/bezierspline_ui.ui:185
 #, kde-format
 msgid ""
 "Increases the number of lines in the grid.<br />After 8 lines it will begin "
@@ -12859,21 +12831,22 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonResetSpline)
-#: src/ui/bezierspline_ui.ui:192
+#: src/ui/bezierspline_ui.ui:211
 #, kde-format
 msgid "Reset the selected spline"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonShowAllHandles)
-#: src/ui/bezierspline_ui.ui:205
+#: src/ui/bezierspline_ui.ui:224
 #, kde-format
 msgid "Show handles for all points or only for the selected one"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, name)
-#: src/ui/boolval_ui.ui:30 src/ui/fontval_ui.ui:23 src/ui/listval_ui.ui:23
-#: src/ui/urlval_ui.ui:31
+#. i18n: ectx: property (text), widget (QLabel, m_labelName)
+#: src/ui/boolparamwidget_ui.ui:30 src/ui/fontval_ui.ui:23
+#: src/ui/listparamwidget_ui.ui:23 src/ui/urlval_ui.ui:31
 #, kde-format
 msgid "TextLabel"
 msgstr "पाठ्य-लेबल"
@@ -12998,9 +12971,7 @@ msgstr "टीप"
 
 #. i18n: ectx: property (text), widget (QToolButton, buttonUnselectAll)
 #. i18n: ectx: property (text), widget (QToolButton, marker_new)
-#. i18n: ectx: property (text), widget (QToolButton, buttonNext)
-#: src/ui/clipproperties_ui.ui:440 src/ui/geometryval_ui.ui:83
-#: src/ui/titlewidget_ui.ui:362
+#: src/ui/clipproperties_ui.ui:440 src/ui/titlewidget_ui.ui:362
 #, fuzzy, kde-format
 msgid "N"
 msgstr "N"
@@ -13014,10 +12985,8 @@ msgstr "E"
 #. i18n: ectx: property (text), widget (QToolButton, button_delete)
 #. i18n: ectx: property (text), widget (QToolButton, delete_button)
 #. i18n: ectx: property (text), widget (QToolButton, marker_delete)
-#. i18n: ectx: property (text), widget (QToolButton, buttonDelete)
 #: src/ui/clipproperties_ui.ui:460 src/ui/dvdwizardmenu_ui.ui:270
-#: src/ui/geometryval_ui.ui:103 src/ui/keyframeeditor_ui.ui:78
-#: src/ui/profiledialog_ui.ui:23
+#: src/ui/keyframeeditor_ui.ui:78 src/ui/profiledialog_ui.ui:23
 #, fuzzy, kde-format
 msgid "D"
 msgstr "D"
@@ -14002,10 +13971,8 @@ msgstr "पार्श्वभूमी"
 #. i18n: ectx: property (text), widget (QToolButton, button_add)
 #. i18n: ectx: property (text), widget (QToolButton, add_button)
 #. i18n: ectx: property (text), widget (QToolButton, buttonSelectAll)
-#. i18n: ectx: property (text), widget (QToolButton, buttonAdd)
-#: src/ui/dvdwizardmenu_ui.ui:260 src/ui/geometryval_ui.ui:93
-#: src/ui/keyframeeditor_ui.ui:68 src/ui/timelinebuttons_ui.ui:71
-#: src/ui/titlewidget_ui.ui:342
+#: src/ui/dvdwizardmenu_ui.ui:260 src/ui/keyframeeditor_ui.ui:68
+#: src/ui/timelinebuttons_ui.ui:71 src/ui/titlewidget_ui.ui:342
 #, fuzzy, kde-format
 msgid "A"
 msgstr "A"
@@ -14153,36 +14120,6 @@ msgstr "आयात"
 #, fuzzy, kde-format
 msgid "License"
 msgstr "परवाना :"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonMenu)
-#: src/ui/geometryval_ui.ui:63
-#, fuzzy, kde-format
-msgid "M"
-msgstr "M"
-
-#. i18n: ectx: property (text), widget (QToolButton, buttonPrevious)
-#: src/ui/geometryval_ui.ui:73
-#, fuzzy, kde-format
-msgid "P"
-msgstr "P"
-
-#. i18n: ectx: property (text), widget (QLabel, label_pos)
-#: src/ui/geometryval_ui.ui:127
-#, kde-format
-msgid "Pos"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/geometryval_ui.ui:219
-#, fuzzy, kde-format
-msgid "Resize:"
-msgstr "आकार बदला"
-
-#. i18n: ectx: property (text), widget (QPushButton, buttonResize)
-#: src/ui/geometryval_ui.ui:242
-#, kde-format
-msgid "Original"
-msgstr "मूळ"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/ui/gradientedit_ui.ui:96
@@ -15465,6 +15402,21 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~ msgid "M"
+#~ msgstr "M"
+
+#, fuzzy
+#~ msgid "P"
+#~ msgstr "P"
+
+#, fuzzy
+#~ msgid "Resize:"
+#~ msgstr "आकार बदला"
+
+#~ msgid "Original"
+#~ msgstr "मूळ"
+
+#, fuzzy
 #~ msgid "Loading playlist"
 #~ msgstr "दाखल करत आहे..."
 
@@ -15716,9 +15668,6 @@ msgstr ""
 
 #~ msgid "All"
 #~ msgstr "सर्व"
-
-#~ msgid "Close the current tab"
-#~ msgstr "वर्तमान टॅब बंद करा"
 
 #~ msgid "License: %1"
 #~ msgstr "परवाना: %1"
