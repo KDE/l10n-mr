@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-01-31 09:42+0100\n"
+"POT-Creation-Date: 2017-02-01 03:57+0100\n"
 "PO-Revision-Date: 2013-03-15 14:10+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -16,11 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
-
-#: config/genericconfigpage.cpp:101
-#, kde-format
-msgid "Global settings"
-msgstr "जागतिक संयोजना"
 
 #: config/globalconfigpage.cpp:49 launcher.cpp:116 plugin.cpp:115
 #, kde-format
@@ -80,80 +75,50 @@ msgstr ""
 msgid "&Massif Visualizer"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: config/ui/genericconfig.ui:25
-#, kde-format
-msgid "E&xtra valgrind parameters"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: config/ui/genericconfig.ui:45
-#, kde-format
-msgid "Display stac&k to depth"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: config/ui/genericconfig.ui:71
-#, kde-format
-msgid "&Maximum frame stack size (bytes)"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: config/ui/genericconfig.ui:97
-#, kde-format
-msgid "Default valgrind tool"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, limitErrors)
-#: config/ui/genericconfig.ui:135
-#, kde-format
-msgid "Limit errors if too many"
-msgstr ""
-
-#: interfaces/ijob.cpp:115
+#: interfaces/ijob.cpp:116
 #, kde-format
 msgid ""
 "No environment group specified, looks like a broken configuration, please "
 "check run configuration '%1'. Using default environment group."
 msgstr ""
 
-#: interfaces/ijob.cpp:274 interfaces/ijob.cpp:326 interfaces/ijob.cpp:377
-#: tools/memcheck/parser.cpp:156
+#: interfaces/ijob.cpp:279 interfaces/ijob.cpp:330 interfaces/ijob.cpp:381
+#: tools/memcheck/parser.cpp:160
 #, kde-format
 msgid "Valgrind Error"
 msgstr ""
 
-#: interfaces/ijob.cpp:298
+#: interfaces/ijob.cpp:302
 #, kde-format
 msgid "Failed to start valgrind from \"%1\"."
 msgstr ""
 
-#: interfaces/ijob.cpp:305
+#: interfaces/ijob.cpp:309
 #, kde-format
 msgid "Valgrind crashed."
 msgstr ""
 
-#: interfaces/ijob.cpp:309
+#: interfaces/ijob.cpp:313
 #, kde-format
 msgid "Valgrind process timed out."
 msgstr ""
 
-#: interfaces/ijob.cpp:313
+#: interfaces/ijob.cpp:317
 #, kde-format
 msgid "Write to Valgrind process failed."
 msgstr ""
 
-#: interfaces/ijob.cpp:317
+#: interfaces/ijob.cpp:321
 #, kde-format
 msgid "Read from Valgrind process failed."
 msgstr ""
 
-#: interfaces/ijob.cpp:321
+#: interfaces/ijob.cpp:325
 #, kde-format
 msgid "Unknown Valgrind process error."
 msgstr ""
 
-#: interfaces/ijob.cpp:376
+#: interfaces/ijob.cpp:380
 #, kde-format
 msgid "Unable to launch the process %1 (%2)"
 msgstr ""
@@ -175,7 +140,7 @@ msgstr ""
 msgid "Valgrind (Current Launch Configuration)"
 msgstr ""
 
-#: tools/cachegrind/configpage.cpp:68
+#: tools/cachegrind/configpage.cpp:44
 #, kde-format
 msgid "Cachegrind"
 msgstr ""
@@ -352,7 +317,7 @@ msgstr ""
 msgid "Bim (Indirect branches mispredicted)"
 msgstr ""
 
-#: tools/callgrind/configpage.cpp:68
+#: tools/callgrind/configpage.cpp:43
 #, kde-format
 msgid "Callgrind"
 msgstr ""
@@ -418,7 +383,43 @@ msgstr ""
 msgid "Callee"
 msgstr ""
 
-#: tools/massif/configpage.cpp:92
+#: tools/generic/configpage.cpp:55
+#, fuzzy, kde-format
+#| msgid "Global settings"
+msgid "Valgrind global settings"
+msgstr "जागतिक संयोजना"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: tools/generic/configpage.ui:25
+#, kde-format
+msgid "&Extra parameters"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: tools/generic/configpage.ui:45
+#, kde-format
+msgid "Display stac&k to depth"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: tools/generic/configpage.ui:71
+#, kde-format
+msgid "&Maximum frame stack size (bytes)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: tools/generic/configpage.ui:97
+#, kde-format
+msgid "Default valgrind tool"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, limitErrors)
+#: tools/generic/configpage.ui:135
+#, kde-format
+msgid "Limit errors if too many"
+msgstr ""
+
+#: tools/massif/configpage.cpp:56
 #, kde-format
 msgid "Massif"
 msgstr ""
@@ -509,7 +510,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, launchMassifVisualizer)
 #: tools/massif/configpage.ui:228
 #, kde-format
-msgid "Launch Massif Visualizer  after finish"
+msgid "Launch Massif Visualizer after finish"
 msgstr ""
 
 #: tools/massif/model.cpp:147
@@ -537,7 +538,7 @@ msgstr ""
 msgid "mem_stacks_B"
 msgstr ""
 
-#: tools/memcheck/configpage.cpp:130
+#: tools/memcheck/configpage.cpp:49
 #, kde-format
 msgid "Memcheck"
 msgstr ""
@@ -586,10 +587,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, undefValueErrors)
 #: tools/memcheck/configpage.ui:94
 #, kde-format
-msgid "Undef Value Errors"
+msgid "Undef value errors"
 msgstr ""
 
-#: tools/memcheck/parser.cpp:152
+#. i18n: ectx: property (text), widget (QCheckBox, showInstructionPointer)
+#: tools/memcheck/configpage.ui:104
+#, kde-format
+msgid "Show instruction pointer"
+msgstr ""
+
+#: tools/memcheck/parser.cpp:156
 #, kde-format
 msgid "Valgrind XML Parsing: error at line %1, column %2: %3"
 msgstr ""
