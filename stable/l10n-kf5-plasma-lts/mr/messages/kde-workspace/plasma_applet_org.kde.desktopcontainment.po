@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-01 07:37+0100\n"
+"POT-Creation-Date: 2017-02-10 07:49+0100\n"
 "PO-Revision-Date: 2013-03-28 16:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -31,7 +31,7 @@ msgstr "ठिकाण"
 
 #: package/contents/config/config.qml:36
 #: package/contents/ui/ConfigIcons.qml:252
-#: package/contents/ui/FolderViewLayer.qml:340
+#: package/contents/ui/FolderViewLayer.qml:342
 msgid "Icons"
 msgstr "चिन्ह"
 
@@ -58,6 +58,10 @@ msgstr ""
 
 #: package/contents/ui/AppletHandle.qml:312
 msgid "Remove"
+msgstr ""
+
+#: package/contents/ui/BackButtonItem.qml:105
+msgid "Back"
 msgstr ""
 
 #: package/contents/ui/ConfigFilter.qml:53
@@ -344,29 +348,23 @@ msgstr "ऐच्छिक शिर्षक"
 msgid "Enter custom title here"
 msgstr "ऐच्छिक शिर्षक येथे दाखल करा"
 
-#: package/contents/ui/ConfigTweaks.qml:44
-msgid ""
-"Tweaks are experimental options that may become defaults depending on your "
-"feedback."
-msgstr ""
-
-#: package/contents/ui/ConfigTweaks.qml:50
+#: package/contents/ui/ConfigTweaks.qml:42
 #, fuzzy
 #| msgid "Desktop Folder"
 msgid "Desktop Layout"
 msgstr "डेस्कटॉप संचयीका"
 
-#: package/contents/ui/ConfigTweaks.qml:59
+#: package/contents/ui/ConfigTweaks.qml:51
 #, fuzzy
 #| msgid "Show the Desktop folder"
 msgid "Show the desktop toolbox"
 msgstr "डेस्कटॉप संचयीका दर्शवा"
 
-#: package/contents/ui/ConfigTweaks.qml:67
+#: package/contents/ui/ConfigTweaks.qml:59
 msgid "Widget Handling"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:77
+#: package/contents/ui/ConfigTweaks.qml:69
 msgid "Press and hold widgets to move them and reveal their handles"
 msgstr ""
 
@@ -402,165 +400,65 @@ msgstr ""
 msgid "Configure Desktop"
 msgstr "डेस्कटॉप ताजा करा (&R)"
 
-#: package/contents/ui/UpButtonItem.qml:105
-msgid "Up"
-msgstr ""
-
 #: plugins/folder/directorypicker.cpp:45
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Folder"
 msgstr "सर्व निवडा"
 
-#: plugins/folder/foldermodel.cpp:250
+#: plugins/folder/foldermodel.cpp:254
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "डेस्कटॉप ताजा करा (&R)"
 
-#: plugins/folder/foldermodel.cpp:250 plugins/folder/foldermodel.cpp:1191
+#: plugins/folder/foldermodel.cpp:254 plugins/folder/foldermodel.cpp:1235
 #, kde-format
 msgid "&Refresh View"
 msgstr "दृश्य ताजे करा (&R)"
 
-#: plugins/folder/foldermodel.cpp:1188
+#: plugins/folder/foldermodel.cpp:1232
 #, kde-format
 msgid "&Reload"
 msgstr "पुन्हा दाखल करा (&R)"
 
-#: plugins/folder/foldermodel.cpp:1194
+#: plugins/folder/foldermodel.cpp:1238
 #, kde-format
 msgid "&Rename"
 msgstr "नाव बदला (&R)"
 
-#: plugins/folder/foldermodel.cpp:1197
+#: plugins/folder/foldermodel.cpp:1241
 #, kde-format
 msgid "&Move to Trash"
 msgstr "कचरापेटीकडे हलवा (&M)"
 
-#: plugins/folder/foldermodel.cpp:1200
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:334
+#: plugins/folder/foldermodel.cpp:1244
 #, kde-format
 msgid "&Empty Trash Bin"
 msgstr "कचरापेटी रिकामी करा (&E)"
 
-#: plugins/folder/foldermodel.cpp:1203
+#: plugins/folder/foldermodel.cpp:1247
+#, fuzzy, kde-format
+#| msgid "&Restore"
+msgctxt "Restore from trash"
+msgid "Restore"
+msgstr "पुन्हस्थापन (&R)"
+
+#: plugins/folder/foldermodel.cpp:1250
 #, kde-format
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
 
-#: plugins/folder/foldermodel.cpp:1263
-#, kde-format
-msgid "&Paste"
-msgstr "चिकटवा (&P)"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:84
-#, kde-format
-msgctxt "@title:menu"
-msgid "Copy To"
-msgstr "येथे प्रत करा"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:90
-#, kde-format
-msgctxt "@title:menu"
-msgid "Move To"
-msgstr "येथे हलवा"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:114
-#, fuzzy, kde-format
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Home Folder"
-msgstr "डेस्कटॉप संचयीका"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:121
-#, fuzzy, kde-format
-#| msgid "Desktop Folder"
-msgctxt "@title:menu"
-msgid "Root Folder"
-msgstr "डेस्कटॉप संचयीका"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:156
-#, kde-format
-msgctxt "@title:menu in Copy To or Move To submenu"
-msgid "Browse..."
-msgstr "संचार करा..."
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
-#, kde-format
-msgctxt "@title:menu"
-msgid "Copy Here"
-msgstr "येथे प्रत करा"
-
-#: plugins/folder/internallibkonq/konq_copytomenu.cpp:230
-#, kde-format
-msgctxt "@title:menu"
-msgid "Move Here"
-msgstr "येथे हलवा"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:241
+#: plugins/folder/foldermodel.cpp:1253
 #, kde-format
 msgid "&Open"
 msgstr "उघडा (&O)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:264
+#: plugins/folder/foldermodel.cpp:1323
 #, kde-format
-msgid "Create &Folder..."
-msgstr "संचयीका तयार करा (&F)..."
+msgid "&Paste"
+msgstr "चिकटवा (&P)"
 
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:275
-#, kde-format
-msgid "&Restore"
-msgstr "पुन्हस्थापन (&R)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, kde-format
-msgid "Show Original Directory"
-msgstr "मूळ संचयीका दर्शवा"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:299
-#, fuzzy, kde-format
-#| msgid "Show All Files"
-msgid "Show Original File"
-msgstr "सर्व फाईल दर्शवा"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:346
-#, fuzzy, kde-format
-#| msgid "&Empty Trash Bin"
-msgid "&Configure Trash Bin"
-msgstr "कचरापेटी रिकामी करा (&E)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:370
-#, kde-format
-msgid "&Bookmark This Page"
-msgstr "या पानास ओळखचिन्ह करा (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:372
-#, kde-format
-msgid "&Bookmark This Location"
-msgstr "या स्थानास ओळखचिन्ह करा (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:375
-#, kde-format
-msgid "&Bookmark This Folder"
-msgstr "या संचयीकेस ओळखचिन्ह करा (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:377
-#, kde-format
-msgid "&Bookmark This Link"
-msgstr "या लिंकला ओळखचिन्ह करा (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:379
-#, kde-format
-msgid "&Bookmark This File"
-msgstr "या फाईलला ओळखचिन्ह करा (&B)"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:413
-#, fuzzy, kde-format
-#| msgid "Previews:"
-msgid "Preview In"
-msgstr "पूर्वावलोकन :"
-
-#: plugins/folder/internallibkonq/konq_popupmenu.cpp:448
+#: plugins/folder/foldermodel.cpp:1445
 #, kde-format
 msgid "&Properties"
 msgstr "गुणधर्म (&P)"
@@ -626,6 +524,74 @@ msgstr ""
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy To"
+#~ msgstr "येथे प्रत करा"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move To"
+#~ msgstr "येथे हलवा"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Home Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgctxt "@title:menu"
+#~ msgid "Root Folder"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#~ msgctxt "@title:menu in Copy To or Move To submenu"
+#~ msgid "Browse..."
+#~ msgstr "संचार करा..."
+
+#~ msgctxt "@title:menu"
+#~ msgid "Copy Here"
+#~ msgstr "येथे प्रत करा"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Move Here"
+#~ msgstr "येथे हलवा"
+
+#~ msgid "Create &Folder..."
+#~ msgstr "संचयीका तयार करा (&F)..."
+
+#~ msgid "Show Original Directory"
+#~ msgstr "मूळ संचयीका दर्शवा"
+
+#, fuzzy
+#~| msgid "Show All Files"
+#~ msgid "Show Original File"
+#~ msgstr "सर्व फाईल दर्शवा"
+
+#, fuzzy
+#~| msgid "&Empty Trash Bin"
+#~ msgid "&Configure Trash Bin"
+#~ msgstr "कचरापेटी रिकामी करा (&E)"
+
+#~ msgid "&Bookmark This Page"
+#~ msgstr "या पानास ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This Location"
+#~ msgstr "या स्थानास ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This Folder"
+#~ msgstr "या संचयीकेस ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This Link"
+#~ msgstr "या लिंकला ओळखचिन्ह करा (&B)"
+
+#~ msgid "&Bookmark This File"
+#~ msgstr "या फाईलला ओळखचिन्ह करा (&B)"
+
+#, fuzzy
+#~| msgid "Previews:"
+#~ msgid "Preview In"
+#~ msgstr "पूर्वावलोकन :"
 
 #~ msgid "Share"
 #~ msgstr "शेअर"
