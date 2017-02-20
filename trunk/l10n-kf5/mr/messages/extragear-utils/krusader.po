@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-16 03:51+0100\n"
+"POT-Creation-Date: 2017-02-20 03:52+0100\n"
 "PO-Revision-Date: 2013-03-15 14:26+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -908,8 +908,8 @@ msgid "New Folder"
 msgstr "नवीन संचयीका"
 
 #: krusader/BookMan/kraddbookmarkdlg.cpp:107
-#: krusader/Filter/generalfilter.cpp:152 krusader/Filter/generalfilter.cpp:485
-#: krusader/VFS/krquery.cpp:244
+#: krusader/FileSystem/krquery.cpp:244 krusader/Filter/generalfilter.cpp:152
+#: krusader/Filter/generalfilter.cpp:485
 #, kde-format
 msgid "Folders"
 msgstr "संचयीका"
@@ -1899,6 +1899,107 @@ msgstr ""
 msgid "<qt><i>'%1'</i> will be <b>permanently</b> deleted.</qt>"
 msgstr ""
 
+#: krusader/FileSystem/defaultfilesystem.cpp:152
+#, kde-format
+msgid "Space information disabled"
+msgstr ""
+
+#: krusader/FileSystem/defaultfilesystem.cpp:158
+#, kde-format
+msgid "No space information on non-local filesystems"
+msgstr ""
+
+#: krusader/FileSystem/defaultfilesystem.cpp:166
+#, fuzzy, kde-format
+#| msgid "Show space information"
+msgid "Space information unavailable"
+msgstr "जागेविषयी माहिती दर्शवा"
+
+#: krusader/FileSystem/defaultfilesystem.cpp:182
+#, kde-format
+msgid ""
+"Protocol not supported by Krusader:\n"
+"%1"
+msgstr ""
+
+#: krusader/FileSystem/defaultfilesystem.cpp:312
+#, kde-format
+msgid "The folder %1 does not exist."
+msgstr ""
+
+#: krusader/FileSystem/defaultfilesystem.cpp:328
+#: krusader/Synchronizer/synchronizerdirlist.cpp:134
+#, kde-format
+msgid "Cannot open the folder %1."
+msgstr ""
+
+#: krusader/FileSystem/defaultfilesystem.cpp:335
+#, kde-format
+msgctxt "%1=folder path"
+msgid "Access to %1 denied"
+msgstr ""
+
+#: krusader/FileSystem/filesystem.cpp:154
+#, kde-format
+msgid ""
+"Malformed URL:\n"
+"%1"
+msgstr ""
+
+#: krusader/FileSystem/krquery.cpp:243 krusader/Filter/generalfilter.cpp:151
+#: krusader/Konfigurator/konfigurator.cpp:146
+#, kde-format
+msgid "Archives"
+msgstr "संग्रह"
+
+#: krusader/FileSystem/krquery.cpp:245 krusader/Filter/generalfilter.cpp:153
+#, kde-format
+msgid "Image Files"
+msgstr ""
+
+#: krusader/FileSystem/krquery.cpp:246 krusader/Filter/generalfilter.cpp:154
+#, kde-format
+msgid "Text Files"
+msgstr "पाठ्य फाईल"
+
+#: krusader/FileSystem/krquery.cpp:247 krusader/Filter/generalfilter.cpp:155
+#, kde-format
+msgid "Video Files"
+msgstr ""
+
+#: krusader/FileSystem/krquery.cpp:248 krusader/Filter/generalfilter.cpp:156
+#, kde-format
+msgid "Audio Files"
+msgstr "ऑडिओ फाईल्स"
+
+#: krusader/FileSystem/krquery.cpp:249
+#, kde-format
+msgid "Custom"
+msgstr "ऐच्छिक"
+
+#: krusader/FileSystem/krquery.cpp:532
+#, kde-format
+msgctxt "%1=filename, %2=percentage"
+msgid "Searching content of '%1' (%2%)"
+msgstr ""
+
+#: krusader/FileSystem/virtualfilesystem.cpp:64
+#, kde-format
+msgid ""
+"You cannot copy files directly to the 'virt:/' folder.\n"
+"You can create a sub folder and copy your files into it."
+msgstr ""
+
+#: krusader/FileSystem/virtualfilesystem.cpp:135
+#, kde-format
+msgid "Creating new folders is allowed only in the 'virt:/' folder."
+msgstr ""
+
+#: krusader/FileSystem/virtualfilesystem.cpp:233
+#, kde-format
+msgid "Virtual filesystem"
+msgstr ""
+
 #: krusader/Filter/advancedfilter.cpp:69
 #, kde-format
 msgid "Size"
@@ -2251,32 +2352,6 @@ msgstr ""
 #, kde-format
 msgid "All Files"
 msgstr "सर्व फाईल्स"
-
-#: krusader/Filter/generalfilter.cpp:151
-#: krusader/Konfigurator/konfigurator.cpp:146 krusader/VFS/krquery.cpp:243
-#, kde-format
-msgid "Archives"
-msgstr "संग्रह"
-
-#: krusader/Filter/generalfilter.cpp:153 krusader/VFS/krquery.cpp:245
-#, kde-format
-msgid "Image Files"
-msgstr ""
-
-#: krusader/Filter/generalfilter.cpp:154 krusader/VFS/krquery.cpp:246
-#, kde-format
-msgid "Text Files"
-msgstr "पाठ्य फाईल"
-
-#: krusader/Filter/generalfilter.cpp:155 krusader/VFS/krquery.cpp:247
-#, kde-format
-msgid "Video Files"
-msgstr ""
-
-#: krusader/Filter/generalfilter.cpp:156 krusader/VFS/krquery.cpp:248
-#, kde-format
-msgid "Audio Files"
-msgstr "ऑडिओ फाईल्स"
 
 #: krusader/Filter/generalfilter.cpp:172
 #, kde-format
@@ -8062,12 +8137,6 @@ msgstr ""
 msgid "Feeding the URLs to KGet"
 msgstr ""
 
-#: krusader/Synchronizer/synchronizerdirlist.cpp:134
-#: krusader/VFS/default_vfs.cpp:328
-#, kde-format
-msgid "Cannot open the folder %1."
-msgstr ""
-
 #: krusader/Synchronizer/synchronizergui.cpp:1123
 #: krusader/Synchronizer/synchronizergui.cpp:2353
 #, kde-format
@@ -9174,75 +9243,6 @@ msgstr ""
 msgid ""
 "Backs current file up in current folder and asks the user for a new "
 "filename. By default \".old\" is appended to the original filename."
-msgstr ""
-
-#: krusader/VFS/default_vfs.cpp:152
-#, kde-format
-msgid "Space information disabled"
-msgstr ""
-
-#: krusader/VFS/default_vfs.cpp:158
-#, kde-format
-msgid "No space information on non-local filesystems"
-msgstr ""
-
-#: krusader/VFS/default_vfs.cpp:166
-#, fuzzy, kde-format
-#| msgid "Show space information"
-msgid "Space information unavailable"
-msgstr "जागेविषयी माहिती दर्शवा"
-
-#: krusader/VFS/default_vfs.cpp:182
-#, kde-format
-msgid ""
-"Protocol not supported by Krusader:\n"
-"%1"
-msgstr ""
-
-#: krusader/VFS/default_vfs.cpp:312
-#, kde-format
-msgid "The folder %1 does not exist."
-msgstr ""
-
-#: krusader/VFS/default_vfs.cpp:335
-#, kde-format
-msgctxt "%1=folder path"
-msgid "Access to %1 denied"
-msgstr ""
-
-#: krusader/VFS/krquery.cpp:249
-#, kde-format
-msgid "Custom"
-msgstr "ऐच्छिक"
-
-#: krusader/VFS/krquery.cpp:532
-#, kde-format
-msgctxt "%1=filename, %2=percentage"
-msgid "Searching content of '%1' (%2%)"
-msgstr ""
-
-#: krusader/VFS/vfs.cpp:154
-#, kde-format
-msgid ""
-"Malformed URL:\n"
-"%1"
-msgstr ""
-
-#: krusader/VFS/virt_vfs.cpp:64
-#, kde-format
-msgid ""
-"You cannot copy files directly to the 'virt:/' folder.\n"
-"You can create a sub folder and copy your files into it."
-msgstr ""
-
-#: krusader/VFS/virt_vfs.cpp:135
-#, kde-format
-msgid "Creating new folders is allowed only in the 'virt:/' folder."
-msgstr ""
-
-#: krusader/VFS/virt_vfs.cpp:233
-#, kde-format
-msgid "Virtual filesystem"
 msgstr ""
 
 #, fuzzy
