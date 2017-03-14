@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-06 04:03+0100\n"
+"POT-Creation-Date: 2017-03-14 08:23+0100\n"
 "PO-Revision-Date: 2013-03-05 14:53+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -502,7 +502,7 @@ msgstr "अयोग्य गुप्तशब्द."
 msgid "Incorrect password."
 msgstr "अयोग्य गुप्तशब्द."
 
-#: kerfuffle/cliinterface.cpp:925
+#: kerfuffle/cliinterface.cpp:929
 #, kde-format
 msgid "Ark does not currently support testing this archive."
 msgstr ""
@@ -903,9 +903,11 @@ msgid ""
 msgstr ""
 
 #: kerfuffle/jobs.cpp:650
-#, kde-format
-msgid "Adding a file"
-msgid_plural "Adding %1 files"
+#, fuzzy, kde-format
+#| msgid "Adding a file"
+#| msgid_plural "Adding %1 files"
+msgid "Compressing a file"
+msgid_plural "Compressing %1 files"
 msgstr[0] "फाईल जोडत आहे"
 msgstr[1] "%1 फाईल्स जोडत आहे"
 
@@ -1929,6 +1931,13 @@ msgstr "संग्रह दाखल करत आहे..."
 msgid "Extraction failed."
 msgstr "फाईल बाहेर काढत आहे..."
 
+#: plugins/cli7zplugin/cliplugin.cpp:292
+#, kde-format
+msgid ""
+"Delete operation failed. Try upgrading p7zip or disabling the p7zip plugin "
+"in the configuration dialog."
+msgstr ""
+
 #: plugins/clirarplugin/cliplugin.cpp:178
 #: plugins/clirarplugin/cliplugin.cpp:318
 #: plugins/clirarplugin/cliplugin.cpp:566
@@ -2076,6 +2085,11 @@ msgctxt "@info"
 msgid ""
 "There was an error while reading <filename>%1</filename> during extraction."
 msgstr ""
+
+#~ msgid "Adding a file"
+#~ msgid_plural "Adding %1 files"
+#~ msgstr[0] "फाईल जोडत आहे"
+#~ msgstr[1] "%1 फाईल्स जोडत आहे"
 
 #, fuzzy
 #~| msgid "<b>Type:</b> %1<br/>"
