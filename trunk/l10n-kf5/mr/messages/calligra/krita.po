@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-23 02:45+0100\n"
+"POT-Creation-Date: 2017-03-24 02:37+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -9348,37 +9348,52 @@ msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "प्रतिमा फिरवा"
 
-#: libs/image/kis_image.cc:758
+#: libs/image/kis_image.cc:759
+#, fuzzy
+#| msgid "Rotate Canvas"
+msgctxt "(qtundo-format)"
+msgid "Rotate Mask"
+msgstr "कॅनव्हास फिरवा"
+
+#: libs/image/kis_image.cc:761
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "स्तर फिरवा"
 
-#: libs/image/kis_image.cc:825
+#: libs/image/kis_image.cc:830
 #, fuzzy
+#| msgid "Unsharp Mask"
 msgctxt "(qtundo-format)"
-msgid "Shear layer"
-msgstr "शीयर स्तर"
+msgid "Shear Mask"
+msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:831
+#: libs/image/kis_image.cc:833
+#, fuzzy
+#| msgid "Shear Layer"
+msgctxt "(qtundo-format)"
+msgid "Shear Layer"
+msgstr "स्तर विभागा"
+
+#: libs/image/kis_image.cc:840
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:843
+#: libs/image/kis_image.cc:852
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:876
+#: libs/image/kis_image.cc:885
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1595
+#: libs/image/kis_image.cc:1604
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -12023,7 +12038,7 @@ msgstr ""
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:272
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:218
-#: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:795
+#: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:771
 #: libs/ui/KisApplication.cpp:679 libs/ui/KisApplication.cpp:682
 #: libs/ui/KisApplication.cpp:707 libs/ui/KisApplication.cpp:733
 #: libs/ui/KisApplication.cpp:754 libs/ui/KisDocument.cpp:766
@@ -15500,36 +15515,36 @@ msgstr "पासून वर्तमान स्तर बदला"
 msgid "New Filter Layer"
 msgstr "नवीन गाळणी स्तर"
 
-#: libs/ui/kis_layer_manager.cc:601
+#: libs/ui/kis_layer_manager.cc:577
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Flatten Image"
 msgstr "प्रतिमा सपाट करा"
 
-#: libs/ui/kis_layer_manager.cc:602
+#: libs/ui/kis_layer_manager.cc:578
 #, fuzzy, kde-format
 msgid ""
 "The image contains hidden layers that will be lost. Do you want to flatten "
 "the image?"
 msgstr "प्रतिमेत लपलेले स्तर असून ते नष्ट होतील."
 
-#: libs/ui/kis_layer_manager.cc:703
+#: libs/ui/kis_layer_manager.cc:679
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rasterize Layer"
 msgstr "स्तर रास्टराईझ करा"
 
-#: libs/ui/kis_layer_manager.cc:742
+#: libs/ui/kis_layer_manager.cc:718
 #, kde-format
 msgid "Convert Invisible Groups"
 msgstr "न दिसणारे समूह रूपांतरित करा"
 
-#: libs/ui/kis_layer_manager.cc:745
+#: libs/ui/kis_layer_manager.cc:721
 #, kde-format
 msgid "Export Only Toplevel Groups"
 msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
-#: libs/ui/kis_layer_manager.cc:795
+#: libs/ui/kis_layer_manager.cc:771
 #, kde-format
 msgid "No file name specified"
 msgstr ""
@@ -15656,64 +15671,64 @@ msgctxt "(qtundo-format)"
 msgid "Mirror Mask Y"
 msgstr "Y मुखवटा प्रतिबिंबित करा"
 
-#: libs/ui/kis_node_manager.cpp:955
+#: libs/ui/kis_node_manager.cpp:966
 #, fuzzy, kde-format
 msgid "Export \"%1\""
 msgstr "एक्सपोजर"
 
-#: libs/ui/kis_node_manager.cpp:1026
+#: libs/ui/kis_node_manager.cpp:1037
 msgctxt "(qtundo-format)"
 msgid "Split Alpha into a Mask"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1056
+#: libs/ui/kis_node_manager.cpp:1067
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Layer %1 is not editable"
 msgstr "समूह संपादनास अयोग्य."
 
-#: libs/ui/kis_node_manager.cpp:1057
+#: libs/ui/kis_node_manager.cpp:1068
 #, kde-format
 msgid ""
 "Cannot write alpha channel of the parent layer \"%1\".\n"
 "The operation will be cancelled."
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1088
+#: libs/ui/kis_node_manager.cpp:1099
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Write Alpha into a Layer"
 msgstr "रंगाचा स्तर (&P)"
 
-#: libs/ui/kis_node_manager.cpp:1136
+#: libs/ui/kis_node_manager.cpp:1147
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut Nodes"
 msgstr "प्रतिकृती"
 
-#: libs/ui/kis_node_manager.cpp:1211
+#: libs/ui/kis_node_manager.cpp:1222
 msgctxt "(qtundo-format)"
 msgid "Quick Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1222
+#: libs/ui/kis_node_manager.cpp:1233
 msgctxt "(qtundo-format)"
 msgid "Quick Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1229
+#: libs/ui/kis_node_manager.cpp:1240
 #, kde-format
 msgctxt "default name for a clipping group layer"
 msgid "Clipping Group"
 msgstr ""
 
-#: libs/ui/kis_node_manager.cpp:1231
+#: libs/ui/kis_node_manager.cpp:1242
 #, fuzzy, kde-format
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "रंगाचा स्तर (&P)"
 
-#: libs/ui/kis_node_manager.cpp:1245
+#: libs/ui/kis_node_manager.cpp:1256
 msgctxt "(qtundo-format)"
 msgid "Quick Ungroup"
 msgstr ""
@@ -37111,6 +37126,11 @@ msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
 
 #, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Shear layer"
+#~ msgstr "शीयर स्तर"
+
+#, fuzzy
 #~ msgid "Play / Pause"
 #~ msgstr "मॅक्रो वापरा"
 
@@ -57031,12 +57051,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Export Layer"
 #~ msgstr "निर्यात स्तर"
-
-#, fuzzy
-#~| msgid "Shear Layer"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Layer"
-#~ msgstr "स्तर विभागा"
 
 #, fuzzy
 #~ msgctxt "(qtundo-format)"
