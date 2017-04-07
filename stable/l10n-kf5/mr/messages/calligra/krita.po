@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-05 04:25+0200\n"
+"POT-Creation-Date: 2017-04-07 04:34+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -11294,7 +11294,7 @@ msgstr "वर"
 msgid "Down"
 msgstr "पॅन खाली"
 
-#: libs/ui/canvas/kis_animation_player.cpp:232
+#: libs/ui/canvas/kis_animation_player.cpp:235
 #, kde-format
 msgctxt "floating on-canvas message"
 msgid ""
@@ -11515,6 +11515,7 @@ msgstr "बंद करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
 #: libs/ui/dialogs/kis_delayed_save_dialog.cpp:62
+#: libs/ui/dialogs/KisAnimationCacheUpdateProgressDialog.cpp:36
 #: libs/ui/forms/KisOpenPaneBase.ui:72
 #: libs/ui/input/kis_tool_invocation_action.cpp:58 libs/ui/kis_clipboard.cc:273
 #: libs/ui/KisView.cpp:541
@@ -11569,13 +11570,13 @@ msgstr "या गाळणीसाठी कोणतेही दुळवण
 msgid "Cleanup resource files"
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: libs/ui/dialogs/kis_dlg_filter.cpp:117
+#: libs/ui/dialogs/kis_dlg_filter.cpp:118
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Filter"
 msgstr "गाळणी"
 
-#: libs/ui/dialogs/kis_dlg_filter.cpp:117
+#: libs/ui/dialogs/kis_dlg_filter.cpp:118
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Filter: %1"
@@ -11819,9 +11820,9 @@ msgstr ""
 #: libs/ui/dialogs/kis_dlg_preferences.cc:263
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:218
 #: libs/ui/kis_filter_manager.cc:227 libs/ui/kis_layer_manager.cc:795
-#: libs/ui/KisApplication.cpp:679 libs/ui/KisApplication.cpp:682
-#: libs/ui/KisApplication.cpp:708 libs/ui/KisApplication.cpp:734
-#: libs/ui/KisApplication.cpp:755 libs/ui/KisDocument.cpp:789
+#: libs/ui/KisApplication.cpp:680 libs/ui/KisApplication.cpp:683
+#: libs/ui/KisApplication.cpp:709 libs/ui/KisApplication.cpp:735
+#: libs/ui/KisApplication.cpp:756 libs/ui/KisDocument.cpp:789
 #: libs/ui/KisDocument.cpp:791 libs/ui/KisDocument.cpp:1262
 #: libs/ui/KisDocument.cpp:1308 libs/ui/KisDocument.cpp:1356
 #: libs/ui/KisDocument.cpp:2004 libs/ui/KisDocument.cpp:2007
@@ -12011,6 +12012,12 @@ msgstr "लेखक"
 #, fuzzy, kde-format
 msgid "Stroke selection properties"
 msgstr "निवडलेले आकार फटकारे"
+
+#: libs/ui/dialogs/KisAnimationCacheUpdateProgressDialog.cpp:36
+#, fuzzy, kde-format
+#| msgid "&Generated Layer..."
+msgid "Regenerating cache..."
+msgstr "निर्माण केलेला स्तर &G)..."
 
 #: libs/ui/flake/kis_shape_controller.cpp:176
 #, kde-format
@@ -15691,58 +15698,58 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:273
+#: libs/ui/KisApplication.cpp:274
 #, fuzzy, kde-format
 msgid "Loading Gradients..."
 msgstr "ग्रेडियंट"
 
-#: libs/ui/KisApplication.cpp:279
+#: libs/ui/KisApplication.cpp:280
 #, fuzzy, kde-format
 msgid "Loading Patterns..."
 msgstr "पॅटर्न्स (&P)"
 
-#: libs/ui/KisApplication.cpp:283
+#: libs/ui/KisApplication.cpp:284
 #, fuzzy, kde-format
 msgid "Loading Palettes..."
 msgstr "पॅलेट संपादित करा..."
 
-#: libs/ui/KisApplication.cpp:287
+#: libs/ui/KisApplication.cpp:288
 #, fuzzy, kde-format
 msgid "Loading Brushes..."
 msgstr "पूर्वलक्षित कुंचले"
 
-#: libs/ui/KisApplication.cpp:292
+#: libs/ui/KisApplication.cpp:293
 #, kde-format
 msgid "Loading Paint Operations..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:296
+#: libs/ui/KisApplication.cpp:297
 #, fuzzy, kde-format
 msgid "Loading Resource Bundles..."
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: libs/ui/KisApplication.cpp:313
+#: libs/ui/KisApplication.cpp:314
 #, kde-format
 msgid "Loading Plugins for Krita/Tool..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:320
+#: libs/ui/KisApplication.cpp:321
 #, kde-format
 msgid "Loading Plugins for Krita/Dock..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:326
+#: libs/ui/KisApplication.cpp:327
 #, kde-format
 msgid "Loading Plugins Exiv/IO..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:341 libs/ui/opengl/kis_opengl.cpp:82
+#: libs/ui/KisApplication.cpp:342 libs/ui/opengl/kis_opengl.cpp:82
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "इशारा"
 
-#: libs/ui/KisApplication.cpp:342
+#: libs/ui/KisApplication.cpp:343
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -15750,42 +15757,42 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:359
+#: libs/ui/KisApplication.cpp:360
 #, kde-format
 msgid "Initializing Globals"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:396
+#: libs/ui/KisApplication.cpp:398
 #, fuzzy, kde-format
 msgid "Adding resource types"
 msgstr "संसाधने (&R)"
 
-#: libs/ui/KisApplication.cpp:408
+#: libs/ui/KisApplication.cpp:410
 #, kde-format
 msgid "Loading Main Window..."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:451
+#: libs/ui/KisApplication.cpp:452
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:680
+#: libs/ui/KisApplication.cpp:681
 #, kde-format
 msgid "No template found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:683
+#: libs/ui/KisApplication.cpp:684
 #, kde-format
 msgid "Too many templates found for: %1"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:709
+#: libs/ui/KisApplication.cpp:710
 #, kde-format
 msgid "Template %1 failed to load."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:735
+#: libs/ui/KisApplication.cpp:736
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -15793,7 +15800,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:756
+#: libs/ui/KisApplication.cpp:757
 #, kde-format
 msgid "Do you want to clear the settings file?"
 msgstr ""
@@ -18661,7 +18668,7 @@ msgstr "ब्लेंडिंग पद्धत"
 msgid "Select Luminosity Blending Mode"
 msgstr "निवड पद्धत"
 
-#: libs/ui/widgets/kis_color_button.cpp:323
+#: libs/ui/widgets/kis_color_button.cpp:334
 #, fuzzy, kde-format
 #| msgid "Choose workspace"
 msgid "Choose a color"
@@ -63769,9 +63776,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~| msgid "Set Mirror Axis"
 #~ msgid "Mirror Axis"
 #~ msgstr "प्रतिबिंब अक्ष ठरवा"
-
-#~ msgid "&Generated Layer..."
-#~ msgstr "निर्माण केलेला स्तर &G)..."
 
 #~ msgid "Selection decoration"
 #~ msgstr "निवडीची सजावट"
