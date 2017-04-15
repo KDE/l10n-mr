@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-14 08:30+0100\n"
+"POT-Creation-Date: 2017-04-15 02:47+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2771,9 +2771,9 @@ msgstr ""
 msgctxt "@info:whatsthis"
 msgid ""
 "Your email address, used to identify you as the sender when sending email "
-"alarms. Enter \"@SystemSettings\" to use the email address set in System "
-"Settings, \"@KMail\" to allow choice of KMail identities, or enter the "
-"actual email address otherwise."
+"alarms. Enter \"@SystemSettings\" to use the default email address set in "
+"KMail or System Settings, \"@KMail\" to allow choice of KMail identities, or "
+"enter the actual email address otherwise."
 msgstr ""
 
 #. i18n: ectx: label, entry (Base_EmailBccAddress), group (General)
@@ -2791,8 +2791,8 @@ msgid ""
 "Your email address, used for blind copying email alarms to yourself. If you "
 "want blind copies to be sent to your account on the computer which KAlarm "
 "runs on, you can simply enter your user login name. Enter \"@SystemSettings"
-"\" to use the email address set in System Settings, or enter the actual "
-"email address otherwise."
+"\" to use the default email address set in KMail or System Settings, or "
+"enter the actual email address otherwise."
 msgstr ""
 
 #. i18n: ectx: label, entry (Base_CmdXTermCommand), group (General)
@@ -3493,9 +3493,9 @@ msgstr ""
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"<para>No 'From' email address is configured.</para><para>Please set it in "
-"the KDE System Settings or in the <application>KAlarm</application> "
-"Configuration dialog.</para>"
+"<para>No 'From' email address is configured.</para><para>Please set a "
+"default address in <application>KMail</application> or KDE System Settings "
+"or in the <application>KAlarm</application> Configuration dialog.</para>"
 msgstr ""
 
 #: kamail.cpp:143
@@ -4775,17 +4775,19 @@ msgid ""
 msgstr ""
 
 #: prefdlg.cpp:1067 prefdlg.cpp:1103
-#, kde-format
+#, kde-kuit-format
 msgctxt "@option:radio"
-msgid "Use address from System Settings"
+msgid ""
+"Use default address from <application>KMail</application> or System Settings"
 msgstr ""
 
 #: prefdlg.cpp:1070
-#, kde-format
+#, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"Check to use the email address set in KDE System Settings, to identify you "
-"as the sender when sending email alarms."
+"Check to use the default email address set in <application>KMail</"
+"application> or KDE System Settings, to identify you as the sender when "
+"sending email alarms."
 msgstr ""
 
 #: prefdlg.cpp:1074
@@ -4822,11 +4824,12 @@ msgid ""
 msgstr ""
 
 #: prefdlg.cpp:1106
-#, kde-format
+#, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
-"Check to use the email address set in KDE System Settings, for blind copying "
-"email alarms to yourself."
+"Check to use the default email address set in <application>KMail</"
+"application> or KDE System Settings, for blind copying email alarms to "
+"yourself."
 msgstr ""
 
 #: prefdlg.cpp:1188
@@ -4842,9 +4845,11 @@ msgid "<para>%1</para><para>Are you sure you want to save your changes?</para>"
 msgstr ""
 
 #: prefdlg.cpp:1201
-#, kde-format
+#, kde-kuit-format
 msgctxt "@info"
-msgid "No email address is currently set in KDE System Settings. %1"
+msgid ""
+"No default email address is currently set in <application>KMail</"
+"application> or KDE System Settings. %1"
 msgstr ""
 
 #: prefdlg.cpp:1206
