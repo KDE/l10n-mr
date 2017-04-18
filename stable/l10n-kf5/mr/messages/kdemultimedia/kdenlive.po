@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-17 04:31+0200\n"
+"POT-Creation-Date: 2017-04-18 11:18+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -5573,7 +5573,7 @@ msgstr ""
 #. m_standard.setupUi(page2);
 #. i18n: ectx: property (text), widget (QPushButton, convert_abort)
 #. i18n: ectx: property (text), widget (QPushButton, button_abort)
-#: src/dialogs/wizard.cpp:99 src/project/cliptranscode.cpp:177
+#: src/dialogs/wizard.cpp:99 src/project/cliptranscode.cpp:188
 #: src/project/dialogs/archivewidget.cpp:644
 #: src/project/dialogs/archivewidget.cpp:946 src/ui/dvdwizardstatus_ui.ui:94
 #: src/ui/dvdwizardvob_ui.ui:155
@@ -5599,7 +5599,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, buttonClose)
 #. i18n: ectx: property (text), widget (QPushButton, buttonClose2)
 #. i18n: ectx: property (text), widget (QPushButton, buttonClose3)
-#: src/dialogs/wizard.cpp:134 src/project/cliptranscode.cpp:222
+#: src/dialogs/wizard.cpp:134 src/project/cliptranscode.cpp:233
 #: src/ui/renderwidget_ui.ui:397 src/ui/renderwidget_ui.ui:791
 #: src/ui/renderwidget_ui.ui:939
 #, kde-format
@@ -6353,7 +6353,7 @@ msgstr ""
 msgid "Your clips do not match selected DVD format, transcoding required."
 msgstr ""
 
-#: src/dvdwizard/dvdwizardvob.cpp:232 src/project/cliptranscode.cpp:262
+#: src/dvdwizard/dvdwizardvob.cpp:232 src/project/cliptranscode.cpp:273
 #, kde-format
 msgid "Transcoding failed!"
 msgstr ""
@@ -6376,7 +6376,7 @@ msgstr ""
 
 #: src/dvdwizard/dvdwizardvob.cpp:716 src/effectstack/collapsibleeffect.cpp:382
 #: src/effectstack/collapsiblegroup.cpp:189 src/monitor/monitor.cpp:1040
-#: src/project/clipstabilize.cpp:226 src/project/cliptranscode.cpp:150
+#: src/project/clipstabilize.cpp:226 src/project/cliptranscode.cpp:158
 #: src/project/dialogs/archivewidget.cpp:872 src/project/jobs/filterjob.cpp:98
 #: src/project/projectmanager.cpp:357
 #, kde-format
@@ -8861,7 +8861,7 @@ msgstr "गुणधर्म"
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
 #: src/mltcontroller/clippropertiescontroller.cpp:531
 #: src/project/dialogs/projectsettings.cpp:667 src/ui/clipproperties_ui.ui:511
-#: src/ui/projectsettings_ui.ui:317
+#: src/ui/projectsettings_ui.ui:315
 #, kde-format
 msgid "Metadata"
 msgstr ""
@@ -9596,7 +9596,7 @@ msgid_plural "Add clips to project"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/project/clipstabilize.cpp:53 src/project/cliptranscode.cpp:61
+#: src/project/clipstabilize.cpp:53 src/project/cliptranscode.cpp:65
 #, kde-format
 msgid "Destination folder"
 msgstr ""
@@ -9621,12 +9621,12 @@ msgstr ""
 msgid "Transcode Clip"
 msgstr ""
 
-#: src/project/cliptranscode.cpp:124
+#: src/project/cliptranscode.cpp:128
 #, kde-format
 msgid "FFmpeg not found, please set path in Kdenlive's settings Environment"
 msgstr ""
 
-#: src/project/cliptranscode.cpp:233 src/project/cliptranscode.cpp:257
+#: src/project/cliptranscode.cpp:244 src/project/cliptranscode.cpp:268
 #, kde-format
 msgid "Transcoding finished."
 msgstr ""
@@ -10192,85 +10192,85 @@ msgid ""
 "Environment"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:136
+#: src/project/jobs/cutclipjob.cpp:141
 #, kde-format
 msgid "Failed to create file."
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:153
+#: src/project/jobs/cutclipjob.cpp:158
 #, kde-format
 msgid "Cannot process this clip type."
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:224
+#: src/project/jobs/cutclipjob.cpp:229
 #, kde-format
 msgid "Transcoding clip"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:226
+#: src/project/jobs/cutclipjob.cpp:231
 #, kde-format
 msgid "Extracting clip cut"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:228
+#: src/project/jobs/cutclipjob.cpp:233
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "Analysing clip"
 msgstr "सर्व फाईल्स"
 
-#: src/project/jobs/cutclipjob.cpp:233
+#: src/project/jobs/cutclipjob.cpp:238
 #, kde-format
 msgid "Waiting - transcode clip"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:235
+#: src/project/jobs/cutclipjob.cpp:240
 #, kde-format
 msgid "Waiting - cut clip"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:237
+#: src/project/jobs/cutclipjob.cpp:242
 #, kde-format
 msgid "Waiting - analyse clip"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:311
+#: src/project/jobs/cutclipjob.cpp:316
 #, kde-format
 msgid "Extracting %1 out of %2"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:326
+#: src/project/jobs/cutclipjob.cpp:331
 #, kde-format
 msgid "You cannot overwrite original clip."
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:327
+#: src/project/jobs/cutclipjob.cpp:332
 #, fuzzy, kde-format
 msgid "Overwrite file %1"
 msgstr "फाईल खोडून पुन्हा लिहायची का?"
 
-#: src/project/jobs/cutclipjob.cpp:382
+#: src/project/jobs/cutclipjob.cpp:387
 #, kde-format
 msgid "The transcoding job will overwrite the following files:"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:390
+#: src/project/jobs/cutclipjob.cpp:395
 #, kde-format
 msgid "Transcoding"
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:405
+#: src/project/jobs/cutclipjob.cpp:410
 #, kde-format
 msgid "(%1 clip)"
 msgid_plural "(%1 clips)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/project/jobs/cutclipjob.cpp:481
+#: src/project/jobs/cutclipjob.cpp:486
 #, kde-format
 msgid "I-Frame "
 msgstr ""
 
-#: src/project/jobs/cutclipjob.cpp:482
+#: src/project/jobs/cutclipjob.cpp:487
 #, kde-format
 msgid "Found %count I-Frames"
 msgstr ""
@@ -10357,22 +10357,22 @@ msgid ""
 "settings Environment"
 msgstr ""
 
-#: src/project/jobs/proxyclipjob.cpp:209
+#: src/project/jobs/proxyclipjob.cpp:217
 #, kde-format
 msgid "Failed to create proxy clip."
 msgstr ""
 
-#: src/project/jobs/proxyclipjob.cpp:284
+#: src/project/jobs/proxyclipjob.cpp:292
 #, kde-format
 msgid "Creating proxy"
 msgstr ""
 
-#: src/project/jobs/proxyclipjob.cpp:287
+#: src/project/jobs/proxyclipjob.cpp:295
 #, kde-format
 msgid "Waiting - proxy"
 msgstr ""
 
-#: src/project/jobs/proxyclipjob.cpp:322
+#: src/project/jobs/proxyclipjob.cpp:330
 #, kde-format
 msgid "Failed to create proxy, empty path."
 msgstr ""
@@ -12839,8 +12839,8 @@ msgstr ""
 #: src/ui/monitoreditwidget_ui.ui:53 src/ui/monitoreditwidget_ui.ui:66
 #: src/ui/monitoreditwidget_ui.ui:76 src/ui/projectsettings_ui.ui:155
 #: src/ui/projectsettings_ui.ui:175 src/ui/projectsettings_ui.ui:262
-#: src/ui/projectsettings_ui.ui:272 src/ui/projectsettings_ui.ui:354
-#: src/ui/projectsettings_ui.ui:361 src/ui/qtextclip_ui.ui:65
+#: src/ui/projectsettings_ui.ui:272 src/ui/projectsettings_ui.ui:352
+#: src/ui/projectsettings_ui.ui:359 src/ui/qtextclip_ui.ui:65
 #: src/ui/recmonitor_ui.ui:72 src/ui/renderwidget_ui.ui:609
 #: src/ui/renderwidget_ui.ui:851 src/ui/selectivecolor_ui.ui:29
 #: src/ui/selectivecolor_ui.ui:36 src/ui/stopmotion_ui.ui:76
@@ -12950,7 +12950,7 @@ msgstr "आकार :"
 #. i18n: ectx: property (text), widget (QTreeWidget, analysis_list)
 #: src/ui/clipproperties_ui.ui:117 src/ui/clipproperties_ui.ui:162
 #: src/ui/clipproperties_ui.ui:542 src/ui/clipproperties_ui.ui:574
-#: src/ui/projectsettings_ui.ui:339 src/ui/wizardmltcheck_ui.ui:49
+#: src/ui/projectsettings_ui.ui:337 src/ui/wizardmltcheck_ui.ui:49
 #, kde-format
 msgid "1"
 msgstr ""
@@ -12961,7 +12961,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QTreeWidget, analysis_list)
 #: src/ui/clipproperties_ui.ui:122 src/ui/clipproperties_ui.ui:167
 #: src/ui/clipproperties_ui.ui:547 src/ui/clipproperties_ui.ui:579
-#: src/ui/projectsettings_ui.ui:344
+#: src/ui/projectsettings_ui.ui:342
 #, kde-format
 msgid "2"
 msgstr ""
@@ -14460,43 +14460,43 @@ msgid "Preview profile"
 msgstr "रूपरेषा नष्ट करा (&D)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/ui/projectsettings_ui.ui:384
+#: src/ui/projectsettings_ui.ui:382
 #, kde-format
 msgid "Project Files"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/ui/projectsettings_ui.ui:421
+#: src/ui/projectsettings_ui.ui:419
 #, kde-format
 msgid "Clips used in project:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/ui/projectsettings_ui.ui:442
+#: src/ui/projectsettings_ui.ui:440
 #, kde-format
 msgid "Unused clips:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_unused)
-#: src/ui/projectsettings_ui.ui:463
+#: src/ui/projectsettings_ui.ui:461
 #, kde-format
 msgid "Delete files"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: src/ui/projectsettings_ui.ui:473
+#: src/ui/projectsettings_ui.ui:471
 #, kde-format
 msgid "Project files"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_fonts)
-#: src/ui/projectsettings_ui.ui:480
+#: src/ui/projectsettings_ui.ui:478
 #, kde-format
 msgid "Fonts"
 msgstr "फॉन्ट"
 
 #. i18n: ectx: property (text), widget (QPushButton, button_export)
-#: src/ui/projectsettings_ui.ui:487
+#: src/ui/projectsettings_ui.ui:485
 #, kde-format
 msgid "Plain text export"
 msgstr ""
