@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-04-22 02:46+0200\n"
+"POT-Creation-Date: 2017-04-28 02:46+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -123,6 +123,7 @@ msgstr ""
 
 #: Application.cpp:76
 #, kde-format
+msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
@@ -407,7 +408,9 @@ msgid "Color 8 (Faint)"
 msgstr "रंग 8 (तीव्र)"
 
 #: ColorScheme.cpp:348
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Un-named Color Scheme"
+msgctxt "@item"
 msgid "Un-named Color Scheme"
 msgstr "निनावी रंग सुत्रयोजना"
 
@@ -458,13 +461,17 @@ msgctxt "Filter in file open dialog"
 msgid "Supported Images"
 msgstr ""
 
-#: ColorSchemeEditor.cpp:238 ColorSchemeEditor.cpp:239
-#, kde-format
+#: ColorSchemeEditor.cpp:238
+#, fuzzy, kde-format
+#| msgid "New Color Scheme"
+msgctxt "@title:window"
 msgid "New Color Scheme"
 msgstr "नवीन रंग सुत्रयोजना"
 
 #: ColorSchemeEditor.cpp:241
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Edit Color Scheme"
+msgctxt "@title:window"
 msgid "Edit Color Scheme"
 msgstr "रंग सुत्रयोजना संपादित करा"
 
@@ -1654,21 +1661,19 @@ msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "जुळणारे पाठ्य ठळक करायचे की नाही ते निश्चित करतो"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
-#. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
-#: IncrementalSearchBar.cpp:134 settings/GeneralSettings.ui:195
-#: settings/konsole.kcfg:60
+#: IncrementalSearchBar.cpp:134
 #, kde-format
+msgctxt "@item:inmenu"
 msgid "Search backwards"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
-#. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
-#: IncrementalSearchBar.cpp:136 settings/GeneralSettings.ui:198
-#: settings/konsole.kcfg:61
-#, kde-format
+#: IncrementalSearchBar.cpp:136
+#, fuzzy, kde-format
+#| msgctxt "@info:tooltip"
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Sets whether search should start from the bottom"
-msgstr ""
+msgstr "वर्तमान शोध वाक्यरचना करिता पुढील जुळवणी शोधा"
 
 #: IncrementalSearchBar.cpp:157
 #, kde-format
@@ -1680,6 +1685,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the bottom"
 msgstr "वर्तमान शोध वाक्यरचना करिता पुढील जुळवणी शोधा"
 
@@ -1693,6 +1699,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "@info:tooltip"
 #| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the top"
 msgstr "वर्तमान शोध वाक्यरचना करिता पुढील जुळवणी शोधा"
 
@@ -1746,6 +1753,7 @@ msgstr "टर्मिनल एम्युलेटर"
 
 #: main.cpp:101
 #, kde-format
+msgctxt "@info:credit"
 msgid "(c) 1997-2017, The Konsole Developers"
 msgstr ""
 
@@ -2145,7 +2153,12 @@ msgstr "मूलभूतसारखे निश्चित करा (&S)"
 msgid "Default profile"
 msgstr "मूलभूत रूपरेषा"
 
-#: ProfileManager.cpp:366
+#: ProfileManager.cpp:333
+#, kde-format
+msgid "Konsole does not have permission to save this profile to %1"
+msgstr ""
+
+#: ProfileManager.cpp:369
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgctxt "The default name of a profile"
@@ -2261,50 +2274,50 @@ msgstr "Linux कन्सोल"
 msgid "Solaris console"
 msgstr "Solaris कन्सोल"
 
-#: Session.cpp:348
+#: Session.cpp:347
 #, kde-format
 msgid "Could not find binary: "
 msgstr "बायनरी शोधू शकत नाही: "
 
-#: Session.cpp:357
+#: Session.cpp:356
 #, kde-format
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "इशारा : "
 
-#: Session.cpp:414
+#: Session.cpp:413
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
 msgstr "'%1' आढळले नाही, त्याऐवजी '%2' सुरु करत आहे.  कृपया प्रोफाईल संयोजना तपासा."
 
-#: Session.cpp:417
+#: Session.cpp:416
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "प्रारंभ करण्याकरिता परस्पर संवाद शेल शोधू शकत."
 
-#: Session.cpp:455
+#: Session.cpp:454
 #, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "कार्यक्रम '%1' बाब '%2' सह प्रारंभ करू शकत नाही."
 
-#: Session.cpp:584
+#: Session.cpp:583
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "सत्र '%1' अंतर्गत शांतपणा"
 
-#: Session.cpp:632
+#: Session.cpp:631
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "सत्र '%1' अंतर्गत bell"
 
-#: Session.cpp:645
+#: Session.cpp:644
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "सत्र '%1' अंतर्गत क्रिया"
 
-#: Session.cpp:839
+#: Session.cpp:838
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -2313,23 +2326,23 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:866
+#: Session.cpp:865
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "संपले"
 
-#: Session.cpp:880 Session.cpp:892
+#: Session.cpp:879 Session.cpp:891
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "कार्यक्रम '%1' क्रॅश झाले."
 
-#: Session.cpp:882
+#: Session.cpp:881
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "कार्यक्रम '%1' स्थिती %2 सह बाहेर पडले."
 
-#: Session.cpp:1279
+#: Session.cpp:1278
 #, kde-format
 msgid "ZModem Progress"
 msgstr "ZModem प्रगती"
@@ -2773,6 +2786,20 @@ msgstr "रेग्यूलर एक्सप्रेशन जुळवा"
 #| msgid "Highlight all matches"
 msgid "Highlight all search matches"
 msgstr "सर्व जुळण्या ठळक करा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SearchReverseSearch)
+#. i18n: ectx: label, entry (SearchReverseSearch), group (SearchSettings)
+#: settings/GeneralSettings.ui:195 settings/konsole.kcfg:60
+#, kde-format
+msgid "Search backwards"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_SearchReverseSearch)
+#. i18n: ectx: tooltip, entry (SearchReverseSearch), group (SearchSettings)
+#: settings/GeneralSettings.ui:198 settings/konsole.kcfg:61
+#, kde-format
+msgid "Sets whether search should start from the bottom"
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
 #: settings/GeneralSettings.ui:216
@@ -3230,85 +3257,85 @@ msgid ""
 "You can double-click a tab to change its name.</para>"
 msgstr ""
 
-#: ViewManager.cpp:132
+#: ViewManager.cpp:131
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "पुढील टॅब"
 
-#: ViewManager.cpp:133
+#: ViewManager.cpp:132
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "मागील टॅब"
 
-#: ViewManager.cpp:134
+#: ViewManager.cpp:133
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "शेवटच्या टॅब कडे जा"
 
-#: ViewManager.cpp:135
+#: ViewManager.cpp:134
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Next View Container"
 msgstr "पुढचे दृश्य कंटेनर"
 
-#: ViewManager.cpp:137
+#: ViewManager.cpp:136
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Left"
 msgstr "टॅब डावीकडे हलवा"
 
-#: ViewManager.cpp:138
+#: ViewManager.cpp:137
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Move Tab Right"
 msgstr "टॅब उजवीकडे हलवा"
 
-#: ViewManager.cpp:146
+#: ViewManager.cpp:145
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "दृश्य डावे/उजवे असे विभाजित करा"
 
-#: ViewManager.cpp:153
+#: ViewManager.cpp:152
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "दृश्य वर/खाली असे विभाजित करा"
 
-#: ViewManager.cpp:158
+#: ViewManager.cpp:157
 #, kde-format
 msgctxt "@action:inmenu Close Active View"
 msgid "Close Active"
 msgstr "सक्रिय बंद करा"
 
-#: ViewManager.cpp:167
+#: ViewManager.cpp:166
 #, kde-format
 msgctxt "@action:inmenu Close Other Views"
 msgid "Close Others"
 msgstr "इतर बंद करा"
 
-#: ViewManager.cpp:176
+#: ViewManager.cpp:175
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "दृश्य विस्तारीत करा"
 
-#: ViewManager.cpp:184
+#: ViewManager.cpp:183
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "दृश्य लहान करा"
 
-#: ViewManager.cpp:195
+#: ViewManager.cpp:194
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "D&etach Current Tab"
 msgstr "वर्तमान टॅब वेगळा करा (&E)"
 
-#: ViewManager.cpp:217
+#: ViewManager.cpp:216
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
