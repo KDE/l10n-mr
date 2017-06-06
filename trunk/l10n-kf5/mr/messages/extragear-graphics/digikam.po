@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-06-05 02:52+0200\n"
+"POT-Creation-Date: 2017-06-06 02:59+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -3349,7 +3349,7 @@ msgstr ""
 #: app/views/tableview/tableview_column_thumbnail.cpp:83
 #: app/views/tableview/tableview_column_thumbnail.cpp:93
 #: libs/dtrash/dtrashitemmodel.cpp:190
-#: utilities/assistants/common/dimageslist.cpp:287
+#: utilities/assistants/common/dimageslist.cpp:289
 #: utilities/geolocation/editor/items/gpsimageitem.cpp:507
 #: utilities/queuemanager/views/queuelist.cpp:313
 #, kde-format
@@ -13579,10 +13579,11 @@ msgid "Presentation..."
 msgstr "फिरवणे"
 
 #: libs/widgets/mainview/dxmlguiwindow.cpp:437
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Calendar"
 msgctxt "@action"
-msgid "Blend Bracketed or Focus Stack Images..."
-msgstr ""
+msgid "Create Stacked Images..."
+msgstr "दिनदर्शिका"
 
 #: libs/widgets/mainview/dxmlguiwindow.cpp:451
 #, fuzzy, kde-format
@@ -17940,100 +17941,100 @@ msgstr ""
 msgid "Printing Complete"
 msgstr "प्रतिमा छापा"
 
-#: utilities/assistants/common/dimageslist.cpp:288
+#: utilities/assistants/common/dimageslist.cpp:290
 #: utilities/importui/dialogs/cameramessagebox.cpp:145
 #: utilities/searchwindow/searchfields.cpp:156
 #, kde-format
 msgid "File Name"
 msgstr "फाईल नाव"
 
-#: utilities/assistants/common/dimageslist.cpp:289
+#: utilities/assistants/common/dimageslist.cpp:291
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User1"
 msgstr "वापरकर्ता"
 
-#: utilities/assistants/common/dimageslist.cpp:290
+#: utilities/assistants/common/dimageslist.cpp:292
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User2"
 msgstr "वापरकर्ता"
 
-#: utilities/assistants/common/dimageslist.cpp:291
+#: utilities/assistants/common/dimageslist.cpp:293
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User3"
 msgstr "वापरकर्ता"
 
-#: utilities/assistants/common/dimageslist.cpp:292
+#: utilities/assistants/common/dimageslist.cpp:294
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User4"
 msgstr "वापरकर्ता"
 
-#: utilities/assistants/common/dimageslist.cpp:293
+#: utilities/assistants/common/dimageslist.cpp:295
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User5"
 msgstr "वापरकर्ता"
 
-#: utilities/assistants/common/dimageslist.cpp:294
+#: utilities/assistants/common/dimageslist.cpp:296
 #, fuzzy, kde-format
 #| msgid "User"
 msgid "User6"
 msgstr "वापरकर्ता"
 
-#: utilities/assistants/common/dimageslist.cpp:537
+#: utilities/assistants/common/dimageslist.cpp:539
 #, kde-format
 msgid "Add new images to the list"
 msgstr ""
 
-#: utilities/assistants/common/dimageslist.cpp:538
+#: utilities/assistants/common/dimageslist.cpp:540
 #, kde-format
 msgid "Remove selected images from the list"
 msgstr ""
 
-#: utilities/assistants/common/dimageslist.cpp:539
+#: utilities/assistants/common/dimageslist.cpp:541
 #, kde-format
 msgid "Move current selected image up in the list"
 msgstr ""
 
-#: utilities/assistants/common/dimageslist.cpp:540
+#: utilities/assistants/common/dimageslist.cpp:542
 #, kde-format
 msgid "Move current selected image down in the list"
 msgstr ""
 
-#: utilities/assistants/common/dimageslist.cpp:541
+#: utilities/assistants/common/dimageslist.cpp:543
 #, fuzzy, kde-format
 #| msgid "Clear List"
 msgid "Clear the list."
 msgstr "यादी रिकामी करा"
 
-#: utilities/assistants/common/dimageslist.cpp:542
+#: utilities/assistants/common/dimageslist.cpp:544
 #, kde-format
 msgid "Load a saved list."
 msgstr ""
 
-#: utilities/assistants/common/dimageslist.cpp:543
+#: utilities/assistants/common/dimageslist.cpp:545
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Save Changes"
 msgid "Save the list."
 msgstr "बदल साठवा"
 
-#: utilities/assistants/common/dimageslist.cpp:977
+#: utilities/assistants/common/dimageslist.cpp:979
 #, fuzzy, kde-format
 msgid "Select the image file list to load"
 msgstr "पानावर प्रतिमा बसवा (&F)"
 
-#: utilities/assistants/common/dimageslist.cpp:978
-#: utilities/assistants/common/dimageslist.cpp:1050
+#: utilities/assistants/common/dimageslist.cpp:980
+#: utilities/assistants/common/dimageslist.cpp:1052
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgid "All Files (*)"
 msgstr "सर्व फाईल्स"
 
-#: utilities/assistants/common/dimageslist.cpp:1049
+#: utilities/assistants/common/dimageslist.cpp:1051
 #, kde-format
 msgid "Select the image file list to save"
 msgstr ""
@@ -18482,9 +18483,10 @@ msgstr ""
 msgid ""
 "<qt><p>This tool fuses bracketed images with different exposure to make "
 "pseudo <a href='http://en.wikipedia.org/wiki/High_dynamic_range_imaging'>HDR "
-"image</a>.</p><p>It can also be used to merge focus bracketed stack to get a "
-"single image with increased depth of field.</p><p>This assistant will help "
-"you to configure how to import images before merging them to a single one.</"
+"image</a>.</p><p>It can also be used to <a href='https://en.wikipedia.org/"
+"wiki/Focus_stacking'>merge focus bracketed stack</a> to get a single image "
+"with increased depth of field.</p><p>This assistant will help you to "
+"configure how to import images before merging them to a single one.</"
 "p><p>Bracketed images must be taken with the same camera, in the same "
 "conditions, and if possible using a tripod.</p><p>For more information, "
 "please take a look at <a href='http://en.wikipedia.org/wiki/Bracketing'>this "
@@ -19328,7 +19330,7 @@ msgstr "लेखक"
 #: utilities/assistants/htmlgallery/wizard/htmlwizard.cpp:94
 #, fuzzy, kde-format
 #| msgid "Calendar"
-msgid "Create Html Gallery"
+msgid "Create HTML Gallery"
 msgstr "दिनदर्शिका"
 
 #: utilities/assistants/htmlgallery/wizard/htmlwizard.cpp:99
@@ -19337,7 +19339,6 @@ msgid "Welcome to HTML Gallery Tool"
 msgstr ""
 
 #: utilities/assistants/htmlgallery/wizard/htmlwizard.cpp:100
-#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:93
 #, fuzzy, kde-format
 #| msgid "Selection"
 msgid "Items Selection"
@@ -19362,7 +19363,7 @@ msgid "Image Settings"
 msgstr "प्रतिमा संयोजना"
 
 #: utilities/assistants/htmlgallery/wizard/htmlwizard.cpp:104
-#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:95
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:99
 #, fuzzy, kde-format
 msgid "Output Settings"
 msgstr "संयोजना"
@@ -20121,6 +20122,14 @@ msgstr "स्लाइडशो"
 msgid "Opening video stream in player..."
 msgstr "संचयीका उघडा : \"%1\""
 
+#: utilities/assistants/videoslideshow/wizard/vidslideimagespage.cpp:74
+#, kde-format
+msgid ""
+"<p>This view list all items to include on video stream.</p><p>The first one "
+"is on top of the list, the last one</p><p>on the bottom. You can adjust the "
+"order of each item.</p>"
+msgstr ""
+
 #: utilities/assistants/videoslideshow/wizard/vidslideintropage.cpp:79
 #, kde-format
 msgid ""
@@ -20182,24 +20191,36 @@ msgstr ""
 msgid "Duration : %1 seconds by item, total %2 seconds (without transitions)"
 msgstr ""
 
-#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:83
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:86
 #, fuzzy, kde-format
 #| msgid "Cannot create thumbnail for %1"
 msgid "Create a Video Slideshow"
 msgstr "%1 करिता लघुप्रतिमा बनवू शकत नाही"
 
-#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:92
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:95
 #, kde-format
 msgid "Welcome to Video Slideshow Tool"
 msgstr ""
 
-#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:94
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:96
+#, fuzzy, kde-format
+#| msgid "Collection:"
+msgid "Albums Selection"
+msgstr "संग्रह :"
+
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:97
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "Images List"
+msgstr "प्रतिमा"
+
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:98
 #, fuzzy, kde-format
 #| msgid "Image Settings"
 msgid "Video Settings"
 msgstr "प्रतिमा संयोजना"
 
-#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:96
+#: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:100
 #, fuzzy, kde-format
 #| msgid "Cannot create thumbnail for %1"
 msgid "Generating Video Slideshow"
@@ -37158,11 +37179,6 @@ msgstr "हिरवा"
 #~| msgid "Bookmarks"
 #~ msgid "Show All Bookmarks"
 #~ msgstr "ओळखचिन्हे"
-
-#, fuzzy
-#~| msgid "Collection:"
-#~ msgid "Albums Selection"
-#~ msgstr "संग्रह :"
 
 #, fuzzy
 #~| msgid "Select images"
