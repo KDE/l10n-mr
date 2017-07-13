@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-12 06:47+0200\n"
+"POT-Creation-Date: 2017-07-13 03:09+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -19353,6 +19353,7 @@ msgid "GPS Longitude"
 msgstr "रेषांश"
 
 #: utilities/assistants/htmlgallery/wizard/htmlfinalpage.cpp:108
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:128
 #: utilities/assistants/sendbymail/wizard/mailfinalpage.cpp:119
 #: utilities/assistants/videoslideshow/wizard/vidslidefinalpage.cpp:122
 #, kde-format
@@ -19371,7 +19372,7 @@ msgid "%1 albums to process:"
 msgstr ""
 
 #: utilities/assistants/htmlgallery/wizard/htmlfinalpage.cpp:141
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:126
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:139
 #, kde-format
 msgid "%1 items to process"
 msgstr ""
@@ -20081,26 +20082,26 @@ msgctxt "@title:window"
 msgid "Panorama Creator Wizard"
 msgstr ""
 
-#: utilities/assistants/printcreator/manager/advprintsettings.cpp:126
+#: utilities/assistants/printcreator/manager/advprintsettings.cpp:134
 #, fuzzy, kde-format
 msgctxt "Output: PDF"
 msgid "Print to PDF"
 msgstr "जादा पर्याय"
 
-#: utilities/assistants/printcreator/manager/advprintsettings.cpp:127
+#: utilities/assistants/printcreator/manager/advprintsettings.cpp:135
 #, fuzzy, kde-format
 #| msgid "Print Image"
 msgctxt "Output: FILE"
 msgid "Print to Image File"
 msgstr "प्रतिमा छापा"
 
-#: utilities/assistants/printcreator/manager/advprintsettings.cpp:128
+#: utilities/assistants/printcreator/manager/advprintsettings.cpp:136
 #, fuzzy, kde-format
 msgctxt "Output: GIMP"
 msgid "Print with Gimp"
 msgstr "जादा पर्याय"
 
-#: utilities/assistants/printcreator/manager/advprintsettings.cpp:147
+#: utilities/assistants/printcreator/manager/advprintsettings.cpp:159
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "JPEG"
@@ -20108,7 +20109,7 @@ msgctxt "Image format: JPEG"
 msgid "JPEG"
 msgstr "JPEG"
 
-#: utilities/assistants/printcreator/manager/advprintsettings.cpp:148
+#: utilities/assistants/printcreator/manager/advprintsettings.cpp:160
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "PNG"
@@ -20116,7 +20117,7 @@ msgctxt "Image format: PNG"
 msgid "PNG"
 msgstr "PNG"
 
-#: utilities/assistants/printcreator/manager/advprintsettings.cpp:149
+#: utilities/assistants/printcreator/manager/advprintsettings.cpp:161
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "TIFF"
@@ -20124,32 +20125,26 @@ msgctxt "Image format: TIFF"
 msgid "TIFF"
 msgstr "TIFF"
 
-#: utilities/assistants/printcreator/manager/advprinttask.cpp:103
-#: utilities/assistants/printcreator/manager/advprinttask.cpp:174
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:162
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:244
+#: utilities/assistants/printcreator/manager/advprinttask.cpp:117
+#: utilities/assistants/printcreator/manager/advprinttask.cpp:192
 #, fuzzy, kde-format
 #| msgid "Print Image"
 msgid "Processing page %1"
 msgstr "प्रतिमा छापा"
 
-#: utilities/assistants/printcreator/manager/advprinttask.cpp:122
-#: utilities/assistants/printcreator/manager/advprinttask.cpp:199
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:183
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:273
+#: utilities/assistants/printcreator/manager/advprinttask.cpp:136
+#: utilities/assistants/printcreator/manager/advprinttask.cpp:217
 #, fuzzy, kde-format
 #| msgid "Print Image"
 msgid "Printing canceled"
 msgstr "प्रतिमा छापा"
 
-#: utilities/assistants/printcreator/manager/advprinttask.cpp:185
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:256
+#: utilities/assistants/printcreator/manager/advprinttask.cpp:203
 #, fuzzy, kde-format
 msgid "Could not save file %1"
 msgstr "%1: %2 हे डाउनलोड करण्यास अपयश"
 
-#: utilities/assistants/printcreator/manager/advprinttask.cpp:191
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:263
+#: utilities/assistants/printcreator/manager/advprinttask.cpp:209
 #, fuzzy, kde-format
 msgid "Page %1 saved as %2"
 msgstr "चा"
@@ -20576,13 +20571,42 @@ msgstr ""
 msgid "Auto rotate photo"
 msgstr ""
 
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:123
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:136
 #, fuzzy, kde-format
 #| msgid "Calendar"
 msgid "Starting to render printing..."
 msgstr "दिनदर्शिका"
 
-#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:677
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:147
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Printing process aborted..."
+msgstr "प्रतिमा छापा"
+
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:190
+#, fuzzy, kde-format
+msgid "Printing process is not completed"
+msgstr "स्लाइडशो"
+
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:195
+#, fuzzy, kde-format
+#| msgid "Print Image"
+msgid "Printing process completed."
+msgstr "प्रतिमा छापा"
+
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:203
+#, kde-format
+msgid "Open destination directory in file-browser."
+msgstr ""
+
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:225
+#, kde-format
+msgid ""
+"There was an error to launch the external Gimp program. Please make sure it "
+"is properly installed."
+msgstr ""
+
+#: utilities/assistants/printcreator/wizard/advprintfinalpage.cpp:254
 #, fuzzy, kde-format
 msgid "Could not remove the GIMP's temporary files."
 msgstr "%1: %2 हे डाउनलोड करण्यास अपयश"
@@ -20652,19 +20676,19 @@ msgstr "काढून टाका (&R)"
 msgid "Unsupported Paper Size"
 msgstr "अपरिचीत"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:109
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:428
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:110
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:414
 #, fuzzy, kde-format
 #| msgid "Calendar"
 msgid "Print Creator"
 msgstr "दिनदर्शिका"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:118
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:119
 #, fuzzy, kde-format
 msgid "Welcome to Print Creator"
 msgstr "माइम प्रकार निवडा"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:119
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:120
 #: utilities/assistants/sendbymail/wizard/mailwizard.cpp:93
 #: utilities/assistants/videoslideshow/wizard/vidslidewizard.cpp:96
 #, fuzzy, kde-format
@@ -20672,51 +20696,44 @@ msgstr "माइम प्रकार निवडा"
 msgid "Albums Selection"
 msgstr "संग्रह :"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:120
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:121
 #, fuzzy, kde-format
 msgid "Select Page Layout"
 msgstr "निवड"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:121
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:122
 #, fuzzy, kde-format
 #| msgid "Map settings"
 msgid "Caption Settings"
 msgstr "नकाशा संयोजना"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:122
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:123
 #, kde-format
 msgid "Crop and Rotate Photos"
 msgstr ""
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:123
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:124
 #, fuzzy, kde-format
 msgid "Images Output Settings"
 msgstr "संयोजना"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:124
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:125
 #, fuzzy, kde-format
 msgid "Render Printing"
 msgstr "प्रतिमा छापा"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:249
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:247
 #, fuzzy, kde-format
 msgid "Photo %1 of %2"
 msgstr "चा"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:346
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:354
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:344
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:352
 #, fuzzy, kde-format
 msgid "Page %1 of %2"
 msgstr "चा"
 
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:501
-#, kde-format
-msgid ""
-"There was an error to launch the external Gimp program. Please make sure it "
-"is properly installed."
-msgstr ""
-
-#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:530
+#: utilities/assistants/printcreator/wizard/advprintwizard.cpp:496
 #, kde-format
 msgid ""
 "Unable to create a temporary folder. Please make sure you have proper "
@@ -38474,11 +38491,6 @@ msgstr "हिरवा"
 #~ msgstr ""
 #~ "\"%1\" नावाची फाईल आधीपासूनच अस्तित्वात आहे. तुम्हाला ती खोडून पुन्हा लिहायची आहे "
 #~ "का?"
-
-#, fuzzy
-#~| msgid "Print Image"
-#~ msgid "Printing %1 aborted"
-#~ msgstr "प्रतिमा छापा"
 
 #, fuzzy
 #~| msgid "Position:"
