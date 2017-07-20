@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-07-19 09:08+0200\n"
+"POT-Creation-Date: 2017-07-20 05:16+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -8552,7 +8552,7 @@ msgstr "आकार चिकटवा"
 msgid "Active tool: %1"
 msgstr "सक्रिय साधन : %1"
 
-#: libs/flake/KoToolProxy.cpp:457
+#: libs/flake/KoToolProxy.cpp:496
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Paste Image"
@@ -8915,6 +8915,7 @@ msgstr "आकार"
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, radius)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intX)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intY)
+#. i18n: ectx: property (suffix), widget (QSpinBox, patchRadius)
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.cpp:58
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:593
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:596
@@ -8980,6 +8981,7 @@ msgstr "आकार"
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:138
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:246
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:271
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:130
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:110
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:111
 #: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:120
@@ -12453,7 +12455,7 @@ msgstr "वर्तमानास ओळखचिन्ह करा"
 #: libs/widgetutils/xmlgui/kshortcutschemeseditor.cpp:76
 #: plugins/flake/textshape/dialogs/StyleManager.ui:75
 #: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:277
-#: plugins/flake/textshape/TextTool.cpp:2615
+#: plugins/flake/textshape/TextTool.cpp:2637
 #, kde-format
 msgid "Delete"
 msgstr "काढून टाका"
@@ -18018,32 +18020,32 @@ msgid ""
 "selection instead"
 msgstr ""
 
-#: libs/ui/tool/kis_tool.cc:565
+#: libs/ui/tool/kis_tool.cc:570
 #, kde-format
 msgid "No options"
 msgstr "पर्याय नाहीत"
 
-#: libs/ui/tool/kis_tool.cc:665
+#: libs/ui/tool/kis_tool.cc:670
 #, kde-format
 msgid "Layer is locked and invisible."
 msgstr "स्तर कुलूपबंद व अदृश्य आहे."
 
-#: libs/ui/tool/kis_tool.cc:667
+#: libs/ui/tool/kis_tool.cc:672
 #, kde-format
 msgid "Layer is locked."
 msgstr "स्तर कुलूपबंद आहे."
 
-#: libs/ui/tool/kis_tool.cc:669
+#: libs/ui/tool/kis_tool.cc:674
 #, kde-format
 msgid "Layer is invisible."
 msgstr "स्तर अदृश्य आहे."
 
-#: libs/ui/tool/kis_tool.cc:671
+#: libs/ui/tool/kis_tool.cc:676
 #, kde-format
 msgid "Group not editable."
 msgstr "समूह संपादनास अयोग्य."
 
-#: libs/ui/tool/kis_tool.cc:686
+#: libs/ui/tool/kis_tool.cc:691
 #, kde-format
 msgid "Local selection is locked."
 msgstr "स्थानिक निवड कुलूपबंद आहे."
@@ -28100,7 +28102,7 @@ msgstr "विशिष्ठ अक्षरे"
 #. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
 #: plugins/flake/textshape/dialogs/InsertCharacter.cpp:39
 #: plugins/flake/textshape/dialogs/ManageBookmark.ui:34
-#: plugins/flake/textshape/TextTool.cpp:2205
+#: plugins/flake/textshape/TextTool.cpp:2227
 #, kde-format
 msgid "Insert"
 msgstr "अंतर्भूत करा"
@@ -28955,14 +28957,14 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
 #: plugins/flake/textshape/dialogs/StyleManager.ui:46
-#: plugins/flake/textshape/TextTool.cpp:2197
+#: plugins/flake/textshape/TextTool.cpp:2219
 #, kde-format
 msgid "Paragraph"
 msgstr "परिच्छेद"
 
 #. i18n: ectx: attribute (title), widget (QListView, characterStylesListView)
 #: plugins/flake/textshape/dialogs/StyleManager.ui:60
-#: plugins/flake/textshape/TextTool.cpp:2195
+#: plugins/flake/textshape/TextTool.cpp:2217
 #, kde-format
 msgid "Character"
 msgstr "अक्षर"
@@ -29175,7 +29177,7 @@ msgid "Delete"
 msgstr "काढून टाका"
 
 #: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:193
-#: plugins/flake/textshape/TextTool.cpp:2609
+#: plugins/flake/textshape/TextTool.cpp:2631
 #, kde-format
 msgid "Key Press"
 msgstr ""
@@ -29268,13 +29270,13 @@ msgid "Rename Section"
 msgstr "पानाचे नाव बदला"
 
 #: plugins/flake/textshape/kotext/commands/ResizeTableCommand.cpp:45
-#: plugins/flake/textshape/TextTool.cpp:1375
+#: plugins/flake/textshape/TextTool.cpp:1397
 msgctxt "(qtundo-format)"
 msgid "Adjust Column Width"
 msgstr ""
 
 #: plugins/flake/textshape/kotext/commands/ResizeTableCommand.cpp:47
-#: plugins/flake/textshape/TextTool.cpp:1417
+#: plugins/flake/textshape/TextTool.cpp:1439
 msgctxt "(qtundo-format)"
 msgid "Adjust Row Height"
 msgstr ""
@@ -29847,14 +29849,14 @@ msgstr ""
 msgid "Press shift to not resize this"
 msgstr ""
 
-#: plugins/flake/textshape/TextTool.cpp:2203
+#: plugins/flake/textshape/TextTool.cpp:2225
 #: plugins/tools/karbonplugins/filtereffects/ComponentTransferEffectConfigWidget.cpp:64
 #, kde-format
 msgid "Table"
 msgstr "कोष्टक"
 
-#: plugins/flake/textshape/TextTool.cpp:2609
-#: plugins/flake/textshape/TextTool.cpp:2615
+#: plugins/flake/textshape/TextTool.cpp:2631
+#: plugins/flake/textshape/TextTool.cpp:2637
 #, kde-format
 msgid "Autocorrection"
 msgstr "स्वयंचलित सुधारणा"
@@ -36359,10 +36361,36 @@ msgctxt "(qtundo-format)"
 msgid "Smart Patch"
 msgstr "पासून शोध सुरू करा"
 
-#: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:92
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:91
 #, fuzzy, kde-format
 msgid "Smart Patch Tool"
 msgstr "मुक्तहस्त मार्ग"
+
+#. i18n: ectx: property (text), widget (QLabel, Fast)
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:23
+#, fuzzy, kde-format
+#| msgctxt "(qtundo-format)"
+#| msgid "Paste"
+msgid "low/fast"
+msgstr "चिटकवा"
+
+#. i18n: ectx: property (text), widget (QLabel, Accurate)
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:46
+#, fuzzy, kde-format
+msgid "high/slow"
+msgstr "खाली घ्या"
+
+#. i18n: ectx: property (text), widget (QLabel, Fast_2)
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:94
+#, kde-format
+msgid "Accuracy:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, patchRadiusLabel)
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch_options_widget.ui:111
+#, fuzzy, kde-format
+msgid "Patch Radius:"
+msgstr "फेदरिंग त्रिज्या"
 
 #: plugins/tools/tool_text/kis_tool_text.h:93
 #, fuzzy, kde-format
@@ -58993,22 +59021,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~ "translations"
 #~ msgid "faster"
 #~ msgstr "चिटकवा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Paste"
-#~ msgctxt ""
-#~ "(qtundo-format) h264 preset name, check simplescreenrecorder for standard "
-#~ "translations"
-#~ msgid "fast"
-#~ msgstr "चिटकवा"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "(qtundo-format) h264 preset name, check simplescreenrecorder for standard "
-#~ "translations"
-#~ msgid "slow"
-#~ msgstr "खाली घ्या"
 
 #, fuzzy
 #~ msgctxt ""
