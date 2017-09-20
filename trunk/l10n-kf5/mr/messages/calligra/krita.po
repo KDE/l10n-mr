@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-19 03:20+0200\n"
+"POT-Creation-Date: 2017-09-20 06:04+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -11804,7 +11804,9 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:739
 #: libs/pigment/resources/KoColorSet.cpp:758
 #: libs/pigment/resources/KoColorSet.cpp:799
-#: libs/pigment/resources/KoColorSet.cpp:1226 libs/ui/KisView.cpp:698
+#: libs/pigment/resources/KoColorSet.cpp:1226
+#: libs/ui/actions/kis_selection_action_factories.cpp:392
+#: libs/ui/KisView.cpp:698
 #: plugins/extensions/animationrenderer/DlgAnimationRenderer.cpp:63
 #, fuzzy, kde-format
 msgid "Untitled"
@@ -11815,74 +11817,74 @@ msgstr "शिर्षकहीन-1"
 msgid "SVG Gradient"
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:137
+#: libs/ui/actions/kis_selection_action_factories.cpp:139
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:211
+#: libs/ui/actions/kis_selection_action_factories.cpp:213
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Flood Fill Layer"
 msgstr "फ्लड फिल"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:289
+#: libs/ui/actions/kis_selection_action_factories.cpp:291
 #, kde-format
 msgctxt "floating message when cannot copy from a node"
 msgid "Cannot copy pixels from this type of layer "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:298
+#: libs/ui/actions/kis_selection_action_factories.cpp:300
 #, kde-format
 msgctxt "floating message when copying empty selection"
 msgid "Selection is empty: no pixels were copied "
 msgstr ""
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:347
+#: libs/ui/actions/kis_selection_action_factories.cpp:349
 #: plugins/flake/textshape/TextTool.cpp:1135
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Cut"
 msgstr "कापा"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:348
+#: libs/ui/actions/kis_selection_action_factories.cpp:350
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Copy"
 msgstr "प्रत बनवा"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:375
+#: libs/ui/actions/kis_selection_action_factories.cpp:377
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Copy Merged"
 msgstr "प्रत मिसळा"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:395
+#: libs/ui/actions/kis_selection_action_factories.cpp:397
 #, kde-format
 msgid "Pasted"
 msgstr "चिकटविले"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:397
+#: libs/ui/actions/kis_selection_action_factories.cpp:399
 #: libs/ui/actions/KisPasteActionFactory.cpp:187
 #, kde-format
 msgid "(pasted)"
 msgstr "(चिकटविले)"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:439
+#: libs/ui/actions/kis_selection_action_factories.cpp:441
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert to Vector Selection"
 msgstr "व्हेक्टर निवड"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:457
+#: libs/ui/actions/kis_selection_action_factories.cpp:459
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert shapes to vector selection"
 msgstr "व्हेक्टर निवड"
 
-#: libs/ui/actions/kis_selection_action_factories.cpp:509
-#: libs/ui/actions/kis_selection_action_factories.cpp:569
+#: libs/ui/actions/kis_selection_action_factories.cpp:511
+#: libs/ui/actions/kis_selection_action_factories.cpp:571
 #: plugins/tools/tool_polyline/kis_tool_polyline.cc:75
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -12498,7 +12500,8 @@ msgstr ""
 #: plugins/extensions/bigbrother/actionseditor/kis_actions_editor.cpp:110
 #: plugins/extensions/imagesplit/imagesplit.cpp:82
 #: plugins/extensions/imagesplit/imagesplit.cpp:84
-#: plugins/extensions/qmic/QMic.cpp:322 plugins/extensions/qmic/QMic.cpp:372
+#: plugins/extensions/qmic/QMic.cpp:125 plugins/extensions/qmic/QMic.cpp:295
+#: plugins/extensions/qmic/QMic.cpp:324
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:220
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:228
 #: plugins/extensions/resourcemanager/resourcemanager.cpp:199
@@ -14902,8 +14905,8 @@ msgstr "घंटी : मार्गदर्शन उपलब्ध ना�
 #| "<html><head/><body><p>Background color to replace transparent pixels with."
 #| "</p></body></html>"
 msgid ""
-"<html><head/><body><p>Krita will not use more CPU cores than seleted by this "
-"limit</p></body></html>"
+"<html><head/><body><p>Krita will not use more CPU cores than selected by "
+"this limit</p></body></html>"
 msgstr ""
 "<html><head/><body><p>पार्श्वभूमीचा रंग पारदर्शी पिक्सेलना बदलेल.</p></body></html>"
 
@@ -14924,7 +14927,7 @@ msgid ""
 "raise this limit only if you have enough RAM installed.</p><p><br/></"
 "p><p><span style=\" font-weight:600;\">Recommended value:</span> set Clones "
 "Limit to the number of <span style=\" text-decoration: underline;"
-"\">physical</span> (non-hyperthreaded) core you CPU has</p></body></html>"
+"\">physical</span> (non-hyperthreaded) cores your CPU has</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -16139,12 +16142,6 @@ msgid ""
 "The current image is too big to create a pattern. The pattern will be scaled "
 "down."
 msgstr "वर्तमान प्रतिमा पॅटर्न निर्मितीसाठी खूपच मोठी आहेपॅटर्नचा आकार घटवला जाईल."
-
-#: libs/ui/kis_favorite_resource_manager.cpp:357
-#, fuzzy, kde-format
-#| msgid "Number of tiles"
-msgid "Number of popup palette presets shown"
-msgstr "फरशांची संख्या"
 
 #: libs/ui/kis_filter_manager.cc:219
 #, kde-format
@@ -26367,30 +26364,28 @@ msgstr "कुंचला पूर्व संयोजना"
 msgid "Python Plugin Manager"
 msgstr ""
 
-#: plugins/extensions/qmic/PluginSettings.cpp:55
+#: plugins/extensions/qmic/PluginSettings.cpp:56
 #, fuzzy, kde-format
 #| msgid "Iterations:"
 msgid "G'Mic-Qt Integration"
 msgstr "प्रयत्न सातत्य :"
 
-#: plugins/extensions/qmic/QMic.cpp:139
-#, fuzzy, kde-format
-#| msgid "Krita"
-msgctxt "@title:Window"
-msgid "Krita"
-msgstr "क्रिटा"
+#: plugins/extensions/qmic/QMic.cpp:125
+#, kde-format
+msgid "Krita cannot find the gmic-qt plugin."
+msgstr ""
 
-#: plugins/extensions/qmic/QMic.cpp:274
+#: plugins/extensions/qmic/QMic.cpp:247
 #, kde-format
 msgid "Sorry, this output mode is not implemented yet."
 msgstr ""
 
-#: plugins/extensions/qmic/QMic.cpp:372
+#: plugins/extensions/qmic/QMic.cpp:324
 #, kde-format
 msgid "G'Mic failed, reason:"
 msgstr ""
 
-#: plugins/extensions/qmic/QMic.cpp:427
+#: plugins/extensions/qmic/QMic.cpp:379
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Gmic filter"
@@ -38588,6 +38583,17 @@ msgstr "डेकोरेशन्स दर्शवा"
 #, kde-format
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
+
+#, fuzzy
+#~| msgid "Number of tiles"
+#~ msgid "Number of popup palette presets shown"
+#~ msgstr "फरशांची संख्या"
+
+#, fuzzy
+#~| msgid "Krita"
+#~ msgctxt "@title:Window"
+#~ msgid "Krita"
+#~ msgstr "क्रिटा"
 
 #, fuzzy
 #~| msgid "Export Layer"
