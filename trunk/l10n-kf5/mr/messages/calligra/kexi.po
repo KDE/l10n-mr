@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-09-05 02:57+0200\n"
+"POT-Creation-Date: 2017-09-26 03:19+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -883,13 +883,13 @@ msgstr ""
 
 #: core/kexiproject.cpp:1024
 #, kde-kuit-format
-msgid "Could not remove object's user data."
+msgid "Could not delete object's user data."
 msgstr ""
 
 #: core/kexiproject.cpp:1152
 #, kde-format
 msgctxt "warning"
-msgid "Entire project's data and design will be removed."
+msgid "Entire project's data and design will be deleted."
 msgstr ""
 
 #: core/kexiproject.cpp:1168
@@ -1072,7 +1072,7 @@ msgstr ""
 msgid "Shows menu for the current window."
 msgstr ""
 
-#: core/KexiView.cpp:267 kexiutils/utils.cpp:316
+#: core/KexiView.cpp:267 kexiutils/utils.cpp:317
 #, kde-format, kde-kuit-format
 msgid "Save"
 msgstr "साठवा"
@@ -1125,29 +1125,29 @@ msgstr ""
 msgid "Confirm Saving Changes"
 msgstr ""
 
-#: core/KexiWindow.cpp:480
+#: core/KexiWindow.cpp:481
 #, kde-kuit-format
 msgid ""
 "Design has been changed. You must save it before switching to other view."
 msgstr ""
 
-#: core/KexiWindow.cpp:555 main/KexiMainWindow.cpp:2718
+#: core/KexiWindow.cpp:556 main/KexiMainWindow.cpp:2718
 #, kde-kuit-format
 msgid "Switching to other view failed (%1)."
 msgstr ""
 
-#: core/KexiWindow.cpp:680
+#: core/KexiWindow.cpp:681
 #, kde-kuit-format
 msgctxt "@title:window with dirty indicator"
 msgid "%1*"
 msgstr ""
 
-#: core/KexiWindow.cpp:713 core/KexiWindow.cpp:800
+#: core/KexiWindow.cpp:714 core/KexiWindow.cpp:801
 #, kde-kuit-format
 msgid "Saving object's definition failed."
 msgstr ""
 
-#: core/KexiWindow.cpp:741
+#: core/KexiWindow.cpp:742
 #, kde-kuit-format
 msgid "Saving object's data failed."
 msgstr ""
@@ -1283,9 +1283,11 @@ msgid "Page %1"
 msgstr "पान %1"
 
 #: formeditor/commands.cpp:1962
+#, fuzzy
+#| msgid "&New Connection"
 msgctxt "(qtundo-format)"
-msgid "Remove Page"
-msgstr ""
+msgid "Delete Page"
+msgstr "नवीन जुळवणी (&N)"
 
 #: formeditor/connectiondialog.cpp:75
 #, fuzzy, kde-kuit-format
@@ -1302,9 +1304,9 @@ msgstr "जुळवणी"
 
 #: formeditor/connectiondialog.cpp:121
 #, fuzzy, kde-kuit-format
-#| msgid "Connection"
-msgid "&Remove Connection"
-msgstr "जुळवणी"
+#| msgid "&New Connection"
+msgid "&Delete Connection"
+msgstr "नवीन जुळवणी (&N)"
 
 #: formeditor/connectiondialog.cpp:141
 #, kde-kuit-format
@@ -1398,9 +1400,9 @@ msgstr ""
 
 #: formeditor/editlistviewdialog.cpp:71 formeditor/editlistviewdialog.cpp:140
 #, fuzzy, kde-kuit-format
-#| msgid "&Remove"
-msgid "&Remove Item"
-msgstr "काढून टाका (&R)"
+#| msgid "&Delete"
+msgid "&Delete Item"
+msgstr "काढून टाका (&D)"
 
 #: formeditor/editlistviewdialog.cpp:78 formeditor/editlistviewdialog.cpp:147
 #, fuzzy, kde-kuit-format
@@ -2210,12 +2212,12 @@ msgctxt "Next button arrow: next button in assistant (wizard)"
 msgid "%L ›"
 msgstr ""
 
-#: kexiutils/utils.cpp:302 main/startup/KexiOpenProjectAssistant.cpp:154
+#: kexiutils/utils.cpp:303 main/startup/KexiOpenProjectAssistant.cpp:154
 #, kde-format, kde-kuit-format
 msgid "Open"
 msgstr "उघडा"
 
-#: kexiutils/utils.cpp:333
+#: kexiutils/utils.cpp:334
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2223,31 +2225,31 @@ msgid ""
 "want to overwrite it?</para>"
 msgstr ""
 
-#: kexiutils/utils.cpp:724
+#: kexiutils/utils.cpp:725
 #, kde-kuit-format
 msgctxt "@info"
 msgid "The file or directory <filename>%1</filename> does not exist."
 msgstr ""
 
-#: kexiutils/utils.cpp:730
+#: kexiutils/utils.cpp:731
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Invalid hyperlink <link>%1</link>."
 msgstr ""
 
-#: kexiutils/utils.cpp:739
+#: kexiutils/utils.cpp:740
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Executable <link>%1</link> not allowed."
 msgstr ""
 
-#: kexiutils/utils.cpp:745
+#: kexiutils/utils.cpp:746
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Remote hyperlink <link>%1</link> not allowed."
 msgstr ""
 
-#: kexiutils/utils.cpp:752
+#: kexiutils/utils.cpp:753
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -2255,24 +2257,24 @@ msgid ""
 "warning>"
 msgstr ""
 
-#: kexiutils/utils.cpp:755
+#: kexiutils/utils.cpp:756
 #, kde-kuit-format
 msgctxt "@action:button Run script file"
 msgid "Run"
 msgstr ""
 
-#: kexiutils/utils.cpp:816
+#: kexiutils/utils.cpp:817
 #, kde-kuit-format
 msgctxt "'Dirty (modified) object' flag"
 msgid "%1*"
 msgstr ""
 
-#: kexiutils/utils.cpp:1102
+#: kexiutils/utils.cpp:1103
 #, kde-kuit-format
 msgid "modified"
 msgstr ""
 
-#: kexiutils/utils.cpp:1113
+#: kexiutils/utils.cpp:1114
 #, kde-kuit-format
 msgctxt "Document/application separator in titlebar"
 msgid " – "
@@ -3214,7 +3216,7 @@ msgstr "नाव बदला <resource>%1</resource>:"
 
 #: main/KexiMainWindow.cpp:3428
 #, kde-kuit-format
-msgctxt "@info Remove <objecttype> <objectname>?"
+msgctxt "@info Delete <objecttype> <objectname>?"
 msgid ""
 "<para>Do you want to permanently delete the following object?<nl/><nl/>%1 "
 "<resource>%2</resource></para><para><note>If you click <interface>Delete</"
@@ -3231,7 +3233,7 @@ msgstr "नाव बदला <resource>%1</resource>:"
 
 #: main/KexiMainWindow.cpp:3487
 #, kde-kuit-format
-msgid "Could not remove object."
+msgid "Could not delete object."
 msgstr ""
 
 #: main/KexiMainWindow.cpp:3510
@@ -3551,7 +3553,7 @@ msgstr "नवीन जुळवणी (&N)"
 msgctxt "@info"
 msgid ""
 "<para>Select database server's connection you wish to use to create a new "
-"Kexi project.</para><para>Here you may also add, edit or remove connections "
+"Kexi project.</para><para>Here you may also add, edit or delete connections "
 "from the list.</para>"
 msgstr ""
 
@@ -3645,7 +3647,7 @@ msgstr ""
 msgctxt "@info"
 msgid ""
 "<para>Select database server's connection with project you wish to open.</"
-"para><para>Here you may also add, edit or remove connections from the list.</"
+"para><para>Here you may also add, edit or delete connections from the list.</"
 "para>"
 msgstr ""
 
@@ -3883,11 +3885,13 @@ msgid ""
 msgstr ""
 
 #: main/startup/KexiStartup.cpp:489
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
+#| msgctxt "@title:window Rename Object %1."
+#| msgid "Rename <resource>%1</resource>"
 msgctxt "@info"
 msgid ""
-"Could not remove project. The file <filename>%1</filename> does not exist."
-msgstr ""
+"Could not delete project. The file <filename>%1</filename> does not exist."
+msgstr "नाव बदला <resource>%1</resource>:"
 
 #: main/startup/KexiStartup.cpp:540
 #, fuzzy, kde-kuit-format
@@ -4648,7 +4652,7 @@ msgid "Goes to selected form's data source"
 msgstr ""
 
 #: plugins/forms/kexidbfactorybase.cpp:49 plugins/forms/kexiformpart.cpp:365
-#: plugins/reports/kexireportpart.cpp:173
+#: plugins/reports/kexireportpart.cpp:175
 #, kde-kuit-format
 msgid "Data Source"
 msgstr ""
@@ -5948,10 +5952,11 @@ msgid "Add Page"
 msgstr "पान जोडा"
 
 #: plugins/forms/widgets/main/KexiStandardContainerFormWidgets.cpp:266
-#, kde-kuit-format
-msgctxt "Remove tab widget's page"
-msgid "Remove Page"
-msgstr ""
+#, fuzzy, kde-kuit-format
+#| msgid "&New Connection"
+msgctxt "Delete tab widget's page"
+msgid "Delete Page"
+msgstr "नवीन जुळवणी (&N)"
 
 #: plugins/forms/widgets/main/KexiStandardContainerFormWidgets.cpp:287
 #, kde-kuit-format
@@ -5978,10 +5983,11 @@ msgid "Add Page..."
 msgstr "पान जोडा..."
 
 #: plugins/forms/widgets/main/KexiStandardContainerFormWidgets.cpp:338
-#, kde-kuit-format
-msgctxt "Remove page from a stacked widget"
-msgid "Remove Page"
-msgstr ""
+#, fuzzy, kde-kuit-format
+#| msgid "&New Connection"
+msgctxt "Delete page from a stacked widget"
+msgid "Delete Page"
+msgstr "नवीन जुळवणी (&N)"
 
 #: plugins/forms/widgets/main/KexiStandardContainerFormWidgets.cpp:385
 #, kde-kuit-format
@@ -6792,11 +6798,6 @@ msgstr ""
 msgid "<para>This query is invalid.</para><para>Do you want to save it?</para>"
 msgstr ""
 
-#: plugins/queries/kexiquerydesignersql.cpp:409
-#, kde-kuit-format
-msgid "Don't Save"
-msgstr ""
-
 #: plugins/queries/kexiquerypart.cpp:45
 #, kde-kuit-format
 msgctxt ""
@@ -7170,32 +7171,32 @@ msgstr ""
 msgid "Report schema appears to be invalid or corrupt"
 msgstr ""
 
-#: plugins/reports/kexisourceselector.cpp:69
+#: plugins/reports/kexisourceselector.cpp:70
 #, kde-kuit-format
 msgid "Set Data"
 msgstr ""
 
-#: plugins/reports/kexisourceselector.cpp:73
+#: plugins/reports/kexisourceselector.cpp:74
 #, kde-kuit-format
 msgid "Internal"
 msgstr ""
 
-#: plugins/reports/kexisourceselector.cpp:74
+#: plugins/reports/kexisourceselector.cpp:75
 #, kde-kuit-format
 msgid "External"
 msgstr ""
 
-#: plugins/reports/kexisourceselector.cpp:80
+#: plugins/reports/kexisourceselector.cpp:81
 #, kde-kuit-format
 msgid "Source type:"
 msgstr ""
 
-#: plugins/reports/kexisourceselector.cpp:88
+#: plugins/reports/kexisourceselector.cpp:89
 #, kde-kuit-format
 msgid "Report's data source:"
 msgstr ""
 
-#: plugins/reports/kexisourceselector.cpp:93
+#: plugins/reports/kexisourceselector.cpp:94
 #, kde-kuit-format
 msgid "External source:"
 msgstr ""
@@ -7410,13 +7411,13 @@ msgstr "नाव बदला <resource>%1</resource>:"
 #| msgctxt "@title:window Rename Object %1."
 #| msgid "Rename <resource>%1</resource>"
 msgctxt "(qtundo-format)"
-msgid "Remove table field <resource>%1</resource>"
+msgid "Delete table field <resource>%1</resource>"
 msgstr "नाव बदला <resource>%1</resource>:"
 
 #: plugins/tables/kexitabledesignercommands.cpp:162
 #, kde-format
 msgctxt "(qtundo-format)"
-msgid "Remove empty row at position %1"
+msgid "Delete empty row at position %1"
 msgstr ""
 
 #: plugins/tables/kexitabledesignercommands.cpp:212
@@ -7463,12 +7464,12 @@ msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:176
 #, kde-kuit-format
-msgid "Sets or removes primary key"
+msgid "Sets or deletes primary key"
 msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:177
 #, kde-kuit-format
-msgid "Sets or removes primary key for currently selected field."
+msgid "Sets or deletes primary key for currently selected field."
 msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:310
@@ -7592,7 +7593,7 @@ msgstr ""
 #: plugins/tables/kexitabledesignerview.cpp:579
 #, kde-kuit-format
 msgctxt "@action:button"
-msgid "Save Design and Remove Table Data"
+msgid "Save Design and Delete Table Data"
 msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:580
@@ -7630,7 +7631,7 @@ msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:896
 #, kde-kuit-format
-msgid "<para>Previous primary key will be removed.</para>"
+msgid "<para>Previous primary key will be deleted.</para>"
 msgstr ""
 
 #: plugins/tables/kexitabledesignerview.cpp:897
@@ -7664,7 +7665,7 @@ msgstr "नाव बदला <resource>%1</resource>:"
 #| msgctxt "@title:window Rename Object %1."
 #| msgid "Rename <resource>%1</resource>"
 msgctxt "(qtundo-format)"
-msgid "Remove autonumber from field <resource>%1</resource>"
+msgid "Delete autonumber from field <resource>%1</resource>"
 msgstr "नाव बदला <resource>%1</resource>:"
 
 #: plugins/tables/kexitabledesignerview.cpp:932
@@ -7742,7 +7743,7 @@ msgid ""
 "following objects using this table are opened:"
 msgstr ""
 
-#: plugins/tables/kexitabledesignerview.cpp:1617
+#: plugins/tables/kexitabledesignerview.cpp:1622
 #, fuzzy, kde-kuit-format
 #| msgctxt "@title:window Rename Object %1."
 #| msgid "Rename <resource>%1</resource>"
@@ -7750,7 +7751,7 @@ msgctxt "@info"
 msgid "Table field <resource>%1</resource>"
 msgstr "नाव बदला <resource>%1</resource>:"
 
-#: plugins/tables/kexitabledesignerview.cpp:1619
+#: plugins/tables/kexitabledesignerview.cpp:1624
 #, kde-kuit-format
 msgctxt "Empty table row"
 msgid "Empty Row"
@@ -7836,7 +7837,7 @@ msgstr "<resource>%1</resource> हा घटक साठवणे अयशस
 #, kde-format
 msgctxt "@info"
 msgid ""
-"<warning>Any data in this table will be removed upon design's saving!</"
+"<warning>Any data in this table will be deleted upon design's saving!</"
 "warning>"
 msgstr ""
 
@@ -7963,7 +7964,7 @@ msgid ""
 "<title>Select Existing Database Server's Connection From the List Below</"
 "title>\n"
 "<para>You will see existing Kexi projects available for the selected "
-"connection. Here you may also add, edit or remove connections from the list."
+"connection. Here you may also add, edit or delete connections from the list."
 "</para>\n"
 msgstr ""
 
@@ -7987,10 +7988,10 @@ msgstr "संपादित करा (&E)..."
 
 #. i18n: ectx: property (text), widget (QPushButton, btn_remove)
 #: widget/KexiConnectionSelector.ui:181
-#, fuzzy, kde-format
-#| msgid "&Remove"
-msgid "&Remove..."
-msgstr "काढून टाका (&R)"
+#: widget/navigator/KexiProjectNavigator.cpp:172
+#, kde-format, kde-kuit-format
+msgid "&Delete..."
+msgstr "काढून टाका (&D)..."
 
 #: widget/KexiConnectionSelectorWidget.cpp:62
 #, kde-kuit-format
@@ -8003,9 +8004,10 @@ msgid "Edit selected database connection"
 msgstr ""
 
 #: widget/KexiConnectionSelectorWidget.cpp:64
-#, kde-kuit-format
-msgid "Remove selected database connections"
-msgstr ""
+#, fuzzy, kde-kuit-format
+#| msgid "&New Connection"
+msgid "Delete selected database connections"
+msgstr "नवीन जुळवणी (&N)"
 
 #: widget/KexiConnectionSelectorWidget.cpp:89
 #, kde-kuit-format
@@ -8060,7 +8062,7 @@ msgstr "नवीन जुळवणी (&N)"
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
-"Do you want to remove database connection <resource>%1</resource> from the "
+"Do you want to delete database connection <resource>%1</resource> from the "
 "list of available connections?"
 msgstr ""
 
@@ -8572,11 +8574,6 @@ msgstr ""
 msgid "Opens object selected in the list."
 msgstr ""
 
-#: widget/navigator/KexiProjectNavigator.cpp:172
-#, kde-kuit-format
-msgid "&Delete..."
-msgstr "काढून टाका (&D)..."
-
 #: widget/navigator/KexiProjectNavigator.cpp:173
 #, kde-kuit-format
 msgid "Delete object"
@@ -8715,7 +8712,7 @@ msgstr ""
 
 #: widget/relations/KexiRelationsScrollArea.cpp:122
 #, kde-kuit-format
-msgid "&Remove Selected Relationship"
+msgid "&Delete Selected Relationship"
 msgstr ""
 
 #: widget/relations/KexiRelationsScrollArea.cpp:124
@@ -8979,6 +8976,21 @@ msgstr ""
 #, kde-kuit-format
 msgid "Moves cursor to new record and allows inserting."
 msgstr ""
+
+#, fuzzy
+#~| msgid "Connection"
+#~ msgid "&Remove Connection"
+#~ msgstr "जुळवणी"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Remove Item"
+#~ msgstr "काढून टाका (&R)"
+
+#, fuzzy
+#~| msgid "&Remove"
+#~ msgid "&Remove..."
+#~ msgstr "काढून टाका (&R)"
 
 #~ msgid "Importing..."
 #~ msgstr "आयात करत आहे..."
