@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-26 03:17+0100\n"
+"POT-Creation-Date: 2017-12-30 03:09+0100\n"
 "PO-Revision-Date: 2013-03-28 17:55+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -526,7 +526,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:104 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:189
+#: src/timeline/qml/contactinfo.qml:199
 #, fuzzy, kde-format
 #| msgctxt "Advanced settings"
 #| msgid "Advanced"
@@ -879,7 +879,7 @@ msgstr "काढून टाका"
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_credential)
 #: src/conf/accountpages/credentials.ui:109
-#: src/timeline/qml/contactinfo.qml:210
+#: src/timeline/qml/contactinfo.qml:220
 #, kde-format
 msgid "Details"
 msgstr "तपशील"
@@ -1530,7 +1530,7 @@ msgid "Move Up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgpresence.ui:77 src/timeline/qml/phonenumbers.qml:167
+#: src/conf/dlgpresence.ui:77 src/timeline/qml/phonenumbers.qml:142
 #, kde-format
 msgid "Add"
 msgstr "जोडा"
@@ -1710,14 +1710,14 @@ msgid "Organization"
 msgstr "संस्था"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
-#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:218
+#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:228
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
 msgstr "पत्ता पुस्तक"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:215
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:225
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
@@ -1733,7 +1733,7 @@ msgid "Length:"
 msgstr "लांबी"
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
-#: src/configurator/recording.ui:65
+#: src/configurator/recording.ui:65 src/timeline/qml/phonenumbers.qml:57
 #, fuzzy, kde-format
 #| msgid "Add Contact"
 msgid "Delete"
@@ -1758,43 +1758,43 @@ msgstr ""
 msgid "Find someone"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:67
+#: src/contactview/qml/mediaavailability.qml:68
 #, kde-format
 msgid "This contact has no known phone number or GNU Ring account"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:74
+#: src/contactview/qml/mediaavailability.qml:75
 #, kde-format
 msgid ""
 "Sending text messages can only happen during an audio call in SIP accounts"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:76
+#: src/contactview/qml/mediaavailability.qml:77
 #, kde-format
 msgid "This account doesn't support all media"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:78
+#: src/contactview/qml/mediaavailability.qml:79
 #, kde-format
 msgid "Video isn't available because it's disabled for this account"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:80
+#: src/contactview/qml/mediaavailability.qml:81
 #, kde-format
 msgid "There is no account capable of reaching this person"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:82
+#: src/contactview/qml/mediaavailability.qml:83
 #, kde-format
 msgid "All video codecs are disabled, video call isn't possible"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:84
+#: src/contactview/qml/mediaavailability.qml:85
 #, kde-format
 msgid "All account capable of reaching this person are currently unavailable"
 msgstr ""
 
-#: src/contactview/qml/mediaavailability.qml:86
+#: src/contactview/qml/mediaavailability.qml:87
 #, kde-format
 msgid "Ring-KDE is experiencing a network issue, please try later"
 msgstr ""
@@ -2333,7 +2333,7 @@ msgstr ""
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:254 src/timeline/qml/contactheader.qml:246
+#: src/ringapplication.cpp:254 src/timeline/qml/contactheader.qml:251
 #, fuzzy, kde-format
 #| msgctxt "Video conversation"
 #| msgid "Video"
@@ -2380,94 +2380,89 @@ msgstr ""
 msgid "System root certificates"
 msgstr ""
 
-#: src/timeline/qml/chatbox.qml:171
+#: src/timeline/qml/chatbox.qml:175
 #, kde-format
 msgid "Write a message and press enter..."
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:109
+#: src/timeline/qml/contactheader.qml:112
 #, kde-format
 msgid ""
 "Add\n"
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:199
+#: src/timeline/qml/contactheader.qml:204 src/timeline/qml/phonenumbers.qml:62
 #, kde-format
 msgid "Call"
 msgstr "कॉल"
 
-#: src/timeline/qml/contactheader.qml:292
+#: src/timeline/qml/contactheader.qml:297
 #, kde-format
 msgid "Screen sharing"
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:328
+#: src/timeline/qml/contactheader.qml:333
 #, kde-format
 msgid "Chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:79
+#: src/timeline/qml/contactinfo.qml:89
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:82
+#: src/timeline/qml/contactinfo.qml:92
 #, kde-format
 msgid "<b>Last contacted on:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:86
+#: src/timeline/qml/contactinfo.qml:96
 #, kde-format
 msgid "<b>Called:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:91
+#: src/timeline/qml/contactinfo.qml:101
 #, kde-format
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:222
+#: src/timeline/qml/contactinfo.qml:232
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "स्थिती"
 
-#: src/timeline/qml/contactinfo.qml:254
+#: src/timeline/qml/contactinfo.qml:265
 #, kde-format
 msgid "Formatted name:"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:265
+#: src/timeline/qml/contactinfo.qml:276
 #, fuzzy, kde-format
 #| msgid "Display all"
 msgid "Primary name:"
 msgstr "सर्व दर्शवा"
 
-#: src/timeline/qml/contactinfo.qml:276
+#: src/timeline/qml/contactinfo.qml:287
 #, fuzzy, kde-format
 #| msgctxt "Sort by Name"
 #| msgid "Name"
 msgid "Last name:"
 msgstr "नाव"
 
-#: src/timeline/qml/contactinfo.qml:287
+#: src/timeline/qml/contactinfo.qml:298
 #, fuzzy, kde-format
 #| msgid "Send Email"
 msgid "Email:"
 msgstr "इमेल पाठवा"
 
-#: src/timeline/qml/contactinfo.qml:298
+#: src/timeline/qml/contactinfo.qml:309
 #, fuzzy, kde-format
 #| msgctxt "Sort by Organisation"
 #| msgid "Organisation"
 msgid "Organization:"
 msgstr "संस्था"
-
-#: src/timeline/qml/contactinfo.qml:390
-#, kde-format
-msgid "Save"
-msgstr ""
 
 #: src/timeline/qml/peerstimeline.qml:147
 #, kde-format
@@ -2476,24 +2471,51 @@ msgid ""
 "or add new contacts"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:160
+#: src/timeline/qml/phonenumbers.qml:68
+#, fuzzy, kde-format
+#| msgctxt "Video conversation"
+#| msgid "Video"
+msgid "Video call"
+msgstr "व्हिडीओ"
+
+#: src/timeline/qml/phonenumbers.qml:74
+#, kde-format
+msgid "Share screen"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:107
+#, kde-format
+msgid "Never used"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:108
+#, kde-format
+msgid "Used "
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:108
+#, kde-format
+msgid " time (Last used on: "
+msgstr ""
+
+#: src/timeline/qml/viewcontact.qml:164
 #, fuzzy, kde-format
 #| msgid "Device Configuration"
 msgid "Information"
 msgstr "साधन संयोजना"
 
-#: src/timeline/qml/viewcontact.qml:163
+#: src/timeline/qml/viewcontact.qml:167
 #, fuzzy, kde-format
 #| msgid "Audio"
 msgid "Audio/Video"
 msgstr "ऑडिओ"
 
-#: src/timeline/qml/viewcontact.qml:166
+#: src/timeline/qml/viewcontact.qml:170
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:169
+#: src/timeline/qml/viewcontact.qml:173
 #, fuzzy, kde-format
 #| msgid "Recording"
 msgid "Calls/Recordings"
