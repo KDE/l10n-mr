@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-12-30 03:09+0100\n"
+"POT-Creation-Date: 2018-02-02 03:29+0100\n"
 "PO-Revision-Date: 2013-03-28 17:55+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -526,7 +526,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:104 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:199
+#: src/timeline/qml/contactinfo.qml:194
 #, fuzzy, kde-format
 #| msgctxt "Advanced settings"
 #| msgid "Advanced"
@@ -542,7 +542,7 @@ msgid "Basic"
 msgstr "मूळ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:437
+#: src/conf/accountpages/advanced.ui:17 src/wizard/qml/CreateRing.qml:425
 #, kde-format
 msgid "Registration"
 msgstr ""
@@ -879,7 +879,7 @@ msgstr "काढून टाका"
 
 #. i18n: ectx: property (title), widget (QGroupBox, group_credential)
 #: src/conf/accountpages/credentials.ui:109
-#: src/timeline/qml/contactinfo.qml:220
+#: src/timeline/qml/contactinfo.qml:219
 #, kde-format
 msgid "Details"
 msgstr "तपशील"
@@ -1530,7 +1530,7 @@ msgid "Move Up"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (CenterToolButton, m_pAdd)
-#: src/conf/dlgpresence.ui:77 src/timeline/qml/phonenumbers.qml:142
+#: src/conf/dlgpresence.ui:77
 #, kde-format
 msgid "Add"
 msgstr "जोडा"
@@ -1710,14 +1710,14 @@ msgid "Organization"
 msgstr "संस्था"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_addresses)
-#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:228
+#: src/configurator/peerprofile.ui:122 src/timeline/qml/contactinfo.qml:225
 #, fuzzy, kde-format
 #| msgid "Address Book"
 msgid "Addresses"
 msgstr "पत्ता पुस्तक"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:225
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:222
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
@@ -1733,7 +1733,7 @@ msgid "Length:"
 msgstr "लांबी"
 
 #. i18n: ectx: property (text), widget (QPushButton, delete_2)
-#: src/configurator/recording.ui:65 src/timeline/qml/phonenumbers.qml:57
+#: src/configurator/recording.ui:65 src/timeline/qml/phonenumbers.qml:155
 #, fuzzy, kde-format
 #| msgid "Add Contact"
 msgid "Delete"
@@ -1753,7 +1753,8 @@ msgstr "नाव"
 msgid "Search"
 msgstr ""
 
-#: src/contactview/qml/contactlist.qml:60 src/timeline/qml/peerstimeline.qml:91
+#: src/contactview/qml/contactlist.qml:60
+#: src/timeline/qml/peerstimeline.qml:102
 #, kde-format
 msgid "Find someone"
 msgstr ""
@@ -1799,7 +1800,48 @@ msgstr ""
 msgid "Ring-KDE is experiencing a network issue, please try later"
 msgstr ""
 
-#: src/dialview/qml/addcall.qml:89
+#: src/contactview/qml/vcardform.qml:94
+#, kde-format
+msgid "Formatted name:"
+msgstr ""
+
+#: src/contactview/qml/vcardform.qml:106
+#, fuzzy, kde-format
+#| msgid "Display all"
+msgid "Primary name:"
+msgstr "सर्व दर्शवा"
+
+#: src/contactview/qml/vcardform.qml:118
+#, fuzzy, kde-format
+#| msgctxt "Sort by Name"
+#| msgid "Name"
+msgid "Last name:"
+msgstr "नाव"
+
+#: src/contactview/qml/vcardform.qml:130
+#, fuzzy, kde-format
+#| msgid "Send Email"
+msgid "Email:"
+msgstr "इमेल पाठवा"
+
+#: src/contactview/qml/vcardform.qml:143
+#, fuzzy, kde-format
+#| msgctxt "Sort by Organisation"
+#| msgid "Organisation"
+msgid "Organization:"
+msgstr "संस्था"
+
+#: src/contactview/qml/vcardform.qml:160
+#, kde-format
+msgid "Add a field"
+msgstr ""
+
+#: src/desktopview/qml/desktopwindow.qml:74
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#: src/dialview/qml/addcall.qml:27
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Create a call"
@@ -2333,7 +2375,7 @@ msgstr ""
 msgid "Cell"
 msgstr ""
 
-#: src/ringapplication.cpp:254 src/timeline/qml/contactheader.qml:251
+#: src/ringapplication.cpp:254 src/timeline/qml/mediabuttons.qml:120
 #, fuzzy, kde-format
 #| msgctxt "Video conversation"
 #| msgid "Video"
@@ -2385,86 +2427,55 @@ msgstr ""
 msgid "Write a message and press enter..."
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:112
+#: src/timeline/qml/contactheader.qml:116
 #, kde-format
 msgid ""
 "Add\n"
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactheader.qml:204 src/timeline/qml/phonenumbers.qml:62
-#, kde-format
-msgid "Call"
-msgstr "कॉल"
-
-#: src/timeline/qml/contactheader.qml:297
-#, kde-format
-msgid "Screen sharing"
-msgstr ""
-
-#: src/timeline/qml/contactheader.qml:333
-#, kde-format
-msgid "Chat"
-msgstr ""
-
-#: src/timeline/qml/contactinfo.qml:89
+#: src/timeline/qml/contactinfo.qml:83
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:92
+#: src/timeline/qml/contactinfo.qml:86
 #, kde-format
 msgid "<b>Last contacted on:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:96
+#: src/timeline/qml/contactinfo.qml:90
 #, kde-format
 msgid "<b>Called:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:101
+#: src/timeline/qml/contactinfo.qml:95
 #, kde-format
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:232
+#: src/timeline/qml/contactinfo.qml:229
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "स्थिती"
 
-#: src/timeline/qml/contactinfo.qml:265
+#: src/timeline/qml/mediabuttons.qml:73 src/timeline/qml/phonenumbers.qml:169
 #, kde-format
-msgid "Formatted name:"
+msgid "Call"
+msgstr "कॉल"
+
+#: src/timeline/qml/mediabuttons.qml:166
+#, kde-format
+msgid "Screen sharing"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:276
-#, fuzzy, kde-format
-#| msgid "Display all"
-msgid "Primary name:"
-msgstr "सर्व दर्शवा"
+#: src/timeline/qml/mediabuttons.qml:202
+#, kde-format
+msgid "Chat"
+msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:287
-#, fuzzy, kde-format
-#| msgctxt "Sort by Name"
-#| msgid "Name"
-msgid "Last name:"
-msgstr "नाव"
-
-#: src/timeline/qml/contactinfo.qml:298
-#, fuzzy, kde-format
-#| msgid "Send Email"
-msgid "Email:"
-msgstr "इमेल पाठवा"
-
-#: src/timeline/qml/contactinfo.qml:309
-#, fuzzy, kde-format
-#| msgctxt "Sort by Organisation"
-#| msgid "Organisation"
-msgid "Organization:"
-msgstr "संस्था"
-
-#: src/timeline/qml/peerstimeline.qml:147
+#: src/timeline/qml/peerstimeline.qml:158
 #, kde-format
 msgid ""
 "To begin using Ring-KDE, enter an username in the box above and press enter "
@@ -2472,50 +2483,70 @@ msgid ""
 msgstr ""
 
 #: src/timeline/qml/phonenumbers.qml:68
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:91
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:116
+#, kde-format
+msgid "Add a phone number or GNU Ring identity"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:162
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#: src/timeline/qml/phonenumbers.qml:175
 #, fuzzy, kde-format
 #| msgctxt "Video conversation"
 #| msgid "Video"
 msgid "Video call"
 msgstr "व्हिडीओ"
 
-#: src/timeline/qml/phonenumbers.qml:74
+#: src/timeline/qml/phonenumbers.qml:181
 #, kde-format
 msgid "Share screen"
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:107
+#: src/timeline/qml/phonenumbers.qml:233
 #, kde-format
 msgid "Never used"
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:108
+#: src/timeline/qml/phonenumbers.qml:234
 #, kde-format
 msgid "Used "
 msgstr ""
 
-#: src/timeline/qml/phonenumbers.qml:108
+#: src/timeline/qml/phonenumbers.qml:234
 #, kde-format
 msgid " time (Last used on: "
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:164
+#: src/timeline/qml/viewcontact.qml:137
 #, fuzzy, kde-format
 #| msgid "Device Configuration"
 msgid "Information"
 msgstr "साधन संयोजना"
 
-#: src/timeline/qml/viewcontact.qml:167
+#: src/timeline/qml/viewcontact.qml:140
 #, fuzzy, kde-format
 #| msgid "Audio"
 msgid "Audio/Video"
 msgstr "ऑडिओ"
 
-#: src/timeline/qml/viewcontact.qml:170
+#: src/timeline/qml/viewcontact.qml:143
 #, kde-format
 msgid "Chat/Timeline"
 msgstr ""
 
-#: src/timeline/qml/viewcontact.qml:173
+#: src/timeline/qml/viewcontact.qml:146
 #, fuzzy, kde-format
 #| msgid "Recording"
 msgid "Calls/Recordings"
@@ -2663,169 +2694,159 @@ msgstr ""
 msgid "..."
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:43
+#: src/wizard/qml/ButtonBar.qml:48
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:61
+#: src/wizard/qml/ButtonBar.qml:66
 #, kde-format
 msgid "Please fill the required fields"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:71
+#: src/wizard/qml/ButtonBar.qml:76
 #, kde-format
 msgid "Next"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:78
+#: src/wizard/qml/ButtonBar.qml:83
 #, kde-format
 msgid "Skip"
 msgstr ""
 
-#: src/wizard/qml/ButtonBar.qml:120
+#: src/wizard/qml/ButtonBar.qml:125
 #, kde-format
 msgid "Please wait"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:77
+#: src/wizard/qml/CreateRing.qml:81
 #, kde-format
 msgid "Register public username (experimental)*"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:90
+#: src/wizard/qml/CreateRing.qml:94
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
 msgid "Enter an username"
 msgstr "%1 संख्या"
 
-#: src/wizard/qml/CreateRing.qml:160 src/wizard/qml/CreateRing.qml:383
+#: src/wizard/qml/CreateRing.qml:153
 #, kde-format
 msgid "Please enter an username"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:180
+#: src/wizard/qml/CreateRing.qml:170
 #, fuzzy, kde-format
 #| msgid "Private key password"
 msgid "Enter an archive password"
 msgstr "वैयक्तिक कळ गुप्तशब्द"
 
-#: src/wizard/qml/CreateRing.qml:203
+#: src/wizard/qml/CreateRing.qml:186
 #, fuzzy, kde-format
 #| msgid "Private key password"
 msgid "Repeat the new password"
 msgstr "वैयक्तिक कळ गुप्तशब्द"
 
-#: src/wizard/qml/CreateRing.qml:221
+#: src/wizard/qml/CreateRing.qml:201
 #, kde-format
 msgid "Passwords don't match"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:256
+#: src/wizard/qml/CreateRing.qml:236
 #, kde-format
 msgid ""
 "(*) registered usernames can be reached by their username-string instead of "
 "their generated ring-id number only."
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:284
+#: src/wizard/qml/CreateRing.qml:266
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Creating account"
 msgstr "नवीन खाते%1"
 
-#: src/wizard/qml/CreateRing.qml:311 src/wizard/qml/ImportRing.qml:157
+#: src/wizard/qml/CreateRing.qml:293 src/wizard/qml/ImportRing.qml:160
 #, kde-format
 msgid "Timeout"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:379
+#: src/wizard/qml/CreateRing.qml:361
 #, kde-format
 msgid "The username is available"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:388
+#: src/wizard/qml/CreateRing.qml:365
+#, kde-format
+msgid "Please enter an username (3 character minimum)"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:370
+#, kde-format
+msgid "The registered name lookup failed, ignoring"
+msgstr ""
+
+#: src/wizard/qml/CreateRing.qml:374
 #, kde-format
 msgid "The username is not available"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:411
+#: src/wizard/qml/CreateRing.qml:397
 #, kde-format
 msgid "Success"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:416
+#: src/wizard/qml/CreateRing.qml:402
 #, fuzzy, kde-format
 #| msgid "Password"
 msgid "Password mismatch"
 msgstr "गुप्तशब्द"
 
-#: src/wizard/qml/CreateRing.qml:419
+#: src/wizard/qml/CreateRing.qml:405
 #, kde-format
 msgid "Invalid name"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:422
+#: src/wizard/qml/CreateRing.qml:408
 #, kde-format
 msgid "Already taken"
 msgstr ""
 
-#: src/wizard/qml/CreateRing.qml:425
+#: src/wizard/qml/CreateRing.qml:411
 #, fuzzy, kde-format
 #| msgid "Network Interface"
 msgid "Network error"
 msgstr "संजाळ दुवा"
 
-#: src/wizard/qml/CreateRing.qml:442
+#: src/wizard/qml/CreateRing.qml:430
 #, kde-format
 msgid "Can't register"
 msgstr ""
 
-#: src/wizard/qml/frontpage.qml:26
-#, kde-format
-msgid "Hello World"
-msgstr ""
-
-#: src/wizard/qml/frontpage.qml:38
-#, kde-format
-msgid "Second page"
-msgstr ""
-
-#: src/wizard/qml/frontpage.qml:48
-#, kde-format
-msgid "First"
-msgstr ""
-
-#: src/wizard/qml/frontpage.qml:51
-#, kde-format
-msgid "Second"
-msgstr ""
-
-#: src/wizard/qml/ImportRing.qml:60
+#: src/wizard/qml/ImportRing.qml:63
 #, kde-format
 msgid "Link this device"
 msgstr ""
 
-#: src/wizard/qml/ImportRing.qml:79
+#: src/wizard/qml/ImportRing.qml:82
 #, kde-format
 msgid "Enter your main Ring account password"
 msgstr ""
 
-#: src/wizard/qml/ImportRing.qml:95
+#: src/wizard/qml/ImportRing.qml:98
 #, kde-format
 msgid ""
 "Enter the PIN number from another configured Ring account. Use the \"Export "
 "account on Ring\" feature to obtain a PIN."
 msgstr ""
 
-#: src/wizard/qml/ImportRing.qml:130
+#: src/wizard/qml/ImportRing.qml:133
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Importing account"
 msgstr "नवीन खाते%1"
 
-#: src/wizard/qml/ImportRing.qml:181
+#: src/wizard/qml/ImportRing.qml:184
 #, kde-format
 msgid "Importing failed"
 msgstr ""
@@ -2858,7 +2879,7 @@ msgstr "नवीन खाते%1"
 msgid "Use an anonymous account"
 msgstr "शॉर्टकट संयोजीत करा"
 
-#: src/wizard/qml/Page1Form.ui.qml:79 src/wizard/qml/wizard.qml:218
+#: src/wizard/qml/Page1Form.ui.qml:79 src/wizard/qml/wizard.qml:217
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Import a SIP account"
