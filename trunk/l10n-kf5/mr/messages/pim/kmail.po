@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-08 03:35+0100\n"
+"POT-Creation-Date: 2018-03-10 03:24+0100\n"
 "PO-Revision-Date: 2013-04-15 11:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1227,20 +1227,20 @@ msgstr ""
 
 #: configuredialog/configurecomposerpage.cpp:681
 #: configuredialog/configurecomposerpage.cpp:770
-#: configuredialog/configurecomposerpage.cpp:1150
+#: configuredialog/configurecomposerpage.cpp:1155
 #, kde-format
 msgid "A&dd..."
 msgstr "जोडा (&D)..."
 
 #: configuredialog/configurecomposerpage.cpp:681
 #: configuredialog/configurecomposerpage.cpp:923
-#: configuredialog/configurecomposerpage.cpp:1150
+#: configuredialog/configurecomposerpage.cpp:1155
 #, kde-format
 msgid "Re&move"
 msgstr "काढून टाका (&M)"
 
 #: configuredialog/configurecomposerpage.cpp:682
-#: configuredialog/configurecomposerpage.cpp:1151
+#: configuredialog/configurecomposerpage.cpp:1156
 #, kde-format
 msgid "Mod&ify..."
 msgstr "बदला (&I)..."
@@ -1351,12 +1351,24 @@ msgstr "नाव (&N):"
 msgid "&Value:"
 msgstr "मूल्य (&V):"
 
-#: configuredialog/configurecomposerpage.cpp:1121
+#: configuredialog/configurecomposerpage.cpp:1084
+#, kde-format
+msgid ""
+"'Content-Type' is not an authorized string. This header will be not saved."
+msgstr ""
+
+#: configuredialog/configurecomposerpage.cpp:1084
+#, fuzzy, kde-format
+#| msgid "Invalid Email Address"
+msgid "Invalid header"
+msgstr "अवैध इमेल पत्ता"
+
+#: configuredialog/configurecomposerpage.cpp:1126
 #, kde-format
 msgid "Outlook-compatible attachment naming"
 msgstr "आउटलूक-अनुकूल अटॅचमेंट नाव"
 
-#: configuredialog/configurecomposerpage.cpp:1124
+#: configuredialog/configurecomposerpage.cpp:1129
 #, kde-format
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names "
@@ -1365,40 +1377,40 @@ msgstr ""
 "इंग्लिशमध्ये नसलेली अक्षरे/खुणा असलेल्या जोडण्यांच्या नावे आउटलूकला समजण्यासाठी ह्या पर्यायाकडे "
 "वळा"
 
-#: configuredialog/configurecomposerpage.cpp:1133
+#: configuredialog/configurecomposerpage.cpp:1138
 #, kde-format
 msgid "E&nable detection of missing attachments"
 msgstr "न सापडणाऱ्या अटॅचमेंट चा शोध कार्यान्वित करा (&N)"
 
-#: configuredialog/configurecomposerpage.cpp:1139
+#: configuredialog/configurecomposerpage.cpp:1144
 #, kde-format
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr "फाइल जोडण्याचे उद्दिष्ट दर्शविणारा खालीलपैकी कोणताही महत्वाचा शब्द जाणून घ्या"
 
-#: configuredialog/configurecomposerpage.cpp:1152
+#: configuredialog/configurecomposerpage.cpp:1157
 #, kde-format
 msgid "Enter new key word:"
 msgstr "नवीन कळ शब्द दाखल करा :"
 
-#: configuredialog/configurecomposerpage.cpp:1160
+#: configuredialog/configurecomposerpage.cpp:1165
 #, fuzzy, kde-format
 #| msgctxt "Config->Composer->Attachments"
 #| msgid "Attachments"
 msgid "Maximum Attachment Size:"
 msgstr "अटॅचमेंट"
 
-#: configuredialog/configurecomposerpage.cpp:1167
+#: configuredialog/configurecomposerpage.cpp:1172
 #, kde-format
 msgctxt "spinbox suffix: unit for kilobyte"
 msgid " kB"
 msgstr " kB"
 
-#: configuredialog/configurecomposerpage.cpp:1169
+#: configuredialog/configurecomposerpage.cpp:1174
 #, kde-format
 msgid "No limit"
 msgstr "मर्यादा नाही"
 
-#: configuredialog/configurecomposerpage.cpp:1197
+#: configuredialog/configurecomposerpage.cpp:1202
 #, kde-format
 msgid ""
 "You have chosen to encode attachment names containing non-English characters "
@@ -8367,11 +8379,6 @@ msgstr[1] "आउट ऑफ ऑफीस पद्धती कार्यर�
 #~| msgid "Date"
 #~ msgid "Date:"
 #~ msgstr "दिनांक"
-
-#, fuzzy
-#~| msgid "Invalid Email Address"
-#~ msgid "Invalid date"
-#~ msgstr "अवैध इमेल पत्ता"
 
 #~ msgid "Force reindexing"
 #~ msgstr "बळपूर्वक पुन्हा अनुक्रमीत करा"
