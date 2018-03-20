@@ -158,15 +158,22 @@ msgctxt "KGAPI2::AccountInfoFetchJob|"
 msgid "Invalid response content type"
 msgstr ""
 
-#: src/core/authjob.cpp:184
+#: src/core/authjob.cpp:179
 msgctxt "KGAPI2::AuthJob|"
 msgid "Failed to parse newly fetched tokens"
 msgstr ""
 
-#: src/core/authjob.cpp:231
+#: src/core/authjob.cpp:226
 msgctxt "KGAPI2::AuthJob|"
 msgid "Account name is empty"
 msgstr ""
+
+#: src/core/authjob.cpp:248
+#, fuzzy
+#| msgid "Authentication cancelled"
+msgctxt "KGAPI2::AuthJob|"
+msgid "Authentication canceled"
+msgstr "अधिप्रमाणन रद्द केले"
 
 #: src/core/job.cpp:132
 #, fuzzy
@@ -259,9 +266,32 @@ msgctxt "KGAPI2::AuthWidget|"
 msgid "No scopes to authenticate for"
 msgstr ""
 
+#: src/core/ui/authwidget.cpp:106
+msgctxt "KGAPI2::AuthWidget|"
+msgid "Could not start oauth http server"
+msgstr ""
+
 #: src/core/ui/authwidget_p.cpp:130
 msgctxt "KGAPI2::AuthWidgetPrivate|"
 msgid "Authorizing token. This should take just a moment..."
+msgstr ""
+
+#: src/core/ui/authwidget_p.cpp:267
+#, qt-format
+msgctxt "KGAPI2::AuthWidgetPrivate|"
+msgid "Error receiving response: %1"
+msgstr ""
+
+#: src/core/ui/authwidget_p.cpp:287
+#, fuzzy
+#| msgid "The account is invalid."
+msgctxt "KGAPI2::AuthWidgetPrivate|"
+msgid "Token response invalid"
+msgstr "खाते अवैध आहे."
+
+#: src/core/ui/authwidget_p.cpp:302
+msgctxt "KGAPI2::AuthWidgetPrivate|"
+msgid "Could not extract token from HTTP answer"
 msgstr ""
 
 #: src/drive/aboutfetchjob.cpp:140
@@ -389,14 +419,8 @@ msgctxt "KGAPI2::TaskModifyJob|"
 msgid "Invalid response content type"
 msgstr ""
 
-#~ msgid "Authentication cancelled"
-#~ msgstr "अधिप्रमाणन रद्द केले"
-
 #~ msgid "Unknown account '%1'"
 #~ msgstr "अपरिचीत खाते '%1'"
 
 #~ msgid "KWallet is not opened."
 #~ msgstr "के-पाकिट उघडलेले नाही."
-
-#~ msgid "The account is invalid."
-#~ msgstr "खाते अवैध आहे."

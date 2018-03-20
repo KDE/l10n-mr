@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-01 06:12+0100\n"
+"POT-Creation-Date: 2018-03-16 03:23+0100\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -65,93 +65,129 @@ msgstr "इतिहास :"
 msgid "Remember folders and URLs"
 msgstr "संचयीका आणि URL लक्षात ठेवा"
 
-#: app/browsemainpage.cpp:130 app/mainwindow.cpp:359 app/viewmainpage.cpp:421
+#. i18n: ectx: property (text), widget (QLabel, colorRenderingLabel)
+#: app/advancedconfigpage.ui:127
+#, kde-format
+msgid "Rendering intent:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, perceptualRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:142
+#, kde-format
+msgctxt "@option:Perceptual rendering intent"
+msgid "Perceptual"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, perceptualHelpLabel)
+#: app/advancedconfigpage.ui:154
+#, kde-format
+msgid ""
+"Scale all colors equally to fit them within the active color profile's color "
+"gamut"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, relativeRenderingIntentRadioButton)
+#: app/advancedconfigpage.ui:182
+#, kde-format
+msgctxt "@option:Relative Colorimetric rendering intent"
+msgid "Relative Colorimetric"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, relativeHelpLabel)
+#: app/advancedconfigpage.ui:194
+#, kde-format
+msgid ""
+"Squash colors that don't fit within the active color profile's color gamut, "
+"leaving other colors untouched"
+msgstr ""
+
+#: app/browsemainpage.cpp:134 app/mainwindow.cpp:357 app/viewmainpage.cpp:404
 #: lib/documentview/documentviewcontroller.cpp:90
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "दृश्य"
 
-#: app/browsemainpage.cpp:132
+#: app/browsemainpage.cpp:136
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr "स्थान संपादन"
 
-#: app/browsemainpage.cpp:136
+#: app/browsemainpage.cpp:140
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Sort By"
 msgstr "अनुक्रमीत करा"
 
-#: app/browsemainpage.cpp:137
+#: app/browsemainpage.cpp:141
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Name"
 msgstr "नाव"
 
-#: app/browsemainpage.cpp:139
+#: app/browsemainpage.cpp:143
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Date"
 msgstr "दिनांक"
 
-#: app/browsemainpage.cpp:141
+#: app/browsemainpage.cpp:145
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Size"
 msgstr "आकार"
 
-#: app/browsemainpage.cpp:149
+#: app/browsemainpage.cpp:153
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Thumbnail Details"
 msgstr "लघुप्रतिमा तपशील"
 
-#: app/browsemainpage.cpp:150
+#: app/browsemainpage.cpp:154
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filename"
 msgstr "फाईलचे नाव"
 
-#: app/browsemainpage.cpp:151
+#: app/browsemainpage.cpp:155
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Date"
 msgstr "दिनांक"
 
-#: app/browsemainpage.cpp:152
+#: app/browsemainpage.cpp:156
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Image Size"
 msgstr "प्रतिमेचा आकार"
 
-#: app/browsemainpage.cpp:153
+#: app/browsemainpage.cpp:157
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File Size"
 msgstr "फाईलचा आकार"
 
-#: app/browsemainpage.cpp:155
+#: app/browsemainpage.cpp:159
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "मुल्यांकन"
 
-#: app/browsemainpage.cpp:158 app/fileopscontextmanageritem.cpp:132
-#: app/mainwindow.cpp:358
+#: app/browsemainpage.cpp:162 app/fileopscontextmanageritem.cpp:133
+#: app/mainwindow.cpp:356
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
 msgstr "फाईल"
 
-#: app/browsemainpage.cpp:160
+#: app/browsemainpage.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
 msgstr "संचयीका योग्य जागी वाढवा/ठेवा"
 
-#: app/browsemainpage.cpp:187
+#: app/browsemainpage.cpp:191
 #, kde-format
 msgctxt "@label"
 msgid "%1 document"
@@ -165,22 +201,22 @@ msgstr[1] "%1 दस्तऐवज"
 msgid "Add Filter"
 msgstr "गाळणी जोडा"
 
-#: app/configdialog.cpp:55
+#: app/configdialog.cpp:62
 #, kde-format
 msgid "General"
 msgstr "सामान्य"
 
-#: app/configdialog.cpp:89
+#: app/configdialog.cpp:96
 #, kde-format
 msgid "Image View"
 msgstr "प्रतिमेचे दृश्य"
 
-#: app/configdialog.cpp:94
+#: app/configdialog.cpp:107
 #, kde-format
 msgid "Advanced"
 msgstr "प्रगत"
 
-#: app/fileoperations.cpp:63
+#: app/fileoperations.cpp:65
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Copy"
@@ -188,7 +224,7 @@ msgctxt "@title:window %1 file name"
 msgid "Copy %1"
 msgstr "प्रत करा"
 
-#: app/fileoperations.cpp:65
+#: app/fileoperations.cpp:67
 #, fuzzy, kde-format
 #| msgid "Loop on images"
 msgctxt "@title:window %1 number of images"
@@ -197,13 +233,13 @@ msgid_plural "Copy %1 images"
 msgstr[0] "प्रतिमा चक्राकार पद्धतीत ठेवा"
 msgstr[1] "प्रतिमा चक्राकार पद्धतीत ठेवा"
 
-#: app/fileoperations.cpp:67
+#: app/fileoperations.cpp:69
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy"
 msgstr "प्रत करा"
 
-#: app/fileoperations.cpp:71
+#: app/fileoperations.cpp:73
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Move"
@@ -211,7 +247,7 @@ msgctxt "@title:window %1 file name"
 msgid "Move %1"
 msgstr "हलवा"
 
-#: app/fileoperations.cpp:73
+#: app/fileoperations.cpp:75
 #, fuzzy, kde-format
 #| msgctxt "%1 is collection name, %2 is image count in collection"
 #| msgid "%1 (%2 image)"
@@ -222,13 +258,13 @@ msgid_plural "Move %1 images"
 msgstr[0] "%1 (%2 प्रतिमा)"
 msgstr[1] "%1 (%2 प्रतिमा)"
 
-#: app/fileoperations.cpp:75
+#: app/fileoperations.cpp:77
 #, kde-format
 msgctxt "@action:button"
 msgid "Move"
 msgstr "हलवा"
 
-#: app/fileoperations.cpp:79
+#: app/fileoperations.cpp:81
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Link"
@@ -236,7 +272,7 @@ msgctxt "@title:window %1 file name"
 msgid "Link %1"
 msgstr "लिंक करा"
 
-#: app/fileoperations.cpp:81
+#: app/fileoperations.cpp:83
 #, fuzzy, kde-format
 #| msgctxt "%1 is collection name, %2 is image count in collection"
 #| msgid "%1 (%2 image)"
@@ -247,111 +283,100 @@ msgid_plural "Link %1 images"
 msgstr[0] "%1 (%2 प्रतिमा)"
 msgstr[1] "%1 (%2 प्रतिमा)"
 
-#: app/fileoperations.cpp:83
+#: app/fileoperations.cpp:85
 #, kde-format
 msgctxt "@action:button"
 msgid "Link"
 msgstr "लिंक करा"
 
-#: app/fileoperations.cpp:195
+#: app/fileoperations.cpp:202
 #, kde-format
 msgid "Move Here"
 msgstr "येथे हलवा"
 
-#: app/fileoperations.cpp:198
+#: app/fileoperations.cpp:205
 #, kde-format
 msgid "Copy Here"
 msgstr "येथे प्रत करा"
 
-#: app/fileoperations.cpp:201
+#: app/fileoperations.cpp:208
 #, kde-format
 msgid "Link Here"
 msgstr "येथे जोडा"
 
-#: app/fileoperations.cpp:205
+#: app/fileoperations.cpp:212
 #, kde-format
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: app/fileoperations.cpp:226
-#, kde-format
-msgctxt "@title:window"
-msgid "Rename"
-msgstr "नाव बदला"
-
-#: app/fileoperations.cpp:227
-#, kde-kuit-format
-msgid "Rename <filename>%1</filename> to:"
-msgstr "<filename>%1</filename> चे नाव बदला :"
-
-#: app/fileopscontextmanageritem.cpp:120
+#: app/fileopscontextmanageritem.cpp:121
 #, kde-format
 msgid "File Operations"
 msgstr "फाईलच्या क्रिया"
 
-#: app/fileopscontextmanageritem.cpp:133
+#: app/fileopscontextmanageritem.cpp:134
 #: app/semanticinfocontextmanageritem.cpp:200
 #, kde-format
 msgctxt "@title actions category"
 msgid "Edit"
 msgstr "संपादन"
 
-#: app/fileopscontextmanageritem.cpp:140
+#: app/fileopscontextmanageritem.cpp:141
 #, kde-format
 msgctxt "Verb"
 msgid "Copy To..."
 msgstr "येथे प्रत करा..."
 
-#: app/fileopscontextmanageritem.cpp:145
+#: app/fileopscontextmanageritem.cpp:146
 #, kde-format
 msgctxt "Verb"
 msgid "Move To..."
 msgstr "येथे हलवा..."
 
-#: app/fileopscontextmanageritem.cpp:150
+#: app/fileopscontextmanageritem.cpp:151
 #, kde-format
 msgctxt "Verb: create link to the file where user wants"
 msgid "Link To..."
 msgstr "येथे जोडा"
 
-#: app/fileopscontextmanageritem.cpp:155
+#: app/fileopscontextmanageritem.cpp:156
 #, kde-format
 msgctxt "Verb"
 msgid "Rename..."
 msgstr "नवीन नाव"
 
-#: app/fileopscontextmanageritem.cpp:160
+#: app/fileopscontextmanageritem.cpp:161
 #, kde-format
 msgctxt "Verb"
 msgid "Trash"
 msgstr "कचरा पेटी"
 
-#: app/fileopscontextmanageritem.cpp:170
+#: app/fileopscontextmanageritem.cpp:171
 #, kde-format
 msgid "Restore"
 msgstr "पुन्हस्थापित करा"
 
-#: app/fileopscontextmanageritem.cpp:174
+#: app/fileopscontextmanageritem.cpp:175
 #, kde-format
 msgid "Properties"
 msgstr "गुणधर्म"
 
-#: app/fileopscontextmanageritem.cpp:178
+#: app/fileopscontextmanageritem.cpp:179
 #, kde-format
 msgid "Create Folder..."
 msgstr "संचयीका तयार करा"
 
-#: app/fileopscontextmanageritem.cpp:182
+#: app/fileopscontextmanageritem.cpp:183
 #, kde-format
 msgid "Open With"
 msgstr "यामध्ये उघडा"
 
-#: app/fileopscontextmanageritem.cpp:189
+#: app/fileopscontextmanageritem.cpp:190
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:385
+#: app/fileopscontextmanageritem.cpp:386
 #, kde-format
 msgid "Other Application..."
 msgstr "अन्य अनुप्रयोग..."
@@ -484,13 +509,13 @@ msgstr "लघुप्रतिमा दर्शवा"
 msgid "Height:"
 msgstr "उंची : "
 
-#: app/fullscreencontent.cpp:215
+#: app/fullscreencontent.cpp:217
 #, kde-format
 msgctxt "@item:intext fullscreen meta info separator"
 msgid ", "
 msgstr ", "
 
-#: app/fullscreencontent.cpp:271
+#: app/fullscreencontent.cpp:266
 #, kde-format
 msgctxt "Slideshow interval in seconds"
 msgid "%1 sec"
@@ -498,31 +523,58 @@ msgid_plural "%1 secs"
 msgstr[0] "%1 सेकंद"
 msgstr[1] "%1 सेकंद"
 
-#: app/fullscreencontent.cpp:375
+#: app/fullscreencontent.cpp:370
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure full screen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीची व्यूहरचना"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: app/generalconfigpage.ui:17
-#, kde-format
-msgid "Background color:"
-msgstr "पार्श्वभूमीवरील रंग"
-
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: app/generalconfigpage.ui:82
+#: app/generalconfigpage.ui:17
 #, kde-format
 msgid "Videos:"
 msgstr "व्हिडीओ :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ListVideos)
-#: app/generalconfigpage.ui:89
+#: app/generalconfigpage.ui:24
 #, kde-format
 msgid "Show videos"
 msgstr "व्हिडीओ दर्शवा"
 
-#: app/gvcore.cpp:73
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: app/generalconfigpage.ui:47
+#, kde-format
+msgid "Background color:"
+msgstr "पार्श्वभूमीवरील रंग"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: app/generalconfigpage.ui:128
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Thumbnail Details"
+msgid "Thumbnail actions:"
+msgstr "लघुप्रतिमा तपशील"
+
+#. i18n: ectx: property (text), widget (QRadioButton, allButtonsThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:135
+#, kde-format
+msgid "All buttons"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectionOnlyThumbnailActionsRadioButton)
+#: app/generalconfigpage.ui:142
+#, kde-format
+msgid "Show selection button only"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
+#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
+#: app/generalconfigpage.ui:149 app/imageviewconfigpage.ui:409
+#, kde-format
+msgid "None"
+msgstr "काही नाही"
+
+#: app/gvcore.cpp:74
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Open Image"
@@ -530,23 +582,23 @@ msgctxt "@title:window"
 msgid "Save Image"
 msgstr "प्रतिमा उघडा"
 
-#: app/gvcore.cpp:105
+#: app/gvcore.cpp:106
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot save images as %1."
 msgstr "ग्वेनव्ह्यू %1 अशी प्रतिमा साठवू शकत नाही."
 
-#: app/gvcore.cpp:242
+#: app/gvcore.cpp:338
 #, kde-format
 msgid "Save using another format"
 msgstr "दुसरे स्वरूप निवडून साठवा"
 
-#: app/gvcore.cpp:245
+#: app/gvcore.cpp:341
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "ग्वेनव्ह्यू %1 स्वरुपात प्रतिमा साठवू शकत नाही."
 
-#: app/gvcore.cpp:270
+#: app/gvcore.cpp:366
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -556,7 +608,7 @@ msgstr ""
 "<filename>%1</filename> या नावाची फाईल आधीपासून अस्तित्वात आहे.\n"
 "ती खोडून परत लिहावयाची याची तुम्हाला खात्री आहे का?"
 
-#: app/gvcore.cpp:285 app/gvcore.cpp:308
+#: app/gvcore.cpp:381 app/gvcore.cpp:404
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
@@ -564,12 +616,12 @@ msgctxt "@info"
 msgid "<b>Saving <filename>%1</filename> failed:</b><br />%2"
 msgstr "<b><filename>%1</filename> साठवणे अयशस्वी झाले :</b></br>%2"
 
-#: app/gvcore.cpp:328
+#: app/gvcore.cpp:424
 #, kde-format
 msgid "You are now viewing the new document."
 msgstr "आता तुम्ही नवीन दस्तऐवज पाहत आहात."
 
-#: app/gvcore.cpp:330
+#: app/gvcore.cpp:426
 #, kde-format
 msgid "Go back to the original"
 msgstr "मूळस्थळाकडे जा"
@@ -604,68 +656,68 @@ msgctxt "@title:window"
 msgid "Image Information"
 msgstr "प्रतिमेची माहिती"
 
-#: app/imageopscontextmanageritem.cpp:81
+#: app/imageopscontextmanageritem.cpp:82
 #, kde-format
 msgctxt "@title actions category - means actions changing image"
 msgid "Edit"
 msgstr "संपादन"
 
-#: app/imageopscontextmanageritem.cpp:84
+#: app/imageopscontextmanageritem.cpp:85
 #, kde-format
 msgid "Rotate Left"
 msgstr "डाव्या बाजूला फिरवा"
 
-#: app/imageopscontextmanageritem.cpp:85
+#: app/imageopscontextmanageritem.cpp:86
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate image to the left"
 msgstr "प्रतिमा डाव्या बाजूला फिरवा"
 
-#: app/imageopscontextmanageritem.cpp:90
+#: app/imageopscontextmanageritem.cpp:91
 #, kde-format
 msgid "Rotate Right"
 msgstr "उजव्या बाजूला फिरवा"
 
-#: app/imageopscontextmanageritem.cpp:91
+#: app/imageopscontextmanageritem.cpp:92
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Rotate image to the right"
 msgstr "प्रतिमा उजव्या बाजूला फिरवा"
 
-#: app/imageopscontextmanageritem.cpp:96
+#: app/imageopscontextmanageritem.cpp:97
 #, kde-format
 msgid "Mirror"
 msgstr "प्रतिबिंब तयार करा"
 
-#: app/imageopscontextmanageritem.cpp:100
+#: app/imageopscontextmanageritem.cpp:101
 #, kde-format
 msgid "Flip"
 msgstr "पलटी करा"
 
-#: app/imageopscontextmanageritem.cpp:104 lib/resize/resizeimagedialog.cpp:64
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:64
 #, kde-format
 msgid "Resize"
 msgstr "आकार बदला"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
-#: app/imageopscontextmanageritem.cpp:109 lib/crop/cropimageoperation.cpp:71
+#: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
 #: lib/crop/cropwidget.cpp:191 lib/crop/cropwidget.ui:20
 #, kde-format
 msgid "Crop"
 msgstr "लहान करा"
 
-#: app/imageopscontextmanageritem.cpp:114
+#: app/imageopscontextmanageritem.cpp:115
 #, kde-format
 msgid "Red Eye Reduction"
 msgstr "रेड आय लघूकरण"
 
-#: app/imageopscontextmanageritem.cpp:140 lib/document/documentjob.cpp:79
+#: app/imageopscontextmanageritem.cpp:141 lib/document/documentjob.cpp:79
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot edit this kind of image."
 msgstr "ग्वेनव्ह्यू ह्या प्रकारच्या प्रतिमेचे संपादन करीत नाही"
 
-#: app/imageopscontextmanageritem.cpp:152
+#: app/imageopscontextmanageritem.cpp:153
 #, kde-format
 msgid "Image Operations"
 msgstr "प्रतिमा प्रक्रिया"
@@ -756,12 +808,6 @@ msgstr "OpenGL"
 #, kde-format
 msgid "Software"
 msgstr "सॉफ़्टवेअर"
-
-#. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
-#: app/imageviewconfigpage.ui:409
-#, kde-format
-msgid "None"
-msgstr "काही नाही"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: app/imageviewconfigpage.ui:447
@@ -960,67 +1006,67 @@ msgstr "पूर्ण स्क्रीन पद्धतीत सुरु
 msgid "Start in slideshow mode"
 msgstr "स्लाइड प्रदर्शन पद्धतीत सुरु करा"
 
-#: app/main.cpp:145
+#: app/main.cpp:143
 #, fuzzy, kde-format
 #| msgid "A starting file or folder"
 msgid "A starting file or folders"
 msgstr "सुरवातीची फाईल अथवा संचयीका"
 
-#: app/mainwindow.cpp:370
+#: app/mainwindow.cpp:368
 #, kde-format
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "पुन्हा दाखल करा"
 
-#: app/mainwindow.cpp:375
+#: app/mainwindow.cpp:373
 #, kde-format
 msgctxt "@action:intoolbar Switch to file list"
 msgid "Browse"
 msgstr "ब्राऊज"
 
-#: app/mainwindow.cpp:376
+#: app/mainwindow.cpp:374
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr "प्रतिमांसाठी संचयीका शोधा"
 
-#: app/mainwindow.cpp:383
+#: app/mainwindow.cpp:382
 #, kde-format
 msgctxt "@action:intoolbar Switch to image view"
 msgid "View"
 msgstr "दृश्य"
 
-#: app/mainwindow.cpp:384
+#: app/mainwindow.cpp:383
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "View selected images"
 msgstr "निवडक प्रतिमा पहा"
 
-#: app/mainwindow.cpp:406
+#: app/mainwindow.cpp:405
 #, kde-format
 msgctxt "@action"
 msgid "Leave Fullscreen Mode"
 msgstr "पूर्ण स्क्रीन पद्धतीतून बाहेर पडा"
 
-#: app/mainwindow.cpp:411
+#: app/mainwindow.cpp:410
 #, kde-format
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "मागील"
 
-#: app/mainwindow.cpp:412
+#: app/mainwindow.cpp:411
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to previous image"
 msgstr "मागील प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:419
+#: app/mainwindow.cpp:418
 #, kde-format
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "पुढील"
 
-#: app/mainwindow.cpp:420
+#: app/mainwindow.cpp:419
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to next image"
@@ -1038,25 +1084,25 @@ msgctxt "@info:tooltip"
 msgid "Go to first image"
 msgstr "पहिल्या प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:432
+#: app/mainwindow.cpp:433
 #, kde-format
 msgctxt "@action Go to last image"
 msgid "Last"
 msgstr "शेवटची"
 
-#: app/mainwindow.cpp:433
+#: app/mainwindow.cpp:434
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to last image"
 msgstr "शेवटच्या प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:443
+#: app/mainwindow.cpp:444
 #, kde-format
 msgctxt "@action"
 msgid "Start Page"
 msgstr "सुरवातीचे पान"
 
-#: app/mainwindow.cpp:444
+#: app/mainwindow.cpp:445
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the start page"
@@ -1099,85 +1145,105 @@ msgstr "माहिती"
 msgid "Operations"
 msgstr "क्रिया"
 
-#: app/mainwindow.cpp:1071
+#: app/mainwindow.cpp:1109
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr "बाजूची पट्टी लपवा"
 
-#: app/mainwindow.cpp:1071
+#: app/mainwindow.cpp:1110
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr "बाजूची पट्टी दर्शवा"
 
-#: app/mainwindow.cpp:1320
+#: app/mainwindow.cpp:1363
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "प्रतिमा उघडा"
 
-#: app/mainwindow.cpp:1380
+#: app/mainwindow.cpp:1424
 #, kde-format
 msgid "Stop Slideshow"
 msgstr "स्लाइड प्रदर्शन थांबवा"
 
-#: app/mainwindow.cpp:1383
+#: app/mainwindow.cpp:1427
 #, kde-format
 msgid "Start Slideshow"
 msgstr "स्लाइडप्रदर्शन सुरु करा"
 
-#: app/mainwindow.cpp:1397
+#: app/mainwindow.cpp:1440
 #, kde-format
 msgid "Save All Changes"
 msgstr "सर्व बदल साठवा"
 
-#: app/mainwindow.cpp:1398
+#: app/mainwindow.cpp:1441
 #, kde-format
 msgid "Discard Changes"
 msgstr "बदल काढून टाका"
 
-#: app/mainwindow.cpp:1399
+#: app/mainwindow.cpp:1442
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "एक प्रतिमा बदललेली आहे."
 msgstr[1] "%1 प्रतिमा बदललेल्या आहेत."
 
-#: app/mainwindow.cpp:1401
+#: app/mainwindow.cpp:1444
 #, kde-format
 msgid "If you quit now, your changes will be lost."
 msgstr "तुम्ही आता बहर पडलात तर तुम्ही केलेले बदल हरवतील."
 
-#: app/mainwindow.cpp:1601
+#: app/mainwindow.cpp:1648
 #, kde-format
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1602 app/mainwindow.cpp:1616
+#: app/mainwindow.cpp:1649 app/mainwindow.cpp:1663
 #, kde-format
 msgid "Stay There"
 msgstr "तेथे थांबा"
 
-#: app/mainwindow.cpp:1603
+#: app/mainwindow.cpp:1650
 #, kde-format
 msgid "Go to the Last Document"
 msgstr "शेवटच्या  दस्तऐवजाकडे जा"
 
-#: app/mainwindow.cpp:1604 app/mainwindow.cpp:1618
+#: app/mainwindow.cpp:1651 app/mainwindow.cpp:1665
 #, kde-format
 msgid "Go Back to the Document List"
 msgstr "दस्तऐवज यादीकडे परत जा"
 
-#: app/mainwindow.cpp:1615
+#: app/mainwindow.cpp:1662
 #, kde-format
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1617
+#: app/mainwindow.cpp:1664
 #, kde-format
 msgid "Go to the First Document"
 msgstr "पहिल्या दस्तऐवजाकडे जा"
+
+#: app/renamedialog.cpp:50
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Rename"
+msgctxt "@action:button"
+msgid "Rename"
+msgstr "नाव बदला"
+
+#: app/renamedialog.cpp:63
+#, kde-kuit-format
+msgid "Rename <filename>%1</filename> to:"
+msgstr "<filename>%1</filename> चे नाव बदला :"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameDialog)
+#: app/renamedialog.ui:26
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename"
+msgstr "नाव बदला"
 
 #: app/saveallhelper.cpp:58
 #, kde-format
@@ -1206,7 +1272,7 @@ msgctxt ""
 msgid "<filename>%1</filename>: %2"
 msgstr "<filename>%1</filename>: %2"
 
-#: app/savebar.cpp:87
+#: app/savebar.cpp:86
 #, kde-format
 msgid ""
 "You have modified many images. To avoid memory problems, you should save "
@@ -1215,39 +1281,39 @@ msgstr ""
 "तुम्ही अनेक प्रतिमात सुधारणा केल्या आहेत. स्मरणसाठ्यात अडचणी निर्माण होऊ नयेत म्हणून हे बदल "
 "साठवा"
 
-#: app/savebar.cpp:176
+#: app/savebar.cpp:175
 #, kde-format
 msgid "Current image modified"
 msgstr "सध्याची प्रतिमा सुधारित केली"
 
-#: app/savebar.cpp:182
+#: app/savebar.cpp:181
 #, kde-format
 msgid "Previous modified image"
 msgstr "मागील प्रतिमा सुधारित केली"
 
-#: app/savebar.cpp:183
+#: app/savebar.cpp:182
 #, kde-format
 msgid "Next modified image"
 msgstr "पुढील प्रतिमा सुधारित केली"
 
-#: app/savebar.cpp:199
+#: app/savebar.cpp:198
 #, kde-format
 msgid "One image modified"
 msgid_plural "%1 images modified"
 msgstr[0] "एक प्रतिमा बदललेली आहे"
 msgstr[1] "%1 प्रतिमा बदललेल्या आहेत"
 
-#: app/savebar.cpp:201
+#: app/savebar.cpp:200
 #, kde-format
 msgid "Go to first modified image"
 msgstr "पहिल्या सुधारित प्रतिमेकडे जा"
 
-#: app/savebar.cpp:203
+#: app/savebar.cpp:202
 #, kde-format
 msgid "Go to it"
 msgstr "तिच्याकडे जा"
 
-#: app/savebar.cpp:301 app/savebar.cpp:305
+#: app/savebar.cpp:299 app/savebar.cpp:303
 #, kde-format
 msgid "Save All"
 msgstr "सर्व साठवा"
@@ -1366,23 +1432,23 @@ msgstr ""
 "टॅग्स वापरून शोधण्याची सोय उपलब्ध नाही. नेपोमुक(Nepomuk) योग्य तऱ्हेने प्रतीस्थापित केलेला "
 "आहे याची खात्री करा"
 
-#: app/viewmainpage.cpp:297 app/viewmainpage.cpp:431
+#: app/viewmainpage.cpp:283 app/viewmainpage.cpp:414
 #, kde-format
 msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
-#: app/viewmainpage.cpp:424
+#: app/viewmainpage.cpp:407
 #, kde-format
 msgid "Thumbnail Bar"
 msgstr "लघुप्रतिमा पट्टी"
 
-#: app/viewmainpage.cpp:710
+#: app/viewmainpage.cpp:707
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "बदल काढून टाका आणि पुन्हा दाखल करा"
 
-#: app/viewmainpage.cpp:712
+#: app/viewmainpage.cpp:709
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1617,12 +1683,12 @@ msgstr "स्रोत संचयीका"
 msgid "Importing documents..."
 msgstr "दस्तऐवज आयात होत आहे...."
 
-#: importer/thumbnailpage.cpp:199
+#: importer/thumbnailpage.cpp:211
 #, kde-format
 msgid "Import Selected"
 msgstr "आयात करावयाच्या बाबींची निवड केली आहे"
 
-#: importer/thumbnailpage.cpp:202
+#: importer/thumbnailpage.cpp:214
 #, kde-format
 msgid "Import All"
 msgstr "सर्व आयात करा"
@@ -1724,14 +1790,14 @@ msgstr "गुणोत्तर :"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lib/crop/cropwidget.ui:84
 #, kde-format
-msgid "Position:"
-msgstr "स्थान :"
+msgid "Size:"
+msgstr "आकार :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: lib/crop/cropwidget.ui:117
 #, kde-format
-msgid "Si&ze:"
-msgstr "आकार (&z) :"
+msgid "Position:"
+msgstr "स्थान :"
 
 #: lib/document/document.cpp:305
 #, kde-format
@@ -1805,14 +1871,15 @@ msgstr "निवड रद्द करा"
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "ह्या प्रकारचा दस्तऐवज कश्या प्रकारे दर्शवावयाचा ह्याची माहित ग्वेनव्ह्युजवळ नाही"
 
-#: lib/documentview/documentview.cpp:492
+#: lib/documentview/documentview.cpp:487
 #, kde-kuit-format
 msgid "Loading <filename>%1</filename> failed"
 msgstr "<filename>%1</filename> दाखल करता आली नाही"
 
 #: lib/documentview/documentviewcontroller.cpp:96
-#, kde-format
-msgid "Zoom to Fit"
+#, fuzzy, kde-format
+#| msgid "Zoom to Fit"
+msgid "Zoom to fit"
 msgstr "पूर्ण बसेल असे झूम करा"
 
 #: lib/documentview/documentviewcontroller.cpp:98
@@ -1822,18 +1889,17 @@ msgid "Fit"
 msgstr "समर्पक"
 
 #: lib/documentview/documentviewcontroller.cpp:104
-#, fuzzy, kde-format
-#| msgid "Zoom to Fit"
-msgid "Zoom to Fit Width"
-msgstr "पूर्ण बसेल असे झूम करा"
+#, kde-format
+msgid "Zoom to fill window by fitting to width or height"
+msgstr ""
 
 #: lib/documentview/documentviewcontroller.cpp:106
-#, fuzzy, kde-format
-#| msgid "Width"
+#, kde-format
 msgctxt ""
-"@action:button Zoom to fit width, shown in status bar, keep it short please"
-msgid "Fit Width"
-msgstr "रुंदी"
+"@action:button Zoom to fill (fit width or height), shown in status bar, keep "
+"it short please"
+msgid "Fill"
+msgstr ""
 
 #: lib/documentview/documentviewcontroller.cpp:112
 #, kde-format
@@ -1855,7 +1921,7 @@ msgid "%1"
 msgstr "%1"
 
 #. i18n: ectx: whatsthis, entry (PercentageOfMemoryUsageWarning), group (General)
-#: lib/gwenviewconfig.kcfg:32
+#: lib/gwenviewconfig.kcfg:44
 #, kde-format
 msgid ""
 "The percentage of memory used by Gwenview before it\n"
@@ -1865,7 +1931,7 @@ msgstr ""
 "बदल साठविण्यास सुचवितो"
 
 #. i18n: ectx: whatsthis, entry (BlackListedExtensions), group (General)
-#: lib/gwenviewconfig.kcfg:39
+#: lib/gwenviewconfig.kcfg:51
 #, fuzzy, kde-format
 #| msgid ""
 #| "A list of filename extensions Gwenview should not try to\n"
@@ -1885,7 +1951,7 @@ msgstr ""
 "            के-सेव्ह-फाईल च्या सहाय्याने तात्पुरत्या फाईल्स साठवण्यासाठी वापरला."
 
 #. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
-#: lib/gwenviewconfig.kcfg:159
+#: lib/gwenviewconfig.kcfg:177
 #, kde-format
 msgid ""
 "Defines what happens when going to image B after\n"
@@ -1901,32 +1967,45 @@ msgid ""
 "            be displayed with the updated zoom and position)."
 msgstr ""
 
+#. i18n: ectx: whatsthis, entry (RenderingIntent), group (ImageView)
+#: lib/gwenviewconfig.kcfg:191
+#, kde-format
+msgid ""
+"Defines how colors are rendered when your display\n"
+"            uses an ICC color profile and an image has colors that do not\n"
+"            fit within the profile's color gamut. \"Perceptual\" will scale\n"
+"            the colors of the entire image so that they all fit within the\n"
+"            display's capabilities. \"Relative\" will squash only the "
+"colors\n"
+"            that cannot be displayed, and leave the other colors alone."
+msgstr ""
+
 #. i18n: ectx: label, entry (random), group (slide show)
-#: lib/gwenviewconfig.kcfg:240
+#: lib/gwenviewconfig.kcfg:272
 #, kde-format
 msgid "Display slide show images in random order"
 msgstr "स्लाइडप्रदर्शनाच्या प्रतिमा कोणत्याही क्रमाने दर्शवा."
 
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
-#: lib/gwenviewconfig.kcfg:244
+#: lib/gwenviewconfig.kcfg:276
 #, kde-format
 msgid "Show slideshow in fullscreen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीत स्लाइड प्रदर्शन दर्शवा."
 
 #. i18n: ectx: label, entry (loop), group (slide show)
-#: lib/gwenviewconfig.kcfg:248
+#: lib/gwenviewconfig.kcfg:280
 #, kde-format
 msgid "Loop on images"
 msgstr "प्रतिमा चक्राकार पद्धतीत ठेवा"
 
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
-#: lib/gwenviewconfig.kcfg:252
+#: lib/gwenviewconfig.kcfg:284
 #, kde-format
 msgid "Stop at last image of folder"
 msgstr "संचयीकेमधील शेवटच्या प्रतिमेपाशी थांबा"
 
 #. i18n: ectx: label, entry (interval), group (slide show)
-#: lib/gwenviewconfig.kcfg:256
+#: lib/gwenviewconfig.kcfg:288
 #, kde-format
 msgid "Interval between images (in seconds)"
 msgstr "दोन प्रतिमादरम्यानचा अंतराल (सेकंदामध्ये)"
@@ -2014,7 +2093,7 @@ msgctxt "@info"
 msgid "No data to store."
 msgstr "साठा करण्यासाठी माहिती नाही."
 
-#: lib/print/printhelper.cpp:132
+#: lib/print/printhelper.cpp:133
 #, kde-format
 msgid "Print Image"
 msgstr "प्रतिमा छापा"
@@ -2094,8 +2173,8 @@ msgstr "रेडआय रिडक्शन"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: lib/redeyereduction/redeyereductionwidget.ui:24
 #, kde-format
-msgid "Si&ze"
-msgstr "आकार (&z)"
+msgid "Size"
+msgstr "आकार"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lib/redeyereduction/redeyereductionwidget.ui:61
@@ -2129,8 +2208,9 @@ msgstr "वर्तमान आकार :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: lib/resize/resizeimagewidget.ui:88
-#, kde-format
-msgid "New Si&ze:"
+#, fuzzy, kde-format
+#| msgid "New Si&ze:"
+msgid "New Size:"
 msgstr "नवीन आकार (&z) :"
 
 #. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
@@ -2215,6 +2295,25 @@ msgstr "फाईल (&F)"
 msgid "&View"
 msgstr "दृश्य (&V)"
 
+#, fuzzy
+#~| msgid "Zoom to Fit"
+#~ msgid "Zoom to Fit Width"
+#~ msgstr "पूर्ण बसेल असे झूम करा"
+
+#, fuzzy
+#~| msgid "Width"
+#~ msgctxt ""
+#~ "@action:button Zoom to fit width, shown in status bar, keep it short "
+#~ "please"
+#~ msgid "Fit Width"
+#~ msgstr "रुंदी"
+
+#~ msgid "Si&ze:"
+#~ msgstr "आकार (&z) :"
+
+#~ msgid "Si&ze"
+#~ msgstr "आकार (&z)"
+
 #~ msgctxt "@title:window"
 #~ msgid "Copy To"
 #~ msgstr "येथे प्रत करा"
@@ -2254,12 +2353,6 @@ msgstr "दृश्य (&V)"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Paste One Folder"
 #~ msgstr "संचयीका तयार करा"
-
-#~ msgid "Size:"
-#~ msgstr "आकार :"
-
-#~ msgid "Size"
-#~ msgstr "आकार"
 
 #~ msgid ""
 #~ "Defines what happens when going to image B after having zoomed an area of "

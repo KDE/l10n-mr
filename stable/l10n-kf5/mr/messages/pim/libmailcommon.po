@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-11-09 03:13+0100\n"
+"POT-Creation-Date: 2018-02-10 03:20+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -378,8 +378,9 @@ msgstr ""
 #: filter/filteractions/filteractionaddtoaddressbook.cpp:140
 #, kde-format
 msgid ""
-"<p>This defines the preferred address book.<br />If it is not accessible, "
-"the filter will fallback to the default address book.</p>"
+"This defines the preferred address book.\n"
+"If it is not accessible, the filter will fallback to the default address "
+"book."
 msgstr ""
 
 #: filter/filteractions/filteractionaddtoaddressbook.cpp:273
@@ -403,10 +404,22 @@ msgstr ""
 msgid "Folder destination was not defined."
 msgstr ""
 
-#: filter/filteractions/filteractiondecrypt.cpp:35
-#: filter/filteractions/filteractiondecrypt.cpp:50
+#: filter/filteractions/filteractiondecrypt.cpp:39
+#: filter/filteractions/filteractiondecrypt.cpp:54
 #, kde-format
 msgid "Decrypt"
+msgstr ""
+
+#: filter/filteractions/filteractiondecrypt.cpp:109
+#, kde-format
+msgid "<b>Warning:</b> Decrypted emails may be uploaded to a server!"
+msgstr ""
+
+#: filter/filteractions/filteractiondecrypt.cpp:110
+#, kde-format
+msgid ""
+"<p>If the email folder that you are filtering into is connected to a remote "
+"account (like an IMAP-Server) the decrypted content will go there.</p>"
 msgstr ""
 
 #: filter/filteractions/filteractiondelete.cpp:30
@@ -436,17 +449,16 @@ msgstr ""
 
 #: filter/filteractions/filteractionencrypt.cpp:271
 #, kde-format
-msgid ""
-"<b>Warning:</b> the encrypted emails will be uploaded back to the server!"
+msgid "<b>Warning:</b> Seckey necessary to read emails."
 msgstr ""
 
 #: filter/filteractions/filteractionencrypt.cpp:272
 #, kde-format
 msgid ""
-"<p>You will not be able to read the encrypted emails on any other computer "
-"or email client unless you have your private key available there.</p><p>Also "
-"note that most webmail interfaces don't support encryption, so you will not "
-"be able to read the encrypted emails there.</p>"
+"<p>Once an email has been encrypted you will need a crypto setup with your "
+"secret key to access the contents again.</p><p>If you keep emails stored on "
+"an email server and use several clients, each of them must be configured to "
+"enable decryption.</p>"
 msgstr ""
 
 #: filter/filteractions/filteractionexec.cpp:27
@@ -1355,19 +1367,19 @@ msgstr ""
 msgid "A problem was found while applying this action."
 msgstr ""
 
-#: filter/mailfilter.cpp:450
+#: filter/mailfilter.cpp:451
 #, kde-format
 msgid "<qt>Too many filter actions in filter rule <b>%1</b>.</qt>"
 msgstr ""
 
-#: filter/mailfilter.cpp:483
+#: filter/mailfilter.cpp:484
 #, kde-format
 msgid ""
 "<qt>Unknown filter action <b>%1</b><br />in filter rule <b>%2</b>.<br /"
 ">Ignoring it.</qt>"
 msgstr ""
 
-#: filter/mailfilter.cpp:598
+#: filter/mailfilter.cpp:599
 #, kde-format
 msgid "Any action defined."
 msgstr ""
@@ -1647,17 +1659,17 @@ msgstr "येथे जा"
 msgid "Do Not Go To"
 msgstr ""
 
-#: folder/foldertreewidget.cpp:101 folder/foldertreewidget.cpp:354
+#: folder/foldertreewidget.cpp:101 folder/foldertreewidget.cpp:355
 #, kde-format
 msgid "You can start typing to filter the list of folders."
 msgstr ""
 
-#: folder/foldertreewidget.cpp:355
+#: folder/foldertreewidget.cpp:356
 #, kde-format
 msgid "Path: (%1)"
 msgstr "मार्ग : (%1)"
 
-#: folder/foldertreewidgetproxymodel.cpp:237
+#: folder/foldertreewidgetproxymodel.cpp:226
 #, kde-format
 msgid "%1 (Offline)"
 msgstr ""
@@ -2475,7 +2487,7 @@ msgstr ""
 
 #: snippets/snippetsmodel.cpp:386
 #, kde-format
-msgid "Rename snippet"
+msgid "Update snippet"
 msgstr ""
 
 #: snippets/snippetvariabledialog.cpp:40
@@ -2587,29 +2599,29 @@ msgstr "शॉर्टकट (&U):"
 msgid "Enable &toolbar button"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:97
+#: widgets/favoritecollectionwidget.cpp:98
 #, fuzzy, kde-format
 #| msgid "Icon Size"
 msgid "Icon size"
 msgstr "चिन्ह आकार"
 
-#: widgets/favoritecollectionwidget.cpp:117
+#: widgets/favoritecollectionwidget.cpp:118
 #, kde-format
 msgid "Mode"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:121
+#: widgets/favoritecollectionwidget.cpp:122
 #, kde-format
 msgid "List Mode"
 msgstr ""
 
-#: widgets/favoritecollectionwidget.cpp:131
+#: widgets/favoritecollectionwidget.cpp:132
 #, fuzzy, kde-format
 #| msgid "Icon Size"
 msgid "Icon Mode"
 msgstr "चिन्ह आकार"
 
-#: widgets/favoritecollectionwidget.cpp:242
+#: widgets/favoritecollectionwidget.cpp:243
 #, kde-format
 msgid "Drop your favorite folders here..."
 msgstr ""
@@ -2659,12 +2671,12 @@ msgstr ""
 msgid "Send &Later"
 msgstr ""
 
-#: widgets/redirectdialog.cpp:239
+#: widgets/redirectdialog.cpp:243
 #, kde-format
 msgid "You cannot redirect the message without an address."
 msgstr ""
 
-#: widgets/redirectdialog.cpp:240
+#: widgets/redirectdialog.cpp:244
 #, kde-format
 msgid "Empty Redirection Address"
 msgstr ""
