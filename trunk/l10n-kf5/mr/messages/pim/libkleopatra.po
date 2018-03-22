@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-03-21 03:39+0100\n"
+"POT-Creation-Date: 2018-03-22 03:32+0100\n"
 "PO-Revision-Date: 2013-03-11 09:58+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -173,6 +173,7 @@ msgid "OpenPGP/MIME"
 msgstr ""
 
 #: kleo/enum.cpp:67 ui/keyselectioncombo.cpp:245
+#: ui/newkeyapprovaldialog.cpp:221
 #, kde-format
 msgid "S/MIME"
 msgstr ""
@@ -182,58 +183,68 @@ msgstr ""
 msgid "S/MIME Opaque"
 msgstr ""
 
-#: kleo/enum.cpp:104
+#: kleo/enum.cpp:77
+#, kde-format
+msgid "Any S/MIME"
+msgstr ""
+
+#: kleo/enum.cpp:82
+#, kde-format
+msgid "Any OpenPGP"
+msgstr ""
+
+#: kleo/enum.cpp:114
 #, kde-format
 msgid "Any"
 msgstr ""
 
-#: kleo/enum.cpp:177
+#: kleo/enum.cpp:187
 #, kde-format
 msgid "Never Encrypt"
 msgstr ""
 
-#: kleo/enum.cpp:179
+#: kleo/enum.cpp:189
 #, kde-format
 msgid "Always Encrypt"
 msgstr ""
 
-#: kleo/enum.cpp:181
+#: kleo/enum.cpp:191
 #, kde-format
 msgid "Always Encrypt If Possible"
 msgstr ""
 
-#: kleo/enum.cpp:183 kleo/enum.cpp:240
+#: kleo/enum.cpp:193 kleo/enum.cpp:250
 #, kde-format
 msgid "Ask"
 msgstr "विचारा"
 
-#: kleo/enum.cpp:185 kleo/enum.cpp:242
+#: kleo/enum.cpp:195 kleo/enum.cpp:252
 #, kde-format
 msgid "Ask Whenever Possible"
 msgstr ""
 
-#: kleo/enum.cpp:187
+#: kleo/enum.cpp:197
 #, kde-kuit-format
 msgctxt "no specific preference"
 msgid "<placeholder>none</placeholder>"
 msgstr "<placeholder>काही नाही</placeholder>"
 
-#: kleo/enum.cpp:234
+#: kleo/enum.cpp:244
 #, kde-format
 msgid "Never Sign"
 msgstr ""
 
-#: kleo/enum.cpp:236
+#: kleo/enum.cpp:246
 #, kde-format
 msgid "Always Sign"
 msgstr ""
 
-#: kleo/enum.cpp:238
+#: kleo/enum.cpp:248
 #, kde-format
 msgid "Always Sign If Possible"
 msgstr ""
 
-#: kleo/enum.cpp:244
+#: kleo/enum.cpp:254
 #, kde-format
 msgctxt "no specific preference"
 msgid "<none>"
@@ -863,7 +874,8 @@ msgctxt "Name <email>"
 msgid "%1 <%2>"
 msgstr ""
 
-#: ui/keyselectioncombo.cpp:245 utils/formatting.cpp:579
+#: ui/keyselectioncombo.cpp:245 ui/newkeyapprovaldialog.cpp:220
+#: utils/formatting.cpp:579
 #, kde-format
 msgid "OpenPGP"
 msgstr ""
@@ -1147,6 +1159,90 @@ msgstr ""
 #: ui/messagebox.cpp:260
 #, kde-format
 msgid "&Show Audit Log"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:131 ui/newkeyapprovaldialog.cpp:144
+#, kde-format
+msgid "Remove Filter"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:148
+#, kde-format
+msgid "Add Filter"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:216
+#, kde-format
+msgid "Security approval"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:275
+#, kde-format
+msgid "Generating key for '%1'..."
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:308
+#, kde-format
+msgid "Operation Failed"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:365 ui/newkeyapprovaldialog.cpp:433
+#, kde-format
+msgid "Generate a new key pair"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:368
+#, kde-format
+msgid "Don't confirm identity and integrity"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:389
+#, kde-format
+msgctxt "Caption for signing key selection"
+msgid "Confirm identity '%1' as:"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:406
+#, kde-format
+msgctxt "Caption for signing key selection, no key found"
+msgid "No key found for the address '%1':"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:437
+#, kde-format
+msgid "Ignore recipient"
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:461
+#, fuzzy, kde-format
+#| msgid "Description"
+msgid "Encrypt to:"
+msgstr "वर्णन"
+
+#: ui/newkeyapprovaldialog.cpp:487
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "Generate"
+msgstr "सामान्य"
+
+#: ui/newkeyapprovaldialog.cpp:534
+#, kde-format
+msgctxt ""
+"VS-NfD-conforming is a German standard for restricted documents for which "
+"special restrictions about algorithms apply.  The string states that all "
+"cryptographic operations necessary for the communication are compliant with "
+"that."
+msgid "VS-NfD-compliant communication possible."
+msgstr ""
+
+#: ui/newkeyapprovaldialog.cpp:536
+#, kde-format
+msgctxt ""
+"VS-NfD-conforming is a German standard for restricted documents for which "
+"special restrictions about algorithms apply.  The string states that all "
+"cryptographic operations necessary for the communication are compliant with "
+"that."
+msgid "VS-NfD-compliant communication not possible."
 msgstr ""
 
 #: ui/progressdialog.cpp:90
@@ -1606,9 +1702,6 @@ msgstr ""
 
 #~ msgid "Scheme"
 #~ msgstr "सुत्रयोजना"
-
-#~ msgid "General"
-#~ msgstr "सामान्य"
 
 #~ msgid "&OK"
 #~ msgstr "ठीक आहे (&O)"
