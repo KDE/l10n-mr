@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-04-24 03:35+0200\n"
+"POT-Creation-Date: 2018-04-26 03:31+0200\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -101,99 +101,123 @@ msgid ""
 "leaving other colors untouched"
 msgstr ""
 
-#: app/browsemainpage.cpp:134 app/mainwindow.cpp:363 app/viewmainpage.cpp:407
+#: app/browsemainpage.cpp:144 app/mainwindow.cpp:363 app/viewmainpage.cpp:427
 #: lib/documentview/documentviewcontroller.cpp:90
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
 msgstr "दृश्य"
 
-#: app/browsemainpage.cpp:136
+#: app/browsemainpage.cpp:146
 #, kde-format
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Edit Location"
 msgstr "स्थान संपादन"
 
-#: app/browsemainpage.cpp:140
+#: app/browsemainpage.cpp:150
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Sort By"
 msgstr "अनुक्रमीत करा"
 
-#: app/browsemainpage.cpp:141
+#: app/browsemainpage.cpp:151
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Name"
 msgstr "नाव"
 
-#: app/browsemainpage.cpp:143
+#: app/browsemainpage.cpp:153
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Date"
 msgstr "दिनांक"
 
-#: app/browsemainpage.cpp:145
+#: app/browsemainpage.cpp:155
 #, kde-format
 msgctxt "@addAction:inmenu"
 msgid "Size"
 msgstr "आकार"
 
-#: app/browsemainpage.cpp:153
+#: app/browsemainpage.cpp:163
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Thumbnail Details"
 msgstr "लघुप्रतिमा तपशील"
 
-#: app/browsemainpage.cpp:154
+#: app/browsemainpage.cpp:164
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Filename"
 msgstr "फाईलचे नाव"
 
-#: app/browsemainpage.cpp:155
+#: app/browsemainpage.cpp:165
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Date"
 msgstr "दिनांक"
 
-#: app/browsemainpage.cpp:156
+#: app/browsemainpage.cpp:166
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Image Size"
 msgstr "प्रतिमेचा आकार"
 
-#: app/browsemainpage.cpp:157
+#: app/browsemainpage.cpp:167
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "File Size"
 msgstr "फाईलचा आकार"
 
-#: app/browsemainpage.cpp:159
+#: app/browsemainpage.cpp:169
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "मुल्यांकन"
 
-#: app/browsemainpage.cpp:162 app/fileopscontextmanageritem.cpp:133
+#: app/browsemainpage.cpp:172 app/fileopscontextmanageritem.cpp:133
 #: app/mainwindow.cpp:362
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
 msgstr "फाईल"
 
-#: app/browsemainpage.cpp:164
+#: app/browsemainpage.cpp:174
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Add Folder to Places"
 msgstr "संचयीका योग्य जागी वाढवा/ठेवा"
 
-#: app/browsemainpage.cpp:191
+#: app/browsemainpage.cpp:221
 #, kde-format
-msgctxt "@label"
-msgid "%1 document"
-msgid_plural "%1 documents"
-msgstr[0] "%1 दस्तऐवज"
-msgstr[1] "%1 दस्तऐवज"
+msgctxt ""
+"@info:status %1 number of selected documents, %2 total number of documents, "
+"%3 total filesize of selected documents"
+msgid "Selected %1 of %2 (%3)"
+msgstr ""
+
+#: app/browsemainpage.cpp:227
+#, fuzzy, kde-format
+#| msgid "Loop on images"
+msgctxt "@info:status Image files"
+msgid "%1 image"
+msgid_plural "%1 images"
+msgstr[0] "प्रतिमा चक्राकार पद्धतीत ठेवा"
+msgstr[1] "प्रतिमा चक्राकार पद्धतीत ठेवा"
+
+#: app/browsemainpage.cpp:228
+#, fuzzy, kde-format
+#| msgid "Show videos"
+msgctxt "@info:status Video files"
+msgid "%1 video"
+msgid_plural "%1 videos"
+msgstr[0] "व्हिडीओ दर्शवा"
+msgstr[1] "व्हिडीओ दर्शवा"
+
+#: app/browsemainpage.cpp:235
+#, kde-format
+msgctxt "@info:status images, videos"
+msgid "%1, %2"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (Gwenview::StatusBarToolButton, mAddFilterButton)
 #: app/browsemainpage.ui:88
@@ -509,13 +533,13 @@ msgstr "लघुप्रतिमा दर्शवा"
 msgid "Height:"
 msgstr "उंची : "
 
-#: app/fullscreencontent.cpp:217
+#: app/fullscreencontent.cpp:246
 #, kde-format
 msgctxt "@item:intext fullscreen meta info separator"
 msgid ", "
 msgstr ", "
 
-#: app/fullscreencontent.cpp:266
+#: app/fullscreencontent.cpp:295
 #, kde-format
 msgctxt "Slideshow interval in seconds"
 msgid "%1 sec"
@@ -523,11 +547,17 @@ msgid_plural "%1 secs"
 msgstr[0] "%1 सेकंद"
 msgstr[1] "%1 सेकंद"
 
-#: app/fullscreencontent.cpp:370
+#: app/fullscreencontent.cpp:408
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Configure full screen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीची व्यूहरचना"
+
+#: app/fullscreencontent.cpp:567 app/viewmainpage.cpp:397
+#, kde-format
+msgctxt "@info:status %1 current document index, %2 total documents"
+msgid "%1 of %2"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: app/generalconfigpage.ui:17
@@ -686,7 +716,7 @@ msgstr "प्रतिबिंब तयार करा"
 msgid "Flip"
 msgstr "पलटी करा"
 
-#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:66
+#: app/imageopscontextmanageritem.cpp:105 lib/resize/resizeimagedialog.cpp:68
 #, kde-format
 msgid "Resize"
 msgstr "आकार बदला"
@@ -1476,23 +1506,23 @@ msgstr ""
 "टॅग्स वापरून शोधण्याची सोय उपलब्ध नाही. नेपोमुक(Nepomuk) योग्य तऱ्हेने प्रतीस्थापित केलेला "
 "आहे याची खात्री करा"
 
-#: app/viewmainpage.cpp:283 app/viewmainpage.cpp:417
+#: app/viewmainpage.cpp:285 app/viewmainpage.cpp:437
 #, kde-format
 msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
-#: app/viewmainpage.cpp:410
+#: app/viewmainpage.cpp:430
 #, kde-format
 msgid "Thumbnail Bar"
 msgstr "लघुप्रतिमा पट्टी"
 
-#: app/viewmainpage.cpp:710
+#: app/viewmainpage.cpp:739
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "बदल काढून टाका आणि पुन्हा दाखल करा"
 
-#: app/viewmainpage.cpp:712
+#: app/viewmainpage.cpp:741
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1816,12 +1846,14 @@ msgstr "पोर्ट्रेट"
 
 #. i18n("%1:%2") because ':' should not be translated, it is
 #. used to parse the ratio string.
-#: lib/crop/cropwidget.cpp:210
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: lib/crop/cropwidget.cpp:210 lib/resize/resizeimagewidget.ui:164
 #, kde-format
 msgid "Width"
 msgstr "रुंदी"
 
-#: lib/crop/cropwidget.cpp:210
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: lib/crop/cropwidget.cpp:210 lib/resize/resizeimagewidget.ui:174
 #, kde-format
 msgid "Height"
 msgstr "उंची"
@@ -2274,44 +2306,40 @@ msgstr "आकार बदला"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ResizeImageWidget)
 #: lib/resize/resizeimagewidget.ui:14
-#, kde-format
-msgid "Image Resizing"
-msgstr "प्रतिमेचा पुन्हा ठरवलेला आकार"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: lib/resize/resizeimagewidget.ui:20
-#, kde-format
-msgid "Enter the new size for this image."
-msgstr "ह्या प्रतिमेसाठी नवीन आकार निवडा."
+#, fuzzy, kde-format
+#| msgid "Resize"
+msgid "Resize Image"
+msgstr "आकार बदला"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: lib/resize/resizeimagewidget.ui:32
+#: lib/resize/resizeimagewidget.ui:20
 #, kde-format
 msgid "Current size:"
 msgstr "वर्तमान आकार :"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: lib/resize/resizeimagewidget.ui:88
-#, fuzzy, kde-format
-#| msgid "New Si&ze:"
-msgid "New Size:"
-msgstr "नवीन आकार (&z) :"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: lib/resize/resizeimagewidget.ui:129
+#. i18n: ectx: property (suffix), widget (QSpinBox, mWidthSpinBox)
+#. i18n: ectx: property (suffix), widget (QSpinBox, mHeightSpinBox)
+#: lib/resize/resizeimagewidget.ui:33 lib/resize/resizeimagewidget.ui:89
 #, kde-format
-msgid "Percentage:"
+msgid " px"
 msgstr ""
 
-#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mWidthPercentSpinBox)
 #. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mHeightPercentSpinBox)
-#: lib/resize/resizeimagewidget.ui:150 lib/resize/resizeimagewidget.ui:176
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, mWidthPercentSpinBox)
+#: lib/resize/resizeimagewidget.ui:56 lib/resize/resizeimagewidget.ui:131
 #, no-c-format, kde-format
 msgid " %"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: lib/resize/resizeimagewidget.ui:115
+#, fuzzy, kde-format
+#| msgid "New Si&ze:"
+msgid "New size:"
+msgstr "नवीन आकार (&z) :"
+
 #. i18n: ectx: property (text), widget (QCheckBox, mKeepAspectCheckBox)
-#: lib/resize/resizeimagewidget.ui:188
+#: lib/resize/resizeimagewidget.ui:147
 #, kde-format
 msgid "Keep aspect ratio"
 msgstr "स्वरूपाचे गुणोत्तर ठेवा"
@@ -2391,6 +2419,18 @@ msgstr "फाईल (&F)"
 #, kde-format
 msgid "&View"
 msgstr "दृश्य (&V)"
+
+#~ msgctxt "@label"
+#~ msgid "%1 document"
+#~ msgid_plural "%1 documents"
+#~ msgstr[0] "%1 दस्तऐवज"
+#~ msgstr[1] "%1 दस्तऐवज"
+
+#~ msgid "Image Resizing"
+#~ msgstr "प्रतिमेचा पुन्हा ठरवलेला आकार"
+
+#~ msgid "Enter the new size for this image."
+#~ msgstr "ह्या प्रतिमेसाठी नवीन आकार निवडा."
 
 #~ msgctxt "@info"
 #~ msgid ""
