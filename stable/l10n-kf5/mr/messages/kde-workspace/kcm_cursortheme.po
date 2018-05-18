@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcminput\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 20:21+0100\n"
+"POT-Creation-Date: 2018-04-25 03:47+0200\n"
 "PO-Revision-Date: 2014-10-28 15:30+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -33,32 +33,33 @@ msgstr ""
 "sandeep.shedmake@gmail.com, \n"
 "chetan@kompkin.com"
 
-#: kcmcursortheme.cpp:43
+#: kcmcursortheme.cpp:73
 #, kde-format
 msgid "Cursor Theme"
 msgstr "कर्सर शैली"
 
-#: kcmcursortheme.cpp:44
+#: kcmcursortheme.cpp:74
+#, fuzzy, kde-format
+#| msgid "Cursor Theme"
+msgid "Mouse Cursor Theme settings"
+msgstr "कर्सर शैली"
+
+#: kcmcursortheme.cpp:74
 #, kde-format
 msgid "(c) 2003-2007 Fredrik Höglund"
 msgstr "(c) 2003-2007 फ्रेडरिक हौग्लंड"
 
-#: kcmcursortheme.cpp:45
+#: kcmcursortheme.cpp:75
 #, kde-format
 msgid "Fredrik Höglund"
 msgstr "फ्रेडरिक हौग्लंड"
 
-#: xcursor/thememodel.cpp:67
+#: kcmcursortheme.cpp:76
 #, kde-format
-msgid "Name"
-msgstr "नाव"
+msgid "Marco Martin"
+msgstr ""
 
-#: xcursor/thememodel.cpp:70
-#, kde-format
-msgid "Description"
-msgstr "वर्णन"
-
-#: xcursor/themepage.cpp:154
+#: kcmcursortheme.cpp:235
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox size"
 #| msgid "resolution dependent"
@@ -66,65 +67,36 @@ msgctxt "@item:inlistbox size"
 msgid "Resolution dependent"
 msgstr "रेझोल्यूशन आधारित"
 
-#: xcursor/themepage.cpp:317
+#: kcmcursortheme.cpp:364
 #, fuzzy, kde-format
 #| msgid "You have to restart KDE for these changes to take effect."
 msgid ""
 "You have to restart the Plasma session for these changes to take effect."
 msgstr "या बदलांचा प्रभाव लागू करण्याकरिता तुम्हाला केडीई पुन्हाप्रारंभ करावे लागेल."
 
-#: xcursor/themepage.cpp:318
+#: kcmcursortheme.cpp:466
 #, kde-format
-msgid "Cursor Settings Changed"
-msgstr "कर्सर संयोजना बदलविले"
+msgid "Unable to create a temporary file."
+msgstr ""
 
-#: xcursor/themepage.cpp:436
-#, kde-format
-msgid "Drag or Type Theme URL"
-msgstr "शैली URL ओढा किंवा टाइप करा"
-
-#: xcursor/themepage.cpp:447
-#, kde-format
-msgid "Unable to find the cursor theme archive %1."
+#: kcmcursortheme.cpp:477
+#, fuzzy, kde-format
+#| msgid "Unable to find the cursor theme archive %1."
+msgid "Unable to download the icon theme archive: %1"
 msgstr "कर्सर शैली संग्रह %1 शोधण्यास अपयशी."
 
-#: xcursor/themepage.cpp:450
-#, kde-format
-msgid ""
-"Unable to download the cursor theme archive; please check that the address "
-"%1 is correct."
-msgstr ""
-"कर्सर शैली संग्रह डाउनलोड करण्यास अपयशी; कृपया पत्ता %1 योग्य आहे याची खात्री करा."
-
-#: xcursor/themepage.cpp:459
-#, kde-format
-msgid "The file %1 does not appear to be a valid cursor theme archive."
+#: kcmcursortheme.cpp:507
+#, fuzzy, kde-format
+#| msgid "The file %1 does not appear to be a valid cursor theme archive."
+msgid "The file is not a valid icon theme archive."
 msgstr "फाईल %1 वैध कर्सर शैली संग्रह नुरूप दृश्यास्पद आढळून येत नाही."
 
-#: xcursor/themepage.cpp:474
+#: kcmcursortheme.cpp:514
 #, kde-format
-msgid ""
-"<qt>You cannot delete the theme you are currently using.<br />You have to "
-"switch to another theme first.</qt>"
+msgid "Failed to create 'icons' folder."
 msgstr ""
-"<qt> तुम्ही वापरत असलेली शैली तुम्ही काढू शकत नाही.<br />तुम्हाला आधी दुसऱ्या शैलीवर जावे "
-"लागेल</qt>"
 
-#: xcursor/themepage.cpp:480
-#, kde-format
-msgid ""
-"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
-"will delete all the files installed by this theme.</qt>"
-msgstr ""
-"<qt><i>%1</i>  ही कर्सर शैली काढून टाकायची आहे का?<br /> यामुळे शैलीने प्रतिष्ठापन "
-"केलेल्या सर्व फाईल्स काढून टाकल्या जातील.</qt>"
-
-#: xcursor/themepage.cpp:486
-#, kde-format
-msgid "Confirmation"
-msgstr "पुष्टिकरण"
-
-#: xcursor/themepage.cpp:543
+#: kcmcursortheme.cpp:522
 #, kde-format
 msgid ""
 "A theme named %1 already exists in your icon theme folder. Do you want "
@@ -133,38 +105,90 @@ msgstr ""
 "%1 नावाची शैली अगोदरच तुमच्या चिन्ह शैली संचयीकेत अस्तित्वात आहे. तुम्हाला ती खोडून टाकून "
 "ही ठेवायची आहे का?"
 
-#: xcursor/themepage.cpp:547
+#: kcmcursortheme.cpp:526
 #, kde-format
 msgid "Overwrite Theme?"
 msgstr "शैली खोडून पुन्हा लिहायची का?"
 
-#. i18n: ectx: property (toolTip), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:49
+#: kcmcursortheme.cpp:552
 #, kde-format
-msgid "Get new color schemes from the Internet"
-msgstr "नवीन रंग शैली महाजाळावरून प्राप्त करा"
+msgid "Theme installed successfully."
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, installKnsButton)
-#: xcursor/themepage.ui:52
-#, fuzzy, kde-format
-#| msgid "Get New Theme..."
-msgid "Get new Theme"
-msgstr "नवीन शैली प्राप्त करा..."
+#: kcmcursortheme.cpp:568
+#, kde-format
+msgid ""
+"<qt>You cannot delete the theme you are currently using.<br />You have to "
+"switch to another theme first.</qt>"
+msgstr ""
+"<qt> तुम्ही वापरत असलेली शैली तुम्ही काढू शकत नाही.<br />तुम्हाला आधी दुसऱ्या शैलीवर जावे "
+"लागेल</qt>"
 
-#. i18n: ectx: property (text), widget (QPushButton, removeButton)
-#: xcursor/themepage.ui:59
+#: kcmcursortheme.cpp:574
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to remove the <i>%1</i> cursor theme?<br />This "
+"will delete all the files installed by this theme.</qt>"
+msgstr ""
+"<qt><i>%1</i>  ही कर्सर शैली काढून टाकायची आहे का?<br /> यामुळे शैलीने प्रतिष्ठापन "
+"केलेल्या सर्व फाईल्स काढून टाकल्या जातील.</qt>"
+
+#: kcmcursortheme.cpp:580
+#, kde-format
+msgid "Confirmation"
+msgstr "पुष्टिकरण"
+
+#: package/contents/ui/Delegate.qml:57
 #, kde-format
 msgid "Remove Theme"
 msgstr "शैली काढून टाका"
 
-#. i18n: ectx: property (text), widget (QPushButton, installButton)
-#: xcursor/themepage.ui:85
+#: package/contents/ui/main.qml:30
+#, kde-format
+msgid "This module lets you configure the mouse cursor theme used."
+msgstr ""
+
+#: package/contents/ui/main.qml:95
+#, fuzzy, kde-format
+#| msgctxt "@label:listbox cursor size"
+#| msgid "Size:"
+msgid "Size:"
+msgstr "आकार :"
+
+#: package/contents/ui/main.qml:138
 #, fuzzy, kde-format
 #| msgid "Install From File..."
-msgid "Install from File"
+msgid "&Install From File..."
 msgstr "फाईलवरून प्रतिष्ठापीत करा..."
 
-#: xcursor/xcursortheme.cpp:77
+#: package/contents/ui/main.qml:144
+#, fuzzy, kde-format
+#| msgid "Get New Theme..."
+msgid "&Get New Theme..."
+msgstr "नवीन शैली प्राप्त करा..."
+
+#: package/contents/ui/main.qml:165
+#, fuzzy, kde-format
+#| msgid "Remove Theme"
+msgid "Open Theme"
+msgstr "शैली काढून टाका"
+
+#: package/contents/ui/main.qml:167
+#, kde-format
+msgid "Cursor Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#: xcursor/thememodel.cpp:83
+#, kde-format
+msgid "Name"
+msgstr "नाव"
+
+#: xcursor/thememodel.cpp:86
+#, kde-format
+msgid "Description"
+msgstr "वर्णन"
+
+#: xcursor/xcursortheme.cpp:74
 #, kde-format
 msgctxt ""
 "@info The argument is the list of available sizes (in pixel). Example: "
@@ -172,14 +196,25 @@ msgctxt ""
 msgid "(Available sizes: %1)"
 msgstr "(उपलब्ध आकार : %1)"
 
+#~ msgid "Cursor Settings Changed"
+#~ msgstr "कर्सर संयोजना बदलविले"
+
+#~ msgid "Drag or Type Theme URL"
+#~ msgstr "शैली URL ओढा किंवा टाइप करा"
+
+#~ msgid ""
+#~ "Unable to download the cursor theme archive; please check that the "
+#~ "address %1 is correct."
+#~ msgstr ""
+#~ "कर्सर शैली संग्रह डाउनलोड करण्यास अपयशी; कृपया पत्ता %1 योग्य आहे याची खात्री करा."
+
+#~ msgid "Get new color schemes from the Internet"
+#~ msgstr "नवीन रंग शैली महाजाळावरून प्राप्त करा"
+
 #~ msgid ""
 #~ "Select the cursor theme you want to use (hover preview to test cursor):"
 #~ msgstr ""
 #~ "तुम्हाला वापरायची असलेली कर्सर शैली निवडा (कर्सर चाचणीसाठी पूर्वावलोकन बघा):"
-
-#~ msgctxt "@label:listbox cursor size"
-#~ msgid "Size:"
-#~ msgstr "आकार :"
 
 #~ msgid "Select the cursor theme you want to use:"
 #~ msgstr "तुम्हाला वापरायची कर्सर शैली निवडा :"
