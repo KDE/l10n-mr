@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-19 04:03+0200\n"
+"POT-Creation-Date: 2018-05-20 03:35+0200\n"
 "PO-Revision-Date: 2013-03-28 17:55+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -159,7 +159,7 @@ msgstr "नवीन खाते%1"
 msgid "Close"
 msgstr ""
 
-#: src/actioncollection.cpp:88
+#: src/actioncollection.cpp:88 src/timeline/qml/pendingrequests.qml:56
 #, kde-format
 msgid "Accept"
 msgstr ""
@@ -616,7 +616,7 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: src/conf/accountpages/account.cpp:103 src/conf/accountpages/tabs.ui:31
-#: src/timeline/qml/contactinfo.qml:129
+#: src/timeline/qml/contactinfo.qml:130
 #, fuzzy, kde-format
 #| msgctxt "Advanced settings"
 #| msgid "Advanced"
@@ -1815,8 +1815,8 @@ msgid "Addresses"
 msgstr "पत्ता पुस्तक"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_phoneNumbers)
-#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:154
-#: src/timeline/qml/contactinfo.qml:411
+#: src/configurator/peerprofile.ui:129 src/timeline/qml/contactinfo.qml:155
+#: src/timeline/qml/contactinfo.qml:415
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
@@ -2478,45 +2478,45 @@ msgid ""
 "Photo"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:82
+#: src/timeline/qml/contactinfo.qml:83
 #: src/timeline/qml/peerstimelinecategories.qml:25
 #, kde-format
 msgid "Never"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:85
+#: src/timeline/qml/contactinfo.qml:86
 #, kde-format
 msgid "<b>Last contacted on:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:92
+#: src/timeline/qml/contactinfo.qml:93
 #, kde-format
 msgid "<b>Called:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:100
+#: src/timeline/qml/contactinfo.qml:101
 #, kde-format
 msgid "<b>Texted:</b> "
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:360
+#: src/timeline/qml/contactinfo.qml:364
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "स्थिती"
 
-#: src/timeline/qml/contactinfo.qml:377
+#: src/timeline/qml/contactinfo.qml:381
 #, fuzzy, kde-format
 #| msgid "Clear history"
 msgid "View history"
 msgstr "इतिहास नष्ट करा"
 
-#: src/timeline/qml/contactinfo.qml:387
+#: src/timeline/qml/contactinfo.qml:391
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/timeline/qml/contactinfo.qml:396
+#: src/timeline/qml/contactinfo.qml:400
 #, fuzzy, kde-format
 #| msgid "Contacts"
 msgid "Contact details"
@@ -2549,10 +2549,20 @@ msgstr ""
 msgid "Create an account"
 msgstr "नवीन खाते%1"
 
-#: src/timeline/qml/peerstimeline.qml:115
+#: src/timeline/qml/peerstimeline.qml:131
 #, kde-format
 msgid ""
 "To begin using Ring-KDE, enter an username in the box above and press enter"
+msgstr ""
+
+#: src/timeline/qml/pendingrequests.qml:62
+#, kde-format
+msgid "Decline"
+msgstr ""
+
+#: src/timeline/qml/pendingrequests.qml:68
+#, kde-format
+msgid "Block"
 msgstr ""
 
 #: src/timeline/qml/phonenumbers.qml:92
@@ -2624,6 +2634,17 @@ msgstr "रेकॉर्ड करत आहे"
 #| msgid "Device Configuration"
 msgid "Information"
 msgstr "साधन संयोजना"
+
+#: src/timeline/qml/viewcontactrequests.qml:57
+#, kde-format
+msgid "You have pending contact requests:"
+msgstr ""
+
+#: src/timeline/qml/viewcontactrequests.qml:77
+#, fuzzy, kde-format
+#| msgid "Add Contact"
+msgid "View all contact requests"
+msgstr "संपर्क जोडा"
 
 #: src/widgets/fileselector.cpp:35
 #, kde-format
@@ -3048,12 +3069,6 @@ msgstr ""
 #~| msgid "Account"
 #~ msgid "Account:"
 #~ msgstr "खाते"
-
-#, fuzzy
-#~| msgid "Add Contact"
-#~ msgctxt "View contact tab"
-#~ msgid "View contact"
-#~ msgstr "संपर्क जोडा"
 
 #~ msgid "Filter"
 #~ msgstr "गाळणी"
