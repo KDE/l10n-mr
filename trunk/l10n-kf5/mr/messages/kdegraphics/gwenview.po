@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-30 03:40+0200\n"
+"POT-Creation-Date: 2018-06-03 03:33+0200\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -101,7 +101,7 @@ msgid ""
 "leaving other colors untouched"
 msgstr ""
 
-#: app/browsemainpage.cpp:144 app/mainwindow.cpp:364 app/viewmainpage.cpp:427
+#: app/browsemainpage.cpp:144 app/mainwindow.cpp:368 app/viewmainpage.cpp:429
 #: lib/documentview/documentviewcontroller.cpp:90
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
@@ -174,8 +174,8 @@ msgctxt "@action:inmenu"
 msgid "Rating"
 msgstr "मुल्यांकन"
 
-#: app/browsemainpage.cpp:172 app/fileopscontextmanageritem.cpp:176
-#: app/mainwindow.cpp:363
+#: app/browsemainpage.cpp:172 app/fileopscontextmanageritem.cpp:139
+#: app/mainwindow.cpp:367
 #, kde-format
 msgctxt "@title actions category"
 msgid "File"
@@ -333,74 +333,74 @@ msgstr "येथे जोडा"
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: app/fileopscontextmanageritem.cpp:164
+#: app/fileopscontextmanageritem.cpp:127
 #, kde-format
 msgid "File Operations"
 msgstr "फाईलच्या क्रिया"
 
-#: app/fileopscontextmanageritem.cpp:177
+#: app/fileopscontextmanageritem.cpp:140
 #: app/semanticinfocontextmanageritem.cpp:200
 #, kde-format
 msgctxt "@title actions category"
 msgid "Edit"
 msgstr "संपादन"
 
-#: app/fileopscontextmanageritem.cpp:184
+#: app/fileopscontextmanageritem.cpp:147
 #, kde-format
 msgctxt "Verb"
 msgid "Copy To..."
 msgstr "येथे प्रत करा..."
 
-#: app/fileopscontextmanageritem.cpp:189
+#: app/fileopscontextmanageritem.cpp:152
 #, kde-format
 msgctxt "Verb"
 msgid "Move To..."
 msgstr "येथे हलवा..."
 
-#: app/fileopscontextmanageritem.cpp:194
+#: app/fileopscontextmanageritem.cpp:157
 #, kde-format
 msgctxt "Verb: create link to the file where user wants"
 msgid "Link To..."
 msgstr "येथे जोडा"
 
-#: app/fileopscontextmanageritem.cpp:199
+#: app/fileopscontextmanageritem.cpp:162
 #, kde-format
 msgctxt "Verb"
 msgid "Rename..."
 msgstr "नवीन नाव"
 
-#: app/fileopscontextmanageritem.cpp:204
+#: app/fileopscontextmanageritem.cpp:167
 #, kde-format
 msgctxt "Verb"
 msgid "Trash"
 msgstr "कचरा पेटी"
 
-#: app/fileopscontextmanageritem.cpp:214
+#: app/fileopscontextmanageritem.cpp:177
 #, kde-format
 msgid "Restore"
 msgstr "पुन्हस्थापित करा"
 
-#: app/fileopscontextmanageritem.cpp:218
+#: app/fileopscontextmanageritem.cpp:181
 #, kde-format
 msgid "Properties"
 msgstr "गुणधर्म"
 
-#: app/fileopscontextmanageritem.cpp:222
+#: app/fileopscontextmanageritem.cpp:185
 #, kde-format
 msgid "Create Folder..."
 msgstr "संचयीका तयार करा"
 
-#: app/fileopscontextmanageritem.cpp:226
+#: app/fileopscontextmanageritem.cpp:189
 #, kde-format
 msgid "Open With"
 msgstr "यामध्ये उघडा"
 
-#: app/fileopscontextmanageritem.cpp:233
+#: app/fileopscontextmanageritem.cpp:196
 #, kde-format
 msgid "Open Containing Folder"
 msgstr ""
 
-#: app/fileopscontextmanageritem.cpp:429
+#: app/fileopscontextmanageritem.cpp:392
 #, kde-format
 msgid "Other Application..."
 msgstr "अन्य अनुप्रयोग..."
@@ -553,7 +553,7 @@ msgctxt "@info:tooltip"
 msgid "Configure full screen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीची व्यूहरचना"
 
-#: app/fullscreencontent.cpp:567 app/viewmainpage.cpp:397
+#: app/fullscreencontent.cpp:567 app/viewmainpage.cpp:399
 #, kde-format
 msgctxt "@info:status %1 current document index, %2 total documents"
 msgid "%1 of %2"
@@ -925,28 +925,23 @@ msgctxt "@label. The two parameters are strings like '2 folders' and '1 file'."
 msgid "%1 and %2 selected"
 msgstr "%1 आणि %2 निवडले"
 
-#: app/kipiexportaction.cpp:50
+#: app/kipiexportaction.cpp:51
 #, kde-format
 msgid "Last Used Plugin"
 msgstr "शेवटी वापरलेला प्लगइन"
 
-#: app/kipiexportaction.cpp:52
+#: app/kipiexportaction.cpp:54
 #, kde-format
 msgid "Other Plugins"
 msgstr "अन्य प्लगइन्स"
 
-#: app/kipiexportaction.cpp:62 app/kipiinterface.cpp:240
-#, kde-format
-msgid "No Plugin Found"
-msgstr "प्लगइन सापडला नाही"
-
-#: app/kipiexportaction.cpp:70
+#: app/kipiexportaction.cpp:66
 #, kde-format
 msgctxt "@action"
 msgid "Share"
 msgstr "शेअर करा"
 
-#: app/kipiexportaction.cpp:76
+#: app/kipiexportaction.cpp:72
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Share images using various services"
@@ -964,6 +959,11 @@ msgstr[1] "%1 (%2 प्रतिमा)"
 #, kde-format
 msgid "Loading..."
 msgstr "दाखल करत आहे..."
+
+#: app/kipiinterface.cpp:240
+#, kde-format
+msgid "No Plugin Found"
+msgstr "प्लगइन सापडला नाही"
 
 #: app/kipiinterface.cpp:241
 #, fuzzy, kde-format
@@ -1043,229 +1043,229 @@ msgstr "स्लाइड प्रदर्शन पद्धतीत सु
 msgid "A starting file or folders"
 msgstr "सुरवातीची फाईल अथवा संचयीका"
 
-#: app/mainwindow.cpp:374
+#: app/mainwindow.cpp:378
 #, fuzzy, kde-format
 #| msgid "Forget this Folder"
 msgctxt "@action Open Recent menu"
 msgid "Forget All Files && Folders"
 msgstr "हि संचयीका विसरा"
 
-#: app/mainwindow.cpp:381
+#: app/mainwindow.cpp:385
 #, kde-format
 msgctxt "@action reload the currently viewed image"
 msgid "Reload"
 msgstr "पुन्हा दाखल करा"
 
-#: app/mainwindow.cpp:386
+#: app/mainwindow.cpp:390
 #, kde-format
 msgctxt "@action:intoolbar Switch to file list"
 msgid "Browse"
 msgstr "ब्राऊज"
 
-#: app/mainwindow.cpp:387
+#: app/mainwindow.cpp:391
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Browse folders for images"
 msgstr "प्रतिमांसाठी संचयीका शोधा"
 
-#: app/mainwindow.cpp:395
+#: app/mainwindow.cpp:399
 #, kde-format
 msgctxt "@action:intoolbar Switch to image view"
 msgid "View"
 msgstr "दृश्य"
 
-#: app/mainwindow.cpp:396
+#: app/mainwindow.cpp:400
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "View selected images"
 msgstr "निवडक प्रतिमा पहा"
 
-#: app/mainwindow.cpp:418
+#: app/mainwindow.cpp:422
 #, kde-format
 msgctxt "@action"
 msgid "Leave Fullscreen Mode"
 msgstr "पूर्ण स्क्रीन पद्धतीतून बाहेर पडा"
 
-#: app/mainwindow.cpp:423
+#: app/mainwindow.cpp:427
 #, kde-format
 msgctxt "@action Go to previous image"
 msgid "Previous"
 msgstr "मागील"
 
-#: app/mainwindow.cpp:424
+#: app/mainwindow.cpp:428
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to previous image"
 msgstr "मागील प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:431
+#: app/mainwindow.cpp:435
 #, kde-format
 msgctxt "@action Go to next image"
 msgid "Next"
 msgstr "पुढील"
 
-#: app/mainwindow.cpp:432
+#: app/mainwindow.cpp:436
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to next image"
 msgstr "पुढील प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:439
+#: app/mainwindow.cpp:443
 #, kde-format
 msgctxt "@action Go to first image"
 msgid "First"
 msgstr "पहिली"
 
-#: app/mainwindow.cpp:440
+#: app/mainwindow.cpp:444
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to first image"
 msgstr "पहिल्या प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:446
+#: app/mainwindow.cpp:450
 #, kde-format
 msgctxt "@action Go to last image"
 msgid "Last"
 msgstr "शेवटची"
 
-#: app/mainwindow.cpp:447
+#: app/mainwindow.cpp:451
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Go to last image"
 msgstr "शेवटच्या प्रतिमेकडे जा"
 
-#: app/mainwindow.cpp:457
+#: app/mainwindow.cpp:461
 #, kde-format
 msgctxt "@action"
 msgid "Start Page"
 msgstr "सुरवातीचे पान"
 
-#: app/mainwindow.cpp:458
+#: app/mainwindow.cpp:462
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open the start page"
 msgstr "सुरवातीचे पान उघडा"
 
-#: app/mainwindow.cpp:465
+#: app/mainwindow.cpp:469
 #, kde-format
 msgctxt "@action"
 msgid "Sidebar"
 msgstr "बाजूची पट्टी"
 
-#: app/mainwindow.cpp:505
+#: app/mainwindow.cpp:509
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "Edit"
 msgstr "संपादन"
 
-#: app/mainwindow.cpp:510
+#: app/mainwindow.cpp:514
 #, kde-format
 msgid "Redo"
 msgstr "पुन्हा करा"
 
-#: app/mainwindow.cpp:518
+#: app/mainwindow.cpp:522
 #, kde-format
 msgid "Undo"
 msgstr "पूर्ववत करा"
 
-#: app/mainwindow.cpp:547
+#: app/mainwindow.cpp:551
 #, kde-format
 msgid "Folders"
 msgstr "संचयीका"
 
-#: app/mainwindow.cpp:553
+#: app/mainwindow.cpp:557
 #, kde-format
 msgid "Information"
 msgstr "माहिती"
 
-#: app/mainwindow.cpp:563
+#: app/mainwindow.cpp:567
 #, kde-format
 msgid "Operations"
 msgstr "क्रिया"
 
-#: app/mainwindow.cpp:1140
+#: app/mainwindow.cpp:1144
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Hide sidebar"
 msgstr "बाजूची पट्टी लपवा"
 
-#: app/mainwindow.cpp:1141
+#: app/mainwindow.cpp:1145
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Show sidebar"
 msgstr "बाजूची पट्टी दर्शवा"
 
-#: app/mainwindow.cpp:1395
+#: app/mainwindow.cpp:1399
 #, kde-format
 msgctxt "@title:window"
 msgid "Open Image"
 msgstr "प्रतिमा उघडा"
 
-#: app/mainwindow.cpp:1456
+#: app/mainwindow.cpp:1460
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgid "Pause Slideshow"
 msgstr "स्लाइड प्रदर्शन"
 
-#: app/mainwindow.cpp:1459
+#: app/mainwindow.cpp:1463
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgid "Resume Slideshow"
 msgstr "स्लाइड प्रदर्शन"
 
-#: app/mainwindow.cpp:1460
+#: app/mainwindow.cpp:1464
 #, kde-format
 msgid "Start Slideshow"
 msgstr "स्लाइडप्रदर्शन सुरु करा"
 
-#: app/mainwindow.cpp:1473
+#: app/mainwindow.cpp:1477
 #, kde-format
 msgid "Save All Changes"
 msgstr "सर्व बदल साठवा"
 
-#: app/mainwindow.cpp:1474
+#: app/mainwindow.cpp:1478
 #, kde-format
 msgid "Discard Changes"
 msgstr "बदल काढून टाका"
 
-#: app/mainwindow.cpp:1475
+#: app/mainwindow.cpp:1479
 #, kde-format
 msgid "One image has been modified."
 msgid_plural "%1 images have been modified."
 msgstr[0] "एक प्रतिमा बदललेली आहे."
 msgstr[1] "%1 प्रतिमा बदललेल्या आहेत."
 
-#: app/mainwindow.cpp:1477
+#: app/mainwindow.cpp:1481
 #, kde-format
 msgid "If you quit now, your changes will be lost."
 msgstr "तुम्ही आता बहर पडलात तर तुम्ही केलेले बदल हरवतील."
 
-#: app/mainwindow.cpp:1687
+#: app/mainwindow.cpp:1691
 #, kde-format
 msgid "You reached the first document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1688 app/mainwindow.cpp:1702
+#: app/mainwindow.cpp:1692 app/mainwindow.cpp:1706
 #, kde-format
 msgid "Stay There"
 msgstr "तेथे थांबा"
 
-#: app/mainwindow.cpp:1689
+#: app/mainwindow.cpp:1693
 #, kde-format
 msgid "Go to the Last Document"
 msgstr "शेवटच्या  दस्तऐवजाकडे जा"
 
-#: app/mainwindow.cpp:1690 app/mainwindow.cpp:1704
+#: app/mainwindow.cpp:1694 app/mainwindow.cpp:1708
 #, kde-format
 msgid "Go Back to the Document List"
 msgstr "दस्तऐवज यादीकडे परत जा"
 
-#: app/mainwindow.cpp:1701
+#: app/mainwindow.cpp:1705
 #, kde-format
 msgid "You reached the last document, what do you want to do?"
 msgstr ""
 
-#: app/mainwindow.cpp:1703
+#: app/mainwindow.cpp:1707
 #, kde-format
 msgid "Go to the First Document"
 msgstr "पहिल्या दस्तऐवजाकडे जा"
@@ -1506,23 +1506,23 @@ msgstr ""
 "टॅग्स वापरून शोधण्याची सोय उपलब्ध नाही. नेपोमुक(Nepomuk) योग्य तऱ्हेने प्रतीस्थापित केलेला "
 "आहे याची खात्री करा"
 
-#: app/viewmainpage.cpp:285 app/viewmainpage.cpp:437
+#: app/viewmainpage.cpp:287 app/viewmainpage.cpp:439
 #, kde-format
 msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
-#: app/viewmainpage.cpp:430
+#: app/viewmainpage.cpp:432
 #, kde-format
 msgid "Thumbnail Bar"
 msgstr "लघुप्रतिमा पट्टी"
 
-#: app/viewmainpage.cpp:739
+#: app/viewmainpage.cpp:741
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "बदल काढून टाका आणि पुन्हा दाखल करा"
 
-#: app/viewmainpage.cpp:741
+#: app/viewmainpage.cpp:743
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1946,24 +1946,24 @@ msgstr ""
 "लिहिण्यासाठी फाईल उघडता आली नाही, तुमच्याकडे <filename>%1</filename> या फाईलमध्ये  "
 "लिहिण्यासाठी आवश्यक हक्क असल्याची खात्री करून घ्या"
 
-#: lib/documentview/documentview.cpp:190
+#: lib/documentview/documentview.cpp:192
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Trash"
 msgstr "कचरापेटी"
 
-#: lib/documentview/documentview.cpp:191
+#: lib/documentview/documentview.cpp:193
 #, kde-format
 msgctxt "@action:button"
 msgid "Deselect"
 msgstr "निवड रद्द करा"
 
-#: lib/documentview/documentview.cpp:398
+#: lib/documentview/documentview.cpp:402
 #, kde-format
 msgid "Gwenview does not know how to display this kind of document"
 msgstr "ह्या प्रकारचा दस्तऐवज कश्या प्रकारे दर्शवावयाचा ह्याची माहित ग्वेनव्ह्युजवळ नाही"
 
-#: lib/documentview/documentview.cpp:500
+#: lib/documentview/documentview.cpp:504
 #, kde-kuit-format
 msgid "Loading <filename>%1</filename> failed"
 msgstr "<filename>%1</filename> दाखल करता आली नाही"
