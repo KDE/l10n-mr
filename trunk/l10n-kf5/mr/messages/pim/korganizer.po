@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-05 03:44+0200\n"
+"POT-Creation-Date: 2018-06-07 03:47+0200\n"
 "PO-Revision-Date: 2013-04-15 10:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -5376,8 +5376,26 @@ msgstr "तुमच्या शोध पद्धतीबरोबर बा
 msgid "Su&mmaries"
 msgstr "सारांश (&M)"
 
-#. i18n: ectx: property (text), widget (QCheckBox, attendeeCheck)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, attendeeCheck)
 #: ui/searchdialog_base.ui:179
+#, fuzzy, kde-format
+#| msgid "Include item categories in your search"
+msgid "Include item attendees in your search"
+msgstr "तुमच्या शोधामध्ये गटांचे समूह/प्रकार समाविष्ट करा"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, attendeeCheck)
+#: ui/searchdialog_base.ui:182
+#, fuzzy, kde-format
+#| msgid ""
+#| "Check this box if you want to match item categories against your search "
+#| "pattern."
+msgid ""
+"Check this box if you want to match item attendees against your search "
+"pattern."
+msgstr "तुमच्या शोध पद्धतीबरोबर गटांचे समूह/प्रकार जुळवयाचे असतील तर ही पेटी निवडा/वापरा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, attendeeCheck)
+#: ui/searchdialog_base.ui:185
 #, fuzzy, kde-format
 #| msgctxt "@title:column event attendees"
 #| msgid "Attendees"
@@ -5385,26 +5403,26 @@ msgid "Attendees"
 msgstr "उपस्थित असलेले"
 
 #. i18n: ectx: property (title), widget (QGroupBox, dateRangeGroup)
-#: ui/searchdialog_base.ui:189
+#: ui/searchdialog_base.ui:195
 #, kde-format
 msgid "Date Range"
 msgstr "दिनांक सीमा"
 
 #. i18n: ectx: property (text), widget (QLabel, startDateLabel)
-#: ui/searchdialog_base.ui:197
+#: ui/searchdialog_base.ui:203
 #, kde-format
 msgid "Fr&om:"
 msgstr "पासून (&O):"
 
 #. i18n: ectx: property (toolTip), widget (KDateComboBox, startDate)
-#: ui/searchdialog_base.ui:216
+#: ui/searchdialog_base.ui:222
 #, kde-format
 msgid "Include items with a starting date on or after this date"
 msgstr ""
 "बाबींमध्ये ही किंवा ह्यानंतरची असलेली तारीख सुरु करण्याची तारीख म्हणून समाविष्ट करा "
 
 #. i18n: ectx: property (whatsThis), widget (KDateComboBox, startDate)
-#: ui/searchdialog_base.ui:219
+#: ui/searchdialog_base.ui:225
 #, kde-format
 msgid ""
 "Search for items with a starting date on or after the date you specify here."
@@ -5412,39 +5430,39 @@ msgstr "येथे तुम्ही निश्चीत केलेल्
 
 #. i18n: ectx: property (text), item, widget (KDateComboBox, startDate)
 #. i18n: ectx: property (text), item, widget (KDateComboBox, endDate)
-#: ui/searchdialog_base.ui:223 ui/searchdialog_base.ui:261
+#: ui/searchdialog_base.ui:229 ui/searchdialog_base.ui:267
 #, kde-format
 msgid "2008-08-18"
 msgstr "२००८-०८-१८"
 
 #. i18n: ectx: property (text), widget (QLabel, endDateLabel)
-#: ui/searchdialog_base.ui:235
+#: ui/searchdialog_base.ui:241
 #, kde-format
 msgid "&To:"
 msgstr "पर्यंत (&T):"
 
 #. i18n: ectx: property (toolTip), widget (KDateComboBox, endDate)
-#: ui/searchdialog_base.ui:254
+#: ui/searchdialog_base.ui:260
 #, kde-format
 msgid "Include items with ending date on or before this date"
 msgstr "या तारखेला किंवा याआधी संपणाऱ्या बाबी समाविष्ट करा"
 
 #. i18n: ectx: property (whatsThis), widget (KDateComboBox, endDate)
-#: ui/searchdialog_base.ui:257
+#: ui/searchdialog_base.ui:263
 #, kde-format
 msgid ""
 "Search for items with an ending date on or before the date you specify here."
 msgstr "तुम्ही येथे निश्चीत तारखेला किंवा याआधी संपणाऱ्या बाबी शोधा."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, inclusiveCheck)
-#: ui/searchdialog_base.ui:271
+#: ui/searchdialog_base.ui:277
 #, kde-format
 msgid ""
 "Include Events only if their date range falls into the range specified above"
 msgstr "फक्त वरती निश्चीत केलेल्या कक्षेत ज्यांची दिनांक कक्षा आहे असेच कार्यक्रम समाविष्ट करा"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, inclusiveCheck)
-#: ui/searchdialog_base.ui:274
+#: ui/searchdialog_base.ui:280
 #, kde-format
 msgid ""
 "Check this box if you want to include Events that occur within the date "
@@ -5456,19 +5474,19 @@ msgstr ""
 "शोध निष्कर्षामधून वगळले जातील."
 
 #. i18n: ectx: property (text), widget (QCheckBox, inclusiveCheck)
-#: ui/searchdialog_base.ui:277
+#: ui/searchdialog_base.ui:283
 #, kde-format
 msgid "Include E&vents within the specified date range"
 msgstr "निश्चीत केलेले दिनांक कक्षेतील कार्यक्रम समाविष्ट करा (&V)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, includeUndatedTodos)
-#: ui/searchdialog_base.ui:284
+#: ui/searchdialog_base.ui:290
 #, kde-format
 msgid "Include To-dos in the search that do not have a due date"
 msgstr "नियत तारीख नसलेले करावयाचे कार्यक्रम शोध प्रक्रियेत समाविष्ट करा"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, includeUndatedTodos)
-#: ui/searchdialog_base.ui:287
+#: ui/searchdialog_base.ui:293
 #, kde-format
 msgid ""
 "Check this box to include To-dos without a due date in the search results."
@@ -5477,7 +5495,7 @@ msgstr ""
 "निवडा/वापरा."
 
 #. i18n: ectx: property (text), widget (QCheckBox, includeUndatedTodos)
-#: ui/searchdialog_base.ui:290
+#: ui/searchdialog_base.ui:296
 #, kde-format
 msgid "Include To-dos &without a due date"
 msgstr "नियत तारीख नसलेले करावयाचे कार्यक्रम समाविष्ट करा (&W)"
