@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-06-26 03:25+0200\n"
+"POT-Creation-Date: 2018-07-02 03:23+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -537,7 +537,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3)
 #: kmymoney/dialogs/editpersonaldatadlg.ui:116
-#: kmymoney/dialogs/knewbankdlg.ui:97
+#: kmymoney/dialogs/knewbankdlg.ui:61
 #: kmymoney/wizards/newuserwizard/kgeneralpage.ui:85
 #: kmymoney/wizards/wizardpages/userinfo.ui:76
 #, kde-format
@@ -578,7 +578,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
 #: kmymoney/dialogs/editpersonaldatadlg.ui:196
-#: kmymoney/dialogs/knewbankdlg.ui:116 kmymoney/views/kpayeesview.ui:204
+#: kmymoney/dialogs/knewbankdlg.ui:108 kmymoney/views/kpayeesview.ui:204
 #: kmymoney/wizards/wizardpages/userinfo.ui:192
 #, kde-format
 msgid "Postal Code:"
@@ -3062,7 +3062,7 @@ msgstr "क्रमांक :"
 #. i18n: ectx: property (text), widget (QLabel, TextLabel7)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4)
 #. i18n: ectx: property (text), widget (QLabel, label_bic)
-#: kmymoney/dialogs/knewaccountdlg.ui:384 kmymoney/dialogs/knewbankdlg.ui:173
+#: kmymoney/dialogs/knewaccountdlg.ui:384 kmymoney/dialogs/knewbankdlg.ui:80
 #: kmymoney/payeeidentifier/ibanandbic/widgets/ibanbicitemedit.ui:27
 #: kmymoney/plugins/onlinetasks/sepa/ui/sepacredittransferedit.ui:46
 #, kde-format
@@ -3187,12 +3187,12 @@ msgstr "मात्रा :"
 msgid "Include on Tax Reports"
 msgstr ""
 
-#: kmymoney/dialogs/knewbankdlg.cpp:105
+#: kmymoney/dialogs/knewbankdlg.cpp:141
 #, kde-format
 msgid "The institution name field is empty.  Please enter the name."
 msgstr ""
 
-#: kmymoney/dialogs/knewbankdlg.cpp:105
+#: kmymoney/dialogs/knewbankdlg.cpp:141
 #, kde-format
 msgid "Adding New Institution"
 msgstr ""
@@ -3204,35 +3204,63 @@ msgid "New Institution Dialog"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: kmymoney/dialogs/knewbankdlg.ui:38
+#: kmymoney/dialogs/knewbankdlg.ui:26
 #, kde-format
 msgid "Institution Details"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: kmymoney/dialogs/knewbankdlg.ui:32
+#, kde-format
+msgid "https://"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: kmymoney/dialogs/knewbankdlg.ui:45 kmymoney/views/kpayeesview.ui:226
+#, kde-format
+msgid "Telephone/Fax:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: kmymoney/dialogs/knewbankdlg.ui:124
+#, kde-format
+msgid "Website"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: kmymoney/dialogs/knewbankdlg.ui:59
+#: kmymoney/dialogs/knewbankdlg.ui:134
 #, fuzzy, kde-format
 msgctxt "institution name column"
 msgid "Name:"
 msgstr "नाव :"
 
 #. i18n: ectx: property (text), widget (QLabel, TextLabel2)
-#: kmymoney/dialogs/knewbankdlg.ui:78
+#: kmymoney/dialogs/knewbankdlg.ui:153
 #, kde-format
 msgid "City:"
 msgstr "शहर :"
 
-#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
 #. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: kmymoney/dialogs/knewbankdlg.ui:135 kmymoney/views/kpayeesview.ui:226
-#, kde-format
-msgid "Telephone/Fax:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
-#: kmymoney/dialogs/knewbankdlg.ui:154
+#: kmymoney/dialogs/knewbankdlg.ui:169
 #, kde-format
 msgid "Routing Number:"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Forecast Options)
+#. i18n: ectx: property (text), widget (QPushButton, choosePath)
+#. i18n: ectx: property (text), widget (QToolButton, iconButton)
+#. i18n: ectx: property (text), widget (QToolButton, m_prevButton)
+#. i18n: ectx: property (text), widget (QToolButton, m_nextButton)
+#. i18n: ectx: property (text), widget (QToolButton, splitEditorButton)
+#: kmymoney/dialogs/knewbankdlg.ui:182
+#: kmymoney/dialogs/settings/ksettingsgeneral.ui:593
+#: kmymoney/settings/kmymoney.kcfg:444
+#: kmymoney/views/newtransactioneditor.ui:156
+#: kmymoney/widgets/kmymoneybriefschedule.ui:82
+#: kmymoney/widgets/kmymoneybriefschedule.ui:131
+#, kde-format
+msgid "..."
 msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KNewEquityEntryDlg)
@@ -4047,20 +4075,6 @@ msgstr ""
 #: kmymoney/dialogs/settings/ksettingsgeneral.ui:567
 #, kde-format
 msgid "Log path"
-msgstr ""
-
-#. i18n: ectx: label, entry, group (Forecast Options)
-#. i18n: ectx: property (text), widget (QPushButton, choosePath)
-#. i18n: ectx: property (text), widget (QToolButton, m_prevButton)
-#. i18n: ectx: property (text), widget (QToolButton, m_nextButton)
-#. i18n: ectx: property (text), widget (QToolButton, splitEditorButton)
-#: kmymoney/dialogs/settings/ksettingsgeneral.ui:593
-#: kmymoney/settings/kmymoney.kcfg:444
-#: kmymoney/views/newtransactioneditor.ui:156
-#: kmymoney/widgets/kmymoneybriefschedule.ui:82
-#: kmymoney/widgets/kmymoneybriefschedule.ui:131
-#, kde-format
-msgid "..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -18870,6 +18884,11 @@ msgstr ""
 #: kmymoney/views/payeeidentifierselectiondelegate.cpp:65
 #, kde-format
 msgid "National Account Number"
+msgstr ""
+
+#: kmymoney/views/simpleledgerview.cpp:310
+#, kde-format
+msgid "Open website of <b>%1</b> in your browser."
 msgstr ""
 
 #: kmymoney/views/splitdialog.cpp:244
