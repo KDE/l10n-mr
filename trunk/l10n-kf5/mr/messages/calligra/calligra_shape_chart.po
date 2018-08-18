@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-17 03:42+0200\n"
+"POT-Creation-Date: 2018-08-18 03:37+0200\n"
 "PO-Revision-Date: 2013-02-22 18:20+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -89,11 +89,16 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QToolButton, deleteSelection)
 #. i18n: ectx: property (text), widget (QToolButton, addDataSetAfter)
 #. i18n: ectx: property (text), widget (QToolButton, addDataSetBefore)
+#. i18n: ectx: property (text), widget (QToolButton, insertColumnLeft)
+#. i18n: ectx: property (text), widget (QToolButton, insertColumnRight)
 #. i18n: ectx: property (text), widget (QToolButton, editAxis)
 #: AxesConfigWidget.ui:69 dialogs/BubbleDataEditor.ui:42
 #: dialogs/BubbleDataEditor.ui:62 dialogs/BubbleDataEditor.ui:82
 #: dialogs/BubbleDataEditor.ui:102 dialogs/BubbleDataEditor.ui:122
 #: dialogs/BubbleDataEditor.ui:215 dialogs/BubbleDataEditor.ui:235
+#: dialogs/ChartTableEditor.ui:55 dialogs/ChartTableEditor.ui:68
+#: dialogs/ChartTableEditor.ui:81 dialogs/ChartTableEditor.ui:94
+#: dialogs/ChartTableEditor.ui:107
 #, kde-format
 msgid "..."
 msgstr ""
@@ -1161,9 +1166,7 @@ msgstr "अंतर्भूत करा"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AxisScalingDialog)
 #. i18n: ectx: property (windowTitle), widget (QDialog, CellRegionDialog)
-#. i18n: ectx: property (windowTitle), widget (QDialog, ChartTableEditor)
 #: dialogs/AxisScalingDialog.ui:13 dialogs/CellRegionDialog.ui:14
-#: dialogs/ChartTableEditor.ui:14
 #, kde-format
 msgid "Dialog"
 msgstr "संवाद"
@@ -1234,31 +1237,33 @@ msgid "Bubbles Editor"
 msgstr "चार्ट"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, insertColumnBefore)
-#: dialogs/BubbleDataEditor.ui:39
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertColumnLeft)
+#: dialogs/BubbleDataEditor.ui:39 dialogs/ChartTableEditor.ui:78
 #, kde-format
 msgid "Insert data column before selected column"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, insertRowBelow)
-#: dialogs/BubbleDataEditor.ui:59
+#: dialogs/BubbleDataEditor.ui:59 dialogs/ChartTableEditor.ui:52
 #, kde-format
 msgid "Insert data row below selected row"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, insertRowAbove)
-#: dialogs/BubbleDataEditor.ui:79
+#: dialogs/BubbleDataEditor.ui:79 dialogs/ChartTableEditor.ui:65
 #, kde-format
 msgid "Insert data row above selected row"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, insertColumnAfter)
-#: dialogs/BubbleDataEditor.ui:99
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertColumnRight)
+#: dialogs/BubbleDataEditor.ui:99 dialogs/ChartTableEditor.ui:91
 #, kde-format
 msgid "Insert data column after selected column"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, deleteSelection)
-#: dialogs/BubbleDataEditor.ui:119
+#: dialogs/BubbleDataEditor.ui:119 dialogs/ChartTableEditor.ui:104
 #, kde-format
 msgid "Delete selection"
 msgstr ""
@@ -1363,57 +1368,24 @@ msgstr ""
 "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 "weight:600;\">त्रुटी सूचक</span></p></body></html>"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: dialogs/ChartTableEditor.ui:23
-#, kde-format
-msgid "Data Format"
-msgstr ""
+#. i18n: ectx: property (windowTitle), widget (QDialog, ChartTableEditor)
+#: dialogs/ChartTableEditor.ui:14
+#, fuzzy, kde-format
+#| msgid "Chart"
+msgid "Data Editor"
+msgstr "चार्ट"
 
 #. i18n: ectx: property (text), widget (QRadioButton, dataSetsInRows)
 #: dialogs/ChartTableEditor.ui:29
 #, kde-format
-msgid "Data sets in rows"
+msgid "&Data sets in rows"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, dataSetsInColumns)
 #: dialogs/ChartTableEditor.ui:36
 #, kde-format
-msgid "Data sets in columns"
+msgid "Data sets in &columns"
 msgstr ""
-
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: dialogs/ChartTableEditor.ui:46
-#, kde-format
-msgid "Actions"
-msgstr "क्रिया"
-
-#. i18n: ectx: property (text), widget (QPushButton, insertRow)
-#: dialogs/ChartTableEditor.ui:52 dialogs/TableEditorDialog.cpp:66
-#, fuzzy, kde-format
-#| msgid "Insert"
-msgid "Insert Rows"
-msgstr "अंतर्भूत करा"
-
-#. i18n: ectx: property (text), widget (QPushButton, deleteRow)
-#: dialogs/ChartTableEditor.ui:62 dialogs/TableEditorDialog.cpp:67
-#, fuzzy, kde-format
-#| msgid "Insert"
-msgid "Delete Rows"
-msgstr "अंतर्भूत करा"
-
-#. i18n: ectx: property (text), widget (QPushButton, insertColumn)
-#: dialogs/ChartTableEditor.ui:72 dialogs/TableEditorDialog.cpp:68
-#, fuzzy, kde-format
-#| msgid "Insert"
-msgid "Insert Columns"
-msgstr "अंतर्भूत करा"
-
-#. i18n: ectx: property (text), widget (QPushButton, deleteColumn)
-#: dialogs/ChartTableEditor.ui:82 dialogs/TableEditorDialog.cpp:69
-#, fuzzy, kde-format
-#| msgid "Insert"
-msgid "Delete Columns"
-msgstr "अंतर्भूत करा"
 
 #: dialogs/DataSetTableModel.cpp:114
 #, kde-format
@@ -1634,6 +1606,47 @@ msgstr ""
 msgid "Del"
 msgstr "अंतर्भूत करा"
 
+#: dialogs/TableEditorDialog.cpp:68
+#, fuzzy, kde-format
+#| msgid "Insert"
+msgid "Insert Above"
+msgstr "अंतर्भूत करा"
+
+#: dialogs/TableEditorDialog.cpp:69
+#, fuzzy, kde-format
+#| msgid "Insert"
+msgid "Insert Below"
+msgstr "अंतर्भूत करा"
+
+#: dialogs/TableEditorDialog.cpp:70
+#, fuzzy, kde-format
+#| msgid "Insert"
+msgid "Insert Before"
+msgstr "अंतर्भूत करा"
+
+#: dialogs/TableEditorDialog.cpp:71
+#, fuzzy, kde-format
+#| msgid "Insert"
+msgid "Insert After"
+msgstr "अंतर्भूत करा"
+
+#: dialogs/TableEditorDialog.cpp:72
+#, fuzzy, kde-format
+#| msgid "Insert"
+msgid "Delete Selection"
+msgstr "अंतर्भूत करा"
+
+#: dialogs/TableEditorDialog.cpp:179 dialogs/TableEditorDialog.cpp:203
+#, kde-format
+msgid "New Row"
+msgstr ""
+
+#: dialogs/TableEditorDialog.cpp:227 dialogs/TableEditorDialog.cpp:251
+#, fuzzy, kde-format
+#| msgid "Insert"
+msgid "New Column"
+msgstr "अंतर्भूत करा"
+
 #. i18n: ectx: property (text), item, widget (QComboBox, legendOrientation)
 #: LegendConfigWidget.ui:19
 #, kde-format
@@ -1805,6 +1818,19 @@ msgstr "पॉजिटिव्ह"
 #, kde-format
 msgid "Resize"
 msgstr ""
+
+#~ msgid "Actions"
+#~ msgstr "क्रिया"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgid "Insert Rows"
+#~ msgstr "अंतर्भूत करा"
+
+#, fuzzy
+#~| msgid "Insert"
+#~ msgid "Delete Rows"
+#~ msgstr "अंतर्भूत करा"
 
 #, fuzzy
 #~| msgid "Chart"
