@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-02 03:39+0200\n"
+"POT-Creation-Date: 2018-09-05 03:42+0200\n"
 "PO-Revision-Date: 2013-02-22 18:20+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -532,7 +532,7 @@ msgstr "डिसेंबर"
 #: ChartShapeFactory.cpp:551 ChartShapeFactory.cpp:552
 #: ChartShapeFactory.cpp:553 ChartShapeFactory.cpp:554
 #: ChartShapeFactory.cpp:634 ChartShapeFactory.cpp:635
-#: dialogs/ScatterDataEditor.cpp:85
+#: dialogs/BubbleDataEditor.cpp:79 dialogs/ScatterDataEditor.cpp:83
 #, kde-format
 msgid "Column %1"
 msgstr "स्तंभ %1"
@@ -1214,39 +1214,39 @@ msgstr "फॉन्ट निवडा"
 msgid "Substep Width:"
 msgstr "फॉन्ट निवडा"
 
-#: dialogs/BubbleDataEditor.cpp:112
+#: dialogs/BubbleDataEditor.cpp:117
 #, fuzzy, kde-format
 #| msgid "Chart"
 msgid "Bubble Data Editor"
 msgstr "चार्ट"
 
-#: dialogs/BubbleDataEditor.cpp:118 dialogs/ScatterDataEditor.cpp:130
+#: dialogs/BubbleDataEditor.cpp:123 dialogs/ScatterDataEditor.cpp:129
 #, fuzzy, kde-format
 #| msgid "Insert"
 msgid "Insert Column Before"
 msgstr "अंतर्भूत करा"
 
-#: dialogs/BubbleDataEditor.cpp:119 dialogs/ScatterDataEditor.cpp:131
+#: dialogs/BubbleDataEditor.cpp:124 dialogs/ScatterDataEditor.cpp:130
 #, fuzzy, kde-format
 #| msgid "Insert"
 msgid "Insert Column After"
 msgstr "अंतर्भूत करा"
 
-#: dialogs/BubbleDataEditor.cpp:120 dialogs/ScatterDataEditor.cpp:132
+#: dialogs/BubbleDataEditor.cpp:125 dialogs/ScatterDataEditor.cpp:131
 #, fuzzy, kde-format
 #| msgid "Insert"
 msgid "Insert Row Above"
 msgstr "अंतर्भूत करा"
 
-#: dialogs/BubbleDataEditor.cpp:121 dialogs/ScatterDataEditor.cpp:133
+#: dialogs/BubbleDataEditor.cpp:126 dialogs/ScatterDataEditor.cpp:132
 #, fuzzy, kde-format
 #| msgid "Insert"
 msgid "Insert Row Below"
 msgstr "अंतर्भूत करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, deleteSelection)
-#: dialogs/BubbleDataEditor.cpp:122 dialogs/PieDataEditor.cpp:75
-#: dialogs/PieDataEditor.ui:46 dialogs/ScatterDataEditor.cpp:134
+#: dialogs/BubbleDataEditor.cpp:127 dialogs/PieDataEditor.cpp:75
+#: dialogs/PieDataEditor.ui:46 dialogs/ScatterDataEditor.cpp:133
 #, fuzzy, kde-format
 #| msgid "Insert"
 msgid "Delete"
@@ -1335,6 +1335,77 @@ msgstr "नवीन अक्ष"
 msgid "Add data set after selected data set"
 msgstr ""
 
+#: dialogs/BubbleDataSetTableModel.cpp:116
+#: dialogs/ScatterDataSetTableModel.cpp:116
+#, kde-format
+msgid "Dataset Name"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:117
+#: dialogs/ScatterDataSetTableModel.cpp:117
+#, fuzzy, kde-format
+#| msgid "Value"
+msgid "X-Values"
+msgstr "मूल्य"
+
+#: dialogs/BubbleDataSetTableModel.cpp:118
+#: dialogs/ScatterDataSetTableModel.cpp:118
+#, fuzzy, kde-format
+#| msgid "Value"
+msgid "Y-Values"
+msgstr "मूल्य"
+
+#: dialogs/BubbleDataSetTableModel.cpp:119
+#, fuzzy, kde-format
+#| msgid "Chart"
+msgid "Bubble Size"
+msgstr "चार्ट"
+
+#: dialogs/BubbleDataSetTableModel.cpp:159
+#: dialogs/ScatterDataSetTableModel.cpp:155
+#, fuzzy, kde-format
+#| msgid "Label"
+msgctxt "@info:tooltip"
+msgid "Label: %1"
+msgstr "लेबल"
+
+#: dialogs/BubbleDataSetTableModel.cpp:161
+#: dialogs/ScatterDataSetTableModel.cpp:157
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Default label: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:166
+#: dialogs/ScatterDataSetTableModel.cpp:162
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "X-Values cell region: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:168
+#: dialogs/BubbleDataSetTableModel.cpp:175
+#: dialogs/BubbleDataSetTableModel.cpp:182
+#: dialogs/ScatterDataSetTableModel.cpp:164
+#: dialogs/ScatterDataSetTableModel.cpp:171
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Default values used"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:173
+#: dialogs/ScatterDataSetTableModel.cpp:169
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Y-Values cell region: %1"
+msgstr ""
+
+#: dialogs/BubbleDataSetTableModel.cpp:180
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Bubble size cell region: %1"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: dialogs/CellRegionDialog.ui:49
 #, fuzzy, kde-format
@@ -1416,29 +1487,6 @@ msgstr ""
 #, kde-format
 msgid "Data sets in &columns"
 msgstr ""
-
-#: dialogs/DataSetTableModel.cpp:114 dialogs/ScatterDataSetTableModel.cpp:171
-#, kde-format
-msgid "Dataset Name"
-msgstr ""
-
-#: dialogs/DataSetTableModel.cpp:115 dialogs/ScatterDataSetTableModel.cpp:172
-#, fuzzy, kde-format
-#| msgid "Value"
-msgid "X-Values"
-msgstr "मूल्य"
-
-#: dialogs/DataSetTableModel.cpp:116 dialogs/ScatterDataSetTableModel.cpp:173
-#, fuzzy, kde-format
-#| msgid "Value"
-msgid "Y-Values"
-msgstr "मूल्य"
-
-#: dialogs/DataSetTableModel.cpp:117
-#, fuzzy, kde-format
-#| msgid "Chart"
-msgid "Bubble Size"
-msgstr "चार्ट"
 
 #: dialogs/FontEditorDialog.cpp:33
 #, kde-format
@@ -1636,12 +1684,12 @@ msgstr ""
 msgid "Del"
 msgstr "अंतर्भूत करा"
 
-#: dialogs/ScatterDataEditor.cpp:107
+#: dialogs/ScatterDataEditor.cpp:106
 #, kde-format
 msgid "Row %1"
 msgstr ""
 
-#: dialogs/ScatterDataEditor.cpp:124
+#: dialogs/ScatterDataEditor.cpp:123
 #, fuzzy, kde-format
 #| msgid "Chart"
 msgid "Scatter Data Editor"
@@ -2057,9 +2105,6 @@ msgstr ""
 #~ "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 #~ "right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
 #~ "weight:600;\">त्रुटी सूचक</span></p></body></html>"
-
-#~ msgid "Label"
-#~ msgstr "लेबल"
 
 #, fuzzy
 #~| msgid "Select Font"
