@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-20 03:40+0200\n"
+"POT-Creation-Date: 2018-09-21 03:38+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -7406,28 +7406,28 @@ msgid "Spacing > 0.5, consider disabling Instant Preview"
 msgstr ""
 
 #: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1115
-#: libs/ui/KisUndoActionsUpdateManager.cpp:59
-#, kde-format
-msgid "Undo %1"
-msgstr "पूर्ववत करा : %1"
-
-#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1115
 #, kde-format
 msgctxt "Default text for undo action"
 msgid "Undo"
 msgstr "पूर्ववत करा"
 
-#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1141
-#: libs/ui/KisUndoActionsUpdateManager.cpp:64
+#: libs/command/kundo2group.cpp:359 libs/command/kundo2stack.cpp:1115
+#: libs/ui/KisUndoActionsUpdateManager.cpp:59
 #, kde-format
-msgid "Redo %1"
-msgstr "पुन्हा करा %1"
+msgid "Undo %1"
+msgstr "पूर्ववत करा : %1"
 
 #: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1141
 #, kde-format
 msgctxt "Default text for redo action"
 msgid "Redo"
 msgstr "पुन्हा करा"
+
+#: libs/command/kundo2group.cpp:386 libs/command/kundo2stack.cpp:1141
+#: libs/ui/KisUndoActionsUpdateManager.cpp:64
+#, kde-format
+msgid "Redo %1"
+msgstr "पुन्हा करा %1"
 
 #: libs/command/kundo2model.cpp:67
 #: plugins/dockers/historydocker/KisUndoModel.cpp:70
@@ -7448,6 +7448,308 @@ msgstr "पुन्हा करा"
 #, kde-format
 msgid "Undo"
 msgstr "पूर्ववत करा"
+
+#: libs/flake/commands/KoConnectionShapeTypeCommand.cpp:31
+#, fuzzy
+#| msgid "Connection"
+msgctxt "(qtundo-format)"
+msgid "Change Connection"
+msgstr "जुळवणी"
+
+#: libs/flake/commands/KoMultiPathPointJoinCommand.cpp:30
+#: libs/flake/commands/KoSubpathJoinCommand.cpp:56
+msgctxt "(qtundo-format)"
+msgid "Join subpaths"
+msgstr ""
+
+#: libs/flake/commands/KoMultiPathPointMergeCommand.cpp:50
+#: libs/flake/commands/KoPathPointMergeCommand.cpp:148
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge points"
+msgstr "बिंदू काढून टाका"
+
+#: libs/flake/commands/KoParameterHandleMoveCommand.cpp:35
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Filter"
+msgctxt "(qtundo-format)"
+msgid "Change parameter"
+msgstr "गाळणी बदला"
+
+#: libs/flake/commands/KoParameterToPathCommand.cpp:44
+#: libs/flake/commands/KoParameterToPathCommand.cpp:53
+#: libs/flake/tools/KoPathTool.cpp:390
+#: plugins/flake/artistictextshape/ArtisticTextTool.cpp:609
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr "उलट (&I)"
+
+#: libs/flake/commands/KoPathBreakAtPointCommand.cpp:40
+#, fuzzy
+#| msgid "Target point:"
+msgctxt "(qtundo-format)"
+msgid "Break subpath at points"
+msgstr "लक्ष्य बिंदू :"
+
+#: libs/flake/commands/KoPathCombineCommand.cpp:67
+#, fuzzy
+#| msgid "&Combined area"
+msgctxt "(qtundo-format)"
+msgid "Combine paths"
+msgstr "संयुक्त क्षेत्र (&C)"
+
+#: libs/flake/commands/KoPathControlPointMoveCommand.cpp:42
+#, fuzzy
+#| msgid "Drag to move color stop."
+msgctxt "(qtundo-format)"
+msgid "Move control point"
+msgstr "रंग थांबणे हलविण्यासाठी ओढा."
+
+#: libs/flake/commands/KoPathFillRuleCommand.cpp:44
+msgctxt "(qtundo-format)"
+msgid "Set fill rule"
+msgstr ""
+
+#: libs/flake/commands/KoPathPointInsertCommand.cpp:80
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert points"
+msgstr "नाव अंतर्भूत करा"
+
+#: libs/flake/commands/KoPathPointMoveCommand.cpp:43
+#: libs/flake/commands/KoPathPointMoveCommand.cpp:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move points"
+msgstr "सेगमेंट काढून टाका"
+
+#: libs/flake/commands/KoPathPointRemoveCommand.cpp:104
+#: libs/flake/commands/KoPathPointRemoveCommand.cpp:133
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove points"
+msgstr "सेगमेंट काढून टाका"
+
+#: libs/flake/commands/KoPathPointTypeCommand.cpp:49
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Set Font Size"
+msgctxt "(qtundo-format)"
+msgid "Set point type"
+msgstr "फॉन्ट आकार निश्चित करा"
+
+#: libs/flake/commands/KoPathReverseCommand.cpp:51
+#, fuzzy
+#| msgctxt "the gradient will be drawn with the color order reversed"
+#| msgid "Reverse"
+msgctxt "(qtundo-format)"
+msgid "Reverse paths"
+msgstr "मागे"
+
+#: libs/flake/commands/KoPathSegmentBreakCommand.cpp:38
+#, fuzzy
+#| msgid "path"
+msgctxt "(qtundo-format)"
+msgid "Break subpath"
+msgstr "मार्ग"
+
+#: libs/flake/commands/KoPathSegmentTypeCommand.cpp:134
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change segments to curves"
+msgstr "विभागीय रंग"
+
+#: libs/flake/commands/KoPathSegmentTypeCommand.cpp:136
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change segments to lines"
+msgstr "विभागीय रंग"
+
+#: libs/flake/commands/KoPathShapeMarkerCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set marker"
+msgstr "पासून शोध सुरू करा"
+
+#: libs/flake/commands/KoShapeAlignCommand.cpp:84
+#, fuzzy
+#| msgid "Spray shape"
+msgctxt "(qtundo-format)"
+msgid "Align shapes"
+msgstr "फवाऱ्याचा आकार"
+
+#: libs/flake/commands/KoShapeBackgroundCommand.cpp:66
+#: libs/flake/commands/KoShapeBackgroundCommand.cpp:77
+#: libs/flake/commands/KoShapeBackgroundCommand.cpp:92
+#, fuzzy
+#| msgid "background"
+msgctxt "(qtundo-format)"
+msgid "Set background"
+msgstr "पार्श्वभूमी"
+
+#: libs/flake/commands/KoShapeClipCommand.cpp:70
+#: libs/flake/commands/KoShapeClipCommand.cpp:85
+#, fuzzy
+#| msgid "Ellipse"
+msgctxt "(qtundo-format)"
+msgid "Clip Shape"
+msgstr "लंबवर्तुळ"
+
+#: libs/flake/commands/KoShapeCreateCommand.cpp:66
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Create shape"
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgid_plural "Create shapes"
+msgstr[0] "आकार तयार करा"
+msgstr[1] "आकार तयार करा"
+
+#: libs/flake/commands/KoShapeDeleteCommand.cpp:56
+#: libs/flake/commands/KoShapeDeleteCommand.cpp:69
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Create shape"
+msgctxt "(qtundo-format)"
+msgid "Delete shape"
+msgid_plural "Delete shapes"
+msgstr[0] "आकार तयार करा"
+msgstr[1] "आकार तयार करा"
+
+#: libs/flake/commands/KoShapeDistributeCommand.cpp:130
+#, fuzzy
+#| msgid "Rotate Left"
+msgctxt "(qtundo-format)"
+msgid "Distribute shapes"
+msgstr "डावीकडे फिरवा"
+
+#: libs/flake/commands/KoShapeGroupCommand.cpp:80
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1067
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "आकारांचा समूह करा"
+
+#: libs/flake/commands/KoShapeGroupCommand.cpp:82
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add shapes to group"
+msgstr "ड्रॉप शॅडो आणा..."
+
+#: libs/flake/commands/KoShapeKeepAspectRatioCommand.cpp:27
+msgctxt "(qtundo-format)"
+msgid "Keep Aspect Ratio"
+msgstr "स्वरूपाचे गुणोत्तर ठेवा"
+
+#: libs/flake/commands/KoShapeLockCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Lock shapes"
+msgstr "केस जोडा"
+
+#: libs/flake/commands/KoShapeMoveCommand.cpp:36
+#: libs/flake/commands/KoShapeMoveCommand.cpp:48
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move shapes"
+msgstr "केस जोडा"
+
+#: libs/flake/commands/KoShapeRenameCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Shape"
+msgstr "पानाचे नाव बदला"
+
+#: libs/flake/commands/KoShapeReorderCommand.cpp:66
+#: libs/flake/commands/KoShapeReorderCommand.cpp:79
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reorder shapes"
+msgstr "कल"
+
+#: libs/flake/commands/KoShapeResizeCommand.cpp:47
+#: plugins/tools/defaulttool/defaulttool/DefaultToolWidget.cpp:239
+msgctxt "(qtundo-format)"
+msgid "Resize"
+msgstr "आकार बदला"
+
+#: libs/flake/commands/KoShapeRunAroundCommand.cpp:72
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Shape RunAround"
+msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
+
+#: libs/flake/commands/KoShapeShadowCommand.cpp:67
+#: libs/flake/commands/KoShapeShadowCommand.cpp:84
+#: libs/flake/commands/KoShapeShadowCommand.cpp:95
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Shadow"
+msgstr "शॅडोज"
+
+#: libs/flake/commands/KoShapeShearCommand.cpp:51
+#, fuzzy
+#| msgid "Spray shape"
+msgctxt "(qtundo-format)"
+msgid "Shear shapes"
+msgstr "फवाऱ्याचा आकार"
+
+#: libs/flake/commands/KoShapeSizeCommand.cpp:43
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Paste Shapes"
+msgctxt "(qtundo-format)"
+msgid "Resize shapes"
+msgstr "आकार चिकटवा"
+
+#: libs/flake/commands/KoShapeStrokeCommand.cpp:67
+#: libs/flake/commands/KoShapeStrokeCommand.cpp:86
+#: libs/flake/commands/KoShapeStrokeCommand.cpp:97
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set stroke"
+msgstr "फटकारा हलवा"
+
+#: libs/flake/commands/KoShapeTransparencyCommand.cpp:49
+#: libs/flake/commands/KoShapeTransparencyCommand.cpp:60
+#: libs/flake/commands/KoShapeTransparencyCommand.cpp:73
+#, fuzzy
+#| msgid "Curves opacity"
+msgctxt "(qtundo-format)"
+msgid "Set opacity"
+msgstr "वलयांची अपारदर्शकता"
+
+#: libs/flake/commands/KoShapeUnclipCommand.cpp:96
+#, fuzzy
+#| msgid "Add Shape"
+msgctxt "(qtundo-format)"
+msgid "Unclip Shape"
+msgstr "आकार जोडा"
+
+#: libs/flake/commands/KoShapeUnclipCommand.cpp:105
+#, fuzzy
+#| msgid "Add Shape"
+msgctxt "(qtundo-format)"
+msgid "Unclip Shapes"
+msgstr "आकार जोडा"
+
+#: libs/flake/commands/KoShapeUngroupCommand.cpp:55
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1095
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "आकारांचा समूह काढून टाका"
+
+#: libs/flake/commands/KoSubpathJoinCommand.cpp:58
+msgctxt "(qtundo-format)"
+msgid "Close subpath"
+msgstr ""
+
+#: libs/flake/commands/KoSubpathRemoveCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove subpath"
+msgstr "<<काढून टाका"
 
 #: libs/flake/html/HtmlWriter.cpp:83
 #, kde-format
@@ -7611,6 +7913,12 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Create object"
 msgstr "निर्माण करा (&C)"
+
+#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Segment"
+msgstr "प्रतिशत"
 
 #: libs/flake/tools/KoPathTool.cpp:214
 #, fuzzy, kde-format
@@ -8118,6 +8426,56 @@ msgstr "कोन"
 msgid "Spacing"
 msgstr "अंतर"
 
+#: libs/image/commands/kis_change_filter_command.h:45
+msgctxt "(qtundo-format)"
+msgid "Change Filter"
+msgstr "गाळणी बदला"
+
+#: libs/image/commands/kis_deselect_global_selection_command.cpp:30
+msgctxt "(qtundo-format)"
+msgid "Deselect"
+msgstr "निवड काढून टाका"
+
+#: libs/image/commands/kis_image_layer_add_command.cpp:32
+#: libs/image/commands/kis_image_layer_add_command.cpp:48
+msgctxt "(qtundo-format)"
+msgid "Add Layer"
+msgstr "स्तर वाढवा"
+
+#: libs/image/commands/kis_image_layer_move_command.cpp:37
+#: libs/image/commands/kis_image_layer_move_command.cpp:50
+msgctxt "(qtundo-format)"
+msgid "Move Layer"
+msgstr "स्तर हलवा"
+
+#: libs/image/commands/kis_image_layer_remove_command.cpp:30
+#: libs/image/commands/kis_image_layer_remove_command_impl.cpp:47
+msgctxt "(qtundo-format)"
+msgid "Remove Layer"
+msgstr "स्तर काढून टाका"
+
+#: libs/image/commands/kis_image_set_projection_color_space_command.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Convert Image Type"
+msgstr "प्रतिमेचा प्रकार बदला"
+
+#: libs/image/commands/kis_node_compositeop_command.cpp:29
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Composition Mode Change"
+msgstr "एकत्रित पध्दत"
+
+#: libs/image/commands/kis_node_opacity_command.cpp:26
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Opacity Change"
+msgstr "अपारदर्शकता : "
+
+#: libs/image/commands/kis_node_property_list_command.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Property Changes"
+msgstr "गुणधर्म बदल"
+
 #: libs/image/commands/kis_node_property_list_command.cpp:151
 #: libs/image/kis_layer_properties_icons.cpp:33
 #, kde-format
@@ -8142,6 +8500,40 @@ msgstr "सक्रिय"
 #, kde-format
 msgid "Alpha Locked"
 msgstr "अल्फा कुलूपबंद"
+
+#: libs/image/commands/kis_reselect_global_selection_command.cpp:30
+msgctxt "(qtundo-format)"
+msgid "Reselect"
+msgstr "पुन्हा निवडा"
+
+#: libs/image/commands_new/kis_image_resize_command.cpp:28
+#: libs/image/kis_image.cc:627
+msgctxt "(qtundo-format)"
+msgid "Resize Image"
+msgstr "प्रतिमेचा आकार बदला"
+
+#: libs/image/commands_new/kis_image_set_resolution_command.cpp:26
+msgctxt "(qtundo-format)"
+msgid "Set Image Resolution"
+msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
+
+#: libs/image/commands_new/kis_move_command_common.h:40
+#: libs/ui/tool/strokes/move_stroke_strategy.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Move"
+msgstr "हलवा"
+
+#: libs/image/commands_new/kis_set_layer_style_command.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Layer Style"
+msgstr "वर्तमान स्तर बदला"
+
+#: libs/image/commands_new/kis_switch_current_time_command.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Switch current time"
+msgstr "वर्तमान परिमाणे साठवा"
 
 #: libs/image/filter/kis_filter_category_ids.cpp:24
 #, kde-format
@@ -8318,17 +8710,110 @@ msgstr "मिशेल"
 msgid "Pass Through"
 msgstr ""
 
-#: libs/image/kis_image.cc:519
+#: libs/image/kis_image.cc:522
 #, kde-format
 msgid "background"
 msgstr "पार्श्वभूमी"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:523 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:526 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:393
 #, kde-format
 msgid "Layer"
 msgstr "स्तर"
+
+#: libs/image/kis_image.cc:626
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Image"
+msgstr "प्रतिमा कापा"
+
+#: libs/image/kis_image.cc:668
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Layer"
+msgstr "समूह स्तर (&G)"
+
+#: libs/image/kis_image.cc:669
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Mask"
+msgstr "मुखवटा सौम्य बनवा"
+
+#: libs/image/kis_image.cc:701
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Scale Image"
+msgstr "शीयर प्रतिमा"
+
+#: libs/image/kis_image.cc:702
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Image Resolution"
+msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
+
+#: libs/image/kis_image.cc:749
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Scale Layer"
+msgstr "स्तर चढवा"
+
+#: libs/image/kis_image.cc:876
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Image"
+msgstr "प्रतिमा फिरवा"
+
+#: libs/image/kis_image.cc:882
+#, fuzzy
+#| msgid "Rotate Canvas"
+msgctxt "(qtundo-format)"
+msgid "Rotate Mask"
+msgstr "कॅनव्हास फिरवा"
+
+#: libs/image/kis_image.cc:884
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Layer"
+msgstr "स्तर फिरवा"
+
+#: libs/image/kis_image.cc:966
+#, fuzzy
+#| msgid "Unsharp Mask"
+msgctxt "(qtundo-format)"
+msgid "Shear Mask"
+msgstr "मुखवटा सौम्य बनवा"
+
+#: libs/image/kis_image.cc:969
+#, fuzzy
+#| msgid "Shear Layer"
+msgctxt "(qtundo-format)"
+msgid "Shear Layer"
+msgstr "स्तर विभागा"
+
+#: libs/image/kis_image.cc:976
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear Image"
+msgstr "शीयर प्रतिमा"
+
+#: libs/image/kis_image.cc:988
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Image Color Space"
+msgstr "प्रतिमेच्या रंगाची जागा बदला"
+
+#: libs/image/kis_image.cc:1023
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Projection Color Space"
+msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
+
+#: libs/image/kis_image.cc:1810
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Crop Selections"
+msgstr "निवड वाढवा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: libs/image/kis_keyframe_channel.cpp:29 libs/ui/forms/wdgnewimage.ui:370
@@ -8475,10 +8960,35 @@ msgstr "पटल उघडा"
 msgid "Merged"
 msgstr "प्रत मिसळा"
 
+#: libs/image/kis_layer_utils.cpp:935
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Down"
+msgstr "बिंदू काढून टाका"
+
 #: libs/image/kis_layer_utils.cpp:1135
 #, fuzzy, kde-format
 msgid "Copy of"
 msgstr "पासून प्रत करा"
+
+#: libs/image/kis_layer_utils.cpp:1197
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change projection color"
+msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
+
+#: libs/image/kis_layer_utils.cpp:1296
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Selected Nodes"
+msgstr "निवडलेला रंग काढा"
+
+#: libs/image/kis_layer_utils.cpp:1304
+#, fuzzy
+#| msgid "No profile"
+msgctxt "(qtundo-format)"
+msgid "New From Visible"
+msgstr "रूपरेषा नाही"
 
 #: libs/image/kis_layer_utils.cpp:1304
 #, fuzzy, kde-format
@@ -8486,6 +8996,24 @@ msgstr "पासून प्रत करा"
 msgctxt "New layer created from all the visible layers"
 msgid "Visible"
 msgstr "दर्शनीय"
+
+#: libs/image/kis_layer_utils.cpp:1383
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Selection Masks"
+msgstr "निवड "
+
+#: libs/image/kis_layer_utils.cpp:1406
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flatten Layer"
+msgstr "स्तर सपाट करा"
+
+#: libs/image/kis_layer_utils.cpp:1419
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flatten Image"
+msgstr "प्रतिमा सपाट करा"
 
 #: libs/image/kis_processing_visitor.cpp:34
 #, fuzzy, kde-format
@@ -8499,6 +9027,72 @@ msgstr "पोस्ट प्रोसेसिंग"
 #, kde-format
 msgid "Unnamed"
 msgstr "निनावी"
+
+#: libs/image/kis_regenerate_frame_stroke_strategy.cpp:105
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Render Animation"
+msgstr "कल"
+
+#: libs/image/kis_selection_filters.cpp:120
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Erode Selection"
+msgstr "निवड पुसा"
+
+#: libs/image/kis_selection_filters.cpp:184
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Dilate Selection"
+msgstr "निवड विरळ करा"
+
+#: libs/image/kis_selection_filters.cpp:254
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Border Selection"
+msgstr "सीमा निवड"
+
+#: libs/image/kis_selection_filters.cpp:464
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Feather Selection"
+msgstr "फेदर निवड"
+
+#: libs/image/kis_selection_filters.cpp:511
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Grow Selection"
+msgstr "निवड वाढवा"
+
+#: libs/image/kis_selection_filters.cpp:638
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shrink Selection"
+msgstr "निवड कमी करा"
+
+#: libs/image/kis_selection_filters.cpp:781
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Smooth Selection"
+msgstr "सुलभ निवड"
+
+#: libs/image/kis_selection_filters.cpp:842
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Invert Selection"
+msgstr "उलटी निवड"
+
+#: libs/image/kis_switch_time_stroke_strategy.cpp:44
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Switch Frames"
+msgstr "वर्तमान परिमाणे साठवा"
+
+#: libs/image/kis_sync_lod_cache_stroke_strategy.cpp:70
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Instant Preview"
+msgstr "दूरचे दृश्य"
 
 #: libs/image/kis_update_scheduler.cpp:138
 #, fuzzy, kde-format
@@ -8534,13 +9128,13 @@ msgstr "एक्सपोजर वेळ :"
 
 #: libs/image/krita_utils.cpp:349
 #, fuzzy, kde-format
-msgid "on"
-msgstr "काही नाही"
+msgid "off"
+msgstr "कट ऑफ :"
 
 #: libs/image/krita_utils.cpp:349
 #, fuzzy, kde-format
-msgid "off"
-msgstr "कट ऑफ :"
+msgid "on"
+msgstr "काही नाही"
 
 #: libs/image/layerstyles/kis_ls_bevel_emboss_filter.cpp:56
 #: libs/image/layerstyles/kis_ls_stroke_filter.cpp:72
@@ -8562,6 +9156,38 @@ msgstr "ओव्हरले पद्धत"
 #, fuzzy, kde-format
 msgid "Satin (style)"
 msgstr "विलगीकरण शैली"
+
+#: libs/image/lazybrush/kis_colorize_mask.cpp:937
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Key Stroke Color"
+msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
+
+#: libs/image/lazybrush/kis_colorize_mask.cpp:964
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Key Stroke"
+msgstr "नाव घाला"
+
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:85
+#, fuzzy
+#| msgid "&Colorize"
+msgctxt "(qtundo-format)"
+msgid "Colorize"
+msgstr "रंगीन (&C)"
+
+#: libs/image/lazybrush/kis_colorize_stroke_strategy.cpp:85
+#, fuzzy
+#| msgid "&Colorize"
+msgctxt "(qtundo-format)"
+msgid "Prefilter Colorize Mask"
+msgstr "रंगीन (&C)"
+
+#: libs/image/processing/kis_transform_processing_visitor.cpp:214
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Transform Layer"
+msgstr "नोड बदला"
 
 #: libs/impex/AnimationCheck.h:38
 #, kde-format
@@ -10208,6 +10834,18 @@ msgstr "शिर्षकहीन-1"
 msgid "SVG Gradient"
 msgstr "ग्रेडियंट"
 
+#: libs/ui/actions/kis_selection_action_factories.cpp:143
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select All"
+msgstr "सर्व निवडा"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:217
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flood Fill Layer"
+msgstr "फ्लड फिल"
+
 #: libs/ui/actions/kis_selection_action_factories.cpp:295
 #, kde-format
 msgctxt "floating message when cannot copy from a node"
@@ -10219,6 +10857,25 @@ msgstr ""
 msgctxt "floating message when copying empty selection"
 msgid "Selection is empty: no pixels were copied "
 msgstr ""
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:360
+#: plugins/flake/textshape/TextTool.cpp:1136
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "कापा"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:361
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy"
+msgstr "प्रत बनवा"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:387
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy Merged"
+msgstr "प्रत मिसळा"
 
 #: libs/ui/actions/kis_selection_action_factories.cpp:407
 #, kde-format
@@ -10237,6 +10894,13 @@ msgctxt "floating message"
 msgid "Selection is already in a vector format "
 msgstr ""
 
+#: libs/ui/actions/kis_selection_action_factories.cpp:459
+#: libs/ui/actions/kis_selection_action_factories.cpp:479
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to Vector Selection"
+msgstr "व्हेक्टर निवड"
+
 #: libs/ui/actions/kis_selection_action_factories.cpp:474
 #, kde-format
 msgctxt "floating message"
@@ -10249,6 +10913,28 @@ msgstr ""
 msgctxt "floating message"
 msgid "The shape already belongs to a selection"
 msgstr "स्तर किंवा निवड रूपांतरित करा"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:526
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert shapes to vector selection"
+msgstr "व्हेक्टर निवड"
+
+#: libs/ui/actions/kis_selection_action_factories.cpp:578
+#: libs/ui/actions/kis_selection_action_factories.cpp:638
+#: plugins/tools/tool_polyline/kis_tool_polyline.cc:63
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Polyline"
+msgstr "पॉलीलाईन"
+
+#: libs/ui/actions/KisPasteActionFactory.cpp:114
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Paste Shapes"
+msgctxt "(qtundo-format)"
+msgid "Paste shapes"
+msgstr "आकार चिकटवा"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, KisDlgConfigureBrushHud)
 #: libs/ui/brushhud/kis_dlg_brush_hud_config.ui:20
@@ -10307,10 +10993,10 @@ msgid ""
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
-#: libs/ui/canvas/kis_canvas_controller.cpp:302
-#, kde-format
-msgid "ON"
-msgstr ""
+#, fuzzy, kde-format
+msgctxt "floating message about mirroring"
+msgid "Horizontal mirroring: %1 "
+msgstr "आडवे अंतर :"
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
 #: libs/ui/canvas/kis_canvas_controller.cpp:302
@@ -10319,10 +11005,10 @@ msgid "OFF"
 msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:194
-#, fuzzy, kde-format
-msgctxt "floating message about mirroring"
-msgid "Horizontal mirroring: %1 "
-msgstr "आडवे अंतर :"
+#: libs/ui/canvas/kis_canvas_controller.cpp:302
+#, kde-format
+msgid "ON"
+msgstr ""
 
 #: libs/ui/canvas/kis_canvas_controller.cpp:212
 #, fuzzy, kde-format
@@ -10374,6 +11060,12 @@ msgid ""
 "\n"
 "%1"
 msgstr "प्रतिमा पूर्वावलोकन"
+
+#: libs/ui/canvas/kis_change_guides_command.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Edit Guides"
+msgstr "मार्गदर्शक तत्व संपादित करा"
 
 #: libs/ui/canvas/kis_guides_manager.cpp:746
 #, fuzzy, kde-format
@@ -10667,6 +11359,12 @@ msgstr ""
 #, kde-format
 msgid "*varies*"
 msgstr ""
+
+#: libs/ui/dialogs/kis_dlg_layer_properties.cc:219
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Layer Properties"
+msgstr "नवीन स्तराचे गुणधर्म"
 
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:68
 #, fuzzy, kde-format
@@ -11207,6 +11905,19 @@ msgstr ""
 #, kde-format
 msgid "Vector Layer %1"
 msgstr "व्हेक्टर स्तर  %1"
+
+#: libs/ui/flake/kis_take_all_shapes_command.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clear Vector Selection"
+msgstr "व्हेक्टर निवड"
+
+#: libs/ui/flake/KisReferenceImagesLayer.cpp:33
+#, fuzzy
+#| msgid "Reference image:"
+msgctxt "(qtundo-format)"
+msgid "Add reference image"
+msgstr "संदर्भ प्रतिमा :"
 
 #: libs/ui/flake/KisReferenceImagesLayer.cpp:127
 #, fuzzy, kde-format
@@ -14942,6 +15653,12 @@ msgstr "Y ऑफसेट :"
 msgid "Do not ask again (hold Shift to ask again)"
 msgstr ""
 
+#: libs/ui/kis_animation_importer.cpp:69
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Import animation"
+msgstr "रचना निर्यात करा"
+
 #: libs/ui/kis_bookmarked_configurations_editor.cc:69
 #, kde-format
 msgid "New configuration %1"
@@ -14951,6 +15668,14 @@ msgstr "नवीन संयोजना %1"
 #, fuzzy, kde-format
 msgid "Last Used"
 msgstr "शेवटी वापरलेले"
+
+#: libs/ui/kis_change_file_layer_command.h:34
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Filter"
+msgctxt "(qtundo-format)"
+msgid "Change File Layer"
+msgstr "गाळणी बदला"
 
 #: libs/ui/kis_clipboard.cc:289
 #, fuzzy, kde-format
@@ -15100,6 +15825,18 @@ msgstr "गाळणी स्तराचे गुणधर्म"
 msgid "No file name specified"
 msgstr ""
 
+#: libs/ui/kis_layer_manager.cc:434
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a Paint Layer"
+msgstr "पासून वर्तमान स्तर बदला"
+
+#: libs/ui/kis_layer_manager.cc:461
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to an animated layer"
+msgstr "पासून वर्तमान स्तर बदला"
+
 #: libs/ui/kis_layer_manager.cc:478
 #, fuzzy, kde-format
 msgid "Save layers to..."
@@ -15111,6 +15848,12 @@ msgid ""
 "Choose the location where the layer will be saved to. The new file layer "
 "will then reference this location."
 msgstr ""
+
+#: libs/ui/kis_layer_manager.cc:539
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a file layer"
+msgstr "पासून वर्तमान स्तर बदला"
 
 #: libs/ui/kis_layer_manager.cc:627
 #, kde-format
@@ -15137,6 +15880,12 @@ msgctxt "floating message in layer manager"
 msgid "Layer is locked "
 msgstr "स्तर कुलूपबंद आहे."
 
+#: libs/ui/kis_layer_manager.cc:810
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rasterize Layer"
+msgstr "स्तर रास्टराईझ करा"
+
 #: libs/ui/kis_layer_manager.cc:849
 #, kde-format
 msgid "Convert Invisible Groups"
@@ -15148,14 +15897,44 @@ msgid "Export Only Toplevel Groups"
 msgstr "वरच्या पातळीवरील समूहच फक्त निर्यात करा"
 
 #: libs/ui/kis_mask_manager.cc:198
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Selection Mask"
+msgstr "निवड "
+
+#: libs/ui/kis_mask_manager.cc:198
 #, fuzzy, kde-format
 msgid "Selection"
 msgstr "निवड (&S)"
+
+#: libs/ui/kis_mask_manager.cc:209
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Transparency Mask"
+msgstr "पारदर्शी मुखवटा"
+
+#: libs/ui/kis_mask_manager.cc:220
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Filter Mask"
+msgstr "नवीन गाळणी मुखवटा"
 
 #: libs/ui/kis_mask_manager.cc:235
 #, kde-format
 msgid "New Filter Mask"
 msgstr "नवीन गाळणी मुखवटा"
+
+#: libs/ui/kis_mask_manager.cc:271
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Colorize Mask"
+msgstr "नवीन गाळणी मुखवटा"
+
+#: libs/ui/kis_mask_manager.cc:281
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Transform Mask"
+msgstr "पारदर्शी मुखवटा"
 
 #: libs/ui/kis_mask_manager.cc:301
 #, fuzzy, kde-format
@@ -15166,6 +15945,90 @@ msgstr "गाळणी स्तराचे गुणधर्म"
 #, kde-format
 msgid "Mirror View"
 msgstr "प्रतिबिंबित दृश्य"
+
+#: libs/ui/kis_node_manager.cpp:448
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move Nodes"
+msgstr "पेंटरची साधने (&P)"
+
+#: libs/ui/kis_node_manager.cpp:455
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Copy Nodes"
+msgstr "पासून प्रत करा"
+
+#: libs/ui/kis_node_manager.cpp:462
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Nodes"
+msgstr "संसाधने (&R)"
+
+#: libs/ui/kis_node_manager.cpp:598
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to a Selection Mask"
+msgstr "उलटी निवड"
+
+#: libs/ui/kis_node_manager.cpp:847
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Duplicate Nodes"
+msgstr "प्रतिकृती"
+
+#: libs/ui/kis_node_manager.cpp:870
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Raise Nodes"
+msgstr "पेंटरची साधने (&P)"
+
+#: libs/ui/kis_node_manager.cpp:877
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Lower Nodes"
+msgstr "पेंटरची साधने (&P)"
+
+#: libs/ui/kis_node_manager.cpp:895
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Nodes"
+msgstr "पेंटरची साधने (&P)"
+
+#: libs/ui/kis_node_manager.cpp:911
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Layer X"
+msgstr "X स्तर प्रतिबिंबित करा"
+
+#: libs/ui/kis_node_manager.cpp:913
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Mask X"
+msgstr "X मुखवटा प्रतिबिंबित करा"
+
+#: libs/ui/kis_node_manager.cpp:924
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Layer Y"
+msgstr "Y स्तर प्रतिबिंबित करा"
+
+#: libs/ui/kis_node_manager.cpp:926
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Mask Y"
+msgstr "Y मुखवटा प्रतिबिंबित करा"
+
+#: libs/ui/kis_node_manager.cpp:934
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror All Layers X"
+msgstr "X स्तर प्रतिबिंबित करा"
+
+#: libs/ui/kis_node_manager.cpp:941
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror All Layers Y"
+msgstr "Y स्तर प्रतिबिंबित करा"
 
 #: libs/ui/kis_node_manager.cpp:1043
 #, fuzzy, kde-format
@@ -15183,6 +16046,12 @@ msgstr "एक्सपोजर"
 msgid "Could not save to svg: %1"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
+#: libs/ui/kis_node_manager.cpp:1147
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Alpha into a Mask"
+msgstr "अल्फा पर्याय"
+
 #: libs/ui/kis_node_manager.cpp:1177
 #, fuzzy, kde-format
 msgctxt "@title:window"
@@ -15196,6 +16065,32 @@ msgid ""
 "The operation will be cancelled."
 msgstr ""
 
+#: libs/ui/kis_node_manager.cpp:1209
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Write Alpha into a Layer"
+msgstr "रंगाचा स्तर (&P)"
+
+#: libs/ui/kis_node_manager.cpp:1324
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cut Nodes"
+msgstr "प्रतिकृती"
+
+#: libs/ui/kis_node_manager.cpp:1397
+#, fuzzy
+#| msgid "Quick search:"
+msgctxt "(qtundo-format)"
+msgid "Quick Group"
+msgstr "त्वरित शोध :"
+
+#: libs/ui/kis_node_manager.cpp:1408
+#, fuzzy
+#| msgid "Quick search:"
+msgctxt "(qtundo-format)"
+msgid "Quick Clipping Group"
+msgstr "त्वरित शोध :"
+
 #: libs/ui/kis_node_manager.cpp:1415
 #, fuzzy, kde-format
 msgctxt "default name for a clipping group layer"
@@ -15207,6 +16102,13 @@ msgstr "स्तर काढून टाका"
 msgctxt "default name for quick clip group mask layer"
 msgid "Mask Layer"
 msgstr "रंगाचा स्तर (&P)"
+
+#: libs/ui/kis_node_manager.cpp:1431
+#, fuzzy
+#| msgid "Quick search:"
+msgctxt "(qtundo-format)"
+msgid "Quick Ungroup"
+msgstr "त्वरित शोध :"
 
 #: libs/ui/kis_paintop_box.cc:118
 #, kde-format
@@ -15365,6 +16267,36 @@ msgstr ""
 msgid "Stroked Shapes"
 msgstr "फटकाऱ्याचे आकार"
 
+#: libs/ui/kis_selection_manager.cc:603
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Stroke Shapes"
+msgstr "फटकाऱ्याचे आकार"
+
+#: libs/ui/kis_selection_manager.cc:710
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque (Add)"
+msgstr "अपारदर्शक निवडा"
+
+#: libs/ui/kis_selection_manager.cc:713
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque (Subtract)"
+msgstr "अपारदर्शक निवडा"
+
+#: libs/ui/kis_selection_manager.cc:716
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque (Intersect)"
+msgstr "अपारदर्शक निवडा"
+
+#: libs/ui/kis_selection_manager.cc:719
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Opaque"
+msgstr "अपारदर्शक निवडा"
+
 #: libs/ui/kis_splash_screen.cpp:122
 #, fuzzy, kde-format
 msgid ""
@@ -15429,15 +16361,15 @@ msgid "Hidden"
 msgstr ""
 
 #: libs/ui/kis_statusbar.cc:334
+#, kde-format
+msgid "Ants"
+msgstr ""
+
+#: libs/ui/kis_statusbar.cc:334
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:339
 #, fuzzy, kde-format
 msgid "Mask"
 msgstr "मुखवटा बाहेर"
-
-#: libs/ui/kis_statusbar.cc:334
-#, kde-format
-msgid "Ants"
-msgstr ""
 
 #: libs/ui/kis_statusbar.cc:337
 #, fuzzy, kde-format
@@ -15679,6 +16611,13 @@ msgid ""
 "If you press OK, selected files will be recovered, the unselected files "
 "discarded."
 msgstr ""
+
+#: libs/ui/KisCloneDocumentStroke.cpp:37
+#, fuzzy
+#| msgid "Open in New Documents"
+msgctxt "(qtundo-format)"
+msgid "Clone Document"
+msgstr "नवीन दस्तऐवजात उघडा"
 
 #: libs/ui/KisDocument.cpp:525
 #, kde-format
@@ -16229,13 +17168,13 @@ msgstr ""
 
 #: libs/ui/KisNodeToolTip.cpp:52
 #, fuzzy, kde-format
-msgid "Yes"
-msgstr "यलोज"
+msgid "No"
+msgstr "काही नाही"
 
 #: libs/ui/KisNodeToolTip.cpp:52
 #, fuzzy, kde-format
-msgid "No"
-msgstr "काही नाही"
+msgid "Yes"
+msgstr "यलोज"
 
 #: libs/ui/KisOpenPane.cpp:175
 #, fuzzy, kde-format
@@ -16261,6 +17200,13 @@ msgid ""
 "%1\n"
 "Reason: %2"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
+
+#: libs/ui/KisReferenceImage.cpp:76
+#, fuzzy
+#| msgid "Saturation"
+msgctxt "(qtundo-format)"
+msgid "Set saturation"
+msgstr "गडदपणा"
 
 #: libs/ui/KisReferenceImage.cpp:138
 #, fuzzy, kde-format
@@ -16496,16 +17442,16 @@ msgstr "खुली रंग रूपरेषा"
 msgid "%1 (Copy)"
 msgstr "प्रत बनवा"
 
+#: libs/ui/KisViewManager.cpp:976 libs/ui/KisViewManager.cpp:1053
+#, kde-format
+msgid "Alternative names exhausted, try manually saving with a higher number"
+msgstr ""
+
 #: libs/ui/KisViewManager.cpp:976
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Couldn't save incremental version"
 msgstr "वाढती आवृत्ती साठवा (&V)"
-
-#: libs/ui/KisViewManager.cpp:976 libs/ui/KisViewManager.cpp:1053
-#, kde-format
-msgid "Alternative names exhausted, try manually saving with a higher number"
-msgstr ""
 
 #: libs/ui/KisViewManager.cpp:1053
 #, fuzzy, kde-format
@@ -17583,6 +18529,19 @@ msgstr "कुंचल्याचा आकार वाढवा"
 msgid "Decrease Brush Size"
 msgstr "कुंचल्याचा आकार घटवा"
 
+#: libs/ui/tool/kis_tool_utils.cpp:134
+#: plugins/dockers/animation/kis_animation_utils.cpp:88
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clear"
+msgstr "पुसून टाका"
+
+#: libs/ui/tool/strokes/kis_filter_stroke_strategy.cpp:74
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Filter \"%1\""
+msgstr "गाळणी :"
+
 #. i18n: ectx: property (text), widget (QLabel, lblLinks)
 #: libs/ui/wdgsplash.ui:435
 #, fuzzy, kde-format
@@ -18122,15 +19081,15 @@ msgid ""
 msgstr ""
 
 #: libs/ui/widgets/kis_categorized_list_view.cpp:152
-#, kde-format
-msgid "Unlock (restore settings from preset)"
-msgstr ""
-
-#: libs/ui/widgets/kis_categorized_list_view.cpp:152
 #: plugins/paintops/libpaintop/sensors/kis_dynamic_sensor_drawing_angle.cpp:78
 #, fuzzy, kde-format
 msgid "Lock"
 msgstr "कुलूपबंद"
+
+#: libs/ui/widgets/kis_categorized_list_view.cpp:152
+#, kde-format
+msgid "Unlock (restore settings from preset)"
+msgstr ""
 
 #: libs/ui/widgets/kis_categorized_list_view.cpp:157
 #, kde-format
@@ -18668,16 +19627,16 @@ msgstr "ग्रेडियंट"
 
 #: libs/ui/widgets/KoFillConfigWidget.cpp:566
 #, fuzzy, kde-format
+#| msgid "Predefined Gradients"
+msgid "Enter gradient name:"
+msgstr "पूर्वनिश्चीत उतरणी"
+
+#: libs/ui/widgets/KoFillConfigWidget.cpp:566
+#, fuzzy, kde-format
 #| msgid "Gradient"
 msgctxt "@title:window"
 msgid "Save Gradient"
 msgstr "ग्रेडियंट"
-
-#: libs/ui/widgets/KoFillConfigWidget.cpp:566
-#, fuzzy, kde-format
-#| msgid "Predefined Gradients"
-msgid "Enter gradient name:"
-msgstr "पूर्वनिश्चीत उतरणी"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, btnNoFill)
 #: libs/ui/widgets/KoFillConfigWidget.ui:34
@@ -19039,17 +19998,23 @@ msgstr ""
 #: libs/widgets/KoConfigAuthorPage.cpp:100
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:323
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
+#, kde-format
+msgid "Email"
+msgstr "इमेल"
+
+#: libs/widgets/KoConfigAuthorPage.cpp:100
 #, fuzzy, kde-format
-#| msgid "Home"
-msgid "Homepage"
-msgstr "मूळ स्थान"
+#| msgid "Fax:"
+msgid "Fax"
+msgstr "फ़ैक्स :"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:100
 #: plugins/python/comics_project_management_tools/comics_export_dialog.py:323
 #: plugins/python/comics_project_management_tools/comics_metadata_dialog.py:349
-#, kde-format
-msgid "Email"
-msgstr "इमेल"
+#, fuzzy, kde-format
+#| msgid "Home"
+msgid "Homepage"
+msgstr "मूळ स्थान"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:100
 #, fuzzy, kde-format
@@ -19062,11 +20027,11 @@ msgstr "पत्ता :"
 msgid "Telephone"
 msgstr ""
 
-#: libs/widgets/KoConfigAuthorPage.cpp:100
+#: libs/widgets/KoConfigAuthorPage.cpp:103
 #, fuzzy, kde-format
-#| msgid "Fax:"
-msgid "Fax"
-msgstr "फ़ैक्स :"
+#| msgid "Country:"
+msgid "Entry"
+msgstr "देश :"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/widgets/KoConfigAuthorPage.cpp:103
@@ -19076,26 +20041,20 @@ msgstr "फ़ैक्स :"
 msgid "Type"
 msgstr "प्रकार"
 
-#: libs/widgets/KoConfigAuthorPage.cpp:103
-#, fuzzy, kde-format
-#| msgid "Country:"
-msgid "Entry"
-msgstr "देश :"
-
 #: libs/widgets/KoConfigAuthorPage.cpp:107
 #, fuzzy, kde-format
 msgid "Anonymous"
 msgstr "निनावीकर"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:291
-#, fuzzy, kde-format
-msgid "Name of Profile"
-msgstr "स्तराची महिती :"
-
-#: libs/widgets/KoConfigAuthorPage.cpp:291
 #, kde-format
 msgid "Name (not duplicate or blank name):"
 msgstr ""
+
+#: libs/widgets/KoConfigAuthorPage.cpp:291
+#, fuzzy, kde-format
+msgid "Name of Profile"
+msgstr "स्तराची महिती :"
 
 #: libs/widgets/KoConfigAuthorPage.cpp:344
 #, fuzzy, kde-format
@@ -20374,28 +21333,22 @@ msgstr "प्रतिशत (%)"
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:207
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:236
 #, fuzzy, kde-format
-#| msgid "Line width"
-msgid "percent of view width (vw)"
-msgstr "रेषेची जाडी"
+#| msgid "Pixel height"
+msgid "percent of view height (vh)"
+msgstr "पिक्सेल उंची"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:207
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:236
 #, fuzzy, kde-format
-#| msgid "Pixel height"
-msgid "percent of view height (vh)"
-msgstr "पिक्सेल उंची"
+#| msgid "Line width"
+msgid "percent of view width (vw)"
+msgstr "रेषेची जाडी"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
 #, fuzzy, kde-format
 #| msgid "90 &degrees"
 msgid "degrees (°)"
 msgstr "९० अंश (&D)"
-
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
-#, fuzzy, kde-format
-#| msgid "radius by random"
-msgid "radians (rad)"
-msgstr "विनाक्रम निवडलेली त्रिज्या"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
 #, kde-format
@@ -20408,6 +21361,12 @@ msgstr ""
 msgid "percent of circle (%)"
 msgstr "प्रतिशत (%)"
 
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:246
+#, fuzzy, kde-format
+#| msgid "radius by random"
+msgid "radians (rad)"
+msgstr "विनाक्रम निवडलेली त्रिज्या"
+
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:255
 #, fuzzy, kde-format
 msgid "frames (f)"
@@ -20415,14 +21374,14 @@ msgstr "स्तर काढून टाका"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:262
 #, fuzzy, kde-format
-#| msgid "%1 s"
-msgid "seconds (s)"
-msgstr "%1 s"
+msgid "percent of animation (%)"
+msgstr "रचना निर्यात करा"
 
 #: libs/widgetutils/kis_spin_box_unit_manager.cpp:262
 #, fuzzy, kde-format
-msgid "percent of animation (%)"
-msgstr "रचना निर्यात करा"
+#| msgid "%1 s"
+msgid "seconds (s)"
+msgstr "%1 s"
 
 #: libs/widgetutils/KoFileDialog.cpp:407
 #, kde-format
@@ -20661,6 +21620,13 @@ msgstr ""
 msgid "Configure Toolbars"
 msgstr "संयोजीत करा..."
 
+#: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
+#, kde-format
+msgid ""
+"Do you really want to reset all toolbars of this application to their "
+"default? The changes will be applied immediately."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QPushButton, resetButton)
 #. i18n: ectx: property (text), widget (QPushButton, reset)
 #. i18n: ectx: property (text), widget (QPushButton, btnResetCustomLine)
@@ -20674,13 +21640,6 @@ msgstr "संयोजीत करा..."
 #, kde-format
 msgid "Reset"
 msgstr "पुन्हस्थापित करा"
-
-#: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
-#, kde-format
-msgid ""
-"Do you really want to reset all toolbars of this application to their "
-"default? The changes will be applied immediately."
-msgstr ""
 
 #: libs/widgetutils/xmlgui/kedittoolbar.cpp:685
 #, fuzzy, kde-format
@@ -21109,12 +22068,12 @@ msgstr "ची प्रतिकृती "
 
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:400
 #, fuzzy, kde-format
-msgid "Primary language:"
+msgid "Fallback language:"
 msgstr "शेवटचे पान :"
 
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:400
 #, fuzzy, kde-format
-msgid "Fallback language:"
+msgid "Primary language:"
 msgstr "शेवटचे पान :"
 
 #: libs/widgetutils/xmlgui/kswitchlanguagedialog_p.cpp:430
@@ -22208,6 +23167,12 @@ msgstr "यलोज"
 msgid "Animation"
 msgstr "चलित"
 
+#: plugins/dockers/animation/animation_docker.cpp:166
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add transform keyframe"
+msgstr "पारदर्शी मुखवटा"
+
 #: plugins/dockers/animation/animation_docker.cpp:409
 #, kde-format
 msgid "Effective FPS:\t%1"
@@ -22253,6 +23218,46 @@ msgstr "वेग"
 #| msgid "&Paint Layer"
 msgid "Animation curves"
 msgstr "रंगाचा स्तर (&P)"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:204
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust keyframe"
+msgstr "नाव घाला"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:207
+#, fuzzy
+#| msgid "Insert name"
+msgctxt "(qtundo-format)"
+msgid "Insert keyframe"
+msgstr "नाव अंतर्भूत करा"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:223
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:512
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust tangent"
+msgstr "एचएसव्ही सुस्थित करणे (&H)..."
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:232
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:245
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:642
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:651
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:660
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:669
+#: plugins/dockers/animation/kis_animation_curves_view.cpp:697
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set interpolation mode"
+msgstr "द्विरेषीय प्रतिस्थापन"
+
+#: plugins/dockers/animation/kis_animation_curves_model.cpp:285
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Adjust Keyframe"
+msgid_plural "Adjust %1 Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
 
 #: plugins/dockers/animation/kis_animation_utils.cpp:36
 #, fuzzy, kde-format
@@ -22326,6 +23331,51 @@ msgstr "नाव घाला"
 msgid "Remove transform keyframe"
 msgstr "नाव घाला"
 
+#: plugins/dockers/animation/kis_animation_utils.cpp:55
+#: plugins/dockers/animation/kis_animation_utils.cpp:269
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Copy Keyframe"
+msgid_plural "Copy %1 Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
+
+#: plugins/dockers/animation/kis_animation_utils.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Keyframe"
+msgstr "नाव घाला"
+
+#: plugins/dockers/animation/kis_animation_utils.cpp:115
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Keyframe"
+msgid_plural "Remove Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
+
+#: plugins/dockers/animation/kis_animation_utils.cpp:266
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Move Keyframe"
+msgid_plural "Move %1 Keyframes"
+msgstr[0] "नाव घाला"
+msgstr[1] "नाव घाला"
+
+#: plugins/dockers/animation/kis_time_based_item_model.cpp:337
+#, fuzzy, kde-format
+msgctxt "(qtundo-format)"
+msgid "Remove frame and shift"
+msgid_plural "Remove %1 frames and shift"
+msgstr[0] "स्तर काढून टाका"
+msgstr[1] "स्तर काढून टाका"
+
+#: plugins/dockers/animation/kis_time_based_item_model.cpp:365
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Frames"
+msgstr "पासून प्रत करा"
+
 #: plugins/dockers/animation/onion_skins_docker.cpp:53
 #, kde-format
 msgid "Tint: "
@@ -22380,6 +23430,16 @@ msgstr "स्तर काढून टाका"
 #, fuzzy, kde-format
 msgid "Timeline"
 msgstr "रेषेची जाडी :"
+
+#: plugins/dockers/animation/timeline_frames_model.cpp:802
+#: plugins/dockers/animation/timeline_frames_model.cpp:848
+#, fuzzy, kde-format
+#| msgid "Insert name"
+msgctxt "(qtundo-format)"
+msgid "Insert frame"
+msgid_plural "Insert %1 frames"
+msgstr[0] "नाव अंतर्भूत करा"
+msgstr[1] "नाव अंतर्भूत करा"
 
 #: plugins/dockers/animation/timeline_frames_view.cpp:210
 #, kde-format
@@ -22846,6 +23906,18 @@ msgstr "स्तर अदृश्य आहे."
 #, kde-format
 msgid "&Add"
 msgstr ""
+
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:870
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Quick Selection Mask"
+msgstr "निवड नाही"
+
+#: plugins/dockers/defaultdockers/kis_layer_box.cpp:892
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cancel Quick Selection Mask"
+msgstr "निवड नाही"
 
 #. i18n: ectx: property (whatsThis), widget (KisCompositeOpComboBox, cmbComposite)
 #: plugins/dockers/defaultdockers/wdglayerbox.ui:55
@@ -23876,6 +24948,12 @@ msgstr "निवडा"
 msgid "Color Range"
 msgstr "रंगांची श्रेणी"
 
+#: plugins/extensions/colorrange/dlg_colorrange.cc:254
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Color Range Selection"
+msgstr "रंग सीमा निवड"
+
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbSelect)
 #: plugins/extensions/colorrange/wdg_colorrange.ui:23
 #, kde-format
@@ -23985,6 +25063,12 @@ msgstr "पासूनचे सर्व स्तर बदला "
 #, kde-format
 msgid "Convert Current Layer From"
 msgstr "पासून वर्तमान स्तर बदला"
+
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:117
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Layer Type"
+msgstr "वर्तमान स्तर बदला"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgConvertColorSpace)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:14
@@ -24387,6 +25471,12 @@ msgstr "स्तर चढवा"
 #, fuzzy, kde-format
 msgid "Split into Layers"
 msgstr "रंगाचा स्तर (&P)"
+
+#: plugins/extensions/layersplit/layersplit.cpp:188
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Layer"
+msgstr "स्तर चढवा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkCreateGroupLayer)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:25
@@ -25214,11 +26304,23 @@ msgstr "घटवा"
 msgid "Shrink from image border"
 msgstr "प्रतिमेच्या कडेपासून घटवा"
 
+#: plugins/extensions/offsetimage/offsetimage.cpp:68
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Offset Image"
+msgstr "ऑफसेट प्रतिमा"
+
 #: plugins/extensions/offsetimage/offsetimage.cpp:69
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Offset Image"
 msgstr "ऑफसेट प्रतिमा"
+
+#: plugins/extensions/offsetimage/offsetimage.cpp:92
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Offset Layer"
+msgstr "ऑफसेट स्तर"
 
 #: plugins/extensions/offsetimage/offsetimage.cpp:93
 #, fuzzy, kde-format
@@ -25603,6 +26705,12 @@ msgstr ""
 msgid "G'Mic failed, reason:"
 msgstr ""
 
+#: plugins/extensions/qmic/QMic.cpp:381
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Gmic filter"
+msgstr "दिशा गाळणी"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/extensions/qmic/WdgQMicSettings.ui:17
 #, kde-format
@@ -25930,6 +27038,18 @@ msgstr "मॅक्रो साठवा"
 msgid "(256 x 256)"
 msgstr ""
 
+#: plugins/extensions/rotateimage/rotateimage.cc:134
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Image Vertically"
+msgstr "प्रतिमा उभेरित्या प्रतिबिंबित करा"
+
+#: plugins/extensions/rotateimage/rotateimage.cc:143
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Image Horizontally"
+msgstr "प्रतिमा आडवेरित्या प्रतिबिंबित करा"
+
 #: plugins/extensions/rotateimage/rotateimage.cc:158
 #, kde-format
 msgid "Rotate Layer"
@@ -25982,6 +27102,12 @@ msgstr "ऐच्छिक (&C):"
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:74
 #: plugins/extensions/separate_channels/kis_separate_channels_plugin.cc:86
 #, kde-format
+msgid "Separate Image"
+msgstr "वेगळी प्रतिमा"
+
+#: plugins/extensions/separate_channels/kis_channel_separator.cc:210
+#, fuzzy
+msgctxt "(qtundo-format)"
 msgid "Separate Image"
 msgstr "वेगळी प्रतिमा"
 
@@ -26140,6 +27266,12 @@ msgstr "तरंग लांबी :"
 #: plugins/extensions/waveletdecompose/wdg_waveletdecompose.ui:14
 #, fuzzy, kde-format
 msgid "Wavelet Decompose"
+msgstr "तरंग लांबी :"
+
+#: plugins/extensions/waveletdecompose/waveletdecompose.cpp:124
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Wavelet decompose"
 msgstr "तरंग लांबी :"
 
 #: plugins/extensions/waveletdecompose/waveletdecompose.cpp:131
@@ -26474,14 +27606,14 @@ msgstr ""
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:84
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:85
 #, fuzzy, kde-format
-msgid "Yellow-Blue:"
-msgstr "यलोज"
+msgid "Green-Red:"
+msgstr "हिरवा :"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:84
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:85
 #, fuzzy, kde-format
-msgid "Green-Red:"
-msgstr "हिरवा :"
+msgid "Yellow-Blue:"
+msgstr "यलोज"
 
 #: plugins/filters/colorsfilters/kis_hsv_adjustment_filter.cpp:94
 #, kde-format
@@ -26708,16 +27840,16 @@ msgstr ""
 
 #: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:32
 #: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
-#, kde-format
-msgid "Sobel"
-msgstr "सोबेल"
-
-#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:32
-#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
 #, fuzzy, kde-format
 #| msgid "Simple mode"
 msgid "Simple"
 msgstr "साधा पद्धत"
+
+#: plugins/filters/convertheightnormalmap/kis_wdg_convert_height_to_normal_map.cpp:32
+#: plugins/filters/edgedetection/kis_wdg_edge_detection.cpp:31
+#, kde-format
+msgid "Sobel"
+msgstr "सोबेल"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/filters/convertheightnormalmap/wdg_convert_height_to_normal_map.ui:51
@@ -26990,6 +28122,12 @@ msgid "&Index Colors..."
 msgstr "पक्का रंग (&S)..."
 
 #: plugins/filters/indexcolors/indexcolors.cpp:82
+#, kde-format
+msgctxt "Color palette shade"
+msgid "Base"
+msgstr ""
+
+#: plugins/filters/indexcolors/indexcolors.cpp:82
 #, fuzzy, kde-format
 msgctxt "Color palette shade"
 msgid "Bright"
@@ -27000,12 +28138,6 @@ msgstr "प्रखरता"
 msgctxt "Color palette shade"
 msgid "Light"
 msgstr "उजवा"
-
-#: plugins/filters/indexcolors/indexcolors.cpp:82
-#, kde-format
-msgctxt "Color palette shade"
-msgid "Base"
-msgstr ""
 
 #: plugins/filters/indexcolors/indexcolors.cpp:82
 #, fuzzy, kde-format
@@ -27544,6 +28676,13 @@ msgstr "उचला :"
 msgid "Vertical Wave"
 msgstr "उभा तरंग"
 
+#: plugins/flake/artistictextshape/AddTextRangeCommand.cpp:33
+#: plugins/flake/artistictextshape/AddTextRangeCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add text range"
+msgstr "पान अंतर्भूत करा"
+
 #: plugins/flake/artistictextshape/ArtisticTextShapeFactory.cpp:32
 #, fuzzy, kde-format
 msgid "ArtisticTextShape"
@@ -27606,6 +28745,48 @@ msgstr "मजकूर"
 msgid "Artistic text editing"
 msgstr "मजकुराचा पर्याय"
 
+#: plugins/flake/artistictextshape/AttachTextToPathCommand.cpp:30
+msgctxt "(qtundo-format)"
+msgid "Attach Path"
+msgstr "मार्ग जोडा"
+
+#: plugins/flake/artistictextshape/ChangeTextAnchorCommand.cpp:28
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change text anchor"
+msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
+
+#: plugins/flake/artistictextshape/ChangeTextFontCommand.cpp:33
+msgctxt "(qtundo-format)"
+msgid "Change font"
+msgstr "फॉन्ट बदला"
+
+#: plugins/flake/artistictextshape/ChangeTextOffsetCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Text Offset"
+msgstr "यादी बदला"
+
+#: plugins/flake/artistictextshape/DetachTextFromPathCommand.cpp:29
+msgctxt "(qtundo-format)"
+msgid "Detach Path"
+msgstr "मार्ग तोडा"
+
+#: plugins/flake/artistictextshape/RemoveTextRangeCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove text range"
+msgstr "स्तर काढून टाका"
+
+#: plugins/flake/artistictextshape/ReplaceTextRangeCommand.cpp:31
+#: plugins/flake/artistictextshape/ReplaceTextRangeCommand.cpp:43
+#: plugins/flake/artistictextshape/ReplaceTextRangeCommand.cpp:55
+#, fuzzy
+#| msgid "Separate Image"
+msgctxt "(qtundo-format)"
+msgid "Replace text range"
+msgstr "वेगळी प्रतिमा"
+
 #: plugins/flake/imageshape/ImageShapeFactory.cpp:38
 #, fuzzy, kde-format
 #| msgid "Images"
@@ -27617,6 +28798,13 @@ msgstr "प्रतिमा"
 #| msgid "A shape that shows a vector image (EMF/WMF/SVM)"
 msgid "A shape that shows an image (PNG/JPG/TIFF)"
 msgstr "व्हेक्टर प्रतिमा (EMF/WMF/SVM) दर्शविणारा आकार"
+
+#: plugins/flake/pathshapes/ellipse/EllipseShapeConfigCommand.cpp:33
+#, fuzzy
+#| msgid "Ellipse"
+msgctxt "(qtundo-format)"
+msgid "Change ellipse"
+msgstr "लंबवर्तुळ"
 
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.cpp:32
 #, fuzzy, kde-format
@@ -27736,6 +28924,13 @@ msgstr ""
 msgid "A gearhead"
 msgstr ""
 
+#: plugins/flake/pathshapes/rectangle/RectangleShapeConfigCommand.cpp:34
+#, fuzzy
+#| msgid "Rectangle"
+msgctxt "(qtundo-format)"
+msgid "Change rectangle"
+msgstr "चौकोन"
+
 #. i18n: ectx: property (windowTitle), widget (QWidget, RectangleShapeConfigWidget)
 #: plugins/flake/pathshapes/rectangle/RectangleShapeConfigWidget.ui:14
 #, fuzzy, kde-format
@@ -27760,6 +28955,14 @@ msgstr "फेदरिंग त्रिज्या"
 #| msgid "Rectangle"
 msgid "A rectangle"
 msgstr "चौकोन"
+
+#: plugins/flake/pathshapes/spiral/SpiralShapeConfigCommand.cpp:32
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change Filter"
+msgctxt "(qtundo-format)"
+msgid "Change spiral"
+msgstr "गाळणी बदला"
 
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:36
 #, fuzzy, kde-format
@@ -27802,6 +29005,14 @@ msgstr "चक्रीय"
 #| msgid "Spray shape"
 msgid "A spiral shape"
 msgstr "फवाऱ्याचा आकार"
+
+#: plugins/flake/pathshapes/star/StarShapeConfigCommand.cpp:34
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change List"
+msgctxt "(qtundo-format)"
+msgid "Change star"
+msgstr "यादी बदला"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, StarShapeConfigWidget)
 #: plugins/flake/pathshapes/star/StarShapeConfigWidget.ui:14
@@ -27886,17 +29097,70 @@ msgstr "षटकोन"
 msgid "A hexagon"
 msgstr "षटकोन"
 
-#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:35
-#, kde-format
-msgctxt "Enable Shrink To Fit"
-msgid "Enable"
-msgstr "कार्यान्वित करा"
+#: plugins/flake/textshape/commands/AcceptChangeCommand.cpp:46
+msgctxt "(qtundo-format)"
+msgid "Accept change"
+msgstr "बदल स्वीकारा"
 
 #: plugins/flake/textshape/commands/AutoResizeCommand.cpp:35
 #, kde-format
 msgctxt "Disable Shrink To Fit"
 msgid "Disable"
 msgstr "अकार्यान्वित करा"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:35
+#, kde-format
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr "कार्यान्वित करा"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:38
+#, fuzzy, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
+msgid "%1 Grow To Fit Width"
+msgstr "रुंदीप्रमाणे समर्पक बसवा"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:41
+#, fuzzy, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
+msgid "%1 Grow To Fit Height"
+msgstr "जाळीची उंची :"
+
+#: plugins/flake/textshape/commands/AutoResizeCommand.cpp:44
+#, fuzzy, kde-format
+msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
+msgid "%1 Shrink To Fit"
+msgstr "घटवा"
+
+#: plugins/flake/textshape/commands/ChangeListLevelCommand.cpp:43
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change List"
+msgctxt "(qtundo-format)"
+msgid "Change List Level"
+msgstr "यादी बदला"
+
+#: plugins/flake/textshape/commands/RejectChangeCommand.cpp:48
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Accept change"
+msgctxt "(qtundo-format)"
+msgid "Reject change"
+msgstr "बदल स्वीकारा"
+
+#: plugins/flake/textshape/commands/ShowChangesCommand.cpp:53
+#, fuzzy
+#| msgid "Save Changes"
+msgctxt "(qtundo-format)"
+msgid "Show Changes"
+msgstr "बदल साठवा"
+
+#: plugins/flake/textshape/commands/ShowChangesCommand.cpp:55
+#, fuzzy
+#| msgid "Save Changes"
+msgctxt "(qtundo-format)"
+msgid "Hide Changes"
+msgstr "बदल साठवा"
 
 #. i18n: ectx: property (text), widget (QPushButton, acceptButton)
 #: plugins/flake/textshape/dialogs/AcceptRejectChangeDialog.ui:44
@@ -28303,6 +29567,12 @@ msgstr "स्वयंचलित"
 #, kde-format
 msgid "Select Font"
 msgstr "फॉन्ट निवडा"
+
+#: plugins/flake/textshape/dialogs/FontDia.cpp:82
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Font"
+msgstr "फॉन्ट"
 
 #: plugins/flake/textshape/dialogs/InsertCharacter.cpp:29
 #, kde-format
@@ -28831,13 +30101,13 @@ msgstr "शैली"
 
 #: plugins/flake/textshape/dialogs/StyleManager.cpp:427
 #, kde-format
-msgid "Warning"
-msgstr "इशारा"
+msgid "Another style named '%1' already exist. Please choose another name."
+msgstr ""
 
 #: plugins/flake/textshape/dialogs/StyleManager.cpp:427
 #, kde-format
-msgid "Another style named '%1' already exist. Please choose another name."
-msgstr ""
+msgid "Warning"
+msgstr "इशारा"
 
 #. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
 #: plugins/flake/textshape/dialogs/StyleManager.ui:46
@@ -29067,11 +30337,157 @@ msgstr "मचकूराची यादी"
 msgid "Contents"
 msgstr "मजकूर"
 
+#: plugins/flake/textshape/kotext/commands/ChangeListCommand.cpp:41
+#: plugins/flake/textshape/kotext/commands/ChangeListCommand.cpp:88
+#: plugins/flake/textshape/kotext/commands/ChangeListCommand.cpp:101
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "यादी बदला"
+
+#: plugins/flake/textshape/kotext/commands/ChangeStylesMacroCommand.cpp:37
+msgctxt "(qtundo-format)"
+msgid "Change Styles"
+msgstr "शैली बदला"
+
+#: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:76
+#: plugins/flake/textshape/kotext/commands/DeleteCommand.cpp:68
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "काढून टाका"
+
 #: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:192
 #: plugins/flake/textshape/TextTool.cpp:2634
 #, fuzzy, kde-format
 msgid "Key Press"
 msgstr "फटकारा हलवा"
+
+#: plugins/flake/textshape/kotext/commands/ChangeTrackedDeleteCommand.cpp:331
+#: plugins/flake/textshape/kotext/commands/DeleteCommand.cpp:517
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:87
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:166
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:201
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:218
+#: plugins/flake/textshape/kotext/KoTextEditor_undo.cpp:260
+msgctxt "(qtundo-format)"
+msgid "Text"
+msgstr " मजकूर"
+
+#: plugins/flake/textshape/kotext/commands/DeleteTableColumnCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr "ओळ काढून टाका"
+
+#: plugins/flake/textshape/kotext/commands/DeleteTableRowCommand.cpp:38
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr "ओळ काढून टाका"
+
+#: plugins/flake/textshape/kotext/commands/InsertNoteCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Footnote"
+msgstr "अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/InsertNoteCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Endnote"
+msgstr "अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableColumnCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr "लिंक अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableColumnCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr "लिंक अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableRowCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr "अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/InsertTableRowCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
+msgstr "अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/ListItemNumberingCommand.cpp:35
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Change List"
+msgctxt "(qtundo-format)"
+msgid "Change List Numbering"
+msgstr "यादी बदला"
+
+#: plugins/flake/textshape/kotext/commands/NewSectionCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "New Section"
+msgstr "समूह विभाग"
+
+#: plugins/flake/textshape/kotext/commands/ParagraphFormattingCommand.cpp:56
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:510
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:531
+msgctxt "(qtundo-format)"
+msgid "Formatting"
+msgstr "फॉर्मेटिंग"
+
+#: plugins/flake/textshape/kotext/commands/ParagraphFormattingCommand.cpp:93
+#, fuzzy
+#| msgid "Paragraph"
+msgctxt "(qtundo-format)"
+msgid "Direct Paragraph Formatting"
+msgstr "परिच्छेद"
+
+#: plugins/flake/textshape/kotext/commands/RenameSectionCommand.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Section"
+msgstr "पानाचे नाव बदला"
+
+#: plugins/flake/textshape/kotext/commands/ResizeTableCommand.cpp:45
+#: plugins/flake/textshape/TextTool.cpp:1392
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr "लिंक अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/ResizeTableCommand.cpp:47
+#: plugins/flake/textshape/TextTool.cpp:1434
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr "लिंक अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/commands/SplitSectionsCommand.cpp:39
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split sections startings"
+msgstr "संयोजीत करा"
+
+#: plugins/flake/textshape/kotext/commands/SplitSectionsCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split sections endings"
+msgstr "संयोजीत करा"
+
+#: plugins/flake/textshape/kotext/commands/TextPasteCommand.cpp:68
+msgctxt "(qtundo-format)"
+msgid "Paste As Text"
+msgstr "मजकूर म्हणून चिटकवा"
+
+#: plugins/flake/textshape/kotext/commands/TextPasteCommand.cpp:70
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr "चिटकवा"
 
 #: plugins/flake/textshape/kotext/InsertTextLocator.cpp:27
 #, fuzzy, kde-format
@@ -29119,6 +30535,212 @@ msgstr "एकमेव"
 msgctxt "Underline Style"
 msgid "Double"
 msgstr "दुप्पट"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:193
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1440
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1442
+msgctxt "(qtundo-format)"
+msgid "New Paragraph"
+msgstr "नवीन परिच्छेद"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:364
+msgctxt "(qtundo-format)"
+msgid "Add Bookmark"
+msgstr "ओळखचिन्ह जोडा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:383
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Annotation"
+msgstr "बेरीज"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:407
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Index"
+msgstr "अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:433
+msgctxt "(qtundo-format)"
+msgid "Insert Variable"
+msgstr "परिवर्तनीय अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:500
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Break"
+msgstr "अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:821
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:823
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:838
+msgctxt "(qtundo-format)"
+msgid "Insert Table"
+msgstr "कोष्टक अंतर्भूत करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:978
+#, fuzzy
+#| msgid "Merge"
+msgctxt "(qtundo-format)"
+msgid "Merge Cells"
+msgstr "विलीन करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:995
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Cells"
+msgstr "संयोजीत करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1024
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "(qtundo-format)"
+msgid "Adjust Table Width"
+msgstr "पानाच्या रूंदी प्रमाणे समर्पक बसवा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1041
+#: plugins/flake/textshape/TextTool.cpp:908
+#, fuzzy
+#| msgid "Change font format"
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr "फॉन्ट स्वरूप बदला"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1088
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1090
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1108
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Table Of Contents"
+msgstr "मचकूराची यादी"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1147
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify Table Of Contents"
+msgstr "मचकूराची यादी"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1164
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1166
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1185
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Bibliography"
+msgstr "ग्रंथ सूची"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1222
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1224
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Citation"
+msgstr "अधिक"
+
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1251
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1253
+#: plugins/flake/textshape/kotext/KoTextEditor.cpp:1291
+msgctxt "(qtundo-format)"
+msgid "Typing"
+msgstr "टायपिंग"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:67
+msgctxt "(qtundo-format)"
+msgid "Bold"
+msgstr "ठळक"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:80
+msgctxt "(qtundo-format)"
+msgid "Italic"
+msgstr "तिरपे"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:93
+msgctxt "(qtundo-format)"
+msgid "Underline"
+msgstr "अधोरेखित"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:112
+msgctxt "(qtundo-format)"
+msgid "Strike Out"
+msgstr "खोडा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:145
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Alignment"
+msgstr "प्रतिशत"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:163
+#, fuzzy
+#| msgid "Vertical Lines"
+msgctxt "(qtundo-format)"
+msgid "Set Vertical Alignment"
+msgstr "उभ्या रेषा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:197
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:198
+msgctxt "(qtundo-format)"
+msgid "Decrease Indent"
+msgstr "समास कमी करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:233
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:234
+msgctxt "(qtundo-format)"
+msgid "Increase Indent"
+msgstr "समास वाढवा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:269
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:271
+msgctxt "(qtundo-format)"
+msgid "Decrease font size"
+msgstr "फॉन्ट आकार कमी करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:282
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:284
+msgctxt "(qtundo-format)"
+msgid "Increase font size"
+msgstr "फॉन्ट आकार वाढवा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:295
+msgctxt "(qtundo-format)"
+msgid "Set Font"
+msgstr "फॉन्ट निश्चित करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:308
+msgctxt "(qtundo-format)"
+msgid "Set Font Size"
+msgstr "फॉन्ट आकार निश्चित करा"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:321
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Background Color"
+msgstr "पार्श्वभूमीचा रंग"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:334
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Text Color"
+msgstr "मजकूर रंग"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:362
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:401
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Character Style"
+msgstr "विशिष्ठ अक्षरे"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_format.cpp:468
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Paragraph Style"
+msgstr "परिच्छेद"
+
+#: plugins/flake/textshape/kotext/KoTextEditor_p.h:158
+#: plugins/flake/textshape/kotext/KoTextEditor_p.h:194
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Format"
+msgstr "स्वरूप"
 
 #: plugins/flake/textshape/textlayout/ListItemsHelper.cpp:223
 #, kde-format
@@ -31808,6 +33430,21 @@ msgstr "स्मीयरिंग"
 msgid "Dulling"
 msgstr "डलिंग"
 
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
+#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:49
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:39
+#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
+#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:52
+#, kde-format
+msgid "Opaque"
+msgstr "अपारदर्शक"
+
 #. i18n: ectx: property (text), widget (QPushButton, btnTransparent)
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
@@ -31824,21 +33461,6 @@ msgstr "डलिंग"
 #, kde-format
 msgid "Transparent"
 msgstr "पारदर्शक"
-
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:51
-#: plugins/paintops/curvebrush/kis_curve_paintop_settings_widget.cpp:35
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:48
-#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:43
-#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:49
-#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:39
-#: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:59
-#: plugins/paintops/libpaintop/kis_pressure_flow_opacity_option_widget.cpp:38
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:47
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:45
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:52
-#, kde-format
-msgid "Opaque"
-msgstr "अपारदर्शक"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:52
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:65
@@ -31901,25 +33523,6 @@ msgstr "स्मज त्रिज्या"
 msgid "Color Rate"
 msgstr "रंगाचा दर"
 
-#. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
-#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
-#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
-#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:144
-#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
-#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:45
-#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
-#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:41
-#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
-#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
-#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:52
-#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
-#: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:249
-#: plugins/tools/tool_transform2/wdg_tool_transform.ui:669
-#, kde-format
-msgid "Rotation"
-msgstr "फिरविणे"
-
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:143
@@ -31950,6 +33553,25 @@ msgstr ""
 msgid "180°"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, optionRotation)
+#. i18n: ectx: property (title), widget (QGroupBox, rotationGroup)
+#: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:62
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:70
+#: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:144
+#: plugins/paintops/defaultpaintops/duplicate/kis_duplicateop_settings_widget.cpp:50
+#: plugins/paintops/deform/kis_deform_paintop_settings_widget.cpp:45
+#: plugins/paintops/filterop/kis_filterop_settings_widget.cpp:51
+#: plugins/paintops/hairy/kis_hairy_paintop_settings_widget.cpp:41
+#: plugins/paintops/libpaintop/kis_dynamic_sensor.h:47
+#: plugins/paintops/sketch/kis_sketch_paintop_settings_widget.cpp:49
+#: plugins/paintops/spray/kis_spray_paintop_settings_widget.cpp:52
+#: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:64
+#: plugins/paintops/tangentnormal/wdgtangenttiltoption.ui:249
+#: plugins/tools/tool_transform2/wdg_tool_transform.ui:669
+#, kde-format
+msgid "Rotation"
+msgstr "फिरविणे"
+
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:63
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:149
@@ -31969,8 +33591,8 @@ msgstr "ओव्हरले पद्धत"
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:66
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:70
 #, kde-format
-msgid "Weak"
-msgstr "दुर्बल"
+msgid "Strength"
+msgstr "सामर्थ्य"
 
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:71
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:88
@@ -31987,8 +33609,8 @@ msgstr "मजबूत"
 #: plugins/paintops/hatching/kis_hatching_paintop_settings_widget.cpp:66
 #: plugins/paintops/tangentnormal/kis_tangent_normal_paintop_settings_widget.cpp:70
 #, kde-format
-msgid "Strength"
-msgstr "सामर्थ्य"
+msgid "Weak"
+msgstr "दुर्बल"
 
 #: plugins/paintops/colorsmudge/kis_overlay_mode_option.h:51
 #, fuzzy, kde-format
@@ -33825,13 +35447,13 @@ msgstr "अधिक मूल्य"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:32
 #, kde-format
-msgid "Not mirrored"
-msgstr "प्रतिबिंब नाही"
+msgid "Mirrored"
+msgstr "प्रतिबिंबित"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:32
 #, kde-format
-msgid "Mirrored"
-msgstr "प्रतिबिंबित"
+msgid "Not mirrored"
+msgstr "प्रतिबिंब नाही"
 
 #: plugins/paintops/libpaintop/kis_pressure_mirror_option_widget.cpp:37
 #, kde-format
@@ -33901,13 +35523,13 @@ msgstr "कुंचल्याचा रंग  गडद करा"
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:54
 #, kde-format
-msgid "Cut Off Disabled"
-msgstr "कट ऑफ अकार्यान्वित"
+msgid "Cut Off Brush"
+msgstr "कट ऑफ कुंचला"
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:54
 #, kde-format
-msgid "Cut Off Brush"
-msgstr "कट ऑफ कुंचला"
+msgid "Cut Off Disabled"
+msgstr "कट ऑफ अकार्यान्वित"
 
 #: plugins/paintops/libpaintop/kis_texture_chooser.cpp:54
 #, kde-format
@@ -36747,6 +38369,12 @@ msgstr "वर्तमान फ्लिपबूक साठवा"
 msgid "Python files (*.py)"
 msgstr "लहान फरशा"
 
+#: plugins/tools/basictools/kis_tool_brush.cc:68
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Freehand Brush Stroke"
+msgstr "मुक्तहस्त फटकारा"
+
 #: plugins/tools/basictools/kis_tool_brush.cc:75
 #, fuzzy, kde-format
 msgctxt "@action"
@@ -36895,6 +38523,12 @@ msgstr "पटल फाईल %1. मध्ये लिहिता येत 
 msgid "Color Selector Tool"
 msgstr "रंगाची निवड"
 
+#: plugins/tools/basictools/kis_tool_ellipse.cc:64
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Ellipse"
+msgstr "लंबवर्तुळ काढा"
+
 #: plugins/tools/basictools/kis_tool_ellipse.h:58
 #, fuzzy, kde-format
 msgid "Ellipse Tool"
@@ -36904,6 +38538,12 @@ msgstr "लंबवर्तुळ"
 #, kde-format
 msgid "You cannot use this tool with the selected layer type"
 msgstr ""
+
+#: plugins/tools/basictools/kis_tool_fill.cc:132
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Flood Fill"
+msgstr "फ्लड फिल"
 
 #: plugins/tools/basictools/kis_tool_fill.cc:162
 #, fuzzy, kde-format
@@ -36970,6 +38610,12 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Fill Tool"
 msgstr "लंबवर्तुळ"
+
+#: plugins/tools/basictools/kis_tool_gradient.cc:164
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Gradient"
+msgstr "ग्रेडियंट"
 
 #: plugins/tools/basictools/kis_tool_gradient.cc:174
 #, fuzzy, kde-format
@@ -37055,6 +38701,12 @@ msgstr "मागे"
 msgid "Gradient Tool"
 msgstr "ग्रेडियंट"
 
+#: plugins/tools/basictools/kis_tool_line.cc:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Line"
+msgstr "तुटक रेषा"
+
 #: plugins/tools/basictools/kis_tool_line.cc:98
 #, fuzzy, kde-format
 msgid "Use sensors"
@@ -37105,6 +38757,12 @@ msgstr ""
 msgid "Move Tool"
 msgstr "पेंटरची साधने (&P)"
 
+#: plugins/tools/basictools/kis_tool_multihand.cpp:63
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Multibrush Stroke"
+msgstr "A - 2 वेगवान कुंचला"
+
 #: plugins/tools/basictools/kis_tool_multihand.cpp:273
 #, kde-format
 msgid "Symmetry"
@@ -37130,15 +38788,33 @@ msgstr "A - 2 वेगवान कुंचला"
 msgid "Pan Tool"
 msgstr "मुक्तहस्त मार्ग"
 
+#: plugins/tools/basictools/kis_tool_path.cc:113
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Bezier Curve"
+msgstr "कुंचल्याची निवड"
+
 #: plugins/tools/basictools/kis_tool_path.h:87
 #, fuzzy, kde-format
 msgid "Bezier Curve Tool: Shift-mouseclick ends the curve."
 msgstr "पॉलीलाईन काढा. Shift-mouseclick ने पॉलीलाईन थांबेल ."
 
+#: plugins/tools/basictools/kis_tool_pencil.cc:86
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Freehand Path"
+msgstr "मुक्तहस्त मार्ग काढा."
+
 #: plugins/tools/basictools/kis_tool_pencil.h:79
 #, fuzzy, kde-format
 msgid "Freehand Path Tool"
 msgstr "मुक्तहस्त मार्ग"
+
+#: plugins/tools/basictools/kis_tool_rectangle.cc:65
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Rectangle"
+msgstr "चौकोन काढा"
 
 #: plugins/tools/basictools/kis_tool_rectangle.h:60
 #, fuzzy, kde-format
@@ -37151,6 +38827,12 @@ msgstr "चौकोन"
 msgctxt "action"
 msgid "Pencil Tool"
 msgstr "लंबवर्तुळ"
+
+#: plugins/tools/basictools/strokes/move_selection_stroke_strategy.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move Selection"
+msgstr "निवड नाही"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, ColorPickerOptionsWidget)
 #: plugins/tools/basictools/wdgcolorpicker.ui:14
@@ -37528,6 +39210,73 @@ msgstr "निवडीच्या आकाराप्रमाणे कॅ�
 msgid "This tool only works on vector layers. You probably want the move tool."
 msgstr ""
 
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1129
+#, fuzzy
+#| msgctxt "rotate image 90 degrees to the left"
+#| msgid "Rotate Image 90° to the Left"
+msgctxt "(qtundo-format)"
+msgid "Rotate Object 90° CW"
+msgstr "प्रतिमा ९० अंशातून डावीकडे फिरवा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1133
+#, fuzzy
+#| msgctxt "rotate image 90 degrees to the left"
+#| msgid "Rotate Image 90° to the Left"
+msgctxt "(qtundo-format)"
+msgid "Rotate Object 90° CCW"
+msgstr "प्रतिमा ९० अंशातून डावीकडे फिरवा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1137
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rotate Object 180°"
+msgstr "स्तर १८० अंशातून फिरवा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1141
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Object Horizontally"
+msgstr "प्रतिमा आडवेरित्या प्रतिबिंबित करा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1145
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Mirror Object Vertically"
+msgstr "प्रतिमा उभेरित्या प्रतिबिंबित करा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1149
+#, fuzzy
+#| msgid "Reset Canvas Transformations"
+msgctxt "(qtundo-format)"
+msgid "Reset Object Transformations"
+msgstr "कॅनव्हासमधील बदल पुन्हा निश्चित करा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1215
+#, fuzzy
+#| msgid "Add Shape"
+msgctxt "(qtundo-format)"
+msgid "Unite Shapes"
+msgstr "आकार जोडा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1229
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Intersect Shapes"
+msgstr "घनता"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1239
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Subtract Shapes"
+msgstr "फटकाऱ्याचे आकार"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1282
+#, fuzzy
+#| msgid "Spray shape"
+msgctxt "(qtundo-format)"
+msgid "Split Shapes"
+msgstr "फवाऱ्याचा आकार"
+
 #: plugins/tools/defaulttool/defaulttool/DefaultTool.cpp:1680
 #, fuzzy, kde-format
 #| msgid "Operation"
@@ -37591,6 +39340,37 @@ msgstr "रंगाचा इतिहास"
 msgid "Geometry"
 msgstr "भूमिती"
 
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:111
+#: plugins/tools/defaulttool/defaulttool/ShapeRotateStrategy.cpp:122
+msgctxt "(qtundo-format)"
+msgid "Rotate"
+msgstr "फिरवा"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:146
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear X"
+msgstr "शीयर :"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:181
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear Y"
+msgstr "शीयर :"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:221
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:255
+msgctxt "(qtundo-format)"
+msgid "Scale"
+msgstr "प्रमाण"
+
+#: plugins/tools/defaulttool/defaulttool/DefaultToolTransformWidget.cpp:284
+#, fuzzy
+#| msgid "Reset Canvas Transformations"
+msgctxt "(qtundo-format)"
+msgid "Reset Transformations"
+msgstr "कॅनव्हासमधील बदल पुन्हा निश्चित करा"
+
 #: plugins/tools/defaulttool/defaulttool/ShapeMoveStrategy.cpp:62
 #, kde-format
 msgid "Press Shift to hold x- or y-position."
@@ -37605,6 +39385,12 @@ msgstr ""
 #, kde-format
 msgid "Press ALT to rotate in 45 degree steps."
 msgstr ""
+
+#: plugins/tools/defaulttool/defaulttool/ShapeShearStrategy.cpp:174
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear"
+msgstr "शीयर :"
 
 #: plugins/tools/defaulttool/referenceimagestool/KisReferenceImageCollection.cpp:106
 #, kde-format
@@ -38117,6 +39903,11 @@ msgstr "केलिग्राफि : कोन कमी करा"
 msgid "Calligraphy"
 msgstr "केलिग्राफि"
 
+#: plugins/tools/karbonplugins/tools/filterEffectTool/FilterAddCommand.cpp:34
+msgctxt "(qtundo-format)"
+msgid "Add filter effect"
+msgstr "गाळणी परिणाम जोडा"
+
 #: plugins/tools/karbonplugins/tools/filterEffectTool/FilterEffectEditWidget.cpp:75
 #, kde-format
 msgid "Add effect to current filter stack"
@@ -38167,6 +39958,16 @@ msgstr "गाळणी पूर्वयोजना"
 #, kde-format
 msgid "Effect Properties"
 msgstr "परिणाम गुणधर्म"
+
+#: plugins/tools/karbonplugins/tools/filterEffectTool/FilterRemoveCommand.cpp:36
+msgctxt "(qtundo-format)"
+msgid "Remove filter effect"
+msgstr "गाळणी परिणाम काढून टाका"
+
+#: plugins/tools/karbonplugins/tools/filterEffectTool/FilterStackSetCommand.cpp:40
+msgctxt "(qtundo-format)"
+msgid "Set filter stack"
+msgstr "गाळणी चवड निश्चित करा"
 
 #: plugins/tools/karbonplugins/tools/filterEffectTool/KarbonFilterEffectsTool.cpp:473
 #, kde-format
@@ -38300,6 +40101,12 @@ msgstr "नमूना संपादन साधन"
 msgid "Contiguous Area Selection"
 msgstr "सलग भाग निवड"
 
+#: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:132
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Contiguous Area"
+msgstr "रंगांचा सलग भाग निवडा"
+
 #: plugins/tools/selectiontools/kis_tool_select_contiguous.cc:176
 #: plugins/tools/selectiontools/kis_tool_select_similar.cc:156
 #, kde-format
@@ -38321,6 +40128,12 @@ msgstr "वर्तमान स्तरापुरतेच मर्या�
 msgid "Contiguous Selection Tool"
 msgstr "सलग भाग निवड"
 
+#: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:57
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Ellipse"
+msgstr "सर्व निवडा"
+
 #: plugins/tools/selectiontools/kis_tool_select_elliptical.cc:94
 #, kde-format
 msgid "Elliptical Selection"
@@ -38336,6 +40149,12 @@ msgstr "लंबवर्तुळीय निवड"
 msgid "Outline Selection"
 msgstr "निवडीची रूपरेषा"
 
+#: plugins/tools/selectiontools/kis_tool_select_outline.cc:166
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select by Outline"
+msgstr "रूपरेषेनुसार भाग निवडा"
+
 #: plugins/tools/selectiontools/kis_tool_select_outline.h:77
 #, fuzzy, kde-format
 msgid "Outline Selection Tool"
@@ -38346,10 +40165,22 @@ msgstr "निवडीची रूपरेषा"
 msgid "Select path"
 msgstr "अपारदर्शक निवडा"
 
+#: plugins/tools/selectiontools/kis_tool_select_path.cc:148
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select by Bezier Curve"
+msgstr "कुंचल्याने निवडा"
+
 #: plugins/tools/selectiontools/kis_tool_select_path.h:92
 #, fuzzy, kde-format
 msgid "Bezier Curve Selection Tool"
 msgstr "कुंचल्याची निवड"
+
+#: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:55
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Polygon"
+msgstr "निवड (&S)"
 
 #: plugins/tools/selectiontools/kis_tool_select_polygonal.cc:97
 #, kde-format
@@ -38360,6 +40191,12 @@ msgstr "बहुभुजाकृती निवड"
 #, fuzzy, kde-format
 msgid "Polygonal Selection Tool"
 msgstr "बहुभुजाकृती निवड"
+
+#: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Rectangle"
+msgstr "चौकोनी भाग निवडा"
 
 #: plugins/tools/selectiontools/kis_tool_select_rectangular.cc:113
 #, kde-format
@@ -38375,6 +40212,12 @@ msgstr "चौकोनी निवड"
 #, fuzzy, kde-format
 msgid "Similar Color Selection"
 msgstr "समान निवड"
+
+#: plugins/tools/selectiontools/kis_tool_select_similar.cc:135
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Select Similar Color"
+msgstr "समान रंग निवडा"
 
 #: plugins/tools/selectiontools/kis_tool_select_similar.h:61
 #, fuzzy, kde-format
@@ -38400,6 +40243,12 @@ msgstr "समान निवड"
 #| msgid "Font Size"
 msgid "Font Style"
 msgstr "फॉन्ट आकार"
+
+#: plugins/tools/svgtexttool/SvgTextChangeCommand.cpp:37
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change SvgTextTool"
+msgstr "यादी बदला"
 
 #: plugins/tools/svgtexttool/SvgTextEditor.cpp:100
 #, fuzzy, kde-format
@@ -38993,6 +40842,12 @@ msgstr ""
 msgid "Decoration:"
 msgstr "कालावधी :"
 
+#: plugins/tools/tool_dyna/kis_tool_dyna.cpp:49
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Dynamic Brush Stroke"
+msgstr "A - 2 वेगवान कुंचला"
+
 #: plugins/tools/tool_dyna/kis_tool_dyna.cpp:303
 #, kde-format
 msgid "Fixed angle:"
@@ -39012,6 +40867,13 @@ msgstr "रुंदीचा पल्ला :"
 #, fuzzy, kde-format
 msgid "Dynamic Brush Tool"
 msgstr "A - 2 वेगवान कुंचला"
+
+#: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.cpp:60
+#, fuzzy
+#| msgid "&Colorize"
+msgctxt "(qtundo-format)"
+msgid "Colorize Mask Key Stroke"
+msgstr "रंगीन (&C)"
 
 #: plugins/tools/tool_lazybrush/kis_tool_lazy_brush.h:96
 #, fuzzy, kde-format
@@ -39092,6 +40954,12 @@ msgstr "वर्तमान स्तरापुरतेच मर्या�
 msgid "Key Strokes"
 msgstr "फटकारा हलवा"
 
+#: plugins/tools/tool_polygon/kis_tool_polygon.cc:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Draw Polygon"
+msgstr "बहुभुजाकृती"
+
 #: plugins/tools/tool_polygon/kis_tool_polygon.h:53
 #, fuzzy, kde-format
 msgid "Polygon Tool: Shift-mouseclick ends the polygon."
@@ -39106,6 +40974,12 @@ msgstr "पॉलीलाईन काढा. Shift-mouseclick ने पॉल
 #, fuzzy, kde-format
 msgid "Select a paint layer to use this tool"
 msgstr "चौकोनी भाग निवडा"
+
+#: plugins/tools/tool_smart_patch/kis_tool_smart_patch.cpp:175
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Smart Patch"
+msgstr "पासून शोध सुरू करा"
 
 #: plugins/tools/tool_smart_patch/kis_tool_smart_patch.h:91
 #, fuzzy, kde-format
@@ -39373,6 +41247,11 @@ msgstr "कुलूप काढून टाकण्याचा बिंद
 msgid "Create 3 points on the canvas to begin"
 msgstr ""
 
+#: plugins/tools/tool_transform2/strokes/transform_stroke_strategy.cpp:49
+msgctxt "(qtundo-format)"
+msgid "Transform"
+msgstr "रूपांतरित करा"
+
 #. i18n: ectx: property (text), widget (QToolButton, freeTransformButton)
 #. i18n: ectx: property (text), widget (QLabel, lblTransformType)
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:102
@@ -39619,1273 +41498,6 @@ msgstr "डेकोरेशन्स दर्शवा"
 #, kde-format
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Create shape"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Create shape"
-#~ msgid_plural "Create shapes"
-#~ msgstr[0] "आकार तयार करा"
-#~ msgstr[1] "आकार तयार करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Group shapes"
-#~ msgstr "आकारांचा समूह करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Keep Aspect Ratio"
-#~ msgstr "स्वरूपाचे गुणोत्तर ठेवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename Shape"
-#~ msgstr "पानाचे नाव बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize"
-#~ msgstr "आकार बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Ungroup shapes"
-#~ msgstr "आकारांचा समूह काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Filter"
-#~ msgstr "गाळणी बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Deselect"
-#~ msgstr "निवड काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Layer"
-#~ msgstr "स्तर वाढवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Layer"
-#~ msgstr "स्तर हलवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Layer"
-#~ msgstr "स्तर काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Image Type"
-#~ msgstr "प्रतिमेचा प्रकार बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Composition Mode Change"
-#~ msgstr "एकत्रित पध्दत"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Opacity Change"
-#~ msgstr "अपारदर्शकता : "
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Property Changes"
-#~ msgstr "गुणधर्म बदल"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reselect"
-#~ msgstr "पुन्हा निवडा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Resize Image"
-#~ msgstr "प्रतिमेचा आकार बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Image Resolution"
-#~ msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move"
-#~ msgstr "हलवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Layer Style"
-#~ msgstr "वर्तमान स्तर बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Switch current time"
-#~ msgstr "वर्तमान परिमाणे साठवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Image"
-#~ msgstr "प्रतिमा कापा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Layer"
-#~ msgstr "समूह स्तर (&G)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Mask"
-#~ msgstr "मुखवटा सौम्य बनवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale Image"
-#~ msgstr "शीयर प्रतिमा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Image Resolution"
-#~ msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale Layer"
-#~ msgstr "स्तर चढवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Image"
-#~ msgstr "प्रतिमा फिरवा"
-
-#, fuzzy
-#~| msgid "Rotate Canvas"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Mask"
-#~ msgstr "कॅनव्हास फिरवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Layer"
-#~ msgstr "स्तर फिरवा"
-
-#, fuzzy
-#~| msgid "Unsharp Mask"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Mask"
-#~ msgstr "मुखवटा सौम्य बनवा"
-
-#, fuzzy
-#~| msgid "Shear Layer"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Layer"
-#~ msgstr "स्तर विभागा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Image"
-#~ msgstr "शीयर प्रतिमा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Image Color Space"
-#~ msgstr "प्रतिमेच्या रंगाची जागा बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Projection Color Space"
-#~ msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Crop Selections"
-#~ msgstr "निवड वाढवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Down"
-#~ msgstr "बिंदू काढून टाका"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change projection color"
-#~ msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Selected Nodes"
-#~ msgstr "निवडलेला रंग काढा"
-
-#, fuzzy
-#~| msgid "No profile"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New From Visible"
-#~ msgstr "रूपरेषा नाही"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Selection Masks"
-#~ msgstr "निवड "
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flatten Layer"
-#~ msgstr "स्तर सपाट करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flatten Image"
-#~ msgstr "प्रतिमा सपाट करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Render Animation"
-#~ msgstr "कल"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Erode Selection"
-#~ msgstr "निवड पुसा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Dilate Selection"
-#~ msgstr "निवड विरळ करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Border Selection"
-#~ msgstr "सीमा निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Feather Selection"
-#~ msgstr "फेदर निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Grow Selection"
-#~ msgstr "निवड वाढवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shrink Selection"
-#~ msgstr "निवड कमी करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Smooth Selection"
-#~ msgstr "सुलभ निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Invert Selection"
-#~ msgstr "उलटी निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Switch Frames"
-#~ msgstr "वर्तमान परिमाणे साठवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Instant Preview"
-#~ msgstr "दूरचे दृश्य"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Key Stroke Color"
-#~ msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Key Stroke"
-#~ msgstr "नाव घाला"
-
-#, fuzzy
-#~| msgid "&Colorize"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Colorize"
-#~ msgstr "रंगीन (&C)"
-
-#, fuzzy
-#~| msgid "&Colorize"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Prefilter Colorize Mask"
-#~ msgstr "रंगीन (&C)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Transform Layer"
-#~ msgstr "नोड बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select All"
-#~ msgstr "सर्व निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flood Fill Layer"
-#~ msgstr "फ्लड फिल"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cut"
-#~ msgstr "कापा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy"
-#~ msgstr "प्रत बनवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy Merged"
-#~ msgstr "प्रत मिसळा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to Vector Selection"
-#~ msgstr "व्हेक्टर निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert shapes to vector selection"
-#~ msgstr "व्हेक्टर निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Polyline"
-#~ msgstr "पॉलीलाईन"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Paste Shapes"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste shapes"
-#~ msgstr "आकार चिकटवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Edit Guides"
-#~ msgstr "मार्गदर्शक तत्व संपादित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Layer Properties"
-#~ msgstr "नवीन स्तराचे गुणधर्म"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clear Vector Selection"
-#~ msgstr "व्हेक्टर निवड"
-
-#, fuzzy
-#~| msgid "Reference image:"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add reference image"
-#~ msgstr "संदर्भ प्रतिमा :"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Import animation"
-#~ msgstr "रचना निर्यात करा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change Filter"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change File Layer"
-#~ msgstr "गाळणी बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to a Paint Layer"
-#~ msgstr "पासून वर्तमान स्तर बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to an animated layer"
-#~ msgstr "पासून वर्तमान स्तर बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to a file layer"
-#~ msgstr "पासून वर्तमान स्तर बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rasterize Layer"
-#~ msgstr "स्तर रास्टराईझ करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Selection Mask"
-#~ msgstr "निवड "
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Transparency Mask"
-#~ msgstr "पारदर्शी मुखवटा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Filter Mask"
-#~ msgstr "नवीन गाळणी मुखवटा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Colorize Mask"
-#~ msgstr "नवीन गाळणी मुखवटा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Transform Mask"
-#~ msgstr "पारदर्शी मुखवटा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Nodes"
-#~ msgstr "पेंटरची साधने (&P)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy Nodes"
-#~ msgstr "पासून प्रत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Nodes"
-#~ msgstr "संसाधने (&R)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert to a Selection Mask"
-#~ msgstr "उलटी निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Duplicate Nodes"
-#~ msgstr "प्रतिकृती"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Raise Nodes"
-#~ msgstr "पेंटरची साधने (&P)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Lower Nodes"
-#~ msgstr "पेंटरची साधने (&P)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Nodes"
-#~ msgstr "पेंटरची साधने (&P)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Layer X"
-#~ msgstr "X स्तर प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Mask X"
-#~ msgstr "X मुखवटा प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Layer Y"
-#~ msgstr "Y स्तर प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Mask Y"
-#~ msgstr "Y मुखवटा प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror All Layers X"
-#~ msgstr "X स्तर प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror All Layers Y"
-#~ msgstr "Y स्तर प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Write Alpha into a Layer"
-#~ msgstr "रंगाचा स्तर (&P)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cut Nodes"
-#~ msgstr "प्रतिकृती"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Stroke Shapes"
-#~ msgstr "फटकाऱ्याचे आकार"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque (Add)"
-#~ msgstr "अपारदर्शक निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque (Subtract)"
-#~ msgstr "अपारदर्शक निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque (Intersect)"
-#~ msgstr "अपारदर्शक निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Opaque"
-#~ msgstr "अपारदर्शक निवडा"
-
-#, fuzzy
-#~| msgid "Open in New Documents"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clone Document"
-#~ msgstr "नवीन दस्तऐवजात उघडा"
-
-#, fuzzy
-#~| msgid "Saturation"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set saturation"
-#~ msgstr "गडदपणा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Clear"
-#~ msgstr "पुसून टाका"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Filter \"%1\""
-#~ msgstr "गाळणी :"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add transform keyframe"
-#~ msgstr "पारदर्शी मुखवटा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust keyframe"
-#~ msgstr "नाव घाला"
-
-#, fuzzy
-#~| msgid "Insert name"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert keyframe"
-#~ msgstr "नाव अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust tangent"
-#~ msgstr "एचएसव्ही सुस्थित करणे (&H)..."
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set interpolation mode"
-#~ msgstr "द्विरेषीय प्रतिस्थापन"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Keyframe"
-#~ msgid_plural "Adjust %1 Keyframes"
-#~ msgstr[0] "नाव घाला"
-#~ msgstr[1] "नाव घाला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Copy Keyframe"
-#~ msgid_plural "Copy %1 Keyframes"
-#~ msgstr[0] "नाव घाला"
-#~ msgstr[1] "नाव घाला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Keyframe"
-#~ msgstr "नाव घाला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove Keyframe"
-#~ msgid_plural "Remove Keyframes"
-#~ msgstr[0] "नाव घाला"
-#~ msgstr[1] "नाव घाला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Keyframe"
-#~ msgid_plural "Move %1 Keyframes"
-#~ msgstr[0] "नाव घाला"
-#~ msgstr[1] "नाव घाला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove frame and shift"
-#~ msgid_plural "Remove %1 frames and shift"
-#~ msgstr[0] "स्तर काढून टाका"
-#~ msgstr[1] "स्तर काढून टाका"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Frames"
-#~ msgstr "पासून प्रत करा"
-
-#, fuzzy
-#~| msgid "Insert name"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert frame"
-#~ msgid_plural "Insert %1 frames"
-#~ msgstr[0] "नाव अंतर्भूत करा"
-#~ msgstr[1] "नाव अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Quick Selection Mask"
-#~ msgstr "निवड नाही"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Cancel Quick Selection Mask"
-#~ msgstr "निवड नाही"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Color Range Selection"
-#~ msgstr "रंग सीमा निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Convert Layer Type"
-#~ msgstr "वर्तमान स्तर बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split Layer"
-#~ msgstr "स्तर चढवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Offset Image"
-#~ msgstr "ऑफसेट प्रतिमा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Offset Layer"
-#~ msgstr "ऑफसेट स्तर"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Gmic filter"
-#~ msgstr "दिशा गाळणी"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Image Vertically"
-#~ msgstr "प्रतिमा उभेरित्या प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Image Horizontally"
-#~ msgstr "प्रतिमा आडवेरित्या प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Separate Image"
-#~ msgstr "वेगळी प्रतिमा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Wavelet decompose"
-#~ msgstr "तरंग लांबी :"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add text range"
-#~ msgstr "पान अंतर्भूत करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Attach Path"
-#~ msgstr "मार्ग जोडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change text anchor"
-#~ msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change font"
-#~ msgstr "फॉन्ट बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Text Offset"
-#~ msgstr "यादी बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Detach Path"
-#~ msgstr "मार्ग तोडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove text range"
-#~ msgstr "स्तर काढून टाका"
-
-#, fuzzy
-#~| msgid "Separate Image"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Replace text range"
-#~ msgstr "वेगळी प्रतिमा"
-
-#, fuzzy
-#~| msgid "Ellipse"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change ellipse"
-#~ msgstr "लंबवर्तुळ"
-
-#, fuzzy
-#~| msgid "Rectangle"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change rectangle"
-#~ msgstr "चौकोन"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change Filter"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change spiral"
-#~ msgstr "गाळणी बदला"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change List"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change star"
-#~ msgstr "यादी बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Accept change"
-#~ msgstr "बदल स्वीकारा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
-#~ msgid "%1 Grow To Fit Width"
-#~ msgstr "रुंदीप्रमाणे समर्पक बसवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
-#~ msgid "%1 Grow To Fit Height"
-#~ msgstr "जाळीची उंची :"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
-#~ msgid "%1 Shrink To Fit"
-#~ msgstr "घटवा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change List"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List Level"
-#~ msgstr "यादी बदला"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Accept change"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reject change"
-#~ msgstr "बदल स्वीकारा"
-
-#, fuzzy
-#~| msgid "Save Changes"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Show Changes"
-#~ msgstr "बदल साठवा"
-
-#, fuzzy
-#~| msgid "Save Changes"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Hide Changes"
-#~ msgstr "बदल साठवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Font"
-#~ msgstr "फॉन्ट"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List"
-#~ msgstr "यादी बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Styles"
-#~ msgstr "शैली बदला"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete"
-#~ msgstr "काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Text"
-#~ msgstr " मजकूर"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Column"
-#~ msgstr "ओळ काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Delete Row"
-#~ msgstr "ओळ काढून टाका"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Footnote"
-#~ msgstr "अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Endnote"
-#~ msgstr "अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Right"
-#~ msgstr "लिंक अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Column Left"
-#~ msgstr "लिंक अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Row Below"
-#~ msgstr "अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Row Above"
-#~ msgstr "अंतर्भूत करा"
-
-#, fuzzy
-#~| msgctxt "(qtundo-format)"
-#~| msgid "Change List"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change List Numbering"
-#~ msgstr "यादी बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New Section"
-#~ msgstr "समूह विभाग"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Formatting"
-#~ msgstr "फॉर्मेटिंग"
-
-#, fuzzy
-#~| msgid "Paragraph"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Direct Paragraph Formatting"
-#~ msgstr "परिच्छेद"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rename Section"
-#~ msgstr "पानाचे नाव बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Column Width"
-#~ msgstr "लिंक अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split sections startings"
-#~ msgstr "संयोजीत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split sections endings"
-#~ msgstr "संयोजीत करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste As Text"
-#~ msgstr "मजकूर म्हणून चिटकवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Paste"
-#~ msgstr "चिटकवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "New Paragraph"
-#~ msgstr "नवीन परिच्छेद"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Bookmark"
-#~ msgstr "ओळखचिन्ह जोडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Annotation"
-#~ msgstr "बेरीज"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Index"
-#~ msgstr "अंतर्भूत करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Variable"
-#~ msgstr "परिवर्तनीय अंतर्भूत करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Break"
-#~ msgstr "अंतर्भूत करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Table"
-#~ msgstr "कोष्टक अंतर्भूत करा"
-
-#, fuzzy
-#~| msgid "Merge"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Merge Cells"
-#~ msgstr "विलीन करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split Cells"
-#~ msgstr "संयोजीत करा"
-
-#, fuzzy
-#~| msgid "Fit Page Width"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Adjust Table Width"
-#~ msgstr "पानाच्या रूंदी प्रमाणे समर्पक बसवा"
-
-#, fuzzy
-#~| msgid "Change font format"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Border Formatting"
-#~ msgstr "फॉन्ट स्वरूप बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Table Of Contents"
-#~ msgstr "मचकूराची यादी"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Modify Table Of Contents"
-#~ msgstr "मचकूराची यादी"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Insert Bibliography"
-#~ msgstr "ग्रंथ सूची"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add Citation"
-#~ msgstr "अधिक"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Typing"
-#~ msgstr "टायपिंग"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Bold"
-#~ msgstr "ठळक"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Italic"
-#~ msgstr "तिरपे"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Underline"
-#~ msgstr "अधोरेखित"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Strike Out"
-#~ msgstr "खोडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change Alignment"
-#~ msgstr "प्रतिशत"
-
-#, fuzzy
-#~| msgid "Vertical Lines"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Vertical Alignment"
-#~ msgstr "उभ्या रेषा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease Indent"
-#~ msgstr "समास कमी करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase Indent"
-#~ msgstr "समास वाढवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Decrease font size"
-#~ msgstr "फॉन्ट आकार कमी करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Increase font size"
-#~ msgstr "फॉन्ट आकार वाढवा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Font"
-#~ msgstr "फॉन्ट निश्चित करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Font Size"
-#~ msgstr "फॉन्ट आकार निश्चित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Background Color"
-#~ msgstr "पार्श्वभूमीचा रंग"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Text Color"
-#~ msgstr "मजकूर रंग"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Character Style"
-#~ msgstr "विशिष्ठ अक्षरे"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set Paragraph Style"
-#~ msgstr "परिच्छेद"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Format"
-#~ msgstr "स्वरूप"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Freehand Brush Stroke"
-#~ msgstr "मुक्तहस्त फटकारा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Ellipse"
-#~ msgstr "लंबवर्तुळ काढा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Flood Fill"
-#~ msgstr "फ्लड फिल"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Gradient"
-#~ msgstr "ग्रेडियंट"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Line"
-#~ msgstr "तुटक रेषा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Multibrush Stroke"
-#~ msgstr "A - 2 वेगवान कुंचला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Bezier Curve"
-#~ msgstr "कुंचल्याची निवड"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Freehand Path"
-#~ msgstr "मुक्तहस्त मार्ग काढा."
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Rectangle"
-#~ msgstr "चौकोन काढा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Move Selection"
-#~ msgstr "निवड नाही"
-
-#, fuzzy
-#~| msgctxt "rotate image 90 degrees to the left"
-#~| msgid "Rotate Image 90° to the Left"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Object 90° CW"
-#~ msgstr "प्रतिमा ९० अंशातून डावीकडे फिरवा"
-
-#, fuzzy
-#~| msgctxt "rotate image 90 degrees to the left"
-#~| msgid "Rotate Image 90° to the Left"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Object 90° CCW"
-#~ msgstr "प्रतिमा ९० अंशातून डावीकडे फिरवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate Object 180°"
-#~ msgstr "स्तर १८० अंशातून फिरवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Object Horizontally"
-#~ msgstr "प्रतिमा आडवेरित्या प्रतिबिंबित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Mirror Object Vertically"
-#~ msgstr "प्रतिमा उभेरित्या प्रतिबिंबित करा"
-
-#, fuzzy
-#~| msgid "Reset Canvas Transformations"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reset Object Transformations"
-#~ msgstr "कॅनव्हासमधील बदल पुन्हा निश्चित करा"
-
-#, fuzzy
-#~| msgid "Add Shape"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Unite Shapes"
-#~ msgstr "आकार जोडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Intersect Shapes"
-#~ msgstr "घनता"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Subtract Shapes"
-#~ msgstr "फटकाऱ्याचे आकार"
-
-#, fuzzy
-#~| msgid "Spray shape"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Split Shapes"
-#~ msgstr "फवाऱ्याचा आकार"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Rotate"
-#~ msgstr "फिरवा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear X"
-#~ msgstr "शीयर :"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear Y"
-#~ msgstr "शीयर :"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Scale"
-#~ msgstr "प्रमाण"
-
-#, fuzzy
-#~| msgid "Reset Canvas Transformations"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Reset Transformations"
-#~ msgstr "कॅनव्हासमधील बदल पुन्हा निश्चित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Shear"
-#~ msgstr "शीयर :"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Add filter effect"
-#~ msgstr "गाळणी परिणाम जोडा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Remove filter effect"
-#~ msgstr "गाळणी परिणाम काढून टाका"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Set filter stack"
-#~ msgstr "गाळणी चवड निश्चित करा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Contiguous Area"
-#~ msgstr "रंगांचा सलग भाग निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Ellipse"
-#~ msgstr "सर्व निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select by Outline"
-#~ msgstr "रूपरेषेनुसार भाग निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select by Bezier Curve"
-#~ msgstr "कुंचल्याने निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Polygon"
-#~ msgstr "निवड (&S)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Rectangle"
-#~ msgstr "चौकोनी भाग निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Select Similar Color"
-#~ msgstr "समान रंग निवडा"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Change SvgTextTool"
-#~ msgstr "यादी बदला"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Dynamic Brush Stroke"
-#~ msgstr "A - 2 वेगवान कुंचला"
-
-#, fuzzy
-#~| msgid "&Colorize"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Colorize Mask Key Stroke"
-#~ msgstr "रंगीन (&C)"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Draw Polygon"
-#~ msgstr "बहुभुजाकृती"
-
-#, fuzzy
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Smart Patch"
-#~ msgstr "पासून शोध सुरू करा"
-
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Transform"
-#~ msgstr "रूपांतरित करा"
 
 #~ msgid "Leadtools JPEG2000"
 #~ msgstr "JPEG2000 मुख्य साधने"
