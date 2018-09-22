@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-21 03:43+0200\n"
+"POT-Creation-Date: 2018-09-22 03:54+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -880,18 +880,24 @@ msgstr "मौन (&U)"
 
 #: gui/kmixdockwidget.cpp:198
 #, kde-format
-msgid "Mixer cannot be found"
-msgstr "मिक्सर सापडला नाही"
+msgid "No mixer devices available"
+msgstr ""
 
 #: gui/kmixdockwidget.cpp:206
+#, fuzzy, kde-format
+#| msgid "Volume Feedback"
+msgid "Volume muted"
+msgstr "आवाज फीडबॅक"
+
+#: gui/kmixdockwidget.cpp:207
 #, kde-format
 msgid "Volume at %1%"
 msgstr "आवाज %1%"
 
-#: gui/kmixdockwidget.cpp:208
+#: gui/kmixdockwidget.cpp:209
 #, kde-format
-msgid " (Muted)"
-msgstr " (मौन केले)"
+msgid "%1 - %2"
+msgstr ""
 
 #: gui/kmixprefdlg.cpp:59
 #, kde-format
@@ -933,19 +939,22 @@ msgstr ""
 #: gui/kmixprefdlg.cpp:132
 #, fuzzy, kde-format
 #| msgid "Restore volumes on login"
-msgid "Restore volumes on desktop startup"
+msgid "Restore previous volume settings on desktop startup"
 msgstr "प्रवेश करताना आवाज पुन्हस्थापित करा"
 
 #: gui/kmixprefdlg.cpp:134
 #, fuzzy, kde-format
 #| msgid "Restore all volume levels and switches."
-msgid "Restore all mixer volume levels and switches when the desktop starts."
+msgid ""
+"Restore all mixer volume levels and switches to their last used settings "
+"when the desktop starts."
 msgstr "सर्व आवाज पातळ्या व स्विचेस पुन्हस्थापित करा."
 
 #: gui/kmixprefdlg.cpp:137
 #, fuzzy, kde-format
 #| msgid "Dynamic controls from Pulseaudio and MPRIS2 will not be restored."
-msgid "Dynamic controls from PulseAudio and MPRIS2 will not be restored."
+msgid ""
+"The volume of PulseAudio or MPRIS2 dynamic controls will not be restored."
 msgstr "पल्स ऑडिओ व MPRIS2 मधील डायनेमिक नियंत्रणे पुन्हस्थापित होणार नाहीत."
 
 #: gui/kmixprefdlg.cpp:154
@@ -1157,6 +1166,12 @@ msgstr "पकडणारी साधने नाहीत."
 #, kde-format
 msgid "No playback devices."
 msgstr "प्लेबॅक साधने नाहीत."
+
+#~ msgid "Mixer cannot be found"
+#~ msgstr "मिक्सर सापडला नाही"
+
+#~ msgid " (Muted)"
+#~ msgstr " (मौन केले)"
 
 #~ msgid "Select the Mixers to display in the sound menu"
 #~ msgstr "आवाजाच्या मेन्यूत दर्शवायचे मिक्सर्स निवडा"
