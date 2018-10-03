@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-09-29 03:58+0200\n"
+"POT-Creation-Date: 2018-10-03 03:55+0200\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -244,12 +244,12 @@ msgstr "गाळणी जोडा"
 msgid "General"
 msgstr "सामान्य"
 
-#: app/configdialog.cpp:97
+#: app/configdialog.cpp:98
 #, kde-format
 msgid "Image View"
 msgstr "प्रतिमेचे दृश्य"
 
-#: app/configdialog.cpp:108
+#: app/configdialog.cpp:109
 #, kde-format
 msgid "Advanced"
 msgstr "प्रगत"
@@ -613,7 +613,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
 #. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
-#: app/generalconfigpage.ui:149 app/imageviewconfigpage.ui:442
+#: app/generalconfigpage.ui:149 app/imageviewconfigpage.ui:466
 #, kde-format
 msgid "None"
 msgstr "काही नाही"
@@ -807,81 +807,88 @@ msgctxt "@option:radio action on mouse wheel"
 msgid "Browse"
 msgstr "ब्राऊज"
 
+#. i18n: ectx: property (text), widget (QRadioButton, mouseWheelZoomRadioButton)
+#: app/imageviewconfigpage.ui:218
+#, kde-format
+msgctxt "@option:radio action on mouse wheel"
+msgid "Zoom"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: app/imageviewconfigpage.ui:232
+#: app/imageviewconfigpage.ui:256
 #, kde-format
 msgid "Zoom mode:"
 msgstr "झूम प्रकार :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, autofitZoomModeRadioButton)
-#: app/imageviewconfigpage.ui:247
+#: app/imageviewconfigpage.ui:271
 #, kde-format
 msgid "Autofit each image"
 msgstr "प्रत्येक प्रतिमा स्वयंचलितपणे योग्य आकारात बसवा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, keepSameZoomModeRadioButton)
-#: app/imageviewconfigpage.ui:274
+#: app/imageviewconfigpage.ui:298
 #, kde-format
 msgid "Keep same zoom and position"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, individualZoomModeRadioButton)
-#: app/imageviewconfigpage.ui:298
+#: app/imageviewconfigpage.ui:322
 #, kde-format
 msgid "Per image zoom and position"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnlargeSmallerImages)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrintEnlargeSmallerImages)
-#: app/imageviewconfigpage.ui:338 lib/print/printoptionspage.ui:98
+#: app/imageviewconfigpage.ui:362 lib/print/printoptionspage.ui:98
 #, kde-format
 msgid "Enlarge smaller images"
 msgstr "लहान प्रतिमा मोठ्या करा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: app/imageviewconfigpage.ui:376
+#: app/imageviewconfigpage.ui:400
 #, kde-format
 msgid "Animations:"
 msgstr "चलतचित्रांचे तंत्र"
 
 #. i18n: ectx: property (text), widget (QRadioButton, glAnimationRadioButton)
-#: app/imageviewconfigpage.ui:391
+#: app/imageviewconfigpage.ui:415
 #, kde-format
 msgid "OpenGL"
 msgstr "OpenGL"
 
 #. i18n: ectx: property (text), widget (QRadioButton, softwareAnimationRadioButton)
-#: app/imageviewconfigpage.ui:418
+#: app/imageviewconfigpage.ui:442
 #, kde-format
 msgid "Software"
 msgstr "सॉफ़्टवेअर"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: app/imageviewconfigpage.ui:480
+#: app/imageviewconfigpage.ui:504
 #, kde-format
 msgid "<b>Thumbnail Bar</b>"
 msgstr "<b>लघुप्रतिमा पट्टी</b>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: app/imageviewconfigpage.ui:503
+#: app/imageviewconfigpage.ui:527
 #, kde-format
 msgid "Orientation:"
 msgstr "कल :"
 
 #. i18n: ectx: property (text), widget (QRadioButton, horizontalRadioButton)
-#: app/imageviewconfigpage.ui:518
+#: app/imageviewconfigpage.ui:542
 #, kde-format
 msgid "Horizontal"
 msgstr "आडवा"
 
 #. i18n: ectx: property (text), widget (QRadioButton, verticalRadioButton)
-#: app/imageviewconfigpage.ui:542
+#: app/imageviewconfigpage.ui:566
 #, kde-format
 msgid "Vertical"
 msgstr "उभा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: app/imageviewconfigpage.ui:564
+#: app/imageviewconfigpage.ui:588
 #, kde-format
 msgid "Row count:"
 msgstr "ओळी संख्या :"
@@ -2073,7 +2080,7 @@ msgstr ""
 "            के-सेव्ह-फाईल च्या सहाय्याने तात्पुरत्या फाईल्स साठवण्यासाठी वापरला."
 
 #. i18n: ectx: whatsthis, entry (ZoomMode), group (ImageView)
-#: lib/gwenviewconfig.kcfg:181
+#: lib/gwenviewconfig.kcfg:182
 #, kde-format
 msgid ""
 "Defines what happens when going to image B after\n"
@@ -2090,7 +2097,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: whatsthis, entry (RenderingIntent), group (ImageView)
-#: lib/gwenviewconfig.kcfg:195
+#: lib/gwenviewconfig.kcfg:196
 #, kde-format
 msgid ""
 "Defines how colors are rendered when your display\n"
@@ -2103,55 +2110,55 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (random), group (slide show)
-#: lib/gwenviewconfig.kcfg:281
+#: lib/gwenviewconfig.kcfg:282
 #, kde-format
 msgid "Display slide show images in random order"
 msgstr "स्लाइडप्रदर्शनाच्या प्रतिमा कोणत्याही क्रमाने दर्शवा."
 
 #. i18n: ectx: label, entry (fullscreen), group (slide show)
-#: lib/gwenviewconfig.kcfg:285
+#: lib/gwenviewconfig.kcfg:286
 #, kde-format
 msgid "Show slideshow in fullscreen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीत स्लाइड प्रदर्शन दर्शवा."
 
 #. i18n: ectx: label, entry (loop), group (slide show)
-#: lib/gwenviewconfig.kcfg:289
+#: lib/gwenviewconfig.kcfg:290
 #, kde-format
 msgid "Loop on images"
 msgstr "प्रतिमा चक्राकार पद्धतीत ठेवा"
 
 #. i18n: ectx: label, entry (stopAtEnd), group (slide show)
-#: lib/gwenviewconfig.kcfg:293
+#: lib/gwenviewconfig.kcfg:294
 #, kde-format
 msgid "Stop at last image of folder"
 msgstr "संचयीकेमधील शेवटच्या प्रतिमेपाशी थांबा"
 
 #. i18n: ectx: label, entry (interval), group (slide show)
-#: lib/gwenviewconfig.kcfg:297
+#: lib/gwenviewconfig.kcfg:298
 #, kde-format
 msgid "Interval between images (in seconds)"
 msgstr "दोन प्रतिमादरम्यानचा अंतराल (सेकंदामध्ये)"
 
 #. i18n: ectx: label, entry (CropPreserveAspectRatio), group (Crop)
-#: lib/gwenviewconfig.kcfg:313
+#: lib/gwenviewconfig.kcfg:314
 #, kde-format
 msgid "Restrict crop to image ratio when Advanced Settings disabled"
 msgstr ""
 
 #. i18n: ectx: label, entry (CropRatioIndex), group (Crop)
-#: lib/gwenviewconfig.kcfg:317
+#: lib/gwenviewconfig.kcfg:318
 #, kde-format
 msgid "Index representing selected ratio in the Advanced settings combobox"
 msgstr ""
 
 #. i18n: ectx: label, entry (CropRatioWidth), group (Crop)
-#: lib/gwenviewconfig.kcfg:321
+#: lib/gwenviewconfig.kcfg:322
 #, kde-format
 msgid "Last used crop ratio width when Advanced Settings enabled"
 msgstr ""
 
 #. i18n: ectx: label, entry (CropRatioHeight), group (Crop)
-#: lib/gwenviewconfig.kcfg:325
+#: lib/gwenviewconfig.kcfg:326
 #, kde-format
 msgid "Last used crop ratio height when Advanced Settings enabled"
 msgstr ""
