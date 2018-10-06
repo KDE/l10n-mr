@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kfindpart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-05 03:41+0200\n"
+"POT-Creation-Date: 2018-10-06 03:39+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -32,14 +32,12 @@ msgid "Idle."
 msgstr "निष्क्रिय."
 
 #. i18n as below
-#: kfinddlg.cpp:133 kfinddlg.cpp:228 kfinddlg.cpp:252
+#: kfinddlg.cpp:133
 #, fuzzy, kde-format
 #| msgid "one file found"
 #| msgid_plural "%1 files found"
-msgid "one item found"
-msgid_plural "%1 items found"
-msgstr[0] "एक फाईल सापडली"
-msgstr[1] "%1 फाईल्स सापडल्या"
+msgid "0 items found"
+msgstr "एक फाईल सापडली"
 
 #: kfinddlg.cpp:172
 #, kde-format
@@ -65,6 +63,15 @@ msgstr "\"यात पहा\" पेटी अंतर्गत कृपय�
 #, kde-format
 msgid "Could not find the specified folder."
 msgstr "निर्देशीत संचयीका शोधू शकत नाही."
+
+#: kfinddlg.cpp:228 kfinddlg.cpp:252
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "one item found"
+msgid_plural "%1 items found"
+msgstr[0] "एक फाईल सापडली"
+msgstr[1] "%1 फाईल्स सापडल्या"
 
 #: kfindtreeview.cpp:54
 #, kde-format
@@ -526,7 +533,7 @@ msgid_plural "years"
 msgstr[0] "वर्ष"
 msgstr[1] "वर्ष"
 
-#: kquery.cpp:588
+#: kquery.cpp:604
 #, kde-format
 msgctxt "@title:window"
 msgid "Error while using locate"
