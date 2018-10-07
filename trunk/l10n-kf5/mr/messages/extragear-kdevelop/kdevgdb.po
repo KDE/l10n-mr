@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-05-18 03:35+0200\n"
+"POT-Creation-Date: 2018-10-07 03:39+0200\n"
 "PO-Revision-Date: 2013-04-02 15:22+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,17 +17,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: debuggerplugin.cpp:56 debuggerplugin.cpp:130 gdbconfigpage.cpp:131
+#: debuggerplugin.cpp:56 debuggerplugin.cpp:132 gdbconfigpage.cpp:131
 #, kde-format
 msgid "GDB"
 msgstr "GDB"
 
-#: debuggerplugin.cpp:126
+#: debuggerplugin.cpp:128
 #, kde-format
 msgid "Disassemble/Registers"
 msgstr ""
 
-#: debuggerplugin.cpp:139
+#: debuggerplugin.cpp:141
 #, kde-format
 msgid "Memory"
 msgstr ""
@@ -85,27 +85,27 @@ msgid ""
 "check run configuration '%1'. Using default environment profile."
 msgstr ""
 
-#: debugsession.cpp:290
+#: debugsession.cpp:292
 #, kde-format
 msgid "<b>You need gdb 7.0.0 or higher.</b><br />You are using: %1"
 msgstr ""
 
-#: debugsession.cpp:292
+#: debugsession.cpp:294
 #, kde-format
 msgid "gdb error"
 msgstr ""
 
-#: debugsession.cpp:302
+#: debugsession.cpp:304
 #, kde-format
 msgid "<b>Could not start debugger:</b><br />"
 msgstr ""
 
-#: debugsession.cpp:304 debugsession.cpp:320
+#: debugsession.cpp:306 debugsession.cpp:322
 #, kde-format
 msgid "Startup error"
 msgstr ""
 
-#: debugsession.cpp:316
+#: debugsession.cpp:318
 #, kde-format
 msgid ""
 "<b>Failed to load core file</b><p>Debugger reported the following error:"
@@ -139,33 +139,27 @@ msgstr ""
 msgid "Executes a native application in GDB"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, GdbConfigPage)
-#: gdbconfigpage.ui:14
-#, kde-format
-msgid "Debugger Configuration"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: gdbconfigpage.ui:26
+#: gdbconfigpage.ui:17
 #, kde-format
 msgid "Debugger"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, gdbPath_label)
-#: gdbconfigpage.ui:32
+#: gdbconfigpage.ui:23
 #, fuzzy, kde-format
 #| msgid "Executable:"
 msgid "Debugger e&xecutable:"
 msgstr "एक्जीक्यूटेबल :"
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_gdbPath)
-#: gdbconfigpage.ui:45
+#: gdbconfigpage.ui:36
 #, kde-format
 msgid "Gdb executable"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_gdbPath)
-#: gdbconfigpage.ui:48
+#: gdbconfigpage.ui:39
 #, kde-format
 msgid ""
 "To run \"gdb\" executable from $PATH, leave this field empty. To run custom "
@@ -176,14 +170,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, kcfg_gdbPath)
-#: gdbconfigpage.ui:51
+#: gdbconfigpage.ui:42
 #, kde-format
 msgid "Override path to gdb executable"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, debuggingShell_label)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_debuggingShell)
-#: gdbconfigpage.ui:58 gdbconfigpage.ui:77
+#: gdbconfigpage.ui:49 gdbconfigpage.ui:68
 #, kde-format
 msgid ""
 "<html><head/><body><p>If you want gdb to be executed by a special shell "
@@ -195,31 +189,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, debuggingShell_label)
-#: gdbconfigpage.ui:64
+#: gdbconfigpage.ui:55
 #, kde-format
 msgid "She&ll script:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, kcfg_debuggingShell)
-#: gdbconfigpage.ui:80
+#: gdbconfigpage.ui:71
 #, kde-format
 msgid "<html><head/><body><p><br/></p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: gdbconfigpage.ui:90
+#: gdbconfigpage.ui:81
 #, kde-format
 msgid "Options"
 msgstr "पर्याय"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: gdbconfigpage.ui:99
+#: gdbconfigpage.ui:90
 #, kde-format
 msgid "Display static &members:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_displayStaticMembers)
-#: gdbconfigpage.ui:114
+#: gdbconfigpage.ui:105
 #, kde-format
 msgid ""
 "Displaying static members makes GDB slower in\n"
@@ -231,13 +225,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: gdbconfigpage.ui:124
+#: gdbconfigpage.ui:115
 #, kde-format
 msgid "Display &demangled names:"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_asmDemangle)
-#: gdbconfigpage.ui:136
+#: gdbconfigpage.ui:127
 #, kde-format
 msgid ""
 "When displaying the disassembled code you\n"
@@ -246,31 +240,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: gdbconfigpage.ui:146
+#: gdbconfigpage.ui:137
 #, kde-format
 msgid "S&tart debugger with:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
-#: gdbconfigpage.ui:157
+#: gdbconfigpage.ui:148
 #, kde-format
 msgid "Application Output"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
-#: gdbconfigpage.ui:162
+#: gdbconfigpage.ui:153
 #, kde-format
 msgid "GDB Console"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_startWith)
-#: gdbconfigpage.ui:167
+#: gdbconfigpage.ui:158
 #, kde-format
 msgid "Frame Stack"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox)
-#: gdbconfigpage.ui:181
+#: gdbconfigpage.ui:172
 #, kde-format
 msgid ""
 "This script is intended for the actual commands needed to connect to a "
@@ -281,14 +275,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: gdbconfigpage.ui:184
+#: gdbconfigpage.ui:175
 #, kde-format
 msgid "Remote Debugging"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, runShellScript_label)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_runShellScript)
-#: gdbconfigpage.ui:190 gdbconfigpage.ui:206
+#: gdbconfigpage.ui:181 gdbconfigpage.ui:197
 #, kde-format
 msgid ""
 "<html><head/><body><p>Script to start remote application</p><p></p><p>This "
@@ -301,7 +295,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, runShellScript_label)
-#: gdbconfigpage.ui:193
+#: gdbconfigpage.ui:184
 #, kde-format
 msgctxt "Shell script to be executed at run time"
 msgid "R&un shell script:"
@@ -309,7 +303,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, configGdbScript_label)
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_configGdbScript)
-#: gdbconfigpage.ui:216 gdbconfigpage.ui:258
+#: gdbconfigpage.ui:207 gdbconfigpage.ui:249
 #, kde-format
 msgid ""
 "<html><head/><body><p>This script is sourced by gdb when the debugging "
@@ -317,14 +311,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, configGdbScript_label)
-#: gdbconfigpage.ui:219
+#: gdbconfigpage.ui:210
 #, kde-format
 msgid "Gdb &config script:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, kcfg_runGdbScript)
 #. i18n: ectx: property (toolTip), widget (QLabel, runGdbScript_label)
-#: gdbconfigpage.ui:232 gdbconfigpage.ui:242
+#: gdbconfigpage.ui:223 gdbconfigpage.ui:233
 #, kde-format
 msgid ""
 "<html><head/><body><p>Script to connect with remote application</p><p>For "
@@ -334,7 +328,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, runGdbScript_label)
-#: gdbconfigpage.ui:245
+#: gdbconfigpage.ui:236
 #, kde-format
 msgctxt "Gdb script to be executed at run time."
 msgid "Run &gdb script:"
@@ -362,12 +356,12 @@ msgstr ""
 msgid "Pause execution of the app to enter gdb commands"
 msgstr ""
 
-#: gdboutputwidget.cpp:391 gdboutputwidget.cpp:441
+#: gdboutputwidget.cpp:386 gdboutputwidget.cpp:434
 #, kde-format
 msgid "Show Internal Commands"
 msgstr ""
 
-#: gdboutputwidget.cpp:398 gdboutputwidget.cpp:448
+#: gdboutputwidget.cpp:393 gdboutputwidget.cpp:441
 #, kde-format
 msgid ""
 "Controls if commands issued internally by KDevelop will be shown or not."
@@ -375,7 +369,7 @@ msgid ""
 "already issued commands from the view."
 msgstr ""
 
-#: gdboutputwidget.cpp:403
+#: gdboutputwidget.cpp:398
 #, kde-format
 msgid "Copy All"
 msgstr ""
@@ -386,121 +380,121 @@ msgstr ""
 msgid "Debugger Toolbar"
 msgstr ""
 
-#: memviewdlg.cpp:73
+#: memviewdlg.cpp:74
 #, fuzzy, kde-format
 #| msgid "Start"
 msgid "Start:"
 msgstr "सुरु करा"
 
-#: memviewdlg.cpp:76
+#: memviewdlg.cpp:77
 #, fuzzy, kde-format
 #| msgid "Amount"
 msgid "Amount:"
 msgstr "संख्या"
 
-#: memviewdlg.cpp:103
+#: memviewdlg.cpp:104
 #, kde-format
 msgid "Memory view"
 msgstr ""
 
-#: memviewdlg.cpp:230
+#: memviewdlg.cpp:231
 #, kde-format
 msgid "%2 (1 byte)"
 msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (1 बाइट)"
 msgstr[1] "%2 (%1 बाइटस्)"
 
-#: memviewdlg.cpp:269
+#: memviewdlg.cpp:270
 #, kde-format
 msgid "&Reload"
 msgstr "पुन्हा दाखल करा (&R)"
 
-#: memviewdlg.cpp:278
+#: memviewdlg.cpp:279
 #, kde-format
 msgid "&Format"
 msgstr ""
 
-#: memviewdlg.cpp:281
+#: memviewdlg.cpp:282
 #, kde-format
 msgid "&Binary"
 msgstr ""
 
-#: memviewdlg.cpp:286
+#: memviewdlg.cpp:287
 #, kde-format
 msgid "&Octal"
 msgstr ""
 
-#: memviewdlg.cpp:291
+#: memviewdlg.cpp:292
 #, kde-format
 msgid "&Decimal"
 msgstr ""
 
-#: memviewdlg.cpp:296
+#: memviewdlg.cpp:297
 #, kde-format
 msgid "&Hexadecimal"
 msgstr ""
 
-#: memviewdlg.cpp:310
+#: memviewdlg.cpp:311
 #, kde-format
 msgid "&Grouping"
 msgstr ""
 
-#: memviewdlg.cpp:313
+#: memviewdlg.cpp:314
 #, kde-format
 msgid "&0"
 msgstr ""
 
-#: memviewdlg.cpp:318
+#: memviewdlg.cpp:319
 #, kde-format
 msgid "&1"
 msgstr ""
 
-#: memviewdlg.cpp:323
+#: memviewdlg.cpp:324
 #, kde-format
 msgid "&2"
 msgstr ""
 
-#: memviewdlg.cpp:328
+#: memviewdlg.cpp:329
 #, kde-format
 msgid "&4"
 msgstr ""
 
-#: memviewdlg.cpp:333
+#: memviewdlg.cpp:334
 #, kde-format
 msgid "&8"
 msgstr ""
 
-#: memviewdlg.cpp:338
+#: memviewdlg.cpp:339
 #, kde-format
 msgid "1&6"
 msgstr ""
 
-#: memviewdlg.cpp:351
+#: memviewdlg.cpp:352
 #, kde-format
 msgid "Write changes"
 msgstr ""
 
-#: memviewdlg.cpp:355
+#: memviewdlg.cpp:356
 #, kde-format
 msgid "Change memory range"
 msgstr ""
 
-#: memviewdlg.cpp:359
+#: memviewdlg.cpp:360
 #, kde-format
 msgid "Close this view"
 msgstr ""
 
-#: memviewdlg.cpp:426
+#: memviewdlg.cpp:427
 #, kde-format
 msgid "Memory viewer"
 msgstr ""
 
-#: memviewdlg.cpp:430
+#: memviewdlg.cpp:431
 #, kde-format
 msgid "New memory viewer"
 msgstr ""
 
-#: memviewdlg.cpp:431
+#: memviewdlg.cpp:432
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Open a new memory viewer."
