@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-17 03:49+0200\n"
+"POT-Creation-Date: 2018-10-15 03:28+0200\n"
 "PO-Revision-Date: 2013-03-30 16:49+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -193,20 +193,18 @@ msgstr "संजाळ"
 msgid "Shares"
 msgstr ""
 
-#: smb4k/smb4kconfigdialog.cpp:166 smb4k/smb4kconfigpagenetwork.cpp:92
-#: smb4k/smb4kconfigpagesamba.cpp:103
+#: smb4k/smb4kconfigdialog.cpp:166 smb4k/smb4kconfigpagecustomoptions.cpp:190
+#: smb4k/smb4kconfigpagenetwork.cpp:92 smb4k/smb4kconfigpagesamba.cpp:104
 #, kde-format
 msgid "Authentication"
 msgstr "अधिप्रमाणन"
 
-#: smb4k/smb4kconfigdialog.cpp:167 smb4k/smb4kconfigpagecustomoptions.cpp:306
-#: smb4k/smb4kconfigpagecustomoptions.cpp:516
-#: smb4k/smb4kconfigpagecustomoptions.cpp:693
+#: smb4k/smb4kconfigdialog.cpp:167 smb4k/smb4kconfigpagecustomoptions.cpp:203
 #, fuzzy, kde-format
 msgid "Samba"
 msgstr "सांबा"
 
-#: smb4k/smb4kconfigdialog.cpp:169
+#: smb4k/smb4kconfigdialog.cpp:169 smb4k/smb4kconfigpagecustomoptions.cpp:448
 #, kde-format
 msgid "Mounting"
 msgstr ""
@@ -227,15 +225,15 @@ msgstr ""
 msgid "Profiles"
 msgstr ""
 
-#: smb4k/smb4kconfigdialog.cpp:280 smb4k/smb4kconfigdialog.cpp:319
-#: smb4k/smb4kconfigdialog.cpp:342 smb4k/smb4kconfigdialog.cpp:388
+#: smb4k/smb4kconfigdialog.cpp:281 smb4k/smb4kconfigdialog.cpp:320
+#: smb4k/smb4kconfigdialog.cpp:343 smb4k/smb4kconfigdialog.cpp:389
 #, kde-format
 msgid ""
 "<qt>An incorrect setting has been found. You are now taken to the "
 "corresponding configuration page to fix it.</qt>"
 msgstr ""
 
-#: smb4k/smb4kconfigdialog.cpp:792
+#: smb4k/smb4kconfigdialog.cpp:795
 #, kde-format
 msgid "Enter the default login information."
 msgstr ""
@@ -256,7 +254,7 @@ msgid "Default Login"
 msgstr ""
 
 #: smb4k/smb4kconfigpageauthentication.cpp:108
-#: smb4k/smb4kconfigpagenetwork.cpp:135 smb4k/smb4kconfigpagesamba.cpp:151
+#: smb4k/smb4kconfigpagenetwork.cpp:135
 #, kde-format
 msgid "General Settings"
 msgstr "सामान्य संयोजना"
@@ -312,25 +310,19 @@ msgid ""
 msgstr ""
 
 #: smb4k/smb4kconfigpageauthentication.cpp:162
-#: smb4k/smb4kconfigpagecustomoptions.cpp:98
-#: smb4k/smb4kconfigpagecustomoptions.cpp:358
-#: smb4k/smb4kconfigpagecustomoptions.cpp:568
+#: smb4k/smb4kconfigpagecustomoptions.cpp:82
 #, kde-format
 msgid "Remove"
 msgstr "काढून टाका"
 
 #: smb4k/smb4kconfigpageauthentication.cpp:163
-#: smb4k/smb4kconfigpagecustomoptions.cpp:101
-#: smb4k/smb4kconfigpagecustomoptions.cpp:361
-#: smb4k/smb4kconfigpagecustomoptions.cpp:571
+#: smb4k/smb4kconfigpagecustomoptions.cpp:86
 #, kde-format
 msgid "Clear List"
 msgstr "यादी रिकामी करा"
 
 #: smb4k/smb4kconfigpageauthentication.cpp:164
-#: smb4k/smb4kconfigpagecustomoptions.cpp:95
-#: smb4k/smb4kconfigpagecustomoptions.cpp:355
-#: smb4k/smb4kconfigpagecustomoptions.cpp:565
+#: smb4k/smb4kconfigpagecustomoptions.cpp:78
 #, fuzzy, kde-format
 msgid "Edit"
 msgstr "संपादन"
@@ -370,139 +362,140 @@ msgstr "प्रवेश"
 msgid "Password"
 msgstr "गुप्तशब्द"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:121
-#: smb4k/smb4kconfigpagecustomoptions.cpp:381
-#: smb4k/smb4kconfigpagecustomoptions.cpp:591
-#: smb4k/smb4kconfigpagesynchronization.cpp:136
-#: smb4k/smb4kconfigpagesynchronization.cpp:373
+#: smb4k/smb4kconfigpagecustomoptions.cpp:119
 #, fuzzy, kde-format
-msgid "General"
-msgstr "सामान्य"
+#| msgid "Notifications"
+msgid "Identification"
+msgstr "सूचना"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:130
-#: smb4k/smb4kconfigpagecustomoptions.cpp:390
-#: smb4k/smb4kconfigpagecustomoptions.cpp:600
+#: smb4k/smb4kconfigpagecustomoptions.cpp:123
+#, fuzzy, kde-format
+#| msgid "Group:"
+msgid "Workgroup:"
+msgstr "समूह :"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:133
 #, kde-format
-msgid "UNC Address:"
+msgid "UNC:"
 msgstr ""
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:137
-#: smb4k/smb4kconfigpagecustomoptions.cpp:397
-#: smb4k/smb4kconfigpagecustomoptions.cpp:607
+#: smb4k/smb4kconfigpagecustomoptions.cpp:143
 #, kde-format
 msgid "IP Address:"
 msgstr "IP पत्ता :"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:144
-#: smb4k/smb4kconfigpagecustomoptions.cpp:404
-#, kde-format
-msgid "Always remount this share"
-msgstr ""
-
-#: smb4k/smb4kconfigpagecustomoptions.cpp:179
-#, kde-format
-msgid "Filesystem Port:"
-msgstr ""
-
-#: smb4k/smb4kconfigpagecustomoptions.cpp:188
-#, kde-format
-msgid "Write Access:"
-msgstr ""
-
-#: smb4k/smb4kconfigpagecustomoptions.cpp:198
+#: smb4k/smb4kconfigpagecustomoptions.cpp:155
 #, fuzzy, kde-format
-#| msgid "Security"
-msgid "Security Mode:"
-msgstr "सुरक्षा"
+#| msgid "Network"
+msgid "Network Item"
+msgstr "संजाळ"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:223
-#: smb4k/smb4kconfigpagecustomoptions.cpp:439
+#: smb4k/smb4kconfigpagecustomoptions.cpp:170
+#: smb4k/smb4kconfigpagecustomoptions.cpp:302
+#: smb4k/smb4kconfigpagemounting.cpp:88 smb4k/smb4kconfigpagemounting.cpp:427
+#: smb4k/smb4kconfigpagesamba.cpp:60
 #, kde-format
-msgid "User ID:"
-msgstr "वापरकर्ता ID:"
+msgid "Common Options"
+msgstr "सामान्य पर्याय"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:236
-#: smb4k/smb4kconfigpagecustomoptions.cpp:452
-#, kde-format
-msgid "Group ID:"
-msgstr ""
-
-#: smb4k/smb4kconfigpagecustomoptions.cpp:284
-#: smb4k/smb4kconfigpagecustomoptions.cpp:494
-#: smb4k/smb4kconfigpagecustomoptions.cpp:671
+#: smb4k/smb4kconfigpagecustomoptions.cpp:216
 #, fuzzy, kde-format
-msgid "MAC address:"
+#| msgid "MAC Address:"
+msgid "MAC Address"
 msgstr "Mac पत्ता :"
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:293
-#: smb4k/smb4kconfigpagecustomoptions.cpp:503
-#: smb4k/smb4kconfigpagecustomoptions.cpp:680
+#: smb4k/smb4kconfigpagecustomoptions.cpp:221
+#, kde-format
+msgid "MAC Address:"
+msgstr "Mac पत्ता :"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:234
+#, fuzzy, kde-format
+#| msgid "Options"
+msgid "Actions"
+msgstr "पर्याय"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:239
 #, kde-format
 msgid "Send magic package before scanning the network neighborhood"
 msgstr ""
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:295
-#: smb4k/smb4kconfigpagecustomoptions.cpp:505
-#: smb4k/smb4kconfigpagecustomoptions.cpp:682
+#: smb4k/smb4kconfigpagecustomoptions.cpp:245
 #, kde-format
 msgid "Send magic package before mounting a share"
 msgstr ""
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:307
-#: smb4k/smb4kconfigpagecustomoptions.cpp:517
-#: smb4k/smb4kconfigpagecustomoptions.cpp:694
+#: smb4k/smb4kconfigpagecustomoptions.cpp:253
 #: smb4k/smb4kconfigpagenetwork.cpp:170
 #, kde-format
 msgid "Wake-On-LAN"
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:85 smb4k/smb4kconfigpagemounting.cpp:426
-#, kde-format
-msgid "Common Options"
-msgstr "सामान्य पर्याय"
+#: smb4k/smb4kconfigpagecustomoptions.cpp:287
+#, fuzzy, kde-format
+#| msgid "Unmount"
+msgid "Remounting"
+msgstr "अनमाऊंट करा"
 
-#: smb4k/smb4kconfigpagemounting.cpp:105 smb4k/smb4kconfigpagemounting.cpp:446
+#: smb4k/smb4kconfigpagecustomoptions.cpp:291
+#, kde-format
+msgid "Always remount this share"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:340
+#: smb4k/smb4kconfigpagemounting.cpp:142
+#, kde-format
+msgid "CIFS Unix Extensions Support"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:344
+#, kde-format
+msgid "This server supports the CIFS Unix extensions"
+msgstr ""
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:412
+#: smb4k/smb4kconfigpagemounting.cpp:266
+#, kde-format
+msgid "Advanced Options"
+msgstr "प्रगत पर्याय"
+
+#: smb4k/smb4kconfigpagemounting.cpp:171 smb4k/smb4kconfigpagemounting.cpp:447
 #, kde-format
 msgid "Choose a different user"
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:149 smb4k/smb4kconfigpagemounting.cpp:490
+#: smb4k/smb4kconfigpagemounting.cpp:209 smb4k/smb4kconfigpagemounting.cpp:491
 #, kde-format
 msgid "Choose a different group"
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:281
+#: smb4k/smb4kconfigpagemounting.cpp:256 smb4k/smb4kconfigpagesamba.cpp:152
 #, fuzzy, kde-format
 #| msgid "Common Options"
 msgid "Common Settings"
 msgstr "सामान्य पर्याय"
 
-#: smb4k/smb4kconfigpagemounting.cpp:291
-#, kde-format
-msgid "Advanced Options"
-msgstr "प्रगत पर्याय"
-
-#: smb4k/smb4kconfigpagemounting.cpp:382
+#: smb4k/smb4kconfigpagemounting.cpp:388
 #, kde-format
 msgid "Edit the additional CIFS options."
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:406 smb4k/smb4kconfigpagenetwork.cpp:217
+#: smb4k/smb4kconfigpagemounting.cpp:401 smb4k/smb4kconfigpagenetwork.cpp:217
 #, kde-format
 msgid "Advanced Settings"
 msgstr "प्रगत संयोजना"
 
-#: smb4k/smb4kconfigpagemounting.cpp:736
+#: smb4k/smb4kconfigpagemounting.cpp:829
 #, kde-format
 msgid "Additional CIFS Options"
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:737
+#: smb4k/smb4kconfigpagemounting.cpp:829
 #, kde-format
 msgid "<qt>Enter the desired options as a comma separated list:</qt>"
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:773
+#: smb4k/smb4kconfigpagemounting.cpp:862
 #, kde-format
 msgid ""
 "<qt>The following entry is going to be removed from the additional options: "
@@ -552,37 +545,32 @@ msgstr ""
 msgid "Settings"
 msgstr "संयोजना (&S)"
 
-#: smb4k/smb4kconfigpagesamba.cpp:60
-#, kde-format
-msgid "General Options"
-msgstr "सामान्य पर्याय"
-
-#: smb4k/smb4kconfigpagesamba.cpp:121
+#: smb4k/smb4kconfigpagesamba.cpp:122
 #, kde-format
 msgid "Security"
 msgstr "सुरक्षा"
 
-#: smb4k/smb4kconfigpagesamba.cpp:163
+#: smb4k/smb4kconfigpagesamba.cpp:164
 #, kde-format
 msgid "smbclient"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesamba.cpp:179
+#: smb4k/smb4kconfigpagesamba.cpp:180
 #, fuzzy, kde-format
 msgid " Bytes"
 msgstr " बाइट्स"
 
-#: smb4k/smb4kconfigpagesamba.cpp:190
+#: smb4k/smb4kconfigpagesamba.cpp:191
 #, kde-format
 msgid "nmblookup"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesamba.cpp:210
+#: smb4k/smb4kconfigpagesamba.cpp:211
 #, kde-format
 msgid "smbtree"
 msgstr ""
 
-#: smb4k/smb4kconfigpagesamba.cpp:225
+#: smb4k/smb4kconfigpagesamba.cpp:226
 #, kde-format
 msgid "Utility Programs"
 msgstr ""
@@ -606,6 +594,12 @@ msgstr "बॅकअप"
 #, fuzzy, kde-format
 msgid "Basic Settings"
 msgstr "संयोजना (&S)"
+
+#: smb4k/smb4kconfigpagesynchronization.cpp:136
+#: smb4k/smb4kconfigpagesynchronization.cpp:373
+#, fuzzy, kde-format
+msgid "General"
+msgstr "सामान्य"
 
 #: smb4k/smb4kconfigpagesynchronization.cpp:161
 #, kde-format
@@ -1084,6 +1078,21 @@ msgstr "आकार"
 msgid "%1 free of %2 (%3 used)"
 msgstr ""
 
+#, fuzzy
+#~| msgid "Security"
+#~ msgid "Security Mode:"
+#~ msgstr "सुरक्षा"
+
+#~ msgid "User ID:"
+#~ msgstr "वापरकर्ता ID:"
+
+#, fuzzy
+#~ msgid "MAC address:"
+#~ msgstr "Mac पत्ता :"
+
+#~ msgid "General Options"
+#~ msgstr "सामान्य पर्याय"
+
 #~ msgid "Edit Bookmarks"
 #~ msgstr "ओळखचिन्हे संपादित करा"
 
@@ -1101,9 +1110,6 @@ msgstr ""
 
 #~ msgid "Login:"
 #~ msgstr "प्रवेश :"
-
-#~ msgid "Group:"
-#~ msgstr "समूह :"
 
 #~ msgid "Group name:"
 #~ msgstr "समूह नाव :"
@@ -1144,9 +1150,6 @@ msgstr ""
 
 #~ msgid "Hardware"
 #~ msgstr "हार्डवेअर"
-
-#~ msgid "Notifications"
-#~ msgstr "सूचना"
 
 #, fuzzy
 #~ msgid "Domain:"
@@ -1253,9 +1256,6 @@ msgstr ""
 #~ msgid "Kerberos 5 authentication"
 #~ msgstr "अधिप्रमाणन"
 
-#~ msgid "MAC Address:"
-#~ msgstr "Mac पत्ता :"
-
 #~ msgid "User:"
 #~ msgstr "वापरकर्ता:"
 
@@ -1277,9 +1277,6 @@ msgstr ""
 
 #~ msgid "Up"
 #~ msgstr "वर"
-
-#~ msgid "Options"
-#~ msgstr "पर्याय"
 
 #~ msgid "Printer"
 #~ msgstr "प्रिंटर"
