@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-17 01:52+0200\n"
+"POT-Creation-Date: 2018-10-18 01:48+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -730,202 +730,476 @@ msgctxt "@info"
 msgid "Package removal failed."
 msgstr ""
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Image:"
-#~ msgstr "प्रतिमा :"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/convertDlg.ui:19
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Image:"
+msgstr "प्रतिमा :"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Convert To:"
-#~ msgstr "यात रूपांतरीत करा :"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/convertDlg.ui:29
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Convert To:"
+msgstr "यात रूपांतरीत करा :"
 
-#~ msgctxt "@label:spinbox"
-#~ msgid "Width:"
-#~ msgstr "रुंदी:"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: ui/convertDlg.ui:41
+#, kde-format
+msgctxt "@title:group"
+msgid "Conversion Options"
+msgstr ""
 
-#~ msgctxt "@label:spinbox"
-#~ msgid "Height:"
-#~ msgstr "उंची : "
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/convertDlg.ui:47
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Width:"
+msgstr "रुंदी:"
 
-#~ msgctxt "@title:column"
-#~ msgid "Label"
-#~ msgstr "लेबल"
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: ui/convertDlg.ui:61
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Height:"
+msgstr "उंची : "
 
-#~ msgctxt "@title:column"
-#~ msgid "File System"
-#~ msgstr "फाईल प्रणाली"
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: ui/convertDlg.ui:75
+#, fuzzy, kde-format
+#| msgctxt "@title:group"
+#| msgid "Resolutions"
+msgctxt "@option:check"
+msgid "Force resolution:"
+msgstr "रेझोल्युशन"
 
-#~ msgctxt "@title:column"
-#~ msgid "Size"
-#~ msgstr "आकार"
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: ui/convertDlg.ui:85
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Wallpaper:"
+msgctxt "@option:check"
+msgid "Set As GRUB Wallpaper:"
+msgstr "वॉलपेपर :"
 
-#~ msgctxt "@title:tab Refers to settings."
-#~ msgid "General"
-#~ msgstr "सामान्य"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/installDlg.ui:17
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Select partition to install/recover GRUB:"
+msgstr ""
 
-#~ msgctxt "@title:group"
-#~ msgid "Default Entry"
-#~ msgstr "मूलभूत नोंद"
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget_recover)
+#: ui/installDlg.ui:48
+#, kde-format
+msgctxt "@title:column"
+msgid "Partition"
+msgstr ""
 
-#~ msgctxt "@label:listbox"
-#~ msgid "Default Entry:"
-#~ msgstr "मूलभूत नोंद :"
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget_recover)
+#: ui/installDlg.ui:53
+#, kde-format
+msgctxt "@title:column"
+msgid "Mountpoint"
+msgstr ""
 
-#~ msgctxt "@action:button"
-#~ msgid "Remove Old Entries"
-#~ msgstr "जुन्या नोंदी काढून टाका"
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget_recover)
+#: ui/installDlg.ui:58
+#, kde-format
+msgctxt "@title:column"
+msgid "Label"
+msgstr "लेबल"
 
-#~ msgctxt "@title:group"
-#~ msgid "Timeout"
-#~ msgstr "वेळेचे बंधन"
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget_recover)
+#: ui/installDlg.ui:63
+#, kde-format
+msgctxt "@title:column"
+msgid "File System"
+msgstr "फाईल प्रणाली"
 
-#~ msgctxt "@option:check"
-#~ msgid "Hide the menu for:"
-#~ msgstr "याकरिता मेन्यू लपवा :"
+#. i18n: ectx: property (text), widget (QTreeWidget, treeWidget_recover)
+#: ui/installDlg.ui:68
+#, kde-format
+msgctxt "@title:column"
+msgid "Size"
+msgstr "आकार"
 
-#~ msgctxt "@label:spinbox seconds (suffix)"
-#~ msgid "s"
-#~ msgstr "s"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_partition)
+#: ui/installDlg.ui:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Install the bootloader on the boot sector of the selected partition instead "
+"of the MBR(=Master Boot Sector). Not recommended."
+msgstr ""
 
-#~ msgctxt "@option:check"
-#~ msgid "Show countdown timer"
-#~ msgstr "काउंटडाउन टाइमर दर्शवा"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_partition)
+#: ui/installDlg.ui:79
+#, kde-format
+msgctxt "@option:check"
+msgid "Install on partition instead of MBR (Advanced)"
+msgstr ""
 
-#~ msgctxt "@option:radio"
-#~ msgid "Immediately"
-#~ msgstr "त्वरित"
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: ui/kcm_grub2.ui:21
+#, kde-format
+msgctxt "@title:tab Refers to settings."
+msgid "General"
+msgstr "सामान्य"
 
-#~ msgctxt "@option:radio"
-#~ msgid "After:"
-#~ msgstr "या नंतर :"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_default)
+#: ui/kcm_grub2.ui:27
+#, kde-format
+msgctxt "@title:group"
+msgid "Default Entry"
+msgstr "मूलभूत नोंद"
 
-#~ msgctxt "@title:group"
-#~ msgid "Generated Entries"
-#~ msgstr "निर्माण केलेल्या नोंदी"
+#. i18n: ectx: property (text), widget (QLabel, label_default)
+#: ui/kcm_grub2.ui:33
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Default Entry:"
+msgstr "मूलभूत नोंद :"
 
-#~ msgctxt "@option:check"
-#~ msgid "Generate recovery entries"
-#~ msgstr "पुन्हस्थापन नोंदी तयार करा"
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_remove)
+#: ui/kcm_grub2.ui:49
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Old Entries"
+msgstr "जुन्या नोंदी काढून टाका"
 
-#~ msgctxt "@option:check"
-#~ msgid "Generate memtest entries"
-#~ msgstr "memtest नोंदी तयार करा"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_savedefault)
+#: ui/kcm_grub2.ui:58
+#, kde-format
+msgctxt "@option:check"
+msgid "The next booted entry will become default"
+msgstr ""
 
-#~ msgctxt "@option:check"
-#~ msgid "Probe for operating systems"
-#~ msgstr "फाईल प्रणाली शोधा"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_timeout)
+#: ui/kcm_grub2.ui:68
+#, kde-format
+msgctxt "@title:group"
+msgid "Timeout"
+msgstr "वेळेचे बंधन"
 
-#~ msgctxt "@title:tab"
-#~ msgid "Appearance"
-#~ msgstr "दर्शनीयता"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_hiddenTimeout)
+#: ui/kcm_grub2.ui:76
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide the menu for:"
+msgstr "याकरिता मेन्यू लपवा :"
 
-#~ msgctxt "@title:group"
-#~ msgid "Resolutions"
-#~ msgstr "रेझोल्युशन"
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinBox_hiddenTimeout)
+#. i18n: ectx: property (suffix), widget (QSpinBox, spinBox_timeout)
+#: ui/kcm_grub2.ui:86 ui/kcm_grub2.ui:182
+#, kde-format
+msgctxt "@label:spinbox seconds (suffix)"
+msgid "s"
+msgstr "s"
 
-#~ msgctxt "@label:listbox"
-#~ msgid "GRUB:"
-#~ msgstr "GRUB:"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_hiddenTimeoutShowTimer)
+#: ui/kcm_grub2.ui:114
+#, kde-format
+msgctxt "@option:check"
+msgid "Show countdown timer"
+msgstr "काउंटडाउन टाइमर दर्शवा"
 
-#~ msgctxt "@label:listbox"
-#~ msgid "Linux Kernel:"
-#~ msgstr "लिनक्स कर्नल :"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_timeout)
+#: ui/kcm_grub2.ui:121
+#, kde-format
+msgctxt "@option:check"
+msgid "Automatically boot the default entry after showing the menu"
+msgstr ""
 
-#~ msgctxt "@title:group"
-#~ msgid "Colors"
-#~ msgstr "रंग"
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_timeout0)
+#: ui/kcm_grub2.ui:144
+#, kde-format
+msgctxt "@option:radio"
+msgid "Immediately"
+msgstr "त्वरित"
 
-#~ msgctxt "@label:chooser"
-#~ msgid "Normal Foreground (Text):"
-#~ msgstr "सामान्य पृष्ठभूमी (मजकुर):"
+#. i18n: ectx: property (text), widget (QRadioButton, radioButton_timeout)
+#: ui/kcm_grub2.ui:169
+#, kde-format
+msgctxt "@option:radio"
+msgid "After:"
+msgstr "या नंतर :"
 
-#~ msgctxt "@label:chooser"
-#~ msgid "Highlight Foreground (Text):"
-#~ msgstr "पृष्ठभूमी ठळक करा (मजकुर):"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_entries)
+#: ui/kcm_grub2.ui:197
+#, kde-format
+msgctxt "@title:group"
+msgid "Generated Entries"
+msgstr "निर्माण केलेल्या नोंदी"
 
-#~ msgctxt "@label:chooser"
-#~ msgid "Normal Background:"
-#~ msgstr "साधारण पार्श्वभूमी :"
+#. i18n: ectx: property (text), widget (QLabel, label_language)
+#: ui/kcm_grub2.ui:203
+#, kde-format
+msgid "Language:"
+msgstr ""
 
-#~ msgctxt "@label:chooser"
-#~ msgid "Highlight Background:"
-#~ msgstr "पार्श्वभूमी ठळक करा :"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_recovery)
+#: ui/kcm_grub2.ui:217
+#, kde-format
+msgctxt "@option:check"
+msgid "Generate recovery entries"
+msgstr "पुन्हस्थापन नोंदी तयार करा"
 
-#~ msgctxt "@title:group Refers to the image shown behind the boot menu."
-#~ msgid "Background"
-#~ msgstr "पार्श्वभूमी"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_memtest)
+#: ui/kcm_grub2.ui:224
+#, kde-format
+msgctxt "@option:check"
+msgid "Generate memtest entries"
+msgstr "memtest नोंदी तयार करा"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Wallpaper:"
-#~ msgstr "वॉलपेपर :"
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_osProber)
+#: ui/kcm_grub2.ui:231
+#, kde-format
+msgctxt "@option:check"
+msgid "Probe for operating systems"
+msgstr "फाईल प्रणाली शोधा"
 
-#~ msgctxt "@action:button"
-#~ msgid "Preview"
-#~ msgstr "पूर्वावलोकन"
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: ui/kcm_grub2.ui:255
+#, kde-format
+msgctxt "@title:tab"
+msgid "Appearance"
+msgstr "दर्शनीयता"
 
-#~ msgctxt "@action:button"
-#~ msgid "Create"
-#~ msgstr "निर्माण करा"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_resolutions)
+#: ui/kcm_grub2.ui:261
+#, kde-format
+msgctxt "@title:group"
+msgid "Resolutions"
+msgstr "रेझोल्युशन"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Theme:"
-#~ msgstr "शैली :"
+#. i18n: ectx: property (text), widget (QLabel, label_gfxmode)
+#: ui/kcm_grub2.ui:267
+#, kde-format
+msgctxt "@label:listbox"
+msgid "GRUB:"
+msgstr "GRUB:"
 
-#~ msgctxt "@title:tab Refers to settings."
-#~ msgid "Advanced"
-#~ msgstr "प्रगत"
+#. i18n: ectx: property (toolTip), widget (QToolButton, toolButton_refreshGfxmode)
+#. i18n: ectx: property (toolTip), widget (QToolButton, toolButton_refreshGfxpayload)
+#: ui/kcm_grub2.ui:283 ui/kcm_grub2.ui:311
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Probe for supported VBE resolutions."
+msgstr ""
 
-#~ msgctxt "@title:group"
-#~ msgid "Linux Kernel Arguments"
-#~ msgstr "लिनक्स कर्नल बाबी"
+#. i18n: ectx: property (text), widget (QLabel, label_gfxpayload)
+#: ui/kcm_grub2.ui:295
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Linux Kernel:"
+msgstr "लिनक्स कर्नल :"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Normal Entries:"
-#~ msgstr "सामान्य नोंदी :"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_colors)
+#: ui/kcm_grub2.ui:326
+#, kde-format
+msgctxt "@title:group"
+msgid "Colors"
+msgstr "रंग"
 
-#~ msgctxt "@action:button"
-#~ msgid "Suggestions"
-#~ msgstr "सूचविलेले"
+#. i18n: ectx: property (text), widget (QLabel, label_normalForeground)
+#: ui/kcm_grub2.ui:334
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Normal Foreground (Text):"
+msgstr "सामान्य पृष्ठभूमी (मजकुर):"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "All Entries:"
-#~ msgstr "सर्व नोंदी :"
+#. i18n: ectx: property (text), widget (QLabel, label_highlightForeground)
+#: ui/kcm_grub2.ui:344
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Highlight Foreground (Text):"
+msgstr "पृष्ठभूमी ठळक करा (मजकुर):"
 
-#~ msgctxt "@title:group Noun."
-#~ msgid "Terminal"
-#~ msgstr "टर्मिनल"
+#. i18n: ectx: property (text), widget (QLabel, label_normalBackground)
+#: ui/kcm_grub2.ui:358
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Normal Background:"
+msgstr "साधारण पार्श्वभूमी :"
 
-#~ msgctxt "@label:textbox Noun."
-#~ msgid "Terminal:"
-#~ msgstr "टर्मिनल :"
+#. i18n: ectx: property (text), widget (QLabel, label_highlightBackground)
+#: ui/kcm_grub2.ui:368
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Highlight Background:"
+msgstr "पार्श्वभूमी ठळक करा :"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Input Terminal:"
-#~ msgstr "इनपुट टर्मिनल :"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_background)
+#: ui/kcm_grub2.ui:383
+#, kde-format
+msgctxt "@title:group Refers to the image shown behind the boot menu."
+msgid "Background"
+msgstr "पार्श्वभूमी"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Output Terminal:"
-#~ msgstr "आउटपुट टर्मिनल :"
+#. i18n: ectx: property (text), widget (QLabel, label_background)
+#: ui/kcm_grub2.ui:389
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Wallpaper:"
+msgstr "वॉलपेपर :"
 
-#~ msgctxt "@title:group Refers to settings."
-#~ msgid "Other"
-#~ msgstr "इतर"
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_preview)
+#: ui/kcm_grub2.ui:401
+#, kde-format
+msgctxt "@action:button"
+msgid "Preview"
+msgstr "पूर्वावलोकन"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Distributor:"
-#~ msgstr "वितरक :"
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_create)
+#: ui/kcm_grub2.ui:408
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr "निर्माण करा"
 
-#~ msgctxt "@label:textbox"
-#~ msgid "Serial Command:"
-#~ msgstr "सीरियल आदेश :"
+#. i18n: ectx: property (text), widget (QLabel, label_theme)
+#: ui/kcm_grub2.ui:417
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Theme:"
+msgstr "शैली :"
 
-#~ msgctxt "@option:check"
-#~ msgid "Enable UUIDs:"
-#~ msgstr "UUIDs कार्यान्वित करा :"
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: ui/kcm_grub2.ui:444
+#, kde-format
+msgctxt "@title:tab Refers to settings."
+msgid "Advanced"
+msgstr "प्रगत"
 
-#~ msgctxt "@title:group"
-#~ msgid "Tools"
-#~ msgstr "साधने"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_linux)
+#: ui/kcm_grub2.ui:450
+#, kde-format
+msgctxt "@title:group"
+msgid "Linux Kernel Arguments"
+msgstr "लिनक्स कर्नल बाबी"
 
-#~ msgctxt "@action:button"
-#~ msgid "Install/Recover Bootloader"
-#~ msgstr "बूटलोडर प्रतिष्ठापीत/पुन्हस्थापित करा"
+#. i18n: ectx: property (text), widget (QLabel, label_cmdlineDefault)
+#: ui/kcm_grub2.ui:456
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Normal Entries:"
+msgstr "सामान्य नोंदी :"
+
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_cmdlineDefaultSuggestions)
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_cmdlineSuggestions)
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_terminalSuggestions)
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_terminalInputSuggestions)
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_terminalOutputSuggestions)
+#: ui/kcm_grub2.ui:468 ui/kcm_grub2.ui:489 ui/kcm_grub2.ui:519
+#: ui/kcm_grub2.ui:540 ui/kcm_grub2.ui:561
+#, kde-format
+msgctxt "@action:button"
+msgid "Suggestions"
+msgstr "सूचविलेले"
+
+#. i18n: ectx: property (text), widget (QLabel, label_cmdline)
+#: ui/kcm_grub2.ui:477
+#, kde-format
+msgctxt "@label:textbox"
+msgid "All Entries:"
+msgstr "सर्व नोंदी :"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_terminal)
+#: ui/kcm_grub2.ui:501
+#, kde-format
+msgctxt "@title:group Noun."
+msgid "Terminal"
+msgstr "टर्मिनल"
+
+#. i18n: ectx: property (text), widget (QLabel, label_terminal)
+#: ui/kcm_grub2.ui:507
+#, kde-format
+msgctxt "@label:textbox Noun."
+msgid "Terminal:"
+msgstr "टर्मिनल :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_terminalInput)
+#: ui/kcm_grub2.ui:528
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Input Terminal:"
+msgstr "इनपुट टर्मिनल :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_terminalOutput)
+#: ui/kcm_grub2.ui:549
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Output Terminal:"
+msgstr "आउटपुट टर्मिनल :"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_other)
+#: ui/kcm_grub2.ui:573
+#, kde-format
+msgctxt "@title:group Refers to settings."
+msgid "Other"
+msgstr "इतर"
+
+#. i18n: ectx: property (text), widget (QLabel, label_distributor)
+#: ui/kcm_grub2.ui:579
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Distributor:"
+msgstr "वितरक :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_serial)
+#: ui/kcm_grub2.ui:589
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Serial Command:"
+msgstr "सीरियल आदेश :"
+
+#. i18n: ectx: property (text), widget (QLabel, label_initTune)
+#: ui/kcm_grub2.ui:599
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Init Tune:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_uuid)
+#: ui/kcm_grub2.ui:609
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable UUIDs:"
+msgstr "UUIDs कार्यान्वित करा :"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_tools)
+#: ui/kcm_grub2.ui:635
+#, kde-format
+msgctxt "@title:group"
+msgid "Tools"
+msgstr "साधने"
+
+#. i18n: ectx: property (text), widget (KPushButton, kpushbutton_install)
+#: ui/kcm_grub2.ui:647
+#, kde-format
+msgctxt "@action:button"
+msgid "Install/Recover Bootloader"
+msgstr "बूटलोडर प्रतिष्ठापीत/पुन्हस्थापित करा"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/removeDlg.ui:17
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Select entries to remove:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_headers)
+#: ui/removeDlg.ui:34
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove associated kernel header files."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_headers)
+#: ui/removeDlg.ui:37
+#, kde-format
+msgctxt "@option:check"
+msgid "Also remove associated old packages"
+msgstr ""

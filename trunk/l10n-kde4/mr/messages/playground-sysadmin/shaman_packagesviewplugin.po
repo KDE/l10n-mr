@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-17 01:55+0200\n"
+"POT-Creation-Date: 2018-10-18 01:53+0200\n"
 "PO-Revision-Date: 2013-03-30 16:46+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -33,7 +33,10 @@ msgstr "नाव"
 msgid "Version"
 msgstr "आवृत्ती"
 
+#. i18n: ectx: property (windowTitle), widget (QDockWidget, PackagesViewDockWidget)
+#. i18n: ectx: property (text), widget (QPushButton, repositoriesButton)
 #: PackagesModel.cpp:207 PackagesViewDockWidget.cpp:111
+#: PackagesViewDockWidget.ui:13 PackagesViewDockWidget.ui:45
 #, kde-format
 msgid "Repositories"
 msgstr "रीपोझिटरी"
@@ -118,20 +121,41 @@ msgstr "कुलूपाची वाट पाहत आहे..."
 msgid "Operation completed"
 msgstr "क्रिया पूर्ण झाली"
 
-#: PackagesViewDockWidget.cpp:119
+#. i18n: ectx: property (text), widget (QPushButton, packageGroupsButton)
+#: PackagesViewDockWidget.cpp:119 PackagesViewDockWidget.ui:58
 #, kde-format
 msgid "Package Groups"
 msgstr "पॅकेज समूह"
 
-#: PackagesViewDockWidget.cpp:128
+#. i18n: ectx: property (text), widget (QPushButton, favouritesButton)
+#: PackagesViewDockWidget.cpp:128 PackagesViewDockWidget.ui:68
 #, kde-format
 msgid "Favorite Searches"
 msgstr "पसंत शोध"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchLine)
+#: PackagesViewDockWidget.ui:38
+#, kde-format
+msgid "Search"
+msgstr "शोधा"
 
 #: PackagesViewPlugin.cpp:36
 #, kde-format
 msgid "%1 Packages"
 msgstr "%1 पॅकेजेस"
+
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchLine)
+#: PackagesViewWidget.ui:41
+#, kde-format
+msgctxt "click to add a searchterm"
+msgid "Search"
+msgstr "शोधा"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, addFavouriteSearchButton)
+#: PackagesViewWidget.ui:86
+#, kde-format
+msgid "Add favorite Search"
+msgstr "पसंत शोध जोडा"
 
 #: RepositoryModel.cpp:85
 #, kde-format
@@ -147,13 +171,3 @@ msgstr "मूळ"
 #, kde-format
 msgid "Extended"
 msgstr "विस्तारीत"
-
-#~ msgid "Search"
-#~ msgstr "शोधा"
-
-#~ msgctxt "click to add a searchterm"
-#~ msgid "Search"
-#~ msgstr "शोधा"
-
-#~ msgid "Add favorite Search"
-#~ msgstr "पसंत शोध जोडा"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-17 01:54+0200\n"
+"POT-Creation-Date: 2018-10-18 01:51+0200\n"
 "PO-Revision-Date: 2013-03-09 12:18+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -26,6 +26,36 @@ msgstr "चेतन खोना"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
+
+#. i18n: ectx: label, entry (collection), group (bookmanager)
+#: bookmanagerconfig.kcfg:9
+#, kde-format
+msgid "Show or hide the Collection Manager"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: bookmanagerui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "फाईल (&F)"
+
+#. i18n: ectx: Menu (Collection)
+#: bookmanagerui.rc:17
+#, kde-format
+msgid "&Collection"
+msgstr "संग्रह (&C)"
+
+#. i18n: ectx: Menu (Sessions)
+#: bookmanagerui.rc:23
+#, kde-format
+msgid "&Sessions"
+msgstr ""
+
+#. i18n: ectx: ToolBar (toolbar)
+#: bookmanagerui.rc:30
+#, kde-format
+msgid "Main Toolbar"
+msgstr "मुख्य साधनपट्टी"
 
 #: main.cpp:30 shell.cpp:411 shell.cpp:447 shell.cpp:451 shell.cpp:498
 #: shell.cpp:508
@@ -215,6 +245,72 @@ msgstr "आयात"
 msgid "&Save"
 msgstr "साठवा (&S)"
 
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: managerpart/importwidget.ui:19
+#, kde-format
+msgctxt "A books title"
+msgid "Title"
+msgstr "शिर्षक"
+
+#. i18n: ectx: property (text), widget (QLabel, authorLabel)
+#: managerpart/importwidget.ui:40
+#, kde-format
+msgctxt "A person who writes books."
+msgid "Author"
+msgstr "लेखक"
+
+#. i18n: ectx: property (text), widget (QLabel, relNumLabel)
+#: managerpart/importwidget.ui:59
+#, kde-format
+msgctxt "A books edition or release number."
+msgid "Release Number"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, relDateLabel)
+#: managerpart/importwidget.ui:76
+#, kde-format
+msgid "Release Date"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, seriesLabel)
+#: managerpart/importwidget.ui:95
+#, kde-format
+msgid "Series"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, volumeLabel)
+#: managerpart/importwidget.ui:108
+#, kde-format
+msgid "Volume"
+msgstr "आवाज"
+
+#. i18n: ectx: property (text), widget (QLabel, genreLabel)
+#: managerpart/importwidget.ui:122
+#, kde-format
+msgctxt "A books type or style, examples- Science fiction or history"
+msgid "Genre"
+msgstr "शैली"
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#: managerpart/importwidget.ui:135
+#, fuzzy, kde-format
+msgctxt "The on disk path to a book."
+msgid "Location"
+msgstr "स्थान"
+
+#. i18n: ectx: property (text), widget (QLabel, descLabel)
+#: managerpart/importwidget.ui:152
+#, kde-format
+msgctxt "A brief summary or description of the book"
+msgid "Description"
+msgstr "वर्णन"
+
+#. i18n: ectx: Menu (Collection)
+#: managerpart/managerpart.rc:4 shell.cpp:376 shell.cpp:388
+#, kde-format
+msgid "Collection"
+msgstr "संग्रह"
+
 #: managerpart/modifydialog.cpp:38
 #, fuzzy, kde-format
 msgctxt "go to the Previous entry"
@@ -263,6 +359,50 @@ msgctxt "A person who writes books"
 msgid "Author"
 msgstr "लेखक"
 
+#. i18n: ectx: property (toolTip), widget (KComboBox, searchTypeBox)
+#: managerpart/searchpage.ui:32
+#, kde-format
+msgctxt ""
+"Selects what type of search to perform. Examples: search by genre, search by "
+"author, search by title."
+msgid "Search the Collection by..."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, searchTypeBox)
+#: managerpart/searchpage.ui:39
+#, kde-format
+msgctxt "The name of a book"
+msgid "Title"
+msgstr "शिर्षक"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, searchTypeBox)
+#: managerpart/searchpage.ui:44
+#, kde-format
+msgctxt "The writer of a book"
+msgid "Author"
+msgstr "लेखक"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, searchTypeBox)
+#: managerpart/searchpage.ui:49
+#, kde-format
+msgctxt "The book's category"
+msgid "Genre"
+msgstr "शैली"
+
+#. i18n: ectx: property (text), widget (KPushButton, searchButton)
+#: managerpart/searchpage.ui:63
+#, fuzzy, kde-format
+msgctxt "Search the book collection"
+msgid "Search"
+msgstr "शोधा"
+
+#. i18n: ectx: property (text), widget (KPushButton, resetButton)
+#: managerpart/searchpage.ui:70
+#, fuzzy, kde-format
+msgctxt "Reset the search"
+msgid "Reset"
+msgstr "पुन्हस्थापित करा"
+
 #: shell.cpp:185
 #, kde-format
 msgid "Open file(s) in new tab(s)"
@@ -297,11 +437,6 @@ msgstr ""
 #, kde-format
 msgid "Unable to load the collection."
 msgstr ""
-
-#: shell.cpp:376 shell.cpp:388
-#, kde-format
-msgid "Collection"
-msgstr "संग्रह"
 
 #: shell.cpp:411
 #, kde-format
@@ -389,58 +524,3 @@ msgstr ""
 #, kde-format
 msgid "Error while removing session file %1"
 msgstr ""
-
-#~ msgid "&File"
-#~ msgstr "फाईल (&F)"
-
-#~ msgid "&Collection"
-#~ msgstr "संग्रह (&C)"
-
-#~ msgid "Main Toolbar"
-#~ msgstr "मुख्य साधनपट्टी"
-
-#~ msgctxt "A books title"
-#~ msgid "Title"
-#~ msgstr "शिर्षक"
-
-#~ msgctxt "A person who writes books."
-#~ msgid "Author"
-#~ msgstr "लेखक"
-
-#~ msgid "Volume"
-#~ msgstr "आवाज"
-
-#~ msgctxt "A books type or style, examples- Science fiction or history"
-#~ msgid "Genre"
-#~ msgstr "शैली"
-
-#, fuzzy
-#~ msgctxt "The on disk path to a book."
-#~ msgid "Location"
-#~ msgstr "स्थान"
-
-#~ msgctxt "A brief summary or description of the book"
-#~ msgid "Description"
-#~ msgstr "वर्णन"
-
-#~ msgctxt "The name of a book"
-#~ msgid "Title"
-#~ msgstr "शिर्षक"
-
-#~ msgctxt "The writer of a book"
-#~ msgid "Author"
-#~ msgstr "लेखक"
-
-#~ msgctxt "The book's category"
-#~ msgid "Genre"
-#~ msgstr "शैली"
-
-#, fuzzy
-#~ msgctxt "Search the book collection"
-#~ msgid "Search"
-#~ msgstr "शोधा"
-
-#, fuzzy
-#~ msgctxt "Reset the search"
-#~ msgid "Reset"
-#~ msgstr "पुन्हस्थापित करा"
