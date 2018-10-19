@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-18 03:48+0200\n"
+"POT-Creation-Date: 2018-10-19 03:43+0200\n"
 "PO-Revision-Date: 2013-03-05 17:03+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1719,17 +1719,17 @@ msgstr ""
 msgid "Path to the Sage executable"
 msgstr ""
 
-#: backends/sage/sageexpression.cpp:134
+#: backends/sage/sageexpression.cpp:70
 #, fuzzy, kde-format
 msgid "Syntax Error"
 msgstr "रचना त्रुटी"
 
-#: backends/sage/sageexpression.cpp:218 backends/sage/sageexpression.cpp:220
+#: backends/sage/sageexpression.cpp:225 backends/sage/sageexpression.cpp:227
 #, kde-format
 msgid "Result of %1"
 msgstr ""
 
-#: backends/sage/sageexpression.cpp:227
+#: backends/sage/sageexpression.cpp:234
 #, kde-format
 msgid ""
 "%1\n"
@@ -1749,35 +1749,35 @@ msgid ""
 "supported versions to make it work with Cantor."
 msgstr ""
 
-#: backends/sage/sagesession.cpp:213 backends/sage/sagesession.cpp:319
-#: backends/sage/sagesession.cpp:330 cantor.cpp:161 cantor.cpp:163 main.cpp:74
-#: worksheet.cpp:984 worksheet.cpp:1007 worksheet.cpp:1016 worksheet.cpp:1035
-#: worksheet.cpp:1044
+#: backends/sage/sagesession.cpp:213 backends/sage/sagesession.cpp:322
+#: backends/sage/sagesession.cpp:333 cantor.cpp:161 cantor.cpp:163 main.cpp:77
+#: main.cpp:144 worksheet.cpp:984 worksheet.cpp:1007 worksheet.cpp:1016
+#: worksheet.cpp:1035 worksheet.cpp:1044
 #, kde-format
 msgid "Cantor"
 msgstr ""
 
-#: backends/sage/sagesession.cpp:315
+#: backends/sage/sagesession.cpp:318
 #, kde-format
 msgid "The Sage process crashed while evaluating this expression"
 msgstr ""
 
-#: backends/sage/sagesession.cpp:319
+#: backends/sage/sagesession.cpp:322
 #, kde-format
 msgid "The Sage process crashed"
 msgstr ""
 
-#: backends/sage/sagesession.cpp:326
+#: backends/sage/sagesession.cpp:329
 #, kde-format
 msgid "The Sage process exited while evaluating this expression"
 msgstr ""
 
-#: backends/sage/sagesession.cpp:330
+#: backends/sage/sagesession.cpp:333
 #, kde-format
 msgid "The Sage process exited"
 msgstr ""
 
-#: backends/sage/sagesession.cpp:340
+#: backends/sage/sagesession.cpp:343
 #, kde-format
 msgid "Failed to start Sage"
 msgstr ""
@@ -2057,7 +2057,7 @@ msgstr ""
 msgid "(C) 2009-2015 Alexander Rieder"
 msgstr ""
 
-#: cantor_part.cpp:382 main.cpp:88
+#: cantor_part.cpp:382 main.cpp:91
 #, kde-format
 msgid "Alexander Rieder"
 msgstr ""
@@ -2570,76 +2570,81 @@ msgstr ""
 msgid "Plot title:"
 msgstr ""
 
-#: main.cpp:33
+#: main.cpp:36
 #, kde-format
 msgid "KDE Frontend to mathematical applications"
 msgstr ""
 
-#: main.cpp:82
+#: main.cpp:85
 #, kde-format
 msgid "(C) 2016 Filipe Saraiva<br/>(C) 2009-2015 Alexander Rieder"
 msgstr ""
 
-#: main.cpp:86
+#: main.cpp:89
 #, kde-format
 msgid "Filipe Saraiva"
 msgstr ""
 
-#: main.cpp:86
+#: main.cpp:89
 #, kde-format
 msgid "Maintainer<br/>Qt5/KF5 port, Scilab and Python backends"
 msgstr ""
 
-#: main.cpp:88
+#: main.cpp:91
 #, kde-format
 msgid "Original author<br/>Maintainer (2009 - 2015)"
 msgstr ""
 
-#: main.cpp:89
+#: main.cpp:92
 #, kde-format
 msgid "Aleix Pol Gonzalez"
 msgstr "एलैक्स पोल गोन्झालेझ"
 
-#: main.cpp:89
+#: main.cpp:92
 #, kde-format
 msgid "KAlgebra backend"
 msgstr ""
 
-#: main.cpp:90
+#: main.cpp:93
 #, kde-format
 msgid "Miha Čančula"
 msgstr ""
 
-#: main.cpp:90
+#: main.cpp:93
 #, kde-format
 msgid "Octave backend"
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:95
 #, kde-format
 msgid "Martin Küttler"
 msgstr ""
 
-#: main.cpp:92
+#: main.cpp:95
 #, kde-format
 msgid "Interface"
 msgstr "दुवा"
 
-#: main.cpp:94 main.cpp:95
+#: main.cpp:97 main.cpp:98
 #, kde-format
 msgid "Cantor icon"
 msgstr ""
 
-#: main.cpp:103
+#: main.cpp:106
 #, kde-format
 msgid "Use  backend <backend>"
 msgstr ""
 
-#: main.cpp:106
+#: main.cpp:109
 #, fuzzy, kde-format
 #| msgid "Document to open"
 msgid "Documents to open."
 msgstr "उघडण्याचा दस्तऐवज"
+
+#: main.cpp:144 worksheet.cpp:984
+#, fuzzy, kde-format
+msgid "Couldn't open the file %1"
+msgstr "फाईल उघडतेवेळी त्रुटी."
 
 #: pagebreakentry.cpp:39
 #, kde-format
@@ -2859,11 +2864,6 @@ msgstr ""
 #, kde-format
 msgid "Error loading latex.xsl stylesheet"
 msgstr ""
-
-#: worksheet.cpp:984
-#, fuzzy, kde-format
-msgid "Couldn't open the file %1"
-msgstr "फाईल उघडतेवेळी त्रुटी."
 
 #: worksheet.cpp:1007 worksheet.cpp:1016
 #, kde-format
