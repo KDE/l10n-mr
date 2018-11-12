@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-11-02 03:45+0100\n"
+"POT-Creation-Date: 2018-11-12 03:48+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -20111,7 +20111,7 @@ msgstr "कार्यक्षेत्र निवडा"
 msgid "%1:"
 msgstr "%1:"
 
-#: libs/widgets/kis_color_input.cpp:342
+#: libs/widgets/kis_color_input.cpp:360
 #: libs/widgets/KoEditColorSetDialog.cpp:174
 #, kde-format
 msgid "Color name:"
@@ -24827,21 +24827,30 @@ msgstr "कुंचला पूर्व संयोजना"
 msgid "Small Color Selector"
 msgstr "छोटा रंग निवडणारा"
 
-#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:62
-#, kde-format
-msgid "Show Colorspace Selector"
-msgstr "रंगजागा निवडणारा दर्शवा"
-
-#: plugins/dockers/specificcolorselector/kis_specific_color_selector_widget.cc:65
-#, fuzzy, kde-format
-#| msgid "Percent"
-msgid "Use Percentage"
-msgstr "प्रतिशत"
-
 #: plugins/dockers/specificcolorselector/specificcolorselector_dock.cc:33
 #, kde-format
 msgid "Specific Color Selector"
 msgstr "विशिष्ट रंग निवडणारा"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, wdgSpecificColorSelectorWidget)
+#: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:14
+#, fuzzy, kde-format
+msgid "Form"
+msgstr "स्वरूप :"
+
+#. i18n: ectx: property (text), widget (KisPopupButton, colorspacePopupButton)
+#: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:43
+#, fuzzy, kde-format
+#| msgid "use custom color space"
+msgid "Set color space"
+msgstr "निवडीप्रमाणे रंगाची जागा वापरा"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, chkUsePercentage)
+#: plugins/dockers/specificcolorselector/wdgSpecificColorSelectorWidget.ui:68
+#, fuzzy, kde-format
+#| msgid "Percent"
+msgid "Use percentage"
+msgstr "प्रतिशत"
 
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:169
 #, fuzzy, kde-format
@@ -41795,6 +41804,9 @@ msgstr "डेकोरेशन्स दर्शवा"
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
 
+#~ msgid "Show Colorspace Selector"
+#~ msgstr "रंगजागा निवडणारा दर्शवा"
+
 #, fuzzy
 #~| msgid "Modified:"
 #~ msgid "Modified"
@@ -41804,10 +41816,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~| msgid "Scrollbars"
 #~ msgid "Show Scrollbar"
 #~ msgstr "स्क्रोलबार्स"
-
-#, fuzzy
-#~ msgid "Form"
-#~ msgstr "स्वरूप :"
 
 #, fuzzy
 #~| msgid "Name"
@@ -67346,9 +67354,6 @@ msgstr "पुनरावर्ती कार्य करा"
 
 #~ msgid "hide shade selector"
 #~ msgstr "छाया निवडणारा लपवा"
-
-#~ msgid "use custom color space"
-#~ msgstr "निवडीप्रमाणे रंगाची जागा वापरा"
 
 #, fuzzy
 #~| msgid "Tool information"
