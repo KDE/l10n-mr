@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-10-13 03:49+0200\n"
+"POT-Creation-Date: 2018-12-24 03:08+0100\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -101,8 +101,8 @@ msgid ""
 "leaving other colors untouched"
 msgstr ""
 
-#: app/browsemainpage.cpp:149 app/mainwindow.cpp:368 app/viewmainpage.cpp:440
-#: lib/documentview/documentviewcontroller.cpp:88
+#: app/browsemainpage.cpp:149 app/mainwindow.cpp:368 app/viewmainpage.cpp:442
+#: lib/documentview/documentviewcontroller.cpp:60
 #, kde-format
 msgctxt "@title actions category - means actions changing smth in interface"
 msgid "View"
@@ -567,7 +567,7 @@ msgctxt "@info:tooltip"
 msgid "Configure full screen mode"
 msgstr "पूर्ण स्क्रीन पद्धतीची व्यूहरचना"
 
-#: app/fullscreencontent.cpp:568 app/viewmainpage.cpp:410
+#: app/fullscreencontent.cpp:568 app/viewmainpage.cpp:412
 #, kde-format
 msgctxt "@info:status %1 current document index, %2 total documents"
 msgid "%1 of %2"
@@ -735,9 +735,8 @@ msgstr "पलटी करा"
 msgid "Resize"
 msgstr "आकार बदला"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, CropWidget)
 #: app/imageopscontextmanageritem.cpp:110 lib/crop/cropimageoperation.cpp:71
-#: lib/crop/cropwidget.cpp:255 lib/crop/cropwidget.ui:20
+#: lib/crop/cropwidget.cpp:271
 #, kde-format
 msgid "Crop"
 msgstr "लहान करा"
@@ -1542,23 +1541,23 @@ msgstr ""
 "टॅग्स वापरून शोधण्याची सोय उपलब्ध नाही. नेपोमुक(Nepomuk) योग्य तऱ्हेने प्रतीस्थापित केलेला "
 "आहे याची खात्री करा"
 
-#: app/viewmainpage.cpp:296 app/viewmainpage.cpp:450
+#: app/viewmainpage.cpp:298 app/viewmainpage.cpp:452
 #, kde-format
 msgid "Synchronize"
 msgstr "सिंक्रोनाईझ"
 
-#: app/viewmainpage.cpp:443
+#: app/viewmainpage.cpp:445
 #, kde-format
 msgid "Thumbnail Bar"
 msgstr "लघुप्रतिमा पट्टी"
 
-#: app/viewmainpage.cpp:754
+#: app/viewmainpage.cpp:756
 #, kde-format
 msgctxt "@action:button"
 msgid "Discard Changes and Reload"
 msgstr "बदल काढून टाका आणि पुन्हा दाखल करा"
 
-#: app/viewmainpage.cpp:756
+#: app/viewmainpage.cpp:758
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1844,39 +1843,39 @@ msgstr "वर्तमान आकार :"
 msgid "Developer"
 msgstr "विकसक"
 
-#: lib/crop/cropwidget.cpp:182
+#: lib/crop/cropwidget.cpp:198
 #, fuzzy, kde-format
 #| msgid "Print Image"
 msgid "Current Image"
 msgstr "प्रतिमा छापा"
 
-#: lib/crop/cropwidget.cpp:185
+#: lib/crop/cropwidget.cpp:201
 #, kde-format
 msgid "Square"
 msgstr "चौरस"
 
-#: lib/crop/cropwidget.cpp:186
+#: lib/crop/cropwidget.cpp:202
 #, kde-format
 msgid "This Screen"
 msgstr "हा स्क्रीन"
 
-#: lib/crop/cropwidget.cpp:187
+#: lib/crop/cropwidget.cpp:203
 #, kde-format
 msgid "Landscape"
 msgstr "लँडस्केप"
 
-#: lib/crop/cropwidget.cpp:192 lib/crop/cropwidget.cpp:199
+#: lib/crop/cropwidget.cpp:208 lib/crop/cropwidget.cpp:215
 #, fuzzy, kde-format
 #| msgid "ISO Size (A4, A3...)"
 msgid "ISO (A4, A3...)"
 msgstr "आयएसओ (ISO) आकार(अ४, अ३.....)"
 
-#: lib/crop/cropwidget.cpp:193 lib/crop/cropwidget.cpp:200
+#: lib/crop/cropwidget.cpp:209 lib/crop/cropwidget.cpp:216
 #, kde-format
 msgid "US Letter"
 msgstr "युएस (US) पत्र/अक्षर "
 
-#: lib/crop/cropwidget.cpp:194
+#: lib/crop/cropwidget.cpp:210
 #, kde-format
 msgid "Portrait"
 msgstr "पोर्ट्रेट"
@@ -1884,46 +1883,49 @@ msgstr "पोर्ट्रेट"
 #. i18n("%1:%2") because ':' should not be translated, it is
 #. used to parse the ratio string.
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: lib/crop/cropwidget.cpp:209 lib/resize/resizeimagewidget.ui:164
+#: lib/crop/cropwidget.cpp:225 lib/resize/resizeimagewidget.ui:164
 #, kde-format
 msgid "Width"
 msgstr "रुंदी"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: lib/crop/cropwidget.cpp:209 lib/resize/resizeimagewidget.ui:174
+#: lib/crop/cropwidget.cpp:225 lib/resize/resizeimagewidget.ui:174
 #, kde-format
 msgid "Height"
 msgstr "उंची"
 
-#. i18n: ectx: property (text), widget (QCheckBox, advancedCheckBox)
-#: lib/crop/cropwidget.ui:29
-#, kde-format
+#: lib/crop/cropwidget.cpp:296
+#, fuzzy, kde-format
+#| msgid "Advanced settings"
+msgctxt "@option:check"
 msgid "Advanced settings"
 msgstr "प्रगत संयोजना"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: lib/crop/cropwidget.ui:55
+#: lib/crop/cropwidget.cpp:305
 #, fuzzy, kde-format
 #| msgid "Keep aspect ratio"
+msgctxt "@label:listbox"
 msgid "Aspect ratio:"
 msgstr "स्वरूपाचे गुणोत्तर ठेवा"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: lib/crop/cropwidget.ui:97 lib/redeyereduction/redeyereductionwidget.ui:43
-#, kde-format
+#: lib/crop/cropwidget.cpp:318
+#, fuzzy, kde-format
+#| msgid "Size:"
+msgctxt "@label:spinbox"
 msgid "Size:"
 msgstr "आकार :"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: lib/crop/cropwidget.ui:156
-#, kde-format
+#: lib/crop/cropwidget.cpp:340
+#, fuzzy, kde-format
+#| msgid "Position:"
+msgctxt "@label:spinbox"
 msgid "Position:"
 msgstr "स्थान :"
 
-#. i18n: ectx: property (text), widget (QCheckBox, preserveAspectRatioCheckBox)
-#: lib/crop/cropwidget.ui:205
+#: lib/crop/cropwidget.cpp:361
 #, fuzzy, kde-format
 #| msgid "Keep aspect ratio"
+msgctxt "@option:check"
 msgid "Preserve aspect ratio"
 msgstr "स्वरूपाचे गुणोत्तर ठेवा"
 
@@ -2005,24 +2007,24 @@ msgstr "ह्या प्रकारचा दस्तऐवज कश्य
 msgid "Loading <filename>%1</filename> failed"
 msgstr "<filename>%1</filename> दाखल करता आली नाही"
 
-#: lib/documentview/documentviewcontroller.cpp:94
+#: lib/documentview/documentviewcontroller.cpp:66
 #, fuzzy, kde-format
 #| msgid "Zoom to Fit"
 msgid "Zoom to fit"
 msgstr "पूर्ण बसेल असे झूम करा"
 
-#: lib/documentview/documentviewcontroller.cpp:96
+#: lib/documentview/documentviewcontroller.cpp:68
 #, kde-format
 msgctxt "@action:button Zoom to fit, shown in status bar, keep it short please"
 msgid "Fit"
 msgstr "समर्पक"
 
-#: lib/documentview/documentviewcontroller.cpp:101
+#: lib/documentview/documentviewcontroller.cpp:73
 #, kde-format
 msgid "Zoom to fill window by fitting to width or height"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:103
+#: lib/documentview/documentviewcontroller.cpp:75
 #, kde-format
 msgctxt ""
 "@action:button Zoom to fill (fit width or height), shown in status bar, keep "
@@ -2030,7 +2032,7 @@ msgctxt ""
 msgid "Fill"
 msgstr ""
 
-#: lib/documentview/documentviewcontroller.cpp:108
+#: lib/documentview/documentviewcontroller.cpp:80
 #, kde-format
 msgctxt ""
 "@action:button Zoom to original size, shown in status bar, keep it short "
@@ -2317,6 +2319,12 @@ msgstr "इंच"
 #, kde-format
 msgid "Keep ratio"
 msgstr "गुणोत्तर ठेवा"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: lib/redeyereduction/redeyereductionwidget.ui:43
+#, kde-format
+msgid "Size:"
+msgstr "आकार :"
 
 #. i18n: ectx: property (text), widget (QLabel, helpTextLabel)
 #: lib/redeyereduction/redeyereductionwidget.ui:150
