@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: powerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-20 03:32+0100\n"
+"POT-Creation-Date: 2019-02-28 03:25+0100\n"
 "PO-Revision-Date: 2014-10-28 10:28+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -107,9 +107,11 @@ msgstr "काहीच करू नका"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:99
 #: actions/bundled/suspendsessionconfig.cpp:82
-#, kde-format
-msgid "Suspend"
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Sleep"
+msgctxt "Suspend to RAM"
+msgid "Sleep"
+msgstr "झोप"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:102
 #: actions/bundled/suspendsessionconfig.cpp:85
@@ -118,9 +120,8 @@ msgid "Hibernate"
 msgstr "हायबरनेट"
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:105
-#: actions/bundled/suspendsessionconfig.cpp:88
 #, kde-format
-msgid "Hybrid suspend"
+msgid "Hybrid sleep"
 msgstr ""
 
 #: actions/bundled/handlebuttoneventsconfig.cpp:107
@@ -199,6 +200,11 @@ msgstr "रूपरेषा अनलोड केल्यावर"
 #, kde-format
 msgid "Run script"
 msgstr "स्क्रिप्ट चालवा"
+
+#: actions/bundled/suspendsessionconfig.cpp:88
+#, kde-format
+msgid "Hybrid suspend"
+msgstr ""
 
 #: actions/bundled/wirelesspowersavingconfig.cpp:75
 #: actions/bundled/wirelesspowersavingconfig.cpp:80
@@ -513,9 +519,6 @@ msgid "Your battery is now fully charged."
 msgstr "तुमची बॅटरी पूर्ण चार्ज झालेली आहे."
 
 #~ msgctxt "@action:inmenu Global shortcut"
-#~ msgid "Sleep"
-#~ msgstr "झोप"
-
 #~ msgid "Sleep"
 #~ msgstr "झोप"
 

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-01-19 03:20+0100\n"
+"POT-Creation-Date: 2019-02-28 03:18+0100\n"
 "PO-Revision-Date: 2013-03-05 17:34+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -675,7 +675,7 @@ msgid ""
 msgstr ""
 
 #: src/commands/exportpaperkeycommand.cpp:146
-#: src/commands/exportsecretkeycommand.cpp:156
+#: src/commands/exportsecretkeycommand.cpp:162
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -683,19 +683,30 @@ msgid ""
 "<para>The output from <command>%1</command> was: <message>%2</message></para>"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:137
+#: src/commands/exportsecretkeycommand.cpp:97
+#, kde-format
+msgid "Export Secret Key"
+msgstr ""
+
+#: src/commands/exportsecretkeycommand.cpp:101
+#: src/commands/exportsecretkeycommand.cpp:102
+#, kde-format
+msgid "Secret Key Files"
+msgstr ""
+
+#: src/commands/exportsecretkeycommand.cpp:143
 #, kde-format
 msgctxt "@title:window"
 msgid "Secret Key Export Error"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:142
+#: src/commands/exportsecretkeycommand.cpp:148
 #, kde-format
 msgctxt "@title:window"
 msgid "Secret Key Export Finished"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:148
+#: src/commands/exportsecretkeycommand.cpp:154
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -704,7 +715,7 @@ msgid ""
 "output of <icode>%1</icode> for details.</para>"
 msgstr ""
 
-#: src/commands/exportsecretkeycommand.cpp:163
+#: src/commands/exportsecretkeycommand.cpp:169
 #, kde-format
 msgctxt "@info"
 msgid "Secret key successfully exported."
@@ -3852,7 +3863,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, certifyBtn)
 #: src/dialogs/certificatedetailswidget.ui:67
 #: src/dialogs/certifycertificatedialog.cpp:199
-#: src/newcertificatewizard/newcertificatewizard.cpp:1646
+#: src/newcertificatewizard/newcertificatewizard.cpp:1649
 #, kde-format
 msgid "Certify"
 msgstr ""
@@ -4313,65 +4324,6 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "Export..."
 msgstr "निर्यात"
-
-#: src/dialogs/exportsecretkeydialog.cpp:104
-#, kde-format
-msgid "Secret Key Files"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:128
-#, kde-format
-msgctxt "@info"
-msgid "Please select export options for %1:"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:142
-#, kde-format
-msgid "Secret Key Files (*.pem *.p12 *.gpg *.asc *.pgp)"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:221
-#, kde-format
-msgctxt "@info"
-msgid "You have to enter an output filename."
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:222
-#: src/dialogs/exportsecretkeydialog.cpp:231
-#, kde-format
-msgctxt "@title"
-msgid "Incomplete data"
-msgstr ""
-
-#: src/dialogs/exportsecretkeydialog.cpp:230
-#, kde-format
-msgctxt "@info"
-msgid "You have to choose a passphrase character set."
-msgstr ""
-
-#. i18n: ectx: property (windowTitle), widget (QDialog, ExportSecretKeyDialog)
-#: src/dialogs/exportsecretkeydialog.ui:13
-#, kde-format
-msgid "Export Secret Certificate"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, outputFileLB)
-#: src/dialogs/exportsecretkeydialog.ui:26
-#, kde-format
-msgid "Output file:"
-msgstr "आउटपुट फाईल :"
-
-#. i18n: ectx: property (text), widget (QLabel, charsetLB)
-#: src/dialogs/exportsecretkeydialog.ui:36
-#, kde-format
-msgid "Passphrase charset:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, armorCB)
-#: src/dialogs/exportsecretkeydialog.ui:66
-#, kde-format
-msgid "ASCII armor"
-msgstr ""
 
 #: src/dialogs/gencardkeydialog.cpp:77
 #: src/newcertificatewizard/newcertificatewizard.cpp:1708
@@ -5897,18 +5849,18 @@ msgctxt "@title"
 msgid "Key Pair Creation Wizard"
 msgstr ""
 
-#: src/newcertificatewizard/newcertificatewizard.cpp:1638
+#: src/newcertificatewizard/newcertificatewizard.cpp:1639
 #, kde-format
 msgid "Sign"
 msgstr ""
 
-#: src/newcertificatewizard/newcertificatewizard.cpp:1642
+#: src/newcertificatewizard/newcertificatewizard.cpp:1643
 #: src/newcertificatewizard/newcertificatewizard.cpp:1671
 #, kde-format
 msgid "Encrypt"
 msgstr ""
 
-#: src/newcertificatewizard/newcertificatewizard.cpp:1649
+#: src/newcertificatewizard/newcertificatewizard.cpp:1646
 #, kde-format
 msgid "Authenticate"
 msgstr ""
@@ -7941,6 +7893,9 @@ msgstr ""
 #, kde-format
 msgid "To import from a public keyserver use \"Lookup on Server\" instead."
 msgstr ""
+
+#~ msgid "Output file:"
+#~ msgstr "आउटपुट फाईल :"
 
 #, fuzzy
 #~ msgid "Comment:"
