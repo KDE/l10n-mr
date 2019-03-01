@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-28 02:53+0100\n"
+"POT-Creation-Date: 2019-03-01 03:02+0100\n"
 "PO-Revision-Date: 2013-04-16 11:01+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1454,7 +1454,7 @@ msgstr ""
 
 #: main/KoPrintingDialog.cpp:147 ui/kptaccountseditor.cpp:72
 #: ui/kptaccountsviewconfigdialog.cpp:89 ui/kptdependencyeditor.cpp:1980
-#: ui/kptganttview.cpp:149 ui/kptganttview.cpp:984 ui/kptganttview.cpp:1274
+#: ui/kptganttview.cpp:178 ui/kptganttview.cpp:1040 ui/kptganttview.cpp:1330
 #: ui/kptitemviewsettup.cpp:201 ui/kptitemviewsettup.cpp:285
 #: ui/kptresourceappointmentsview.cpp:105
 #: ui/performance/ProjectStatusView.cpp:148
@@ -5423,8 +5423,8 @@ msgid "Settings"
 msgstr "संयोजना"
 
 #: ui/kptaccountseditor.cpp:73 ui/kptaccountsviewconfigdialog.cpp:90
-#: ui/kptdependencyeditor.cpp:1981 ui/kptganttview.cpp:149
-#: ui/kptganttview.cpp:984 ui/kptganttview.cpp:1274
+#: ui/kptdependencyeditor.cpp:1981 ui/kptganttview.cpp:178
+#: ui/kptganttview.cpp:1040 ui/kptganttview.cpp:1330
 #: ui/kptitemviewsettup.cpp:201 ui/kptitemviewsettup.cpp:285
 #: ui/kptresourceappointmentsview.cpp:106
 #: ui/performance/ProjectStatusView.cpp:149
@@ -5879,14 +5879,105 @@ msgstr "काढून टाका"
 msgid "Open"
 msgstr "उघडा"
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: ui/kptganttchartdisplayoptions.ui:20
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Timezone"
+msgid "Timeline"
+msgstr "वेळक्षेत्र"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, ui_timeLineHide)
+#: ui/kptganttchartdisplayoptions.ui:28
+#, kde-format
+msgid "Do not show the timeline"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_timeLineHide)
+#: ui/kptganttchartdisplayoptions.ui:31
+#, kde-format
+msgid "Hide"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, ui_timeLineForeground)
+#: ui/kptganttchartdisplayoptions.ui:38
+#, kde-format
+msgid "Show timeline in the foreground"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_timeLineForeground)
+#: ui/kptganttchartdisplayoptions.ui:41
+#, kde-format
+msgid "Foreground"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, ui_timeLineBackground)
+#: ui/kptganttchartdisplayoptions.ui:48
+#, kde-format
+msgid "Show timeline in the background"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, ui_timeLineBackground)
+#: ui/kptganttchartdisplayoptions.ui:51
+#, fuzzy, kde-format
+#| msgctxt "Schedule project backward"
+#| msgid "Backward"
+msgid "Background"
+msgstr "मागे"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_3)
+#: ui/kptganttchartdisplayoptions.ui:60
+#, kde-format
+msgid "Update interval in minutes, 0 disables update"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: ui/kptganttchartdisplayoptions.ui:63
+#, fuzzy, kde-format
+#| msgid "Interval"
+msgid "Interval:"
+msgstr "मध्यांतर"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_timeLineUseCustom)
+#: ui/kptganttchartdisplayoptions.ui:93
+#, kde-format
+msgid "Use custom line"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#: ui/kptganttchartdisplayoptions.ui:102
+#, fuzzy, kde-format
+#| msgid "Chart"
+msgid "Line width"
+msgstr "चार्ट"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: ui/kptganttchartdisplayoptions.ui:105
+#, kde-format
+msgid "Stroke:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#: ui/kptganttchartdisplayoptions.ui:126
+#, fuzzy, kde-format
+#| msgid "Chart"
+msgid "Line color"
+msgstr "चार्ट"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/kptganttchartdisplayoptions.ui:129
+#, kde-format
+msgid "Color:"
+msgstr ""
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ui/kptganttchartdisplayoptions.ui:23
+#: ui/kptganttchartdisplayoptions.ui:153
 #, kde-format
 msgid "Additional text information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showTaskName)
-#: ui/kptganttchartdisplayoptions.ui:29
+#: ui/kptganttchartdisplayoptions.ui:159
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify task"
@@ -5894,20 +5985,20 @@ msgid "Task name"
 msgstr "कार्य बदला"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showResourceNames)
-#: ui/kptganttchartdisplayoptions.ui:36
+#: ui/kptganttchartdisplayoptions.ui:166
 #, fuzzy, kde-format
 #| msgid "Resources"
 msgid "Resource names"
 msgstr "संसाधने"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ui/kptganttchartdisplayoptions.ui:46
+#: ui/kptganttchartdisplayoptions.ui:176
 #, kde-format
 msgid "Additional graphics information"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showDependencies)
-#: ui/kptganttchartdisplayoptions.ui:55
+#: ui/kptganttchartdisplayoptions.ui:185
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify task"
@@ -5915,7 +6006,7 @@ msgid "Task dependencies"
 msgstr "कार्य बदला"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showCompletion)
-#: ui/kptganttchartdisplayoptions.ui:62
+#: ui/kptganttchartdisplayoptions.ui:192
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify task"
@@ -5923,47 +6014,47 @@ msgid "Task completion"
 msgstr "कार्य बदला"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showTimeConstraint)
-#: ui/kptganttchartdisplayoptions.ui:69
+#: ui/kptganttchartdisplayoptions.ui:199
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Add calendar"
 msgid "Time constraints"
 msgstr "दिनदर्शिका वाढवा"
 
-#. i18n: ectx: property (text), widget (QCheckBox, ui_showSchedulingError)
-#: ui/kptganttchartdisplayoptions.ui:89
-#, fuzzy, kde-format
-#| msgid "Scheduling"
-msgid "Scheduling errors"
-msgstr "नियोजीत करत आहे"
-
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showPositiveFloat)
-#: ui/kptganttchartdisplayoptions.ui:96
+#: ui/kptganttchartdisplayoptions.ui:219
 #, fuzzy, kde-format
 #| msgid "Positive"
 msgid "Positive float"
 msgstr "पॉजिटिव्ह"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showNegativeFloat)
-#: ui/kptganttchartdisplayoptions.ui:103
+#: ui/kptganttchartdisplayoptions.ui:226
 #, fuzzy, kde-format
 #| msgid "Negative"
 msgid "Negative float"
 msgstr "निगेटिव्ह"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showCriticalPath)
-#: ui/kptganttchartdisplayoptions.ui:110
+#: ui/kptganttchartdisplayoptions.ui:233
 #, fuzzy, kde-format
 #| msgid "Critical"
 msgid "Critical path"
 msgstr "गंभीर"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_showCriticalTasks)
-#: ui/kptganttchartdisplayoptions.ui:117
+#: ui/kptganttchartdisplayoptions.ui:240
 #, fuzzy, kde-format
 #| msgid "Critical"
 msgid "Critical tasks"
 msgstr "गंभीर"
+
+#. i18n: ectx: property (text), widget (QCheckBox, ui_showSchedulingError)
+#: ui/kptganttchartdisplayoptions.ui:247
+#, fuzzy, kde-format
+#| msgid "Scheduling"
+msgid "Scheduling errors"
+msgstr "नियोजीत करत आहे"
 
 #: ui/kptganttitemdelegate.cpp:90
 #, kde-kuit-format
@@ -6031,25 +6122,25 @@ msgstr ""
 msgid "Divide chart on multiple pages"
 msgstr ""
 
-#: ui/kptganttview.cpp:139 ui/performance/PerformanceStatusView.cpp:319
+#: ui/kptganttview.cpp:168 ui/performance/PerformanceStatusView.cpp:319
 #: ui/performance/ProjectStatusView.cpp:133
 #, kde-format
 msgid "Chart"
 msgstr "चार्ट"
 
-#: ui/kptganttview.cpp:139
+#: ui/kptganttview.cpp:168
 #, fuzzy, kde-format
 #| msgid "General Settings"
 msgid "Gantt Chart Settings"
 msgstr "सामान्य संयोजना"
 
-#: ui/kptganttview.cpp:195
+#: ui/kptganttview.cpp:224
 #, kde-kuit-format
 msgctxt "@title:tab"
 msgid "Chart"
 msgstr "चार्ट"
 
-#: ui/kptganttview.cpp:756
+#: ui/kptganttview.cpp:812
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6061,13 +6152,13 @@ msgid ""
 "><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:782 ui/kpttaskeditor.cpp:860 ui/kpttaskeditor.cpp:1328
+#: ui/kptganttview.cpp:838 ui/kpttaskeditor.cpp:860 ui/kpttaskeditor.cpp:1328
 #, fuzzy, kde-format
 #| msgid "Project"
 msgid "Show Project"
 msgstr "परियोजना"
 
-#: ui/kptganttview.cpp:1050
+#: ui/kptganttview.cpp:1106
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -6079,7 +6170,7 @@ msgid ""
 "url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:1336
+#: ui/kptganttview.cpp:1392
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
