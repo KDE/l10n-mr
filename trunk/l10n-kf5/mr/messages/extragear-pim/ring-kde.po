@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-09 03:09+0100\n"
+"POT-Creation-Date: 2019-03-02 03:04+0100\n"
 "PO-Revision-Date: 2013-03-28 17:55+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -63,35 +63,41 @@ msgstr ""
 msgid "ring-kde"
 msgstr ""
 
-#: clients/desktop/main.cpp:128
+#: clients/desktop/main.cpp:128 clients/mobile/main.cpp:174
 #, kde-format
 msgid "RING, a secured and distributed communication software"
 msgstr ""
 
-#: clients/desktop/main.cpp:130
+#: clients/desktop/main.cpp:130 clients/mobile/main.cpp:176
 #, kde-format
 msgid ""
 "(C) 2004-2015 Savoir-faire Linux\n"
-"2016-2017 Emmanuel Lepage Vallee"
+"2016-2017 Emmanuel Lepage Vallee\n"
+"2017-2019 Blue Systems"
 msgstr ""
 
-#: clients/desktop/main.cpp:138
+#: clients/desktop/main.cpp:138 clients/mobile/main.cpp:184
 #, kde-format
 msgid "Emmanuel Lepage-Vallée"
 msgstr ""
 
-#: clients/desktop/main.cpp:139
+#: clients/desktop/main.cpp:139 clients/mobile/main.cpp:185
 #, kde-format
 msgid "Alexandre Lision"
 msgstr ""
 
-#: clients/desktop/main.cpp:140
+#: clients/desktop/main.cpp:140 clients/mobile/main.cpp:186
 #, kde-format
 msgid "Based on the SFLphone teamworks"
 msgstr ""
 
+#: clients/mobile/main.cpp:172
+#, kde-format
+msgid "Banji"
+msgstr ""
+
 #. i18n: ectx: Menu (Actions)
-#: data/ring-kdeui.rc:5
+#: data/ring-kdeui.rc:5 views/basic/qml/sidebar.qml:135
 #, kde-format
 msgid "Actions"
 msgstr "क्रिया"
@@ -103,7 +109,8 @@ msgid "View"
 msgstr "दृश्य"
 
 #. i18n: ectx: Menu (Settings)
-#: data/ring-kdeui.rc:31 views/desktop/qml/desktopwindow.qml:159
+#: data/ring-kdeui.rc:31 views/basic/qml/banjiactioncollection.qml:92
+#: views/desktop/qml/desktopwindow.qml:154
 #, kde-format
 msgid "Settings"
 msgstr "संयोजना"
@@ -122,7 +129,7 @@ msgid "Profile"
 msgstr ""
 
 #: src/accountview/qml/accountdialog.qml:89
-#: src/contactview/qml/contactinfo.qml:115
+#: src/contactview/qml/contactinfo.qml:107
 #, fuzzy, kde-format
 #| msgctxt "Advanced settings"
 #| msgid "Advanced"
@@ -160,66 +167,67 @@ msgstr "सुरक्षा"
 msgid "Ringtones"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:191
+#: src/accountview/qml/accountlist.qml:192
+#, fuzzy, kde-format
+#| msgid "Status"
+msgid "Status logs"
+msgstr "स्थिती"
+
+#: src/accountview/qml/accountlist.qml:199
+#: src/jamivideoview/qml/screensharing.qml:96
+#: views/basic/qml/banjiactioncollection.qml:45
+#, kde-format
+msgid "Share"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:206
+#: src/contactview/qml/phonenumbers.qml:193
+#, fuzzy, kde-format
+#| msgid "Add Contact"
+msgid "Delete"
+msgstr "संपर्क जोडा"
+
+#: src/accountview/qml/accountlist.qml:213
+#, kde-format
+msgid "Reload"
+msgstr ""
+
+#: src/accountview/qml/accountlist.qml:231
+#, kde-format
+msgid "Accounts"
+msgstr "खाते"
+
+#: src/accountview/qml/accountlist.qml:248
+#, fuzzy, kde-format
+#| msgid "New account%1"
+msgid "Add an account"
+msgstr "नवीन खाते%1"
+
+#: src/accountview/qml/accounts.qml:143
+#: src/accountview/qml/pages/credentials.qml:76
+#, kde-format
+msgid "Remove"
+msgstr "काढून टाका"
+
+#: src/accountview/qml/deleter.qml:42
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Delete an account"
 msgstr "नवीन खाते%1"
 
-#: src/accountview/qml/accountlist.qml:194
+#: src/accountview/qml/deleter.qml:45
 #, kde-format
 msgid "<center>Are you sure you want to delete the account called "
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:195
+#: src/accountview/qml/deleter.qml:46
 #, kde-format
 msgid ""
 ". <br><br> This cannot be undone and you will lose the account "
 "<b>permanently</b></center>"
 msgstr ""
 
-#: src/accountview/qml/accountlist.qml:221
-#, fuzzy, kde-format
-#| msgid "Status"
-msgid "Status logs"
-msgstr "स्थिती"
-
-#: src/accountview/qml/accountlist.qml:228
-#: src/jamivideoview/qml/screensharing.qml:96
-#, kde-format
-msgid "Share"
-msgstr ""
-
-#: src/accountview/qml/accountlist.qml:235
-#: src/contactview/qml/phonenumbers.qml:198
-#, fuzzy, kde-format
-#| msgid "Add Contact"
-msgid "Delete"
-msgstr "संपर्क जोडा"
-
-#: src/accountview/qml/accountlist.qml:246
-#, kde-format
-msgid "Reload"
-msgstr ""
-
-#: src/accountview/qml/accountlist.qml:264
-#, kde-format
-msgid "Accounts"
-msgstr "खाते"
-
-#: src/accountview/qml/accountlist.qml:281
-#, fuzzy, kde-format
-#| msgid "New account%1"
-msgid "Add an account"
-msgstr "नवीन खाते%1"
-
-#: src/accountview/qml/accounts.qml:138
-#: src/accountview/qml/pages/credentials.qml:87
-#, kde-format
-msgid "Remove"
-msgstr "काढून टाका"
-
-#: src/accountview/qml/pages/advanced.qml:31 src/wizard/qml/createRing.qml:432
+#: src/accountview/qml/pages/advanced.qml:31
 #, kde-format
 msgid "Registration"
 msgstr ""
@@ -352,7 +360,7 @@ msgid "Username"
 msgstr "वापरकर्ता नाव"
 
 #: src/accountview/qml/pages/basic.qml:94
-#: src/accountview/qml/pages/credentials.qml:175
+#: src/accountview/qml/pages/credentials.qml:164
 #: src/accountview/qml/pages/security.qml:77
 #, kde-format
 msgid "Password"
@@ -365,7 +373,7 @@ msgstr "गुप्तशब्द"
 msgid "Hostname"
 msgstr "नाव"
 
-#: src/accountview/qml/pages/credentials.qml:44
+#: src/accountview/qml/pages/credentials.qml:33
 #, kde-format
 msgid ""
 "This tab help manage accounts with multiple credentials. If you have "
@@ -374,77 +382,78 @@ msgid ""
 "that case, the \"Basic\" tab will provide everything you need."
 msgstr ""
 
-#: src/accountview/qml/pages/credentials.qml:96
-#: src/contactview/qml/phonenumbers.qml:212
+#: src/accountview/qml/pages/credentials.qml:85
+#: src/contactview/qml/phonenumbers.qml:207
+#: views/basic/qml/banjiactioncollection.qml:50
 #, kde-format
 msgid "Edit"
 msgstr ""
 
-#: src/accountview/qml/pages/credentials.qml:101
+#: src/accountview/qml/pages/credentials.qml:90
 #, fuzzy, kde-format
 #| msgctxt "Move account down"
 #| msgid "Down"
 msgid "Move up"
 msgstr "खाली"
 
-#: src/accountview/qml/pages/credentials.qml:106
+#: src/accountview/qml/pages/credentials.qml:95
 #, fuzzy, kde-format
 #| msgctxt "Move account down"
 #| msgid "Down"
 msgid "Move down"
 msgstr "खाली"
 
-#: src/accountview/qml/pages/credentials.qml:147
+#: src/accountview/qml/pages/credentials.qml:136
 #, kde-format
 msgid "Details"
 msgstr "तपशील"
 
-#: src/accountview/qml/pages/credentials.qml:163
+#: src/accountview/qml/pages/credentials.qml:152
 #, kde-format
 msgid "Realm"
 msgstr ""
 
-#: src/accountview/qml/pages/credentials.qml:169
+#: src/accountview/qml/pages/credentials.qml:158
 #, fuzzy, kde-format
 #| msgctxt "SIP Account Username"
 #| msgid "Username"
 msgid "User (auth) name"
 msgstr "वापरकर्ता नाव"
 
-#: src/accountview/qml/pages/devices.qml:121
+#: src/accountview/qml/pages/devices.qml:112
 #, kde-format
 msgid "Enter your account password to confirm:"
 msgstr ""
 
-#: src/accountview/qml/pages/devices.qml:128
+#: src/accountview/qml/pages/devices.qml:119
 #, fuzzy, kde-format
 #| msgid "Private key password"
 msgid "Enter your Ring account password"
 msgstr "वैयक्तिक कळ गुप्तशब्द"
 
-#: src/accountview/qml/pages/devices.qml:187
+#: src/accountview/qml/pages/devices.qml:178
 #, kde-format
 msgid "Enter a name for this device"
 msgstr ""
 
-#: src/accountview/qml/pages/devices.qml:228
+#: src/accountview/qml/pages/devices.qml:219
 #, kde-format
 msgid "Revokation in progress"
 msgstr ""
 
-#: src/accountview/qml/pages/devices.qml:311
+#: src/accountview/qml/pages/devices.qml:302
 #, kde-format
 msgid "Link another device to the account"
 msgstr ""
 
-#: src/accountview/qml/pages/devices.qml:325
+#: src/accountview/qml/pages/devices.qml:316
 #, fuzzy, kde-format
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgid "Your pin is:"
 msgstr "चेतन खोना"
 
-#: src/accountview/qml/pages/devices.qml:339
+#: src/accountview/qml/pages/devices.qml:330
 #, kde-format
 msgid ""
 "To complete the process, you need to open Ring on the new device. Create a "
@@ -452,11 +461,11 @@ msgid ""
 "10 minutes."
 msgstr ""
 
-#: src/accountview/qml/pages/devices.qml:343
-#: src/contactview/qml/pendingrequests.qml:124
+#: src/accountview/qml/pages/devices.qml:334
+#: src/contactview/qml/pendingrequests.qml:133
 #: src/dialview/qml/calldelegateitem.qml:66
-#: src/jamikdeintegration/src/actioncollection.cpp:82
-#: src/timeline/qml/searchoverlay.qml:138
+#: src/jamikdeintegration/src/actioncollection.cpp:85
+#: src/jamisearch/qml/toolbar.qml:39
 #, kde-format
 msgid "Close"
 msgstr ""
@@ -639,32 +648,38 @@ msgstr ""
 msgid " errors"
 msgstr "संजाळ दुवा"
 
-#: src/callview/qml/callbackground.qml:37
+#: src/callview/qml/callbackground.qml:38
 #, kde-format
 msgid "[No video]"
 msgstr ""
 
-#: src/callview/qml/callbackground.qml:93
+#: src/callview/qml/callbackground.qml:94
 #, kde-format
 msgid "Call Ended"
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:42
+#: src/callview/qml/cmselector.qml:47
 #, kde-format
 msgid "This contact has multiple phone numbers, please select one below."
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:142 src/contactview/qml/phonenumbers.qml:292
+#: src/callview/qml/cmselector.qml:122
+#, fuzzy, kde-format
+#| msgid "Account"
+msgid " (Account: "
+msgstr "खाते"
+
+#: src/callview/qml/cmselector.qml:130 src/contactview/qml/phonenumbers.qml:287
 #, kde-format
 msgid "Never used"
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:143 src/contactview/qml/phonenumbers.qml:293
+#: src/callview/qml/cmselector.qml:131 src/contactview/qml/phonenumbers.qml:288
 #, kde-format
 msgid "Used "
 msgstr ""
 
-#: src/callview/qml/cmselector.qml:143 src/contactview/qml/phonenumbers.qml:293
+#: src/callview/qml/cmselector.qml:131 src/contactview/qml/phonenumbers.qml:288
 #, kde-format
 msgid " time (Last used on: "
 msgstr ""
@@ -696,87 +711,87 @@ msgstr ""
 msgid "Starting"
 msgstr "संयोजना"
 
-#: src/contactview/qml/contactcard.qml:88
+#: src/contactview/qml/contactcard.qml:89
 #, kde-format
 msgid "There is no way to reach this contact"
 msgstr ""
 
-#: src/contactview/qml/contactinfo.qml:140
-#: src/contactview/qml/contactinfo.qml:368
+#: src/contactview/qml/contactinfo.qml:132
+#: src/contactview/qml/contactinfo.qml:375
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
 msgid "Phone numbers"
 msgstr "%1 संख्या"
 
-#: src/contactview/qml/contactinfo.qml:317
+#: src/contactview/qml/contactinfo.qml:324 views/basic/qml/sidebar.qml:163
 #, fuzzy, kde-format
 #| msgid "Status"
 msgid "Statistics"
 msgstr "स्थिती"
 
-#: src/contactview/qml/contactinfo.qml:334
+#: src/contactview/qml/contactinfo.qml:341
 #, fuzzy, kde-format
 #| msgid "Clear history"
 msgid "View history"
 msgstr "इतिहास नष्ट करा"
 
-#: src/contactview/qml/contactinfo.qml:344
+#: src/contactview/qml/contactinfo.qml:351
 #, kde-format
 msgid "Open chat"
 msgstr ""
 
-#: src/contactview/qml/contactinfo.qml:353
+#: src/contactview/qml/contactinfo.qml:360
 #, fuzzy, kde-format
 #| msgid "Contacts"
 msgid "Contact details"
 msgstr "संपर्क"
 
-#: src/contactview/qml/pendingrequests.qml:57
-#: src/jamikdeintegration/src/actioncollection.cpp:84
+#: src/contactview/qml/pendingrequests.qml:66
+#: src/jamikdeintegration/src/actioncollection.cpp:87
 #, kde-format
 msgid "Accept"
 msgstr ""
 
-#: src/contactview/qml/pendingrequests.qml:65
+#: src/contactview/qml/pendingrequests.qml:74
 #, kde-format
 msgid "Decline"
 msgstr ""
 
-#: src/contactview/qml/pendingrequests.qml:71
+#: src/contactview/qml/pendingrequests.qml:80
 #, kde-format
 msgid "Block"
 msgstr ""
 
-#: src/contactview/qml/phonenumbers.qml:95
+#: src/contactview/qml/phonenumbers.qml:88
 #, kde-format
 msgid "Save"
 msgstr ""
 
-#: src/contactview/qml/phonenumbers.qml:130
+#: src/contactview/qml/phonenumbers.qml:123
 #, kde-format
 msgid "Cancel"
 msgstr ""
 
-#: src/contactview/qml/phonenumbers.qml:152
+#: src/contactview/qml/phonenumbers.qml:145
 #, kde-format
 msgid "Add a phone number or GNU Ring identity"
 msgstr ""
 
-#: src/contactview/qml/phonenumbers.qml:219
-#: views/desktop/qml/mediabuttons.qml:254
+#: src/contactview/qml/phonenumbers.qml:214
+#: views/desktop/qml/mediabuttons.qml:255
 #, kde-format
 msgid "Call"
 msgstr "कॉल"
 
-#: src/contactview/qml/phonenumbers.qml:225
+#: src/contactview/qml/phonenumbers.qml:220 views/basic/qml/pagemanager.qml:151
 #, fuzzy, kde-format
 #| msgctxt "Video conversation"
 #| msgid "Video"
 msgid "Video call"
 msgstr "व्हिडीओ"
 
-#: src/contactview/qml/phonenumbers.qml:231
+#: src/contactview/qml/phonenumbers.qml:226
 #, kde-format
 msgid "Share screen"
 msgstr ""
@@ -792,63 +807,36 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: src/contactview/qml/statistics.qml:32
-#, fuzzy, kde-format
-#| msgid "Add Contact"
-msgid "<b>Never contacted</b>"
-msgstr "संपर्क जोडा"
-
-#: src/contactview/qml/statistics.qml:34
-#, kde-format
-msgid "<b>Last contacted on:</b> "
-msgstr ""
-
-#: src/contactview/qml/statistics.qml:41
-#, kde-format
-msgid "<b>Called:</b> "
-msgstr ""
-
-#: src/contactview/qml/statistics.qml:44 src/contactview/qml/statistics.qml:57
-#: src/timeline/qml/peerstimelinecategories.qml:22
-#, kde-format
-msgid "Never"
-msgstr ""
-
-#: src/contactview/qml/statistics.qml:54
-#, kde-format
-msgid "<b>Texted:</b> "
-msgstr ""
-
 #: src/contactview/qml/vcardform.qml:105
 #, kde-format
 msgid "Formatted name:"
 msgstr ""
 
-#: src/contactview/qml/vcardform.qml:118
+#: src/contactview/qml/vcardform.qml:119
 #, fuzzy, kde-format
 #| msgid "Display all"
 msgid "Primary name:"
 msgstr "सर्व दर्शवा"
 
-#: src/contactview/qml/vcardform.qml:130
+#: src/contactview/qml/vcardform.qml:132
 #, fuzzy, kde-format
 #| msgctxt "Sort by Name"
 #| msgid "Name"
 msgid "Last name:"
 msgstr "नाव"
 
-#: src/contactview/qml/vcardform.qml:142
+#: src/contactview/qml/vcardform.qml:145
 #, fuzzy, kde-format
 #| msgid "Send Email"
 msgid "Email:"
 msgstr "इमेल पाठवा"
 
-#: src/contactview/qml/viewcontactrequests.qml:57
+#: src/contactview/qml/viewcontactrequests.qml:62
 #, kde-format
 msgid "You have pending contact requests:"
 msgstr ""
 
-#: src/contactview/qml/viewcontactrequests.qml:77
+#: src/contactview/qml/viewcontactrequests.qml:82
 #, fuzzy, kde-format
 #| msgid "Add Contact"
 msgid "View all contact requests"
@@ -860,7 +848,7 @@ msgstr "संपर्क जोडा"
 msgid "Create a call"
 msgstr "नवीन खाते%1"
 
-#: src/dialview/qml/calldelegate.qml:78
+#: src/dialview/qml/calldelegate.qml:79
 #, kde-format
 msgid "Conference"
 msgstr ""
@@ -885,23 +873,48 @@ msgstr ""
 msgid "<center><b>Missed call</b></center> <br />from: "
 msgstr ""
 
-#: src/jamiaudioplayer/qml/audioplayer.qml:87
+#: src/jamiaudioplayer/qml/audioplayer.qml:88
 #, kde-format
 msgid "Click to play"
 msgstr ""
 
-#: src/jamichatview/qml/chatbox.qml:192
+#: src/jamichatview/qml/callgroup.qml:88
+#, fuzzy, kde-format
+#| msgid "Paste"
+msgid "Lasted "
+msgstr "चिटकवा"
+
+#: src/jamichatview/qml/callgroup.qml:88
+#, kde-format
+msgid " seconds"
+msgstr ""
+
+#: src/jamichatview/qml/callgroup.qml:109
+#, kde-format
+msgid "</b> incoming calls"
+msgstr ""
+
+#: src/jamichatview/qml/callgroup.qml:119
+#, kde-format
+msgid "</b> outgoing calls"
+msgstr ""
+
+#: src/jamichatview/qml/callgroup.qml:129
+#, kde-format
+msgid "</b> missed calls"
+msgstr ""
+
+#: src/jamichatview/qml/chatbox.qml:202
 #, kde-format
 msgid "Write a message and press enter..."
 msgstr ""
 
-#: src/jamichatview/qml/chatbox.qml:218
+#: src/jamichatview/qml/chatbox.qml:241
 #, kde-format
 msgid "Send"
 msgstr "पाठवा"
 
-#: src/jamichatview/qml/chatview.qml:69
-#: src/jamihistoryview/qml/recordinghistory.qml:48
+#: src/jamihistoryview/qml/recordinghistory.qml:51
 #, kde-format
 msgid ""
 "There is nothing yet, enter a message below or place a call using the "
@@ -909,12 +922,12 @@ msgid ""
 "found in the header"
 msgstr ""
 
-#: src/jamihistoryview/qml/recordinghistory.qml:142
+#: src/jamihistoryview/qml/recordinghistory.qml:151
 #, kde-format
 msgid " incoming messages"
 msgstr ""
 
-#: src/jamihistoryview/qml/recordinghistory.qml:154
+#: src/jamihistoryview/qml/recordinghistory.qml:162
 #, kde-format
 msgid " outgoing messages"
 msgstr ""
@@ -1262,29 +1275,29 @@ msgstr ""
 msgid " and you have been talking since %1 seconds"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:85
+#: src/jamikdeintegration/src/actioncollection.cpp:88
 #, kde-format
 msgid "Hold"
 msgstr "काम थांबवा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:86
+#: src/jamikdeintegration/src/actioncollection.cpp:89
 #, kde-format
 msgid "Transfer"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:87
+#: src/jamikdeintegration/src/actioncollection.cpp:90
 #, kde-format
 msgid "Record"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:88
+#: src/jamikdeintegration/src/actioncollection.cpp:91
 #: src/jaminotification/notification.cpp:91
-#: views/desktop/qml/mediabuttons.qml:417
+#: views/desktop/qml/mediabuttons.qml:418
 #, kde-format
 msgid "Hang up"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:106
+#: src/jamikdeintegration/src/actioncollection.cpp:109
 #, fuzzy, kde-format
 #| msgctxt "Mute the current audio device"
 #| msgid "Mute"
@@ -1292,170 +1305,170 @@ msgctxt "Mute the current audio capture device"
 msgid "Mute"
 msgstr "मौन"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:107
+#: src/jamikdeintegration/src/actioncollection.cpp:110
 #, kde-format
 msgctxt "Mute the current audio playback device"
 msgid "Mute Playback"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:109
+#: src/jamikdeintegration/src/actioncollection.cpp:112
 #, kde-format
 msgid "Rotate left"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:110
+#: src/jamikdeintegration/src/actioncollection.cpp:113
 #, kde-format
 msgid "Rotate right"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:111
-#: src/jamikdeintegration/src/actioncollection.cpp:112
+#: src/jamikdeintegration/src/actioncollection.cpp:114
+#: src/jamikdeintegration/src/actioncollection.cpp:115
 #, kde-format
 msgid "Flip"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:113
+#: src/jamikdeintegration/src/actioncollection.cpp:116
 #, fuzzy, kde-format
 #| msgctxt "Mute the current audio device"
 #| msgid "Mute"
 msgid "Mute"
 msgstr "मौन"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:114
+#: src/jamikdeintegration/src/actioncollection.cpp:117
 #, kde-format
 msgid "Preview"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:115
+#: src/jamikdeintegration/src/actioncollection.cpp:118
 #, kde-format
 msgid "Keep aspect ratio"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:116
+#: src/jamikdeintegration/src/actioncollection.cpp:119
 #, kde-format
 msgid "Fullscreen"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:160
+#: src/jamikdeintegration/src/actioncollection.cpp:165
 #, kde-format
 msgid "Quit"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:162
+#: src/jamikdeintegration/src/actioncollection.cpp:167
 #, kde-format
 msgid "Display dialpad"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:163
+#: src/jamikdeintegration/src/actioncollection.cpp:168
 #, kde-format
 msgid "Display volume controls"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:164
+#: src/jamikdeintegration/src/actioncollection.cpp:169
 #, fuzzy, kde-format
 #| msgctxt "User interterface settings"
 #| msgid "Display"
 msgid "Display account selector"
 msgstr "दर्शवा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:165
+#: src/jamikdeintegration/src/actioncollection.cpp:170
 #, kde-format
 msgid "Raise Ring-KDE window"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:166
+#: src/jamikdeintegration/src/actioncollection.cpp:171
 #, fuzzy, kde-format
 #| msgid "Clear history"
 msgid "Search history"
 msgstr "इतिहास नष्ट करा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:167
-#, kde-format
-msgid "Search call"
-msgstr ""
-
-#: src/jamikdeintegration/src/actioncollection.cpp:168
-#, fuzzy, kde-format
-#| msgid "Add Contact"
-msgid "Search contact"
-msgstr "संपर्क जोडा"
-
-#: src/jamikdeintegration/src/actioncollection.cpp:169
-#, fuzzy, kde-format
-#| msgid "Remove bookmark"
-msgid "Search bookmark"
-msgstr "ओळखचिन्ह काढून टाका"
-
-#: src/jamikdeintegration/src/actioncollection.cpp:171
-#, fuzzy, kde-format
-#| msgid "New account%1"
-msgid "New account wizard"
-msgstr "नवीन खाते%1"
-
 #: src/jamikdeintegration/src/actioncollection.cpp:172
 #, kde-format
-msgid "Show the menu"
+msgid "Search call"
 msgstr ""
 
 #: src/jamikdeintegration/src/actioncollection.cpp:173
 #, fuzzy, kde-format
 #| msgid "Add Contact"
-msgid "New contact"
+msgid "Search contact"
 msgstr "संपर्क जोडा"
 
 #: src/jamikdeintegration/src/actioncollection.cpp:174
+#, fuzzy, kde-format
+#| msgid "Remove bookmark"
+msgid "Search bookmark"
+msgstr "ओळखचिन्ह काढून टाका"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:176
+#, fuzzy, kde-format
+#| msgid "New account%1"
+msgid "New account wizard"
+msgstr "नवीन खाते%1"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:177
+#, kde-format
+msgid "Show the menu"
+msgstr ""
+
+#: src/jamikdeintegration/src/actioncollection.cpp:178
+#, fuzzy, kde-format
+#| msgid "Add Contact"
+msgid "New contact"
+msgstr "संपर्क जोडा"
+
+#: src/jamikdeintegration/src/actioncollection.cpp:179
 #, kde-format
 msgid "Paste"
 msgstr "चिटकवा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:175
+#: src/jamikdeintegration/src/actioncollection.cpp:180
 #, fuzzy, kde-format
 #| msgctxt "User interterface settings"
 #| msgid "Display"
 msgid "Display Person"
 msgstr "दर्शवा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:176
+#: src/jamikdeintegration/src/actioncollection.cpp:181
 #, kde-format
 msgid "Display history"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:177
+#: src/jamikdeintegration/src/actioncollection.cpp:182
 #, kde-format
 msgid "Display bookmark"
 msgstr ""
 
-#: src/jamikdeintegration/src/actioncollection.cpp:178
+#: src/jamikdeintegration/src/actioncollection.cpp:183
 #, fuzzy, kde-format
 #| msgid "Display all"
 msgid "Display timeline"
 msgstr "सर्व दर्शवा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:179
+#: src/jamikdeintegration/src/actioncollection.cpp:184
 #, fuzzy, kde-format
 #| msgid "Display all"
 msgid "Display call manager"
 msgstr "सर्व दर्शवा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:180
+#: src/jamikdeintegration/src/actioncollection.cpp:185
 #, fuzzy, kde-format
 #| msgid "Add Contact"
 msgid "Add new contact"
 msgstr "संपर्क जोडा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:181
+#: src/jamikdeintegration/src/actioncollection.cpp:186
 #, fuzzy, kde-format
 #| msgid "Configure Shortcut"
 msgid "Configure Shortcuts"
 msgstr "शॉर्टकट संयोजीत करा"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:182
+#: src/jamikdeintegration/src/actioncollection.cpp:187
 #, fuzzy, kde-format
 #| msgid "Notifications"
 msgid "Configure Notifications"
 msgstr "सूचना"
 
-#: src/jamikdeintegration/src/actioncollection.cpp:183
+#: src/jamikdeintegration/src/actioncollection.cpp:188
 #, fuzzy, kde-format
 #| msgid "Configure Shortcut"
 msgid "Configure Accounts"
@@ -1467,6 +1480,7 @@ msgid "Are you sure you want to permanently delete %1?"
 msgstr ""
 
 #: src/jamikdeintegration/src/actioninterface.cpp:99
+#: views/basic/qml/banjiactioncollection.qml:65
 #, fuzzy, kde-format
 #| msgid "Add Contact"
 msgid "Delete contact"
@@ -1488,85 +1502,85 @@ msgstr "संपर्क जोडा"
 msgid "Contact"
 msgstr "संपर्क"
 
-#: src/jamikdeintegration/src/plugin.cpp:76
+#: src/jamikdeintegration/src/plugin.cpp:78
 #, kde-format
 msgid "Home"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:77
+#: src/jamikdeintegration/src/plugin.cpp:79
 #, kde-format
 msgid "Work"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:78
+#: src/jamikdeintegration/src/plugin.cpp:80
 #, kde-format
 msgid "Msg"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:79
+#: src/jamikdeintegration/src/plugin.cpp:81
 #, kde-format
 msgid "Pref"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:80
+#: src/jamikdeintegration/src/plugin.cpp:82
 #, kde-format
 msgid "Voice"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:81
+#: src/jamikdeintegration/src/plugin.cpp:83
 #, kde-format
 msgid "Fax"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:82
+#: src/jamikdeintegration/src/plugin.cpp:84
 #, kde-format
 msgid "Cell"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:83
-#: views/desktop/qml/mediabuttons.qml:315
+#: src/jamikdeintegration/src/plugin.cpp:85
+#: views/desktop/qml/mediabuttons.qml:316
 #, fuzzy, kde-format
 #| msgctxt "Video conversation"
 #| msgid "Video"
 msgid "Video"
 msgstr "व्हिडीओ"
 
-#: src/jamikdeintegration/src/plugin.cpp:84
+#: src/jamikdeintegration/src/plugin.cpp:86
 #, kde-format
 msgid "Bbs"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:85
+#: src/jamikdeintegration/src/plugin.cpp:87
 #, kde-format
 msgid "Modem"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:86
+#: src/jamikdeintegration/src/plugin.cpp:88
 #, kde-format
 msgid "Car"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:87
+#: src/jamikdeintegration/src/plugin.cpp:89
 #, kde-format
 msgid "Isdn"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:88
+#: src/jamikdeintegration/src/plugin.cpp:90
 #, kde-format
 msgid "Pcs"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:89
+#: src/jamikdeintegration/src/plugin.cpp:91
 #, kde-format
 msgid "Pager"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:90
+#: src/jamikdeintegration/src/plugin.cpp:92
 #, kde-format
 msgid "Preferred"
 msgstr ""
 
-#: src/jamikdeintegration/src/plugin.cpp:121
+#: src/jamikdeintegration/src/plugin.cpp:123
 #, kde-format
 msgid "System root certificates"
 msgstr ""
@@ -1619,6 +1633,54 @@ msgstr ""
 msgid "Do not ask again"
 msgstr ""
 
+#: src/jamisearch/qml/searchbox.qml:139
+#, kde-format
+msgid "Find someone"
+msgstr ""
+
+#: src/jamisearch/qml/searchoverlay.qml:222
+#, kde-format
+msgid "Cannot select this person because it was not found"
+msgstr ""
+
+#: src/jamisearch/qml/searchoverlay.qml:237
+#, kde-format
+msgid "Hide and do not show again"
+msgstr ""
+
+#: src/jamisearch/qml/searchtip.qml:77
+#, kde-format
+msgid "Got it"
+msgstr ""
+
+#: src/jamisearch/qml/searchtip.qml:89
+#, kde-format
+msgid ""
+"The search results come from 4 different sources. It first look in the <b "
+"style=\"color:#be3411;\">history</b>, the <b style=\"color:#cfa02a;"
+"\">bookmarks</b> and the <b style=\"color:#14883b;\">contacts</b>. If there "
+"is no perfect match it then query the <b style=\"color:#2c53bd;\">registered "
+"name database</b>. The source of the result is indicated using a colored "
+"circle on the left side of the result. Note that accessing the registered "
+"name database requires sending the search string to the server."
+msgstr ""
+
+#: src/jamitimeline/qml/contactmethoddelegate.qml:220
+#, kde-format
+msgid "Mark as read"
+msgstr ""
+
+#: src/jamitimeline/qml/peerstimeline.qml:69
+#, kde-format
+msgid ""
+"To begin using Ring-KDE, enter an username in the box above and press enter"
+msgstr ""
+
+#: src/jamitimeline/qml/peerstimelinecategories.qml:28
+#, kde-format
+msgid "Never"
+msgstr ""
+
 #: src/jamitroubleshooting/qml/accountdisabled.qml:54
 #, kde-format
 msgid ""
@@ -1626,45 +1688,45 @@ msgid ""
 "enable it:"
 msgstr ""
 
-#: src/jamitroubleshooting/qml/accounterror.qml:54
+#: src/jamitroubleshooting/qml/accounterror.qml:55
 #, kde-format
 msgid "All accounts are currently unavailable, check your internet connection"
 msgstr ""
 
-#: src/jamitroubleshooting/qml/accounterror.qml:74
+#: src/jamitroubleshooting/qml/accounterror.qml:75
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Reload all accounts now"
 msgstr "नवीन खाते%1"
 
-#: src/jamitroubleshooting/qml/noaccount.qml:53
+#: src/jamitroubleshooting/qml/noaccount.qml:54
 #, kde-format
 msgid "There is no accounts, click on the button below to create one"
 msgstr ""
 
-#: src/jamitroubleshooting/qml/noaccount.qml:73
+#: src/jamitroubleshooting/qml/noaccount.qml:74
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Create an account"
 msgstr "नवीन खाते%1"
 
-#: src/jamivideoview/qml/devicesetting.qml:34
+#: src/jamivideoview/qml/devicesetting.qml:35
 #, fuzzy, kde-format
 #| msgid "Device:"
 msgid "Device"
 msgstr "साधन :"
 
-#: src/jamivideoview/qml/devicesetting.qml:44
+#: src/jamivideoview/qml/devicesetting.qml:45
 #, kde-format
 msgid "Channel"
 msgstr "मार्ग"
 
-#: src/jamivideoview/qml/devicesetting.qml:54
+#: src/jamivideoview/qml/devicesetting.qml:55
 #, kde-format
 msgid "Resolution"
 msgstr "घनता"
 
-#: src/jamivideoview/qml/devicesetting.qml:64
+#: src/jamivideoview/qml/devicesetting.qml:65
 #, kde-format
 msgid "Frame rate"
 msgstr ""
@@ -1744,188 +1806,77 @@ msgstr ""
 msgid "Clear"
 msgstr ""
 
-#: src/timeline/qml/contactmethoddelegate.qml:220
-#, kde-format
-msgid "Mark as read"
-msgstr ""
-
-#: src/timeline/qml/peerstimeline.qml:125
-#, kde-format
-msgid ""
-"To begin using Ring-KDE, enter an username in the box above and press enter"
-msgstr ""
-
-#: src/timeline/qml/searchbox.qml:119
-#, kde-format
-msgid "Find someone"
-msgstr ""
-
-#: src/timeline/qml/searchoverlay.qml:129
-#, kde-format
-msgid "Scan a QR Code"
-msgstr ""
-
-#: src/timeline/qml/searchoverlay.qml:280
-#, kde-format
-msgid "Cannot select this person because it was not found"
-msgstr ""
-
-#: src/timeline/qml/searchoverlay.qml:295
-#, kde-format
-msgid "Hide and do not show again"
-msgstr ""
-
-#: src/timeline/qml/searchtip.qml:76
-#, kde-format
-msgid "Got it"
-msgstr ""
-
-#: src/timeline/qml/searchtip.qml:88
-#, kde-format
-msgid ""
-"The search results come from 4 different sources. It first look in the <b "
-"style=\"color:#be3411;\">history</b>, the <b style=\"color:#cfa02a;"
-"\">bookmarks</b> and the <b style=\"color:#14883b;\">contacts</b>. If there "
-"is no perfect match it then query the <b style=\"color:#2c53bd;\">registered "
-"name database</b>. The source of the result is indicated using a colored "
-"circle on the left side of the result. Note that accessing the registered "
-"name database requires sending the search string to the server."
-msgstr ""
-
-#: src/wizard/qml/buttonBar.qml:48
+#: src/wizard/qml/buttonBar.qml:46
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: src/wizard/qml/buttonBar.qml:66
+#: src/wizard/qml/buttonBar.qml:64
 #, kde-format
 msgid "Please fill the required fields"
 msgstr ""
 
-#: src/wizard/qml/buttonBar.qml:76
+#: src/wizard/qml/buttonBar.qml:75
 #, kde-format
 msgid "Next"
 msgstr ""
 
-#: src/wizard/qml/buttonBar.qml:83
+#: src/wizard/qml/buttonBar.qml:82
 #, kde-format
 msgid "Skip"
 msgstr ""
 
-#: src/wizard/qml/buttonBar.qml:125
+#: src/wizard/qml/buttonBar.qml:127
 #, kde-format
 msgid "Please wait"
 msgstr ""
 
-#: src/wizard/qml/buttonBar.qml:147
+#: src/wizard/qml/buttonBar.qml:149
 #, kde-format
 msgid "finish"
 msgstr ""
 
-#: src/wizard/qml/createRing.qml:48 src/wizard/qml/createRing.qml:169
-#, kde-format
-msgid "Please enter an username"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:95
+#: src/wizard/qml/createRing.qml:67
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
-msgid "Register public username*"
+msgid "Register a public username*"
 msgstr "%1 संख्या"
 
-#: src/wizard/qml/createRing.qml:111
+#: src/wizard/qml/createRing.qml:83
 #, fuzzy, kde-format
 #| msgid "%1 number"
 #| msgid_plural "%1 numbers"
 msgid "Enter an username"
 msgstr "%1 संख्या"
 
-#: src/wizard/qml/createRing.qml:186
+#: src/wizard/qml/createRing.qml:152
+#, kde-format
+msgid "Protect your crypto keys with a password"
+msgstr ""
+
+#: src/wizard/qml/createRing.qml:168
 #, fuzzy, kde-format
 #| msgid "Private key password"
 msgid "Enter an archive password"
 msgstr "वैयक्तिक कळ गुप्तशब्द"
 
-#: src/wizard/qml/createRing.qml:202
+#: src/wizard/qml/createRing.qml:203
 #, fuzzy, kde-format
 #| msgid "Private key password"
 msgid "Repeat the new password"
 msgstr "वैयक्तिक कळ गुप्तशब्द"
 
-#: src/wizard/qml/createRing.qml:217
+#: src/wizard/qml/createRing.qml:234
 #, kde-format
 msgid "Passwords don't match"
 msgstr ""
 
-#: src/wizard/qml/createRing.qml:252
+#: src/wizard/qml/createRing.qml:256
 #, kde-format
 msgid ""
 "(*) registered usernames can be reached by their username-string instead of "
 "their generated ring-id number only."
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:282
-#, fuzzy, kde-format
-#| msgid "New account%1"
-msgid "Creating account"
-msgstr "नवीन खाते%1"
-
-#: src/wizard/qml/createRing.qml:309 src/wizard/qml/importRing.qml:169
-#, kde-format
-msgid "Timeout"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:367
-#, kde-format
-msgid "The username is available"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:371
-#, kde-format
-msgid "Please enter an username (3 characters minimum)"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:376
-#, kde-format
-msgid "The registered name lookup failed, ignoring"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:380
-#, kde-format
-msgid "The username is not available"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:404
-#, kde-format
-msgid "Success"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:409
-#, fuzzy, kde-format
-#| msgid "Password"
-msgid "Password mismatch"
-msgstr "गुप्तशब्द"
-
-#: src/wizard/qml/createRing.qml:412
-#, kde-format
-msgid "Invalid name"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:415
-#, kde-format
-msgid "Already taken"
-msgstr ""
-
-#: src/wizard/qml/createRing.qml:418
-#, fuzzy, kde-format
-#| msgid "Network Interface"
-msgid "Network error"
-msgstr "संजाळ दुवा"
-
-#: src/wizard/qml/createRing.qml:437
-#, kde-format
-msgid "Can't register"
 msgstr ""
 
 #: src/wizard/qml/importRing.qml:69
@@ -1951,6 +1902,11 @@ msgstr ""
 msgid "Importing account"
 msgstr "नवीन खाते%1"
 
+#: src/wizard/qml/importRing.qml:169
+#, kde-format
+msgid "Timeout"
+msgstr ""
+
 #: src/wizard/qml/importRing.qml:193
 #, kde-format
 msgid "Importing failed"
@@ -1959,90 +1915,220 @@ msgstr ""
 #: src/wizard/qml/splash.ui.qml:104
 #, kde-format
 msgid ""
-"Ring-KDE allows you to communicate privately with your friends. It uses peer "
-"to peer technologies popularised by BitTorrent to create a decentralized "
+"Banji allows you to communicate privately with your friends. It uses peer to "
+"peer technologies popularised by BitTorrent to create a decentralized "
 "network of users. There is no central server and all communications are end-"
 "to-end encrypted."
 msgstr ""
 
-#: src/wizard/qml/splash.ui.qml:121
+#: src/wizard/qml/splash.ui.qml:127
 #, kde-format
 msgid ""
-"Ring-KDE stores all data locally using standard formats such as JSON, vCard, "
+"Banji stores all data locally using standard formats such as JSON, vCard, "
 "MIME, PCM/WAV, INI and X-509. No data is ever uploaded to external servers."
 msgstr ""
 
-#: src/wizard/qml/splash.ui.qml:138
+#: src/wizard/qml/splash.ui.qml:150
 #, kde-format
 msgid ""
-"Ring-KDE supports your office phone account. Answers, transfer and record "
-"your phone calls directly from KDE."
+"Banji supports your office phone account. Answers, transfer and record your "
+"phone calls directly from KDE."
 msgstr ""
 
-#: src/wizard/qml/splash.ui.qml:155
+#: src/wizard/qml/splash.ui.qml:173
 #, kde-format
 msgid ""
-"Ring is based on open standards and it can interoperate with other SIP "
-"compliant systems."
+"The Jami protocol is based on open standards and it can interoperate with "
+"other SIP compliant systems."
 msgstr ""
 
-#: src/wizard/qml/splash.ui.qml:172
+#: src/wizard/qml/splash.ui.qml:196
 #, kde-format
 msgid ""
-"Ring offers an user friendly DBus API to automate all aspects of the "
+"Banji offers an user friendly DBus API to automate all aspects of the "
 "application."
 msgstr ""
 
-#: src/wizard/qml/splash.ui.qml:189
+#: src/wizard/qml/splash.ui.qml:219
 #, kde-format
 msgid ""
-"Ring-KDE can call real phone numbers. Cheap credits are available from "
-"thousand of providers worldwide. Use your favorite search engine to locate a "
-"local SIP phone provider."
+"Banji can call real phone numbers. Cheap credits are available from thousand "
+"of providers worldwide. Use your favorite search engine to locate a local "
+"SIP phone provider."
 msgstr ""
 
-#: src/wizard/qml/splash.ui.qml:199
+#: src/wizard/qml/splash.ui.qml:232
 #, kde-format
 msgid "Press anywhere to begin"
 msgstr ""
 
-#: src/wizard/qml/startPage.ui.qml:47
+#: src/wizard/qml/startPage.ui.qml:50
 #, kde-format
 msgid ""
-"Welcome to Ring-KDE. Before you can contact your friend, you have to have an "
+"Welcome to Banji. Before you can contact your friend, you have to have an "
 "account. Don't worry, creating one is easy and doesn't require sharing any "
 "personal information. If you are in an office or your phone service provider "
-"offers a SIP account, you can also configure Ring-KDE to take your \"real\" "
+"offers a SIP account, you can also configure Banji to take your \"real\" "
 "phone calls."
 msgstr ""
 
-#: src/wizard/qml/startPage.ui.qml:57
+#: src/wizard/qml/startPage.ui.qml:60
 #, fuzzy, kde-format
 #| msgid "New account%1"
-msgid "Create a new GNU Ring account"
+msgid "Create a new GNU Jami account"
 msgstr "नवीन खाते%1"
 
-#: src/wizard/qml/startPage.ui.qml:64
+#: src/wizard/qml/startPage.ui.qml:67
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Import an existing account"
 msgstr "नवीन खाते%1"
 
-#: src/wizard/qml/startPage.ui.qml:71
+#: src/wizard/qml/startPage.ui.qml:74
 #, fuzzy, kde-format
 #| msgid "Configure Shortcut"
 msgid "Use an anonymous account"
 msgstr "शॉर्टकट संयोजीत करा"
 
-#: src/wizard/qml/startPage.ui.qml:79 src/wizard/qml/wizard.qml:222
+#: src/wizard/qml/startPage.ui.qml:82 src/wizard/qml/wizard.qml:245
 #, fuzzy, kde-format
 #| msgid "New account%1"
 msgid "Import a SIP account"
 msgstr "नवीन खाते%1"
 
-#: src/wizard/qml/startPage.ui.qml:87
+#: src/wizard/qml/startPage.ui.qml:90
 #, kde-format
 msgid "Use on local network"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:35
+#, fuzzy, kde-format
+#| msgid "Send Email"
+msgid "Write mail"
+msgstr "इमेल पाठवा"
+
+#: views/basic/qml/banjiactioncollection.qml:40
+#, kde-format
+msgid "Select as favorite"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:55
+#, kde-format
+msgid "Choose photo"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:60
+#, fuzzy, kde-format
+#| msgid "%1 number"
+#| msgid_plural "%1 numbers"
+msgid "Block number"
+msgstr "%1 संख्या"
+
+#: views/basic/qml/banjiactioncollection.qml:70
+#, fuzzy, kde-format
+#| msgid "Clear history"
+msgid "Delete history"
+msgstr "इतिहास नष्ट करा"
+
+#: views/basic/qml/banjiactioncollection.qml:75
+#, fuzzy, kde-format
+#| msgid "New account%1"
+msgid "Create contact"
+msgstr "नवीन खाते%1"
+
+#: views/basic/qml/banjiactioncollection.qml:80
+#, fuzzy, kde-format
+#| msgid "Add Contact"
+msgid "Pending contact requests"
+msgstr "संपर्क जोडा"
+
+#: views/basic/qml/banjiactioncollection.qml:87
+#, kde-format
+msgid "Exit"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:96
+#, fuzzy, kde-format
+#| msgid "New account%1"
+msgid "Export account"
+msgstr "नवीन खाते%1"
+
+#: views/basic/qml/banjiactioncollection.qml:101
+#, fuzzy, kde-format
+#| msgid "New account%1"
+msgid "Add a Jami account"
+msgstr "नवीन खाते%1"
+
+#: views/basic/qml/banjiactioncollection.qml:107
+#, fuzzy, kde-format
+#| msgid "Configure Shortcut"
+msgid "Configure accounts"
+msgstr "शॉर्टकट संयोजीत करा"
+
+#: views/basic/qml/banjiactioncollection.qml:113
+#, kde-format
+msgid "Video settings"
+msgstr "व्हिडीओ संयोजना"
+
+#: views/basic/qml/banjiactioncollection.qml:123
+#, kde-format
+msgid "Do not disturb"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:136
+#, fuzzy, kde-format
+#| msgctxt "Disabled security"
+#| msgid "Disabled"
+msgid "Disabled"
+msgstr "अकार्यान्वित"
+
+#: views/basic/qml/banjiactioncollection.qml:144
+#, fuzzy, kde-format
+#| msgctxt "Disabled security"
+#| msgid "Disabled"
+msgid "Enabled"
+msgstr "अकार्यान्वित"
+
+#: views/basic/qml/banjiactioncollection.qml:152
+#, kde-format
+msgid "Silent"
+msgstr ""
+
+#: views/basic/qml/banjiactioncollection.qml:160
+#, kde-format
+msgid "Auto answer"
+msgstr ""
+
+#: views/basic/qml/pagemanager.qml:142 views/desktop/qml/mediabuttons.qml:411
+#, kde-format
+msgid "Chat"
+msgstr ""
+
+#: views/basic/qml/pagemanager.qml:162
+#, kde-format
+msgid "Cast screen"
+msgstr ""
+
+#: views/basic/qml/pagemanager.qml:173
+#, fuzzy, kde-format
+#| msgctxt "Video conversation"
+#| msgid "Video"
+msgid "Audio call"
+msgstr "व्हिडीओ"
+
+#: views/basic/qml/sidebar.qml:149
+#, kde-format
+msgid "Notifications"
+msgstr "सूचना"
+
+#: views/basic/qml/sidebarheader.qml:99 views/basic/qml/toolbarheader.qml:88
+#, kde-format
+msgid "Online"
+msgstr ""
+
+#: views/basic/qml/sidebarheader.qml:99 views/basic/qml/toolbarheader.qml:88
+#, kde-format
+msgid "Offline"
 msgstr ""
 
 #: views/desktop/qml/contactheader.qml:47
@@ -2058,19 +2144,14 @@ msgid ""
 "Photo"
 msgstr ""
 
-#: views/desktop/qml/desktopwindow.qml:195
+#: views/desktop/qml/desktopwindow.qml:190
 #, kde-format
 msgid "Hide"
 msgstr ""
 
-#: views/desktop/qml/mediabuttons.qml:374
+#: views/desktop/qml/mediabuttons.qml:375
 #, kde-format
 msgid "Screen sharing"
-msgstr ""
-
-#: views/desktop/qml/mediabuttons.qml:410
-#, kde-format
-msgid "Chat"
 msgstr ""
 
 #: views/desktop/qml/viewcontact.qml:152
@@ -2095,6 +2176,26 @@ msgstr "रेकॉर्ड करत आहे"
 #| msgid "Device Configuration"
 msgid "Information"
 msgstr "साधन संयोजना"
+
+#, fuzzy
+#~| msgid "Add Contact"
+#~ msgid "<b>Never contacted</b>"
+#~ msgstr "संपर्क जोडा"
+
+#, fuzzy
+#~| msgid "New account%1"
+#~ msgid "Creating account"
+#~ msgstr "नवीन खाते%1"
+
+#, fuzzy
+#~| msgid "Password"
+#~ msgid "Password mismatch"
+#~ msgstr "गुप्तशब्द"
+
+#, fuzzy
+#~| msgid "Network Interface"
+#~ msgid "Network error"
+#~ msgstr "संजाळ दुवा"
 
 #, fuzzy
 #~| msgid "Clear History"
@@ -2125,11 +2226,6 @@ msgstr "साधन संयोजना"
 #~| msgid "Device Configuration"
 #~ msgid "Fallback person configurator"
 #~ msgstr "साधन संयोजना"
-
-#, fuzzy
-#~| msgid "New account%1"
-#~ msgid "Create a new contact"
-#~ msgstr "नवीन खाते%1"
 
 #, fuzzy
 #~| msgid "Contact"
@@ -2284,11 +2380,6 @@ msgstr "साधन संयोजना"
 #~ msgstr "नवीन खाते%1"
 
 #, fuzzy
-#~| msgid "New account%1"
-#~ msgid "Import accounts"
-#~ msgstr "नवीन खाते%1"
-
-#, fuzzy
 #~| msgid "Private key password"
 #~ msgid "Enter the password"
 #~ msgstr "वैयक्तिक कळ गुप्तशब्द"
@@ -2329,9 +2420,6 @@ msgstr "साधन संयोजना"
 
 #~ msgid "Add"
 #~ msgstr "जोडा"
-
-#~ msgid "Video settings"
-#~ msgstr "व्हिडीओ संयोजना"
 
 #, fuzzy
 #~| msgid "Call"
@@ -2405,11 +2493,6 @@ msgstr "साधन संयोजना"
 #~ msgid "Call"
 #~ msgstr "कॉल"
 
-#, fuzzy
-#~| msgid "Account"
-#~ msgid "Account:"
-#~ msgstr "खाते"
-
 #~ msgid "Filter"
 #~ msgstr "गाळणी"
 
@@ -2418,12 +2501,6 @@ msgstr "साधन संयोजना"
 #~| msgid "New"
 #~ msgid "New"
 #~ msgstr "नवीन"
-
-#, fuzzy
-#~| msgid "%1 number"
-#~| msgid_plural "%1 numbers"
-#~ msgid "Phone number"
-#~ msgstr "%1 संख्या"
 
 #~ msgid "Account"
 #~ msgstr "खाते"
@@ -2514,9 +2591,6 @@ msgstr "साधन संयोजना"
 #~ msgid "Display e-mail"
 #~ msgstr "सर्व दर्शवा"
 
-#~ msgid "Notifications"
-#~ msgstr "सूचना"
-
 #~ msgid "Device Configuration"
 #~ msgstr "साधन संयोजना"
 
@@ -2530,9 +2604,6 @@ msgstr "साधन संयोजना"
 #~| msgid "Call"
 #~ msgid "New Call"
 #~ msgstr "कॉल"
-
-#~ msgid "Send Email"
-#~ msgstr "इमेल पाठवा"
 
 #, fuzzy
 #~| msgid "Remove bookmark"
@@ -2645,10 +2716,6 @@ msgstr "साधन संयोजना"
 
 #~ msgid "ALSA"
 #~ msgstr "ALSA"
-
-#~ msgctxt "Disabled security"
-#~ msgid "Disabled"
-#~ msgstr "अकार्यान्वित"
 
 #~ msgctxt "Unknown peer"
 #~ msgid "Unknown"
