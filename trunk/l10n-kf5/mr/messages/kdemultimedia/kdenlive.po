@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-04-08 03:32+0200\n"
+"POT-Creation-Date: 2019-04-09 03:36+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -5049,7 +5049,7 @@ msgstr[1] "प्रतिमेचा आकार"
 msgid "No valid clip to insert"
 msgstr ""
 
-#: src/bin/bin.cpp:2147 src/timeline2/view/timelinecontroller.cpp:713
+#: src/bin/bin.cpp:2147 src/timeline2/view/timelinecontroller.cpp:729
 #, kde-format
 msgid "Select a clip to apply an effect"
 msgstr ""
@@ -5229,41 +5229,41 @@ msgstr ""
 msgid "Delete marker"
 msgstr ""
 
-#: src/bin/model/markerlistmodel.cpp:161 src/bin/model/markerlistmodel.cpp:458
+#: src/bin/model/markerlistmodel.cpp:161 src/bin/model/markerlistmodel.cpp:468
 #, kde-format
 msgid "Edit guide"
 msgstr ""
 
-#: src/bin/model/markerlistmodel.cpp:161 src/bin/model/markerlistmodel.cpp:458
+#: src/bin/model/markerlistmodel.cpp:161 src/bin/model/markerlistmodel.cpp:468
 #: src/mltcontroller/clippropertiescontroller.cpp:214
 #, kde-format
 msgid "Edit marker"
 msgstr ""
 
-#: src/bin/model/markerlistmodel.cpp:360
+#: src/bin/model/markerlistmodel.cpp:370
 #, fuzzy, kde-format
 msgid "Import guides"
 msgstr "आयात"
 
-#: src/bin/model/markerlistmodel.cpp:360
+#: src/bin/model/markerlistmodel.cpp:370
 #: src/mltcontroller/clippropertiescontroller.cpp:216
 #, fuzzy, kde-format
 msgid "Import markers"
 msgstr "आयात"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, MarkerDialog_UI)
-#: src/bin/model/markerlistmodel.cpp:385 src/definitions.cpp:85
+#: src/bin/model/markerlistmodel.cpp:395 src/definitions.cpp:85
 #: src/definitions.cpp:105 src/ui/markerdialog_ui.ui:14
 #, kde-format
 msgid "Marker"
 msgstr ""
 
-#: src/bin/model/markerlistmodel.cpp:443
+#: src/bin/model/markerlistmodel.cpp:453
 #, fuzzy, kde-format
 msgid "Delete all guides"
 msgstr "संचयीका काढून टाका (&D)"
 
-#: src/bin/model/markerlistmodel.cpp:443
+#: src/bin/model/markerlistmodel.cpp:453
 #, fuzzy, kde-format
 msgid "Delete all markers"
 msgstr "संचयीका काढून टाका (&D)"
@@ -8796,11 +8796,14 @@ msgid "General"
 msgstr "सामान्य"
 
 #: src/mainwindow.cpp:2224 src/mainwindow.cpp:2342
+#: src/timeline2/view/timelinecontroller.cpp:630
+#: src/timeline2/view/timelinecontroller.cpp:642
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr ""
 
 #: src/mainwindow.cpp:2251 src/mainwindow.cpp:2286
+#: src/timeline2/view/timelinecontroller.cpp:655
 #, kde-format
 msgid "Cannot find clip to remove marker"
 msgstr ""
@@ -8815,7 +8818,7 @@ msgstr ""
 msgid "An error occurred while deleting markers"
 msgstr ""
 
-#: src/mainwindow.cpp:2316
+#: src/mainwindow.cpp:2316 src/timeline2/view/timelinecontroller.cpp:618
 #, kde-format
 msgid "Cannot find clip to edit marker"
 msgstr ""
@@ -9417,36 +9420,36 @@ msgstr ""
 msgid "Out Point"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1750
+#: src/monitor/monitor.cpp:1752
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1792 src/monitor/monitor.cpp:1847
+#: src/monitor/monitor.cpp:1794 src/monitor/monitor.cpp:1849
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
 "restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1814
+#: src/monitor/monitor.cpp:1816
 #, fuzzy, kde-format
 msgid "Clip has no effects"
 msgstr "परिणाम :"
 
-#: src/monitor/monitor.cpp:1816
+#: src/monitor/monitor.cpp:1818
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1854
+#: src/monitor/monitor.cpp:1856
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
 "frei0r and restart Kdenlive"
 msgstr ""
 
-#: src/monitor/monitor.cpp:1900
+#: src/monitor/monitor.cpp:1902
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr ""
@@ -10910,7 +10913,7 @@ msgstr "ट्रॅक"
 msgid "Paste clips"
 msgstr "ट्रॅक"
 
-#: src/timeline2/model/timelineitemmodel.cpp:582
+#: src/timeline2/model/timelineitemmodel.cpp:583
 #, kde-format
 msgid "Could not setup track compositing, check your install"
 msgstr ""
@@ -10960,7 +10963,7 @@ msgstr "स्थिती"
 
 #: src/timeline2/model/timelinemodel.cpp:1196
 #: src/timeline2/model/timelinemodel.cpp:1306
-#: src/timeline2/view/timelinecontroller.cpp:2025
+#: src/timeline2/view/timelinecontroller.cpp:2041
 #, kde-format
 msgid "Move group"
 msgstr ""
@@ -10998,7 +11001,7 @@ msgid "Cannot paste effect to selected track"
 msgstr ""
 
 #: src/timeline2/model/timelinemodel.cpp:1997
-#: src/timeline2/view/timelinecontroller.cpp:710
+#: src/timeline2/view/timelinecontroller.cpp:726
 #, kde-format
 msgid "Cannot add effect %1 to selected clip"
 msgstr ""
@@ -11111,120 +11114,120 @@ msgstr ""
 msgid "Select at least 2 items to group"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:681
+#: src/timeline2/view/timelinecontroller.cpp:697
 #, kde-format
 msgid "No guide found at current position"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:685
+#: src/timeline2/view/timelinecontroller.cpp:701
 #, kde-format
 msgid "guide"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:894
+#: src/timeline2/view/timelinecontroller.cpp:910
 #, fuzzy, kde-format
 msgid "No clip to cut"
 msgstr "परियोजना : %1"
 
-#: src/timeline2/view/timelinecontroller.cpp:1056
+#: src/timeline2/view/timelinecontroller.cpp:1072
 #, kde-format
 msgid "Select a clip to compare effect"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1307
+#: src/timeline2/view/timelinecontroller.cpp:1323
 #, kde-format
 msgid "No clips found to insert space"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1324
+#: src/timeline2/view/timelinecontroller.cpp:1340
 #, kde-format
 msgid "Cannot remove space at given position"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1526
+#: src/timeline2/view/timelinecontroller.cpp:1542
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid "Select a favorite composition"
 msgstr "स्थिती"
 
-#: src/timeline2/view/timelinecontroller.cpp:1555
+#: src/timeline2/view/timelinecontroller.cpp:1571
 #, kde-format
 msgid "No clip found to perform AV split operation"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1578
-#: src/timeline2/view/timelinecontroller.cpp:1605
+#: src/timeline2/view/timelinecontroller.cpp:1594
+#: src/timeline2/view/timelinecontroller.cpp:1621
 #, kde-format
 msgid "Cannot move clip to frame %1."
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1588
+#: src/timeline2/view/timelinecontroller.cpp:1604
 #, kde-format
 msgid "Set audio reference before attempting to align"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1719
-#: src/timeline2/view/timelinecontroller.cpp:1749
+#: src/timeline2/view/timelinecontroller.cpp:1735
+#: src/timeline2/view/timelinecontroller.cpp:1765
 #, fuzzy, kde-format
 msgid "No clip selected"
 msgstr "परियोजना : %1"
 
-#: src/timeline2/view/timelinecontroller.cpp:1755
-#: src/timeline2/view/timelinecontroller.cpp:1761
-#: src/timeline2/view/timelinecontroller.cpp:1766
+#: src/timeline2/view/timelinecontroller.cpp:1771
+#: src/timeline2/view/timelinecontroller.cpp:1777
+#: src/timeline2/view/timelinecontroller.cpp:1782
 #, kde-format
 msgid "No information in clipboard"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1787
+#: src/timeline2/view/timelinecontroller.cpp:1803
 #, fuzzy, kde-format
 msgid "Paste effects"
 msgstr "परिणाम :"
 
-#: src/timeline2/view/timelinecontroller.cpp:1789
+#: src/timeline2/view/timelinecontroller.cpp:1805
 #, kde-format
 msgid "Cannot paste effect on selected clip"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:1816
+#: src/timeline2/view/timelinecontroller.cpp:1832
 #, fuzzy, kde-format
 msgid "No item to edit"
 msgstr "पानाच्या उंचीप्रमाणे समर्पक बसवा"
 
-#: src/timeline2/view/timelinecontroller.cpp:1883
+#: src/timeline2/view/timelinecontroller.cpp:1899
 #, fuzzy, kde-format
 msgid "Edit item"
 msgstr "प्रोफाईल \"%1\" संपादित करा"
 
-#: src/timeline2/view/timelinecontroller.cpp:1922
+#: src/timeline2/view/timelinecontroller.cpp:1938
 #, fuzzy, kde-format
 #| msgid "Split view"
 msgid "Split video"
 msgstr "विभाजित दृश्य पद्धती"
 
-#: src/timeline2/view/timelinecontroller.cpp:1922
+#: src/timeline2/view/timelinecontroller.cpp:1938
 #, kde-format
 msgid "Split audio"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2010
+#: src/timeline2/view/timelinecontroller.cpp:2026
 #, fuzzy, kde-format
 msgid "Move item"
 msgstr "प्रतिमेचा आकार"
 
-#: src/timeline2/view/timelinecontroller.cpp:2248
+#: src/timeline2/view/timelinecontroller.cpp:2264
 #, kde-format
 msgid "Impossible to capture on a locked track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2258
+#: src/timeline2/view/timelinecontroller.cpp:2274
 #, kde-format
 msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
 "clips after the current position or choose a different track"
 msgstr ""
 
-#: src/timeline2/view/timelinecontroller.cpp:2291
+#: src/timeline2/view/timelinecontroller.cpp:2307
 #, fuzzy, kde-format
 msgid "Record audio"
 msgstr "मॉनिटर %1"
