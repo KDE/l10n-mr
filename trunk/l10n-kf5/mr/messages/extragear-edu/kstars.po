@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-04 03:02+0200\n"
+"POT-Creation-Date: 2019-05-05 03:06+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -201,7 +201,7 @@ msgid "Visible Satellites"
 msgstr ""
 
 #: auxiliary/colorscheme.cpp:76 data/qml/whatisinteresting/wiview.qml:238
-#: dialogs/finddialog.cpp:59 kstarsactions.cpp:1026
+#: dialogs/finddialog.cpp:59 kstarsactions.cpp:1036
 #: kstarslite/dialogs/finddialoglite.cpp:48
 #, kde-format, kde-kuit-format
 msgid "Satellites"
@@ -213,7 +213,7 @@ msgid "Satellites Labels"
 msgstr ""
 
 #: auxiliary/colorscheme.cpp:78 data/qml/whatisinteresting/wiview.qml:514
-#: dialogs/finddialog.cpp:58 kstarsactions.cpp:1029
+#: dialogs/finddialog.cpp:58 kstarsactions.cpp:1039
 #: kstarslite/dialogs/finddialoglite.cpp:47
 #, kde-format, kde-kuit-format
 msgid "Supernovae"
@@ -461,14 +461,14 @@ msgstr "बदल साठवा"
 
 #: auxiliary/imageviewer.cpp:331 dialogs/addcatdialog.cpp:232
 #: ekos/align/align.cpp:1280 ekos/align/align.cpp:1447 ekos/guide/guide.cpp:415
-#: kstarsactions.cpp:1206 printing/pwizprint.cpp:86 tools/scriptbuilder.cpp:913
+#: kstarsactions.cpp:1217 printing/pwizprint.cpp:86 tools/scriptbuilder.cpp:913
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr ""
 
 #: auxiliary/imageviewer.cpp:334 dialogs/addcatdialog.cpp:235
 #: ekos/align/align.cpp:1283 ekos/align/align.cpp:1450 ekos/guide/guide.cpp:418
-#: kstarsactions.cpp:1207 printing/pwizprint.cpp:87 tools/scriptbuilder.cpp:916
+#: kstarsactions.cpp:1218 printing/pwizprint.cpp:87 tools/scriptbuilder.cpp:916
 #, kde-format
 msgid "Overwrite File?"
 msgstr "फाईल खोडून पुन्हा लिहायची का?"
@@ -2446,7 +2446,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:3766 ekos/scheduler/scheduler.cpp:4074
 #: ekos/scheduler/scheduler.cpp:5883 ekos/scheduler/scheduler.cpp:5913
 #: ekos/scheduler/scheduler.cpp:5950 ekos/scheduler/scheduler.cpp:6184
-#: indi/drivermanager.cpp:1502 indi/indidriver.cpp:933 kstarsactions.cpp:1253
+#: indi/drivermanager.cpp:1502 indi/indidriver.cpp:933 kstarsactions.cpp:1264
 #: oal/execute.cpp:330 options/opscolors.cpp:264 tools/modcalcangdist.cpp:143
 #: tools/modcalcapcoord.cpp:155 tools/modcalcdaylength.cpp:264
 #: tools/modcalcgalcoord.cpp:204 tools/modcalcgeodcoord.cpp:243
@@ -2471,7 +2471,7 @@ msgstr ""
 msgid "Could not Open File"
 msgstr "%1 : फाईल उघडू शकत नाही"
 
-#: dialogs/detaildialog.cpp:749 kstarsactions.cpp:1062
+#: dialogs/detaildialog.cpp:749 kstarsactions.cpp:1072
 #, kde-format
 msgid "Advanced"
 msgstr "प्रगत"
@@ -3077,7 +3077,7 @@ msgstr ""
 msgid "Any"
 msgstr ""
 
-#: dialogs/finddialog.cpp:49 kstarsactions.cpp:1023 kstarsinit.cpp:450
+#: dialogs/finddialog.cpp:49 kstarsactions.cpp:1033 kstarsinit.cpp:450
 #: kstarslite/dialogs/finddialoglite.cpp:38 tools/astrocalc.cpp:173
 #: tools/conjunctions.cpp:108
 #, kde-format
@@ -5864,7 +5864,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_DirRA)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: ekos/align/align.ui:848 ekos/align/opsastrometry.ui:536
+#: ekos/align/align.ui:848 ekos/align/opsastrometry.ui:511
 #: ekos/guide/guide.ui:408 ekos/guide/internalguide/guider.ui:707
 #: ekos/mount/mount.ui:246 ekos/scheduler/scheduler.ui:235
 #, kde-format
@@ -5877,7 +5877,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, showDECPlotCheck)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: ekos/align/align.ui:856 ekos/align/opsastrometry.ui:516
+#: ekos/align/align.ui:856 ekos/align/opsastrometry.ui:491
 #: ekos/guide/guide.ui:395 ekos/guide/guide.ui:1500
 #: ekos/guide/internalguide/guider.ui:693 ekos/mount/mount.ui:263
 #: ekos/scheduler/scheduler.ui:249
@@ -6926,34 +6926,8 @@ msgstr ""
 msgid "parity"
 msgstr "तीव्रता :"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_27)
-#: ekos/align/opsastrometry.ui:77
-#, kde-format
-msgid "Prevents creation of unnecessary files unused by Ekos."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_27)
-#: ekos/align/opsastrometry.ui:80
-#, kde-format
-msgid "--no-plots"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QCheckBox, checkBox_30)
-#: ekos/align/opsastrometry.ui:99
-#, kde-format
-msgid ""
-"Overwrite already generated files. It must be checked to prevent solver "
-"failure."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_30)
-#: ekos/align/opsastrometry.ui:102
-#, kde-format
-msgid "-O"
-msgstr ""
-
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: ekos/align/opsastrometry.ui:117
+#: ekos/align/opsastrometry.ui:92
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid "Imaging Options"
@@ -6961,7 +6935,7 @@ msgstr "पर्याय"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, label_7)
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_AstrometryImageScaleUnits)
-#: ekos/align/opsastrometry.ui:128 ekos/align/opsastrometry.ui:193
+#: ekos/align/opsastrometry.ui:103 ekos/align/opsastrometry.ui:168
 #, kde-format
 msgid ""
 "<p>The units of the imager scale bounds above.</p>\n"
@@ -6973,13 +6947,13 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: ekos/align/opsastrometry.ui:131
+#: ekos/align/opsastrometry.ui:106
 #, kde-format
 msgid "units"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, updateScale)
-#: ekos/align/opsastrometry.ui:153
+#: ekos/align/opsastrometry.ui:128
 #, kde-format
 msgid ""
 "Update Image Scale Bounds from the currently active camera and telescope "
@@ -6988,7 +6962,7 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_42)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_13)
-#: ekos/align/opsastrometry.ui:172 ekos/align/opsastrometry.ui:324
+#: ekos/align/opsastrometry.ui:147 ekos/align/opsastrometry.ui:299
 #, kde-format
 msgid ""
 "The high end of the imager scale, calculated as a little bigger than the "
@@ -7001,7 +6975,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, cameraHFOVLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. i18n: ectx: property (text), widget (QLabel, targetFOVHLabel)
-#: ekos/align/opsastrometry.ui:175 ekos/scheduler/mosaic.ui:38
+#: ekos/align/opsastrometry.ui:150 ekos/scheduler/mosaic.ui:38
 #: ekos/scheduler/mosaic.ui:100 ekos/scheduler/mosaic.ui:324
 #: ekos/scheduler/mosaic.ui:412 ekos/scheduler/mosaic.ui:455
 #, fuzzy, kde-format
@@ -7009,13 +6983,13 @@ msgid "H"
 msgstr "H"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AstrometryImageScaleUnits)
-#: ekos/align/opsastrometry.ui:200
+#: ekos/align/opsastrometry.ui:175
 #, kde-format
 msgid "dw"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AstrometryImageScaleUnits)
-#: ekos/align/opsastrometry.ui:205
+#: ekos/align/opsastrometry.ui:180
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Raw"
@@ -7023,7 +6997,7 @@ msgid "aw"
 msgstr "कच्चा"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_AstrometryImageScaleUnits)
-#: ekos/align/opsastrometry.ui:210
+#: ekos/align/opsastrometry.ui:185
 #, fuzzy, kde-format
 msgid "app"
 msgstr "कॅपचर: %1"
@@ -7031,14 +7005,14 @@ msgstr "कॅपचर: %1"
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryUseDownsample)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_55)
 #. i18n: ectx: label, entry (AstrometryUseDownsample), group (Align)
-#: ekos/align/opsastrometry.ui:231 ekos/align/opsastrometry.ui:295
+#: ekos/align/opsastrometry.ui:206 ekos/align/opsastrometry.ui:270
 #: kstars.kcfg:1874
 #, kde-format
 msgid "Downsample the image to shrink its size and speed up the solver."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryUseDownsample)
-#: ekos/align/opsastrometry.ui:234
+#: ekos/align/opsastrometry.ui:209
 #, fuzzy, kde-format
 #| msgid "Image"
 msgid "Down Sample"
@@ -7046,7 +7020,7 @@ msgstr "प्रतिमा"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryUseImageScale)
 #. i18n: ectx: label, entry (AstrometryUseImageScale), group (Align)
-#: ekos/align/opsastrometry.ui:244 kstars.kcfg:1856
+#: ekos/align/opsastrometry.ui:219 kstars.kcfg:1856
 #, kde-format
 msgid ""
 "Set image scale to speed up solver as it does not have to search index files "
@@ -7054,7 +7028,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryUseImageScale)
-#: ekos/align/opsastrometry.ui:247
+#: ekos/align/opsastrometry.ui:222
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgid "Use Scale"
@@ -7062,7 +7036,7 @@ msgstr "रेषीय"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_41)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_12)
-#: ekos/align/opsastrometry.ui:266 ekos/align/opsastrometry.ui:414
+#: ekos/align/opsastrometry.ui:241 ekos/align/opsastrometry.ui:389
 #, kde-format
 msgid ""
 "The lower end of the imager scale, calculated as a little smaller than the "
@@ -7070,25 +7044,25 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_41)
-#: ekos/align/opsastrometry.ui:269
+#: ekos/align/opsastrometry.ui:244
 #, kde-format
 msgid "L"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_55)
-#: ekos/align/opsastrometry.ui:298
+#: ekos/align/opsastrometry.ui:273
 #, kde-format
 msgid "downsample"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: ekos/align/opsastrometry.ui:327
+#: ekos/align/opsastrometry.ui:302
 #, fuzzy, kde-format
 msgid "High"
 msgstr "जास्त"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryAutoUpdateImageScale)
-#: ekos/align/opsastrometry.ui:339
+#: ekos/align/opsastrometry.ui:314
 #, kde-format
 msgid ""
 "Automatically update image scale values when CCD and/or Mount parameters are "
@@ -7097,20 +7071,20 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryAutoUpdateImageScale)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryAutoUpdatePosition)
-#: ekos/align/opsastrometry.ui:342 ekos/align/opsastrometry.ui:635
+#: ekos/align/opsastrometry.ui:317 ekos/align/opsastrometry.ui:610
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Auto Update"
 msgstr "अद्ययावत करा"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, imageWarningLabel)
-#: ekos/align/opsastrometry.ui:370
+#: ekos/align/opsastrometry.ui:345
 #, kde-format
 msgid "Image Scale Auto Update is turned off."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_50)
-#: ekos/align/opsastrometry.ui:404
+#: ekos/align/opsastrometry.ui:379
 #, kde-format
 msgid ""
 "<p>The units of the imager scale bounds above.</p>\n"
@@ -7121,14 +7095,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_50)
-#: ekos/align/opsastrometry.ui:407
+#: ekos/align/opsastrometry.ui:382
 #, fuzzy, kde-format
 #| msgid "m"
 msgid "u"
 msgstr "m"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: ekos/align/opsastrometry.ui:417
+#: ekos/align/opsastrometry.ui:392
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Low"
@@ -7136,7 +7110,7 @@ msgid "Low"
 msgstr "कमी"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: ekos/align/opsastrometry.ui:443
+#: ekos/align/opsastrometry.ui:418
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid "Position Options"
@@ -7144,7 +7118,7 @@ msgstr "पर्याय"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryUsePosition)
 #. i18n: ectx: label, entry (AstrometryUsePosition), group (Align)
-#: ekos/align/opsastrometry.ui:449 kstars.kcfg:1882
+#: ekos/align/opsastrometry.ui:424 kstars.kcfg:1882
 #, kde-format
 msgid ""
 "Set estimated position to speed up astrometry solver as it does not have to "
@@ -7152,7 +7126,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryUsePosition)
-#: ekos/align/opsastrometry.ui:452
+#: ekos/align/opsastrometry.ui:427
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid "Use Position"
@@ -7161,7 +7135,7 @@ msgstr "स्थिती"
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_44)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_8)
 #. i18n: ectx: label, entry (AstrometryRadius), group (Align)
-#: ekos/align/opsastrometry.ui:471 ekos/align/opsastrometry.ui:578
+#: ekos/align/opsastrometry.ui:446 ekos/align/opsastrometry.ui:553
 #: kstars.kcfg:1896
 #, kde-format
 msgid ""
@@ -7171,7 +7145,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_44)
 #. i18n: ectx: property (text), widget (QLabel, bortleClassLabel5)
-#: ekos/align/opsastrometry.ui:474 tools/whatsinteresting/wilpsettings.ui:103
+#: ekos/align/opsastrometry.ui:449 tools/whatsinteresting/wilpsettings.ui:103
 #, kde-format
 msgid "5"
 msgstr ""
@@ -7179,15 +7153,15 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_47)
 #. i18n: ectx: property (toolTip), widget (dmsBox, estRA)
 #. i18n: ectx: property (toolTip), widget (QLabel, label_14)
-#: ekos/align/opsastrometry.ui:503 ekos/align/opsastrometry.ui:526
-#: ekos/align/opsastrometry.ui:533
+#: ekos/align/opsastrometry.ui:478 ekos/align/opsastrometry.ui:501
+#: ekos/align/opsastrometry.ui:508
 #, kde-format
 msgid ""
 "The RA of the Estimated Telescope/Image Field Position in hh:mm:ss notation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_47)
-#: ekos/align/opsastrometry.ui:506
+#: ekos/align/opsastrometry.ui:481
 #, kde-format
 msgid "3"
 msgstr ""
@@ -7195,45 +7169,45 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QLabel, label_15)
 #. i18n: ectx: property (toolTip), widget (dmsBox, estDec)
 #. i18n: ectx: property (toolTip), widget (QLineEdit, lineEdit_48)
-#: ekos/align/opsastrometry.ui:513 ekos/align/opsastrometry.ui:597
-#: ekos/align/opsastrometry.ui:620
+#: ekos/align/opsastrometry.ui:488 ekos/align/opsastrometry.ui:572
+#: ekos/align/opsastrometry.ui:595
 #, kde-format
 msgid ""
 "The DEC of the Estimated Telescope/Image Field Position in dd:mm:ss notation"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, updatePosition)
-#: ekos/align/opsastrometry.ui:555
+#: ekos/align/opsastrometry.ui:530
 #, kde-format
 msgid "Update coordinates to the current telescope position"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: ekos/align/opsastrometry.ui:581
+#: ekos/align/opsastrometry.ui:556
 #, kde-format
 msgid "Radius"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, lineEdit_48)
-#: ekos/align/opsastrometry.ui:623
+#: ekos/align/opsastrometry.ui:598
 #, fuzzy, kde-format
 msgid "4"
 msgstr "X:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryAutoUpdatePosition)
-#: ekos/align/opsastrometry.ui:632
+#: ekos/align/opsastrometry.ui:607
 #, kde-format
 msgid "Automatically update position coordinates when mount completes slewing."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QLabel, positionWarningLabel)
-#: ekos/align/opsastrometry.ui:663
+#: ekos/align/opsastrometry.ui:638
 #, kde-format
 msgid "Position Auto Update is turned off."
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AstrometryDifferentialSlewing)
-#: ekos/align/opsastrometry.ui:684
+#: ekos/align/opsastrometry.ui:659
 #, kde-format
 msgid ""
 "Do not use Sync when Slew to Target is selected. Use differential slewing to "
@@ -7241,20 +7215,20 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AstrometryDifferentialSlewing)
-#: ekos/align/opsastrometry.ui:687
+#: ekos/align/opsastrometry.ui:662
 #, kde-format
 msgid "Use differential slewing instead of syncing"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: ekos/align/opsastrometry.ui:699
+#: ekos/align/opsastrometry.ui:674
 #, fuzzy, kde-format
 #| msgid "Custom"
 msgid "Custom:"
 msgstr "ऐच्छिक"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_AstrometryCustomOptions)
-#: ekos/align/opsastrometry.ui:706
+#: ekos/align/opsastrometry.ui:681
 #, kde-format
 msgid "Additional optional astrometry.net options."
 msgstr ""
@@ -8414,7 +8388,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #. i18n: ectx: property (windowTitle), widget (QWidget, Manager)
-#: ekos/auxiliary/opslogs.ui:146 ekos/manager.ui:26 kstarsactions.cpp:1050
+#: ekos/auxiliary/opslogs.ui:146 ekos/manager.ui:26 kstarsactions.cpp:1060
 #: kstarsinit.cpp:432
 #, kde-format
 msgid "Ekos"
@@ -8517,7 +8491,7 @@ msgid "Log INDI devices activity"
 msgstr "जुळवणी तोडा"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_INDILogging)
-#: ekos/auxiliary/opslogs.ui:285 kstarsactions.cpp:1046
+#: ekos/auxiliary/opslogs.ui:285 kstarsactions.cpp:1056
 #, kde-format
 msgid "INDI"
 msgstr ""
@@ -8593,7 +8567,7 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (QComboBox, transferFormatCombo)
 #: ekos/auxiliary/opslogs.ui:357 ekos/capture/capture.cpp:859
 #: ekos/capture/capture.cpp:869 ekos/capture/capture.ui:191
-#: kstarsactions.cpp:1040
+#: kstarsactions.cpp:1050
 #, fuzzy, kde-format
 #| msgid "Open Script"
 msgid "FITS"
@@ -19060,7 +19034,7 @@ msgstr "फाईल %1 उघडू शकत नाही"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
 #. i18n: ectx: property (text), widget (QPushButton, NoneButton)
-#: indi/drivermanager.cpp:1298 indi/indidriver.cpp:747 kstarsactions.cpp:1631
+#: indi/drivermanager.cpp:1298 indi/indidriver.cpp:747 kstarsactions.cpp:1642
 #: kstarsinit.cpp:708 kstarsinit.cpp:709 oal/equipmentwriter.ui:217
 #: oal/log.cpp:337 tools/exporteyepieceview.cpp:68 tools/eyepiecefield.cpp:112
 #: tools/obslistwizard.ui:183
@@ -20278,17 +20252,17 @@ msgstr ""
 msgid "KStars"
 msgstr "तारा"
 
-#: kstars.cpp:350 kstarsactions.cpp:1426 skymap.cpp:386
+#: kstars.cpp:350 kstarsactions.cpp:1437 skymap.cpp:386
 #, kde-format
 msgid "Stop &Tracking"
 msgstr ""
 
-#: kstars.cpp:358 kstarsactions.cpp:1563 kstarsinit.cpp:260
+#: kstars.cpp:358 kstarsactions.cpp:1574 kstarsinit.cpp:260
 #, kde-format
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr ""
 
-#: kstars.cpp:359 kstarsactions.cpp:1554 kstarsinit.cpp:261
+#: kstars.cpp:359 kstarsactions.cpp:1565 kstarsinit.cpp:261
 #, kde-format
 msgid "Switch to horizonal view (Horizontal &Coordinates)"
 msgstr ""
@@ -87253,64 +87227,78 @@ msgstr ""
 msgid "Equipment Settings - Equipment Type and Parameters"
 msgstr ""
 
-#: kstarsactions.cpp:634 kstarsactions.cpp:670 kstarsactions.cpp:702
-#: kstarsactions.cpp:740
+#: kstarsactions.cpp:634 kstarsactions.cpp:670 kstarsactions.cpp:710
+#: kstarsactions.cpp:748
 #, kde-format
 msgid ""
 "Unable to find INDI server. Please make sure the package that provides the "
 "'indiserver' binary is installed."
 msgstr ""
 
-#: kstarsactions.cpp:1020
+#: kstarsactions.cpp:687
+#, kde-format
+msgid ""
+"INDI Device Manager should only be used by advanced technical users. It "
+"cannot be used with Ekos. Do you still want to open INDI device manager?"
+msgstr ""
+
+#: kstarsactions.cpp:688
+#, fuzzy, kde-format
+#| msgctxt "string from libindi, used in the config dialog"
+#| msgid "Site Name"
+msgid "INDI Device Manager"
+msgstr "स्थळ नाव"
+
+#: kstarsactions.cpp:1030
 #, kde-format
 msgid "Catalogs"
 msgstr ""
 
-#: kstarsactions.cpp:1032
+#: kstarsactions.cpp:1042
 #, kde-format
 msgid "Guides"
 msgstr ""
 
-#: kstarsactions.cpp:1035
+#: kstarsactions.cpp:1045
 #, kde-format
 msgid "Colors"
 msgstr "रंग"
 
-#: kstarsactions.cpp:1059
+#: kstarsactions.cpp:1069
 #, kde-format
 msgid "Xplanet"
 msgstr ""
 
-#: kstarsactions.cpp:1167
+#: kstarsactions.cpp:1177
 #, fuzzy, kde-format
 #| msgid "Open Script"
 msgid "Open FITS"
 msgstr "स्क्रिप्ट उघडा"
 
-#: kstarsactions.cpp:1193
+#: kstarsactions.cpp:1204
 #, fuzzy, kde-format
 msgid "Export Image"
 msgstr "निर्यात"
 
-#: kstarsactions.cpp:1236 tools/scriptbuilder.cpp:827
+#: kstarsactions.cpp:1247 tools/scriptbuilder.cpp:827
 #: tools/scriptbuilder.cpp:897
 #, kde-format
 msgctxt "Filter by file type: KStars Scripts."
 msgid "KStars Scripts (*.kstars)"
 msgstr ""
 
-#: kstarsactions.cpp:1244
+#: kstarsactions.cpp:1255
 #, fuzzy, kde-format
 #| msgid "Complete"
 msgid "Executing remote scripts is not supported."
 msgstr "पूर्ण"
 
-#: kstarsactions.cpp:1252 oal/execute.cpp:329 tools/observinglist.cpp:853
+#: kstarsactions.cpp:1263 oal/execute.cpp:329 tools/observinglist.cpp:853
 #, fuzzy, kde-format
 msgid "Could not open file %1"
 msgstr "फाईल %1 उघडू शकत नाही"
 
-#: kstarsactions.cpp:1276
+#: kstarsactions.cpp:1287
 #, kde-format
 msgid ""
 "The selected script contains unrecognized elements, indicating that it was "
@@ -87319,27 +87307,27 @@ msgid ""
 "it anyway?"
 msgstr ""
 
-#: kstarsactions.cpp:1280
+#: kstarsactions.cpp:1291
 #, kde-format
 msgid "Script Validation Failed"
 msgstr ""
 
-#: kstarsactions.cpp:1280
+#: kstarsactions.cpp:1291
 #, kde-format
 msgid "Run Nevertheless"
 msgstr ""
 
-#: kstarsactions.cpp:1287
+#: kstarsactions.cpp:1298
 #, kde-format
 msgid "Running script: %1"
 msgstr ""
 
-#: kstarsactions.cpp:1304
+#: kstarsactions.cpp:1315
 #, kde-format
 msgid "Script finished."
 msgstr ""
 
-#: kstarsactions.cpp:1315
+#: kstarsactions.cpp:1326
 #, kde-format
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
@@ -87347,67 +87335,67 @@ msgid ""
 "Chart color scheme for printing?"
 msgstr ""
 
-#: kstarsactions.cpp:1321
+#: kstarsactions.cpp:1332
 #, kde-format
 msgid "Switch to Star Chart Colors?"
 msgstr ""
 
-#: kstarsactions.cpp:1321
+#: kstarsactions.cpp:1332
 #, fuzzy, kde-format
 #| msgid "New Color Scheme"
 msgid "Switch Color Scheme"
 msgstr "नवीन रंग सुत्रयोजना"
 
-#: kstarsactions.cpp:1322
+#: kstarsactions.cpp:1333
 #, kde-format
 msgid "Do Not Switch"
 msgstr ""
 
-#: kstarsactions.cpp:1403 kstarsinit.cpp:233
+#: kstarsactions.cpp:1414 kstarsinit.cpp:233
 #, kde-format
 msgid "Engage &Tracking"
 msgstr ""
 
-#: kstarsactions.cpp:1504
+#: kstarsactions.cpp:1515
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 degrees"
 msgstr ""
 
-#: kstarsactions.cpp:1508
+#: kstarsactions.cpp:1519
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcminutes"
 msgstr ""
 
-#: kstarsactions.cpp:1513
+#: kstarsactions.cpp:1524
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcseconds"
 msgstr ""
 
-#: kstarsactions.cpp:1530
+#: kstarsactions.cpp:1541
 #, kde-format
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr ""
 
-#: kstarsactions.cpp:1531
+#: kstarsactions.cpp:1542
 #, kde-format
 msgid "Enter a field-of-view angle in degrees: "
 msgstr ""
 
-#: kstarsactions.cpp:1699
+#: kstarsactions.cpp:1710
 #, kde-format
 msgid "Attempt to determine from image"
 msgstr ""
 
-#: kstarsactions.cpp:1700
+#: kstarsactions.cpp:1711
 #, kde-format
 msgid "Eyepiece View: Choose a field-of-view"
 msgstr ""
 
-#: kstarsactions.cpp:1701
+#: kstarsactions.cpp:1712
 #, kde-format
 msgid "FOV to render eyepiece view for:"
 msgstr ""
@@ -102698,13 +102686,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Capturing..."
 #~ msgstr "कॅपचर: %1"
-
-#, fuzzy
-#~| msgctxt "string from libindi, used in the config dialog"
-#~| msgid "Site Name"
-#~ msgctxt "Toggle the device manager in the display"
-#~ msgid "Device Manager"
-#~ msgstr "स्थळ नाव"
 
 #, fuzzy
 #~ msgid "&Toolbars"
