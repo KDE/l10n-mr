@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-09 03:21+0200\n"
+"POT-Creation-Date: 2019-05-12 03:20+0200\n"
 "PO-Revision-Date: 2014-10-28 14:28+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1556,6 +1556,7 @@ msgstr "मजकूर निवड पद्धत :"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbTextSelectionMode)
 #: dialogs/navigationconfigwidget.ui:103 inputmode/katenormalinputmode.cpp:82
+#: mode/katemodemanager.cpp:146
 #, kde-format
 msgid "Normal"
 msgstr "सामान्य"
@@ -1961,6 +1962,7 @@ msgstr "पांढरी जागा स्पष्ट करणे"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, spacesComboBox)
 #: dialogs/textareaappearanceconfigwidget.ui:156
+#: syntax/katehighlightmenu.cpp:56
 #, fuzzy, kde-format
 #| msgctxt "Autoindent mode"
 #| msgid "None"
@@ -2477,6 +2479,19 @@ msgstr "माइम प्रकार निवडा"
 #, kde-format
 msgid "Modes && Filetypes"
 msgstr "पद्धती व फाईल प्रकार"
+
+#: mode/katemodemenulist.cpp:83
+#, fuzzy, kde-format
+#| msgid "Search mode"
+msgctxt "Placeholder in search bar"
+msgid "Search..."
+msgstr "शोध पद्धत"
+
+#: mode/katemodemenulist.cpp:376
+#, kde-format
+msgctxt "A search yielded no results"
+msgid "No items matching your search"
+msgstr ""
 
 #: printing/printconfigwidgets.cpp:49
 #, kde-format
@@ -5830,12 +5845,12 @@ msgstr ""
 msgid "Change dictionary"
 msgstr "शब्दकोश बदला..."
 
-#: view/katestatusbar.cpp:150 view/katestatusbar.cpp:491
+#: view/katestatusbar.cpp:150 view/katestatusbar.cpp:499
 #, kde-format
 msgid "Tab Width"
 msgstr "टॅब रूंदी"
 
-#: view/katestatusbar.cpp:158 view/katestatusbar.cpp:503
+#: view/katestatusbar.cpp:158 view/katestatusbar.cpp:511
 #, kde-format
 msgid "Indentation Width"
 msgstr "समास रूंदी"
@@ -5865,92 +5880,105 @@ msgstr "जागा"
 msgid "Encoding"
 msgstr "एन्कोडिंग"
 
-#: view/katestatusbar.cpp:197
+#: view/katestatusbar.cpp:194
+#, fuzzy, kde-format
+#| msgid "&Mode"
+msgid "Mode"
+msgstr "पद्धत (&M)"
+
+#: view/katestatusbar.cpp:195 view/kateview.cpp:645
+#, kde-format
+msgid ""
+"Here you can choose which mode should be used for the current document. This "
+"will influence the highlighting and folding being used, for example."
+msgstr ""
+
+#: view/katestatusbar.cpp:205
 #, fuzzy, kde-format
 #| msgid "&Keep highlighting"
 msgid "Syntax highlighting"
 msgstr "स्पष्ट करणे सुरु ठेवा (&K)"
 
-#: view/katestatusbar.cpp:287
+#: view/katestatusbar.cpp:295
 #, kde-format
 msgid "[BLOCK] %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:299
+#: view/katestatusbar.cpp:307
 #, kde-format
 msgid "Line %1 of %2, Column %3"
 msgstr ""
 
-#: view/katestatusbar.cpp:304
+#: view/katestatusbar.cpp:312
 #, kde-format
 msgid "Line %1, Column %2"
 msgstr ""
 
-#: view/katestatusbar.cpp:378
+#: view/katestatusbar.cpp:386
 #, kde-format
 msgid "Meaning of current icon: Document was not modified since it was loaded"
 msgstr ""
 
-#: view/katestatusbar.cpp:384
+#: view/katestatusbar.cpp:392
 #, kde-format
 msgid "Meaning of current icon: Document was modified since it was loaded"
 msgstr ""
 
-#: view/katestatusbar.cpp:390
+#: view/katestatusbar.cpp:398
 #, kde-format
 msgid ""
 "Meaning of current icon: Document was modified or deleted by another program"
 msgstr ""
 
-#: view/katestatusbar.cpp:402
+#: view/katestatusbar.cpp:410
 #, kde-format
 msgid "Meaning of current icon: Document is in read-only mode"
 msgstr ""
 
-#: view/katestatusbar.cpp:415
+#: view/katestatusbar.cpp:423
 #, kde-format
 msgid "Soft Tabs: %1"
 msgstr ""
 
-#: view/katestatusbar.cpp:416
+#: view/katestatusbar.cpp:424
 #, kde-format
 msgid "Soft Tabs: %1 (%2)"
 msgstr ""
 
-#: view/katestatusbar.cpp:417
+#: view/katestatusbar.cpp:425
 #, fuzzy, kde-format
 #| msgid "Snippet: %1"
 msgid "Tab Size: %1"
 msgstr "स्निपेट : %1"
 
-#: view/katestatusbar.cpp:418
+#: view/katestatusbar.cpp:426
 #, kde-format
 msgid "Indent/Tab: %1/%2"
 msgstr ""
 
-#: view/katestatusbar.cpp:457 view/katestatusbar.cpp:478
+#: view/katestatusbar.cpp:465 view/katestatusbar.cpp:486
 #, kde-format
 msgid "Other..."
 msgstr "इतर..."
 
-#: view/katestatusbar.cpp:480
+#: view/katestatusbar.cpp:488
 #, kde-format
 msgid "Other (%1)"
 msgid_plural "Other (%1)"
 msgstr[0] "इतर (%1)"
 msgstr[1] "इतर (%1)"
 
-#: view/katestatusbar.cpp:491
+#: view/katestatusbar.cpp:499
 #, kde-format
 msgid "Please specify the wanted tab width:"
 msgstr ""
 
-#: view/katestatusbar.cpp:503
+#: view/katestatusbar.cpp:511
 #, kde-format
 msgid "Please specify the wanted indentation width:"
 msgstr ""
 
-#: view/katestatusbar.cpp:556
+#: view/katestatusbar.cpp:564
 #, kde-format
 msgctxt ""
 "%1 and %3 are the selected words/chars count, %2 and %4 are the total words/"
@@ -6228,13 +6256,6 @@ msgstr ""
 #, kde-format
 msgid "&Mode"
 msgstr "पद्धत (&M)"
-
-#: view/kateview.cpp:645
-#, kde-format
-msgid ""
-"Here you can choose which mode should be used for the current document. This "
-"will influence the highlighting and folding being used, for example."
-msgstr ""
 
 #: view/kateview.cpp:648
 #, kde-format
