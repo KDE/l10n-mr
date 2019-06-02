@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-31 02:44+0200\n"
+"POT-Creation-Date: 2019-06-02 02:44+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -11365,26 +11365,39 @@ msgid ""
 "%1"
 msgstr "प्रतिमा पूर्वावलोकन"
 
-#: libs/ui/canvas/kis_change_guides_command.cpp:38
+#: libs/ui/canvas/kis_change_guides_command.cpp:59
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Guide"
+msgstr "मार्गदर्शक तत्व संपादित करा"
+
+#: libs/ui/canvas/kis_change_guides_command.cpp:61
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Guide"
+msgstr "पेंटरची साधने (&P)"
+
+#: libs/ui/canvas/kis_change_guides_command.cpp:64
+#: libs/ui/canvas/kis_change_guides_command.cpp:116
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Edit Guides"
 msgstr "मार्गदर्शक तत्व संपादित करा"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:751
+#: libs/ui/canvas/kis_guides_manager.cpp:770
 #, fuzzy, kde-format
 msgid "Snap to:"
 msgstr "जाळ्याकडे खेचा :"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/canvas/kis_guides_manager.cpp:752
+#: libs/ui/canvas/kis_guides_manager.cpp:771
 #: plugins/dockers/griddocker/grid_config_widget.ui:39
 #, kde-format
 msgid "Grid"
 msgstr "जाळी"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: libs/ui/canvas/kis_guides_manager.cpp:753
+#: libs/ui/canvas/kis_guides_manager.cpp:772
 #: plugins/dockers/griddocker/grid_config_widget.ui:564
 #, fuzzy, kde-format
 msgid "Guides"
@@ -11392,44 +11405,44 @@ msgstr "मार्गदर्शक तत्व दर्शवा"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
-#: libs/ui/canvas/kis_guides_manager.cpp:754
+#: libs/ui/canvas/kis_guides_manager.cpp:773
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:52
 #: plugins/paintops/spray/wdgsprayshapeoptions.ui:81
 #, kde-format
 msgid "Pixel"
 msgstr "पिक्सेल"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:755
+#: libs/ui/canvas/kis_guides_manager.cpp:774
 #, fuzzy, kde-format
 msgid "Orthogonal"
 msgstr "जाळ्याकडे खेचा :"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:757
+#: libs/ui/canvas/kis_guides_manager.cpp:776
 #, fuzzy, kde-format
 msgid "Node"
 msgstr "संसाधने (&R)"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:758
+#: libs/ui/canvas/kis_guides_manager.cpp:777
 #, fuzzy, kde-format
 msgid "Extension"
 msgstr "परिमाणे"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:759
+#: libs/ui/canvas/kis_guides_manager.cpp:778
 #, fuzzy, kde-format
 msgid "Intersection"
 msgstr "घनता"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:761
+#: libs/ui/canvas/kis_guides_manager.cpp:780
 #, fuzzy, kde-format
 msgid "Bounding Box"
 msgstr "ब्लेंडिंग पद्धत"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:762
+#: libs/ui/canvas/kis_guides_manager.cpp:781
 #, fuzzy, kde-format
 msgid "Image Bounds"
 msgstr "प्रतिमा"
 
-#: libs/ui/canvas/kis_guides_manager.cpp:763
+#: libs/ui/canvas/kis_guides_manager.cpp:782
 #, fuzzy, kde-format
 msgid "Image Center"
 msgstr "प्रतिशत"
@@ -11906,8 +11919,8 @@ msgstr "व्हेक्टर प्रतिमा"
 #: libs/ui/KisView.cpp:747 libs/ui/opengl/kis_opengl_canvas2.cpp:377
 #: libs/ui/opengl/kis_opengl_image_textures.cpp:576
 #: libs/ui/widgets/kis_custom_image_widget.cc:277
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:822
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:825
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:854
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:857
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:299
 #: plugins/extensions/animationrenderer/AnimationRenderer.cpp:141
 #: plugins/extensions/animationrenderer/AnimationRenderer.cpp:190
@@ -17245,8 +17258,8 @@ msgid "No profile"
 msgstr "रूपरेषा नाही"
 
 #: libs/ui/kis_stopgradient_editor.cpp:44
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:955
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:961
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:987
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:993
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:122
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:54
 #, fuzzy, kde-format
@@ -23339,10 +23352,29 @@ msgstr "सहायक :"
 msgid "Concentric Ellipse assistant"
 msgstr "लंबवर्तुळ सहायक"
 
-#: plugins/assistants/Assistants/ConcentricEllipseAssistant.cc:189
+#: plugins/assistants/Assistants/ConcentricEllipseAssistant.cc:201
 #, fuzzy, kde-format
 msgid "Concentric Ellipse"
 msgstr "सर्व निवडा"
+
+#: plugins/assistants/Assistants/EditAssistantsCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Edit Assistants"
+msgstr "सहायक :"
+
+#: plugins/assistants/Assistants/EditAssistantsCommand.cpp:42
+#, fuzzy
+#| msgid "Assistant:"
+msgctxt "(qtundo-format)"
+msgid "Add Assistant"
+msgstr "सहायक :"
+
+#: plugins/assistants/Assistants/EditAssistantsCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove Assistant"
+msgstr "सहायक :"
 
 #: plugins/assistants/Assistants/EllipseAssistant.cc:34
 #, kde-format
@@ -23351,7 +23383,7 @@ msgstr "लंबवर्तुळ सहायक"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeCBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, shapeBox)
-#: plugins/assistants/Assistants/EllipseAssistant.cc:163
+#: plugins/assistants/Assistants/EllipseAssistant.cc:174
 #: plugins/flake/pathshapes/ellipse/EllipseShapeFactory.cpp:35
 #: plugins/paintops/gridbrush/wdggridbrushshapeoptions.ui:37
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:232
@@ -23365,7 +23397,7 @@ msgstr "लंबवर्तुळ"
 msgid "Fish Eye Point assistant"
 msgstr "पेंटिंग सहायक"
 
-#: plugins/assistants/Assistants/FisheyePointAssistant.cc:221
+#: plugins/assistants/Assistants/FisheyePointAssistant.cc:233
 #, fuzzy, kde-format
 msgid "Fish Eye Point"
 msgstr "बदलते अन्त्य बिंदू"
@@ -23375,33 +23407,33 @@ msgstr "बदलते अन्त्य बिंदू"
 msgid "Infinite Ruler assistant"
 msgstr "मोजपट्टी सहायक"
 
-#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:156
+#: plugins/assistants/Assistants/InfiniteRulerAssistant.cc:166
 #, fuzzy, kde-format
 msgid "Infinite Ruler"
 msgstr "मोजपट्टी सहायक"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:703
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:735
 #, fuzzy, kde-format
 msgid "Select an Assistant"
 msgstr "स्प्लाईन सहायक"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:825
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:857
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr "चुका आढळल्या. सर्व सहायक कार्यान्वित करता आले नाहीत."
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:888
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:920
 #, fuzzy, kde-format
 msgid "Save Assistant"
 msgstr "सहायक :"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:968
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1000
 #, fuzzy, kde-format
 #| msgid "Density:"
 msgid "Density: "
 msgstr "घनता :"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.h:157
+#: plugins/assistants/Assistants/kis_assistant_tool.h:163
 #, fuzzy, kde-format
 msgid "Assistant Tool"
 msgstr "सहायक :"
@@ -23411,7 +23443,7 @@ msgstr "सहायक :"
 msgid "Parallel Ruler assistant"
 msgstr "मोजपट्टी सहायक"
 
-#: plugins/assistants/Assistants/ParallelRulerAssistant.cc:163
+#: plugins/assistants/Assistants/ParallelRulerAssistant.cc:173
 #, fuzzy, kde-format
 msgid "Parallel Ruler"
 msgstr "मोजपट्टी सहायक"
@@ -23423,7 +23455,7 @@ msgstr "आकलन सहायक"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, perspectiveTransformButton)
 #. i18n: ectx: property (text), widget (QToolButton, perspectiveTransformButton)
-#: plugins/assistants/Assistants/PerspectiveAssistant.cc:457
+#: plugins/assistants/Assistants/PerspectiveAssistant.cc:474
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.h:62
 #: plugins/tools/tool_transform2/kis_tool_transform.cc:128
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:112
@@ -23437,7 +23469,7 @@ msgstr "आकलन"
 msgid "Ruler assistant"
 msgstr "मोजपट्टी सहायक"
 
-#: plugins/assistants/Assistants/RulerAssistant.cc:160
+#: plugins/assistants/Assistants/RulerAssistant.cc:170
 #, kde-format
 msgid "Ruler"
 msgstr "मोजपट्टी"
@@ -23447,7 +23479,7 @@ msgstr "मोजपट्टी"
 msgid "Spline assistant"
 msgstr "स्प्लाईन सहायक"
 
-#: plugins/assistants/Assistants/SplineAssistant.cc:221
+#: plugins/assistants/Assistants/SplineAssistant.cc:232
 #, kde-format
 msgid "Spline"
 msgstr "स्प्लाईन"
@@ -23457,7 +23489,7 @@ msgstr "स्प्लाईन"
 msgid "Vanishing Point assistant"
 msgstr "पेंटिंग सहायक"
 
-#: plugins/assistants/Assistants/VanishingPointAssistant.cc:301
+#: plugins/assistants/Assistants/VanishingPointAssistant.cc:313
 #, fuzzy, kde-format
 msgid "Vanishing Point"
 msgstr "बदलते अन्त्य बिंदू"
@@ -66402,9 +66434,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Scalable Distance"
 #~ msgstr "पदार्थाचे अंतर :"
-
-#~ msgid "Assistant:"
-#~ msgstr "सहायक :"
 
 #, fuzzy
 #~| msgid "Assistant:"
