@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-06-23 13:40+0200\n"
+"POT-Creation-Date: 2019-07-07 02:57+0200\n"
 "PO-Revision-Date: 2013-03-18 17:51+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -96,12 +96,8 @@ msgid "Spanish"
 msgstr ""
 
 #: liblearnerprofile/src/models/learninggoalmodel.cpp:172
-#: src/models/coursemodel.cpp:142 src/models/languageresourcemodel.cpp:88
-#: src/models/phonememodel.cpp:78 src/models/phraselistmodel.cpp:114
-#: src/models/profilemodel.cpp:104 src/models/skeletonmodel.cpp:98
-#: src/models/unitmodel.cpp:101
 #, kde-format
-msgctxt "@item:inlistbox:"
+msgctxt "@item:inlistbox unknown learning goal"
 msgid "unknown"
 msgstr ""
 
@@ -188,7 +184,7 @@ msgstr ""
 msgid "Please select a course"
 msgstr ""
 
-#: src/core/resources/editablecourseresource.cpp:198 src/qml/Editor.qml:226
+#: src/core/resources/editablecourseresource.cpp:211 src/qml/Editor.qml:226
 #, kde-format
 msgid "New Unit"
 msgstr ""
@@ -372,6 +368,15 @@ msgid ""
 "The currently open course contains unsaved changes. Do you want to save them?"
 msgstr ""
 
+#: src/models/coursemodel.cpp:142 src/models/languageresourcemodel.cpp:88
+#: src/models/phonememodel.cpp:78 src/models/phraselistmodel.cpp:114
+#: src/models/profilemodel.cpp:104 src/models/skeletonmodel.cpp:98
+#: src/models/unitmodel.cpp:101
+#, kde-format
+msgctxt "@item:inlistbox:"
+msgid "unknown"
+msgstr ""
+
 #: src/models/coursemodel.cpp:223
 #, fuzzy, kde-format
 #| msgid "Close Course"
@@ -482,17 +487,20 @@ msgstr ""
 
 #: src/qml/DownloadPage.qml:91
 #, kde-format
-msgid "update"
+msgctxt "@action:button"
+msgid "Update"
 msgstr ""
 
 #: src/qml/DownloadPage.qml:96
 #, kde-format
-msgid "install"
+msgctxt "@action:button"
+msgid "Install"
 msgstr ""
 
 #: src/qml/DownloadPage.qml:101
 #, kde-format
-msgid "remove"
+msgctxt "@action:button"
+msgid "Remove"
 msgstr ""
 
 #: src/qml/Editor.qml:73
@@ -541,7 +549,7 @@ msgstr ""
 #: src/qml/PhraseEditor.qml:63
 #, fuzzy, kde-format
 #| msgid "Original Author"
-msgid "Original Phrase:"
+msgid "Original Phrase: <i>%1</i>"
 msgstr "मूळ लेखक"
 
 #: src/qml/PhraseEditorEditStateComponent.qml:62
@@ -551,16 +559,19 @@ msgstr ""
 
 #: src/qml/PhraseEditorEditStateComponent.qml:67
 #, kde-format
+msgctxt "state"
 msgid "Unknown"
 msgstr ""
 
 #: src/qml/PhraseEditorEditStateComponent.qml:76
 #, kde-format
+msgctxt "state"
 msgid "Translated"
 msgstr ""
 
 #: src/qml/PhraseEditorEditStateComponent.qml:85
 #, kde-format
+msgctxt "state"
 msgid "Completed"
 msgstr ""
 
@@ -581,7 +592,7 @@ msgstr ""
 
 #: src/qml/PhraseEditorSoundComponent.qml:74
 #, kde-format
-msgid "Replace existing recording"
+msgid "Replace Existing Recording"
 msgstr ""
 
 #: src/qml/PhraseEditorSoundComponent.qml:82
@@ -714,7 +725,7 @@ msgstr ""
 
 #: src/qml/TrainingPage.qml:44
 #, kde-format
-msgid "Category: "
+msgid "Category: %1"
 msgstr ""
 
 #: src/qml/TrainingPage.qml:53
@@ -768,6 +779,19 @@ msgstr "कोर्स बंद करा"
 #, kde-format
 msgid "Welcome to Artikulate"
 msgstr ""
+
+#: src/qml/WelcomePage.qml:61
+#, kde-format
+msgctxt "@title:window language / course name"
+msgid "%1 / %2"
+msgstr ""
+
+#: src/qml/WelcomePage.qml:75
+#, fuzzy, kde-format
+#| msgid "Close Course"
+msgctxt "@action:button"
+msgid "Start Training"
+msgstr "कोर्स बंद करा"
 
 #: src/ui/exportghnsdialog.cpp:42
 #, kde-format
