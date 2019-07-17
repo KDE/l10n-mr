@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-07 02:42+0200\n"
+"POT-Creation-Date: 2019-07-17 02:43+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -364,7 +364,7 @@ msgstr "स्वयंचलित"
 #. i18n: ectx: property (text), widget (QLabel, configName)
 #: debugger/variable/variablecollection.cpp:423
 #: debugger/variable/variabletooltip.cpp:96
-#: shell/launchconfigurationdialog.ui:114
+#: shell/launchconfigurationdialog.ui:114 shell/sessioncontroller.cpp:606
 #, kde-format
 msgid "Name"
 msgstr "नाव"
@@ -3483,33 +3483,33 @@ msgstr ""
 msgid "Running"
 msgstr "कार्यरत आहे"
 
-#: shell/sessionchooserdialog.cpp:204
+#: shell/sessionchooserdialog.cpp:206
 #, kde-format
 msgctxt "@title"
 msgid "Cannot Delete Session"
 msgstr ""
 
-#: shell/sessionchooserdialog.cpp:205
+#: shell/sessionchooserdialog.cpp:207
 #, kde-format
 msgctxt "@info"
 msgid "<p>Cannot delete a locked session."
 msgstr ""
 
-#: shell/sessionchooserdialog.cpp:208
+#: shell/sessionchooserdialog.cpp:210
 #, kde-format
 msgctxt "@info"
-msgid "<p>The session is locked by %1 on %2 (PID %3)."
+msgid "<p>The session <b>%1</b> is locked by %2 on %3 (PID %4)."
 msgstr ""
 
-#: shell/sessionchooserdialog.cpp:216
+#: shell/sessionchooserdialog.cpp:218
 #, kde-format
 msgctxt "@info"
 msgid ""
-"The session and all contained settings will be deleted. The projects will "
-"stay unaffected. Do you really want to continue?"
+"The session <b>%1</b> and all contained settings will be deleted. The "
+"projects will stay unaffected. Do you really want to continue?"
 msgstr ""
 
-#: shell/sessionchooserdialog.cpp:217
+#: shell/sessionchooserdialog.cpp:219
 #, kde-format
 msgctxt "@title"
 msgid "Delete Session"
@@ -3586,12 +3586,12 @@ msgstr "ओळख"
 msgid "Contents"
 msgstr "मजकूर"
 
-#: shell/sessioncontroller.cpp:611
+#: shell/sessioncontroller.cpp:612
 #, kde-format
 msgid "Filter:"
 msgstr "गाळणी :"
 
-#: shell/sessioncontroller.cpp:642
+#: shell/sessioncontroller.cpp:644
 #, kde-format
 msgid "Create New Session"
 msgstr ""
