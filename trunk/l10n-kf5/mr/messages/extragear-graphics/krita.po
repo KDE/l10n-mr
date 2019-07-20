@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-18 02:39+0200\n"
+"POT-Creation-Date: 2019-07-20 02:42+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -8003,7 +8003,6 @@ msgstr "रेषा"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label_16)
 #. i18n: ectx: property (text), widget (QLabel, typeDescLabel)
-#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, axisTypeLabel)
 #: libs/flake/KoConnectionShapeConfigWidget.ui:17
 #: libs/ui/forms/wdgimageproperties.ui:350
@@ -8016,7 +8015,6 @@ msgstr "रेषा"
 #: plugins/flake/pathshapes/ellipse/EllipseShapeConfigWidget.ui:35
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.ui:20
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:195
-#: plugins/impex/ppm/kis_wdg_options_ppm.ui:17
 #: plugins/tools/basictools/wdgmultihandtool.ui:164
 #, kde-format
 msgid "Type:"
@@ -8732,7 +8730,7 @@ msgid "Node Rename"
 msgstr "नाव :"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:28
-#: libs/image/kis_image.cc:674
+#: libs/image/kis_image.cc:740
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "प्रतिमेचा आकार बदला"
@@ -8935,106 +8933,113 @@ msgstr "मिशेल"
 msgid "Pass Through"
 msgstr ""
 
-#: libs/image/kis_image.cc:569
+#: libs/image/kis_image.cc:330
+#: plugins/impex/qimageio/kis_qimageio_import.cpp:61
+#, fuzzy, kde-format
+#| msgid "Import Image"
+msgid "Imported Image"
+msgstr "प्रतिमा आयात करा"
+
+#: libs/image/kis_image.cc:635
 #, kde-format
 msgid "background"
 msgstr "पार्श्वभूमी"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:573 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:639 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:393
 #, kde-format
 msgid "Layer"
 msgstr "स्तर"
 
-#: libs/image/kis_image.cc:673
+#: libs/image/kis_image.cc:739
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "प्रतिमा कापा"
 
-#: libs/image/kis_image.cc:715
+#: libs/image/kis_image.cc:781
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "समूह स्तर (&G)"
 
-#: libs/image/kis_image.cc:716
+#: libs/image/kis_image.cc:782
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:748
+#: libs/image/kis_image.cc:814
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:749
+#: libs/image/kis_image.cc:815
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
 
-#: libs/image/kis_image.cc:796
+#: libs/image/kis_image.cc:862
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "स्तर चढवा"
 
-#: libs/image/kis_image.cc:923
+#: libs/image/kis_image.cc:989
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "प्रतिमा फिरवा"
 
-#: libs/image/kis_image.cc:929
+#: libs/image/kis_image.cc:995
 #, fuzzy
 #| msgid "Rotate Canvas"
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "कॅनव्हास फिरवा"
 
-#: libs/image/kis_image.cc:931
+#: libs/image/kis_image.cc:997
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "स्तर फिरवा"
 
-#: libs/image/kis_image.cc:1013
+#: libs/image/kis_image.cc:1079
 #, fuzzy
 #| msgid "Unsharp Mask"
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:1016
+#: libs/image/kis_image.cc:1082
 #, fuzzy
 #| msgid "Shear Layer"
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr "स्तर विभागा"
 
-#: libs/image/kis_image.cc:1023
+#: libs/image/kis_image.cc:1089
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:1035
+#: libs/image/kis_image.cc:1101
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1070
+#: libs/image/kis_image.cc:1136
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1855
+#: libs/image/kis_image.cc:1921
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -11112,7 +11117,7 @@ msgstr "समास कमी करा"
 #: libs/pigment/compositeops/KoCompositeOps.h:323
 #: libs/pigment/KoCompositeOpRegistry.cpp:99
 #, fuzzy, kde-format
-msgid "Luminosity (SAI)"
+msgid "Luminosity/Shine (SAI)"
 msgstr "अपारदर्शकता वाढवा"
 
 #: libs/pigment/KoBasicHistogramProducers.cpp:372
@@ -11234,9 +11239,7 @@ msgstr ""
 msgid "Arithmetic"
 msgstr "लॉगरिदमिक"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
 #: libs/pigment/KoCompositeOp.cpp:35 libs/pigment/KoCompositeOpRegistry.cpp:38
-#: plugins/impex/ppm/kis_wdg_options_ppm.ui:34
 #, kde-format
 msgid "Binary"
 msgstr "बायनरी"
@@ -12187,7 +12190,7 @@ msgstr "स्क्रीनचा आकार (&S)"
 
 #: libs/ui/dialogs/kis_dlg_preferences.cc:595
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:772
-#: libs/ui/widgets/kis_color_space_selector.cc:199
+#: libs/ui/widgets/kis_color_space_selector.cc:200
 #, fuzzy, kde-format
 msgid "Install Color Profiles"
 msgstr "खुली रंग रूपरेषा"
@@ -20684,7 +20687,7 @@ msgctxt "combo box: select all layers without a label"
 msgid "No Label"
 msgstr "लेबल"
 
-#: libs/ui/widgets/kis_color_space_selector.cc:226
+#: libs/ui/widgets/kis_color_space_selector.cc:227
 #, fuzzy, kde-format
 msgid "Select a Colorspace"
 msgstr "अपारदर्शक निवडा"
@@ -34162,12 +34165,6 @@ msgstr "इंटरलेसिंग"
 msgid "Save as HDR image (Rec. 2020 PQ)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: plugins/impex/ppm/kis_wdg_options_ppm.ui:39
-#, kde-format
-msgid "Ascii"
-msgstr "Ascii"
-
 #: plugins/impex/psd/psd_export.cc:67
 #, kde-format
 msgctxt "image conversion warning"
@@ -34196,12 +34193,6 @@ msgstr "ड्युओटोन कलरपद्धत ब्लॉक"
 #, fuzzy, kde-format
 msgid "Unparsed Resource Block"
 msgstr "संसाधने (&R)"
-
-#: plugins/impex/qimageio/kis_qimageio_import.cpp:61
-#, fuzzy, kde-format
-#| msgid "Import Image"
-msgid "Imported Image"
-msgstr "प्रतिमा आयात करा"
 
 #: plugins/impex/raw/3rdparty/libkdcraw/src/dcrawsettingswidget.cpp:224
 #, fuzzy, kde-format
@@ -40708,7 +40699,7 @@ msgstr "A - 2 वेगवान कुंचला"
 msgid "Pan Tool"
 msgstr "मुक्तहस्त मार्ग"
 
-#: plugins/tools/basictools/kis_tool_path.cc:113
+#: plugins/tools/basictools/kis_tool_path.cc:114
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Draw Bezier Curve"
@@ -43510,6 +43501,9 @@ msgstr "डेकोरेशन्स दर्शवा"
 #, kde-format
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
+
+#~ msgid "Ascii"
+#~ msgstr "Ascii"
 
 #~ msgid "Target:"
 #~ msgstr "लक्ष्य :"
