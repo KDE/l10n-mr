@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 03:27+0200\n"
+"POT-Creation-Date: 2019-08-20 03:20+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -46,7 +46,7 @@ msgid "Show detailed tooltips"
 msgstr "तपशीलवार टूलटिप दर्शवा"
 
 #: app/main.cpp:48 app/SettingsBase.cpp:56 classic/CategoryList.cpp:40
-#: sidebar/package/contents/ui/introPage.qml:54
+#: sidebar/package/contents/ui/introPage.qml:55
 #, kde-format
 msgid "System Settings"
 msgstr "प्रणाली संयोजना"
@@ -63,7 +63,7 @@ msgid "(c) 2009, Ben Cooksley"
 msgstr "(C) 2009, बेन कूक्सली"
 
 #: app/main.cpp:49 classic/ClassicMode.cpp:72 icons/IconMode.cpp:62
-#: sidebar/SidebarMode.cpp:263
+#: sidebar/SidebarMode.cpp:273
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "बेन कूक्सली"
@@ -74,13 +74,13 @@ msgid "Maintainer"
 msgstr "नियंत्रक"
 
 #: app/main.cpp:50 classic/ClassicMode.cpp:73 icons/IconMode.cpp:63
-#: sidebar/SidebarMode.cpp:264
+#: sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "माथिआस सोकेन"
 
 #: app/main.cpp:50 classic/ClassicMode.cpp:73 icons/IconMode.cpp:63
-#: sidebar/SidebarMode.cpp:264
+#: sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Developer"
 msgstr "विकासकर्ता"
@@ -101,28 +101,29 @@ msgctxt "Search through a list of control modules"
 msgid "Search"
 msgstr "शोध"
 
-#: app/SettingsBase.cpp:144
-#, kde-format
-msgid "Configure"
+#: app/SettingsBase.cpp:143
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgid "Configure..."
 msgstr "संयोजन"
 
-#: app/SettingsBase.cpp:171
+#: app/SettingsBase.cpp:170
 #, kde-format
 msgid "Help"
 msgstr "मदत"
 
-#: app/SettingsBase.cpp:176 app/SettingsBase.cpp:371
+#: app/SettingsBase.cpp:175 app/SettingsBase.cpp:370
 #, kde-format
 msgid "About Active Module"
 msgstr "कार्यशील विभागा बद्दल"
 
-#: app/SettingsBase.cpp:190
+#: app/SettingsBase.cpp:189
 #, kde-format
 msgctxt "General config for System Settings"
 msgid "General"
 msgstr "सामान्य"
 
-#: app/SettingsBase.cpp:282
+#: app/SettingsBase.cpp:281
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence nothing is available "
@@ -130,24 +131,24 @@ msgid ""
 msgstr ""
 "प्रणाली संयोजना कोणतेही दृश्य शोधू शकत नाही व त्यामुळे संयोजना करण्याकरिता काही नाही."
 
-#: app/SettingsBase.cpp:282 app/SettingsBase.cpp:320
+#: app/SettingsBase.cpp:281 app/SettingsBase.cpp:319
 #, kde-format
 msgid "No views found"
 msgstr "एकही दृश्य सापडले नाही"
 
-#: app/SettingsBase.cpp:320
+#: app/SettingsBase.cpp:319
 #, kde-format
 msgid ""
 "System Settings was unable to find any views, and hence has nothing to "
 "display."
 msgstr "प्रणाली संयोजना कोणतेही दृश्य शोधू शकत नाही व त्यामुळे दर्शविण्याकरिता काही नाही."
 
-#: app/SettingsBase.cpp:353
+#: app/SettingsBase.cpp:352
 #, kde-format
 msgid "About Active View"
 msgstr "कार्यशील दृश्या बद्दल"
 
-#: app/SettingsBase.cpp:414
+#: app/SettingsBase.cpp:413
 #, kde-format
 msgid "About %1"
 msgstr "%1 विषयी"
@@ -203,8 +204,8 @@ msgstr "ट्री दृश्य"
 msgid "Provides a classic tree-based view of control modules."
 msgstr "नियंत्रण कक्ष क्लासिक ट्री दृश्यरुपात दर्शवितो."
 
-#: classic/ClassicMode.cpp:72 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:262
-#: sidebar/SidebarMode.cpp:263
+#: classic/ClassicMode.cpp:72 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:272
+#: sidebar/SidebarMode.cpp:273
 #, kde-format
 msgid "Author"
 msgstr "लेखक"
@@ -271,14 +272,12 @@ msgstr "संयोजना साठवा"
 msgid "Keyboard Shortcut: %1"
 msgstr "कळफलक शॉर्टकट : %1"
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:61
-#, fuzzy, kde-format
-#| msgctxt "Search through a list of control modules"
-#| msgid "Search"
-msgid "Search..."
-msgstr "शोध"
+#: sidebar/package/contents/ui/CategoriesPage.qml:56
+#, kde-format
+msgid "Show menu"
+msgstr ""
 
-#: sidebar/package/contents/ui/CategoriesPage.qml:91
+#: sidebar/package/contents/ui/CategoriesPage.qml:88
 #, kde-format
 msgctxt "A search yielded no results"
 msgid "No items matching your search"
@@ -289,43 +288,43 @@ msgstr ""
 msgid "Most used module number %1"
 msgstr ""
 
-#: sidebar/package/contents/ui/introPage.qml:73
+#: sidebar/package/contents/ui/introPage.qml:74
 #, kde-format
 msgid "Frequently used:"
 msgstr ""
 
-#: sidebar/package/contents/ui/SubCategoryPage.qml:53
+#: sidebar/package/contents/ui/SubCategoryPage.qml:52
 #, kde-format
 msgid "Back"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:259
+#: sidebar/SidebarMode.cpp:269
 #, kde-format
 msgid "Sidebar View"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:260
+#: sidebar/SidebarMode.cpp:270
 #, fuzzy, kde-format
 #| msgid "Provides a categorized icons view of control modules."
 msgid "Provides a categorized sidebar for control modules."
 msgstr "नियंत्रण कक्ष विभागवार चिन्हांच्या रुपात दर्शवितो."
 
-#: sidebar/SidebarMode.cpp:261
+#: sidebar/SidebarMode.cpp:271
 #, kde-format
 msgid "(c) 2017, Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:262
+#: sidebar/SidebarMode.cpp:272
 #, kde-format
 msgid "Marco Martin"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:483
+#: sidebar/SidebarMode.cpp:513
 #, kde-format
 msgid "Sidebar"
 msgstr ""
 
-#: sidebar/SidebarMode.cpp:526
+#: sidebar/SidebarMode.cpp:556
 #, kde-format
 msgid "Most Used"
 msgstr ""
@@ -336,6 +335,12 @@ msgid "<i>Contains 1 item</i>"
 msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] "<i>1 घटक समाविष्ट आहे</i>"
 msgstr[1] "<i>%1 घटक समाविष्ट आहेत</i>"
+
+#, fuzzy
+#~| msgctxt "Search through a list of control modules"
+#~| msgid "Search"
+#~ msgid "Search..."
+#~ msgstr "शोध"
 
 #, fuzzy
 #~| msgid "System Settings"
