@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: systemsettings\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-09 03:18+0200\n"
+"POT-Creation-Date: 2019-09-11 03:40+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -45,7 +45,7 @@ msgstr "दृश्य शैली"
 msgid "Show detailed tooltips"
 msgstr "तपशीलवार टूलटिप दर्शवा"
 
-#: app/main.cpp:48 app/SettingsBase.cpp:56 classic/CategoryList.cpp:40
+#: app/main.cpp:48 app/SettingsBase.cpp:56
 #: sidebar/package/contents/ui/introPage.qml:55
 #, kde-format
 msgid "System Settings"
@@ -57,13 +57,12 @@ msgstr "प्रणाली संयोजना"
 msgid "Central configuration center by KDE."
 msgstr "केडीई करिता केंद्रीय संयोजना कार्यक्रम"
 
-#: app/main.cpp:48 classic/ClassicMode.cpp:71 icons/IconMode.cpp:61
+#: app/main.cpp:48 icons/IconMode.cpp:61
 #, kde-format
 msgid "(c) 2009, Ben Cooksley"
 msgstr "(C) 2009, बेन कूक्सली"
 
-#: app/main.cpp:49 classic/ClassicMode.cpp:72 icons/IconMode.cpp:62
-#: sidebar/SidebarMode.cpp:273
+#: app/main.cpp:49 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:273
 #, kde-format
 msgid "Ben Cooksley"
 msgstr "बेन कूक्सली"
@@ -73,14 +72,12 @@ msgstr "बेन कूक्सली"
 msgid "Maintainer"
 msgstr "नियंत्रक"
 
-#: app/main.cpp:50 classic/ClassicMode.cpp:73 icons/IconMode.cpp:63
-#: sidebar/SidebarMode.cpp:274
+#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Mathias Soeken"
 msgstr "माथिआस सोकेन"
 
-#: app/main.cpp:50 classic/ClassicMode.cpp:73 icons/IconMode.cpp:63
-#: sidebar/SidebarMode.cpp:274
+#: app/main.cpp:50 icons/IconMode.cpp:63 sidebar/SidebarMode.cpp:274
 #, kde-format
 msgid "Developer"
 msgstr "विकासकर्ता"
@@ -180,42 +177,6 @@ msgid_plural "Contains %1 items"
 msgstr[0] "<i>1 घटक समाविष्ट आहे</i>"
 msgstr[1] "<i>%1 घटक समाविष्ट आहेत</i>"
 
-#: classic/CategoryList.cpp:41
-#, kde-format
-msgid "Configure your system"
-msgstr "तुमची प्रणाली संयोजीत करा"
-
-#: classic/CategoryList.cpp:42
-#, kde-format
-msgid ""
-"Welcome to \"System Settings\", a central place to configure your computer "
-"system."
-msgstr ""
-"\"प्रणाली संयोजनेत\" तुमचे स्वागत आहे. तुमची संगणक प्रणाली संयोजीत करण्याचे हे केंद्रीय स्थान "
-"आहे."
-
-#: classic/ClassicMode.cpp:67 classic/ClassicMode.cpp:252
-#, kde-format
-msgid "Tree View"
-msgstr "ट्री दृश्य"
-
-#: classic/ClassicMode.cpp:69
-#, kde-format
-msgid "Provides a classic tree-based view of control modules."
-msgstr "नियंत्रण कक्ष क्लासिक ट्री दृश्यरुपात दर्शवितो."
-
-#: classic/ClassicMode.cpp:72 icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:272
-#: sidebar/SidebarMode.cpp:273
-#, kde-format
-msgid "Author"
-msgstr "लेखक"
-
-#. i18n: ectx: property (text), widget (QCheckBox, CbExpand)
-#: classic/configClassic.ui:17
-#, kde-format
-msgid "Expand the first level automatically"
-msgstr "पहिली पातळी स्वयंचलितरित्या विस्तारीत करा"
-
 #: core/ExternalAppModule.cpp:34
 #, kde-format
 msgid "%1 is an external application and has been automatically launched"
@@ -260,6 +221,12 @@ msgstr "चिन्ह दृश्य"
 #, kde-format
 msgid "Provides a categorized icons view of control modules."
 msgstr "नियंत्रण कक्ष विभागवार चिन्हांच्या रुपात दर्शवितो."
+
+#: icons/IconMode.cpp:62 sidebar/SidebarMode.cpp:272
+#: sidebar/SidebarMode.cpp:273
+#, kde-format
+msgid "Author"
+msgstr "लेखक"
 
 #: icons/IconMode.cpp:66
 #, fuzzy, kde-format
@@ -335,6 +302,25 @@ msgid "<i>Contains 1 item</i>"
 msgid_plural "<i>Contains %1 items</i>"
 msgstr[0] "<i>1 घटक समाविष्ट आहे</i>"
 msgstr[1] "<i>%1 घटक समाविष्ट आहेत</i>"
+
+#~ msgid "Configure your system"
+#~ msgstr "तुमची प्रणाली संयोजीत करा"
+
+#~ msgid ""
+#~ "Welcome to \"System Settings\", a central place to configure your "
+#~ "computer system."
+#~ msgstr ""
+#~ "\"प्रणाली संयोजनेत\" तुमचे स्वागत आहे. तुमची संगणक प्रणाली संयोजीत करण्याचे हे केंद्रीय "
+#~ "स्थान आहे."
+
+#~ msgid "Tree View"
+#~ msgstr "ट्री दृश्य"
+
+#~ msgid "Provides a classic tree-based view of control modules."
+#~ msgstr "नियंत्रण कक्ष क्लासिक ट्री दृश्यरुपात दर्शवितो."
+
+#~ msgid "Expand the first level automatically"
+#~ msgstr "पहिली पातळी स्वयंचलितरित्या विस्तारीत करा"
 
 #, fuzzy
 #~| msgctxt "Search through a list of control modules"
