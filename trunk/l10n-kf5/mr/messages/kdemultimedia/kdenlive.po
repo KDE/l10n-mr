@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-21 03:11+0200\n"
+"POT-Creation-Date: 2019-09-23 02:54+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -336,7 +336,17 @@ msgstr "डिबग"
 msgid "Obscure"
 msgstr ""
 
-#: data/effects/automask.xml:31 data/effects/loudness.xml:10
+#: data/effects/automask.xml:31 data/effects/tracker.xml:35
+#, fuzzy, kde-format
+msgid "Tracking data"
+msgstr "माऊसचा मागोवा घ्या"
+
+#: data/effects/automask.xml:32 data/effects/tracker.xml:36
+#, kde-format
+msgid "Click to copy to clipboard"
+msgstr ""
+
+#: data/effects/automask.xml:35 data/effects/loudness.xml:10
 #: data/effects/tracker.xml:39
 #, kde-format
 msgid "Analyse"
@@ -4453,16 +4463,6 @@ msgstr ""
 msgid "Blur type"
 msgstr "पुसट"
 
-#: data/effects/tracker.xml:35
-#, fuzzy, kde-format
-msgid "Tracking data"
-msgstr "माऊसचा मागोवा घ्या"
-
-#: data/effects/tracker.xml:36
-#, kde-format
-msgid "Click to copy to clipboard"
-msgstr ""
-
 #: data/effects/vidstab.xml:3
 #, fuzzy, kde-format
 #| msgid "No Effect"
@@ -5309,7 +5309,7 @@ msgstr "परिणाम :"
 msgid "Delete keyframes"
 msgstr "फ्रेम काढून टाका"
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:471
+#: src/assets/keyframes/model/keyframemodellist.cpp:482
 #: src/assets/view/widgets/animationwidget.cpp:123
 #: src/assets/view/widgets/keyframewidget.cpp:82
 #, kde-format
@@ -5355,13 +5355,13 @@ msgstr "वर्तमान टॅब बंद करा"
 msgid "Delete preset"
 msgstr "रूपरेषा नष्ट करा (&D)"
 
-#: src/assets/view/assetparameterview.cpp:345
+#: src/assets/view/assetparameterview.cpp:349
 #: src/assets/view/widgets/animationwidget.cpp:1196
 #, kde-format
 msgid "Enter preset name"
 msgstr ""
 
-#: src/assets/view/assetparameterview.cpp:345
+#: src/assets/view/assetparameterview.cpp:349
 #, kde-format
 msgid "Enter the name of this preset"
 msgstr ""
@@ -5383,7 +5383,7 @@ msgid "Next keyframe"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:118
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:163
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:164
 #: src/project/clipstabilize.cpp:84
 #, fuzzy, kde-format
 msgid "Presets"
@@ -6203,17 +6203,17 @@ msgid ""
 "This is not correctly supported by our video framework."
 msgstr ""
 
-#: src/bin/projectclip.cpp:1232
+#: src/bin/projectclip.cpp:1231
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1232
+#: src/bin/projectclip.cpp:1231
 #, kde-format
 msgid "Merge"
 msgstr ""
 
-#: src/bin/projectclip.cpp:1233
+#: src/bin/projectclip.cpp:1232
 #, kde-format
 msgid "Add"
 msgstr "जोडा"
@@ -6252,7 +6252,7 @@ msgstr "वर्णन"
 
 #: src/bin/projectitemmodel.cpp:238 src/doc/documentchecker.cpp:450
 #: src/dvdwizard/dvdwizardvob.cpp:352 src/dvdwizard/dvdwizardvob.cpp:841
-#: src/mltcontroller/clipcontroller.cpp:354 src/profiles/profileinfo.cpp:60
+#: src/mltcontroller/clipcontroller.cpp:376 src/profiles/profileinfo.cpp:60
 #: src/profiles/profilerepository.cpp:133 src/utils/resourcewidget.cpp:629
 #, fuzzy, kde-format
 msgid "Unknown"
@@ -6359,14 +6359,14 @@ msgid "Template title clip"
 msgstr ""
 
 #: src/dialogs/clipcreationdialog.cpp:353 src/dvdwizard/dvdwizardvob.cpp:269
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:234
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:235
 #: src/mainwindow.cpp:3175
 #, kde-format
 msgid "All Supported Files"
 msgstr "सर्व समर्थीत फाईल्स"
 
 #: src/dialogs/clipcreationdialog.cpp:353 src/dvdwizard/dvdwizardvob.cpp:270
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:234
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:235
 #: src/mainwindow.cpp:3175 src/utils/resourcewidget.cpp:386
 #: src/utils/resourcewidget.cpp:389 src/utils/resourcewidget.cpp:391
 #, kde-format
@@ -6907,7 +6907,7 @@ msgid "Select a name for this rendering."
 msgstr ""
 
 #: src/dialogs/renderwidget.cpp:1194 src/dvdwizard/dvdwizardvob.cpp:736
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:400
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:401
 #: src/jobs/filterjob.cpp:102 src/project/clipstabilize.cpp:143
 #: src/project/cliptranscode.cpp:165 src/project/dialogs/archivewidget.cpp:881
 #: src/project/projectmanager.cpp:358
@@ -8020,7 +8020,7 @@ msgstr "परिणाम :"
 msgid "Add effect %1"
 msgstr "परिणाम :"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:753
+#: src/effects/effectstack/model/effectstackmodel.cpp:773
 #, fuzzy, kde-format
 msgid "Move effect %1"
 msgstr "परिणाम :"
@@ -8077,18 +8077,18 @@ msgstr "परिणाम नाही"
 msgid "Create Group"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:171
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:390
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:172
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:391
 #, kde-format
 msgid "Save Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:176
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:177
 #, kde-format
 msgid "Create Region"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:390
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:391
 #, kde-format
 msgid "Name for saved effect: "
 msgstr ""
@@ -8148,7 +8148,7 @@ msgstr ""
 msgid "Extracting %1 out of %2"
 msgstr ""
 
-#: src/jobs/cutclipjob.cpp:114 src/jobs/speedjob.cpp:140
+#: src/jobs/cutclipjob.cpp:114 src/jobs/speedjob.cpp:139
 #, fuzzy, kde-format
 msgid "File already exists"
 msgstr "फाईल विस्तारण"
@@ -8311,31 +8311,31 @@ msgstr "लहान करा"
 msgid "Change clip speed"
 msgstr "रंग उलट करा (&I)"
 
-#: src/jobs/speedjob.cpp:83 src/timeline2/view/dialogs/speeddialog.cpp:10
+#: src/jobs/speedjob.cpp:82 src/timeline2/view/dialogs/speeddialog.cpp:10
 #, fuzzy, kde-format
 #| msgid "Speed"
 msgid "Clip Speed"
 msgstr "वेग"
 
-#: src/jobs/speedjob.cpp:91 src/jobs/speedjob.cpp:92 src/jobs/speedjob.cpp:178
+#: src/jobs/speedjob.cpp:90 src/jobs/speedjob.cpp:91 src/jobs/speedjob.cpp:177
 #, fuzzy, kde-format
 #| msgid "Change"
 msgid "Speed Change"
 msgstr "बदला"
 
-#: src/jobs/speedjob.cpp:94
+#: src/jobs/speedjob.cpp:93
 #, fuzzy, kde-format
 #| msgid "Destination"
 msgid "Destination Folder"
 msgstr "लक्ष्य"
 
-#: src/jobs/speedjob.cpp:98
+#: src/jobs/speedjob.cpp:97
 #, fuzzy, kde-format
 #| msgid "Destination"
 msgid "Destination File"
 msgstr "लक्ष्य"
 
-#: src/jobs/speedjob.cpp:107
+#: src/jobs/speedjob.cpp:106
 #, kde-format
 msgid "Percentage"
 msgstr ""
@@ -12334,7 +12334,7 @@ msgstr "प्रतिमा जोडा"
 msgid "No thumbnails"
 msgstr "लघुप्रतिमा दाखवा"
 
-#: src/timeline2/view/qml/timeline.qml:1226
+#: src/timeline2/view/qml/timeline.qml:1225
 #, fuzzy, kde-format
 msgid ""
 "\n"
@@ -12388,7 +12388,7 @@ msgstr "ट्रॅक"
 msgid "Hide"
 msgstr ""
 
-#: src/timeline2/view/qml/TrackHead.qml:411
+#: src/timeline2/view/qml/TrackHead.qml:412
 #, fuzzy, kde-format
 msgid "Edit track name"
 msgstr "माऊसचा मागोवा घ्या"
