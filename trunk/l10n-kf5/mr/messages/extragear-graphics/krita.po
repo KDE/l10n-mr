@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 02:34+0200\n"
+"POT-Creation-Date: 2019-10-10 02:39+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -40685,6 +40685,7 @@ msgid ""
 msgstr ""
 
 #: plugins/tools/basictools/kis_tool_fill.cc:170
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:635
 #, kde-format
 msgid "Threshold: "
 msgstr "मर्यादा : "
@@ -42413,6 +42414,48 @@ msgstr "समान रंग निवडा"
 #, fuzzy, kde-format
 msgid "Similar Color Selection Tool"
 msgstr "समान निवड"
+
+#. i18n: context: Actions (Magnetic Selection Tool), ActionCollection (Tools)
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.action:4
+#, fuzzy, kde-format
+#| msgid "Magnetic selection tool"
+msgctxt "action"
+msgid "Magnetic Selection Tool"
+msgstr "चुंबकीय निवड साधन"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:60
+#, kde-format
+msgid "Magnetic Selection"
+msgstr "चुंबकीय निवड"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:441
+#, fuzzy
+#| msgid "Magnetic Selection"
+msgctxt "(qtundo-format)"
+msgid "Magnetic Selection"
+msgstr "चुंबकीय निवड"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:623
+#, fuzzy, kde-format
+msgid "Filter Radius: "
+msgstr "फेदरिंग त्रिज्या"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:647
+#, fuzzy, kde-format
+#| msgid "Vertical Radius"
+msgid "Search Radius: "
+msgstr "उभी त्रिज्या"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.cc:660
+#, fuzzy, kde-format
+msgid "Anchor Gap: "
+msgstr "अँकर"
+
+#: plugins/tools/selectiontools/KisToolSelectMagnetic.h:106
+#, fuzzy, kde-format
+#| msgid "Magnetic selection tool"
+msgid "Magnetic Selection Tool"
+msgstr "चुंबकीय निवड साधन"
 
 #. i18n: context: Actions (Path Selection Tool), ActionCollection (Tools)
 #: plugins/tools/selectiontools/KisToolSelectPath.action:4
@@ -69849,12 +69892,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Select by Brush"
 #~ msgstr "कुंचल्याने निवडा"
-
-#~ msgid "Magnetic Selection"
-#~ msgstr "चुंबकीय निवड"
-
-#~ msgid "Magnetic selection tool"
-#~ msgstr "चुंबकीय निवड साधन"
 
 #~ msgid "Limit to Color"
 #~ msgstr "रंगापुरतेच मर्यादित ठेवा"
