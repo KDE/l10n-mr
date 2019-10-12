@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-09 02:28+0200\n"
+"POT-Creation-Date: 2019-10-12 02:34+0200\n"
 "PO-Revision-Date: 2013-04-16 11:01+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -531,7 +531,7 @@ msgstr ""
 msgid "Finished scheduling backward: %1 ms"
 msgstr ""
 
-#: kernel/kptproject.cpp:2647
+#: kernel/kptproject.cpp:2652
 #, kde-format
 msgid "Plan"
 msgstr ""
@@ -3416,7 +3416,7 @@ msgctxt "@info:tooltip"
 msgid "Latest work package received: %1"
 msgstr ""
 
-#: models/kptnodeitemmodel.cpp:2286 ui/RelationEditorDialog.cpp:255
+#: models/kptnodeitemmodel.cpp:2286 ui/RelationEditorDialog.cpp:256
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Type"
@@ -4719,7 +4719,7 @@ msgid "Modify schedule name"
 msgstr "दिनदर्शिका वाढवा"
 
 #: models/kptschedulemodel.cpp:443
-#, fuzzy, kde-format
+#, fuzzy, kde-kuit-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Add calendar"
 msgctxt "@info:tooltip"
@@ -4727,7 +4727,7 @@ msgid "The schedule is in Manual Mode, calculation must be initiated manually"
 msgstr "दिनदर्शिका वाढवा"
 
 #: models/kptschedulemodel.cpp:445
-#, fuzzy, kde-format
+#, fuzzy, kde-kuit-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Add calendar"
 msgctxt "@info:tooltip"
@@ -5552,22 +5552,25 @@ msgid ""
 msgstr ""
 
 #: ui/kptaccountseditor.cpp:291
-#, kde-format
+#, fuzzy, kde-kuit-format
+#| msgid "Add Account"
+msgctxt "@action:inmenu"
 msgid "Add Account"
 msgstr "खाते जोडा"
 
 #: ui/kptaccountseditor.cpp:296
-#, fuzzy, kde-format
+#, fuzzy, kde-kuit-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Add account"
+msgctxt "@action:inmenu"
 msgid "Add Subaccount"
 msgstr "खाते जोडा"
 
-#: ui/kptaccountseditor.cpp:301 ui/kptcalendareditor.cpp:656
-#: ui/kptdependencyeditor.cpp:2357 ui/kptresourceeditor.cpp:304
-#: ui/kptscheduleeditor.cpp:318 ui/kpttaskeditor.cpp:854
-#, kde-format, kde-kuit-format
-msgctxt "@action"
+#: ui/kptaccountseditor.cpp:301
+#, fuzzy, kde-kuit-format
+#| msgctxt "@action"
+#| msgid "Delete"
+msgctxt "@action:inmenu"
 msgid "Delete"
 msgstr "काढून टाका"
 
@@ -5744,6 +5747,14 @@ msgstr "दिनदर्शिका वाढवा"
 msgid "Add Subcalendar"
 msgstr "दिनदर्शिका वाढवा"
 
+#: ui/kptcalendareditor.cpp:656 ui/kptdependencyeditor.cpp:2357
+#: ui/kptresourceeditor.cpp:304 ui/kptscheduleeditor.cpp:318
+#: ui/kpttaskeditor.cpp:887
+#, kde-kuit-format
+msgctxt "@action"
+msgid "Delete"
+msgstr "काढून टाका"
+
 #: ui/kptcalendareditor.cpp:815 ui/kptcalendareditor.cpp:849
 #, fuzzy
 #| msgctxt "(qtundo-format)"
@@ -5821,8 +5832,8 @@ msgid ""
 "printing using the context menu.<nl/><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptdependencyeditor.cpp:2328 ui/kpttaskeditor.cpp:825
-#: ui/kpttaskeditor.cpp:829
+#: ui/kptdependencyeditor.cpp:2328 ui/kpttaskeditor.cpp:858
+#: ui/kpttaskeditor.cpp:862
 #, kde-format
 msgid "Add Task"
 msgstr "कार्य जोडा"
@@ -5838,8 +5849,8 @@ msgstr "कार्य जोडा..."
 msgid "Add Milestone..."
 msgstr "संसाधन जोडा..."
 
-#: ui/kptdependencyeditor.cpp:2343 ui/kpttaskeditor.cpp:840
-#: ui/kpttaskeditor.cpp:844
+#: ui/kptdependencyeditor.cpp:2343 ui/kpttaskeditor.cpp:873
+#: ui/kpttaskeditor.cpp:877
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Add task"
@@ -5858,7 +5869,7 @@ msgstr "कार्य जोडा..."
 msgid "Add Sub-Milestone..."
 msgstr "संसाधन जोडा..."
 
-#: ui/kptdependencyeditor.cpp:2362 ui/kpttaskeditor.cpp:859
+#: ui/kptdependencyeditor.cpp:2362 ui/kpttaskeditor.cpp:892
 #, fuzzy, kde-kuit-format
 #| msgid "Open"
 msgctxt "@action"
@@ -6307,7 +6318,7 @@ msgid ""
 "><link url='%1'>More...</link></para>"
 msgstr ""
 
-#: ui/kptganttview.cpp:991 ui/kpttaskeditor.cpp:881 ui/kpttaskeditor.cpp:1389
+#: ui/kptganttview.cpp:991 ui/kpttaskeditor.cpp:914 ui/kpttaskeditor.cpp:1434
 #, fuzzy, kde-format
 #| msgid "Project"
 msgid "Show Project"
@@ -6921,7 +6932,7 @@ msgctxt "(qtundo-format)"
 msgid "Add task dependency"
 msgstr ""
 
-#: ui/kptrelationdialog.cpp:146 ui/RelationEditorDialog.cpp:246
+#: ui/kptrelationdialog.cpp:146 ui/RelationEditorDialog.cpp:247
 #, fuzzy, kde-kuit-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify task"
@@ -7422,39 +7433,57 @@ msgid ""
 "the project"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:834
+#: ui/kpttaskeditor.cpp:867
 #, fuzzy, kde-format
 #| msgid "Add Resource"
 msgid "Add Milestone"
 msgstr "संसाधन जोडा"
 
-#: ui/kpttaskeditor.cpp:849
+#: ui/kpttaskeditor.cpp:882
 #, kde-format
 msgid "Add Sub-Milestone"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:864
+#: ui/kpttaskeditor.cpp:897
 #, fuzzy, kde-format
 #| msgid "Add Task"
 msgid "Indent Task"
 msgstr "कार्य जोडा"
 
-#: ui/kpttaskeditor.cpp:868
+#: ui/kpttaskeditor.cpp:901
 #, kde-format
 msgid "Unindent Task"
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:872
+#: ui/kpttaskeditor.cpp:905
 #, kde-format
 msgid "Move Up"
 msgstr "वर हलवा"
 
-#: ui/kpttaskeditor.cpp:876
+#: ui/kpttaskeditor.cpp:909
 #, kde-format
 msgid "Move Down"
 msgstr "खाली हलवा"
 
-#: ui/kpttaskeditor.cpp:1221
+#: ui/kpttaskeditor.cpp:1093
+#, fuzzy, kde-format
+#| msgid "Add Task"
+msgctxt "(qtundo-format)"
+msgid "Indent task"
+msgid_plural "Indent %1 tasks"
+msgstr[0] "कार्य जोडा"
+msgstr[1] "कार्य जोडा"
+
+#: ui/kpttaskeditor.cpp:1112
+#, fuzzy, kde-format
+#| msgid "Add Task"
+msgctxt "(qtundo-format)"
+msgid "Unindent task"
+msgid_plural "Unindent %1 tasks"
+msgstr[0] "कार्य जोडा"
+msgstr[1] "कार्य जोडा"
+
+#: ui/kpttaskeditor.cpp:1266
 #, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -7465,18 +7494,18 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, ui_publish)
-#: ui/kpttaskeditor.cpp:1712 ui/kptworkpackagesendpanel.ui:45
+#: ui/kpttaskeditor.cpp:1757 ui/kptworkpackagesendpanel.ui:45
 #, kde-format
 msgid "Publish..."
 msgstr ""
 
-#: ui/kpttaskeditor.cpp:1716
+#: ui/kpttaskeditor.cpp:1761
 #, fuzzy, kde-format
 #| msgid "Work..."
 msgid "Work Packages..."
 msgstr "कार्य..."
 
-#: ui/kpttaskeditor.cpp:1734
+#: ui/kpttaskeditor.cpp:1779
 msgctxt "(qtundo-format)"
 msgid "Log Send Workpackage"
 msgstr ""
@@ -8383,33 +8412,45 @@ msgstr ""
 msgid "ID"
 msgstr ""
 
-#: ui/RelationEditorDialog.cpp:242 ui/RelationEditorDialog.cpp:311
+#: ui/RelationEditorDialog.cpp:243 ui/RelationEditorDialog.cpp:322
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Delete"
 msgid "Delete"
 msgstr "काढून टाका"
 
-#: ui/RelationEditorDialog.cpp:254
+#: ui/RelationEditorDialog.cpp:255
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Predecessor"
 msgstr ""
 
-#: ui/RelationEditorDialog.cpp:256
+#: ui/RelationEditorDialog.cpp:257
 #, kde-kuit-format
 msgctxt "@title:column"
 msgid "Lag"
 msgstr ""
 
-#: ui/RelationEditorDialog.cpp:308
+#: ui/RelationEditorDialog.cpp:303
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid ""
+"<title>Task Dependency Dialog</title><para>The task dependency dialog "
+"enables you to easily add a predecessor to the selected task.<nl/>When "
+"opened, it presents the previous task as the default predecessor. This is "
+"often the desired predecessor, and can be added by just pressing "
+"<interface>OK</interface>.<nl/>The dropdown list of possible predecessors is "
+"sorted with the most likely tasks first.</para>"
+msgstr ""
+
+#: ui/RelationEditorDialog.cpp:319
 #, fuzzy, kde-format
 #| msgctxt "@action"
 #| msgid "Delete"
 msgid "Un-Delete"
 msgstr "काढून टाका"
 
-#: ui/RelationEditorDialog.cpp:386
+#: ui/RelationEditorDialog.cpp:397
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Modify task"
@@ -8984,14 +9025,14 @@ msgid "Failed to create report"
 msgstr ""
 
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:472
-#, fuzzy, kde-format
+#, fuzzy, kde-kuit-format
 #| msgid "Save To File"
-msgctxt "@title"
+msgctxt "@title:window"
 msgid "Report Generation"
 msgstr "फाईल मध्ये साठवा"
 
 #: ui/reportsgenerator/ReportsGeneratorView.cpp:472
-#, fuzzy, kde-format
+#, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "Cannot open file:<br/><filename>%1</filename>"
 msgctxt "@info"
