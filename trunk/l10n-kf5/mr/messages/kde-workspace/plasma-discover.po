@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-18 03:31+0200\n"
+"POT-Creation-Date: 2019-10-22 03:10+0200\n"
 "PO-Revision-Date: 2013-04-01 10:16+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -182,7 +182,14 @@ msgstr "एडोन्स"
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:146
+#: discover/qml/ApplicationDelegate.qml:88
+#, kde-format
+msgctxt "Part of a string like this: '<app name> - <category>'"
+msgid "- %1"
+msgstr ""
+
+#: discover/qml/ApplicationDelegate.qml:111
+#: discover/qml/ApplicationPage.qml:146
 #, fuzzy, kde-format
 #| msgid "Rating"
 msgid "%1 rating"
@@ -190,7 +197,8 @@ msgid_plural "%1 ratings"
 msgstr[0] "गुणवत्ताश्रेणी"
 msgstr[1] "गुणवत्ताश्रेणी"
 
-#: discover/qml/ApplicationDelegate.qml:96 discover/qml/ApplicationPage.qml:146
+#: discover/qml/ApplicationDelegate.qml:111
+#: discover/qml/ApplicationPage.qml:146
 #, kde-format
 msgid "No ratings yet"
 msgstr ""
@@ -440,7 +448,6 @@ msgid "Hide"
 msgstr ""
 
 #: discover/qml/DiscoverWindow.qml:231 discover/qml/SourcesPage.qml:120
-#: discover/qml/UpdatesPage.qml:50
 #, kde-format
 msgid "Proceed"
 msgstr ""
@@ -708,6 +715,11 @@ msgstr ""
 msgid "Updates"
 msgstr "अद्ययावत करा"
 
+#: discover/qml/UpdatesPage.qml:50
+#, kde-format
+msgid "OK"
+msgstr "ठीक आहे"
+
 #: discover/qml/UpdatesPage.qml:73
 #, fuzzy, kde-format
 #| msgid "Update All"
@@ -970,9 +982,6 @@ msgstr ""
 
 #~ msgid "Close"
 #~ msgstr "बंद करा"
-
-#~ msgid "OK"
-#~ msgstr "ठीक आहे"
 
 #~ msgid ""
 #~ "<sourceline> - The apt repository source line to add. This is one of:\n"
