@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-21 02:26+0200\n"
+"POT-Creation-Date: 2019-10-28 02:27+0100\n"
 "PO-Revision-Date: 2013-03-28 15:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2167,7 +2167,7 @@ msgid ""
 "Size of icons in the Places Panel (-1 means \"use the style's small size\")"
 msgstr "जागा पटलातील चिन्हांचा आकार (-1 चा अर्थ \"शैलीचा लहान आकार वापरा\")"
 
-#: panels/places/placesitemmodel.cpp:201
+#: panels/places/placesitemmodel.cpp:203
 #, fuzzy, kde-format
 #| msgctxt "@item"
 #| msgid "Eject '%1'"
@@ -2175,7 +2175,7 @@ msgctxt "@item"
 msgid "Eject"
 msgstr " '%1' बाहेर काढा"
 
-#: panels/places/placesitemmodel.cpp:236
+#: panels/places/placesitemmodel.cpp:238
 #, fuzzy, kde-format
 #| msgctxt "@item"
 #| msgid "Release '%1'"
@@ -2183,7 +2183,7 @@ msgctxt "@item"
 msgid "Release"
 msgstr "'%1' सोडा"
 
-#: panels/places/placesitemmodel.cpp:238
+#: panels/places/placesitemmodel.cpp:240
 #, fuzzy, kde-format
 #| msgctxt "@item"
 #| msgid "Safely Remove '%1'"
@@ -2191,7 +2191,7 @@ msgctxt "@item"
 msgid "Safely Remove"
 msgstr "'%1' सुरक्षितरित्या बाहेर काढा"
 
-#: panels/places/placesitemmodel.cpp:241
+#: panels/places/placesitemmodel.cpp:243
 #, fuzzy, kde-format
 #| msgctxt "@item"
 #| msgid "Unmount '%1'"
@@ -2199,19 +2199,41 @@ msgctxt "@item"
 msgid "Unmount"
 msgstr "'%1' बंद करा"
 
-#: panels/places/placesitemmodel.cpp:263
+#: panels/places/placesitemmodel.cpp:265
 #, kde-format
 msgctxt "@info"
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "'%1' हे साधन डिस्क नाही. त्यामुळे ते बाहेर काढता येत नाही."
 
-#: panels/places/placesitemmodel.cpp:498
+#: panels/places/placesitemmodel.cpp:485
+#, kde-format
+msgid "One or more files on this device are open within an application."
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:492
+#, kde-kuit-format
+msgid ""
+"One or more files on this device are opened in application <application>"
+"\"%2\"</application>."
+msgid_plural ""
+"One or more files on this device are opened in following applications: "
+"<application>%2</application>."
+msgstr[0] ""
+msgstr[1] ""
+
+#: panels/places/placesitemmodel.cpp:494
+#, kde-format
+msgctxt "separator in list of apps blocking device unmount"
+msgid ", "
+msgstr ""
+
+#: panels/places/placesitemmodel.cpp:522
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr ""
 
-#: panels/places/placesitemmodel.cpp:502
+#: panels/places/placesitemmodel.cpp:526
 #, kde-format
 msgctxt "@info"
 msgid "An error occurred while accessing '%1'"
@@ -2337,113 +2359,147 @@ msgstr "काय"
 msgid "Show facets widget"
 msgstr "फेसेट्स विजेट दर्शवा"
 
-#: search/dolphinfacetswidget.cpp:52
-#, kde-format
-msgctxt "@option:check"
-msgid "Any"
-msgstr ""
+#: search/dolphinfacetswidget.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "By Type"
+msgctxt "@item:inlistbox"
+msgid "Any Type"
+msgstr "प्रकारानुरूप"
 
-#: search/dolphinfacetswidget.cpp:53
+#: search/dolphinfacetswidget.cpp:39
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Folders"
-msgctxt "@option:check"
+msgctxt "@item:inlistbox"
 msgid "Folders"
 msgstr "संचयीका"
 
-#: search/dolphinfacetswidget.cpp:54
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:40
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Documents"
+msgctxt "@item:inlistbox"
 msgid "Documents"
 msgstr "दस्तऐवज"
 
-#: search/dolphinfacetswidget.cpp:55
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Images"
+msgctxt "@item:inlistbox"
 msgid "Images"
 msgstr "प्रतिमा"
 
-#: search/dolphinfacetswidget.cpp:56
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:42
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Audio Files"
+msgctxt "@item:inlistbox"
 msgid "Audio Files"
 msgstr "ऑडिओ फाईल्स"
 
-#: search/dolphinfacetswidget.cpp:57
-#, kde-format
-msgctxt "@option:check"
+#: search/dolphinfacetswidget.cpp:43
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Videos"
+msgctxt "@item:inlistbox"
 msgid "Videos"
 msgstr "व्हिडीओ"
 
-#: search/dolphinfacetswidget.cpp:70
-#, kde-format
-msgctxt "@option:option"
-msgid "Anytime"
-msgstr "कोणतीही वेळ"
+#: search/dolphinfacetswidget.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox Sort"
+#| msgid "By Date"
+msgctxt "@item:inlistbox"
+msgid "Any Date"
+msgstr "दिनांक नुरूप"
 
-#: search/dolphinfacetswidget.cpp:71
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:50
+#, fuzzy, kde-format
+#| msgctxt "@title:group Date"
+#| msgid "Today"
+msgctxt "@item:inlistbox"
 msgid "Today"
 msgstr "आज"
 
-#: search/dolphinfacetswidget.cpp:72
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:51
+#, fuzzy, kde-format
+#| msgctxt "@title:group Date"
+#| msgid "Yesterday"
+msgctxt "@item:inlistbox"
 msgid "Yesterday"
 msgstr "काल"
 
-#: search/dolphinfacetswidget.cpp:73
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "This Week"
+msgctxt "@item:inlistbox"
 msgid "This Week"
 msgstr "हा आठवडा"
 
-#: search/dolphinfacetswidget.cpp:74
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "This Month"
+msgctxt "@item:inlistbox"
 msgid "This Month"
 msgstr "हा महिना"
 
-#: search/dolphinfacetswidget.cpp:75
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "This Year"
+msgctxt "@item:inlistbox"
 msgid "This Year"
 msgstr "हे वर्ष"
 
-#: search/dolphinfacetswidget.cpp:88
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "Any Rating"
+msgctxt "@item:inlistbox"
 msgid "Any Rating"
 msgstr "कोणतीही गुणवत्ताश्रेणी"
 
-#: search/dolphinfacetswidget.cpp:89
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:59
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "1 or more"
+msgctxt "@item:inlistbox"
 msgid "1 or more"
 msgstr "१ किंवा अधिक"
 
-#: search/dolphinfacetswidget.cpp:90
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:60
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "2 or more"
+msgctxt "@item:inlistbox"
 msgid "2 or more"
 msgstr "२ किंवा अधिक"
 
-#: search/dolphinfacetswidget.cpp:91
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "3 or more"
+msgctxt "@item:inlistbox"
 msgid "3 or more"
 msgstr "३ किंवा अधिक"
 
-#: search/dolphinfacetswidget.cpp:92
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:62
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "4 or more"
+msgctxt "@item:inlistbox"
 msgid "4 or more"
 msgstr "४ किंवा अधिक"
 
-#: search/dolphinfacetswidget.cpp:93
-#, kde-format
-msgctxt "@option:option"
+#: search/dolphinfacetswidget.cpp:63
+#, fuzzy, kde-format
+#| msgctxt "@option:option"
+#| msgid "Highest Rating"
+msgctxt "@item:inlistbox"
 msgid "Highest Rating"
 msgstr "उच्चत्तम गुणवत्ताश्रेणी"
 
@@ -4346,6 +4402,25 @@ msgctxt "@info:status"
 msgid "Updating version information..."
 msgstr "आवृत्तीविषयक माहिती अद्ययावत करण्यात येत आहे..."
 
+#, fuzzy
+#~| msgctxt "@title:window"
+#~| msgid "Folders"
+#~ msgctxt "@option:check"
+#~ msgid "Folders"
+#~ msgstr "संचयीका"
+
+#~ msgctxt "@option:option"
+#~ msgid "Anytime"
+#~ msgstr "कोणतीही वेळ"
+
+#~ msgctxt "@option:option"
+#~ msgid "Today"
+#~ msgstr "आज"
+
+#~ msgctxt "@option:option"
+#~ msgid "Yesterday"
+#~ msgstr "काल"
+
 #~ msgctxt "@action:inmenu"
 #~ msgid "Location Bar"
 #~ msgstr "स्थान पट्टी"
@@ -4893,10 +4968,6 @@ msgstr "आवृत्तीविषयक माहिती अद्यय�
 #~ msgstr "आकारानुरूप"
 
 #~ msgctxt "@item:inlistbox Sort"
-#~ msgid "By Date"
-#~ msgstr "दिनांक नुरूप"
-
-#~ msgctxt "@item:inlistbox Sort"
 #~ msgid "By Permissions"
 #~ msgstr "परवानगी नुरूप"
 
@@ -4907,10 +4978,6 @@ msgstr "आवृत्तीविषयक माहिती अद्यय�
 #~ msgctxt "@item:inlistbox Sort"
 #~ msgid "By Group"
 #~ msgstr "समुह नुरूप"
-
-#~ msgctxt "@item:inlistbox Sort"
-#~ msgid "By Type"
-#~ msgstr "प्रकारानुरूप"
 
 #, fuzzy
 #~| msgctxt "@info:credit"
