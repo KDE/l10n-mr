@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-10-29 02:39+0100\n"
+"POT-Creation-Date: 2019-10-31 02:39+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -7492,13 +7492,13 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
-#: krita/main.cc:493 libs/ui/KisApplication.cpp:367
+#: krita/main.cc:502 libs/ui/KisApplication.cpp:367
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
 msgstr "इशारा"
 
-#: krita/main.cc:494
+#: krita/main.cc:503
 #, kde-format
 msgid ""
 "You are running an unsupported version of Windows: %1.\n"
@@ -7506,12 +7506,12 @@ msgid ""
 "Please update to a supported version of Windows: Windows 7, 8, 8.1 or 10."
 msgstr ""
 
-#: krita/main.cc:516 krita/main.cc:521
+#: krita/main.cc:525 krita/main.cc:530
 #, fuzzy, kde-format
 msgid "Krita Tablet Support"
 msgstr "क्रिता PNG निर्यात"
 
-#: krita/main.cc:517
+#: krita/main.cc:526
 #, kde-format
 msgid ""
 "Cannot load WinTab driver and no Windows Ink pen devices are found. If you "
@@ -7519,7 +7519,7 @@ msgid ""
 "installed."
 msgstr ""
 
-#: krita/main.cc:522
+#: krita/main.cc:531
 #, kde-format
 msgid ""
 "Cannot load WinTab driver. If you have a drawing tablet, please make sure "
@@ -7549,7 +7549,7 @@ msgstr "स्थिर"
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrecision)
 #: libs/basicflakes/tools/KoPencilTool.cpp:314
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:148
+#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:101
 #, kde-format
 msgid "Precision:"
 msgstr "काटेकोरपणा :"
@@ -8081,8 +8081,8 @@ msgstr ""
 #: libs/flake/text/KoSvgTextShape.cpp:589
 #: plugins/flake/textshape/TextShapeFactory.cpp:44
 #: plugins/flake/textshape/TextShapeFactory.cpp:54
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
 #: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:64
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:67
 #, kde-format
 msgid "Text"
 msgstr "मजकूर"
@@ -8486,8 +8486,6 @@ msgstr "आकार"
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersY)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intCheckSize)
-#. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, sizeToStartFromSpinBox)
-#. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, deltaValueSpinBox)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHSpacing)
@@ -8548,8 +8546,6 @@ msgstr "आकार"
 #: plugins/paintops/hatching/kis_hatching_options.cpp:33
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:165
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:196
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:128
 #: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:63
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:118
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:371
@@ -9714,6 +9710,13 @@ msgstr "OpenColorIO संयोजना मार्ग :"
 msgctxt "description of a file type"
 msgid "HEIC/HEIF Image"
 msgstr ""
+
+#: libs/koplugin/KisMimeDatabase.cpp:291
+#, fuzzy, kde-format
+#| msgid "Image"
+msgctxt "description of a file type"
+msgid "JP2 Image"
+msgstr "प्रतिमा"
 
 #: libs/libkis/Document.cpp:888 libs/ui/KisMainWindow.cpp:1926
 #, fuzzy, kde-format
@@ -11958,7 +11961,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "पूर्वनिश्चीत उतरणी"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:287 libs/ui/KisMainWindow.cpp:2300
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:287 libs/ui/KisMainWindow.cpp:2301
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
 msgid "Name:"
@@ -12166,7 +12169,7 @@ msgstr "व्हेक्टर प्रतिमा"
 #: libs/ui/KisMainWindow.cpp:960 libs/ui/KisMainWindow.cpp:1065
 #: libs/ui/KisMainWindow.cpp:1078 libs/ui/KisMainWindow.cpp:1138
 #: libs/ui/KisMainWindow.cpp:1904 libs/ui/KisMainWindow.cpp:1933
-#: libs/ui/KisMainWindow.cpp:2008 libs/ui/KisMainWindow.cpp:2020
+#: libs/ui/KisMainWindow.cpp:2009 libs/ui/KisMainWindow.cpp:2021
 #: libs/ui/KisPart.cpp:483 libs/ui/KisPart.cpp:486
 #: libs/ui/KisReferenceImage.cpp:148 libs/ui/KisRemoteFileFetcher.cpp:54
 #: libs/ui/KisTemplateCreateDia.cpp:297 libs/ui/KisTemplateCreateDia.cpp:403
@@ -18434,63 +18437,63 @@ msgid ""
 "%1"
 msgstr "नवीन संयोजना %1"
 
-#: libs/ui/KisMainWindow.cpp:2009
+#: libs/ui/KisMainWindow.cpp:2010
 #, kde-format
 msgid ""
 "You will lose all changes made since your last save\n"
 "Do you want to continue?"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2020
+#: libs/ui/KisMainWindow.cpp:2021
 #, fuzzy, kde-format
 msgid "Error: Could not reload this document"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: libs/ui/KisMainWindow.cpp:2278
+#: libs/ui/KisMainWindow.cpp:2279
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&Import Workspace..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: libs/ui/KisMainWindow.cpp:2290 libs/widgets/KoResourceItemChooser.cpp:218
+#: libs/ui/KisMainWindow.cpp:2291 libs/widgets/KoResourceItemChooser.cpp:218
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Choose File to Add"
 msgstr "समाविष्ट करण्यासाठी फाईलची निवड करा"
 
-#: libs/ui/KisMainWindow.cpp:2296
+#: libs/ui/KisMainWindow.cpp:2297
 #, fuzzy, kde-format
 msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: libs/ui/KisMainWindow.cpp:2299
+#: libs/ui/KisMainWindow.cpp:2300
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "New Workspace..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: libs/ui/KisMainWindow.cpp:2313 libs/ui/widgets/kis_workspace_chooser.cpp:159
+#: libs/ui/KisMainWindow.cpp:2314 libs/ui/widgets/kis_workspace_chooser.cpp:159
 #, kde-format
 msgid "Workspace"
 msgstr "कार्यक्षेत्र"
 
-#: libs/ui/KisMainWindow.cpp:2324 libs/ui/widgets/kis_workspace_chooser.cpp:170
+#: libs/ui/KisMainWindow.cpp:2325 libs/ui/widgets/kis_workspace_chooser.cpp:170
 #, kde-format
 msgid "Workspace %1"
 msgstr "कार्यक्षेत्र %1"
 
-#: libs/ui/KisMainWindow.cpp:2352
+#: libs/ui/KisMainWindow.cpp:2353
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2355
+#: libs/ui/KisMainWindow.cpp:2356
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2487
+#: libs/ui/KisMainWindow.cpp:2488
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Calligra LittleCMS color management plugin is not installed. Krita "
@@ -18502,29 +18505,29 @@ msgstr ""
 "The Calligra LittleCMS color management plugin स्थापित केलेली नाही. क्रिटा आता "
 "बंद होईल."
 
-#: libs/ui/KisMainWindow.cpp:2495
+#: libs/ui/KisMainWindow.cpp:2496
 #, kde-format
 msgid "Krita cannot find any brush presets! Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2504
+#: libs/ui/KisMainWindow.cpp:2505
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "प्रतिष्ठापना त्रुटी"
 
-#: libs/ui/KisMainWindow.cpp:2565
+#: libs/ui/KisMainWindow.cpp:2566
 #, fuzzy, kde-format
 msgid "%1 unsaved document (%2)"
 msgstr "दस्तऐवज साठवा"
 
-#: libs/ui/KisMainWindow.cpp:2634
+#: libs/ui/KisMainWindow.cpp:2635
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2677
+#: libs/ui/KisMainWindow.cpp:2678
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -19400,7 +19403,6 @@ msgstr "स्तर चढवा"
 
 #. i18n: ectx: property (text), widget (QLabel, lblThisMin_2)
 #. i18n: ectx: property (text), widget (QLabel, lblUnderMin_2)
-#. i18n: ectx: property (text), widget (QLabel, lblPrecisionValue)
 #. i18n: ectx: property (text), widget (QLabel, colorCount)
 #. i18n: ectx: property (text), widget (QLabel, fileSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, bppLabel)
@@ -19409,7 +19411,6 @@ msgstr "स्तर चढवा"
 #: plugins/filters/indexcolors/kiswdgindexcolors.ui:156
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:45
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:188
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:135
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:208
 #, kde-format
 msgid "0"
@@ -21189,7 +21190,7 @@ msgstr "नोड फिरवा"
 #: plugins/extensions/metadataeditor/editors/exif.ui:101
 #: plugins/extensions/metadataeditor/editors/exif.ui:919
 #: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:88
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:57
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:56
 #, kde-format
 msgid "Auto"
 msgstr "स्वयंचलित"
@@ -33568,6 +33569,34 @@ msgstr ""
 msgid "Bits per pixel:"
 msgstr "बदलते अन्त्य बिंदू"
 
+#: plugins/impex/jp2/jp2_export.cc:76
+#, kde-format
+msgid "JPEG 2000 Export Options"
+msgstr "JPEG 2000 चे निर्यात पर्याय"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/impex/jp2/kis_wdg_options_jp2.ui:19
+#, fuzzy, kde-format
+msgid "Compression"
+msgstr "संक्षिप्त करा :"
+
+#. i18n: ectx: property (toolTip), widget (QSlider, qualityLevel)
+#. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, qualityLevel)
+#: plugins/impex/jp2/kis_wdg_options_jp2.ui:26
+#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:58
+#, kde-format
+msgid ""
+"<html><head/><body><p>These settings determine how much information is lost "
+"during compression. Low: small files, bad quality. High: big files, good "
+"quality.</p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/impex/jp2/kis_wdg_options_jp2.ui:74
+#, kde-format
+msgid "Number of resolutions:"
+msgstr "घनतांची संख्या :"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:21
 #, kde-format
@@ -33586,15 +33615,6 @@ msgstr "प्रगतिशील"
 #: plugins/impex/png/kis_wdg_options_png.ui:96
 #, kde-format
 msgid "Force convert to sRGB"
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, qualityLevel)
-#: plugins/impex/jpeg/kis_wdg_options_jpeg.ui:58
-#, kde-format
-msgid ""
-"<html><head/><body><p>These settings determine how much information is lost "
-"during compression. Low: small files, bad quality. High: big files, good "
-"quality.</p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -36596,35 +36616,6 @@ msgstr "विनाक्रमता :"
 msgid "Spikes:"
 msgstr "काटे :"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:95
-#, kde-format
-msgid ""
-"Use to set the size from which the Automatic Precision Setting should begin. "
-"The Precision will remain 5 before this value."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:98
-#, fuzzy, kde-format
-msgid "Starting Brush Size:"
-msgstr "कुंचल्याचा आकार :"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:118
-#, kde-format
-msgid ""
-"This determines every interval after which the precision should change. For "
-"example: if the delta value is set to be 15.00, after every 15 pts change in "
-"the size of brush, the precision will change."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:121
-#, fuzzy, kde-format
-msgid "Delta :"
-msgstr "डेल्टा : "
-
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:142
@@ -37010,27 +37001,12 @@ msgstr "चलित"
 msgid "Animated Image"
 msgstr "कृती कार्यक्रम"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:62
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:60
 #, fuzzy, kde-format
 msgid "Predefined"
 msgstr "पूर्वनियोजित (&P):"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:91
-#, kde-format
-msgid ""
-"Use to set the size from which the Automatic Precision Setting should "
-"begin. \n"
-"The Precision will remain 5 before this value."
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:92
-#, kde-format
-msgid ""
-"Use to set the interval at which the Automatic Precision will change. \n"
-"The Precision will decrease as brush size increases."
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:212
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:181
 #, kde-format
 msgid ""
 "Precision Level 1 (fastest)\n"
@@ -37045,7 +37021,7 @@ msgstr ""
 "\n"
 "\" मोठ्या कुंचल्यांसाठी जुळविलेले"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:220
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:189
 #, kde-format
 msgid ""
 "Precision Level 2\n"
@@ -37060,7 +37036,7 @@ msgstr ""
 "\n"
 "\"मोठ्या कुंचल्यांसाठी जुळविलेले"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:228
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:197
 #, kde-format
 msgid ""
 "Precision Level 3\n"
@@ -37071,7 +37047,7 @@ msgstr ""
 "Subpixel precision: disabled\n"
 "कुंचल्याचा काटेकोरः तोच आकार"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:234
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:203
 #, kde-format
 msgid ""
 "Precision Level 4 (optimal)\n"
@@ -37086,7 +37062,7 @@ msgstr ""
 "\n"
 "पाचव्या पाळीपेक्षा ५० टक्के जास्त चांगले काम होते"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:242
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:211
 #, kde-format
 msgid ""
 "Precision Level 5 (best quality)\n"
@@ -37100,13 +37076,6 @@ msgstr ""
 "Brush size precision: exact\n"
 "\n"
 "सर्वात मंद गतीचे काम पण उत्तम गुणवत्ता"
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:354
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:372
-#, fuzzy, kde-format
-#| msgid "Precision:"
-msgid "Precision: %1"
-msgstr "काटेकोरपणा :"
 
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:87
 #, fuzzy, kde-format
@@ -43796,6 +43765,19 @@ msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
 
 #, fuzzy
+#~ msgid "Starting Brush Size:"
+#~ msgstr "कुंचल्याचा आकार :"
+
+#, fuzzy
+#~ msgid "Delta :"
+#~ msgstr "डेल्टा : "
+
+#, fuzzy
+#~| msgid "Precision:"
+#~ msgid "Precision: %1"
+#~ msgstr "काटेकोरपणा :"
+
+#, fuzzy
 #~ msgid "Hide Window Scrollbars"
 #~ msgstr "स्क्रोलबार्स"
 
@@ -46452,10 +46434,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~| msgid "Horizontal"
 #~ msgid "&Horizontal"
 #~ msgstr "आडवा"
-
-#, fuzzy
-#~ msgid "Compression:"
-#~ msgstr "संक्षिप्त करा :"
 
 #~ msgid "Out of Gamut"
 #~ msgstr "गॅमुटच्या बाहेर"
@@ -68646,12 +68624,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #, fuzzy
 #~ msgid "Mac"
 #~ msgstr "मार्को"
-
-#~ msgid "JPEG 2000 Export Options"
-#~ msgstr "JPEG 2000 चे निर्यात पर्याय"
-
-#~ msgid "Number of resolutions:"
-#~ msgstr "घनतांची संख्या :"
 
 #, fuzzy
 #~ msgctxt "@title:window"
