@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 02:40+0200\n"
+"POT-Creation-Date: 2019-11-06 02:33+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:917
+#: common/commands/KarbonBooleanCommand.cpp:68 ui/KarbonView.cpp:787
 msgctxt "(qtundo-format)"
 msgid "Boolean Operation"
 msgstr "बुलीयन ऑपरेशन"
@@ -82,26 +82,32 @@ msgstr "परिणाम (&C)"
 msgid "&Settings"
 msgstr "संयोजना (&S)"
 
+#. i18n: ectx: Menu (page)
+#: data/karbon.rc:137
+#, kde-format
+msgid "&Page"
+msgstr ""
+
 #. i18n: ectx: ToolBar (edit_toolbar)
-#: data/karbon.rc:138
+#: data/karbon.rc:150
 #, kde-format
 msgid "Edit"
 msgstr "संपादित करा"
 
 #. i18n: ectx: ToolBar (object_toolbar)
-#: data/karbon.rc:148
+#: data/karbon.rc:160
 #, kde-format
 msgid "Object"
 msgstr "घटक"
 
 #. i18n: ectx: ToolBar (align_toolbar)
-#: data/karbon.rc:157
+#: data/karbon.rc:169
 #, kde-format
 msgid "Align"
 msgstr "जुळवा"
 
 #. i18n: ectx: ToolBar (Effects)
-#: data/karbon.rc:166
+#: data/karbon.rc:178
 #, kde-format
 msgid "Effects"
 msgstr "परिणाम"
@@ -277,147 +283,6 @@ msgstr "लेखक"
 msgid "Author"
 msgstr "लेखक"
 
-#: ui/dockers/KarbonLayerDocker.cpp:84
-#, kde-format
-msgid "Layer view"
-msgstr "स्तराचे दृश्य"
-
-#: ui/dockers/KarbonLayerDocker.cpp:95
-#, kde-format
-msgid "Add a new layer"
-msgstr "नवीन स्तर वाढवा"
-
-#: ui/dockers/KarbonLayerDocker.cpp:101
-#, kde-format
-msgid "Delete selected objects"
-msgstr "निवडलेले घटक काढून टाका"
-
-#: ui/dockers/KarbonLayerDocker.cpp:107
-#, kde-format
-msgid "Raise selected objects"
-msgstr "निवडलेले घटक वर आणा"
-
-#: ui/dockers/KarbonLayerDocker.cpp:113
-#, kde-format
-msgid "Lower selected objects"
-msgstr "निवडलेले घटक खाली आणा"
-
-#: ui/dockers/KarbonLayerDocker.cpp:122
-#, kde-format
-msgid "Minimal View"
-msgstr "किमान दृश्य"
-
-#: ui/dockers/KarbonLayerDocker.cpp:124
-#, kde-format
-msgid "Detailed View"
-msgstr "तपशीलवार दृश्य"
-
-#: ui/dockers/KarbonLayerDocker.cpp:126
-#, kde-format
-msgid "Thumbnail View"
-msgstr "लघुप्रतिमा दृश्य"
-
-#: ui/dockers/KarbonLayerDocker.cpp:136
-#, kde-format
-msgid "View mode"
-msgstr "दृश्य पद्धती"
-
-#: ui/dockers/KarbonLayerDocker.cpp:284
-#, kde-format
-msgid "New Layer"
-msgstr "नवीन स्तर"
-
-#: ui/dockers/KarbonLayerDocker.cpp:285
-#, kde-format
-msgid "Enter the name of the new layer:"
-msgstr "नवीन स्तराचे नाव लिहा :"
-
-#: ui/dockers/KarbonLayerDocker.cpp:287
-#, kde-format
-msgid "New layer"
-msgstr "नवीन स्तर"
-
-#: ui/dockers/KarbonLayerDocker.cpp:293
-msgctxt "(qtundo-format)"
-msgid "Create Layer"
-msgstr "स्तर निर्माण करा"
-
-#: ui/dockers/KarbonLayerDocker.cpp:317
-msgctxt "(qtundo-format)"
-msgid "Delete Layer"
-msgstr "स्तर काढून टाका"
-
-#: ui/dockers/KarbonLayerDocker.cpp:319
-#, kde-format
-msgid "Could not delete all layers. At least one layer is required."
-msgstr "सर्व स्तर काढू शकलो नाही. किमान एका स्तराची आवश्यकता आहे."
-
-#: ui/dockers/KarbonLayerDocker.cpp:319
-#, kde-format
-msgid "Error deleting layers"
-msgstr "स्तर काढताना त्रुटी"
-
-#: ui/dockers/KarbonLayerModel.cpp:165
-#, kde-format
-msgid "Layer"
-msgstr "स्तर"
-
-#: ui/dockers/KarbonLayerModel.cpp:167
-#, kde-format
-msgctxt "A group of shapes"
-msgid "Group"
-msgstr "समूह"
-
-#: ui/dockers/KarbonLayerModel.cpp:169
-#, kde-format
-msgid "Shape"
-msgstr "आकार"
-
-#: ui/dockers/KarbonLayerModel.cpp:264
-#, kde-format
-msgctxt "Visibility state of the shape"
-msgid "Visible"
-msgstr "दृश्यमान"
-
-#: ui/dockers/KarbonLayerModel.cpp:265
-#, kde-format
-msgctxt "Lock state of the shape"
-msgid "Locked"
-msgstr "कुलूपबंद"
-
-#: ui/dockers/KarbonLayerModel.cpp:266
-#, kde-format
-msgctxt "The z-index of the shape"
-msgid "zIndex"
-msgstr "झेडसूची"
-
-#: ui/dockers/KarbonLayerModel.cpp:267
-#, kde-format
-msgctxt "The opacity of the shape"
-msgid "Opacity"
-msgstr "अपारदर्शकता"
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, kde-format
-msgctxt "Clipped state of the shape"
-msgid "Clipped"
-msgstr "खंडीत"
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, kde-format
-msgid "no"
-msgstr "नाही"
-
-#: ui/dockers/KarbonLayerModel.cpp:268
-#, kde-format
-msgid "yes"
-msgstr "हो"
-
-#: ui/dockers/KarbonLayerModel.cpp:469
-msgctxt "(qtundo-format)"
-msgid "Reparent shapes"
-msgstr "पुनर्रचित आकार"
-
 #: ui/KarbonAboutData.h:35
 #, kde-format
 msgid "Karbon"
@@ -523,253 +388,198 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
-#: ui/KarbonDocument.cpp:196
-#, kde-format
-msgid "Invalid OASIS document. No office:body tag found."
-msgstr "अवैध ओअसीस दस्तऐवज.ऑफिस:अंगभूत चिन्ह आढळले नाही."
-
-#: ui/KarbonDocument.cpp:203
-#, kde-format
-msgid "Invalid OASIS document. No office:drawing tag found."
-msgstr "अवैध ओअसीस दस्तऐवज.ऑफिस:आरेखन चिन्ह आढळले नाही"
-
-#: ui/KarbonDocument.cpp:210
-#, kde-format
-msgid "Invalid OASIS document. No draw:page tag found."
-msgstr "अवैध ओअसीस दस्तऐवज. काढल्याचे:पृष्ठाची चिन्ह आढळले नाही "
-
-#: ui/KarbonDocument.cpp:689
-#, kde-format
-msgid "Master Page"
-msgstr "मुख्य पान"
-
-#: ui/KarbonDocumentMergeCommand.cpp:59 ui/KarbonView.cpp:560
+#: ui/KarbonDocumentMergeCommand.cpp:120 ui/KarbonView.cpp:424
 msgctxt "(qtundo-format)"
 msgid "Insert graphics"
 msgstr "आरेखने समाविष्ट करा"
 
-#: ui/KarbonView.cpp:491
+#: ui/KarbonView.cpp:360
 #, kde-format
 msgid "Choose Graphic to Add"
 msgstr "समाविष्ट करण्यासाठी आरेखनाची निवड करा"
 
-#: ui/KarbonView.cpp:531
+#: ui/KarbonView.cpp:395
 #, kde-format
 msgid "Could not load image."
 msgstr "प्रतिमा लोड करू शकत नाही."
 
-#: ui/KarbonView.cpp:531 ui/KarbonView.cpp:536 ui/KarbonView.cpp:543
+#: ui/KarbonView.cpp:395 ui/KarbonView.cpp:400 ui/KarbonView.cpp:407
 #, kde-format
 msgid "Import graphic"
 msgstr "आरेखन आयात करा"
 
-#: ui/KarbonView.cpp:536 ui/KarbonView.cpp:543
+#: ui/KarbonView.cpp:400 ui/KarbonView.cpp:407
 #, kde-format
 msgid "Could not create image shape."
 msgstr "प्रतिमेचा आकार साकार करू शकत नाही"
 
-#: ui/KarbonView.cpp:791
+#: ui/KarbonView.cpp:661
 msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally"
 msgstr "आडवेरित्या प्रतिबिंबित करा"
 
-#: ui/KarbonView.cpp:793
+#: ui/KarbonView.cpp:663
 msgctxt "(qtundo-format)"
 msgid "Mirror Vertically"
 msgstr "उभेरित्या प्रतिबिंबित करा"
 
-#: ui/KarbonView.cpp:795
+#: ui/KarbonView.cpp:665
 msgctxt "(qtundo-format)"
 msgid "Mirror Horizontally and Vertically"
 msgstr "आडवेरित्या व उभेरित्या प्रतिबिंबित करा"
 
-#: ui/KarbonView.cpp:850
+#: ui/KarbonView.cpp:720
 msgctxt "(qtundo-format)"
 msgid "Separate paths"
 msgstr "वेगळे मार्ग"
 
-#: ui/KarbonView.cpp:1028
+#: ui/KarbonView.cpp:901
 #, kde-format
 msgid "Outline &Mode"
 msgstr "रूपरेषा पद्धत (&M)"
 
-#: ui/KarbonView.cpp:1032
-#, kde-format
-msgid "Show Page Margins"
-msgstr "पानाचे समास दर्शवा"
-
-#: ui/KarbonView.cpp:1050
+#: ui/KarbonView.cpp:919
 #, kde-format
 msgid "&Import Graphic..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: ui/KarbonView.cpp:1054
+#: ui/KarbonView.cpp:923
 #, kde-format
 msgid "D&elete"
 msgstr "काढून टाका (&E)"
 
-#: ui/KarbonView.cpp:1060
+#: ui/KarbonView.cpp:929
 #, kde-format
 msgid "Edit Guides"
 msgstr "मार्गदर्शक तत्व संपादित करा"
 
-#: ui/KarbonView.cpp:1066
+#: ui/KarbonView.cpp:935
 #, kde-format
 msgctxt "Duplicate selection"
 msgid "&Duplicate"
 msgstr "प्रतिकृती (&D)"
 
-#: ui/KarbonView.cpp:1071
+#: ui/KarbonView.cpp:940
 #, kde-format
 msgid "Distribute Center (Horizontal)"
 msgstr "मध्यभागाचे वितरण करा (आडव्या स्थितीत)"
 
-#: ui/KarbonView.cpp:1075
+#: ui/KarbonView.cpp:944
 #, kde-format
 msgid "Distribute Gaps (Horizontal)"
 msgstr "मोकळ्या जागांचे वितरण करा (आडव्या स्थितीत)"
 
-#: ui/KarbonView.cpp:1079
+#: ui/KarbonView.cpp:948
 #, kde-format
 msgid "Distribute Left Borders"
 msgstr "डाव्या बाजूच्या सीमांचे वितरण करा"
 
-#: ui/KarbonView.cpp:1083
+#: ui/KarbonView.cpp:952
 #, kde-format
 msgid "Distribute Right Borders"
 msgstr "उजव्या बाजूंच्या सीमांचे वितरण करा"
 
-#: ui/KarbonView.cpp:1087
+#: ui/KarbonView.cpp:956
 #, kde-format
 msgid "Distribute Center (Vertical)"
 msgstr "मध्यभागाचे वितरण करा (उभ्या स्थितीत)"
 
-#: ui/KarbonView.cpp:1091
+#: ui/KarbonView.cpp:960
 #, kde-format
 msgid "Distribute Gaps (Vertical)"
 msgstr "मोकळ्या जागांचे वितरण करा (उभ्या स्थितीत)"
 
-#: ui/KarbonView.cpp:1095
+#: ui/KarbonView.cpp:964
 #, kde-format
 msgid "Distribute Bottom Borders"
 msgstr "खालील बाजूच्या सीमांचे वितरण करा"
 
-#: ui/KarbonView.cpp:1099
+#: ui/KarbonView.cpp:968
 #, kde-format
 msgid "Distribute Top Borders"
 msgstr "वरील बाजूच्या सीमांचे वितरण करा"
 
-#: ui/KarbonView.cpp:1103
-#, kde-format
-msgid "Show Rulers"
-msgstr "मोजपट्ट्या दर्शवा"
-
-#: ui/KarbonView.cpp:1105
-#, kde-format
-msgid "Shows or hides rulers"
-msgstr "मोजपट्ट्या दर्शवितो किंवा लपवितो"
-
-#: ui/KarbonView.cpp:1116
+#: ui/KarbonView.cpp:972
 #, kde-format
 msgid "Show Color Palette"
 msgstr "रंगपाटी दर्शवा"
 
-#: ui/KarbonView.cpp:1118
+#: ui/KarbonView.cpp:974
 #, kde-format
 msgid "Show or hide color palette"
 msgstr "रंगपाटी दर्शवा किंवा लपवा"
 
-#: ui/KarbonView.cpp:1122
-#, kde-format
-msgid "Snap to Grid"
-msgstr "जाळ्याकडे खेचा"
-
-#: ui/KarbonView.cpp:1124
-#, kde-format
-msgid "Snaps to grid"
-msgstr "जाळ्याकडे खेचतो"
-
-#: ui/KarbonView.cpp:1136
+#: ui/KarbonView.cpp:987
 #, kde-format
 msgid "&Clip Object"
 msgstr "घटक खंडीत करा (&C)"
 
-#: ui/KarbonView.cpp:1140
+#: ui/KarbonView.cpp:991
 #, kde-format
 msgid "&Unclip Objects"
 msgstr "घटक मोकळे करा (&U)"
 
-#: ui/KarbonView.cpp:1144
+#: ui/KarbonView.cpp:995
 #, kde-format
 msgid "Mirror Vertically"
 msgstr "उभेरित्या प्रतिबिंबित करा"
 
-#: ui/KarbonView.cpp:1148
+#: ui/KarbonView.cpp:999
 #, kde-format
 msgid "Mirror Horizontally"
 msgstr "आडवेरित्या प्रतिबिंबित करा"
 
-#: ui/KarbonView.cpp:1155
+#: ui/KarbonView.cpp:1006
 #, kde-format
 msgid "&Close Path"
 msgstr "मार्ग बंद करा (&C)"
 
-#: ui/KarbonView.cpp:1161
+#: ui/KarbonView.cpp:1012
 #, kde-format
 msgid "Com&bine Path"
 msgstr "मार्ग एकत्र करा (&B)"
 
-#: ui/KarbonView.cpp:1167
+#: ui/KarbonView.cpp:1018
 #, kde-format
 msgid "Se&parate Path"
 msgstr "मार्ग वेगळे करा (&P)"
 
-#: ui/KarbonView.cpp:1173
+#: ui/KarbonView.cpp:1024
 #, kde-format
 msgid "Re&verse Path"
 msgstr "मार्ग उलट करा (&V)"
 
-#: ui/KarbonView.cpp:1179
+#: ui/KarbonView.cpp:1030
 #, kde-format
 msgid "Intersect Paths"
 msgstr "मार्ग एकमेकांना छेदतील अशी रचना करा"
 
-#: ui/KarbonView.cpp:1185
+#: ui/KarbonView.cpp:1036
 #, kde-format
 msgid "Subtract Paths"
 msgstr "मार्ग कमी करा"
 
-#: ui/KarbonView.cpp:1191
+#: ui/KarbonView.cpp:1042
 #, kde-format
 msgid "Unite Paths"
 msgstr "मार्ग एकत्रित करा"
 
-#: ui/KarbonView.cpp:1197
+#: ui/KarbonView.cpp:1048
 #, kde-format
 msgid "Exclude Paths"
 msgstr "मार्ग वगळा"
 
-#: ui/KarbonView.cpp:1203
+#: ui/KarbonView.cpp:1054
 #, kde-format
 msgid "Snap Path to Grid"
 msgstr "मार्ग जाळ्याकडे खेचा"
 
-#: ui/KarbonView.cpp:1210
-#, kde-format
-msgid "Configure Karbon..."
-msgstr "कार्बन संयोजीत करा..."
-
-#: ui/KarbonView.cpp:1218
-#, kde-format
-msgid "Page &Layout..."
-msgstr "पृष्ठ रचना (&L)..."
-
-#: ui/KarbonView.cpp:1223
+#: ui/KarbonView.cpp:1062
 #, kde-format
 msgid "Zoom to Selection"
 msgstr "निवडीकडे झूम करा"
 
-#: ui/KarbonView.cpp:1227
+#: ui/KarbonView.cpp:1066
 #, kde-format
 msgid "Zoom to Drawing"
 msgstr "आरेखनाकडे झूम करा"
@@ -793,11 +603,6 @@ msgstr "अलीकडील फाईल्सची संख्या :"
 #, kde-format
 msgid "Palette font size:"
 msgstr "फॉन्ट पटाचा आकार :"
-
-#: ui/widgets/KarbonConfigInterfacePage.cpp:86
-#, kde-format
-msgid "Canvas color:"
-msgstr "कॅनवास रंग :"
 
 #: ui/widgets/KarbonPaletteBarWidget.cpp:61
 #, kde-format
@@ -841,6 +646,132 @@ msgstr "आघात :"
 #, kde-format
 msgid "Fill:"
 msgstr "भरण :"
+
+#~ msgid "Layer view"
+#~ msgstr "स्तराचे दृश्य"
+
+#~ msgid "Add a new layer"
+#~ msgstr "नवीन स्तर वाढवा"
+
+#~ msgid "Delete selected objects"
+#~ msgstr "निवडलेले घटक काढून टाका"
+
+#~ msgid "Raise selected objects"
+#~ msgstr "निवडलेले घटक वर आणा"
+
+#~ msgid "Lower selected objects"
+#~ msgstr "निवडलेले घटक खाली आणा"
+
+#~ msgid "Minimal View"
+#~ msgstr "किमान दृश्य"
+
+#~ msgid "Detailed View"
+#~ msgstr "तपशीलवार दृश्य"
+
+#~ msgid "Thumbnail View"
+#~ msgstr "लघुप्रतिमा दृश्य"
+
+#~ msgid "View mode"
+#~ msgstr "दृश्य पद्धती"
+
+#~ msgid "New Layer"
+#~ msgstr "नवीन स्तर"
+
+#~ msgid "Enter the name of the new layer:"
+#~ msgstr "नवीन स्तराचे नाव लिहा :"
+
+#~ msgid "New layer"
+#~ msgstr "नवीन स्तर"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Create Layer"
+#~ msgstr "स्तर निर्माण करा"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Delete Layer"
+#~ msgstr "स्तर काढून टाका"
+
+#~ msgid "Could not delete all layers. At least one layer is required."
+#~ msgstr "सर्व स्तर काढू शकलो नाही. किमान एका स्तराची आवश्यकता आहे."
+
+#~ msgid "Error deleting layers"
+#~ msgstr "स्तर काढताना त्रुटी"
+
+#~ msgid "Layer"
+#~ msgstr "स्तर"
+
+#~ msgctxt "A group of shapes"
+#~ msgid "Group"
+#~ msgstr "समूह"
+
+#~ msgid "Shape"
+#~ msgstr "आकार"
+
+#~ msgctxt "Visibility state of the shape"
+#~ msgid "Visible"
+#~ msgstr "दृश्यमान"
+
+#~ msgctxt "Lock state of the shape"
+#~ msgid "Locked"
+#~ msgstr "कुलूपबंद"
+
+#~ msgctxt "The z-index of the shape"
+#~ msgid "zIndex"
+#~ msgstr "झेडसूची"
+
+#~ msgctxt "The opacity of the shape"
+#~ msgid "Opacity"
+#~ msgstr "अपारदर्शकता"
+
+#~ msgctxt "Clipped state of the shape"
+#~ msgid "Clipped"
+#~ msgstr "खंडीत"
+
+#~ msgid "no"
+#~ msgstr "नाही"
+
+#~ msgid "yes"
+#~ msgstr "हो"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Reparent shapes"
+#~ msgstr "पुनर्रचित आकार"
+
+#~ msgid "Invalid OASIS document. No office:body tag found."
+#~ msgstr "अवैध ओअसीस दस्तऐवज.ऑफिस:अंगभूत चिन्ह आढळले नाही."
+
+#~ msgid "Invalid OASIS document. No office:drawing tag found."
+#~ msgstr "अवैध ओअसीस दस्तऐवज.ऑफिस:आरेखन चिन्ह आढळले नाही"
+
+#~ msgid "Invalid OASIS document. No draw:page tag found."
+#~ msgstr "अवैध ओअसीस दस्तऐवज. काढल्याचे:पृष्ठाची चिन्ह आढळले नाही "
+
+#~ msgid "Master Page"
+#~ msgstr "मुख्य पान"
+
+#~ msgid "Show Page Margins"
+#~ msgstr "पानाचे समास दर्शवा"
+
+#~ msgid "Show Rulers"
+#~ msgstr "मोजपट्ट्या दर्शवा"
+
+#~ msgid "Shows or hides rulers"
+#~ msgstr "मोजपट्ट्या दर्शवितो किंवा लपवितो"
+
+#~ msgid "Snap to Grid"
+#~ msgstr "जाळ्याकडे खेचा"
+
+#~ msgid "Snaps to grid"
+#~ msgstr "जाळ्याकडे खेचतो"
+
+#~ msgid "Configure Karbon..."
+#~ msgstr "कार्बन संयोजीत करा..."
+
+#~ msgid "Page &Layout..."
+#~ msgstr "पृष्ठ रचना (&L)..."
+
+#~ msgid "Canvas color:"
+#~ msgstr "कॅनवास रंग :"
 
 #, fuzzy
 #~| msgid "&Order"

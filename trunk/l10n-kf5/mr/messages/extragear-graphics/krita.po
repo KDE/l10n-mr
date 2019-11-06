@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-05 02:39+0100\n"
+"POT-Creation-Date: 2019-11-06 02:39+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -8014,7 +8014,7 @@ msgstr "रेषा"
 #. i18n: ectx: property (text), widget (QLabel, typeDescLabel)
 #. i18n: ectx: property (text), widget (QLabel, axisTypeLabel)
 #: libs/flake/KoConnectionShapeConfigWidget.ui:17
-#: libs/ui/forms/wdgimageproperties.ui:350
+#: libs/ui/forms/wdgimageproperties.ui:357
 #: libs/ui/forms/wdgstrokeselectionproperties.ui:62
 #: libs/ui/widgets/KoFillConfigWidget.ui:205
 #: libs/widgets/koDocumentInfoAboutWidget.ui:78
@@ -8042,7 +8042,7 @@ msgstr ""
 
 #: libs/flake/KoMarkerCollection.cpp:81
 #: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:154
-#: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:525
+#: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:527
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -8669,11 +8669,6 @@ msgctxt "(qtundo-format)"
 msgid "Remove Layer"
 msgstr "स्तर काढून टाका"
 
-#: libs/image/commands/kis_image_set_projection_color_space_command.cpp:29
-msgctxt "(qtundo-format)"
-msgid "Convert Image Type"
-msgstr "प्रतिमेचा प्रकार बदला"
-
 #: libs/image/commands/kis_node_compositeop_command.cpp:27
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -8728,7 +8723,7 @@ msgid "Node Rename"
 msgstr "नाव :"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:28
-#: libs/image/kis_image.cc:747
+#: libs/image/kis_image.cc:755
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "प्रतिमेचा आकार बदला"
@@ -8931,112 +8926,132 @@ msgstr "मिशेल"
 msgid "Pass Through"
 msgstr ""
 
-#: libs/image/kis_image.cc:337
+#: libs/image/kis_image.cc:345
 #, fuzzy, kde-format
 #| msgid "Import Image"
 msgid "Imported Image"
 msgstr "प्रतिमा आयात करा"
 
-#: libs/image/kis_image.cc:642
+#: libs/image/kis_image.cc:650
 #, kde-format
 msgid "background"
 msgstr "पार्श्वभूमी"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:646 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:654 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:396
 #, kde-format
 msgid "Layer"
 msgstr "स्तर"
 
-#: libs/image/kis_image.cc:746
+#: libs/image/kis_image.cc:754
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "प्रतिमा कापा"
 
-#: libs/image/kis_image.cc:788
+#: libs/image/kis_image.cc:796
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "समूह स्तर (&G)"
 
-#: libs/image/kis_image.cc:789
+#: libs/image/kis_image.cc:797
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:821
+#: libs/image/kis_image.cc:829
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:822
+#: libs/image/kis_image.cc:830
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
 
-#: libs/image/kis_image.cc:869
+#: libs/image/kis_image.cc:877
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "स्तर चढवा"
 
-#: libs/image/kis_image.cc:996
+#: libs/image/kis_image.cc:1004
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "प्रतिमा फिरवा"
 
-#: libs/image/kis_image.cc:1002
+#: libs/image/kis_image.cc:1010
 #, fuzzy
 #| msgid "Rotate Canvas"
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "कॅनव्हास फिरवा"
 
-#: libs/image/kis_image.cc:1004
+#: libs/image/kis_image.cc:1012
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "स्तर फिरवा"
 
-#: libs/image/kis_image.cc:1086
+#: libs/image/kis_image.cc:1094
 #, fuzzy
 #| msgid "Unsharp Mask"
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:1089
+#: libs/image/kis_image.cc:1097
 #, fuzzy
 #| msgid "Shear Layer"
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr "स्तर विभागा"
 
-#: libs/image/kis_image.cc:1096
+#: libs/image/kis_image.cc:1104
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:1108
+#: libs/image/kis_image.cc:1120
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Layer Color Space"
+msgstr "प्रतिमेच्या रंगाची जागा बदला"
+
+#: libs/image/kis_image.cc:1173
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1143
+#: libs/image/kis_image.cc:1174
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1961
+#: libs/image/kis_image.cc:1240
+#, fuzzy
+#| msgid "Right to left"
+msgctxt "(qtundo-format)"
+msgid "Assign Profile to Layer"
+msgstr "उजवीकडुन डावीकडे"
+
+#: libs/image/kis_image.cc:1270
+#, fuzzy
+#| msgid "Open Color Profile"
+msgctxt "(qtundo-format)"
+msgid "Assign Profile"
+msgstr "खुली रंग रूपरेषा"
+
+#: libs/image/kis_image.cc:2116
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -9718,7 +9733,7 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "प्रतिमा"
 
-#: libs/libkis/Document.cpp:888 libs/ui/KisMainWindow.cpp:1926
+#: libs/libkis/Document.cpp:885 libs/ui/KisMainWindow.cpp:1926
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "प्रतिमा आयात करा"
@@ -9817,7 +9832,7 @@ msgstr "अवैध मूल्य."
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: libs/odf/KoOdfReadStore.cpp:102 libs/ui/flake/kis_shape_layer.cc:571
+#: libs/odf/KoOdfReadStore.cpp:102 libs/ui/flake/kis_shape_layer.cc:573
 #, fuzzy, kde-format
 #| msgid "Color background"
 msgid "No store backend"
@@ -10884,7 +10899,7 @@ msgstr "ह्यू"
 #: libs/pigment/KoCompositeOpRegistry.cpp:151
 #: libs/ui/forms/wdgapplyprofile.ui:116 libs/ui/forms/wdgcolorsettings.ui:211
 #: libs/ui/forms/wdgcolorsettings.ui:296
-#: libs/ui/forms/wdgimageproperties.ui:257
+#: libs/ui/forms/wdgimageproperties.ui:264
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:475
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1270
 #: plugins/dockers/advancedcolorselector/wdg_color_selector_settings.ui:1300
@@ -11836,7 +11851,7 @@ msgstr "गाळणी :"
 msgid "Image Properties"
 msgstr "प्रतिमेचे गुणधर्म"
 
-#: libs/ui/dialogs/kis_dlg_image_properties.cc:103
+#: libs/ui/dialogs/kis_dlg_image_properties.cc:104
 #, kde-format
 msgid "Set color used for warning"
 msgstr ""
@@ -13100,7 +13115,7 @@ msgstr "रंगाच्या बदलातील फरक रेंडर
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, grpRenderIntent)
-#: libs/ui/forms/wdgapplyprofile.ui:87 libs/ui/forms/wdgimageproperties.ui:237
+#: libs/ui/forms/wdgapplyprofile.ui:87 libs/ui/forms/wdgimageproperties.ui:244
 #, kde-format
 msgid "Rendering Intent"
 msgstr "रेंडरिंग इंटेंट"
@@ -13122,7 +13137,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, radioPerceptual)
 #: libs/ui/forms/wdgapplyprofile.ui:96 libs/ui/forms/wdgcolorsettings.ui:201
 #: libs/ui/forms/wdgcolorsettings.ui:286
-#: libs/ui/forms/wdgimageproperties.ui:247
+#: libs/ui/forms/wdgimageproperties.ui:254
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:466
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:41
 #, kde-format
@@ -13409,7 +13424,7 @@ msgstr "रेंडरिंग इंटेंट (&R):"
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:206 libs/ui/forms/wdgcolorsettings.ui:291
-#: libs/ui/forms/wdgimageproperties.ui:252
+#: libs/ui/forms/wdgimageproperties.ui:259
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:469
 #, kde-format
 msgid "Relative Colorimetric"
@@ -13419,7 +13434,7 @@ msgstr "सापेक्ष कलरिमेट्रिक"
 #. i18n: ectx: property (text), item, widget (KComboBox, cmbMonitorIntent)
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbProofingIntent)
 #: libs/ui/forms/wdgcolorsettings.ui:216 libs/ui/forms/wdgcolorsettings.ui:301
-#: libs/ui/forms/wdgimageproperties.ui:262
+#: libs/ui/forms/wdgimageproperties.ui:269
 #: libs/ui/widgets/kis_advanced_color_space_selector.cc:472
 #, kde-format
 msgid "Absolute Colorimetric"
@@ -13440,7 +13455,7 @@ msgstr "पोस्ट प्रोसेसिंग"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAdaptationState)
 #: libs/ui/forms/wdgcolorsettings.ui:309
-#: libs/ui/forms/wdgimageproperties.ui:275
+#: libs/ui/forms/wdgimageproperties.ui:282
 #, fuzzy, kde-format
 msgid "Adaptation State:"
 msgstr "टीप :"
@@ -13454,7 +13469,7 @@ msgstr "रेंडरिंग इंटेंट"
 
 #. i18n: ectx: property (text), widget (QLabel, lblGamutWarning)
 #: libs/ui/forms/wdgcolorsettings.ui:326
-#: libs/ui/forms/wdgimageproperties.ui:299
+#: libs/ui/forms/wdgimageproperties.ui:306
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgid "Gamut Warning:"
@@ -13463,7 +13478,7 @@ msgstr "इशारा"
 #. i18n: ectx: property (text), widget (QCheckBox, ckbBlackPointComp)
 #. i18n: ectx: property (text), widget (QCheckBox, ckbProofBlackPoint)
 #: libs/ui/forms/wdgcolorsettings.ui:350
-#: libs/ui/forms/wdgimageproperties.ui:316
+#: libs/ui/forms/wdgimageproperties.ui:323
 #, fuzzy, kde-format
 #| msgid "Use Blackpoint Compensation"
 msgid "Black Point Compensation"
@@ -14667,31 +14682,27 @@ msgstr "पार्श्वभूमीचा रंग :"
 msgid "Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QCheckBox, chkConvertLayers)
 #: libs/ui/forms/wdgimageproperties.ui:207
 #, fuzzy, kde-format
-msgid ""
-"<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> This "
-"changes only the colorspace of the rendered image. To convert the colorspace "
-"of the layers, use Convert Image Colorspace.</p></body></html>"
-msgstr ""
-"<html><head/><body><p>पार्श्वभूमीचा रंग पारदर्शी पिक्सेलना बदलेल.</p></body></html>"
+msgid "Convert color space of image layers"
+msgstr "पासून वर्तमान स्तर बदला"
 
 #. i18n: ectx: attribute (title), widget (QWidget, grpSoftProof)
-#: libs/ui/forms/wdgimageproperties.ui:221
+#: libs/ui/forms/wdgimageproperties.ui:228
 #, fuzzy, kde-format
 #| msgid "Postprocessing"
 msgid "Softproofing"
 msgstr "पोस्ट प्रोसेसिंग"
 
 #. i18n: ectx: property (text), widget (QCheckBox, chkSaveProofing)
-#: libs/ui/forms/wdgimageproperties.ui:227
+#: libs/ui/forms/wdgimageproperties.ui:234
 #, kde-format
 msgid "Store Softproofing configuration in the image"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QSlider, sldAdaptationState)
-#: libs/ui/forms/wdgimageproperties.ui:285
+#: libs/ui/forms/wdgimageproperties.ui:292
 #, kde-format
 msgid ""
 "<html><head/><body><p>Set how much you wish to correct the adaptation state. "
@@ -14703,7 +14714,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ckbBlackPointComp)
-#: libs/ui/forms/wdgimageproperties.ui:313
+#: libs/ui/forms/wdgimageproperties.ui:320
 #, kde-format
 msgid ""
 "<html><head/><body><p>Black Point compensation matches the darkest color of "
@@ -14714,7 +14725,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: libs/ui/forms/wdgimageproperties.ui:339
+#: libs/ui/forms/wdgimageproperties.ui:346
 #, fuzzy, kde-format
 msgid "Annotations"
 msgstr "फिरविणे"
@@ -14725,7 +14736,7 @@ msgstr "फिरविणे"
 #. i18n: ectx: property (text), widget (QLabel, lblSaveLocation)
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, lblPaletteName)
 #. i18n: ectx: property (text), widget (QLabel, stylesAvailableLabel)
-#: libs/ui/forms/wdgimageproperties.ui:363 libs/ui/forms/wdgnewimage.ui:308
+#: libs/ui/forms/wdgimageproperties.ui:370 libs/ui/forms/wdgnewimage.ui:308
 #: libs/ui/forms/wdgperformancesettings.ui:229
 #: plugins/dockers/palettedocker/wdgpalettedock.ui:145
 #: plugins/extensions/resourcemanager/wdgdlgcreatebundle.ui:353
@@ -16950,7 +16961,7 @@ msgstr "गाळणी पुन्हा लागू करा : %1"
 msgid "Import Image"
 msgstr "प्रतिमा आयात करा"
 
-#: libs/ui/kis_image_manager.cc:202 libs/ui/widgets/KoDualColorButton.cpp:101
+#: libs/ui/kis_image_manager.cc:209 libs/ui/widgets/KoDualColorButton.cpp:101
 #, fuzzy, kde-format
 msgid "Select a Color"
 msgstr "अपारदर्शक निवडा"
@@ -17629,7 +17640,7 @@ msgstr "उतरणी संपादित करा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
 #: libs/ui/kis_stopgradient_editor.cpp:240
-#: libs/ui/KisImportExportManager.cpp:572
+#: libs/ui/KisImportExportManager.cpp:573
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:59
 #, kde-format
 msgid "Options"
@@ -17980,7 +17991,7 @@ msgstr ""
 msgid "Not Saved"
 msgstr "भरले नाही"
 
-#: libs/ui/KisDocument.cpp:2090
+#: libs/ui/KisDocument.cpp:2092
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -18231,29 +18242,29 @@ msgid ""
 "different location."
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:272
+#: libs/ui/KisImportExportManager.cpp:273
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Open Audio"
 msgstr "उघडा व संपादन करा..."
 
-#: libs/ui/KisImportExportManager.cpp:359
+#: libs/ui/KisImportExportManager.cpp:360
 #, fuzzy, kde-format
 msgid "Opening document..."
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: libs/ui/KisImportExportManager.cpp:420
+#: libs/ui/KisImportExportManager.cpp:421
 #, fuzzy, kde-format
 msgid "Saving document..."
 msgstr "दस्तऐवज साठवा"
 
-#: libs/ui/KisImportExportManager.cpp:496
+#: libs/ui/KisImportExportManager.cpp:497
 #, fuzzy, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>assistants</b>. The assistants will not be saved."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: libs/ui/KisImportExportManager.cpp:499
+#: libs/ui/KisImportExportManager.cpp:500
 #, fuzzy, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -18261,13 +18272,13 @@ msgid ""
 "saved."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: libs/ui/KisImportExportManager.cpp:502
+#: libs/ui/KisImportExportManager.cpp:503
 #, fuzzy, kde-format
 msgctxt "image conversion warning"
 msgid "The image contains <b>guides</b>. The guides will not be saved."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: libs/ui/KisImportExportManager.cpp:505
+#: libs/ui/KisImportExportManager.cpp:506
 #, fuzzy, kde-format
 msgctxt "image conversion warning"
 msgid ""
@@ -18275,44 +18286,44 @@ msgid ""
 "will not be saved."
 msgstr "हे स्तर रास्टर स्तर म्हणून साठवले जातील"
 
-#: libs/ui/KisImportExportManager.cpp:510
+#: libs/ui/KisImportExportManager.cpp:511
 #, fuzzy, kde-format
 #| msgid "Cannot export images in %1.\n"
 msgid "Error: cannot save this image as a %1."
 msgstr "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
 
-#: libs/ui/KisImportExportManager.cpp:511
-#: libs/ui/KisImportExportManager.cpp:559
+#: libs/ui/KisImportExportManager.cpp:512
+#: libs/ui/KisImportExportManager.cpp:560
 #, fuzzy, kde-format
 #| msgid "Dimensions"
 msgid "Reasons:"
 msgstr "परिमाणे"
 
-#: libs/ui/KisImportExportManager.cpp:519
+#: libs/ui/KisImportExportManager.cpp:520
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Export Error"
 msgstr "उभी किनार :"
 
-#: libs/ui/KisImportExportManager.cpp:542
+#: libs/ui/KisImportExportManager.cpp:543
 #, kde-format
 msgctxt "Keep the extra space at the end of the sentence, please"
 msgid "Warning: saving as %1 will lose information from your image.    "
 msgstr ""
 
-#: libs/ui/KisImportExportManager.cpp:553
+#: libs/ui/KisImportExportManager.cpp:554
 #, fuzzy, kde-format
 #| msgid "Cannot export images in %1.\n"
 msgid "You will lose information when saving this image as a %1."
 msgstr "%1 मध्ये प्रतिमा निर्यात करता येत नाही.\n"
 
-#: libs/ui/KisImportExportManager.cpp:556
+#: libs/ui/KisImportExportManager.cpp:557
 #, fuzzy, kde-format
 #| msgid "Ruler assistant"
 msgid "Reason:"
 msgstr "मोजपट्टी सहायक"
 
-#: libs/ui/KisImportExportManager.cpp:581
+#: libs/ui/KisImportExportManager.cpp:582
 #, kde-format
 msgid "Also save your image as a Krita file."
 msgstr ""
@@ -27066,23 +27077,17 @@ msgstr "वर्तमान निवडीतून काढून टाक
 msgid "&Deselect"
 msgstr "निवड काढून टाका (&D)"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:79
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:78
 #, fuzzy, kde-format
 #| msgid "Convert All Layers From "
 msgid "Convert All Layers From %1"
 msgstr "पासूनचे सर्व स्तर बदला "
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:108
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:107
 #, fuzzy, kde-format
 #| msgid "Convert Current Layer From"
 msgid "Convert Current Layer From %1"
 msgstr "पासून वर्तमान स्तर बदला"
-
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:117
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Convert Layer Type"
-msgstr "वर्तमान स्तर बदला"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgConvertColorSpace)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:14
@@ -33804,8 +33809,8 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:159
-#: plugins/impex/libkra/kis_kra_loader.cpp:860
-#: plugins/impex/libkra/kis_kra_loader.cpp:1225
+#: plugins/impex/libkra/kis_kra_loader.cpp:862
+#: plugins/impex/libkra/kis_kra_loader.cpp:1227
 #, fuzzy, kde-format
 #| msgid "File not found"
 msgctxt "@title:window"
@@ -33904,7 +33909,7 @@ msgstr ""
 msgid "Image specifies an unsupported color model: %1."
 msgstr "समूह संपादनास अयोग्य."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:470
+#: plugins/impex/libkra/kis_kra_loader.cpp:472
 #: plugins/impex/psd/psd_loader.cpp:349
 #, kde-format
 msgctxt ""
@@ -33912,27 +33917,27 @@ msgctxt ""
 msgid "<%1> (embedded)"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:668
+#: plugins/impex/libkra/kis_kra_loader.cpp:670
 #, fuzzy, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr "समूह संपादनास अयोग्य."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:696
+#: plugins/impex/libkra/kis_kra_loader.cpp:698
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr "समूह संपादनास अयोग्य."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:730
+#: plugins/impex/libkra/kis_kra_loader.cpp:732
 #, fuzzy, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr "समूह संपादनास अयोग्य."
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:737
+#: plugins/impex/libkra/kis_kra_loader.cpp:739
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:855
+#: plugins/impex/libkra/kis_kra_loader.cpp:857
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -33944,7 +33949,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1220
+#: plugins/impex/libkra/kis_kra_loader.cpp:1222
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -43763,6 +43768,24 @@ msgstr "डेकोरेशन्स दर्शवा"
 #, kde-format
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert Image Type"
+#~ msgstr "प्रतिमेचा प्रकार बदला"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head/><body><p><span style=\" font-weight:600;\">Note:</span> This "
+#~ "changes only the colorspace of the rendered image. To convert the "
+#~ "colorspace of the layers, use Convert Image Colorspace.</p></body></html>"
+#~ msgstr ""
+#~ "<html><head/><body><p>पार्श्वभूमीचा रंग पारदर्शी पिक्सेलना बदलेल.</p></body></"
+#~ "html>"
+
+#, fuzzy
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert Layer Type"
+#~ msgstr "वर्तमान स्तर बदला"
 
 #, fuzzy
 #~ msgid "Starting Brush Size:"
