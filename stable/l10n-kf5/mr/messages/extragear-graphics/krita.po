@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-05 07:47+0100\n"
+"POT-Creation-Date: 2019-11-06 07:56+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -7297,16 +7297,6 @@ msgid ""
 "the tablet driver is properly installed."
 msgstr ""
 
-#: libs/basicflakes/plugin/KoCreatePathToolFactory.cpp:30
-#, kde-format
-msgid "Draw path"
-msgstr ""
-
-#: libs/basicflakes/plugin/KoPencilToolFactory.cpp:29
-#, kde-format
-msgid "Freehand path"
-msgstr ""
-
 #: libs/basicflakes/tools/KoCreatePathTool.cpp:548
 #, kde-format
 msgid "Autosmooth curve"
@@ -7329,7 +7319,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lblPrecision)
 #: libs/basicflakes/tools/KoPencilTool.cpp:314
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:148
+#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:101
 #, kde-format
 msgid "Precision:"
 msgstr "काटेकोरपणा :"
@@ -7766,7 +7756,7 @@ msgstr ""
 
 #: libs/flake/KoMarkerCollection.cpp:81
 #: libs/flake/resources/KoSvgSymbolCollectionResource.cpp:154
-#: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:525
+#: libs/odf/KoOdfReadStore.cpp:133 libs/ui/flake/kis_shape_layer.cc:527
 #, kde-format
 msgid ""
 "Parsing error in the main document at line %1, column %2\n"
@@ -7790,7 +7780,7 @@ msgstr ""
 msgid "%1 Options"
 msgstr "%1 पर्याय"
 
-#: libs/flake/KoToolManager.cpp:647
+#: libs/flake/KoToolManager.cpp:624
 #, kde-format
 msgid "Active tool: %1"
 msgstr "सक्रिय साधन : %1"
@@ -7841,11 +7831,6 @@ msgstr ""
 #: libs/flake/text/KoSvgTextShapeMarkupConverter.cpp:706
 #, kde-format
 msgid "Unknown error writing SVG text element"
-msgstr ""
-
-#: libs/flake/tools/KoCreateShapesToolFactory.cpp:29
-#, kde-format
-msgid "Create object"
 msgstr ""
 
 #: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:146
@@ -8205,8 +8190,6 @@ msgstr "आकार"
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersX)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intRoundCornersY)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intCheckSize)
-#. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, sizeToStartFromSpinBox)
-#. i18n: ectx: property (suffix), widget (KisDoubleParseSpinBox, deltaValueSpinBox)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intWidth)
 #. i18n: ectx: property (suffix), widget (QSpinBox, intHeight)
 #. i18n: ectx: property (suffix), widget (KisIntParseSpinBox, intHSpacing)
@@ -8267,8 +8250,6 @@ msgstr "आकार"
 #: plugins/paintops/hatching/kis_hatching_options.cpp:33
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:165
 #: plugins/paintops/hatching/kis_hatching_paintop_settings.cpp:196
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:105
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:128
 #: plugins/paintops/libpaintop/kis_auto_brush_widget.cpp:63
 #: plugins/paintops/libpaintop/kis_brush_chooser.cpp:118
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:371
@@ -8392,11 +8373,6 @@ msgctxt "(qtundo-format)"
 msgid "Remove Layer"
 msgstr "स्तर काढून टाका"
 
-#: libs/image/commands/kis_image_set_projection_color_space_command.cpp:29
-msgctxt "(qtundo-format)"
-msgid "Convert Image Type"
-msgstr "प्रतिमेचा प्रकार बदला"
-
 #: libs/image/commands/kis_node_compositeop_command.cpp:27
 #, fuzzy
 msgctxt "(qtundo-format)"
@@ -8451,7 +8427,7 @@ msgid "Node Rename"
 msgstr "निनावी"
 
 #: libs/image/commands_new/kis_image_resize_command.cpp:28
-#: libs/image/kis_image.cc:631
+#: libs/image/kis_image.cc:639
 msgctxt "(qtundo-format)"
 msgid "Resize Image"
 msgstr "प्रतिमेचा आकार बदला"
@@ -8654,106 +8630,126 @@ msgstr "मिशेल"
 msgid "Pass Through"
 msgstr ""
 
-#: libs/image/kis_image.cc:526
+#: libs/image/kis_image.cc:534
 #, kde-format
 msgid "background"
 msgstr "पार्श्वभूमी"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbType)
-#: libs/image/kis_image.cc:530 plugins/extensions/imagesize/imagesize.xmlgui:9
+#: libs/image/kis_image.cc:538 plugins/extensions/imagesize/imagesize.xmlgui:9
 #: plugins/tools/tool_crop/wdg_tool_crop.ui:396
 #, kde-format
 msgid "Layer"
 msgstr "स्तर"
 
-#: libs/image/kis_image.cc:630
+#: libs/image/kis_image.cc:638
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Image"
 msgstr "प्रतिमा कापा"
 
-#: libs/image/kis_image.cc:672
+#: libs/image/kis_image.cc:680
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Layer"
 msgstr "समूह स्तर (&G)"
 
-#: libs/image/kis_image.cc:673
+#: libs/image/kis_image.cc:681
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:705
+#: libs/image/kis_image.cc:713
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:706
+#: libs/image/kis_image.cc:714
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Change Image Resolution"
 msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
 
-#: libs/image/kis_image.cc:753
+#: libs/image/kis_image.cc:761
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Scale Layer"
 msgstr "स्तर चढवा"
 
-#: libs/image/kis_image.cc:880
+#: libs/image/kis_image.cc:888
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Image"
 msgstr "प्रतिमा फिरवा"
 
-#: libs/image/kis_image.cc:886
+#: libs/image/kis_image.cc:894
 #, fuzzy
 #| msgid "Rotate Canvas"
 msgctxt "(qtundo-format)"
 msgid "Rotate Mask"
 msgstr "कॅनव्हास फिरवा"
 
-#: libs/image/kis_image.cc:888
+#: libs/image/kis_image.cc:896
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Rotate Layer"
 msgstr "स्तर फिरवा"
 
-#: libs/image/kis_image.cc:970
+#: libs/image/kis_image.cc:978
 #, fuzzy
 #| msgid "Unsharp Mask"
 msgctxt "(qtundo-format)"
 msgid "Shear Mask"
 msgstr "मुखवटा सौम्य बनवा"
 
-#: libs/image/kis_image.cc:973
+#: libs/image/kis_image.cc:981
 #, fuzzy
 #| msgid "Shear Layer"
 msgctxt "(qtundo-format)"
 msgid "Shear Layer"
 msgstr "स्तर विभागा"
 
-#: libs/image/kis_image.cc:980
+#: libs/image/kis_image.cc:988
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Shear Image"
 msgstr "शीयर प्रतिमा"
 
-#: libs/image/kis_image.cc:992
+#: libs/image/kis_image.cc:1004
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert Layer Type"
+msgstr "वर्तमान स्तर बदला"
+
+#: libs/image/kis_image.cc:1057
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Image Color Space"
 msgstr "प्रतिमेच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1027
+#: libs/image/kis_image.cc:1058
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Convert Projection Color Space"
 msgstr "प्रक्षेपणाच्या रंगाची जागा बदला"
 
-#: libs/image/kis_image.cc:1845
+#: libs/image/kis_image.cc:1124
+#, fuzzy
+#| msgid "Open Color Profile"
+msgctxt "(qtundo-format)"
+msgid "Assign Profile to Layer"
+msgstr "खुली रंग रूपरेषा"
+
+#: libs/image/kis_image.cc:1154
+#, fuzzy
+#| msgid "Open Color Profile"
+msgctxt "(qtundo-format)"
+msgid "Assign Profile"
+msgstr "खुली रंग रूपरेषा"
+
+#: libs/image/kis_image.cc:2000
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Crop Selections"
@@ -9428,7 +9424,7 @@ msgctxt "description of a file type"
 msgid "HEIC/HEIF Image"
 msgstr ""
 
-#: libs/libkis/Document.cpp:887 libs/ui/KisMainWindow.cpp:1849
+#: libs/libkis/Document.cpp:884 libs/ui/KisMainWindow.cpp:1849
 #, fuzzy, kde-format
 msgid "Import frames"
 msgstr "प्रतिमा आयात करा"
@@ -9527,7 +9523,7 @@ msgstr "अवैध मूल्य."
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: libs/odf/KoOdfReadStore.cpp:102 libs/ui/flake/kis_shape_layer.cc:571
+#: libs/odf/KoOdfReadStore.cpp:102 libs/ui/flake/kis_shape_layer.cc:573
 #, kde-format
 msgid "No store backend"
 msgstr ""
@@ -17576,7 +17572,7 @@ msgstr ""
 msgid "Not Saved"
 msgstr "भरले नाही"
 
-#: libs/ui/KisDocument.cpp:1889
+#: libs/ui/KisDocument.cpp:1891
 #, kde-format
 msgctxt ""
 "progress dialog message when the user closes the document that is being saved"
@@ -18982,7 +18978,6 @@ msgstr "स्तर चढवा"
 
 #. i18n: ectx: property (text), widget (QLabel, lblThisMin_2)
 #. i18n: ectx: property (text), widget (QLabel, lblUnderMin_2)
-#. i18n: ectx: property (text), widget (QLabel, lblPrecisionValue)
 #. i18n: ectx: property (text), widget (QLabel, colorCount)
 #. i18n: ectx: property (text), widget (QLabel, fileSizeLabel)
 #. i18n: ectx: property (text), widget (QLabel, bppLabel)
@@ -18991,7 +18986,6 @@ msgstr "स्तर चढवा"
 #: plugins/filters/indexcolors/kiswdgindexcolors.ui:156
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:45
 #: plugins/impex/heightmap/kis_wdg_options_heightmap.ui:188
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:135
 #: plugins/paintops/libpaintop/kis_dynamic_sensor.cc:208
 #, kde-format
 msgid "0"
@@ -26534,23 +26528,17 @@ msgstr "वर्तमान निवडीतून काढून टाक
 msgid "&Deselect"
 msgstr "निवड काढून टाका (&D)"
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:79
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:78
 #, fuzzy, kde-format
 #| msgid "Convert All Layers From "
 msgid "Convert All Layers From %1"
 msgstr "पासूनचे सर्व स्तर बदला "
 
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:108
+#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:107
 #, fuzzy, kde-format
 #| msgid "Convert Current Layer From"
 msgid "Convert Current Layer From %1"
 msgstr "पासून वर्तमान स्तर बदला"
-
-#: plugins/extensions/colorspaceconversion/colorspaceconversion.cc:117
-#, fuzzy
-msgctxt "(qtundo-format)"
-msgid "Convert Layer Type"
-msgstr "वर्तमान स्तर बदला"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgConvertColorSpace)
 #: plugins/extensions/colorspaceconversion/wdgconvertcolorspace.ui:14
@@ -29573,19 +29561,19 @@ msgstr ""
 msgid "Colors:"
 msgstr "रंग"
 
-#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:42
+#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:43
 #, kde-format
 msgid "&Gaussian Noise Reduction..."
 msgstr "गॉसियन नॉइज रिडक्शन (&G)..."
 
-#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:55
+#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:57
 #: plugins/filters/imageenhancement/kis_wavelet_noise_reduction.cpp:52
 #: plugins/filters/threshold/threshold.h:53
 #, kde-format
 msgid "Threshold"
 msgstr "मर्यादा"
 
-#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:56
+#: plugins/filters/imageenhancement/kis_simple_noise_reducer.cpp:58
 #, kde-format
 msgid "Window size"
 msgstr "खिडकीचा आकार"
@@ -32922,8 +32910,8 @@ msgid ""
 msgstr ""
 
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:159
-#: plugins/impex/libkra/kis_kra_loader.cpp:860
-#: plugins/impex/libkra/kis_kra_loader.cpp:1225
+#: plugins/impex/libkra/kis_kra_loader.cpp:862
+#: plugins/impex/libkra/kis_kra_loader.cpp:1227
 #, kde-format
 msgctxt "@title:window"
 msgid "File not found"
@@ -33021,7 +33009,7 @@ msgstr ""
 msgid "Image specifies an unsupported color model: %1."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:470
+#: plugins/impex/libkra/kis_kra_loader.cpp:472
 #: plugins/impex/psd/psd_loader.cpp:349
 #, kde-format
 msgctxt ""
@@ -33029,27 +33017,27 @@ msgctxt ""
 msgid "<%1> (embedded)"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:668
+#: plugins/impex/libkra/kis_kra_loader.cpp:670
 #, kde-format
 msgid "Layer %1 specifies an unsupported color model: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:696
+#: plugins/impex/libkra/kis_kra_loader.cpp:698
 #, kde-format
 msgid "Layer %1 has an unsupported type."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:730
+#: plugins/impex/libkra/kis_kra_loader.cpp:732
 #, kde-format
 msgid "Layer %1 has an unsupported type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:737
+#: plugins/impex/libkra/kis_kra_loader.cpp:739
 #, kde-format
 msgid "Failure loading layer %1 of type: %2."
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:855
+#: plugins/impex/libkra/kis_kra_loader.cpp:857
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -33061,7 +33049,7 @@ msgid ""
 "Do you want to locate it manually?"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_loader.cpp:1220
+#: plugins/impex/libkra/kis_kra_loader.cpp:1222
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -35686,35 +35674,6 @@ msgstr "विनाक्रमता :"
 msgid "Spikes:"
 msgstr "काटे :"
 
-#. i18n: ectx: property (toolTip), widget (QLabel, label)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:95
-#, kde-format
-msgid ""
-"Use to set the size from which the Automatic Precision Setting should begin. "
-"The Precision will remain 5 before this value."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:98
-#, fuzzy, kde-format
-msgid "Starting Brush Size:"
-msgstr "कुंचल्याचा आकार :"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:118
-#, kde-format
-msgid ""
-"This determines every interval after which the precision should change. For "
-"example: if the delta value is set to be 15.00, after every 15 pts change in "
-"the size of brush, the precision will change."
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/paintops/libpaintop/forms/wdgbrushchooser.ui:121
-#, fuzzy, kde-format
-msgid "Delta :"
-msgstr "डेल्टा : "
-
 #. i18n: ectx: property (text), widget (QLabel, aspectLabel)
 #. i18n: ectx: property (text), widget (QLabel, aspectLbl)
 #: plugins/paintops/libpaintop/forms/wdgBrushSizeOptions.ui:142
@@ -36104,22 +36063,7 @@ msgstr "कृती कार्यक्रम"
 msgid "Predefined"
 msgstr "पूर्वनियोजित (&P):"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:88
-#, kde-format
-msgid ""
-"Use to set the size from which the Automatic Precision Setting should "
-"begin. \n"
-"The Precision will remain 5 before this value."
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:89
-#, kde-format
-msgid ""
-"Use to set the interval at which the Automatic Precision will change. \n"
-"The Precision will decrease as brush size increases."
-msgstr ""
-
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:191
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:181
 #, kde-format
 msgid ""
 "Precision Level 1 (fastest)\n"
@@ -36134,7 +36078,7 @@ msgstr ""
 "\n"
 "\" मोठ्या कुंचल्यांसाठी जुळविलेले"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:199
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:189
 #, kde-format
 msgid ""
 "Precision Level 2\n"
@@ -36149,7 +36093,7 @@ msgstr ""
 "\n"
 "\"मोठ्या कुंचल्यांसाठी जुळविलेले"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:207
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:197
 #, kde-format
 msgid ""
 "Precision Level 3\n"
@@ -36160,7 +36104,7 @@ msgstr ""
 "Subpixel precision: disabled\n"
 "कुंचल्याचा काटेकोरः तोच आकार"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:213
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:203
 #, kde-format
 msgid ""
 "Precision Level 4 (optimal)\n"
@@ -36175,7 +36119,7 @@ msgstr ""
 "\n"
 "पाचव्या पाळीपेक्षा ५० टक्के जास्त चांगले काम होते"
 
-#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:221
+#: plugins/paintops/libpaintop/kis_brush_selection_widget.cpp:211
 #, kde-format
 msgid ""
 "Precision Level 5 (best quality)\n"
@@ -42759,6 +42703,18 @@ msgstr "डेकोरेशन्स दर्शवा"
 #, kde-format
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
+
+#~ msgctxt "(qtundo-format)"
+#~ msgid "Convert Image Type"
+#~ msgstr "प्रतिमेचा प्रकार बदला"
+
+#, fuzzy
+#~ msgid "Starting Brush Size:"
+#~ msgstr "कुंचल्याचा आकार :"
+
+#, fuzzy
+#~ msgid "Delta :"
+#~ msgstr "डेल्टा : "
 
 #, fuzzy
 #~ msgid "Hide Window Scrollbars"
