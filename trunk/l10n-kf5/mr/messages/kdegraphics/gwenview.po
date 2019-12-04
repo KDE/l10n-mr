@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-24 03:05+0100\n"
+"POT-Creation-Date: 2019-12-04 02:52+0100\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1615,6 +1615,59 @@ msgid ""
 "This image has been modified. Reloading it will discard all your changes."
 msgstr "ही प्रतिमा सुधारित केलेली आहे. ती पुन्हा दाखल केल्यास तुमचे सर्व बदल नाहीसे होतील."
 
+#: importer/dialogpage.cpp:55
+#, kde-format
+msgid "Show failed files..."
+msgstr ""
+
+#: importer/dialogpage.cpp:61
+#, kde-format
+msgid "Show failed subfolders..."
+msgstr ""
+
+#: importer/dialogpage.cpp:76
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to delete the document:\n"
+#| "%2"
+#| msgid_plural ""
+#| "Failed to delete documents:\n"
+#| "%2"
+msgid "Failed to import %1 document."
+msgid_plural "Failed to import %1 documents."
+msgstr[0] ""
+"दस्तऐवज काढून टाकण्यात अपयश :\n"
+"%2"
+msgstr[1] ""
+"दस्तऐवज काढून टाकण्यात अपयश :\n"
+"%2"
+
+#: importer/dialogpage.cpp:84
+#, fuzzy, kde-format
+#| msgid "Could not create destination folder."
+msgid "Failed to create %1 destination subfolder."
+msgid_plural "Failed to create %1 destination subfolders."
+msgstr[0] "इष्ट स्थानावर संचयीका तयार करू शकत नाही"
+msgstr[1] "इष्ट स्थानावर संचयीका तयार करू शकत नाही"
+
+#: importer/dialogpage.cpp:96
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to delete the document:\n"
+#| "%2"
+#| msgid_plural ""
+#| "Failed to delete documents:\n"
+#| "%2"
+msgid "Failed to import documents:"
+msgstr ""
+"दस्तऐवज काढून टाकण्यात अपयश :\n"
+"%2"
+
+#: importer/dialogpage.cpp:105
+#, kde-format
+msgid "Failed to create subfolders:"
+msgstr ""
+
 #: importer/filenameformater.cpp:104
 #, kde-format
 msgid "Shooting date"
@@ -1645,14 +1698,14 @@ msgstr "फाईलचे मूळ नाव"
 msgid "Original filename, in lower case"
 msgstr "लहान अक्षरातील फाईलचे मूळचे नाव"
 
-#: importer/importdialog.cpp:74
+#: importer/importdialog.cpp:93
 #, kde-format
 msgid "One document has been imported."
 msgid_plural "%1 documents have been imported."
 msgstr[0] "एक दस्तऐवज आयात केले."
 msgstr[1] "%1 दस्तऐवज आयात केले."
 
-#: importer/importdialog.cpp:79
+#: importer/importdialog.cpp:98
 #, kde-format
 msgid "One document has been skipped because it had already been imported."
 msgid_plural ""
@@ -1660,7 +1713,7 @@ msgid_plural ""
 msgstr[0] "एक दस्तऐवज सोडले कारण ते अगोदरच आयात केले होते."
 msgstr[1] "%1 दस्तऐवज सोडले कारण ते अगोदरच आयात केले होते."
 
-#: importer/importdialog.cpp:87
+#: importer/importdialog.cpp:106
 #, kde-format
 msgid ""
 "One of them has been renamed because another document with the same name had "
@@ -1671,21 +1724,21 @@ msgid_plural ""
 msgstr[0] "एक दस्तऐवजाचे नाव बदलले कारण त्या नावाचे दस्तऐवज अगोदरच आयात केले होते."
 msgstr[1] "%1 दस्तऐवजाचे नाव बदलले कारण त्या नावाचे दस्तऐवज अगोदरच आयात केले होते."
 
-#: importer/importdialog.cpp:96
+#: importer/importdialog.cpp:115
 #, kde-format
 msgid "Delete the imported document from the device?"
 msgid_plural "Delete the %1 imported documents from the device?"
 msgstr[0] "आयात केलेले दस्तऐवज या साधनावरून काढून टाकायचे का?"
 msgstr[1] "%1 आयात केलेले दस्तऐवज या साधनावरून काढून टाकायचे का?"
 
-#: importer/importdialog.cpp:101
+#: importer/importdialog.cpp:120
 #, kde-format
 msgid "Delete the skipped document from the device?"
 msgid_plural "Delete the %1 skipped documents from the device?"
 msgstr[0] "सोडलेले दस्तऐवज या साधनावरून काढून टाकायचे का?"
 msgstr[1] "%1 सोडलेले दस्तऐवज या साधनावरून काढून टाकायचे का?"
 
-#: importer/importdialog.cpp:107
+#: importer/importdialog.cpp:126
 #, kde-format
 msgctxt "Singular sentence is actually never used."
 msgid "Delete the imported or skipped document from the device?"
@@ -1693,18 +1746,18 @@ msgid_plural "Delete the %1 imported and skipped documents from the device?"
 msgstr[0] "आयात केलेले किंवा सोडलेले दस्तऐवज या साधनावरून काढून टाकायचे का?"
 msgstr[1] "%1 आयात केलेले किंवा सोडलेले दस्तऐवज या साधनावरून काढून टाकायचे का?"
 
-#: importer/importdialog.cpp:114
+#: importer/importdialog.cpp:133
 #, kde-format
 msgctxt "@title:window"
 msgid "Import Finished"
 msgstr "आयात पूर्ण झाले"
 
-#: importer/importdialog.cpp:115
+#: importer/importdialog.cpp:134
 #, kde-format
 msgid "Keep"
 msgstr "ठेवा"
 
-#: importer/importdialog.cpp:129
+#: importer/importdialog.cpp:148
 #, kde-format
 msgid ""
 "Failed to delete the document:\n"
@@ -1719,42 +1772,42 @@ msgstr[1] ""
 "दस्तऐवज काढून टाकण्यात अपयश :\n"
 "%2"
 
-#: importer/importdialog.cpp:133
+#: importer/importdialog.cpp:152
 #, kde-format
 msgid "Retry"
 msgstr "पुन्हा प्रयत्न करा"
 
-#: importer/importdialog.cpp:134
+#: importer/importdialog.cpp:153
 #, kde-format
 msgid "Ignore"
 msgstr "दुर्लक्ष करा"
 
-#: importer/importdialog.cpp:156
+#: importer/importdialog.cpp:175
 #, kde-format
 msgid "What do you want to do now?"
 msgstr "तुम्ही आता काय करू इच्छिता?"
 
-#: importer/importdialog.cpp:158
+#: importer/importdialog.cpp:177
 #, kde-format
 msgid "View Imported Documents with Gwenview"
 msgstr "ग्वेनव्ह्यूच्या सहाय्याने आयात दस्तऐवज पहा"
 
-#: importer/importdialog.cpp:159
+#: importer/importdialog.cpp:178
 #, kde-format
 msgid "Import more Documents"
 msgstr "आणखी दस्तऐवज आयात करा"
 
-#: importer/importdialog.cpp:160
+#: importer/importdialog.cpp:179
 #, kde-format
 msgid "Quit"
 msgstr "बाहेर पडा"
 
-#: importer/importer.cpp:78
+#: importer/importer.cpp:82
 #, kde-format
 msgid "Could not create destination folder."
 msgstr "इष्ट स्थानावर संचयीका तयार करू शकत नाही"
 
-#: importer/importer.cpp:86 importer/importer.cpp:92
+#: importer/importer.cpp:97 importer/importer.cpp:103
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not create temporary upload folder:\n"
