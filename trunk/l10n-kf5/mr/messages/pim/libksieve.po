@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-16 03:00+0100\n"
+"POT-Creation-Date: 2019-12-16 03:18+0100\n"
 "PO-Revision-Date: 2013-04-13 16:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -104,8 +104,10 @@ msgid ""
 msgstr ""
 
 #: ksieveui/autocreatescripts/autocreatescriptdialog.cpp:39
-#, kde-format
-msgid "Create sieve filter"
+#, fuzzy, kde-format
+#| msgid "Create sieve filter"
+msgctxt "@title:window"
+msgid "Create Sieve Filter"
 msgstr "सीव्ह गाळणी निर्माण करा"
 
 #: ksieveui/autocreatescripts/autocreatescriptutil.cpp:190
@@ -213,10 +215,9 @@ msgid "An unknown tag value \"%1\" was found during parsing action \"%2\"."
 msgstr ""
 
 #: ksieveui/autocreatescripts/sieveactions/sieveaction.cpp:139
-#: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:113
 #, kde-format
 msgid ""
-"Too many argument found for \"%1\", max value is %2, number of value found "
+"Too many arguments found for \"%1\", max value is %2, number of value found "
 "%3 for %4"
 msgstr ""
 
@@ -860,6 +861,13 @@ msgstr ""
 #: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:108
 #, kde-format
 msgid "An unknown tag value \"%1\" was found during parsing condition \"%2\"."
+msgstr ""
+
+#: ksieveui/autocreatescripts/sieveconditions/sievecondition.cpp:113
+#, kde-format
+msgid ""
+"Too many argument found for \"%1\", max value is %2, number of value found "
+"%3 for %4"
 msgstr ""
 
 #: ksieveui/autocreatescripts/sieveconditions/sieveconditionaddress.cpp:36
@@ -1647,7 +1655,6 @@ msgid "Bottom"
 msgstr "खाली"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:146
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:236
 #: ksieveui/widgets/managesievewidget.cpp:244
 #: ksieveui/widgets/managesievewidget.cpp:250
 #: ksieveui/widgets/managesievewidget.cpp:265
@@ -1676,33 +1683,48 @@ msgid "Edit Script Description"
 msgstr "वर्णन संपादित करा..."
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:236
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:262
-#, kde-format
-msgid "Add new name:"
-msgstr "नवीन नाव जोडा :"
+#, fuzzy, kde-format
+#| msgid "New Script"
+msgctxt "@title:window"
+msgid "New Script"
+msgstr "नवीन स्क्रिप्ट"
+
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:236
+#, fuzzy, kde-format
+#| msgid "New Script"
+msgid "New script name:"
+msgstr "नवीन स्क्रिप्ट"
 
 #: ksieveui/autocreatescripts/sievescriptlistbox.cpp:247
 #, kde-format
 msgid "Do you want to delete \"%1\" script?"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:247
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:248
 #, fuzzy, kde-format
 #| msgid "Description"
-msgid "Delete script"
+msgctxt "@title:window"
+msgid "Delete Script"
 msgstr "वर्णन"
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:262
-#, kde-format
-msgid "Rename"
-msgstr "नाव बदला"
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:263
+#, fuzzy, kde-format
+#| msgid "Sieve Script"
+msgctxt "@title:window"
+msgid "Rename Script"
+msgstr "सीव्ह स्क्रिप्ट"
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:449
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:263
+#, kde-format
+msgid "New name for the script:"
+msgstr ""
+
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:450
 #, kde-format
 msgid "forEveryPart is not supported by your server"
 msgstr ""
 
-#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:547
+#: ksieveui/autocreatescripts/sievescriptlistbox.cpp:548
 #, fuzzy, kde-format
 #| msgid "Script name: %1"
 msgid "Script part %1"
@@ -1747,6 +1769,7 @@ msgstr ""
 #: ksieveui/autocreatescripts/sievescriptparsingerrordialog.cpp:36
 #, fuzzy, kde-format
 #| msgid "Sieve Script"
+msgctxt "@title:window"
 msgid "Sieve Parsing Error"
 msgstr "सीव्ह स्क्रिप्ट"
 
@@ -1933,6 +1956,7 @@ msgstr ""
 #: ksieveui/editor/sieveeditorabstractwidget.cpp:75
 #, fuzzy, kde-format
 #| msgid "Import Script"
+msgctxt "@title:window"
 msgid "Import Script Sieve"
 msgstr "स्क्रिप्ट आयात करा"
 
@@ -2112,22 +2136,22 @@ msgstr ""
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:41
 #, kde-format
-msgid "Switch in graphical mode"
+msgid "Switch to Graphical Mode"
 msgstr ""
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:45
 #, kde-format
-msgid "Keep in text mode"
+msgid "Stay in Text Mode"
 msgstr ""
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:52
 #, kde-format
-msgid "Switch in text mode"
+msgid "Switch to Text Mode"
 msgstr ""
 
 #: ksieveui/editor/warningwidget/sieveeditorparsingmissingfeaturewarning.cpp:56
 #, kde-format
-msgid "Keep in Graphical mode"
+msgid "Stay in Graphical Mode"
 msgstr ""
 
 #: ksieveui/editor/warningwidget/sieveeditorwarning.cpp:30
@@ -2240,7 +2264,7 @@ msgstr "स्क्रिप्ट नाव : %1"
 #: ksieveui/managescriptsjob/parseuserscriptjob.cpp:87
 #, fuzzy, kde-format
 #| msgid "Sieve Script"
-msgid "Script parsing error"
+msgid "Script parsing error."
 msgstr "सीव्ह स्क्रिप्ट"
 
 #: ksieveui/managescriptsjob/renamescriptjob.cpp:75
@@ -2322,6 +2346,7 @@ msgstr ""
 #: ksieveui/scriptsparsing/parsingresultdialog.cpp:41
 #, fuzzy, kde-format
 #| msgid "Sieve Script"
+msgctxt "@title:window"
 msgid "Sieve Parsing"
 msgstr "सीव्ह स्क्रिप्ट"
 
@@ -2415,7 +2440,7 @@ msgstr ""
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:159
 #, kde-format
-msgid "Impossible to open temporary file."
+msgid "Failed to open temporary file."
 msgstr ""
 
 #: ksieveui/sievescriptdebugger/sievescriptdebuggerfrontendwidget.cpp:229
@@ -2997,15 +3022,16 @@ msgstr ""
 msgid "Unknown error"
 msgstr "अपरिचीत त्रुटी"
 
+#~ msgid "Add new name:"
+#~ msgstr "नवीन नाव जोडा :"
+
+#~ msgid "Rename"
+#~ msgstr "नाव बदला"
+
 #, fuzzy
 #~| msgid "Unknown error"
 #~ msgid "Unknown action"
 #~ msgstr "अपरिचीत त्रुटी"
-
-#, fuzzy
-#~| msgid "New Script"
-#~ msgid "New Script Name"
-#~ msgstr "नवीन स्क्रिप्ट"
 
 #~ msgid "Rename..."
 #~ msgstr "नाव बदला..."
