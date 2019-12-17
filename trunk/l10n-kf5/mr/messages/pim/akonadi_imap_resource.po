@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-06 03:25+0100\n"
+"POT-Creation-Date: 2019-12-17 03:19+0100\n"
 "PO-Revision-Date: 2013-03-13 11:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -82,6 +82,7 @@ msgstr ""
 #: imapresource.cpp:77
 #, fuzzy, kde-format
 #| msgid "Identity Settings"
+msgctxt "@title:window"
 msgid "IMAP Account Settings"
 msgstr "ओळख व्यवस्था"
 
@@ -266,7 +267,7 @@ msgstr ""
 msgid "No server configured yet."
 msgstr ""
 
-#: imapresourcebase.cpp:270
+#: imapresourcebase.cpp:270 setupserver.cpp:663
 #, kde-format
 msgctxt "@title:window"
 msgid "Serverside Subscription"
@@ -577,9 +578,11 @@ msgid ""
 msgstr ""
 
 #: settingspasswordrequester.cpp:73
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Authentication:"
+msgctxt "@title:window"
 msgid "Could Not Authenticate"
-msgstr ""
+msgstr "अधिप्रमाणन :"
 
 #: settingspasswordrequester.cpp:77
 #, kde-format
@@ -698,11 +701,6 @@ msgstr ""
 #: setupserver.cpp:570
 #, kde-format
 msgid "<qt><b>It is not possible to use this server.</b></qt>"
-msgstr ""
-
-#: setupserver.cpp:663
-#, kde-format
-msgid "Serverside Subscription"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
