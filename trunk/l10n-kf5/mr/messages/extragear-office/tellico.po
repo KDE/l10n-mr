@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-29 02:45+0100\n"
+"POT-Creation-Date: 2020-01-02 02:46+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -615,7 +615,8 @@ msgstr ""
 #: src/configdialog.cpp:201 src/fetch/allocinefetcher.cpp:315
 #: src/fetch/allocinefetcher.cpp:321 src/fetch/animenfofetcher.cpp:310
 #: src/fetch/animenfofetcher.cpp:314 src/fetch/bedethequefetcher.cpp:331
-#: src/fetch/bedethequefetcher.cpp:339 src/fetch/discogsfetcher.cpp:248
+#: src/fetch/bedethequefetcher.cpp:339 src/fetch/colnectfetcher.cpp:286
+#: src/fetch/colnectfetcher.cpp:299 src/fetch/discogsfetcher.cpp:248
 #: src/fetch/discogsfetcher.cpp:253 src/fetch/discogsfetcher.cpp:258
 #: src/fetch/discogsfetcher.cpp:265 src/fetch/doubanfetcher.cpp:323
 #: src/fetch/doubanfetcher.cpp:342 src/fetch/doubanfetcher.cpp:361
@@ -774,7 +775,8 @@ msgstr "प्रकरण"
 
 #: src/collections/bibtexcollection.cpp:213
 #: src/collections/bookcollection.cpp:143 src/collections/cardcollection.cpp:82
-#: src/collections/comicbookcollection.cpp:70
+#: src/collections/comicbookcollection.cpp:70 src/fetch/colnectfetcher.cpp:285
+#: src/fetch/colnectfetcher.cpp:431
 #, kde-format
 msgid "Series"
 msgstr ""
@@ -891,6 +893,7 @@ msgstr ""
 #: src/collections/filecatalog.cpp:57 src/collections/gamecollection.cpp:98
 #: src/collections/stampcollection.cpp:54
 #: src/collections/winecollection.cpp:125 src/entrymatchdialog.cpp:94
+#: src/fetch/colnectfetcher.cpp:292 src/fetch/colnectfetcher.cpp:434
 #: src/fetchdialog.cpp:250
 #, kde-format
 msgid "Description"
@@ -1230,12 +1233,12 @@ msgstr ""
 msgid "Grading Service"
 msgstr ""
 
-#: src/collections/coincollection.cpp:136
+#: src/collections/coincollection.cpp:136 src/fetch/colnectfetcher.cpp:429
 #, kde-format
 msgid "Obverse"
 msgstr ""
 
-#: src/collections/coincollection.cpp:139
+#: src/collections/coincollection.cpp:139 src/fetch/colnectfetcher.cpp:430
 #, kde-format
 msgid "Reverse"
 msgstr "मागे"
@@ -3036,6 +3039,7 @@ msgid "Encode the exported file in the local encoding."
 msgstr ""
 
 #: src/fetch/allocinefetcher.cpp:238 src/fetch/amazonfetcher.cpp:804
+#: src/fetch/colnectfetcher.cpp:203 src/fetch/colnectfetcher.cpp:213
 #: src/fetch/discogsfetcher.cpp:192 src/fetch/filmasterfetcher.cpp:142
 #: src/fetch/googlebookfetcher.cpp:196 src/fetch/igdbfetcher.cpp:175
 #: src/fetch/isbndbfetcher.cpp:232 src/fetch/kinofetcher.cpp:334
@@ -3448,6 +3452,16 @@ msgstr ""
 #| msgid "General Options"
 msgid "BoardGameGeek Link"
 msgstr "सामान्य पर्याय"
+
+#: src/fetch/colnectfetcher.cpp:298 src/fetch/colnectfetcher.cpp:433
+#, kde-format
+msgid "Mintage"
+msgstr ""
+
+#: src/fetch/colnectfetcher.cpp:506 src/fetch/themoviedbfetcher.cpp:483
+#, fuzzy, kde-format
+msgid "Language: "
+msgstr "भाषा :"
 
 #: src/fetch/comicvinefetcher.cpp:70
 #, kde-format
@@ -3925,11 +3939,6 @@ msgstr ""
 #, kde-format
 msgid "TMDb Link"
 msgstr ""
-
-#: src/fetch/themoviedbfetcher.cpp:483
-#, fuzzy, kde-format
-msgid "Language: "
-msgstr "भाषा :"
 
 #: src/fetch/themoviedbfetcher.cpp:486
 #, kde-format
