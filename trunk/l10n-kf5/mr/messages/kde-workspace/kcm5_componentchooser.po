@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-21 03:50+0100\n"
+"POT-Creation-Date: 2020-02-04 03:51+0100\n"
 "PO-Revision-Date: 2013-02-25 14:04+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -33,108 +33,104 @@ msgstr ""
 "sandeep.shedmake@gmail.com, \n"
 "chetan@kompkin.com"
 
-#: componentchooser.cpp:145
+#: componentchooser.cpp:61
 #, kde-format
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: componentchooser.cpp:162
+#: componentchooser.cpp:64
 #, kde-format
-msgid ""
-"Choose from the list below which component should be used by default for the "
-"%1 service."
-msgstr "%1 सेवे करिता खालील सूची मधून कोणता घटक मूलभूत म्हणून वापरावा ते निवडा."
-
-#: componentchooser.cpp:194
-#, kde-format
-msgid ""
-"<qt>You changed the default component of your choice, do want to save that "
-"change now ?</qt>"
-msgstr "<qt> तुम्ही पसंतीचे मूलभूत घटक बदलविले आहे, बदल आता साठवायला आवडेल का?</qt>"
-
-#: componentchooser.cpp:199
-#, kde-format
-msgid "No description available"
-msgstr "वर्णन उपलब्ध नाही"
-
-#. i18n: ectx: property (whatsThis), widget (QGroupBox, headerGroupBox)
-#: componentchooser_ui.ui:26
-#, kde-format
-msgid ""
-"Here you can change the component program. Components are programs that "
-"handle basic tasks, like the terminal emulator, the text editor and the "
-"email client. Different KDE applications sometimes need to invoke a console "
-"emulator, send a mail or display some text. To do so consistently, these "
-"applications always call the same components. You can choose here which "
-"programs these components are."
+msgctxt "The label for the combobox: browser, terminal emulator...)"
+msgid "%1:"
 msgstr ""
-"इथे तुम्ही कॉम्पोनंन्ट प्रोग्रॅम बदलू शकता. कॉम्पोनंन्टस  हे असे प्रोग्रॅमस असतात जे मूळ टास्क्स "
-"पार पाडतात.जसे कि टर्मिनल एम्युलेटर, टेक्स्ट संपादन व ई मेल ग्राहक.विविध  केडीई "
-"अप्लिकेशन्सना काही वेळा कन्सोल एम्युलेटरचा उपयोग करण्याची गरज भासते.  हेच काम सारखेच "
-"करण्यासाठी या अप्लिकेशन्स नेहमी त्याच कॉम्पोनंन्टस ची मदत घेतात."
 
-#. i18n: ectx: property (title), widget (QGroupBox, headerGroupBox)
-#: componentchooser_ui.ui:29
-#, kde-format
-msgid "Default Component"
-msgstr "मूलभूत विभाग"
-
-#. i18n: ectx: property (whatsThis), widget (QListWidget, ServiceChooser)
-#: componentchooser_ui.ui:44
-#, kde-format
-msgid ""
-"<qt>\n"
-"<p>This list shows the configurable component types. Click the component you "
-"want to configure.</p>\n"
-"<p>In this dialog you can change KDE default components. Components are "
-"programs that handle basic tasks, like the terminal emulator, the text "
-"editor and the email client. Different KDE applications sometimes need to "
-"invoke a console emulator, send a mail or display some text. To do so "
-"consistently, these applications always call the same components. Here you "
-"can select which programs these components are.</p>\n"
-"</qt>"
-msgstr ""
-"<qt>\n"
-"<p>ही सूची कोन्फ़िगरेबल कॉम्पोनंन्ट प्रकार दाखवते.अश्या कॉम्पोनंन्टस वर क्लिक करा जे तुम्ही "
-"कोन्फ़िगर करू शकता</p>\n"
-"<p>या चौकटीत तुम्ही केडीई डीफॉल्ट कॉम्पोनंन्टस बदलू शकता. कॉम्पोनंन्टस हे प्रोग्रॅमस असतात."
-"जे मूळ कामे हाताळतात,जसे कि टर्मिनल एम्युलेटर,लेखी संपादन व इमेल ग्राहक.वेगवेगळ्या  केडीई "
-"अप्लिकेशन्सना  काहीवेळा कन्सोल एम्युलेटरच्या मदतीची मेल पाठवणे गरज  भासते.नियमितपणे काम "
-"करण्यासाठी या अप्लिकेशन्सना नेहमीच कॉम्पोनंन्टसची मदत घ्यावी लागते.इथे तुम्ही जे  प्रोग्रॅम "
-"या कॉम्पोनंन्टसमध्ये आहेत ते निवडू शकता.</p>\n"
-"</qt>"
-
-#: componentchooserbrowser.cpp:115 componentchooseremail.cpp:126
-#: componentchooserfilemanager.cpp:119 componentchooserterminal.cpp:97
+#: componentchooserbrowser.cpp:100 componentchooseremail.cpp:105
+#: componentchooserfilemanager.cpp:106 componentchooserterminal.cpp:85
 #, kde-format
 msgid "Other..."
 msgstr ""
 
-#: componentchooserfilemanager.cpp:58
+#: componentchooserfilemanager.cpp:44
 #, fuzzy, kde-format
 #| msgid "Select preferred email client:"
 msgid "Select preferred file manager:"
 msgstr "सूचविलेला इमेल ग्राहक निवडा :"
 
-#: componentchooserterminal.cpp:122
+#: componentchooserterminal.cpp:112
 #, kde-format
 msgid "Select preferred terminal application:"
 msgstr "सूचविलेले टर्मिनल अनुप्रयोग निवडा:"
 
-#: kcm_componentchooser.cpp:43
+#: kcm_componentchooser.cpp:42
 #, kde-format
 msgid "Component Chooser"
 msgstr "विभाग निवडक"
 
-#: kcm_componentchooser.cpp:45
+#: kcm_componentchooser.cpp:44
 #, kde-format
 msgid "(c), 2002 Joseph Wenninger"
 msgstr "(c), 2002 जोसेफ वेनिन्गर"
 
-#: kcm_componentchooser.cpp:47
+#: kcm_componentchooser.cpp:46
 #, kde-format
 msgid "Joseph Wenninger"
 msgstr "जोसेफ वेनिन्गर"
+
+#: kcm_componentchooser.cpp:47
+#, kde-format
+msgid "Méven Car"
+msgstr ""
+
+#~ msgid ""
+#~ "Choose from the list below which component should be used by default for "
+#~ "the %1 service."
+#~ msgstr "%1 सेवे करिता खालील सूची मधून कोणता घटक मूलभूत म्हणून वापरावा ते निवडा."
+
+#~ msgid ""
+#~ "<qt>You changed the default component of your choice, do want to save "
+#~ "that change now ?</qt>"
+#~ msgstr "<qt> तुम्ही पसंतीचे मूलभूत घटक बदलविले आहे, बदल आता साठवायला आवडेल का?</qt>"
+
+#~ msgid "No description available"
+#~ msgstr "वर्णन उपलब्ध नाही"
+
+#~ msgid ""
+#~ "Here you can change the component program. Components are programs that "
+#~ "handle basic tasks, like the terminal emulator, the text editor and the "
+#~ "email client. Different KDE applications sometimes need to invoke a "
+#~ "console emulator, send a mail or display some text. To do so "
+#~ "consistently, these applications always call the same components. You can "
+#~ "choose here which programs these components are."
+#~ msgstr ""
+#~ "इथे तुम्ही कॉम्पोनंन्ट प्रोग्रॅम बदलू शकता. कॉम्पोनंन्टस  हे असे प्रोग्रॅमस असतात जे मूळ "
+#~ "टास्क्स पार पाडतात.जसे कि टर्मिनल एम्युलेटर, टेक्स्ट संपादन व ई मेल ग्राहक.विविध  केडीई "
+#~ "अप्लिकेशन्सना काही वेळा कन्सोल एम्युलेटरचा उपयोग करण्याची गरज भासते.  हेच काम सारखेच "
+#~ "करण्यासाठी या अप्लिकेशन्स नेहमी त्याच कॉम्पोनंन्टस ची मदत घेतात."
+
+#~ msgid "Default Component"
+#~ msgstr "मूलभूत विभाग"
+
+#~ msgid ""
+#~ "<qt>\n"
+#~ "<p>This list shows the configurable component types. Click the component "
+#~ "you want to configure.</p>\n"
+#~ "<p>In this dialog you can change KDE default components. Components are "
+#~ "programs that handle basic tasks, like the terminal emulator, the text "
+#~ "editor and the email client. Different KDE applications sometimes need to "
+#~ "invoke a console emulator, send a mail or display some text. To do so "
+#~ "consistently, these applications always call the same components. Here "
+#~ "you can select which programs these components are.</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt>\n"
+#~ "<p>ही सूची कोन्फ़िगरेबल कॉम्पोनंन्ट प्रकार दाखवते.अश्या कॉम्पोनंन्टस वर क्लिक करा जे "
+#~ "तुम्ही कोन्फ़िगर करू शकता</p>\n"
+#~ "<p>या चौकटीत तुम्ही केडीई डीफॉल्ट कॉम्पोनंन्टस बदलू शकता. कॉम्पोनंन्टस हे प्रोग्रॅमस "
+#~ "असतात.जे मूळ कामे हाताळतात,जसे कि टर्मिनल एम्युलेटर,लेखी संपादन व इमेल ग्राहक."
+#~ "वेगवेगळ्या  केडीई अप्लिकेशन्सना  काहीवेळा कन्सोल एम्युलेटरच्या मदतीची मेल पाठवणे गरज  "
+#~ "भासते.नियमितपणे काम करण्यासाठी या अप्लिकेशन्सना नेहमीच कॉम्पोनंन्टसची मदत घ्यावी "
+#~ "लागते.इथे तुम्ही जे  प्रोग्रॅम या कॉम्पोनंन्टसमध्ये आहेत ते निवडू शकता.</p>\n"
+#~ "</qt>"
 
 #~ msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 #~ msgstr "<qt><b>http</b> व <b>https</b> URLs उघडा</qt>"
