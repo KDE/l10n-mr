@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-08 02:45+0100\n"
+"POT-Creation-Date: 2020-02-11 02:44+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -8816,7 +8816,7 @@ msgstr "गाळणी"
 
 #: libs/image/kis_base_mask_generator.h:35
 #: libs/ui/kis_bookmarked_configurations_model.cc:66
-#: plugins/extensions/layersplit/dlg_layersplit.cpp:62
+#: plugins/extensions/layersplit/dlg_layersplit.cpp:60
 #: plugins/flake/textshape/kotext/styles/KoStyleManager.cpp:106
 #: plugins/flake/textshape/kotext/styles/KoStyleManager.cpp:111
 #, kde-format
@@ -10857,7 +10857,7 @@ msgstr "सामान्य"
 #: libs/ui/KisPaletteEditor.cpp:421 libs/ui/KisPaletteEditor.cpp:459
 #: libs/ui/layerstyles/WdgColorOverlay.ui:23
 #: libs/ui/layerstyles/WdgStroke.ui:134 libs/widgets/kis_palette_view.cpp:127
-#: plugins/extensions/layersplit/layersplit.cpp:203
+#: plugins/extensions/layersplit/layersplit.cpp:211
 #: plugins/generators/solid/colorgenerator.h:53
 #, kde-format
 msgid "Color"
@@ -27489,17 +27489,22 @@ msgstr "मागील समूहात हलवा"
 msgid "Move into next group"
 msgstr "पुढील समूहात हलवा"
 
-#: plugins/extensions/layersplit/dlg_layersplit.cpp:42
+#: plugins/extensions/layersplit/dlg_layersplit.cpp:43
 #, fuzzy, kde-format
 msgid "Split Layer"
 msgstr "स्तर चढवा"
 
-#: plugins/extensions/layersplit/layersplit.cpp:90
+#: plugins/extensions/layersplit/layersplit.cpp:94
 #, fuzzy, kde-format
 msgid "Split into Layers"
 msgstr "रंगाचा स्तर (&P)"
 
-#: plugins/extensions/layersplit/layersplit.cpp:189
+#: plugins/extensions/layersplit/layersplit.cpp:97
+#, fuzzy, kde-format
+msgid "Split into Masks"
+msgstr "रंगाचा स्तर (&P)"
+
+#: plugins/extensions/layersplit/layersplit.cpp:196
 #, fuzzy
 msgctxt "(qtundo-format)"
 msgid "Split Layer"
@@ -27535,17 +27540,17 @@ msgstr "मूलभूत स्तर दर्शवा"
 msgid "Sort layers by amount of non-transparent pixels"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/extensions/layersplit/wdg_layersplit.ui:72
-#, fuzzy, kde-format
-msgid "Fuzziness:"
-msgstr "फझीनेस : "
-
 #. i18n: ectx: property (text), widget (QCheckBox, chkDisregardOpacity)
-#: plugins/extensions/layersplit/wdg_layersplit.ui:85
+#: plugins/extensions/layersplit/wdg_layersplit.ui:72
 #, fuzzy, kde-format
 msgid "Disregard opacity"
 msgstr "दूरस्थ अपारदर्शकता"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: plugins/extensions/layersplit/wdg_layersplit.ui:79
+#, fuzzy, kde-format
+msgid "Fuzziness:"
+msgstr "फझीनेस : "
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: plugins/extensions/layersplit/wdg_layersplit.ui:92
@@ -27559,8 +27564,20 @@ msgstr "स्तरासाठी ब्लेंडिंग पद्धत 
 msgid "Choose Palette"
 msgstr "कार्यक्षेत्र निवडा"
 
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMode)
+#: plugins/extensions/layersplit/wdg_layersplit.ui:107
+#, fuzzy, kde-format
+msgid "Split Into Layers"
+msgstr "रंगाचा स्तर (&P)"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbMode)
+#: plugins/extensions/layersplit/wdg_layersplit.ui:112
+#, fuzzy, kde-format
+msgid "Split Into Local Selection Masks"
+msgstr "निवड नाही"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/extensions/layersplit/wdg_layersplit.ui:111
+#: plugins/extensions/layersplit/wdg_layersplit.ui:125
 #, fuzzy, kde-format
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600;\">Split a layer "
