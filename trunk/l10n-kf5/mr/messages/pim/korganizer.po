@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-12 03:37+0100\n"
+"POT-Creation-Date: 2020-03-18 03:29+0100\n"
 "PO-Revision-Date: 2013-04-15 10:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -536,13 +536,11 @@ msgid "Configure the view"
 msgstr "दृश्याची संयोजना करा"
 
 #: actionmanager.cpp:552 actionmanager.cpp:1301 actionmanager.cpp:1337
-#: koeventpopupmenu.cpp:55
 #, kde-format
 msgid "&Show"
 msgstr "दर्शवा (&S)"
 
 #: actionmanager.cpp:557 actionmanager.cpp:1304 actionmanager.cpp:1338
-#: koeventpopupmenu.cpp:58
 #, kde-format
 msgid "&Edit..."
 msgstr "संपादन (&E)..."
@@ -1630,25 +1628,29 @@ msgstr "शिर्षक (&T):"
 msgid "Text:"
 msgstr "मजकूर"
 
-#: dialog/searchdialog.cpp:54
+#: dialog/searchdialog.cpp:55
 #, fuzzy, kde-format
 #| msgid "Search Calendar"
 msgctxt "@title:window"
 msgid "Search Calendar"
 msgstr "दिनदर्शिका शोधा"
 
-#: dialog/searchdialog.cpp:85
-#, kde-format
-msgctxt "search in calendar"
+#: dialog/searchdialog.cpp:86
+#, fuzzy, kde-format
+#| msgctxt "search in calendar"
+#| msgid "&Search"
+msgctxt "@action:button search in calendar"
 msgid "&Search"
 msgstr "शोध (&S)"
 
-#: dialog/searchdialog.cpp:87
-#, kde-format
-msgid "Start searching"
+#: dialog/searchdialog.cpp:88
+#, fuzzy, kde-format
+#| msgid "Start searching"
+msgctxt "@info:tooltip"
+msgid "Start the search"
 msgstr "शोध सुरु करा"
 
-#: dialog/searchdialog.cpp:90
+#: dialog/searchdialog.cpp:91
 #, fuzzy, kde-format
 #| msgctxt "@info:whatsthis"
 #| msgid "Press this button to define a new filter."
@@ -1656,8 +1658,12 @@ msgctxt "@info:whatsthis"
 msgid "Press this button to start the search."
 msgstr "नवीन गाळणी निश्चीत करण्यासाठी हे बटण दाबा."
 
-#: dialog/searchdialog.cpp:131
-#, kde-format
+#: dialog/searchdialog.cpp:151
+#, fuzzy, kde-format
+#| msgid ""
+#| "Invalid search expression, cannot perform the search. Please enter a "
+#| "search expression using the wildcard characters '*' and '?' where needed."
+msgctxt "@info"
 msgid ""
 "Invalid search expression, cannot perform the search. Please enter a search "
 "expression using the wildcard characters '*' and '?' where needed."
@@ -1665,18 +1671,25 @@ msgstr ""
 "शोधाची अभीव्यक्ती/पदावली अवैध आहे, शोध होऊ शकत नाही. '*' आणि '?' असे वाइल्डकार्डवर्ण "
 "वापरून शोध अभीव्यक्ती/पदावलीची नोंद करा."
 
-#: dialog/searchdialog.cpp:143
-#, kde-format
+#: dialog/searchdialog.cpp:163
+#, fuzzy, kde-format
+#| msgid "No items were found that match your search pattern."
+msgctxt "@info"
 msgid "No items were found that match your search pattern."
 msgstr "तुमच्या शोध पद्धतीशी जुळणाऱ्या बाबी सापडल्या नाहीत."
 
-#: dialog/searchdialog.cpp:144
-#, kde-format
+#: dialog/searchdialog.cpp:164
+#, fuzzy, kde-format
+#| msgid "Search Results"
+msgctxt "@title:window"
 msgid "Search Results"
 msgstr "शोध परिणाम"
 
-#: dialog/searchdialog.cpp:147
-#, kde-format
+#: dialog/searchdialog.cpp:167
+#, fuzzy, kde-format
+#| msgid "%1 item"
+#| msgid_plural "%1 items"
+msgctxt "@label"
 msgid "%1 item"
 msgid_plural "%1 items"
 msgstr[0] "%1 घटक"
@@ -1889,75 +1902,132 @@ msgstr "जोडा (&A)"
 msgid "&Cancel"
 msgstr "रद्द करा (&C)"
 
-#: koeventpopupmenu.cpp:61
-#, kde-format
-msgid "&Print..."
-msgstr "छापा (&P)..."
-
-#: koeventpopupmenu.cpp:64
-#, kde-format
-msgid "Print Previe&w..."
-msgstr "छपाई पूर्वावलोकन (&W)..."
-
-#: koeventpopupmenu.cpp:70
-#, kde-format
-msgctxt "cut this event"
-msgid "C&ut"
-msgstr "कापा (&U)"
+#: koeventpopupmenu.cpp:69
+#, fuzzy, kde-format
+#| msgid "&Show"
+msgctxt "@action:inmenu"
+msgid "&Show"
+msgstr "दर्शवा (&S)"
 
 #: koeventpopupmenu.cpp:73
-#, kde-format
-msgctxt "copy this event"
-msgid "&Copy"
-msgstr "प्रत करा (&C)"
+#, fuzzy, kde-format
+#| msgid "&Edit..."
+msgctxt "@action:inmenu"
+msgid "&Edit..."
+msgstr "संपादन (&E)..."
 
 #: koeventpopupmenu.cpp:77
-#, kde-format
-msgid "&Paste"
-msgstr "चिकटवा (&P)"
-
-#: koeventpopupmenu.cpp:80
-#, kde-format
-msgctxt "delete this incidence"
+#, fuzzy, kde-format
+#| msgid "&Delete"
+msgctxt "@action:inmenu delete this incidence"
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
 
-#: koeventpopupmenu.cpp:85
+#: koeventpopupmenu.cpp:83
+#, fuzzy, kde-format
+#| msgid "&Print..."
+msgctxt "@action:inmenu"
+msgid "&Print..."
+msgstr "छापा (&P)..."
+
+#: koeventpopupmenu.cpp:87
+#, fuzzy, kde-format
+#| msgid "Print Previe&w..."
+msgctxt "@action:inmenu"
+msgid "Print Previe&w..."
+msgstr "छपाई पूर्वावलोकन (&W)..."
+
+#: koeventpopupmenu.cpp:109
+#, fuzzy, kde-format
+#| msgctxt "cut this event"
+#| msgid "C&ut"
+msgctxt "@action:inmenu cut this incidence"
+msgid "C&ut"
+msgstr "कापा (&U)"
+
+#: koeventpopupmenu.cpp:112
+#, fuzzy, kde-format
+#| msgid "&Copy"
+msgctxt "@action:inmenu copy this incidence"
+msgid "&Copy"
+msgstr "प्रत करा (&C)"
+
+#: koeventpopupmenu.cpp:115
+#, fuzzy, kde-format
+#| msgid "&Paste"
+msgctxt "@action:inmenu"
+msgid "&Paste"
+msgstr "चिकटवा (&P)"
+
+#: koeventpopupmenu.cpp:124
 #, fuzzy, kde-format
 #| msgid "Create a new To-do"
-msgid "Create To-do"
+msgctxt "@action:inmenu"
+msgid "Create To-do from Event"
 msgstr "नवीन करण्यासाठी तयार करा"
 
-#: koeventpopupmenu.cpp:91
+#: koeventpopupmenu.cpp:128
 #, fuzzy, kde-format
 #| msgid "Create a new Event"
-msgid "Create Event"
+msgctxt "@action:inmenu"
+msgid "Create Note for Event"
 msgstr "नवीन कार्यक्रम तयार करा"
 
-#: koeventpopupmenu.cpp:97
-#, kde-format
-msgid "Create Note"
-msgstr ""
-
-#: koeventpopupmenu.cpp:103
-#, kde-format
+#: koeventpopupmenu.cpp:137
+#, fuzzy, kde-format
+#| msgid "Togg&le To-do Completed"
+msgctxt "@action:inmenu"
 msgid "Togg&le To-do Completed"
 msgstr "करायच्या कामांचे एकत्रीकरण पूर्ण झाले (&L)"
 
-#: koeventpopupmenu.cpp:106
-#, kde-format
+#: koeventpopupmenu.cpp:141
+#, fuzzy, kde-format
+#| msgid "Create a new Event"
+msgctxt "@action:inmenu"
+msgid "Create Event from To-do"
+msgstr "नवीन कार्यक्रम तयार करा"
+
+#: koeventpopupmenu.cpp:145
+#, fuzzy, kde-format
+#| msgid "Create a new To-do"
+msgctxt "@action:inmenu"
+msgid "Create Note for To-do"
+msgstr "नवीन करण्यासाठी तयार करा"
+
+#: koeventpopupmenu.cpp:154
+#, fuzzy, kde-format
+#| msgid "&Toggle Reminder"
+msgctxt "@action:inmenu"
 msgid "&Toggle Reminder"
 msgstr "स्मरणपत्रांचे एकत्रीकरण (&T)"
 
-#: koeventpopupmenu.cpp:110
-#, kde-format
+#: koeventpopupmenu.cpp:163
+#, fuzzy, kde-format
+#| msgid "&Dissociate From Recurrence..."
+msgctxt "@action:inmenu"
 msgid "&Dissociate From Recurrence..."
 msgstr "पुनारावृत्तीपासून अलग करा..."
 
-#: koeventpopupmenu.cpp:116
-#, kde-format
-msgid "Send as iCalendar..."
+#: koeventpopupmenu.cpp:172
+#, fuzzy, kde-format
+#| msgid "Send as iCalendar..."
+msgctxt "@action:inmenu"
+msgid "Email as iCalendar..."
 msgstr "iCalendar  म्हणून पाठवा..."
+
+#: koeventpopupmenu.cpp:224
+#, fuzzy, kde-format
+#| msgid "&Toggle Reminder"
+msgctxt "@action:inmenu"
+msgid "&Toggle Reminder Off"
+msgstr "स्मरणपत्रांचे एकत्रीकरण (&T)"
+
+#: koeventpopupmenu.cpp:225
+#, fuzzy, kde-format
+#| msgid "&Toggle Reminder"
+msgctxt "@action:inmenu"
+msgid "&Toggle Reminder On"
+msgstr "स्मरणपत्रांचे एकत्रीकरण (&T)"
 
 #: kohelper.cpp:75
 #, kde-format
@@ -5824,6 +5894,14 @@ msgstr "%1"
 msgctxt "4 digit year"
 msgid "%1"
 msgstr "%1"
+
+#~ msgctxt "copy this event"
+#~ msgid "&Copy"
+#~ msgstr "प्रत करा (&C)"
+
+#~ msgctxt "delete this incidence"
+#~ msgid "&Delete"
+#~ msgstr "काढून टाका (&D)"
 
 #, fuzzy
 #~| msgid "Start searching"
