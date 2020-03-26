@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-21 03:16+0100\n"
+"POT-Creation-Date: 2020-03-26 03:28+0100\n"
 "PO-Revision-Date: 2013-03-08 10:11+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -379,7 +379,7 @@ msgstr "नाव"
 msgid "Loading..."
 msgstr "दाखल करत आहे..."
 
-#: core/models/entitytreemodel.cpp:547 core/models/entitytreemodel_p.cpp:1421
+#: core/models/entitytreemodel.cpp:547 core/models/entitytreemodel_p.cpp:1411
 #: widgets/selftestdialog.cpp:633
 #, fuzzy, kde-format
 #| msgctxt "@info:status"
@@ -400,32 +400,32 @@ msgctxt "@title:column Name of a thing"
 msgid "Name"
 msgstr "नाव"
 
-#: core/models/entitytreemodel_p.cpp:1408
+#: core/models/entitytreemodel_p.cpp:1398
 #, kde-format
 msgid "Could not copy item:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1410
+#: core/models/entitytreemodel_p.cpp:1400
 #, kde-format
 msgid "Could not copy collection:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1412
+#: core/models/entitytreemodel_p.cpp:1402
 #, kde-format
 msgid "Could not move item:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1414
+#: core/models/entitytreemodel_p.cpp:1404
 #, kde-format
 msgid "Could not move collection:"
 msgstr ""
 
-#: core/models/entitytreemodel_p.cpp:1416
+#: core/models/entitytreemodel_p.cpp:1406
 #, kde-format
 msgid "Could not link entity:"
 msgstr ""
 
-#: core/models/favoritecollectionsmodel.cpp:411
+#: core/models/favoritecollectionsmodel.cpp:418
 #, kde-format
 msgid "Favorite Folders"
 msgstr ""
@@ -1118,12 +1118,12 @@ msgstr ""
 msgid "Details..."
 msgstr "तपशील..."
 
-#: widgets/manageaccountwidget.cpp:217
+#: widgets/manageaccountwidget.cpp:208
 #, kde-format
 msgid "Do you want to remove account '%1'?"
 msgstr ""
 
-#: widgets/manageaccountwidget.cpp:218
+#: widgets/manageaccountwidget.cpp:209
 #, kde-format
 msgid "Remove account?"
 msgstr ""
@@ -1163,10 +1163,17 @@ msgstr "सुरु करा"
 msgid "Recent Folder"
 msgstr ""
 
-#: widgets/renamefavoritedialog.cpp:54
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameFavoriteDialog)
+#: widgets/renamefavoritedialog.ui:26
 #, kde-format
-msgid "Default Name"
+msgid "Rename Favorite"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/renamefavoritedialog.ui:35
+#, fuzzy, kde-format
+msgid "Name:"
+msgstr "नाव :"
 
 #: widgets/selftestdialog.cpp:73
 #, kde-format
@@ -2227,101 +2234,123 @@ msgctxt "@action:button"
 msgid "Go Online"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:1448
+#: widgets/standardactionmanager.cpp:1451
 #, kde-format
 msgid "Move to This Folder"
 msgstr ""
 
-#: widgets/standardactionmanager.cpp:1448
+#: widgets/standardactionmanager.cpp:1451
 #, kde-format
 msgid "Copy to This Folder"
 msgstr ""
 
-#: widgets/subscriptiondialog.cpp:160
+#. i18n: ectx: property (windowTitle), widget (QDialog, SubscriptionDialog)
+#: widgets/subscriptiondialog.ui:14
 #, kde-format
-msgctxt "@title:window"
 msgid "Local Subscriptions"
 msgstr ""
 
-#: widgets/subscriptiondialog.cpp:190
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/subscriptiondialog.ui:22
 #, fuzzy, kde-format
 msgid "Search:"
 msgstr "शोधा :"
 
-#: widgets/subscriptiondialog.cpp:198
-#, kde-format
-msgid "Subscribed only"
-msgstr ""
-
-#: widgets/subscriptiondialog.cpp:207
-#, kde-format
-msgid "Subscribe"
+#. i18n: ectx: property (text), widget (QCheckBox, subscribedOnlyCheckBox)
+#: widgets/subscriptiondialog.ui:36
+#, fuzzy, kde-format
+#| msgid "Subscribe"
+msgid "&Subscribed only"
 msgstr "सबस्क्राइब"
 
-#: widgets/subscriptiondialog.cpp:211
-#, kde-format
-msgid "Unsubscribe"
-msgstr ""
+#. i18n: ectx: property (text), widget (QPushButton, subscribeButton)
+#: widgets/subscriptiondialog.ui:62
+#, fuzzy, kde-format
+#| msgid "Subscribe"
+msgid "Su&bscribe"
+msgstr "सबस्क्राइब"
 
-#: widgets/tageditwidget.cpp:120
+#. i18n: ectx: property (text), widget (QPushButton, unsubscribeButton)
+#: widgets/subscriptiondialog.ui:69
+#, fuzzy, kde-format
+#| msgid "Subscribe"
+msgid "&Unsubscribe"
+msgstr "सबस्क्राइब"
+
+#: widgets/tageditwidget.cpp:129
 #, kde-format
 msgid "Failed to create a new tag"
 msgstr ""
 
-#: widgets/tageditwidget.cpp:121
+#: widgets/tageditwidget.cpp:130
 #, kde-format
 msgid "An error occurred while creating a new tag"
 msgstr ""
 
-#: widgets/tageditwidget.cpp:176
+#: widgets/tageditwidget.cpp:179
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Do you really want to remove the tag <resource>%1</resource>?"
 msgstr ""
 
-#: widgets/tageditwidget.cpp:178
+#: widgets/tageditwidget.cpp:181
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgctxt "@title"
 msgid "Delete tag"
 msgstr "काढून टाका"
 
-#: widgets/tageditwidget.cpp:216
-#, kde-format
-msgctxt "@label"
-msgid "Create new tag"
-msgstr ""
-
-#: widgets/tageditwidget.cpp:227
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Configure which tags should be applied."
-msgstr ""
-
-#: widgets/tageditwidget.cpp:238
+#: widgets/tageditwidget.cpp:207
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgctxt "@info"
 msgid "Delete tag"
 msgstr "काढून टाका"
 
-#: widgets/tagmanagementdialog.cpp:66 widgets/tagselectiondialog.cpp:68
+#. i18n: ectx: property (windowTitle), widget (QWidget, TagWidget)
+#. i18n: ectx: property (windowTitle), widget (QWidget, TagEditWidget)
+#: widgets/tageditwidget.ui:14 widgets/tagwidget.ui:14
 #, kde-format
-msgctxt "@title:window"
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, selectLabel)
+#: widgets/tageditwidget.ui:32
+#, kde-format
+msgid "Select tags that should be applied."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, newTagButton)
+#: widgets/tageditwidget.ui:57
+#, kde-format
+msgid "Create new tag"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagManagementDialog)
+#: widgets/tagmanagementdialog.ui:14
+#, kde-format
 msgid "Manage Tags"
 msgstr ""
 
-#: widgets/tagwidget.cpp:55
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagSelectionDialog)
+#: widgets/tagselectiondialog.ui:14
 #, kde-format
-msgid "Click to add tags"
+msgid "Select Tags"
 msgstr ""
 
-#: widgets/tagwidget.cpp:66
+#: widgets/tagwidget.cpp:58
 #, kde-format
 msgid "Clear"
 msgstr ""
 
-#: widgets/tagwidget.cpp:88
+#. i18n: ectx: property (placeholderText), widget (Akonadi::TagView, tagView)
+#: widgets/tagwidget.ui:20
+#, kde-format
+msgid "Click to add tags"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, editButton)
+#: widgets/tagwidget.ui:27
 #, kde-format
 msgid "..."
 msgstr ""
