@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-24 02:53+0200\n"
+"POT-Creation-Date: 2020-04-25 02:49+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1321,7 +1321,7 @@ msgid ""
 "\"Color Management\" feature will be disabled until you solve this issue.</p>"
 msgstr ""
 
-#: core/app/main/digikamapp.cpp:600 core/app/views/stack/trashview.cpp:444
+#: core/app/main/digikamapp.cpp:600 core/app/views/stack/trashview.cpp:429
 #, kde-format
 msgid "No item selected (%1 item)"
 msgid_plural "No item selected (%1 items)"
@@ -1600,7 +1600,7 @@ msgid "N&ew..."
 msgstr "नवीन"
 
 #: core/app/main/digikamapp_setup.cpp:277
-#: core/libs/database/utils/ifaces/dio.cpp:547
+#: core/libs/database/utils/ifaces/dio.cpp:571
 #: core/utilities/searchwindow/editablesearchtreeview.cpp:72
 #: core/utilities/setup/metadata/advancedmetadatatab.cpp:344
 #, fuzzy, kde-format
@@ -2892,25 +2892,25 @@ msgstr[1] ""
 msgid "Confirm Restore"
 msgstr "(निवड नाही)"
 
-#: core/app/views/stack/trashview.cpp:315
-#: core/app/views/stack/trashview.cpp:361
+#: core/app/views/stack/trashview.cpp:296
+#: core/app/views/stack/trashview.cpp:346
 #, fuzzy, kde-format
 msgid "Confirm Deletion"
 msgstr "(निवड नाही)"
 
-#: core/app/views/stack/trashview.cpp:316
+#: core/app/views/stack/trashview.cpp:297
 #, kde-format
 msgid "Are you sure you want to delete %1 item permanently?"
 msgid_plural "Are you sure you want to delete %1 items permanently?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: core/app/views/stack/trashview.cpp:362
+#: core/app/views/stack/trashview.cpp:347
 #, kde-format
 msgid "Are you sure you want to delete ALL items permanently?"
 msgstr ""
 
-#: core/app/views/stack/trashview.cpp:451
+#: core/app/views/stack/trashview.cpp:436
 #, fuzzy, kde-format
 msgid "%1/%2 items selected"
 msgstr "%1 घटक निवडला"
@@ -21235,7 +21235,7 @@ msgid ""
 msgstr ""
 
 #: core/libs/album/engine/album.cpp:378
-#: core/libs/database/utils/ifaces/dio.cpp:544
+#: core/libs/database/utils/ifaces/dio.cpp:574
 #, kde-format
 msgid "Trash"
 msgstr ""
@@ -22549,42 +22549,55 @@ msgid ""
 "with an empty database. "
 msgstr ""
 
-#: core/libs/database/utils/ifaces/dio.cpp:526
+#: core/libs/database/utils/ifaces/dio.cpp:553
 #, fuzzy, kde-format
 #| msgid "&Copy Here"
 msgid "Copy Album"
 msgstr "येथे प्रत करा (&C)"
 
-#: core/libs/database/utils/ifaces/dio.cpp:529
+#: core/libs/database/utils/ifaces/dio.cpp:556
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Copy Images"
 msgstr "प्रतिमा"
 
-#: core/libs/database/utils/ifaces/dio.cpp:532
+#: core/libs/database/utils/ifaces/dio.cpp:559
 #, fuzzy, kde-format
 #| msgid "&Copy Here"
 msgid "Copy Files"
 msgstr "येथे प्रत करा (&C)"
 
-#: core/libs/database/utils/ifaces/dio.cpp:535
+#: core/libs/database/utils/ifaces/dio.cpp:562
 #, fuzzy, kde-format
 #| msgid "Move up"
 msgid "Move Album"
 msgstr "वर हलवा"
 
-#: core/libs/database/utils/ifaces/dio.cpp:538
+#: core/libs/database/utils/ifaces/dio.cpp:565
 #, fuzzy, kde-format
 #| msgid "Images"
 msgid "Move Images"
 msgstr "प्रतिमा"
 
-#: core/libs/database/utils/ifaces/dio.cpp:541
+#: core/libs/database/utils/ifaces/dio.cpp:568
 #, fuzzy, kde-format
 #| msgctxt "@action:button"
 #| msgid "Save Changes"
 msgid "Move Files"
 msgstr "बदल साठवा"
+
+#: core/libs/database/utils/ifaces/dio.cpp:577
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Pluralized"
+#| msgid "Move to Trash"
+#| msgid_plural "Move %1 Files to Trash"
+msgid "Restore Trash"
+msgstr "कचरापेटीत टाका"
+
+#: core/libs/database/utils/ifaces/dio.cpp:580
+#, kde-format
+msgid "Empty Trash"
+msgstr ""
 
 #: core/libs/database/utils/scan/scancontroller.cpp:128
 #, kde-format
