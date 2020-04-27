@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-26 03:32+0200\n"
+"POT-Creation-Date: 2020-04-27 03:30+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1626,6 +1626,8 @@ msgid "Import Calendar Files"
 msgstr "फाईल प्ले करा"
 
 #: functions.cpp:787 functions.cpp:839
+#: resources/dirresourceimportdialog.cpp:264
+#: resources/singlefileresourceconfigdialog.cpp:52
 #, fuzzy, kde-format
 #| msgctxt "@option"
 #| msgid "Play File"
@@ -5373,6 +5375,7 @@ msgid "Invalid collection"
 msgstr ""
 
 #: resources/akonadicalendarupdater.cpp:141
+#: resources/fileresourcecalendarupdater.cpp:127
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Failed to update format of calendar <resource>%1</resource>"
@@ -5423,6 +5426,7 @@ msgid ""
 msgstr ""
 
 #: resources/akonadiresourcemigrator.cpp:269
+#: resources/fileresourcemigrator.cpp:433
 #: resources/resourcedatamodelbase.cpp:88
 #, fuzzy, kde-format
 #| msgctxt "@option:check Alarm type"
@@ -5432,6 +5436,7 @@ msgid "Active Alarms"
 msgstr "सक्रिय"
 
 #: resources/akonadiresourcemigrator.cpp:277
+#: resources/fileresourcemigrator.cpp:435
 #: resources/resourcedatamodelbase.cpp:90
 #, kde-format
 msgctxt "@info"
@@ -5439,6 +5444,7 @@ msgid "Archived Alarms"
 msgstr ""
 
 #: resources/akonadiresourcemigrator.cpp:285
+#: resources/fileresourcemigrator.cpp:437
 #: resources/resourcedatamodelbase.cpp:92
 #, fuzzy, kde-format
 #| msgctxt "@action"
@@ -5448,6 +5454,7 @@ msgid "Alarm Templates"
 msgstr "नमूने (&T)..."
 
 #: resources/akonadiresourcemigrator.cpp:323
+#: resources/fileresourcemigrator.cpp:457
 #, kde-kuit-format
 msgctxt "@info/plain"
 msgid "Failed to create default calendar <resource>%1</resource>"
@@ -5462,6 +5469,7 @@ msgid ""
 msgstr ""
 
 #: resources/akonadiresourcemigrator.cpp:327
+#: resources/fileresourcemigrator.cpp:458
 #, fuzzy, kde-format
 #| msgctxt "@info/plain File path or URL"
 #| msgid "Location: %1"
@@ -5470,6 +5478,7 @@ msgid "Location: %1"
 msgstr "स्थान : %1"
 
 #: resources/akonadiresourcemigrator.cpp:328
+#: resources/fileresourcemigrator.cpp:459
 #, kde-kuit-format
 msgctxt "@info"
 msgid "<para>%1</para><para>%2</para>"
@@ -5523,6 +5532,254 @@ msgid ""
 "with an older version of <application>KAlarm</application> (e.g. on another "
 "computer). If you do so, the calendar may become unusable there.</warning></"
 "para><para>Do you wish to update the calendar?</para>"
+msgstr ""
+
+#: resources/dirresourceimportdialog.cpp:47
+#, kde-format
+msgid "Import Directory Resource"
+msgstr ""
+
+#: resources/dirresourceimportdialog.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@option"
+#| msgid "Play File"
+msgid "Import Calendar Directory Resource"
+msgstr "फाईल प्ले करा"
+
+#: resources/dirresourceimportdialog.cpp:59
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Import Active Alarms"
+msgstr "सक्रिय"
+
+#: resources/dirresourceimportdialog.cpp:68
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Import Archived Alarms"
+msgstr "सक्रिय"
+
+#: resources/dirresourceimportdialog.cpp:77
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Import Alarm Templates"
+msgstr "नमूने (&T)..."
+
+#: resources/dirresourceimportdialog.cpp:204
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Active alarms"
+msgstr "सक्रिय"
+
+#: resources/dirresourceimportdialog.cpp:206
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Archived alarms"
+msgstr "सक्रिय"
+
+#: resources/dirresourceimportdialog.cpp:208
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Alarm templates"
+msgstr "नमूने (&T)..."
+
+#: resources/dirresourceimportdialog.cpp:410
+#: resources/singlefileresourceconfigdialog.cpp:222
+#, kde-format
+msgctxt "@info:status"
+msgid "Checking file information..."
+msgstr ""
+
+#: resources/dirresourceimportdialog.cpp:418
+#: resources/dirresourceimportdialog.cpp:466
+#, kde-format
+msgctxt "@info:status"
+msgid "Error! File already exists."
+msgstr ""
+
+#: resources/dirresourceimportdialog.cpp:424
+#: resources/dirresourceimportdialog.cpp:475
+#: resources/dirresourceimportdialog.cpp:483
+#, kde-format
+msgctxt "@info:status"
+msgid "Error! Cannot create file (directory does not exist)."
+msgstr ""
+
+#: resources/dirresourceimportdialog.cpp:429
+#: resources/dirresourceimportdialog.cpp:477
+#: resources/dirresourceimportdialog.cpp:485
+#, kde-format
+msgctxt "@info:status"
+msgid "Error! Cannot create file (directory is not writable)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, warning1)
+#: resources/dirresourceimportdialog_intro.ui:12
+#, kde-format
+msgid ""
+"KAlarm no longer supports calendar directory resources. In order to continue "
+"using the contents of the directory resource below, you must import it into "
+"a KAlarm calendar file resource."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, warning2)
+#: resources/dirresourceimportdialog_intro.ui:22
+#, kde-format
+msgid ""
+"KAlarm no longer supports calendar directory resources. In order to continue "
+"using the contents of the directory resource below, you must import each of "
+"its alarm types into separate KAlarm calendar file resources."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: resources/dirresourceimportdialog_intro.ui:29
+#: resources/dirresourceimportdialog_type.ui:95
+#, fuzzy, kde-format
+#| msgid "Display name."
+msgid "Display name:"
+msgstr "दर्शनीय नाव."
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#: resources/dirresourceimportdialog_intro.ui:43
+#, fuzzy, kde-format
+#| msgctxt "@option"
+#| msgid "Play File"
+msgid "Calendar directory:"
+msgstr "फाईल प्ले करा"
+
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#: resources/dirresourceimportdialog_intro.ui:57
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Alarm types:"
+msgstr "नमूने (&T)..."
+
+#. i18n: ectx: property (text), widget (QLabel, note)
+#: resources/dirresourceimportdialog_intro.ui:74
+#, kde-format
+msgid ""
+"If you prefer, you can import this calendar directory resource later, by "
+"using the Import Alarms menu option to import the calendar files contained "
+"within it."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mergeRadio)
+#: resources/dirresourceimportdialog_type.ui:9
+#, kde-format
+msgid "Import into existing calendar file resource"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, mergeResource)
+#: resources/dirresourceimportdialog_type.ui:22
+#, kde-format
+msgid "Select the resource to import the directory resource's alarms into."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, newRadio)
+#: resources/dirresourceimportdialog_type.ui:45
+#, fuzzy, kde-format
+#| msgctxt "@option"
+#| msgid "Play File"
+msgid "Import into new calendar file resource"
+msgstr "फाईल प्ले करा"
+
+#. i18n: ectx: property (text), widget (QLabel, pathLabel)
+#: resources/dirresourceimportdialog_type.ui:60
+#: resources/singlefileresourceconfigdialog.ui:25
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm action = file display"
+#| msgid "File"
+msgid "Filename:"
+msgstr "फाईल"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, pathRequester)
+#: resources/dirresourceimportdialog_type.ui:70
+#, kde-format
+msgid ""
+"Select the file to contain this resource. The file must not already exist."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KUrlRequester, pathRequester)
+#: resources/dirresourceimportdialog_type.ui:75
+#, kde-format
+msgid ""
+"Select the file to contain this resource.\n"
+"The file must not already exist.\n"
+"Note that if the URL of a remote file is specified, monitoring for file "
+"changes will not work."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, statusLabel)
+#: resources/dirresourceimportdialog_type.ui:88
+#: resources/singlefileresourceconfigdialog.ui:49
+#, kde-format
+msgid "Status:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KLineEdit, nameText)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, nameText)
+#. i18n: ectx: property (html), widget (QTextEdit, nameDescription)
+#: resources/dirresourceimportdialog_type.ui:105
+#: resources/dirresourceimportdialog_type.ui:108
+#: resources/singlefileresourceconfigdialog.ui:218
+#, kde-format
+msgid "Enter the name used to identify this resource in displays."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, noRadio)
+#: resources/dirresourceimportdialog_type.ui:133
+#, kde-format
+msgid "Do not import"
+msgstr ""
+
+#: resources/fileresource.cpp:36
+#, kde-format
+msgid "Error loading calendar '%1'."
+msgstr ""
+
+#: resources/fileresource.cpp:37
+#, kde-format
+msgid "Error saving calendar '%1'."
+msgstr ""
+
+#: resources/fileresource.cpp:313 resources/fileresource.cpp:430
+#, kde-format
+msgid "Resource is not configured."
+msgstr ""
+
+#: resources/fileresource.cpp:437
+#, kde-format
+msgid "Resource is read-only."
+msgstr ""
+
+#: resources/fileresource.cpp:442
+#, kde-format
+msgid "Calendar file is in wrong format: '%1'."
+msgstr ""
+
+#: resources/fileresourcecreator.cpp:66
+#, kde-format
+msgctxt "@title:window"
+msgid "Calendar Configuration"
+msgstr ""
+
+#: resources/fileresourcecreator.cpp:67
+#, kde-format
+msgctxt "@info"
+msgid "Select storage type of new calendar:"
+msgstr ""
+
+#: resources/fileresourcecreator.cpp:149
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Error!  The file is already used by an existing resource."
 msgstr ""
 
 #: resources/resourcedatamodelbase.cpp:108
@@ -5822,6 +6079,181 @@ msgstr "URL"
 msgctxt "@info Directory in filesystem"
 msgid "Directory"
 msgstr "संचयीका"
+
+#: resources/singlefileresource.cpp:56
+#, kde-format
+msgid "Calendar '%1' has been reloaded."
+msgstr ""
+
+#: resources/singlefileresource.cpp:191 resources/singlefileresource.cpp:347
+#, kde-format
+msgid "A previous load is still in progress."
+msgstr ""
+
+#: resources/singlefileresource.cpp:197 resources/singlefileresource.cpp:353
+#, kde-format
+msgid "A previous save is still in progress."
+msgstr ""
+
+#: resources/singlefileresource.cpp:246
+#, kde-format
+msgid "Could not create calendar file '%1'."
+msgstr ""
+
+#: resources/singlefileresource.cpp:584
+#, kde-format
+msgid "Could not load file '%1'."
+msgstr ""
+
+#: resources/singlefileresource.cpp:616
+#, fuzzy, kde-format
+#| msgctxt "@option"
+#| msgid "Play File"
+msgid "Calendar not open."
+msgstr "फाईल प्ले करा"
+
+#: resources/singlefileresource.cpp:629
+#, kde-format
+msgid "Could not save file '%1'."
+msgstr ""
+
+#: resources/singlefileresource.cpp:720
+#, kde-format
+msgid "Could not load file '%1'. (%2)"
+msgstr ""
+
+#: resources/singlefileresource.cpp:760
+#, kde-format
+msgid "Could not save file '%1'. (%2)"
+msgstr ""
+
+#: resources/singlefileresourceconfigdialog.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Configure"
+msgid "Configure Calendar"
+msgstr "संयोजीत करा"
+
+#. i18n: ectx: property (title), widget (QGroupBox, pathGroupBox)
+#: resources/singlefileresourceconfigdialog.ui:17
+#, fuzzy, kde-format
+#| msgctxt "@option"
+#| msgid "Play File"
+msgid "Calendar File"
+msgstr "फाईल प्ले करा"
+
+#. i18n: ectx: property (html), widget (QTextEdit, pathDescription)
+#: resources/singlefileresourceconfigdialog.ui:64
+#, kde-format
+msgid ""
+"Select the file whose contents should be represented by this resource. If "
+"the file does not exist, it will be created. The URL of a remote file can "
+"also be specified, but note that monitoring for file changes will not work "
+"in this case."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, alarmTypeGroupBox)
+#: resources/singlefileresourceconfigdialog.ui:74
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Alarm Type"
+msgstr "नमूने (&T)..."
+
+#. i18n: ectx: property (text), widget (QRadioButton, activeRadio)
+#: resources/singlefileresourceconfigdialog.ui:82
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Acti&ve Alarms"
+msgstr "सक्रिय"
+
+#. i18n: ectx: property (text), widget (QRadioButton, archivedRadio)
+#. i18n: ectx: property (text), widget (QLineEdit, archivedAlarmsText)
+#: resources/singlefileresourceconfigdialog.ui:95
+#: resources/singlefileresourceconfigdialog.ui:164
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Archived Alarms"
+msgstr "सक्रिय"
+
+#. i18n: ectx: property (text), widget (QRadioButton, templateRadio)
+#: resources/singlefileresourceconfigdialog.ui:108
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Alarm &Templates"
+msgstr "नमूने (&T)..."
+
+#. i18n: ectx: property (html), widget (QTextEdit, alarmTypeDescription)
+#: resources/singlefileresourceconfigdialog.ui:129
+#, kde-format
+msgid "Select which alarm type this resource should contain."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, alarmTypeLabel)
+#: resources/singlefileresourceconfigdialog.ui:138
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Alarm type:"
+msgstr "नमूने (&T)..."
+
+#. i18n: ectx: property (text), widget (QLineEdit, activeAlarmsText)
+#: resources/singlefileresourceconfigdialog.ui:151
+#, fuzzy, kde-format
+#| msgctxt "@option:check Alarm type"
+#| msgid "Active"
+msgid "Active Alarms"
+msgstr "सक्रिय"
+
+#. i18n: ectx: property (text), widget (QLineEdit, templateAlarmsText)
+#: resources/singlefileresourceconfigdialog.ui:177
+#, fuzzy, kde-format
+#| msgctxt "@action"
+#| msgid "&Templates..."
+msgid "Alarm Templates"
+msgstr "नमूने (&T)..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, nameGroupBox)
+#: resources/singlefileresourceconfigdialog.ui:189
+#, fuzzy, kde-format
+#| msgid "Display name."
+msgid "Display Name"
+msgstr "दर्शनीय नाव."
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#: resources/singlefileresourceconfigdialog.ui:197
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox Calendar name"
+#| msgid "Name:"
+msgid "&Name:"
+msgstr "नाव :"
+
+#. i18n: ectx: property (title), widget (QGroupBox, readOnlyGroupBox)
+#: resources/singlefileresourceconfigdialog.ui:228
+#, kde-format
+msgid "Access Rights"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, readOnlyCheckbox)
+#: resources/singlefileresourceconfigdialog.ui:234
+#, fuzzy, kde-format
+#| msgctxt "@info/plain"
+#| msgid "Read-only"
+msgid "Read only"
+msgstr "फक्त वाचण्यासाठी"
+
+#. i18n: ectx: property (html), widget (QTextEdit, readOnlyDescription)
+#: resources/singlefileresourceconfigdialog.ui:250
+#, kde-format
+msgid ""
+"If read-only mode is enabled, no changes will be written to the file "
+"selected above. Read-only mode will be automatically enabled if you do not "
+"have write access to the file or the file is on a remote server that does "
+"not support write access."
+msgstr ""
 
 #: resourceselector.cpp:64
 #, kde-format
@@ -6811,10 +7243,6 @@ msgstr ""
 #~ msgctxt "@title:group"
 #~ msgid "General Settings"
 #~ msgstr "सामान्य संयोजना"
-
-#~ msgctxt "@label:textbox Calendar name"
-#~ msgid "Name:"
-#~ msgstr "नाव :"
 
 #~ msgctxt "@option:check"
 #~ msgid "Read-only"
