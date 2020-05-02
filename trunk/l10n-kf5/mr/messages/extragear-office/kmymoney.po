@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-26 02:51+0200\n"
+"POT-Creation-Date: 2020-05-02 02:46+0200\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1006,17 +1006,10 @@ msgid "ID"
 msgstr "Id"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, m_currencyList)
-#. i18n: ectx: property (text), widget (QLabel, labelInv_symbolCol)
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: kmymoney/dialogs/kavailablecurrencydlg.ui:52
 #: kmymoney/dialogs/kcurrencyeditdlg.ui:52
-#: kmymoney/dialogs/settings/ksettingsonlinequotes.cpp:84
-#: kmymoney/models/equitiesmodel.cpp:354
-#: kmymoney/models/securitiesmodel.cpp:275
-#: kmymoney/plugins/csv/import/investmentwizardpage.cpp:69
-#: kmymoney/plugins/csv/import/investmentwizardpage.ui:308
-#: kmymoney/plugins/csv/import/securitiesdlg.ui:77
 #, kde-format
+msgctxt "@title currency symbol column"
 msgid "Symbol"
 msgstr ""
 
@@ -2223,15 +2216,16 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kmymoney/dialogs/kequitypriceupdatedlg.ui:59
-#: kmymoney/widgets/kmymoneycashflowcombo.cpp:64
-#: kmymoney/widgets/transaction_p.h:82 kmymoney/widgets/transaction_p.h:84
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "From"
+msgctxt "@label:chooser Date"
 msgid "From"
 msgstr "पासून"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: kmymoney/dialogs/kequitypriceupdatedlg.ui:69
 #, fuzzy, kde-format
+msgctxt "@label:chooser Date"
 msgid "To"
 msgstr "पर्यंत :"
 
@@ -4198,25 +4192,24 @@ msgstr "चिन्ह"
 msgid "Plugins"
 msgstr "प्लगइन्स"
 
+#: kmymoney/dialogs/settings/ksettingsonlinequotes.cpp:84
+#, kde-format
+msgctxt "@item:inlistbox Stock"
+msgid "Symbol"
+msgstr ""
+
 #: kmymoney/dialogs/settings/ksettingsonlinequotes.cpp:85
 #, fuzzy, kde-format
 #| msgid "Identification"
+msgctxt "@item:inlistbox Stock"
 msgid "Identification number"
 msgstr "ओळख"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, backendsList)
-#. i18n: ectx: property (text), widget (QTreeWidget, accountsList)
-#. i18n: ectx: property (text), widget (QLabel, labelInv_nameCol)
-#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: kmymoney/dialogs/settings/ksettingsonlinequotes.cpp:86
-#: kmymoney/plugins/csv/import/investmentwizardpage.cpp:70
-#: kmymoney/plugins/csv/import/investmentwizardpage.ui:332
-#: kmymoney/plugins/csv/import/securitiesdlg.ui:82
-#: kmymoney/plugins/weboob/dialogs/mapaccountwizard.ui:28
-#: kmymoney/plugins/weboob/dialogs/mapaccountwizard.ui:68
 #, fuzzy, kde-format
 #| msgctxt "@title header of the currency name column"
 #| msgid "Name"
+msgctxt "@item:inlistbox Stock"
 msgid "Name"
 msgstr "नाव"
 
@@ -6662,6 +6655,16 @@ msgstr ""
 #: kmymoney/models/costcentermodel.cpp:91
 #, kde-format
 msgid "Cost center"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: kmymoney/models/equitiesmodel.cpp:354
+#: kmymoney/models/securitiesmodel.cpp:275
+#: kmymoney/plugins/csv/import/investmentwizardpage.cpp:69
+#: kmymoney/plugins/csv/import/securitiesdlg.ui:77
+#, kde-format
+msgctxt "@title stock symbol column"
+msgid "Symbol"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QTreeWidget, m_editAmounts)
@@ -9754,6 +9757,21 @@ msgstr ""
 msgid "Fee"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QTreeWidget, backendsList)
+#. i18n: ectx: property (text), widget (QTreeWidget, accountsList)
+#. i18n: ectx: property (text), widget (QLabel, labelInv_nameCol)
+#. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
+#: kmymoney/plugins/csv/import/investmentwizardpage.cpp:70
+#: kmymoney/plugins/csv/import/investmentwizardpage.ui:332
+#: kmymoney/plugins/csv/import/securitiesdlg.ui:82
+#: kmymoney/plugins/weboob/dialogs/mapaccountwizard.ui:28
+#: kmymoney/plugins/weboob/dialogs/mapaccountwizard.ui:68
+#, fuzzy, kde-format
+#| msgctxt "@title header of the currency name column"
+#| msgid "Name"
+msgid "Name"
+msgstr "नाव"
+
 #: kmymoney/plugins/csv/import/investmentwizardpage.cpp:186
 #, kde-format
 msgid ""
@@ -9884,6 +9902,13 @@ msgctxt ""
 "noun, conversion fraction/multiplier to use to make compatible the csv "
 "pricing with KMM pricing."
 msgid "Price Fraction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelInv_symbolCol)
+#: kmymoney/plugins/csv/import/investmentwizardpage.ui:308
+#, kde-format
+msgctxt "@label:listbox stock symbol"
+msgid "Symbol"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, m_nameCol)
@@ -18001,9 +18026,13 @@ msgid "To Minimum Balance / Maximum Credit"
 msgstr ""
 
 #: kmymoney/views/khomeview_p.h:1048
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Date Format"
+msgctxt "Forecast days"
 msgid "%1 Day Forecast"
-msgstr ""
+msgid_plural "%1 Day Forecast"
+msgstr[0] "दिनांक स्वरूप"
+msgstr[1] "दिनांक स्वरूप"
 
 #: kmymoney/views/khomeview_p.h:1057
 #, kde-format
@@ -19183,8 +19212,6 @@ msgstr ""
 #: kmymoney/views/newspliteditor.ui:144
 #: kmymoney/views/newtransactioneditor.ui:107
 #: kmymoney/views/newtransactionform.ui:40
-#: kmymoney/widgets/kmymoneycashflowcombo.cpp:63
-#: kmymoney/widgets/transaction_p.h:82 kmymoney/widgets/transaction_p.h:84
 #, kde-format
 msgid "Pay to"
 msgstr ""
@@ -19618,6 +19645,21 @@ msgstr "मिळालेले :"
 msgctxt "Activity for expense categories"
 msgid "Paid"
 msgstr ""
+
+#: kmymoney/widgets/kmymoneycashflowcombo.cpp:63
+#: kmymoney/widgets/transaction_p.h:82 kmymoney/widgets/transaction_p.h:84
+#, kde-format
+msgctxt "Payee"
+msgid "Pay to"
+msgstr ""
+
+#: kmymoney/widgets/kmymoneycashflowcombo.cpp:64
+#: kmymoney/widgets/transaction_p.h:82 kmymoney/widgets/transaction_p.h:84
+#, fuzzy, kde-format
+#| msgid "From"
+msgctxt "Payer"
+msgid "From"
+msgstr "पासून"
 
 #: kmymoney/widgets/kmymoneydateinput.cpp:265
 #, fuzzy, kde-format
