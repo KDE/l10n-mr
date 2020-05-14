@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_folderview\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-05-20 09:38+0200\n"
+"POT-Creation-Date: 2020-01-31 08:33+0100\n"
 "PO-Revision-Date: 2013-03-28 16:09+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -29,8 +29,8 @@ msgid "Location"
 msgstr "ठिकाण"
 
 #: package/contents/config/config.qml:36
-#: package/contents/ui/ConfigIcons.qml:299
-#: package/contents/ui/FolderViewLayer.qml:409
+#: package/contents/ui/ConfigIcons.qml:220
+#: package/contents/ui/FolderViewLayer.qml:412
 msgid "Icons"
 msgstr "चिन्ह"
 
@@ -43,81 +43,77 @@ msgstr "चिन्ह"
 msgid "Filter"
 msgstr "गाळणी"
 
-#: package/contents/config/config.qml:50
-msgid "Tweaks"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:105
-msgid "Resize"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:127
-msgid "Rotate"
-msgstr ""
-
-#: package/contents/ui/AppletHandle.qml:284
-msgid "Remove"
-msgstr ""
-
 #: package/contents/ui/BackButtonItem.qml:116
 msgid "Back"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:84
-msgid "Show All Files"
-msgstr "सर्व फाईल दर्शवा"
+#: package/contents/ui/ConfigFilter.qml:76
+#, fuzzy
+#| msgid "File types:"
+msgid "Files:"
+msgstr "फाईल प्रकार:"
 
-#: package/contents/ui/ConfigFilter.qml:84
-msgid "Show Files Matching"
+#: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Show a place:"
+msgid "Show all"
+msgstr "स्थान दर्शवा :"
+
+#: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Show Files Matching"
+msgid "Show matching"
 msgstr "जुळलेल्या फाईल्स दर्शवा"
 
-#: package/contents/ui/ConfigFilter.qml:84
-msgid "Hide Files Matching"
+#: package/contents/ui/ConfigFilter.qml:77
+#, fuzzy
+#| msgid "Hide Files Matching"
+msgid "Hide matching"
 msgstr "जुळलेल्या फाईल्स लपवा"
 
-#: package/contents/ui/ConfigFilter.qml:90
+#: package/contents/ui/ConfigFilter.qml:82
 msgid "File name pattern:"
 msgstr "फाईल नाव रचना:"
 
-#: package/contents/ui/ConfigFilter.qml:104
+#: package/contents/ui/ConfigFilter.qml:88
 msgid "File types:"
 msgstr "फाईल प्रकार:"
 
-#: package/contents/ui/ConfigFilter.qml:114
+#: package/contents/ui/ConfigFilter.qml:90
 #, fuzzy
 #| msgid "Search file type"
-msgid "Search file type..."
+msgid "Search..."
 msgstr "फाईल प्रकार शोधा"
 
-#: package/contents/ui/ConfigFilter.qml:211
+#: package/contents/ui/ConfigFilter.qml:188
 #, fuzzy
 #| msgid "File types:"
 msgid "File type"
 msgstr "फाईल प्रकार:"
 
-#: package/contents/ui/ConfigFilter.qml:219
+#: package/contents/ui/ConfigFilter.qml:197
 msgid "Description"
 msgstr ""
 
-#: package/contents/ui/ConfigFilter.qml:237
+#: package/contents/ui/ConfigFilter.qml:211
 msgid "Select All"
 msgstr "सर्व निवडा"
 
-#: package/contents/ui/ConfigFilter.qml:248
+#: package/contents/ui/ConfigFilter.qml:222
 msgid "Deselect All"
 msgstr "सर्व निवडू नका"
 
-#: package/contents/ui/ConfigIcons.qml:72
+#: package/contents/ui/ConfigIcons.qml:75
 msgid "Panel button:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:83
+#: package/contents/ui/ConfigIcons.qml:81
 #, fuzzy
 #| msgid "Custom title"
 msgid "Use a custom icon"
 msgstr "ऐच्छिक शिर्षक"
 
-#: package/contents/ui/ConfigIcons.qml:125
+#: package/contents/ui/ConfigIcons.qml:115
 #, fuzzy
 #| msgctxt "@title:menu in Copy To or Move To submenu"
 #| msgid "Browse..."
@@ -125,269 +121,272 @@ msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose..."
 msgstr "संचार करा..."
 
-#: package/contents/ui/ConfigIcons.qml:131
+#: package/contents/ui/ConfigIcons.qml:121
 #, fuzzy
 #| msgid "Sort Icons"
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "चिन्ह क्रमवारीत लावा"
 
-#: package/contents/ui/ConfigIcons.qml:151
+#: package/contents/ui/ConfigIcons.qml:140
 #, fuzzy
 #| msgid "Arrangement:"
 msgid "Arrangement:"
 msgstr "आयोजन :"
 
-#: package/contents/ui/ConfigIcons.qml:158
-#, fuzzy
-#| msgid "Arrange icons:"
-msgid "Arrange in"
-msgstr "चिन्ह आयोजीत करा:"
-
-#: package/contents/ui/ConfigIcons.qml:168
-#: plugins/folder/viewpropertiesmenu.cpp:34
+#: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:76
 #, kde-format
 msgid "Rows"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:168
-#: plugins/folder/viewpropertiesmenu.cpp:38
+#: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:80
 #, kde-format
 msgid "Columns"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:176
-#: plugins/folder/viewpropertiesmenu.cpp:43
-#, fuzzy, kde-format
+#: package/contents/ui/ConfigIcons.qml:149
+#, fuzzy
 #| msgid "Align to grid:"
-msgid "Align"
+msgid "Align left"
 msgstr "ग्रीडशी संलग्न करा :"
 
-#: package/contents/ui/ConfigIcons.qml:186
-#: plugins/folder/viewpropertiesmenu.cpp:46
-#, kde-format
-msgid "Left"
-msgstr ""
+#: package/contents/ui/ConfigIcons.qml:149
+#, fuzzy
+#| msgid "Align to grid:"
+msgid "Align right"
+msgstr "ग्रीडशी संलग्न करा :"
 
-#: package/contents/ui/ConfigIcons.qml:186
-#: plugins/folder/viewpropertiesmenu.cpp:50
-#, kde-format
-msgid "Right"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:198
+#: package/contents/ui/ConfigIcons.qml:164
 #, fuzzy
 #| msgid "Lock in place:"
 msgid "Lock in place"
 msgstr "जागेत कुलूपबंद करा :"
 
-#: package/contents/ui/ConfigIcons.qml:213
+#: package/contents/ui/ConfigIcons.qml:177
 #, fuzzy
 #| msgid "Sorting:"
 msgid "Sorting:"
 msgstr "अनुक्रमीत करत आहे :"
 
-#: package/contents/ui/ConfigIcons.qml:220
-#, fuzzy
-#| msgid "Sorting:"
-msgid "Sort by"
-msgstr "अनुक्रमीत करत आहे :"
+#: package/contents/ui/ConfigIcons.qml:185
+msgid "Manual"
+msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:236
-#: plugins/folder/viewpropertiesmenu.cpp:58
-#, fuzzy, kde-format
-#| msgctxt "Sort Icons"
-#| msgid "Unsorted"
-msgid "Unsorted"
-msgstr "विनाक्रम"
-
-#: package/contents/ui/ConfigIcons.qml:236
-#: plugins/folder/viewpropertiesmenu.cpp:62
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:38
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Name"
 msgid "Name"
 msgstr "नावानुरूप"
 
-#: package/contents/ui/ConfigIcons.qml:236
-#: package/contents/ui/ConfigIcons.qml:309
-#: plugins/folder/viewpropertiesmenu.cpp:66
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:42
 #, fuzzy, kde-format
 #| msgid "Size:"
 msgid "Size"
 msgstr "आकार :"
 
-#: package/contents/ui/ConfigIcons.qml:236
-#: plugins/folder/viewpropertiesmenu.cpp:70
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:46
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Type"
 msgid "Type"
 msgstr "प्रकारानुरूप"
 
-#: package/contents/ui/ConfigIcons.qml:236
-#: plugins/folder/viewpropertiesmenu.cpp:74
+#: package/contents/ui/ConfigIcons.qml:185
+#: plugins/folder/viewpropertiesmenu.cpp:50
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "By Date"
 msgid "Date"
 msgstr "दिनांक नुरूप"
 
-#: package/contents/ui/ConfigIcons.qml:251
-#: plugins/folder/viewpropertiesmenu.cpp:79
+#: package/contents/ui/ConfigIcons.qml:196
+#: plugins/folder/viewpropertiesmenu.cpp:55
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Descending"
 msgid "Descending"
 msgstr "उतरता क्रम"
 
-#: package/contents/ui/ConfigIcons.qml:263
+#: package/contents/ui/ConfigIcons.qml:204
 #, fuzzy
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders first"
 msgstr "संचयीका सर्वप्रथम"
 
-#: package/contents/ui/ConfigIcons.qml:278
-msgid "Appearance:"
-msgstr ""
-
-#: package/contents/ui/ConfigIcons.qml:287
+#: package/contents/ui/ConfigIcons.qml:218
 msgctxt "whether to use icon or list view"
-msgid "View mode"
+msgid "View mode:"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:299
+#: package/contents/ui/ConfigIcons.qml:220
 msgid "List"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:334
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: package/contents/ui/ConfigIcons.qml:231
+#, fuzzy
+#| msgid "Icon size:"
+msgid "Icon size:"
+msgstr "चिन्ह आकार:"
+
+#: package/contents/ui/ConfigIcons.qml:246
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Small"
 msgstr "लहान"
 
-#: package/contents/ui/ConfigIcons.qml:344
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: package/contents/ui/ConfigIcons.qml:255
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Large"
 msgstr "मोठे"
 
-#: package/contents/ui/ConfigIcons.qml:354
+#: package/contents/ui/ConfigIcons.qml:264
+#, fuzzy
+#| msgid "Label:"
+msgid "Label width:"
+msgstr "लेबल:"
+
+#: package/contents/ui/ConfigIcons.qml:267
+msgid "Narrow"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:268
+#: plugins/folder/viewpropertiesmenu.cpp:64
+#, kde-format
+msgid "Medium"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:269
+msgid "Wide"
+msgstr ""
+
+#: package/contents/ui/ConfigIcons.qml:277
 #, fuzzy
 #| msgid " lines"
-msgid "Text lines"
+msgid "Text lines:"
 msgstr " ओळी"
 
-#: package/contents/ui/ConfigIcons.qml:382
+#: package/contents/ui/ConfigIcons.qml:293
 #, fuzzy
 #| msgctxt "On a camera"
 #| msgid "Aperture:"
 msgid "Features:"
 msgstr "एपेर्चर :"
 
-#: package/contents/ui/ConfigIcons.qml:391
-msgid "Tool tips"
+#: package/contents/ui/ConfigIcons.qml:295
+msgid "Tooltips"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:403
+#: package/contents/ui/ConfigIcons.qml:302
 #, fuzzy
 #| msgid "Select All"
 msgid "Selection markers"
 msgstr "सर्व निवडा"
 
-#: package/contents/ui/ConfigIcons.qml:415
+#: package/contents/ui/ConfigIcons.qml:309
 msgid "Folder preview popups"
 msgstr ""
 
-#: package/contents/ui/ConfigIcons.qml:425
+#: package/contents/ui/ConfigIcons.qml:315
 #, fuzzy
 #| msgid "Previews:"
 msgid "Preview thumbnails"
 msgstr "पूर्वावलोकन :"
 
-#: package/contents/ui/ConfigIcons.qml:434
-msgid "More Preview Options..."
+#: package/contents/ui/ConfigIcons.qml:323
+#, fuzzy
+#| msgid "More Preview Options..."
+msgid "Configure Preview Plugins..."
 msgstr "जादा पूर्वावलोकन पर्याय..."
 
 #: package/contents/ui/ConfigLocation.qml:93
-#, fuzzy
-#| msgctxt ""
-#| "Title of the page that lets the user choose which location should the "
-#| "folderview show"
-#| msgid "Location"
-msgid "Location:"
-msgstr "ठिकाण"
+msgid "Show:"
+msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:101
-msgid "Show the Desktop folder"
+#: package/contents/ui/ConfigLocation.qml:95
+#, fuzzy
+#| msgid "Show the Desktop folder"
+msgid "Desktop folder"
 msgstr "डेस्कटॉप संचयीका दर्शवा"
 
-#: package/contents/ui/ConfigLocation.qml:113
+#: package/contents/ui/ConfigLocation.qml:102
 #, fuzzy
 #| msgid "Show the files related to the current activity"
-msgid "Show files linked to the current activity"
+msgid "Files linked to the current activity"
 msgstr "वर्तमान कार्यपध्दतीशी संबंधित फाईल्स दर्शवा"
 
-#: package/contents/ui/ConfigLocation.qml:123
-msgid "Show a place:"
-msgstr "स्थान दर्शवा :"
+#: package/contents/ui/ConfigLocation.qml:109
+msgid "Places panel item:"
+msgstr ""
 
-#: package/contents/ui/ConfigLocation.qml:171
-msgid "Specify a folder:"
-msgstr "संचयीका निश्चित करा:"
+#: package/contents/ui/ConfigLocation.qml:142
+#, fuzzy
+#| msgid "Custom title"
+msgid "Custom location:"
+msgstr "ऐच्छिक शिर्षक"
 
-#: package/contents/ui/ConfigLocation.qml:182
-msgid "Type a path or a URL here"
+#: package/contents/ui/ConfigLocation.qml:150
+#, fuzzy
+#| msgid "Type a path or a URL here"
+msgid "Type path or URL..."
 msgstr "मार्ग किंवा URL येथे दाखल करा"
 
-#: package/contents/ui/ConfigLocation.qml:232
+#: package/contents/ui/ConfigLocation.qml:191
 #, fuzzy
 #| msgctxt "Music"
 #| msgid "Title:"
 msgid "Title:"
 msgstr "शिर्षक :"
 
-#: package/contents/ui/ConfigLocation.qml:244
+#: package/contents/ui/ConfigLocation.qml:193
 msgid "None"
 msgstr "काही नाही"
 
-#: package/contents/ui/ConfigLocation.qml:244
+#: package/contents/ui/ConfigLocation.qml:193
 msgid "Default"
 msgstr "मूलभूत"
 
-#: package/contents/ui/ConfigLocation.qml:244
+#: package/contents/ui/ConfigLocation.qml:193
 #, fuzzy
 #| msgid "Full Path"
 msgid "Full path"
 msgstr "पूर्ण मार्ग"
 
-#: package/contents/ui/ConfigLocation.qml:244
+#: package/contents/ui/ConfigLocation.qml:193
 msgid "Custom title"
 msgstr "ऐच्छिक शिर्षक"
 
-#: package/contents/ui/ConfigLocation.qml:257
-msgid "Enter custom title here"
+#: package/contents/ui/ConfigLocation.qml:208
+#, fuzzy
+#| msgid "Enter custom title here"
+msgid "Enter custom title..."
 msgstr "ऐच्छिक शिर्षक येथे दाखल करा"
 
-#: package/contents/ui/ConfigTweaks.qml:42
-#, fuzzy
-#| msgid "Desktop Folder"
-msgid "Desktop Layout"
-msgstr "डेस्कटॉप संचयीका"
-
-#: package/contents/ui/ConfigTweaks.qml:51
-#, fuzzy
-#| msgid "Show the Desktop folder"
-msgid "Show the desktop toolbox"
-msgstr "डेस्कटॉप संचयीका दर्शवा"
-
-#: package/contents/ui/ConfigTweaks.qml:59
-msgid "Widget Handling"
+#: package/contents/ui/ConfigOverlay.qml:101
+msgid "Rotate"
 msgstr ""
 
-#: package/contents/ui/ConfigTweaks.qml:69
-msgid "Press and hold widgets to move them and reveal their handles"
+#: package/contents/ui/ConfigOverlay.qml:192
+msgid "Open Externally"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:204
+msgid "Hide Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:204
+msgid "Show Background"
+msgstr ""
+
+#: package/contents/ui/ConfigOverlay.qml:252
+msgid "Remove"
 msgstr ""
 
 #: package/contents/ui/FolderItemPreviewPluginsDialog.qml:36
@@ -404,22 +403,10 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: package/contents/ui/main.qml:362
-msgid "Widgets unlocked"
-msgstr ""
-
-#: package/contents/ui/main.qml:363
-msgid "You can press and hold widgets to move them and reveal their handles."
-msgstr ""
-
-#: package/contents/ui/main.qml:364
-msgid "Got it"
-msgstr ""
-
-#: package/contents/ui/main.qml:576
+#: package/contents/ui/main.qml:361
 #, fuzzy
 #| msgid "&Refresh Desktop"
-msgid "Configure Desktop"
+msgid "Configure Desktop..."
 msgstr "डेस्कटॉप ताजा करा (&R)"
 
 #: plugins/folder/directorypicker.cpp:45
@@ -428,97 +415,160 @@ msgstr "डेस्कटॉप ताजा करा (&R)"
 msgid "Select Folder"
 msgstr "सर्व निवडा"
 
-#: plugins/folder/foldermodel.cpp:400
+#: plugins/folder/foldermodel.cpp:402
 #, kde-format
 msgid "&Refresh Desktop"
 msgstr "डेस्कटॉप ताजा करा (&R)"
 
-#: plugins/folder/foldermodel.cpp:400 plugins/folder/foldermodel.cpp:1559
+#: plugins/folder/foldermodel.cpp:402 plugins/folder/foldermodel.cpp:1609
 #, kde-format
 msgid "&Refresh View"
 msgstr "दृश्य ताजे करा (&R)"
 
-#: plugins/folder/foldermodel.cpp:1556
-#, kde-format
-msgid "&Reload"
-msgstr "पुन्हा दाखल करा (&R)"
-
-#: plugins/folder/foldermodel.cpp:1565
-#, kde-format
-msgid "&Empty Trash Bin"
+#: plugins/folder/foldermodel.cpp:1616
+#, fuzzy, kde-format
+#| msgid "&Empty Trash Bin"
+msgid "&Empty Trash"
 msgstr "कचरापेटी रिकामी करा (&E)"
 
-#: plugins/folder/foldermodel.cpp:1568
+#: plugins/folder/foldermodel.cpp:1619
 #, fuzzy, kde-format
 #| msgid "&Restore"
 msgctxt "Restore from trash"
 msgid "Restore"
 msgstr "पुन्हस्थापन (&R)"
 
-#: plugins/folder/foldermodel.cpp:1573
+#: plugins/folder/foldermodel.cpp:1624
 #, kde-format
 msgid "&Open"
 msgstr "उघडा (&O)"
 
-#: plugins/folder/foldermodel.cpp:1646
+#: plugins/folder/foldermodel.cpp:1740
 #, kde-format
 msgid "&Paste"
 msgstr "चिकटवा (&P)"
 
-#: plugins/folder/foldermodel.cpp:1779
+#: plugins/folder/foldermodel.cpp:1848
 #, kde-format
 msgid "&Properties"
 msgstr "गुणधर्म (&P)"
 
 #: plugins/folder/viewpropertiesmenu.cpp:31
 #, fuzzy, kde-format
-#| msgid "Arrange icons:"
-msgid "Arrange In"
-msgstr "चिन्ह आयोजीत करा:"
-
-#: plugins/folder/viewpropertiesmenu.cpp:55
-#, fuzzy, kde-format
 #| msgid "Sorting:"
 msgid "Sort By"
 msgstr "अनुक्रमीत करत आहे :"
 
-#: plugins/folder/viewpropertiesmenu.cpp:81
+#: plugins/folder/viewpropertiesmenu.cpp:34
+#, fuzzy, kde-format
+#| msgctxt "Sort Icons"
+#| msgid "Unsorted"
+msgid "Unsorted"
+msgstr "विनाक्रम"
+
+#: plugins/folder/viewpropertiesmenu.cpp:57
 #, fuzzy, kde-format
 #| msgctxt "Sort icons"
 #| msgid "Folders First"
 msgid "Folders First"
 msgstr "संचयीका सर्वप्रथम"
 
-#: plugins/folder/viewpropertiesmenu.cpp:84
+#: plugins/folder/viewpropertiesmenu.cpp:60
 #, fuzzy, kde-format
 #| msgid "Icon size:"
 msgid "Icon Size"
 msgstr "चिन्ह आकार:"
 
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Tiny"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Small Medium"
 msgstr ""
 
-#: plugins/folder/viewpropertiesmenu.cpp:88
-#, kde-format
-msgid "Medium"
-msgstr ""
-
-#: plugins/folder/viewpropertiesmenu.cpp:88
+#: plugins/folder/viewpropertiesmenu.cpp:64
 #, kde-format
 msgid "Huge"
 msgstr ""
 
+#: plugins/folder/viewpropertiesmenu.cpp:73
+#, fuzzy, kde-format
+#| msgid "Arrange icons:"
+msgid "Arrange In"
+msgstr "चिन्ह आयोजीत करा:"
+
+#: plugins/folder/viewpropertiesmenu.cpp:85
+#, fuzzy, kde-format
+#| msgid "Align to grid:"
+msgid "Align"
+msgstr "ग्रीडशी संलग्न करा :"
+
+#: plugins/folder/viewpropertiesmenu.cpp:88
+#, kde-format
+msgid "Left"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:92
+#, kde-format
+msgid "Right"
+msgstr ""
+
 #: plugins/folder/viewpropertiesmenu.cpp:97
+#, fuzzy, kde-format
+#| msgid "Previews:"
+msgid "Show Previews"
+msgstr "पूर्वावलोकन :"
+
+#: plugins/folder/viewpropertiesmenu.cpp:100
 #, kde-format
 msgid "Locked"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Show the Desktop folder"
+#~ msgid "Show the desktop toolbox"
+#~ msgstr "डेस्कटॉप संचयीका दर्शवा"
+
+#~ msgid "Show All Files"
+#~ msgstr "सर्व फाईल दर्शवा"
+
+#~ msgid "Size:"
+#~ msgstr "आकार :"
+
+#, fuzzy
+#~| msgid "Desktop Folder"
+#~ msgid "Desktop Layout"
+#~ msgstr "डेस्कटॉप संचयीका"
+
+#, fuzzy
+#~| msgid "Arrange icons:"
+#~ msgid "Arrange in"
+#~ msgstr "चिन्ह आयोजीत करा:"
+
+#, fuzzy
+#~| msgid "Sorting:"
+#~ msgid "Sort by"
+#~ msgstr "अनुक्रमीत करत आहे :"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Title of the page that lets the user choose which location should the "
+#~| "folderview show"
+#~| msgid "Location"
+#~ msgid "Location:"
+#~ msgstr "ठिकाण"
+
+#~ msgid "Show the Desktop folder"
+#~ msgstr "डेस्कटॉप संचयीका दर्शवा"
+
+#~ msgid "Specify a folder:"
+#~ msgstr "संचयीका निश्चित करा:"
+
+#~ msgid "&Reload"
+#~ msgstr "पुन्हा दाखल करा (&R)"
 
 #~ msgid "&Rename"
 #~ msgstr "नाव बदला (&R)"
@@ -539,16 +589,8 @@ msgstr ""
 #~ msgid "Sorting"
 #~ msgstr "अनुक्रमीत करत आहे :"
 
-#~ msgid "Size:"
-#~ msgstr "आकार :"
-
 #~ msgid "Title"
 #~ msgstr "शिर्षक"
-
-#, fuzzy
-#~| msgid "Show the Desktop folder"
-#~ msgid "Desktop Folder"
-#~ msgstr "डेस्कटॉप संचयीका दर्शवा"
 
 #~ msgid "Create &Folder..."
 #~ msgstr "संचयीका तयार करा (&F)..."
@@ -716,11 +758,6 @@ msgstr ""
 #~| msgid "Click to view folder:"
 #~ msgid "Click to view folder"
 #~ msgstr "संचयीका बघण्यासाठी क्लिक करा :"
-
-#, fuzzy
-#~| msgid "Previews:"
-#~ msgid "Previews"
-#~ msgstr "पूर्वावलोकन :"
 
 #, fuzzy
 #~| msgid "Icons"
@@ -999,9 +1036,6 @@ msgstr ""
 
 #~ msgid "Header"
 #~ msgstr "हेडर"
-
-#~ msgid "Label:"
-#~ msgstr "लेबल:"
 
 #~ msgid "Advanced Options"
 #~ msgstr "प्रगत पर्याय"
