@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma_applet_battery\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-06 03:52+0100\n"
+"POT-Creation-Date: 2020-05-13 03:58+0200\n"
 "PO-Revision-Date: 2013-02-05 18:22+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -39,74 +39,73 @@ msgctxt "Placeholder is battery percentage"
 msgid "%1%"
 msgstr "%1%"
 
-#: package/contents/ui/batterymonitor.qml:53
-#, kde-format
-msgid "No Batteries Available"
-msgstr ""
-
-#: package/contents/ui/batterymonitor.qml:57
-#, fuzzy, kde-format
-#| msgid "Screen Brightness"
-msgid "Battery and Brightness"
-msgstr "पडद्याचा तेजपणा"
-
-#: package/contents/ui/batterymonitor.qml:59 package/contents/ui/logic.js:26
+#: package/contents/ui/batterymonitor.qml:55 package/contents/ui/logic.js:26
 #, fuzzy, kde-format
 #| msgid "<b>Battery:</b> %1% (fully charged)<br />"
 msgid "Fully Charged"
 msgstr "<b>बॅटरी:</b> %1% (पूर्णतया चार्ज केलेले)<br />"
 
+#: package/contents/ui/batterymonitor.qml:62
+#, fuzzy, kde-format
+#| msgctxt "Shown when a time estimate is not available"
+#| msgid "<b>Battery:</b> %1% (discharging)<br />"
+msgid "Battery at %1%, not Charging"
+msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
+
 #: package/contents/ui/batterymonitor.qml:64
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgid "%1% Charging"
+msgid "Battery at %1%, Charging"
 msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
 
-#: package/contents/ui/batterymonitor.qml:66
+#: package/contents/ui/batterymonitor.qml:67
+#, fuzzy, kde-format
+#| msgctxt "tooltip: placeholder is the battery ID"
+#| msgid "Battery %1:"
+msgid "Battery at %1%"
+msgstr "बॅटरी %1 :"
+
+#: package/contents/ui/batterymonitor.qml:79
+#, fuzzy, kde-format
+#| msgid "<b>Battery:</b> %1% (fully charged)<br />"
+msgctxt "time until fully charged - HH:MM"
+msgid "%1 until fully charged"
+msgstr "<b>बॅटरी:</b> %1% (पूर्णतया चार्ज केलेले)<br />"
+
+#: package/contents/ui/batterymonitor.qml:81
+#, kde-format
+msgctxt "remaining time left of battery usage - HH:MM"
+msgid "%1 remaining"
+msgstr ""
+
+#: package/contents/ui/batterymonitor.qml:84
 #, fuzzy, kde-format
 #| msgctxt "Shown when a time estimate is not available"
 #| msgid "<b>Battery:</b> %1% (discharging)<br />"
-msgid "%1% Plugged in, not Charging"
+msgid "Not charging"
 msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
 
-#: package/contents/ui/batterymonitor.qml:68
-#, fuzzy, kde-format
-#| msgid "Plugged in"
-msgid "%1% Plugged in"
-msgstr "जोडले"
-
-#: package/contents/ui/batterymonitor.qml:72
-#, kde-format
-msgctxt "%1 is remaining time, %2 is percentage"
-msgid "%1 Remaining (%2%)"
-msgstr ""
-
-#: package/contents/ui/batterymonitor.qml:76
-#, kde-format
-msgid "%1% Battery Remaining"
-msgstr ""
-
-#: package/contents/ui/batterymonitor.qml:80
+#: package/contents/ui/batterymonitor.qml:88
 #, fuzzy, kde-format
 #| msgctxt "Label for power management inhibition"
 #| msgid "Power management enabled:"
 msgid "Power management is disabled"
 msgstr "वीज व्यवस्थापन कार्यान्वित केले :"
 
-#: package/contents/ui/batterymonitor.qml:149
+#: package/contents/ui/batterymonitor.qml:161
 #, fuzzy, kde-format
 #| msgid "Show charge &information"
 msgid "&Show Energy Information..."
 msgstr "चार्जची माहिती दर्शवा (&I)"
 
-#: package/contents/ui/batterymonitor.qml:152
+#: package/contents/ui/batterymonitor.qml:164
 #, fuzzy, kde-format
 #| msgid "More..."
 msgid "&Configure Power Saving..."
 msgstr "अधिक..."
 
-#: package/contents/ui/batterymonitor.qml:241
+#: package/contents/ui/batterymonitor.qml:253
 #, kde-format
 msgid "The battery applet has enabled system-wide inhibition"
 msgstr "या बॅटरी एप्लेटने पूर्ण प्रणालीभर अवरोध कार्यान्वित केला आहे"
@@ -183,25 +182,25 @@ msgctxt "Placeholder is battery health percentage"
 msgid "%1%"
 msgstr "%1%"
 
-#: package/contents/ui/PopupDialog.qml:50
-#, kde-format
-msgctxt "Used for measurement"
-msgid "100%"
-msgstr ""
-
-#: package/contents/ui/PopupDialog.qml:67
+#: package/contents/ui/PopupDialog.qml:68
 #, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Display Brightness"
 msgstr "पडद्याचा तेजपणा"
 
-#: package/contents/ui/PopupDialog.qml:89
+#: package/contents/ui/PopupDialog.qml:90
 #, fuzzy, kde-format
 #| msgid "Screen Brightness"
 msgid "Keyboard Brightness"
 msgstr "पडद्याचा तेजपणा"
 
-#: package/contents/ui/PowerManagementItem.qml:46
+#: package/contents/ui/PowerManagementItem.qml:39
+#, fuzzy, kde-format
+#| msgid "Power Management"
+msgid "Enable Power Management"
+msgstr "पावर व्यवस्थापन"
+
+#: package/contents/ui/PowerManagementItem.qml:49
 #, kde-format
 msgid ""
 "Disabling power management will prevent your screen and computer from "
@@ -211,26 +210,20 @@ msgid ""
 "don't want to have you interrupted."
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:71
-#, fuzzy, kde-format
-#| msgid "Power Management"
-msgid "Enable Power Management"
-msgstr "पावर व्यवस्थापन"
-
-#: package/contents/ui/PowerManagementItem.qml:79
+#: package/contents/ui/PowerManagementItem.qml:56
 #, fuzzy, kde-format
 #| msgid "More..."
 msgid "Configure Power Saving..."
 msgstr "अधिक..."
 
-#: package/contents/ui/PowerManagementItem.qml:96
+#: package/contents/ui/PowerManagementItem.qml:72
 #, kde-format
 msgid ""
 "Your notebook is configured not to suspend when closing the lid while an "
 "external monitor is connected."
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:106
+#: package/contents/ui/PowerManagementItem.qml:83
 #, kde-format
 msgctxt "Some Application and n others are currently suppressing PM"
 msgid "%2 and %1 other application are currently suppressing power management."
@@ -239,17 +232,33 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: package/contents/ui/PowerManagementItem.qml:112
+#: package/contents/ui/PowerManagementItem.qml:89
 #, kde-format
 msgctxt "Some Application is suppressing PM"
 msgid "%1 is currently suppressing power management."
 msgstr ""
 
-#: package/contents/ui/PowerManagementItem.qml:115
+#: package/contents/ui/PowerManagementItem.qml:92
 #, kde-format
 msgctxt "Some Application is suppressing PM: Reason provided by the app"
 msgid "%1 is currently suppressing power management: %2"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Screen Brightness"
+#~ msgid "Battery and Brightness"
+#~ msgstr "पडद्याचा तेजपणा"
+
+#, fuzzy
+#~| msgctxt "Shown when a time estimate is not available"
+#~| msgid "<b>Battery:</b> %1% (discharging)<br />"
+#~ msgid "%1% Charging"
+#~ msgstr "<b>बॅटरी:</b> %1% (डिसचार्ज करत आहे)<br />"
+
+#, fuzzy
+#~| msgid "Plugged in"
+#~ msgid "%1% Plugged in"
+#~ msgstr "जोडले"
 
 #, fuzzy
 #~| msgctxt "overlay on the battery, needs to be really tiny"
@@ -354,10 +363,6 @@ msgstr ""
 
 #~ msgid "<b>%1% (charging)</b>"
 #~ msgstr "<b>%1% (चार्ज करत आहे)</b>"
-
-#~ msgctxt "tooltip: placeholder is the battery ID"
-#~ msgid "Battery %1:"
-#~ msgstr "बॅटरी %1 :"
 
 #~ msgid "Show the state for &each battery present"
 #~ msgstr "प्रत्येक उपलब्ध बॅटरी करिता पातळी दर्शवा (&E)"

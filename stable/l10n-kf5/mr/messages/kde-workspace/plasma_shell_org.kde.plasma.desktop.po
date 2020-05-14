@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-04-21 09:25+0200\n"
+"POT-Creation-Date: 2020-05-13 03:56+0200\n"
 "PO-Revision-Date: 2013-03-28 12:56+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,15 +17,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: contents/activitymanager/ActivityItem.qml:206
+#: contents/activitymanager/ActivityItem.qml:225
 msgid "Currently being used"
 msgstr ""
 
-#: contents/activitymanager/ActivityItem.qml:284
+#: contents/activitymanager/ActivityItem.qml:265
+msgid ""
+"Move to\n"
+"this activity"
+msgstr ""
+
+#: contents/activitymanager/ActivityItem.qml:295
+msgid ""
+"Show also\n"
+"in this activity"
+msgstr ""
+
+#: contents/activitymanager/ActivityItem.qml:355
 msgid "Configure"
 msgstr ""
 
-#: contents/activitymanager/ActivityItem.qml:300
+#: contents/activitymanager/ActivityItem.qml:371
 msgid "Stop activity"
 msgstr ""
 
@@ -37,12 +49,12 @@ msgstr ""
 msgid "Create activity..."
 msgstr ""
 
-#: contents/activitymanager/Heading.qml:70
+#: contents/activitymanager/Heading.qml:71
 msgid "Activities"
 msgstr ""
 
-#: contents/activitymanager/Heading.qml:85
-#: contents/explorer/WidgetExplorer.qml:249
+#: contents/activitymanager/Heading.qml:86
+#: contents/explorer/WidgetExplorer.qml:250
 msgid "Search..."
 msgstr ""
 
@@ -58,25 +70,25 @@ msgstr ""
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:133
+#: contents/configuration/AppletConfiguration.qml:132
 msgid "Apply Settings"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:134
+#: contents/configuration/AppletConfiguration.qml:133
 msgid ""
 "The settings of the current module have changed. Do you want to apply the "
 "changes or discard them?"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:418
+#: contents/configuration/AppletConfiguration.qml:425
 msgid "OK"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:425
+#: contents/configuration/AppletConfiguration.qml:432
 msgid "Apply"
 msgstr ""
 
-#: contents/configuration/AppletConfiguration.qml:431
+#: contents/configuration/AppletConfiguration.qml:438
 #: contents/explorer/AppletAlternatives.qml:185
 msgid "Cancel"
 msgstr ""
@@ -136,7 +148,7 @@ msgid "Add Action"
 msgstr ""
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:75
-msgid "Layout cannot be changed while widgets are locked"
+msgid "Layout changes have been restricted by the system administrator"
 msgstr ""
 
 #: contents/configuration/ConfigurationContainmentAppearance.qml:90
@@ -183,51 +195,56 @@ msgstr ""
 msgid "Click and drag the button to a screen edge to move the panel there."
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:43
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:46
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:145
+msgid "Remove Panel"
+msgstr ""
+
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
 msgid "Panel Alignment"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:63
 msgid "Top"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:53
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:63
 msgid "Left"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:64
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:74
 msgid "Center"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
 msgid "Bottom"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:75
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
 msgid "Right"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:85
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:95
 msgid "Visibility"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:93
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:103
 msgid "Always Visible"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:101
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:111
 msgid "Auto Hide"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:109
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:119
 msgid "Windows Can Cover"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:117
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:127
 msgid "Windows Go Below"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:126
+#: contents/configuration/panelconfiguration/MoreSettingsMenu.qml:136
 msgid "Maximize Panel"
 msgstr ""
 
@@ -244,24 +261,20 @@ msgid "Click and drag the button to resize the panel."
 msgstr ""
 
 #: contents/configuration/panelconfiguration/ToolBar.qml:33
-msgid "Remove Panel"
-msgstr ""
-
-#: contents/configuration/panelconfiguration/ToolBar.qml:34
 #, fuzzy
 #| msgid "Get new widgets"
 msgid "Add Widgets..."
 msgstr "नवीन विजेट्स प्राप्त करा"
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:35
+#: contents/configuration/panelconfiguration/ToolBar.qml:34
 msgid "Add Spacer"
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:36
-msgid "More Settings..."
+#: contents/configuration/panelconfiguration/ToolBar.qml:35
+msgid "More Options..."
 msgstr ""
 
-#: contents/configuration/panelconfiguration/ToolBar.qml:169
+#: contents/configuration/panelconfiguration/ToolBar.qml:158
 msgid "Close"
 msgstr ""
 
@@ -301,17 +314,25 @@ msgstr "इमेल :"
 msgid "Uninstall"
 msgstr "अप्रतिष्ठापन करा"
 
-#: contents/explorer/WidgetExplorer.qml:216
+#: contents/explorer/WidgetExplorer.qml:217
 #, fuzzy
 #| msgid "Get new widgets"
 msgid "Widgets"
 msgstr "नवीन विजेट्स प्राप्त करा"
 
-#: contents/explorer/WidgetExplorer.qml:224
+#: contents/explorer/WidgetExplorer.qml:225
 msgid "Categories"
 msgstr "विभाग"
 
-#: contents/explorer/WidgetExplorer.qml:355
+#: contents/explorer/WidgetExplorer.qml:342
+msgid "No widgets matched the search terms"
+msgstr ""
+
+#: contents/explorer/WidgetExplorer.qml:342
+msgid "No widgets available"
+msgstr ""
+
+#: contents/explorer/WidgetExplorer.qml:366
 #, fuzzy
 #| msgid "Get new widgets"
 msgid "Get New Widgets..."
