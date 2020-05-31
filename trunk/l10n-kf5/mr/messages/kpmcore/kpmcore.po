@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-28 02:54+0100\n"
+"POT-Creation-Date: 2020-05-31 18:17+0200\n"
 "PO-Revision-Date: 2013-04-01 17:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2024,7 +2024,7 @@ msgid ""
 "%2</filename>"
 msgstr "नवीन विभाजन"
 
-#: jobs/createfilesystemjob.cpp:74 jobs/setpartitionlabeljob.cpp:70
+#: jobs/createfilesystemjob.cpp:74
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2034,7 +2034,7 @@ msgid ""
 "filename>."
 msgstr "नवीन विभाजन"
 
-#: jobs/createfilesystemjob.cpp:76 jobs/setpartitionlabeljob.cpp:72
+#: jobs/createfilesystemjob.cpp:76
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2044,7 +2044,7 @@ msgid ""
 "system type for partition <filename>%2</filename>."
 msgstr "नवीन विभाजन"
 
-#: jobs/createfilesystemjob.cpp:78 jobs/setpartitionlabeljob.cpp:74
+#: jobs/createfilesystemjob.cpp:78
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2064,7 +2064,7 @@ msgid ""
 "filename>"
 msgstr "नवीन विभाजन"
 
-#: jobs/createpartitionjob.cpp:68
+#: jobs/createpartitionjob.cpp:72
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2074,7 +2074,7 @@ msgid ""
 "filename>."
 msgstr "नवीन विभाजन"
 
-#: jobs/createpartitionjob.cpp:70
+#: jobs/createpartitionjob.cpp:74
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2084,7 +2084,7 @@ msgid ""
 "new partition <filename>%2</filename>."
 msgstr "नवीन विभाजन"
 
-#: jobs/createpartitionjob.cpp:72
+#: jobs/createpartitionjob.cpp:76
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2094,7 +2094,7 @@ msgid ""
 "<filename>%2</filename>."
 msgstr "नवीन विभाजन"
 
-#: jobs/createpartitionjob.cpp:90
+#: jobs/createpartitionjob.cpp:94
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2102,7 +2102,7 @@ msgctxt "@info:progress"
 msgid "Create new partition <filename>%1</filename>"
 msgstr "नवीन विभाजन"
 
-#: jobs/createpartitionjob.cpp:92
+#: jobs/createpartitionjob.cpp:96
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -2593,12 +2593,86 @@ msgid ""
 "setting names. Job ignored."
 msgstr "नवीन विभाजन"
 
+#: jobs/setpartitionlabeljob.cpp:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid "Failed to set the name for the partition <filename>%1</filename>."
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionlabeljob.cpp:72
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid ""
+"Could not open partition table on device <filename>%1</filename> to set the "
+"name for the partition <filename>%2</filename>."
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionlabeljob.cpp:74
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid ""
+"Could not open device <filename>%1</filename> to set the name for partition "
+"<filename>%2</filename>."
+msgstr "नवीन विभाजन"
+
 #: jobs/setpartitionlabeljob.cpp:85
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
 msgctxt "@info:progress"
 msgid "Set the label on partition <filename>%1</filename> to \"%2\""
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionuuidjob.cpp:58
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid ""
+"Partition table of partition <filename>%1</filename> does not support "
+"setting UUIDs. Job ignored."
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionuuidjob.cpp:70
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid "Failed to set the UUID for the partition <filename>%1</filename>."
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionuuidjob.cpp:72
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid ""
+"Could not open partition table on device <filename>%1</filename> to set the "
+"UUID for the partition <filename>%2</filename>."
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionuuidjob.cpp:74
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid ""
+"Could not open device <filename>%1</filename> to set the UUID for partition "
+"<filename>%2</filename>."
+msgstr "नवीन विभाजन"
+
+#: jobs/setpartitionuuidjob.cpp:85
+#, fuzzy, kde-kuit-format
+#| msgctxt "@item partition name"
+#| msgid "New Partition"
+msgctxt "@info:progress"
+msgid "Set the UUID on partition <filename>%1</filename> to \"%2\""
 msgstr "नवीन विभाजन"
 
 #: jobs/shredfilesystemjob.cpp:71
@@ -2755,7 +2829,7 @@ msgctxt "@info:status"
 msgid "Delete partition <filename>%1</filename> (%2, %3)"
 msgstr "नवीन विभाजन"
 
-#: ops/newoperation.cpp:116
+#: ops/newoperation.cpp:123
 #, fuzzy, kde-kuit-format
 #| msgctxt "@item partition name"
 #| msgid "New Partition"
@@ -3443,13 +3517,6 @@ msgstr "मशीन :"
 #~ msgid ""
 #~ "Creating partition table failed: Could not open backend device <filename>"
 #~ "%1</filename>."
-#~ msgstr "नवीन विभाजन"
-
-#, fuzzy
-#~| msgctxt "@item partition name"
-#~| msgid "New Partition"
-#~ msgctxt "@info:progress"
-#~ msgid "Failed to create new partition <filename>%1</filename>."
 #~ msgstr "नवीन विभाजन"
 
 #, fuzzy
