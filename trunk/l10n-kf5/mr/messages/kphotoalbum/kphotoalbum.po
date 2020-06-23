@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-21 02:01+0200\n"
+"POT-Creation-Date: 2020-06-23 02:03+0200\n"
 "PO-Revision-Date: 2013-02-24 11:33+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -598,7 +598,7 @@ msgid "Really Delete %1?"
 msgstr ""
 
 #: AnnotationDialog/ListSelect.cpp:418 Settings/TagGroupsPage.cpp:535
-#: Settings/TagGroupsPage.cpp:780
+#: Settings/TagGroupsPage.cpp:781
 #, kde-format
 msgid "&Delete"
 msgstr "काढून टाका (&D)"
@@ -636,17 +636,17 @@ msgstr "समूह :"
 msgid "Name for the new tag group the tag will be added to:"
 msgstr ""
 
-#: AnnotationDialog/ListSelect.cpp:482
+#: AnnotationDialog/ListSelect.cpp:483
 #, kde-format
 msgid "Add a tag"
 msgstr ""
 
-#: AnnotationDialog/ListSelect.cpp:483
+#: AnnotationDialog/ListSelect.cpp:484
 #, kde-format
 msgid "Name for the tag to be added to this tag group:"
 msgstr ""
 
-#: AnnotationDialog/ListSelect.cpp:718
+#: AnnotationDialog/ListSelect.cpp:719
 #, kde-format
 msgctxt ""
 "Category name, then min-max of selected tags across several images. E.g. "
@@ -654,7 +654,7 @@ msgctxt ""
 msgid "%1 (%2-%3)"
 msgstr ""
 
-#: AnnotationDialog/ListSelect.cpp:731
+#: AnnotationDialog/ListSelect.cpp:732
 #, kde-format
 msgctxt "Category name, then number of selected tags. E.g. 'People (1)'"
 msgid "%1 (%2)"
@@ -2314,7 +2314,7 @@ msgstr ""
 #: kpa-thumbnailtool/main.cpp:90
 #, kde-format
 msgctxt "@info:shell"
-msgid "Verify thumbnail cache consistency."
+msgid "Check thumbnail cache for consistency of thumbnail dimensions."
 msgstr ""
 
 #: kpa-thumbnailtool/main.cpp:92
@@ -2322,7 +2322,7 @@ msgstr ""
 msgctxt "@info:shell"
 msgid ""
 "Fix inconsistent thumbnails by removing them from the cache (requires --"
-"verify)."
+"check-thumbnail-dimensions)."
 msgstr ""
 
 #: kpa-thumbnailtool/main.cpp:94
@@ -2350,10 +2350,11 @@ msgid "Thumbnail cache directory: %1\n"
 msgstr ""
 
 #: kpa-thumbnailtool/main.cpp:130
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Thumbnail View"
 msgctxt "@info:shell"
-msgid "Thumbnailindex file version: %1\n"
-msgstr ""
+msgid "Thumbnail index file version: %1\n"
+msgstr "लघुप्रतिमा दृष्य"
 
 #: kpa-thumbnailtool/main.cpp:131
 #, kde-format
@@ -2365,15 +2366,15 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgid "Thumbnail View"
 msgctxt "@info:shell"
-msgid "Thumbnail storage size: %1\n"
+msgid "Thumbnail storage dimensions: %1 pixels\n"
 msgstr "लघुप्रतिमा दृष्य"
 
 #: kpa-thumbnailtool/main.cpp:134
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
-"Note: Thumbnail storage size is defined in the configuration file prior to "
-"v5.\n"
+"Note: Thumbnail storage dimensions are defined in the configuration file "
+"prior to v5.\n"
 msgstr ""
 
 #: kpa-thumbnailtool/main.cpp:136
@@ -2406,7 +2407,7 @@ msgstr[1] ""
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:32
 #, kde-format
 msgctxt "@info:shell"
-msgid "Could not open thumbnailindex file!\n"
+msgid "Could not open file `thumbnailindex`!\n"
 msgstr ""
 
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:33
@@ -2415,7 +2416,7 @@ msgstr ""
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:66
 #, kde-format
 msgctxt "@info:shell"
-msgid "Thumbnailindex was not changed.\n"
+msgid "Thumbnail index was not changed.\n"
 msgstr ""
 
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:38
@@ -2427,13 +2428,13 @@ msgstr ""
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:47
 #, kde-format
 msgctxt "@info:shell"
-msgid "Could not back up thumbnailindex file!\n"
+msgid "Could not back up file `thumbnailindex`!\n"
 msgstr ""
 
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:52
 #, kde-format
 msgctxt "@info:shell"
-msgid "Could not copy temporary thumbnailindex file to final location!\n"
+msgid "Could not copy temporary thumbnail index file to final location!\n"
 msgstr ""
 
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:53
@@ -2445,7 +2446,7 @@ msgstr ""
 #: kpa-thumbnailtool/ThumbnailCacheConverter.cpp:65
 #, kde-format
 msgctxt "@info:shell"
-msgid "Thumbnailindex is not a version 5 file!\n"
+msgid "Thumbnail index is not a version 5 file!\n"
 msgstr ""
 
 #. i18n: ectx: Menu (view)
@@ -3980,7 +3981,7 @@ msgid ""
 "when viewing the images."
 msgstr ""
 
-#: Settings/BirthdayPage.cpp:147 XMLDB/FileReader.cpp:510
+#: Settings/BirthdayPage.cpp:147 XMLDB/FileReader.cpp:513
 #, kde-format
 msgid "People"
 msgstr ""
@@ -4683,12 +4684,12 @@ msgstr ""
 msgid "Trust Time Stamps?"
 msgstr ""
 
-#: Settings/SettingsData.cpp:363 XMLDB/FileReader.cpp:512
+#: Settings/SettingsData.cpp:363 XMLDB/FileReader.cpp:515
 #, kde-format
 msgid "Events"
 msgstr "घटना"
 
-#: Settings/SettingsData.cpp:364 XMLDB/FileReader.cpp:513
+#: Settings/SettingsData.cpp:364 XMLDB/FileReader.cpp:516
 #, kde-format
 msgid "untagged"
 msgstr ""
@@ -4846,21 +4847,21 @@ msgctxt "@title:window"
 msgid "Delete Group"
 msgstr "काढून टाका"
 
-#: Settings/TagGroupsPage.cpp:712
+#: Settings/TagGroupsPage.cpp:713
 #, fuzzy, kde-format
 #| msgid "Rename..."
 msgctxt "@action:inmenu"
 msgid "Rename \"%1\""
 msgstr "नाव बदला..."
 
-#: Settings/TagGroupsPage.cpp:714
+#: Settings/TagGroupsPage.cpp:715
 #, fuzzy, kde-format
 #| msgid "Delete"
 msgctxt "@action:inmenu"
 msgid "Delete \"%1\""
 msgstr "काढून टाका"
 
-#: Settings/TagGroupsPage.cpp:725
+#: Settings/TagGroupsPage.cpp:726
 #, fuzzy, kde-format
 #| msgctxt "@label Preview of the new category imape"
 #| msgid "New image:"
@@ -4868,14 +4869,14 @@ msgctxt "@title:window"
 msgid "New Tag Name"
 msgstr "नवीन प्रतिमा :"
 
-#: Settings/TagGroupsPage.cpp:726
+#: Settings/TagGroupsPage.cpp:727
 #, fuzzy, kde-format
 #| msgid "Group name:"
 msgctxt "@label:textbox"
 msgid "Tag name:"
 msgstr "समूह नाव :"
 
-#: Settings/TagGroupsPage.cpp:775
+#: Settings/TagGroupsPage.cpp:776
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -4884,7 +4885,7 @@ msgid ""
 "para>"
 msgstr ""
 
-#: Settings/TagGroupsPage.cpp:779
+#: Settings/TagGroupsPage.cpp:780
 #, kde-format
 msgctxt "@title:window"
 msgid "Really delete %1?"
@@ -5532,7 +5533,7 @@ msgid "Unable to copy '%1' to '%2'."
 msgstr ""
 
 #: Utilities/DemoUtil.cpp:47 Utilities/DemoUtil.cpp:64
-#: Utilities/DemoUtil.cpp:98 XMLDB/FileReader.cpp:523
+#: Utilities/DemoUtil.cpp:98 XMLDB/FileReader.cpp:526
 #, kde-format
 msgid "Error Running Demo"
 msgstr ""
@@ -6262,7 +6263,7 @@ msgid ""
 "</p><p>Manual repair required!</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:409
+#: XMLDB/FileReader.cpp:412
 #, kde-format
 msgid ""
 "<p>Your images/videos are not sorted, which means that navigating using the "
@@ -6276,12 +6277,12 @@ msgid ""
 "to sort them in the database. </p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:418
+#: XMLDB/FileReader.cpp:421
 #, kde-format
 msgid "Images/Videos Are Not Sorted"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:429
+#: XMLDB/FileReader.cpp:432
 #, kde-format
 msgid ""
 "<p>Not all the images in the database have information about image sizes; "
@@ -6292,12 +6293,12 @@ msgid ""
 "that is all - so there is no urgency in doing it.</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:434
+#: XMLDB/FileReader.cpp:437
 #, kde-format
 msgid "Not All Images Have Size Information"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:448
+#: XMLDB/FileReader.cpp:451
 #, kde-format
 msgctxt "repair merged tags"
 msgid ""
@@ -6306,25 +6307,25 @@ msgid ""
 "tags require manual inspection:<ul>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:459
+#: XMLDB/FileReader.cpp:462
 #, kde-format
 msgctxt "repair merged tags"
 msgid "<li>%1:<br/>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:461
+#: XMLDB/FileReader.cpp:464
 #, kde-format
 msgctxt "repair merged tags"
 msgid "%1<br/>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:464
+#: XMLDB/FileReader.cpp:467
 #, kde-format
 msgctxt "repair merged tags"
 msgid "</li>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:469
+#: XMLDB/FileReader.cpp:472
 #, kde-format
 msgctxt "repair merged tags"
 msgid ""
@@ -6332,12 +6333,12 @@ msgid ""
 "<em>KPhotoAlbum - manual repair needed</em>.</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:473
+#: XMLDB/FileReader.cpp:476
 #, kde-format
 msgid "Database repair required"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:495
+#: XMLDB/FileReader.cpp:498
 #, kde-format
 msgid ""
 "<p>KPhotoAlbum was unable to load a default setup, which indicates an "
@@ -6351,37 +6352,37 @@ msgid ""
 "setting the <b>PATH</b> environment variable</p>"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:503
+#: XMLDB/FileReader.cpp:506
 #, kde-format
 msgid "No default setup file found"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:511
+#: XMLDB/FileReader.cpp:514
 #, kde-format
 msgid "Places"
 msgstr "जागा"
 
-#: XMLDB/FileReader.cpp:523
+#: XMLDB/FileReader.cpp:526
 #, kde-format
 msgid "Unable to open '%1' for reading"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:536
+#: XMLDB/FileReader.cpp:539
 #, kde-format
 msgid "line %1 column %2 in file %3: %4"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:538
+#: XMLDB/FileReader.cpp:541
 #, kde-format
 msgid "Failed to recover the backup: %1"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:549
+#: XMLDB/FileReader.cpp:552
 #, kde-format
 msgid "Error in file %1: No elements found"
 msgstr ""
 
-#: XMLDB/FileReader.cpp:555
+#: XMLDB/FileReader.cpp:558
 #, kde-format
 msgid "Error in file %1: expected 'KPhotoAlbum' as top element but found '%2'"
 msgstr ""
