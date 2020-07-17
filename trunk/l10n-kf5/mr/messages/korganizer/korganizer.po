@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-16 02:15+0200\n"
+"POT-Creation-Date: 2020-07-17 02:17+0200\n"
 "PO-Revision-Date: 2013-04-15 10:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -97,7 +97,7 @@ msgstr "प्रेस्टन ब्राउन"
 msgid "Original Author"
 msgstr "मूळ लेखक"
 
-#: aboutdata.cpp:54 prefs/koprefsdialog.cpp:1763
+#: aboutdata.cpp:54 prefs/koprefsuserfeedback.cpp:54
 #, kde-format
 msgid "Laurent Montel"
 msgstr ""
@@ -1957,19 +1957,19 @@ msgctxt "@info:whatsthis"
 msgid "Press this button to remove the currently active filter."
 msgstr "सध्या चालू असलेली गाळणी काढून टाकण्यासाठी हे बटण दाबा."
 
-#: dialog/filtereditdialog.cpp:246
+#: dialog/filtereditdialog.cpp:247
 #, kde-format
 msgctxt "@label default filter name"
 msgid "New Filter %1"
 msgstr "नवीन गाळणी %1"
 
-#: dialog/filtereditdialog.cpp:272
+#: dialog/filtereditdialog.cpp:273
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to permanently remove the filter \"%1\"?"
 msgstr "तुम्हाला खरोखरच \"%1\" गाळणी कायाची काढून टाकायची आहे का?"
 
-#: dialog/filtereditdialog.cpp:273
+#: dialog/filtereditdialog.cpp:274
 #, kde-format
 msgctxt "@title:window"
 msgid "Delete Filter?"
@@ -3561,43 +3561,121 @@ msgstr ""
 "कामाच्या दिवसांची मांडणी न केल्याने कामाचा आठवडा प्रदर्शित करू/दर्शवू शकत नाही. कृपया वेळ "
 "आणि तारीख या क्रमात किमान एका तरी कामाच्या दिवसाची योग्य प्रकारे मांडणी करा."
 
-#: prefs/koprefsdialog.cpp:101
+#: prefs/koprefsdialogcolorsandfonts.cpp:57
+#, fuzzy, kde-format
+#| msgid "Change..."
+msgid "Choose..."
+msgstr "बदला..."
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:98
+#, kde-format
+msgctxt "@title:tab"
+msgid "Colors"
+msgstr "रंग"
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:144
+#, kde-format
+msgctxt "@title:group"
+msgid "Categories"
+msgstr "विभाग"
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:157
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select here the event category you want to modify. You can change the "
+"selected category color using the button below."
+msgstr ""
+"येथे तुम्हाला  फेरबदल करावयाचा आहे त्या कार्यक्रमाचा गट/प्रकार निवडा. खालील बटण वापरून "
+"तुम्ही निवडलेल्या गटाचा/प्रवर्गाचा रंग बदलू शकता."
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:167
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose here the color of the event category selected using the combo box "
+"above."
+msgstr "वरील कॉम्बो बॉक्स वापरून निवडलेल्या कार्यक्रमाच्या गटाचा रंग निवडा."
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:176
+#, kde-format
+msgctxt "@title:group"
+msgid "Resources"
+msgstr "संसाधने"
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:192
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Select the calendar you want to modify. You can change the selected calendar "
+"color using the button below."
+msgstr ""
+" येथे तुम्हाला  फेरबदल करावयाचा आहे ती दिनदर्शिका निवडा. खालील बटण वापरून तुम्ही "
+"निवडलेल्या दिनदर्शिकेचा रंग बदलू शकता."
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:202
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose here the color of the calendar selected using the combo box above."
+msgstr "वरील कॉम्बो बॉक्स वापरून निवडलेल्या दिनदर्शिकेचा रंग निवडा"
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:212
+#, kde-format
+msgctxt "@title:tab"
+msgid "Fonts"
+msgstr "फॉन्ट"
+
+#: prefs/koprefsdialogcolorsandfonts.cpp:223
+#: prefs/koprefsdialogcolorsandfonts.cpp:228
+#, kde-format
+msgctxt "@label"
+msgid "Event text"
+msgstr "घटना मजकूर"
+
+#: prefs/koprefsdialoggroupscheduling.cpp:57
+#, kde-format
+msgctxt "@label"
+msgid "Mail transport:"
+msgstr "मेल वाहतुक :"
+
+#: prefs/koprefsdialogmain.cpp:57
 #, kde-format
 msgctxt "@title:tab personal settings"
 msgid "Personal"
 msgstr "खाजगी"
 
-#: prefs/koprefsdialog.cpp:108
+#: prefs/koprefsdialogmain.cpp:64
 #, kde-format
 msgctxt "@title:group email settings"
 msgid "Email Settings"
 msgstr "इमेल संच/मांडणी"
 
 #. i18n: ectx: label, entry (DefaultTodoAttachMethod), group (Hidden Options)
-#: prefs/koprefsdialog.cpp:127 settings/korganizer.kcfg:435
+#: prefs/koprefsdialogmain.cpp:83 settings/korganizer.kcfg:435
 #, kde-format
 msgid "Always ask"
 msgstr "नेहमी विचारा"
 
-#: prefs/koprefsdialog.cpp:138
+#: prefs/koprefsdialogmain.cpp:94
 #, kde-format
 msgctxt "@title:tab"
 msgid "Save"
 msgstr "साठवा"
 
-#: prefs/koprefsdialog.cpp:152
+#: prefs/koprefsdialogmain.cpp:108
 #, kde-format
 msgctxt "@title:tab systray settings"
 msgid "System Tray"
 msgstr "प्रणाली ट्रे"
 
-#: prefs/koprefsdialog.cpp:155
+#: prefs/koprefsdialogmain.cpp:111
 #, kde-format
 msgctxt "@title:group"
 msgid "Show/Hide Options"
 msgstr "पर्याय दाखवा/लपवा"
 
-#: prefs/koprefsdialog.cpp:163
+#: prefs/koprefsdialogmain.cpp:119
 #, kde-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -3607,7 +3685,7 @@ msgstr ""
 "तुमच्या प्रणाली धारिणीत के-ऑर्गनायझर स्मरणपत्र संरक्षक(daemon) दाखविण्यासाठी ही मांडणी/"
 "रचना निवडा/निश्चीत करा(शिफारस केलेले/सुचविलेले)."
 
-#: prefs/koprefsdialog.cpp:168
+#: prefs/koprefsdialogmain.cpp:124
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid ""
@@ -3621,13 +3699,13 @@ msgstr ""
 "</note> जरी प्रणाली धारिणीत दिसला नाही तरी संरक्षक(daemon) त्याचे काम करतच राहील."
 "</note>"
 
-#: prefs/koprefsdialog.cpp:177
+#: prefs/koprefsdialogmain.cpp:133
 #, kde-format
 msgctxt "@title:tab calendar account settings"
 msgid "Calendars"
 msgstr "दिनदर्शिका"
 
-#: prefs/koprefsdialog.cpp:181
+#: prefs/koprefsdialogmain.cpp:137
 #, fuzzy, kde-format
 #| msgctxt "@title:group"
 #| msgid "Calendar Decorations"
@@ -3635,31 +3713,87 @@ msgctxt "@title"
 msgid "Calendar Accounts"
 msgstr "दिनदर्शिकेची सजावट"
 
-#: prefs/koprefsdialog.cpp:248
+#: prefs/koprefsdialogplugins.cpp:75
+#, kde-format
+msgctxt "@title:column plugin name"
+msgid "Name"
+msgstr "नाव"
+
+#: prefs/koprefsdialogplugins.cpp:95
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure &Plugin..."
+msgstr "प्लगइन संयोजीत करा (&P)..."
+
+#: prefs/koprefsdialogplugins.cpp:98
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"This button allows you to configure the plugin that you have selected in the "
+"list above"
+msgstr "वरील सूचित निवडलेल्या प्लगीनची मांडणी/रचना करण्यासाठी हे बटन सहाय्य करते."
+
+#: prefs/koprefsdialogplugins.cpp:104
+#, kde-format
+msgctxt "@title:group"
+msgid "Position"
+msgstr "स्थिती"
+
+#: prefs/koprefsdialogplugins.cpp:108
+#, kde-format
+msgctxt "@option:check"
+msgid "Show at the top of the agenda views"
+msgstr ""
+
+#: prefs/koprefsdialogplugins.cpp:110
+#, kde-format
+msgctxt "@option:check"
+msgid "Show at the bottom of the agenda views"
+msgstr "विषयपत्रीकेच्या दृश्यपटलाच्या शेवटी दाखवा"
+
+#: prefs/koprefsdialogplugins.cpp:156
+#, kde-format
+msgctxt "@title:group"
+msgid "Calendar Decorations"
+msgstr "दिनदर्शिकेची सजावट"
+
+#: prefs/koprefsdialogplugins.cpp:158
+#, kde-format
+msgctxt "@title:group"
+msgid "Other Plugins"
+msgstr "अन्य प्लगइन्स"
+
+#: prefs/koprefsdialogplugins.cpp:236
+#, kde-format
+msgctxt "@info"
+msgid "Unable to configure this plugin"
+msgstr "ह्या प्लगइनची मांडणी/रचना करता येत नाही "
+
+#: prefs/koprefsdialogtime.cpp:61
 #, kde-format
 msgctxt "@title:tab"
 msgid "Regional"
 msgstr "प्रादेशिक/विभागीय/क्षेत्रीय"
 
-#: prefs/koprefsdialog.cpp:253
+#: prefs/koprefsdialogtime.cpp:66
 #, kde-format
 msgctxt "@title:group"
 msgid "General Time and Date"
 msgstr "सामान्य दिनांक व वेळ"
 
-#: prefs/koprefsdialog.cpp:264
+#: prefs/koprefsdialogtime.cpp:77
 #, kde-format
 msgctxt "@title:group"
 msgid "Holidays"
 msgstr "सुट्टया"
 
-#: prefs/koprefsdialog.cpp:275
+#: prefs/koprefsdialogtime.cpp:88
 #, kde-format
 msgctxt "@label"
 msgid "Use holiday region:"
 msgstr "सुट्टीचे क्षेत्र वापरा"
 
-#: prefs/koprefsdialog.cpp:300
+#: prefs/koprefsdialogtime.cpp:113
 #, fuzzy, kde-format
 #| msgctxt "Holday region, region language"
 #| msgid "%1 (%2)"
@@ -3667,20 +3801,20 @@ msgctxt "@item:inlistbox Holiday region, region language"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: prefs/koprefsdialog.cpp:308
+#: prefs/koprefsdialogtime.cpp:121
 #, fuzzy, kde-format
 #| msgid "Use holiday region:"
 msgctxt "@item:inlistbox"
 msgid "Select Holiday Regions"
 msgstr "सुट्ट्यांचा हंगाम वापरा:"
 
-#: prefs/koprefsdialog.cpp:320
+#: prefs/koprefsdialogtime.cpp:133
 #, kde-format
 msgctxt "@title:group"
 msgid "Working Period"
 msgstr "कामकाजाचा अवधी"
 
-#: prefs/koprefsdialog.cpp:338
+#: prefs/koprefsdialogtime.cpp:151
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3692,92 +3826,92 @@ msgstr ""
 "हा तुमचा कामाचा दिवस असेल तर ही पेटी तपासा, अथवा कामाच्या तासांवर रंगांच्या सहाय्याने "
 "खुणा केल्या जाणार नाहीत."
 
-#: prefs/koprefsdialog.cpp:356
+#: prefs/koprefsdialogtime.cpp:169
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Monday"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:357
+#: prefs/koprefsdialogtime.cpp:170
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Tuesday"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:358
+#: prefs/koprefsdialogtime.cpp:171
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Wednesday"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:359
+#: prefs/koprefsdialogtime.cpp:172
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Thursday"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:360
+#: prefs/koprefsdialogtime.cpp:173
 #, fuzzy, kde-format
 #| msgid "Holiday"
 msgctxt "@item:inlistbox"
 msgid "Friday"
 msgstr "सुट्टी"
 
-#: prefs/koprefsdialog.cpp:361
+#: prefs/koprefsdialogtime.cpp:174
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Saturday"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:362
+#: prefs/koprefsdialogtime.cpp:175
 #, kde-format
 msgctxt "@item:inlistbox"
 msgid "Sunday"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:393
+#: prefs/koprefsdialogtime.cpp:206
 #, kde-format
 msgctxt "@title:tab"
 msgid "Default Values"
 msgstr "मूलभूत मूल्ये"
 
-#: prefs/koprefsdialog.cpp:397
+#: prefs/koprefsdialogtime.cpp:210
 #, kde-format
 msgctxt "@title:group"
 msgid "Appointments"
 msgstr "नियोजित भेट"
 
-#: prefs/koprefsdialog.cpp:417
+#: prefs/koprefsdialogtime.cpp:230
 #, kde-format
 msgctxt "@title:group"
 msgid "Reminders"
 msgstr "आठवण देणारे"
 
-#: prefs/koprefsdialog.cpp:423
+#: prefs/koprefsdialogtime.cpp:236
 #, kde-format
 msgctxt "@label"
 msgid "Default reminder time:"
 msgstr "स्मरणपत्रांची पूर्वनिर्धारित वेळ"
 
-#: prefs/koprefsdialog.cpp:444
+#: prefs/koprefsdialogtime.cpp:257
 #, kde-format
 msgctxt "@item:inlistbox reminder units in minutes"
 msgid "minute(s)"
 msgstr "मिनिटे"
 
-#: prefs/koprefsdialog.cpp:446
+#: prefs/koprefsdialogtime.cpp:259
 #, kde-format
 msgctxt "@item:inlistbox reminder time units in hours"
 msgid "hour(s)"
 msgstr "तास"
 
-#: prefs/koprefsdialog.cpp:448
+#: prefs/koprefsdialogtime.cpp:261
 #, kde-format
 msgctxt "@item:inlistbox reminder time units in days"
 msgid "day(s)"
 msgstr "दिवस"
 
-#: prefs/koprefsdialog.cpp:459
+#: prefs/koprefsdialogtime.cpp:272
 #, kde-format
 msgid ""
 "*.ogg *.wav *.mp3 *.wma *.flac *.aiff *.raw *.au *.ra|Audio Files (*.ogg *."
@@ -3786,200 +3920,73 @@ msgstr ""
 "*.ogg *.wav *.mp3 *.wma *.flac *.aiff *.raw *.au *.ra|Audio Files (*.ogg *."
 "wav *.mp3 *.wma *.flac *.aiff *.raw *.au *.ra)"
 
-#: prefs/koprefsdialog.cpp:637
+#: prefs/koprefsdialogviews.cpp:67
 #, kde-format
 msgctxt "@title:tab general settings"
 msgid "General"
 msgstr "सामान्य"
 
-#: prefs/koprefsdialog.cpp:643 prefs/koprefsdialog.cpp:690
-#: prefs/koprefsdialog.cpp:746 prefs/koprefsdialog.cpp:781
+#: prefs/koprefsdialogviews.cpp:73 prefs/koprefsdialogviews.cpp:120
+#: prefs/koprefsdialogviews.cpp:176 prefs/koprefsdialogviews.cpp:211
 #, kde-format
 msgctxt "@title:group"
 msgid "Display Options"
 msgstr "दृश्य पर्याय"
 
-#: prefs/koprefsdialog.cpp:650
+#: prefs/koprefsdialogviews.cpp:80
 #, kde-format
 msgctxt "@label suffix in the N days spin box"
 msgid " days"
 msgstr " दिवस"
 
-#: prefs/koprefsdialog.cpp:666
+#: prefs/koprefsdialogviews.cpp:96
 #, kde-format
 msgctxt "@title:group"
 msgid "Date Navigator"
 msgstr "तारीख निर्देशक/वाहक"
 
-#: prefs/koprefsdialog.cpp:684
+#: prefs/koprefsdialogviews.cpp:114
 #, kde-format
 msgctxt "@title:tab"
 msgid "Agenda View"
 msgstr "विषयपत्रीकेचे दृश्यरूप"
 
-#: prefs/koprefsdialog.cpp:697
+#: prefs/koprefsdialogviews.cpp:127
 #, kde-format
 msgctxt "@label suffix in the hour size spin box"
 msgid " pixels"
 msgstr " पिक्सेल्स"
 
-#: prefs/koprefsdialog.cpp:740
+#: prefs/koprefsdialogviews.cpp:170
 #, kde-format
 msgctxt "@title:tab"
 msgid "Month View"
 msgstr "महिन्याचे दृश्यरूप"
 
-#: prefs/koprefsdialog.cpp:775
+#: prefs/koprefsdialogviews.cpp:205
 #, kde-format
 msgctxt "@title:tab"
 msgid "Todo View"
 msgstr "करायच्या कामांचे दृष्यरूप"
 
-#: prefs/koprefsdialog.cpp:789
+#: prefs/koprefsdialogviews.cpp:219
 #, kde-format
 msgctxt "@title:group"
 msgid "Other Options"
 msgstr "अन्य पर्याय"
 
-#: prefs/koprefsdialog.cpp:909
-#, kde-format
-msgctxt "@title:tab"
-msgid "Colors"
-msgstr "रंग"
-
-#: prefs/koprefsdialog.cpp:955
-#, kde-format
-msgctxt "@title:group"
-msgid "Categories"
-msgstr "विभाग"
-
-#: prefs/koprefsdialog.cpp:968
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Select here the event category you want to modify. You can change the "
-"selected category color using the button below."
-msgstr ""
-"येथे तुम्हाला  फेरबदल करावयाचा आहे त्या कार्यक्रमाचा गट/प्रकार निवडा. खालील बटण वापरून "
-"तुम्ही निवडलेल्या गटाचा/प्रवर्गाचा रंग बदलू शकता."
-
-#: prefs/koprefsdialog.cpp:978
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose here the color of the event category selected using the combo box "
-"above."
-msgstr "वरील कॉम्बो बॉक्स वापरून निवडलेल्या कार्यक्रमाच्या गटाचा रंग निवडा."
-
-#: prefs/koprefsdialog.cpp:987
-#, kde-format
-msgctxt "@title:group"
-msgid "Resources"
-msgstr "संसाधने"
-
-#: prefs/koprefsdialog.cpp:1003
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Select the calendar you want to modify. You can change the selected calendar "
-"color using the button below."
-msgstr ""
-" येथे तुम्हाला  फेरबदल करावयाचा आहे ती दिनदर्शिका निवडा. खालील बटण वापरून तुम्ही "
-"निवडलेल्या दिनदर्शिकेचा रंग बदलू शकता."
-
-#: prefs/koprefsdialog.cpp:1013
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"Choose here the color of the calendar selected using the combo box above."
-msgstr "वरील कॉम्बो बॉक्स वापरून निवडलेल्या दिनदर्शिकेचा रंग निवडा"
-
-#: prefs/koprefsdialog.cpp:1023
-#, kde-format
-msgctxt "@title:tab"
-msgid "Fonts"
-msgstr "फॉन्ट"
-
-#: prefs/koprefsdialog.cpp:1037 prefs/koprefsdialog.cpp:1045
-#, kde-format
-msgctxt "@label"
-msgid "Event text"
-msgstr "घटना मजकूर"
-
-#: prefs/koprefsdialog.cpp:1211
-#, kde-format
-msgctxt "@label"
-msgid "Mail transport:"
-msgstr "मेल वाहतुक :"
-
-#: prefs/koprefsdialog.cpp:1420
-#, kde-format
-msgctxt "@title:column plugin name"
-msgid "Name"
-msgstr "नाव"
-
-#: prefs/koprefsdialog.cpp:1440
-#, kde-format
-msgctxt "@action:button"
-msgid "Configure &Plugin..."
-msgstr "प्लगइन संयोजीत करा (&P)..."
-
-#: prefs/koprefsdialog.cpp:1443
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"This button allows you to configure the plugin that you have selected in the "
-"list above"
-msgstr "वरील सूचित निवडलेल्या प्लगीनची मांडणी/रचना करण्यासाठी हे बटन सहाय्य करते."
-
-#: prefs/koprefsdialog.cpp:1449
-#, kde-format
-msgctxt "@title:group"
-msgid "Position"
-msgstr "स्थिती"
-
-#: prefs/koprefsdialog.cpp:1453
-#, kde-format
-msgctxt "@option:check"
-msgid "Show at the top of the agenda views"
-msgstr ""
-
-#: prefs/koprefsdialog.cpp:1455
-#, kde-format
-msgctxt "@option:check"
-msgid "Show at the bottom of the agenda views"
-msgstr "विषयपत्रीकेच्या दृश्यपटलाच्या शेवटी दाखवा"
-
-#: prefs/koprefsdialog.cpp:1501
-#, kde-format
-msgctxt "@title:group"
-msgid "Calendar Decorations"
-msgstr "दिनदर्शिकेची सजावट"
-
-#: prefs/koprefsdialog.cpp:1503
-#, kde-format
-msgctxt "@title:group"
-msgid "Other Plugins"
-msgstr "अन्य प्लगइन्स"
-
-#: prefs/koprefsdialog.cpp:1581
-#, kde-format
-msgctxt "@info"
-msgid "Unable to configure this plugin"
-msgstr "ह्या प्लगइनची मांडणी/रचना करता येत नाही "
-
-#: prefs/koprefsdialog.cpp:1758
+#: prefs/koprefsuserfeedback.cpp:49
 #, kde-format
 msgid "KCMUserFeedBack"
 msgstr ""
 
-#: prefs/koprefsdialog.cpp:1760
+#: prefs/koprefsuserfeedback.cpp:51
 #, fuzzy, kde-format
 #| msgid "KOrganizer Confirmation"
 msgid "KOrganizer Configure User FeedBack"
 msgstr "के-ऑर्गनायझर समर्थन"
 
-#: prefs/koprefsdialog.cpp:1762
+#: prefs/koprefsuserfeedback.cpp:53
 #, kde-format
 msgid "(c) 2020 Laurent Montel"
 msgstr ""
