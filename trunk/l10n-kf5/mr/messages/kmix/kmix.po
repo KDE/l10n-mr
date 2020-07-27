@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-16 02:09+0200\n"
+"POT-Creation-Date: 2020-07-27 02:12+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -82,17 +82,17 @@ msgstr "आवाज रूपरेषा 3 लोड करा"
 msgid "Load volume profile 4"
 msgstr "आवाज रूपरेषा 4 लोड करा"
 
-#: apps/kmix.cpp:241 gui/mdwslider.cpp:165
+#: apps/kmix.cpp:241
 #, kde-format
 msgid "Increase Volume"
 msgstr "आवाज वाढवा"
 
-#: apps/kmix.cpp:248 gui/mdwslider.cpp:172
+#: apps/kmix.cpp:248
 #, kde-format
 msgid "Decrease Volume"
 msgstr "आवाज कमी करा"
 
-#: apps/kmix.cpp:253 gui/mdwslider.cpp:114
+#: apps/kmix.cpp:253 gui/mdwslider.cpp:107
 #, kde-format
 msgid "Mute"
 msgstr "मौन"
@@ -1042,59 +1042,58 @@ msgstr ""
 msgid "No sound devices are installed or are currently available."
 msgstr "एकही साऊंडकार्ड प्रतिष्ठापीत नाही किंवा जोडलेले नाही."
 
-#: gui/mdwenum.cpp:55
-#, kde-format
-msgid "&Hide"
-msgstr "लपवा (&H)"
-
-#: gui/mdwenum.cpp:58
-#, kde-format
-msgid "C&onfigure Shortcuts..."
-msgstr "शॉर्टकट संयोजीत करा (&O)..."
-
 #: gui/mdwslider.cpp:101
 #, fuzzy, kde-format
 #| msgid "&Split Channels"
 msgid "Split Channels"
 msgstr "माध्यम तोडा (&S)"
 
-#: gui/mdwslider.cpp:120 gui/mdwslider.cpp:639
+#: gui/mdwslider.cpp:113 gui/mdwslider.cpp:644
 #, kde-format
 msgid "Capture"
 msgstr "पकडा"
 
-#: gui/mdwslider.cpp:125
+#: gui/mdwslider.cpp:118
 #, fuzzy, kde-format
 #| msgid "Capture Devices"
 msgid "Use Device"
 msgstr "पकडणारी साधने"
 
-#: gui/mdwslider.cpp:130
-#, fuzzy, kde-format
-#| msgid "C&onfigure Shortcuts..."
-msgid "Channel Shortcuts..."
-msgstr "शॉर्टकट संयोजीत करा (&O)..."
-
-#: gui/mdwslider.cpp:179
+#: gui/mdwslider.cpp:163
 #, kde-format
-msgid "Toggle Mute"
-msgstr "मौन चालू/बंद"
+msgctxt "1=device name, 2=control name"
+msgid "Mute %2 on %1"
+msgstr ""
 
-#: gui/mdwslider.cpp:338
+#: gui/mdwslider.cpp:175
+#, fuzzy, kde-format
+#| msgid "Increase Volume"
+msgctxt "1=device name, 2=control name"
+msgid "Increase volume of %2 on %1"
+msgstr "आवाज वाढवा"
+
+#: gui/mdwslider.cpp:183
+#, fuzzy, kde-format
+#| msgid "Decrease Volume"
+msgctxt "1=device name, 2=control name"
+msgid "Decrease volume of %2 on %1"
+msgstr "आवाज कमी करा"
+
+#: gui/mdwslider.cpp:343
 #, fuzzy, kde-format
 #| msgid "Capture/Uncapture %1"
 msgctxt "%1=channel"
 msgid "Capture/Uncapture %1"
 msgstr "पकडा/सोडा %1"
 
-#: gui/mdwslider.cpp:339
+#: gui/mdwslider.cpp:344
 #, fuzzy, kde-format
 #| msgid "Mute/Unmute %1"
 msgctxt "%1=channel"
 msgid "Mute/Unmute %1"
 msgstr "मौन/आवाज %1"
 
-#: gui/mdwslider.cpp:343 gui/mdwslider.cpp:344 gui/mdwslider.cpp:345
+#: gui/mdwslider.cpp:348 gui/mdwslider.cpp:349 gui/mdwslider.cpp:350
 #, kde-format
 msgctxt "%1=device %2=channel"
 msgid ""
@@ -1102,16 +1101,22 @@ msgid ""
 "%2"
 msgstr ""
 
-#: gui/mdwslider.cpp:673
+#: gui/mdwslider.cpp:678
 #, kde-format
 msgid "%1 (capture)"
 msgstr "%1 (पकडा)"
 
-#: gui/mdwslider.cpp:1195
+#: gui/mdwslider.cpp:1180
 #, fuzzy, kde-format
 #| msgid "Automatic According to Category"
 msgid "Automatic (according to category)"
 msgstr "विभागा प्रमाणे स्वयंचलित"
+
+#: gui/mixdevicewidget.cpp:66
+#, fuzzy, kde-format
+#| msgid "C&onfigure Shortcuts..."
+msgid "Channel Shortcuts..."
+msgstr "शॉर्टकट संयोजीत करा (&O)..."
 
 #: gui/viewbase.cpp:96
 #, fuzzy, kde-format
@@ -1161,6 +1166,15 @@ msgstr "पकडणारी साधने नाहीत."
 #| msgid "No playback devices."
 msgid "There are no playback devices."
 msgstr "प्लेबॅक साधने नाहीत."
+
+#~ msgid "&Hide"
+#~ msgstr "लपवा (&H)"
+
+#~ msgid "C&onfigure Shortcuts..."
+#~ msgstr "शॉर्टकट संयोजीत करा (&O)..."
+
+#~ msgid "Toggle Mute"
+#~ msgstr "मौन चालू/बंद"
 
 #, fuzzy
 #~| msgid "Audio Setup"

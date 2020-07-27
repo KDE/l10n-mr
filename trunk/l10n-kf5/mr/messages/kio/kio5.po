@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-26 02:02+0200\n"
+"POT-Creation-Date: 2020-07-27 02:03+0200\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2057,7 +2057,7 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: core/kcoredirlister.cpp:396 gui/openurljob.cpp:152 widgets/krun.cpp:419
+#: core/kcoredirlister.cpp:396 gui/openurljob.cpp:168 widgets/krun.cpp:419
 #: widgets/paste.cpp:278 widgets/renamedialog.cpp:595
 #, kde-format
 msgid ""
@@ -2306,7 +2306,7 @@ msgstr ""
 msgid "The procedure to set the client certificate for the session failed."
 msgstr ""
 
-#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:395
+#: core/tcpslavebase.cpp:698 widgets/jobuidelegate.cpp:399
 #, kde-format
 msgid "SSL"
 msgstr "SSL"
@@ -2417,9 +2417,9 @@ msgstr "पुन्हा दाखल करा"
 msgid "New Folder..."
 msgstr "नवीन संचयीका..."
 
-#: filewidgets/kdiroperator.cpp:2004 widgets/jobuidelegate.cpp:286
-#: widgets/jobuidelegate.cpp:287 widgets/jobuidelegate.cpp:295
-#: widgets/jobuidelegate.cpp:296
+#: filewidgets/kdiroperator.cpp:2004 widgets/jobuidelegate.cpp:290
+#: widgets/jobuidelegate.cpp:291 widgets/jobuidelegate.cpp:299
+#: widgets/jobuidelegate.cpp:300
 #, kde-format
 msgid "Move to Trash"
 msgstr "कचरापेटीत टाका"
@@ -3530,7 +3530,7 @@ msgid ""
 "%2."
 msgstr ""
 
-#: gui/applicationlauncherjob.cpp:262 gui/openurljob.cpp:613
+#: gui/applicationlauncherjob.cpp:262 gui/openurljob.cpp:744
 #: widgets/krun.cpp:210
 #, kde-format
 msgid "You are not authorized to select an application to open this file."
@@ -3565,12 +3565,12 @@ msgstr ""
 msgid "Launching %1"
 msgstr "%1 दाखल केले"
 
-#: gui/openurljob.cpp:166
+#: gui/openurljob.cpp:182
 #, kde-format
 msgid "Failed to open %1"
 msgstr ""
 
-#: gui/openurljob.cpp:414 widgets/kdesktopfileactions.cpp:138
+#: gui/openurljob.cpp:430 widgets/kdesktopfileactions.cpp:138
 #, kde-format
 msgid ""
 "The desktop entry file\n"
@@ -3578,20 +3578,27 @@ msgid ""
 "is of type Link but has no URL=... entry."
 msgstr ""
 
-#: gui/openurljob.cpp:481
+#: gui/openurljob.cpp:484
 #, kde-format
 msgid ""
-"The file \"%1\" is an executable program. For safety it will not be started."
+"The executable file \"%1\" is located on a remote filesystem. For safety "
+"reasons it will not be started."
 msgstr ""
 
-#: gui/openurljob.cpp:504
+#: gui/openurljob.cpp:528
+#, kde-format
+msgid ""
+"For security reasons, launching executables is not allowed in this context."
+msgstr ""
+
+#: gui/openurljob.cpp:555
 #, kde-format
 msgid ""
 "The program \"%1\" needs to have executable permission before it can be "
 "launched."
 msgstr ""
 
-#: gui/openurljob.cpp:515
+#: gui/openurljob.cpp:566
 #, fuzzy, kde-format
 #| msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
 msgid ""
@@ -3599,16 +3606,22 @@ msgid ""
 "%2."
 msgstr "<qt>रचना फाईल <b>%1</b> अस्तित्वात नाही.</qt>"
 
-#: gui/openurljob.cpp:573 widgets/kdesktopfileactions.cpp:71
+#: gui/openurljob.cpp:654 widgets/kdesktopfileactions.cpp:71
 #, kde-format
 msgid "The desktop entry file %1 has no Type=... entry."
 msgstr ""
 
-#: gui/openurljob.cpp:624
+#: gui/openurljob.cpp:755
 #, fuzzy, kde-format
 #| msgid "Cannot open file"
 msgid "Failed to open the file."
 msgstr "फाईल उघडू शकत नाही"
+
+#: gui/openurljob.cpp:789
+#, fuzzy, kde-format
+#| msgid "The file \"%1\" could not be found"
+msgid "The program \"%1\" could not be launched."
+msgstr "\"%1\" हि फाईल आढळली नाही"
 
 #: ioslaves/file/file.cpp:188
 #, kde-format
@@ -6761,7 +6774,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "पूर्ववत करा प्रत करा पुष्टिकरण"
 
-#: widgets/jobuidelegate.cpp:254
+#: widgets/jobuidelegate.cpp:258
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6770,14 +6783,14 @@ msgid ""
 "emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:255 widgets/jobuidelegate.cpp:264
-#: widgets/jobuidelegate.cpp:274
+#: widgets/jobuidelegate.cpp:259 widgets/jobuidelegate.cpp:268
+#: widgets/jobuidelegate.cpp:278
 #, fuzzy, kde-format
 #| msgid "Delete Entry"
 msgid "Delete Permanently"
 msgstr "नोंद काढून टाका"
 
-#: widgets/jobuidelegate.cpp:262
+#: widgets/jobuidelegate.cpp:266
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6789,7 +6802,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/jobuidelegate.cpp:273
+#: widgets/jobuidelegate.cpp:277
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6797,13 +6810,13 @@ msgid ""
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:275
+#: widgets/jobuidelegate.cpp:279
 #, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "कचरापेटी रिकामी करा"
 
-#: widgets/jobuidelegate.cpp:285
+#: widgets/jobuidelegate.cpp:289
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -6811,7 +6824,7 @@ msgid ""
 "filename>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:293
+#: widgets/jobuidelegate.cpp:297
 #, fuzzy, kde-format
 #| msgid "Do you really want to delete this item?"
 #| msgid_plural "Do you really want to delete these %1 items?"
@@ -6820,7 +6833,7 @@ msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] "हा घटक तुम्हाला काढून टाकायचा आहे का?"
 msgstr[1] "हा घटक तुम्हाला काढून टाकायचा आहे का?"
 
-#: widgets/jobuidelegate.cpp:394
+#: widgets/jobuidelegate.cpp:398
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "परस्पर SSL प्रमाणपत्र श्रृंखला सदोषीत आहे असे दिसून येते."
