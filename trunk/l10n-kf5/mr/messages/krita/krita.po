@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-26 02:09+0200\n"
+"POT-Creation-Date: 2020-07-28 02:10+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -7340,8 +7340,8 @@ msgctxt "action"
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
-#: krita/main.cc:531 libs/ui/KisApplication.cpp:417
-#: libs/ui/KisApplication.cpp:682
+#: krita/main.cc:531 libs/ui/KisApplication.cpp:428
+#: libs/ui/KisApplication.cpp:693
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Warning"
@@ -8547,7 +8547,7 @@ msgctxt "The category of filters that do not fit in a category. Noun."
 msgid "Other"
 msgstr "इतर"
 
-#: libs/image/generator/kis_generator_layer.cpp:176
+#: libs/image/generator/kis_generator_layer.cpp:178
 #, kde-format
 msgid "Generator"
 msgstr "निर्माता"
@@ -9495,6 +9495,12 @@ msgctxt "description of a file type"
 msgid "JP2 Image"
 msgstr "प्रतिमा"
 
+#: libs/koplugin/KisMimeDatabase.cpp:311
+#, kde-format
+msgctxt "description of a file type"
+msgid "SeExpr script package"
+msgstr ""
+
 #: libs/libkis/Document.cpp:918 libs/ui/KisMainWindow.cpp:1895
 #, fuzzy, kde-format
 msgid "Import frames"
@@ -9775,6 +9781,7 @@ msgstr ""
 
 #: libs/pigment/compositeops/KoCompositeOpCopy2.h:45
 #: libs/ui/widgets/kis_paintop_presets_save.cpp:84
+#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:77
 #, kde-format
 msgid "Copy"
 msgstr "प्रत करा"
@@ -11623,6 +11630,7 @@ msgstr ""
 #: libs/pigment/resources/KoColorSet.cpp:1118
 #: libs/ui/actions/KisPasteActionFactories.cpp:276
 #: libs/ui/animation/KisDlgAnimationRenderer.cpp:294 libs/ui/KisView.cpp:715
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:38
 #, fuzzy, kde-format
 msgid "Untitled"
 msgstr "शिर्षकहीन-1"
@@ -12249,10 +12257,10 @@ msgstr ""
 #: libs/ui/input/kis_tablet_debugger.cpp:103 libs/ui/kis_filter_manager.cc:243
 #: libs/ui/kis_filter_manager.cc:252 libs/ui/kis_layer_manager.cc:315
 #: libs/ui/kis_layer_manager.cc:953 libs/ui/kis_node_manager.cpp:1159
-#: libs/ui/kis_node_manager.cpp:1215 libs/ui/KisApplication.cpp:920
-#: libs/ui/KisApplication.cpp:923 libs/ui/KisApplication.cpp:948
-#: libs/ui/KisApplication.cpp:980 libs/ui/KisApplication.cpp:994
-#: libs/ui/KisApplication.cpp:1022 libs/ui/KisDocument.cpp:792
+#: libs/ui/kis_node_manager.cpp:1215 libs/ui/KisApplication.cpp:931
+#: libs/ui/KisApplication.cpp:934 libs/ui/KisApplication.cpp:959
+#: libs/ui/KisApplication.cpp:991 libs/ui/KisApplication.cpp:1005
+#: libs/ui/KisApplication.cpp:1033 libs/ui/KisDocument.cpp:792
 #: libs/ui/KisDocument.cpp:1518 libs/ui/KisDocument.cpp:1561
 #: libs/ui/KisDocument.cpp:1569 libs/ui/KisMainWindow.cpp:831
 #: libs/ui/KisMainWindow.cpp:1005 libs/ui/KisMainWindow.cpp:1127
@@ -12271,8 +12279,8 @@ msgstr ""
 #: plugins/extensions/imagesplit/imagesplit.cpp:88
 #: plugins/extensions/qmic/QMic.cpp:126 plugins/extensions/qmic/QMic.cpp:298
 #: plugins/extensions/qmic/QMic.cpp:327
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:285
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:212
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:297
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:229
 #: plugins/filters/colorsfilters/kis_multichannel_filter_base.cpp:394
 #: plugins/tools/basictools/kis_tool_colorpicker.cc:157
 #: plugins/tools/basictools/kis_tool_colorpicker.cc:162
@@ -12297,7 +12305,7 @@ msgid ""
 "%1"
 msgstr "नवीन संयोजना %1"
 
-#: libs/ui/animation/KisAnimationRender.cpp:141 libs/ui/KisApplication.cpp:636
+#: libs/ui/animation/KisAnimationRender.cpp:141 libs/ui/KisApplication.cpp:647
 #, fuzzy, kde-format
 #| msgid "Failed to create an action."
 msgid "Failed to render animation frames!"
@@ -13401,6 +13409,7 @@ msgstr "बंद करा"
 #: libs/ui/input/kis_tool_invocation_action.cpp:60 libs/ui/kis_clipboard.cc:304
 #: libs/ui/KisView.cpp:531
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:174
+#: plugins/generators/seexpr/wdgseexpr.ui:175
 #: plugins/python/krita_script_starter/bbdkss.ui:199
 #, kde-format
 msgid "Cancel"
@@ -15612,7 +15621,7 @@ msgid "Adapt to Image Resolution (ppi)"
 msgstr "प्रतिमेचे रेझोल्युशन ठरवा"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: libs/ui/forms/wdgdlggeneratorlayer.ui:22
+#: libs/ui/forms/wdgdlggeneratorlayer.ui:34
 #: libs/ui/forms/wdgfilternodecreation.ui:24
 #, fuzzy, kde-format
 msgid "Layer Name:"
@@ -16837,6 +16846,7 @@ msgstr "वर्तमान प्रीसेट"
 #: plugins/dockers/gamutmask/forms/wdgGamutMaskChooser.ui:210
 #: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:62
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:57
+#: plugins/generators/seexpr/wdgseexpr.ui:168
 #: plugins/paintops/libpaintop/kis_clipboard_brush_widget.cpp:163
 #: plugins/paintops/libpaintop/kis_custom_brush_widget.cpp:148
 #: plugins/python/scripter/ui_scripter/actions/saveaction/saveaction.py:33
@@ -17421,6 +17431,7 @@ msgstr "कुंचल्याने रंगवा"
 
 #. i18n: ectx: property (text), widget (QPushButton, loadExistingThumbnailButton)
 #: libs/ui/forms/wdgsavebrushpreset.ui:139
+#: plugins/generators/seexpr/wdgseexprsavepreset.ui:108
 #, fuzzy, kde-format
 #| msgid "Thumbnails"
 msgid "Load Existing Thumbnail"
@@ -17435,6 +17446,7 @@ msgstr "लघुप्रतिमा"
 
 #. i18n: ectx: property (text), widget (QPushButton, loadImageIntoThumbnailButton)
 #: libs/ui/forms/wdgsavebrushpreset.ui:153
+#: plugins/generators/seexpr/wdgseexprsavepreset.ui:115
 #, fuzzy, kde-format
 #| msgid "Rotate Image"
 msgid "Load Image"
@@ -17447,7 +17459,9 @@ msgid "Load from Icon Library"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, clearBrushPresetThumbnailButton)
+#. i18n: ectx: property (text), widget (QPushButton, clearPresetThumbnailButton)
 #: libs/ui/forms/wdgsavebrushpreset.ui:167
+#: plugins/generators/seexpr/wdgseexprsavepreset.ui:129
 #, fuzzy, kde-format
 #| msgid "Thumbnails"
 msgid "Clear Thumbnail"
@@ -17521,7 +17535,7 @@ msgid "Anti-aliasing"
 msgstr "एन्टी-अलायजींगचा"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, DlgSessionManager)
-#: libs/ui/forms/wdgsessionmanager.ui:14 libs/ui/KisApplication.cpp:361
+#: libs/ui/forms/wdgsessionmanager.ui:14 libs/ui/KisApplication.cpp:369
 #, fuzzy, kde-format
 #| msgid "Dimensions"
 msgid "Sessions"
@@ -18603,9 +18617,9 @@ msgstr "रंग (&C)"
 msgid "&Painter's Tools"
 msgstr "पेंटरची साधने (&P)"
 
-#: libs/ui/kis_control_frame.cpp:189 libs/ui/KisApplication.cpp:357
+#: libs/ui/kis_control_frame.cpp:189 libs/ui/KisApplication.cpp:365
 #: plugins/dockers/patterndocker/patterndocker_dock.cpp:32
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:174
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:186
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:76
 #, kde-format
 msgid "Patterns"
@@ -18616,9 +18630,9 @@ msgstr "रचना"
 msgid "Custom Pattern"
 msgstr "ऐच्छिक पॅटर्न"
 
-#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:334
-#: libs/ui/KisApplication.cpp:335
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:172
+#: libs/ui/kis_control_frame.cpp:236 libs/ui/KisApplication.cpp:342
+#: libs/ui/KisApplication.cpp:343
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:181
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:74
 #, kde-format
 msgid "Gradients"
@@ -19346,8 +19360,10 @@ msgid "Flip Gradient"
 msgstr "उतरणी संपादित करा"
 
 #. i18n: ectx: attribute (title), widget (QWidget, textureOptionsTab)
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
 #: libs/ui/kis_stopgradient_editor.cpp:315
 #: libs/ui/KisImportExportManager.cpp:586
+#: plugins/generators/seexpr/wdgseexpr.ui:59
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:59
 #, kde-format
 msgid "Options"
@@ -19377,52 +19393,59 @@ msgctxt "floating message about zoom"
 msgid "Zoom: %1 %"
 msgstr "झूम 100% वर पुन्हा निश्चित करा"
 
-#: libs/ui/KisApplication.cpp:327
+#: libs/ui/KisApplication.cpp:335
 #, fuzzy, kde-format
 #| msgid "Brush Presets"
 msgid "Brush presets"
 msgstr "कुंचला पूर्व संयोजना"
 
-#: libs/ui/KisApplication.cpp:329 libs/ui/KisApplication.cpp:330
-#: libs/ui/KisApplication.cpp:331 libs/ui/KisApplication.cpp:332
+#: libs/ui/KisApplication.cpp:337 libs/ui/KisApplication.cpp:338
+#: libs/ui/KisApplication.cpp:339 libs/ui/KisApplication.cpp:340
 #, fuzzy, kde-format
 #| msgid "Brush tip"
 msgid "Brush tips"
 msgstr "कुंचल्याचे टोक"
 
-#: libs/ui/KisApplication.cpp:337
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:175
+#: libs/ui/KisApplication.cpp:345
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:187
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:77
 #, kde-format
 msgid "Palettes"
 msgstr "पटलस्"
 
-#: libs/ui/KisApplication.cpp:358 libs/ui/widgets/kis_workspace_chooser.cpp:88
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:176
+#: libs/ui/KisApplication.cpp:366 libs/ui/widgets/kis_workspace_chooser.cpp:88
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:188
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:78
 #, kde-format
 msgid "Workspaces"
 msgstr "कार्यक्षेत्रे"
 
-#: libs/ui/KisApplication.cpp:359
+#: libs/ui/KisApplication.cpp:367
 #, fuzzy, kde-format
 #| msgid "Vector Layer"
 msgid "SVG symbol libraries"
 msgstr "व्हेक्टर स्तर"
 
-#: libs/ui/KisApplication.cpp:360 libs/ui/widgets/kis_workspace_chooser.cpp:89
+#: libs/ui/KisApplication.cpp:368 libs/ui/widgets/kis_workspace_chooser.cpp:89
 #, fuzzy, kde-format
 #| msgid "Window size"
 msgid "Window layouts"
 msgstr "खिडकीचा आकार"
 
-#: libs/ui/KisApplication.cpp:362
+#: libs/ui/KisApplication.cpp:370
 #, fuzzy, kde-format
 #| msgid "Rotate Canvas"
 msgid "Gamut masks"
 msgstr "कॅनव्हास फिरवा"
 
-#: libs/ui/KisApplication.cpp:370
+#: libs/ui/KisApplication.cpp:372
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:184
+#, fuzzy, kde-format
+#| msgid "Subscript"
+msgid "SeExpr Scripts"
+msgstr "सबस्क्रिप्ट"
+
+#: libs/ui/KisApplication.cpp:381
 #, kde-format
 msgid ""
 "%1\n"
@@ -19430,13 +19453,13 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:370 libs/ui/KisApplication.cpp:377
+#: libs/ui/KisApplication.cpp:381 libs/ui/KisApplication.cpp:388
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita: Fatal error"
 msgstr "इंटरलेसिंग"
 
-#: libs/ui/KisApplication.cpp:377
+#: libs/ui/KisApplication.cpp:388
 #, kde-format
 msgid ""
 "\n"
@@ -19444,12 +19467,12 @@ msgid ""
 "Krita will quit now."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:402
+#: libs/ui/KisApplication.cpp:413
 #, fuzzy, kde-format
 msgid "Loading Plugins Exiv/IO..."
 msgstr "पॅटर्न्स (&P)"
 
-#: libs/ui/KisApplication.cpp:418
+#: libs/ui/KisApplication.cpp:429
 #, kde-format
 msgid ""
 "You are running a 32 bits build on a 64 bits Windows.\n"
@@ -19457,46 +19480,46 @@ msgid ""
 "Please download and install the x64 build instead."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:435
+#: libs/ui/KisApplication.cpp:446
 #, kde-format
 msgid "Initializing Globals"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:465
+#: libs/ui/KisApplication.cpp:476
 #, fuzzy, kde-format
 msgid "Adding resource types"
 msgstr "संसाधने (&R)"
 
-#: libs/ui/KisApplication.cpp:483
+#: libs/ui/KisApplication.cpp:494
 #, fuzzy, kde-format
 msgid "Loading Main Window..."
 msgstr "ग्रेडियंट"
 
-#: libs/ui/KisApplication.cpp:582
+#: libs/ui/KisApplication.cpp:593
 #, kde-format
 msgid "Mimetype not found, try using the -mimetype option"
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:663 libs/ui/KisApplication.cpp:789
+#: libs/ui/KisApplication.cpp:674 libs/ui/KisApplication.cpp:800
 #, fuzzy, kde-format
 msgid "File layer"
 msgstr "गाळणी स्तर (&F)..."
 
-#: libs/ui/KisApplication.cpp:671 libs/ui/KisApplication.cpp:676
-#: libs/ui/KisApplication.cpp:783 libs/ui/KisApplication.cpp:797
-#: libs/ui/KisApplication.cpp:802
+#: libs/ui/KisApplication.cpp:682 libs/ui/KisApplication.cpp:687
+#: libs/ui/KisApplication.cpp:794 libs/ui/KisApplication.cpp:808
+#: libs/ui/KisApplication.cpp:813
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Krita:Warning"
 msgstr "इशारा"
 
-#: libs/ui/KisApplication.cpp:672 libs/ui/KisApplication.cpp:798
+#: libs/ui/KisApplication.cpp:683 libs/ui/KisApplication.cpp:809
 #, fuzzy, kde-format
 #| msgid "Cannot pick a color as the active layer is not visible."
 msgid "Cannot add %1 as a file layer: the file does not exist."
 msgstr "सक्रिय स्तर  दिसत नसल्यानेकोणताही रंग घेता येत नाही."
 
-#: libs/ui/KisApplication.cpp:677
+#: libs/ui/KisApplication.cpp:688
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -19509,7 +19532,7 @@ msgid ""
 "checkbox in the settings (Settings -> General -> Window)."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:683
+#: libs/ui/KisApplication.cpp:694
 #, kde-format
 msgid ""
 "Cannot add the file layer: no document is open.\n"
@@ -19517,34 +19540,34 @@ msgid ""
 "open an existing file."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:784
+#: libs/ui/KisApplication.cpp:795
 #, fuzzy, kde-format
 msgid "Couldn't open file %1"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: libs/ui/KisApplication.cpp:803
+#: libs/ui/KisApplication.cpp:814
 #, kde-format
 msgid "Cannot add the file layer: no document is open."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:921
+#: libs/ui/KisApplication.cpp:932
 #, fuzzy, kde-format
 #| msgid "No shapes found in file: %1"
 msgid "No template found for: %1"
 msgstr "%1 या फाईल मध्ये आकार आढळला नाही"
 
-#: libs/ui/KisApplication.cpp:924
+#: libs/ui/KisApplication.cpp:935
 #, fuzzy, kde-format
 #| msgid "No shapes found in file: %1"
 msgid "Too many templates found for: %1"
 msgstr "%1 या फाईल मध्ये आकार आढळला नाही"
 
-#: libs/ui/KisApplication.cpp:949
+#: libs/ui/KisApplication.cpp:960
 #, fuzzy, kde-format
 msgid "Template %1 failed to load."
 msgstr "लुट फाईल निवडा"
 
-#: libs/ui/KisApplication.cpp:981
+#: libs/ui/KisApplication.cpp:992
 #, kde-format
 msgid ""
 "Krita configurations reset!\n"
@@ -19554,7 +19577,7 @@ msgid ""
 "Restart Krita for changes to take effect."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:995
+#: libs/ui/KisApplication.cpp:1006
 #, kde-format
 msgid ""
 "Failed to clear %1\n"
@@ -19562,7 +19585,7 @@ msgid ""
 "Please make sure no other program is using the file and try again."
 msgstr ""
 
-#: libs/ui/KisApplication.cpp:1023
+#: libs/ui/KisApplication.cpp:1034
 #, fuzzy, kde-format
 #| msgid "Move and rotate your canvas"
 msgid "Do you want to clear the settings file?"
@@ -22788,6 +22811,7 @@ msgid "Icon Size"
 msgstr "फॉन्ट आकार निश्चित करा"
 
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:109
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:51
 #, kde-format
 msgid "The settings for this preset have changed from their default."
 msgstr ""
@@ -26868,7 +26892,7 @@ msgid "Edit the gamut mask"
 msgstr "जाळीचे संपादन करा"
 
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:68
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:173
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:182
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:75
 #, fuzzy, kde-format
 #| msgid "Rotate Canvas"
@@ -27592,7 +27616,7 @@ msgid "Add foreground color"
 msgstr "पृष्ठभूमी रंग"
 
 #: plugins/dockers/presetdocker/presetdocker_dock.cpp:38
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:171
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:180
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:73
 #, kde-format
 msgid "Brush Presets"
@@ -29742,23 +29766,23 @@ msgstr ""
 msgid "Edit Resource Bundle"
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:144
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:153
 #, fuzzy, kde-format
 msgid "Create Resource Bundle"
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:170
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:179
 #: plugins/extensions/resourcemanager/dlg_embed_tags.cpp:72
 #, kde-format
 msgid "Brushes"
 msgstr "कुंचले"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:285
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:297
 #, kde-format
 msgid "The resource bundle name cannot be empty."
 msgstr ""
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:295
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:307
 #, fuzzy, kde-format
 #| msgid ""
 #| "A profile with that name already exists.\n"
@@ -29769,99 +29793,99 @@ msgstr ""
 "या नावाची रूपरेषा अगोदरच अस्तित्वात आहे.\n"
 "तुम्हाला ती खोडुन लिहायचे आहे का?"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:296
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:308
 #, fuzzy, kde-format
 #| msgid "Move and rotate your canvas"
 msgctxt "In a dialog regarding overwriting a bundle (resource pack)"
 msgid "Do you want to overwrite the existing bundle?"
 msgstr "तुमचा कॅनव्हास हलवा व फिरवा"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:357
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:369
 #, fuzzy, kde-format
 msgid "Select a directory to save the bundle"
 msgstr "चौकोनी भाग निवडा"
 
-#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:443
+#: plugins/extensions/resourcemanager/dlg_create_bundle.cpp:455
 #, fuzzy, kde-format
 msgid "Select file to use as bundle icon"
 msgstr "स्तरासाठी ब्लेंडिंग पद्धत निवडा."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:84
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:93
 #, fuzzy, kde-format
 msgid "Import Bundles..."
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:88
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:97
 #, fuzzy, kde-format
 msgid "Import Brushes..."
 msgstr "दस्तऐवज आयात करा..."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:92
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:101
 #, fuzzy, kde-format
 msgid "Import Gradients..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:96
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:105
 #, fuzzy, kde-format
 msgid "Import Palettes..."
 msgstr "पॅलेट संपादित करा..."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:100
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:109
 #, fuzzy, kde-format
 msgid "Import Patterns..."
 msgstr "स्तर आयात करा (&M).."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:104
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:113
 #, fuzzy, kde-format
 msgid "Import Presets..."
 msgstr "दस्तऐवज आयात करा..."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:108
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:117
 #, fuzzy, kde-format
 msgid "Import Workspaces..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:112
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:121
 #, fuzzy, kde-format
 msgid "Create Resource Bundle..."
 msgstr "संसाधन फाईल्स साफ करा"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:116
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:125
 #, fuzzy, kde-format
 msgid "Manage Resources..."
 msgstr "संसाधने (&R)"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:212
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:229
 #, fuzzy, kde-format
 msgid "Could not create the new bundle."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:246
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:263
 #, fuzzy, kde-format
 msgid "Import Brushes"
 msgstr "प्रतिमा आयात करा"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:258
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:275
 #, fuzzy, kde-format
 msgid "Import Presets"
 msgstr "संसाधन आयात करा"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:266
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:283
 #, fuzzy, kde-format
 msgid "Import Gradients"
 msgstr "प्रतिमा आयात करा"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:305
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:322
 #, fuzzy, kde-format
 msgid "Import Patterns"
 msgstr "स्तर आयात करा (&M).."
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:319
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:336
 #, fuzzy, kde-format
 msgid "Import Palettes"
 msgstr "ओळी आयात करा :"
 
-#: plugins/extensions/resourcemanager/resourcemanager.cpp:327
+#: plugins/extensions/resourcemanager/resourcemanager.cpp:344
 #, fuzzy, kde-format
 msgid "Import Workspaces"
 msgstr "कार्यक्षेत्रे"
@@ -32582,6 +32606,98 @@ msgstr "रेषीय"
 msgctxt "Screentone Interpolation Method - Sinusoidal"
 msgid "Sinusoidal"
 msgstr "दंडगोलीय"
+
+#: plugins/generators/seexpr/generator.cpp:84
+#, kde-format
+msgid "&SeExpr..."
+msgstr ""
+
+#: plugins/generators/seexpr/generator.h:64
+#, kde-format
+msgid "SeExpr"
+msgstr ""
+
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:49
+#, fuzzy, kde-format
+#| msgid "Choose brush preset"
+msgid "Reload the preset"
+msgstr "कुंचल्याचा प्रीसेट निवडा"
+
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:57
+#, kde-format
+msgctxt "SeExpr variable"
+msgid "Normalized X axis coordinate of the image from its top-left corner"
+msgstr ""
+
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:58
+#, kde-format
+msgctxt "SeExpr variable"
+msgid "Normalized Y axis coordinate of the image from its top-left corner"
+msgstr ""
+
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:59
+#, fuzzy, kde-format
+#| msgid "Image Split"
+msgctxt "SeExpr variable"
+msgid "Image width"
+msgstr "प्रतिमा दुभंग"
+
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:60
+#, fuzzy, kde-format
+msgctxt "SeExpr variable"
+msgid "Image height"
+msgstr "छपाई उंची :"
+
+#: plugins/generators/seexpr/kis_wdg_seexpr.cpp:309
+#, kde-format
+msgid "Expected this script to output color, got '%1'"
+msgstr ""
+
+#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:70
+#, fuzzy, kde-format
+msgid "Save New SeExpr Preset"
+msgstr "कुंचला पूर्व संयोजना"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, WdgSeExprSavePreset)
+#: plugins/generators/seexpr/kis_wdg_seexpr_presets_save.cpp:84
+#: plugins/generators/seexpr/wdgseexprsavepreset.ui:20
+#, fuzzy, kde-format
+#| msgid "Brush Presets"
+msgid "Save SeExpr Preset"
+msgstr "कुंचला पूर्व संयोजना"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: plugins/generators/seexpr/wdgseexpr.ui:42
+#, fuzzy, kde-format
+#| msgid "Subscript"
+msgid "Script"
+msgstr "सबस्क्रिप्ट"
+
+#. i18n: ectx: property (text), widget (QPushButton, saveNewBrushPresetButton)
+#: plugins/generators/seexpr/wdgseexpr.ui:233
+#, fuzzy, kde-format
+msgid "Save New SeExpr Preset..."
+msgstr "कुंचला पूर्व संयोजना"
+
+#. i18n: ectx: property (text), widget (QPushButton, saveBrushPresetButton)
+#: plugins/generators/seexpr/wdgseexpr.ui:240
+#, fuzzy, kde-format
+#| msgid "Overwrite Preset"
+msgid "Overwrite Preset"
+msgstr "प्रीसेट खोडून पुन्हा लिहा"
+
+#. i18n: ectx: property (text), widget (QLabel, newPresetNameLabel)
+#: plugins/generators/seexpr/wdgseexprsavepreset.ui:31
+#, fuzzy, kde-format
+msgid "Preset name:"
+msgstr "पहिले पान (&F)"
+
+#. i18n: ectx: property (text), widget (QPushButton, loadRenderFromScriptButton)
+#: plugins/generators/seexpr/wdgseexprsavepreset.ui:122
+#, fuzzy, kde-format
+#| msgid "Thumbnails"
+msgid "&Render Script to Thumbnail"
+msgstr "लघुप्रतिमा"
 
 #: plugins/generators/simplexnoise/simplexnoisegenerator.cpp:50
 #, fuzzy, kde-format
