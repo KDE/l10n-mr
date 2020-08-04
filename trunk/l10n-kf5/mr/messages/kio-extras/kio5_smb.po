@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_smb\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-06-09 02:09+0200\n"
+"POT-Creation-Date: 2020-08-04 02:18+0200\n"
 "PO-Revision-Date: 2013-03-28 15:17+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
-#: kio_smb_auth.cpp:123
+#: kio_smb_auth.cpp:37
 #, kde-format
 msgid "<qt>Please enter authentication information for <b>%1</b></qt>"
 msgstr "<qt>कृपया <b>%1</b> करिता अधिप्रमाणता माहिती दाखल करा</qt>"
 
-#: kio_smb_auth.cpp:126
+#: kio_smb_auth.cpp:40
 #, kde-format
 msgid ""
 "Please enter authentication information for:\n"
@@ -34,16 +34,6 @@ msgstr ""
 "कृपया खालील करिता अधिप्रमाणता माहिती:\n"
 "Server = %1\n"
 "Share = %2"
-
-#: kio_smb_auth.cpp:165
-#, kde-format
-msgid "libsmbclient failed to create context"
-msgstr "libsmbclient संदर्भ बनविण्यास अपयशी ठरला"
-
-#: kio_smb_auth.cpp:193
-#, kde-format
-msgid "libsmbclient failed to initialize context"
-msgstr "libsmbclient संदर्भ प्रारंभ करण्यास अपयशी ठरला"
 
 #: kio_smb_browse.cpp:56
 #, kde-format
@@ -137,6 +127,11 @@ msgstr "stat अंतर्गत अपरिचीत त्रुटी स�
 msgid "Error occurred while trying to access %1<nl/>%2"
 msgstr ""
 
+#: kio_smb_file.cpp:35
+#, kde-format
+msgid "libsmbclient failed to create context"
+msgstr "libsmbclient संदर्भ बनविण्यास अपयशी ठरला"
+
 #: kio_smb_mount.cpp:91 kio_smb_mount.cpp:117
 #, kde-format
 msgid ""
@@ -170,6 +165,9 @@ msgctxt ""
 "host entry when no pretty name is available. %1 likely is an IP address"
 msgid "Unknown Device @ <resource>%1</resource>"
 msgstr ""
+
+#~ msgid "libsmbclient failed to initialize context"
+#~ msgstr "libsmbclient संदर्भ प्रारंभ करण्यास अपयशी ठरला"
 
 #~ msgid "File does not exist: %1"
 #~ msgstr "फाईल अस्तित्वात नाही: %1"
