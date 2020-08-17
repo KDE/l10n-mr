@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-02 08:06+0100\n"
+"POT-Creation-Date: 2020-08-17 07:46+0200\n"
 "PO-Revision-Date: 2013-03-13 16:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -19,45 +19,47 @@ msgstr ""
 
 #: cmakebuilddirchooser.cpp:43
 #, kde-format
-msgid "Configure a build directory - %1"
+msgctxt "@title:window"
+msgid "Configure a Build Directory - %1"
 msgstr ""
 
 #: cmakebuilddirchooser.cpp:101
 #, kde-format
-msgid "Configure a build directory for %1"
+msgctxt "@title:window"
+msgid "Configure a Build Directory for %1"
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:206
+#: cmakebuilddirchooser.cpp:211
 #, kde-format
 msgid "You need to specify a build directory."
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:213
+#: cmakebuilddirchooser.cpp:218
 #, kde-format
 msgid "Using an already created build directory."
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:224
+#: cmakebuilddirchooser.cpp:229
 #, kde-format
 msgid "Creating a new build directory."
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:230
+#: cmakebuilddirchooser.cpp:235
 #, kde-format
 msgid "Build directory already configured."
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:232
+#: cmakebuilddirchooser.cpp:237
 #, kde-format
 msgid "This build directory is for %1, but the project directory is %2."
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:235
+#: cmakebuilddirchooser.cpp:240
 #, kde-format
 msgid "You may not select a relative build directory."
 msgstr ""
 
-#: cmakebuilddirchooser.cpp:237
+#: cmakebuilddirchooser.cpp:242
 #, kde-format
 msgid "The selected build directory is not empty."
 msgstr ""
@@ -65,30 +67,35 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, availableLabel)
 #: cmakebuilddirchooser.ui:32
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Available build directories:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, availableBuildDirs)
 #: cmakebuilddirchooser.ui:40
 #, kde-format
+msgctxt "@item:inlistbox"
 msgid "New build directory"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: cmakebuilddirchooser.ui:48
 #, kde-format
+msgctxt "@label:chooser"
 msgid "Build &directory:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: cmakebuilddirchooser.ui:84
 #, kde-format
+msgctxt "@label:chooser"
 msgid "&Installation prefix:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, installPrefix)
 #: cmakebuilddirchooser.ui:109
 #, kde-format
+msgctxt "@info:tooltip"
 msgid ""
 "The prefix under which the project will be installed. Leaving this empty "
 "will let CMake use its default install prefix."
@@ -97,12 +104,14 @@ msgstr ""
 #. i18n: ectx: property (placeholderText), widget (KUrlRequester, installPrefix)
 #: cmakebuilddirchooser.ui:112
 #, kde-format
+msgctxt "@info:placeholder"
 msgid "CMake's default install prefix"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: cmakebuilddirchooser.ui:119
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Build &type:"
 msgstr ""
 
@@ -110,12 +119,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: cmakebuilddirchooser.ui:162 settings/cmakebuildsettings.ui:178
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Extra arguments:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: cmakebuilddirchooser.ui:182
 #, kde-format
+msgctxt "@label:chooser"
 msgid "CMake &executable:"
 msgstr ""
 
@@ -125,27 +136,36 @@ msgid "INVALID"
 msgstr "अवैध"
 
 #: cmakecodecompletionmodel.cpp:211
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Command"
+msgctxt "@item"
 msgid "Command"
 msgstr "आदेश"
 
 #: cmakecodecompletionmodel.cpp:212
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Variable"
+msgctxt "@item"
 msgid "Variable"
 msgstr "परिवर्तनीय"
 
 #: cmakecodecompletionmodel.cpp:213
 #, kde-format
+msgctxt "@item"
 msgid "Macro"
 msgstr ""
 
 #: cmakecodecompletionmodel.cpp:214
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Path"
+msgctxt "@item"
 msgid "Path"
 msgstr "मार्ग"
 
 #: cmakecodecompletionmodel.cpp:215
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Target"
+msgctxt "@item"
 msgid "Target"
 msgstr "लक्ष्य"
 
@@ -155,36 +175,44 @@ msgid "wrong"
 msgstr ""
 
 #: cmakecommandscontents.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Commands"
+msgctxt "@item cmake"
 msgid "Commands"
 msgstr "आदेश"
 
 #: cmakecommandscontents.cpp:44
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Variables"
+msgctxt "@item cmake"
 msgid "Variables"
 msgstr "व्हेरिएबल्स"
 
 #: cmakecommandscontents.cpp:45
 #, kde-format
+msgctxt "@item cmake"
 msgid "Modules"
 msgstr ""
 
 #: cmakecommandscontents.cpp:46
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Properties"
+msgctxt "@item cmake"
 msgid "Properties"
 msgstr "गुणधर्म"
 
 #: cmakecommandscontents.cpp:47
 #, kde-format
+msgctxt "@item cmake"
 msgid "Policies"
 msgstr ""
 
 #: cmakecommandscontents.cpp:116
 #, kde-format
-msgid "<p>For better cmake documentation rendering, install rst2html</p>"
+msgid "<p>For better CMake documentation rendering, install rst2html.</p>"
 msgstr ""
 
-#: cmakedocumentation.cpp:60 cmakemanager.cpp:89
+#: cmakedocumentation.cpp:60 cmakemanager.cpp:91
 #, kde-format
 msgid "Unable to find a CMake executable. Is one installed on the system?"
 msgstr ""
@@ -199,17 +227,12 @@ msgstr ""
 msgid "<br /><em>Cache Documentation:</em> %1\n"
 msgstr ""
 
-#: cmakehelpdocumentation.cpp:34
+#: cmakehelpdocumentation.cpp:35
 #, kde-format
 msgid "CMake Content Page"
 msgstr ""
 
-#: cmakemanager.cpp:82
-#, kde-format
-msgid "KDevelop - CMake Support"
-msgstr ""
-
-#: cmakemanager.cpp:872
+#: cmakemanager.cpp:557
 #, kde-format
 msgid ""
 "Failed to configure project '%1' (error message: %2). As a result, "
@@ -232,85 +255,114 @@ msgstr ""
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: settings/cmakebuildsettings.ui:74
 #, kde-format
+msgctxt "@title:group"
 msgid "Cache Values"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: settings/cmakebuildsettings.ui:89
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Comment:"
+msgctxt "@label"
 msgid "Comment:"
 msgstr "टीप :"
 
 #. i18n: ectx: property (text), widget (QPushButton, showAdvanced)
 #: settings/cmakebuildsettings.ui:106
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Advanced"
+msgctxt "@action:button"
 msgid "Show Advanced"
-msgstr ""
+msgstr "प्रगत"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advancedBox)
-#: settings/cmakebuildsettings.ui:125 settings/cmakecachemodel.cpp:54
-#, kde-format
+#: settings/cmakebuildsettings.ui:125
+#, fuzzy, kde-format
+#| msgid "Advanced"
+msgctxt "@title:group"
 msgid "Advanced"
 msgstr "प्रगत"
 
 #. i18n: ectx: property (text), widget (QLabel, installationPrefixLabel)
 #: settings/cmakebuildsettings.ui:134
 #, kde-format
+msgctxt "@label:chooser"
 msgid "Installation prefix:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, buildTypeLabel)
 #: settings/cmakebuildsettings.ui:144
 #, kde-format
+msgctxt "@label:listbox"
 msgid "Build type:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settings/cmakebuildsettings.ui:198
 #, kde-format
+msgctxt "@label:chooser"
 msgid "Configure environment:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
 #: settings/cmakebuildsettings.ui:213
 #, kde-format
+msgctxt "@info:tooltip"
 msgid "Select an environment to be used"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, showInternal)
 #: settings/cmakebuildsettings.ui:225
 #, kde-format
+msgctxt "@option:check"
 msgid "Show advanced values"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settings/cmakebuildsettings.ui:235
 #, kde-format
+msgctxt "@label:chooser"
 msgid "CMake executable:"
 msgstr ""
 
 #: settings/cmakecachemodel.cpp:50
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@title:column"
 msgid "Name"
 msgstr "नाव"
 
 #: settings/cmakecachemodel.cpp:51
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Type"
+msgctxt "@title:column"
 msgid "Type"
 msgstr "प्रकार"
 
 #: settings/cmakecachemodel.cpp:52
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Value"
+msgctxt "@title:column"
 msgid "Value"
 msgstr "मूल्य"
 
 #: settings/cmakecachemodel.cpp:53
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Comment"
+msgctxt "@title:column"
 msgid "Comment"
 msgstr "टीप"
 
+#: settings/cmakecachemodel.cpp:54
+#, fuzzy, kde-format
+#| msgid "Advanced"
+msgctxt "@title:column"
+msgid "Advanced"
+msgstr "प्रगत"
+
 #: settings/cmakecachemodel.cpp:55
 #, kde-format
+msgctxt "@title:column"
 msgid "Strings"
 msgstr ""
 
@@ -328,12 +380,14 @@ msgstr ""
 
 #: settings/cmakepreferences.cpp:392
 #, kde-format
+msgctxt "@title:tab"
 msgid "CMake"
 msgstr ""
 
 #: settings/cmakepreferences.cpp:397
 #, kde-format
-msgid "Configure CMake settings"
+msgctxt "@title:tab"
+msgid "Configure CMake Settings"
 msgstr ""
 
 #: testing/ctestfindjob.cpp:37
@@ -341,18 +395,18 @@ msgstr ""
 msgid "Parse test suite %1"
 msgstr ""
 
-#: testing/ctestrunjob.cpp:87
+#: testing/ctestrunjob.cpp:88
 #, kde-format
 msgid "CTest"
 msgstr ""
 
-#: testing/ctestrunjob.cpp:129
+#: testing/ctestrunjob.cpp:130
 #, kde-format
 msgctxt "running test %1, %2 test case"
 msgid "CTest %1: %2"
 msgstr ""
 
-#: testing/ctestrunjob.cpp:131
+#: testing/ctestrunjob.cpp:132
 #, kde-format
 msgctxt "running test %1, %2 number of test cases"
 msgid "CTest %2 (%1)"
