@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-15 02:16+0200\n"
+"POT-Creation-Date: 2020-08-23 02:17+0200\n"
 "PO-Revision-Date: 2013-04-01 15:36+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -467,7 +467,7 @@ msgstr ""
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 
-#: src/settings/webenginesettings.cpp:906
+#: src/settings/webenginesettings.cpp:919
 #, kde-format
 msgid "Filter error"
 msgstr "गाळणी त्रुटी"
@@ -569,12 +569,136 @@ msgstr "सर्व जुळण्या ठळक करा (&H)"
 msgid "Highlight Matches"
 msgstr ""
 
-#: src/webenginepage.cpp:133
+#: src/webenginecustomizecacheablefieldsdlg.cpp:90
+#, kde-format
+msgctxt "web field has the readonly attribute"
+msgid "read only"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:93
+#, kde-format
+msgctxt "web field has the autocomplete attribute set to off"
+msgid "auto-completion off"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:96
+#, fuzzy, kde-format
+#| msgid "Set Editable"
+msgctxt "web field is disabled"
+msgid "disabled"
+msgstr "संपादनास योग्य करा"
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:122
+#, kde-format
+msgctxt "Label of a web field"
+msgid "Field name"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:123
+#, kde-format
+msgctxt "Value of a web field"
+msgid "Field value"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:124
+#, kde-format
+msgctxt "Name attribute of a web field"
+msgid "Internal field name"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:125
+#, kde-format
+msgctxt "Type of a web field"
+msgid "Field type"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:126
+#, kde-format
+msgctxt "The id of a web field"
+msgid "Field id"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:127
+#, kde-format
+msgctxt "Other details about a web field"
+msgid "Details"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:204
+#, kde-format
+msgctxt "A statement about a field is true"
+msgid "yes"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:205
+#, kde-format
+msgctxt "A statement about a field is false"
+msgid "no"
+msgstr ""
+
+#: src/webenginecustomizecacheablefieldsdlg.cpp:208
+#, kde-format
+msgid ""
+"<ul><li><b>Field internal name: </b>%1</li><li><b>Field type: </b>%2</"
+"li><li><b>Field id: </b>%3</li><li><b>Field is read only: </b>%4</"
+"li><li><b>Field is enabled: </b>%5</li><li><b>Autocompletion is enabled: </b>"
+"%6</li></ul>"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, WebEngineCustomizeCacheableFieldsDlg)
+#: src/webenginecustomizecacheablefieldsdlg.ui:14
+#, kde-format
+msgid "Choose fields to remember"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showPasswords)
+#: src/webenginecustomizecacheablefieldsdlg.ui:41
+#, kde-format
+msgid "Switch between displaying passwords or placeholders"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showPasswords)
+#: src/webenginecustomizecacheablefieldsdlg.ui:44
+#, kde-format
+msgid "&Show passwords"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showDetails)
+#: src/webenginecustomizecacheablefieldsdlg.ui:64
+#, kde-format
+msgid "Show advanced information about the fields"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showDetails)
+#: src/webenginecustomizecacheablefieldsdlg.ui:67
+#, kde-format
+msgid "&Show details"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: src/webenginecustomizecacheablefieldsdlg.ui:89
+#, kde-format
+msgid "Availlable &fields"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, immediatelyCacheData)
+#: src/webenginecustomizecacheablefieldsdlg.ui:101
+#, kde-format
+msgid "Store form data in KWallet when closing the dialog"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, immediatelyCacheData)
+#: src/webenginecustomizecacheablefieldsdlg.ui:104
+#, kde-format
+msgid "&Immediately memorize form data"
+msgstr ""
+
+#: src/webenginepage.cpp:136
 #, kde-format
 msgid "The download manager (%1) could not be found in your installation."
 msgstr ""
 
-#: src/webenginepage.cpp:134
+#: src/webenginepage.cpp:137
 #, kde-format
 msgid ""
 "Try to reinstall it and make sure that it is available in $PATH. \n"
@@ -582,7 +706,7 @@ msgid ""
 "The integration will be disabled."
 msgstr ""
 
-#: src/webenginepage.cpp:249
+#: src/webenginepage.cpp:255
 #, kde-format
 msgid ""
 "<qt><p>To display the requested web page again, the browser needs to resend "
@@ -591,24 +715,24 @@ msgid ""
 "Otherwise, click the Continue button to display the webpage again.</p>"
 msgstr ""
 
-#: src/webenginepage.cpp:256
+#: src/webenginepage.cpp:262
 #, kde-format
 msgid "Resubmit Information"
 msgstr ""
 
-#: src/webenginepage.cpp:348
+#: src/webenginepage.cpp:355
 #, kde-format
 msgid ""
 "<p>The server failed the authenticity check (%1). The error is:</p><p><tt>"
 "%2</tt></p>Do you want to ignore this error?"
 msgstr ""
 
-#: src/webenginepage.cpp:350
+#: src/webenginepage.cpp:357
 #, kde-format
 msgid "Authentication error"
 msgstr ""
 
-#: src/webenginepage.cpp:493
+#: src/webenginepage.cpp:500
 #, fuzzy, kde-format
 #| msgid ""
 #| "This site is attempting to submit form data via email.\n"
@@ -620,18 +744,18 @@ msgstr ""
 "हे स्थळ, इमेल द्वारे फॉर्म डेटा जमा करण्याचा प्रयत्न करत आहे.\n"
 "तुम्हाला पुढे जायचे?"
 
-#: src/webenginepage.cpp:497 src/webenginepage.cpp:614
-#: src/webenginepage.cpp:625
+#: src/webenginepage.cpp:504 src/webenginepage.cpp:621
+#: src/webenginepage.cpp:632
 #, kde-format
 msgid "Network Transmission"
 msgstr "संजाळ स्थानांतरण"
 
-#: src/webenginepage.cpp:498
+#: src/webenginepage.cpp:505
 #, kde-format
 msgid "Allow access"
 msgstr ""
 
-#: src/webenginepage.cpp:573
+#: src/webenginepage.cpp:580
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br/><b>%1</b>.<br/>Do you want to follow "
@@ -640,28 +764,28 @@ msgstr ""
 "<qt>हे अविश्वसनिय पान<br/><b>%1</b> येथे लिंक करत आहे.<br/>तुम्हाला या लिंकच्याकडे जायचे "
 "आहे का?</qt>"
 
-#: src/webenginepage.cpp:575
+#: src/webenginepage.cpp:582
 #, kde-format
 msgid "Security Warning"
 msgstr "सुरक्षा इशारा"
 
-#: src/webenginepage.cpp:576
+#: src/webenginepage.cpp:583
 #, kde-format
 msgctxt "follow link despite of security warning"
 msgid "Follow"
 msgstr "जा"
 
-#: src/webenginepage.cpp:578
+#: src/webenginepage.cpp:585
 #, kde-format
 msgid "Security Alert"
 msgstr "सुरक्षा सतर्कता"
 
-#: src/webenginepage.cpp:579
+#: src/webenginepage.cpp:586
 #, kde-format
 msgid "<qt>Access by untrusted page to<br/><b>%1</b><br/> denied.</qt>"
 msgstr "<qt>अविश्वासर्ह पानास<br/><b>%1</b><br/> करिता प्रवेशास परवानगी नाही.</qt>"
 
-#: src/webenginepage.cpp:607
+#: src/webenginepage.cpp:614
 #, kde-format
 msgid ""
 "Warning: This is a secure form but it is attempting to send your data back "
@@ -670,12 +794,12 @@ msgid ""
 "Are you sure you want to send the data unencrypted?"
 msgstr ""
 
-#: src/webenginepage.cpp:615
+#: src/webenginepage.cpp:622
 #, kde-format
 msgid "&Send Unencrypted"
 msgstr "विनाकुटलिपी पाठवा (&S)"
 
-#: src/webenginepage.cpp:622
+#: src/webenginepage.cpp:629
 #, kde-format
 msgid ""
 "This site is attempting to submit form data via email.\n"
@@ -684,75 +808,75 @@ msgstr ""
 "हे स्थळ, इमेल द्वारे फॉर्म डेटा जमा करण्याचा प्रयत्न करत आहे.\n"
 "तुम्हाला पुढे जायचे?"
 
-#: src/webenginepage.cpp:626
+#: src/webenginepage.cpp:633
 #, kde-format
 msgid "&Send Email"
 msgstr "इमेल पाठवा (&S)"
 
-#: src/webenginepage.cpp:675
+#: src/webenginepage.cpp:682
 #, kde-format
 msgid ""
 "<qt>Do you want to allow this site to attach the following files to the "
 "email message?</qt>"
 msgstr ""
 
-#: src/webenginepage.cpp:677
+#: src/webenginepage.cpp:684
 #, kde-format
 msgid "Email Attachment Confirmation"
 msgstr ""
 
-#: src/webenginepage.cpp:678
+#: src/webenginepage.cpp:685
 #, kde-format
 msgid "&Allow attachments"
 msgstr ""
 
-#: src/webenginepage.cpp:679
+#: src/webenginepage.cpp:686
 #, kde-format
 msgid "&Ignore attachments"
 msgstr ""
 
-#: src/webenginepage.cpp:693
+#: src/webenginepage.cpp:700
 #, kde-format
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
 msgstr ""
 
-#: src/webenginepage.cpp:696
+#: src/webenginepage.cpp:703
 #, kde-format
 msgid "Attachment Removed"
 msgstr ""
 
-#: src/webenginepage.cpp:830
+#: src/webenginepage.cpp:837
 #, kde-format
 msgid ""
 "This site is requesting to open a new popup window.\n"
 "Do you want to allow this?"
 msgstr ""
 
-#: src/webenginepage.cpp:832
+#: src/webenginepage.cpp:839
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open a popup window to<p>%1</p><br/>Do you "
 "want to allow this?</qt>"
 msgstr ""
 
-#: src/webenginepage.cpp:836
+#: src/webenginepage.cpp:843
 #, kde-format
 msgid "Javascript Popup Confirmation"
 msgstr ""
 
-#: src/webenginepage.cpp:837
+#: src/webenginepage.cpp:844
 #, kde-format
 msgid "Allow"
 msgstr "परवानगी द्या"
 
-#: src/webenginepage.cpp:838
+#: src/webenginepage.cpp:845
 #, kde-format
 msgid "Do Not Allow"
 msgstr "परवानगी देऊ नका"
 
-#: src/webenginepart.cpp:142
+#: src/webenginepart.cpp:143
 #, fuzzy, kde-format
 #| msgctxt "Program Name"
 #| msgid "KWebKitPart"
@@ -760,7 +884,7 @@ msgctxt "Program Name"
 msgid "WebEnginePart"
 msgstr "के-वेब-किट-पार्ट"
 
-#: src/webenginepart.cpp:144
+#: src/webenginepart.cpp:145
 #, fuzzy, kde-format
 #| msgctxt "Short Description"
 #| msgid "QtWebKit Browser Engine Component"
@@ -768,7 +892,7 @@ msgctxt "Short Description"
 msgid "QtWebEngine Browser Engine Component"
 msgstr "क्युटी-वेब-किट ब्राऊजर इंजिन घटक"
 
-#: src/webenginepart.cpp:146
+#: src/webenginepart.cpp:147
 #, kde-format
 msgid ""
 "(C) 2009-2010 Dawit Alemayehu\n"
@@ -779,104 +903,104 @@ msgstr ""
 "(C) 2008-2010 उर्स वूल्फर\n"
 "(C) 2007 ट्रोलटेक एएसए"
 
-#: src/webenginepart.cpp:150
+#: src/webenginepart.cpp:151
 #, kde-format
 msgid "Sune Vuorela"
 msgstr ""
 
-#: src/webenginepart.cpp:150 src/webenginepart.cpp:152
+#: src/webenginepart.cpp:151 src/webenginepart.cpp:153
 #, kde-format
 msgid "Maintainer, Developer"
 msgstr "नियंत्रक, विकासकर्ता"
 
-#: src/webenginepart.cpp:151
+#: src/webenginepart.cpp:152
 #, kde-format
 msgid "Dawit Alemayehu"
 msgstr "दावित अलेमायेहु"
 
-#: src/webenginepart.cpp:151 src/webenginepart.cpp:153
-#: src/webenginepart.cpp:154 src/webenginepart.cpp:155
+#: src/webenginepart.cpp:152 src/webenginepart.cpp:154
+#: src/webenginepart.cpp:155 src/webenginepart.cpp:156
 #, kde-format
 msgid "Developer"
 msgstr "विकासकर्ता"
 
-#: src/webenginepart.cpp:152
+#: src/webenginepart.cpp:153
 #, kde-format
 msgid "Urs Wolfer"
 msgstr "उर्स वूल्फर"
 
-#: src/webenginepart.cpp:153
+#: src/webenginepart.cpp:154
 #, kde-format
 msgid "Michael Howell"
 msgstr "मायकेल होवेल"
 
-#: src/webenginepart.cpp:154
+#: src/webenginepart.cpp:155
 #, kde-format
 msgid "Laurent Montel"
 msgstr "लोरेन्ट मोन्टेल"
 
-#: src/webenginepart.cpp:155
+#: src/webenginepart.cpp:156
 #, kde-format
 msgid "Dirk Mueller"
 msgstr "डिर्क मुलर"
 
-#: src/webenginepart.cpp:253
+#: src/webenginepart.cpp:257
 #, kde-format
 msgid "Save &Frame As..."
 msgstr "पटल असे साठवा (&F)..."
 
-#: src/webenginepart.cpp:257
+#: src/webenginepart.cpp:261
 #, kde-format
 msgid "Print Preview"
 msgstr "छपाई पूर्वावलोकन"
 
-#: src/webenginepart.cpp:261
+#: src/webenginepart.cpp:265
 #, kde-format
 msgctxt "zoom in action"
 msgid "Zoom In"
 msgstr "मोठे करा"
 
-#: src/webenginepart.cpp:266
+#: src/webenginepart.cpp:270
 #, kde-format
 msgctxt "zoom out action"
 msgid "Zoom Out"
 msgstr "लहान करा"
 
-#: src/webenginepart.cpp:271
+#: src/webenginepart.cpp:275
 #, kde-format
 msgctxt "reset zoom action"
 msgid "Actual Size"
 msgstr "वास्तविक आकार"
 
-#: src/webenginepart.cpp:276
+#: src/webenginepart.cpp:280
 #, kde-format
 msgid "Zoom Text Only"
 msgstr "फक्त पाठ्य झूम करा"
 
-#: src/webenginepart.cpp:284
+#: src/webenginepart.cpp:288
 #, fuzzy, kde-format
 #| msgctxt "zoom in action"
 #| msgid "Zoom In"
 msgid "Zoom To DPI"
 msgstr "मोठे करा"
 
-#: src/webenginepart.cpp:297
+#: src/webenginepart.cpp:301
 #, kde-format
 msgid "Set &Encoding"
 msgstr "एन्कोडिंग निश्चित करा (&E)"
 
-#: src/webenginepart.cpp:301
+#: src/webenginepart.cpp:305
 #, kde-format
 msgid "View Do&cument Source"
 msgstr "दस्ताऐवज स्रोत पहा (&c)"
 
-#: src/webenginepart.cpp:306 src/webenginepart.cpp:602
+#: src/webenginepart.cpp:310 src/webenginepart.cpp:599
 #, kde-format
 msgctxt "Secure Sockets Layer"
 msgid "SSL"
 msgstr "SSL"
 
-#: src/webenginepart.cpp:312
+#: src/webenginepart.cpp:316
 #, kde-format
 msgctxt "find action \"whats this\" text"
 msgid ""
@@ -884,12 +1008,12 @@ msgid ""
 "displayed page."
 msgstr "<h3>पाठ्य शोधा</h3>हा संवाद दर्शनीय पानावरील मजकूर शोधायला मदत करतो."
 
-#: src/webenginepart.cpp:600
+#: src/webenginepart.cpp:597
 #, kde-format
 msgid "The SSL information for this site appears to be corrupt."
 msgstr ""
 
-#: src/webenginepart.cpp:681
+#: src/webenginepart.cpp:678
 #, kde-format
 msgctxt ""
 "status bar text when hovering email links; looks like \"Email: xy@kde.org - "
@@ -897,7 +1021,7 @@ msgctxt ""
 msgid "Email: "
 msgstr "इमेल : "
 
-#: src/webenginepart.cpp:710
+#: src/webenginepart.cpp:707
 #, kde-format
 msgctxt ""
 "status bar text when hovering email links; looks like \"Email: xy@kde.org - "
@@ -905,7 +1029,7 @@ msgctxt ""
 msgid " - CC: "
 msgstr " - CC: "
 
-#: src/webenginepart.cpp:712
+#: src/webenginepart.cpp:709
 #, kde-format
 msgctxt ""
 "status bar text when hovering email links; looks like \"Email: xy@kde.org - "
@@ -913,7 +1037,7 @@ msgctxt ""
 msgid " - BCC: "
 msgstr " - BCC: "
 
-#: src/webenginepart.cpp:714
+#: src/webenginepart.cpp:711
 #, kde-format
 msgctxt ""
 "status bar text when hovering email links; looks like \"Email: xy@kde.org - "
@@ -921,52 +1045,67 @@ msgctxt ""
 msgid " - Subject: "
 msgstr " - विषय: "
 
-#: src/webenginepart.cpp:718 src/webenginepart.cpp:729
+#: src/webenginepart.cpp:715 src/webenginepart.cpp:726
 #, kde-format
 msgid " (In new window)"
 msgstr " (नवीन चौकटीत)"
 
-#: src/webenginepart.cpp:727
+#: src/webenginepart.cpp:724
 #, kde-format
 msgid " (In parent frame)"
 msgstr ""
 
-#: src/webenginepart.cpp:791
+#: src/webenginepart.cpp:788
 #, kde-format
 msgid "<qt>Do you want to search for <b>%1</b>?</qt>"
 msgstr ""
 
-#: src/webenginepart.cpp:792
+#: src/webenginepart.cpp:789
 #, kde-format
 msgid "Internet Search"
 msgstr "महाजाळ वरील शोध"
 
-#: src/webenginepart.cpp:792
+#: src/webenginepart.cpp:789
 #, kde-format
 msgid "&Search"
 msgstr "शोध (&S)"
 
-#: src/webenginepart.cpp:815
+#: src/webenginepart.cpp:812
+#, kde-format
+msgid "Memorize passwords in this page &now"
+msgstr ""
+
+#: src/webenginepart.cpp:817
+#, kde-format
+msgid "&Customize fields to memorize for this page..."
+msgstr ""
+
+#: src/webenginepart.cpp:820
+#, kde-format
+msgid "Remove customized memorization settings for this page"
+msgstr ""
+
+#: src/webenginepart.cpp:825
 #, kde-format
 msgid "&Allow password caching for this site"
 msgstr ""
 
-#: src/webenginepart.cpp:818
+#: src/webenginepart.cpp:828
 #, kde-format
-msgid "Remove all cached passwords for this site"
+msgid "Remove all memorized passwords for this site"
 msgstr ""
 
-#: src/webenginepart.cpp:821
+#: src/webenginepart.cpp:832
 #, kde-format
 msgid "&Close Wallet"
 msgstr "पाकीट बंद करा (&C)"
 
-#: src/webenginepart.cpp:877
+#: src/webenginepart.cpp:888
 #, kde-format
 msgid "Close window?"
 msgstr "चौकट बंद करा?"
 
-#: src/webenginepart.cpp:877
+#: src/webenginepart.cpp:888
 #, kde-format
 msgid "Confirmation Required"
 msgstr "खात्री आवश्यक आहे"
@@ -974,14 +1113,14 @@ msgstr "खात्री आवश्यक आहे"
 #. i18n("<html>Do you want to grant the site <b>%1</b> "
 #. "access to information about your current physical location?",
 #. url.host()));
-#: src/webenginepart.cpp:908
+#: src/webenginepart.cpp:919
 #, kde-format
 msgid ""
 "<html>Do you want to grant the site access to information about your current "
 "physical location?"
 msgstr ""
 
-#: src/webenginepart.cpp:953
+#: src/webenginepart.cpp:964
 #, kde-format
 msgid ""
 "<html>Do you want %1 to remember the login information for <b>%2</b>?</html>"
@@ -1256,6 +1395,34 @@ msgstr "'%1' चा याने शोध घ्या"
 msgid "Configure Web Shortcuts..."
 msgstr ""
 
+#: src/webenginewallet.cpp:114
+#, kde-format
+msgctxt "Web field with type 'text'"
+msgid "text"
+msgstr ""
+
+#: src/webenginewallet.cpp:115
+#, kde-format
+msgctxt "Web field with type 'password'"
+msgid "password"
+msgstr ""
+
+#: src/webenginewallet.cpp:116
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "status bar text when hovering email links; looks like \"Email: xy@kde.org "
+#| "- CC: z@kde.org -BCC: x@kde.org - Subject: Hi translator\""
+#| msgid "Email: "
+msgctxt "Web field with type 'e-mail'"
+msgid "e-mail"
+msgstr "इमेल : "
+
+#: src/webenginewallet.cpp:117
+#, kde-format
+msgctxt "Web field with type different from 'text', 'password' or 'e-mail'"
+msgid "other"
+msgstr ""
+
 #~ msgctxt "label for input line to find text"
 #~ msgid "&Find:"
 #~ msgstr "शोधा (&F):"
@@ -1273,9 +1440,6 @@ msgstr ""
 
 #~ msgid "Close"
 #~ msgstr "बंद करा"
-
-#~ msgid "Set Editable"
-#~ msgstr "संपादनास योग्य करा"
 
 #~ msgid "Zoom &In"
 #~ msgstr "मोठे करा (&I)"
