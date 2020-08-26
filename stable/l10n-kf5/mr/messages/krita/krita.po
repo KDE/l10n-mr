@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-08-25 08:06+0200\n"
+"POT-Creation-Date: 2020-08-26 08:19+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -4969,17 +4969,14 @@ msgstr "स्तर किंवा मुखवटा खाली आणा"
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
 #: krita/krita.action:3554
 #, fuzzy, kde-format
-msgctxt "Menu label of Layer Properties"
+msgctxt "Layer Properties"
 msgid "&Properties..."
 msgstr "गुणधर्म (&P)..."
 
-#. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
-#. i18n: context: Action (layer_properties), Actions (Layers), ActionCollection (Krita)
-#: krita/krita.action:3556 krita/kritamenu.action:997
+#: krita/krita.action:3556
 #, fuzzy, kde-format
-msgctxt "action"
+msgctxt "Layer Properties"
 msgid "Properties"
 msgstr "गुणधर्म..."
 
@@ -6245,9 +6242,16 @@ msgstr "प्रतिमा"
 #. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:995
 #, fuzzy, kde-format
-msgctxt "Menu text of Image Properties"
+msgctxt "Image Properties"
 msgid "&Properties..."
 msgstr "गुणधर्म (&P)..."
+
+#. i18n: context: Action (image_properties), Actions (Image), ActionCollection (Menu)
+#: krita/kritamenu.action:997
+#, fuzzy, kde-format
+msgctxt "Image Properties"
+msgid "Properties"
+msgstr "गुणधर्म..."
 
 #. i18n: context: Action (image_color), Actions (Image), ActionCollection (Menu)
 #: krita/kritamenu.action:1007
@@ -9229,6 +9233,7 @@ msgid "Transform Mask"
 msgstr "रूपांतरित करा"
 
 #: libs/impex/KisExportCheckRegistry.cpp:119 libs/ui/kis_mask_manager.cc:217
+#: plugins/impex/libkra/kis_kra_load_visitor.cpp:220
 #: plugins/impex/psd/psd_loader.cpp:300
 #: plugins/impex/xcf/kis_xcf_import.cpp:286
 #, kde-format
@@ -35138,12 +35143,6 @@ msgctxt "@title:window"
 msgid "File not found"
 msgstr ""
 
-#: plugins/impex/libkra/kis_kra_load_visitor.cpp:220
-#, fuzzy, kde-format
-#| msgid "Transparency Mask"
-msgid "Transpareny Mask"
-msgstr "पारदर्शी मुखवटा"
-
 #: plugins/impex/libkra/kis_kra_load_visitor.cpp:315
 #, kde-format
 msgctxt "Loading a .kra file"
@@ -45279,6 +45278,21 @@ msgstr "बिल्ड अप"
 #, kde-format
 msgid "Work Recursively"
 msgstr "पुनरावर्ती कार्य करा"
+
+#, fuzzy
+#~ msgctxt "action"
+#~ msgid "Properties"
+#~ msgstr "गुणधर्म..."
+
+#, fuzzy
+#~ msgctxt "Menu text of Image Properties"
+#~ msgid "&Properties..."
+#~ msgstr "गुणधर्म (&P)..."
+
+#, fuzzy
+#~| msgid "Transparency Mask"
+#~ msgid "Transpareny Mask"
+#~ msgstr "पारदर्शी मुखवटा"
 
 #, fuzzy
 #~| msgid "Move and rotate your canvas"
