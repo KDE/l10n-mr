@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-09 08:50+0200\n"
+"POT-Creation-Date: 2020-09-10 08:44+0200\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -7828,7 +7828,7 @@ msgstr ""
 msgid "Unknown error writing SVG text element"
 msgstr ""
 
-#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:146
+#: libs/flake/tools/KoPathSegmentChangeStrategy.cpp:147
 msgctxt "(qtundo-format)"
 msgid "Change Segment"
 msgstr ""
@@ -8363,32 +8363,6 @@ msgctxt "(qtundo-format)"
 msgid "Property Changes"
 msgstr "गुणधर्म बदल"
 
-#: libs/image/commands/kis_node_property_list_command.cpp:204
-#: libs/image/kis_layer_properties_icons.cpp:33
-#: plugins/python/channels2layers/channels2layers.py:90
-#, kde-format
-msgid "Visible"
-msgstr "दर्शनीय"
-
-#: libs/image/commands/kis_node_property_list_command.cpp:207
-#: libs/image/kis_layer_properties_icons.cpp:32
-#, kde-format
-msgid "Locked"
-msgstr "कुलूपबंद"
-
-#: libs/image/commands/kis_node_property_list_command.cpp:210
-#: libs/image/kis_layer_properties_icons.cpp:39
-#, kde-format
-msgid "Active"
-msgstr "सक्रिय"
-
-#: libs/image/commands/kis_node_property_list_command.cpp:217
-#: libs/image/kis_layer_properties_icons.cpp:36
-#: libs/image/kis_paint_layer.cc:213
-#, kde-format
-msgid "Alpha Locked"
-msgstr "अल्फा कुलूपबंद"
-
 #: libs/image/commands/kis_reselect_global_selection_command.cpp:30
 msgctxt "(qtundo-format)"
 msgid "Reselect"
@@ -8846,6 +8820,17 @@ msgstr "%1%"
 msgid "Blending Mode"
 msgstr "ब्लेंडिंग पद्धत"
 
+#: libs/image/kis_layer_properties_icons.cpp:32
+#, kde-format
+msgid "Locked"
+msgstr "कुलूपबंद"
+
+#: libs/image/kis_layer_properties_icons.cpp:33
+#: plugins/python/channels2layers/channels2layers.py:90
+#, kde-format
+msgid "Visible"
+msgstr "दर्शनीय"
+
 #: libs/image/kis_layer_properties_icons.cpp:34
 #, fuzzy, kde-format
 msgid "Layer Style"
@@ -8856,6 +8841,12 @@ msgstr "स्तराचा आकार"
 msgid "Inherit Alpha"
 msgstr "अल्फाचा उत्तराधिकार"
 
+#: libs/image/kis_layer_properties_icons.cpp:36
+#: libs/image/kis_paint_layer.cc:213
+#, kde-format
+msgid "Alpha Locked"
+msgstr "अल्फा कुलूपबंद"
+
 #: libs/image/kis_layer_properties_icons.cpp:37
 #: libs/image/kis_paint_layer.cc:216
 #: plugins/dockers/animation/animation_docker.cpp:677
@@ -8863,6 +8854,11 @@ msgstr "अल्फाचा उत्तराधिकार"
 #, fuzzy, kde-format
 msgid "Onion Skins"
 msgstr "गुणोत्तर निसाधनण (&C)"
+
+#: libs/image/kis_layer_properties_icons.cpp:39
+#, kde-format
+msgid "Active"
+msgstr "सक्रिय"
 
 #: libs/image/kis_layer_properties_icons.cpp:40
 #, fuzzy, kde-format
@@ -44909,25 +44905,25 @@ msgctxt "@info:tooltip"
 msgid "Undo: erase actions of other tools"
 msgstr ""
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:613
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:588
 #, kde-format
 msgid "Switch between editing and deforming cage"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, lockUnlockPointsButton)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:667
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:642
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1602
 #, kde-format
 msgid "Lock Points"
 msgstr "कुलूप बिंदू"
 
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:669
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:644
 #, kde-format
 msgid "Unlock Points"
 msgstr "कुलूप काढून टाकण्याचा बिंदू"
 
 #. i18n: ectx: property (text), widget (QLabel, cageTransformDirections)
-#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:751
+#: plugins/tools/tool_transform2/kis_tool_transform_config_widget.cpp:726
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1640
 #, kde-format
 msgid "Create 3 points on the canvas to begin"
