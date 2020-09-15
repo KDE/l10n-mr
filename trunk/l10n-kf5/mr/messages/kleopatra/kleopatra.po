@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-11 02:25+0200\n"
+"POT-Creation-Date: 2020-09-15 02:26+0200\n"
 "PO-Revision-Date: 2013-03-05 17:34+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -164,9 +164,9 @@ msgid "Authenticating to the card failed: %1"
 msgstr ""
 
 #: src/commands/authenticatepivcardapplicationcommand.cpp:132
-#: src/commands/changepincommand.cpp:157 src/commands/keytocardcommand.cpp:374
-#: src/commands/keytocardcommand.cpp:448 src/commands/keytocardcommand.cpp:487
-#: src/commands/keytocardcommand.cpp:506 src/commands/keytocardcommand.cpp:521
+#: src/commands/changepincommand.cpp:157 src/commands/keytocardcommand.cpp:446
+#: src/commands/keytocardcommand.cpp:525 src/commands/keytocardcommand.cpp:564
+#: src/commands/keytocardcommand.cpp:583 src/commands/keytocardcommand.cpp:598
 #: src/commands/pivgeneratecardkeycommand.cpp:198
 #: src/commands/setpivcardapplicationadministrationkeycommand.cpp:174
 #: src/commands/setpivcardapplicationadministrationkeycommand.cpp:197
@@ -343,8 +343,8 @@ msgctxt "@info"
 msgid "PIN changed successfully."
 msgstr "प्रमाणपत्र"
 
-#: src/commands/changepincommand.cpp:159 src/commands/keytocardcommand.cpp:464
-#: src/commands/keytocardcommand.cpp:510
+#: src/commands/changepincommand.cpp:159 src/commands/keytocardcommand.cpp:541
+#: src/commands/keytocardcommand.cpp:587
 #: src/commands/pivgeneratecardkeycommand.cpp:200
 #: src/commands/setpivcardapplicationadministrationkeycommand.cpp:199
 #: src/view/pgpcardwidget.cpp:302 src/view/pgpcardwidget.cpp:393
@@ -1316,63 +1316,63 @@ msgid ""
 "message></para>"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:109
+#: src/commands/keytocardcommand.cpp:123
+#, kde-format
+msgid "Failed to find a smart card."
+msgstr ""
+
+#: src/commands/keytocardcommand.cpp:132
 #: src/commands/pivgeneratecardkeycommand.cpp:115
 #, kde-format
 msgid "Failed to find the card with the serial number: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:120
-#, kde-format
-msgid "Sorry! This key cannot be transferred to an OpenPGP card."
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:129
-#, kde-format
-msgid "Sorry! This key cannot be transferred to a PIV card."
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:135
+#: src/commands/keytocardcommand.cpp:147
 #, kde-format
 msgid "Sorry! Transferring keys to this card is not supported."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:161
+#: src/commands/keytocardcommand.cpp:182
 #, kde-format
 msgctxt "Placeholder is the number of a slot on a smart card"
 msgid "Signature (%1)"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:164
+#: src/commands/keytocardcommand.cpp:185
 #, fuzzy, kde-format
 #| msgid "Encryption"
 msgctxt "Placeholder is the number of a slot on a smart card"
 msgid "Encryption (%1)"
 msgstr "कुटलिपी"
 
-#: src/commands/keytocardcommand.cpp:167
+#: src/commands/keytocardcommand.cpp:188
 #, fuzzy, kde-format
 #| msgid "Authentication"
 msgctxt "Placeholder is the number of a slot on a smart card"
 msgid "Authentication (%1)"
 msgstr "अधिप्रमाणन"
 
-#: src/commands/keytocardcommand.cpp:171 src/commands/keytocardcommand.cpp:262
+#: src/commands/keytocardcommand.cpp:192 src/commands/keytocardcommand.cpp:319
 #, fuzzy, kde-format
 msgid "Select Card Slot"
 msgstr "सर्व निवडा"
 
-#: src/commands/keytocardcommand.cpp:172
+#: src/commands/keytocardcommand.cpp:193
 #, kde-format
 msgid "Please select the card slot the key should be written to:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:183
+#: src/commands/keytocardcommand.cpp:204
 #, kde-format
 msgid "Failed to find the OpenPGP card with the serial number: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:201 src/commands/keytocardcommand.cpp:319
+#: src/commands/keytocardcommand.cpp:217
+#, kde-format
+msgid "Sorry! This key cannot be transferred to an OpenPGP card."
+msgstr ""
+
+#: src/commands/keytocardcommand.cpp:235 src/commands/keytocardcommand.cpp:391
 #: src/commands/pivgeneratecardkeycommand.cpp:127
 #: src/view/pgpcardwidget.cpp:311
 #, kde-format
@@ -1381,7 +1381,7 @@ msgid ""
 "the existing key."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:208 src/commands/keytocardcommand.cpp:322
+#: src/commands/keytocardcommand.cpp:242 src/commands/keytocardcommand.cpp:394
 #: src/commands/pivgeneratecardkeycommand.cpp:123
 #, kde-format
 msgctxt "@info"
@@ -1391,12 +1391,12 @@ msgid ""
 "be irrecoverably lost.</p>"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:210
+#: src/commands/keytocardcommand.cpp:244
 #, kde-format
 msgid "The existing key has the fingerprint:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:214 src/commands/keytocardcommand.cpp:328
+#: src/commands/keytocardcommand.cpp:248 src/commands/keytocardcommand.cpp:400
 #: src/commands/pivgeneratecardkeycommand.cpp:130
 #, fuzzy, kde-format
 #| msgid "Overwrite Existing File?"
@@ -1404,7 +1404,7 @@ msgctxt "@title:window"
 msgid "Overwrite existing key"
 msgstr "सध्याची फाईल खोडून पुन्हा लिहायची आहे का?"
 
-#: src/commands/keytocardcommand.cpp:250 src/commands/keytocardcommand.cpp:256
+#: src/commands/keytocardcommand.cpp:307 src/commands/keytocardcommand.cpp:313
 #, kde-format
 msgctxt ""
 "Placeholder 1 is the name of a key, e.g. 'Digital Signature Key'; "
@@ -1412,73 +1412,78 @@ msgctxt ""
 msgid "%1 (%2)"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:263
+#: src/commands/keytocardcommand.cpp:320
 #, kde-format
 msgid "Please select the card slot the certificate should be written to:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:275 src/commands/keytocardcommand.cpp:309
-#: src/commands/keytocardcommand.cpp:350
+#: src/commands/keytocardcommand.cpp:332 src/commands/keytocardcommand.cpp:381
+#: src/commands/keytocardcommand.cpp:422
 #, kde-format
 msgid "Failed to find the PIV card with the serial number: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:281
+#: src/commands/keytocardcommand.cpp:342
+#, kde-format
+msgid "Sorry! No suitable certificate to write to this card slot was found."
+msgstr ""
+
+#: src/commands/keytocardcommand.cpp:348
+#, kde-format
+msgid "Sorry! This key cannot be transferred to a PIV card."
+msgstr ""
+
+#: src/commands/keytocardcommand.cpp:353
 #, kde-format
 msgid ""
 "Sorry! Only encryption keys and signing keys can be transferred to a PIV "
 "card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:324
+#: src/commands/keytocardcommand.cpp:396
 #, kde-format
 msgid "The existing key has the key grip:"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:359
+#: src/commands/keytocardcommand.cpp:431
 #, kde-format
 msgid ""
 "<p>The certificate does not seem to correspond to the key on the card.</"
 "p><p>Public key on card: %1<br>Public key of certificate: %2</p>"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:373
+#: src/commands/keytocardcommand.cpp:445
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Exporting the certificate failed: %1"
 msgstr "प्रमाणपत्र"
 
-#: src/commands/keytocardcommand.cpp:447 src/commands/keytocardcommand.cpp:486
+#: src/commands/keytocardcommand.cpp:524 src/commands/keytocardcommand.cpp:563
 #, kde-format
 msgctxt "@info"
 msgid "Moving the key to the card failed: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:463
+#: src/commands/keytocardcommand.cpp:540
 #, kde-format
 msgid "Successfully copied the key to the card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:505
+#: src/commands/keytocardcommand.cpp:582
 #, kde-format
 msgctxt "@info"
 msgid "Writing the certificate to the card failed: %1"
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:509
+#: src/commands/keytocardcommand.cpp:586
 #, kde-format
 msgid "Successfully copied the certificate to the card."
 msgstr ""
 
-#: src/commands/keytocardcommand.cpp:520
+#: src/commands/keytocardcommand.cpp:597
 #, kde-format
 msgctxt "@info"
 msgid "Failed to delete the key: %1"
-msgstr ""
-
-#: src/commands/keytocardcommand.cpp:544
-#, kde-format
-msgid "Failed to find a smart card."
 msgstr ""
 
 #: src/commands/learncardkeyscommand.cpp:57
@@ -7577,7 +7582,7 @@ msgid "View Columns"
 msgstr ""
 
 #: src/view/netkeywidget.cpp:68 src/view/pgpcardwidget.cpp:128
-#: src/view/pivcardwidget.cpp:86
+#: src/view/pivcardwidget.cpp:88
 #, fuzzy, kde-format
 msgid "Serial number:"
 msgstr "खरे नाव (&R):"
@@ -7751,7 +7756,7 @@ msgctxt ""
 msgid "Pubkey URL:"
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:162 src/view/pivcardwidget.cpp:95
+#: src/view/pgpcardwidget.cpp:162 src/view/pivcardwidget.cpp:97
 #, kde-format
 msgid "Keys:"
 msgstr ""
@@ -7783,7 +7788,7 @@ msgstr ""
 msgid "Create a new primary key and generate subkeys on the card."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:188 src/view/pivcardwidget.cpp:140
+#: src/view/pgpcardwidget.cpp:188 src/view/pivcardwidget.cpp:147
 #, fuzzy, kde-format
 msgid "Change PIN"
 msgstr "न बदललेले"
@@ -7947,7 +7952,7 @@ msgctxt "@info"
 msgid "URL successfully changed."
 msgstr ""
 
-#: src/view/pgpcardwidget.cpp:445 src/view/pivcardwidget.cpp:191
+#: src/view/pgpcardwidget.cpp:445 src/view/pivcardwidget.cpp:198
 #, kde-format
 msgid "Slot empty"
 msgstr ""
@@ -7957,59 +7962,69 @@ msgstr ""
 msgid "Public key not found."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:97
+#: src/view/pivcardwidget.cpp:99
 #, fuzzy, kde-format
 #| msgid "Authentication"
 msgid "PIV authentication:"
 msgstr "अधिप्रमाणन"
 
-#: src/view/pivcardwidget.cpp:100 src/view/pivcardwidget.cpp:109
-#: src/view/pivcardwidget.cpp:118 src/view/pivcardwidget.cpp:127
-#: src/view/pivcardwidget.cpp:192
+#: src/view/pivcardwidget.cpp:102 src/view/pivcardwidget.cpp:111
+#: src/view/pivcardwidget.cpp:120 src/view/pivcardwidget.cpp:134
+#: src/view/pivcardwidget.cpp:199
 #, fuzzy, kde-format
 #| msgid "File Operations"
 msgid "Generate"
 msgstr "फाईलच्या क्रिया"
 
-#: src/view/pivcardwidget.cpp:106
+#: src/view/pivcardwidget.cpp:108
 #, fuzzy, kde-format
 #| msgid "Authentication"
 msgid "Card authentication:"
 msgstr "अधिप्रमाणन"
 
-#: src/view/pivcardwidget.cpp:115
+#: src/view/pivcardwidget.cpp:117
 #, kde-format
 msgid "Digital signature:"
 msgstr ""
 
 #: src/view/pivcardwidget.cpp:124
+#, fuzzy, kde-format
+msgid "Write Certificate"
+msgstr "प्रमाणपत्र"
+
+#: src/view/pivcardwidget.cpp:125
+#, kde-format
+msgid "Write the certificate corresponding to this key to the card"
+msgstr ""
+
+#: src/view/pivcardwidget.cpp:131
 #, kde-format
 msgid "Key management:"
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:141
+#: src/view/pivcardwidget.cpp:148
 #, kde-format
 msgid ""
 "Change the PIV Card Application PIN that activates the PIV Card and enables "
 "private key operations using the stored keys."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:146
+#: src/view/pivcardwidget.cpp:153
 #, fuzzy, kde-format
 msgid "Change PUK"
 msgstr "न बदललेले"
 
-#: src/view/pivcardwidget.cpp:147
+#: src/view/pivcardwidget.cpp:154
 #, kde-format
 msgid "Change the PIN Unblocking Key that enables a reset of the PIN."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:152
+#: src/view/pivcardwidget.cpp:159
 #, fuzzy, kde-format
 msgid "Change Admin Key"
 msgstr "न बदललेले"
 
-#: src/view/pivcardwidget.cpp:153
+#: src/view/pivcardwidget.cpp:160
 #, kde-format
 msgid ""
 "Change the PIV Card Application Administration Key that is used by the PIV "
@@ -8018,25 +8033,25 @@ msgid ""
 "Application."
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:173
+#: src/view/pivcardwidget.cpp:180
 #, kde-format
 msgctxt "Placeholder is a version number"
 msgid "PIV v%1 card"
 msgstr ""
 
-#: src/view/pivcardwidget.cpp:192
+#: src/view/pivcardwidget.cpp:199
 #, fuzzy, kde-format
 msgid "Replace"
 msgstr "जागा"
 
-#: src/view/pivcardwidget.cpp:194
+#: src/view/pivcardwidget.cpp:201
 #, fuzzy, kde-format
 #| msgid "File Operations"
 msgctxt "Placeholder is the display name of a key"
 msgid "Generate %1"
 msgstr "फाईलच्या क्रिया"
 
-#: src/view/pivcardwidget.cpp:195
+#: src/view/pivcardwidget.cpp:202
 #, kde-format
 msgctxt "Placeholder is the display name of a key"
 msgid "Replace %1 with new key"
