@@ -164,22 +164,10 @@ msgctxt "KGAPI2::AccountManager|"
 msgid "Failed to open account store"
 msgstr ""
 
-#: src/core/authjob.cpp:167
-msgctxt "KGAPI2::AuthJob|"
-msgid "Failed to parse newly fetched tokens"
-msgstr ""
-
-#: src/core/authjob.cpp:214
+#: src/core/authjob.cpp:103
 msgctxt "KGAPI2::AuthJob|"
 msgid "Account name is empty"
 msgstr ""
-
-#: src/core/authjob.cpp:238
-#, fuzzy
-#| msgid "Authentication cancelled"
-msgctxt "KGAPI2::AuthJob|"
-msgid "Authentication canceled"
-msgstr "अधिप्रमाणन रद्द केले"
 
 #: src/core/job.cpp:186
 #, fuzzy
@@ -257,47 +245,59 @@ msgid ""
 "Google replied '%1'"
 msgstr "अपरिचीत सेवा '%1'"
 
+#: src/core/private/fullauthenticationjob.cpp:52
+#, qt-format
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "Error receiving response: %1"
+msgstr ""
+
+#: src/core/private/fullauthenticationjob.cpp:59
+#, fuzzy
+#| msgid "Authentication cancelled"
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "Authentication successful"
+msgstr "अधिप्रमाणन रद्द केले"
+
+#: src/core/private/fullauthenticationjob.cpp:60
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "You can close this tab and return to the application now."
+msgstr ""
+
+#: src/core/private/fullauthenticationjob.cpp:75
+#, fuzzy
+#| msgid "The account is invalid."
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "Token response invalid"
+msgstr "खाते अवैध आहे."
+
+#: src/core/private/fullauthenticationjob.cpp:90
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "Could not extract token from HTTP answer"
+msgstr ""
+
+#: src/core/private/fullauthenticationjob.cpp:179
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "Invalid account"
+msgstr ""
+
+#: src/core/private/fullauthenticationjob.cpp:183
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "No scopes to authenticate for"
+msgstr ""
+
+#: src/core/private/fullauthenticationjob.cpp:195
+msgctxt "KGAPI2::FullAuthenticationJob|"
+msgid "Could not start OAuth HTTP server"
+msgstr ""
+
 #: src/core/private/newtokensfetchjob.cpp:111
 msgctxt "KGAPI2::NewTokensFetchJob|"
 msgid "Failed to parse server response."
 msgstr ""
 
-#: src/core/ui/authwidget.cpp:85
-msgctxt "KGAPI2::AuthWidget|"
-msgid "Invalid account"
-msgstr ""
-
-#: src/core/ui/authwidget.cpp:89
-msgctxt "KGAPI2::AuthWidget|"
-msgid "No scopes to authenticate for"
-msgstr ""
-
-#: src/core/ui/authwidget.cpp:101
-msgctxt "KGAPI2::AuthWidget|"
-msgid "Could not start oauth http server"
-msgstr ""
-
-#: src/core/ui/authwidget_p.cpp:117
-msgctxt "KGAPI2::AuthWidgetPrivate|"
-msgid "Authorizing token. This should take just a moment..."
-msgstr ""
-
-#: src/core/ui/authwidget_p.cpp:274
-#, qt-format
-msgctxt "KGAPI2::AuthWidgetPrivate|"
-msgid "Error receiving response: %1"
-msgstr ""
-
-#: src/core/ui/authwidget_p.cpp:296
-#, fuzzy
-#| msgid "The account is invalid."
-msgctxt "KGAPI2::AuthWidgetPrivate|"
-msgid "Token response invalid"
-msgstr "खाते अवैध आहे."
-
-#: src/core/ui/authwidget_p.cpp:311
-msgctxt "KGAPI2::AuthWidgetPrivate|"
-msgid "Could not extract token from HTTP answer"
+#: src/core/private/refreshtokensjob.cpp:91
+msgctxt "KGAPI2::RefreshTokensJob|"
+msgid "Failed to parse newly fetched tokens"
 msgstr ""
 
 #: src/drive/aboutfetchjob.cpp:122
