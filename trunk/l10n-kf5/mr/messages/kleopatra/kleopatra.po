@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-10 02:28+0100\n"
+"POT-Creation-Date: 2020-11-11 02:50+0100\n"
 "PO-Revision-Date: 2013-03-05 17:34+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1778,25 +1778,25 @@ msgid "X.509 certificates refreshed successfully."
 msgstr ""
 
 #: src/commands/revokecertificationcommand.cpp:126
-#, fuzzy, kde-format
-msgid "Revocation successful."
-msgstr "प्रमाणपत्र"
-
-#: src/commands/revokecertificationcommand.cpp:127
-#, fuzzy, kde-format
-msgid "Revocation Succeeded"
-msgstr "प्रमाणपत्र"
-
-#: src/commands/revokecertificationcommand.cpp:129
 #, kde-format
 msgid ""
 "<p>An error occurred while trying to revoke the certification of<br/><br/><b>"
 "%1</b>:</p><p>\t%2</p>"
 msgstr ""
 
-#: src/commands/revokecertificationcommand.cpp:133
+#: src/commands/revokecertificationcommand.cpp:130
 #, fuzzy, kde-format
 msgid "Revocation Error"
+msgstr "प्रमाणपत्र"
+
+#: src/commands/revokecertificationcommand.cpp:132
+#, fuzzy, kde-format
+msgid "Revocation successful."
+msgstr "प्रमाणपत्र"
+
+#: src/commands/revokecertificationcommand.cpp:133
+#, fuzzy, kde-format
+msgid "Revocation Succeeded"
 msgstr "प्रमाणपत्र"
 
 #: src/commands/setinitialpincommand.cpp:54
@@ -4116,13 +4116,14 @@ msgid "Revoke this User ID"
 msgstr ""
 
 #: src/dialogs/certificatedetailswidget.cpp:339
-#: src/dialogs/weboftrustwidget.cpp:94 src/view/keylistcontroller.cpp:416
+#: src/dialogs/weboftrustwidget.cpp:99 src/view/keylistcontroller.cpp:416
 #, kde-format
 msgid "Certify..."
 msgstr ""
 
 #: src/dialogs/certificatedetailswidget.cpp:353
-#: src/dialogs/weboftrustwidget.cpp:109 src/view/keylistcontroller.cpp:420
+#: src/dialogs/weboftrustwidget.cpp:114 src/dialogs/weboftrustwidget.cpp:141
+#: src/view/keylistcontroller.cpp:420
 #, fuzzy, kde-format
 msgid "Revoke Certification..."
 msgstr "प्रमाणपत्र"
@@ -5251,7 +5252,41 @@ msgctxt "@title:window"
 msgid "Certifications"
 msgstr "प्रमाणपत्र"
 
-#: src/dialogs/weboftrustwidget.cpp:213
+#: src/dialogs/weboftrustwidget.cpp:133
+#, fuzzy, kde-format
+msgid "Show Certificate Details..."
+msgstr "प्रमाणपत्र"
+
+#: src/dialogs/weboftrustwidget.cpp:158
+#, kde-format
+msgid "Revokation of self-certifications is currently not possible."
+msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:160
+#, kde-format
+msgid ""
+"You cannot revoke this certification because it wasn't made with one of your "
+"keys (or the required secret key is missing)."
+msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:162
+#, kde-format
+msgid ""
+"You cannot revoke this revokation certification. (But you can re-certify the "
+"corresponding user ID.)"
+msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:164
+#, kde-format
+msgid "You cannot revoke this expired certification."
+msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:166
+#, kde-format
+msgid "You cannot revoke this invalid certification."
+msgstr ""
+
+#: src/dialogs/weboftrustwidget.cpp:265
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -5259,7 +5294,7 @@ msgid ""
 "message></para>"
 msgstr ""
 
-#: src/dialogs/weboftrustwidget.cpp:216
+#: src/dialogs/weboftrustwidget.cpp:268
 #, kde-format
 msgctxt "@title"
 msgid "Certifications Loading Failed"
