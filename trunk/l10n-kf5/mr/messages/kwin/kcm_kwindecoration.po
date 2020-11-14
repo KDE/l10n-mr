@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwindecoration\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-12 02:35+0100\n"
+"POT-Creation-Date: 2020-11-14 02:33+0100\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -104,11 +104,17 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: kcm.cpp:105
+#: kcm.cpp:109
 #, fuzzy, kde-format
 #| msgid "Get New Decorations..."
 msgid "Download New Window Decorations"
 msgstr "नवीन सजावटी प्राप्त करा..."
+
+#: kcm.cpp:199
+#, kde-format
+msgctxt "%1 is the name of a border size"
+msgid "Theme's default (%1)"
+msgstr ""
 
 #: package/contents/ui/Buttons.qml:91
 #, kde-format
@@ -143,27 +149,28 @@ msgctxt "tab label"
 msgid "Titlebar Buttons"
 msgstr "बटन"
 
-#: package/contents/ui/main.qml:89
-#, kde-format
-msgctxt "checkbox label"
-msgid "Use theme's default window border size"
-msgstr ""
+#: package/contents/ui/main.qml:85
+#, fuzzy, kde-format
+#| msgid "Border size:"
+msgctxt "Selector label"
+msgid "Window border size:"
+msgstr "किनार आकार :"
 
-#: package/contents/ui/main.qml:133
+#: package/contents/ui/main.qml:102
 #, fuzzy, kde-format
 #| msgid "Get New Decorations..."
 msgctxt "button text"
 msgid "Get New Window Decorations..."
 msgstr "नवीन सजावटी प्राप्त करा..."
 
-#: package/contents/ui/main.qml:150
+#: package/contents/ui/main.qml:119
 #, fuzzy, kde-format
 #| msgid "Close windows by double clicking the menu button"
 msgctxt "checkbox label"
 msgid "Close windows by double clicking the menu button"
 msgstr "मेन्यू बटन वर दोनदा क्लिक करून चौकटी बंद करा"
 
-#: package/contents/ui/main.qml:167
+#: package/contents/ui/main.qml:136
 #, fuzzy, kde-format
 #| msgid "Close windows by double clicking the menu button"
 msgctxt "popup tip"
@@ -172,7 +179,7 @@ msgid ""
 "appears."
 msgstr "मेन्यू बटन वर दोनदा क्लिक करून चौकटी बंद करा"
 
-#: package/contents/ui/main.qml:174
+#: package/contents/ui/main.qml:143
 #, fuzzy, kde-format
 #| msgid "&Show window button tooltips"
 msgctxt "checkbox label"
@@ -244,12 +251,6 @@ msgstr "प्रचंड अवाढव्य"
 #| msgid "Oversized"
 msgid "Oversized"
 msgstr "आकारापेक्षा जास्त"
-
-#, fuzzy
-#~| msgid "Border size:"
-#~ msgctxt "combobox label"
-#~ msgid "Window border size:"
-#~ msgstr "किनार आकार :"
 
 #, fuzzy
 #~| msgid "Search"
