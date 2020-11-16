@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-07 02:25+0100\n"
+"POT-Creation-Date: 2020-11-16 02:22+0100\n"
 "PO-Revision-Date: 2013-03-30 16:49+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -155,8 +155,7 @@ msgstr "वापरकर्ता संवाद"
 msgid "Network"
 msgstr "संजाळ"
 
-#: smb4k/smb4kconfigdialog.cpp:145 smb4k/smb4kconfigpagecustomoptions.cpp:427
-#: smb4k/smb4kconfigpagecustomoptions.cpp:519
+#: smb4k/smb4kconfigdialog.cpp:145 smb4k/smb4kconfigpagecustomoptions.cpp:532
 #, kde-format
 msgid "Mounting"
 msgstr ""
@@ -323,16 +322,17 @@ msgstr "संजाळ"
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:166
 #: smb4k/smb4kconfigpagecustomoptions.cpp:277
-#: smb4k/smb4kconfigpagecustomoptions.cpp:449
+#: smb4k/smb4kconfigpagecustomoptions.cpp:462
 #: smb4k/smb4kconfigpagemounting.cpp:164 smb4k/smb4kconfigpagemounting.cpp:572
 #, kde-format
 msgid "Common Options"
 msgstr "सामान्य पर्याय"
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:197
+#: smb4k/smb4kconfigpagenetwork.cpp:57
 #, fuzzy, kde-format
-msgid "Samba"
-msgstr "सांबा"
+msgid "Browse Settings"
+msgstr "संयोजना (&S)"
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:209
 #, fuzzy, kde-format
@@ -362,13 +362,14 @@ msgid "Send magic package before mounting a share"
 msgstr ""
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:244
-#: smb4k/smb4kconfigpagenetwork.cpp:249
-#, kde-format
-msgid "Wake-On-LAN"
-msgstr ""
+#: smb4k/smb4kconfigpagenetwork.cpp:293
+#, fuzzy, kde-format
+#| msgid "General Settings"
+msgid "Wake-On-LAN Settings"
+msgstr "सामान्य संयोजना"
 
 #: smb4k/smb4kconfigpagecustomoptions.cpp:280
-#: smb4k/smb4kconfigpagecustomoptions.cpp:452
+#: smb4k/smb4kconfigpagecustomoptions.cpp:465
 #, kde-format
 msgid "Always remount this share"
 msgstr ""
@@ -384,11 +385,25 @@ msgstr ""
 msgid "This server supports the CIFS Unix extensions"
 msgstr ""
 
-#: smb4k/smb4kconfigpagecustomoptions.cpp:391
+#: smb4k/smb4kconfigpagecustomoptions.cpp:389
+#: smb4k/smb4kconfigpagemounting.cpp:326
+#, fuzzy, kde-format
+#| msgid "Common Options"
+msgid "Common Mount Settings"
+msgstr "सामान्य पर्याय"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:400
 #: smb4k/smb4kconfigpagemounting.cpp:334
 #, kde-format
 msgid "Advanced Options"
 msgstr "प्रगत पर्याय"
+
+#: smb4k/smb4kconfigpagecustomoptions.cpp:440
+#: smb4k/smb4kconfigpagemounting.cpp:463
+#, fuzzy, kde-format
+#| msgid "Advanced Settings"
+msgid "Advanced Mount Settings"
+msgstr "प्रगत संयोजना"
 
 #: smb4k/smb4kconfigpagemounting.cpp:83 smb4k/smb4kconfigpagemounting.cpp:495
 #, kde-format
@@ -424,22 +439,10 @@ msgstr ""
 msgid "Choose a different group"
 msgstr ""
 
-#: smb4k/smb4kconfigpagemounting.cpp:326
-#, fuzzy, kde-format
-#| msgid "Common Options"
-msgid "Common Mount Settings"
-msgstr "सामान्य पर्याय"
-
 #: smb4k/smb4kconfigpagemounting.cpp:450
 #, kde-format
 msgid "Edit the additional CIFS options."
 msgstr ""
-
-#: smb4k/smb4kconfigpagemounting.cpp:463
-#, fuzzy, kde-format
-#| msgid "Advanced Settings"
-msgid "Advanced Mount Settings"
-msgstr "प्रगत संयोजना"
 
 #: smb4k/smb4kconfigpagemounting.cpp:676
 #, kde-format
@@ -473,11 +476,6 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: smb4k/smb4kconfigpagenetwork.cpp:57
-#, fuzzy, kde-format
-msgid "Browse Settings"
-msgstr "संयोजना (&S)"
-
 #: smb4k/smb4kconfigpagenetwork.cpp:158
 #, fuzzy, kde-format
 #| msgid "Common Options"
@@ -494,6 +492,11 @@ msgstr "सुरक्षा"
 msgid "Samba Settings"
 msgstr "संयोजना (&S)"
 
+#: smb4k/smb4kconfigpagenetwork.cpp:249
+#, kde-format
+msgid "Wake-On-LAN"
+msgstr ""
+
 #: smb4k/smb4kconfigpagenetwork.cpp:261
 #, kde-format
 msgid " s"
@@ -505,12 +508,6 @@ msgid ""
 "<qt>Define the hosts that should be woken up via the custom options dialog.</"
 "qt>"
 msgstr ""
-
-#: smb4k/smb4kconfigpagenetwork.cpp:293
-#, fuzzy, kde-format
-#| msgid "General Settings"
-msgid "Wake-On-LAN Settings"
-msgstr "सामान्य संयोजना"
 
 #: smb4k/smb4kconfigpagesynchronization.cpp:55
 #, kde-format
@@ -1010,6 +1007,10 @@ msgstr "फाईल प्रणाली"
 #| msgid "Size"
 msgid "Size:"
 msgstr "आकार"
+
+#, fuzzy
+#~ msgid "Samba"
+#~ msgstr "सांबा"
 
 #, fuzzy
 #~| msgid "Advanced Settings"
