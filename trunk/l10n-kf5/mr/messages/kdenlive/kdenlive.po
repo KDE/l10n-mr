@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-01-16 02:38+0100\n"
+"POT-Creation-Date: 2021-01-17 02:36+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -817,9 +817,10 @@ msgstr ""
 #: src/timeline2/view/dialogs/speeddialog.cpp:69
 #: src/timeline2/view/qml/Track.qml:363 src/ui/clipdurationdialog_ui.ui:14
 #: src/ui/clipdurationdialog_ui.ui:40 src/ui/clipproperties_ui.ui:58
-#: src/ui/colorclip_ui.ui:37 src/ui/editsub_ui.ui:17 src/ui/qtextclip_ui.ui:223
-#: src/ui/titlewidget_ui.ui:582 src/utils/freesound.cpp:165
-#: src/utils/freesound.cpp:208 src/utils/freesound.cpp:209
+#: src/ui/colorclip_ui.ui:37 src/ui/editsub_ui.ui:113
+#: src/ui/qtextclip_ui.ui:223 src/ui/titlewidget_ui.ui:582
+#: src/utils/freesound.cpp:165 src/utils/freesound.cpp:208
+#: src/utils/freesound.cpp:209
 #, kde-format
 msgid "Duration"
 msgstr "कालावधी"
@@ -841,7 +842,7 @@ msgstr "सुरु करा"
 #. i18n: ectx: property (text), widget (QLabel, duration_label)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: data/effects/fade_from_black.xml:16 data/effects/fade_to_black.xml:16
-#: src/dialogs/renderwidget.cpp:502 src/ui/editsub_ui.ui:79
+#: src/dialogs/renderwidget.cpp:502 src/ui/editsub_ui.ui:120
 #: src/ui/wipeval_ui.ui:167
 #, fuzzy, kde-format
 msgid "End"
@@ -1063,7 +1064,7 @@ msgstr ""
 #: data/effects/frei0r_alphagrad.xml:9
 #: src/assets/view/widgets/keyframeedit.cpp:61
 #: src/assets/view/widgets/keyframeimport.cpp:294
-#: src/ui/clipdurationdialog_ui.ui:20 src/ui/editsub_ui.ui:108
+#: src/ui/clipdurationdialog_ui.ui:20 src/ui/editsub_ui.ui:159
 #: src/ui/keyframedialog_ui.ui:20 src/ui/markerdialog_ui.ui:20
 #, kde-format
 msgid "Position"
@@ -6436,17 +6437,17 @@ msgstr "मूलभूत"
 msgid "Save as global preset (available to all effects)"
 msgstr ""
 
-#: src/assets/view/widgets/colorwheel.cpp:498
+#: src/assets/view/widgets/colorwheel.cpp:501
 #, kde-format
 msgid "R: "
 msgstr ""
 
-#: src/assets/view/widgets/colorwheel.cpp:505
+#: src/assets/view/widgets/colorwheel.cpp:508
 #, kde-format
 msgid "G: "
 msgstr ""
 
-#: src/assets/view/widgets/colorwheel.cpp:511
+#: src/assets/view/widgets/colorwheel.cpp:514
 #, kde-format
 msgid "B: "
 msgstr ""
@@ -8382,6 +8383,41 @@ msgstr ""
 #| msgid "Track"
 msgid "Add to current project"
 msgstr "ट्रॅक"
+
+#: src/dialogs/subtitleedit.cpp:146
+#, fuzzy, kde-format
+msgid "Go to next subtitle"
+msgstr "प्रतिमेचा आकार"
+
+#: src/dialogs/subtitleedit.cpp:147
+#, fuzzy, kde-format
+msgid "Go to previous subtitle"
+msgstr "प्रतिमेचा आकार"
+
+#: src/dialogs/subtitleedit.cpp:148
+#: src/timeline2/view/timelinecontroller.cpp:3989
+#, fuzzy, kde-format
+#| msgid "untitled"
+msgid "Add subtitle"
+msgstr "शिर्षकहीन"
+
+#: src/dialogs/subtitleedit.cpp:149
+#, kde-format
+msgid "Split subtitle at cursor position"
+msgstr ""
+
+#: src/dialogs/subtitleedit.cpp:150
+#, fuzzy, kde-format
+#| msgid "Create Folder"
+msgid "Update subtitle text"
+msgstr "संचयीका बनवा"
+
+#: src/dialogs/subtitleedit.cpp:151
+#: src/timeline2/view/timelinecontroller.cpp:4057
+#, fuzzy, kde-format
+#| msgid "Delete %1"
+msgid "Delete subtitle"
+msgstr "काढून टाका %1"
 
 #: src/dialogs/wizard.cpp:91
 #, kde-format
@@ -14883,12 +14919,6 @@ msgstr "सर्व फाईल्स"
 msgid "Add text"
 msgstr "शिर्षकहीन"
 
-#: src/timeline2/view/timelinecontroller.cpp:3989
-#, fuzzy, kde-format
-#| msgid "untitled"
-msgid "Add subtitle"
-msgstr "शिर्षकहीन"
-
 #: src/timeline2/view/timelinecontroller.cpp:4001
 #, fuzzy, kde-format
 msgid "Import Subtitle"
@@ -14905,12 +14935,6 @@ msgstr "शिर्षकहीन"
 #| msgid "untitled"
 msgid "Subtitle File (*.srt)"
 msgstr "शिर्षकहीन"
-
-#: src/timeline2/view/timelinecontroller.cpp:4057
-#, fuzzy, kde-format
-#| msgid "Delete %1"
-msgid "Delete subtitle"
-msgstr "काढून टाका %1"
 
 #: src/timeline2/view/timelinecontroller.cpp:4072
 #, fuzzy, kde-format
@@ -15684,8 +15708,8 @@ msgstr "वर्तमान टॅब बंद करा"
 #. i18n: ectx: property (text), widget (QToolButton, buttonCut)
 #. i18n: ectx: property (text), widget (QToolButton, buttonApply)
 #. i18n: ectx: property (text), widget (QToolButton, buttonIn)
-#. i18n: ectx: property (text), widget (QToolButton, buttonOut)
 #. i18n: ectx: property (text), widget (QToolButton, buttonLock)
+#. i18n: ectx: property (text), widget (QToolButton, buttonOut)
 #. i18n: ectx: property (text), widget (QToolButton, rescale_keep)
 #. i18n: ectx: property (text), widget (QToolButton, hide_log)
 #. i18n: ectx: property (text), widget (QToolButton, config_button)
@@ -15790,9 +15814,9 @@ msgstr "वर्तमान टॅब बंद करा"
 #: src/ui/cutjobdialog_ui.ui:30 src/ui/dvdwizardmenu_ui.ui:280
 #: src/ui/dvdwizardmenu_ui.ui:287 src/ui/dvdwizardvob_ui.ui:29
 #: src/ui/dvdwizardvob_ui.ui:49 src/ui/dvdwizardvob_ui.ui:100
-#: src/ui/editsub_ui.ui:26 src/ui/editsub_ui.ui:36 src/ui/editsub_ui.ui:46
-#: src/ui/editsub_ui.ui:53 src/ui/editsub_ui.ui:60 src/ui/editsub_ui.ui:69
-#: src/ui/editsub_ui.ui:115 src/ui/editsub_ui.ui:122 src/ui/editsub_ui.ui:136
+#: src/ui/editsub_ui.ui:19 src/ui/editsub_ui.ui:29 src/ui/editsub_ui.ui:39
+#: src/ui/editsub_ui.ui:46 src/ui/editsub_ui.ui:53 src/ui/editsub_ui.ui:75
+#: src/ui/editsub_ui.ui:103 src/ui/editsub_ui.ui:130 src/ui/editsub_ui.ui:143
 #: src/ui/effectlist_ui.ui:83 src/ui/effectlist_ui.ui:102
 #: src/ui/effectlist_ui.ui:118 src/ui/effectlist_ui.ui:134
 #: src/ui/effectlist_ui.ui:150 src/ui/freesound_ui.ui:39
