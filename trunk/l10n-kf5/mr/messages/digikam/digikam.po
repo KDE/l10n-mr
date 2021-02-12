@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-11 02:24+0100\n"
+"POT-Creation-Date: 2021-02-12 02:36+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -2852,9 +2852,9 @@ msgstr[0] "1 घटक"
 msgstr[1] "%1 घटक"
 
 #: core/app/views/stack/itemiconview.cpp:207
-#: core/utilities/queuemanager/manager/batchtool.cpp:212
-#: core/utilities/queuemanager/views/toolslistview.cpp:83
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Filters"
+msgctxt "Filters as in Search type Filters"
 msgid "Filters"
 msgstr "गाळणी"
 
@@ -4478,7 +4478,6 @@ msgstr ""
 
 #: core/dplugins/bqm/decorate/watermark/watermark.cpp:203
 #: core/dplugins/generic/webservices/piwigo/piwigowindow.cpp:494
-#: core/utilities/fuzzysearch/fuzzysearchview.cpp:60
 #, kde-format
 msgid "Image"
 msgstr "प्रतिमा"
@@ -10149,9 +10148,9 @@ msgstr ""
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:159
 #, kde-format
 msgid ""
-"<b>Warning: Exif <b><a href='https://en.wikipedia.org/wiki/"
+"<b>Warning:</b> Exif<b><a href='https://en.wikipedia.org/wiki/"
 "Exchangeable_image_file_format#MakerNote_data'>Makernotes</a></b> can be "
-"unreadable if you set wrong device manufacturer/model description.</b>"
+"unreadable if you set wrong device manufacturer/model description."
 msgstr ""
 
 #: core/dplugins/generic/metadata/metadataedit/exif/exifdevice.cpp:171
@@ -13639,9 +13638,10 @@ msgid "Make"
 msgstr ""
 
 #: core/dplugins/generic/tools/htmlgallery/generator/gallerygenerator.cpp:467
-#: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:138
 #: core/utilities/setup/camera/setupcamera.cpp:309
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Model"
+msgctxt "Camera Model"
 msgid "Model"
 msgstr "मॉडेल"
 
@@ -22130,13 +22130,13 @@ msgstr ""
 
 #: core/libs/album/widgets/albumselectcombobox.cpp:81
 #: core/libs/album/widgets/albumselectcombobox.cpp:97
-#: core/libs/album/widgets/albumselectors.cpp:188
+#: core/libs/album/widgets/albumselectors.cpp:184
 #, kde-format
 msgid "No Album Selected"
 msgstr ""
 
 #: core/libs/album/widgets/albumselectcombobox.cpp:104
-#: core/libs/album/widgets/albumselectors.cpp:221
+#: core/libs/album/widgets/albumselectors.cpp:217
 #, kde-format
 msgid "No Tag Selected"
 msgstr ""
@@ -22175,55 +22175,66 @@ msgid "Select Album"
 msgstr ""
 
 #: core/libs/album/widgets/albumselectors.cpp:145
-#: core/libs/album/widgets/albumselectors.cpp:505
+#: core/libs/album/widgets/albumselectors.cpp:501
 #, fuzzy, kde-format
 #| msgid "Albums"
 msgid "Albums (All)"
-msgid_plural "Albums (%2)"
-msgstr[0] "अल्बम्स"
-msgstr[1] "अल्बम्स"
+msgstr "अल्बम्स"
 
-#: core/libs/album/widgets/albumselectors.cpp:150
-#: core/libs/album/widgets/albumselectors.cpp:509
+#: core/libs/album/widgets/albumselectors.cpp:148
 #, fuzzy, kde-format
-msgid "Tags (All)"
-msgid_plural "Tags (%2)"
-msgstr[0] "टॅग्स :"
-msgstr[1] "टॅग्स :"
+msgid "Tags (0)"
+msgstr "टॅग्स :"
 
-#: core/libs/album/widgets/albumselectors.cpp:184
+#: core/libs/album/widgets/albumselectors.cpp:180
 #, kde-format
 msgid "Whole albums collection"
 msgstr ""
 
-#: core/libs/album/widgets/albumselectors.cpp:186
+#: core/libs/album/widgets/albumselectors.cpp:182
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select all albums that should be processed."
 msgstr ""
 
-#: core/libs/album/widgets/albumselectors.cpp:192
+#: core/libs/album/widgets/albumselectors.cpp:188
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset selected albums"
 msgstr ""
 
-#: core/libs/album/widgets/albumselectors.cpp:217
+#: core/libs/album/widgets/albumselectors.cpp:213
 #, fuzzy, kde-format
 msgid "Whole tags collection"
 msgstr "(निवड नाही)"
 
-#: core/libs/album/widgets/albumselectors.cpp:219
+#: core/libs/album/widgets/albumselectors.cpp:215
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Select all tags that should be processed."
 msgstr ""
 
-#: core/libs/album/widgets/albumselectors.cpp:225
+#: core/libs/album/widgets/albumselectors.cpp:221
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Reset selected tags"
 msgstr ""
+
+#: core/libs/album/widgets/albumselectors.cpp:501
+#, fuzzy, kde-format
+#| msgid "Albums"
+msgid "Albums (%1)"
+msgstr "अल्बम्स"
+
+#: core/libs/album/widgets/albumselectors.cpp:504
+#, fuzzy, kde-format
+msgid "Tags (All)"
+msgstr "टॅग्स :"
+
+#: core/libs/album/widgets/albumselectors.cpp:504
+#, fuzzy, kde-format
+msgid "Tags (%1)"
+msgstr "टॅग"
 
 #: core/libs/album/widgets/albumselectwidget.cpp:79
 #, kde-format
@@ -33197,6 +33208,13 @@ msgid "Raw information about the ICC profile manufacturer"
 msgstr ""
 
 #: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:138
+#, fuzzy, kde-format
+#| msgid "Model"
+msgctxt "As in Color Model"
+msgid "Model"
+msgstr "मॉडेल"
+
+#: core/libs/widgets/iccprofiles/iccprofilewidget.cpp:138
 #, kde-format
 msgid "Raw information about the ICC profile model"
 msgstr ""
@@ -39172,12 +39190,22 @@ msgid "Use this button to delete all duplicate images."
 msgstr ""
 
 #: core/utilities/fuzzysearch/fuzzysearchview.cpp:59
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Remove items"
+msgctxt "Find Duplicates Tab"
 msgid "Duplicates"
-msgstr ""
+msgstr "घटक काढून टाका"
+
+#: core/utilities/fuzzysearch/fuzzysearchview.cpp:60
+#, fuzzy, kde-format
+#| msgid "Image"
+msgctxt "Similar Image Tab"
+msgid "Image"
+msgstr "प्रतिमा"
 
 #: core/utilities/fuzzysearch/fuzzysearchview.cpp:61
 #, kde-format
+msgctxt "Sketch Search Tab"
 msgid "Sketch"
 msgstr ""
 
@@ -43238,6 +43266,14 @@ msgstr ""
 msgid "Base"
 msgstr ""
 
+#: core/utilities/queuemanager/manager/batchtool.cpp:212
+#: core/utilities/queuemanager/views/toolslistview.cpp:83
+#, fuzzy, kde-format
+#| msgid "Filters"
+msgctxt "Filters as a type of tools"
+msgid "Filters"
+msgstr "गाळणी"
+
 #: core/utilities/queuemanager/manager/batchtool.cpp:215
 #: core/utilities/queuemanager/views/toolslistview.cpp:88
 #, kde-format
@@ -45911,7 +45947,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "<p>To create new comment namespaces, you need to specify parameters:</"
-"p><p><ul><li>Namespace name with dots.<br/>Ex.: <i>\"Xmp.xmp.Rating\"</i></"
+"p><p><ul><li>Namespace name with dots.<br/>Ex.: <i>\"Xmp.xmp.Comment\"</i></"
 "li><li>Select the correct namespace option from list.</li></ul></p>"
 msgstr ""
 

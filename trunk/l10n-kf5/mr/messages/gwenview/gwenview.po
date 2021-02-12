@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-03 02:57+0100\n"
+"POT-Creation-Date: 2021-02-12 02:37+0100\n"
 "PO-Revision-Date: 2014-10-28 15:32+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -268,12 +268,12 @@ msgstr "गाळणी जोडा"
 msgid "General"
 msgstr "सामान्य"
 
-#: app/configdialog.cpp:112
+#: app/configdialog.cpp:113
 #, kde-format
 msgid "Image View"
 msgstr "प्रतिमेचे दृश्य"
 
-#: app/configdialog.cpp:123
+#: app/configdialog.cpp:124
 #, kde-format
 msgid "Advanced"
 msgstr "प्रगत"
@@ -648,7 +648,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: app/generalconfigpage.ui:172
 #, kde-format
-msgid "JPEG save quality:"
+msgid "Lossy image save quality:"
 msgstr ""
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, jpegQualitySpinner)
@@ -659,8 +659,16 @@ msgstr ""
 msgid "%"
 msgstr "%1"
 
+#. i18n: ectx: property (text), widget (QLabel, lossyImageFormatHelpLabel)
+#: app/generalconfigpage.ui:237
+#, kde-format
+msgid ""
+"The quality level when saving images using lossy image formats such as JPEG, "
+"WEBP, AVIF, HEIF, and HEIC. Higher quality increases the file size."
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: app/generalconfigpage.ui:253
+#: app/generalconfigpage.ui:263
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "Thumbnail Details"
@@ -668,27 +676,27 @@ msgid "Thumbnail actions:"
 msgstr "लघुप्रतिमा तपशील"
 
 #. i18n: ectx: property (text), widget (QRadioButton, allButtonsThumbnailActionsRadioButton)
-#: app/generalconfigpage.ui:260
+#: app/generalconfigpage.ui:270
 #, kde-format
 msgid "All buttons"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, selectionOnlyThumbnailActionsRadioButton)
-#: app/generalconfigpage.ui:267
+#: app/generalconfigpage.ui:277
 #, kde-format
 msgid "Show selection button only"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, noneThumbnailActionsRadioButton)
 #. i18n: ectx: property (text), widget (QRadioButton, noAnimationRadioButton)
-#: app/generalconfigpage.ui:274 app/imageviewconfigpage.ui:466
+#: app/generalconfigpage.ui:284 app/imageviewconfigpage.ui:466
 #, kde-format
 msgid "None"
 msgstr "काही नाही"
 
 #: app/gvcore.cpp:82
 #, kde-format
-msgid "JPEG quality:"
+msgid "Image quality:"
 msgstr ""
 
 #: app/gvcore.cpp:89
@@ -707,23 +715,23 @@ msgctxt "@title:window"
 msgid "Save Image"
 msgstr "प्रतिमा उघडा"
 
-#: app/gvcore.cpp:154
+#: app/gvcore.cpp:158
 #, kde-format
 msgctxt "@info"
 msgid "Gwenview cannot save images as %1."
 msgstr "ग्वेनव्ह्यू %1 अशी प्रतिमा साठवू शकत नाही."
 
-#: app/gvcore.cpp:394
+#: app/gvcore.cpp:398
 #, kde-format
 msgid "Save using another format"
 msgstr "दुसरे स्वरूप निवडून साठवा"
 
-#: app/gvcore.cpp:397
+#: app/gvcore.cpp:401
 #, kde-format
 msgid "Gwenview cannot save images in '%1' format."
 msgstr "ग्वेनव्ह्यू %1 स्वरुपात प्रतिमा साठवू शकत नाही."
 
-#: app/gvcore.cpp:427 app/gvcore.cpp:456
+#: app/gvcore.cpp:431 app/gvcore.cpp:460
 #, fuzzy, kde-kuit-format
 #| msgctxt "@info"
 #| msgid "<b>Saving <filename>%1</filename> failed:</b><br>%2"
@@ -733,12 +741,12 @@ msgid ""
 "emphasis><nl />%2"
 msgstr "<b><filename>%1</filename> साठवणे अयशस्वी झाले :</b></br>%2"
 
-#: app/gvcore.cpp:476
+#: app/gvcore.cpp:480
 #, kde-format
 msgid "You are now viewing the new document."
 msgstr "आता तुम्ही नवीन दस्तऐवज पाहत आहात."
 
-#: app/gvcore.cpp:478
+#: app/gvcore.cpp:482
 #, kde-format
 msgid "Go back to the original"
 msgstr "मूळस्थळाकडे जा"
