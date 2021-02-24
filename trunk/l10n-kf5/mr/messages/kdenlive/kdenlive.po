@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-22 02:33+0100\n"
+"POT-Creation-Date: 2021-02-24 02:33+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -6910,7 +6910,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. i18n: ectx: property (placeholderText), widget (KLineEdit, search_text)
-#: src/bin/bin.cpp:914 src/ui/resourcewidget_ui.ui:39
+#: src/bin/bin.cpp:914 src/ui/resourcewidget_ui.ui:36
 #, fuzzy, kde-format
 msgid "Search..."
 msgstr "शोधा"
@@ -7624,7 +7624,7 @@ msgstr "प्रतिमेचा आकार"
 
 #: src/bin/model/subtitlemodel.cpp:938 src/dialogs/renderwidget.cpp:1198
 #: src/dvdwizard/dvdwizardvob.cpp:735
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:451
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:452
 #: src/effects/effectstack/view/effectstackview.cpp:502
 #: src/jobs/filterjob.cpp:101 src/project/clipstabilize.cpp:138
 #: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:956
@@ -7769,7 +7769,7 @@ msgstr "संयोजीत करा"
 
 #. i18n: ectx: property (text), widget (QPushButton, button_import)
 #: src/capture/managecapturesdialog.cpp:40 src/layoutmanagement.cpp:420
-#: src/ui/resourcewidget_ui.ui:285
+#: src/ui/resourcewidget_ui.ui:282
 #, fuzzy, kde-format
 msgid "Import"
 msgstr "आयात"
@@ -7853,7 +7853,7 @@ msgstr ""
 
 #: src/dialogs/clipcreationdialog.cpp:368
 #: src/dialogs/clipcreationdialog.cpp:461 src/dvdwizard/dvdwizardvob.cpp:268
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:245
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:246
 #: src/mainwindow.cpp:3598 src/onlineresources/resourcewidget.cpp:553
 #, kde-format
 msgid "All Files"
@@ -9950,11 +9950,6 @@ msgstr ""
 msgid "Save Effect Stack"
 msgstr "परिणाम :"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:182
-#, kde-format
-msgid "Create Region"
-msgstr ""
-
 #: src/effects/effectstack/view/effectstackview.cpp:492
 #, kde-format
 msgid "Name for saved stack: "
@@ -10092,29 +10087,29 @@ msgstr ""
 msgid "Cannot get duration for file %1"
 msgstr "फाईल उघडतेवेळी त्रुटी"
 
-#: src/jobs/loadjob.cpp:614
+#: src/jobs/loadjob.cpp:621
 #, kde-format
 msgid "Import selected clips"
 msgstr ""
 
-#: src/jobs/loadjob.cpp:616
+#: src/jobs/loadjob.cpp:623
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
 " %1"
 msgstr ""
 
-#: src/jobs/loadjob.cpp:625 src/mltcontroller/clippropertiescontroller.cpp:638
+#: src/jobs/loadjob.cpp:632 src/mltcontroller/clippropertiescontroller.cpp:638
 #, kde-format
 msgid "Video stream %1"
 msgstr ""
 
-#: src/jobs/loadjob.cpp:640
+#: src/jobs/loadjob.cpp:647
 #, kde-format
 msgid "Audio stream %1"
 msgstr ""
 
-#: src/jobs/loadjob.cpp:664
+#: src/jobs/loadjob.cpp:671
 #, kde-format
 msgid "Add additional streams for clip"
 msgstr ""
@@ -11123,7 +11118,7 @@ msgstr "दृश्य"
 
 #. i18n: ectx: property (text), widget (QPushButton, button_preview)
 #: src/mainwindow.cpp:1091 src/monitor/recmanager.cpp:51
-#: src/ui/dvdwizardstatus_ui.ui:147 src/ui/resourcewidget_ui.ui:241
+#: src/ui/dvdwizardstatus_ui.ui:147 src/ui/resourcewidget_ui.ui:238
 #, kde-format
 msgid "Preview"
 msgstr "पूर्वावलोकन"
@@ -16617,8 +16612,8 @@ msgstr "वर्तमान टॅब बंद करा"
 #: src/ui/projectsettings_ui.ui:386 src/ui/projectsettings_ui.ui:457
 #: src/ui/projectsettings_ui.ui:464 src/ui/qtextclip_ui.ui:65
 #: src/ui/recmonitor_ui.ui:72 src/ui/renderwidget_ui.ui:644
-#: src/ui/renderwidget_ui.ui:896 src/ui/resourcewidget_ui.ui:252
-#: src/ui/resourcewidget_ui.ui:296 src/ui/selectivecolor_ui.ui:29
+#: src/ui/renderwidget_ui.ui:896 src/ui/resourcewidget_ui.ui:249
+#: src/ui/resourcewidget_ui.ui:293 src/ui/selectivecolor_ui.ui:29
 #: src/ui/selectivecolor_ui.ui:36 src/ui/speechdialog_ui.ui:95
 #: src/ui/speechdialog_ui.ui:115 src/ui/textbasededit_ui.ui:42
 #: src/ui/textbasededit_ui.ui:59 src/ui/textbasededit_ui.ui:90
@@ -18610,27 +18605,20 @@ msgstr ""
 msgid "Delete Script"
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, ResourceWidget_UI)
-#: src/ui/resourcewidget_ui.ui:14
-#, fuzzy, kde-format
-#| msgid "Normal"
-msgid "Form"
-msgstr "सामान्य"
-
 #. i18n: ectx: property (prefix), widget (QSpinBox, page_number)
-#: src/ui/resourcewidget_ui.ui:107
+#: src/ui/resourcewidget_ui.ui:104
 #, kde-format
 msgid "Page "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (KUrlLabel, provider_info)
-#: src/ui/resourcewidget_ui.ui:177
+#: src/ui/resourcewidget_ui.ui:174
 #, kde-format
 msgid "Photos provided by Example Provider"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/resourcewidget_ui.ui:334
+#: src/ui/resourcewidget_ui.ui:331
 #, kde-format
 msgid "Service"
 msgstr "सेवा"
@@ -19325,6 +19313,11 @@ msgstr ""
 msgctxt "h as hours"
 msgid "%1h"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Normal"
+#~ msgid "Form"
+#~ msgstr "सामान्य"
 
 #, fuzzy
 #~| msgid "Dialog"
