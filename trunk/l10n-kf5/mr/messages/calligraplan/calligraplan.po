@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-02-26 03:01+0100\n"
+"POT-Creation-Date: 2021-03-01 02:51+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1905,7 +1905,15 @@ msgid ""
 "schedule."
 msgstr ""
 
-#: kptview.cpp:2282 kptview.cpp:2286 kptview.cpp:2302 kptview.cpp:2326
+#: kptview.cpp:2282
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format) Delete one task"
+msgid "Delete task"
+msgstr "संसाधन काढून टाका"
+
+#: kptview.cpp:2286 kptview.cpp:2326
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Delete resource"
@@ -1914,6 +1922,14 @@ msgid "Delete task"
 msgid_plural "Delete tasks"
 msgstr[0] "संसाधन काढून टाका"
 msgstr[1] "संसाधन काढून टाका"
+
+#: kptview.cpp:2302
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format) @action"
+msgid "Delete task"
+msgstr "संसाधन काढून टाका"
 
 #: kptview.cpp:2321
 #, kde-format
@@ -1953,7 +1969,29 @@ msgctxt "(qtundo-format)"
 msgid "Delete task dependency"
 msgstr "संसाधन काढून टाका"
 
-#: kptview.cpp:2536 kptview.cpp:2579
+#: kptview.cpp:2536
+#, fuzzy
+#| msgctxt "(qtundo-format)"
+#| msgid "Delete resource"
+msgctxt "(qtundo-format) @action"
+msgid "Delete resource"
+msgstr "संसाधन काढून टाका"
+
+#: kptview.cpp:2541
+#, fuzzy
+#| msgid "Duration"
+msgctxt "(qtundo-format)"
+msgid "@action"
+msgstr "कालावधी"
+
+#: kptview.cpp:2550
+#, kde-format
+msgid ""
+"A resource that has been scheduled will be deleted. This will invalidate the "
+"schedule."
+msgstr ""
+
+#: kptview.cpp:2579
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Delete resource"
@@ -1963,7 +2001,7 @@ msgid_plural "Delete resources"
 msgstr[0] "संसाधन काढून टाका"
 msgstr[1] "संसाधन काढून टाका"
 
-#: kptview.cpp:2541 kptview.cpp:2609
+#: kptview.cpp:2609
 #, fuzzy
 #| msgctxt "(qtundo-format)"
 #| msgid "Delete resource"
@@ -1972,13 +2010,6 @@ msgid "Delete resourcegroup"
 msgid_plural "Delete resourcegroups"
 msgstr[0] "संसाधन काढून टाका"
 msgstr[1] "संसाधन काढून टाका"
-
-#: kptview.cpp:2550
-#, kde-format
-msgid ""
-"A resource that has been scheduled will be deleted. This will invalidate the "
-"schedule."
-msgstr ""
 
 #: kptview.cpp:2768
 #, kde-kuit-format
