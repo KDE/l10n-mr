@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-02 02:46+0100\n"
+"POT-Creation-Date: 2021-03-03 02:54+0100\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -8392,7 +8392,7 @@ msgstr "कोन"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: libs/image/brushengine/kis_standard_uniform_properties_factory.h:22
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:244
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:322
 #: plugins/paintops/colorsmudge/kis_colorsmudgeop_settings_widget.cpp:48
 #: plugins/paintops/defaultpaintops/brush/kis_brushop_settings_widget.cpp:55
 #: plugins/paintops/roundmarker/kis_roundmarkerop_settings_widget.cpp:31
@@ -9455,7 +9455,7 @@ msgstr "प्रतिकृती स्तर (&C)"
 #: libs/impex/KisExportCheckRegistry.cpp:90 libs/ui/kis_layer_manager.cc:553
 #: libs/ui/kis_node_manager.cpp:1500 libs/ui/KisPaletteEditor.cpp:408
 #: libs/widgets/kis_palette_view.cpp:114
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:254
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:338
 #, fuzzy, kde-format
 #| msgid "Group:"
 msgid "Group"
@@ -11919,8 +11919,8 @@ msgstr "संसाधन फाईल्स साफ करा"
 #: libs/ui/KisWelcomePageWidget.cpp:713
 #: libs/ui/opengl/kis_opengl_canvas2.cpp:410
 #: libs/ui/widgets/kis_custom_image_widget.cc:265
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:886
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:889
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:881
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:884
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:289
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:152
 #: plugins/dockers/storyboarddocker/DlgExportStoryboard.cpp:158
@@ -12155,6 +12155,102 @@ msgstr "घंटी : मार्गदर्शन उपलब्ध ना�
 msgid "Invalid"
 msgstr "अवैध"
 
+#: libs/resources/KisResourceTypes.h:46
+#, fuzzy, kde-format
+#| msgid "Edit presets"
+msgctxt "resource type"
+msgid "paintoppresets"
+msgstr "प्रीसेट संपादित करा"
+
+#: libs/resources/KisResourceTypes.h:47
+#, fuzzy, kde-format
+#| msgid "Brushes"
+msgctxt "resource type"
+msgid "brushes"
+msgstr "कुंचले"
+
+#: libs/resources/KisResourceTypes.h:48
+#, fuzzy, kde-format
+#| msgid "Gradient"
+msgctxt "resource type"
+msgid "gradients"
+msgstr "ग्रेडियंट"
+
+#: libs/resources/KisResourceTypes.h:49
+#, fuzzy, kde-format
+#| msgid "Palettes"
+msgctxt "resource type"
+msgid "palettes"
+msgstr "पटलस्"
+
+#: libs/resources/KisResourceTypes.h:50
+#, fuzzy, kde-format
+#| msgid "Patterns"
+msgctxt "resource type"
+msgid "patterns"
+msgstr "रचना"
+
+#: libs/resources/KisResourceTypes.h:51
+#, fuzzy, kde-format
+#| msgid "Workspaces"
+msgctxt "resource type"
+msgid "workspaces"
+msgstr "कार्यक्षेत्रे"
+
+#: libs/resources/KisResourceTypes.h:52
+#, kde-format
+msgctxt "resource type"
+msgid "symbols"
+msgstr ""
+
+#: libs/resources/KisResourceTypes.h:53
+#, fuzzy, kde-format
+#| msgid "Window size"
+msgctxt "resource type"
+msgid "windowlayouts"
+msgstr "खिडकीचा आकार"
+
+#: libs/resources/KisResourceTypes.h:54
+#, fuzzy, kde-format
+#| msgid "Dimensions"
+msgctxt "resource type"
+msgid "sessions"
+msgstr "परिमाणे"
+
+#: libs/resources/KisResourceTypes.h:55
+#, fuzzy, kde-format
+#| msgid "Rotate Canvas"
+msgctxt "resource type"
+msgid "gamutmasks"
+msgstr "कॅनव्हास फिरवा"
+
+#: libs/resources/KisResourceTypes.h:56
+#, fuzzy, kde-format
+#| msgid "Subscript"
+msgctxt "resource type"
+msgid "seexpr_scripts"
+msgstr "सबस्क्रिप्ट"
+
+#: libs/resources/KisResourceTypes.h:57
+#, fuzzy, kde-format
+#| msgid "Effects"
+msgctxt "resource type"
+msgid "ko_effects"
+msgstr "परिणाम"
+
+#: libs/resources/KisResourceTypes.h:58
+#, fuzzy, kde-format
+#| msgid "Task Sets"
+msgctxt "resource type"
+msgid "tasksets"
+msgstr "टास्क सेटस्"
+
+#: libs/resources/KisResourceTypes.h:59
+#, fuzzy, kde-format
+msgctxt "resource type"
+msgid "layerstyles"
+msgstr "स्तराचा आकार"
+
 #: libs/resources/KisStorageModel.cpp:277
 #: libs/resourcewidgets/dbexplorer/DlgDbExplorer.cpp:67
 #: libs/widgets/KoConfigAuthorPage.cpp:89
@@ -12354,24 +12450,24 @@ msgstr "संसाधने (&R)"
 msgid "Tag:"
 msgstr ""
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:152
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:153
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Import resource"
 msgstr "संसाधन आयात करा"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:159
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:160
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid "Delete resource"
 msgstr "संसाधन काढून टाका"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:179
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:180
 #, fuzzy, kde-format
 msgid "Storage Resources"
 msgstr "संसाधने (&R)"
 
-#: libs/resourcewidgets/KisResourceItemChooser.cpp:215
+#: libs/resourcewidgets/KisResourceItemChooser.cpp:217
 #: libs/ui/KisMainWindow.cpp:2417
 #, fuzzy, kde-format
 msgctxt "@title:window"
@@ -14686,7 +14782,7 @@ msgid "Session name:"
 msgstr "निवड पद्धत :"
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:89
-#: libs/ui/KisMainWindow.cpp:2446 libs/ui/widgets/kis_gradient_chooser.cc:523
+#: libs/ui/KisMainWindow.cpp:2446 libs/ui/widgets/kis_gradient_chooser.cc:528
 #: libs/ui/widgets/KoFillConfigWidget.cpp:651
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:366
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:202
@@ -14696,7 +14792,7 @@ msgid "Name Already Exists"
 msgstr ""
 
 #: libs/ui/dialogs/KisSessionManagerDialog.cpp:90
-#: libs/ui/KisMainWindow.cpp:2447 libs/ui/widgets/kis_gradient_chooser.cc:524
+#: libs/ui/KisMainWindow.cpp:2447 libs/ui/widgets/kis_gradient_chooser.cc:529
 #: libs/ui/widgets/KoFillConfigWidget.cpp:652
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:367
 #: plugins/dockers/tasksetdocker/tasksetdocker_dock.cpp:203
@@ -16827,7 +16923,7 @@ msgstr "स्तर काढून टाका"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: libs/ui/forms/wdgimportimagesequence.ui:57
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:177
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:231
 #, kde-format
 msgid "Order"
 msgstr ""
@@ -19847,8 +19943,8 @@ msgid "%1  %2"
 msgstr ""
 
 #: libs/ui/kis_stopgradient_editor.cpp:42
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1036
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1042
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1031
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1037
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
 #: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:28
@@ -21352,7 +21448,7 @@ msgstr "शेवटचे पान :"
 
 #: libs/ui/KisWelcomePageWidget.cpp:128
 #, kde-format
-msgid "English news are always up to date."
+msgid "English news is always up to date."
 msgstr ""
 
 #: libs/ui/KisWelcomePageWidget.cpp:390
@@ -23157,82 +23253,82 @@ msgstr "नवीन संयोजना %1"
 msgid "No configuration options"
 msgstr "संयोजना पर्याय नाही."
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:73
+#: libs/ui/widgets/kis_gradient_chooser.cc:74
 #, fuzzy, kde-format
 #| msgid "Custom Gradient"
 msgid "Custom Stop Gradient"
 msgstr "ऐच्छिक ग्रेडियंट"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:78
+#: libs/ui/widgets/kis_gradient_chooser.cc:79
 #, fuzzy, kde-format
 #| msgid "Predefined Gradients"
 msgid "Custom Segmented Gradient"
 msgstr "पूर्वनिश्चीत उतरणी"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:170
+#: libs/ui/widgets/kis_gradient_chooser.cc:171
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show icons instead of a list"
 msgid "Icon view"
 msgstr "फॉन्ट आकार निश्चित करा"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:176
+#: libs/ui/widgets/kis_gradient_chooser.cc:177
 #, fuzzy, kde-format
 #| msgid "Distant view"
 msgctxt "Set the gradient chooser to show a list instead of icons"
 msgid "List view"
 msgstr "दूरचे दृश्य"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:185
+#: libs/ui/widgets/kis_gradient_chooser.cc:186
 #, fuzzy, kde-format
 #| msgid "Small Tiles"
 msgctxt "Set the gradient chooser to show small items"
 msgid "Small items"
 msgstr "लहान फरशा"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:191
+#: libs/ui/widgets/kis_gradient_chooser.cc:192
 #, fuzzy, kde-format
 #| msgid "Custom Gradient"
 msgctxt "Set the gradient chooser to show medium size items"
 msgid "Medium size items"
 msgstr "ऐच्छिक ग्रेडियंट"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:197
+#: libs/ui/widgets/kis_gradient_chooser.cc:198
 #, fuzzy, kde-format
 msgctxt "Set the gradient chooser to show large items"
 msgid "Large items"
 msgstr "फाईलचा आकार :"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:203
+#: libs/ui/widgets/kis_gradient_chooser.cc:204
 #, fuzzy, kde-format
 #| msgid "Custom Gradient"
 msgctxt "Set the gradient chooser to show custom size items"
 msgid "Custom size items"
 msgstr "ऐच्छिक ग्रेडियंट"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:226
+#: libs/ui/widgets/kis_gradient_chooser.cc:231
 #, kde-format
 msgid "Add..."
 msgstr "जोडा..."
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:231
+#: libs/ui/widgets/kis_gradient_chooser.cc:236
 #, fuzzy, kde-format
 #| msgid "gradient"
 msgid "Stop gradient"
 msgstr "ग्रेडियंट"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:233
+#: libs/ui/widgets/kis_gradient_chooser.cc:238
 #, fuzzy, kde-format
 #| msgid "Predefined Gradients"
 msgid "Segmented gradient"
 msgstr "पूर्वनिश्चीत उतरणी"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:240
+#: libs/ui/widgets/kis_gradient_chooser.cc:245
 #, fuzzy, kde-format
 msgid "Edit..."
 msgstr "संपादन (&E)"
 
-#: libs/ui/widgets/kis_gradient_chooser.cc:478
-#: libs/ui/widgets/kis_gradient_chooser.cc:487
+#: libs/ui/widgets/kis_gradient_chooser.cc:483
+#: libs/ui/widgets/kis_gradient_chooser.cc:492
 #, kde-format
 msgid "unnamed"
 msgstr "निनावी"
@@ -23343,30 +23439,30 @@ msgstr "गडदपणा :"
 msgid "Mid-gray level:"
 msgstr "प्रदर्शन साधन"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:42
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:43
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:126
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:154
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:155
 #, fuzzy, kde-format
 #| msgid "Display"
 msgctxt "@title Which elements to display (e.g., thumbnails or details)"
 msgid "Display"
 msgstr "दर्शवा"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:48
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:49
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:132
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:162
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:163
 #, kde-format
 msgid "Thumbnails"
 msgstr "लघुप्रतिमा"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:53
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:54
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:137
-#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:168
+#: plugins/dockers/gamutmask/KisGamutMaskChooser.cpp:169
 #, kde-format
 msgid "Details"
 msgstr "तपशील"
 
-#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:71
+#: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_popup.cpp:156
 #: libs/widgets/KoToolBox.cpp:294 libs/widgetutils/xmlgui/ktoolbar.cpp:318
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
@@ -24963,61 +25059,61 @@ msgstr "फॉन्ट परिवार"
 msgid "Font Style"
 msgstr "फॉन्ट आकार"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:185
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:214
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:177
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:206
 #, fuzzy, kde-format
 #| msgid "Percent (%)"
 msgid "percent (%)"
 msgstr "प्रतिशत (%)"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:195
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:224
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:187
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:216
 #, fuzzy, kde-format
 #| msgid "Pixel height"
 msgid "percent of view height (vh)"
 msgstr "पिक्सेल उंची"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:195
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:224
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:187
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:216
 #, fuzzy, kde-format
 #| msgid "Line width"
 msgid "percent of view width (vw)"
 msgstr "रेषेची जाडी"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, fuzzy, kde-format
 #| msgid "90 &degrees"
 msgid "degrees (°)"
 msgstr "९० अंश (&D)"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, kde-format
 msgid "gons (gon)"
 msgstr ""
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, fuzzy, kde-format
 #| msgid "Percent (%)"
 msgid "percent of circle (%)"
 msgstr "प्रतिशत (%)"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:234
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:226
 #, fuzzy, kde-format
 #| msgid "radius by random"
 msgid "radians (rad)"
 msgstr "विनाक्रम निवडलेली त्रिज्या"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:243
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:235
 #, fuzzy, kde-format
 msgid "frames (f)"
 msgstr "स्तर काढून टाका"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:250
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:242
 #, fuzzy, kde-format
 msgid "percent of animation (%)"
 msgstr "रचना निर्यात करा"
 
-#: libs/widgetutils/kis_spin_box_unit_manager.cpp:250
+#: libs/widgetutils/kis_spin_box_unit_manager.cpp:242
 #, fuzzy, kde-format
 #| msgid "%1 s"
 msgid "seconds (s)"
@@ -25940,22 +26036,22 @@ msgstr "मोजपट्टी सहायक"
 msgid "Infinite Ruler"
 msgstr "मोजपट्टी सहायक"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:741
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:736
 #, fuzzy, kde-format
 msgid "Select an Assistant"
 msgstr "स्प्लाईन सहायक"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:889
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:884
 #, kde-format
 msgid "Errors were encountered. Not all assistants were successfully loaded."
 msgstr "चुका आढळल्या. सर्व सहायक कार्यान्वित करता आले नाहीत."
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:974
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:969
 #, fuzzy, kde-format
 msgid "Save Assistant"
 msgstr "सहायक :"
 
-#: plugins/assistants/Assistants/kis_assistant_tool.cc:1049
+#: plugins/assistants/Assistants/kis_assistant_tool.cc:1044
 #, fuzzy, kde-format
 #| msgid "Density:"
 msgid "Density: "
@@ -27350,19 +27446,19 @@ msgid "Right / After"
 msgstr "उजवीकडुन डावीकडे"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:30
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:36
 #, kde-format
 msgid "Activate the Select Shapes Tool to arrange objects."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:72
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:90
 #, fuzzy, kde-format
 msgid "Align"
 msgstr "प्रतिशत"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:492
+#: plugins/dockers/arrangedocker/arrange_docker_widget.ui:654
 #, fuzzy, kde-format
 #| msgid "Rotate Left"
 msgid "Distribute"
@@ -27378,8 +27474,8 @@ msgstr ""
 msgid "Artistic Color Selector"
 msgstr "आर्ट. रंग निवडणारा"
 
-#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:115
-#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:116
+#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:117
+#: plugins/dockers/artisticcolorselector/artisticcolorselector_dock.cpp:118
 #, fuzzy, kde-format
 #| msgid "Painting Mode"
 msgid "Continuous Mode"
@@ -27454,7 +27550,7 @@ msgstr "रंग निवडण्याची संयोजना"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelHueSteps)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDefHueSteps)
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:305
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:86
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:98
 #, fuzzy, kde-format
 msgid "Hue Steps"
 msgstr "अल्फा पर्याय"
@@ -27462,7 +27558,7 @@ msgstr "अल्फा पर्याय"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelSaturationSteps)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDefSaturationSteps)
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:321
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:73
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:79
 #, fuzzy, kde-format
 #| msgid "Saturation Rings:"
 msgid "Saturation Rings"
@@ -27471,7 +27567,7 @@ msgstr "गडद रिंग :"
 #. i18n: ectx: property (toolTip), widget (QLabel, labelValueScaleSteps)
 #. i18n: ectx: property (toolTip), widget (QLabel, labelDefValueScaleSteps)
 #: plugins/dockers/artisticcolorselector/forms/wdgARCSSettings.ui:357
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:99
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:117
 #, fuzzy, kde-format
 msgid "Value Scale Steps"
 msgstr "स्तराचा आकार"
@@ -27489,13 +27585,13 @@ msgid "Docker settings"
 msgstr "एक्सपोजर"
 
 #. i18n: ectx: property (text), widget (QCheckBox, bnInverseSat)
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:116
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:134
 #, kde-format
 msgid "Invert Saturation"
 msgstr "विपरीत गडद"
 
 #. i18n: ectx: property (text), widget (QPushButton, bnDefault)
-#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:139
+#: plugins/dockers/artisticcolorselector/forms/wdgWheelPreferencesPopup.ui:157
 #, fuzzy, kde-format
 #| msgid "Reset to Default"
 msgid "Reset to default"
@@ -72619,12 +72715,6 @@ msgstr "पुनरावर्ती कार्य करा"
 #~ msgctxt "(qtundo-format)"
 #~ msgid "Filter Effect Editor"
 #~ msgstr "गाळणी परिणाम संपादक"
-
-#, fuzzy
-#~| msgid "Effects"
-#~ msgctxt "(qtundo-format)"
-#~ msgid "Effects"
-#~ msgstr "परिणाम"
 
 #, fuzzy
 #~| msgid "View and edit filter"
