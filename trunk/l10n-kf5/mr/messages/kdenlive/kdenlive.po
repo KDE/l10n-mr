@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-03-08 02:44+0100\n"
+"POT-Creation-Date: 2021-03-09 03:00+0100\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -6447,7 +6447,7 @@ msgid "Next keyframe"
 msgstr ""
 
 #: src/assets/view/widgets/animationwidget.cpp:118
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:215
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:226
 #: src/project/clipstabilize.cpp:84
 #, fuzzy, kde-format
 msgid "Presets"
@@ -7315,13 +7315,13 @@ msgstr ""
 msgid "Create Folder"
 msgstr "संचयीका बनवा"
 
-#: src/bin/bin.cpp:2985 src/dialogs/textbasededit.cpp:628
+#: src/bin/bin.cpp:2985 src/dialogs/textbasededit.cpp:630
 #: src/monitor/recmanager.cpp:59
 #, kde-format
 msgid "Show log"
 msgstr ""
 
-#: src/bin/bin.cpp:2988 src/dialogs/textbasededit.cpp:630
+#: src/bin/bin.cpp:2988 src/dialogs/textbasededit.cpp:632
 #, kde-format
 msgid "Detailed log"
 msgstr ""
@@ -7661,7 +7661,7 @@ msgstr "प्रतिमेचा आकार"
 
 #: src/bin/model/subtitlemodel.cpp:938 src/dialogs/renderwidget.cpp:1215
 #: src/dvdwizard/dvdwizardvob.cpp:735
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:496
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:507
 #: src/effects/effectstack/view/effectstackview.cpp:514
 #: src/jobs/filterjob.cpp:101 src/project/clipstabilize.cpp:138
 #: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:956
@@ -7891,7 +7891,7 @@ msgstr ""
 
 #: src/dialogs/clipcreationdialog.cpp:368
 #: src/dialogs/clipcreationdialog.cpp:461 src/dvdwizard/dvdwizardvob.cpp:268
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:285
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:296
 #: src/mainwindow.cpp:3607 src/onlineresources/resourcewidget.cpp:553
 #, kde-format
 msgid "All Files"
@@ -8201,14 +8201,14 @@ msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:1770
 #: src/dialogs/kdenlivesettingsdialog.cpp:1843 src/dialogs/speechdialog.cpp:100
-#: src/dialogs/textbasededit.cpp:774
+#: src/dialogs/textbasededit.cpp:776
 #, kde-format
 msgid "Cannot find python3, please install it on your system."
 msgstr ""
 
 #: src/dialogs/kdenlivesettingsdialog.cpp:1775
 #: src/dialogs/kdenlivesettingsdialog.cpp:1849 src/dialogs/speechdialog.cpp:141
-#: src/dialogs/textbasededit.cpp:790
+#: src/dialogs/textbasededit.cpp:792
 #, kde-format
 msgid "The speech script was not found, check your install."
 msgstr ""
@@ -8773,12 +8773,12 @@ msgstr "ट्रॅक"
 msgid "Process"
 msgstr ""
 
-#: src/dialogs/speechdialog.cpp:58 src/dialogs/textbasededit.cpp:613
+#: src/dialogs/speechdialog.cpp:58 src/dialogs/textbasededit.cpp:615
 #, fuzzy, kde-format
 msgid "Please install speech recognition models"
 msgstr "निवड साधन (&S)"
 
-#: src/dialogs/speechdialog.cpp:106 src/dialogs/textbasededit.cpp:779
+#: src/dialogs/speechdialog.cpp:106 src/dialogs/textbasededit.cpp:781
 #, fuzzy, kde-format
 msgid "Please configure speech to text."
 msgstr "निवड साधन (&S)"
@@ -8794,12 +8794,12 @@ msgstr ""
 msgid "Audio export failed"
 msgstr "बिटदर"
 
-#: src/dialogs/speechdialog.cpp:173 src/dialogs/textbasededit.cpp:801
+#: src/dialogs/speechdialog.cpp:173 src/dialogs/textbasededit.cpp:803
 #, kde-format
 msgid "Starting speech recognition"
 msgstr ""
 
-#: src/dialogs/speechdialog.cpp:193 src/dialogs/textbasededit.cpp:863
+#: src/dialogs/speechdialog.cpp:193 src/dialogs/textbasededit.cpp:915
 #, fuzzy, kde-format
 msgid "Speech recognition aborted."
 msgstr "निवड साधन (&S)"
@@ -8860,85 +8860,102 @@ msgstr ""
 msgid "Delete selection"
 msgstr "उलट निवडा"
 
-#: src/dialogs/textbasededit.cpp:528 src/dialogs/textbasededit.cpp:929
-#: src/dialogs/textbasededit.cpp:948
+#: src/dialogs/textbasededit.cpp:528 src/dialogs/textbasededit.cpp:981
+#: src/dialogs/textbasededit.cpp:1000
 #, fuzzy, kde-format
 msgid "No speech"
 msgstr "परियोजना : %1"
 
-#: src/dialogs/textbasededit.cpp:638
+#: src/dialogs/textbasededit.cpp:640
 #, fuzzy, kde-format
 #| msgid "Delete %1"
 msgid "Delete selected text"
 msgstr "काढून टाका %1"
 
-#: src/dialogs/textbasededit.cpp:642
+#: src/dialogs/textbasededit.cpp:644
 #, kde-format
 msgid "Save edited text in a new playlist"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:649
+#: src/dialogs/textbasededit.cpp:651
 #, fuzzy, kde-format
 #| msgid "Track"
 msgid "Add bookmark for current selection"
 msgstr "ट्रॅक"
 
-#: src/dialogs/textbasededit.cpp:653
+#: src/dialogs/textbasededit.cpp:655
 #, kde-format
 msgid "Insert selected blocks in timeline"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:760
+#: src/dialogs/textbasededit.cpp:762
 #, kde-format
 msgid "Another recognition job is running. Abort it ?"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:785
+#: src/dialogs/textbasededit.cpp:787
 #, kde-format
 msgid "Please install a language model."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:796
+#: src/dialogs/textbasededit.cpp:798
 #, fuzzy, kde-format
-msgid "Select a clip in Project Bin."
+msgid "Select a clip with audio in Project Bin."
 msgstr "परियोजना : %1"
 
-#: src/dialogs/textbasededit.cpp:844
+#: src/dialogs/textbasededit.cpp:849
 #, fuzzy, kde-format
-msgid "Select a clip for speech recognition."
+msgid "Select a clip with audio for speech recognition."
 msgstr "निवड साधन (&S)"
 
-#: src/dialogs/textbasededit.cpp:847
+#: src/dialogs/textbasededit.cpp:858
+#, fuzzy, kde-format
+msgid "Cannot create temporary file."
+msgstr "फाईल उघडतेवेळी त्रुटी"
+
+#: src/dialogs/textbasededit.cpp:863
+#, fuzzy, kde-format
+#| msgid "Show thumbnails"
+msgid "Extracting audio for %1."
+msgstr "लघुप्रतिमा दाखवा"
+
+#: src/dialogs/textbasededit.cpp:870
+#, fuzzy, kde-format
+#| msgid "Bitrate"
+msgid "Audio extract failed."
+msgstr "बिटदर"
+
+#: src/dialogs/textbasededit.cpp:876 src/dialogs/textbasededit.cpp:899
 #, fuzzy, kde-format
 msgid "Starting speech recognition on %1."
 msgstr "निवड साधन (&S)"
 
-#: src/dialogs/textbasededit.cpp:866
+#: src/dialogs/textbasededit.cpp:918
 #, kde-format
 msgid "Error, please check the speech to text configuration."
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:868
+#: src/dialogs/textbasededit.cpp:920
 #, fuzzy, kde-format
 msgid "No speech detected."
 msgstr "परियोजना : %1"
 
-#: src/dialogs/textbasededit.cpp:872
+#: src/dialogs/textbasededit.cpp:924
 #, fuzzy, kde-format
 msgid "Speech recognition finished."
 msgstr "निवड साधन (&S)"
 
-#: src/dialogs/textbasededit.cpp:1057
+#: src/dialogs/textbasededit.cpp:1109
 #, fuzzy, kde-format
 msgid "No text to export"
 msgstr "पानाच्या उंचीप्रमाणे समर्पक बसवा"
 
-#: src/dialogs/textbasededit.cpp:1077
+#: src/dialogs/textbasededit.cpp:1129
 #, kde-format
 msgid "Enter new playlist path"
 msgstr ""
 
-#: src/dialogs/textbasededit.cpp:1165
+#: src/dialogs/textbasededit.cpp:1217
 #, kde-format
 msgid "No timecode found in selection"
 msgstr ""
@@ -10042,45 +10059,45 @@ msgstr "परिणाम नाही"
 msgid "Enable Effect"
 msgstr "परिणाम नाही"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:117
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:128
 #, kde-format
 msgid "Create Group"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:124
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:135
 #, fuzzy, kde-format
 #| msgid "In"
 msgid "In:"
 msgstr "च्या आत"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:130
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:141
 #, fuzzy, kde-format
 #| msgid "Image"
 msgid "Set zone in"
 msgstr "प्रतिमा"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:135
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:146
 #, kde-format
 msgid "Out:"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:141
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:152
 #, fuzzy, kde-format
 #| msgid "Zoom Out"
 msgid "Set zone out"
 msgstr "लहान करा"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:155
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:166
 #, fuzzy, kde-format
 msgid "Use effect zone"
 msgstr "परिणाम :"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:223
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:234
 #, kde-format
 msgid "Save Effect"
 msgstr ""
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:224
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:235
 #: src/effects/effectstack/view/effectstackview.cpp:504
 #, fuzzy, kde-format
 msgid "Save Effect Stack"
