@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-03 00:18+0000\n"
+"POT-Creation-Date: 2021-04-04 00:18+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -6894,7 +6894,7 @@ msgstr ""
 msgid "Delete bin Clips"
 msgstr "संचयीका काढून टाका (&D)"
 
-#: src/bin/bin.cpp:1548 src/doc/documentchecker.cpp:727
+#: src/bin/bin.cpp:1548 src/doc/documentchecker.cpp:729
 #, kde-format
 msgid "Missing source clip"
 msgstr ""
@@ -7496,7 +7496,7 @@ msgstr "प्रतिमेचा आकार"
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:512
 #: src/effects/effectstack/view/effectstackview.cpp:483
 #: src/jobs/filterjob.cpp:101 src/project/clipstabilize.cpp:139
-#: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:957
+#: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:966
 #, kde-format
 msgid ""
 "File %1 already exists.\n"
@@ -7504,7 +7504,7 @@ msgid ""
 msgstr ""
 
 #: src/bin/projectclip.cpp:161 src/doc/kdenlivedoc.cpp:799
-#: src/project/dialogs/archivewidget.cpp:206 src/project/projectmanager.cpp:995
+#: src/project/dialogs/archivewidget.cpp:206 src/project/projectmanager.cpp:996
 #, kde-format
 msgid "Untitled"
 msgstr "शिर्षकहीन"
@@ -8387,12 +8387,12 @@ msgstr ""
 #: src/doc/kdenlivedoc.cpp:615 src/doc/kdenlivedoc.cpp:623
 #: src/dvdwizard/dvdwizard.cpp:995 src/dvdwizard/dvdwizard.cpp:1001
 #: src/profiles/profilerepository.cpp:201
-#: src/project/dialogs/archivewidget.cpp:902
-#: src/project/dialogs/archivewidget.cpp:913
+#: src/project/dialogs/archivewidget.cpp:911
 #: src/project/dialogs/archivewidget.cpp:922
-#: src/project/dialogs/archivewidget.cpp:934
-#: src/project/dialogs/archivewidget.cpp:940
-#: src/project/projectmanager.cpp:1094
+#: src/project/dialogs/archivewidget.cpp:931
+#: src/project/dialogs/archivewidget.cpp:943
+#: src/project/dialogs/archivewidget.cpp:949
+#: src/project/projectmanager.cpp:1095
 #: src/timeline2/view/timelinecontroller.cpp:4167
 #: src/timeline2/view/timelinecontroller.cpp:4175
 #: src/titler/titlewidget.cpp:2218
@@ -8418,7 +8418,7 @@ msgid "Cannot find the melt program required for rendering (part of Mlt)"
 msgstr ""
 
 #: src/dialogs/renderwidget.cpp:1121 src/dialogs/renderwidget.cpp:2771
-#: src/project/dialogs/archivewidget.cpp:929
+#: src/project/dialogs/archivewidget.cpp:938
 #, kde-format
 msgid "Output file already exists. Do you want to overwrite it?"
 msgstr ""
@@ -8822,8 +8822,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, button_abort)
 #. i18n: ectx: property (text), widget (QPushButton, convert_abort)
 #: src/dialogs/wizard.cpp:111 src/project/cliptranscode.cpp:206
-#: src/project/cliptranscode.cpp:238 src/project/dialogs/archivewidget.cpp:683
-#: src/project/dialogs/archivewidget.cpp:1054 src/ui/dvdwizardstatus_ui.ui:94
+#: src/project/cliptranscode.cpp:238 src/project/dialogs/archivewidget.cpp:692
+#: src/project/dialogs/archivewidget.cpp:1063 src/ui/dvdwizardstatus_ui.ui:94
 #: src/ui/dvdwizardvob_ui.ui:155
 #, kde-format
 msgid "Abort"
@@ -9055,50 +9055,51 @@ msgstr "प्रतिमा"
 msgid "Missing item"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:570 src/doc/documentchecker.cpp:587
+#: src/doc/documentchecker.cpp:571 src/doc/documentchecker.cpp:589
+#: src/doc/documentchecker.cpp:1162
 #, kde-format
 msgid "Relocated item"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:596
+#: src/doc/documentchecker.cpp:598
 #, fuzzy, kde-format
 #| msgid "Title"
 msgid "Title Font"
 msgstr "शिर्षक"
 
-#: src/doc/documentchecker.cpp:601
+#: src/doc/documentchecker.cpp:603
 #, kde-format
 msgid "%1 will be replaced by %2"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:606
+#: src/doc/documentchecker.cpp:608
 #, fuzzy, kde-format
 msgid "Modified Clips"
 msgstr "प्रतिमेचा आकार"
 
-#: src/doc/documentchecker.cpp:610
+#: src/doc/documentchecker.cpp:612
 #, kde-format
 msgid "Clip %1 will be reloaded"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:616
+#: src/doc/documentchecker.cpp:618
 #, kde-format
 msgid "The project file contains missing clips or files."
 msgstr ""
 
-#: src/doc/documentchecker.cpp:622
+#: src/doc/documentchecker.cpp:624
 #, kde-format
 msgid "Missing effect: %2 will be removed from project."
 msgid_plural "Missing effects: %2 will be removed from project."
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/documentchecker.cpp:629
+#: src/doc/documentchecker.cpp:631
 #, kde-format
 msgid "Missing proxies can be recreated on opening."
 msgstr ""
 
-#: src/doc/documentchecker.cpp:647
+#: src/doc/documentchecker.cpp:649
 #, kde-format
 msgid ""
 "The project file contains a missing clip, you can still work with its proxy."
@@ -9108,7 +9109,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/documentchecker.cpp:654
+#: src/doc/documentchecker.cpp:656
 #, kde-format
 msgid "The project file contains one modified clip, it will be reloaded."
 msgid_plural ""
@@ -9116,79 +9117,79 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/documentchecker.cpp:705
+#: src/doc/documentchecker.cpp:707
 #: src/mltcontroller/clippropertiescontroller.cpp:440
 #, kde-format
 msgid "Proxy clip"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:708
+#: src/doc/documentchecker.cpp:710
 #, kde-format
 msgid "%1 missing proxy clip, will be recreated on project opening"
 msgid_plural "%1 missing proxy clips, will be recreated on project opening"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/documentchecker.cpp:711
+#: src/doc/documentchecker.cpp:713
 #, kde-format
 msgid "Missing proxy"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:722 src/doc/documentchecker.cpp:736
+#: src/doc/documentchecker.cpp:724 src/doc/documentchecker.cpp:738
 #, kde-format
 msgid "Source clip"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:724
+#: src/doc/documentchecker.cpp:726
 #, kde-format
 msgid "%1 missing source clips, you can only use the proxies"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:834
+#: src/doc/documentchecker.cpp:836
 #, kde-format
 msgid "Clips folder"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:865 src/doc/documentchecker.cpp:889
-#: src/doc/documentchecker.cpp:899 src/doc/documentchecker.cpp:911
+#: src/doc/documentchecker.cpp:867 src/doc/documentchecker.cpp:891
+#: src/doc/documentchecker.cpp:901 src/doc/documentchecker.cpp:913
 #, fuzzy, kde-format
 msgid "Recovered item"
 msgstr "प्रतिमेचा आकार"
 
-#: src/doc/documentchecker.cpp:924
+#: src/doc/documentchecker.cpp:926
 #, fuzzy, kde-format
 msgid "Search aborted"
 msgstr "शोधा"
 
-#: src/doc/documentchecker.cpp:926
+#: src/doc/documentchecker.cpp:928
 #, fuzzy, kde-format
 msgid "Search done"
 msgstr "शोधा"
 
-#: src/doc/documentchecker.cpp:1023
+#: src/doc/documentchecker.cpp:1025
 #, fuzzy, kde-format
 #| msgid "Scanning"
 msgid "Scanning %1"
 msgstr "स्कॅन करत आहे"
 
-#: src/doc/documentchecker.cpp:1122
+#: src/doc/documentchecker.cpp:1124
 #, kde-format
 msgid "Enter new location for folder"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1148
+#: src/doc/documentchecker.cpp:1150
 #, kde-format
 msgid "Enter new location for file"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1448
+#: src/doc/documentchecker.cpp:1451
 #, kde-format
 msgid "This will remove the selected clip from this project"
 msgid_plural "This will remove the selected clips from this project"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/documentchecker.cpp:1450
+#: src/doc/documentchecker.cpp:1453
 #, kde-format
 msgid "Remove clips"
 msgstr ""
@@ -9395,104 +9396,104 @@ msgstr ""
 msgid "Project Folder"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1049
+#: src/doc/kdenlivedoc.cpp:1049 src/doc/kdenlivedoc.cpp:1057
 #, kde-format
 msgid ""
 "Cannot create backup copy:\n"
 "%1"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1172
+#: src/doc/kdenlivedoc.cpp:1185
 #, kde-format
 msgid "Add proxy clip"
 msgid_plural "Add proxy clips"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/kdenlivedoc.cpp:1174
+#: src/doc/kdenlivedoc.cpp:1187
 #, kde-format
 msgid "Remove proxy clip"
 msgid_plural "Remove proxy clips"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/doc/kdenlivedoc.cpp:1260
+#: src/doc/kdenlivedoc.cpp:1273
 #, kde-format
 msgid "Clip type does not support proxies"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1438
+#: src/doc/kdenlivedoc.cpp:1451
 #, kde-format
 msgid ""
 "\n"
 "Warning: unknown non integer fps, might cause incorrect duration display."
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1457
+#: src/doc/kdenlivedoc.cpp:1470
 #, kde-format
 msgid ""
 "Your default project profile is %1, but your clip's profile is %2.\n"
 "Do you want to change default profile for future projects?"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1459
+#: src/doc/kdenlivedoc.cpp:1472
 #, fuzzy, kde-format
 msgid "Change default project profile"
 msgstr "रूपरेषा नष्ट करा (&D)"
 
-#: src/doc/kdenlivedoc.cpp:1459
+#: src/doc/kdenlivedoc.cpp:1472
 #, kde-format
 msgid "Change default to %1"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1460
+#: src/doc/kdenlivedoc.cpp:1473
 #, kde-format
 msgid "Keep current default %1"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1460
+#: src/doc/kdenlivedoc.cpp:1473
 #, kde-format
 msgid "Ask me later"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1481
+#: src/doc/kdenlivedoc.cpp:1494
 #, kde-format
 msgid "Switch"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: src/doc/kdenlivedoc.cpp:1483 src/ui/titlewidget_ui.ui:187
+#: src/doc/kdenlivedoc.cpp:1496 src/ui/titlewidget_ui.ui:187
 #, fuzzy, kde-format
 #| msgid "Balance"
 msgid "Cancel"
 msgstr "संतुलन"
 
-#: src/doc/kdenlivedoc.cpp:1485
+#: src/doc/kdenlivedoc.cpp:1498
 #, kde-format
 msgid "Switch to clip profile %1?"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1489
+#: src/doc/kdenlivedoc.cpp:1502
 #, kde-format
 msgid ""
 "\n"
 "Profile fps adjusted from original %1"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1492
+#: src/doc/kdenlivedoc.cpp:1505
 #, kde-format
 msgid ""
 "No profile found for your clip.\n"
 "Create and switch to new profile (%1x%2, %3fps)?%4"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1768 src/scopes/colorscopes/colorplaneexport.cpp:235
+#: src/doc/kdenlivedoc.cpp:1781 src/scopes/colorscopes/colorplaneexport.cpp:235
 #: src/scopes/colorscopes/colorplaneexport.cpp:263
 #, kde-format
 msgid "Red"
 msgstr "लाल"
 
-#: src/doc/kdenlivedoc.cpp:1769 src/scopes/colorscopes/colorplaneexport.cpp:236
+#: src/doc/kdenlivedoc.cpp:1782 src/scopes/colorscopes/colorplaneexport.cpp:236
 #: src/scopes/colorscopes/colorplaneexport.cpp:264
 #: src/scopes/colorscopes/vectorscope.cpp:51
 #: src/scopes/colorscopes/waveform.cpp:36
@@ -9500,21 +9501,21 @@ msgstr "लाल"
 msgid "Green"
 msgstr "हिरवा"
 
-#: src/doc/kdenlivedoc.cpp:1770 src/scopes/colorscopes/colorplaneexport.cpp:237
+#: src/doc/kdenlivedoc.cpp:1783 src/scopes/colorscopes/colorplaneexport.cpp:237
 #: src/scopes/colorscopes/colorplaneexport.cpp:265
 #, kde-format
 msgid "Blue"
 msgstr "निळा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/doc/kdenlivedoc.cpp:1771 src/scopes/colorscopes/waveform.cpp:34
+#: src/doc/kdenlivedoc.cpp:1784 src/scopes/colorscopes/waveform.cpp:34
 #: src/ui/selectivecolor_ui.ui:121
 #, kde-format
 msgid "Yellow"
 msgstr "पिवळा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/doc/kdenlivedoc.cpp:1772 src/ui/selectivecolor_ui.ui:55
+#: src/doc/kdenlivedoc.cpp:1785 src/ui/selectivecolor_ui.ui:55
 #, kde-format
 msgid "Cyan"
 msgstr ""
@@ -13516,8 +13517,8 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/project/dialogs/archivewidget.cpp:202
-#: src/project/dialogs/archivewidget.cpp:1195
-#: src/project/dialogs/archivewidget.cpp:1238
+#: src/project/dialogs/archivewidget.cpp:1204
+#: src/project/dialogs/archivewidget.cpp:1247
 #, fuzzy, kde-format
 msgid "(%1 item)"
 msgid_plural "(%1 items)"
@@ -13525,8 +13526,8 @@ msgstr[0] "घटक"
 msgstr[1] "%1 घटक"
 
 #: src/project/dialogs/archivewidget.cpp:208
-#: src/project/dialogs/archivewidget.cpp:1197
-#: src/project/dialogs/archivewidget.cpp:1240
+#: src/project/dialogs/archivewidget.cpp:1206
+#: src/project/dialogs/archivewidget.cpp:1249
 #, kde-format
 msgid "%1 file to archive, requires %2"
 msgid_plural "%1 files to archive, requires %2"
@@ -13534,140 +13535,140 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: src/project/dialogs/archivewidget.cpp:209
-#: src/project/dialogs/archivewidget.cpp:711
-#: src/project/dialogs/archivewidget.cpp:1024
+#: src/project/dialogs/archivewidget.cpp:720
+#: src/project/dialogs/archivewidget.cpp:1033
 #, kde-format
 msgid "Archive"
 msgstr "संग्रह"
 
 #: src/project/dialogs/archivewidget.cpp:220
-#: src/project/dialogs/archivewidget.cpp:701
-#: src/project/dialogs/archivewidget.cpp:1021
+#: src/project/dialogs/archivewidget.cpp:710
+#: src/project/dialogs/archivewidget.cpp:1030
 #, kde-format
 msgid "There was an error processing project file"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:253
+#: src/project/dialogs/archivewidget.cpp:255
 #, kde-format
 msgid "Extract to"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:254
+#: src/project/dialogs/archivewidget.cpp:256
 #, kde-format
 msgid "Open Archived Project"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:256
+#: src/project/dialogs/archivewidget.cpp:258
 #, kde-format
 msgid "Extract"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:284
+#: src/project/dialogs/archivewidget.cpp:286
 #, kde-format
 msgid "Opening archive..."
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:287
+#: src/project/dialogs/archivewidget.cpp:296
 #, kde-format
 msgid ""
 "Cannot open archive file:\n"
 " %1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:304
+#: src/project/dialogs/archivewidget.cpp:313
 #, kde-format
 msgid ""
 "File %1\n"
 " is not an archived Kdenlive project"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:310
+#: src/project/dialogs/archivewidget.cpp:319
 #, fuzzy, kde-format
 msgid "Ready"
 msgstr "तयार"
 
-#: src/project/dialogs/archivewidget.cpp:334
+#: src/project/dialogs/archivewidget.cpp:343
 #, kde-format
 msgid "Archiving in progress, do you want to stop it?"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:334
-#: src/project/dialogs/archivewidget.cpp:335
+#: src/project/dialogs/archivewidget.cpp:343
+#: src/project/dialogs/archivewidget.cpp:344
 #, kde-format
 msgid "Stop Archiving"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:525
+#: src/project/dialogs/archivewidget.cpp:534
 #, kde-format
 msgid "Available space on drive: %1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:528
+#: src/project/dialogs/archivewidget.cpp:537
 #, kde-format
 msgid "Not enough space on drive, free space: %1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:543
+#: src/project/dialogs/archivewidget.cpp:552
 #, kde-format
 msgid "Starting archive job"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:556
+#: src/project/dialogs/archivewidget.cpp:565
 #, fuzzy, kde-format
 msgid "Archiving..."
 msgstr "संग्रह करत आहे"
 
-#: src/project/dialogs/archivewidget.cpp:584
-#: src/project/dialogs/archivewidget.cpp:673
-#: src/project/dialogs/archivewidget.cpp:1051
+#: src/project/dialogs/archivewidget.cpp:593
+#: src/project/dialogs/archivewidget.cpp:682
+#: src/project/dialogs/archivewidget.cpp:1060
 #, kde-format
 msgid "Cannot create directory %1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:652
+#: src/project/dialogs/archivewidget.cpp:661
 #, fuzzy, kde-format
 #| msgid "Copyright"
 msgid "Copying %1"
 msgstr "कॉपीराईट"
 
-#: src/project/dialogs/archivewidget.cpp:699
+#: src/project/dialogs/archivewidget.cpp:708
 #, kde-format
 msgid "Project was successfully archived."
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:708
+#: src/project/dialogs/archivewidget.cpp:717
 #, kde-format
 msgid "There was an error while copying the files: %1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:889
+#: src/project/dialogs/archivewidget.cpp:898
 #, kde-format
 msgid "Cannot create temporary file"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:982
+#: src/project/dialogs/archivewidget.cpp:991
 #, fuzzy, kde-format
 msgid "Archiving %1"
 msgstr "संग्रह करत आहे"
 
-#: src/project/dialogs/archivewidget.cpp:1018
+#: src/project/dialogs/archivewidget.cpp:1027
 #, kde-format
 msgid ""
 "Project was successfully archived.\n"
 "%1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:1053
+#: src/project/dialogs/archivewidget.cpp:1062
 #, kde-format
 msgid "Extracting..."
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:1114
+#: src/project/dialogs/archivewidget.cpp:1123
 #, kde-format
 msgid "Cannot open project file %1"
 msgstr ""
 
-#: src/project/dialogs/archivewidget.cpp:1114
+#: src/project/dialogs/archivewidget.cpp:1123
 #, kde-format
 msgid "Cannot open file"
 msgstr ""
@@ -14246,7 +14247,7 @@ msgstr ""
 
 #: src/project/projectmanager.cpp:59
 #, fuzzy, kde-format
-msgid "Archived project (*.tar.gz)"
+msgid "Archived project (*.tar.gz *.zip)"
 msgstr "संग्रह करत आहे"
 
 #: src/project/projectmanager.cpp:81
@@ -14264,7 +14265,7 @@ msgstr ""
 msgid "Save changes to document?"
 msgstr ""
 
-#: src/project/projectmanager.cpp:249 src/project/projectmanager.cpp:994
+#: src/project/projectmanager.cpp:249 src/project/projectmanager.cpp:995
 #, kde-format
 msgid ""
 "The project <b>\"%1\"</b> has been changed.\n"
@@ -14314,35 +14315,35 @@ msgstr ""
 msgid "Revert to last saved version"
 msgstr ""
 
-#: src/project/projectmanager.cpp:699
+#: src/project/projectmanager.cpp:700
 #, kde-format
 msgid ""
 "Project was corrupted, cannot backup. Please close and reopen your project "
 "file to recover last backup"
 msgstr ""
 
-#: src/project/projectmanager.cpp:874
+#: src/project/projectmanager.cpp:875
 #, fuzzy, kde-format
 msgid "Moving project folder"
 msgstr "संग्रह करत आहे"
 
-#: src/project/projectmanager.cpp:896
+#: src/project/projectmanager.cpp:897
 #, fuzzy, kde-format
 msgid "Error moving project folder: %1"
 msgstr "फाईल उघडतेवेळी त्रुटी"
 
-#: src/project/projectmanager.cpp:914
+#: src/project/projectmanager.cpp:915
 #, kde-format
 msgid "Project file is corrupted (no tracks). Try to find a backup file?"
 msgstr ""
 
-#: src/project/projectmanager.cpp:999 src/project/projectmanager.cpp:1004
-#: src/project/projectmanager.cpp:1014 src/project/projectmanager.cpp:1029
+#: src/project/projectmanager.cpp:1000 src/project/projectmanager.cpp:1005
+#: src/project/projectmanager.cpp:1015 src/project/projectmanager.cpp:1030
 #, kde-format
 msgid "Project profile change aborted"
 msgstr ""
 
-#: src/project/projectmanager.cpp:1100
+#: src/project/projectmanager.cpp:1101
 #, kde-format
 msgid "Project profile changed"
 msgstr ""
