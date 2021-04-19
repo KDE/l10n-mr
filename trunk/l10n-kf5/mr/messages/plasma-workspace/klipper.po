@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -561,14 +561,15 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "इतिहास मधील क्रिया पुन्हा कार्यान्वित करा"
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
-msgstr "<रिकामे क्लिपबोर्ड>"
+msgid "Clipboard is empty"
+msgstr "क्लिपबोर्ड रिकामा आहे"
 
 #: klipperpopup.cpp:73
-#, kde-format
-msgid "<no matches>"
+#, fuzzy, kde-format
+#| msgid "<no matches>"
+msgid "No matches"
 msgstr "<जुळवणी आढळली नाही>"
 
 #: klipperpopup.cpp:121
@@ -689,11 +690,6 @@ msgstr "अधिक (&M)"
 msgid "Clipboard Contents"
 msgstr "क्लिपबोर्ड मजकूर"
 
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "क्लिपबोर्ड रिकामा आहे"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -708,6 +704,9 @@ msgstr "हे पॉपअप अकार्यान्वित करा"
 #, kde-format
 msgid "&Cancel"
 msgstr "रद्द करा (&C)"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<रिकामे क्लिपबोर्ड>"
 
 #, fuzzy
 #~| msgid "Enable/Disable Clipboard Actions"
