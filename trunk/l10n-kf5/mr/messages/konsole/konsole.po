@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-18 00:21+0000\n"
+"POT-Creation-Date: 2021-04-25 00:21+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -58,19 +58,19 @@ msgid "Split View"
 msgstr "दृश्य विभाजित करा"
 
 #. i18n: ectx: Menu (settings)
-#: ../desktop/konsoleui.rc:36
+#: ../desktop/konsoleui.rc:38
 #, kde-format
 msgid "Settings"
 msgstr "संयोजना"
 
 #. i18n: ectx: Menu (help)
-#: ../desktop/konsoleui.rc:47
+#: ../desktop/konsoleui.rc:49
 #, kde-format
 msgid "Help"
 msgstr "मदत"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: ../desktop/konsoleui.rc:51
+#: ../desktop/konsoleui.rc:53
 #, kde-format
 msgid "Main Toolbar"
 msgstr ""
@@ -95,37 +95,45 @@ msgid "Name of profile to use for new Konsole instance"
 msgstr "नवीन Konsole घटना करिता वापरण्याजोगी प्रोफाईलचे नाव"
 
 #: Application.cpp:55
+#, fuzzy, kde-format
+#| msgctxt "@info:shell"
+#| msgid "Name of profile to use for new Konsole instance"
+msgctxt "@info:shell"
+msgid "json layoutfile to be loaded to use for new Konsole instance"
+msgstr "नवीन Konsole घटना करिता वापरण्याजोगी प्रोफाईलचे नाव"
+
+#: Application.cpp:59
 #, kde-format
 msgctxt "@info:shell"
 msgid "Use the internal FALLBACK profile"
 msgstr ""
 
-#: Application.cpp:58
+#: Application.cpp:62
 #, kde-format
 msgctxt "@info:shell"
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr "नवीन टॅब किंवा चौकटला प्रारंभिक कार्यरत संचयीका करिता 'dir' असे निश्चित करा"
 
-#: Application.cpp:62
+#: Application.cpp:66
 #, kde-format
 msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "समाप्त होतेवेळी प्रारंभिक सत्र आपोआप बंद करू नका."
 
-#: Application.cpp:65
+#: Application.cpp:69
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr "नवीन चौकट बनविण्याऐवजी अस्तित्वातील चौकट अंतर्गत नवीन टॅब बनवा"
 
-#: Application.cpp:68
+#: Application.cpp:72
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: Application.cpp:72
+#: Application.cpp:76
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -134,67 +142,67 @@ msgid ""
 msgstr ""
 "Ctrl+Shift+F12 कि दाबल्यावर Konsole ला पार्श्वभूमीत चालवा व त्यास पृष्ठभूमीत दर्शवा"
 
-#: Application.cpp:75
+#: Application.cpp:79
 #, kde-format
 msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
-#: Application.cpp:78
+#: Application.cpp:82
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:81
+#: Application.cpp:85
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:84
+#: Application.cpp:88
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:87
+#: Application.cpp:91
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:90
+#: Application.cpp:94
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in fullscreen mode"
 msgstr ""
 
-#: Application.cpp:93
+#: Application.cpp:97
 #, kde-format
 msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "प्रणाली समर्थन पुरवित असल्यावरही, पारदर्शीय पार्श्वभूमी अकार्यान्वित करा."
 
-#: Application.cpp:96
+#: Application.cpp:100
 #, kde-format
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "उपलब्ध प्रोफाईल्सची यादी दर्शवा"
 
-#: Application.cpp:99
+#: Application.cpp:103
 #, kde-format
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: Application.cpp:102
+#: Application.cpp:106
 #, kde-format
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "प्रोफाईल गुणधर्माचे मूल्य बदलू नका."
 
-#: Application.cpp:106
+#: Application.cpp:110
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -202,13 +210,13 @@ msgid ""
 "it as the last option."
 msgstr ""
 
-#: Application.cpp:115
+#: Application.cpp:119
 #, kde-format
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "आदेश करिता पुरविले गेलेले बाब"
 
-#: Application.cpp:557
+#: Application.cpp:566
 #, fuzzy, kde-format
 #| msgctxt "@item:intable palette"
 #| msgid "Background (Intense)"
@@ -1139,7 +1147,21 @@ msgctxt "@item"
 msgid "Activate Menu"
 msgstr "सक्रिय मेन्यू"
 
-#: MainWindow.cpp:612 MainWindow.cpp:631
+#: MainWindow.cpp:383
+#, fuzzy, kde-format
+#| msgctxt "@action Shortcut entry"
+#| msgid "Move Tab Left"
+msgctxt "@action:inmenu"
+msgid "Save tab layout to file"
+msgstr "टॅब डावीकडे हलवा"
+
+#: MainWindow.cpp:390
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Load tab layout from file"
+msgstr ""
+
+#: MainWindow.cpp:626 MainWindow.cpp:645
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "There are %1 tab open in this window. Do you still want to quit?"
@@ -1152,25 +1174,25 @@ msgid_plural ""
 msgstr[0] "या चौकटीत %1 उघडा टॅब आहे, तुम्हाला नक्की बाहेर पडायचे आहे का?"
 msgstr[1] "या चौकटीत %1 उघडे टॅब आहेत, तुम्हाला नक्की बाहेर पडायचे आहे का?"
 
-#: MainWindow.cpp:618 MainWindow.cpp:637 MainWindow.cpp:655
+#: MainWindow.cpp:632 MainWindow.cpp:651 MainWindow.cpp:669
 #, kde-format
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "बंद करण्याची खात्री करा"
 
-#: MainWindow.cpp:620 MainWindow.cpp:639 MainWindow.cpp:656
+#: MainWindow.cpp:634 MainWindow.cpp:653 MainWindow.cpp:670
 #, kde-format
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "चौकट बंद करा (&W)"
 
-#: MainWindow.cpp:642 MainWindow.cpp:659
+#: MainWindow.cpp:656 MainWindow.cpp:673
 #, kde-format
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "वर्तमान टॅब बंद करा (&T)"
 
-#: MainWindow.cpp:652
+#: MainWindow.cpp:666
 #, fuzzy, kde-format
 #| msgctxt "@info"
 #| msgid "There are %1 tab open in this window. Do you still want to quit?"
@@ -1180,13 +1202,13 @@ msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr "या चौकटीत %1 उघडा टॅब आहे, तुम्हाला नक्की बाहेर पडायचे आहे का?"
 
-#: MainWindow.cpp:774
+#: MainWindow.cpp:788
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "सामान्य"
 
-#: MainWindow.cpp:779 Part.cpp:312
+#: MainWindow.cpp:793 Part.cpp:312
 #, fuzzy, kde-format
 #| msgctxt "@item This will be used as part of the file name"
 #| msgid "New Profile"
@@ -1194,19 +1216,19 @@ msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "नवीन रूपरेषा"
 
-#: MainWindow.cpp:784
+#: MainWindow.cpp:798
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr ""
 
-#: MainWindow.cpp:789
+#: MainWindow.cpp:803
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr ""
 
-#: MainWindow.cpp:794
+#: MainWindow.cpp:808
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
@@ -2630,31 +2652,43 @@ msgstr "संचयीका येथे बदला (&D)"
 msgid "&Paste Location"
 msgstr "स्थान चिटकवा (&P)"
 
-#: ViewManager.cpp:104
+#: ViewManager.cpp:112
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "दृश्य डावे/उजवे असे विभाजित करा"
 
-#: ViewManager.cpp:111
+#: ViewManager.cpp:119
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "दृश्य वर/खाली असे विभाजित करा"
 
-#: ViewManager.cpp:117
+#: ViewManager.cpp:126
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Load a new tab with layout 2x2 terminals"
+msgstr ""
+
+#: ViewManager.cpp:134 ViewManager.cpp:142
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Load a new tab with layout 2x1 terminals"
+msgstr ""
+
+#: ViewManager.cpp:149
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "दृश्य विस्तारीत करा"
 
-#: ViewManager.cpp:125
+#: ViewManager.cpp:157
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "दृश्य लहान करा"
 
-#: ViewManager.cpp:135
+#: ViewManager.cpp:167
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "D&etach Current Tab"
@@ -2662,7 +2696,7 @@ msgctxt "@action:inmenu"
 msgid "Detach Current &View"
 msgstr "वर्तमान टॅब वेगळा करा (&E)"
 
-#: ViewManager.cpp:147
+#: ViewManager.cpp:180
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "D&etach Current Tab"
@@ -2670,81 +2704,81 @@ msgctxt "@action:inmenu"
 msgid "Detach Current &Tab"
 msgstr "वर्तमान टॅब वेगळा करा (&E)"
 
-#: ViewManager.cpp:152
+#: ViewManager.cpp:185
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "पुढील टॅब"
 
-#: ViewManager.cpp:160
+#: ViewManager.cpp:193
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "मागील टॅब"
 
-#: ViewManager.cpp:168
+#: ViewManager.cpp:201
 #, fuzzy, kde-format
 #| msgid "Above Terminal Area"
 msgctxt "@action Shortcut entry"
 msgid "Focus Above Terminal"
 msgstr "टर्मिनल क्षेत्राच्या वरच्या बाजूस"
 
-#: ViewManager.cpp:175
+#: ViewManager.cpp:208
 #, fuzzy, kde-format
 #| msgid "Below Terminal Area"
 msgctxt "@action Shortcut entry"
 msgid "Focus Below Terminal"
 msgstr "टर्मिनल क्षेत्राच्या खालच्या बाजूस"
 
-#: ViewManager.cpp:182
+#: ViewManager.cpp:215
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Left Terminal"
 msgstr ""
 
-#: ViewManager.cpp:188
+#: ViewManager.cpp:221
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Right Terminal"
 msgstr ""
 
-#: ViewManager.cpp:194
+#: ViewManager.cpp:227
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "शेवटच्या टॅब कडे जा"
 
-#: ViewManager.cpp:199
+#: ViewManager.cpp:232
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs"
 msgstr ""
 
-#: ViewManager.cpp:204
+#: ViewManager.cpp:237
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle Between Two Tabs"
 msgstr ""
 
-#: ViewManager.cpp:209
+#: ViewManager.cpp:242
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs (Reverse)"
 msgstr ""
 
-#: ViewManager.cpp:214
+#: ViewManager.cpp:247
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:215
+#: ViewManager.cpp:248
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:223
+#: ViewManager.cpp:256
 #, fuzzy, kde-format
 #| msgctxt "@action Shortcut entry"
 #| msgid "Move Tab Right"
@@ -2752,7 +2786,7 @@ msgctxt "@action Shortcut entry"
 msgid "Move tab to the right"
 msgstr "टॅब उजवीकडे हलवा"
 
-#: ViewManager.cpp:230
+#: ViewManager.cpp:263
 #, fuzzy, kde-format
 #| msgctxt "@action Shortcut entry"
 #| msgid "Move Tab Left"
@@ -2760,11 +2794,52 @@ msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr "टॅब डावीकडे हलवा"
 
-#: ViewManager.cpp:240
+#: ViewManager.cpp:273
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "टॅब %1 कडे जा"
+
+#: ViewManager.cpp:932
+#, fuzzy, kde-format
+#| msgid "Open File Manager"
+msgid "Save File"
+msgstr "फाईल व्यवस्थापक उघडा"
+
+#: ViewManager.cpp:933 ViewManager.cpp:1006
+#, kde-format
+msgid "Konsole View Layout (*.json)"
+msgstr ""
+
+#: ViewManager.cpp:936
+#, fuzzy, kde-format
+#| msgid ""
+#| "A problem occurred when saving the output.\n"
+#| "%1"
+msgid ""
+"A problem occurred when saving the Layout.\n"
+"%1"
+msgstr ""
+"आऊटपुट संचयीत करतेवेळी अडचण आढळली.\n"
+"%1"
+
+#: ViewManager.cpp:995
+#, fuzzy, kde-format
+#| msgid ""
+#| "A problem occurred when saving the output.\n"
+#| "%1"
+msgid ""
+"A problem occurred when loading the Layout.\n"
+"%1"
+msgstr ""
+"आऊटपुट संचयीत करतेवेळी अडचण आढळली.\n"
+"%1"
+
+#: ViewManager.cpp:1005
+#, fuzzy, kde-format
+#| msgid "Open File Manager"
+msgid "Open File"
+msgstr "फाईल व्यवस्थापक उघडा"
 
 #: Vt102Emulation.cpp:1241
 #, kde-format
@@ -4373,11 +4448,6 @@ msgstr "टॅब बंद करा (&C)"
 #~ msgctxt "@action:inmenu"
 #~ msgid "&Rename Tab..."
 #~ msgstr "टॅबचे नाव बदला (&R)..."
-
-#, fuzzy
-#~| msgid "Open File Manager"
-#~ msgid "Open File"
-#~ msgstr "फाईल व्यवस्थापक उघडा"
 
 #, fuzzy
 #~| msgid "Filter:"
