@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-18 01:48+0000\n"
+"POT-Creation-Date: 2021-05-19 01:43+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2417,6 +2417,37 @@ msgstr ""
 msgid "Y axis"
 msgstr ""
 
+#: data/effects/frei0r_glitch0r.xml:3
+#, kde-format
+msgid "Glitch0r"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:4
+#, kde-format
+msgid "Adds glitches and block shifting"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:7
+#, kde-format
+msgid "Glitch frequency"
+msgstr ""
+
+#: data/effects/frei0r_glitch0r.xml:10
+#, fuzzy, kde-format
+msgid "Block height"
+msgstr "पानाच्या उंचीप्रमाणे समर्पक बसवा"
+
+#: data/effects/frei0r_glitch0r.xml:13
+#, fuzzy, kde-format
+#| msgid "Intensity"
+msgid "Shift intensity"
+msgstr "तीव्रता"
+
+#: data/effects/frei0r_glitch0r.xml:16
+#, kde-format
+msgid "Color glitching intensity"
+msgstr ""
+
 #: data/effects/frei0r_glow.xml:3
 #, fuzzy, kde-format
 msgctxt "Glow Effect Name"
@@ -2676,7 +2707,8 @@ msgid "Input white level"
 msgstr ""
 
 #: data/effects/frei0r_levels.xml:19 data/effects/frei0r_levels.xml:51
-#: data/effects/gamma.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:40
+#: data/effects/gamma.xml:7 data/effects/lumaliftgaingamma.xml:13
+#: src/assets/view/widgets/lumaliftgainparam.cpp:40
 #: src/effects/effectstack/view/qml/LiftGammaGain.qml:59
 #, kde-format
 msgid "Gamma"
@@ -3844,7 +3876,8 @@ msgstr "हिरवा"
 msgid "Adjust the audio volume without keyframes"
 msgstr ""
 
-#: data/effects/gain.xml:7 data/effects/mute.xml:7 data/effects/normalise.xml:7
+#: data/effects/gain.xml:7 data/effects/lumaliftgaingamma.xml:10
+#: data/effects/mute.xml:7 data/effects/normalise.xml:7
 #: data/effects/sox_bass.xml:7 data/effects/sox_gain.xml:7
 #: data/effects/volume.xml:7 src/assets/view/widgets/lumaliftgainparam.cpp:43
 #: src/effects/effectstack/view/qml/LiftGammaGain.qml:76
@@ -4325,6 +4358,26 @@ msgstr "सामान्य"
 #, kde-format
 msgid "Correct audio loudness as recommended by EBU R128"
 msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:3
+#, kde-format
+msgid "LumaLiftGainGamma"
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:4
+#, kde-format
+msgid ""
+"Filter can be used to apply lift, gain and gamma correction to luma values "
+"of image."
+msgstr ""
+
+#: data/effects/lumaliftgaingamma.xml:7
+#: src/assets/view/widgets/lumaliftgainparam.cpp:37
+#: src/effects/effectstack/view/qml/LiftGammaGain.qml:42
+#, fuzzy, kde-format
+#| msgid "Green"
+msgid "Lift"
+msgstr "हिरवा"
 
 #: data/effects/mirror.xml:3
 #, fuzzy, kde-format
@@ -6652,13 +6705,6 @@ msgstr ""
 #| msgid "Dissolve"
 msgid "None (Dissolve)"
 msgstr "विरघळवा"
-
-#: src/assets/view/widgets/lumaliftgainparam.cpp:37
-#: src/effects/effectstack/view/qml/LiftGammaGain.qml:42
-#, fuzzy, kde-format
-#| msgid "Green"
-msgid "Lift"
-msgstr "हिरवा"
 
 #: src/audiomixer/mixermanager.cpp:177
 #: src/audiospectrum/audiographspectrum.cpp:105
