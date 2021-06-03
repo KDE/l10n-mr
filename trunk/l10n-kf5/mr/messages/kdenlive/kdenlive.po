@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-02 00:17+0000\n"
+"POT-Creation-Date: 2021-06-03 00:16+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -8283,19 +8283,29 @@ msgid "Test Proxy profiles"
 msgstr "रूपरेषा नष्ट करा (&D)"
 
 #: src/dialogs/proxytest.cpp:48
+#, fuzzy, kde-format
+msgid "Failing profiles"
+msgstr "प्रोफाईल \"%1\" संपादित करा"
+
+#: src/dialogs/proxytest.cpp:63
 #, kde-format
 msgid "Starting process"
 msgstr ""
 
-#: src/dialogs/proxytest.cpp:95
+#: src/dialogs/proxytest.cpp:128 src/dialogs/proxytest.cpp:150
+#, fuzzy, kde-format
+msgid "Cannot create temporary files"
+msgstr "फाईल उघडतेवेळी त्रुटी"
+
+#: src/dialogs/proxytest.cpp:132
+#, kde-format
+msgid "Generating a 60 seconds test video %1"
+msgstr ""
+
+#: src/dialogs/proxytest.cpp:143
 #, fuzzy, kde-format
 msgid "Processing %1"
 msgstr "संग्रह करत आहे"
-
-#: src/dialogs/proxytest.cpp:151
-#, kde-format
-msgid "failed"
-msgstr ""
 
 #: src/dialogs/renderwidget.cpp:127 src/dialogs/renderwidget.cpp:1659
 #: src/dialogs/renderwidget.cpp:2801
@@ -12224,7 +12234,7 @@ msgstr "बिटदर"
 #. i18n: ectx: property (text), widget (QTreeWidget, resultList)
 #. i18n: ectx: property (text), widget (QLabel, clip_filesize)
 #: src/mltcontroller/clippropertiescontroller.cpp:1367
-#: src/ui/clipproperties_ui.ui:65 src/ui/testproxy_ui.ui:53
+#: src/ui/clipproperties_ui.ui:65 src/ui/testproxy_ui.ui:59
 #, fuzzy, kde-format
 msgid "File size"
 msgstr "फाईलचा आकार"
@@ -16654,7 +16664,7 @@ msgstr "सुरु करा"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_profile)
 #: src/ui/cliptranscode_ui.ui:150 src/ui/profiledialog_ui.ui:40
-#: src/ui/testproxy_ui.ui:43
+#: src/ui/testproxy_ui.ui:49
 #, kde-format
 msgid "Profile"
 msgstr "रूपरेषा"
@@ -18634,7 +18644,7 @@ msgid "Template"
 msgstr "नमूना"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, resultList)
-#: src/ui/testproxy_ui.ui:48
+#: src/ui/testproxy_ui.ui:54
 #, fuzzy, kde-format
 #| msgid "Reverse"
 msgid "Render time"
