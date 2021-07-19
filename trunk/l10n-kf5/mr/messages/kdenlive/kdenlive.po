@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-18 00:17+0000\n"
+"POT-Creation-Date: 2021-07-19 00:16+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -3700,10 +3700,8 @@ msgstr ""
 msgid "Indicator color"
 msgstr "रंग उलट करा (&I)"
 
-#. i18n: ectx: property (title), widget (QGroupBox, time_box)
 #. i18n: ectx: property (text), widget (QTreeWidget, markers_list)
 #: data/effects/frei0r_timeout.xml:10 src/ui/clipproperties_ui.ui:427
-#: src/ui/timeremap_ui.ui:146
 #, kde-format
 msgid "Time"
 msgstr "वेळ"
@@ -5064,12 +5062,11 @@ msgid "Regeneration"
 msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (title), widget (QGroupBox, speed_box)
 #: data/effects/sox_flanger.xml:19 data/effects/sox_phaser.xml:19
 #: data/effects/speed.xml:3 data/effects/speed.xml:7 data/effects/wave.xml:16
 #: src/effects/effectstack/view/qml/BuiltStack.qml:30
 #: src/timeline2/view/qml/Track.qml:311 src/timeline2/view/qml/Track.qml:366
-#: src/ui/clipspeed_ui.ui:43 src/ui/timeremap_ui.ui:109
+#: src/ui/clipspeed_ui.ui:43
 #, kde-format
 msgid "Speed"
 msgstr "वेग"
@@ -9232,7 +9229,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
 #: src/doc/documentchecker.cpp:732 src/doc/documentchecker.cpp:746
-#: src/ui/timeremap_ui.ui:47
+#: src/ui/timeremap_ui.ui:220
 #, kde-format
 msgid "Source clip"
 msgstr ""
@@ -10027,7 +10024,9 @@ msgid "Percentage"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, pitchCompensate)
+#. i18n: ectx: property (text), widget (QCheckBox, pitch_compensate)
 #: src/jobs/speedtask.cpp:86 src/ui/clipspeed_ui.ui:118
+#: src/ui/timeremap_ui.ui:35
 #, fuzzy, kde-format
 #| msgid "Position"
 msgid "Pitch compensation"
@@ -16332,9 +16331,9 @@ msgstr "वर्तमान टॅब बंद करा"
 #. i18n: ectx: property (text), widget (QToolButton, buttonNext)
 #. i18n: ectx: property (text), widget (QToolButton, remove_gradient)
 #. i18n: ectx: property (text), widget (QToolButton, add_gradient)
+#. i18n: ectx: property (text), widget (QToolButton, button_del)
 #. i18n: ectx: property (text), widget (QToolButton, button_prev)
 #. i18n: ectx: property (text), widget (QToolButton, button_next)
-#. i18n: ectx: property (text), widget (QToolButton, button_del)
 #. i18n: ectx: property (text), widget (QToolButton, v4l_showprofileinfo)
 #. i18n: ectx: property (text), widget (QToolButton, v4l_manageprofile)
 #. i18n: ectx: property (text), widget (QToolButton, grab_manageprofile)
@@ -16446,8 +16445,8 @@ msgstr "वर्तमान टॅब बंद करा"
 #: src/ui/textbasededit_ui.ui:84 src/ui/textbasededit_ui.ui:94
 #: src/ui/textbasededit_ui.ui:104 src/ui/textbasededit_ui.ui:126
 #: src/ui/textbasededit_ui.ui:143 src/ui/textbasededit_ui.ui:217
-#: src/ui/timeremap_ui.ui:20 src/ui/timeremap_ui.ui:61
-#: src/ui/timeremap_ui.ui:85 src/ui/timeremap_ui.ui:99
+#: src/ui/timeremap_ui.ui:48 src/ui/timeremap_ui.ui:92
+#: src/ui/timeremap_ui.ui:234 src/ui/timeremap_ui.ui:248
 #: src/ui/titlewidget_ui.ui:826 src/ui/titlewidget_ui.ui:836
 #: src/ui/titlewidget_ui.ui:1041 src/ui/titlewidget_ui.ui:1096
 #: src/ui/titlewidget_ui.ui:1146 src/ui/titlewidget_ui.ui:1169
@@ -18779,30 +18778,19 @@ msgstr "निवड साधन (&S)"
 msgid "Form"
 msgstr "सामान्य"
 
+#. i18n: ectx: property (text), widget (QCheckBox, output_seek)
+#. i18n: ectx: property (text), widget (QCheckBox, source_seek)
+#: src/ui/timeremap_ui.ui:59 src/ui/timeremap_ui.ui:69
+#, fuzzy, kde-format
+msgid "Seek monitor"
+msgstr "मॉनिटर %1"
+
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/timeremap_ui.ui:54
+#: src/ui/timeremap_ui.ui:119
 #, fuzzy, kde-format
 #| msgid "Output file"
 msgid "Output"
 msgstr "आउटपुट फाईल"
-
-#. i18n: ectx: property (text), widget (QCheckBox, move_next)
-#: src/ui/timeremap_ui.ui:75
-#, kde-format
-msgid "Preserve speed of next keyframes"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/timeremap_ui.ui:115
-#, fuzzy, kde-format
-msgid "Before"
-msgstr "आधी :"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/timeremap_ui.ui:129
-#, fuzzy, kde-format
-msgid "After"
-msgstr "नंतर :"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/ui/timeremap_ui.ui:152
@@ -18812,18 +18800,37 @@ msgid "Source time"
 msgstr "स्रोत"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/timeremap_ui.ui:162
+#: src/ui/timeremap_ui.ui:166
 #, fuzzy, kde-format
 #| msgid "Output file"
 msgid "Output time"
 msgstr "आउटपुट फाईल"
 
-#. i18n: ectx: property (text), widget (QCheckBox, output_seek)
-#. i18n: ectx: property (text), widget (QCheckBox, source_seek)
-#: src/ui/timeremap_ui.ui:188 src/ui/timeremap_ui.ui:201
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/ui/timeremap_ui.ui:180
 #, fuzzy, kde-format
-msgid "Seek monitor"
-msgstr "मॉनिटर %1"
+#| msgid "Freeze"
+msgid "Speed before"
+msgstr "स्थिर करा"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/ui/timeremap_ui.ui:198
+#, fuzzy, kde-format
+msgid "After"
+msgstr "नंतर :"
+
+#. i18n: ectx: property (text), widget (QCheckBox, frame_blending)
+#: src/ui/timeremap_ui.ui:227
+#, fuzzy, kde-format
+#| msgid "Zoom Out"
+msgid "Frame blending"
+msgstr "लहान करा"
+
+#. i18n: ectx: property (text), widget (QCheckBox, move_next)
+#: src/ui/timeremap_ui.ui:262
+#, kde-format
+msgid "Preserve speed of next keyframes"
+msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, TitleWidget_UI)
 #: src/ui/titlewidget_ui.ui:14
@@ -19469,6 +19476,10 @@ msgstr ""
 msgctxt "h as hours"
 msgid "%1h"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Before"
+#~ msgstr "आधी :"
 
 #, fuzzy
 #~ msgid "Align top left"
