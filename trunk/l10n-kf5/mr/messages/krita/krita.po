@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-03 00:15+0000\n"
+"POT-Creation-Date: 2021-09-04 00:15+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -15184,10 +15184,10 @@ msgstr "आकार"
 #: plugins/filters/blur/kis_wdg_gaussian_blur.cpp:44
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:40
 #: plugins/generators/pattern/kis_wdg_pattern.cpp:41
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:43
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:53
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:59
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:66
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:71
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:76
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:82
 #: plugins/paintops/curvebrush/kis_curve_line_option.cpp:21
 #: plugins/paintops/curvebrush/kis_curve_paintop_settings.cpp:68
 #: plugins/paintops/deform/kis_brush_size_option.cpp:38
@@ -20959,10 +20959,10 @@ msgstr "स्तराचे  गुणधर्म"
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:54
 #: plugins/generators/pattern/wdgpatternoptions.ui:90
 #: plugins/generators/pattern/wdgpatternoptions.ui:116
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:29
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:32
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:35
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:38
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:45
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:48
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:51
 #: plugins/impex/jpeg/kis_jpeg_export.cc:217
 #: plugins/impex/jpeg/kis_jpeg_export.cc:219
 #: plugins/impex/tiff/kis_wdg_options_tiff.ui:314
@@ -22260,8 +22260,10 @@ msgstr "Y रेझोल्युशन :"
 
 #. i18n: ectx: property (text), widget (QLabel, lblResolution)
 #. i18n: ectx: property (text), widget (QLabel, lblYResolution_3)
+#. i18n: ectx: property (text), widget (QLabel, labelResolution)
 #: libs/ui/forms/wdg_resolution.ui:110 libs/ui/forms/wdgimageproperties.ui:94
 #: libs/ui/forms/wdgnewimage.ui:177 libs/ui/imagesize/wdg_imagesize.ui:244
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:301
 #: plugins/python/documenttools/tools/scaletool/scaletool.py:42
 #, kde-format
 msgid "Resolution:"
@@ -24218,7 +24220,7 @@ msgstr "पार्श्वभूमीचा रंग"
 #. i18n: ectx: property (text), widget (QLabel, mLabelBackground)
 #: libs/ui/forms/wdgnewimage.ui:484
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:175
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:394
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:719
 #, fuzzy, kde-format
 msgid "Background:"
 msgstr "पार्श्वभूमी"
@@ -27070,7 +27072,7 @@ msgstr "प्रवाह :"
 #. i18n: ectx: property (text), widget (QLabel, lblSize)
 #. i18n: ectx: property (text), widget (QLabel, labelSize)
 #: libs/ui/kis_paintop_box.cc:250 libs/ui/kis_paintop_box.cc:256
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:214
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:414
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:185
 #: plugins/tools/tool_transform2/wdg_tool_transform.ui:1956
 #, kde-format
@@ -30231,8 +30233,8 @@ msgstr "पारदर्शक"
 #: plugins/assistants/Assistants/kis_assistant_tool.cc:1244
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:50
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.cpp:53
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:28
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:31
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:41
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:44
 #: plugins/tools/defaulttool/defaulttool/DefaultToolGeometryWidget.cpp:110
 #: plugins/tools/defaulttool/referenceimagestool/ToolReferenceImagesWidget.cpp:43
 #, fuzzy, kde-format
@@ -40658,11 +40660,11 @@ msgstr "त्रिज्या :"
 #. i18n: ectx: property (text), widget (QLabel, brushRotationLabel)
 #. i18n: ectx: property (text), widget (QLabel, axisRotationLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, labelRotation)
+#. i18n: ectx: property (text), widget (QLabel, labelRotationSimple)
 #. i18n: ectx: property (title), widget (QGroupBox, gbRotation)
 #: plugins/filters/blur/wdg_lens_blur.ui:84
 #: plugins/generators/pattern/wdgpatternoptions.ui:212
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:301
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:529
 #: plugins/paintops/libpaintop/forms/wdgpredefinedbrushchooser.ui:178
 #: plugins/tools/basictools/wdgmultihandtool.ui:129
 #, kde-format
@@ -41350,7 +41352,7 @@ msgstr "निर्माता"
 #. i18n: ectx: attribute (title), widget (QWidget, tabPostprocessing)
 #. i18n: ectx: attribute (title), widget (QWidget, tabPostProcessing)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:84
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:331
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:656
 #, kde-format
 msgid "Postprocessing"
 msgstr "पोस्ट प्रोसेसिंग"
@@ -41373,7 +41375,7 @@ msgstr "उलट करा"
 
 #. i18n: ectx: property (text), widget (QLabel, labelForeground)
 #: plugins/filters/halftone/KisHalftoneConfigPageWidget.ui:144
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:360
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:685
 #, fuzzy, kde-format
 #| msgid "Foreground"
 msgid "Foreground:"
@@ -42706,7 +42708,7 @@ msgstr "पॅटर्न्स (&P)"
 #. i18n: ectx: property (text), widget (QLabel, labelShear)
 #. i18n: ectx: property (title), widget (QGroupBox, gbShear)
 #: plugins/generators/pattern/wdgpatternoptions.ui:250
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:261
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:475
 #: plugins/paintops/hairy/wdgbristleoptions.ui:118
 #, kde-format
 msgid "Shear:"
@@ -42733,21 +42735,95 @@ msgstr "फिरवणे :"
 msgid "Y-Rotation:"
 msgstr "फिरवणे :"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:42
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:52
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:64
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:21
+#, fuzzy, kde-format
+msgctxt "Screentone generator resolution units - pixels/inch"
+msgid " pixels/inch"
+msgstr "पिक्सेल/इंच"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:22
+#, fuzzy, kde-format
+msgctxt "Screentone generator resolution units - pixels/cm"
+msgid " pixels/cm"
+msgstr "पिक्सेल/इंच"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:23
+#, kde-format
+msgctxt "Screentone generator line units - lines/inch"
+msgid " lines/inch"
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:24
+#, fuzzy, kde-format
+msgctxt "Screentone generator line units - lines/cm"
+msgid " lines/cm"
+msgstr "रेषेची जाडी :"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:57
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:65
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:75
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:87
 #, fuzzy, kde-format
 #| msgid "X:"
 msgid "X: "
 msgstr "X:"
 
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:47
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:58
-#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:68
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:59
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:70
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:81
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:91
 #, fuzzy, kde-format
 #| msgid "Y:"
 msgid "Y: "
 msgstr "Y:"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:94
+#, kde-format
+msgctxt "Prefix. Part of 'Every # cell/s horizontally"
+msgid "Every "
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:95
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:534
+#, fuzzy, kde-format
+#| msgid "Sobel horizontally"
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cell horizontally"
+msgstr "सोबेल आडवे"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:97
+#, kde-format
+msgctxt "Prefix. Part of 'Every # cell/s vertically"
+msgid "Every "
+msgstr ""
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:98
+#, fuzzy, kde-format
+#| msgid "Sobel vertically"
+msgctxt "Suffix. Part of 'Every # cell/s vertically"
+msgid " cell vertically"
+msgstr "सोबेल उभे"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:536
+#, fuzzy, kde-format
+#| msgid "Sobel horizontally"
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cells horizontally"
+msgstr "सोबेल आडवे"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:546
+#, fuzzy, kde-format
+#| msgid "Sobel vertically"
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cell vertically"
+msgstr "सोबेल उभे"
+
+#: plugins/generators/screentone/KisScreentoneConfigWidget.cpp:548
+#, fuzzy, kde-format
+#| msgid "Sobel vertically"
+msgctxt "Suffix. Part of 'Every # cell/s horizontally"
+msgid " cells vertically"
+msgstr "सोबेल उभे"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabScreentoneType)
 #: plugins/generators/screentone/KisScreentoneConfigWidget.ui:49
@@ -42762,15 +42838,99 @@ msgstr ""
 msgid "Interpolation:"
 msgstr "प्रयत्न सातत्य :"
 
+#. i18n: ectx: property (text), widget (QLabel, labelEqualize)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:129
+#, fuzzy, kde-format
+#| msgid "Publication:"
+msgid "Equalization:"
+msgstr "प्रकाशन :"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationNone)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:144
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "Screentone equalization mode"
+msgid "None"
+msgstr "काही नाही"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationFunctionBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:157
+#, fuzzy, kde-format
+#| msgid "Function"
+msgctxt "Screentone equalization mode"
+msgid "Function Based"
+msgstr "कार्य"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonEqualizationTemplateBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:173
+#, fuzzy, kde-format
+msgctxt "Screentone equalization mode"
+msgid "Template Based"
+msgstr "निर्माण करा (&C)"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tabTransformation)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:145
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:204
 #, fuzzy, kde-format
 #| msgid "Apply Transformation"
 msgid "Transformation"
 msgstr "रूपांतर लागू करा"
 
-#. i18n: ectx: property (text), widget (QLabel, labelTranslation)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:174
+#. i18n: ectx: property (text), widget (QLabel, labelSizeMode)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:245
+#, fuzzy, kde-format
+msgid "Size Mode:"
+msgstr "ब्लेंडिंग पद्धत"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonSizeModeResolutionBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:257
+#, fuzzy, kde-format
+#| msgid "Resolution"
+msgid "Resolution based"
+msgstr "घनता"
+
+#. i18n: ectx: property (text), widget (KoGroupButton, buttonSizeModePixelBased)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:273
+#, fuzzy, kde-format
+#| msgid "Pixel"
+msgid "Pixel based"
+msgstr "पिक्सेल"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxUnits)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:337
+#: plugins/python/comics_project_management_tools/comics_template_dialog.py:26
+#, kde-format
+msgid "Inches"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboBoxUnits)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:342
+#, fuzzy, kde-format
+msgid "Centimeters"
+msgstr "प्रतिशत"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonResolutionFromImage)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:353
+#, fuzzy, kde-format
+msgid "Get From Image"
+msgstr "प्रतिमा कापा"
+
+#. i18n: ectx: property (text), widget (QLabel, label_frequency)
+#. i18n: ectx: property (text), widget (QLabel, labelFrequency)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:363
+#: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:53
+#, kde-format
+msgid "Frequency:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:563
+#, fuzzy, kde-format
+#| msgid "Pixel width"
+msgid "Align to Pixel Grid:"
+msgstr "पिक्सेल जाडी"
+
+#. i18n: ectx: property (text), widget (QLabel, labelPosition)
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:586
 #, fuzzy, kde-format
 #| msgid "Position:"
 msgctxt "Geometric Position"
@@ -42778,7 +42938,7 @@ msgid "Position:"
 msgstr "स्थिती:"
 
 #. i18n: ectx: property (text), widget (QLabel, labelInvert)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:428
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:753
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgctxt "Swapping FG and BG color in the screentone pattern"
@@ -42789,7 +42949,7 @@ msgstr "उलट करा"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, labelBrightness)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:442
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:767
 #: plugins/impex/heif/DlgHeifImport.ui:57
 #: plugins/impex/heif/WdgHeifExport.ui:106
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:128
@@ -42799,108 +42959,115 @@ msgstr "प्रखरता"
 
 #. i18n: ectx: property (text), widget (QLabel, lblAngle)
 #. i18n: ectx: property (text), widget (QLabel, labelContrast)
-#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:462
+#: plugins/generators/screentone/KisScreentoneConfigWidget.ui:787
 #: plugins/paintops/libpaintop/forms/wdgtexturechooser.ui:102
 #, kde-format
 msgid "Contrast:"
 msgstr "विरोधाभास :"
 
-#: plugins/generators/screentone/KisScreentoneGenerator.cpp:42
+#: plugins/generators/screentone/KisScreentoneGenerator.cpp:29
 #, fuzzy, kde-format
 #| msgid "&Wave..."
 msgid "&Screentone..."
 msgstr "तरंग (&W)..."
 
-#: plugins/generators/screentone/KisScreentoneGenerator.h:53
+#: plugins/generators/screentone/KisScreentoneGenerator.h:52
 #, fuzzy, kde-format
 #| msgid "Screen"
 msgid "Screentone"
 msgstr "स्क्रीन"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:19
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:21
 #, fuzzy, kde-format
 #| msgid "Dots"
 msgctxt "Screentone Pattern Type - Dots"
 msgid "Dots"
 msgstr "बिंदू"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:20
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:22
 #, fuzzy, kde-format
 #| msgid "Lines"
 msgctxt "Screentone Pattern Type - Lines"
 msgid "Lines"
 msgstr "रेषा"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:27
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:29
 #, fuzzy, kde-format
 #| msgid "Round Corners"
 msgctxt "Screentone Pattern - Round Dots"
 msgid "Round"
 msgstr "गोल कोपरे"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:28
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:30
+#, fuzzy, kde-format
+#| msgid "Ellipse"
+msgctxt "Screentone Pattern - Ellipse Dots (Krita 4 legacy version)"
+msgid "Ellipse (Legacy)"
+msgstr "लंबवर्तुळ"
+
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:31
 #, fuzzy, kde-format
 #| msgid "Ellipse"
 msgctxt "Screentone Pattern - Ellipse Dots"
 msgid "Ellipse"
 msgstr "लंबवर्तुळ"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:29
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:32
 #, kde-format
 msgctxt "Screentone Pattern - Diamond Dots"
 msgid "Diamond"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:30
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:33
 #, fuzzy, kde-format
 #| msgid "Square"
 msgctxt "Screentone Pattern - Square Dots"
 msgid "Square"
 msgstr "चौकोन"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:33
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:36
 #, fuzzy, kde-format
 #| msgid "Straight"
 msgctxt "Screentone Pattern - Straight Lines"
 msgid "Straight"
 msgstr "सरळ"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:34
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:37
 #, fuzzy, kde-format
 #| msgid "Sine"
 msgctxt "Screentone Pattern - Sine Wave Lines"
 msgid "Sine Wave"
 msgstr "साईन"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:35
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:38
 #, fuzzy, kde-format
 #| msgid "Triangle"
 msgctxt "Screentone Pattern - Trianular Wave Lines"
 msgid "Triangular Wave"
 msgstr "त्रिकोण"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:36
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:39
 #, kde-format
 msgctxt "Screentone Pattern - Sawtooth Wave Lines"
 msgid "Sawtooth Wave"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:37
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:40
 #, kde-format
 msgctxt "Screentone Pattern - Curtains Lines"
 msgid "Curtains"
 msgstr ""
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:48
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:53
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:53
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:58
 #, fuzzy, kde-format
 #| msgid "Linear"
 msgctxt "Screentone Interpolation Method - Linear"
 msgid "Linear"
 msgstr "रेषीय"
 
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:49
-#: plugins/generators/screentone/KisScreentoneScreentoneFunctions.cpp:54
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:54
+#: plugins/generators/screentone/KisScreentoneGeneratorConfiguration.cpp:59
 #, fuzzy, kde-format
 #| msgid "Sinusoidale"
 msgctxt "Screentone Interpolation Method - Sinusoidal"
@@ -43019,12 +43186,6 @@ msgstr "विनाक्रम नॉइज (&R)..."
 #| msgid "Simple mode"
 msgid "Simplex Noise"
 msgstr "साधा पद्धत"
-
-#. i18n: ectx: property (text), widget (QLabel, label_frequency)
-#: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:53
-#, kde-format
-msgid "Frequency:"
-msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cb_looping)
 #: plugins/generators/simplexnoise/wdgsimplexnoiseoptions.ui:78
@@ -50929,10 +51090,6 @@ msgstr "चौकोनी भाग निवडा"
 #| msgid "Pixel"
 msgid "Pixels"
 msgstr "पिक्सेल"
-
-#: plugins/python/comics_project_management_tools/comics_template_dialog.py:26
-msgid "Inches"
-msgstr ""
 
 #: plugins/python/comics_project_management_tools/comics_template_dialog.py:27
 #, fuzzy
@@ -59885,9 +60042,6 @@ msgstr "25%"
 #~ msgid "Page(s):"
 #~ msgstr "पान :"
 
-#~ msgid "Publication:"
-#~ msgstr "प्रकाशन :"
-
 #~ msgid "Volume:"
 #~ msgstr "आवाज :"
 
@@ -60273,9 +60427,6 @@ msgstr "25%"
 
 #~ msgid "&Sobel..."
 #~ msgstr "सोबेल (&S)..."
-
-#~ msgid "Sobel horizontally"
-#~ msgstr "सोबेल आडवे"
 
 #~ msgid "Keep sign of result"
 #~ msgstr "परिणामाची खूण राखून ठेवा"
@@ -83455,9 +83606,6 @@ msgstr "25%"
 #~| msgid "Move an action down"
 #~ msgid "Move animation layer down"
 #~ msgstr "कार्य खाली हलवा"
-
-#~ msgid "Resolution"
-#~ msgstr "घनता"
 
 #, fuzzy
 #~| msgid "Duration:"
