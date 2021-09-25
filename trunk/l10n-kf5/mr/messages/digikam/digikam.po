@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-24 00:15+0000\n"
+"POT-Creation-Date: 2021-09-25 00:14+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -586,7 +586,7 @@ msgid "Open..."
 msgstr "यामध्ये उघडा..."
 
 #: core/app/items/utils/contextmenuhelper.cpp:282
-#: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:168
+#: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:167
 #: core/showfoto/folderview/showfotofolderviewlist.cpp:170
 #, fuzzy, kde-format
 msgctxt "@action: context menu"
@@ -38283,7 +38283,7 @@ msgid "Mod.: %1"
 msgstr "सुधारले"
 
 #: core/libs/widgets/itemview/itemviewdelegate.cpp:427
-#: core/showfoto/main/showfoto.cpp:564
+#: core/showfoto/main/showfoto.cpp:595
 #: core/showfoto/thumbbar/showfotoitemviewdelegate.cpp:316
 #: core/utilities/import/items/itemviewimportdelegate.cpp:368
 #, kde-format
@@ -43278,15 +43278,36 @@ msgstr "प्रतिमा"
 
 #: core/showfoto/folderview/showfotofolderviewbar.cpp:288
 #, fuzzy, kde-format
+msgid "PGF images"
+msgstr "प्रतिमा"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:289
+#, fuzzy, kde-format
+#| msgid "Images"
+msgid "HEIF images"
+msgstr "प्रतिमा"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:290
+#, fuzzy, kde-format
+msgid "DNG images"
+msgstr "प्रतिमा"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:291
+#, fuzzy, kde-format
 msgid "RAW images"
 msgstr "प्रतिमा"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:295
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:300
+#, fuzzy, kde-format
+msgid "No RAW images"
+msgstr "प्रतिमा"
+
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:307
 #, fuzzy, kde-format
 msgid "All supported files"
 msgstr "अपरिचीत"
 
-#: core/showfoto/folderview/showfotofolderviewbar.cpp:435
+#: core/showfoto/folderview/showfotofolderviewbar.cpp:447
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Icon Size: %1"
@@ -43343,7 +43364,7 @@ msgctxt "@title"
 msgid "Bookmarks"
 msgstr "ओळखचिन्हे"
 
-#: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:161
+#: core/showfoto/folderview/showfotofolderviewbookmarklist.cpp:160
 #, fuzzy, kde-format
 #| msgid "Content"
 msgctxt "@action: context menu"
@@ -43497,7 +43518,7 @@ msgctxt "@action: context menu"
 msgid "Add Bookmark"
 msgstr "ओळखचिन्हे"
 
-#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:377
+#: core/showfoto/folderview/showfotofolderviewsidebar.cpp:376
 #, fuzzy, kde-format
 msgctxt "@title: file system tree"
 msgid "Folders"
@@ -43534,66 +43555,67 @@ msgstr ""
 msgid "Open Images From Folder"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:500
-#, kde-format
-msgid "There is no dropped item to process."
-msgstr ""
+#: core/showfoto/main/showfoto.cpp:531
+#, fuzzy, kde-format
+#| msgid "&Fit image to page"
+msgid "There is no item to process."
+msgstr "पानावर प्रतिमा बसवा (&F)"
 
-#: core/showfoto/main/showfoto.cpp:522
+#: core/showfoto/main/showfoto.cpp:553
 #, kde-format
 msgid "Error Loading File"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:523
+#: core/showfoto/main/showfoto.cpp:554
 #, kde-format
 msgid ""
 "Failed to load file: %1\n"
 "Remote file handling is not supported"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:563
+#: core/showfoto/main/showfoto.cpp:594
 #, fuzzy, kde-format
 msgctxt "unknown image dimensions"
 msgid "Unknown"
 msgstr "अपरिचीत"
 
-#: core/showfoto/main/showfoto.cpp:602
+#: core/showfoto/main/showfoto.cpp:633
 #: core/utilities/imageeditor/main/imagewindow.cpp:500
 #, fuzzy, kde-format
 msgctxt "<Image file name> (<Image number> of <Images in album>)"
 msgid "%1 (%2 of %3)"
 msgstr "चा"
 
-#: core/showfoto/main/showfoto.cpp:732
+#: core/showfoto/main/showfoto.cpp:763
 #, kde-format
 msgid "Error Saving File"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:733
+#: core/showfoto/main/showfoto.cpp:764
 #, kde-format
 msgid "Failed to save file: %1"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:734
+#: core/showfoto/main/showfoto.cpp:765
 #, kde-format
 msgid "Remote file handling is not supported"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:756
+#: core/showfoto/main/showfoto.cpp:787
 #: core/utilities/imageeditor/main/imagewindow.cpp:583
 #: core/utilities/imageeditor/main/imagewindow.cpp:698
 #, kde-format
 msgid "Image saved successfully"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:839
+#: core/showfoto/main/showfoto.cpp:870
 #, kde-format
 msgid ""
 "About to delete file \"%1\"\n"
 "Are you sure?"
 msgstr ""
 
-#: core/showfoto/main/showfoto.cpp:855
+#: core/showfoto/main/showfoto.cpp:886
 #, fuzzy, kde-format
 #| msgid "Cannot save \"%1\" file"
 msgid "Cannot delete \"%1\""
