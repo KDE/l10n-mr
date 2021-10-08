@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-11 00:14+0000\n"
+"POT-Creation-Date: 2021-10-08 00:14+0000\n"
 "PO-Revision-Date: 2013-03-29 16:14+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -33,63 +33,24 @@ msgstr ""
 "sandeep.shedmake@gmail.com, \n"
 "chetan@kompkin.com"
 
-#: kcmoduleloader.cpp:68
-#, kde-format
-msgid "The module %1 could not be found."
-msgstr "विभाग %1 आढळला नाही."
-
-#: kcmoduleloader.cpp:69
-#, kde-format
-msgid ""
-"<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
-"qt>"
-msgstr "<qt><p>शोध असा आहे की:<br /> डेस्कटॉप फाईल %1 आढळली नाही.</p></qt>"
-
-#: kcmoduleloader.cpp:75 kcmoduleloader.cpp:164
+#: kcmoduleloader.cpp:57 kcmoduleloader.cpp:142
 #, kde-format
 msgid "The module %1 is disabled."
 msgstr "विभाग %1 अकार्यान्वित आहे."
 
-#: kcmoduleloader.cpp:76
-#, kde-format
-msgid ""
-"<qt><p>Either the hardware/software the module configures is not available "
-"or the module has been disabled by the administrator.</p></qt>"
-msgstr ""
-"<qt><p>एकतर हार्डवेअर / सॉफ़्टवेअर विभाग संयोजना उपलब्ध नाही किंवा विभाग प्रशासक द्वारे "
-"अकार्यक्षम केले असावे.</p></qt>"
-
-#: kcmoduleloader.cpp:99 kcmoduleloader.cpp:192
-#, fuzzy, kde-format
-#| msgid "Error loading '%1'.\n"
-msgid "Error loading QML file."
-msgstr "'%1' दाखलन करतेवेळी त्रुटी.\n"
-
-#: kcmoduleloader.cpp:107
-#, fuzzy, kde-format
-#| msgid "Error loading '%1'.\n"
-msgid "Error loading config module"
-msgstr "'%1' दाखलन करतेवेळी त्रुटी.\n"
-
-#: kcmoduleloader.cpp:154
-#, kde-format
-msgid "The module %1 is not a valid configuration module."
-msgstr "विभाग %1 वैध संयोजना विभाग नाही."
-
-#: kcmoduleloader.cpp:155
-#, kde-format
-msgid ""
-"<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
-"qt>"
-msgstr "<qt>शोध असा आहे की:<br />डेस्कटॉप फाईल %1 लायब्ररी व्याख्यीत करत नाही.</qt>"
-
-#: kcmoduleloader.cpp:165
+#: kcmoduleloader.cpp:58
 #, fuzzy, kde-format
 #| msgid "Please contact your system administrator."
 msgid "The module has been disabled by the system administrator."
 msgstr "कृपया प्रणाली प्रशासकाशी संपर्क करा."
 
-#: kcmoduleloader.cpp:229
+#: kcmoduleloader.cpp:85 kcmoduleloader.cpp:166
+#, fuzzy, kde-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading QML file."
+msgstr "'%1' दाखलन करतेवेळी त्रुटी.\n"
+
+#: kcmoduleloader.cpp:104
 #, kde-format
 msgid ""
 "<qt><p>Possible reasons:<ul><li>An error occurred during your last system "
@@ -98,6 +59,45 @@ msgid ""
 "carefully and try to remove the module mentioned in the error message. If "
 "this fails, consider contacting your distributor or packager.</p></qt>"
 msgstr ""
+
+#: kcmoduleloader.cpp:135
+#, kde-format
+msgid "The module %1 could not be found."
+msgstr "विभाग %1 आढळला नाही."
+
+#: kcmoduleloader.cpp:136
+#, kde-format
+msgid ""
+"<qt><p>The diagnosis is:<br />The desktop file %1 could not be found.</p></"
+"qt>"
+msgstr "<qt><p>शोध असा आहे की:<br /> डेस्कटॉप फाईल %1 आढळली नाही.</p></qt>"
+
+#: kcmoduleloader.cpp:143
+#, kde-format
+msgid ""
+"<qt><p>Either the hardware/software the module configures is not available "
+"or the module has been disabled by the administrator.</p></qt>"
+msgstr ""
+"<qt><p>एकतर हार्डवेअर / सॉफ़्टवेअर विभाग संयोजना उपलब्ध नाही किंवा विभाग प्रशासक द्वारे "
+"अकार्यक्षम केले असावे.</p></qt>"
+
+#: kcmoduleloader.cpp:174
+#, fuzzy, kde-format
+#| msgid "Error loading '%1'.\n"
+msgid "Error loading config module"
+msgstr "'%1' दाखलन करतेवेळी त्रुटी.\n"
+
+#: kcmoduleloader.cpp:221
+#, kde-format
+msgid "The module %1 is not a valid configuration module."
+msgstr "विभाग %1 वैध संयोजना विभाग नाही."
+
+#: kcmoduleloader.cpp:222
+#, kde-format
+msgid ""
+"<qt>The diagnosis is:<br />The desktop file %1 does not specify a library.</"
+"qt>"
+msgstr "<qt>शोध असा आहे की:<br />डेस्कटॉप फाईल %1 लायब्ररी व्याख्यीत करत नाही.</qt>"
 
 #: kcmoduleproxy.cpp:105
 #, kde-format
@@ -119,7 +119,7 @@ msgstr ""
 msgid "Apply Settings"
 msgstr "संयोजना साठवा"
 
-#: kcmultidialog.cpp:245 kpluginselector.cpp:805
+#: kcmultidialog.cpp:259 kpluginselector.cpp:805
 #, kde-format
 msgid "Configure"
 msgstr "संयोजीत करा"
