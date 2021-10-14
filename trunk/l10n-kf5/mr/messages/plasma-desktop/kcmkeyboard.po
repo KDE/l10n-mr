@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkeyboard\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-02 00:18+0000\n"
+"POT-Creation-Date: 2021-10-14 00:18+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -56,56 +56,33 @@ msgctxt "layout - variant"
 msgid "%1 - %2"
 msgstr "%1 - %2"
 
-#: kcm_add_layout_dialog.cpp:45
-#, kde-format
-msgid "Any language"
-msgstr "कोणतीही भाषा"
-
-#: kcm_add_layout_dialog.cpp:124 kcm_view_models.cpp:273
-#, kde-format
-msgctxt "variant"
-msgid "Default"
-msgstr "मूलभूत"
-
 #. i18n: ectx: property (windowTitle), widget (QDialog, AddLayoutDialog)
 #: kcm_add_layout_dialog.ui:14
 #, kde-format
 msgid "Add Layout"
 msgstr "रचना जोडा"
 
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: kcm_add_layout_dialog.ui:30
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, layoutSearchField)
+#: kcm_add_layout_dialog.ui:20
 #, kde-format
-msgid "Layout:"
-msgstr "रचना :"
+msgid "Search…"
+msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, labelLabel_2)
-#: kcm_add_layout_dialog.ui:47
+#. i18n: ectx: property (text), widget (QLabel, shortcutLabel)
+#: kcm_add_layout_dialog.ui:45
 #, kde-format
 msgid "Shortcut:"
 msgstr "शॉर्टकट :"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: kcm_add_layout_dialog.ui:54
-#, kde-format
-msgid "Variant:"
-msgstr "प्रकार :"
-
 #. i18n: ectx: property (text), widget (QLabel, labelLabel)
-#: kcm_add_layout_dialog.ui:64
+#: kcm_add_layout_dialog.ui:55
 #, kde-format
 msgid "Label:"
 msgstr "लेबल :"
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: kcm_add_layout_dialog.ui:71
-#, kde-format
-msgid "Limit selection by language:"
-msgstr "या भाषेने निवड मर्यादित करा :"
-
 #. i18n: ectx: property (text), widget (QPushButton, prevbutton)
 #. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: kcm_add_layout_dialog.ui:101 kcm_keyboard.ui:315
+#: kcm_add_layout_dialog.ui:76 kcm_keyboard.ui:315
 #, kde-format
 msgid "Preview"
 msgstr "पूर्वावलोकन"
@@ -380,6 +357,12 @@ msgstr "लेबल :"
 msgid "Shortcut"
 msgstr "शॉर्टकट :"
 
+#: kcm_view_models.cpp:273
+#, kde-format
+msgctxt "variant"
+msgid "Default"
+msgstr "मूलभूत"
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: kcmmiscwidget.ui:31
 #, kde-format
@@ -519,6 +502,18 @@ msgid ""
 "will likely also present when you try to use this combination of model, "
 "layout and variant."
 msgstr ""
+
+#~ msgid "Any language"
+#~ msgstr "कोणतीही भाषा"
+
+#~ msgid "Layout:"
+#~ msgstr "रचना :"
+
+#~ msgid "Variant:"
+#~ msgstr "प्रकार :"
+
+#~ msgid "Limit selection by language:"
+#~ msgstr "या भाषेने निवड मर्यादित करा :"
 
 #~ msgid "..."
 #~ msgstr "..."

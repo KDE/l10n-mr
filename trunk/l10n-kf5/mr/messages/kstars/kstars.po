@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-12 00:13+0000\n"
+"POT-Creation-Date: 2021-10-14 00:13+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -9688,7 +9688,7 @@ msgstr "जुळवा (&A)"
 #. i18n: ectx: property (text), widget (QPushButton, guideB)
 #. i18n: ectx: property (text), widget (QCheckBox, guideStepCheck)
 #: ekos/analyze/analyze.cpp:1584 ekos/analyze/analyze.ui:271
-#: ekos/auxiliary/opslogs.ui:120 ekos/guide/guide.cpp:134
+#: ekos/auxiliary/opslogs.ui:120 ekos/guide/guide.cpp:52
 #: ekos/guide/guide.ui:205 ekos/manager.cpp:2518
 #: ekos/scheduler/scheduler.ui:254 fitsviewer/fitscommon.h:15
 #: fitsviewer/fitsviewer.cpp:385
@@ -16396,34 +16396,34 @@ msgstr "संयोजना"
 msgid "PHD2: Disconnecting Equipment. . ."
 msgstr ""
 
-#: ekos/guide/guide.cpp:124
+#: ekos/guide/guide.cpp:62
 #, fuzzy, kde-format
 #| msgid "Configuration"
 msgid "Calibration"
 msgstr "संयोजना"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DitherEnabled)
-#: ekos/guide/guide.cpp:138 ekos/guide/opsdither.ui:102
+#: ekos/guide/guide.cpp:66 ekos/guide/opsdither.ui:102
 #, fuzzy, kde-format
 #| msgctxt "Advanced URLs: description or category"
 #| msgid "Other"
 msgid "Dither"
 msgstr "इतर"
 
-#: ekos/guide/guide.cpp:142
+#: ekos/guide/guide.cpp:70
 #, fuzzy, kde-format
 #| msgid "Error"
 msgid "GPG RA Guider"
 msgstr "त्रुटी"
 
-#: ekos/guide/guide.cpp:373
+#: ekos/guide/guide.cpp:372
 #, kde-format
 msgid ""
 "PHD2's current camera: %1, is NOT connected to Ekos.  The PHD2 Guide Star "
 "Image will be received, but the full external guide frames cannot."
 msgstr ""
 
-#: ekos/guide/guide.cpp:383
+#: ekos/guide/guide.cpp:382
 #, kde-format
 msgid ""
 "PHD2's current camera: %1, IS connected to Ekos.  You can select whether to "
@@ -16431,7 +16431,7 @@ msgid ""
 "using the SubFrame checkbox."
 msgstr ""
 
-#: ekos/guide/guide.cpp:616
+#: ekos/guide/guide.cpp:623
 #, kde-format
 msgid "Connection to the guide CCD is lost."
 msgstr ""
@@ -16573,72 +16573,77 @@ msgstr "इतर"
 msgid "Dithering completed successfully."
 msgstr "पूर्ण"
 
-#: ekos/guide/guide.cpp:1753
+#: ekos/guide/guide.cpp:1740
+#, fuzzy, kde-format
+msgid "%1x%1 guide binning is not supported."
+msgstr "छापा (&P)..."
+
+#: ekos/guide/guide.cpp:1760
 #, kde-format
 msgid "Exposure failed. Restarting exposure..."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1870
+#: ekos/guide/guide.cpp:1877
 #, kde-format
 msgid "Cannot change guider type while active."
 msgstr ""
 
-#: ekos/guide/guide.cpp:1932
+#: ekos/guide/guide.cpp:1939
 #, fuzzy, kde-format
 #| msgctxt "string from libindi, used in the config dialog"
 #| msgid "Select"
 msgid "Select guide camera."
 msgstr "निवडा"
 
-#: ekos/guide/guide.cpp:1984
+#: ekos/guide/guide.cpp:1991
 #, kde-format
 msgid ""
 "Warning: Reset Guiding Calibration is enabled. It is recommended to turn "
 "this option off for PHD2."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2514
+#: ekos/guide/guide.cpp:2521
 #, fuzzy, kde-format
 #| msgid "Configuration"
 msgid "Calibration failed to start."
 msgstr "संयोजना"
 
-#: ekos/guide/guide.cpp:2678
+#: ekos/guide/guide.cpp:2685
 #, kde-format
 msgid "Auto star selected."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2682
+#: ekos/guide/guide.cpp:2689
 #, fuzzy, kde-format
 #| msgid "Could not open file %1."
 msgid "Failed to select an auto star."
 msgstr "फाईल %1 उघडू शकत नाही"
 
-#: ekos/guide/guide.cpp:2691
+#: ekos/guide/guide.cpp:2698
 #, kde-format
 msgid "Select a guide star to calibrate."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2976
+#: ekos/guide/guide.cpp:2983
 #, fuzzy, kde-format
 #| msgid "pixels"
 msgid "x (pixels)"
 msgstr "पिक्सेल्स"
 
-#: ekos/guide/guide.cpp:2977
+#: ekos/guide/guide.cpp:2984
 #, fuzzy, kde-format
 #| msgid "pixels"
 msgid "y (pixels)"
 msgstr "पिक्सेल्स"
 
-#: ekos/guide/guide.cpp:3132 ekos/guide/guide.cpp:3398
+#: ekos/guide/guide.cpp:3139 ekos/guide/guide.cpp:3405
 #, kde-format
 msgid ""
 "The PHD2 camera is not available to Ekos, so you cannot see the captured "
 "images.  But you will still see the Guide Star Image when you guide."
 msgstr ""
 
-#: ekos/guide/guide.cpp:3136 ekos/guide/guide.cpp:3402
+#: ekos/guide/guide.cpp:3143 ekos/guide/guide.cpp:3409
 #, kde-format
 msgid ""
 "To receive PHD2 images other than the Guide Star Image, SubFrame must be "
@@ -23790,11 +23795,11 @@ msgid "Only 8 and 16 bits bayered images supported."
 msgstr ""
 
 #: fitsviewer/fitsdata.cpp:3245 fitsviewer/fitsdata.cpp:3278
-#: fitsviewer/fitsdata.cpp:3310 fitsviewer/fitsdata.cpp:3377
-#: fitsviewer/fitsdata.cpp:3386 fitsviewer/fitsdata.cpp:3406
-#: fitsviewer/fitsdata.cpp:3422 fitsviewer/fitsdata.cpp:3463
-#: fitsviewer/fitsdata.cpp:3472 fitsviewer/fitsdata.cpp:3492
-#: fitsviewer/fitsdata.cpp:3508
+#: fitsviewer/fitsdata.cpp:3310 fitsviewer/fitsdata.cpp:3378
+#: fitsviewer/fitsdata.cpp:3388 fitsviewer/fitsdata.cpp:3408
+#: fitsviewer/fitsdata.cpp:3425 fitsviewer/fitsdata.cpp:3467
+#: fitsviewer/fitsdata.cpp:3477 fitsviewer/fitsdata.cpp:3497
+#: fitsviewer/fitsdata.cpp:3514
 #, kde-format
 msgid "Debayer error"
 msgstr ""
@@ -23809,18 +23814,18 @@ msgstr ""
 msgid "Unsupported bayer offsets %1 %2."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3377 fitsviewer/fitsdata.cpp:3422
-#: fitsviewer/fitsdata.cpp:3463 fitsviewer/fitsdata.cpp:3508
+#: fitsviewer/fitsdata.cpp:3378 fitsviewer/fitsdata.cpp:3425
+#: fitsviewer/fitsdata.cpp:3467 fitsviewer/fitsdata.cpp:3514
 #, kde-format
 msgid "Unable to allocate memory for temporary bayer buffer: %1"
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3386 fitsviewer/fitsdata.cpp:3472
+#: fitsviewer/fitsdata.cpp:3388 fitsviewer/fitsdata.cpp:3477
 #, kde-format
 msgid "Unable to allocate memory for temporary bayer buffer."
 msgstr ""
 
-#: fitsviewer/fitsdata.cpp:3406 fitsviewer/fitsdata.cpp:3492
+#: fitsviewer/fitsdata.cpp:3408 fitsviewer/fitsdata.cpp:3497
 #, kde-format
 msgid "Debayer failed (%1)"
 msgstr ""

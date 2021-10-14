@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-08 00:16+0000\n"
+"POT-Creation-Date: 2021-10-14 00:14+0000\n"
 "PO-Revision-Date: 2013-03-11 18:08+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -29,6 +29,7 @@ msgstr "chetan@kompkin.com"
 
 #: board.cpp:580
 #, kde-format
+msgctxt "@title:window"
 msgid "Promotion"
 msgstr ""
 
@@ -88,6 +89,7 @@ msgstr[1] " चाली"
 
 #: difficultydialog.cpp:49
 #, kde-format
+msgctxt "@title:window"
 msgid "Difficulty Level"
 msgstr ""
 
@@ -147,6 +149,7 @@ msgstr "प्रतिष्ठापीत केलेले"
 
 #: gamedialog.cpp:70
 #, kde-format
+msgctxt "@title:window"
 msgid "New Game"
 msgstr ""
 
@@ -173,6 +176,7 @@ msgstr[1] " चाली"
 
 #: gamedialog.cpp:303
 #, kde-format
+msgctxt "@title:window"
 msgid "Chess Engines"
 msgstr ""
 
@@ -206,7 +210,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer1Engine)
 #: gamedialog.ui:45
 #, kde-format
-msgid "&Computer engine"
+msgid "&Computer engine:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, colorGroup)
@@ -243,25 +247,25 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Engine)
 #: gamedialog.ui:145
 #, kde-format
-msgid "Co&mputer engine"
+msgid "Co&mputer engine:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, rbPlayer2Server)
-#: gamedialog.ui:175 proto/ficsprotocol.cpp:207
+#: gamedialog.ui:175
 #, kde-format
-msgid "Chess server"
+msgid "Chess server:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, cbTimeControl)
 #: gamedialog.ui:207
 #, kde-format
-msgid "&Use Time Control"
+msgid "&Use time control"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, lNumberOfMoves)
 #: gamedialog.ui:214
 #, kde-format
-msgid "&Time control period"
+msgid "&Time control period:"
 msgstr ""
 
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, sbNumberOfMoves)
@@ -274,13 +278,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, timeLimitLabel)
 #: gamedialog.ui:243
 #, kde-format
-msgid "&Initial time limit"
+msgid "&Initial time limit:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, timeIncrementLabel)
 #: gamedialog.ui:269
 #, kde-format
-msgid "I&ncrement per move"
+msgid "I&ncrement per move:"
 msgstr ""
 
 #: gamemanager.cpp:419
@@ -405,9 +409,11 @@ msgid "Clock"
 msgstr "घड्याळ"
 
 #: knights.cpp:172
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Show History"
+msgctxt "@title:window"
 msgid "Move History"
-msgstr ""
+msgstr "इतिहास दर्शवा"
 
 #: knights.cpp:191 knights.cpp:479
 #, kde-format
@@ -526,6 +532,7 @@ msgstr ""
 
 #: knights.cpp:525
 #, kde-format
+msgctxt "@title:window"
 msgid "Game over"
 msgstr ""
 
@@ -577,6 +584,7 @@ msgstr ""
 
 #: knights.cpp:668
 #, kde-format
+msgctxt "@title:window"
 msgid "Save As"
 msgstr ""
 
@@ -1158,8 +1166,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, usernameLabel)
 #: proto/ficsdialog.ui:55
-#, kde-format
-msgid "&Username"
+#, fuzzy, kde-format
+#| msgid "&Username"
+msgid "&Username:"
 msgstr "वापरकर्ता नाव (&U):"
 
 #. i18n: ectx: property (text), widget (QCheckBox, registeredCheckBox)
@@ -1170,8 +1179,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, passwordLabel)
 #: proto/ficsdialog.ui:82
-#, kde-format
-msgid "&Password"
+#, fuzzy, kde-format
+#| msgid "&Password"
+msgid "&Password:"
 msgstr "गुप्तशब्द (&P):"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rememberCheckBox)
@@ -1326,6 +1336,12 @@ msgstr ""
 #, kde-format
 msgid "Login failed"
 msgstr "प्रवेश अपयशी"
+
+#: proto/ficsprotocol.cpp:207
+#, kde-format
+msgctxt "@title:window"
+msgid "Chess server"
+msgstr ""
 
 #: proto/ficsprotocol.cpp:298
 #, kde-format
