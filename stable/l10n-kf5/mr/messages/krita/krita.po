@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-26 01:40+0000\n"
+"POT-Creation-Date: 2021-10-27 01:46+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -18011,13 +18011,13 @@ msgstr "संसाधन फाईल्स साफ करा"
 #: libs/ui/KisApplication.cpp:883 libs/ui/KisApplication.cpp:886
 #: libs/ui/KisApplication.cpp:902 libs/ui/KisApplication.cpp:934
 #: libs/ui/KisApplication.cpp:948 libs/ui/KisApplication.cpp:976
-#: libs/ui/KisDocument.cpp:873 libs/ui/KisDocument.cpp:1696
+#: libs/ui/KisDocument.cpp:874 libs/ui/KisDocument.cpp:1696
 #: libs/ui/KisDocument.cpp:1739 libs/ui/KisDocument.cpp:1747
 #: libs/ui/KisMainWindow.cpp:1078 libs/ui/KisMainWindow.cpp:1205
 #: libs/ui/KisMainWindow.cpp:1303 libs/ui/KisMainWindow.cpp:1904
 #: libs/ui/KisMainWindow.cpp:1913 libs/ui/KisMainWindow.cpp:2052
 #: libs/ui/KisMainWindow.cpp:2111 libs/ui/KisMainWindow.cpp:2135
-#: libs/ui/KisPart.cpp:556 libs/ui/KisPart.cpp:559
+#: libs/ui/KisPart.cpp:558 libs/ui/KisPart.cpp:561
 #: libs/ui/KisReferenceImage.cpp:178 libs/ui/KisRemoteFileFetcher.cpp:42
 #: libs/ui/KisTemplateCreateDia.cpp:284 libs/ui/KisTemplateCreateDia.cpp:390
 #: libs/ui/KisView.cpp:669 libs/ui/KisWelcomePageWidget.cpp:702
@@ -21198,7 +21198,7 @@ msgctxt "@title:window"
 msgid "Enter new style name"
 msgstr "पूर्वनिश्चीत उतरणी"
 
-#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270
+#: libs/ui/dialogs/kis_dlg_layer_style.cpp:270 libs/ui/KisMainWindow.cpp:2559
 #: plugins/dockers/gamutmask/gamutmask_dock.cpp:375
 #, fuzzy, kde-format
 msgctxt "@label:textbox"
@@ -27327,14 +27327,14 @@ msgstr "100%"
 msgid "Zoom to 100%"
 msgstr "झूम 100% वर पुन्हा निश्चित करा"
 
-#: libs/ui/kis_popup_palette.cpp:845
+#: libs/ui/kis_popup_palette.cpp:844
 #, fuzzy, kde-format
 msgid ""
 "Click to swap foreground and background colors.\n"
 "Right click to set to black and white."
 msgstr "पृष्ठभूमीचे व पार्श्वभूमीचे रंग पुन्हस्थापित करा"
 
-#: libs/ui/kis_popup_palette.cpp:950
+#: libs/ui/kis_popup_palette.cpp:949
 #, kde-format
 msgid ""
 "There are no tags available to show in this popup. To add presets, you need "
@@ -27851,50 +27851,50 @@ msgctxt "(qtundo-format)"
 msgid "Clone Document"
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: libs/ui/KisDocument.cpp:700
+#: libs/ui/KisDocument.cpp:701
 #, kde-format
 msgid "%1 cannot be written to. Please save under a different name."
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:762
+#: libs/ui/KisDocument.cpp:763
 #, fuzzy, kde-format
 msgid "Exporting Document..."
 msgstr "नवीन दस्तऐवजात उघडा"
 
-#: libs/ui/KisDocument.cpp:763
+#: libs/ui/KisDocument.cpp:764
 #, fuzzy, kde-format
 msgid "Saving Document..."
 msgstr "दस्तऐवज साठवा"
 
-#: libs/ui/KisDocument.cpp:867
+#: libs/ui/KisDocument.cpp:868
 #, kde-format
 msgctxt "%1 --- failing file name, %2 --- error message"
 msgid "Error during saving %1: %2"
 msgstr ""
 
-#: libs/ui/KisDocument.cpp:873 plugins/extensions/imagesplit/imagesplit.cpp:76
+#: libs/ui/KisDocument.cpp:874 plugins/extensions/imagesplit/imagesplit.cpp:76
 #, fuzzy, kde-format
 msgid ""
 "Could not save %1\n"
 "Reason: %2"
 msgstr "व्हेक्टर निवड"
 
-#: libs/ui/KisDocument.cpp:907
+#: libs/ui/KisDocument.cpp:908
 #, fuzzy, kde-format
 msgid "Finished saving %1"
 msgstr "पहिले पान (&F)"
 
-#: libs/ui/KisDocument.cpp:1235
+#: libs/ui/KisDocument.cpp:1236
 #, fuzzy, kde-format
 msgid "Autosaving... %1"
 msgstr "अंतर"
 
-#: libs/ui/KisDocument.cpp:1243
+#: libs/ui/KisDocument.cpp:1244
 #, fuzzy, kde-format
 msgid "Autosaving..."
 msgstr "अंतर"
 
-#: libs/ui/KisDocument.cpp:1249
+#: libs/ui/KisDocument.cpp:1250
 #, kde-format
 msgid "Autosaving postponed: document is busy..."
 msgstr ""
@@ -28470,17 +28470,23 @@ msgctxt "@action:inmenu"
 msgid "&New Workspace..."
 msgstr "आरेखन आयात करा (&I)..."
 
-#: libs/ui/KisMainWindow.cpp:2598
+#: libs/ui/KisMainWindow.cpp:2558
+#, fuzzy, kde-format
+msgctxt "@title:window"
+msgid "New Workspace..."
+msgstr "आरेखन आयात करा (&I)..."
+
+#: libs/ui/KisMainWindow.cpp:2602
 #, kde-format
 msgid "&%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2601
+#: libs/ui/KisMainWindow.cpp:2605
 #, kde-format
 msgid "%1 %2"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2762
+#: libs/ui/KisMainWindow.cpp:2766
 #, fuzzy, kde-format
 #| msgid ""
 #| "The Calligra LittleCMS color management plugin is not installed. Krita "
@@ -28492,19 +28498,19 @@ msgstr ""
 "The Calligra LittleCMS color management plugin स्थापित केलेली नाही. क्रिटा आता "
 "बंद होईल."
 
-#: libs/ui/KisMainWindow.cpp:2778
+#: libs/ui/KisMainWindow.cpp:2782
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Installation error"
 msgstr "प्रतिष्ठापना त्रुटी"
 
-#: libs/ui/KisMainWindow.cpp:2890
+#: libs/ui/KisMainWindow.cpp:2894
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Themes"
 msgstr ""
 
-#: libs/ui/KisMainWindow.cpp:2944
+#: libs/ui/KisMainWindow.cpp:2948
 #, kde-format
 msgid "Expanding Spacer"
 msgstr ""
@@ -28632,14 +28638,14 @@ msgctxt "Default new group name"
 msgid "New Group %1"
 msgstr "समूह विभाग"
 
-#: libs/ui/KisPart.cpp:556
+#: libs/ui/KisPart.cpp:558
 #, fuzzy, kde-format
 msgid ""
 "Could not create document from template\n"
 "%1"
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
-#: libs/ui/KisPart.cpp:559
+#: libs/ui/KisPart.cpp:561
 #, fuzzy, kde-format
 msgid ""
 "Could not create document from template\n"
@@ -31484,29 +31490,29 @@ msgstr "घंटी : मार्गदर्शन उपलब्ध ना�
 msgid "Skip Back"
 msgstr "मागे"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:34
+#: libs/ui/widgets/kis_transport_controls.cpp:35
 #, kde-format
 msgid "Back"
 msgstr "मागे"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:41
+#: libs/ui/widgets/kis_transport_controls.cpp:43
 #: plugins/python/scripter/ui_scripter/tabwidgets/debuggerwidget/stopaction.py:21
 #, fuzzy, kde-format
 #| msgid "Tab 1"
 msgid "Stop"
 msgstr "टॅब 1"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:48
+#: libs/ui/widgets/kis_transport_controls.cpp:51
 #, fuzzy, kde-format
 msgid "Play/Pause"
 msgstr "मॅक्रो वापरा"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:55
+#: libs/ui/widgets/kis_transport_controls.cpp:59
 #, fuzzy, kde-format
 msgid "Forward"
 msgstr "पुढे"
 
-#: libs/ui/widgets/kis_transport_controls.cpp:62
+#: libs/ui/widgets/kis_transport_controls.cpp:67
 #, fuzzy, kde-format
 msgid "Skip Forward"
 msgstr "पुढे"
@@ -56080,11 +56086,6 @@ msgstr "25%"
 #, fuzzy
 #~ msgid "Could not update preset %1."
 #~ msgstr "प्रतिमेत स्तर जोडता आला नाही"
-
-#, fuzzy
-#~ msgctxt "@title:window"
-#~ msgid "New Workspace..."
-#~ msgstr "आरेखन आयात करा (&I)..."
 
 #, fuzzy
 #~| msgid "Facing pages"
