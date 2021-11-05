@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-03 00:20+0000\n"
+"POT-Creation-Date: 2021-11-05 00:17+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -278,27 +278,57 @@ msgstr "संपर्क"
 msgid "Add to:"
 msgstr "\"%1\" ला जोडा."
 
-#: akonadi-contacts/contacteditordialog.cpp:178
+#: akonadi-contacts/contacteditordialog.cpp:179
 #, kde-format
 msgctxt "@info"
 msgid "Location was not saved. Do you want to close editor?"
 msgstr ""
 
-#: akonadi-contacts/contacteditordialog.cpp:178
-#: akonadi-contacts/contacteditordialog.cpp:191
-#: akonadi-contacts/contactgroupeditordialog.cpp:160
+#: akonadi-contacts/contacteditordialog.cpp:180
+#: akonadi-contacts/contacteditordialog.cpp:197
+#: akonadi-contacts/contactgroupeditordialog.cpp:162
 #, fuzzy, kde-format
 #| msgid "Confirm Delete"
 msgctxt "@title:window"
 msgid "Confirmation"
 msgstr "काढून टाकण्याविषयी खात्री करा"
 
-#: akonadi-contacts/contacteditordialog.cpp:191
-#: akonadi-contacts/contactgroupeditordialog.cpp:160
+#: akonadi-contacts/contacteditordialog.cpp:181
+#, kde-format
+msgctxt "@action:button"
+msgid "Close Editor"
+msgstr ""
+
+#: akonadi-contacts/contacteditordialog.cpp:182
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Close"
+msgstr ""
+
+#: akonadi-contacts/contacteditordialog.cpp:196
+#: akonadi-contacts/contactgroupeditordialog.cpp:161
 #, kde-format
 msgctxt "@info"
 msgid "Do you really want to cancel?"
 msgstr ""
+
+#: akonadi-contacts/contacteditordialog.cpp:198
+#: akonadi-contacts/contactgroupeditordialog.cpp:163
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Cancel Editing"
+msgstr "रद्द करा"
+
+#: akonadi-contacts/contacteditordialog.cpp:199
+#: akonadi-contacts/contactgroupeditordialog.cpp:164
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "Cancel"
+msgctxt "@action:button"
+msgid "Do Not Cancel"
+msgstr "रद्द करा"
 
 #: akonadi-contacts/contactgroupeditor.cpp:133
 #, kde-format
@@ -569,15 +599,24 @@ msgctxt "@title:window"
 msgid "No Address Book Available"
 msgstr ""
 
-#: akonadi-contacts/job/addemailaddressjob.cpp:125
-#: akonadi-contacts/job/addemaildisplayjob.cpp:164
+#: akonadi-contacts/job/addemailaddressjob.cpp:123
+#: akonadi-contacts/job/addemaildisplayjob.cpp:162
+#, fuzzy, kde-format
+#| msgctxt "instant messaging address"
+#| msgid "Address"
+msgctxt "@action:button"
+msgid "Create Address Book"
+msgstr "पत्ता"
+
+#: akonadi-contacts/job/addemailaddressjob.cpp:127
+#: akonadi-contacts/job/addemaildisplayjob.cpp:166
 #: akonadi-contacts/standardcontactactionmanager.cpp:193
 #, kde-format
 msgctxt "@title:window"
 msgid "Add Address Book"
 msgstr ""
 
-#: akonadi-contacts/job/addemailaddressjob.cpp:219
+#: akonadi-contacts/job/addemailaddressjob.cpp:221
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -585,19 +624,31 @@ msgid ""
 "para><para>Do you want to edit this new contact now?</para>"
 msgstr ""
 
-#: akonadi-contacts/job/addemailaddressjob.cpp:244
+#: akonadi-contacts/job/addemailaddressjob.cpp:229
+#, fuzzy, kde-format
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "संपादित करा..."
+
+#: akonadi-contacts/job/addemailaddressjob.cpp:230
+#, kde-format
+msgctxt "@action:button"
+msgid "Finish"
+msgstr ""
+
+#: akonadi-contacts/job/addemailaddressjob.cpp:251
 #: akonadi-contacts/standardcontactactionmanager.cpp:468
 #, kde-format
 msgid "Contact cannot be stored: %1"
 msgstr ""
 
-#: akonadi-contacts/job/addemailaddressjob.cpp:244
+#: akonadi-contacts/job/addemailaddressjob.cpp:251
 #: akonadi-contacts/standardcontactactionmanager.cpp:468
 #, kde-format
 msgid "Failed to store contact"
 msgstr ""
 
-#: akonadi-contacts/job/addemailaddressjob.cpp:251
+#: akonadi-contacts/job/addemailaddressjob.cpp:258
 #, kde-format
 msgid "Contact created successfully"
 msgstr ""
@@ -1059,8 +1110,8 @@ msgstr ""
 msgid "Remove Address"
 msgstr "पत्ता"
 
-#: contact-editor/editor/addresseditor/addresseslocationwidget.cpp:67
-#: contact-editor/editor/addresseditor/addresslocationwidget.cpp:292
+#: contact-editor/editor/addresseditor/addresseslocationwidget.cpp:68
+#: contact-editor/editor/addresseditor/addresslocationwidget.cpp:293
 #, kde-format
 msgid "Do you really want to delete this address?"
 msgstr ""
@@ -1857,10 +1908,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Add..."
 #~ msgstr "जोडा..."
-
-#, fuzzy
-#~ msgid "Edit..."
-#~ msgstr "संपादित करा..."
 
 #~ msgctxt "@label:textbox Inputfield for an email address"
 #~ msgid "Email:"
