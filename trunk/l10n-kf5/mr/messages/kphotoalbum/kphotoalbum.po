@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-11-15 00:26+0000\n"
+"POT-Creation-Date: 2021-11-17 00:25+0000\n"
 "PO-Revision-Date: 2013-02-24 11:33+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -1244,22 +1244,118 @@ msgstr ""
 msgid "Following files could not be read:"
 msgstr ""
 
-#: Exif/InfoDialog.cpp:30
+#: Exif/InfoDialog.cpp:32
 #, kde-format
 msgctxt "@title:window"
-msgid "Exif Information"
+msgid "Exif Information and file metadata"
 msgstr ""
 
-#: Exif/InfoDialog.cpp:65
+#: Exif/InfoDialog.cpp:72
 #, kde-format
 msgctxt ""
 "@label:textbox The search box allows the user to filter by exif label names"
 msgid "Filter labels ..."
 msgstr ""
 
-#: Exif/InfoDialog.cpp:69
+#: Exif/InfoDialog.cpp:76
 #, kde-format
 msgid "IPTC character set:"
+msgstr ""
+
+#: Exif/InfoDialog.cpp:94
+#, kde-format
+msgid "Exif info"
+msgstr ""
+
+#: Exif/InfoDialog.cpp:95
+#, kde-format
+msgid "File metadata"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:35
+#, kde-format
+msgid "Absolute path:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:40
+#, kde-format
+msgid "MIME type:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:44 Settings/ViewerSizeConfig.cpp:26
+#, kde-format
+msgid "Size:"
+msgstr "आकार :"
+
+#: Exif/MetaDataDisplay.cpp:48
+#, kde-format
+msgid "Created:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:52
+#, kde-format
+msgid "Changed:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:56
+#, kde-format
+msgid "Owner:"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:60
+#, fuzzy, kde-format
+#| msgid "Group name:"
+msgid "Group:"
+msgstr "समूह नाव :"
+
+#: Exif/MetaDataDisplay.cpp:64
+#, fuzzy, kde-format
+#| msgid "Version: %1"
+msgid "Permissions:"
+msgstr "आवृत्ती : %1"
+
+#: Exif/MetaDataDisplay.cpp:99
+#, kde-format
+msgid "Open directory with a file manager"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:106
+#, kde-format
+msgctxt ""
+"File size composed of a pre-formatted (already localized) human-readable "
+"file size (%1) and the number of bytes (%2)"
+msgid "%1 (%2 B)"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:120 Exif/MetaDataDisplay.cpp:126
+#: Exif/MetaDataDisplay.cpp:132
+#, fuzzy, kde-format
+#| msgid "or"
+msgctxt "File permission shortcut for \"reading allowed\""
+msgid "r"
+msgstr "किंवा"
+
+#: Exif/MetaDataDisplay.cpp:122 Exif/MetaDataDisplay.cpp:128
+#: Exif/MetaDataDisplay.cpp:134
+#, kde-format
+msgctxt "File permission shortcut for \"writing allowed\""
+msgid "w"
+msgstr ""
+
+#: Exif/MetaDataDisplay.cpp:124 Exif/MetaDataDisplay.cpp:130
+#: Exif/MetaDataDisplay.cpp:136
+#, fuzzy, kde-format
+#| msgid "x"
+msgctxt "File permission shortcut for \"executing allowed\""
+msgid "x"
+msgstr "x"
+
+#: Exif/MetaDataDisplay.cpp:153
+#, kde-format
+msgctxt ""
+"File permissions string compiled from a parsed variant (e.g. \"rw-rw-r--\", "
+"%1) and it's octal representation (e.g. \"0644\")"
+msgid "%1 (%2)"
 msgstr ""
 
 #: Exif/ReReadDialog.cpp:28
@@ -3671,7 +3767,7 @@ msgstr ""
 
 #: MainWindow/Window.cpp:988 Viewer/ViewerWidget.cpp:173
 #, kde-format
-msgid "Show Exif Info"
+msgid "Show Exif Info and file metadata"
 msgstr ""
 
 #: MainWindow/Window.cpp:991
@@ -5210,11 +5306,6 @@ msgstr ""
 msgid "Launch in full screen"
 msgstr ""
 
-#: Settings/ViewerSizeConfig.cpp:26
-#, kde-format
-msgid "Size:"
-msgstr "आकार :"
-
 #: ThumbnailView/Delegate.cpp:237
 #, kde-format
 msgctxt ""
@@ -6592,17 +6683,11 @@ msgstr ""
 #~ msgid "Version %1"
 #~ msgstr "आवृत्ती %1"
 
-#~ msgid "Version: %1"
-#~ msgstr "आवृत्ती : %1"
-
 #~ msgid "unknown"
 #~ msgstr "अपरिचीत"
 
 #~ msgid "none"
 #~ msgstr "काही नाही"
-
-#~ msgid "x"
-#~ msgstr "x"
 
 #~ msgid "Manual"
 #~ msgstr "स्वहस्ते"
