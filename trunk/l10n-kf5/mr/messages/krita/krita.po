@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-29 00:46+0000\n"
+"POT-Creation-Date: 2021-12-30 00:42+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -25115,10 +25115,8 @@ msgstr "प्रतिमा पूर्वावलोकन"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, WdgPopupPaletteSettings)
 #. i18n: ectx: property (windowTitle), widget (QWidget, KisAutoLevelsWidget)
-#. i18n: ectx: property (windowTitle), widget (QWidget, photobashWidget)
 #: libs/ui/forms/WdgPopupPaletteSettings.ui:14
 #: libs/ui/widgets/KisAutoLevelsWidget.ui:14
-#: plugins/python/photobash_images/photobash_images_docker.ui:14
 #, fuzzy, kde-format
 msgid "Form"
 msgstr "स्वरूप :"
@@ -52373,6 +52371,44 @@ msgstr "नोड निर्यात करा"
 msgid "{input} has been exported to {output}."
 msgstr ""
 
+#: plugins/python/photobash_images/photobash_images_docker.py:73
+#, fuzzy
+msgctxt "@title:window"
+msgid "Photobash Images"
+msgstr "OpenColorIO संयोजना मार्ग :"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:141
+#: plugins/python/photobash_images/photobash_images_docker.py:471
+#, fuzzy
+msgid "Change References Folder"
+msgstr "प्राधान्ये"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:147
+#: plugins/python/photobash_images/photobash_images_docker.py:219
+#, fuzzy, python-brace-format
+#| msgid "Pattern Size"
+msgid "Image Scale: {0}%"
+msgstr "नमूना आकार"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:321
+#, fuzzy, python-brace-format
+#| msgid "Page %1"
+msgid "Page: {0}/{1}"
+msgstr "पान %1"
+
+#: plugins/python/photobash_images/photobash_images_docker.py:460
+#, fuzzy
+#| msgid "Rectangle"
+msgid "Change Directory for Images"
+msgstr "चौकोन"
+
+#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
+#: plugins/python/photobash_images/photobash_images_docker.py:469
+#: plugins/python/photobash_images/photobash_images_docker.ui:96
+#, fuzzy, kde-format
+msgid "Set References Folder"
+msgstr "प्राधान्ये"
+
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, filterTextEdit)
 #: plugins/python/photobash_images/photobash_images_docker.ui:71
 #, fuzzy, kde-format
@@ -52381,32 +52417,12 @@ msgstr ""
 msgid "Filter images by words..."
 msgstr "स्तर काढून टाका"
 
-#. i18n: ectx: property (text), widget (QPushButton, changePathButton)
-#: plugins/python/photobash_images/photobash_images_docker.ui:96
-#, fuzzy, kde-format
-msgid "Set References Folder"
-msgstr "प्राधान्ये"
-
-#. i18n: ectx: property (text), widget (QLabel, scaleSliderLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:328
-#, fuzzy, kde-format
-#| msgid "Pattern Size"
-msgid "Image Scale :"
-msgstr "नमूना आकार"
-
 #. i18n: ectx: property (text), widget (QCheckBox, fitCanvasCheckBox)
 #: plugins/python/photobash_images/photobash_images_docker.ui:388
 #, fuzzy, kde-format
 #| msgid "Rotate Canvas"
 msgid "Scale To Canvas"
 msgstr "कॅनव्हास फिरवा"
-
-#. i18n: ectx: property (text), widget (QLabel, paginationLabel)
-#: plugins/python/photobash_images/photobash_images_docker.ui:413
-#, fuzzy, kde-format
-#| msgid "0.0"
-msgid "0/0"
-msgstr "0.0"
 
 #: plugins/python/plugin_importer/plugin_downloader.py:70
 msgid "Could not determine download link from URL"
@@ -56419,6 +56435,11 @@ msgstr "आकाराप्रमाणे वाढवा"
 msgctxt "action"
 msgid "Reference Images Tool"
 msgstr "25%"
+
+#, fuzzy
+#~| msgid "0.0"
+#~ msgid "0/0"
+#~ msgstr "0.0"
 
 #, fuzzy
 #~ msgid "Change the color of the line/border"
