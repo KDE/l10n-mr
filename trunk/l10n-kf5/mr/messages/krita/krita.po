@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-07 00:42+0000\n"
+"POT-Creation-Date: 2022-02-08 00:42+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -31695,7 +31695,8 @@ msgstr "तपशील"
 
 #: libs/ui/widgets/kis_paintop_presets_chooser_popup.cpp:72
 #: libs/ui/widgets/kis_paintop_presets_editor.cpp:155
-#: libs/widgets/KoToolBox.cpp:306 libs/widgetutils/xmlgui/ktoolbar.cpp:321
+#: libs/widgets/KoToolBoxDocker.cpp:136
+#: libs/widgetutils/xmlgui/ktoolbar.cpp:321
 #: plugins/dockers/svgcollectiondocker/SvgSymbolCollectionDocker.cpp:200
 #, fuzzy, kde-format
 msgid "Icon Size"
@@ -32853,13 +32854,13 @@ msgstr "पुसट :"
 msgid "Distance:"
 msgstr "अंतर : "
 
-#: libs/widgets/KoToolBox.cpp:307 libs/widgetutils/xmlgui/ktoolbar.cpp:323
+#: libs/widgets/KoToolBox.cpp:311 libs/widgetutils/xmlgui/ktoolbar.cpp:323
 #, fuzzy, kde-format
 msgctxt "@item:inmenu Icon size"
 msgid "Default"
 msgstr "मूलभूत"
 
-#: libs/widgets/KoToolBox.cpp:314
+#: libs/widgets/KoToolBox.cpp:318
 #, kde-format
 msgid "%1x%2"
 msgstr ""
@@ -32870,10 +32871,38 @@ msgctxt "@info:tooltip %2 is shortcut"
 msgid "%1 (%2)"
 msgstr "प्रत बनवा"
 
-#: libs/widgets/KoToolBoxDocker.cpp:20
+#: libs/widgets/KoToolBoxDocker.cpp:25
 #, fuzzy, kde-format
 msgid "Toolbox"
 msgstr "साधने"
+
+#: libs/widgets/KoToolBoxDocker.cpp:139
+#, fuzzy, kde-format
+#| msgid "Page Layout"
+msgctxt "Toolbox layout"
+msgid "Layout"
+msgstr "पानाची रचना"
+
+#: libs/widgets/KoToolBoxDocker.cpp:142
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Automatic"
+msgstr "स्वयंचलित"
+
+#: libs/widgets/KoToolBoxDocker.cpp:149
+#, fuzzy, kde-format
+#| msgid "Left to right"
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Left-to-right"
+msgstr "डावीकडुन उजवीकडे"
+
+#: libs/widgets/KoToolBoxDocker.cpp:156
+#, fuzzy, kde-format
+#| msgid "Right to left"
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Right-to-left"
+msgstr "उजवीकडुन डावीकडे"
 
 #: libs/widgets/KoToolDocker.cpp:143
 #, kde-format
@@ -58665,15 +58694,6 @@ msgstr "25%"
 #~| msgid "Text direction:"
 #~ msgid "&Text direction:"
 #~ msgstr "मजकूर दिशा :"
-
-#~ msgid "Automatic"
-#~ msgstr "स्वयंचलित"
-
-#~ msgid "Left to right"
-#~ msgstr "डावीकडुन उजवीकडे"
-
-#~ msgid "Right to left"
-#~ msgstr "उजवीकडुन डावीकडे"
 
 #, fuzzy
 #~| msgid "Binding edge:"
