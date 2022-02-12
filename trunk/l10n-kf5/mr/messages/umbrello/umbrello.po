@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-02-11 00:47+0000\n"
+"POT-Creation-Date: 2022-02-12 00:46+0000\n"
 "PO-Revision-Date: 2013-03-06 17:45+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -692,7 +692,7 @@ msgstr ""
 #: dialogs/pages/associationrolepage.cpp:85
 #: dialogs/pages/associationrolepage.cpp:86
 #: dialogs/pages/classifierlistpage.cpp:236
-#: dialogs/pages/diagrampropertiespage.ui:257
+#: dialogs/pages/diagrampropertiespage.ui:322
 #: dialogs/pages/umlrolepropertiesbase.ui:140
 #: dialogs/widgets/documentationwidget.cpp:92 menus/widgetbasepopupmenu.cpp:77
 #, kde-format
@@ -2751,12 +2751,12 @@ msgstr "निवड"
 msgid "No diagrams selected."
 msgstr ""
 
-#: dialogs/pages/diagrampropertiespage.cpp:70
+#: dialogs/pages/diagrampropertiespage.cpp:72
 #, kde-format
 msgid "The name you have entered is invalid."
 msgstr ""
 
-#: dialogs/pages/diagrampropertiespage.cpp:71 object_factory.cpp:254
+#: dialogs/pages/diagrampropertiespage.cpp:73 object_factory.cpp:256
 #: umldoc.cpp:1644 umldoc.cpp:1708 umldoc.cpp:1737 umldoc.cpp:1772
 #: umlmodel/classifier.cpp:409 umlmodel/classifier.cpp:781
 #: umlmodel/entity.cpp:122 umlmodel/entity.cpp:175 umlmodel/entity.cpp:225
@@ -2765,12 +2765,12 @@ msgstr ""
 msgid "Invalid Name"
 msgstr ""
 
-#: dialogs/pages/diagrampropertiespage.cpp:80
+#: dialogs/pages/diagrampropertiespage.cpp:82
 #, kde-format
 msgid "The name you have entered is not unique."
 msgstr ""
 
-#: dialogs/pages/diagrampropertiespage.cpp:81 umldoc.cpp:1776
+#: dialogs/pages/diagrampropertiespage.cpp:83 umldoc.cpp:1776
 #, kde-format
 msgid "Name Not Unique"
 msgstr ""
@@ -2799,20 +2799,33 @@ msgstr "झूम"
 msgid "%"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, ui_labelWidth)
+#: dialogs/pages/diagrampropertiespage.ui:105
+#, fuzzy, kde-format
+msgid "Width:"
+msgstr "रुंदी"
+
+#. i18n: ectx: property (text), widget (QLabel, ui_labelHeight)
+#: dialogs/pages/diagrampropertiespage.ui:144
+#, fuzzy, kde-format
+#| msgid "Height"
+msgid "Height:"
+msgstr "उंची"
+
 #. i18n: ectx: property (text), widget (QCheckBox, ui_checkBoxShowGrid)
-#: dialogs/pages/diagrampropertiespage.ui:124
+#: dialogs/pages/diagrampropertiespage.ui:189
 #, kde-format
 msgid "Show &grid"
 msgstr "जाळे दर्शवा (&G)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_snapToGrid)
-#: dialogs/pages/diagrampropertiespage.ui:131
+#: dialogs/pages/diagrampropertiespage.ui:196
 #, fuzzy, kde-format
 msgid "Snap &to grid"
 msgstr "जाळ्याकडे खेचा"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ui_snapComponentSizeToGrid)
-#: dialogs/pages/diagrampropertiespage.ui:139
+#: dialogs/pages/diagrampropertiespage.ui:204
 #, kde-format
 msgid ""
 "Snap the size of the components to be a multiple of the grid spacing.\n"
@@ -2821,31 +2834,31 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_snapComponentSizeToGrid)
-#: dialogs/pages/diagrampropertiespage.ui:142
+#: dialogs/pages/diagrampropertiespage.ui:207
 #, kde-format
 msgid "Snap component size"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelGridSpacing)
-#: dialogs/pages/diagrampropertiespage.ui:159
+#: dialogs/pages/diagrampropertiespage.ui:224
 #, kde-format
 msgid "Grid spacing:  "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelX)
-#: dialogs/pages/diagrampropertiespage.ui:182
+#: dialogs/pages/diagrampropertiespage.ui:247
 #, kde-format
 msgid "X"
 msgstr "X"
 
 #. i18n: ectx: property (text), widget (QLabel, ui_labelY)
-#: dialogs/pages/diagrampropertiespage.ui:218
+#: dialogs/pages/diagrampropertiespage.ui:283
 #, kde-format
 msgid "Y"
 msgstr "Y"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ui_autoIncrementSequence)
-#: dialogs/pages/diagrampropertiespage.ui:247
+#: dialogs/pages/diagrampropertiespage.ui:312
 #, kde-format
 msgid "Autoincrement Sequence "
 msgstr ""
@@ -5972,7 +5985,7 @@ msgstr ""
 msgid "Usage"
 msgstr "संदेश"
 
-#: object_factory.cpp:253 umldoc.cpp:1737 umldoc.cpp:1772
+#: object_factory.cpp:255 umldoc.cpp:1737 umldoc.cpp:1772
 #: umlmodel/classifier.cpp:409 umlmodel/classifier.cpp:781
 #: umlmodel/entity.cpp:122 umlmodel/entity.cpp:175 umlmodel/entity.cpp:225
 #: umlmodel/entity.cpp:274 umlmodel/enum.cpp:105 umlmodel/package.cpp:176
@@ -5980,18 +5993,18 @@ msgstr "संदेश"
 msgid "That is an invalid name."
 msgstr ""
 
-#: object_factory.cpp:260
+#: object_factory.cpp:262
 #, kde-format
 msgid ""
 "This is a reserved keyword for the language of the configured code generator."
 msgstr ""
 
-#: object_factory.cpp:261
+#: object_factory.cpp:263
 #, kde-format
 msgid "Reserved Keyword"
 msgstr ""
 
-#: object_factory.cpp:266 umldoc.cpp:1743 umldoc.cpp:1781
+#: object_factory.cpp:268 umldoc.cpp:1743 umldoc.cpp:1781
 #: umlmodel/classifier.cpp:412 umlmodel/classifier.cpp:783
 #: umlmodel/entity.cpp:124 umlmodel/entity.cpp:177 umlmodel/entity.cpp:227
 #: umlmodel/entity.cpp:276
@@ -5999,7 +6012,7 @@ msgstr ""
 msgid "That name is already being used."
 msgstr ""
 
-#: object_factory.cpp:267 umldoc.cpp:1646 umldoc.cpp:1715 umldoc.cpp:1743
+#: object_factory.cpp:269 umldoc.cpp:1646 umldoc.cpp:1715 umldoc.cpp:1743
 #: umldoc.cpp:1781 umlmodel/classifier.cpp:412 umlmodel/classifier.cpp:783
 #: umlmodel/entity.cpp:124 umlmodel/entity.cpp:177 umlmodel/entity.cpp:227
 #: umlmodel/entity.cpp:276
@@ -6073,7 +6086,7 @@ msgstr ""
 msgid "Association Error"
 msgstr ""
 
-#: toolbarstatemessages.cpp:337
+#: toolbarstatemessages.cpp:341
 #, kde-format
 msgid "destroy"
 msgstr ""
@@ -8221,69 +8234,69 @@ msgstr ""
 msgid "Instance name:"
 msgstr ""
 
-#: umlscene.cpp:704
+#: umlscene.cpp:708
 #, kde-format
 msgid "Diagram: %2 Page %1"
 msgstr ""
 
-#: umlscene.cpp:1505
+#: umlscene.cpp:1509
 #, kde-format
 msgid "Use fill color"
 msgstr ""
 
-#: umlscene.cpp:1507
+#: umlscene.cpp:1511
 #, kde-format
 msgid "No fill color"
 msgstr ""
 
-#: umlscene.cpp:1522
+#: umlscene.cpp:1526
 #, fuzzy, kde-format
 #| msgid "Change Text"
 msgid "Change font"
 msgstr "मजकूर बदला"
 
-#: umlscene.cpp:1536
+#: umlscene.cpp:1540
 #, kde-format
 msgid "Change line color"
 msgstr ""
 
-#: umlscene.cpp:1554
+#: umlscene.cpp:1558
 #, fuzzy, kde-format
 #| msgid "Change Text"
 msgid "Change line width"
 msgstr "मजकूर बदला"
 
-#: umlscene.cpp:1574
+#: umlscene.cpp:1578
 #, kde-format
 msgid "Change fill color"
 msgstr ""
 
-#: umlscene.cpp:1589
+#: umlscene.cpp:1593
 #, kde-format
 msgid "Change visual property"
 msgstr ""
 
-#: umlscene.cpp:1640
+#: umlscene.cpp:1644
 #, fuzzy, kde-format
 msgid "Delete widgets"
 msgstr "काढून टाका"
 
-#: umlscene.cpp:1686
+#: umlscene.cpp:1690
 #, fuzzy, kde-format
 msgid "Resize widgets"
 msgstr "आकार बदला"
 
-#: umlscene.cpp:3339
+#: umlscene.cpp:3343
 #, kde-format
 msgid "Enter Diagram Name"
 msgstr ""
 
-#: umlscene.cpp:3340
+#: umlscene.cpp:3344
 #, kde-format
 msgid "Enter the new name of the diagram:"
 msgstr ""
 
-#: umlscene.cpp:3356
+#: umlscene.cpp:3360
 #, kde-format
 msgid "Failed to import from file."
 msgstr ""
