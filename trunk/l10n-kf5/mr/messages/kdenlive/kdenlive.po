@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-03 00:44+0000\n"
+"POT-Creation-Date: 2022-03-04 00:44+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -4522,19 +4522,19 @@ msgstr ""
 msgid "Could not find master clip"
 msgstr "सर्व फाईल्स"
 
-#: src/bin/bin.cpp:4911 src/bin/clipcreator.cpp:153
+#: src/bin/bin.cpp:4915 src/bin/clipcreator.cpp:153
 #, fuzzy, kde-format
 #| msgid "All Files"
 msgctxt "@action"
 msgid "Add clip"
 msgstr "सर्व फाईल्स"
 
-#: src/bin/bin.cpp:4933
+#: src/bin/bin.cpp:4937
 #, kde-format
 msgid "<b>%1</b> clips | "
 msgstr ""
 
-#: src/bin/bin.cpp:4935
+#: src/bin/bin.cpp:4939
 #, kde-format
 msgid "<b>%1</b> clips (%2 selected) | "
 msgstr ""
@@ -5444,7 +5444,7 @@ msgstr ""
 
 #. i18n: ectx: Menu (transcoders)
 #: src/dialogs/kdenlivesettingsdialog.cpp:464 src/dialogs/timeremap.cpp:1578
-#: src/jobs/cliploadtask.cpp:710 src/kdenliveui.rc:81
+#: src/jobs/cliploadtask.cpp:737 src/kdenliveui.rc:81
 #: src/mltcontroller/clippropertiescontroller.cpp:1006
 #, kde-format
 msgid "Transcode"
@@ -7359,7 +7359,22 @@ msgstr ""
 msgid "Cannot open file %1"
 msgstr ""
 
-#: src/jobs/cliploadtask.cpp:715
+#: src/jobs/cliploadtask.cpp:493
+#, kde-format
+msgid "Duration of file <b>%1</b> cannot be determined."
+msgstr ""
+
+#: src/jobs/cliploadtask.cpp:632
+#, kde-format
+msgid "File <b>%1</b> is not seekable."
+msgstr ""
+
+#: src/jobs/cliploadtask.cpp:675
+#, kde-format
+msgid "File <b>%1</b> has a variable frame rate."
+msgstr ""
+
+#: src/jobs/cliploadtask.cpp:742
 #, fuzzy, kde-format
 msgid "Cannot get duration for file %1"
 msgstr "फाईल उघडतेवेळी त्रुटी"
@@ -17819,19 +17834,19 @@ msgstr ""
 msgid "Configure Tracks"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: src/ui/transcodeseekable_ui.ui:27
+#, fuzzy, kde-format
+msgid "Convert to"
+msgstr "उलट करा"
+
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/transcodeseekable_ui.ui:37
+#: src/ui/transcodeseekable_ui.ui:44
 #, kde-format
 msgid ""
 "The following clips are not usable for editing. This will transcode them in "
 "an edit friendly format and replace the original ones in your project."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/transcodeseekable_ui.ui:50
-#, fuzzy, kde-format
-msgid "Convert to"
-msgstr "उलट करा"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/ui/transitionsettings_ui.ui:23
