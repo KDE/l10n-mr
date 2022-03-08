@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-07 00:40+0000\n"
+"POT-Creation-Date: 2022-03-08 00:40+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2886,45 +2886,58 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "सर्व फाईल्स"
 
-#: filewidgets/kfileplacesmodel.cpp:1404
+#: filewidgets/kfileplacesmodel.cpp:1129
+#, fuzzy, kde-format
+#| msgid "Could not read file %1."
+msgctxt "Placeholder is error message"
+msgid "Could not add to the Places panel: %1"
+msgstr "फाईल %1 वाचू शकत नाही."
+
+#: filewidgets/kfileplacesmodel.cpp:1136
+#, fuzzy, kde-format
+#| msgid "The file or folder %1 does not exist."
+msgid "Only folders can be added to the Places panel."
+msgstr "फाईल किंवा संचयीका %1 अस्तित्वात नाही."
+
+#: filewidgets/kfileplacesmodel.cpp:1395
 #, fuzzy, kde-format
 #| msgid "&Release '%1'"
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "सोडा (&R) : '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1406
+#: filewidgets/kfileplacesmodel.cpp:1397
 #, fuzzy, kde-format
 #| msgid "&Safely Remove '%1'"
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "सुरक्षितपणे काढून टाका (&S): '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1409
+#: filewidgets/kfileplacesmodel.cpp:1400
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "काढा"
 
-#: filewidgets/kfileplacesmodel.cpp:1428
+#: filewidgets/kfileplacesmodel.cpp:1419
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "बाहेर काढ़ा"
 
-#: filewidgets/kfileplacesmodel.cpp:1464
+#: filewidgets/kfileplacesmodel.cpp:1455
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "'%1' हे साधन डिस्क नाही. त्यामुळे ते बाहेर काढता येत नाही."
 
-#: filewidgets/kfileplacesmodel.cpp:1499
+#: filewidgets/kfileplacesmodel.cpp:1490
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "'%1' हे वापरताना त्रुटी निर्माण झाली आहे, प्रणालीचा प्रतिसाद : %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1501
+#: filewidgets/kfileplacesmodel.cpp:1492
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "'%1' हे वापरताना त्रुटी निर्माण झाली आहे"
