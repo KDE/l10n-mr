@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-18 00:48+0000\n"
+"POT-Creation-Date: 2022-03-19 00:47+0000\n"
 "PO-Revision-Date: 2013-03-29 16:35+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -33,56 +33,63 @@ msgstr "chetan@kompkin.com"
 msgid "&File"
 msgstr "फाईल (&F)"
 
+#. i18n: ectx: Menu (file_file_actions)
+#: data/kateui.rc:29
+#, fuzzy, kde-format
+#| msgid "Actions"
+msgid "File Actions"
+msgstr "क्रिया"
+
 #. i18n: ectx: Menu (edit)
-#: data/kateui.rc:40
+#: data/kateui.rc:42
 #, kde-format
 msgid "&Edit"
 msgstr "संपादन (&E)"
 
 #. i18n: ectx: Menu (edit_goto)
-#: data/kateui.rc:49
+#: data/kateui.rc:51
 #, kde-format
 msgid "Go To"
 msgstr ""
 
 #. i18n: ectx: Menu (view)
-#: data/kateui.rc:57
+#: data/kateui.rc:59
 #, kde-format
 msgid "&View"
 msgstr "दृश्य (&V)"
 
 #. i18n: ectx: Menu (view-split)
-#: data/kateui.rc:70
+#: data/kateui.rc:72
 #, kde-format
 msgid "Split View"
 msgstr "विभाजित दृश्य"
 
 #. i18n: ectx: Menu (tools)
-#: data/kateui.rc:97
+#: data/kateui.rc:99
 #, kde-format
 msgid "&Tools"
 msgstr "साधने (&T)"
 
 #. i18n: ectx: Menu (sessions)
-#: data/kateui.rc:105
+#: data/kateui.rc:107
 #, kde-format
 msgid "Sess&ions"
 msgstr "सत्र (&I)"
 
 #. i18n: ectx: Menu (settings)
-#: data/kateui.rc:114
+#: data/kateui.rc:117
 #, kde-format
 msgid "&Settings"
 msgstr "संयोजना (&S)"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: data/kateui.rc:122
+#: data/kateui.rc:125
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनपट्टी"
 
 #. i18n: ectx: Menu (viewspace_popup_statusbar)
-#: data/kateui.rc:155
+#: data/kateui.rc:158
 #, kde-format
 msgid "&Status Bar Items"
 msgstr "स्थिती पट्टी घटक (&S)"
@@ -349,12 +356,12 @@ msgstr "दस्तऐवज बंद करा"
 msgid "Save As"
 msgstr "असे साठवा"
 
-#: katedocmanager.cpp:370 katemainwindow.cpp:576
+#: katedocmanager.cpp:370 katemainwindow.cpp:580
 #, kde-format
 msgid "New file opened while trying to close Kate, closing aborted."
 msgstr ""
 
-#: katedocmanager.cpp:370 katemainwindow.cpp:576
+#: katedocmanager.cpp:370 katemainwindow.cpp:580
 #, kde-format
 msgid "Closing Aborted"
 msgstr ""
@@ -688,72 +695,79 @@ msgid "&Manage Sessions..."
 msgstr "सत्र व्यवस्थापीत करा (&M)..."
 
 #: katemainwindow.cpp:478
-#, kde-format
-msgid "&Quick Open Session"
-msgstr "त्वरित सत्र उघडा (&Q)"
+#, fuzzy, kde-format
+#| msgid "&Open Session"
+msgid "&Recent Sessions"
+msgstr "सत्र उघडा (&O)"
 
-#: katemainwindow.cpp:484
+#: katemainwindow.cpp:482
+#, fuzzy, kde-format
+#| msgid "Sess&ions"
+msgid "&All Sessions"
+msgstr "सत्र (&I)"
+
+#: katemainwindow.cpp:488
 #, kde-format
 msgid "Go to Previous Location"
 msgstr ""
 
-#: katemainwindow.cpp:492
+#: katemainwindow.cpp:496
 #, kde-format
 msgid "Go to Next Location"
 msgstr ""
 
-#: katemainwindow.cpp:503
+#: katemainwindow.cpp:507
 #, kde-format
 msgid "This will close all open documents. Are you sure you want to continue?"
 msgstr ""
 
-#: katemainwindow.cpp:504
+#: katemainwindow.cpp:508
 #, kde-format
 msgid "Close all documents"
 msgstr "सर्व दस्तऐवज बंद करा"
 
-#: katemainwindow.cpp:519
+#: katemainwindow.cpp:523
 #, kde-format
 msgid ""
 "This will close all open documents beside the current one. Are you sure you "
 "want to continue?"
 msgstr ""
 
-#: katemainwindow.cpp:520
+#: katemainwindow.cpp:524
 #, fuzzy, kde-format
 #| msgid "Close all documents"
 msgid "Close all documents beside current one"
 msgstr "सर्व दस्तऐवज बंद करा"
 
-#: katemainwindow.cpp:716
+#: katemainwindow.cpp:720
 #, kde-format
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing %1."
 msgstr ""
 
-#: katemainwindow.cpp:719
+#: katemainwindow.cpp:723
 #, kde-format
 msgid "Hide menu bar"
 msgstr ""
 
-#: katemainwindow.cpp:832
+#: katemainwindow.cpp:836
 #, kde-format
 msgid ""
 "You dropped the directory %1 into Kate. Do you want to load all files "
 "contained in it ?"
 msgstr ""
 
-#: katemainwindow.cpp:835
+#: katemainwindow.cpp:839
 #, kde-format
 msgid "Load files recursively?"
 msgstr ""
 
-#: katemainwindow.cpp:963
+#: katemainwindow.cpp:967
 #, kde-format
 msgid "&Other..."
 msgstr "इतर (&O)..."
 
-#: katemainwindow.cpp:1078
+#: katemainwindow.cpp:1082
 #, kde-format
 msgid " [read only]"
 msgstr " [फक्त वाचण्यासाठी]"
@@ -1950,6 +1964,9 @@ msgstr "मागील सत्रांची मेटा माहिती
 msgid "Delete unused meta-information after:"
 msgstr "यानंतर न वापरलेली मेटा माहिती काढून टाका  :"
 
+#~ msgid "&Quick Open Session"
+#~ msgstr "त्वरित सत्र उघडा (&Q)"
+
 #, fuzzy
 #~| msgid "&Start new session"
 #~ msgid "Start Kate with a new session, implies '-n' (deprecated)."
@@ -2048,9 +2065,6 @@ msgstr "यानंतर न वापरलेली मेटा माह�
 
 #~ msgid "Errors/Warnings while opening documents"
 #~ msgstr "दस्तऐवज उघडताना त्रुटी/इशारे"
-
-#~ msgid "&Open Session"
-#~ msgstr "सत्र उघडा (&O)"
 
 #, fuzzy
 #~| msgid "No session selected to open."
@@ -2211,9 +2225,6 @@ msgstr "यानंतर न वापरलेली मेटा माह�
 
 #~ msgid "Missing plugin file %1"
 #~ msgstr "न आढळलेली प्लगइन फाईल %1"
-
-#~ msgid "Actions"
-#~ msgstr "क्रिया"
 
 #~ msgid "Menu Item:"
 #~ msgstr "मेन्यू घटक :"
