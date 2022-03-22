@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-26 00:19+0000\n"
+"POT-Creation-Date: 2022-03-22 00:44+0000\n"
 "PO-Revision-Date: 2013-02-09 16:14+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -94,17 +94,17 @@ msgstr "संगणक पुन्हा सुरु करा (&R)"
 msgid "General:"
 msgstr "सामान्य"
 
-#. i18n: ectx: label, entry (confirmLogout), group (General)
-#: package/contents/ui/main.qml:39 smserversettings.kcfg:9
+#: package/contents/ui/main.qml:39
 #, fuzzy, kde-format
 #| msgid "Conf&irm logout"
+msgctxt "@option:check"
 msgid "Confirm logout"
 msgstr "बाहेर पडण्याची खात्री करा (&I)"
 
-#. i18n: ectx: label, entry (offerShutdown), group (General)
-#: package/contents/ui/main.qml:48 smserversettings.kcfg:13
+#: package/contents/ui/main.qml:48
 #, fuzzy, kde-format
 #| msgid "O&ffer shutdown options"
+msgctxt "@option:check"
 msgid "Offer shutdown options"
 msgstr "बंद करण्याचे पर्याय द्या (&F)"
 
@@ -117,18 +117,24 @@ msgstr "मूलभूत बाहेर पडण्याचा पर्य
 #: package/contents/ui/main.qml:66
 #, fuzzy, kde-format
 #| msgid "&End current session"
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
 msgid "End current session"
 msgstr "वर्तमान सत्र समाप्त करा (&E)"
 
 #: package/contents/ui/main.qml:76
 #, fuzzy, kde-format
 #| msgid "&Restart computer"
+msgctxt "@option:radio"
 msgid "Restart computer"
 msgstr "संगणक पुन्हा सुरु करा (&R)"
 
 #: package/contents/ui/main.qml:86
 #, fuzzy, kde-format
 #| msgid "&Turn off computer"
+msgctxt "@option:radio"
 msgid "Turn off computer"
 msgstr "संगणक बंद करा (&T)"
 
@@ -140,18 +146,30 @@ msgstr ""
 #: package/contents/ui/main.qml:103
 #, fuzzy, kde-format
 #| msgid "Restore &manually saved session"
-msgid "Restore previous saved session"
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
+msgid "Restore last session"
 msgstr "स्वहस्ते साठवलेले सत्र पुन्हस्थापित करा (&M)"
 
 #: package/contents/ui/main.qml:113
 #, fuzzy, kde-format
 #| msgid "Restore &manually saved session"
-msgid "Restore manually saved session"
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
+msgid "Restore last manually saved session"
 msgstr "स्वहस्ते साठवलेले सत्र पुन्हस्थापित करा (&M)"
 
 #: package/contents/ui/main.qml:123
 #, fuzzy, kde-format
 #| msgid "Start with an empty &session"
+msgctxt ""
+"@option:radio Here 'session' refers to the technical concept of session "
+"restoration, whereby the windows that were open on logout are re-opened on "
+"the next login"
 msgid "Start with an empty session"
 msgstr "रिकामे सत्र प्रारंभ करा (&S)"
 
@@ -170,8 +188,23 @@ msgstr ""
 
 #: package/contents/ui/main.qml:156
 #, kde-format
+msgctxt "@option:check"
 msgid "Enter firmware setup screen on next restart"
 msgstr ""
+
+#. i18n: ectx: label, entry (confirmLogout), group (General)
+#: smserversettings.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Conf&irm logout"
+msgid "Confirm logout"
+msgstr "बाहेर पडण्याची खात्री करा (&I)"
+
+#. i18n: ectx: label, entry (offerShutdown), group (General)
+#: smserversettings.kcfg:13
+#, fuzzy, kde-format
+#| msgid "O&ffer shutdown options"
+msgid "Offer shutdown options"
+msgstr "बंद करण्याचे पर्याय द्या (&F)"
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
 #: smserversettings.kcfg:17
@@ -193,6 +226,11 @@ msgstr "प्रवेश करताना"
 #| msgid "Applications to be e&xcluded from sessions:"
 msgid "Applications to be excluded from session"
 msgstr "सत्रातून वगळण्याचे अनुप्रयोग (&X):"
+
+#, fuzzy
+#~| msgid "Restore &manually saved session"
+#~ msgid "Restore previous saved session"
+#~ msgstr "स्वहस्ते साठवलेले सत्र पुन्हस्थापित करा (&M)"
 
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
