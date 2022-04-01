@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-03-31 00:41+0000\n"
+"POT-Creation-Date: 2022-04-01 00:47+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -14532,13 +14532,9 @@ msgctxt "The raw line data"
 msgid "Raw"
 msgstr "कच्चा"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
-#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/basicflakes/tools/KoPencilTool.cpp:302
 #: plugins/flake/pathshapes/spiral/SpiralShapeConfigWidget.cpp:16
 #: plugins/paintops/curvebrush/curve_paintop_plugin.cpp:29
-#: plugins/paintops/spray/wdgsprayoptions.ui:267
-#: plugins/paintops/spray/wdgsprayoptions.ui:362
 #, fuzzy, kde-format
 msgid "Curve"
 msgstr "वळलेला"
@@ -15688,9 +15684,7 @@ msgstr "मूलभूत"
 msgid "Soft"
 msgstr "मृदू"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: libs/image/kis_base_mask_generator.h:25
-#: plugins/paintops/spray/wdgsprayoptions.ui:352
 #, fuzzy, kde-format
 msgid "Gaussian"
 msgstr "गॉसियन अंधुकपणा"
@@ -18192,7 +18186,7 @@ msgstr "आउटपुट"
 msgid "Untitled"
 msgstr "शिर्षकहीन-1"
 
-#: libs/pigment/resources/KoStopGradient.cpp:377
+#: libs/pigment/resources/KoStopGradient.cpp:372
 #, fuzzy, kde-format
 #| msgid "Gradient"
 msgid "SVG Gradient"
@@ -18236,9 +18230,9 @@ msgstr "संसाधन फाईल्स साफ करा"
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:579
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:600
 #: libs/ui/animation/KisDlgImportVideoAnimation.cpp:607
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:676
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #: libs/ui/dialogs/kis_dlg_layer_style.cpp:354
 #: libs/ui/dialogs/kis_dlg_preferences.cc:664
 #: libs/ui/input/kis_tablet_debugger.cpp:96 libs/ui/kis_clipboard.cc:675
@@ -19569,28 +19563,28 @@ msgstr ""
 msgid "No FFMpeg found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:708
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:676
+#, fuzzy, kde-format
+msgid "Your FFMpeg version does not support this format"
+msgstr "समूह संपादनास अयोग्य."
+
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:716
 #, kde-format
 msgid "No video stream could be found!"
 msgstr ""
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:766
+#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:776
 #, fuzzy, kde-format
 #| msgid "Failed to create an action."
 msgid "Failed to load video information"
 msgstr "कार्य तयार करण्यात अपयश"
 
-#: libs/ui/animation/KisDlgImportVideoAnimation.cpp:791
-#, fuzzy, kde-format
-msgid "Your FFMpeg version does not support this format"
-msgstr "समूह संपादनास अयोग्य."
-
-#: libs/ui/animation/KisFFMpegWrapper.cpp:305
+#: libs/ui/animation/KisFFMpegWrapper.cpp:329
 #, kde-format
 msgid "FFMpeg Crashed"
 msgstr ""
 
-#: libs/ui/animation/KisFFMpegWrapper.cpp:518
+#: libs/ui/animation/KisFFMpegWrapper.cpp:535
 #, kde-format
 msgctxt "Video information probing dialog. arg1: frame number."
 msgid "Loading video data... %1 frames examined."
@@ -27178,7 +27172,7 @@ msgstr "रुंदीप्रमाणे समर्पक बसवा"
 msgid "Fit to Height"
 msgstr "पानाच्या रूंदी प्रमाणे समर्पक बसवा"
 
-#: libs/ui/input/kis_zoom_and_rotate_action.cpp:33
+#: libs/ui/input/kis_zoom_and_rotate_action.cpp:34
 #, fuzzy, kde-format
 #| msgid "Rotate Canvas"
 msgid "Zoom and Rotate Canvas"
@@ -50831,8 +50825,18 @@ msgstr "कोनीय"
 #: plugins/paintops/spray/wdgsprayoptions.ui:347
 #, fuzzy, kde-format
 #| msgid "Uniform random"
+msgctxt "Uniform distribution in spray engine"
 msgid "Uniform"
 msgstr "एकसारखा विनाक्रम"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, angularDistCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:267
+#: plugins/paintops/spray/wdgsprayoptions.ui:362
+#, fuzzy, kde-format
+msgctxt "Custom curve based distribution in spray engine"
+msgid "Curve"
+msgstr "वळलेला"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxRadialDistribution)
 #: plugins/paintops/spray/wdgsprayoptions.ui:322
@@ -50844,10 +50848,18 @@ msgid "Radial"
 msgstr "रेडियल"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
+#: plugins/paintops/spray/wdgsprayoptions.ui:352
+#, fuzzy, kde-format
+msgctxt "Gaussian distribution in spray engine"
+msgid "Gaussian"
+msgstr "गॉसियन अंधुकपणा"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, radialDistCombo)
 #: plugins/paintops/spray/wdgsprayoptions.ui:357
 #, fuzzy, kde-format
 #| msgctxt "(qtundo-format)"
 #| msgid "Paste"
+msgctxt "Clustering based distribution in spray engine"
 msgid "Cluster"
 msgstr "चिटकवा"
 
