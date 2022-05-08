@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-07 00:44+0000\n"
+"POT-Creation-Date: 2022-05-08 00:45+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -7433,8 +7433,8 @@ msgstr ""
 msgid "You cannot overwrite original clip."
 msgstr ""
 
-#: src/jobs/cuttask.cpp:244 src/jobs/transcodetask.cpp:228
-#: src/jobs/transcodetask.cpp:264
+#: src/jobs/cuttask.cpp:244 src/jobs/transcodetask.cpp:230
+#: src/jobs/transcodetask.cpp:266
 #, kde-format
 msgid "Failed to create file."
 msgstr ""
@@ -7464,18 +7464,18 @@ msgstr "फाईल उघडतेवेळी त्रुटी"
 msgid "Failed to filter source."
 msgstr ""
 
-#: src/jobs/proxytask.cpp:193
+#: src/jobs/proxytask.cpp:194
 #, kde-format
 msgid "Cannot load image %1."
 msgstr ""
 
-#: src/jobs/proxytask.cpp:253 src/jobs/transcodetask.cpp:179
+#: src/jobs/proxytask.cpp:254 src/jobs/transcodetask.cpp:180
 #: src/project/cliptranscode.cpp:123
 #, kde-format
 msgid "FFmpeg not found, please set path in Kdenlive's settings Environment"
 msgstr ""
 
-#: src/jobs/proxytask.cpp:358 src/jobs/proxytask.cpp:371
+#: src/jobs/proxytask.cpp:360 src/jobs/proxytask.cpp:373
 #, kde-format
 msgid "Failed to create proxy clip."
 msgstr ""
@@ -15429,77 +15429,83 @@ msgstr ""
 msgid "Concurrent threads:"
 msgstr "ट्रॅक"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_nice_tasks)
+#: src/ui/configenv_ui.ui:49
+#, kde-format
+msgid "Use lower CPU priority for proxy and transcode tasks"
+msgstr ""
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/ui/configenv_ui.ui:56
+#: src/ui/configenv_ui.ui:63
 #, fuzzy, kde-format
 msgid "MLT Environment"
 msgstr "वातावरण:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/configenv_ui.ui:78
+#: src/ui/configenv_ui.ui:85
 #, fuzzy, kde-format
 msgid "MLT profiles folder:"
 msgstr "संग्रह करत आहे"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: src/ui/configenv_ui.ui:88
+#: src/ui/configenv_ui.ui:95
 #, kde-format
 msgid "FFprobe:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: src/ui/configenv_ui.ui:98
+#: src/ui/configenv_ui.ui:105
 #, kde-format
 msgid "FFplay:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/ui/configenv_ui.ui:111
+#: src/ui/configenv_ui.ui:118
 #, kde-format
 msgid "Melt path:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/ui/configenv_ui.ui:118
+#: src/ui/configenv_ui.ui:125
 #, kde-format
 msgid "FFmpeg:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/ui/configenv_ui.ui:125
+#: src/ui/configenv_ui.ui:132
 #, fuzzy, kde-format
 msgid "MediaInfo:"
 msgstr "संपादन"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: src/ui/configenv_ui.ui:136
+#: src/ui/configenv_ui.ui:143
 #, fuzzy, kde-format
 #| msgid "Delete Folder"
 msgid "Default Folders"
 msgstr "संचयीका काढून टाका"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/configenv_ui.ui:142
+#: src/ui/configenv_ui.ui:149
 #, fuzzy, kde-format
 #| msgid "Template"
 msgid "Temporary files:"
 msgstr "नमूना"
 
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: src/ui/configenv_ui.ui:152
+#: src/ui/configenv_ui.ui:159
 #, fuzzy, kde-format
 #| msgid "Bitrate"
 msgid "Capture folder:"
 msgstr "बिटदर"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_capturetoprojectfolder)
-#: src/ui/configenv_ui.ui:159
+#: src/ui/configenv_ui.ui:166
 #, kde-format
 msgid "Use project folder"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: src/ui/configenv_ui.ui:169
+#: src/ui/configenv_ui.ui:176
 #, fuzzy, kde-format
 #| msgid "Folder"
 msgid "Library folder:"
@@ -15507,58 +15513,58 @@ msgstr "संचयीका"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_librarytodefaultfolder)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_videotodefaultfolder)
-#: src/ui/configenv_ui.ui:176 src/ui/configenv_ui.ui:193
+#: src/ui/configenv_ui.ui:183 src/ui/configenv_ui.ui:200
 #, fuzzy, kde-format
 msgid "Use default folder"
 msgstr "संचयीका काढून टाका (&D)"
 
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: src/ui/configenv_ui.ui:186
+#: src/ui/configenv_ui.ui:193
 #, kde-format
 msgid "Folder for titles, scripts:"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: src/ui/configenv_ui.ui:217
+#: src/ui/configenv_ui.ui:224
 #, fuzzy, kde-format
 #| msgid "Default"
 msgid "Default Apps"
 msgstr "मूलभूत"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/configenv_ui.ui:223
+#: src/ui/configenv_ui.ui:230
 #, fuzzy, kde-format
 msgid "Image editing:"
 msgstr "प्रतिमेचा आकार"
 
 #. i18n: ectx: property (text), widget (QPushButton, kp_image)
 #. i18n: ectx: property (text), widget (QPushButton, kp_audio)
-#: src/ui/configenv_ui.ui:237 src/ui/configenv_ui.ui:258
+#: src/ui/configenv_ui.ui:244 src/ui/configenv_ui.ui:265
 #, fuzzy, kde-format
 #| msgid "Change"
 msgid "Change…"
 msgstr "बदला"
 
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: src/ui/configenv_ui.ui:244
+#: src/ui/configenv_ui.ui:251
 #, fuzzy, kde-format
 msgid "Audio editing:"
 msgstr "ऑडिओ माध्यमे (&A)"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/ui/configenv_ui.ui:279
+#: src/ui/configenv_ui.ui:286
 #, kde-format
 msgid "Mime types"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/configenv_ui.ui:285
+#: src/ui/configenv_ui.ui:292
 #, kde-format
 msgid "Additional clip MIME types"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/ui/configenv_ui.ui:299
+#: src/ui/configenv_ui.ui:306
 #, kde-format
 msgid "Supported clip MIME types"
 msgstr ""

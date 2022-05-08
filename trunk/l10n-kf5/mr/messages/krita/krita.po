@@ -56,7 +56,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-07 00:43+0000\n"
+"POT-Creation-Date: 2022-05-08 00:44+0000\n"
 "PO-Revision-Date: 2013-04-16 11:05+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -30382,7 +30382,6 @@ msgstr "ग्रेडिएंट फिल"
 #: libs/ui/layerstyles/WdgStroke.ui:143
 #: libs/ui/widgets/KoFillConfigWidget.ui:88
 #: plugins/generators/gradient/KisGradientGenerator.h:33
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:117
 #: plugins/paintops/libpaintop/kis_color_source_option.cpp:43
 #: plugins/paintops/libpaintop/kis_pressure_gradient_option.cpp:14
 #, kde-format
@@ -38859,7 +38858,6 @@ msgid "Column Preference"
 msgstr "प्राधान्ये"
 
 #: plugins/extensions/colorrange/colorrange.xmlgui:4
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:116
 #, kde-format
 msgid "Select"
 msgstr "निवडा"
@@ -45297,53 +45295,57 @@ msgstr "खुली रंग रूपरेषा"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:244
 #, fuzzy, kde-format
+msgctxt "JPEG-XL errors"
 msgid "Unable to read the image profile."
 msgstr "प्रतिमेत स्तर जोडता आला नाही"
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:256
 #, kde-format
+msgctxt "JPEG-XL errors"
 msgid "JPEG-XL encoded profile not implemented"
 msgstr ""
 
 #: plugins/impex/jxl/JPEGXLImport.cpp:300
 #, kde-format
+msgctxt "JPEG-XL errors"
 msgid "JPEG-XL image is animated, but cannot retrieve animation frame header."
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:22
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:28
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Default (only for low quality)"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:23
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:29
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "No downsampling"
 msgstr "मृदू करू नका"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:24
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:30
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "2x2 downsampling"
-msgstr ""
+msgstr "मृदू करू नका"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:25
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:31
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "4x4 downsampling"
-msgstr ""
+msgstr "मृदू करू नका"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:26
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:32
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "8x8 downsampling"
-msgstr ""
+msgstr "मृदू करू नका"
 
-#. i18n: ectx: property (text), widget (QLabel, lblNone1)
-#. i18n: ectx: property (text), widget (QLabel, lblNone)
-#. i18n: ectx: property (text), widget (QLabel, lblNone2)
-#. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:36
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:42
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:48
@@ -45358,12 +45360,9 @@ msgstr ""
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:103
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:111
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:131
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:307
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:539
-#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:657
 #, fuzzy, kde-format
 #| msgid "Default printer color model:"
+msgctxt "JPEG-XL encoder options"
 msgid "Default (encoder chooses)"
 msgstr "प्राथमिक छपाई रंग मॉडेल :"
 
@@ -45377,19 +45376,12 @@ msgstr "प्राथमिक छपाई रंग मॉडेल :"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:91
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:98
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:132
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Disabled"
+msgctxt "JPEG-XL encoder options"
 msgid "Disabled"
 msgstr "अकार्यान्वित"
 
-#. i18n: ectx: property (text), widget (QCheckBox, lossless)
-#. i18n: ectx: property (text), widget (QCheckBox, dithering)
-#. i18n: ectx: property (text), widget (QCheckBox, autofilter)
-#. i18n: ectx: property (text), widget (QCheckBox, showCompressed)
-#. i18n: ectx: property (text), widget (QCheckBox, emulateJPEGSize)
-#. i18n: ectx: property (text), widget (QCheckBox, threadLevel)
-#. i18n: ectx: property (text), widget (QCheckBox, lowMemory)
-#. i18n: ectx: property (text), widget (QCheckBox, exact)
-#. i18n: ectx: property (text), widget (QCheckBox, useSharpYUV)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:38
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:44
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:50
@@ -45399,141 +45391,174 @@ msgstr "अकार्यान्वित"
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:86
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:99
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:133
-#: plugins/impex/webp/dlg_webp_export.ui:57
-#: plugins/impex/webp/dlg_webp_export.ui:140
-#: plugins/impex/webp/dlg_webp_export.ui:400
-#: plugins/impex/webp/dlg_webp_export.ui:542
-#: plugins/impex/webp/dlg_webp_export.ui:639
-#: plugins/impex/webp/dlg_webp_export.ui:659
-#: plugins/impex/webp/dlg_webp_export.ui:679
-#: plugins/impex/webp/dlg_webp_export.ui:725
-#: plugins/impex/webp/dlg_webp_export.ui:745
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Enabled"
+msgctxt "JPEG-XL encoder options"
 msgid "Enabled"
 msgstr "कार्यान्वित"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:55
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "VarDCT mode (e.g. for photographic images)"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:56
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Modular mode (e.g. for lossless images)"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:67
 #, fuzzy, kde-format
 #| msgid "Vertical border:"
+msgctxt "JPEG-XL encoder options"
 msgid "Scanline order"
 msgstr "उभी किनार :"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:68
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Center-first order"
 msgstr "प्रतिशत"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:92
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "X resolution:"
+msgctxt "JPEG-XL encoder options"
 msgid "64x64 lower resolution pass"
-msgstr ""
+msgstr "X रेझोल्युशन :"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:93
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "512x512 + 64x64 lower resolution passes"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:104
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "128"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:105
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "256"
 msgstr "25%"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:106
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "512"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:107
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "1024"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:112
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Zero"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:113
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Left"
+msgctxt "JPEG-XL encoder options"
 msgid "Left"
 msgstr "डावे"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:114
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Top"
 msgstr "वर"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:115
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Avg0"
 msgstr ""
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:116
+#, fuzzy, kde-format
+#| msgid "Select"
+msgctxt "JPEG-XL encoder options"
+msgid "Select"
+msgstr "निवडा"
+
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:117
+#, fuzzy, kde-format
+#| msgid "Gradient"
+msgctxt "JPEG-XL encoder options"
+msgid "Gradient"
+msgstr "ग्रेडियंट"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:118
 #, fuzzy, kde-format
 #| msgid "Weight:"
+msgctxt "JPEG-XL encoder options"
 msgid "Weighted"
 msgstr "वजन :"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:119
 #, fuzzy, kde-format
 #| msgid "Top Right"
+msgctxt "JPEG-XL encoder options"
 msgid "Top right"
 msgstr "वरील उजवे"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:120
 #, fuzzy, kde-format
 #| msgid "Top Left"
+msgctxt "JPEG-XL encoder options"
 msgid "Top left"
 msgstr "वरील डावे"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:121
 #, fuzzy, kde-format
 #| msgid "Left Edge:"
+msgctxt "JPEG-XL encoder options"
 msgid "Left left"
 msgstr "डावा किनारा :"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:122
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Avg1"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:123
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Avg2"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:124
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Avg3"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:125
 #, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Toptop predictive average"
 msgstr ""
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:126
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Gradient + Weighted"
 msgstr "उतरणी संपादन साधन"
 
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.cpp:127
 #, fuzzy, kde-format
+msgctxt "JPEG-XL encoder options"
 msgid "Use all predictors"
 msgstr "सर्व दिशांना ठसवा"
 
@@ -45744,6 +45769,19 @@ msgstr "पोस्ट प्रोसेसिंग"
 #, fuzzy, kde-format
 msgid "Maximum strength"
 msgstr "छपाई उंची :"
+
+#. i18n: ectx: property (text), widget (QLabel, lblNone1)
+#. i18n: ectx: property (text), widget (QLabel, lblNone)
+#. i18n: ectx: property (text), widget (QLabel, lblNone2)
+#. i18n: ectx: property (text), widget (QLabel, lblNoDegradation)
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:307
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:489
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:539
+#: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:657
+#, fuzzy, kde-format
+#| msgid "Default printer color model:"
+msgid "Default (encoder chooses)"
+msgstr "प्राथमिक छपाई रंग मॉडेल :"
 
 #. i18n: ectx: property (toolTip), widget (KisSliderSpinBox, epf)
 #: plugins/impex/jxl/kis_wdg_options_jpegxl.ui:314
@@ -47848,6 +47886,28 @@ msgstr "प्रिसेटस् :"
 #, fuzzy, kde-format
 msgid "Lossless compression"
 msgstr "संक्षिप्त करा :"
+
+#. i18n: ectx: property (text), widget (QCheckBox, lossless)
+#. i18n: ectx: property (text), widget (QCheckBox, dithering)
+#. i18n: ectx: property (text), widget (QCheckBox, autofilter)
+#. i18n: ectx: property (text), widget (QCheckBox, showCompressed)
+#. i18n: ectx: property (text), widget (QCheckBox, emulateJPEGSize)
+#. i18n: ectx: property (text), widget (QCheckBox, threadLevel)
+#. i18n: ectx: property (text), widget (QCheckBox, lowMemory)
+#. i18n: ectx: property (text), widget (QCheckBox, exact)
+#. i18n: ectx: property (text), widget (QCheckBox, useSharpYUV)
+#: plugins/impex/webp/dlg_webp_export.ui:57
+#: plugins/impex/webp/dlg_webp_export.ui:140
+#: plugins/impex/webp/dlg_webp_export.ui:400
+#: plugins/impex/webp/dlg_webp_export.ui:542
+#: plugins/impex/webp/dlg_webp_export.ui:639
+#: plugins/impex/webp/dlg_webp_export.ui:659
+#: plugins/impex/webp/dlg_webp_export.ui:679
+#: plugins/impex/webp/dlg_webp_export.ui:725
+#: plugins/impex/webp/dlg_webp_export.ui:745
+#, kde-format
+msgid "Enabled"
+msgstr "कार्यान्वित"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, lblQuality)
 #. i18n: ectx: property (toolTip), widget (KisDoubleSliderSpinBox, quality)
