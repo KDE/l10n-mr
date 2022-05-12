@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-11 00:42+0000\n"
+"POT-Creation-Date: 2022-05-12 00:41+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -3421,10 +3421,7 @@ msgid ""
 "digiKam 6.x):"
 msgstr ""
 
-#. i18n("Report"))->setEnabled(false); //report bug, suggestions etc. using maillist?
 #: core/app/views/stack/welcomepageview.cpp:221
-#: core/avplayer/main/MainWindow.cpp:447
-#: core/avplayer/utils/EventFilter.cpp:528
 #: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:204
 #, fuzzy, kde-format
 msgid "About"
@@ -3549,8 +3546,6 @@ msgstr "ऑडिओ फाईल्स"
 
 #: core/app/views/tableview/tableview_column_audiovideo.cpp:81
 #: core/app/views/tableview/tableview_column_audiovideo.cpp:109
-#: core/avplayer/main/MainWindow.cpp:359
-#: core/avplayer/utils/StatisticsView.cpp:49
 #: core/utilities/searchwindow/searchfields_createfield.cpp:748
 #, fuzzy, kde-format
 msgid "Duration"
@@ -3766,7 +3761,6 @@ msgstr "मार्ग"
 
 #: core/app/views/tableview/tableview_column_file.cpp:65
 #: core/app/views/tableview/tableview_column_file.cpp:98
-#: core/avplayer/utils/StatisticsView.cpp:73
 #: core/libs/dimg/filters/hotpixels/blackframelistview.cpp:78
 #, kde-format
 msgid "Size"
@@ -3908,7 +3902,6 @@ msgstr ""
 
 #: core/app/views/tableview/tableview_column_item.cpp:92
 #: core/app/views/tableview/tableview_column_item.cpp:149
-#: core/avplayer/main/MainWindow.cpp:634 core/avplayer/main/MainWindow.cpp:1655
 #, fuzzy, kde-format
 msgid "Aspect ratio"
 msgstr "क्रियाप्राप्तीचे गुणोत्तर (&R)"
@@ -4270,46 +4263,46 @@ msgid "Supported Extensions"
 msgstr "अपरिचीत"
 
 #: core/avplayer/config/AVFilterConfigPage.cpp:55
-#: core/avplayer/main/MainWindow.cpp:533 core/avplayer/main/MainWindow.cpp:640
-#: core/avplayer/utils/StatisticsView.cpp:162
 #, fuzzy, kde-format
 #| msgid "Videos"
+msgctxt "@option: video filter"
 msgid "Video"
 msgstr "व्हिडीओ"
 
 #: core/avplayer/config/AVFilterConfigPage.cpp:56
-#: core/avplayer/main/MainWindow.cpp:532
-#: core/avplayer/utils/StatisticsView.cpp:170
-#: core/libs/database/utils/widgets/dbstatdlg.cpp:61
 #, fuzzy, kde-format
+msgctxt "@option: audio filter"
 msgid "Audio"
 msgstr "ऑडिओ"
 
 #: core/avplayer/config/AVFilterConfigPage.cpp:61
-#: core/avplayer/config/AVFormatConfigPage.cpp:58
-#: core/avplayer/config/ShaderPage.cpp:50 core/avplayer/main/MainWindow.cpp:469
-#: core/avplayer/main/MainWindow.cpp:547
 #, fuzzy, kde-format
 #| msgid "enabled"
-msgid "Enable"
+msgctxt "@option: enable filter"
+msgid "Enable %1"
 msgstr "कार्यान्वित"
 
 #: core/avplayer/config/AVFilterConfigPage.cpp:64
 #, fuzzy, kde-format
-msgid "Registered"
-msgstr "मध्य"
-
-#: core/avplayer/config/AVFilterConfigPage.cpp:64
-#, fuzzy, kde-format
-#| msgid "Filters"
-msgid "filters"
-msgstr "गाळणी"
+#| msgctxt "@action:inmenu Pluralized"
+#| msgid "Move to Trash"
+#| msgid_plural "Move %1 Files to Trash"
+msgctxt "@info"
+msgid "Registered %1 filters"
+msgstr "कचरापेटीत टाका"
 
 #: core/avplayer/config/AVFilterConfigPage.cpp:69
 #, fuzzy, kde-format
 #| msgid "Millimeters"
+msgctxt "@label"
 msgid "Parameters"
 msgstr "मिलीमिटर"
+
+#: core/avplayer/config/AVFormatConfigPage.cpp:58
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgid "Enable"
+msgstr "कार्यान्वित"
 
 #: core/avplayer/config/AVFormatConfigPage.cpp:58
 #, fuzzy, kde-format
@@ -4382,13 +4375,11 @@ msgid "Quality"
 msgstr "शहर :"
 
 #: core/avplayer/config/CaptureConfigPage.cpp:111
-#: core/avplayer/main/MainWindow.cpp:386
 #, fuzzy, kde-format
 msgid "Capture"
 msgstr "कॅपचर: %1"
 
 #: core/avplayer/config/ConfigDialog.cpp:67
-#: core/avplayer/config/VideoEQConfigPage.cpp:101
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:271
 #: core/dplugins/rawimport/native/rawsettingsbox.cpp:323
 #: core/libs/tags/widgets/tageditdlg.cpp:202
@@ -4398,7 +4389,6 @@ msgid "Reset"
 msgstr "पुन्हस्थापित करा"
 
 #: core/avplayer/config/ConfigDialog.cpp:68
-#: core/avplayer/utils/StatisticsView.cpp:179
 #: core/libs/video/qtav/widgets/utils/QtAVWidgets_Global.cpp:197
 #, kde-format
 msgid "Ok"
@@ -4426,38 +4416,34 @@ msgstr "लागू करा"
 #: core/avplayer/config/DecoderConfigPage.cpp:242
 #, fuzzy, kde-format
 #| msgid "File Name"
+msgctxt "@title"
 msgid "Video decoder config page"
 msgstr "फाईल नाव"
 
 #: core/avplayer/config/DecoderConfigPage.cpp:254
-#: core/avplayer/config/DecoderConfigPage.cpp:341
-#: core/avplayer/main/MainWindow.cpp:665
-#: core/avplayer/utils/StatisticsView.cpp:58
-#, fuzzy, kde-format
-#| msgid "File Name"
-msgid "Decoder"
-msgstr "फाईल नाव"
-
-#: core/avplayer/config/DecoderConfigPage.cpp:254
-#, fuzzy, kde-format
-#| msgid "Properties"
-msgid "Priorities"
-msgstr "गुणधर्म"
-
-#: core/avplayer/config/DecoderConfigPage.cpp:254
 #, kde-format
-msgid "reopen is required"
+msgctxt "@label"
+msgid "Decoder Priorities (reopen is required)"
 msgstr ""
 
 #: core/avplayer/config/DecoderConfigPage.cpp:315
 #, kde-format
+msgctxt "@action: go up in the list"
 msgid "Up"
 msgstr ""
 
 #: core/avplayer/config/DecoderConfigPage.cpp:321
 #, fuzzy, kde-format
+msgctxt "@action: go down in the list"
 msgid "Down"
 msgstr "डाउनलोड"
+
+#: core/avplayer/config/DecoderConfigPage.cpp:341
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@title"
+msgid "Decoder"
+msgstr "फाईल नाव"
 
 #. i18n: ectx: property (title), widget (QGroupBox, previewGroupBox)
 #: core/avplayer/config/MiscPage.cpp:48 core/avplayer/config/MiscPage.cpp:54
@@ -4545,65 +4531,96 @@ msgstr ""
 msgid "Misc"
 msgstr ""
 
+#: core/avplayer/config/ShaderPage.cpp:50
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgctxt "@option: enable shader"
+msgid "Enable"
+msgstr "कार्यान्वित"
+
 #: core/avplayer/config/ShaderPage.cpp:52
 #, kde-format
+msgctxt "@option"
 msgid "Intermediate FBO"
 msgstr ""
 
 #: core/avplayer/config/ShaderPage.cpp:54
 #, kde-format
+msgctxt "@label"
 msgid "Fragment shader header"
 msgstr ""
 
 #: core/avplayer/config/ShaderPage.cpp:60
 #, kde-format
+msgctxt "@info"
 msgid "Additional header code"
 msgstr ""
 
 #: core/avplayer/config/ShaderPage.cpp:62
 #, kde-format
+msgctxt "@label"
 msgid "Fragment shader texel sample function"
+msgstr ""
+
+#: core/avplayer/config/ShaderPage.cpp:70
+#, kde-format
+msgctxt "@label"
+msgid "Fragment shader RGB post process code"
 msgstr ""
 
 #: core/avplayer/config/ShaderPage.cpp:82
 #, fuzzy, kde-format
 #| msgctxt "light source"
 #| msgid "Shade"
+msgctxt "@title"
 msgid "Shader"
 msgstr "सावली"
 
 #: core/avplayer/config/VideoEQConfigPage.cpp:58
-#: core/avplayer/main/MainWindow.cpp:566
+#: core/avplayer/main/MainWindow.cpp:565
 #, kde-format
+msgctxt "@label"
 msgid "Engine"
 msgstr ""
 
 #: core/avplayer/config/VideoEQConfigPage.cpp:76
 #, fuzzy, kde-format
 #| msgid "Brightness:"
+msgctxt "@option"
 msgid "Brightness"
 msgstr "प्रखरता :"
 
 #: core/avplayer/config/VideoEQConfigPage.cpp:77
 #, fuzzy, kde-format
-msgid "Constrast"
+msgctxt "@option"
+msgid "Contrast"
 msgstr "काँट्रास्ट :"
 
 #: core/avplayer/config/VideoEQConfigPage.cpp:78
 #, fuzzy, kde-format
+msgctxt "@option"
 msgid "Hue"
 msgstr "शुध्दता :"
 
 #: core/avplayer/config/VideoEQConfigPage.cpp:79
-#: core/libs/widgets/iccprofiles/iccprofilescombobox.cpp:268
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Saturation"
+msgctxt "@option"
 msgid "Saturation"
 msgstr "संपृक्तता"
 
 #: core/avplayer/config/VideoEQConfigPage.cpp:98
 #, kde-format
+msgctxt "@option: global settings"
 msgid "Global"
 msgstr ""
+
+#: core/avplayer/config/VideoEQConfigPage.cpp:101
+#: core/libs/tags/manager/tagpropwidget.cpp:142
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "Reset"
+msgstr "पुन्हस्थापित करा"
 
 #: core/avplayer/main/main.cpp:167
 #, kde-format
@@ -4614,563 +4631,805 @@ msgid ""
 "experience with AVPlayer.</p>"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:212
-#, fuzzy, kde-format
-#| msgid "File Name"
-msgid "Video renderer is "
-msgstr "फाईल नाव"
-
-#: core/avplayer/main/MainWindow.cpp:212 core/avplayer/main/MainWindow.cpp:882
+#: core/avplayer/main/MainWindow.cpp:211
 #, kde-format
-msgid "not availabe on your platform!"
+msgctxt "@info"
+msgid "Video renderer is not available on your platform!"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:355
+#: core/avplayer/main/MainWindow.cpp:354
 #, fuzzy, kde-format
 #| msgctxt "Content type"
 #| msgid "Current"
+msgctxt "@info"
 msgid "Current time"
 msgstr "वर्तमान"
 
-#: core/avplayer/main/MainWindow.cpp:363
+#: core/avplayer/main/MainWindow.cpp:358
 #, fuzzy, kde-format
+msgctxt "@info"
+msgid "Duration"
+msgstr "कालावधी :"
+
+#: core/avplayer/main/MainWindow.cpp:362
+#, fuzzy, kde-format
+msgctxt "@info"
 msgid "Render engine"
 msgstr "प्रतिमा छापा"
 
-#: core/avplayer/main/MainWindow.cpp:368
+#: core/avplayer/main/MainWindow.cpp:367
 #, kde-format
+msgctxt "@info"
 msgid "Speed. Ctrl+Up/Down"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:379 core/avplayer/main/MainWindow.cpp:561
-#: core/avplayer/utils/EventFilter.cpp:525
+#: core/avplayer/main/MainWindow.cpp:378
 #, fuzzy, kde-format
+msgctxt "@info: open new media"
 msgid "Open"
 msgstr "यामध्ये उघडा..."
 
-#: core/avplayer/main/MainWindow.cpp:389
+#: core/avplayer/main/MainWindow.cpp:385
+#, fuzzy, kde-format
+msgctxt "@info: button"
+msgid "Capture"
+msgstr "कॅपचर: %1"
+
+#: core/avplayer/main/MainWindow.cpp:388
 #, kde-format
+msgctxt "@info: button"
 msgid "Volume"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:413
-#: core/avplayer/utils/EventFilter.cpp:526
+#: core/avplayer/main/MainWindow.cpp:412
 #, fuzzy, kde-format
+msgctxt "@action"
 msgid "Open Url"
 msgstr "संचयीका उघडा : \"%1\""
 
-#: core/avplayer/main/MainWindow.cpp:416
+#: core/avplayer/main/MainWindow.cpp:415
 #, fuzzy, kde-format
+msgctxt "@option"
 msgid "Play list"
 msgstr "सर्व साफ करा"
 
-#: core/avplayer/main/MainWindow.cpp:429
-#: core/utilities/queuemanager/views/toolsview.cpp:93
-#, kde-format
+#: core/avplayer/main/MainWindow.cpp:428
+#, fuzzy, kde-format
+#| msgid "History"
+msgctxt "@option"
 msgid "History"
 msgstr "इतिहास"
 
-#: core/avplayer/main/MainWindow.cpp:448
+#. i18n("Report"))->setEnabled(false); //report bug, suggestions etc. using maillist?
+#: core/avplayer/main/MainWindow.cpp:446
+#, fuzzy, kde-format
+msgctxt "@action"
+msgid "About"
+msgstr "विषयी"
+
+#: core/avplayer/main/MainWindow.cpp:447
 #, kde-format
+msgctxt "@action"
 msgid "Setup"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:453
-#: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:145
-#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:606
-#, kde-format
+#: core/avplayer/main/MainWindow.cpp:452
+#, fuzzy, kde-format
+#| msgid "Speed"
+msgctxt "@option"
 msgid "Speed"
 msgstr "वेग"
 
-#: core/avplayer/main/MainWindow.cpp:464
+#: core/avplayer/main/MainWindow.cpp:463
 #, kde-format
+msgctxt "@option"
 msgid "Repeat"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:480
+#: core/avplayer/main/MainWindow.cpp:468 core/avplayer/main/MainWindow.cpp:546
+#, fuzzy, kde-format
+#| msgid "enabled"
+msgctxt "@action"
+msgid "Enable"
+msgstr "कार्यान्वित"
+
+#: core/avplayer/main/MainWindow.cpp:479
 #, kde-format
+msgctxt "@info"
 msgid "infinity"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:482
+#: core/avplayer/main/MainWindow.cpp:481
 #, fuzzy, kde-format
 #| msgid "Time:"
+msgctxt "@label"
 msgid "Times"
 msgstr "वेळ :"
 
-#: core/avplayer/main/MainWindow.cpp:488
+#: core/avplayer/main/MainWindow.cpp:487
 #, fuzzy, kde-format
+msgctxt "@label: from time-stamp"
 msgid "From"
 msgstr "पासून :"
 
-#: core/avplayer/main/MainWindow.cpp:491 core/avplayer/main/MainWindow.cpp:503
+#: core/avplayer/main/MainWindow.cpp:490 core/avplayer/main/MainWindow.cpp:502
 #, kde-format
+msgctxt "@info"
 msgid "negative value means from the end"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:500
+#: core/avplayer/main/MainWindow.cpp:499
 #, fuzzy, kde-format
+msgctxt "@label: to time-stamp"
 msgid "To"
 msgstr "सुरु करा"
 
-#: core/avplayer/main/MainWindow.cpp:523
+#: core/avplayer/main/MainWindow.cpp:522
 #, kde-format
+msgctxt "@action"
 msgid "Clock"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:531
-#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:339
-#, kde-format
+#: core/avplayer/main/MainWindow.cpp:530
+#, fuzzy, kde-format
+#| msgid "Auto"
+msgctxt "@option: clock sync"
 msgid "Auto"
 msgstr "स्वयंचलित"
 
-#: core/avplayer/main/MainWindow.cpp:543
+#: core/avplayer/main/MainWindow.cpp:531
+#, fuzzy, kde-format
+msgctxt "@option: clock sync"
+msgid "Audio"
+msgstr "ऑडिओ"
+
+#: core/avplayer/main/MainWindow.cpp:532
+#, fuzzy, kde-format
+#| msgid "Videos"
+msgctxt "@option: clock sync"
+msgid "Video"
+msgstr "व्हिडीओ"
+
+#: core/avplayer/main/MainWindow.cpp:542
 #, kde-format
+msgctxt "@info"
 msgid "Take effect in next playback"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:545
+#: core/avplayer/main/MainWindow.cpp:544
 #, fuzzy, kde-format
 #| msgid "Untitled"
+msgctxt "@option"
 msgid "Subtitle"
 msgstr "शिर्षकहीन"
 
-#: core/avplayer/main/MainWindow.cpp:554
+#: core/avplayer/main/MainWindow.cpp:553
 #, fuzzy, kde-format
+msgctxt "@action"
 msgid "Auto load"
 msgstr "प्रखरता :"
 
-#: core/avplayer/main/MainWindow.cpp:579
+#: core/avplayer/main/MainWindow.cpp:560
+#, fuzzy, kde-format
+msgctxt "@action: open subtitle file"
+msgid "Open"
+msgstr "यामध्ये उघडा..."
+
+#: core/avplayer/main/MainWindow.cpp:578
 #, kde-format
-msgid "FFmpeg supports more subtitles but only render plain text"
+msgctxt "@info"
+msgid ""
+"FFmpeg supports more subtitles but only render plain text\n"
+"LibASS supports 'ass' styles"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:579
+#: core/avplayer/main/MainWindow.cpp:583
 #, kde-format
-msgid "LibASS supports ass styles"
-msgstr ""
-
-#: core/avplayer/main/MainWindow.cpp:584
-#, kde-format
+msgctxt "@label"
 msgid "Charset"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:590
+#: core/avplayer/main/MainWindow.cpp:589
 #, fuzzy, kde-format
+msgctxt "@option"
 msgid "Auto detect"
 msgstr "स्वयं शोधा"
 
-#: core/avplayer/main/MainWindow.cpp:591
+#: core/avplayer/main/MainWindow.cpp:590
 #, fuzzy, kde-format
 #| msgid "System Font"
+msgctxt "@option"
 msgid "System"
 msgstr "प्रणाली फॉन्ट"
 
-#: core/avplayer/main/MainWindow.cpp:602
+#: core/avplayer/main/MainWindow.cpp:601
 #, kde-format
+msgctxt "@info"
 msgid "Auto detect requires libchardet"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:604
+#: core/avplayer/main/MainWindow.cpp:603
 #, fuzzy, kde-format
+msgctxt "@option"
 msgid "Audio track"
 msgstr "ऑडिओ फाईल्स"
 
-#: core/avplayer/main/MainWindow.cpp:613
+#: core/avplayer/main/MainWindow.cpp:612
 #, fuzzy, kde-format
 #| msgid "Channel:"
+msgctxt "@option"
 msgid "Channel"
 msgstr "माध्यम :"
 
+#: core/avplayer/main/MainWindow.cpp:619
+#, kde-format
+msgctxt "@action: channel option"
+msgid "As input"
+msgstr ""
+
 #: core/avplayer/main/MainWindow.cpp:620
 #, kde-format
-msgid "As input"
+msgctxt "@action: channel option"
+msgid "Stereo"
 msgstr ""
 
 #: core/avplayer/main/MainWindow.cpp:621
 #, kde-format
-msgid "Stereo"
-msgstr ""
-
-#: core/avplayer/main/MainWindow.cpp:622
-#, kde-format
+msgctxt "@action: channel option"
 msgid "Mono (center)"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:623
+#: core/avplayer/main/MainWindow.cpp:622
 #, fuzzy, kde-format
+msgctxt "@action: channel option"
 msgid "Left"
 msgstr "डावे"
 
-#: core/avplayer/main/MainWindow.cpp:624
+#: core/avplayer/main/MainWindow.cpp:623
 #, fuzzy, kde-format
+msgctxt "@action: channel option"
 msgid "Right"
 msgstr "उजवे"
 
-#: core/avplayer/main/MainWindow.cpp:642
+#: core/avplayer/main/MainWindow.cpp:633 core/avplayer/main/MainWindow.cpp:1657
 #, fuzzy, kde-format
+msgctxt "@option"
+msgid "Aspect ratio"
+msgstr "क्रियाप्राप्तीचे गुणोत्तर (&R)"
+
+#: core/avplayer/main/MainWindow.cpp:639
+#, fuzzy, kde-format
+#| msgid "Videos"
+msgctxt "@action: aspect ratio"
+msgid "Video"
+msgstr "व्हिडीओ"
+
+#: core/avplayer/main/MainWindow.cpp:641
+#, fuzzy, kde-format
+msgctxt "@action: video ratio"
 msgid "Window"
 msgstr "आयात करत आहे..."
 
-#: core/avplayer/main/MainWindow.cpp:645
+#: core/avplayer/main/MainWindow.cpp:644
 #, fuzzy, kde-format
 #| msgid "Custom"
+msgctxt "@action: video ratio"
 msgid "Custom"
 msgstr "ऐच्छिक"
 
-#: core/avplayer/main/MainWindow.cpp:654
+#: core/avplayer/main/MainWindow.cpp:653
 #, fuzzy, kde-format
+msgctxt "@option"
 msgid "Color space"
 msgstr "रंग खोली"
 
-#: core/avplayer/main/MainWindow.cpp:672
+#: core/avplayer/main/MainWindow.cpp:664
 #, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@option"
+msgid "Decoder"
+msgstr "फाईल नाव"
+
+#: core/avplayer/main/MainWindow.cpp:671
+#, fuzzy, kde-format
+msgctxt "@option"
 msgid "Renderer"
 msgstr "प्रतिमा छापा"
 
-#: core/avplayer/main/MainWindow.cpp:829
+#: core/avplayer/main/MainWindow.cpp:828
 #, kde-format
+msgctxt "@title"
 msgid "Open an external audio track"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:909
+#: core/avplayer/main/MainWindow.cpp:882
 #, kde-format
+msgctxt "@info"
+msgid "not available on your platform!"
+msgstr ""
+
+#: core/avplayer/main/MainWindow.cpp:910
+#, kde-format
+msgctxt "@info"
 msgid "Can not use this renderer"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:1104
+#: core/avplayer/main/MainWindow.cpp:1105
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Open a media file"
 msgstr "संचयीका उघडा : \"%1\""
 
-#: core/avplayer/main/MainWindow.cpp:1518
+#: core/avplayer/main/MainWindow.cpp:1520
 #: core/avplayer/utils/EventFilter.cpp:90
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Open an url"
 msgstr "संचयीका उघडा : \"%1\""
 
-#: core/avplayer/main/MainWindow.cpp:1518
+#: core/avplayer/main/MainWindow.cpp:1520
 #: core/avplayer/utils/EventFilter.cpp:90
-#: core/avplayer/utils/StatisticsView.cpp:45
 #, kde-format
+msgctxt "@info"
 msgid "Url"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:1562
-#: core/avplayer/main/MainWindow.cpp:1588
+#: core/avplayer/main/MainWindow.cpp:1564
+#: core/avplayer/main/MainWindow.cpp:1590
 #, fuzzy, kde-format
 #| msgid "&Interface"
+msgctxt "@action: audio track"
 msgid "External"
 msgstr "दुवा (&I)"
 
-#: core/avplayer/main/MainWindow.cpp:1799
+#: core/avplayer/main/MainWindow.cpp:1801
 #, fuzzy, kde-format
 #| msgid "Error"
+msgctxt "@title"
 msgid "Player error"
 msgstr "त्रुटी"
 
-#: core/avplayer/main/MainWindow.cpp:1819
+#: core/avplayer/main/MainWindow.cpp:1821
 #, kde-format
+msgctxt "@info: media loading"
 msgid "No media"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:1823
+#: core/avplayer/main/MainWindow.cpp:1825
 #, fuzzy, kde-format
-msgid "Invalid meida"
+msgctxt "@info: media loading"
+msgid "Invalid media"
 msgstr "फाईलनाव"
 
-#: core/avplayer/main/MainWindow.cpp:1827
+#: core/avplayer/main/MainWindow.cpp:1829
 #, kde-format
+msgctxt "@info: media loading"
 msgid "Buffering..."
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:1831
-#, kde-format
-msgid "Buffered"
-msgstr ""
-
-#: core/avplayer/main/MainWindow.cpp:1835
-#: core/libs/widgets/graphicsview/dimgpreviewitem.cpp:204
+#: core/avplayer/main/MainWindow.cpp:1833
 #, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgctxt "@info: media loading"
+msgid "Buffered"
+msgstr "चेतन खोना"
+
+#: core/avplayer/main/MainWindow.cpp:1837
+#, fuzzy, kde-format
+msgctxt "@info: media loading"
 msgid "Loading..."
 msgstr "दाखल करत आहे..."
 
-#: core/avplayer/main/MainWindow.cpp:1839
+#: core/avplayer/main/MainWindow.cpp:1841
 #, fuzzy, kde-format
 #| msgid "Load..."
+msgctxt "@info: media loading"
 msgid "Loaded"
 msgstr "लोड..."
 
-#: core/avplayer/main/MainWindow.cpp:1843
+#: core/avplayer/main/MainWindow.cpp:1845
 #, kde-format
+msgctxt "@info: media loading"
 msgid "Stalled"
 msgstr ""
 
-#: core/avplayer/main/MainWindow.cpp:1977
+#: core/avplayer/main/MainWindow.cpp:1872
+#, kde-format
+msgctxt "@title: media loading state"
+msgid "Buffering... %1% @%2 %3"
+msgstr ""
+
+#: core/avplayer/main/MainWindow.cpp:1979
 #, fuzzy, kde-format
-msgid "Capture video frame"
+msgctxt "@info"
+msgid ""
+"Capture video frame\n"
+"Save to: %1\n"
+"Format: %2"
 msgstr "कॅपचर: %1"
-
-#: core/avplayer/main/MainWindow.cpp:1978
-#, fuzzy, kde-format
-msgid "Save to"
-msgstr "साठवा"
-
-#: core/avplayer/main/MainWindow.cpp:1980
-#: core/avplayer/utils/StatisticsView.cpp:46
-#: core/libs/database/utils/widgets/dbstatdlg.cpp:55
-#, fuzzy, kde-format
-msgid "Format"
-msgstr "स्वरूप"
 
 #: core/avplayer/main/MainWindow.cpp:2097
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Open a subtitle file"
 msgstr "संचयीका उघडा : \"%1\""
 
 #: core/avplayer/playlist/PlayList.cpp:64
 #, kde-format
-msgid "Click to select multiple"
+msgctxt "@info"
+msgid "Use Ctrl/Shift + Click to select multiple items"
 msgstr ""
 
 #: core/avplayer/playlist/PlayList.cpp:71
 #, fuzzy, kde-format
+msgctxt "@action: clear playlist"
 msgid "Clear"
 msgstr "पुसून टाका"
 
 #: core/avplayer/playlist/PlayList.cpp:74
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Remove selected items"
 msgstr "निवड"
 
 #: core/avplayer/playlist/PlayList.cpp:266
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Select files"
 msgstr "निवड"
 
 #: core/avplayer/utils/EventFilter.cpp:79
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Open a video"
 msgstr "संचयीका उघडा : \"%1\""
 
 #: core/avplayer/utils/EventFilter.cpp:112
 #, kde-format
+msgctxt "@info"
 msgid "Drag and drop a file to player\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:113
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "A: switch aspect ratio"
 msgstr "क्रियाप्राप्तीचे गुणोत्तर (&R)"
 
 #: core/avplayer/utils/EventFilter.cpp:114
 #, kde-format
+msgctxt "@info"
 msgid "Double click to switch fullscreen"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:115
 #, fuzzy, kde-format
 #| msgid "&Shortcut:"
+msgctxt "@info"
 msgid "Shortcut:\n"
 msgstr "शॉर्टकट (&S):"
 
 #: core/avplayer/utils/EventFilter.cpp:116
 #, kde-format
+msgctxt "@info"
 msgid "Space: pause/continue\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:117
 #, kde-format
+msgctxt "@info"
 msgid "F: fullscreen on/off\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:118
 #, kde-format
+msgctxt "@info"
 msgid "T: stays on top on/off\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:119
 #, kde-format
+msgctxt "@info"
 msgid "N: show next frame. Continue the playing by pressing 'Space'\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:120
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "Ctrl+O: open a file\n"
 msgstr "फाईल \"%1\" साठवू शकत नाही"
 
 #: core/avplayer/utils/EventFilter.cpp:121
-#, kde-format
-msgid "O: OSD\n"
-msgstr ""
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "O: On Screen Display\n"
+msgstr "जागा :"
 
 #: core/avplayer/utils/EventFilter.cpp:122
 #, kde-format
+msgctxt "@info"
 msgid "P: replay\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:123
 #, kde-format
+msgctxt "@info"
 msgid "Q/ESC: quit\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:124
 #, kde-format
+msgctxt "@info"
 msgid "S: stop\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:125
 #, fuzzy, kde-format
-msgid "R: rotate 90"
-msgstr "फिरवा"
+msgctxt "@info"
+msgid "R: rotate 90 degrees"
+msgstr "90 अंश"
 
 #: core/avplayer/utils/EventFilter.cpp:126
 #, kde-format
+msgctxt "@info"
 msgid "M: mute on/off\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:127
 #, fuzzy, kde-format
+msgctxt "@info"
 msgid "C: capture video"
 msgstr "कॅपचर: %1"
 
 #: core/avplayer/utils/EventFilter.cpp:128
 #, kde-format
+msgctxt "@info"
 msgid "Up/Down: volume +/-\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:129
 #, kde-format
+msgctxt "@info"
 msgid "Ctrl+Up/Down: speed +/-\n"
 msgstr ""
 
 #: core/avplayer/utils/EventFilter.cpp:130
 #, kde-format
+msgctxt "@info"
 msgid "-&gt;/&lt;-: seek forward/backward\n"
 msgstr ""
 
-#: core/avplayer/utils/EventFilter.cpp:132
-#: core/avplayer/utils/EventFilter.cpp:529
+#: core/avplayer/utils/EventFilter.cpp:133
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Help"
 msgstr "मदत (&H)"
 
-#: core/avplayer/utils/StatisticsView.cpp:47
-#: core/avplayer/utils/StatisticsView.cpp:62
+#: core/avplayer/utils/EventFilter.cpp:526
 #, fuzzy, kde-format
+msgctxt "@action: open new media"
+msgid "Open"
+msgstr "यामध्ये उघडा..."
+
+#: core/avplayer/utils/EventFilter.cpp:527
+#, fuzzy, kde-format
+msgctxt "@action: open new stream"
+msgid "Open Url"
+msgstr "संचयीका उघडा : \"%1\""
+
+#: core/avplayer/utils/EventFilter.cpp:529
+#, fuzzy, kde-format
+msgctxt "@action: about AVPlayer"
+msgid "About"
+msgstr "विषयी"
+
+#: core/avplayer/utils/EventFilter.cpp:530
+#, fuzzy, kde-format
+msgctxt "@action: AVPlayer help"
+msgid "Help"
+msgstr "मदत (&H)"
+
+#: core/avplayer/utils/StatisticsView.cpp:45
+#, kde-format
+msgctxt "@option: base"
+msgid "Url"
+msgstr ""
+
+#: core/avplayer/utils/StatisticsView.cpp:46
+#, fuzzy, kde-format
+msgctxt "@option: base"
+msgid "Format"
+msgstr "स्वरूप"
+
+#: core/avplayer/utils/StatisticsView.cpp:47
+#, fuzzy, kde-format
+msgctxt "@option: base"
 msgid "Bit rate"
 msgstr "क्रियाप्राप्तीचे गुणोत्तर (&R)"
 
 #: core/avplayer/utils/StatisticsView.cpp:48
-#: core/avplayer/utils/StatisticsView.cpp:61
 #, fuzzy, kde-format
+msgctxt "@option: base"
 msgid "Start time"
 msgstr "सुरु करा"
 
+#: core/avplayer/utils/StatisticsView.cpp:49
+#, fuzzy, kde-format
+msgctxt "@option: base"
+msgid "Duration"
+msgstr "कालावधी :"
+
 #: core/avplayer/utils/StatisticsView.cpp:56
 #, fuzzy, kde-format
+msgctxt "@option: common"
 msgid "Available"
 msgstr "उपलब्ध :"
 
 #: core/avplayer/utils/StatisticsView.cpp:57
-#: core/utilities/searchwindow/searchfields_createfield.cpp:783
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Audio Files"
+msgctxt "@option: common"
 msgid "Codec"
-msgstr ""
+msgstr "ऑडिओ फाईल्स"
+
+#: core/avplayer/utils/StatisticsView.cpp:58
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@option: common"
+msgid "Decoder"
+msgstr "फाईल नाव"
 
 #: core/avplayer/utils/StatisticsView.cpp:59
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "File Name"
+msgctxt "@option: common"
 msgid "Decoder detail"
-msgstr ""
+msgstr "फाईल नाव"
 
 #: core/avplayer/utils/StatisticsView.cpp:60
 #, fuzzy, kde-format
+msgctxt "@option: common"
 msgid "Total time"
 msgstr "एकूण"
+
+#: core/avplayer/utils/StatisticsView.cpp:61
+#, fuzzy, kde-format
+msgctxt "@option: common"
+msgid "Start time"
+msgstr "सुरु करा"
+
+#: core/avplayer/utils/StatisticsView.cpp:62
+#, fuzzy, kde-format
+msgctxt "@option: common"
+msgid "Bit rate"
+msgstr "क्रियाप्राप्तीचे गुणोत्तर (&R)"
 
 #: core/avplayer/utils/StatisticsView.cpp:63
 #, fuzzy, kde-format
 #| msgid "Names:"
+msgctxt "@option: common"
 msgid "Frames"
 msgstr "नावे :"
 
 #: core/avplayer/utils/StatisticsView.cpp:64
 #, kde-format
+msgctxt "@option: common"
 msgid "FPS"
 msgstr ""
 
 #: core/avplayer/utils/StatisticsView.cpp:71
 #, kde-format
+msgctxt "@option: video"
 msgid "FPS Now"
 msgstr ""
 
 #: core/avplayer/utils/StatisticsView.cpp:72
 #, fuzzy, kde-format
+msgctxt "@option: video"
 msgid "Pixel format"
 msgstr "पिक्सेल्स"
+
+#: core/avplayer/utils/StatisticsView.cpp:73
+#, fuzzy, kde-format
+#| msgid "Size"
+msgctxt "@option: video"
+msgid "Size"
+msgstr "आकार"
 
 #: core/avplayer/utils/StatisticsView.cpp:74
 #, fuzzy, kde-format
 #| msgid "File Size"
+msgctxt "@option: video"
 msgid "Coded size"
 msgstr "फाईलचा आकार"
 
 #: core/avplayer/utils/StatisticsView.cpp:75
 #, fuzzy, kde-format
+msgctxt "@option: video"
 msgid "GOP size"
 msgstr "जाळे दर्शवा (&G)"
 
 #: core/avplayer/utils/StatisticsView.cpp:82
 #, fuzzy, kde-format
+msgctxt "@option: audio"
 msgid "Sample format"
 msgstr "दिनांक स्वरूप :"
 
 #: core/avplayer/utils/StatisticsView.cpp:83
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@option: audio"
 msgid "Sample rate"
-msgstr ""
+msgstr "दिनांक स्वरूप :"
 
 #: core/avplayer/utils/StatisticsView.cpp:84
 #, fuzzy, kde-format
 #| msgid "Channel:"
+msgctxt "@option: audio"
 msgid "Channels"
 msgstr "माध्यम :"
 
 #: core/avplayer/utils/StatisticsView.cpp:85
 #, fuzzy, kde-format
+msgctxt "@option: audio"
 msgid "Channel layout"
 msgstr "पिक्सेल्स"
 
 #: core/avplayer/utils/StatisticsView.cpp:86
 #, fuzzy, kde-format
 #| msgid "File Size"
+msgctxt "@option: audio"
 msgid "Frame size"
 msgstr "फाईलचा आकार"
 
 #: core/avplayer/utils/StatisticsView.cpp:148
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Media info"
 msgstr "मेडियन"
 
 #: core/avplayer/utils/StatisticsView.cpp:155
-#: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:101
 #, fuzzy, kde-format
+msgctxt "@title"
 msgid "Key"
 msgstr "कळ"
 
 #: core/avplayer/utils/StatisticsView.cpp:156
 #, kde-format
+msgctxt "@title"
 msgid "Value"
 msgstr ""
 
 #: core/avplayer/utils/StatisticsView.cpp:160
+#, fuzzy, kde-format
+msgctxt "@item: video info"
+msgid "Metadata"
+msgstr "संपादित करा..."
+
+#: core/avplayer/utils/StatisticsView.cpp:162
+#, fuzzy, kde-format
+#| msgid "Videos"
+msgctxt "@item: video stats"
+msgid "Video"
+msgstr "व्हिडीओ"
+
 #: core/avplayer/utils/StatisticsView.cpp:168
 #: core/avplayer/utils/StatisticsView.cpp:175
-#: core/libs/properties/import/importitempropertiessidebar.cpp:102
-#: core/libs/settings/applicationsettings_miscs.cpp:430
-#: core/showfoto/setup/showfotosetup.cpp:120 core/utilities/setup/setup.cpp:170
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@option"
 msgid "Metadata"
+msgstr "संपादित करा..."
+
+#: core/avplayer/utils/StatisticsView.cpp:170
+#, fuzzy, kde-format
+msgctxt "@option"
+msgid "Audio"
+msgstr "ऑडिओ"
+
+#: core/avplayer/utils/StatisticsView.cpp:179
+#, kde-format
+msgctxt "@action"
+msgid "Ok"
 msgstr ""
 
 #: core/dplugins/bqm/colors/autocorrection/autocorrection.cpp:69
@@ -10414,6 +10673,11 @@ msgstr "पोर्ट्रेट"
 msgid "Select constrained aspect ratio orientation."
 msgstr ""
 
+#: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:339
+#, kde-format
+msgid "Auto"
+msgstr "स्वयंचलित"
+
 #: core/dplugins/editor/transform/ratiocrop/ratiocroptool.cpp:340
 #, kde-format
 msgid "Enable this option to automatically set the orientation."
@@ -11240,6 +11504,12 @@ msgstr "अक्षांश"
 #, kde-format
 msgid "Longitude"
 msgstr "रेषांश"
+
+#: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:145
+#: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:606
+#, kde-format
+msgid "Speed"
+msgstr "वेग"
 
 #: core/dplugins/generic/metadata/geolocationedit/dialog/gpsitemdetails.cpp:151
 #: core/utilities/geolocation/geoiface/items/gpsitemcontainer.cpp:605
@@ -27581,6 +27851,11 @@ msgid "Database Statistics"
 msgstr ""
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:55
+#, fuzzy, kde-format
+msgid "Format"
+msgstr "स्वरूप"
+
+#: core/libs/database/utils/widgets/dbstatdlg.cpp:55
 #, kde-format
 msgid "Count"
 msgstr "मोजणी"
@@ -27589,6 +27864,11 @@ msgstr "मोजणी"
 #, kde-format
 msgid "Videos"
 msgstr "व्हिडीओ"
+
+#: core/libs/database/utils/widgets/dbstatdlg.cpp:61
+#, fuzzy, kde-format
+msgid "Audio"
+msgstr "ऑडिओ"
 
 #: core/libs/database/utils/widgets/dbstatdlg.cpp:68
 #, kde-format
@@ -34904,6 +35184,13 @@ msgctxt "@info:tooltip"
 msgid "Show item permanently"
 msgstr ""
 
+#: core/libs/properties/import/importitempropertiessidebar.cpp:102
+#: core/libs/settings/applicationsettings_miscs.cpp:430
+#: core/showfoto/setup/showfotosetup.cpp:120 core/utilities/setup/setup.cpp:170
+#, kde-format
+msgid "Metadata"
+msgstr ""
+
 #: core/libs/properties/import/importitempropertiessidebar.cpp:107
 #, kde-format
 msgid "Geolocation"
@@ -36768,12 +37055,6 @@ msgstr "यात रूपांतरीत करा"
 msgctxt "@label: tag properties"
 msgid "&Icon:"
 msgstr "चिन्ह (&I):"
-
-#: core/libs/tags/manager/tagpropwidget.cpp:142
-#, fuzzy, kde-format
-msgctxt "@action"
-msgid "Reset"
-msgstr "पुन्हस्थापित करा"
 
 #: core/libs/tags/manager/tagpropwidget.cpp:155
 #, fuzzy, kde-format
@@ -39254,6 +39535,11 @@ msgstr "ऐच्छिक फॉन्ट"
 msgid "Choose..."
 msgstr "निवडा..."
 
+#: core/libs/widgets/graphicsview/dimgpreviewitem.cpp:204
+#, fuzzy, kde-format
+msgid "Loading..."
+msgstr "दाखल करत आहे..."
+
 #: core/libs/widgets/graphicsview/dimgpreviewitem.cpp:213
 #, kde-format
 msgid "Embedded JPEG Preview"
@@ -39324,6 +39610,11 @@ msgstr ""
 #, kde-format
 msgid "Absolute Colorimetric"
 msgstr ""
+
+#: core/libs/widgets/iccprofiles/iccprofilescombobox.cpp:268
+#, kde-format
+msgid "Saturation"
+msgstr "संपृक्तता"
 
 #: core/libs/widgets/iccprofiles/iccprofilescombobox.cpp:269
 #, kde-format
@@ -46729,6 +47020,11 @@ msgstr ""
 msgid "Add database information"
 msgstr ""
 
+#: core/utilities/advancedrename/parser/options/database/dbkeyselector.cpp:101
+#, fuzzy, kde-format
+msgid "Key"
+msgstr "कळ"
+
 #: core/utilities/advancedrename/parser/options/database/keys/commonkeys.cpp:61
 #, kde-format
 msgid "Common File Information"
@@ -53195,6 +53491,11 @@ msgstr ""
 msgid "You can see below the history of last batch operations processed."
 msgstr ""
 
+#: core/utilities/queuemanager/views/toolsview.cpp:93
+#, kde-format
+msgid "History"
+msgstr "इतिहास"
+
 #: core/utilities/queuemanager/views/workflowdlg.cpp:77
 #: core/utilities/queuemanager/views/workflowdlg.cpp:149
 #, kde-format
@@ -53980,6 +54281,11 @@ msgstr "व"
 #, kde-format
 msgctxt "Frames per Second"
 msgid "fps"
+msgstr ""
+
+#: core/utilities/searchwindow/searchfields_createfield.cpp:783
+#, kde-format
+msgid "Codec"
 msgstr ""
 
 #: core/utilities/searchwindow/searchfields_createfield.cpp:783
@@ -57984,6 +58290,37 @@ msgid ""
 "<b>Note: All changes to these settings only take effect after the restart. "
 "Some settings are hardware dependent and may have no effect.</b>"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Registered"
+#~ msgstr "मध्य"
+
+#, fuzzy
+#~| msgid "Filters"
+#~ msgid "filters"
+#~ msgstr "गाळणी"
+
+#, fuzzy
+#~| msgid "Properties"
+#~ msgid "Priorities"
+#~ msgstr "गुणधर्म"
+
+#, fuzzy
+#~ msgid "Constrast"
+#~ msgstr "काँट्रास्ट :"
+
+#, fuzzy
+#~| msgid "File Name"
+#~ msgid "Video renderer is "
+#~ msgstr "फाईल नाव"
+
+#, fuzzy
+#~ msgid "Save to"
+#~ msgstr "साठवा"
+
+#, fuzzy
+#~ msgid "R: rotate 90"
+#~ msgstr "फिरवा"
 
 #, fuzzy
 #~| msgid "Settings..."
