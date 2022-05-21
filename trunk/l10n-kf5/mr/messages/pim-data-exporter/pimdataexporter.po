@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-05-20 00:45+0000\n"
+"POT-Creation-Date: 2022-05-21 00:46+0000\n"
 "PO-Revision-Date: 2013-03-11 16:06+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -110,7 +110,7 @@ msgstr ""
 
 #: core/abstractimportexportjob.cpp:381
 #: core/addressbook/importaddressbookjobinterface.cpp:231
-#: core/mail/importmailjobinterface.cpp:419
+#: core/mail/importmailjobinterface.cpp:424
 #, kde-format
 msgid "Resources restored."
 msgstr ""
@@ -231,7 +231,7 @@ msgstr ""
 #: core/akregator/importakregatorjobinterface.cpp:94
 #: core/alarm/importalarmjobinterface.cpp:93
 #: core/calendar/importcalendarjobinterface.cpp:228
-#: core/mail/importmailjobinterface.cpp:854
+#: core/mail/importmailjobinterface.cpp:859
 #: core/notes/importnotesjobinterface.cpp:104
 #, kde-format
 msgid "Config restored."
@@ -243,8 +243,8 @@ msgstr ""
 #: core/alarm/importalarmjobinterface.cpp:110
 #: core/calendar/importcalendarjobinterface.cpp:281
 #: core/calendar/importcalendarjobinterface.cpp:282
-#: core/mail/importmailjobinterface.cpp:194
-#: core/mail/importmailjobinterface.cpp:195
+#: core/mail/importmailjobinterface.cpp:199
+#: core/mail/importmailjobinterface.cpp:200
 #: core/notes/importnotesjobinterface.cpp:143
 #: core/notes/importnotesjobinterface.cpp:144
 #, kde-format
@@ -384,11 +384,16 @@ msgstr ""
 msgid "Backing up Folder Attributes..."
 msgstr "बॅकअप"
 
-#: core/mail/exportmailjobinterface.cpp:119
+#: core/mail/exportmailjobinterface.cpp:116
 #, fuzzy, kde-format
 #| msgid "Backup"
 msgid "Backing up Mails..."
 msgstr "बॅकअप"
+
+#: core/mail/exportmailjobinterface.cpp:117
+#, kde-format
+msgid "Start export resource..."
+msgstr ""
 
 #: core/mail/exportmailjobinterface.cpp:125
 #, kde-format
@@ -436,9 +441,14 @@ msgstr ""
 msgid "Filters cannot be exported."
 msgstr ""
 
-#: core/mail/exportmailjobinterfaceimpl.cpp:167
+#: core/mail/exportmailjobinterfaceimpl.cpp:169
 #, kde-format
 msgid "Backing up Folder Attributes done."
+msgstr ""
+
+#: core/mail/exportmailjobinterfaceimpl.cpp:173
+#, kde-format
+msgid "Folder Attributes cannot be exported."
 msgstr ""
 
 #: core/mail/importmailjobinterface.cpp:43
@@ -451,68 +461,79 @@ msgstr ""
 msgid "Import KMail settings"
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:164
-#: core/mail/importmailjobinterface.cpp:170
+#: core/mail/importmailjobinterface.cpp:169
+#: core/mail/importmailjobinterface.cpp:175
 #, kde-format
 msgid "Restore transports..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:168
+#: core/mail/importmailjobinterface.cpp:173
 #, kde-format
 msgid "mailtransports file could not be found in the archive."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:183
+#: core/mail/importmailjobinterface.cpp:188
 #, kde-format
 msgid "Transports restored."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:185
+#: core/mail/importmailjobinterface.cpp:190
 #, kde-format
 msgid "Failed to restore transports file."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:426
-#: core/mail/importmailjobinterface.cpp:428
+#: core/mail/importmailjobinterface.cpp:431
+#: core/mail/importmailjobinterface.cpp:433
 #, kde-format
 msgid "Restore mails..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:545
+#: core/mail/importmailjobinterface.cpp:550
 #, kde-format
 msgid "Mails restored."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:552
+#: core/mail/importmailjobinterface.cpp:557
 #, kde-format
 msgid "Restore config..."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:555
+#: core/mail/importmailjobinterface.cpp:560
 #, kde-format
 msgid "filters file could not be found in the archive."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:887
 #: core/mail/importmailjobinterface.cpp:892
+#: core/mail/importmailjobinterface.cpp:897
 #, fuzzy, kde-format
 #| msgid "Restore"
 msgid "Restoring identities..."
 msgstr "पुन्हस्थापन"
 
-#: core/mail/importmailjobinterface.cpp:890
+#: core/mail/importmailjobinterface.cpp:895
 #, kde-format
 msgid "emailidentities file could not be found in the archive."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:951
+#: core/mail/importmailjobinterface.cpp:956
 #, kde-format
 msgid "Identities restored."
 msgstr ""
 
-#: core/mail/importmailjobinterface.cpp:953
+#: core/mail/importmailjobinterface.cpp:958
 #, kde-format
 msgid "Failed to restore identity file."
+msgstr ""
+
+#: core/mail/importmailjobinterfaceimpl.cpp:39
+#, fuzzy, kde-format
+#| msgid "Backup"
+msgid "Restoring Folder Attributes done."
+msgstr "बॅकअप"
+
+#: core/mail/importmailjobinterfaceimpl.cpp:43
+#, kde-format
+msgid "Folder Attributes cannot be restored."
 msgstr ""
 
 #: core/notes/exportnotesjobinterface.cpp:28
