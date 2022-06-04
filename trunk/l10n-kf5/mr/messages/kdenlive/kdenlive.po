@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-03 00:44+0000\n"
+"POT-Creation-Date: 2022-06-04 00:45+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -28,7 +28,7 @@ msgid "Your emails"
 msgstr "chetan@kompkin.com"
 
 #: data/effects/audiobalance.xml:3 data/effects/audiobalance.xml:8
-#: src/audiomixer/mixerwidget.cpp:172 src/audiomixer/mixerwidget.cpp:183
+#: src/audiomixer/mixerwidget.cpp:170 src/audiomixer/mixerwidget.cpp:181
 #, kde-format
 msgid "Balance"
 msgstr "संतुलन"
@@ -3890,66 +3890,60 @@ msgstr ""
 msgid "Master"
 msgstr ""
 
-#: src/audiomixer/mixerwidget.cpp:150
+#: src/audiomixer/mixerwidget.cpp:148
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "Columns"
 msgid "Volume"
 msgstr "स्थंभ"
 
-#: src/audiomixer/mixerwidget.cpp:153 src/audiomixer/mixerwidget.cpp:547
+#: src/audiomixer/mixerwidget.cpp:151 src/audiomixer/mixerwidget.cpp:534
 #: src/mltcontroller/clippropertiescontroller.cpp:903
 #, fuzzy, kde-format
 msgid "dB"
 msgstr "B"
 
-#: src/audiomixer/mixerwidget.cpp:174
+#: src/audiomixer/mixerwidget.cpp:172
 #, kde-format
 msgctxt "Left"
 msgid "L"
 msgstr ""
 
-#: src/audiomixer/mixerwidget.cpp:176
+#: src/audiomixer/mixerwidget.cpp:174
 #, fuzzy, kde-format
 msgctxt "Right"
 msgid "R"
 msgstr "R"
 
-#: src/audiomixer/mixerwidget.cpp:243
+#: src/audiomixer/mixerwidget.cpp:241
 #, fuzzy, kde-format
 #| msgid "Bitrate"
 msgid "Mute track"
 msgstr "बिटदर"
 
-#: src/audiomixer/mixerwidget.cpp:243
+#: src/audiomixer/mixerwidget.cpp:241
 #, fuzzy, kde-format
 #| msgid "Bitrate"
 msgid "Unmute track"
 msgstr "बिटदर"
 
-#: src/audiomixer/mixerwidget.cpp:286
+#: src/audiomixer/mixerwidget.cpp:284
 #, fuzzy, kde-format
 #| msgid "Normal mode"
 msgid "Solo mode"
 msgstr "सामान्य पद्धत"
 
-#: src/audiomixer/mixerwidget.cpp:295
-#: src/timeline2/view/timelinecontroller.cpp:4588
-#, fuzzy, kde-format
-msgid "Record audio"
-msgstr "मॉनिटर %1"
-
-#: src/audiomixer/mixerwidget.cpp:303
+#: src/audiomixer/mixerwidget.cpp:293
 #, fuzzy, kde-format
 msgid "Monitor audio input"
 msgstr "मॉनिटर %1"
 
-#: src/audiomixer/mixerwidget.cpp:316
+#: src/audiomixer/mixerwidget.cpp:306
 #, fuzzy, kde-format
 msgid "Show channels"
 msgstr "ऑडिओ माध्यमे (&A)"
 
-#: src/audiomixer/mixerwidget.cpp:328
+#: src/audiomixer/mixerwidget.cpp:318
 #, fuzzy, kde-format
 msgid "Open Effect Stack"
 msgstr "परिणाम :"
@@ -4793,21 +4787,27 @@ msgstr ""
 msgid "Edit Marker"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:304 src/bin/model/subtitlemodel.cpp:520
+#: src/bin/model/subtitlemodel.cpp:79
+#, fuzzy, kde-format
+#| msgid "untitled"
+msgid "Edit subtitle style"
+msgstr "शिर्षकहीन"
+
+#: src/bin/model/subtitlemodel.cpp:315 src/bin/model/subtitlemodel.cpp:531
 #: src/timeline2/view/timelinecontroller.cpp:4817
 #, fuzzy, kde-format
 #| msgid "untitled"
 msgid "Edit subtitle"
 msgstr "शिर्षकहीन"
 
-#: src/bin/model/subtitlemodel.cpp:554
+#: src/bin/model/subtitlemodel.cpp:565
 #: src/timeline2/model/timelinefunctions.cpp:185
 #: src/timeline2/view/timelinecontroller.cpp:1724
 #, kde-format
 msgid "Cut clip"
 msgstr ""
 
-#: src/bin/model/subtitlemodel.cpp:684
+#: src/bin/model/subtitlemodel.cpp:695
 #: src/timeline2/model/timelinemodel.cpp:3389
 #: src/timeline2/view/timelinecontroller.cpp:4837
 #, fuzzy, kde-format
@@ -4815,13 +4815,13 @@ msgstr ""
 msgid "Resize subtitle"
 msgstr "काढून टाका %1"
 
-#: src/bin/model/subtitlemodel.cpp:880
+#: src/bin/model/subtitlemodel.cpp:891
 #: src/timeline2/model/timelinemodel.cpp:1206
 #, fuzzy, kde-format
 msgid "Move subtitle"
 msgstr "प्रतिमेचा आकार"
 
-#: src/bin/model/subtitlemodel.cpp:999 src/dialogs/renderwidget.cpp:760
+#: src/bin/model/subtitlemodel.cpp:1010 src/dialogs/renderwidget.cpp:760
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:492
 #: src/effects/effectstack/view/effectstackview.cpp:511
 #: src/project/cliptranscode.cpp:153 src/project/dialogs/archivewidget.cpp:813
@@ -13934,6 +13934,11 @@ msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
 "clips after the current position or choose a different track"
 msgstr ""
+
+#: src/timeline2/view/timelinecontroller.cpp:4588
+#, fuzzy, kde-format
+msgid "Record audio"
+msgstr "मॉनिटर %1"
 
 #: src/timeline2/view/timelinecontroller.cpp:4724
 #, fuzzy, kde-format
