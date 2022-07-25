@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-06-29 00:46+0000\n"
+"POT-Creation-Date: 2022-07-25 00:47+0000\n"
 "PO-Revision-Date: 2014-10-28 10:24+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -17,49 +17,71 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.5\n"
 
-#: contents/ui/ConnectionItem.qml:48
+#: contents/ui/ConnectionItem.qml:51
 #, kde-format
 msgid "Connect"
 msgstr "जोडा"
 
-#: contents/ui/ConnectionItem.qml:48
+#: contents/ui/ConnectionItem.qml:51
 #, kde-format
 msgid "Disconnect"
 msgstr "तोडा"
 
-#: contents/ui/ConnectionItem.qml:68
+#: contents/ui/ConnectionItem.qml:54
+#, fuzzy, kde-format
+#| msgid "Connected (via %1)"
+msgctxt "@info:tooltip %1 is the name of a network connection"
+msgid "Connect to %1"
+msgstr "जुळलेले (द्वारे %1)"
+
+#: contents/ui/ConnectionItem.qml:54
+#, fuzzy, kde-format
+#| msgid "Disconnect"
+msgctxt "@info:tooltip %1 is the name of a network connection"
+msgid "Disconnect from %1"
+msgstr "तोडा"
+
+#: contents/ui/ConnectionItem.qml:73
 #, fuzzy, kde-format
 #| msgid "Connection speed:"
 msgid "Show Network's QR Code"
 msgstr "जुळवणी वेग :"
 
-#: contents/ui/ConnectionItem.qml:80
+#: contents/ui/ConnectionItem.qml:85
 #, kde-format
 msgctxt "@title:window"
 msgid "QR Code for %1"
 msgstr ""
 
-#: contents/ui/ConnectionItem.qml:86
+#: contents/ui/ConnectionItem.qml:91
 #, kde-format
 msgid "Configure…"
 msgstr ""
 
-#: contents/ui/ConnectionItem.qml:115
+#: contents/ui/ConnectionItem.qml:122
 #, kde-format
 msgid "Speed"
 msgstr ""
 
-#: contents/ui/ConnectionItem.qml:120
+#: contents/ui/ConnectionItem.qml:127
 #, kde-format
 msgid "Details"
 msgstr ""
 
-#: contents/ui/ConnectionItem.qml:254
+#: contents/ui/ConnectionItem.qml:167
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Current download speed is %1 kibibytes per second; current upload speed is "
+"%2 kibibytes per second"
+msgstr ""
+
+#: contents/ui/ConnectionItem.qml:282
 #, kde-format
 msgid "Connected, ⬇ %1/s, ⬆ %2/s"
 msgstr "जुळलेले, ⬇ %1/s, ⬆ %2/s"
 
-#: contents/ui/ConnectionItem.qml:258
+#: contents/ui/ConnectionItem.qml:286
 #, kde-format
 msgid "Connected"
 msgstr "जुळलेले"
@@ -123,6 +145,100 @@ msgstr ""
 #| msgid "Available connections"
 msgid "No available connections"
 msgstr "उपलब्ध जुळवण्या"
+
+#: contents/ui/PopupDialog.qml:149
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is ADSL"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:151
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Bluetooth"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:153
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is Bridge"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:155
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is CDMA"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:157
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is GSM"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:159
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Infiniband"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:161
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is OLPC Mesh"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:163
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is PPOPE"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:165
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is VLAN"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:167
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is VPN"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:169
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is Wimax"
+msgstr "जुळवण्या संपादित करा..."
+
+#: contents/ui/PopupDialog.qml:171
+#, fuzzy, kde-format
+#| msgid "Connection speed:"
+msgctxt "@info:tooltip"
+msgid "The connection type is Wired"
+msgstr "जुळवणी वेग :"
+
+#: contents/ui/PopupDialog.qml:173
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The connection type is Wireless"
+msgstr ""
+
+#: contents/ui/PopupDialog.qml:175
+#, fuzzy, kde-format
+#| msgid "Edit connections..."
+msgctxt "@info:tooltip"
+msgid "The connection type is Unknown"
+msgstr "जुळवण्या संपादित करा..."
 
 #: contents/ui/Toolbar.qml:65
 #, kde-format
@@ -232,11 +348,6 @@ msgstr ""
 
 #, fuzzy
 #~| msgid "Connected (via %1)"
-#~ msgid "Connected to %1"
-#~ msgstr "जुळलेले (द्वारे %1)"
-
-#, fuzzy
-#~| msgid "Connected (via %1)"
 #~ msgid "Connecting to %1"
 #~ msgstr "जुळलेले (द्वारे %1)"
 
@@ -271,11 +382,6 @@ msgstr ""
 #~| msgid "Mobile broadband enabled"
 #~ msgid "Mobile broadband"
 #~ msgstr "मोबाईल ब्रॉडबैंड कार्यान्वित केले"
-
-#, fuzzy
-#~| msgid "Edit connections..."
-#~ msgid "Unknown connection type"
-#~ msgstr "जुळवण्या संपादित करा..."
 
 #, fuzzy
 #~| msgid "Wireless enabled"
@@ -406,11 +512,6 @@ msgstr ""
 #~| msgid "Frequency:"
 #~ msgid "Frequency band:"
 #~ msgstr "फ्रीक्वेन्सी :"
-
-#, fuzzy
-#~| msgid "Connection speed:"
-#~ msgid "Connection Speed"
-#~ msgstr "जुळवणी वेग :"
 
 #, fuzzy
 #~| msgid "Connection speed:"
