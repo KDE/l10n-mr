@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-08-23 00:47+0000\n"
+"POT-Creation-Date: 2022-08-24 00:48+0000\n"
 "PO-Revision-Date: 2013-04-06 12:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -546,37 +546,67 @@ msgstr ""
 msgid "Load Template"
 msgstr "नमूना"
 
-#: pimcommon/translator/bingtranslator.cpp:54
+#: pimcommon/translator/engine/bingtranslator.cpp:57
 #, kde-format
 msgid "Error: Unable to find Bing credentials in web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:62
+#: pimcommon/translator/engine/bingtranslator.cpp:65
 #, kde-format
 msgid "Error: Unable to extract Bing key from web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:71
+#: pimcommon/translator/engine/bingtranslator.cpp:74
 #, kde-format
 msgid "Error: Unable to extract Bing token from web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:80
-#: pimcommon/translator/bingtranslator.cpp:89
+#: pimcommon/translator/engine/bingtranslator.cpp:83
+#: pimcommon/translator/engine/bingtranslator.cpp:92
 #, kde-format
 msgid "Error: Unable to extract additional Bing information from web version."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:100
-#: pimcommon/translator/googletranslator.cpp:114
-#: pimcommon/translator/yandextranslator.cpp:89
+#: pimcommon/translator/engine/bingtranslator.cpp:103
+#: pimcommon/translator/engine/googletranslator.cpp:114
+#: pimcommon/translator/engine/yandextranslator.cpp:89
 #, kde-format
 msgid "You used same language for from and to language."
 msgstr ""
 
-#: pimcommon/translator/bingtranslator.cpp:168
+#: pimcommon/translator/engine/bingtranslator.cpp:173
 #, kde-format
 msgid "Error: Unable to parse autodetected language"
+msgstr ""
+
+#: pimcommon/translator/engine/yandextranslator.cpp:51
+#: pimcommon/translator/translatorenginebase.cpp:65
+#, kde-format
+msgid ""
+"Error: Engine systems have detected suspicious traffic from your computer "
+"network. Please try your request again later."
+msgstr ""
+
+#: pimcommon/translator/engine/yandextranslator.cpp:60
+#, kde-format
+msgid "Error: Unable to find Yandex SID in web version."
+msgstr ""
+
+#: pimcommon/translator/engine/yandextranslator.cpp:68
+#, kde-format
+msgid "Error: Unable to extract Yandex SID from web version."
+msgstr ""
+
+#: pimcommon/translator/translatorconfiguredialog.cpp:17
+#, fuzzy, kde-format
+#| msgid "Translate"
+msgctxt "@title:window"
+msgid "Configure Translator"
+msgstr "भाषांतर"
+
+#: pimcommon/translator/translatorconfigurewidget.cpp:26
+#, kde-format
+msgid "Engine:"
 msgstr ""
 
 #: pimcommon/translator/translatordebugdialog.cpp:22
@@ -594,14 +624,6 @@ msgstr ""
 #: pimcommon/translator/translatordebugdialog.cpp:69
 #, kde-format
 msgid "All Files (*)"
-msgstr ""
-
-#: pimcommon/translator/translatorenginebase.cpp:65
-#: pimcommon/translator/yandextranslator.cpp:51
-#, kde-format
-msgid ""
-"Error: Engine systems have detected suspicious traffic from your computer "
-"network. Please try your request again later."
 msgstr ""
 
 #: pimcommon/translator/translatorutil.cpp:19
@@ -906,79 +928,69 @@ msgstr "यिड्डिष"
 msgid "Problem when connecting to the translator web site."
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:223
-#: pimcommon/translator/translatorwidget.cpp:226
+#: pimcommon/translator/translatorwidget.cpp:224
+#: pimcommon/translator/translatorwidget.cpp:227
 #, kde-format
 msgid "Close"
 msgstr "बंद करा"
 
-#: pimcommon/translator/translatorwidget.cpp:232
+#: pimcommon/translator/translatorwidget.cpp:233
 #, kde-format
 msgctxt "Translate from language"
 msgid "From:"
 msgstr "पासून :"
 
-#: pimcommon/translator/translatorwidget.cpp:239
+#: pimcommon/translator/translatorwidget.cpp:240
 #, kde-format
 msgctxt "Translate to language"
 msgid "To:"
 msgstr "पर्यंत :"
 
-#: pimcommon/translator/translatorwidget.cpp:251
+#: pimcommon/translator/translatorwidget.cpp:252
 #, kde-format
 msgctxt "Invert language choices so that from becomes to and to becomes from"
 msgid "Invert"
 msgstr "उलट करा"
 
-#: pimcommon/translator/translatorwidget.cpp:256
-#: pimcommon/translator/translatorwidget.cpp:259
+#: pimcommon/translator/translatorwidget.cpp:257
+#: pimcommon/translator/translatorwidget.cpp:260
 #, kde-format
 msgid "Clear"
 msgstr "पुसून टाका"
 
-#: pimcommon/translator/translatorwidget.cpp:264
-#: pimcommon/translator/translatorwidget.cpp:267
+#: pimcommon/translator/translatorwidget.cpp:265
+#: pimcommon/translator/translatorwidget.cpp:268
 #, kde-format
 msgid "Translate"
 msgstr "भाषांतर"
 
-#: pimcommon/translator/translatorwidget.cpp:274
+#: pimcommon/translator/translatorwidget.cpp:275
 #, kde-format
 msgid "Debug"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:291
+#: pimcommon/translator/translatorwidget.cpp:293
 #, kde-format
 msgid ""
 "Drag text that you want to translate. (Be careful text will be send to "
 "Google Server)."
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:360
+#: pimcommon/translator/translatorwidget.cpp:362
 #, kde-format
 msgid "No network connection detected, we cannot translate text."
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:360
+#: pimcommon/translator/translatorwidget.cpp:362
 #, kde-format
 msgid "No network"
 msgstr ""
 
-#: pimcommon/translator/translatorwidget.cpp:396
+#: pimcommon/translator/translatorwidget.cpp:398
 #, fuzzy, kde-format
 #| msgid "Translate"
 msgid "Translate error"
 msgstr "भाषांतर"
-
-#: pimcommon/translator/yandextranslator.cpp:60
-#, kde-format
-msgid "Error: Unable to find Yandex SID in web version."
-msgstr ""
-
-#: pimcommon/translator/yandextranslator.cpp:68
-#, kde-format
-msgid "Error: Unable to extract Yandex SID from web version."
-msgstr ""
 
 #: pimcommon/util/pimutil.cpp:48
 #, kde-format
@@ -2081,11 +2093,6 @@ msgstr "नमूना काढून टाका"
 #~| msgid "Invert"
 #~ msgid "Convert"
 #~ msgstr "उलट करा"
-
-#, fuzzy
-#~| msgid "Translate"
-#~ msgid "Translator"
-#~ msgstr "भाषांतर"
 
 #, fuzzy
 #~| msgid "Translate"
