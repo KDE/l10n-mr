@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-22 00:42+0000\n"
+"POT-Creation-Date: 2022-09-23 00:42+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -6576,6 +6576,27 @@ msgid ""
 "<para>This Batch Queue Manager tool can apply metadata template over images."
 "</para>"
 msgstr ""
+
+#: core/dplugins/bqm/metadata/qualitysort/qualitysortplugin.cpp:46
+#, fuzzy, kde-format
+#| msgid "Images"
+msgctxt "@title"
+msgid "Image Quality Sort"
+msgstr "प्रतिमा"
+
+#: core/dplugins/bqm/metadata/qualitysort/qualitysortplugin.cpp:61
+#, fuzzy, kde-format
+msgctxt "@info"
+msgid "A tool to assign pick label metadata by image quality"
+msgstr "माइम प्रकार निवडा"
+
+#: core/dplugins/bqm/metadata/qualitysort/qualitysortplugin.cpp:66
+#, fuzzy, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<para>This Batch Queue Manager tool will assign a pick label metadata value "
+"by parsing image and estimate the quality.</para>"
+msgstr "यात रूपांतरीत करा"
 
 #: core/dplugins/bqm/metadata/removemetadata/removemetadata.cpp:103
 #, kde-format
@@ -21379,7 +21400,7 @@ msgstr ""
 msgid "Slideshow"
 msgstr "स्लाइडशो"
 
-#: core/dplugins/generic/view/slideshow/common/slideshowloader.cpp:664
+#: core/dplugins/generic/view/slideshow/common/slideshowloader.cpp:665
 #, fuzzy, kde-format
 msgctxt ""
 "Reason for inhibiting the screensaver activation, when the presentation mode "
@@ -33777,9 +33798,11 @@ msgid "Detect the amount of blur in the images passed to it"
 msgstr ""
 
 #: core/libs/imgqsort/imagequalitysettings.cpp:208
+#: core/libs/imgqsort/imagequalitysettings.cpp:218
+#: core/libs/imgqsort/imagequalitysettings.cpp:228
 #, fuzzy, kde-format
 msgctxt "@label"
-msgid "Blur Weight:"
+msgid "Weight:"
 msgstr "उंची :"
 
 #: core/libs/imgqsort/imagequalitysettings.cpp:213
@@ -33800,12 +33823,6 @@ msgctxt "@info:tooltip"
 msgid "Detect the amount of noise in the images passed to it"
 msgstr ""
 
-#: core/libs/imgqsort/imagequalitysettings.cpp:218
-#, fuzzy, kde-format
-msgctxt "@label"
-msgid "Noise Weight:"
-msgstr "उंची :"
-
 #: core/libs/imgqsort/imagequalitysettings.cpp:223
 #, kde-format
 msgctxt "@info:tooltip"
@@ -33823,12 +33840,6 @@ msgstr "कार्यपद्धती :"
 msgctxt "@info:tooltip"
 msgid "Detect the amount of compression in the images passed to it"
 msgstr ""
-
-#: core/libs/imgqsort/imagequalitysettings.cpp:228
-#, fuzzy, kde-format
-msgctxt "@label"
-msgid "Compression Weight:"
-msgstr "सर्वाधिकार :"
 
 #: core/libs/imgqsort/imagequalitysettings.cpp:233
 #, kde-format
@@ -61383,18 +61394,18 @@ msgstr ""
 msgctxt "@label"
 msgid ""
 "These settings determines the quality of an image and convert it into a "
-"score, stored in database. This property can be evaluated by two ways: using "
-"four basic factors sabotaging the images (blur, noise, exposure, and "
-"compression), or using a deep learning neural network engine. The first one "
-"helps to determine whether images are distorted by the basic factors, "
-"however it demands some drawbacks as fine-tuning from the user’s side and it "
-"cannot work along the aesthetic image processing. The second one uses an IA "
-"approach based on %1 model to predict the score. As deep learning is an end-"
-"to-end solution, it doesn’t require hyper-parameter settings, and make this "
-"feature easier to use."
+"score, stored in database as Pick Label property. This information can be "
+"evaluated by two ways: using four basic factors sabotaging the images (blur, "
+"noise, exposure, and compression), or using a deep learning neural network "
+"engine. The first one helps to determine whether images are distorted by the "
+"basic factors, however it demands some drawbacks as fine-tuning from the "
+"user’s side and it cannot work along the aesthetic image processing. The "
+"second one uses an IA approach based on %1 model to predict the score. As "
+"deep learning is an end-to-end solution, it doesn’t require hyper-parameter "
+"settings, and make this feature easier to use."
 msgstr ""
 
-#: core/utilities/setup/setupimagequalitysorter.cpp:63
+#: core/utilities/setup/setupimagequalitysorter.cpp:64
 #, fuzzy, kde-format
 #| msgid "Images"
 msgctxt "@label"
@@ -61892,6 +61903,21 @@ msgstr "मूलभूत मूल्य"
 msgctxt "@info"
 msgid "Do you want to reset all video settings to the default value?"
 msgstr "मूलभूत मूल्य"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Blur Weight:"
+#~ msgstr "उंची :"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Noise Weight:"
+#~ msgstr "उंची :"
+
+#, fuzzy
+#~ msgctxt "@label"
+#~ msgid "Compression Weight:"
+#~ msgstr "सर्वाधिकार :"
 
 #, fuzzy
 #~| msgid "Images"
