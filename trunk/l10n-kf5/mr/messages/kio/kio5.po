@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-09-30 00:40+0000\n"
+"POT-Creation-Date: 2022-10-02 00:43+0000\n"
 "PO-Revision-Date: 2013-02-23 17:39+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -2557,7 +2557,7 @@ msgstr "पूर्वावलोकन दर्शवा"
 msgid "Open Containing Folder"
 msgstr ""
 
-#: filewidgets/kdiroperator.cpp:2262 filewidgets/kfileplacesview.cpp:1122
+#: filewidgets/kdiroperator.cpp:2262 filewidgets/kfileplacesview.cpp:1165
 #, kde-format
 msgid "Properties"
 msgstr "गुणधर्म"
@@ -2768,7 +2768,7 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:162
+#: filewidgets/kfileplacesitem.cpp:177
 #, fuzzy, kde-format
 #| msgctxt "@title:window"
 #| msgid "Places"
@@ -2776,27 +2776,27 @@ msgctxt "@item"
 msgid "Places"
 msgstr "जागा"
 
-#: filewidgets/kfileplacesitem.cpp:165
+#: filewidgets/kfileplacesitem.cpp:180
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@item"
 msgid "Remote"
 msgstr "काढून टाका"
 
-#: filewidgets/kfileplacesitem.cpp:168
+#: filewidgets/kfileplacesitem.cpp:183
 #, kde-format
 msgctxt "@item The place group section name for recent dynamic lists"
 msgid "Recent"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:171
+#: filewidgets/kfileplacesitem.cpp:186
 #, fuzzy, kde-format
 #| msgid "Search"
 msgctxt "@item"
 msgid "Search For"
 msgstr "शोधा"
 
-#: filewidgets/kfileplacesitem.cpp:174
+#: filewidgets/kfileplacesitem.cpp:189
 #, fuzzy, kde-format
 #| msgctxt "@item:inmenu"
 #| msgid "Devices"
@@ -2804,13 +2804,13 @@ msgctxt "@item"
 msgid "Devices"
 msgstr "साधने"
 
-#: filewidgets/kfileplacesitem.cpp:177
+#: filewidgets/kfileplacesitem.cpp:192
 #, kde-format
 msgctxt "@item"
 msgid "Removable Devices"
 msgstr ""
 
-#: filewidgets/kfileplacesitem.cpp:180
+#: filewidgets/kfileplacesitem.cpp:195
 #, kde-format
 msgctxt "@item"
 msgid "Tags"
@@ -2906,147 +2906,168 @@ msgctxt "KFile System Bookmarks"
 msgid "Audio"
 msgstr "सर्व फाईल्स"
 
-#: filewidgets/kfileplacesmodel.cpp:1148
+#: filewidgets/kfileplacesmodel.cpp:1159
 #, fuzzy, kde-format
 #| msgid "Could not read file %1."
 msgctxt "Placeholder is error message"
 msgid "Could not add to the Places panel: %1"
 msgstr "फाईल %1 वाचू शकत नाही."
 
-#: filewidgets/kfileplacesmodel.cpp:1155
+#: filewidgets/kfileplacesmodel.cpp:1166
 #, fuzzy, kde-format
 #| msgid "The file or folder %1 does not exist."
 msgid "Only folders can be added to the Places panel."
 msgstr "फाईल किंवा संचयीका %1 अस्तित्वात नाही."
 
-#: filewidgets/kfileplacesmodel.cpp:1414
+#: filewidgets/kfileplacesmodel.cpp:1430
+#, fuzzy, kde-format
+#| msgid "&Release '%1'"
+msgctxt "@action:inmenu"
+msgid "Releasing…"
+msgstr "सोडा (&R) : '%1'"
+
+#: filewidgets/kfileplacesmodel.cpp:1432
 #, fuzzy, kde-format
 #| msgid "&Release '%1'"
 msgctxt "@action:inmenu"
 msgid "&Release"
 msgstr "सोडा (&R) : '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1416
+#: filewidgets/kfileplacesmodel.cpp:1436
+#, fuzzy, kde-format
+#| msgid "&Safely Remove '%1'"
+msgctxt "@action:inmenu"
+msgid "Safely Removing…"
+msgstr "सुरक्षितपणे काढून टाका (&S): '%1'"
+
+#: filewidgets/kfileplacesmodel.cpp:1438
 #, fuzzy, kde-format
 #| msgid "&Safely Remove '%1'"
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
 msgstr "सुरक्षितपणे काढून टाका (&S): '%1'"
 
-#: filewidgets/kfileplacesmodel.cpp:1419
+#: filewidgets/kfileplacesmodel.cpp:1443
+#, fuzzy, kde-format
+#| msgid "Unmount"
+msgctxt "@action:inmenu"
+msgid "Unmounting…"
+msgstr "काढा"
+
+#: filewidgets/kfileplacesmodel.cpp:1445
 #, fuzzy, kde-format
 #| msgid "Unmount"
 msgctxt "@action:inmenu"
 msgid "&Unmount"
 msgstr "काढा"
 
-#: filewidgets/kfileplacesmodel.cpp:1438
+#: filewidgets/kfileplacesmodel.cpp:1469
 #, fuzzy, kde-format
 #| msgid "Eject"
 msgctxt "@action:inmenu"
 msgid "&Eject"
 msgstr "बाहेर काढ़ा"
 
-#: filewidgets/kfileplacesmodel.cpp:1474
+#: filewidgets/kfileplacesmodel.cpp:1505
 #, kde-format
 msgid "The device '%1' is not a disk and cannot be ejected."
 msgstr "'%1' हे साधन डिस्क नाही. त्यामुळे ते बाहेर काढता येत नाही."
 
-#: filewidgets/kfileplacesmodel.cpp:1509
+#: filewidgets/kfileplacesmodel.cpp:1540
 #, kde-format
 msgid "An error occurred while accessing '%1', the system responded: %2"
 msgstr "'%1' हे वापरताना त्रुटी निर्माण झाली आहे, प्रणालीचा प्रतिसाद : %2"
 
-#: filewidgets/kfileplacesmodel.cpp:1511
+#: filewidgets/kfileplacesmodel.cpp:1542
 #, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "'%1' हे वापरताना त्रुटी निर्माण झाली आहे"
 
-#: filewidgets/kfileplacesview.cpp:568
+#: filewidgets/kfileplacesview.cpp:595
 #, kde-format
 msgid "%1 (hidden)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1091
+#: filewidgets/kfileplacesview.cpp:1132
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Empty Trash"
 msgstr "कचरापेटी रिकामी करा"
 
-#: filewidgets/kfileplacesview.cpp:1109
+#: filewidgets/kfileplacesview.cpp:1152
 #, fuzzy, kde-format
 #| msgid "Mount"
 msgctxt "@action:inmenu"
 msgid "Mount"
 msgstr "जोडा"
 
-#: filewidgets/kfileplacesview.cpp:1115
+#: filewidgets/kfileplacesview.cpp:1158
 #, fuzzy, kde-format
 #| msgid "Open With"
 msgctxt "@item:inmenu"
 msgid "Open in New Tab"
 msgstr "यामध्ये उघडा"
 
-#: filewidgets/kfileplacesview.cpp:1118
+#: filewidgets/kfileplacesview.cpp:1161
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Open in New Window"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1127
+#: filewidgets/kfileplacesview.cpp:1170
 #, fuzzy, kde-format
 #| msgid "Add Entry..."
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
 msgstr "नोंद जोडा..."
 
-#: filewidgets/kfileplacesview.cpp:1133
+#: filewidgets/kfileplacesview.cpp:1176
 #, fuzzy, kde-format
 #| msgid "Edit"
 msgctxt "@action:inmenu"
 msgid "&Edit…"
 msgstr "संपादित करा"
 
-#: filewidgets/kfileplacesview.cpp:1138
+#: filewidgets/kfileplacesview.cpp:1181
 #, fuzzy, kde-format
 #| msgid "Remove"
 msgctxt "@action:inmenu"
 msgid "Remove"
 msgstr "काढून टाका"
 
-#: filewidgets/kfileplacesview.cpp:1142
+#: filewidgets/kfileplacesview.cpp:1185
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Hide"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1150
+#: filewidgets/kfileplacesview.cpp:1193
 #, fuzzy, kde-format
 #| msgid "&Hide Entry '%1'"
 msgctxt "@item:inmenu"
 msgid "Hide Section '%1'"
 msgstr "नोंद लपवा (&H) '%1'"
 
-#: filewidgets/kfileplacesview.cpp:1150
+#: filewidgets/kfileplacesview.cpp:1193
 #, fuzzy, kde-format
 #| msgid "&Hide Entry '%1'"
 msgctxt "@item:inmenu"
 msgid "Hide Section"
 msgstr "नोंद लपवा (&H) '%1'"
 
-#: filewidgets/kfileplacesview.cpp:1158
+#: filewidgets/kfileplacesview.cpp:1201
 #, kde-format
 msgid "&Show All Entries"
 msgstr "सर्व नोंदी दर्शवा (&S)"
 
-#: filewidgets/kfileplacesview.cpp:1163
+#: filewidgets/kfileplacesview.cpp:1206
 #, fuzzy, kde-format
 #| msgid "Short View"
 msgctxt "@item:inmenu"
 msgid "Icon Size"
 msgstr "लहान दृश्य"
 
-#: filewidgets/kfileplacesview.cpp:1266
+#: filewidgets/kfileplacesview.cpp:1309
 #, fuzzy, kde-format
 #| msgid "Auto D&etect"
 msgctxt ""
@@ -3055,26 +3076,26 @@ msgctxt ""
 msgid "Auto Resize"
 msgstr "स्वयं शोधा (&E)"
 
-#: filewidgets/kfileplacesview.cpp:1286
+#: filewidgets/kfileplacesview.cpp:1329
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1289
+#: filewidgets/kfileplacesview.cpp:1332
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
 msgstr ""
 
-#: filewidgets/kfileplacesview.cpp:1292
+#: filewidgets/kfileplacesview.cpp:1335
 #, fuzzy, kde-format
 #| msgid "Drive: %1"
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
 msgstr "ड्राइव्ह : %1"
 
-#: filewidgets/kfileplacesview.cpp:1295
+#: filewidgets/kfileplacesview.cpp:1338
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
