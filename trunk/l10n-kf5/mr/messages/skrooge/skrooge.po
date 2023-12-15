@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2023-12-11 00:42+0000\n"
+"POT-Creation-Date: 2023-12-15 00:42+0000\n"
 "PO-Revision-Date: 2013-03-06 17:28+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -1842,13 +1842,13 @@ msgstr "यादी रिकामी करा (&H)"
 #: plugins/generic/skg_undoredo/skgundoredoplugin.cpp:138
 #, kde-format
 msgctxt "Verb"
-msgid "Undo operation '%1'."
+msgid "Undo transaction '%1'."
 msgstr ""
 
 #: plugins/generic/skg_undoredo/skgundoredoplugin.cpp:147
 #, kde-format
 msgctxt "Verb"
-msgid "Redo operation '%1'."
+msgid "Redo transaction '%1'."
 msgstr ""
 
 #: plugins/generic/skg_undoredo/skgundoredoplugin.cpp:207
@@ -2080,10 +2080,10 @@ msgstr ""
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:272
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:226
 #: plugins/import/skrooge_import_xhb/skgimportpluginxhb.cpp:230
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Import step"
-msgid "Import operations"
-msgstr ""
+msgid "Import transactions"
+msgstr "पुष्टिकरण"
 
 #: plugins/import/skrooge_import_afb120/skgimportpluginafb120.cpp:121
 #: plugins/import/skrooge_import_mt940/skgimportpluginmt940.cpp:123
@@ -2116,7 +2116,7 @@ msgstr ""
 #, kde-format
 msgctxt "An information message"
 msgid ""
-"The initial balance of '%1' has not been set because some operations are "
+"The initial balance of '%1' has not been set because some transactions are "
 "already existing"
 msgstr ""
 
@@ -2159,10 +2159,12 @@ msgid ""
 msgstr ""
 
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:229
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Error message"
+#| msgid "Download failed"
 msgctxt "Progress message"
-msgid "Download operations"
-msgstr ""
+msgid "Download transactions"
+msgstr "डाउनलोड अपयशी"
 
 #: plugins/import/skrooge_import_backend/skgimportpluginbackend.cpp:232
 #, kde-format
@@ -2389,76 +2391,78 @@ msgstr ""
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:516
 #: plugins/import/skrooge_import_ofx/skgimportpluginofx.cpp:481
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Transfer"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:518
 #: plugins/import/skrooge_import_ofx/skgimportpluginofx.cpp:493
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Direct debit"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:520
 #: plugins/import/skrooge_import_ofx/skgimportpluginofx.cpp:483
-#, kde-format
-msgctxt "An operation mode"
+#, fuzzy, kde-format
+#| msgctxt "An operation mode"
+#| msgid "Check"
+msgctxt "An transaction mode"
 msgid "Check"
 msgstr "तपासा"
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:522
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Deposit"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:524
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Payback"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:526
 #: plugins/import/skrooge_import_ofx/skgimportpluginofx.cpp:487
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Withdrawal"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:528
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Card"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:530
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Loan payment"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:532
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Subscription"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:536
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Cash deposit"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:538
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Card summary"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:540
 #, kde-format
-msgctxt "An operation mode"
+msgctxt "An transaction mode"
 msgid "Deferred card"
 msgstr ""
 
@@ -2489,7 +2493,7 @@ msgstr ""
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:954
 #, kde-format
 msgctxt "An information message"
-msgid "Only selected accounts and operations have been exported"
+msgid "Only selected accounts and transactions have been exported"
 msgstr ""
 
 #: plugins/import/skrooge_import_csv/skgimportplugincsv.cpp:805
@@ -2584,10 +2588,12 @@ msgstr ""
 #: plugins/import/skrooge_import_gnc/skgimportplugingnc.cpp:529
 #: plugins/import/skrooge_import_gsb/skgimportplugingsb.cpp:371
 #: plugins/import/skrooge_import_skg/skgimportpluginskg.cpp:360
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Import step"
-msgid "Import scheduled operations"
-msgstr ""
+msgid "Import scheduled transactions"
+msgstr "क्रिया"
 
 #: plugins/import/skrooge_import_gnc/skgimportplugingnc.cpp:666
 #, kde-format
@@ -2699,7 +2705,7 @@ msgstr ""
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:1003
 #, kde-format
 msgctxt "Export step"
-msgid "Export operations"
+msgid "Export transactions"
 msgstr ""
 
 #: plugins/import/skrooge_import_iif/skgimportpluginiif.cpp:496
@@ -2743,10 +2749,12 @@ msgid "Export budgets"
 msgstr ""
 
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:1039
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Export step"
-msgid "Export scheduled operations"
-msgstr ""
+msgid "Export scheduled transactions"
+msgstr "क्रिया"
 
 #: plugins/import/skrooge_import_kmy/skgimportpluginkmy.cpp:1196
 #, kde-format
@@ -2857,8 +2865,8 @@ msgstr ""
 #, kde-format
 msgctxt "Warning message"
 msgid ""
-"The operation '%1' has been repaired because its amount was not equal to the "
-"sum of the amounts of its splits"
+"The transaction '%1' has been repaired because its amount was not equal to "
+"the sum of the amounts of its splits"
 msgstr ""
 
 #: plugins/import/skrooge_import_mny/skgimportpluginmny.cpp:492
@@ -3046,8 +3054,8 @@ msgstr "क्रिया"
 #, kde-format
 msgctxt "An information message"
 msgid ""
-"The total amount of the operation (%1) was different to the sum of the sub-"
-"operations (%2). The operation has been repaired."
+"The total amount of the transaction (%1) was different to the sum of the sub-"
+"transactions (%2). The transaction has been repaired."
 msgstr ""
 
 #: plugins/import/skrooge_import_qif/skgimportpluginqif.cpp:1240
@@ -3194,10 +3202,10 @@ msgid "Add operation %1"
 msgstr ""
 
 #: plugins/krunner/skrooge_add_operation/skgaddoperation.cpp:90
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Information message"
-msgid "Operation created"
-msgstr ""
+msgid "Transaction created"
+msgstr "नमूना तयार करा"
 
 #: plugins/krunner/skrooge_add_operation/skgaddoperation.cpp:92
 #, kde-format
@@ -3221,7 +3229,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:42
 #, kde-format
 msgctxt "Noun, a type of account"
-msgid "Only past operations"
+msgid "Only past transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:56
@@ -3290,7 +3298,7 @@ msgstr "इतर"
 msgctxt "Message, do not translate URL"
 msgid ""
 "First, you have to create at least one account<br>from <a href=\"%1\">\"Bank "
-"and Account\"</a> page or <a href=\"%2\">import</a> operations."
+"and Account\"</a> page or <a href=\"%2\">import</a> transactions."
 msgstr ""
 
 #: plugins/skrooge/skrooge_bank/skgaccountboardwidget.cpp:336
@@ -3432,11 +3440,13 @@ msgid "Reopen '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_bank/skgbankplugin.cpp:273
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt ""
-"Action to create a fake operation to set the amount of the account to 0"
+"Action to create a fake transaction to set the amount of the account to 0"
 msgid "Create fake operation"
-msgstr ""
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_bank/skgbankplugin.cpp:294
 #, kde-format
@@ -3493,14 +3503,14 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2465
 #, kde-format
 msgctxt "An information to the user that something was added"
-msgid "The operation '%1' has been added"
+msgid "The transaction '%1' has been added"
 msgstr ""
 
 #: plugins/skrooge/skrooge_bank/skgbankplugin.cpp:357
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2469
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Fake operation created."
+msgid "Fake transaction created."
 msgstr ""
 
 #: plugins/skrooge/skrooge_bank/skgbankplugin.cpp:359
@@ -3607,7 +3617,7 @@ msgstr "इतर"
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:215
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations of account "
+msgid "Transactions of account "
 msgstr ""
 
 #: plugins/skrooge/skrooge_bank/skgbankpluginwidget.cpp:379
@@ -3969,7 +3979,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_budget/skgbudgetplugin.cpp:135
 #, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Open operations corresponding to this budget"
+msgid "Open transactions corresponding to this budget"
 msgstr ""
 
 #: plugins/skrooge/skrooge_budget/skgbudgetplugin.cpp:155
@@ -4326,7 +4336,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QCheckBox, kAutoBudgetCheck)
 #: plugins/skrooge/skrooge_budget/skgbudgetpluginwidget_base.ui:452
 #, kde-format
-msgid "Automatic creation based on the operations of:"
+msgid "Automatic creation based on the transactions of:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kBalancingMonthly)
@@ -4353,14 +4363,16 @@ msgstr "वर्ष :"
 #: plugins/skrooge/skrooge_budget/skgbudgetpluginwidget_base.ui:545
 #: plugins/skrooge/skrooge_budget/skgbudgetpluginwidget_base.ui:548
 #, kde-format
-msgid "Use the scheduled operations for a better automatic creation"
+msgid "Use the scheduled transactions for a better automatic creation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kUseScheduledOperation)
 #: plugins/skrooge/skrooge_budget/skgbudgetpluginwidget_base.ui:551
-#, kde-format
-msgid "Use scheduled operations"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Use scheduled transactions"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/skrooge/skrooge_budget/skgbudgetpluginwidget_base.ui:601
@@ -5143,7 +5155,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... if you delete a <a href=\"skg://skrooge_categories_plugin\">category</"
-"a>, all operations affected by this category will be associated to its "
+"a>, all transactions affected by this category will be associated to its "
 "parent category.</p>"
 msgstr ""
 
@@ -5157,7 +5169,8 @@ msgstr ""
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"You can improve performances by removing categories that have no operations."
+"You can improve performances by removing categories that have no "
+"transactions."
 msgstr ""
 
 #: plugins/skrooge/skrooge_categories/skgcategoriesplugin.cpp:346
@@ -5169,7 +5182,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_categories/skgcategoriesplugin.cpp:351
 #, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Open sub operations with category containing '%1'"
+msgid "Open sub transactions with category containing '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_categories/skgcategoriesplugin.cpp:369
@@ -5189,7 +5202,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_categories/skgcategoriesplugin.cpp:394
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Sub operations with category containing '%1'"
+msgid "Sub transactions with category containing '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_categories/skgcategoriesplugin.cpp:405
@@ -5383,19 +5396,19 @@ msgstr ""
 #. i18n: ectx: label, entry (apply_rules), group (skrooge_importexport)
 #: plugins/skrooge/skrooge_importexport/skgimportexport_settings.kcfg:14
 #, kde-format
-msgid "Apply rules on to imported operations"
+msgid "Apply rules on to imported transactions"
 msgstr ""
 
 #. i18n: ectx: label, entry (open_after_import_or_processing), group (skrooge_importexport)
 #: plugins/skrooge/skrooge_importexport/skgimportexport_settings.kcfg:18
 #, kde-format
-msgid "Open operations after import or processing"
+msgid "Open transactions after import or processing"
 msgstr ""
 
 #. i18n: ectx: label, entry (since_last_import), group (skrooge_importexport)
 #: plugins/skrooge/skrooge_importexport/skgimportexport_settings.kcfg:22
 #, kde-format
-msgid "Import only operations since the last imported one"
+msgid "Import only transactions since the last imported one"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_automatic_search_header)
@@ -5634,32 +5647,34 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgctxt "Verb, action to validate imported operations"
-msgid "Switch validation of imported operations"
+msgctxt "Verb, action to validate imported transactions"
+msgid "Switch validation of imported transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:161
 #, kde-format
 msgctxt "Verb, action to merge"
-msgid "Validate operations that do not require further action"
+msgid "Validate transactions that do not require further action"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:167
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb, action to open"
-msgid "Open imported operations not yet validated..."
-msgstr ""
+msgid "Open imported transactions not yet validated..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:168
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations imported and not yet validated"
+msgid "Transactions imported and not yet validated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:177
 #, kde-format
 msgctxt "Verb, action to merge"
-msgid "Merge imported operations"
+msgid "Merge imported transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:182
@@ -5671,7 +5686,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:197
 #, kde-format
 msgctxt "Information message"
-msgid "You have some krunner's operations to import"
+msgid "You have some krunner's transactions to import"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:214
@@ -5731,7 +5746,7 @@ msgstr ""
 #, kde-format
 msgctxt "Description of a tips"
 msgid ""
-"<p>... you can automatically import operation with <a href=\"skg://"
+"<p>... you can automatically import transaction with <a href=\"skg://"
 "tab_configure?page=Skrooge import and export plugin\">backend</a>.</p>"
 msgstr ""
 
@@ -5769,7 +5784,7 @@ msgstr ""
 #, kde-format
 msgctxt "Description of a tips"
 msgid ""
-"<p>... you can export some accounts or operations just be selecting them "
+"<p>... you can export some accounts or transactions just be selecting them "
 "before to launch the <a href=\"skg://export\">export_operation</a>.</p>"
 msgstr ""
 
@@ -5943,13 +5958,13 @@ msgstr ""
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Noun, name of the user action"
-msgid "Switch validation of imported operations"
+msgid "Switch validation of imported transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:854
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Imported operations validated."
+msgid "Imported transactions validated."
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:856
@@ -5963,8 +5978,8 @@ msgstr ""
 #, kde-format
 msgctxt "Error message"
 msgid ""
-"Invalid selection, you must select one imported operation and one manual "
-"operation with same amounts"
+"Invalid selection, you must select one imported transaction and one manual "
+"transaction with same amounts"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:893
@@ -5976,7 +5991,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:896
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Merge imported operations"
+msgid "Merge imported transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:898
@@ -5989,53 +6004,55 @@ msgstr ""
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:905
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Imported operations merged."
+msgid "Imported transactions merged."
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:928
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Validate all operations"
+msgid "Validate all transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:933
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Message for successful user action"
-msgid "Operations validated."
-msgstr ""
+msgid "Transactions validated."
+msgstr "नमूना तयार करा"
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:955
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Many operations imported and not yet validated"
+msgid "Many transactions imported and not yet validated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:956
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"After importing operations, you should review them, make corrections on, for "
-"instance, category, payee. Once done, you should mark the imported operation "
-"as validated, so that you know the operation has been fully processed."
+"After importing transactions, you should review them, make corrections on, "
+"for instance, category, payee. Once done, you should mark the imported "
+"transaction as validated, so that you know the transaction has been fully "
+"processed."
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:997
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Krunner's operation ongoing [%1 %2 %3]"
+msgid "Krunner's transaction ongoing [%1 %2 %3]"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:998
 #, kde-format
 msgctxt "Advice on making the best (long)"
-msgid "Operations created through krunner have to be fully created in skrooge."
+msgid ""
+"Transactions created through krunner have to be fully created in skrooge."
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1002
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Import operation in %1"
-msgstr ""
+msgid "Import transaction in %1"
+msgstr "पुष्टिकरण"
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1009
 #, kde-format
@@ -6059,14 +6076,16 @@ msgstr ""
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1101
 #, kde-format
 msgctxt "An information to the user"
-msgid "The operation '%1' has been added"
+msgid "The transaction '%1' has been added"
 msgstr ""
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1109
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Message for successful user action"
-msgid "Operations imported."
-msgstr ""
+msgid "Transactions imported."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1112
 #, kde-format
@@ -6077,7 +6096,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_importexport/skgimportexportplugin.cpp:1115
 #, kde-format
 msgctxt "Message for successful user action"
-msgid "Operations removed."
+msgid "Transactions removed."
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, kGeneral)
@@ -6100,16 +6119,18 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_apply_rules)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgid ""
 "This option allows to apply all rules defined in \"Search and process\" on "
-"all imported operations"
-msgstr ""
+"all imported transactions"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_apply_rules)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:77
 #, kde-format
-msgid "Apply rules on imported operations"
+msgid "Apply rules on imported transactions"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_automatic_validation)
@@ -6117,7 +6138,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgid "This option allows to validate all imported operations"
+msgid "This option allows to validate all imported transactions"
 msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_automatic_validation)
@@ -6128,16 +6149,20 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_open_after_import_or_processing)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:94
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgid ""
-"This option allows to open all imported operations at the end of the import"
-msgstr ""
+"This option allows to open all imported transactions at the end of the import"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_open_after_import_or_processing)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:97
-#, kde-format
-msgid "Open operations"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Open transactions"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_since_last_import)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:104
@@ -6145,15 +6170,15 @@ msgstr ""
 msgid ""
 "<html><head/><body><p><span style=\" font-weight:600; color:#ff0000;"
 "\">WARNING: </span>In some conditions, this option can cause missing "
-"operations. </p><p>This option is mainly interesting with OFX import when "
-"your bank is not able to generate real unique identifier for operations.</"
+"transactions. </p><p>This option is mainly interesting with OFX import when "
+"your bank is not able to generate real unique identifier for transactions.</"
 "p></body></html>"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_since_last_import)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:107
 #, kde-format
-msgid "Import only operations since the last imported one (not recommended)"
+msgid "Import only transactions since the last imported one (not recommended)"
 msgstr ""
 
 #. i18n: ectx: attribute (toolTip), widget (QWidget, kCsv)
@@ -6218,7 +6243,7 @@ msgstr "क्रमांक :"
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:346
 #, kde-format
 msgid ""
-"Operation mode (how you made the operation).\n"
+"Transaction mode (how you made the operation).\n"
 "Examples: Credit Card, Check, Transfer...\n"
 msgstr ""
 
@@ -6226,15 +6251,16 @@ msgstr ""
 #. i18n: ectx: property (statusTip), widget (SKGComboBox, kTypeEdit)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:349
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:646
-#, kde-format
-msgid "Operation mode"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Transaction mode"
+msgstr "नमूना तयार करा"
 
 #. i18n: ectx: property (text), widget (QLabel, kTypeLabel)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:352
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Mode:"
 msgctxt ""
-"Noun, the mode used for payment of the operation (Credit Card, Cheque, "
+"Noun, the mode used for payment of the transaction (Credit Card, Cheque, "
 "Transfer...)"
 msgid "Mode:"
 msgstr "पद्धत :"
@@ -6281,7 +6307,7 @@ msgstr "टीप :"
 #. i18n: ectx: property (toolTip), widget (QLabel, kStatusLbl)
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:409
 #, kde-format
-msgid "Status of the operation (reconciled or not)"
+msgid "Status of the transaction (reconciled or not)"
 msgstr ""
 
 #. i18n: ectx: property (statusTip), widget (QLabel, kStatusLbl)
@@ -6404,7 +6430,7 @@ msgstr "एकक :"
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:578
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:581
 #, kde-format
-msgid "Id to join all operations as a split operation"
+msgid "Id to join all transactions as a split operation"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kidtransaction)
@@ -6418,7 +6444,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:597
 #: plugins/skrooge/skrooge_importexport/skgimportexportpluginwidget_pref.ui:600
 #, kde-format
-msgid "Id to join all operations as a transfer"
+msgid "Id to join all transactions as a transfer"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
@@ -6617,20 +6643,22 @@ msgstr ""
 
 #. i18n: ectx: label, entry (fontFutureColor), group (skrooge_operation)
 #: plugins/skrooge/skrooge_operation/skgoperation_settings.kcfg:9
-#, kde-format
-msgid "Color of font for future operations"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Color of font for future transactions"
+msgstr "क्रिया"
 
 #. i18n: ectx: label, entry (fontNotValidatedColor), group (skrooge_operation)
 #: plugins/skrooge/skrooge_operation/skgoperation_settings.kcfg:13
 #, kde-format
-msgid "Color of font for non-validated operations"
+msgid "Color of font for non-validated transactions"
 msgstr ""
 
 #. i18n: ectx: label, entry (fontSubOperationColor), group (skrooge_operation)
 #: plugins/skrooge/skrooge_operation/skgoperation_settings.kcfg:17
 #, kde-format
-msgid "Color of font for sub operations"
+msgid "Color of font for sub transactions"
 msgstr ""
 
 #. i18n: ectx: label, entry (fasteditmode), group (skrooge_operation)
@@ -6678,7 +6706,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperation_settings.kcfg:45
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:314
 #, kde-format
-msgid "Automatic point operations created during reconciliation"
+msgid "Automatic mark transactions created during reconciliation"
 msgstr ""
 
 #. i18n: ectx: label, entry (commentFakeOperation), group (skrooge_operation)
@@ -6733,28 +6761,30 @@ msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:54
 #, kde-format
-msgctxt "Noun, a type of operations"
+msgctxt "Noun, a type of transactions"
 msgid "Grouped"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:61
 #, kde-format
-msgctxt "Noun, a type of operations"
+msgctxt "Noun, a type of transactions"
 msgid "Transfers"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:70
-#, kde-format
-msgctxt "Noun, a type of operations"
+#, fuzzy, kde-format
+#| msgctxt "Noun, something that is used to track items"
+#| msgid "Tracker"
+msgctxt "Noun, a type of transactions"
 msgid "Tracked"
-msgstr ""
+msgstr "ट्रॅकर"
 
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:77
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgctxt "Noun, a type of operations"
-msgid "On suboperations"
+msgctxt "Noun, a type of transactions"
+msgid "On subtransactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationboardwidgetqml.cpp:210
@@ -6776,10 +6806,10 @@ msgid "Create template"
 msgstr "नमूना तयार करा"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:98
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "Verb, mark an object"
-msgid "Point"
-msgstr "बिंदू 2"
+msgid "Mark"
+msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:104
 #, kde-format
@@ -6788,17 +6818,19 @@ msgid "Fast edit"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:115
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations..."
-msgstr ""
+msgid "Open transactions..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:120
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations with ..."
+msgid "Open transactions with ..."
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:127
@@ -6806,7 +6838,7 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Open sub operations with ..."
+msgid "Open sub transactions with ..."
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:134
@@ -6818,7 +6850,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:135
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Highlighted operations"
+msgid "Highlighted transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:144
@@ -6830,26 +6862,28 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:145
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations modified or created during last action"
+msgid "Transactions modified or created during last action"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:154
 #, kde-format
 msgctxt "Verb"
-msgid "Open operations modified by this transaction..."
+msgid "Open transactions modified by this transaction..."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:160
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations modified or created during the action '%1'"
+msgid "Transactions modified or created during the action '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:167
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open sub operations..."
-msgstr ""
+msgid "Open sub transactions..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:168
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1034
@@ -6858,7 +6892,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:577
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Sub operations"
+msgid "Sub transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:176
@@ -6870,7 +6904,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:177
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations potentially duplicated"
+msgid "Transactions potentially duplicated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:186
@@ -6886,16 +6920,20 @@ msgid "Transfers without payee"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:195
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations without payee..."
-msgstr ""
+msgid "Open transactions without payee..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:196
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Operations without payee"
-msgstr ""
+msgid "Transactions without payee"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:204
 #, kde-format
@@ -6910,51 +6948,61 @@ msgid "Transfers without category"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:213
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations without category..."
-msgstr ""
+msgid "Open transactions without category..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:214
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Operations without category"
-msgstr ""
+msgid "Transactions without category"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:222
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations without mode..."
-msgstr ""
+msgid "Open transactions without mode..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:223
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations without mode"
+msgid "Transactions without mode"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:231
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations with comments not aligned..."
-msgstr ""
+msgid "Open transactions with comments not aligned..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:232
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations with comments not aligned"
+msgid "Transactions with comments not aligned"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:240
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations with dates not aligned..."
-msgstr ""
+msgid "Open transactions with dates not aligned..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:241
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations with dates not aligned"
+msgid "Transactions with dates not aligned"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:249
@@ -6962,14 +7010,16 @@ msgstr ""
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Open operations without payees category..."
+msgid "Open transactions without payees category..."
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:250
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Sub-operations without payees category"
-msgstr ""
+msgid "Sub-transactions without payees category"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:258
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:382
@@ -6977,7 +7027,7 @@ msgstr ""
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align comment of suboperations of all single operations"
+msgid "Align comment of subtransactions of all single transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:262
@@ -6986,7 +7036,7 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align comment of operations of all single operations"
+msgid "Align comment of transactions of all single transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:267
@@ -6994,7 +7044,7 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align date of suboperations of all operations"
+msgid "Align date of subtransactions of all transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:271
@@ -7002,45 +7052,48 @@ msgstr "क्रिया"
 #, kde-format
 msgctxt "Verb"
 msgid ""
-"Align the category of all single operations with the category of their payee"
+"Align the category of all single transactions with the category of their "
+"payee"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:277
 #, kde-format
 msgctxt "Verb"
-msgid "Open operations in groups with only one operation..."
+msgid "Open transactions in groups with only one operation..."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:278
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations in groups with only one operation"
+msgid "Transactions in groups with only one operation"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:286
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:386
 #, kde-format
 msgctxt "Verb"
-msgid "Remove groups with only one operation of all operations"
+msgid "Remove groups with only one transaction of all transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:291
 #, kde-format
 msgctxt "Verb"
-msgid "Group operations"
+msgid "Group transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:299
 #, kde-format
 msgctxt "Verb"
-msgid "Ungroup operations"
+msgid "Ungroup transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:305
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb, action to merge"
-msgid "Merge sub operations"
-msgstr ""
+msgid "Merge sub transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:310
 #, fuzzy, kde-format
@@ -7062,7 +7115,7 @@ msgstr "संयोजीत करा..."
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align date of suboperations of selected single operations"
+msgid "Align date of subtransactions of selected single transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:370
@@ -7070,7 +7123,7 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align date of suboperations of all single operations"
+msgid "Align date of subtransactions of all single transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:374
@@ -7078,14 +7131,14 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align comment of operations of selected single operations"
+msgid "Align comment of transactions of selected single transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:378
 #, kde-format
 msgctxt "Verb"
 msgid ""
-"Align the category of all selected single operations with the category of "
+"Align the category of all selected single transactions with the category of "
 "their payee"
 msgstr ""
 
@@ -7094,13 +7147,13 @@ msgstr ""
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb"
-msgid "Align comment of suboperations of selected single operations"
+msgid "Align comment of subtransactions of selected single transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:386
 #, kde-format
 msgctxt "Verb"
-msgid "Remove groups with only one operation of selected operations"
+msgid "Remove groups with only one transaction of selected transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:404
@@ -7142,20 +7195,22 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:451
 #, kde-format
 msgctxt "Noun, the title of a section"
-msgid "Highlighted operations"
+msgid "Highlighted transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:509
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun"
-msgid "Operations"
+msgid "Transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:519
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Noun"
-msgid "Operation management"
-msgstr ""
+msgid "Transaction management"
+msgstr "फाईल व्यवस्थापन"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:530
 #, kde-format
@@ -7169,7 +7224,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can update many <a href=\"skg://skrooge_operation_plugin"
-"\">operations</a> in one shot.</p>"
+"\">transactions</a> in one shot.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:532
@@ -7177,7 +7232,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can double click on an <a href=\"skg://skrooge_operation_plugin"
-"\">operation</a> to show or edit sub operations.</p>"
+"\">operation</a> to show or edit sub transactions.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:533
@@ -7185,7 +7240,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can duplicate an <a href=\"skg://skrooge_operation_plugin"
-"\">operation</a> including complex operations (split, grouped, ...).</p>"
+"\">operation</a> including complex transactions (split, grouped, ...).</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:534
@@ -7193,7 +7248,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can create template of <a href=\"skg://skrooge_operation_plugin"
-"\">operations</a>.</p>"
+"\">transactions</a>.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:535
@@ -7201,7 +7256,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can group and ungroup <a href=\"skg://skrooge_operation_plugin"
-"\">operations</a>.</p>"
+"\">transactions</a>.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:536
@@ -7236,19 +7291,19 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:599
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Group operations"
+msgid "Group transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:609
 #, kde-format
 msgctxt "An information to the user"
-msgid "The operation '%1' has been grouped with '%2'"
+msgid "The transaction '%1' has been grouped with '%2'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:616
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operations grouped."
+msgid "Transactions grouped."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:618
@@ -7266,13 +7321,13 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:642
 #, kde-format
 msgctxt "An information to the user"
-msgid "The operation '%1' has been ungrouped"
+msgid "The transaction '%1' has been ungrouped"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:649
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operation ungrouped."
+msgid "Transaction ungrouped."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:651
@@ -7284,20 +7339,20 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:668
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Switch to pointed"
+msgid "Switch to marked"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:675
 #: skgbankgui/skgobjectmodel.cpp:1019
 #, kde-format
 msgctxt "An information to the user"
-msgid "The status of the operation '%1' has been changed"
+msgid "The status of the transaction '%1' has been changed"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:682
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operation pointed."
+msgid "Transaction marked."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:684
@@ -7316,19 +7371,21 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:710
 #, kde-format
 msgctxt "An information to the user"
-msgid "The duplicate operation '%1' has been added"
+msgid "The duplicate transaction '%1' has been added"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:719
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Successful message after an user action"
-msgid "Operation duplicated."
-msgstr ""
+msgid "Transaction duplicated."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:725
 #, kde-format
 msgctxt "Error message"
-msgid "Duplicate operation failed"
+msgid "Duplicate transaction failed"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:743
@@ -7358,61 +7415,65 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:805
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations of account:"
+msgid "Transactions of account:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:823
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations with unit:"
+msgid "Transactions with unit:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:839
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Sub operations with category:"
-msgstr ""
+msgid "Sub transactions with category:"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:866
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Sub operations followed by tracker:"
+msgid "Sub transactions followed by tracker:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:885
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations assigned to payee:"
+msgid "Transactions assigned to payee:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:901
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations assigned to budget:"
+msgid "Transactions assigned to budget:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:918
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Scheduled operations:"
-msgstr ""
+msgid "Scheduled transactions:"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:935
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Sub operations corresponding to rule:"
+msgid "Sub transactions corresponding to rule:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:953
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Sub operations grouped or split of:"
+msgid "Sub transactions grouped or split of:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:979
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations grouped with:"
+msgid "Transactions grouped with:"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1063
@@ -7425,20 +7486,20 @@ msgstr ""
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"Your account '%1' contains more than one operation with number %2.The "
-"operation number should be unique (check number, transaction reference...)"
+"Your account '%1' contains more than one transaction with number %2.The "
+"transaction number should be unique (check number, transaction reference...)"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1068
 #, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Edit operations with duplicate number"
+msgid "Edit transactions with duplicate number"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1098
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Many operations of '%1' not reconciled"
+msgid "Many transactions of '%1' not reconciled"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1099
@@ -7446,9 +7507,9 @@ msgstr ""
 msgctxt "Advice on making the best (long)"
 msgid ""
 "Do not forget to reconcile your accounts. By doing so, you acknowledge that "
-"your bank has indeed processed these operations on your account. This is how "
-"you enforce compliance with your bank's statements. See online help for more "
-"details"
+"your bank has indeed processed these transactions on your account. This is "
+"how you enforce compliance with your bank's statements. See online help for "
+"more details"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1103
@@ -7513,7 +7574,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1255
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Many operations do not have mode"
+msgid "Many transactions do not have mode"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1256
@@ -7527,7 +7588,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1281
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Many operations do not have category"
+msgid "Many transactions do not have category"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1282
@@ -7553,7 +7614,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1332
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Many operations do not have payee"
+msgid "Many transactions do not have payee"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1333
@@ -7579,7 +7640,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1383
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Some operations are in groups with only one operation"
+msgid "Some transactions are in groups with only one operation"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1384
@@ -7594,29 +7655,29 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1420
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Some simple operations do not have their comments aligned"
+msgid "Some simple transactions do not have their comments aligned"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1421
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"The comment of the operation is not aligned with the comment of the "
+"The comment of the transaction is not aligned with the comment of the "
 "suboperation."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1463
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Some operations do not have their dates aligned"
+msgid "Some transactions do not have their dates aligned"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1464
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"The date of the operation is not aligned with the date of the suboperation. "
-"This case seems to be abnormal."
+"The date of the transaction is not aligned with the date of the "
+"suboperation. This case seems to be abnormal."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1498
@@ -7629,14 +7690,14 @@ msgstr ""
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"Some operations don't have the category aligned with the category of the "
+"Some transactions don't have the category aligned with the category of the "
 "payee."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1537
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations of '%1' with duplicate number %2"
+msgid "Transactions of '%1' with duplicate number %2"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1561
@@ -7658,10 +7719,12 @@ msgid "Remove groups failed"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1596
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, name of the user action"
-msgid "Align comment of suboperations"
-msgstr ""
+msgid "Align comment of subtransactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1610
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1645
@@ -7682,7 +7745,7 @@ msgstr ""
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Noun, name of the user action"
-msgid "Align comment of operations"
+msgid "Align comment of transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1666
@@ -7690,7 +7753,7 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Noun, name of the user action"
-msgid "Align date of suboperations"
+msgid "Align date of subtransactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1680
@@ -7709,7 +7772,8 @@ msgstr ""
 #, kde-format
 msgctxt "Noun, name of the user action"
 msgid ""
-"Align the category of all single operations with the category of their payee"
+"Align the category of all single transactions with the category of their "
+"payee"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1715
@@ -7727,21 +7791,23 @@ msgid "Categories alignment failed"
 msgstr "विभाग"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1733
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, name of the user action"
-msgid "Merge sub operations"
-msgstr ""
+msgid "Merge sub transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1740
 #, kde-format
 msgctxt "An information to the user"
-msgid "The sub operations of '%1' have been merged in the operation '%2'"
+msgid "The sub transactions of '%1' have been merged in the transaction '%2'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1746
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operations merged."
+msgid "Transactions merged."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationplugin.cpp:1810
@@ -7758,7 +7824,7 @@ msgstr "प्रमाणित"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:115
 #, kde-format
-msgid "Display the edit panel for standard operations"
+msgid "Display the edit panel for standard transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:125
@@ -7768,7 +7834,7 @@ msgstr "विभाजित"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:125
 #, kde-format
-msgid "Display the edit panel for split operations"
+msgid "Display the edit panel for split transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:136
@@ -7800,24 +7866,28 @@ msgid ""
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:642
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Noun, name of the user action"
-msgid "Operation update"
-msgstr ""
+msgid "Transaction update"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:647
 #, fuzzy, kde-format
 #| msgctxt "Noun, a financial operation"
 #| msgid "Operation"
 msgctxt "Successful message after an user action"
-msgid "Operation updated"
+msgid "Transaction updated"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:649
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Error message"
-msgid "Operation update failed"
-msgstr ""
+msgid "Transaction update failed"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:684
 #, kde-format
@@ -7861,35 +7931,35 @@ msgstr ""
 msgctxt "Question"
 msgid ""
 "Some operation's units are not compatible with the target account.\n"
-"The first selected operation is:%1\n"
+"The first selected transaction is:%1\n"
 "Click Cancel if you want to continue anyway; otherwise, enter the value in "
 "the target account's unit (%2):\n"
-"The same rate will be applied to all operations."
+"The same rate will be applied to all transactions."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1077
 #, kde-format
 msgctxt "Warning message"
-msgid "You created an operation in %1 in an account in %2."
+msgid "You created a transaction in %1 in an account in %2."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1090
 #, kde-format
 msgctxt "An information message"
-msgid "The operation '%1' has been updated"
+msgid "The transaction '%1' has been updated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1108
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1658
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Operation creation"
+msgid "Transaction creation"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1120
 #, kde-format
 msgctxt "Error message"
-msgid "Impossible to create an operation with one attribute valuated with %1"
+msgid "Impossible to create a transaction with one attribute valuated with %1"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1193
@@ -7909,21 +7979,22 @@ msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1266
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1672
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operation created"
-msgstr ""
+msgid "Transaction created"
+msgstr "नमूना तयार करा"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1269
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1675
 #, kde-format
 msgctxt "Error message"
-msgid "Operation creation failed"
+msgid "Transaction creation failed"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1509
-#, kde-format
-msgctxt "Option to for display of operations"
+#, fuzzy, kde-format
+#| msgid "All"
+msgctxt "Option to for display of transactions"
 msgid "All"
 msgstr "सर्व"
 
@@ -7934,14 +8005,16 @@ msgid "%1 + its credit cards"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1579
-#, kde-format
-msgctxt "Option to for display of operations"
-msgid "Operations"
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgctxt "Option to for display of transactions"
+msgid "Transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1581
 #, fuzzy, kde-format
-msgctxt "Option to for display of operations"
+msgctxt "Option to for display of transactions"
 msgid "Templates"
 msgstr "नमूने"
 
@@ -7949,16 +8022,16 @@ msgstr "नमूने"
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgctxt "Option to for display of operations"
-msgid "Hide pointed operations"
+msgctxt "Option to for display of transactions"
+msgid "Hide marked transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1585
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgctxt "Option to for display of operations"
-msgid "Hide checked operations"
+msgctxt "Option to for display of transactions"
+msgid "Hide checked transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:1608
@@ -8011,21 +8084,22 @@ msgid "<p>Delta: %1</p><p>Expenditure: %2</p><p>Income: %3</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2397
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Account"
 msgctxt "Noun, name of the user action"
-msgid "Auto point account"
-msgstr ""
+msgid "Auto mark account"
+msgstr "खाते"
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2404
 #, kde-format
 msgctxt "An information message"
-msgid "The account '%1' has been auto pointed"
+msgid "The account '%1' has been auto marked"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2407
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Account auto pointed."
+msgid "Account auto marked."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2496
@@ -8045,19 +8119,19 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2537
 #, kde-format
 msgctxt "An information message"
-msgid "The operation '%1' has been checked"
+msgid "The transaction '%1' has been checked"
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2556
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operation checked."
+msgid "Transaction checked."
 msgstr ""
 
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget.cpp:2631
 #, kde-format
 msgctxt "Error message"
-msgid "No Operation Selected"
+msgid "No Transaction Selected"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (SKGFilteredTableView, kOperationView)
@@ -8065,7 +8139,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:54
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:57
 #, kde-format
-msgid "list of operations"
+msgid "list of transactions"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (SKGCalculatorEdit, kReconcilitorAmountEdit)
@@ -8089,7 +8163,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:212
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:215
 #, kde-format
-msgid "Account linked to the card, where to transfer the pointed operations"
+msgid "Account linked to the card, where to transfer the marked transactions"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, kValidate)
@@ -8097,16 +8171,18 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:228
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:231
 #, kde-format
-msgid "Validate pointed operations"
+msgid "Validate marked transactions"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, kAutoPoint)
 #. i18n: ectx: property (statusTip), widget (QToolButton, kAutoPoint)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:253
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:256
-#, kde-format
-msgid "Auto point all imported operations"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Auto mark all imported transactions"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, kReconciliatorButton)
 #. i18n: ectx: property (statusTip), widget (QToolButton, kReconciliatorButton)
@@ -8120,7 +8196,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:643
 #, kde-format
 msgid ""
-"Operation mode (how you made the operation). \n"
+"Transaction mode (how you made the operation). \n"
 "Examples: Credit Card, Check, Transfer...\n"
 msgstr ""
 
@@ -8169,7 +8245,7 @@ msgid ""
 "size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
 "right:0px; -qt-block-indent:0; text-indent:0px;\">A <span style=\" font-"
-"style:italic;\">Tracker</span> is a way to group some operations together. "
+"style:italic;\">Tracker</span> is a way to group some transactions together. "
 "For example, you may use it to follow refunds.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
 "margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
@@ -8298,7 +8374,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:1347
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_base.ui:1350
 #, kde-format
-msgid "Create a new operation (Ctrl+Enter)"
+msgid "Create a new transaction (Ctrl+Enter)"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, kModifyOperationBtn)
@@ -8310,7 +8386,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:276
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:279
 #, kde-format
-msgid "Update selected operations (Shift+Enter)"
+msgid "Update selected transactions (Shift+Enter)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
@@ -8348,7 +8424,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgid "Default values for special operations"
+msgid "Default values for special transactions"
 msgstr "क्रिया"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
@@ -8411,20 +8487,24 @@ msgstr "फॉन्ट"
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
-msgid "Font fo&r future operations:"
+msgid "Font fo&r future transactions:"
 msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QLabel, fontNotValidatedLbl)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:361
-#, kde-format
-msgid "Font for non-&validated operations:"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Font for non-&validated transactions:"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QLabel, fontSubOperationLbl)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:392
-#, kde-format
-msgid "Font for sub operations:"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Font for sub transactions:"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QLabel, fasteditmodelbl)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:450
@@ -8441,19 +8521,19 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_fasteditmode)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:469
 #, kde-format
-msgid "Search first in templates and after in operations"
+msgid "Search first in templates and after in transactions"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_fasteditmode)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:474
 #, kde-format
-msgid "Search in operations only"
+msgid "Search in transactions only"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_fasteditmode)
 #: plugins/skrooge/skrooge_operation/skgoperationpluginwidget_pref.ui:479
 #, kde-format
-msgid "Search first in operations and after in templates"
+msgid "Search first in transactions and after in templates"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
@@ -8510,7 +8590,7 @@ msgstr ""
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"You can improve performances by removing payees for which no operation is "
+"You can improve performances by removing payees for which no transaction is "
 "registered."
 msgstr ""
 
@@ -8719,7 +8799,7 @@ msgstr ""
 #. i18n: ectx: label, entry (maxForecasts), group (skrooge_report)
 #: plugins/skrooge/skrooge_report/skgreport_settings.kcfg:53
 #, kde-format
-msgid "Maximum duration of forecasts on scheduled operations (years)"
+msgid "Maximum duration of forecasts on scheduled transactions (years)"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportboardwidget.cpp:19
@@ -8729,27 +8809,31 @@ msgid "Report"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:78
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open very old operations..."
-msgstr ""
+msgid "Open very old transactions..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:80
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Very old operations"
+msgid "Very old transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:90
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb"
-msgid "Open very far operations in the future..."
-msgstr ""
+msgid "Open very far transactions in the future..."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:92
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Very far operations in the future"
+msgid "Very far transactions in the future"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:114
@@ -8787,7 +8871,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can double click on a value in <a href=\"skg://"
-"skrooge_report_plugin\">reports</a> to show corresponding operations.</p>"
+"skrooge_report_plugin\">reports</a> to show corresponding transactions.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:198
@@ -8809,86 +8893,90 @@ msgstr ""
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:229
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations with Unit equal to "
+msgid "Transactions with Unit equal to "
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:244
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations with Category equal to "
+msgid "Transactions with Category equal to "
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:260
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations followed by "
+msgid "Transactions followed by "
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:274
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations assigned to "
+msgid "Transactions assigned to "
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:288
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Selected operations"
-msgstr ""
+msgid "Selected transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:299
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Noun, a list of items"
-msgid "Selected sub operations"
+msgid "Selected sub transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:309
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations corresponding to rule "
+msgid "Transactions corresponding to rule "
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:360
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Some operations are very old"
+msgid "Some transactions are very old"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:361
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"For performances reasons, very old operations are not taken into account in "
-"graph report. Check if these operations are normal."
+"For performances reasons, very old transactions are not taken into account "
+"in graph report. Check if these transactions are normal."
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:377
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Some operations are very far in the future"
+msgid "Some transactions are very far in the future"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportplugin.cpp:378
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"For performances reasons, operations very far in the future are not taken "
-"into account in graph report. Check if these operations are normal."
+"For performances reasons, transactions very far in the future are not taken "
+"into account in graph report. Check if these transactions are normal."
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:64
 #, kde-format
-msgctxt "Display graph values as the sum of operations amount"
-msgid "Sum of operations"
+msgctxt "Display graph values as the sum of transactions amount"
+msgid "Sum of transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:65
-#, kde-format
-msgctxt "Display graph values as the cumulated sum of operations amount"
-msgid "Cumulated sum of operations"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgctxt "Display graph values as the cumulated sum of transactions amount"
+msgid "Cumulated sum of transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:66
 #, fuzzy, kde-format
@@ -8928,8 +9016,8 @@ msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:72
 #, kde-format
-msgctxt "Display graph values as a number of operations (or transaction)"
-msgid "Count number of operations"
+msgctxt "Display graph values as a number of transactions (or transaction)"
+msgid "Count number of transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:74
@@ -9058,15 +9146,17 @@ msgid "(%1) or (%2)"
 msgstr "किंवा"
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:995
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Progression step"
-msgid "Create scheduled operations"
-msgstr ""
+msgid "Create scheduled transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:1029
 #, kde-format
 msgctxt "Progression step"
-msgid "Create budgeted operations"
+msgid "Create budgeted transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget.cpp:1190
@@ -9085,7 +9175,7 @@ msgstr "फाईल उघडा"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget_base.ui:92
 #, kde-format
-msgid "Operation Types"
+msgid "Transaction Types"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kColumnsLabel)
@@ -9131,7 +9221,7 @@ msgstr "काढून टाका"
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget_base.ui:218
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget_base.ui:221
 #, kde-format
-msgid "Include grouped operations or not in report"
+msgid "Include grouped transactions or not in report"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kGrouped)
@@ -9153,7 +9243,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget_base.ui:247
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget_base.ui:250
 #, kde-format
-msgid "Include tracked operations or not in report"
+msgid "Include tracked transactions or not in report"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kTracked)
@@ -9247,7 +9337,7 @@ msgstr ""
 #, kde-format
 msgid ""
 "Choose forecast method:\n"
-"- Schedule: Use the scheduled operations in forecast.\n"
+"- Schedule: Use the scheduled transactions in forecast.\n"
 "- Average: Use average of the three previous months in forecast"
 msgstr ""
 
@@ -9364,7 +9454,7 @@ msgstr "मजकूर रंग :"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: plugins/skrooge/skrooge_report/skgreportpluginwidget_pref.ui:219
 #, kde-format
-msgid "Maximum duration of forecasts on scheduled operations (years):"
+msgid "Maximum duration of forecasts on scheduled transactions (years):"
 msgstr ""
 
 #. i18n: ectx: label, entry (check_on_open), group (skrooge_scheduled)
@@ -9378,7 +9468,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduled_settings.kcfg:13
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:38
 #, kde-format
-msgid "Create a template when an operation is scheduled"
+msgid "Create a template when a transaction is scheduled"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_convert_to_from_template)
@@ -9386,7 +9476,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduled_settings.kcfg:17
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:48
 #, kde-format
-msgid "Convert all existing scheduled operations to/from template"
+msgid "Convert all existing scheduled transactions to/from template"
 msgstr ""
 
 #. i18n: ectx: label, entry (remind_me), group (skrooge_scheduled)
@@ -9429,10 +9519,12 @@ msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledboardwidget.cpp:29
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:233
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun, the title of a section"
-msgid "Scheduled operations"
-msgstr ""
+msgid "Scheduled transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledboardwidget.cpp:35
 #, kde-format
@@ -9478,7 +9570,7 @@ msgstr "वेळपत्र (&S)..."
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:70
 #, kde-format
-msgctxt "Verb, skip scheduled operations"
+msgctxt "Verb, skip scheduled transactions"
 msgid "Skip"
 msgstr ""
 
@@ -9543,19 +9635,21 @@ msgstr "क्रिया"
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:342
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Insert recurrent operations"
+msgid "Insert recurrent transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:283
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Noun"
-msgid "Scheduled operations"
-msgstr ""
+msgid "Scheduled transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:293
 #, kde-format
 msgctxt "Noun"
-msgid "Operations scheduled management"
+msgid "Transactions scheduled management"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:304
@@ -9563,7 +9657,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... you can <a href=\"skg://skrooge_scheduled_plugin\">schedule</a> "
-"operations or templates.</p>"
+"transactions or templates.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:324
@@ -9575,7 +9669,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:331
 #, kde-format
 msgctxt "An information message"
-msgid "All scheduled operations have been converted in template"
+msgid "All scheduled transactions have been converted in template"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:358
@@ -9585,28 +9679,28 @@ msgid "A template has been created"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:397
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Operation schedule"
-msgstr ""
+msgid "Transaction schedule"
+msgstr "वेळपत्र (&S)..."
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:404
 #, kde-format
 msgctxt "An information to the user"
-msgid "The operation '%1' has been scheduled"
+msgid "The transaction '%1' has been scheduled"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:417
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:686
-#, kde-format
+#, fuzzy, kde-format
 msgctxt "Successful message after an user action"
-msgid "Operation scheduled."
-msgstr ""
+msgid "Transaction scheduled."
+msgstr "वेळपत्र (&S)..."
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:419
 #, kde-format
 msgctxt "Error message"
-msgid "Operation schedule failed"
+msgid "Transaction schedule failed"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:444
@@ -9614,7 +9708,7 @@ msgstr ""
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Noun, name of the user action"
-msgid "Skip scheduled operations"
+msgid "Skip scheduled transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:459
@@ -9622,42 +9716,44 @@ msgstr "क्रिया"
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Successful message after an user action"
-msgid "Scheduled operations skipped."
+msgid "Scheduled transactions skipped."
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:461
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Error message"
-msgid "Skip of scheduled operation failed"
-msgstr ""
+msgid "Skip of scheduled transaction failed"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:495
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:533
 #, kde-format
 msgctxt "Advice on making the best (short)"
-msgid "Scheduled operation '%1' not uptodate"
+msgid "Scheduled transaction '%1' not uptodate"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:496
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"The scheduled operation '%1' does not have the amount of the last inserted "
-"operation (%2)"
+"The scheduled transaction '%1' does not have the amount of the last inserted "
+"transaction (%2)"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:500
 #, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Update the next scheduled operation amount (%1)"
+msgid "Update the next scheduled transaction amount (%1)"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:534
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"The scheduled operation '%1' does not have the date aligned with the last "
-"inserted operation (%2)"
+"The scheduled transaction '%1' does not have the date aligned with the last "
+"inserted transaction (%2)"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:538
@@ -9675,13 +9771,14 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:572
 #, kde-format
 msgctxt "Advice on making the best (long)"
-msgid "The operation '%1' seems to be regularly created and could be scheduled"
+msgid ""
+"The transaction '%1' seems to be regularly created and could be scheduled"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:576
 #, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Monthly schedule the operation '%1'"
+msgid "Monthly schedule the transaction '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:601
@@ -9694,15 +9791,17 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:620
 #, kde-format
 msgctxt "An information to the user"
-msgid "The amount of the scheduled operation of '%1' have been updated"
+msgid "The amount of the scheduled transaction of '%1' have been updated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:624
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:653
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Successful message after an user action"
-msgid "Scheduled operation updated."
-msgstr ""
+msgid "Scheduled transaction updated."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:626
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:655
@@ -9715,7 +9814,7 @@ msgstr "अद्ययावत अपयशी"
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:649
 #, kde-format
 msgctxt "An information to the user"
-msgid "The date of the scheduled operation of '%1' have been updated"
+msgid "The date of the scheduled transaction of '%1' have been updated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:669
@@ -9727,7 +9826,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:680
 #, kde-format
 msgctxt "An information to the user"
-msgid "The scheduled operation of '%1' have been added"
+msgid "The scheduled transaction of '%1' have been added"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledplugin.cpp:688
@@ -9755,7 +9854,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:157
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations of the schedule"
+msgid "Transactions of the schedule"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:198
@@ -9778,28 +9877,32 @@ msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:282
 #: skgbankgui/skgobjectmodel.cpp:1030
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Noun, name of the user action"
-msgid "Recurrent operation update"
-msgstr ""
+msgid "Recurrent transaction update"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:311
 #: skgbankgui/skgobjectmodel.cpp:1041
 #, kde-format
 msgctxt "An information to the user"
-msgid "The recurrent operation '%1' has been updated"
+msgid "The recurrent transaction '%1' has been updated"
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:317
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Successful message after an user action"
-msgid "Recurrent operation updated."
-msgstr ""
+msgid "Recurrent transaction updated."
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:354
 #, kde-format
 msgctxt "Successful message after an user action"
-msgid "Recurrent operation inserted."
+msgid "Recurrent transaction inserted."
 msgstr ""
 
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget.cpp:356
@@ -9812,8 +9915,8 @@ msgstr ""
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:37
 #, kde-format
 msgid ""
-"First, you have to schedule an operation or a template from the operations "
-"page."
+"First, you have to schedule a transaction or a template from the "
+"transactions page."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kRemindMe)
@@ -9901,9 +10004,11 @@ msgstr "नमूना :"
 #. i18n: ectx: property (statusTip), widget (QToolButton, kProcessBtn)
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:292
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:295
-#, kde-format
-msgid "Insert scheduled operations"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Insert scheduled transactions"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QToolButton, kProcessBtn)
 #. i18n: ectx: property (title), widget (QGroupBox, kActionGrp)
@@ -9918,7 +10023,7 @@ msgstr "1 प्रक्रीया 1"
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:311
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_base.ui:314
 #, kde-format
-msgid "Open the operation page with the selected scheduled operations"
+msgid "Open the transaction page with the selected scheduled transactions"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, kJumpBtn)
@@ -9941,9 +10046,11 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_check_on_open)
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:28
-#, kde-format
-msgid "Check scheduled operations on open"
-msgstr ""
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
+msgid "Check scheduled transactions on open"
+msgstr "क्रिया"
 
 #. i18n: ectx: property (text), widget (QLabel, fontdisable)
 #: plugins/skrooge/skrooge_scheduled/skgscheduledpluginwidget_pref.ui:64
@@ -9982,30 +10089,36 @@ msgid "Alarms"
 msgstr "अलार्म"
 
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:85
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb, action to execute"
-msgid "Execute on all operations"
-msgstr ""
+msgid "Execute on all transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:93
 #, fuzzy, kde-format
 #| msgctxt "Noun"
 #| msgid "Operations"
 msgctxt "Verb, action to execute"
-msgid "Execute on not checked operations"
+msgid "Execute on not checked transactions"
 msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:102
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb, action to execute"
-msgid "Execute on imported operations"
-msgstr ""
+msgid "Execute on imported transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:111
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun"
+#| msgid "Operations"
 msgctxt "Verb, action to execute"
-msgid "Execute on not validated operations"
-msgstr ""
+msgid "Execute on not validated transactions"
+msgstr "क्रिया"
 
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:170
 #, kde-format
@@ -10042,7 +10155,7 @@ msgstr ""
 msgctxt "Description of a tips"
 msgid ""
 "<p>... skrooge can <a href=\"skg://skrooge_search_plugin\">search</a> and "
-"automatically process some operations.</p>"
+"automatically process some transactions.</p>"
 msgstr ""
 
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:345
@@ -10062,7 +10175,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_search/skgsearchplugin.cpp:392
 #, kde-format
 msgctxt "Advice on making the best (action)"
-msgid "Open operations corresponding to this alarm"
+msgid "Open transactions corresponding to this alarm"
 msgstr ""
 
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:35
@@ -10230,14 +10343,15 @@ msgstr ""
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:559
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Sub operations corresponding to rule '%1'"
+msgid "Sub transactions corresponding to rule '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget.cpp:622
 #, kde-format
-msgid "%1 operation found (%2 imported, %3 not yet validated, %4 not checked)."
+msgid ""
+"%1 transaction found (%2 imported, %3 not yet validated, %4 not checked)."
 msgid_plural ""
-"%1 operations found (%2 imported, %3 not yet validated, %4 not checked)."
+"%1 transactions found (%2 imported, %3 not yet validated, %4 not checked)."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -10281,7 +10395,7 @@ msgstr ""
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:255
 #: plugins/skrooge/skrooge_search/skgsearchpluginwidget_base.ui:258
 #, kde-format
-msgid "The template to apply on all operations matching the condition"
+msgid "The template to apply on all transactions matching the condition"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, kAlarmLbl_2)
@@ -10379,7 +10493,7 @@ msgstr ""
 msgctxt "Advice on making the best (long)"
 msgid ""
 "This tracker does not contain recent operation. You may want to close it if "
-"you do not intend to add other operations"
+"you do not intend to add other transactions"
 msgstr ""
 
 #: plugins/skrooge/skrooge_tracker/skgtrackerpluginwidget.cpp:161
@@ -10530,8 +10644,8 @@ msgstr ""
 
 #: plugins/skrooge/skrooge_unit/skgunitboardwidget.cpp:220
 #, kde-format
-msgctxt "A list of operations made on the specified unit"
-msgid "Operations with unit equal to '%1'"
+msgctxt "A list of transactions made on the specified unit"
+msgid "Transactions with unit equal to '%1'"
 msgstr ""
 
 #: plugins/skrooge/skrooge_unit/skgunitboardwidget.cpp:234
@@ -10592,8 +10706,10 @@ msgid "Save API keys"
 msgstr ""
 
 #: plugins/skrooge/skrooge_unit/skgunitplugin.cpp:245
-#, kde-format
-msgctxt "Noun, units for operations, usually currencies or a shares"
+#, fuzzy, kde-format
+#| msgctxt "Noun, units for operations, usually currencies or a shares"
+#| msgid "Units"
+msgctxt "Noun, units for transactions, usually currencies or a shares"
 msgid "Units"
 msgstr "एकके :"
 
@@ -10758,7 +10874,7 @@ msgstr ""
 #, kde-format
 msgctxt "Advice on making the best (long)"
 msgid ""
-"You can improve performances by removing units for which no operation is "
+"You can improve performances by removing units for which no transaction is "
 "registered."
 msgstr ""
 
@@ -11453,7 +11569,7 @@ msgstr "काही नाही"
 
 #: skgbankgui/skgobjectmodel.cpp:232
 #, kde-format
-msgid "Pointed"
+msgid "Marked"
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:232
@@ -11629,13 +11745,13 @@ msgstr "टीप"
 #: skgbankgui/skgobjectmodel.cpp:913
 #, kde-format
 msgctxt "A tool tip"
-msgid "This operation is pointed but not checked yet."
+msgid "This transaction is marked but not checked yet."
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:915
 #, kde-format
 msgctxt "A tool tip"
-msgid "You can use the reconciliation mode to validate pointed operations."
+msgid "You can use the reconciliation mode to validate marked transactions."
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:918
@@ -11659,19 +11775,19 @@ msgstr ""
 #: skgbankgui/skgobjectmodel.cpp:925
 #, kde-format
 msgctxt "A tool tip"
-msgid "This operation is already checked."
+msgid "This transaction is already checked."
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:927
 #, kde-format
 msgctxt "A tool tip"
-msgid "This operation is not pointed yet."
+msgid "This transaction is not marked yet."
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:929
 #, kde-format
 msgctxt "A tool tip"
-msgid "Click to set pointed status."
+msgid "Click to set marked status."
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:973
@@ -11731,7 +11847,7 @@ msgstr "काढून टाका"
 #: skgbankgui/skgobjectmodel.cpp:1002
 #, kde-format
 msgctxt "Noun, name of the user action"
-msgid "Change operation status"
+msgid "Change transaction status"
 msgstr ""
 
 #: skgbankgui/skgobjectmodel.cpp:1080
@@ -11946,7 +12062,7 @@ msgstr ""
 #: skgbankmodeler/skgaccountobject.cpp:712
 #, kde-format
 msgctxt "Noun"
-msgid "Relative to operation '%1'"
+msgid "Relative to transaction '%1'"
 msgstr ""
 
 #: skgbankmodeler/skgaccountobject.cpp:712
@@ -11965,14 +12081,15 @@ msgstr ""
 #, kde-format
 msgctxt "Error message"
 msgid ""
-"Can not find the imported operations for obtaining the expected final balance"
+"Can not find the imported transactions for obtaining the expected final "
+"balance"
 msgstr ""
 
 #: skgbankmodeler/skgaccountobject.cpp:1024
 #: skgbankmodeler/skgimportexportmanager.cpp:410
 #, kde-format
 msgctxt "Noun, a list of items"
-msgid "Operations of account \"%1\" used for auto reconciliation"
+msgid "Transactions of account \"%1\" used for auto reconciliation"
 msgstr ""
 
 #: skgbankmodeler/skgbudgetobject.cpp:169
@@ -12082,7 +12199,7 @@ msgstr "इतर"
 msgctxt "Error message"
 msgid ""
 "You are not authorized to delete this account because it contains some "
-"checked operations"
+"checked transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:538
@@ -12114,7 +12231,7 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:731
 #: skgbankmodeler/skgdocumentbank.cpp:3004
 #, kde-format
-msgctxt "Noun, financial operations with a negative amount"
+msgctxt "Noun, financial transactions with a negative amount"
 msgid "Expenditure"
 msgstr ""
 
@@ -12123,7 +12240,7 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:731
 #: skgbankmodeler/skgdocumentbank.cpp:3000
 #, kde-format
-msgctxt "Noun, financial operations with a positive amount"
+msgctxt "Noun, financial transactions with a positive amount"
 msgid "Income"
 msgstr ""
 
@@ -12132,7 +12249,7 @@ msgstr ""
 msgctxt "Error message"
 msgid ""
 "You are not authorized to delete this tracker because used by some checked "
-"operations"
+"transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:687
@@ -12140,7 +12257,7 @@ msgstr ""
 msgctxt "Error message"
 msgid ""
 "You are not authorized to delete this payee because used by some checked "
-"operations"
+"transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:708
@@ -12148,7 +12265,7 @@ msgstr ""
 msgctxt "Error message"
 msgid ""
 "You are not authorized to delete this category because used by some checked "
-"operations"
+"transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:760
@@ -12220,10 +12337,11 @@ msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2353
 #: skgbankmodeler/skgdocumentbank.cpp:2516
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Open file"
 msgctxt "Error message"
-msgid "Operation '%1' on '%2' failed"
-msgstr ""
+msgid "Transaction '%1' on '%2' failed"
+msgstr "फाईल उघडा"
 
 #: skgbankmodeler/skgdocumentbank.cpp:2554
 #: skgbankmodeler/skgdocumentbank.cpp:2614
@@ -12288,13 +12406,13 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:2665
 #, kde-format
 msgctxt "Noun"
-msgid "With operations"
+msgid "With transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2672
 #, kde-format
 msgctxt "Noun"
-msgid "With cumulative operations"
+msgid "With cumulative transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2970
@@ -12310,9 +12428,11 @@ msgid "Account's type"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:2976
-#, kde-format
+#, fuzzy, kde-format
+#| msgctxt "Noun, a financial operation"
+#| msgid "Operation"
 msgctxt "Noun, a financial operation"
-msgid "Operation"
+msgid "Transaction"
 msgstr "क्रिया"
 
 #: skgbankmodeler/skgdocumentbank.cpp:2979 skgbasemodeler/skgdocument.cpp:2855
@@ -12570,7 +12690,7 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:3127
 #, kde-format
 msgctxt "Noun"
-msgid "Number of operations"
+msgid "Number of transactions"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:3130
@@ -12618,7 +12738,7 @@ msgstr ""
 #: skgbankmodeler/skgdocumentbank.cpp:3154
 #, kde-format
 msgctxt "Noun"
-msgid "Number of operations (cumulative)"
+msgid "Number of transactions (cumulative)"
 msgstr ""
 
 #: skgbankmodeler/skgdocumentbank.cpp:3157
@@ -12817,7 +12937,7 @@ msgstr "किमान"
 #| msgctxt "Noun, a financial operation"
 #| msgid "Operation"
 msgctxt "Noun, the id of an operation"
-msgid "Operation id"
+msgid "Transaction id"
 msgstr "क्रिया"
 
 #: skgbankmodeler/skgdocumentbank.cpp:3260
@@ -12901,7 +13021,7 @@ msgstr ""
 #: skgbankmodeler/skgimportexportmanager.cpp:328
 #, kde-format
 msgid "One operation not imported because it already exists"
-msgid_plural "%1 operations not imported because they already exist"
+msgid_plural "%1 transactions not imported because they already exist"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -12911,7 +13031,7 @@ msgid ""
 "One operation was not imported because it was dated before the last imported "
 "one, you can uncheck the option to avoid this."
 msgid_plural ""
-"%1 operations were not imported because they were dated before the last "
+"%1 transactions were not imported because they were dated before the last "
 "imported one, you can uncheck the option to avoid this."
 msgstr[0] ""
 msgstr[1] ""
@@ -12935,7 +13055,7 @@ msgstr ""
 #| msgctxt "Noun, a financial operation"
 #| msgid "Operation"
 msgid "%1 operation imported"
-msgid_plural "%1 operations imported"
+msgid_plural "%1 transactions imported"
 msgstr[0] "क्रिया"
 msgstr[1] "क्रिया"
 
@@ -13018,20 +13138,20 @@ msgstr "आयात"
 #: skgbankmodeler/skgoperationobject.cpp:154
 #, kde-format
 msgctxt "Error message"
-msgid "Impossible to add an operation in a closed account"
+msgid "Impossible to add a transaction in a closed account"
 msgstr ""
 
 #: skgbankmodeler/skgoperationobject.cpp:257
 #: skgbasemodeler/skgobjectbase.cpp:406 skgbasemodeler/skgobjectbase.cpp:483
 #, kde-format
 msgctxt "Error message"
-msgid "Operation impossible because the document is missing"
+msgid "Transaction impossible because the document is missing"
 msgstr ""
 
 #: skgbankmodeler/skgoperationobject.cpp:513
 #, kde-format
 msgctxt "Error message"
-msgid "Trying to set the same recurrent operation with id=%1."
+msgid "Trying to set the same recurrent transaction with id=%1."
 msgstr ""
 
 #: skgbankmodeler/skgoperationobject.cpp:516
@@ -13061,19 +13181,20 @@ msgstr ""
 #: skgbankmodeler/skgrecurrentoperationobject.cpp:113
 #, kde-format
 msgctxt "Error message"
-msgid "Need at least one operation to convert a schedule to a non-template one"
+msgid ""
+"Need at least one transaction to convert a schedule to a non-template one"
 msgstr ""
 
 #: skgbankmodeler/skgrecurrentoperationobject.cpp:311
 #, kde-format
 msgctxt "An information message"
-msgid "Operation '%1' has been inserted"
+msgid "Transaction '%1' has been inserted"
 msgstr ""
 
 #: skgbankmodeler/skgrecurrentoperationobject.cpp:325
 #, kde-format
-msgid "Operation '%2' will be inserted in one day"
-msgid_plural "Operation '%2' will be inserted in %1 days"
+msgid "Transaction '%2' will be inserted in one day"
+msgid_plural "Transaction '%2' will be inserted in %1 days"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -13177,7 +13298,7 @@ msgctxt "The main text of skrooge"
 msgid ""
 "Skrooge allows you to keep a hold on your expenses, by tracking and "
 "budgeting them.<br/>What should you do now ?<br/><ul><li>Create at least one "
-"<a href=\"%1\">account</a></li><li>Add some operations, using <a href="
+"<a href=\"%1\">account</a></li><li>Add some transactions, using <a href="
 "\"%3\">import</a> or <a href=\"%2\">manual input</a></li><li>Categorize "
 "them</li></ul><p>You may come back to this page any time by closing all tabs."
 "<br/>For more information about using Skrooge, check the <a href=\"https://"
@@ -13248,7 +13369,7 @@ msgstr "अलार्म"
 #: skgbankmodeler/skgreportbank.cpp:777
 #, kde-format
 msgctxt "A monthly report title"
-msgid "Highlighted operations"
+msgid "Highlighted transactions"
 msgstr ""
 
 #: skgbankmodeler/skgreportbank.cpp:778
@@ -13279,16 +13400,16 @@ msgstr ""
 #, kde-format
 msgctxt "A monthly report message"
 msgid ""
-"No scheduled operations defined on the \"<a href=\"%1\">Scheduled "
-"operations</a>\" page."
+"No scheduled transactions defined on the \"<a href=\"%1\">Scheduled "
+"transactions</a>\" page."
 msgstr ""
 
 #: skgbankmodeler/skgreportbank.cpp:784
 #, kde-format
 msgctxt "A monthly report message"
 msgid ""
-"No highlighted operations defined on the \"<a href=\"%1\">Operations</a>\" "
-"page."
+"No highlighted transactions defined on the \"<a href=\"%1\">Transactions</a>"
+"\" page."
 msgstr ""
 
 #: skgbankmodeler/skgreportbank.cpp:785
@@ -13319,8 +13440,8 @@ msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:260
 #, kde-format
-msgid "1 operation modified by %2"
-msgid_plural "%1 operations modified by %2"
+msgid "1 transaction modified by %2"
+msgid_plural "%1 transactions modified by %2"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -13986,67 +14107,67 @@ msgstr ""
 #: skgbankmodeler/skgruleobject.cpp:536
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is today"
+msgid "To find out if the date of the transaction is today"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:538
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in previous month"
+msgid "To find out if the date of the transaction is in previous month"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:540
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in current year"
+msgid "To find out if the date of the transaction is in current year"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:542
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in previous year"
+msgid "To find out if the date of the transaction is in previous year"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:544
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 30 days"
+msgid "To find out if the date of the transaction is in last 30 days"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:546
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 3 months"
+msgid "To find out if the date of the transaction is in last 3 months"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:548
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 6 months"
+msgid "To find out if the date of the transaction is in last 6 months"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:550
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 12 months"
+msgid "To find out if the date of the transaction is in last 12 months"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:552
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 2 years"
+msgid "To find out if the date of the transaction is in last 2 years"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:554
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 3 years"
+msgid "To find out if the date of the transaction is in last 3 years"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:556
 #, kde-format
 msgctxt "Help for a condition"
-msgid "To find out if the date of the operation is in last 5 years"
+msgid "To find out if the date of the transaction is in last 5 years"
 msgstr ""
 
 #: skgbankmodeler/skgruleobject.cpp:804
@@ -14064,13 +14185,13 @@ msgstr "किंवा"
 #: skgbankmodeler/skgsuboperationobject.cpp:139
 #, kde-format
 msgctxt "Error message"
-msgid "Impossible to remove an operation from a closed tracker"
+msgid "Impossible to remove a transaction from a closed tracker"
 msgstr ""
 
 #: skgbankmodeler/skgsuboperationobject.cpp:141
 #, kde-format
 msgctxt "Error message"
-msgid "Impossible to add an operation in a closed tracker"
+msgid "Impossible to add a transaction in a closed tracker"
 msgstr ""
 
 #: skgbankmodeler/skgtrackerobject.cpp:72
@@ -15352,7 +15473,7 @@ msgstr ""
 #: skgbasegui/skgmainpanel.cpp:1406
 #, kde-format
 msgctxt "skgtestimportskg"
-msgid "The application cannot be closed when an operation is running."
+msgid "The application cannot be closed when a transaction is running."
 msgstr ""
 
 #: skgbasegui/skgmainpanel.cpp:1420 skgbasegui/skgmainpanel.cpp:1428
@@ -15482,7 +15603,7 @@ msgstr ""
 #: skgbasegui/skgmainpanel.cpp:2185
 #, kde-format
 msgctxt "Information message"
-msgid "A page cannot be closed when an operation is running."
+msgid "A page cannot be closed when a transaction is running."
 msgstr ""
 
 #: skgbasegui/skgmainpanel.cpp:2296
@@ -16647,7 +16768,7 @@ msgstr ""
 #: skgbasemodeler/skgdocument.cpp:557
 #, kde-format
 msgctxt "User interrupted something that Skrooge was performing"
-msgid "The current operation has been interrupted"
+msgid "The current transaction has been interrupted"
 msgstr ""
 
 #: skgbasemodeler/skgdocument.cpp:597
@@ -17237,6 +17358,32 @@ msgstr ""
 msgctxt "Title of a console trace section"
 msgid " SUCCESSFUL"
 msgstr ""
+
+#~ msgctxt ""
+#~ "Noun, the mode used for payment of the operation (Credit Card, Cheque, "
+#~ "Transfer...)"
+#~ msgid "Mode:"
+#~ msgstr "पद्धत :"
+
+#, fuzzy
+#~ msgctxt "Verb, mark an object"
+#~ msgid "Point"
+#~ msgstr "बिंदू 2"
+
+#~ msgctxt "Option to for display of operations"
+#~ msgid "All"
+#~ msgstr "सर्व"
+
+#~ msgctxt "Option to for display of operations"
+#~ msgid "Operations"
+#~ msgstr "क्रिया"
+
+#, fuzzy
+#~| msgctxt "Noun"
+#~| msgid "Operations"
+#~ msgctxt "Option to for display of operations"
+#~ msgid "Hide pointed operations"
+#~ msgstr "क्रिया"
 
 #, fuzzy
 #~| msgctxt "Noun, a type of account"
