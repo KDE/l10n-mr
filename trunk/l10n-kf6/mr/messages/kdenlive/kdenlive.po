@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-09-28 00:43+0000\n"
+"POT-Creation-Date: 2025-10-04 00:42+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -5468,7 +5468,7 @@ msgstr "पानाच्या रुंदीप्रमाणे समर�
 
 #: data/effects/avfilter/avfilter_pixelize.xml:11
 #: data/effects/frei0r/frei0r_glitch0r.xml:11
-#: data/effects/frei0r/frei0r_pixeliz0r.xml:11
+#: data/effects/frei0r/frei0r_pixeliz0r.xml:12
 #: data/effects/frei0r/frei0r_pixs0r.xml:12
 #, fuzzy, kde-format
 msgid "Block Height"
@@ -10293,7 +10293,7 @@ msgstr "मात्रा :"
 
 #: data/effects/frei0r/frei0r_filmgrain.xml:29
 #, kde-format
-msgid "<![CDATA[The amount of dust particles on the image]]>"
+msgid "<![CDATA[The amount of dust particles added to the image]]>"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_filmgrain.xml:32
@@ -10334,6 +10334,52 @@ msgstr ""
 #: data/effects/frei0r/frei0r_G.xml:5
 #, kde-format
 msgid "Extracts Green from Image"
+msgstr ""
+
+#: data/effects/frei0r/frei0r_gateweave.xml:4
+#, fuzzy, kde-format
+#| msgid "Scale"
+msgid "Gate Weave"
+msgstr "प्रमाण"
+
+#: data/effects/frei0r/frei0r_gateweave.xml:5
+#, kde-format
+msgid "Randomly moves image around to simulate film gate weave"
+msgstr ""
+
+#: data/effects/frei0r/frei0r_gateweave.xml:8
+#, fuzzy, kde-format
+#| msgid "Shift"
+msgid "Smoothness"
+msgstr "Shift"
+
+#: data/effects/frei0r/frei0r_gateweave.xml:9
+#, kde-format
+msgid ""
+"<![CDATA[Factor used to blend between positions. A lower number means a "
+"faster effect]]>"
+msgstr ""
+
+#: data/effects/frei0r/frei0r_gateweave.xml:12
+#, fuzzy, kde-format
+#| msgid "Horizontal Alignment"
+msgid "Maximum Horizontal Movement"
+msgstr "आडवे जुळवणे"
+
+#: data/effects/frei0r/frei0r_gateweave.xml:13
+#, kde-format
+msgid "<![CDATA[The maximum distance the picture could move left or right]]>"
+msgstr ""
+
+#: data/effects/frei0r/frei0r_gateweave.xml:16
+#, fuzzy, kde-format
+#| msgid "Vertical Alignment"
+msgid "Maximum Vertical Movement"
+msgstr "उभे जुळवणे"
+
+#: data/effects/frei0r/frei0r_gateweave.xml:17
+#, kde-format
+msgid "<![CDATA[The maximum distance the picture could move up or down]]>"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_glitch0r.xml:4
@@ -11541,6 +11587,11 @@ msgstr ""
 msgid "HSync"
 msgstr ""
 
+#: data/effects/frei0r/frei0r_nosync0r.xml:11
+#, kde-format
+msgid "VSync"
+msgstr ""
+
 #: data/effects/frei0r/frei0r_ntsc.xml:4
 #, kde-format
 msgid "NTSC"
@@ -11578,8 +11629,28 @@ msgstr "दृश्य"
 #: data/effects/frei0r/frei0r_pixeliz0r.xml:5
 #, fuzzy, kde-format
 #| msgid "Video"
-msgid "Pixelize input image"
+msgid "Pixelize the input image"
 msgstr "दृश्य"
+
+#: data/effects/frei0r/frei0r_pixeliz0r.xml:9
+#, fuzzy, kde-format
+msgid "Horizontal size of one 'pixel'"
+msgstr "आडवे"
+
+#: data/effects/frei0r/frei0r_pixeliz0r.xml:13
+#, fuzzy, kde-format
+msgid "Vertical size of one 'pixel'"
+msgstr "उभे"
+
+#: data/effects/frei0r/frei0r_pixeliz0r.xml:16
+#, fuzzy, kde-format
+msgid "Pass-through Alpha"
+msgstr "पानाच्या रुंदीप्रमाणे समर्पक बसवा"
+
+#: data/effects/frei0r/frei0r_pixeliz0r.xml:17
+#, kde-format
+msgid "Do not average the alpha channel over each block"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_pixs0r.xml:4
 #, kde-format
@@ -11960,10 +12031,9 @@ msgid ""
 msgstr ""
 
 #: data/effects/frei0r/frei0r_sigmoidaltransfer.xml:10
-#, fuzzy, kde-format
-#| msgid "Brightness"
-msgid "Brightness of image."
-msgstr "प्रखरता"
+#, kde-format
+msgid "Brightness of image. Midpoint of sigmoidal curve"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_sigmoidaltransfer.xml:13
 #: data/effects/frei0r/frei0r_softglow.xml:22
@@ -37684,6 +37754,11 @@ msgstr ""
 msgctxt "h as hours"
 msgid "%1h"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Brightness"
+#~ msgid "Brightness of image."
+#~ msgstr "प्रखरता"
 
 #, fuzzy
 #~ msgid "External proxy clips:"
